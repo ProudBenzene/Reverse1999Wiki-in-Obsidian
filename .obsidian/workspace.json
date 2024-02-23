@@ -11,7 +11,7 @@
             "id": "f899b91fa1b4b75e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "style-settings",
               "state": {}
             }
           }
@@ -149,15 +149,17 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "float-search:Search Obsidian In Modal": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false
     }
   },
   "active": "250c5f6efff2f242",
   "lastOpenFiles": [
+    "100-箱中角色",
     "000-箱的构成",
     "Welcome.md"
   ]

@@ -540,5 +540,15 @@
   "tags-not-jump@@tags-not-jump-preview": true,
   "Blue-Topaz-Legacy@@notebook-embed": true,
   "sidenote-callout@@hide-sidenote-callout-fold-icon": false,
-  "sidenote-callout@@top-sidenote-callout-title": false
+  "sidenote-callout@@top-sidenote-callout-title": false,
+  "Components@@tab-autohide": false,
+  "Components@@status-bar-autohide": true,
+  "Components@@icon-autohide": true,
+  "Components@@nav-header-autohide": false,
+  "Components@@tab-title-bar-autohide": false,
+  "Components@@CTA-BTN-enable": true,
+  "Components@@file-names-untrim": false,
+  "Components@@folder-font-bold": true,
+  "Components@@vault-name-display-select": "vault-name-fixed",
+  "Components@@colorful-folder": true
 }
