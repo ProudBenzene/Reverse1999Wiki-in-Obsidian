@@ -597,5 +597,12 @@
   "Editor@@text-highlight-bg@@dark": "#8F2921",
   "Editor@@text-highlight-bg@@light": "#8F2921",
   "Editor@@inline-code-normal@@light": "#6B6B6B",
-  "Editor@@inline-code-normal@@dark": "#D58000"
+  "Editor@@inline-code-normal@@dark": "#D58000",
+  "Editor@@link-decoration": "underline",
+  "Editor@@link-unresolved-color@@dark": "#A62E18",
+  "Editor@@link-color@@dark": "#FF7412",
+  "Editor@@link-unresolved-decoration-style": "point",
+  "Mobile@@card-layout-pad-open": true,
+  "Mobile@@drawer-phone-full-width": true,
+  "Plugin@@colorful-checkbox": false
 }
