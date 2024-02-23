@@ -1,3 +1,5 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "./assets/你好.assets",
+  "showInlineTitle": false
 }

@@ -590,5 +590,12 @@
   "Editor@@h1-divider-on": true,
   "Editor@@text-align-justify": true,
   "Editor@@p-spacing-br": true,
-  "Editor@@bold-color@@dark": "#FF545F"
+  "Editor@@bold-color@@dark": "#FF545F",
+  "Editor@@bold-color@@light": "#C02F39",
+  "Editor@@italic-color@@dark": "#5B96F5",
+  "Editor@@italic-color@@light": "#0D70D0",
+  "Editor@@text-highlight-bg@@dark": "#8F2921",
+  "Editor@@text-highlight-bg@@light": "#8F2921",
+  "Editor@@inline-code-normal@@light": "#6B6B6B",
+  "Editor@@inline-code-normal@@dark": "#D58000"
 }

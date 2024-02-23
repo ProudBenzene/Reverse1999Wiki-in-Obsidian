@@ -14,8 +14,21 @@
               "type": "style-settings",
               "state": {}
             }
+          },
+          {
+            "id": "6d0333355e736bcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-箱中角色/你好.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-箱中角色/你好.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-箱中角色/你好.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-箱中角色/你好.md"
+              }
             }
           },
           {
@@ -157,8 +174,9 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "f899b91fa1b4b75e",
+  "active": "6d0333355e736bcf",
   "lastOpenFiles": [
+    "100-箱中角色/你好.md",
     "100-箱中角色",
     "000-箱的构成",
     "Welcome.md"
