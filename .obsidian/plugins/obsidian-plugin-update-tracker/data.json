@@ -1,0 +1,41 @@
+{
+  "daysToSuppressNewUpdates": 0,
+  "dismissedVersionsByPluginId": {
+    "privacy-glasses": {
+      "pluginId": "privacy-glasses",
+      "pluginRepoPath": "jillalberts/privacy-glasses",
+      "dismissedVersions": [
+        {
+          "versionNumber": "0.7.3",
+          "versionName": "0.7.3",
+          "publishedAt": "2023-12-12T22:25:01Z"
+        },
+        {
+          "versionNumber": "0.7.4",
+          "versionName": "0.7.4",
+          "publishedAt": "2023-12-17T19:07:28Z"
+        },
+        {
+          "versionNumber": "0.7.0",
+          "versionName": "0.7.0",
+          "publishedAt": "2023-01-14T14:00:22Z"
+        },
+        {
+          "versionNumber": "0.7.1",
+          "versionName": "0.7.1",
+          "publishedAt": "2023-01-15T22:02:39Z"
+        }
+      ]
+    },
+    "dataview": {
+      "pluginId": "dataview",
+      "pluginRepoPath": "blacksmithgu/obsidian-dataview",
+      "dismissedVersions": []
+    }
+  },
+  "showIconOnMobile": true,
+  "excludeBetaVersions": true,
+  "excludeDisabledPlugins": false,
+  "minUpdateCountToShowIcon": 1,
+  "hoursBetweenCheckingForUpdates": 0.5
+}

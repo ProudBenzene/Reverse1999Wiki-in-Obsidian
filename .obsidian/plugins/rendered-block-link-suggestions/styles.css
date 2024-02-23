@@ -1,0 +1,46 @@
+/* @settings
+
+name: Rendered Block Link Suggestions
+id: rendered-block-link-suggestions
+settings:
+    - 
+        id: my-info-text
+        description: "It is recommended to turn on the **Prevent the suggestion box from closing** setting while tweaking the style settings below."
+        type: info-text
+        markdown: true
+    -
+        id: rendered-block-link-suggestions-margin
+        title: Margin size (%)
+        description: "Relative size of the margin around each suggestion item."
+        type: variable-number-slider
+        min: 0
+        max: 100
+        step: 1
+        default: 20
+*/
+
+.suggestion-item {
+    --p-spacing-old: var(--p-spacing);
+}
+
+.suggestion-item[data-item-type="block"][data-item-node-type="comment"] .markdown-rendered {
+    color: var(--code-comment);
+}
+
+.suggestion-content {
+    width: 100%;
+}
+
+.suggestion-title > .markdown-rendered {
+    font-size: calc(var(--font-ui-medium) / var(--font-text-size) * 100%);
+    padding: 0;
+    --p-spacing: calc(var(--p-spacing-old) * var(--rendered-block-link-suggestions-margin, 20) / 100);
+
+    & mjx-container[display="true"],
+    > pre,
+    > .callout,
+    > blockquote {
+        margin-top: var(--p-spacing);
+        margin-bottom: var(--p-spacing);
+    }
+}

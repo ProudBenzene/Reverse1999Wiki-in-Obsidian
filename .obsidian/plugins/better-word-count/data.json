@@ -1,0 +1,90 @@
+{
+  "statusBar": [
+    {
+      "prefix": "今天一共码了 ",
+      "suffix": " 字 ",
+      "metric": {
+        "type": 1,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": "",
+      "suffix": " words ",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": "",
+      "suffix": " characters ",
+      "metric": {
+        "type": 0,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": "引用",
+      "suffix": "段 ",
+      "metric": {
+        "type": 0,
+        "counter": 4
+      }
+    },
+    {
+      "prefix": "脚注",
+      "suffix": "个",
+      "metric": {
+        "type": 0,
+        "counter": 3
+      }
+    }
+  ],
+  "altBar": [
+    {
+      "prefix": "今天一共码了 ",
+      "suffix": " 字 ",
+      "metric": {
+        "type": 1,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": "",
+      "suffix": " words ",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": "",
+      "suffix": " characters ",
+      "metric": {
+        "type": 0,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": "引用",
+      "suffix": "段 ",
+      "metric": {
+        "type": 0,
+        "counter": 4
+      }
+    },
+    {
+      "prefix": "脚注",
+      "suffix": "个",
+      "metric": {
+        "type": 0,
+        "counter": 3
+      }
+    }
+  ],
+  "countComments": true,
+  "collectStats": true,
+  "displaySectionCounts": true,
+  "pageWords": 300
+}

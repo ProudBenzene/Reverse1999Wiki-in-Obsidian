@@ -1,0 +1,980 @@
+{
+  "workspaces": {
+    "English": {
+      "main": {
+        "id": "15ba93f8736b11a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "be2e80d88e2fd1ff",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "42050d1aaae1f853",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0-卡片盒.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b8f50a81816560d7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0-词句积累.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8bf42331b960d4",
+        "type": "split",
+        "children": [
+          {
+            "id": "1295f4fb599da0bf",
+            "type": "tabs",
+            "dimension": 67.47967479674797,
+            "children": [
+              {
+                "id": "e810c214ed9aa560",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7d9b2ca1d82cd43a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "dispense",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "70fb2103cbbcc434",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "8b6790e50d6e6171",
+            "type": "tabs",
+            "dimension": 32.52032520325203,
+            "children": [
+              {
+                "id": "f78d6e78d28fff4b",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5203356f90ed7fe8",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "0-卡片盒.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 230
+      },
+      "right": {
+        "id": "86064d6c9af7f408",
+        "type": "split",
+        "children": [
+          {
+            "id": "b4021ea8ef509ce7",
+            "type": "tabs",
+            "dimension": 39.60964408725603,
+            "children": [
+              {
+                "id": "a231c01973c83247",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "插件/彩色时钟.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e14a69a2fbc0112e",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d364f90bbfdbad6f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "784823d5d2a23f32",
+            "type": "tabs",
+            "dimension": 60.39035591274398,
+            "children": [
+              {
+                "id": "e1c1a32f7c677cfb",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cafd7837f911f8d7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1f9fdd878c8bd61c",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "0-卡片盒.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d8983284e0d1c32",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "0-卡片盒.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 259
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-language-learner:打开查词面板": true,
+          "obsidian-language-learner:打开新词面板": true,
+          "obsidian-language-learner:打开统计": true,
+          "obsidian-language-learner:单词列表": true,
+          "remotely-save:Remotely Save": false,
+          "privacy-glasses:Toggle Privacy Glasses": false,
+          "templates:插入模板": true,
+          "graph:查看关系图谱": false,
+          "workspaces:管理工作区布局": false,
+          "canvas:新建白板": false,
+          "templater-obsidian:Templater": false,
+          "audio-recorder:开始/结束录音": false,
+          "switcher:打开快速切换": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "command-palette:打开命令面板": true,
+          "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+          "note-synchronizer:同步": false,
+          "cmdr:明暗模式": false,
+          "obsidian42-brat:BRAT": true,
+          "cmdr:显示文件位置": false,
+          "note-synchronizer:导入笔记类型": true
+        }
+      },
+      "active": "42050d1aaae1f853",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "/"
+        ]
+      }
+    },
+    "简·悦": {
+      "main": {
+        "id": "15ba93f8736b11a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "be2e80d88e2fd1ff",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8ce31f7f2db3db3f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SimpRead/索引.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8bf42331b960d4",
+        "type": "split",
+        "children": [
+          {
+            "id": "1295f4fb599da0bf",
+            "type": "tabs",
+            "dimension": 67.47967479674797,
+            "children": [
+              {
+                "id": "e810c214ed9aa560",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7d9b2ca1d82cd43a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#📝/原发性痛经",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "70fb2103cbbcc434",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "8b6790e50d6e6171",
+            "type": "tabs",
+            "dimension": 32.52032520325203,
+            "children": [
+              {
+                "id": "f78d6e78d28fff4b",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5203356f90ed7fe8",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "SimpRead/索引.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 230
+      },
+      "right": {
+        "id": "86064d6c9af7f408",
+        "type": "split",
+        "children": [
+          {
+            "id": "b4021ea8ef509ce7",
+            "type": "tabs",
+            "dimension": 39.60964408725603,
+            "children": [
+              {
+                "id": "a231c01973c83247",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "插件/彩色时钟.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e14a69a2fbc0112e",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d364f90bbfdbad6f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "784823d5d2a23f32",
+            "type": "tabs",
+            "dimension": 60.39035591274398,
+            "children": [
+              {
+                "id": "e1c1a32f7c677cfb",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cafd7837f911f8d7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1f9fdd878c8bd61c",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "SimpRead/索引.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d8983284e0d1c32",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "SimpRead/索引.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 259,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-language-learner:打开查词面板": true,
+          "obsidian-language-learner:打开新词面板": true,
+          "obsidian-language-learner:打开统计": true,
+          "obsidian-language-learner:单词列表": true,
+          "remotely-save:Remotely Save": false,
+          "privacy-glasses:Toggle Privacy Glasses": false,
+          "templates:插入模板": true,
+          "graph:查看关系图谱": false,
+          "workspaces:管理工作区布局": false,
+          "canvas:新建白板": false,
+          "templater-obsidian:Templater": false,
+          "audio-recorder:开始/结束录音": false,
+          "switcher:打开快速切换": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "command-palette:打开命令面板": true,
+          "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+          "note-synchronizer:同步": false,
+          "cmdr:明暗模式": false,
+          "obsidian42-brat:BRAT": true,
+          "cmdr:显示文件位置": false,
+          "note-synchronizer:导入笔记类型": true
+        }
+      },
+      "active": "8ce31f7f2db3db3f",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "/",
+          "SimpRead"
+        ]
+      }
+    },
+    "阅读文献": {
+      "main": {
+        "id": "15ba93f8736b11a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "be2e80d88e2fd1ff",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "00f5571ccc0b1cf6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记检索/Dataview 卡片笔记.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8f32fef6bca60def",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "0-论文阅读队列.md"
+                  }
+                }
+              },
+              {
+                "id": "3a99abc8706108a9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "大创/PD治疗&干预方案汇总.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0caa11b9b0c89b95",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "PD文献逻辑.canvas",
+                    "viewState": {
+                      "x": 1524.6958262443745,
+                      "y": -633.05801562228,
+                      "zoom": -1.2310248111448088
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8bf42331b960d4",
+        "type": "split",
+        "children": [
+          {
+            "id": "1295f4fb599da0bf",
+            "type": "tabs",
+            "dimension": 67.47967479674797,
+            "children": [
+              {
+                "id": "e810c214ed9aa560",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7d9b2ca1d82cd43a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#📝/原发性痛经",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "70fb2103cbbcc434",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "8b6790e50d6e6171",
+            "type": "tabs",
+            "dimension": 32.52032520325203,
+            "children": [
+              {
+                "id": "f78d6e78d28fff4b",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5203356f90ed7fe8",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "0-论文阅读队列.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 230
+      },
+      "right": {
+        "id": "86064d6c9af7f408",
+        "type": "split",
+        "children": [
+          {
+            "id": "b4021ea8ef509ce7",
+            "type": "tabs",
+            "dimension": 39.60964408725603,
+            "children": [
+              {
+                "id": "a231c01973c83247",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "插件/彩色时钟.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e14a69a2fbc0112e",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d364f90bbfdbad6f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "784823d5d2a23f32",
+            "type": "tabs",
+            "dimension": 60.39035591274398,
+            "children": [
+              {
+                "id": "e1c1a32f7c677cfb",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cafd7837f911f8d7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1f9fdd878c8bd61c",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "0-论文阅读队列.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d8983284e0d1c32",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "0-论文阅读队列.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 259
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-language-learner:打开查词面板": true,
+          "obsidian-language-learner:打开新词面板": true,
+          "obsidian-language-learner:打开统计": true,
+          "obsidian-language-learner:单词列表": true,
+          "remotely-save:Remotely Save": false,
+          "privacy-glasses:Toggle Privacy Glasses": false,
+          "templates:插入模板": true,
+          "graph:查看关系图谱": false,
+          "workspaces:管理工作区布局": false,
+          "canvas:新建白板": false,
+          "templater-obsidian:Templater": false,
+          "audio-recorder:开始/结束录音": false,
+          "switcher:打开快速切换": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "command-palette:打开命令面板": true,
+          "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+          "note-synchronizer:同步": false,
+          "cmdr:明暗模式": false,
+          "obsidian42-brat:BRAT": true,
+          "cmdr:显示文件位置": false,
+          "note-synchronizer:导入笔记类型": true
+        }
+      },
+      "active": "8f32fef6bca60def",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "/"
+        ]
+      }
+    },
+    "HomePage": {
+      "main": {
+        "id": "15ba93f8736b11a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "be2e80d88e2fd1ff",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "00f5571ccc0b1cf6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "插件/主页.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da8bf42331b960d4",
+        "type": "split",
+        "children": [
+          {
+            "id": "1295f4fb599da0bf",
+            "type": "tabs",
+            "dimension": 67.47967479674797,
+            "children": [
+              {
+                "id": "e810c214ed9aa560",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7d9b2ca1d82cd43a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#📝/原发性痛经",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "70fb2103cbbcc434",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "8b6790e50d6e6171",
+            "type": "tabs",
+            "dimension": 32.52032520325203,
+            "children": [
+              {
+                "id": "f78d6e78d28fff4b",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5203356f90ed7fe8",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "插件/主页.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 230
+      },
+      "right": {
+        "id": "86064d6c9af7f408",
+        "type": "split",
+        "children": [
+          {
+            "id": "b4021ea8ef509ce7",
+            "type": "tabs",
+            "dimension": 39.60964408725603,
+            "children": [
+              {
+                "id": "a231c01973c83247",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "插件/彩色时钟.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e14a69a2fbc0112e",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d364f90bbfdbad6f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "784823d5d2a23f32",
+            "type": "tabs",
+            "dimension": 60.39035591274398,
+            "children": [
+              {
+                "id": "e1c1a32f7c677cfb",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cafd7837f911f8d7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1f9fdd878c8bd61c",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "插件/主页.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d8983284e0d1c32",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "插件/主页.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 259
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-language-learner:打开查词面板": true,
+          "obsidian-language-learner:打开新词面板": true,
+          "obsidian-language-learner:打开统计": true,
+          "obsidian-language-learner:单词列表": true,
+          "remotely-save:Remotely Save": false,
+          "privacy-glasses:Toggle Privacy Glasses": false,
+          "templates:插入模板": true,
+          "graph:查看关系图谱": false,
+          "workspaces:管理工作区布局": false,
+          "canvas:新建白板": false,
+          "templater-obsidian:Templater": false,
+          "audio-recorder:开始/结束录音": false,
+          "switcher:打开快速切换": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "command-palette:打开命令面板": true,
+          "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+          "note-synchronizer:同步": false,
+          "cmdr:明暗模式": false,
+          "obsidian42-brat:BRAT": true,
+          "cmdr:显示文件位置": false,
+          "note-synchronizer:导入笔记类型": true
+        }
+      },
+      "active": "00f5571ccc0b1cf6",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "/"
+        ]
+      }
+    }
+  },
+  "active": "HomePage"
+}

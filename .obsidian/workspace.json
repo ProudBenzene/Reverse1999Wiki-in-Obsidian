@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "7fa45a73674a7b32",
+    "type": "split",
+    "children": [
+      {
+        "id": "32ade26de0f845c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f899b91fa1b4b75e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c28cfae046d28b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb7552c6126461e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "250c5f6efff2f242",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fa8a46648d62218",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4862ed181d29f3fe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee1f26535d4f2e05",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3690d4dad9b484cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3b59b964d45b39b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "381f1e4757e8cce8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e38c54133e209543",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e05dbb992a38c77c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "287b156a7fdfc44c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee51e5eed40b7bf3",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "float-search:Search Obsidian In Modal": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "250c5f6efff2f242",
+  "lastOpenFiles": [
+    "000-箱的构成",
+    "Welcome.md"
+  ]
+}
