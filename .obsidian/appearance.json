@@ -1,10 +1,11 @@
 {
-  "accentColor": "",
+  "accentColor": "#efb68e",
   "cssTheme": "Border",
   "textFontFamily": "霞鹜文楷 屏幕阅读版",
   "interfaceFontFamily": "Comic Sans MS,手札体-简",
   "monospaceFontFamily": "Fira Code",
   "translucency": false,
   "nativeMenus": false,
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "theme": "obsidian"
 }
