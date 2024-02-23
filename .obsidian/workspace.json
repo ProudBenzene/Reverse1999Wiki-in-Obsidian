@@ -16,6 +16,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "16ca99202aa77ba1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2be99b0e117b7713",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +171,7 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "2be99b0e117b7713",
   "lastOpenFiles": [
     "100-箱中角色",
     "000-箱的构成",
