@@ -136,17 +136,9 @@
                 "file": "100-箱中角色/你好.md"
               }
             }
-          },
-          {
-            "id": "ee51e5eed40b7bf3",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,8 +151,6 @@
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "float-search:Search Obsidian In Modal": false,
-      "templater-obsidian:Templater": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false
     }

@@ -7,5 +7,9 @@
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 18,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Blue Topaz Codebox",
+    "Blue Topaz Legacy"
+  ]
 }
