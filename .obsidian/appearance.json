@@ -1,6 +1,6 @@
 {
   "accentColor": "#efb68e",
-  "cssTheme": "Border",
+  "cssTheme": "AnuPpuccin",
   "textFontFamily": "霞鹜文楷 屏幕阅读版",
   "interfaceFontFamily": "Comic Sans MS,手札体-简",
   "monospaceFontFamily": "Fira Code",
@@ -13,6 +13,8 @@
     "[Bon]书库封面",
     "Blue Topaz Legacy",
     "[PKMer]文件夹添加头像",
-    "[AnuPpuccin]custom-background"
+    "[AnuPpuccin]custom-background",
+    "[AnuPpuccin]custom-rainbow-colors",
+    "[AnuPpuccin]extended-colorschemes"
   ]
 }
