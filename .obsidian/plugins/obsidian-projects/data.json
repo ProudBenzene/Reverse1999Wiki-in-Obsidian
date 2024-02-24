@@ -38,7 +38,34 @@
             "conditions": []
           },
           "colors": {
-            "conditions": []
+            "conditions": [
+              {
+                "color": "#2f4058",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "星｜Star"
+                }
+              },
+              {
+                "color": "#5b4627",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "岩｜Mineral"
+                }
+              },
+              {
+                "color": "#3a653a",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true
+                }
+              }
+            ]
           },
           "sort": {
             "criteria": []

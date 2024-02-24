@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +129,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +150,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md"
-              }
+              "state": {}
             }
           },
           {
@@ -191,10 +186,10 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "0d859ba0c673894c",
+  "active": "518c27482f0be848",
   "lastOpenFiles": [
-    "300-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+    "300-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220952223.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/立绘 星锑 01.png.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/立绘 星锑 01.png",
