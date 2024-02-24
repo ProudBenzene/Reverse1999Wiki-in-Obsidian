@@ -168,7 +168,7 @@
                 }
               },
               {
-                "color": "#a882ff",
+                "color": "#653e73",
                 "condition": {
                   "field": "灵感",
                   "operator": "is",
@@ -177,7 +177,7 @@
                 }
               },
               {
-                "color": "#a882ff",
+                "color": "#847a43",
                 "condition": {
                   "field": "灵感",
                   "operator": "is",
