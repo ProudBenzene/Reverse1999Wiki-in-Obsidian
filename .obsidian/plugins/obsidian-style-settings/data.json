@@ -440,7 +440,7 @@
   "blue-topaz-theme@@admonition-bg-color-same": false,
   "blue-topaz-theme@@full-width-callout": false,
   "Blue-Topaz-Legacy@@full-width-callout": false,
-  "Blue-Topaz-Legacy@@style-options-for-admonition-plugin": true,
+  "Blue-Topaz-Legacy@@style-options-for-admonition-plugin": false,
   "anuppuccin-theme-settings@@list-numbered-style": "cjk-ideographic",
   "anuppuccin-theme-settings@@anp-pdf-blend-toggle-dark": true,
   "anuppuccin-theme-settings@@anp-pdf-blend-toggle-light": true,

@@ -3006,11 +3006,11 @@ body.admonition-bg-color-same .callout-title {
   box-shadow: none;
   border: none;
 }
-.anp-callout-sleek .callout:is([data-callout-metadata*="noborder"],
+/*.anp-callout-sleek .callout:is([data-callout-metadata*="noborder"],
 [data-callout*=noborder]):not([data-callout-metadata*=anp-block], [data-callout-metadata*=anp-vanilla-normal], [data-callout-metadata*=anp-vanilla-plus]):not([data-callout-metadata*=revert], [data-callout=blank-container], [data-callout=multi-column]) {
   --callout-border-width: 0px; /*适配AnuPpuccin的sleek风格*/
   background-color: transparent;
-}
+}*/
 .callout.callout:is([data-callout-metadata*="noborder"],
 [data-callout*=noborder]) {
   border-top: 0!important;
@@ -3722,11 +3722,11 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
   box-shadow: none;
   border: none;
 }
-.anp-callout-sleek .callout:is([data-callout-metadata*="icon"],
+/*.anp-callout-sleek .callout:is([data-callout-metadata*="icon"],
 [data-callout*="icon"]):not([data-callout-metadata*=anp-block], [data-callout-metadata*=anp-vanilla-normal], [data-callout-metadata*=anp-vanilla-plus]):not([data-callout-metadata*=revert], [data-callout=blank-container], [data-callout=multi-column]) {
   --callout-border-width: 0px; /*适配AnuPpuccin的sleek风格*/
   background-color: transparent;
-}
+}*/
 /***Sticky notes  便签效果**/
 .callout[data-callout="stickies"] {
   box-shadow:none;
