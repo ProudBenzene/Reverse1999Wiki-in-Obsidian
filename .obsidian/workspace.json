@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d0269756f68dc22f",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,7 +166,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d0269756f68dc22f",
+  "active": "e4940c0da0d4722a",
   "lastOpenFiles": [
     "000-箱的构成/script/dv_weatherSvg.js",
     "000-箱的构成/script/dv_weatherView.js",

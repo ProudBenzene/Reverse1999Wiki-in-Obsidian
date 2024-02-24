@@ -58,8 +58,8 @@
         {
           "name": "refreshhomepage",
           "type": "UserScript",
-          "id": "965bec8c-0824-4da0-b110-0200b1c72794",
-          "path": "插件/script/refreshhomepage.js",
+          "id": "3f8fc711-f99d-4bcc-9a4c-467b3d821a38",
+          "path": "000-箱的构成/script/refreshhomepage.js",
           "settings": {}
         },
         {
@@ -122,8 +122,8 @@
         {
           "name": "SwitcLightdark",
           "type": "UserScript",
-          "id": "f2110f8c-f831-4a3b-bf04-deba88054cfa",
-          "path": "插件/script/SwitcLightdark.js",
+          "id": "d963074c-b812-4dba-8416-0d4afec36406",
+          "path": "000-箱的构成/script/SwitcLightdark.js",
           "settings": {}
         }
       ],
@@ -161,8 +161,8 @@
         {
           "name": "ToggleCSSSnippets",
           "type": "UserScript",
-          "id": "f29ded52-c499-4d1c-8db7-565b27758919",
-          "path": "插件/script/ToggleCSSSnippets.js",
+          "id": "31c96a35-bde6-4666-a258-ca7f5ab133f7",
+          "path": "000-箱的构成/script/ToggleCSSSnippets.js",
           "settings": {}
         }
       ],
@@ -175,8 +175,8 @@
         {
           "name": "openExternalEditor",
           "type": "UserScript",
-          "id": "75df0ce1-10ca-49b0-958a-b205f64b9411",
-          "path": "插件/script/openExternalEditor.js",
+          "id": "3eccd228-dd09-4f68-a926-6f05721cda99",
+          "path": "000-箱的构成/script/openExternalEditor.js",
           "settings": {}
         }
       ],
@@ -189,8 +189,8 @@
         {
           "name": "openSelectedImage",
           "type": "UserScript",
-          "id": "92912ffd-c0fe-4b48-bbbb-e452e7855a76",
-          "path": "插件/script/openSelectedImage.js",
+          "id": "5eba0ea4-9256-469d-8227-38ecd9e21091",
+          "path": "000-箱的构成/script/openSelectedImage.js",
           "settings": {}
         }
       ],

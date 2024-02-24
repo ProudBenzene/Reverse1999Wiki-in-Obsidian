@@ -2,13 +2,39 @@
   "confirmDeletion": true,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
+  "editorMenu": [
+    {
+      "id": "quickadd:choice:d2d1d2ba-d670-4f9a-b998-f41b03202c54",
+      "icon": "image",
+      "name": "在编辑器中编辑图片",
+      "mode": "any"
+    }
+  ],
   "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "quickadd:choice:27d06043-87de-47b1-a058-cf6ff596b9c1",
+      "icon": "refresh-ccw",
+      "name": "QuickAdd: 刷新面板",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:f6a246d4-985b-4054-a9ce-265391080166",
+      "icon": "type",
+      "name": "Open with",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:style-settings-class-toggle-Blue-Topaz-Legacy-background-notebook-liked-switch",
+      "icon": "layout-grid",
+      "name": "网格纸",
+      "mode": "any"
+    }
+  ],
   "macros": [],
   "explorer": [],
   "hide": {
