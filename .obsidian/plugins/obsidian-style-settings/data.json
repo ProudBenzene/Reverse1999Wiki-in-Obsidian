@@ -604,5 +604,7 @@
   "Editor@@link-unresolved-decoration-style": "point",
   "Mobile@@card-layout-pad-open": true,
   "Mobile@@drawer-phone-full-width": true,
-  "Plugin@@colorful-checkbox": false
+  "Plugin@@colorful-checkbox": false,
+  "Editor@@img-center-align": true,
+  "Editor@@seamless-embeds": true
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-箱中角色/你好.md",
+                "file": "十四行诗.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-箱中角色/你好.md",
+                "file": "十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-箱中角色/你好.md",
+                "file": "十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,16 +133,25 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-箱中角色/你好.md"
+                "file": "十四行诗.md"
               }
+            }
+          },
+          {
+            "id": "604a5e615a2ee23c",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,12 +161,32 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "float-search:Search Obsidian In Modal": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "e4940c0da0d4722a",
   "lastOpenFiles": [
     "100-箱中角色/你好.md",
+    "assets/十四行诗.assets/image-20230930200552698.jpeg",
+    "assets/十四行诗.assets",
+    "assets/Reverse设定.assets/image-20230930162559908.png",
+    "assets/Reverse设定.assets/image-20230930162559908 2.png",
+    "assets/Reverse设定.assets",
+    "assets/星锑.assets/image-20230930172525076.jpeg",
+    "assets/星锑.assets",
+    "游戏中的势力/圣洛夫基金会.md",
+    "游戏中的势力/assets/维尔汀.assets/image-20230930180701765.jpeg",
+    "游戏中的势力/assets/维尔汀.assets",
+    "游戏中的势力/assets",
+    "游戏中的势力/维尔汀 2.md",
+    "游戏中的势力/维尔汀.md",
+    "Reverse设定.md",
+    "星锑.md",
+    "十四行诗.md",
+    "assets",
+    "游戏中的势力",
     "100-箱中角色",
     "000-箱的构成",
     "Welcome.md"
