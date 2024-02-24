@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5340535a513c8295",
+            "id": "c19c8cc02437d38e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "obsidian-projects",
+              "state": {}
             }
           },
           {
@@ -26,7 +22,19 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/泥鯭的士.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b75a1c6aa2785b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/十四行诗.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -185,9 +193,12 @@
   },
   "active": "6fbb6d4e283d5f7b",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/泥鯭的士.md",
     "100-UTTU人物合辑/十四行诗.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/泥鯭的士.md",
+    "100-UTTU人物合辑/assets/泥鯭的士.assets/image-20240224222819354.png",
+    "100-UTTU人物合辑/assets/泥鯭的士.assets/image-20240224222605215.png",
+    "100-UTTU人物合辑/assets/泥鯭的士.assets",
     "100-UTTU人物合辑/星锑.md",
     "100-UTTU人物合辑/assets/星锑.assets/image-20240224220952223.png",
     "100-UTTU人物合辑/assets/星锑.assets/image-20240224220507267.png",
@@ -209,12 +220,9 @@
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224153419072.jpeg",
     "100-UTTU人物合辑/assets/十四行诗.assets",
     "100-UTTU人物合辑/assets",
-    "100-箱中角色/未命名文件夹",
     "100-箱中角色/你好.md",
     "400-箱外阵营/assets/Reverse设定.assets/image-20230930162559908.png",
     "400-箱外阵营/assets/Reverse设定.assets/image-20230930162559908 2.png",
-    "100-UTTU人物合辑/assets/星锑.assets/image-20230930172525076.jpeg",
-    "400-箱外阵营/assets/维尔汀.assets/image-20230930180701765.jpeg",
     "Welcome.md"
   ]
 }
