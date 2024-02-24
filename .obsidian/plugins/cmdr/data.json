@@ -17,6 +17,12 @@
       "icon": "sun",
       "name": "切换明暗主题",
       "mode": "any"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "在文件列表中显示当前文件",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

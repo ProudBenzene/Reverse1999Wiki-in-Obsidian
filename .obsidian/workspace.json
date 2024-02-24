@@ -157,15 +157,16 @@
     "hiddenItems": {
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
+      "workspaces:管理工作区布局": false,
       "templater-obsidian:Templater": false,
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "workspaces:管理工作区布局": false,
+      "float-search:Search Obsidian In Modal": true,
+      "obsidian-projects:Open projects": true,
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian-projects:Open projects": false
+      "cmdr:在文件列表中显示当前文件": false
     }
   },
   "active": "250c5f6efff2f242",
