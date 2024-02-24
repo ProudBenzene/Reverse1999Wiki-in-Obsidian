@@ -1,5 +1,8 @@
 {
   "promptDelete": false,
   "attachmentFolderPath": "./assets/十四行诗.assets",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }

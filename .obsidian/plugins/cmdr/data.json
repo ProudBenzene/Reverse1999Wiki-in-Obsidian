@@ -11,7 +11,14 @@
     }
   ],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:deec549a-d2dd-4e1d-b87e-c5abdfdc2802",
+      "icon": "sun",
+      "name": "切换明暗主题",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
@@ -23,15 +30,21 @@
       "mode": "any"
     },
     {
-      "id": "quickadd:choice:f6a246d4-985b-4054-a9ce-265391080166",
-      "icon": "type",
-      "name": "Open with",
-      "mode": "any"
-    },
-    {
       "id": "obsidian-style-settings:style-settings-class-toggle-Blue-Topaz-Legacy-background-notebook-liked-switch",
       "icon": "layout-grid",
       "name": "网格纸",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:89cefecf-617a-4eae-ab1e-fc3d16117391",
+      "icon": "sliders",
+      "name": "macOS风格代码框",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:f6a246d4-985b-4054-a9ce-265391080166",
+      "icon": "type",
+      "name": "Open with",
       "mode": "any"
     }
   ],

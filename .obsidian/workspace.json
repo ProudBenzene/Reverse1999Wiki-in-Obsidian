@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "69619d51935e5990",
+        "id": "cd0bd2b5b8ff8d7f",
         "type": "tabs",
         "children": [
           {
-            "id": "e4940c0da0d4722a",
+            "id": "859f34fd4480c3c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "十四行诗.md",
+                "file": "100-箱中角色/十四行诗.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "62a9e5149a1c21f3",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "十四行诗.md",
+                "file": "100-箱中角色/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "十四行诗.md",
+                "file": "100-箱中角色/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "十四行诗.md"
+                "file": "100-箱中角色/十四行诗.md"
               }
             }
           },
@@ -163,11 +172,20 @@
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "float-search:Search Obsidian In Modal": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "cmdr:切换明暗主题": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "e4940c0da0d4722a",
+  "active": "62a9e5149a1c21f3",
   "lastOpenFiles": [
+    "100-箱中角色/assets/十四行诗.assets/image-20240224153419072.jpeg",
+    "100-箱中角色/assets/十四行诗.assets",
+    "100-箱中角色/星锑.md",
+    "100-箱中角色/十四行诗.md",
+    "100-箱中角色/assets",
+    "Reverse设定.md",
+    "100-箱中角色/未命名文件夹",
     "000-箱的构成/script/dv_weatherSvg.js",
     "000-箱的构成/script/dv_weatherView.js",
     "000-箱的构成/script/fetchhomepage.js",
@@ -175,22 +193,15 @@
     "000-箱的构成/script/openSelectedImage.js",
     "000-箱的构成/script/refreshhomepage.js",
     "000-箱的构成/script/SwitcLightdark.js",
-    "000-箱的构成/script/ToggleCSSSnippets.js",
-    "000-箱的构成/tp",
-    "000-箱的构成/未命名文件夹",
-    "000-箱的构成/script",
     "100-箱中角色/你好.md",
     "assets/十四行诗.assets/image-20230930200552698.jpeg",
     "assets/Reverse设定.assets/image-20230930162559908.png",
     "assets/Reverse设定.assets/image-20230930162559908 2.png",
-    "assets/星锑.assets/image-20230930172525076.jpeg",
+    "100-箱中角色/assets/星锑.assets/image-20230930172525076.jpeg",
     "游戏中的势力/圣洛夫基金会.md",
     "游戏中的势力/assets/维尔汀.assets/image-20230930180701765.jpeg",
     "游戏中的势力/维尔汀 2.md",
     "游戏中的势力/维尔汀.md",
-    "Reverse设定.md",
-    "星锑.md",
-    "十四行诗.md",
     "Welcome.md"
   ]
 }
