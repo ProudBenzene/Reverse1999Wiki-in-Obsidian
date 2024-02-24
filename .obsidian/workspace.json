@@ -18,8 +18,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "85f6422b3553d601",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +178,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "859f34fd4480c3c5",
+  "active": "85f6422b3553d601",
   "lastOpenFiles": [
     "Reverse设定.md",
     "200-箱外世界/暴雨时间线.md",
