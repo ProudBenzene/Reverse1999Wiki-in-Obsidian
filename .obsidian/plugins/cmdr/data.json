@@ -23,6 +23,12 @@
       "icon": "lucide-navigation",
       "name": "在文件列表中显示当前文件",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-projects:show-projects",
+      "icon": "aperture",
+      "name": "Projects",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

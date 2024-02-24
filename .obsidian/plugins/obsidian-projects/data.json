@@ -1,6 +1,62 @@
 {
   "version": 2,
-  "projects": [],
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "100-UTTU人物合辑",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5a2f1ae3-204b-4612-a64a-c10c95920e4a",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "初始衣着",
+            "fitStyle": "contain",
+            "includeFields": [
+              "English Name"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "386246aa-0ea4-4356-916a-93620bab67ae",
+          "name": "画册",
+          "type": "gallery"
+        }
+      ],
+      "id": "9ff693de-6abc-4520-b70c-e2c25b385535",
+      "name": "UTTU人物合揖"
+    }
+  ],
   "archives": [],
   "preferences": {
     "projectSizeLimit": 1000,

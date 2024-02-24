@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "86d5848ccf111501",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,11 +171,13 @@
       "obsidian-projects:Open projects": true,
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
-      "cmdr:在文件列表中显示当前文件": false
+      "cmdr:在文件列表中显示当前文件": false,
+      "cmdr:Projects": false
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "86d5848ccf111501",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/十四行诗.md",
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224214308116.png",
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224203957512.png",
     "300-箱外世界/暴雨时间线.md",
@@ -181,7 +188,6 @@
     "400-箱外阵营/未命名",
     "400-箱外阵营/assets",
     "400-箱外阵营",
-    "100-UTTU人物合辑/十四行诗.md",
     "400-箱外阵营/Reverse设定.md",
     "300-箱外世界",
     "400-箱外阵营/维尔汀.md",
