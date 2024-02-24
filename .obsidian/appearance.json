@@ -10,12 +10,12 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "Timeline_Callouts",
-    "[AnuPpuccin]custom-background",
-    "[AnuPpuccin]custom-rainbow-colors",
-    "[AnuPpuccin]extended-colorschemes",
-    "[Bon]书库封面",
-    "[PKMer]文件夹添加头像",
+    "Blue Topaz Legacy",
     "Blue Topaz Codebox",
-    "Blue Topaz Legacy"
+    "[PKMer]文件夹添加头像",
+    "[Bon]书库封面",
+    "[AnuPpuccin]extended-colorschemes",
+    "[AnuPpuccin]custom-rainbow-colors",
+    "[AnuPpuccin]custom-background"
   ]
 }
