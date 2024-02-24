@@ -28,14 +28,14 @@
             }
           },
           {
-            "id": "e3a7a03ba5877dc7",
+            "id": "735d4a0c05f2632b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           },
@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -199,12 +200,12 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "68610bddd771967b",
+  "active": "735d4a0c05f2632b",
   "lastOpenFiles": [
-    "000-箱的构成/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets/image-20240224222819354.png",

@@ -1,5 +1,4 @@
 [
-  "obsidian-admonition",
   "cmdr",
   "longform",
   "Enhanced-editing",
@@ -22,5 +21,6 @@
   "workspaces-plus",
   "quickadd",
   "obsidian-projects",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-admonition"
 ]
