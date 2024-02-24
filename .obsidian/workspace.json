@@ -8,31 +8,35 @@
         "type": "tabs",
         "children": [
           {
+            "id": "518c27482f0be848",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
             "id": "9ef57e8cd07bc1d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+                "file": "300-箱外世界/暴雨时间线.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "11cbb79cf5cdbf0b",
+            "id": "0d859ba0c673894c",
             "type": "leaf",
             "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
-            "id": "518c27482f0be848",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -94,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 247
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -111,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md"
+              }
             }
           },
           {
@@ -184,12 +191,13 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "518c27482f0be848",
+  "active": "0d859ba0c673894c",
   "lastOpenFiles": [
+    "300-箱外世界/暴雨时间线.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220952223.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/立绘 星锑 01.png.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/立绘 星锑 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225001833478.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225001531379.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225000633614.png",
@@ -197,14 +205,12 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 04.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets",
-    "300-箱外世界/暴雨时间线.md",
     "400-箱外阵营/圣洛夫基金会.md",
     "000-箱的构成/script/tp",
     "000-箱的构成/script/未命名文件夹",
