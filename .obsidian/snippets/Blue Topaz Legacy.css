@@ -2582,14 +2582,14 @@ body.border-callout-style .callout .callout-title {
 body.border-callout-style .callout .callout-content {
   background-color: rgba(var(--callout-color), 0.1);
 }
-.callout-title {
+/*.callout-title {
   background-color: rgba(var(--callout-color), 0.15);
-  /*padding: var(--callout-title-padding);*/
+  padding: var(--callout-title-padding);
   padding: var(--callout-padding); /*默认主题下*/
-}
+}/*
 .callout-title-inner {
   flex: 1 1 auto;
-}
+}*/
 .callout {
   padding: 0;
   /*border-left: 4px solid rgba(var(--callout-color),0.15); 兼容Anu原生callout*/
