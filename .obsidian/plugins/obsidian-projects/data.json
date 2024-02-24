@@ -17,7 +17,28 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {},
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "hide": false
+              },
+              "path": {
+                "hide": true
+              },
+              "初始衣着": {
+                "hide": true
+              },
+              "传承": {
+                "hide": true
+              },
+              "角色灵感": {
+                "hide": false
+              },
+              "介质": {
+                "hide": true
+              }
+            }
+          },
           "filter": {
             "conditions": []
           },
@@ -39,7 +60,8 @@
               "English Name",
               "稀有度",
               "角色灵感"
-            ]
+            ],
+            "cardWidth": 150
           },
           "filter": {
             "conditions": []
