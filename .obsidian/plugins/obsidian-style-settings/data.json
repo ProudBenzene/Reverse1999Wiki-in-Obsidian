@@ -581,7 +581,7 @@
   "Appearance-dark@@color-blue-rgb@@dark": "#5496EF",
   "Appearance-dark@@color-purple-rgb@@dark": "#A96AF3",
   "Appearance-dark@@color-pink-rgb@@dark": "#F2B6DE",
-  "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-primary-dark",
+  "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-transparent-dark",
   "Appearance-dark@@workspace-divider-transparent-dark": true,
   "Appearance-dark@@card-highlight-dark": true,
   "Editor@@border-focus-mode": true,
@@ -611,5 +611,5 @@
   "Components@@Ribbon-autohide": false,
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-primary-dark",
   "Appearance-dark@@background-underlying-select-dark": "background-underlying-CSS-dark",
-  "Appearance-dark@@background-underlying-CSS-dark": "\"\""
+  "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241544066.jpg\")"
 }
