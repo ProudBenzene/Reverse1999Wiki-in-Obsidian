@@ -19,13 +19,13 @@
         {
           "config": {
             "coverField": "初始衣着",
-            "fitStyle": "contain",
+            "fitStyle": "cover",
             "includeFields": [
               "English Name",
               "稀有度",
               "灵感"
             ],
-            "cardWidth": 150
+            "cardWidth": 200
           },
           "filter": {
             "conditions": []

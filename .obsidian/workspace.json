@@ -35,7 +35,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -109,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +148,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,11 +184,12 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "518c27482f0be848",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225001833478.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225001531379.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225000633614.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 05.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 04.png",
@@ -203,9 +202,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets/image-20240224222819354.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets/image-20240224222605215.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220952223.png",
     "300-箱外世界/暴雨时间线.md",
     "400-箱外阵营/圣洛夫基金会.md",
     "000-箱的构成/script/tp",
