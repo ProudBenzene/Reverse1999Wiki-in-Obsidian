@@ -116,3 +116,8 @@ div:has(> [data-callout="timeline"]) + div:not(> [data-callout="timeline"]) {
 [data-callout-metadata="pink"] {
     --timeline-dot-color: var(--color-pink);
 }
+
+.is-live-preview :is([class=cm-line]:has(+ :is(.cm-callout) .callout[data-callout="timeline"]), :is(.cm-callout) .callout[data-callout="timeline"] + [class=cm-line]) {
+        line-height: 0;
+        padding: 0;
+}
