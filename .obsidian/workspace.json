@@ -15,7 +15,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/十四行诗.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -155,21 +155,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
+      "templater-obsidian:Templater": false,
       "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "float-search:Search Obsidian In Modal": false,
-      "templater-obsidian:Templater": false,
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "5340535a513c8295",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224214308116.png",
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224203957512.png",
     "300-箱外世界/暴雨时间线.md",
     "400-箱外阵营/圣洛夫基金会.md",
