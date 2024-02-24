@@ -5,7 +5,6 @@
   "Enhanced-editing",
   "obsidian-banners",
   "better-word-count",
-  "obsidian-contextual-typography",
   "obsidian-custom-attachment-location",
   "dataview",
   "easy-typing-obsidian",
@@ -19,9 +18,9 @@
   "obsidian-plugin-update-tracker",
   "obsidian-quiet-outline",
   "rendered-block-link-suggestions",
-  "obsidian-style-settings",
   "templater-obsidian",
   "workspaces-plus",
   "quickadd",
-  "obsidian-projects"
+  "obsidian-projects",
+  "obsidian-style-settings"
 ]

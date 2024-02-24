@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd0bd2b5b8ff8d7f",
+        "id": "c0378522ff400641",
         "type": "tabs",
         "children": [
           {
-            "id": "859f34fd4480c3c5",
+            "id": "5340535a513c8295",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,14 +20,15 @@
             }
           },
           {
-            "id": "85f6422b3553d601",
+            "id": "9af7941fcc63b9f4",
             "type": "leaf",
             "state": {
               "type": "style-settings",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +75,7 @@
             }
           },
           {
-            "id": "ee1f26535d4f2e05",
+            "id": "0c421af3c4053e4c",
             "type": "leaf",
             "state": {
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
@@ -146,7 +147,7 @@
             }
           },
           {
-            "id": "604a5e615a2ee23c",
+            "id": "94428be52b047acb",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -170,16 +171,16 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
+      "cmdr:切换明暗主题": false,
       "float-search:Search Obsidian In Modal": false,
       "templater-obsidian:Templater": false,
-      "cmdr:切换明暗主题": false,
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "859f34fd4480c3c5",
+  "active": "9af7941fcc63b9f4",
   "lastOpenFiles": [
-    "Reverse设定.md",
     "200-箱外世界/暴雨时间线.md",
+    "Reverse设定.md",
     "200-箱外世界",
     "游戏中的势力/维尔汀.md",
     "游戏中的势力/维尔汀 2.md",
