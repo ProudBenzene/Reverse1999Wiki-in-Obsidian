@@ -1,0 +1,220 @@
+{
+  "choices": [
+    {
+      "id": "27d06043-87de-47b1-a058-cf6ff596b9c1",
+      "name": "刷新面板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215"
+    },
+    {
+      "id": "deec549a-d2dd-4e1d-b87e-c5abdfdc2802",
+      "name": "切换明暗",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ebf7a10a-351e-489f-b393-2c46b39a4cee"
+    },
+    {
+      "id": "ac510f4b-5e30-4b80-8591-320d92252404",
+      "name": "Style Settings 悬浮面板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "38d71847-84ac-413d-813a-0fd50afc1577"
+    },
+    {
+      "id": "89cefecf-617a-4eae-ab1e-fc3d16117391",
+      "name": "切换代码片段",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d3e67052-efbb-4c08-8880-9ecfc6eb5c77"
+    },
+    {
+      "id": "6dc3db54-27fd-48cc-beb0-66f4f40e3ff9",
+      "name": "重新获取主页数据",
+      "type": "Macro",
+      "command": false,
+      "macroId": "ffb32b42-d2fe-42ed-9331-22a317f4a28a"
+    },
+    {
+      "id": "f6a246d4-985b-4054-a9ce-265391080166",
+      "name": "Open with",
+      "type": "Macro",
+      "command": true,
+      "macroId": "3094e312-40ff-419e-81ae-757bdb253ba9"
+    },
+    {
+      "id": "d2d1d2ba-d670-4f9a-b998-f41b03202c54",
+      "name": "编辑图片",
+      "type": "Macro",
+      "command": true,
+      "macroId": "db7fc7dd-0f62-4f74-a9a5-b8d1b27a43c9"
+    }
+  ],
+  "macros": [
+    {
+      "name": "重新获取主页数据",
+      "id": "ffb32b42-d2fe-42ed-9331-22a317f4a28a",
+      "commands": [
+        {
+          "name": "refreshhomepage",
+          "type": "UserScript",
+          "id": "965bec8c-0824-4da0-b110-0200b1c72794",
+          "path": "插件/script/refreshhomepage.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "9d4918a2-a690-4a89-9d20-a3adfd348655",
+          "time": 500
+        },
+        {
+          "name": "fetchhomepage",
+          "type": "UserScript",
+          "id": "24e3abe2-7805-4c79-a121-f0d5cdd454d5",
+          "path": "插件/script/fetchhomepage.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "3385f735-b0ee-4fba-a0d8-dc331a55063f",
+          "time": 500
+        },
+        {
+          "name": "Workspaces Plus: Load: HomePage",
+          "type": "Obsidian",
+          "id": "3694088d-c09e-44cc-8bb4-883479ab5d27",
+          "commandId": "workspaces-plus:HomePage"
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "刷新页面",
+      "id": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215",
+      "commands": [
+        {
+          "name": "关闭当前面板",
+          "type": "Obsidian",
+          "id": "5e6b09dd-794b-443e-bcaf-ecf27ce1f7e0",
+          "commandId": "workspace:close"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "da696b89-59a8-4c64-833b-561e34d86203",
+          "time": 500
+        },
+        {
+          "name": "重新打开上一个关闭的面板",
+          "type": "Obsidian",
+          "id": "3fd5ed39-ef42-4d18-9a9b-06d18d87f35b",
+          "commandId": "workspace:undo-close-pane"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "切换明暗模式",
+      "id": "ebf7a10a-351e-489f-b393-2c46b39a4cee",
+      "commands": [
+        {
+          "name": "SwitcLightdark",
+          "type": "UserScript",
+          "id": "f2110f8c-f831-4a3b-bf04-deba88054cfa",
+          "path": "插件/script/SwitcLightdark.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Style Settings",
+      "id": "38d71847-84ac-413d-813a-0fd50afc1577",
+      "commands": [
+        {
+          "name": "Style Settings: Show style settings view",
+          "type": "Obsidian",
+          "id": "db2f148a-1e7b-47e3-ae5a-dade0f5c37ec",
+          "commandId": "obsidian-style-settings:show-style-settings-leaf"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "27fbbc21-630a-4d80-9774-c930b69d328d",
+          "time": 10
+        },
+        {
+          "name": "Hover Editor: Convert active pane to Hover Editor",
+          "type": "Obsidian",
+          "id": "7f518915-fc9f-42d8-8571-bc734339b555",
+          "commandId": "obsidian-hover-editor:convert-active-pane-to-popover"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "开关代码片段",
+      "id": "d3e67052-efbb-4c08-8880-9ecfc6eb5c77",
+      "commands": [
+        {
+          "name": "ToggleCSSSnippets",
+          "type": "UserScript",
+          "id": "f29ded52-c499-4d1c-8db7-565b27758919",
+          "path": "插件/script/ToggleCSSSnippets.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Open with",
+      "id": "3094e312-40ff-419e-81ae-757bdb253ba9",
+      "commands": [
+        {
+          "name": "openExternalEditor",
+          "type": "UserScript",
+          "id": "75df0ce1-10ca-49b0-958a-b205f64b9411",
+          "path": "插件/script/openExternalEditor.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "编辑图片",
+      "id": "db7fc7dd-0f62-4f74-a9a5-b8d1b27a43c9",
+      "commands": [
+        {
+          "name": "openSelectedImage",
+          "type": "UserScript",
+          "id": "92912ffd-c0fe-4b48-bbbb-e452e7855a76",
+          "path": "插件/script/openSelectedImage.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "插件/tp",
+  "announceUpdates": true,
+  "version": "1.7.0",
+  "disableOnlineFeatures": false,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "gpt-3.5-turbo-1106",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}
