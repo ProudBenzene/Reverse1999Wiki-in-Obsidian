@@ -71,8 +71,8 @@
         {
           "name": "fetchhomepage",
           "type": "UserScript",
-          "id": "24e3abe2-7805-4c79-a121-f0d5cdd454d5",
-          "path": "插件/script/fetchhomepage.js",
+          "id": "5cde150c-9398-4b12-a85f-4c6c9f16a63a",
+          "path": "000-箱的构成/script/fetchhomepage.js",
           "settings": {}
         },
         {

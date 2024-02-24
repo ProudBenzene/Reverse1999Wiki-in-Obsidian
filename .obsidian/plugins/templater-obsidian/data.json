@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "插件/tp",
+  "templates_folder": "000-箱的构成/tp",
   "templates_pairs": [
     [
       "tianqi",
@@ -11,23 +11,11 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "插件/script/tp",
+  "user_scripts_folder": "000-箱的构成/script/tp",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "生词本",
-      "template": "插件/tp/NeuraCache.md"
-    },
-    {
-      "folder": "Microsoft Office 365",
-      "template": "插件/tp/English Learning Videos.md"
-    },
-    {
-      "folder": "英语 for Lifespan/英文标题党",
-      "template": "插件/tp/English Learning Videos.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
   "startup_templates": [],
   "enable_ribbon_icon": true

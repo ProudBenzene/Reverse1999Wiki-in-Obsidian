@@ -1,9 +1,9 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/Reverse设定.assets",
+  "attachmentFolderPath": "./assets/暴雨时间线.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
   "readableLineLength": true
 }
