@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiSwordFill",
       "IbEarth",
       "TiFriends",
       "TiBriefcase",
-      "IbPencil",
-      "IbLightning"
+      "IbPencil"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -110,5 +110,6 @@
   "生词本": "RiEnglishInput",
   "000-箱的构成": "TiBriefcase",
   "100-箱中角色": "TiFriends",
-  "200-箱外世界": "IbEarth"
+  "200-箱外世界": "IbEarth",
+  "300-箱外阵营": "RiSwordFill"
 }

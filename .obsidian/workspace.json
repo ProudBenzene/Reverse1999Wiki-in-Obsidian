@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-箱外世界/暴雨时间线.md",
+                "file": "300-箱外阵营/圣洛夫基金会.md",
                 "mode": "preview",
                 "source": true
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-箱外世界/暴雨时间线.md",
+                "file": "300-箱外阵营/圣洛夫基金会.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-箱外世界/暴雨时间线.md",
+                "file": "300-箱外阵营/圣洛夫基金会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-箱外世界/暴雨时间线.md"
+                "file": "300-箱外阵营/圣洛夫基金会.md"
               }
             }
           },
@@ -181,13 +180,15 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "5340535a513c8295",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
-    "100-箱中角色/十四行诗.md",
+    "300-箱外阵营/assets",
     "200-箱外世界/暴雨时间线.md",
+    "300-箱外阵营",
+    "100-箱中角色/十四行诗.md",
     "Reverse设定.md",
     "200-箱外世界",
-    "游戏中的势力/维尔汀.md",
+    "300-箱外阵营/维尔汀.md",
     "游戏中的势力/维尔汀 2.md",
     "assets/十四行诗.assets/image-20230930200552698.jpeg",
     "100-箱中角色/assets/十四行诗.assets/image-20240224153419072.jpeg",
@@ -200,13 +201,12 @@
     "000-箱的构成/script/fetchhomepage.js",
     "000-箱的构成/script/openExternalEditor.js",
     "000-箱的构成/script/openSelectedImage.js",
-    "000-箱的构成/script/refreshhomepage.js",
     "100-箱中角色/你好.md",
     "assets/Reverse设定.assets/image-20230930162559908.png",
     "assets/Reverse设定.assets/image-20230930162559908 2.png",
     "100-箱中角色/assets/星锑.assets/image-20230930172525076.jpeg",
-    "游戏中的势力/圣洛夫基金会.md",
-    "游戏中的势力/assets/维尔汀.assets/image-20230930180701765.jpeg",
+    "300-箱外阵营/圣洛夫基金会.md",
+    "300-箱外阵营/assets/维尔汀.assets/image-20230930180701765.jpeg",
     "Welcome.md"
   ]
 }
