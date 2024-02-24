@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiHeartUp",
       "RiSwordFill",
       "IbEarth",
       "TiFriends",
-      "TiBriefcase",
-      "IbPencil"
+      "TiBriefcase"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -109,7 +109,8 @@
   "Zotero文献笔记/航天康复医学": "FasUserAstronaut",
   "生词本": "RiEnglishInput",
   "000-箱的构成": "TiBriefcase",
-  "200-箱外世界": "IbEarth",
-  "300-箱外阵营": "RiSwordFill",
-  "100-UTTU人物合辑": "TiFriends"
+  "100-UTTU人物合辑": "TiFriends",
+  "200-相从心生": "TiHeartUp",
+  "300-箱外世界": "IbEarth",
+  "400-箱外阵营": "RiSwordFill"
 }
