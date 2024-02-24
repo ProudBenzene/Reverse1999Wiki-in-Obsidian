@@ -131,7 +131,7 @@
     },
     "flex": {
       "type": "flex",
-      "color": "238, 226, 200",
+      "color": "244, 232, 189",
       "icon": {
         "name": "ad",
         "type": "font-awesome"
