@@ -3954,7 +3954,7 @@ div.callout[data-callout="stickies3"] >.callout-content ul {
   max-height: 195px;
 }
 
-.callout:is([data-callout-metadata*='yellow']) .callout-content{
+.colorful.callout:is([data-callout-metadata*='yellow']) .callout-content{
   background: #F7E999;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
@@ -3963,7 +3963,7 @@ div.callout[data-callout="stickies3"] >.callout-content ul {
   transform: rotate(2deg);
 }
 
-.callout:is([data-callout-metadata*='blue']) .callout-content {
+.colorful.callout:is([data-callout-metadata*='blue']) .callout-content {
   background: #b9dcf4;
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
@@ -3972,7 +3972,7 @@ div.callout[data-callout="stickies3"] >.callout-content ul {
   transform: rotate(-2deg);
 }
 
-.callout:is([data-callout-metadata*='pink']) .callout-content {
+.colorful.callout:is([data-callout-metadata*='pink']) .callout-content {
   background: #FFBDA3;
   -webkit-transform: rotate(1deg);
   -moz-transform: rotate(1deg);
@@ -3981,7 +3981,7 @@ div.callout[data-callout="stickies3"] >.callout-content ul {
   transform: rotate(1deg);
 }
 
-.callout:is([data-callout-metadata*='green']) .callout-content {
+.colorful.callout:is([data-callout-metadata*='green']) .callout-content {
   background: #CAF4B9;
   -webkit-transform: rotate(-1deg);
   -moz-transform: rotate(-1deg);

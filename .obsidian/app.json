@@ -5,5 +5,5 @@
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }
