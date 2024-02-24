@@ -16,35 +16,23 @@
             }
           },
           {
-            "id": "6fbb6d4e283d5f7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "735d4a0c05f2632b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "68610bddd771967b",
             "type": "leaf",
             "state": {
               "type": "style-settings",
               "state": {}
+            }
+          },
+          {
+            "id": "fe32bb9688269f7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md"
               }
             }
           },
@@ -200,7 +188,7 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "735d4a0c05f2632b",
+  "active": "fe32bb9688269f7c",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
