@@ -62,7 +62,35 @@
                 "condition": {
                   "field": "灵感",
                   "operator": "is",
-                  "enabled": true
+                  "enabled": true,
+                  "value": "木｜Plant"
+                }
+              },
+              {
+                "color": "#773d3a",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "兽｜Beast"
+                }
+              },
+              {
+                "color": "#653e6e",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "灵｜Spirit"
+                }
+              },
+              {
+                "color": "#847a43",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "智｜Intellect"
                 }
               }
             ]
