@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "200-箱外世界/暴雨时间线.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -178,7 +176,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "85f6422b3553d601",
+  "active": "859f34fd4480c3c5",
   "lastOpenFiles": [
     "Reverse设定.md",
     "200-箱外世界/暴雨时间线.md",

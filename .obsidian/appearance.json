@@ -1,6 +1,6 @@
 {
   "accentColor": "#efb68e",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "",
   "textFontFamily": "霞鹜文楷 屏幕阅读版",
   "interfaceFontFamily": "Comic Sans MS,手札体-简",
   "monospaceFontFamily": "Fira Code",
@@ -9,13 +9,6 @@
   "baseFontSize": 18,
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "[AnuPpuccin]extended-colorschemes",
-    "[Bon]书库封面",
-    "[PKMer]文件夹添加头像",
-    "Blue Topaz Codebox",
-    "Blue Topaz Legacy",
-    "Timeline_Callouts",
-    "[AnuPpuccin]custom-rainbow-colors",
-    "[AnuPpuccin]custom-background"
+    "Timeline_Callouts"
   ]
 }
