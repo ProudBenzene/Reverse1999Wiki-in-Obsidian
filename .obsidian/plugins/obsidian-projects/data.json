@@ -4,8 +4,15 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
+      "templates": [
+        "000-箱的构成/templates/UTTU人物合辑.md"
+      ],
+      "excludedNotes": [
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220952223.png",
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225000633614.png",
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225001531379.png",
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220952223.png"
+      ],
       "isDefault": true,
       "dataSource": {
         "kind": "folder",
@@ -44,7 +51,8 @@
           "config": {
             "fieldConfig": {
               "name": {
-                "hide": false
+                "hide": false,
+                "width": 321
               },
               "path": {
                 "hide": true
