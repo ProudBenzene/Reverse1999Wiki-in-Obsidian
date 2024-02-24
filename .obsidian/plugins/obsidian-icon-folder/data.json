@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiFriends",
+      "TiBriefcase",
       "IbPencil",
       "IbLightning",
-      "TiSettingsHeart",
-      "TiEggCracked",
-      "TiDeviceImac"
+      "TiSettingsHeart"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -107,5 +107,7 @@
   "Zotero文献笔记/Zotlit": "🚥",
   "Zotero文献笔记/针灸推拿治疗肩袖损伤": "FasCross",
   "Zotero文献笔记/航天康复医学": "FasUserAstronaut",
-  "生词本": "RiEnglishInput"
+  "生词本": "RiEnglishInput",
+  "000-箱的构成": "TiBriefcase",
+  "100-箱中角色": "TiFriends"
 }
