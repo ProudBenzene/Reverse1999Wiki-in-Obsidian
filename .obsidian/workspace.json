@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-箱外世界/未命名.md",
+                "file": "200-箱外世界/暴雨时间线.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-箱外世界/未命名.md",
+                "file": "200-箱外世界/暴雨时间线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-箱外世界/未命名.md",
+                "file": "200-箱外世界/暴雨时间线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-箱外世界/未命名.md"
+                "file": "200-箱外世界/暴雨时间线.md"
               }
             }
           },
@@ -171,7 +172,7 @@
   "active": "859f34fd4480c3c5",
   "lastOpenFiles": [
     "Reverse设定.md",
-    "200-箱外世界/未命名.md",
+    "200-箱外世界/暴雨时间线.md",
     "200-箱外世界",
     "游戏中的势力/维尔汀.md",
     "游戏中的势力/维尔汀 2.md",
