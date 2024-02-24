@@ -36,7 +36,9 @@
             "coverField": "初始衣着",
             "fitStyle": "contain",
             "includeFields": [
-              "English Name"
+              "English Name",
+              "稀有度",
+              "角色灵感"
             ]
           },
           "filter": {

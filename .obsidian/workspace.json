@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/十四行诗.md"
+              }
             }
           },
           {
@@ -163,6 +166,7 @@
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
+      "cmdr:Projects": false,
       "templater-obsidian:Templater": false,
       "canvas:新建白板": false,
       "templates:插入模板": true,
@@ -171,11 +175,10 @@
       "obsidian-projects:Open projects": true,
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
-      "cmdr:在文件列表中显示当前文件": false,
-      "cmdr:Projects": false
+      "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "86d5848ccf111501",
+  "active": "5340535a513c8295",
   "lastOpenFiles": [
     "100-UTTU人物合辑/十四行诗.md",
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224214308116.png",
