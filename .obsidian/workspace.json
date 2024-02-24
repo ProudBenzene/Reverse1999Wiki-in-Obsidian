@@ -38,9 +38,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "68610bddd771967b",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -191,7 +199,7 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "e3a7a03ba5877dc7",
+  "active": "68610bddd771967b",
   "lastOpenFiles": [
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
