@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c19c8cc02437d38e",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "68610bddd771967b",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
             "id": "9ef57e8cd07bc1d9",
             "type": "leaf",
             "state": {
@@ -34,9 +18,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "518c27482f0be848",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md"
-              }
+              "state": {}
             }
           },
           {
@@ -188,7 +176,7 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "9ef57e8cd07bc1d9",
+  "active": "518c27482f0be848",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 05.png",

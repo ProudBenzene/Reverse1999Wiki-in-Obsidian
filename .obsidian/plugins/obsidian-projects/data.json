@@ -11,7 +11,7 @@
         "kind": "folder",
         "config": {
           "path": "100-UTTU人物合辑",
-          "recursive": false
+          "recursive": true
         }
       },
       "newNotesFolder": "",
