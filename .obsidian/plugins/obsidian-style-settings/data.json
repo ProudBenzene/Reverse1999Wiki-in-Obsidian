@@ -608,5 +608,8 @@
   "Editor@@img-center-align": true,
   "Editor@@seamless-embeds": true,
   "Folder-Image@@folder-image-radius": 0.2,
-  "Components@@Ribbon-autohide": false
+  "Components@@Ribbon-autohide": false,
+  "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-primary-dark",
+  "Appearance-dark@@background-underlying-select-dark": "background-underlying-CSS-dark",
+  "Appearance-dark@@background-underlying-CSS-dark": "\"\""
 }
