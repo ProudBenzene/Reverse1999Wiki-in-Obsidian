@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/泥鯭的士.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
                 "mode": "preview",
                 "source": false
               }
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/星锑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,8 +45,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md",
-                "mode": "preview",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/星锑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/星锑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/星锑.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md"
               }
             }
           },
@@ -206,17 +206,19 @@
   },
   "active": "e3a7a03ba5877dc7",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/泥鯭的士.md",
-    "100-UTTU人物合辑/十四行诗.md",
-    "100-UTTU人物合辑/星锑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanist",
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/assets/泥鯭的士.assets/image-20240224222819354.png",
-    "100-UTTU人物合辑/assets/泥鯭的士.assets/image-20240224222605215.png",
-    "100-UTTU人物合辑/assets/泥鯭的士.assets",
-    "100-UTTU人物合辑/assets/星锑.assets/image-20240224220952223.png",
-    "100-UTTU人物合辑/assets/星锑.assets/image-20240224220507267.png",
-    "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224214308116.png",
-    "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224203957512.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets/image-20240224222819354.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets/image-20240224222605215.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220952223.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220507267.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240224214308116.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240224203957512.png",
     "300-箱外世界/暴雨时间线.md",
     "400-箱外阵营/圣洛夫基金会.md",
     "000-箱的构成/script/tp",
@@ -231,8 +233,6 @@
     "游戏中的势力/维尔汀 2.md",
     "assets/十四行诗.assets/image-20230930200552698.jpeg",
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224153419072.jpeg",
-    "100-UTTU人物合辑/assets/十四行诗.assets",
-    "100-UTTU人物合辑/assets",
     "100-箱中角色/你好.md",
     "400-箱外阵营/assets/Reverse设定.assets/image-20230930162559908.png",
     "400-箱外阵营/assets/Reverse设定.assets/image-20230930162559908 2.png",
