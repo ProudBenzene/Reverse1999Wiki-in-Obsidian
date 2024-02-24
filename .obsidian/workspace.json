@@ -13,22 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-箱中角色/十四行诗.md",
-                "mode": "preview",
+                "file": "200-箱外世界/未命名.md",
+                "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "074ae5a5d038fbbc",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-箱中角色/十四行诗.md",
+                "file": "200-箱外世界/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-箱中角色/十四行诗.md",
+                "file": "200-箱外世界/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-箱中角色/十四行诗.md"
+                "file": "200-箱外世界/未命名.md"
               }
             }
           },
@@ -177,14 +168,19 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "074ae5a5d038fbbc",
+  "active": "859f34fd4480c3c5",
   "lastOpenFiles": [
+    "Reverse设定.md",
+    "200-箱外世界/未命名.md",
+    "200-箱外世界",
+    "游戏中的势力/维尔汀.md",
+    "游戏中的势力/维尔汀 2.md",
+    "100-箱中角色/十四行诗.md",
+    "assets/十四行诗.assets/image-20230930200552698.jpeg",
     "100-箱中角色/assets/十四行诗.assets/image-20240224153419072.jpeg",
     "100-箱中角色/assets/十四行诗.assets",
     "100-箱中角色/星锑.md",
-    "100-箱中角色/十四行诗.md",
     "100-箱中角色/assets",
-    "Reverse设定.md",
     "100-箱中角色/未命名文件夹",
     "000-箱的构成/script/dv_weatherSvg.js",
     "000-箱的构成/script/dv_weatherView.js",
@@ -192,16 +188,12 @@
     "000-箱的构成/script/openExternalEditor.js",
     "000-箱的构成/script/openSelectedImage.js",
     "000-箱的构成/script/refreshhomepage.js",
-    "000-箱的构成/script/SwitcLightdark.js",
     "100-箱中角色/你好.md",
-    "assets/十四行诗.assets/image-20230930200552698.jpeg",
     "assets/Reverse设定.assets/image-20230930162559908.png",
     "assets/Reverse设定.assets/image-20230930162559908 2.png",
     "100-箱中角色/assets/星锑.assets/image-20230930172525076.jpeg",
     "游戏中的势力/圣洛夫基金会.md",
     "游戏中的势力/assets/维尔汀.assets/image-20230930180701765.jpeg",
-    "游戏中的势力/维尔汀 2.md",
-    "游戏中的势力/维尔汀.md",
     "Welcome.md"
   ]
 }

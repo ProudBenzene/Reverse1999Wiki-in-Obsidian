@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbEarth",
       "TiFriends",
       "TiBriefcase",
       "IbPencil",
-      "IbLightning",
-      "TiSettingsHeart"
+      "IbLightning"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -109,5 +109,6 @@
   "Zotero文献笔记/航天康复医学": "FasUserAstronaut",
   "生词本": "RiEnglishInput",
   "000-箱的构成": "TiBriefcase",
-  "100-箱中角色": "TiFriends"
+  "100-箱中角色": "TiFriends",
+  "200-箱外世界": "IbEarth"
 }

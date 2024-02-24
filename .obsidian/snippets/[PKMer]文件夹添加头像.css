@@ -34,11 +34,11 @@ body {
   --folder-image-radius: 1;
 }
 
-div[data-type="file-explorer"] > div.nav-header {
+/*div[data-type="file-explorer"] > div.nav-header {
   border-width: 2px;
   border-color: var(--background-primary);
   border-style: solid;
-}
+}*/
 
 div[data-type="file-explorer"] > div.nav-header::after {
   content: "";
