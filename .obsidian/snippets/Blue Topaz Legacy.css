@@ -2584,7 +2584,7 @@ body.border-callout-style .callout .callout-content {
 }
 .callout-title {
   background-color: rgba(var(--callout-color), 0.15);
-  padding: var(--callout-title-padding);
+  /*padding: var(--callout-title-padding);*/
   padding: var(--callout-padding); /*默认主题下*/
 }
 .callout-title-inner {
@@ -2592,7 +2592,7 @@ body.border-callout-style .callout .callout-content {
 }
 .callout {
   padding: 0;
-  border-left: 4px solid rgba(var(--callout-color),0.15); 兼容Anu原生callout
+  /*border-left: 4px solid rgba(var(--callout-color),0.15); 兼容Anu原生callout*/
   background-color:var(--admonition-bg-color);
 }
 /*
