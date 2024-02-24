@@ -519,9 +519,9 @@
   "anuppuccin-custom-background@@anp-custom-bg-brightness-dark": 0.7,
   "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 0,
   "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.6,
-  "Folder-Image@@folder-image-url": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202312101404352.jpeg\")",
-  "Folder-Image@@folder-image-height": "100px",
-  "Folder-Image@@folder-image-width": "100px",
+  "Folder-Image@@folder-image-url": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241513912.png\")",
+  "Folder-Image@@folder-image-height": "200px",
+  "Folder-Image@@folder-image-width": "200px",
   "anuppuccin-theme-settings@@anp-colorful-frame-color@@dark": "#514848",
   "floating-toc-styles@@floating-toc-remove-heading-indicator": true,
   "floating-toc-styles@@floating-toc-header-background-color@@light": "#FFFFFF00",
@@ -606,5 +606,7 @@
   "Mobile@@drawer-phone-full-width": true,
   "Plugin@@colorful-checkbox": false,
   "Editor@@img-center-align": true,
-  "Editor@@seamless-embeds": true
+  "Editor@@seamless-embeds": true,
+  "Folder-Image@@folder-image-radius": 0.2,
+  "Components@@Ribbon-autohide": false
 }

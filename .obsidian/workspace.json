@@ -20,14 +20,15 @@
             }
           },
           {
-            "id": "a496c9c23ba04ade",
+            "id": "d0269756f68dc22f",
             "type": "leaf",
             "state": {
               "type": "style-settings",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +175,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e4940c0da0d4722a",
+  "active": "d0269756f68dc22f",
   "lastOpenFiles": [
     "100-箱中角色/你好.md",
     "assets/十四行诗.assets/image-20230930200552698.jpeg",
