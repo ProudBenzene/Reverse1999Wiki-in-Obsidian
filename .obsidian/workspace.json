@@ -23,11 +23,16 @@
             "id": "6fbb6d4e283d5f7b",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/泥鯭的士.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md",
+                "file": "100-UTTU人物合辑/泥鯭的士.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md",
+                "file": "100-UTTU人物合辑/泥鯭的士.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/十四行诗.md"
+                "file": "100-UTTU人物合辑/泥鯭的士.md"
               }
             }
           },
@@ -178,11 +183,13 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "5340535a513c8295",
+  "active": "6fbb6d4e283d5f7b",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/泥鯭的士.md",
+    "100-UTTU人物合辑/十四行诗.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/星锑.md",
     "100-UTTU人物合辑/assets/星锑.assets/image-20240224220952223.png",
-    "100-UTTU人物合辑/十四行诗.md",
     "100-UTTU人物合辑/assets/星锑.assets/image-20240224220507267.png",
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224214308116.png",
     "100-UTTU人物合辑/assets/十四行诗.assets/image-20240224203957512.png",

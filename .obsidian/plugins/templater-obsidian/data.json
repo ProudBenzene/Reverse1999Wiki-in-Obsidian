@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "000-箱的构成/tp",
+  "templates_folder": "000-箱的构成/templates",
   "templates_pairs": [
     [
       "tianqi",
@@ -13,7 +13,12 @@
   "shell_path": "",
   "user_scripts_folder": "000-箱的构成/script/tp",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "100-UTTU人物合辑",
+      "template": "000-箱的构成/templates/UTTU人物合辑.md"
+    }
+  ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
