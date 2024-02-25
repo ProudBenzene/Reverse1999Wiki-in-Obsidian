@@ -40,6 +40,14 @@
             }
           },
           {
+            "id": "a36eaa38e32809c5",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "0d859ba0c673894c",
             "type": "leaf",
             "state": {
@@ -52,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,7 +211,7 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "e60e67ca5851af9f",
+  "active": "a36eaa38e32809c5",
   "lastOpenFiles": [
     "300-箱外世界/暴雨时间线.md",
     "未命名.md",
