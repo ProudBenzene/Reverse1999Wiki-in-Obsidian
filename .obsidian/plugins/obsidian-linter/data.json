@@ -41,10 +41,10 @@
     },
     "yaml-timestamp": {
       "enabled": true,
-      "date-created": true,
+      "date-created": false,
       "date-created-key": "date created",
       "force-retention-of-create-value": false,
-      "date-modified": true,
+      "date-modified": false,
       "date-modified-key": "date modified",
       "format": "YYYY-M-D, HH:mm a"
     },
@@ -256,8 +256,8 @@
   "customRegexes": [
     {
       "label": "English Name",
-      "find": "(English Name:\\s*)(\\w+)(\\naliases:\\s*-.+\\n)",
-      "replace": "$1$2$3- $2\\n",
+      "find": "(English Name:\\s*)(\\w+)((?:\\n|.)*aliases:\\s*)(- .*\\n)*",
+      "replace": "$1$2$3$4\\n- $2",
       "flags": "gm"
     }
   ],
