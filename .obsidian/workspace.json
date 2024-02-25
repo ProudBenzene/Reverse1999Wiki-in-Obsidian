@@ -28,6 +28,14 @@
             }
           },
           {
+            "id": "96b9a83328264778",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "0d859ba0c673894c",
             "type": "leaf",
             "state": {
@@ -40,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +199,7 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "9ef57e8cd07bc1d9",
+  "active": "96b9a83328264778",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "300-箱外世界/暴雨时间线.md",

@@ -1,3 +1,21 @@
+/*
+Examples:
+> [!timeline|color] <Heading>
+> <Content>
+*/
+
+/* @settings
+name: Timeline Callout
+id: sidenote-callout
+settings:
+    -
+        id: node-Automatic-coloring
+        title: Node Automatic Coloring
+        title.zh: 节点自动着色
+        type: class-select
+        default: false
+*/
+
 /* Timeline Callout settings */
 body {
     --timeline-title-color: var(--text-normal);
@@ -120,4 +138,45 @@ div:has(> [data-callout="timeline"]) + div:not(> [data-callout="timeline"]) {
 .is-live-preview :is([class=cm-line]:has(+ :is(.cm-callout) .callout[data-callout="timeline"]), :is(.cm-callout) .callout[data-callout="timeline"] + [class=cm-line]) {
     line-height: 0;
     padding: 0;
+}
+
+/*******自动着色*******/
+.node-Automatic-coloring.cm-callout:nth-child(8n) {
+  --timeline-dot-color: var(--color-red);
+  --timeline-title-color: var(--color-red);
+}
+
+.node-Automatic-coloring.cm-callout:nth-child(8n+1) {
+  --timeline-dot-color: var(--color-orange);
+  --timeline-title-color: var(--color-orange);
+}
+
+.node-Automatic-coloring.cm-callout:nth-child(8n+2) {
+  --timeline-dot-color: var(--color-yellow);
+  --timeline-title-color: var(--color-yellow);
+}
+
+.node-Automatic-coloring.cm-callout:nth-child(8n+3) {
+  --timeline-dot-color: var(--color-green);
+  --timeline-title-color: var(--color-green);
+}
+
+.node-Automatic-coloring.cm-callout:nth-child(8n+4) {
+  --timeline-dot-color: var(--color-cyan);
+  --timeline-title-color: var(--color-cyan);
+}
+
+.node-Automatic-coloring.cm-callout:nth-child(8n+5) {
+  --timeline-dot-color: var(--color-blue);
+  --timeline-title-color: var(--color-blue);
+}
+
+.node-Automatic-coloring.cm-callout:nth-child(8n+6) {
+  --timeline-dot-color: var(--color-purple);
+  --timeline-title-color: var(--color-purple);
+}
+
+.node-Automatic-coloring.cm-callout:nth-child(8n+7) {
+  --timeline-dot-color: var(--color-pink);
+  --timeline-title-color: var(--color-pink);
 }
