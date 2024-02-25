@@ -256,8 +256,8 @@
   "customRegexes": [
     {
       "label": "English Name",
-      "find": "(English Name:\\s*)(\\w+)((?:\\n|.)*aliases:\\s*)(- .*\\n)*",
-      "replace": "$1$2$3$4\\n- $2",
+      "find": "(English Name:\\s*)(\\w+)([\\s\\S]*?)(aliases:\\s*\\n(?:- .*\\n)*)",
+      "replace": "$1$2$3$4- $2\\n",
       "flags": "gm"
     }
   ],
