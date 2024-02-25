@@ -15,7 +15,7 @@
               "state": {
                 "file": "300-箱外世界/暴雨时间线.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -172,6 +172,9 @@
   },
   "active": "db641cb19c13c03b",
   "lastOpenFiles": [
+    "300-箱外世界/assets/暴雨时间线.assets/举伞司辰.jpg",
+    "300-箱外世界/assets/暴雨时间线.assets",
+    "300-箱外世界/assets",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
@@ -202,8 +205,6 @@
     "000-箱的构成/script/tp",
     "000-箱的构成/script/未命名文件夹",
     "200-相从心生",
-    "400-箱外阵营/未命名",
-    "400-箱外阵营/assets",
     "400-箱外阵营/Reverse设定.md",
     "游戏中的势力/维尔汀 2.md",
     "100-箱中角色/你好.md",
