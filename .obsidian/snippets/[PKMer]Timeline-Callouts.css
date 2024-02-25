@@ -137,8 +137,8 @@ div:has(> [data-callout="timeline"]) + div:not(> [data-callout="timeline"]) {
 }
 
 .is-live-preview :is([class=cm-line]:has(+ :is(.cm-callout) .callout[data-callout="timeline"]), :is(.cm-callout) .callout[data-callout="timeline"] + [class=cm-line]) {
-    line-height: 0 !important;
-    padding: 0 !important;
+    line-height: 0;
+    padding: 0;
 }
 
 /*******自动着色*******/
