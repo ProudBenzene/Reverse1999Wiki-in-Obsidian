@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0d9e92950e83a6c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "000-箱的构成/自动化创建角色档案.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "b3ec59f1e256c576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,17 +170,17 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "0d9e92950e83a6c4",
+  "active": "db641cb19c13c03b",
   "lastOpenFiles": [
-    "未命名.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
     "000-箱的构成/自动化创建角色档案.md",
+    "未命名.md",
     "300-箱外世界/暴雨时间线.md",
     "测试.md",
     "400-箱外阵营/维尔汀.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑：灼热闪耀之星.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾：山麓以南.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/文化 1.png",
@@ -222,7 +197,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/单品 星锑 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets",
     "400-箱外阵营/圣洛夫基金会.md",
     "000-箱的构成/script/tp",
     "000-箱的构成/script/未命名文件夹",
