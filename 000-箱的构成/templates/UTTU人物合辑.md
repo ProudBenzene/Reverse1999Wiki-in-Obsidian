@@ -67,13 +67,13 @@ color:
 
 ````tab
 tab: |
-![文化1|inlL|200](assets/十四行诗.assets/image-20240225000633614.png)
+![文化1|inlL|200](assets/UTTU人物合辑.assets/文化%201.png)
 
 tab: |
-![文化2|inlL|200](assets/十四行诗.assets/image-20240225001531379.png)
+![文化2|inlL|200](assets/UTTU人物合辑.assets/文化%202.png)
 
 tab: |
-![文化3|inlL|200](assets/十四行诗.assets/image-20240225001833478.png)
+![文化3|inlL|200](assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
 
