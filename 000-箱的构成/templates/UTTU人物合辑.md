@@ -47,9 +47,9 @@ color:
 
 ````ad-flex
 collapse: open
-title: 单品（）
+title: 单品（灼热闪耀之星）
 color: 
-> [!note]+ |
+> [!note]+ 海盗的礼帽|
 > 
 > 
 > 
