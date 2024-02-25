@@ -18,8 +18,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "78e0cbecf7456ddf",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255
+    "width": 227
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -93,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300-箱外世界/暴雨时间线.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,7 +176,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "33a92daf32e8b8c4",
+  "active": "78e0cbecf7456ddf",
   "lastOpenFiles": [
     "300-箱外世界/暴雨时间线.md",
     "300-箱外世界/assets/暴雨时间线.assets/举伞司辰.jpg",
