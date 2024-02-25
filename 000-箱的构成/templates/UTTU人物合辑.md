@@ -47,7 +47,7 @@ color:
 
 ````ad-flex
 collapse: open
-title: 单品（巡礼颂）
+title: 单品（）
 color: 
 > [!note]+ |
 > 
