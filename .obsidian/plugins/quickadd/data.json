@@ -48,6 +48,36 @@
       "type": "Macro",
       "command": true,
       "macroId": "db7fc7dd-0f62-4f74-a9a5-b8d1b27a43c9"
+    },
+    {
+      "id": "5fd13276-aeac-4467-be6b-a9d15dc2a5ba",
+      "name": "添加角色",
+      "type": "Template",
+      "command": true,
+      "templatePath": "000-箱的构成/templates/UTTU人物合辑.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "100-UTTU人物合辑"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
     }
   ],
   "macros": [
@@ -199,7 +229,41 @@
     {
       "name": "添加角色",
       "id": "938bdf6f-bc60-4e3d-82b1-d174f35003a8",
-      "commands": [],
+      "commands": [
+        {
+          "name": "UTTU人物合辑",
+          "type": "NestedChoice",
+          "id": "2090ac16-a06a-4f53-8ac8-94ec25614b2f",
+          "choice": {
+            "id": "446d5d03-0c2d-438e-9ab4-1d3aba258173",
+            "name": "UTTU人物合辑",
+            "type": "Template",
+            "command": false,
+            "templatePath": "000-箱的构成/templates/UTTU人物合辑.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": true
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
       "runOnStartup": false
     }
   ],
