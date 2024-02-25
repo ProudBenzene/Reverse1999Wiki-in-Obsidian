@@ -1,5 +1,5 @@
 ---
-Name: 
+Name: <% tp.file.title %>
 English Name: 
 tags: 
 cssclasses:
