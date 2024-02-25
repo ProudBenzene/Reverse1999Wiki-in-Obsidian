@@ -11,29 +11,9 @@
             "id": "518c27482f0be848",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "9ef57e8cd07bc1d9",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e60e67ca5851af9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,13 +28,13 @@
             }
           },
           {
-            "id": "0d859ba0c673894c",
+            "id": "be693b9aae391b7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
-                "mode": "preview",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -134,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "000-箱的构成/templates/UTTU人物合辑.md"
               }
             }
           },
@@ -211,13 +191,13 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "e60e67ca5851af9f",
+  "active": "be693b9aae391b7a",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "300-箱外世界/暴雨时间线.md",
     "未命名.md",
     "测试.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/image-20240224220952223.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/立绘 星锑 01.png.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/立绘 星锑 01.png",

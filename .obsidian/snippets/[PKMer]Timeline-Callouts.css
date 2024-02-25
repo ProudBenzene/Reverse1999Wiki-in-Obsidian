@@ -11,8 +11,8 @@ id: timeline-callout
 settings:
     -
       id: node-automatic-coloring
-      title: Node Automatic Coloring
-      title.zh: 节点自动着色
+      title: Node Automatic Coloring in Live-preview
+      title.zh: 实时模式节点自动着色
       type: class-toggle
       default: false
 */
