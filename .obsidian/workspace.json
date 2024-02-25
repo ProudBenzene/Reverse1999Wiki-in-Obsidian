@@ -22,7 +22,7 @@
               "type": "markdown",
               "state": {
                 "file": "300-箱外世界/暴雨时间线.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,7 +211,7 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "a36eaa38e32809c5",
+  "active": "e60e67ca5851af9f",
   "lastOpenFiles": [
     "300-箱外世界/暴雨时间线.md",
     "未命名.md",
