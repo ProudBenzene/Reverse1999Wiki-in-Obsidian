@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md"
               }
             }
           },
@@ -195,14 +195,17 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "d296fb882068fb8e",
+  "active": "0d9e92950e83a6c4",
   "lastOpenFiles": [
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/单品 星锑 04.png",
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets",
+    "000-箱的构成/templates/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 01.png",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "300-箱外世界/暴雨时间线.md",
     "未命名.md",
     "测试.md",
@@ -212,7 +215,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225001833478.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225001531379.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/image-20240225000633614.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗.assets/单品 十四行诗 05.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist",
@@ -223,9 +225,7 @@
     "200-相从心生",
     "400-箱外阵营/未命名",
     "400-箱外阵营/assets",
-    "400-箱外阵营",
     "400-箱外阵营/Reverse设定.md",
-    "300-箱外世界",
     "400-箱外阵营/维尔汀.md",
     "游戏中的势力/维尔汀 2.md",
     "100-箱中角色/你好.md",
