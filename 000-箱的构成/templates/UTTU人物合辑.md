@@ -67,11 +67,13 @@ color:
 
 ````tab
 tab: |
-
-
-tab: |
-
+![文化1|inlL|200](assets/十四行诗.assets/image-20240225000633614.png)
 
 tab: |
+![文化2|inlL|200](assets/十四行诗.assets/image-20240225001531379.png)
+
+tab: |
+![文化3|inlL|200](assets/十四行诗.assets/image-20240225001833478.png)
 
 ````
+
