@@ -253,7 +253,14 @@
   "linterLocale": "en",
   "logLevel": "ERROR",
   "lintCommands": [],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "English Name",
+      "find": "",
+      "replace": "",
+      "flags": "Sonneto"
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "single string comma delimited",
     "tagArrayStyle": "single string comma delimited",
