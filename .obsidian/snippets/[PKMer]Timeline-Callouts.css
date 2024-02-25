@@ -113,27 +113,35 @@ div:has(> [data-callout="timeline"]) + div:not(> [data-callout="timeline"]) {
 /* Timeline dot colors */
 [data-callout-metadata="red"] {
     --timeline-dot-color: var(--color-red);
+    --timeline-title-color: var(--color-red);
 }
 [data-callout-metadata="orange"] {
     --timeline-dot-color: var(--color-orange);
+    --timeline-title-color: var(--color-orange);
 }
 [data-callout-metadata="yellow"] {
     --timeline-dot-color: var(--color-yellow);
+    --timeline-title-color: var(--color-yellow);
 }
 [data-callout-metadata="green"] {
     --timeline-dot-color: var(--color-green);
+    --timeline-title-color: var(--color-green);
 }
 [data-callout-metadata="cyan"] {
     --timeline-dot-color: var(--color-cyan);
+    --timeline-title-color: var(--color-cyan);
 }
 [data-callout-metadata="blue"] {
     --timeline-dot-color: var(--color-blue);
+    --timeline-title-color: var(--color-blue);
 }
 [data-callout-metadata="purple"] {
     --timeline-dot-color: var(--color-purple);
+    --timeline-title-color: var(--color-purple);
 }
 [data-callout-metadata="pink"] {
     --timeline-dot-color: var(--color-pink);
+    --timeline-title-color: var(--color-pink);
 }
 
 .is-live-preview :is([class=cm-line]:has(+ :is(.cm-callout) .callout[data-callout="timeline"]), :is(.cm-callout) .callout[data-callout="timeline"] + [class=cm-line]) {
