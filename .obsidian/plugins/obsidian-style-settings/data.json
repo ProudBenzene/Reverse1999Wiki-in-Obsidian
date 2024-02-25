@@ -193,7 +193,7 @@
   "anuppuccin-theme-settings@@anp-card-radius": 16,
   "Blue-Topaz-Legacy@@toggle-split-note-background": true,
   "Blue-Topaz-Legacy@@notebook-liked-markdown-page-options": "notebook-liked-markdown-page-grid-notebook-1",
-  "Blue-Topaz-Legacy@@background-notebook-liked-switch": false,
+  "Blue-Topaz-Legacy@@background-notebook-liked-switch": true,
   "Blue-Topaz-Legacy@@text-indentation-two-em": true,
   "Blue-Topaz-Legacy@@justify-align": true,
   "Blue-Topaz-Legacy@@h1-margin": "20px 0px",
@@ -610,5 +610,6 @@
   "Appearance-dark@@background-underlying-select-dark": "background-underlying-primary-dark",
   "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
   "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "luminosity",
-  "timeline-callout@@node-automatic-coloring": true
+  "timeline-callout@@node-automatic-coloring": true,
+  "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00"
 }

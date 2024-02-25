@@ -20,15 +20,27 @@
             }
           },
           {
-            "id": "505748ef4a8a9af5",
+            "id": "760998845e0d6602",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "7f5e201b244a3ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md"
+              }
             }
           },
           {
@@ -176,7 +192,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "505748ef4a8a9af5",
+  "active": "7f5e201b244a3ab1",
   "lastOpenFiles": [
     "300-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑：灼热闪耀之星.md",
