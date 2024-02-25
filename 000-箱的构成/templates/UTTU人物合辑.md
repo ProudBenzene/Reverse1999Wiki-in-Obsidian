@@ -1,5 +1,5 @@
 ---
-name: <% tp.file.title.split("：")[0] %>
+Name: <% tp.file.title.split("：")[0] %>
 English Name: 
 tags: 
 cssclasses:
@@ -16,7 +16,7 @@ Udimo:
 香调: 
 初始衣着: 
 aliases:
-  - <% tp.frontmatter.name %>
+  - <% tp.frontmatter.Name %>
 
 ---
 

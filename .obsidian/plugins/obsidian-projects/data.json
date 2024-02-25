@@ -30,7 +30,8 @@
             "includeFields": [
               "English Name",
               "稀有度",
-              "灵感"
+              "灵感",
+              "aliases"
             ],
             "cardWidth": 200
           },
@@ -119,12 +120,29 @@
                 "hide": true
               },
               "角色灵感": {
-                "hide": false
+                "hide": false,
+                "width": 185
               },
               "介质": {
                 "hide": true
               }
-            }
+            },
+            "orderFields": [
+              "Name",
+              "name",
+              "定位标签",
+              "角色灵感",
+              "灵感",
+              "人物合辑",
+              "伤害类型",
+              "稀有度",
+              "香调",
+              "aliases",
+              "cssclasses",
+              "English Name",
+              "tags",
+              "Udimo"
+            ]
           },
           "filter": {
             "conditions": []
