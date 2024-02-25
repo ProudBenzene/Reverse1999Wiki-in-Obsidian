@@ -264,46 +264,6 @@
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": true
           }
-        },
-        {
-          "name": "英文名填充",
-          "type": "NestedChoice",
-          "id": "95078aa5-f81d-49ed-92fb-352bbd7db529",
-          "choice": {
-            "id": "edcad2d7-dd43-4462-9448-002d48365d58",
-            "name": "英文名填充",
-            "type": "Capture",
-            "command": false,
-            "appendLink": false,
-            "captureTo": "",
-            "captureToActiveFile": true,
-            "createFileIfItDoesntExist": {
-              "enabled": false,
-              "createWithTemplate": false,
-              "template": ""
-            },
-            "format": {
-              "enabled": true,
-              "format": ""
-            },
-            "insertAfter": {
-              "enabled": false,
-              "after": "",
-              "insertAtEnd": false,
-              "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
-            },
-            "prepend": false,
-            "task": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default"
-          }
         }
       ],
       "runOnStartup": false
