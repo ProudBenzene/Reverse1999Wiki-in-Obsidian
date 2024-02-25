@@ -1,29 +1,21 @@
-/* @settings
-
-name: Timeline Callout
-id: timeline-callout
-settings:
-    -
-      id: typography
-      title: Typography
-      title.zh: 字体与排版
-      type: heading
-      level: 1
-      collapsed: true
-    -
-      id: node-automatic-coloring
-      title: Node Automatic Coloring
-      title.zh: 节点自动着色
-      type: class-select
-      default: false
-*/
-
 /*
 Examples:
 > [!timeline|color] <Heading>
 > <Content>
 */
 
+/* @settings
+
+name: Timeline Callout
+id: timeline-callout
+settings:
+    -
+      id: node-automatic-coloring
+      title: Node Automatic Coloring
+      title.zh: 节点自动着色
+      type: class-toggle
+      default: false
+*/
 
 /* Timeline Callout settings */
 body {
@@ -145,8 +137,8 @@ div:has(> [data-callout="timeline"]) + div:not(> [data-callout="timeline"]) {
 }
 
 .is-live-preview :is([class=cm-line]:has(+ :is(.cm-callout) .callout[data-callout="timeline"]), :is(.cm-callout) .callout[data-callout="timeline"] + [class=cm-line]) {
-    line-height: 0;
-    padding: 0;
+    line-height: 0 !important;
+    padding: 0 !important;
 }
 
 /*******自动着色*******/

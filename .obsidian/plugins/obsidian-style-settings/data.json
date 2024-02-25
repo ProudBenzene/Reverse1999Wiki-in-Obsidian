@@ -609,5 +609,6 @@
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-primary-dark",
   "Appearance-dark@@background-underlying-select-dark": "background-underlying-primary-dark",
   "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
-  "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "luminosity"
+  "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "luminosity",
+  "timeline-callout@@node-automatic-coloring": true
 }
