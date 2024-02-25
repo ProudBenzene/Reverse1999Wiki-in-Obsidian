@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247
+    "width": 255
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -172,10 +172,10 @@
   },
   "active": "db641cb19c13c03b",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
     "000-箱的构成/自动化创建角色档案.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
     "未命名.md",
     "300-箱外世界/暴雨时间线.md",
     "测试.md",
