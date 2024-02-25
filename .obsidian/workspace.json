@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/自动化创建角色档案.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -38,13 +38,13 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/templates/UTTU人物合辑.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "000-箱的构成/自动化创建角色档案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "000-箱的构成/自动化创建角色档案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md"
+                "file": "000-箱的构成/自动化创建角色档案.md"
               }
             }
           },
@@ -195,10 +195,10 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "b3ec59f1e256c576",
+  "active": "0d9e92950e83a6c4",
   "lastOpenFiles": [
-    "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
+    "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑：灼热闪耀之星.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
