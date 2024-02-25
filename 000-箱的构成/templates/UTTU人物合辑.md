@@ -1,5 +1,5 @@
 ---
-Name: <% tp.file.title %>
+Name: <% tp.file.title.split("：")[0] %>
 English Name: 
 tags: 
 cssclasses:

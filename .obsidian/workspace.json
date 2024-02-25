@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑：灼热闪耀之星.md",
                 "mode": "preview",
                 "source": true
               }
@@ -44,12 +44,24 @@
             }
           },
           {
-            "id": "4707657ac7d93958",
+            "id": "e9659ecbffae2149",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾：山麓以南.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4707657ac7d93958",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
                 "mode": "source",
                 "source": false
               }
@@ -207,25 +219,25 @@
       "cmdr:在文件列表中显示当前文件": false
     }
   },
-  "active": "4707657ac7d93958",
+  "active": "e9659ecbffae2149",
   "lastOpenFiles": [
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾：山麓以南.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑：灼热闪耀之星.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/文化 1.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/文化1.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/文化 3.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets",
     "000-箱的构成/templates/assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 06.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 05.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 04.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/单品 星锑 06.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/单品 星锑 05.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/单品 星锑 04.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/单品 星锑 04.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑.assets/单品 星锑 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/单品 星锑 03.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/单品 星锑 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/单品 星锑 01.png",
     "300-箱外世界/暴雨时间线.md",
     "未命名.md",
     "测试.md",
