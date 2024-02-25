@@ -195,6 +195,12 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "添加角色",
+      "id": "938bdf6f-bc60-4e3d-82b1-d174f35003a8",
+      "commands": [],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
