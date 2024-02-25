@@ -160,42 +160,50 @@ div:has(> [data-callout="timeline"]) + div:not(> [data-callout="timeline"]) {
 }
 
 /*******自动着色*******/
-.node-automatic-coloring.cm-callout:nth-child(8n) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n), 
+.cm-callout:nth-child(8n) {
   --timeline-dot-color: var(--color-red);
   --timeline-title-color: var(--color-red);
 }
 
-.node-automatic-coloring.cm-callout:nth-child(8n+1) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n+1), 
+.cm-callout:nth-child(8n+1) {
   --timeline-dot-color: var(--color-orange);
   --timeline-title-color: var(--color-orange);
 }
 
-.node-automatic-coloring.cm-callout:nth-child(8n+2) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n+2), 
+.cm-callout:nth-child(8n+2) {
   --timeline-dot-color: var(--color-yellow);
   --timeline-title-color: var(--color-yellow);
 }
 
-.node-automatic-coloring.cm-callout:nth-child(8n+3) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n+3),
+.cm-callout:nth-child(8n+3) {
   --timeline-dot-color: var(--color-green);
   --timeline-title-color: var(--color-green);
 }
 
-.node-automatic-coloring.cm-callout:nth-child(8n+4) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n+4),
+.cm-callout:nth-child(8n+4) {
   --timeline-dot-color: var(--color-cyan);
   --timeline-title-color: var(--color-cyan);
 }
 
-.node-automatic-coloring.cm-callout:nth-child(8n+5) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n+5),
+.cm-callout:nth-child(8n+5) {
   --timeline-dot-color: var(--color-blue);
   --timeline-title-color: var(--color-blue);
 }
 
-.node-automatic-coloring.cm-callout:nth-child(8n+6) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n+6),
+.cm-callout:nth-child(8n+6) {
   --timeline-dot-color: var(--color-purple);
   --timeline-title-color: var(--color-purple);
 }
 
-.node-automatic-coloring.cm-callout:nth-child(8n+7) {
+.node-automatic-coloring.div:has(>div.callout[data-callout='timeline']):nth-child(8n+7),
+.cm-callout:nth-child(8n+7) {
   --timeline-dot-color: var(--color-pink);
   --timeline-title-color: var(--color-pink);
 }
