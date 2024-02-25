@@ -19,6 +19,16 @@ settings:
 
 /* Timeline Callout settings */
 body {
+
+    --color-red: red;
+    --color-orange: orange;
+    --color-yellow: yellow;
+    --color-green: green;
+    --color-cyan: cyan;
+    --color-blue: blue;
+    --color-purple: purple;
+    --color-pink: pink;
+
     --timeline-title-color: var(--text-normal);
     --timeline-title-size: var(--h2-size);
     --timeline-title-width: 150px;
