@@ -58,12 +58,6 @@
       "icon": "type",
       "name": "Open with",
       "mode": "any"
-    },
-    {
-      "id": "quickadd:choice:5fd13276-aeac-4467-be6b-a9d15dc2a5ba",
-      "icon": "user-check",
-      "name": "添加角色",
-      "mode": "any"
     }
   ],
   "macros": [],
