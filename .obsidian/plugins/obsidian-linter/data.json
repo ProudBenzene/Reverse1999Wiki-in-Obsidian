@@ -69,7 +69,7 @@
       "enabled": false
     },
     "header-increment": {
-      "enabled": true,
+      "enabled": false,
       "start-at-h2": false
     },
     "headings-start-line": {
@@ -257,7 +257,7 @@
     {
       "label": "English Name",
       "find": "(English Name:\\s*)(\\w+)([\\s\\S]*?)(aliases:\\s*\\n(?:- .*\\n)*)",
-      "replace": "$1$2$3$4- $2\\n",
+      "replace": "$1$2$3$4  - $2\\n",
       "flags": "gm"
     }
   ],
