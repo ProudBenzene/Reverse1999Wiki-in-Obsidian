@@ -17,7 +17,6 @@ Udimo:
 初始衣着: 
 aliases:
   - <% tp.frontmatter.name %>
-  - <% tp.frontmatter["English Name"] %>
 
 ---
 

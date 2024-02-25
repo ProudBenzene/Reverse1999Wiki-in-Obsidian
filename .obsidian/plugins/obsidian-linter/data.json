@@ -256,9 +256,9 @@
   "customRegexes": [
     {
       "label": "English Name",
-      "find": "",
-      "replace": "",
-      "flags": "Sonneto"
+      "find": "(English Name:\\s*)(\\w+)(\\naliases:\\s*-.+\\n)",
+      "replace": "$1$2$3- $2\\n",
+      "flags": "gm"
     }
   ],
   "commonStyles": {
