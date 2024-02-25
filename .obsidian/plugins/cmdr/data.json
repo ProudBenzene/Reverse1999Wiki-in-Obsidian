@@ -58,6 +58,12 @@
       "icon": "type",
       "name": "Open with",
       "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:5fd13276-aeac-4467-be6b-a9d15dc2a5ba",
+      "icon": "users",
+      "name": "全新角色登场",
+      "mode": "any"
     }
   ],
   "macros": [],
