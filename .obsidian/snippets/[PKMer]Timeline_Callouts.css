@@ -5,8 +5,9 @@ Examples:
 */
 
 /* @settings
+
 name: Timeline Callout
-id: sidenote-callout
+id: timeline-callout
 settings:
     -
         id: node-Automatic-coloring
