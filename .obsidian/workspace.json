@@ -52,6 +52,30 @@
             }
           },
           {
+            "id": "b3388b343d4488ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "681cf9e70c8f1334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "e66fd8f1d346357a",
             "type": "leaf",
             "state": {
@@ -60,18 +84,6 @@
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
                 "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ad2c9e7d6eeb960a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
-                "mode": "preview",
-                "source": true
               }
             }
           }
@@ -150,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md"
+                "file": "000-箱的构成/templates/UTTU人物合辑.md"
               }
             }
           },
@@ -228,14 +240,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ad2c9e7d6eeb960a",
+  "active": "681cf9e70c8f1334",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/星锑的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/星锑的尤提姆.mp4",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee1.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：An-an Lee.md",
     "000-箱的构成/自动化创建角色档案.md",
@@ -261,7 +273,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾：山麓以南.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/文化 1.png",
-    "000-箱的构成/templates/assets/UTTU人物合辑.assets/文化1.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets",
     "000-箱的构成/templates/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
