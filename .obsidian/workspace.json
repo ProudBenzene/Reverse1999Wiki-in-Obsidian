@@ -28,12 +28,14 @@
             }
           },
           {
-            "id": "3a932685cbd2bd8d",
+            "id": "9c020bc9d7b91125",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222605215.png"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -112,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222605215.png",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222605215.png",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222605215.png"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md"
               }
             }
           },
@@ -190,11 +192,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "9c020bc9d7b91125",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222605215.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222819354.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/立绘 泥鯭的士 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/立绘 泥鯭的士 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑：灼热闪耀之星.md",

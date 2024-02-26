@@ -56,8 +56,8 @@
       "command": true,
       "templatePath": "000-箱的构成/templates/UTTU人物合辑.md",
       "fileNameFormat": {
-        "enabled": true,
-        "format": "{{name}}：{{mvalue}}"
+        "enabled": false,
+        "format": ""
       },
       "folder": {
         "enabled": true,
