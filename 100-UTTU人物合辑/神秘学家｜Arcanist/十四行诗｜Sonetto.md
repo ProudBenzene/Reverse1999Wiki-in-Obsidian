@@ -33,9 +33,13 @@ aliases:
 > - 参展时长:: 16 年
 > - 参展地点:: 圣洛夫基金会对外巡查组
 
+## 单品
+
+### 初始衣着
+
 ````ad-flex
 collapse: open
-title: 单品（初始）
+title: 
 color: 
 > [!note]+ 第八期优秀成员证明|Medal
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2001.png)
@@ -53,9 +57,11 @@ color:
 > 一支能描绘出诗歌中种种意象的玻璃笔，但对于那些诗歌未及之物，它也无能为力。 在所有目睹过的人看来，十四行诗所画出的场景都无限接近于外面的世界。
 ````
 
+### 巡礼颂
+
 ````ad-flex
 collapse: open
-title: 单品（巡礼颂）
+title: 
 color: 
 > [!note]+ 巡礼制服帽|Parade Uniform Beret
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2004.png)
@@ -72,6 +78,8 @@ color:
 > **无估值**
 > 第一防线学校单独授予十四行诗的巡礼手杖，作为给最优秀毕业生的荣耀勋章。她将持它立于队列之首，一如既往。
 ````
+
+## 文化
 
 ````tab
 tab: 基金会的孩子们|The Children of SF

@@ -239,6 +239,21 @@
     "default-language-for-code-fences": {
       "enabled": false,
       "default-language": ""
+    },
+    "dedupe-yaml-array-values": {
+      "enabled": false,
+      "dedupe-alias-key": true,
+      "dedupe-tag-key": true,
+      "dedupe-array-keys": true,
+      "ignore-keys": ""
+    },
+    "sort-yaml-array-values": {
+      "enabled": false,
+      "sort-alias-key": true,
+      "sort-tag-key": true,
+      "sort-array-keys": true,
+      "ignore-keys": "",
+      "sort-order": "Ascending Alphabetical"
     }
   },
   "lintOnSave": true,
@@ -253,14 +268,7 @@
   "linterLocale": "en",
   "logLevel": "ERROR",
   "lintCommands": [],
-  "customRegexes": [
-    {
-      "label": "English Name",
-      "find": "(English Name:\\s*)(\\w+)([\\s\\S]*?)(aliases:\\s*\\n(?:- .*\\n)*)",
-      "replace": "$1$2$3$4  - $2\\n",
-      "flags": "gm"
-    }
-  ],
+  "customRegexes": [],
   "commonStyles": {
     "aliasArrayStyle": "single string comma delimited",
     "tagArrayStyle": "single string comma delimited",
