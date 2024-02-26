@@ -71,21 +71,12 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
-            }
-          },
-          {
-            "id": "7a5be5f4ac90531f",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
             }
           }
         ],
-        "currentTab": 5,
-        "stacked": true
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -239,6 +230,7 @@
   },
   "active": "ad2c9e7d6eeb960a",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/星锑的尤提姆.mp4",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
