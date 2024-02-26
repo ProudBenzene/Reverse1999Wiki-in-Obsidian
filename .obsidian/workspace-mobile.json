@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "f1926a3b528061c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "43f23039cb40d982",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d792098992108f72",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "042dc480c4947484",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b65d2551a3ca1829",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "14152bc602922aff",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "96bbd10acd450a45",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "a5b7d0980941be39",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "f75d4554128107a6",
+        "type": "leaf",
+        "state": {
+          "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "d499140303bd7ca4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "05841a357be7935d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "3a8856743f6cb556",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c071bf948feb3209",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-plugin-update-tracker:Plugin Update Tracker": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian42-brat:BRAT": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
+      "cmdr:切换明暗主题": false,
+      "cmdr:在文件列表中显示当前文件": false,
+      "cmdr:Projects": false,
+      "float-search:Search Obsidian In Modal": false
+    }
+  },
+  "active": "b65d2551a3ca1829",
+  "lastOpenFiles": [
+    "400-箱外阵营/Reverse设定.md",
+    "400-箱外阵营/圣洛夫基金会.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/image-20240224220507267.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222605215.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/image-20240224222819354.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗：巡礼颂.assets/image-20240224214308116.png"
+  ]
+}
