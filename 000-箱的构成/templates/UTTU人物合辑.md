@@ -15,8 +15,10 @@ Udimo:
 定位标签: 
 香调: 
 初始衣着: 
+洞悉二衣着: 
 aliases:
-  - <% tp.frontmatter.Name %>
+  - <% tp.file.title.split("：")[0] %>
+  - <% tp.file.title.split("：")[1] %>
 
 ---
 
@@ -49,7 +51,7 @@ color:
 
 ````ad-flex
 collapse: open
-title: 单品（<% tp.file.title.split("：")[1] %>）
+title: 单品（）
 color: 
 > [!note]+ |
 > 

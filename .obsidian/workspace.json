@@ -40,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,26 +188,26 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4aa4c11017d130f0",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
+    "000-箱的构成/自动化创建角色档案.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/立绘 泥鯭的士 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/立绘 泥鯭的士 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑：灼热闪耀之星.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗：巡礼颂.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/image-20230930172525076.jpeg",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/image-20240224220507267.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/image-20240224220952223.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗：巡礼颂.assets/image-20240224214308116.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗：巡礼颂.assets/image-20240224203957512.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/image-20240224214308116.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/image-20240224203957512.png",
     "300-箱外世界/暴雨时间线.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "300-箱外世界/assets/暴雨时间线.assets/举伞司辰.jpg",
     "300-箱外世界/assets/暴雨时间线.assets",
     "300-箱外世界/assets",
-    "000-箱的构成/自动化创建角色档案.md",
     "未命名.md",
     "测试.md",
     "400-箱外阵营/维尔汀.md",
