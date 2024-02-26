@@ -468,7 +468,7 @@
   "notation-2-theme@@banner-type-select": "banner-default",
   "Blue-Topaz-Legacy@@show-full-metadata": true,
   "anuppuccin-theme-settings@@anp-table-th-highlight": true,
-  "anuppuccin-theme-settings@@anp-h2-divider": true,
+  "anuppuccin-theme-settings@@anp-h2-divider": false,
   "obsidian-prism-mark-highlight-system@@dark-mark-highlight-style": "pt-highlight-style-borderandfilled-dt",
   "obsidian-prism-mark-highlight-system@@dark-mark-highlight-text-color-preset": "pt-highlight-text-color-dt",
   "pandoc-reference-list@@pwc-font-size": 14,

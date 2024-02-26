@@ -50,9 +50,42 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e66fd8f1d346357a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad2c9e7d6eeb960a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a5be5f4ac90531f",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -126,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md"
               }
             }
           },
@@ -204,18 +237,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "8cd5282fcab3c71e",
+  "active": "ad2c9e7d6eeb960a",
   "lastOpenFiles": [
-    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee1.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：An-an Lee.md",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.md",
     "300-箱外世界/暴雨时间线.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/立绘 泥鯭的士 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士：HK鬼见愁.assets/立绘 泥鯭的士 02.png",
