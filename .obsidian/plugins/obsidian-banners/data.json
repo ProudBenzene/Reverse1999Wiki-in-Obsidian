@@ -1,5 +1,6 @@
 {
   "style": "gradient",
+  "height": 250,
   "adjustWidthToReadableLineWidth": false,
   "showInInternalEmbed": false,
   "showInPopover": false,
@@ -14,6 +15,5 @@
   "useTwemoji": false,
   "showPreviewInLocalModal": true,
   "autoDownloadPastedBanners": false,
-  "version": "2.0.5-beta",
-  "height": 250
+  "version": "2.0.5-beta"
 }
