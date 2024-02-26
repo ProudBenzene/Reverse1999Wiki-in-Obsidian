@@ -76,7 +76,7 @@ tab: |
 tab: |
 ![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: |[UTTU×]
+tab: |[UTTU×<% tp.file.title.split("|")[0] %>]
 ![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
