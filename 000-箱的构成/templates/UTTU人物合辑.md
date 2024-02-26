@@ -1,5 +1,5 @@
 ---
-Name: <% tp.file.title.split("|")[0] %>
+Name: <% tp.file.title.split("｜")[0] %>
 English Name: 
 tags: 
 cssclasses:
@@ -17,8 +17,8 @@ Udimo:
 初始衣着: 
 洞悉二衣着: 
 aliases:
-  - <% tp.file.title.split("|")[0] %>
-  - <% tp.file.title.split("|")[1] %>
+  - <% tp.file.title.split("｜")[0] %>
+  - <% tp.file.title.split("｜")[1] %>
 
 ---
 
@@ -76,7 +76,7 @@ tab: |
 tab: |
 ![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: |[UTTU×<% tp.file.title.split("|")[0] %>]
+tab: |[UTTU×<% tp.file.title.split("｜")[0] %>]
 ![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
