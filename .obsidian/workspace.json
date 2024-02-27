@@ -62,9 +62,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3a8e3c941c066cea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55df20797435bb18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c665a7ce8531ad63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,6 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +213,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md"
+              }
             }
           },
           {
@@ -212,19 +252,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "31f051713bc4c453",
+  "active": "55df20797435bb18",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 03.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 02.png",

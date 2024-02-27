@@ -20,6 +20,7 @@ Udimo: 幼狮类
   - 小豆蔻
   - 金桔
 初始衣着: "[[assets/星锑｜Regulus.assets/image-20240224220952223.png]]"
+洞悉二衣着: 
 aliases:
   - Regulus
   - 星锑

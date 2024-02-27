@@ -24,6 +24,7 @@ Udimo: 西西里灵缇类
   - 辛香料
 初始衣着: "[[assets/十四行诗｜Sonetto.assets/image-20240224214308116.png]]"
 aliases: 
+banner: "[[image-20240224214308116.png]]"
 ---
 ![cover](assets/十四行诗｜Sonetto.assets/image-20240224203957512.png)
 
