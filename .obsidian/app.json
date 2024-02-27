@@ -3,13 +3,14 @@
   "attachmentFolderPath": "./assets/伊索尔德｜Isolde.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
-  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "newFileLocation": "current"
 }
