@@ -19,11 +19,12 @@ Udimo: 幼狮类
   - 黑醋栗
   - 小豆蔻
   - 金桔
-初始衣着: "[[assets/星锑｜Regulus.assets/image-20240224220952223.png]]"
-洞悉二衣着: 
+初始衣着: 星锑—胡椒博士与黑胶唱片都是她的最爱。
+洞悉二衣着: 灼热闪耀之星—好摇滚、酷座驾和棒朋友，她与她热爱的一切。
 aliases:
   - Regulus
   - 星锑
+banner: "[[image-20240224220952223.png]]"
 ---
 
 ![cover](assets/星锑｜Regulus.assets/image-20240224220507267.png)
