@@ -43,11 +43,9 @@
             "id": "6653deb5658edf17",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
-                "mode": "source",
-                "source": true
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png"
               }
             }
           }
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png"
               }
             }
           },
@@ -204,10 +202,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "6653deb5658edf17",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
-    "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets",
+    "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
@@ -229,7 +229,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/image-20240224220952223.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/image-20240224214308116.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/image-20240224203957512.png",
-    "300-箱外世界/assets/暴雨时间线.assets/举伞司辰.jpg",
     "300-箱外世界/assets/暴雨时间线.assets",
     "300-箱外世界/assets",
     "未命名.md",
@@ -244,7 +243,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee",
     "400-箱外阵营/圣洛夫基金会.md",
     "000-箱的构成/script/tp",
-    "000-箱的构成/script/未命名文件夹",
     "400-箱外阵营/Reverse设定.md",
     "游戏中的势力/维尔汀 2.md",
     "100-箱中角色/你好.md",
