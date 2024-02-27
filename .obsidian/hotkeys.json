@@ -28,13 +28,6 @@
         "Shift"
       ],
       "key": "="
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowRight"
     }
   ],
   "workspace:previous-tab": [
@@ -58,13 +51,6 @@
         "Shift"
       ],
       "key": "-"
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowLeft"
     }
   ]
 }
