@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227,
-    "collapsed": true
+    "width": 227
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -207,7 +206,11 @@
   },
   "active": "7024c856953d09ec",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/立绘 6 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/单品 6 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/单品 6 02.png",
@@ -222,10 +225,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/单品 十四行诗 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/单品 十四行诗 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/星锑的尤提姆.mp4",
@@ -247,11 +247,9 @@
     "000-箱的构成/templates/assets/UTTU人物合辑.assets",
     "000-箱的构成/templates/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist",
     "400-箱外阵营/圣洛夫基金会.md",
     "400-箱外阵营/Reverse设定.md",
     "游戏中的势力/维尔汀 2.md",
-    "100-箱中角色/你好.md",
-    "Welcome.md"
+    "100-箱中角色/你好.md"
   ]
 }
