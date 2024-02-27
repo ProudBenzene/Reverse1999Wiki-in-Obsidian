@@ -62,33 +62,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f0ecf3c26698a0b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c665a7ce8531ad63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md"
-              }
+              "state": {}
             }
           },
           {
@@ -240,19 +212,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c665a7ce8531ad63",
+  "active": "31f051713bc4c453",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 01.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/单品 十四行诗 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/单品 十四行诗 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 01.png",

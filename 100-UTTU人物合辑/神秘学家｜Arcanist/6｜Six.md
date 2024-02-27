@@ -1,7 +1,7 @@
 ---
 Name: "6"
 English Name: Six
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanist
@@ -11,7 +11,7 @@ cssclasses:
 角色灵感: 洞穴的智者[智] 智慧传承
 伤害类型: 精神创伤
 传承: 知识的崇奉
-Udimo: 
+Udimo:
 定位标签:
   - 辅助
   - 削弱
@@ -26,6 +26,7 @@ Udimo:
 洞悉二衣着: 完备者—孤独的领袖。
 aliases:
   - Six
+  - "6"
 ---
 ![cover](assets/6｜Six.assets/立绘%206%2002.png)
 

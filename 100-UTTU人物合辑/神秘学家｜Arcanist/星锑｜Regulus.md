@@ -1,7 +1,7 @@
 ---
 Name: 星锑
 English Name: Regulus
-tags: 
+tags:
 cssclasses:
   - book
 介质: 神秘学家｜Arcanist
@@ -25,6 +25,7 @@ aliases:
   - Regulus
   - 星锑
 banner: "[[image-20240224220952223.png]]"
+人物合辑: 神秘学家｜Arcanist
 ---
 
 ![cover](assets/星锑｜Regulus.assets/image-20240224220507267.png)

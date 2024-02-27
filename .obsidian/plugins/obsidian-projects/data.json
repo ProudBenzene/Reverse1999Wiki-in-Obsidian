@@ -32,7 +32,9 @@
         "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 02.png",
         "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 03.png",
         "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 01.png",
-        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 02.png"
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 02.png",
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 02.png"
       ],
       "isDefault": true,
       "dataSource": {
@@ -46,7 +48,7 @@
       "views": [
         {
           "config": {
-            "coverField": "初始衣着",
+            "coverField": "banner",
             "fitStyle": "cover",
             "includeFields": [
               "English Name",
@@ -135,7 +137,7 @@
                 "hide": true
               },
               "初始衣着": {
-                "hide": true
+                "hide": false
               },
               "传承": {
                 "hide": true
