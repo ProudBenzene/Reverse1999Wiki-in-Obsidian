@@ -38,9 +38,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "7024c856953d09ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md"
+              }
             }
           },
           {
@@ -189,8 +205,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "7271e1193e293478",
+  "active": "7024c856953d09ec",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/单品 6 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/单品 6 02.png",
