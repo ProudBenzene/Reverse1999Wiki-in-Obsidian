@@ -1,9 +1,9 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/兔毛手袋｜Medicine Pocket.assets",
+  "attachmentFolderPath": "./assets/6｜Six.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
   "readableLineLength": false
 }
