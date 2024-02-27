@@ -38,7 +38,7 @@ aliases:
 
 ## 单品
 
-### 初始衣着
+### 洞二衣着
 
 ````ad-flex
 collapse: open
@@ -60,7 +60,7 @@ color:
 > 
 ````
 
-### 洞二衣着
+### 
 
 ````ad-flex
 collapse: open

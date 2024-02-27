@@ -45,45 +45,23 @@ aliases:
 
 ## 单品
 
-### 初始衣着
+### 内有恶犬
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!note]+ |
+> [!note]+ 研究员身份标识牌|Researcher ID
+> 
+> 
+> 拉普拉斯配发给研究员的身份表示牌照，排版与色彩中规中矩，配有硅胶制外包裹金属镀膜的磁吸扣。受访者相当“风趣”地为其黏上了一枚贴纸。
+
+> [!note]+ 白手套|White Gloves
 > 
 > 
 > 
 
-> [!note]+ |
-> 
-> 
-> 
-
-> [!note]+ |
-> 
-> 
-> 
-````
-
-### 洞二衣着
-
-````ad-flex
-collapse: open
-title: 
-color: 
-> [!note]+ |
-> 
-> 
-> 
-
-> [!note]+ |
-> 
-> 
-> 
-
-> [!note]+ |
+> [!note]+ 米格鲁0-1号 体液分析套组|
 > 
 > 
 > 
