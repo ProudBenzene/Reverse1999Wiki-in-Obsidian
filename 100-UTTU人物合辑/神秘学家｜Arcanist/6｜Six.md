@@ -22,7 +22,7 @@ Udimo:
   - 焚香
   - 龙涎香
   - 水
-初始衣着: "[[立绘 6 01.png]]"
+初始衣着: "[[100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 01.png]]"
 洞悉二衣着: 完备者——孤独的领袖。
 aliases:
   - Six
