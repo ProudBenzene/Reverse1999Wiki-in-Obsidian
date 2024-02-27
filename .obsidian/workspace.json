@@ -43,9 +43,23 @@
             "id": "6653deb5658edf17",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bbe2beadd74ed2a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md"
               }
             }
           },
@@ -202,15 +216,21 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "6653deb5658edf17",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 06.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 05.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 04.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 03.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/十四行诗的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/星锑的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/星锑的尤提姆.mp4",
@@ -220,15 +240,10 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.md",
     "300-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee/立绘 泥鯭的士 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/image-20230930172525076.jpeg",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/image-20240224220507267.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/image-20240224220952223.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/image-20240224214308116.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/image-20240224203957512.png",
     "300-箱外世界/assets/暴雨时间线.assets",
     "300-箱外世界/assets",
     "未命名.md",
