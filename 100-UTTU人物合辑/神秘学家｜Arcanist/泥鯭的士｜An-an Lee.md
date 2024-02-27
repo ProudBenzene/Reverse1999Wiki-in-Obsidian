@@ -51,7 +51,7 @@ aliases:
 collapse: open
 title: 
 color: 
-> [!note]+ |
+> [!note]+ 鬼魂捕手2021K|
 > 
 > 
 > 
