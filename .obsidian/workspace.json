@@ -40,14 +40,14 @@
             }
           },
           {
-            "id": "6653deb5658edf17",
+            "id": "4a947c263621844d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md"
               }
             }
           },
@@ -216,13 +216,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "6653deb5658edf17",
+  "active": "4a947c263621844d",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 05.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 04.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/单品 泥鯭的士 01.png",
@@ -240,10 +244,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.md",
     "300-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：HK鬼见愁.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：泥鯭的士.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑：灼热闪耀之星.assets/image-20230930172525076.jpeg",
     "300-箱外世界/assets/暴雨时间线.assets",
     "300-箱外世界/assets",
     "未命名.md",
@@ -257,7 +259,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee",
     "400-箱外阵营/圣洛夫基金会.md",
-    "000-箱的构成/script/tp",
     "400-箱外阵营/Reverse设定.md",
     "游戏中的势力/维尔汀 2.md",
     "100-箱中角色/你好.md",
