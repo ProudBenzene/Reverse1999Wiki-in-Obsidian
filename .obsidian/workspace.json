@@ -38,9 +38,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "874e276b1edc1131",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md"
               }
             }
           },
@@ -192,8 +204,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "15abcea22dc913d2",
+  "active": "874e276b1edc1131",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/立绘 37 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/立绘 37 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/单品 伊索尔德 03.png",
@@ -211,7 +227,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/立绘 6 01.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets",
@@ -234,10 +249,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets",
     "000-箱的构成/templates/assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets",
     "400-箱外阵营/圣洛夫基金会.md",
     "400-箱外阵营/Reverse设定.md",
-    "游戏中的势力/维尔汀 2.md",
-    "100-箱中角色/你好.md"
+    "游戏中的势力/维尔汀 2.md"
   ]
 }
