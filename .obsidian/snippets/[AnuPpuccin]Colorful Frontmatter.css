@@ -27,7 +27,7 @@
 .metadata-property .multi-select-pill:nth-child(11n+9) {--icon-rgb: var(--ctp-lavender);}
 .metadata-property .multi-select-pill:nth-child(11n+10) {--icon-rgb: var(--ctp-mauve);}
 .metadata-property .multi-select-pill:nth-child(11n) {--icon-rgb: var(--ctp-pink);}
-/*
+
 .metadata-property .multi-select-pill .multi-select-pill-remove-button {
     max-width: 0;
     opacity: 0;
@@ -37,4 +37,3 @@
     opacity: 1;
     transition: opacity 0.2s;
 }
-*/
