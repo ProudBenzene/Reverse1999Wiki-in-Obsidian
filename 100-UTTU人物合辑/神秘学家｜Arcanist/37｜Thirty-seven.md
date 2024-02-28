@@ -5,12 +5,12 @@ tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanist
-介质: 
+介质: 数字
 稀有度: ★★★★★★
-灵感: 
-角色灵感: 
-伤害类型: 
-传承: 
+灵感: 星｜Star
+角色灵感: 启明的耀星[星] 数学演算
+伤害类型: 精神创伤
+传承: 本源的运算
 Udimo: 
 定位标签: 
 香调: 
@@ -18,6 +18,7 @@ Udimo:
 洞悉二衣着: 
 aliases:
   - Thirty-seven
+  - "37"
 banner: "[[assets/37｜Thirty-seven.assets/立绘 37 01.png]]"
 ---
 ![cover](assets/37｜Thirty-seven.assets/立绘%2037%2002.png)
