@@ -38,21 +38,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "874e276b1edc1131",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -126,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md"
-              }
+              "state": {}
             }
           },
           {
@@ -204,9 +189,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "874e276b1edc1131",
+  "active": "15abcea22dc913d2",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 06.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 05.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 04.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 03.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/立绘 37 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/立绘 37 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets",
@@ -214,14 +205,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/单品 伊索尔德 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/单品 伊索尔德 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/单品 伊索尔德 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/立绘 6 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/单品 6 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/单品 6 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
