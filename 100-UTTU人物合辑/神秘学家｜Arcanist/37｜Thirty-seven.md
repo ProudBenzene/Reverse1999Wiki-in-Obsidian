@@ -12,21 +12,29 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 本源的运算
 Udimo: 
-定位标签: 
-香调: 
+定位标签:
+  - 输出
+  - 追击
+  - 辅助
+香调:
+  - 水生调
+  - 海水
+  - 盐花
+  - 海岸松
+  - 浮木
 初始衣着: 
 洞悉二衣着: 
 aliases:
   - Thirty-seven
   - "37"
-banner: "[[assets/37｜Thirty-seven.assets/立绘 37 01.png]]"
+banner: "[[立绘 37 01.png]]"
 ---
 ![cover](assets/37｜Thirty-seven.assets/立绘%2037%2002.png)
 
 > [!info]+ 🌆背景
-> - 展出/活跃时代:: 
+> - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 
-> - 参展时长:: 
+> - 参展时长:: 16 年
 > - 展出/参展地点:: 
 
 > [!tip]+ 😼尤提姆
