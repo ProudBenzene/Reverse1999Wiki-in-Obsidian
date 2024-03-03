@@ -3,6 +3,11 @@ name: Table美化
 id: Mo-Table
 settings:
   -
+    id: table-center
+    title: 表格居中
+    description: Use anp-table-auto for yaml syntax
+    type: class-toggle
+  -
     id: tbMH-yangshi
     title: 表格样式选择
     type: class-select
@@ -537,11 +542,12 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
       word-break: break-all!important;
     }
 
-    /*自定义百分比宽度*/
+  /*自定义百分比宽度*/
   body {
     --table-width-pct: 100%;
   }
-  /**摘自AnuPpuccin**/
+
+  /**修改自AnuPpuccin**/
   .anp-table-width.markdown-rendered:not(.cards):not(.table-disable) table,
   .anp-table-width.markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
     width: var(--table-width-pct);
@@ -554,4 +560,16 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     margin-right: calc(50% - var(--table-width-pct) / 2);
   }
   /**END**/
+  /*END*/
 
+  /*表格居中*/
+  /**修改自AnuPpuccin**/
+  .table-center.markdown-rendered:not(.cards):not(.table-disable) table,
+  .table-center.markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
+    margin: 0 auto;
+  }
+
+  .table-center.anp-table-toggle .markdown-rendered:not(.cards):not(.table-disable) table,
+  .table-center.anp-table-toggle .markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
+    margin: 0 auto;
+  }
