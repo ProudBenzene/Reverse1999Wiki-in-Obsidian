@@ -3,11 +3,6 @@ name: Table美化
 id: Mo-Table
 settings:
   -
-    id: table-center
-    title: 表格居中
-    description: Use anp-table-auto for yaml syntax
-    type: class-toggle
-  -
     id: tbMH-yangshi
     title: 表格样式选择
     type: class-select
@@ -130,7 +125,8 @@ settings:
         value: tbMH-qk
   -
     id: options-for-fqk
-    title: 非全宽表格选项
+    title: Options for '非全宽模式'
+    title.zh: 非全宽模式选项
     type: heading
     level: 2
     collapsed: true
@@ -562,14 +558,3 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   /**END**/
   /*END*/
 
-  /*表格居中*/
-  /**修改自AnuPpuccin**/
-  .table-center.markdown-rendered:not(.cards):not(.table-disable) table,
-  .table-center.markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
-    margin: 0 auto;
-  }
-
-  .table-center.anp-table-toggle .markdown-rendered:not(.cards):not(.table-disable) table,
-  .table-center.anp-table-toggle .markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
-    margin: 0 auto;
-  }

@@ -144,7 +144,7 @@
   "anuppuccin-theme-settings@@anp-table-width": true,
   "anuppuccin-theme-settings@@anp-td-highlight": "anp-td-none",
   "anuppuccin-theme-settings@@anp-table-align-th": "center",
-  "anuppuccin-theme-settings@@anp-table-width-pct": 60,
+  "anuppuccin-theme-settings@@anp-table-width-pct": 70,
   "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-red",
   "yaozhuwa@css@@clutter-free-headings": false,
   "yaozhuwa@css@@center-image": false,
@@ -173,7 +173,7 @@
   "anuppuccin-theme-settings@@anp-h6-color-custom": "anp-h6-pink",
   "anuppuccin-theme-settings@@anp-header-margin-value": 20,
   "anuppuccin-theme-settings@@anp-bg-fix": true,
-  "anuppuccin-theme-settings@@anp-table-auto": true,
+  "anuppuccin-theme-settings@@anp-table-auto": false,
   "anuppuccin-theme-settings@@anp-table-highlight-opacity": 0.5,
   "anuppuccin-theme-settings@@anp-table-align-td": "center",
   "anuppuccin-theme-settings@@anp-disable-newtab-align": false,
@@ -619,6 +619,5 @@
   "Mo-Table@@tbMH-qkms": "tbMH-fqk",
   "Mo-Table@@tbMH-kd": "tbMH-kd-cc",
   "anuppuccin-theme-settings@@anp-table-thickness": 2,
-  "Mo-Table@@table-width-pct": 60,
-  "Mo-Table@@table-center": false
+  "Mo-Table@@table-width-pct": 60
 }
