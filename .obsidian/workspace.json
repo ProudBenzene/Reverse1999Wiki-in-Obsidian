@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -200,14 +201,14 @@
   "active": "70370c78bbffdb02",
   "lastOpenFiles": [
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "000-箱的构成/templates/UTTU人物合辑~.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 劝勉·其九.png",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/至终的仪式 规章之外的咏叹诗.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 戒律·其五.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 劝勉·其九.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto~.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png",
