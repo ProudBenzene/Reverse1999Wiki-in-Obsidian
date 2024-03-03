@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "5c1b2613eedecfac",
+            "id": "70370c78bbffdb02",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,6 +87,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "f28bc41e8790f6d8",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {}
             }
           }
@@ -154,9 +162,17 @@
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md"
               }
             }
+          },
+          {
+            "id": "99ee9e2403b7fc65",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -171,10 +187,18 @@
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "cmdr:切换明暗主题": false,
+      "cmdr:在文件列表中显示当前文件": false,
+      "cmdr:Projects": false,
+      "cmdr:Style Settings 悬浮面板": false,
+      "float-search:Search Obsidian In Modal": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5c1b2613eedecfac",
+  "active": "70370c78bbffdb02",
   "lastOpenFiles": [
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
