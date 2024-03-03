@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md"
+                "file": "000-箱的构成/templates/UTTU人物合辑.md"
               }
             }
           },
@@ -218,10 +218,10 @@
       "cmdr:Style Settings 悬浮面板": false
     }
   },
-  "active": "8e0935a92616edba",
+  "active": "92c47fc994624df2",
   "lastOpenFiles": [
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅰ.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",

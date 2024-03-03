@@ -9,10 +9,10 @@
   "enableDragInPopover": false,
   "enableLockButton": true,
   "headerDecor": "shadow",
-  "headerHorizontalAlignment": "left",
+  "headerHorizontalAlignment": "center",
   "headerVerticalAlignment": "edge",
   "useHeaderByDefault": false,
-  "useTwemoji": false,
+  "useTwemoji": true,
   "showPreviewInLocalModal": true,
   "autoDownloadPastedBanners": false,
   "version": "2.0.5-beta"
