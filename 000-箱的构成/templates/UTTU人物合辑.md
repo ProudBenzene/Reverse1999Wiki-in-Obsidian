@@ -132,3 +132,12 @@ tab: |[UTTU×<% tp.file.title.split("｜")[0] %>]
 > ![治疗<b><font color="#6F967A">治疗</font></b>](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)
 > ![吟诵](000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
+## 塑造
+
+| 塑造等级 | 塑造效果 |
+| :--: | :--: |
+| LV.1 |      |
+| LV.2 |      |
+| LV.3 |      |
+| LV.4 |      |
+| LV.5 |      |
