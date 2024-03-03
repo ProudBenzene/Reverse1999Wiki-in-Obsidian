@@ -152,9 +152,10 @@ tab: 写实之外的具象画|[UTTU×十四行诗]
 
 ## 神秘术
 
-![劝勉·其九|100](assets/十四行诗｜Sonetto.assets/神秘术%20劝勉·其九.png) ![规章之外的咏叹诗|100](assets/十四行诗｜Sonetto.assets/至终的仪式%20规章之外的咏叹诗.png) ![戒律·其五|100](assets/十四行诗｜Sonetto.assets/神秘术%20戒律·其五.png)
+ ![规章之外的咏叹诗|100](assets/十四行诗｜Sonetto.assets/至终的仪式%20规章之外的咏叹诗.png) 
 
-> [!skill]- 劝勉·其九![劝勉·其九|left|100](assets/十四行诗｜Sonetto.assets/神秘术%20劝勉·其九.png)
+> [!skill]- 劝勉·其九
+> ![劝勉·其九|100](assets/十四行诗｜Sonetto.assets/神秘术%20劝勉·其九.png)
 > 
 > | 等级  |                                               类型                                                |                                   技能                                   |          文化           |
 > | :-: | :---------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: | :-------------------: |
@@ -163,11 +164,12 @@ tab: 写实之外的具象画|[UTTU×十四行诗]
 > | ★★★ | ![增益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b> | 群体增强，使己方全体*造成伤害*提升**25%**，*受到伤害*减少**25%**，并使*自身穿透率*提升**10%**，持续**3**回合 | 怜悯之心是忠诚的养料，当然，只须偶尔便可。 |
 > 
 
+> [!skill]- 戒律·其五
+> ![戒律·其五|100](assets/十四行诗｜Sonetto.assets/神秘术%20戒律·其五.png)
 
-> [!note]- 
-> ![增益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
-> ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
-> ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗<b><font color="#6F967A">治疗</font></b>](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)
-> ![吟诵](000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
+| 等级  | 类型  | 技能  | 文化  |
+| :-: | --- | --- | --- |
+|  ★  |     |     |     |
+| ★★  |     |     |     |
+| ★★★ |     |     |     |

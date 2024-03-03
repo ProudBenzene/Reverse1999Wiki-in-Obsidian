@@ -108,10 +108,17 @@ tab: |[UTTU×<% tp.file.title.split("｜")[0] %>]
 
 
 | 等级 | 类型 | 技能 | 文化 |
-| :--: | ---- | ---- | ---- |
+| :--: | :--: | :--: | :--: |
 |  ★   |      |      |      |
 |  ★★  |      |      |      |
 | ★★★  |      |      |      |
+
+> [!skill]-
+
+> [!skill]-
+
+> [!skill]-
+
 
 > [!note]- 
 > ![增益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
