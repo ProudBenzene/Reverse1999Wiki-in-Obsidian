@@ -29,6 +29,18 @@ settings:
         label: 全宽模式
         value: tbMH-qk
   -
+    id: options-for-fqk
+    title: 非全宽表格选项
+    type: heading
+    level: 2
+    collapsed: true
+  - 
+    id: table-width-pct
+    title: 自定义表格宽度
+    type: variable-number
+    default: 60
+    format: "%"
+  -
     id: tbMH-ds
     title: 表格底色样式选择
     description: 可通过在yaml区 cssclasses：模式名字 来设置页面的表格模式。
@@ -543,3 +555,4 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     margin-right: calc(50% - var(--table-width-pct) / 2);
   }
   /**END**/
+
