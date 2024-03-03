@@ -389,7 +389,7 @@
   "Blue-Topaz-Legacy@@colorful-ordered-list": true,
   "Blue-Topaz-Legacy@@show-border-table": true,
   "Blue-Topaz-Legacy@@full-width-table": false,
-  "Blue-Topaz-Legacy@@table-style-options": "three-line-table",
+  "Blue-Topaz-Legacy@@table-style-options": "table-style-default",
   "Blue-Topaz-Legacy@@colorful-unordered-list": true,
   "Blue-Topaz-Legacy@@rainbow-ordered-list": true,
   "Blue-Topaz-Legacy@@rainbow-checkbox": true,
@@ -611,5 +611,9 @@
   "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
   "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "luminosity",
   "timeline-callout@@node-automatic-coloring": true,
-  "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00"
+  "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00",
+  "Blue-Topaz-Legacy@@remove-table-transition": true,
+  "Mo-Table@@tbMH-ds": "tbMH-ds-bt",
+  "Mo-Table@@tbMH-th@@dark": "#539D73",
+  "Mo-Table@@tbMH-kj-color@@dark": "#FEEED1"
 }

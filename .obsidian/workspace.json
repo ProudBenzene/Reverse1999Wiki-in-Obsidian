@@ -52,11 +52,15 @@
             }
           },
           {
-            "id": "d1cde99307c85cb9",
+            "id": "4e0317799c55a4b0",
             "type": "leaf",
             "state": {
-              "type": "style-settings",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -135,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md"
+                "file": "000-箱的构成/templates/UTTU人物合辑.md"
               }
             }
           },
@@ -213,8 +217,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d1cde99307c85cb9",
+  "active": "4e0317799c55a4b0",
   "lastOpenFiles": [
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅰ.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/Thumbs.db",
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 06.png",
@@ -234,7 +240,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
@@ -257,7 +262,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾：山麓以南.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets",
-    "000-箱的构成/templates/assets",
     "400-箱外阵营/圣洛夫基金会.md",
     "400-箱外阵营/Reverse设定.md",
     "游戏中的势力/维尔汀 2.md"

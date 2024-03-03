@@ -1,9 +1,9 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/十四行诗｜Sonetto.assets",
+  "attachmentFolderPath": "./assets/UTTU人物合辑.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
