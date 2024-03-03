@@ -50,17 +50,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "d5051446c57ad6df",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,20 +192,21 @@
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
-      "cmdr:Projects": false,
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
       "random-note:开始漫游笔记": false,
+      "obsidian42-brat:BRAT": true,
+      "templater-obsidian:Templater": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "obsidian42-brat:BRAT": true,
-      "templater-obsidian:Templater": false
+      "cmdr:Projects": false,
+      "cmdr:Style Settings 悬浮面板": false
     }
   },
-  "active": "d5051446c57ad6df",
+  "active": "92c47fc994624df2",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "000-箱的构成/templates/UTTU人物合辑.md",

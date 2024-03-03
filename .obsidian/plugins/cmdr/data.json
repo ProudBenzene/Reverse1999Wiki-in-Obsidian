@@ -29,6 +29,12 @@
       "icon": "aperture",
       "name": "Projects",
       "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:ac510f4b-5e30-4b80-8591-320d92252404",
+      "icon": "settings",
+      "name": "Style Settings 悬浮面板",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
