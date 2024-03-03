@@ -84,7 +84,7 @@
   "anuppuccin-theme-settings@@anp-custom-vault-toggle": true,
   "anuppuccin-theme-settings@@anp-color-transition-toggle": true,
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
-  "anuppuccin-theme-settings@@anp-table-toggle": false,
+  "anuppuccin-theme-settings@@anp-table-toggle": true,
   "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-blue",
@@ -141,7 +141,7 @@
   "anuppuccin-theme-settings@@h6-size": 1.05,
   "anuppuccin-theme-settings@@anp-rainbow-file-toggle": false,
   "anuppuccin-theme-settings@@anp-rainbow-folder-bg-opacity": 0.75,
-  "anuppuccin-theme-settings@@anp-table-width": true,
+  "anuppuccin-theme-settings@@anp-table-width": false,
   "anuppuccin-theme-settings@@anp-td-highlight": "anp-td-none",
   "anuppuccin-theme-settings@@anp-table-align-th": "center",
   "anuppuccin-theme-settings@@anp-table-width-pct": 100,
@@ -615,5 +615,6 @@
   "Blue-Topaz-Legacy@@remove-table-transition": true,
   "Mo-Table@@tbMH-ds": "tbMH-ds-bt",
   "Mo-Table@@tbMH-th@@dark": "#539D73",
-  "Mo-Table@@tbMH-kj-color@@dark": "#FEEED1"
+  "Mo-Table@@tbMH-kj-color@@dark": "#FEEED1",
+  "Mo-Table@@tbMH-qkms": "tbMH-fqk"
 }
