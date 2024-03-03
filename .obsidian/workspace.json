@@ -46,17 +46,9 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/templates/UTTU人物合辑.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "4341fa2b12daaaaa",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
             }
           },
           {
@@ -73,6 +65,20 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "8ab0782b047f535e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8447e04446338f51",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"

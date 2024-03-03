@@ -118,6 +118,9 @@ settings:
     default: tbMH-qk
     options:
       -
+        label: 默认模式
+        value: tbMH-mr
+      -
         label: 非全宽模式
         value: tbMH-fqk
       -
