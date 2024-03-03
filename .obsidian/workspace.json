@@ -122,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -219,6 +218,9 @@
   },
   "active": "4e0317799c55a4b0",
   "lastOpenFiles": [
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
+    "000-箱的构成/templates/UTTU人物合辑~.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅰ.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/Thumbs.db",
@@ -234,8 +236,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/单品 伊索尔德 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/单品 伊索尔德 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
@@ -263,7 +263,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets",
     "400-箱外阵营/圣洛夫基金会.md",
-    "400-箱外阵营/Reverse设定.md",
-    "游戏中的势力/维尔汀 2.md"
+    "400-箱外阵营/Reverse设定.md"
   ]
 }
