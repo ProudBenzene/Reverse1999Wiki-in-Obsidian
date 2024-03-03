@@ -11,20 +11,20 @@
   "enabledCssSnippets": [
     "Timeline_Callouts",
     "[PKMer]Timeline_Callouts",
-    "[PKMer]Timeline-Callouts",
+    "表格优化1.2",
+    "表格优化",
+    "Blue Topaz Legacy",
+    "Mac主题代码框",
+    "[AnuPpuccin]Colorful Frontmatter",
     "[AnuPpuccin]custom-background",
     "[AnuPpuccin]custom-rainbow-colors",
     "[AnuPpuccin]extended-colorschemes",
     "[Bon]书库封面",
+    "[PKMer]表格优化",
     "[PKMer]文件夹添加头像",
     "[PKMer]Code Tab美化",
     "[PKMer]sidenote-callout",
-    "Blue Topaz Codebox",
-    "Blue Topaz Legacy",
-    "[AnuPpuccin]Colorful Frontmatter",
-    "Mac主题代码框",
-    "表格优化1.2",
-    "表格优化",
-    "[PKMer]表格优化"
+    "[PKMer]Timeline-Callouts",
+    "Blue Topaz Codebox"
   ]
 }
