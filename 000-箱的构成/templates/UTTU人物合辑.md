@@ -113,10 +113,9 @@ tab: |[UTTU×<% tp.file.title.split("｜")[0] %>]
 | ★★  |     |     |     |
 | ★★★ |     |     |     |
 
-> [!note]- 
-> ![增益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<span style="background:#fff88f">增益</span>
-> ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)
-> ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)
-> ![治疗](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)
+> [!note]+ 
+> ![增益|100](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
+> ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
+> ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
+> ![治疗<b><font color="#5c87b3">增益</font></b>](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)
 > ![吟诵](000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png)
-
