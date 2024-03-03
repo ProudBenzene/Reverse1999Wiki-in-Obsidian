@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -87,14 +87,6 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "8f6d7da58d443dcf",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {}
             }
           }
@@ -162,17 +154,9 @@
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md"
               }
             }
-          },
-          {
-            "id": "d9190d69f8cb9f0e",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,15 +171,7 @@
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "random-note:开始漫游笔记": false,
-      "cmdr:切换明暗主题": false,
-      "cmdr:在文件列表中显示当前文件": false,
-      "cmdr:Projects": false,
-      "cmdr:Style Settings 悬浮面板": false,
-      "float-search:Search Obsidian In Modal": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian42-brat:BRAT": false
+      "random-note:开始漫游笔记": false
     }
   },
   "active": "5c1b2613eedecfac",
