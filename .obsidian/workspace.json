@@ -40,25 +40,13 @@
             }
           },
           {
-            "id": "92c47fc994624df2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8e0935a92616edba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -139,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md"
               }
             }
           },
@@ -218,15 +206,15 @@
       "cmdr:Style Settings 悬浮面板": false
     }
   },
-  "active": "92c47fc994624df2",
+  "active": "8e0935a92616edba",
   "lastOpenFiles": [
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅰ.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
@@ -235,7 +223,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 05.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 04.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
