@@ -16,6 +16,22 @@ settings:
         label: 圆角模式
         value: tbMH-yuan
   -
+    id: tbMH-qkms
+    title: 表格全宽选择
+    type: class-select
+    allowEmpty: false
+    default: tbMH-qk
+    options:
+      -
+        label: 非全宽模式
+        value: tbMH-fqk
+      -
+        label: 全宽模式
+        value: tbMH-qk
+      -
+        label: 自定义居中模式
+        value: tbMH-zdykd-jz
+  -
     id: tbMH-ds
     title: 表格底色样式选择
     description: 可通过在yaml区 cssclasses：模式名字 来设置页面的表格模式。
@@ -38,7 +54,6 @@ settings:
       -
         label: 全透明底色模式
         value: tbMH-ds-tm
-
   -
     id: tbMH-kd
     title: 表格宽度是否超出显示界面选择
@@ -56,6 +71,15 @@ settings:
       -
         label: 不超出模式（全宽均匀分布）
         value: tbMH-kd-ncc-jy
+  -
+    id: tbMH-zdykd-jz
+    title: 表格自定义宽度
+    description: 可通过拖拽自定义表格默认宽度。（仅自定义模式生效）
+    type: variable-number-slider
+    default: 100
+    min: 50
+    max: 800
+    format: px
   -
     id: tbMH-tt
     title: 表格行列标题头颜色调整
@@ -111,34 +135,6 @@ settings:
     default: 6
     format: px
   -
-    id: tbMH-qkms
-    title: 表格全宽选择
-    type: class-select
-    allowEmpty: false
-    default: tbMH-qk
-    options:
-      -
-        label: 默认模式
-        value: tbMH-mr
-      -
-        label: 非全宽模式
-        value: tbMH-fqk
-      -
-        label: 全宽模式
-        value: tbMH-qk
-  -
-    id: options-for-fqk
-    title: Options for '非全宽模式'
-    title.zh: 非全宽模式选项
-    type: heading
-    level: 2
-    collapsed: true
-  - 
-    id: table-width-pct
-    title: 自定义表格宽度
-    type: variable-number
-    default: 60
-    format: "%"
 */
 
 /*表格边框颜色*/
@@ -183,9 +179,15 @@ body.tbMH-qk :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, 
   width: 100%;
 }
 
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-editor {
-  width: 100%;
+/*自定义居中模式*/
+body.tbMH-zdykd-jz :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
+  --table-white-space: break-all;
+  width: var(--tbMH-zdykd-jz);
+  margin-left: calc(50% - var(--tbMH-zdykd-jz) / 2);
+  margin-right: calc(50% - var(--tbMH-zdykd-jz) / 2);
 }
+
+
 
 /*圆角样式*/
 body.tbMH-yuan {
@@ -477,87 +479,82 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   }
 
   /*自定义表格宽度-第一档位*/
-  .表格宽度-第一档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第一档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
   table-layout: fixed!important; 
   width:200px !important;
+  margin-left: calc(50% - 200px / 2)!important;
+  margin-right: calc(50% - 200px / 2)!important;
   }
-  .表格宽度-第一档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+  .表格宽度-第一档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
     word-break: break-all!important;
   }
   /*自定义表格宽度-第二档位*/
-  .表格宽度-第二档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第二档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 300px !important;
+    margin-left: calc(50% - 300px / 2)!important;
+    margin-right: calc(50% - 300px / 2)!important;
     }
-    .表格宽度-第二档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+    .表格宽度-第二档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
   /*自定义表格宽度-第三档位*/
-  .表格宽度-第三档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第三档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 400px !important;
+    margin-left: calc(50% - 400px / 2)!important;
+    margin-right: calc(50% - 400px / 2)!important;
     }
-    .表格宽度-第三档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+    .表格宽度-第三档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
   /*自定义表格宽度-第四档位*/
-  .表格宽度-第四档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第四档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 500px !important;
+    margin-left: calc(50% - 500px / 2)!important;
+    margin-right: calc(50% - 500px / 2)!important;
     }
-    .表格宽度-第四档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+    .表格宽度-第四档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
   /*自定义表格宽度-第五档位*/
-  .表格宽度-第五档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第五档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 600px !important;
+    margin-left: calc(50% - 600px / 2)!important;
+    margin-right: calc(50% - 600px / 2)!important;
     }
-    .表格宽度-第五档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+    .表格宽度-第五档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
   /*自定义表格宽度-第六档位*/
-  .表格宽度-第六档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第六档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 700px !important;
+    margin-left: calc(50% - 700px / 2)!important;
+    margin-right: calc(50% - 700px / 2)!important;
     }
-    .表格宽度-第六档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+    .表格宽度-第六档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
   /*自定义表格宽度-第七档位*/
-  .表格宽度-第七档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第七档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 800px !important;
+    margin-left: calc(50% - 800px / 2)!important;
+    margin-right: calc(50% - 800px / 2)!important;
     }
-    .表格宽度-第七档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+    .表格宽度-第七档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
   /*自定义表格宽度-第八档位*/
-  .表格宽度-第八档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
+  .表格宽度-第八档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 900px !important;
+    margin-left: calc(50% - 900px / 2)!important;
+    margin-right: calc(50% - 900px / 2)!important;
     }
-    .表格宽度-第八档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
+    .表格宽度-第八档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-
-  /*自定义百分比宽度*/
-  body {
-    --table-width-pct: 100%;
-  }
-
-  /**修改自AnuPpuccin**/
-  .anp-table-width.markdown-rendered:not(.cards):not(.table-disable) table,
-  .anp-table-width.markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
-    width: var(--table-width-pct);
-  }
-
-  .tbMH-fqk .markdown-rendered:not(.cards):not(.table-disable) table,
-  .tbMH-fqk .markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
-    width: var(--table-width-pct);
-    margin-left: calc(50% - var(--table-width-pct) / 2);
-    margin-right: calc(50% - var(--table-width-pct) / 2);
-  }
-  /**END**/
-  /*END*/
-
