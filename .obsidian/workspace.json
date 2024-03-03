@@ -46,7 +46,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -208,8 +207,11 @@
   },
   "active": "8e0935a92616edba",
   "lastOpenFiles": [
-    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 劝勉·其九.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 劝勉·其九.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto~.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png",
@@ -221,8 +223,6 @@
     "000-箱的构成/templates/UTTU人物合辑~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/Thumbs.db",
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 06.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/单品 37 05.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
@@ -251,7 +251,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾：山麓以南.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/鬃毛沙砾.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets",
-    "400-箱外阵营/圣洛夫基金会.md",
-    "400-箱外阵营/Reverse设定.md"
+    "400-箱外阵营/圣洛夫基金会.md"
   ]
 }
