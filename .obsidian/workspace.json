@@ -50,9 +50,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1cde99307c85cb9",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -193,7 +201,6 @@
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "cmdr:Projects": false,
-      "templater-obsidian:Templater": false,
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
@@ -202,10 +209,11 @@
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "92c47fc994624df2",
+  "active": "d1cde99307c85cb9",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/Thumbs.db",
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
