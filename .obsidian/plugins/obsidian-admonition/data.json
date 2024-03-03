@@ -195,6 +195,19 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "skill": {
+      "type": "skill",
+      "color": "236, 198, 9",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-swords"
+      },
+      "command": false,
+      "title": "Skills",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": true,
