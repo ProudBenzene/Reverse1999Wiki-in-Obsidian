@@ -84,7 +84,7 @@
   "anuppuccin-theme-settings@@anp-custom-vault-toggle": true,
   "anuppuccin-theme-settings@@anp-color-transition-toggle": true,
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
-  "anuppuccin-theme-settings@@anp-table-toggle": true,
+  "anuppuccin-theme-settings@@anp-table-toggle": false,
   "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-blue",
@@ -617,5 +617,6 @@
   "Mo-Table@@tbMH-th@@dark": "#539D73",
   "Mo-Table@@tbMH-kj-color@@dark": "#FEEED1",
   "Mo-Table@@tbMH-qkms": "tbMH-fqk",
-  "Mo-Table@@tbMH-kd": "tbMH-kd-ncc"
+  "Mo-Table@@tbMH-kd": "tbMH-kd-ncc",
+  "anuppuccin-theme-settings@@anp-table-thickness": 2
 }
