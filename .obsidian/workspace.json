@@ -46,9 +46,17 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/templates/UTTU人物合辑.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "4341fa2b12daaaaa",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
             }
           },
           {
