@@ -50,9 +50,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd3f5180c6cf966e",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -204,7 +212,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "92c47fc994624df2",
+  "active": "dd3f5180c6cf966e",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
