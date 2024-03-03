@@ -152,7 +152,7 @@ tab: 写实之外的具象画|[UTTU×十四行诗]
 
 ## 神秘术
 
-![劝勉·其九](assets/十四行诗｜Sonetto.assets/神秘术%20劝勉·其九.png)![规章之外的咏叹诗](assets/十四行诗｜Sonetto.assets/至终的仪式%20规章之外的咏叹诗.png)![戒律·其五](assets/十四行诗｜Sonetto.assets/神秘术%20戒律·其五.png)
+![劝勉·其九](assets/十四行诗｜Sonetto.assets/神秘术%20劝勉·其九.png) ![规章之外的咏叹诗](assets/十四行诗｜Sonetto.assets/至终的仪式%20规章之外的咏叹诗.png)![戒律·其五](assets/十四行诗｜Sonetto.assets/神秘术%20戒律·其五.png)
 
 > [!skill]- 劝勉·其九
 > | 等级  |                                               类型                                                |                                   技能                                   |          文化           |
