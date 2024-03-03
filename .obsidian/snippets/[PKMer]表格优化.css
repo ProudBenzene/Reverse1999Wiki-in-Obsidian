@@ -525,3 +525,5 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第八档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
       word-break: break-all!important;
     }
+
+    /*自定义百分比宽度*/
