@@ -115,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300-箱外世界/暴雨时间线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300-箱外世界/暴雨时间线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300-箱外世界/暴雨时间线.md"
+              }
             }
           },
           {
