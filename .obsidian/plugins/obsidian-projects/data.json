@@ -2,7 +2,13 @@
   "version": 2,
   "projects": [
     {
-      "fieldConfig": {},
+      "fieldConfig": {
+        "banner_header": {
+          "options": [
+            "{{filename}}"
+          ]
+        }
+      },
       "defaultName": "",
       "templates": [
         "000-箱的构成/templates/UTTU人物合辑.md"

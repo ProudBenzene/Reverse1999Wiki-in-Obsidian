@@ -29,6 +29,8 @@ Udimo: 西西里灵缇类
 aliases:
   - 十四行诗
   - Sonetto
+初始: "[[立绘 十四行诗 01.png]]"
+洞悉: "[[立绘 十四行诗 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](立绘%20十四行诗%2002.png)

@@ -1,7 +1,7 @@
 ---
 Name: 槲寄生
 English Name: Druvis III
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanist
