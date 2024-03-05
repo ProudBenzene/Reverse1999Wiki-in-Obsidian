@@ -38,19 +38,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "fce8077404c8773f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.10"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +193,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fce8077404c8773f",
+  "active": "baf40f30ed5bf33b",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
     "000-箱的构成/自动化创建角色档案.md",
