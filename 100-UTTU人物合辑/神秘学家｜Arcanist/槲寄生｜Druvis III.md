@@ -11,7 +11,7 @@ cssclasses:
 角色灵感: 林间的渴慕[木] 术杖制作
 伤害类型: 精神创伤
 传承: 木秀于林
-Udimo: 
+Udimo: 猫类
 定位标签:
   - 输出
   - 控制
@@ -27,6 +27,7 @@ aliases:
   - 槲寄生
   - Druvis III
 banner: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png]]"
+banner_header: "{{filename}}"
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
 

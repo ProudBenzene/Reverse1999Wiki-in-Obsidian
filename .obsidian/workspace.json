@@ -38,9 +38,33 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "da84f754e1b0cc48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "058cdf5fe7fd697f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md"
               }
             }
           },
@@ -193,15 +217,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "baf40f30ed5bf33b",
+  "active": "058cdf5fe7fd697f",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "000-箱的构成/templates/UTTU人物合辑~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 劝勉·其九.png",
