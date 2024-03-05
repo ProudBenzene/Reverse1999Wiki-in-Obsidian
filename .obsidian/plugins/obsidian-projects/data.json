@@ -69,7 +69,13 @@
             "cardWidth": 200
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
           },
           "colors": {
             "conditions": [

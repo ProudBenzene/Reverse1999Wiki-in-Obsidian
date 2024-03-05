@@ -76,19 +76,19 @@ collapse: open
 title: 
 color: 
 > [!note]+ 捻金雪柳闹蛾冠|Nao'E Willow Tiara
-> 
-> 
+> ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2004.png)
+> **400**
 > 枝叶形头冠，饰以乌金纸剪裁的飞蛾翅膀，点缀饱满如果实的珍珠，因其接近自然的向上生长的形态而格外优雅。自然主义美学在哪里都不会过时。
 
-> [!note]+ |
-> 
-> 
-> 
+> [!note]+ 璎珞腰饰|Yingluo Waist Jewelry
+> ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2005.png)
+> **85**
+> 佩戴在腰间的璎珞，通过编缀的手段把金银、玉片、砗磲连接在一起。纤长地垂落于腰侧，在步履间灵动地摇晃。
 
-> [!note]+ |
-> 
-> 
-> 
+> [!note]+ 青白银绣披帛|Silver Embroidery Pibo
+> ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2006.png)
+> **34**
+> 绿色与白色的纱罗，金银线刺绣花纹，自然垂落时显得安静而整洁，但借着风势，它有任何人所不及的轻盈姿态。
 ````
 
 
