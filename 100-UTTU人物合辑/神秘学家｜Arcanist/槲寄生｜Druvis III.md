@@ -28,6 +28,7 @@ aliases:
   - Druvis III
 banner: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png]]"
 banner_header: "{{filename}}"
+造像: 弯月与橡树教会了她如何倾听森林中所发生的一切。
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
 
@@ -143,6 +144,8 @@ tab: 她的世界 有另一种哲学|[UTTU×槲寄生]
 > 
 
 ## 塑造
+
+弯月与橡树教会了她如何倾听森林中所发生的一切。
 
 | 塑造等级 |                    塑造效果                    |
 | :--: | :----------------------------------------: |

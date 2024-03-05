@@ -11,6 +11,7 @@ cssclasses:
 角色灵感: 
 伤害类型: 
 传承: 
+造像: 
 Udimo: 
 定位标签: 
 香调: 
@@ -19,7 +20,6 @@ Udimo:
 aliases:
   - <% tp.file.title.split("｜")[0] %>
   - <% tp.file.title.split("｜")[1] %>
-
 ---
 
 
