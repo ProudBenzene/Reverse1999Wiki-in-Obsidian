@@ -1,7 +1,7 @@
 ---
 Name: 星锑
 English Name: Regulus
-tags:
+tags: 
 cssclasses:
   - book
 介质: 神秘学家｜Arcanist
@@ -10,6 +10,8 @@ cssclasses:
 角色灵感: 远星的闪灼[星] 唱片骑师
 伤害类型: 精神创伤
 传承: 听听新玩意
+造像: 光线沿着弧形传递。终点？摇滚从未有过终点。
+银行彩色相片: 叛逆电台的幕后骑师。胡椒博士与摇滚唱片的忠诚收藏者，你最有趣的朋友之一。
 Udimo: 幼狮类
 定位标签:
   - 输出
@@ -26,6 +28,7 @@ aliases:
   - 星锑
 banner: "[[image-20240224220952223.png]]"
 人物合辑: 神秘学家｜Arcanist
+征集: 自由摇摆｜Swinging Freely
 ---
 
 ![cover](assets/星锑｜Regulus.assets/image-20240224220507267.png)
