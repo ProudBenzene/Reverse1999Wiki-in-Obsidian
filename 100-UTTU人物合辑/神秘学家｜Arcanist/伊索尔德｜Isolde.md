@@ -12,6 +12,7 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 七重纱
 Udimo: 
+征集: 为艺术，为爱情｜Vissi d'arte, vissi d'amore
 定位标签:
   - 输出
   - 辅助
@@ -28,6 +29,8 @@ aliases:
   - 伊索尔德
   - Isolde
 banner: "[[立绘 伊索尔德 01.png]]"
+银行彩色相片: 一扇朴素的门，一樽剔透的玻璃盏，一片素白的骨瓷盘。你最为适宜容纳的朋友。
+造像: 空杯之中自可发出空灵响声。
 ---
 ![cover](assets/伊索尔德｜Isolde.assets/立绘%20伊索尔德%2002.png)
 

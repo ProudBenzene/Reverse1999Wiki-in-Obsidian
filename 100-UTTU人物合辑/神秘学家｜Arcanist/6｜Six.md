@@ -28,6 +28,7 @@ aliases:
   - Six
   - "6"
 banner: "[[立绘 6 01.png]]"
+征集:
 ---
 ![cover](assets/6｜Six.assets/立绘%206%2002.png)
 
