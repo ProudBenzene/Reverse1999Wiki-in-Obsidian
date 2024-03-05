@@ -40,31 +40,19 @@
             }
           },
           {
-            "id": "9df3e3a111a8fd6d",
+            "id": "eb25567c0517fba4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6a37efb49213314",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +164,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md"
-              }
+              "state": {}
             }
           },
           {
@@ -218,14 +202,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9df3e3a111a8fd6d",
+  "active": "baf40f30ed5bf33b",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 05.png",
@@ -243,10 +229,8 @@
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/Thumbs.db",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/兔毛手袋｜Medicine Pocket.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets",
