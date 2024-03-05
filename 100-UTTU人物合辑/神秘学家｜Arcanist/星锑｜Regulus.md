@@ -13,6 +13,7 @@ cssclasses:
 造像: 光线沿着弧形传递。终点？摇滚从未有过终点。
 银行彩色相片: 叛逆电台的幕后骑师。胡椒博士与摇滚唱片的忠诚收藏者，你最有趣的朋友之一。
 Udimo: 幼狮类
+征集: 自由摇摆｜Swinging Freely
 定位标签:
   - 输出
   - 辅助
@@ -26,9 +27,10 @@ Udimo: 幼狮类
 aliases:
   - Regulus
   - 星锑
-banner: "[[image-20240224220952223.png]]"
 人物合辑: 神秘学家｜Arcanist
-征集: 自由摇摆｜Swinging Freely
+初始: "[[立绘 星锑 01.png]]"
+洞悉: "[[立绘 星锑 02.png]]"
+banner_header: "{{filename}}"
 ---
 
 ![cover](assets/星锑｜Regulus.assets/image-20240224220507267.png)

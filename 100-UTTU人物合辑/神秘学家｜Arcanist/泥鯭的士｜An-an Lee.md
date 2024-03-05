@@ -1,11 +1,11 @@
 ---
 Name: 泥鯭的士
 English Name: An-an Lee
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanist
-介质: 
+介质:
 稀有度: ★★★★★★
 灵感: 木｜Plant
 角色灵感: 白花的灵影[木] 科学除灵
@@ -13,7 +13,7 @@ cssclasses:
 传承: 够钟返工
 造像: 要信奉科学，朱古力当然能为你消灾解难。
 银行彩色相片: 颠覆印象的捉鬼人，新科学道具专家，你最古灵精怪的朋友之一。
-Udimo: 
+Udimo:
 征集: 午夜放映会｜Midnight Movie Party
 定位标签:
   - 辅助
@@ -30,7 +30,9 @@ Udimo:
 aliases:
   - 泥鯭的士
   - An-an Lee
-banner: "[[立绘 泥鯭的士 01.png]]"
+洞悉: "[[立绘 泥鯭的士 02.png]]"
+banner_header: "{{filename}}"
+初始: "[[立绘 泥鯭的士 01.png]]"
 ---
 ![cover](立绘%20泥鯭的士%2002.png)
 ![[立绘 泥鯭的士 01.png|inlR|200]]

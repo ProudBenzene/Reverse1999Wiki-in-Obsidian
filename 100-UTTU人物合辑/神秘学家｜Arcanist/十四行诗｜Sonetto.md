@@ -1,7 +1,7 @@
 ---
 Name: 十四行诗
 English Name: Sonetto
-tags: 
+tags:
 cssclasses:
   - book
   - img-grid

@@ -63,7 +63,9 @@
         "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/至终的仪式 林间，静默将至.png",
         "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 04.png",
         "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 05.png",
-        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 06.png"
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 06.png",
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/立绘 星锑 01.png",
+        "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/立绘 星锑 02.png"
       ],
       "isDefault": true,
       "dataSource": {
@@ -77,7 +79,7 @@
       "views": [
         {
           "config": {
-            "coverField": "banner",
+            "coverField": "初始",
             "fitStyle": "cover",
             "includeFields": [
               "English Name",
