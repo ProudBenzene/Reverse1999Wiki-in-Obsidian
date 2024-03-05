@@ -1,10 +1,10 @@
 ---
-Name: <% tp.file.title.split("｜")[0] %>
-English Name: <% tp.file.title.split("｜")[1] %>
+Name: A|A
+English Name: undefined
 tags: 
 cssclasses:
   - book
-人物合辑: <% tp.file.folder() %>
+人物合辑: 神秘学家｜Arcanist
 介质: 
 稀有度: ★★★★★★
 灵感: 
@@ -20,10 +20,10 @@ Udimo:
 初始衣着: 
 洞悉二衣着: 
 aliases:
-  - <% tp.file.title.split("｜")[0] %>
-  - <% tp.file.title.split("｜")[1] %>
-初始: '"[[立绘 <% tp.file.title.split("｜")[0] %> 01.png]]"'
-洞悉: '"[[立绘 <% tp.file.title.split("｜")[0] %> 02.png]]"'
+  - A|A
+  - undefined
+初始: '"[[立绘 A|A 01.png]]"'
+洞悉: '"[[立绘 A|A 02.png]]"'
 banner_header: "{{filename}}"
 ---
 
@@ -140,7 +140,7 @@ tab: |
 tab: |
 ![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: |[UTTU×<% tp.file.title.split("｜")[0] %>]
+tab: |[UTTU×A|A]
 ![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````

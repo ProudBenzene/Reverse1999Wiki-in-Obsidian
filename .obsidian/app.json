@@ -1,10 +1,10 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/伊索尔德｜Isolde.assets",
+  "attachmentFolderPath": "./assets/A|A.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
