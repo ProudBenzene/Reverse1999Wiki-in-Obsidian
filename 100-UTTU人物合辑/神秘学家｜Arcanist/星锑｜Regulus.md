@@ -33,7 +33,7 @@ aliases:
 banner_header: "{{filename}}"
 ---
 
-![cover](assets/星锑｜Regulus.assets/image-20240224220507267.png)
+![cover](assets/星锑｜Regulus.assets/立绘%20星锑%2002.png)
 
 > [!info]+ 🌆背景
 > - 展出/活跃时代:: 20 世纪

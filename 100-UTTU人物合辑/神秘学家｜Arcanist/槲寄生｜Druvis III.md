@@ -1,7 +1,7 @@
 ---
 Name: 槲寄生
 English Name: Druvis III
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanist
@@ -29,9 +29,9 @@ Udimo: 猫类
 aliases:
   - 槲寄生
   - Druvis III
-banner_header: "{{filename}}"
-洞悉: "[[立绘 槲寄生 02.png]]"
 初始: "[[立绘 槲寄生 01.png]]"
+洞悉: "[[立绘 槲寄生 02.png]]"
+banner_header: "{{filename}}"
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
 

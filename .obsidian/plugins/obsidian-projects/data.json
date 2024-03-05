@@ -164,6 +164,91 @@
         },
         {
           "config": {
+            "coverField": "洞悉",
+            "fitStyle": "cover",
+            "includeFields": [
+              "English Name",
+              "稀有度",
+              "灵感"
+            ],
+            "cardWidth": 300
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#2f4058",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "星｜Star"
+                }
+              },
+              {
+                "color": "#5b4627",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "岩｜Mineral"
+                }
+              },
+              {
+                "color": "#3a653a",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "木｜Plant"
+                }
+              },
+              {
+                "color": "#773d3a",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "兽｜Beast"
+                }
+              },
+              {
+                "color": "#653e6e",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "灵｜Spirit"
+                }
+              },
+              {
+                "color": "#847a43",
+                "condition": {
+                  "field": "灵感",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "智｜Intellect"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4cfc5df5-6d49-4f7c-8422-74b4749e4044",
+          "name": "洞悉立绘",
+          "type": "gallery"
+        },
+        {
+          "config": {
             "fieldConfig": {
               "name": {
                 "hide": false,
