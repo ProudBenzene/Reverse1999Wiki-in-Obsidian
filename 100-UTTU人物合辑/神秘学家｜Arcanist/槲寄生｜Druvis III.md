@@ -137,7 +137,7 @@ tab: 她的世界 有另一种哲学|[UTTU×槲寄生]
 
 
 > [!skill]- 风入林
-> ![](assets/槲寄生｜Druvis%20III.assets/神秘术%20风入林.png)
+> ![风入林|100](assets/槲寄生｜Druvis%20III.assets/神秘术%20风入林.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
