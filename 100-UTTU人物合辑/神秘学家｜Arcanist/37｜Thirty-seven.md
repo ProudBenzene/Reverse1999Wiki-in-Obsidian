@@ -30,8 +30,8 @@ Udimo:
 aliases:
   - Thirty-seven
   - "37"
-初始: "[[立绘 37 01.png]]"
-洞悉: "[[立绘 37 02.png]]"
+初始立绘: "[[立绘 37 01.png]]"
+洞悉立绘: "[[立绘 37 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/37｜Thirty-seven.assets/立绘%2037%2002.png)

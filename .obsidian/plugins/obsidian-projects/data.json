@@ -79,7 +79,7 @@
       "views": [
         {
           "config": {
-            "coverField": "初始",
+            "coverField": "初始立绘",
             "fitStyle": "cover",
             "includeFields": [
               "English Name",
@@ -164,7 +164,7 @@
         },
         {
           "config": {
-            "coverField": "洞悉",
+            "coverField": "洞悉立绘",
             "fitStyle": "cover",
             "includeFields": [
               "English Name",

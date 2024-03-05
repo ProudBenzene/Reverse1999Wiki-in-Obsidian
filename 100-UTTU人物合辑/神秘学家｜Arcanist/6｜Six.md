@@ -30,8 +30,8 @@ Udimo:
 aliases:
   - Six
   - "6"
-初始: "[[立绘 6 01.png]]"
-洞悉: "[[立绘 6 02.png]]"
+初始立绘: "[[立绘 6 01.png]]"
+洞悉立绘: "[[立绘 6 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/6｜Six.assets/立绘%206%2002.png)

@@ -30,8 +30,8 @@ Udimo:
 aliases:
   - 伊索尔德
   - Isolde
-初始: "[[立绘 伊索尔德 01.png]]"
-洞悉: "[[立绘 伊索尔德 02.png]]"
+初始立绘: "[[立绘 伊索尔德 01.png]]"
+洞悉立绘: "[[立绘 伊索尔德 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/伊索尔德｜Isolde.assets/立绘%20伊索尔德%2002.png)

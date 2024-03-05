@@ -28,8 +28,8 @@ aliases:
   - Regulus
   - 星锑
 人物合辑: 神秘学家｜Arcanist
-初始: "[[立绘 星锑 01.png]]"
-洞悉: "[[立绘 星锑 02.png]]"
+初始立绘: "[[立绘 星锑 01.png]]"
+洞悉立绘: "[[立绘 星锑 02.png]]"
 banner_header: "{{filename}}"
 ---
 

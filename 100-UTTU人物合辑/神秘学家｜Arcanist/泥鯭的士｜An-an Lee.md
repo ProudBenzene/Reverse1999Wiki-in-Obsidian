@@ -30,8 +30,8 @@ Udimo:
 aliases:
   - 泥鯭的士
   - An-an Lee
-初始: "[[立绘 泥鯭的士 01.png]]"
-洞悉: "[[立绘 泥鯭的士 02.png]]"
+初始立绘: "[[立绘 泥鯭的士 01.png]]"
+洞悉立绘: "[[立绘 泥鯭的士 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](立绘%20泥鯭的士%2002.png)

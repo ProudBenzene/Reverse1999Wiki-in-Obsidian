@@ -29,8 +29,8 @@ Udimo: 猫类
 aliases:
   - 槲寄生
   - Druvis III
-初始: "[[立绘 槲寄生 01.png]]"
-洞悉: "[[立绘 槲寄生 02.png]]"
+初始立绘: "[[立绘 槲寄生 01.png]]"
+洞悉立绘: "[[立绘 槲寄生 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
