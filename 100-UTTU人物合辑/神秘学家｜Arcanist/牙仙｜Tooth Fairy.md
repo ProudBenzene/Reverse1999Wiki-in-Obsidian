@@ -59,28 +59,42 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-| 等级  | 类型  | 技能  | 文化  |
-| :-: | :-: | :-: | :-: |
-| ✦✧✧ |     |     |     |
-| ✦✦✧ |     |     |     |
-| ✦✦✦ |     |     |     |
+
 
 > [!skill]- 空牙床
-> ![ko](assets/牙仙｜Tooth%20Fairy.assets/神秘术%20空牙床.png)
+> ![空牙床|100](assets/牙仙｜Tooth%20Fairy.assets/神秘术%20空牙床.png)
+> 
+> | 等级 |                             类型                             |                            技能                            |                文化                |
+> | :--: | :----------------------------------------------------------: | :--------------------------------------------------------: | :--------------------------------: |
+> | ✦✧✧  | ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> |  体攻击，造成150%现实创伤；并赋予目标1层[明昧]，持续1回合  |              铁锈味。              |
+> | ✦✦✧  | ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成250%现实创伤；并赋予目标1层[明昧]，持续1回合 |         铁锈味蔓延在口中。         |
+> | ✦✦✦  | ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成450%现实创伤；并赋予目标1层[明昧]，持续1回合 | 铁锈味蔓延在口中，它们尖啸着离去。 |
+> 
 
-> [!skill]-
+> [!skill]- 安眠曲
+> ![安眠曲|100](assets/牙仙｜Tooth%20Fairy.assets/神秘术%20安眠曲.png)
+> 
+> | 等级 |                             类型                             |                             技能                             |                文化                |
+> | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------: |
+> | ✦✧✧  | ![治疗](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b> | 群体治疗，使己方全体回复使用者攻击*80%生命；本次治疗暴击率提升30% |          此为天籁展现时。          |
+> | ✦✦✧  | ![治疗](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b> | 群体治疗，使己方全体回复使用者攻击*120%生命；本次治疗暴击率提升30% | 此为天籁展现时，乖孩子们沉沉睡去。 |
+> | ✦✦✦  | ![治疗](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b> |                                                              |                                    |
+> 
 
-> [!skill]-
+> [!skill]- 坏齿舞曲
+> ![坏齿舞曲|100](assets/牙仙｜Tooth%20Fairy.assets/至终的仪式%20坏齿舞曲.png)
+> 
+> | 技能 | 文化 |
+> | ---- | :--: |
+> |      |      |
+> 
 
-| 技能 | 文化 |
-| ---- | :--: |
-|      |      |
 
 > [!note]- 
 > ![增益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
 > ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
 > ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗<b><font color="#6F967A">治疗</font></b>](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)
+> ![治疗](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
 > ![吟诵](000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造

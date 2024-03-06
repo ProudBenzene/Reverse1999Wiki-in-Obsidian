@@ -57,11 +57,11 @@ banner_header: "{{filename}}"
 | ✦✦✧ |     |     |     |
 | ✦✦✦ |     |     |     |
 
-> [!skill]-
+> [!skill]- 
 
-> [!skill]-
+> [!skill]- 
 
-> [!skill]-
+> [!skill]- 
 
 | 技能 | 文化 |
 | ---- | :--: |
@@ -71,7 +71,7 @@ banner_header: "{{filename}}"
 > ![增益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
 > ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
 > ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗<b><font color="#6F967A">治疗</font></b>](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)
+> ![治疗](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
 > ![吟诵](000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造
