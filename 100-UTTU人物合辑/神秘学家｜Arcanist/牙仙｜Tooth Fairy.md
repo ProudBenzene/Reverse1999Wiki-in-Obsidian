@@ -65,7 +65,8 @@ banner_header: "{{filename}}"
 | ✦✦✧ |     |     |     |
 | ✦✦✦ |     |     |     |
 
-> [!skill]-
+> [!skill]- 空牙床
+> ![ko](assets/牙仙｜Tooth%20Fairy.assets/神秘术%20空牙床.png)
 
 > [!skill]-
 
