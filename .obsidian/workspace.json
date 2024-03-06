@@ -40,13 +40,13 @@
             }
           },
           {
-            "id": "2c8df5ca7ea5fc44",
+            "id": "f1f2a1941a361ff8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -206,14 +206,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2c8df5ca7ea5fc44",
+  "active": "f1f2a1941a361ff8",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto~.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 劝勉·其九.png",
@@ -223,7 +225,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/立绘 星锑 02.png",
@@ -231,8 +232,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/立绘 星锑 02.png.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/[[立绘 星锑 02.png]].png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/A|A.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 06.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 05.png",
     "000-箱的构成/templates/UTTU人物合辑~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets",
