@@ -22,8 +22,8 @@ Udimo:
 aliases:
   - <% tp.file.title.split("｜")[0] %>
   - <% tp.file.title.split("｜")[1] %>
-初始: '[[立绘 <% tp.file.title.split("｜")[0] %> 01.png]]'
-洞悉: '[[立绘 <% tp.file.title.split("｜")[0] %> 02.png]]'
+初始立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 01.png]]'
+洞悉立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 02.png]]'
 banner_header: "{{filename}}"
 ---
 

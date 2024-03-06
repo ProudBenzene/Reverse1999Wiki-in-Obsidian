@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "95776af5eaaec554",
+            "id": "c2caea71721f2541",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,6 +49,14 @@
                 "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "4e1f15bfe88fa568",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
             }
           }
         ],
@@ -206,8 +214,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95776af5eaaec554",
+  "active": "c2caea71721f2541",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/单品 牙仙 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/单品 牙仙 05.png",
@@ -215,8 +225,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/单品 牙仙 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/单品 牙仙 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/单品 牙仙 01.png",
-    "000-箱的构成/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/至终的仪式 坏齿舞曲.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/神秘术 安眠曲.png",
