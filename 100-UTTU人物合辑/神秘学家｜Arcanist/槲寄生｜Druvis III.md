@@ -45,6 +45,58 @@ banner_header: "{{filename}}"
 > ![尤提姆|inlL|200](assets/槲寄生｜Druvis%20III.assets/槲寄生的尤提姆.png) 猫类尤提姆，常见。通体漆黑，毛发顺滑，弯月夜中常散发出橡木香气。独居动物，社交倾向弱，攻击性弱，性格柔和，喜好植被，对外界保有好奇心。
 > 
 
+## 传承：木秀于林
+
+|                                                                  洞悉等级                                                                  |                     效果                      |
+| :------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: |
+|                                 ![洞悉一\|50](000-箱的构成/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅰ.png) 洞悉一                                 | 当自身处于**[属性提升]** **[状态增益]**时，造成的伤害提升**20%**  |
+| ![洞悉二\|50](000-箱的构成/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅱ.png)洞悉二 |             进入战斗时，造成伤害提升**8%**              |
+|                                 ![洞悉三\|50](000-箱的构成/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅲ.png) 洞悉三                                 | 进入战斗时，己方*[木]灵感*角色进入**[生生不息]**[^1]状态（最多触发1次） |
+
+## 神秘术
+
+> [!skill]- 风入林
+> ![风入林 二阶|100](assets/槲寄生｜Druvis%20III.assets/神秘术%20风入林2.png)
+> 
+> | 等级 |                             类型                             |                            技能                             |                 文化                 |
+> | :--: | :----------------------------------------------------------: | :---------------------------------------------------------: | :----------------------------------: |
+> | ✦✧✧  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |               单体攻击，造成**200%**精神创伤                |          风在驱逐林中异客。          |
+> | ✦✦✧  | ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成**200%**精神创伤，使其陷入**[石化]**[^2]状态1回合 |  风在驱逐林中异客。有时，也会挽留。  |
+> | ✦✦✦  | ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成**300%**精神创伤，使其陷入**[石化]**[^2]状态2回合 | 风在驱逐林中异客。偶尔，挽留得更久。 |
+> 
+
+> [!skill]- 露渐白
+> ![露渐白 一阶|100](assets/槲寄生｜Druvis%20III.assets/神秘术%20露渐白1.png)
+> 
+> | 等级 |                             类型                             |                             技能                             |                    文化                    |
+> | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------: |
+> | ✦✧✧  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 群体攻击，对2名敌方造成**120%**精神创伤；本次攻击*穿透率*提升**30%** |            白露与湿苔根植于此。            |
+> | ✦✦✧  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 群体攻击，对2名敌方造成**180%**精神创伤；本次攻击*穿透率*提升**30%** |    白露与湿苔根植于此。他们不应伤害你。    |
+> | ✦✦✦  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 群体攻击，对2名敌方造成**300%**精神创伤；本次攻击*穿透率*提升**30%** | 白露与湿苔根植于此。他们不应在林中伤害你。 |
+> 
+
+> [!skill]- 林间，静默将至
+> ![林间，静默将至|100](assets/槲寄生｜Druvis%20III.assets/至终的仪式%20林间，静默将至.png)
+> 
+> |                             技能                             |          文化          |
+> | :----------------------------------------------------------: | :--------------------: |
+> | 群体攻击，对敌方全体造成400%精神创伤；并使主目标陷入**[石化]**[^2]1回合 | 林地茂盛之中环伺滋长。 |
+> 
+
+## 塑造
+
+弯月与橡树教会了她如何倾听森林中所发生的一切。
+
+| 塑造等级 |                    塑造效果                    |
+| :--: | :----------------------------------------: |
+| LV.1 |    【风入林】在咒语2/3阶时，造成的精神创伤提升至**300/400%**    |
+| LV.2 |        【林间，静默将至】造成的精神创伤提升至**450%**         |
+| LV.3 | 【露渐白】在咒语1/2/3阶时，造成的精神创伤提升至**135/200/325%** |
+| LV.4 |        【林间，静默将至】造成的精神创伤提升至**500%**         |
+| LV.5 |          【露渐白】*穿透率*提升的效果变为**40%**          |
+
+
+
 
 ## 单品
 
@@ -129,94 +181,44 @@ tab: 她的世界 有另一种哲学|[UTTU×槲寄生]
 
 ````
 
-## 传承：木秀于林
-
-|                                                                  洞悉等级                                                                  |                     效果                      |
-| :------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: |
-|                                 ![洞悉一\|50](000-箱的构成/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅰ.png) 洞悉一                                 | 当自身处于**[属性提升]** **[状态增益]**时，造成的伤害提升**20%**  |
-| ![洞悉二\|50](000-箱的构成/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅱ.png)洞悉二 |             进入战斗时，造成伤害提升**8%**              |
-|                                 ![洞悉三\|50](000-箱的构成/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅲ.png) 洞悉三                                 | 进入战斗时，己方*[木]灵感*角色进入**[生生不息]**[^1]状态（最多触发1次） |
-
-## 神秘术
-
-> [!skill]- 风入林
-> ![风入林 二阶|100](assets/槲寄生｜Druvis%20III.assets/神秘术%20风入林2.png)
-> 
-> | 等级 |                             类型                             |                            技能                             |                 文化                 |
-> | :--: | :----------------------------------------------------------: | :---------------------------------------------------------: | :----------------------------------: |
-> | ✦✧✧  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |               单体攻击，造成**200%**精神创伤                |          风在驱逐林中异客。          |
-> | ✦✦✧  | ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成**200%**精神创伤，使其陷入**[石化]**[^2]状态1回合 |  风在驱逐林中异客。有时，也会挽留。  |
-> | ✦✦✦  | ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成**300%**精神创伤，使其陷入**[石化]**[^2]状态2回合 | 风在驱逐林中异客。偶尔，挽留得更久。 |
-> 
-
-> [!skill]- 露渐白
-> ![露渐白 一阶|100](assets/槲寄生｜Druvis%20III.assets/神秘术%20露渐白1.png)
-> 
-> | 等级 |                             类型                             |                             技能                             |                    文化                    |
-> | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------: |
-> | ✦✧✧  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 群体攻击，对2名敌方造成**120%**精神创伤；本次攻击*穿透率*提升**30%** |            白露与湿苔根植于此。            |
-> | ✦✦✧  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 群体攻击，对2名敌方造成**180%**精神创伤；本次攻击*穿透率*提升**30%** |    白露与湿苔根植于此。他们不应伤害你。    |
-> | ✦✦✦  | ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 群体攻击，对2名敌方造成**300%**精神创伤；本次攻击*穿透率*提升**30%** | 白露与湿苔根植于此。他们不应在林中伤害你。 |
-> 
-
-> [!skill]- 林间，静默将至
-> ![林间，静默将至|100](assets/槲寄生｜Druvis%20III.assets/至终的仪式%20林间，静默将至.png)
-> 
-> |                             技能                             |          文化          |
-> | :----------------------------------------------------------: | :--------------------: |
-> | 群体攻击，对敌方全体造成400%精神创伤；并使主目标陷入**[石化]**[^2]1回合 | 林地茂盛之中环伺滋长。 |
-> 
-
-## 塑造
-
-弯月与橡树教会了她如何倾听森林中所发生的一切。
-
-| 塑造等级 |                    塑造效果                    |
-| :--: | :----------------------------------------: |
-| LV.1 |    【风入林】在咒语2/3阶时，造成的精神创伤提升至**300/400%**    |
-| LV.2 |        【林间，静默将至】造成的精神创伤提升至**450%**         |
-| LV.3 | 【露渐白】在咒语1/2/3阶时，造成的精神创伤提升至**135/200/325%** |
-| LV.4 |        【林间，静默将至】造成的精神创伤提升至**500%**         |
-| LV.5 |          【露渐白】*穿透率*提升的效果变为**40%**          |
-
 ## 语音
 
-|          情景           | 语音                                                                                                                                                                                                                  |
-| :-------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|          初遇           | 我是槲寄生，很高兴认识你。…… 你说看不出我很高兴？呵…… 那么现在呢？<br>I am Druvis III. It's my pleasure to meet you…. You said I didn't look very pleased? Hah … How about now?                                                                   |
-|         箱中气候          | 水从泥土里去往天上，又从天上坠落地面。如同我从林中来，又向林中去。<br>Water travels from the ground to the sky, and then falls back; just as I, who come from the forest, and now go back.                                                           |
-|   致未来 [信任达到 10% 解锁]   | 或许，在工业之梦结束的那日。没有人再会伐尽茂密的林海。我期待着那一天。<br>Perhaps when the dream of industrial society is realized,no one will ever cut down the dense forest. I am looking forward to that day.                                       |
-|          孑立           | …… 您也在聆听窗外树梢间的风声吗？… <br>Are you also listening to the wind dancing on the treetops?                                                                                                                                 |
-|          问候           | 你带来了一缕原野的风。<br>You brought me a gentle breeze on the field.                                                                                                                                                         |
-|          朝晨           | 太阳升起，野兽们噤声不吠。而后，我听见第一只离林之鸟振翅的声响。<br>When the sun rose, the beasts kept silence. Then, I heard a bird flapping its wings. It's the first to leave the forest.                                                        |
-| 信任 - 朝晨 [信任达到 20% 解锁] | 如果更晚、更怠惰，您就看不到那样美丽的日出了，没有关系吗？<br>If you are lazier and get up even later, you won't see such a beautiful sunrise…. Does it matter?                                                                                  |
-|          夜暮           | 时代的潮水不断起落，正如日夜更迭流转，永无止息。<br>Tides of time rise and fall. Days and nights switch and whirl. The infinite loop will never come to an end.                                                                             |
-| 信任 - 夜暮 [信任达到 30% 解锁] | 夜幕降临了，野兽嘶鸣，夜枭呜咽。它们的脚步踏在大地上，如同树木的根须扎入泥土中。<br>The night falls. The beasts howl. The owls sob. Their feet treading on the ground are just like the roots embedded into the soil.                                       |
-|         帽檐与发鬓         | 绿色的眼睛遗传自我的母亲。虽然我没有如她所愿地成为上流社会的淑女，但是我感谢母亲留给我的一切。<br>The green eyes are inherited from my mother. Although I did not grow into a lady of the upper class as she wished … … I thank my mother for everything she left. |
-|          袖与手          | 当我第一次接触到自然的草木时，我就知道我的生命属于它们。<br>When I first saw trees and grass, I knew my life belonged to them.                                                                                                                  |
-|         衣着与身形         | 礼服与鞋跟不会阻挡我的步伐，我能在林间跳跃，因为我曾经无数次地这么做过。<br>Gowns and heels will not stop me. I will jump into the woods, as I have done this countless times.                                                                          |
-|   嗜好 [信任达到 40% 解锁]    | 在林中独处是一种享受。从旦通宵，以夜继昼，于我而言只是一瞬而已。<br>It is a pleasure to be alone in the forest. In a flash, cards of days and nights are shuffled.                                                                                  |
-|   赞赏 [信任达到 50% 解锁]    | 你的优秀证实了我的眼光。<br>Your excellence proves my insight.                                                                                                                                                                  |
-|   亲昵 [信任达到 60% 解锁]    | 我不擅长逢迎交际，也难以理解暧昧的真意。这样是一种欠缺吗？<br>I am not good at socializing with others, nor do I understand the truth behind ambiguity. Is that a loss?                                                                          |
-|         闲谈 Ⅰ          | 对于植物来说，大地上已再无新鲜事。它们无眼亦无耳却知晓一切，而我会倾听它们的故事。<br>There is nothing new for trees and grass.With no eyesight, nor hearing, they know it all. And I will lend an ear to their whispers.                                    |
-|         闲谈 Ⅱ          | 待我的凯尔特麦酒收获时，希望各位都能赏光一试。<br>After I brew my Celtic ale, I hope everyone will appreciate it.                                                                                                                          |
-|   独白 [信任达到 70% 解锁]    | 报仇只是沉溺在过去之人的自我抚慰，而我选择了走向明日。<br>Revenge is only the self-comfort of those who are drowning in the past, while I choose to look ahead.                                                                                |
-|          入队           | 一同去往草木生长之地。<br>Let's go where trees and grass grow.                                                                                                                                                                 |
-|          战前           | 你不应与大地为敌。<br>You should not make an enemy of the earth.                                                                                                                                                             |
-|        择选咒语 Ⅰ         | 呵呵……<br>Hah …                                                                                                                                                                                                       |
-|        择选咒语 Ⅱ         | 时机正好。<br>Good timing.                                                                                                                                                                                               |
-|        择选高阶咒语         | 只需屏息等待。<br>Just wait with bated breath.                                                                                                                                                                             |
-|        择选至终的仪式        | 缄默的森林正注视着你。<br>The reticent woods are watching you.                                                                                                                                                                 |
-|        释放神秘术 Ⅰ        | 贯穿他。<br>Penetrate.                                                                                                                                                                                                  |
-|        释放神秘术 Ⅰ        | 不必回头。<br>No need to look back.                                                                                                                                                                                      |
-|        释放神秘术 Ⅱ        | 林之劝诫。<br>Advice from the forest.                                                                                                                                                                                    |
-|        释放神秘术 Ⅱ        | 霜露是森林的甲胄。<br>Frostdew is the armor of the forest.                                                                                                                                                                   |
-|        召唤至终的仪式        | 荆棘编制长衫，你将以伤口献祭作为报答。<br>I weave the gown with thorns. You shall repay with sacrifice of wounds.                                                                                                                      |
-|         受敌 Ⅰ          | 不必担心。<br>No need to worry.                                                                                                                                                                                          |
-|         受敌 Ⅱ          | 哼。<br>Ugh.                                                                                                                                                                                                          |
-|         战斗胜利          | 如林中絮语的预言一般，胜利的天秤早已倾斜向我。今日如此，明日亦然。<br>Just like the prophecies of the woods, the scales have already been tipped in my direction. I win today, and so will tomorrow.                                                 |
-|      洞悉 [洞悉后解锁]       | 谢谢您给予我明灯，它能令我在森林中涉足得更远、更深。<br>Thank you for showing me the beacon. It will allow me to go farther and deeper into the woods.                                                                                        |
-|    洞悉之底 [获得对应皮肤解锁]    | 从此往后，我能看见与理解得更多。您帮助了我，我会给予您适当的回报。<br>From now on, I will see and understand more. You helped me, and I will give you an appropriate return.                                                                         |
+|              情景               |                             语音                             |
+| :-----------------------------: | :----------------------------------------------------------: |
+|              初遇               | 我是槲寄生，很高兴认识你。…… 你说看不出我很高兴？呵…… 那么现在呢？<br>I am Druvis III. It's my pleasure to meet you…. You said I didn't look very pleased? Hah … How about now? |
+|            箱中气候             | 水从泥土里去往天上，又从天上坠落地面。如同我从林中来，又向林中去。<br>Water travels from the ground to the sky, and then falls back; just as I, who come from the forest, and now go back. |
+|   致未来 [信任达到 10% 解锁]    | 或许，在工业之梦结束的那日。没有人再会伐尽茂密的林海。我期待着那一天。<br>Perhaps when the dream of industrial society is realized,no one will ever cut down the dense forest. I am looking forward to that day. |
+|              孑立               | …… 您也在聆听窗外树梢间的风声吗？… <br>Are you also listening to the wind dancing on the treetops? |
+|              问候               | 你带来了一缕原野的风。<br>You brought me a gentle breeze on the field. |
+|              朝晨               | 太阳升起，野兽们噤声不吠。而后，我听见第一只离林之鸟振翅的声响。<br>When the sun rose, the beasts kept silence. Then, I heard a bird flapping its wings. It's the first to leave the forest. |
+| 信任 - 朝晨 [信任达到 20% 解锁] | 如果更晚、更怠惰，您就看不到那样美丽的日出了，没有关系吗？<br>If you are lazier and get up even later, you won't see such a beautiful sunrise…. Does it matter? |
+|              夜暮               | 时代的潮水不断起落，正如日夜更迭流转，永无止息。<br>Tides of time rise and fall. Days and nights switch and whirl. The infinite loop will never come to an end. |
+| 信任 - 夜暮 [信任达到 30% 解锁] | 夜幕降临了，野兽嘶鸣，夜枭呜咽。它们的脚步踏在大地上，如同树木的根须扎入泥土中。<br>The night falls. The beasts howl. The owls sob. Their feet treading on the ground are just like the roots embedded into the soil. |
+|           帽檐与发鬓            | 绿色的眼睛遗传自我的母亲。虽然我没有如她所愿地成为上流社会的淑女，但是我感谢母亲留给我的一切。<br>The green eyes are inherited from my mother. Although I did not grow into a lady of the upper class as she wished … … I thank my mother for everything she left. |
+|             袖与手              | 当我第一次接触到自然的草木时，我就知道我的生命属于它们。<br>When I first saw trees and grass, I knew my life belonged to them. |
+|           衣着与身形            | 礼服与鞋跟不会阻挡我的步伐，我能在林间跳跃，因为我曾经无数次地这么做过。<br>Gowns and heels will not stop me. I will jump into the woods, as I have done this countless times. |
+|    嗜好 [信任达到 40% 解锁]     | 在林中独处是一种享受。从旦通宵，以夜继昼，于我而言只是一瞬而已。<br>It is a pleasure to be alone in the forest. In a flash, cards of days and nights are shuffled. |
+|    赞赏 [信任达到 50% 解锁]     | 你的优秀证实了我的眼光。<br>Your excellence proves my insight. |
+|    亲昵 [信任达到 60% 解锁]     | 我不擅长逢迎交际，也难以理解暧昧的真意。这样是一种欠缺吗？<br>I am not good at socializing with others, nor do I understand the truth behind ambiguity. Is that a loss? |
+|             闲谈 Ⅰ              | 对于植物来说，大地上已再无新鲜事。它们无眼亦无耳却知晓一切，而我会倾听它们的故事。<br>There is nothing new for trees and grass.With no eyesight, nor hearing, they know it all. And I will lend an ear to their whispers. |
+|             闲谈 Ⅱ              | 待我的凯尔特麦酒收获时，希望各位都能赏光一试。<br>After I brew my Celtic ale, I hope everyone will appreciate it. |
+|    独白 [信任达到 70% 解锁]     | 报仇只是沉溺在过去之人的自我抚慰，而我选择了走向明日。<br>Revenge is only the self-comfort of those who are drowning in the past, while I choose to look ahead. |
+|              入队               | 一同去往草木生长之地。<br>Let's go where trees and grass grow. |
+|              战前               | 你不应与大地为敌。<br>You should not make an enemy of the earth. |
+|           择选咒语 Ⅰ            |                       呵呵……<br>Hah …                        |
+|           择选咒语 Ⅱ            |                  时机正好。<br>Good timing.                  |
+|          择选高阶咒语           |        只需屏息等待。<br>Just wait with bated breath.        |
+|         择选至终的仪式          | 缄默的森林正注视着你。<br>The reticent woods are watching you. |
+|          释放神秘术 Ⅰ           |                    贯穿他。<br>Penetrate.                    |
+|          释放神秘术 Ⅰ           |             不必回头。<br>No need to look back.              |
+|          释放神秘术 Ⅱ           |            林之劝诫。<br>Advice from the forest.             |
+|          释放神秘术 Ⅱ           |  霜露是森林的甲胄。<br>Frostdew is the armor of the forest.  |
+|         召唤至终的仪式          | 荆棘编制长衫，你将以伤口献祭作为报答。<br>I weave the gown with thorns. You shall repay with sacrifice of wounds. |
+|             受敌 Ⅰ              |               不必担心。<br>No need to worry.                |
+|             受敌 Ⅱ              |                         哼。<br>Ugh.                         |
+|            战斗胜利             | 如林中絮语的预言一般，胜利的天秤早已倾斜向我。今日如此，明日亦然。<br>Just like the prophecies of the woods, the scales have already been tipped in my direction. I win today, and so will tomorrow. |
+|        洞悉 [洞悉后解锁]        | 谢谢您给予我明灯，它能令我在森林中涉足得更远、更深。<br>Thank you for showing me the beacon. It will allow me to go farther and deeper into the woods. |
+|   洞悉之底 [获得对应皮肤解锁]   | 从此往后，我能看见与理解得更多。您帮助了我，我会给予您适当的回报。<br>From now on, I will see and understand more. You helped me, and I will give you an appropriate return. |
 
 
 
