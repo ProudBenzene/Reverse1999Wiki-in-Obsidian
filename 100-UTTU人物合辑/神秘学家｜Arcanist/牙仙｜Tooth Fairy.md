@@ -25,8 +25,8 @@ Udimo:
   - 开司米酮
   - 胡椒
   - 雪松
-初始衣着: "[[立绘 牙仙 01.png]]"
-洞悉二衣着: "[[立绘 牙仙 02.png]]"
+初始衣着: 牙仙—它不断地挣扎，鳞粉撒满了她的手臂，但没关系，这不重要。
+洞悉二衣着: 甜美的梦—她感到扑朔的薄翅融化在舌面上，散发出栀子花混杂薄荷油的香气。
 aliases:
   - 牙仙
   - Tooth Fairy
@@ -102,46 +102,46 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 洞二衣着
+### 甜美的梦
 
 ````ad-flex
 collapse: open
 title: 
 color: 
+> [!note]+ “牢不可破的防守”|Brace
+> ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2001.png)
+> **270**
+> 特制的金属牙套，在功能性与便利程度之间做了很好的平衡和取舍——足够简约，也足够牢固，能防住来自四面八方的觊觎。这对于她来说是最合适不过的。
+
 > [!note]+ |
-> 
+> ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2002.png)
 > 
 > 
 
 > [!note]+ |
-> 
-> 
-> 
-
-> [!note]+ |
-> 
+> ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2003.png)
 > 
 > 
 ````
 
-### 
+### 贝果核
 
 ````ad-flex
 collapse: open
 title: 
 color: 
 > [!note]+ |
-> 
-> 
-> 
-
-> [!note]+ |
-> 
+> ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2004.png)
 > 
 > 
 
 > [!note]+ |
+> ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2005.png)
 > 
+> 
+
+> [!note]+ |
+> ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2006.png)
 > 
 > 
 ````
