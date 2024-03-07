@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md"
+              }
             }
           },
           {
@@ -202,7 +206,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "55f74fefb2268940",
+  "active": "cce2440065e4eace",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets/神秘术 意愿的自由1.png",
