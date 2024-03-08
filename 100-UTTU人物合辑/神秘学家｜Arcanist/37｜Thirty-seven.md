@@ -64,7 +64,7 @@ color:
 
 > [!note]+ 阿派朗衣袍|Toga of Apeiron
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2002.png)
-> **66.6**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**66.6**
 > 双曲抛物面，以整块布料裁剪而成，最符合数学之几何学的衣袍，岛屿上的人们最为认可的服饰。它是完美的，只是……需要注意行走的方式，受访者如此笃定。
 
 > [!note]+ 普通饰物|Neck Accessories
@@ -81,17 +81,17 @@ title:
 color: 
 > [!note]+ “斐波那契数列”|"Fibonacci Sequence"
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2004.png)
-> **55**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**55**
 > 由布、纱和丝绸等材料做成的花冠，精巧的做工让它们看起来像仍沾着晨间的露珠。上面的每种花都正好是花瓣数量符合斐波那契数列的品种，因此颇受佩戴者的青睐。
 
 > [!note]+ “点与线”|"Dots and Lines"
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2005.png)
-> **120**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**120**
 > 佩戴者多次强调它是一桩“很好的证明”。但实际上，它仍然只是一条由塑料珍珠穿成的普通发饰。
 
 > [!note]+ “分形几何”|"Fractal Ceometry"
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2006.png)
-> **20**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**20**
 > 一根由不明鸟类自然脱落的羽毛。佩戴者醉心于这美丽图形的规律，将它装饰在了小腿的黄金分割点处。
 ````
 
