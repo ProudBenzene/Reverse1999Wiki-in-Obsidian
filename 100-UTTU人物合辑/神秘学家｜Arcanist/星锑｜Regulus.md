@@ -108,17 +108,17 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!note]+ 挂饰|Pendant
+> [!culture]+ 挂饰|Pendant
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2001.png)
 > **无估值**
 > 星锑背包上的小挂件。星锑本人对它的来历和用途一无所知，只是挂在背包上充当装饰品。关于这个小挂件，APPLe先生肯定知道点什么东西，但他向来对此三缄其口。
 
-> [!note]+ 超酷太阳镜|Sunglasses
+> [!culture]+ 超酷太阳镜|Sunglasses
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2002.png)
 > **336**
 > 在伦敦哈罗德百货打折季时购买的太阳镜。公海的紫外线强烈，需要有一副太阳镜来遮蔽。但很显然，星锑的购物理由并不在此，而是它真的“好酷——！”。
 
-> [!note]+ 双肩背包|Backpack
+> [!culture]+ 双肩背包|Backpack
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2003.png)
 > ![利齿子儿|行内](assets/星锑｜Regulus.assets/利齿子儿.png)**8.5**
 > 星锑用来装唱片的背包。极其爱护自己唱片的星锑，一般来说，是不会随身携带唱片的。但当意外事件登门造访时，背包也就成为了她带着自己宝贝唱片逃命的救生艇。

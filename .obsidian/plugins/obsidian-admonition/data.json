@@ -208,6 +208,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "culture": {
+      "type": "culture",
+      "color": "157, 128, 115",
+      "icon": {
+        "type": "octicons",
+        "name": "person"
+      },
+      "command": false,
+      "title": "Culture",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": true,
@@ -222,7 +235,7 @@
   "open": {
     "admonitions": false,
     "icons": false,
-    "other": true,
+    "other": false,
     "advanced": true
   },
   "icons": [

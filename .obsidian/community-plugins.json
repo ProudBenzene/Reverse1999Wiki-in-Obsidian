@@ -16,9 +16,7 @@
   "obsidian-plugin-update-tracker",
   "obsidian-quiet-outline",
   "rendered-block-link-suggestions",
-  "templater-obsidian",
   "workspaces-plus",
-  "quickadd",
   "obsidian-projects",
   "obsidian-style-settings",
   "obsidian-admonition",
@@ -28,5 +26,6 @@
   "obsidian-footnotes",
   "obsidian-tidy-footnotes",
   "better-fn",
-  "obsidian-export-image"
+  "obsidian-export-image",
+  "quickadd"
 ]
