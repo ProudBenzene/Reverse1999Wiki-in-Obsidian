@@ -46,13 +46,25 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5af374c61bf1ef2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -205,9 +217,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "42aff7ad1a059af5",
+  "active": "5af374c61bf1ef2c",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+    "未命名.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/单品 星锑 06.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/雨滴.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/利齿子儿.png",
     "output/星锑｜Regulus.md",
     "output/attachment/bfc1eb3a68a11bda7d393d7e791b9e77.png",
@@ -217,8 +233,6 @@
     "output/attachment/ce1a8e9f629a368a13bd7e62cb81cad9.png",
     "output/attachment/2470b45282928771526f9cb718bad271.png",
     "output/attachment/6deef5175ab4f4b457c5bbf77e2b3c54.png",
-    "output/attachment/5c942d5f6bc179612cd3d7c816a8d6c9.png",
-    "output/attachment/c12a5e48727427d4acd9aea68931d0e3.png",
     "output/attachment",
     "output",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus~.md",
@@ -250,7 +264,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee1.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：An-an Lee.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an.md"
   ]
 }
