@@ -27,5 +27,6 @@
   "obsidian-banners",
   "obsidian-footnotes",
   "obsidian-tidy-footnotes",
-  "better-fn"
+  "better-fn",
+  "obsidian-markdown-export-plugin"
 ]
