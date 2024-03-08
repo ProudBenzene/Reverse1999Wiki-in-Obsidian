@@ -71,7 +71,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 
-> 
+> ![晒晒眼睛 一阶|100](assets/星锑｜Regulus.assets/神秘术%20晒晒眼睛1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -81,7 +81,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 
-> 
+> ![](assets/星锑｜Regulus.assets/至终的仪式%20狂欢与不眠夜.png)
 > 
 > | 技能 | 文化 |
 > | ---- | :--: |
