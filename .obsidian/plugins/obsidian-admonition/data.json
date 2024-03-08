@@ -211,7 +211,7 @@
     },
     "culture": {
       "type": "culture",
-      "color": "157, 128, 115",
+      "color": "63, 162, 97",
       "icon": {
         "type": "octicons",
         "name": "person"

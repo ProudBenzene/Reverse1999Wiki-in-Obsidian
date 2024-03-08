@@ -193,7 +193,7 @@
   "anuppuccin-theme-settings@@anp-card-radius": 16,
   "Blue-Topaz-Legacy@@toggle-split-note-background": true,
   "Blue-Topaz-Legacy@@notebook-liked-markdown-page-options": "notebook-liked-markdown-page-grid-notebook-1",
-  "Blue-Topaz-Legacy@@background-notebook-liked-switch": true,
+  "Blue-Topaz-Legacy@@background-notebook-liked-switch": false,
   "Blue-Topaz-Legacy@@text-indentation-two-em": true,
   "Blue-Topaz-Legacy@@justify-align": true,
   "Blue-Topaz-Legacy@@h1-margin": "20px 0px",

@@ -115,7 +115,7 @@ color:
 
 > [!culture]+ 超酷太阳镜|Sunglasses
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2002.png)
-> **336**
+> ![利齿子儿|inlL](assets/星锑｜Regulus.assets/利齿子儿.png)**336**
 > 在伦敦哈罗德百货打折季时购买的太阳镜。公海的紫外线强烈，需要有一副太阳镜来遮蔽。但很显然，星锑的购物理由并不在此，而是它真的“好酷——！”。
 
 > [!culture]+ 双肩背包|Backpack
