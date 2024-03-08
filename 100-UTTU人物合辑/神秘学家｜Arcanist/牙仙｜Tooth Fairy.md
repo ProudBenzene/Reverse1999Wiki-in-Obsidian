@@ -110,12 +110,12 @@ title:
 color: 
 > [!note]+ “牢不可破的防守”|Brace
 > ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2001.png)
-> **270**
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**270**
 > 特制的金属牙套，在功能性与便利程度之间做了很好的平衡和取舍——足够简约，也足够牢固，能防住来自四面八方的觊觎。这对于她来说是最合适不过的。
 
 > [!note]+ 老式玻璃罐|Glass Jar
 > ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2002.png)
-> **80**
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**80**
 > 陈旧，具有磨损痕迹，曾盛纳果酱抑或腌菜的铝盖玻璃罐。目前已知唯一可监禁有翅牙仙子的牢笼。你可以在许多地方看见它，却难以想象它的妙用。
 
 > [!note]+ 乳牙项链|Baby Tooth Necklace
@@ -132,17 +132,17 @@ title:
 color: 
 > [!note]+ 运动发箍|Sports Headband
 > ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2004.png)
-> **80**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**80**
 > 收束飘扬的长发，散发出明亮感的发箍。它将琐屑与离晃的事物束于肩后，运动员的眼眸得以凝结在那一颗全场聚焦的小小荧黄色上。这无疑是让运动凝肃成一种美的先锋尝试。
 
 > [!note]+ 得心应手|An Extra Hand
 > ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2005.png)
-> **20**
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**20**
 > 镀银的牙仙徽标，加以天然羊肠线构成网线的球拍，其张力超乎寻常，但不耐损及昂贵价格令不少运动员望而却步。这应该是她的底牌之一。
 
 > [!note]+ 铝制护颚器|Aluminum Orthodontic Headgear
 > ![](assets/牙仙｜Tooth%20Fairy.assets/单品%20牙仙%2006.png)
-> **8**
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**8**
 > 外戴便携型的护颚器，既能保证唇齿紧闭，亦能保证脖颈与下颚可得到最大程度的放松。那群小东西恐怕根本跟不上她的速度。
 ````
 
