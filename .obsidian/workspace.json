@@ -201,7 +201,8 @@
       "cmdr:Style Settings 悬浮面板": false,
       "float-search:Search Obsidian In Modal": false,
       "obsidian-projects:Open projects": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "a1fdfcb880c7c7e4",

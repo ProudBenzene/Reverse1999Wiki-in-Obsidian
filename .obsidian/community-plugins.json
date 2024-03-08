@@ -27,5 +27,6 @@
   "obsidian-tidy-footnotes",
   "better-fn",
   "obsidian-export-image",
-  "quickadd"
+  "quickadd",
+  "templater-obsidian"
 ]
