@@ -59,17 +59,17 @@ title:
 color: 
 > [!note]+ 研究员身份标识牌|Researcher ID
 > ![](assets/兔毛手袋｜Medicine%20Pocket.assets/单品%20兔毛手袋%2001.png)
-> **75**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**75**
 > 拉普拉斯配发给研究员的身份表示牌照，排版与色彩中规中矩，配有硅胶制外包裹金属镀膜的磁吸扣。受访者相当“风趣”地为其黏上了一枚贴纸。
 
 > [!note]+ 白手套|White Gloves
 > ![](assets/兔毛手袋｜Medicine%20Pocket.assets/单品%20兔毛手袋%2002.png)
-> **310**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**310**
 > 从家乡携带而来的白手套。材质坚韧且具有透气性。帮助受访者更加自由地触碰各类药剂，也保护其双手在破坏行为中不至于受伤。
 
 > [!note]+ 米格鲁0-1号 体液分析套组|Beagle 0-1 Body Fluid Analysis Apparatus
 > ![](assets/兔毛手袋｜Medicine%20Pocket.assets/单品%20兔毛手袋%2003.png)
-> **120**
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**120**
 > 结构精密的仪器，分为三端连接于受访者与其术杖。可以实时监控受访者服药后的身体转变，并抽取血液、汗液与泪水等体液进行分析，或凝结为子弹导入术杖。
 ````
 
@@ -150,4 +150,3 @@ tab: 无奉献心理的天才|[UTTU×兔毛手袋]
 白雪松：但这是一种漂亮的精神，完全自导的，属于自己的。就像是真正的时尚。
 白雪松：你正行走在属于自己的道路上。
 ````
-
