@@ -120,7 +120,7 @@ color:
 
 > [!note]+ 双肩背包|Backpack
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2003.png)
-> ![](assets/星锑｜Regulus.assets/利齿子儿.png)**8.5**
+> ![利齿子儿|行内](assets/星锑｜Regulus.assets/利齿子儿.png)**8.5**
 > 星锑用来装唱片的背包。极其爱护自己唱片的星锑，一般来说，是不会随身携带唱片的。但当意外事件登门造访时，背包也就成为了她带着自己宝贝唱片逃命的救生艇。
 ````
 
