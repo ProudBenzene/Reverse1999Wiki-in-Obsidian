@@ -130,17 +130,17 @@ color:
 collapse: open
 title: 
 color: 
-> [!note]+ 海盗的礼帽|Pirate Hat
+> [!culture]+ 海盗的礼帽|Pirate Hat
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2004.png)
 > **无估值**
 > 一顶据称“混合了时下球迷流行风尚，与无往不利的摇滚海盗审美”的特别礼帽。星锑背包上的小装饰也被利用起来，充当丰富挂链色彩的点睛部件。整体搭配元素复杂，但好在成品看上去不算凌乱。
 
-> [!note]+ 主场应援球衣|Soccer Jersey
+> [!culture]+ 主场应援球衣|Soccer Jersey
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2005.png)
 > ![纯雨滴|行内](assets/星锑｜Regulus.assets/雨滴.png)**113**
 > 购置于帝国球场附近足球用品店的主场球队球衣，球迷特供版。 宣称“仅此一件”的孤品，似乎不可避免地因为断码而显得过大。所幸，穿着它的人完全不在乎合身与否。
 
-> [!note]+ 流动的旗帜|Flag
+> [!culture]+ 流动的旗帜|Flag
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2006.png)
 > **6.5**
 > 偶尔会被星锑用来当作披肩的主场旗帜。看起来比常见的缎面旗帜更长，面料也更加光滑。当然，如果你有幸见到那抹欢乐的身影，你会明白，最具感染力的显然不是旗帜本身。

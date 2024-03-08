@@ -40,19 +40,31 @@
             }
           },
           {
-            "id": "8c834eeed88c7c4a",
+            "id": "a1fdfcb880c7c7e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c834eeed88c7c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "测试.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -97,6 +109,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "5b6377da7e207407",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
           }
         ]
       }
@@ -118,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,12 +178,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md"
+                "file": "测试.md"
               }
+            }
+          },
+          {
+            "id": "3e473674be2f2f3c",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,15 +206,22 @@
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "cmdr:切换明暗主题": false,
+      "cmdr:在文件列表中显示当前文件": false,
+      "cmdr:Projects": false,
+      "cmdr:Style Settings 悬浮面板": false,
+      "float-search:Search Obsidian In Modal": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "8c834eeed88c7c4a",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanist/未命名.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/利齿子儿.png",
-    "未命名.md",
+    "测试.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/未命名.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/单品 星锑 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/雨滴.png",
@@ -227,7 +262,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/伊索尔德｜Isolde.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee1.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士：An-an Lee.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee1.md"
   ]
 }
