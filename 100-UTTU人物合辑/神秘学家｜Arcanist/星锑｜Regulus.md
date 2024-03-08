@@ -224,12 +224,42 @@ tab: 摇滚电台|[UTTU×星锑]
 
 ## 语音
 
-| 情景  | 语音  |
-| --- | --- |
-|     |     |
-|     |     |
-|     |     |
-
+|              情景               |                             语音                             |
+| :-----------------------------: | :----------------------------------------------------------: |
+|              初遇               | 在你面前的是谁？哼哼，受人景仰的船长、最酷的电台骑师、天才炼金术师！随便怎么称呼我都行。<br>Who's in front of you?Humph! The Admired Captain, The Coolest Radio DJ, The Genius Alchemist! Humph! Call me whatever you like. |
+|            箱中气候             | 啧啧，真不错！你瞧，天上的太阳难道不像一块闪闪发亮的唱片吗？<br>Marvy! Look, isn't the sun in the sky shining like a record? |
+|   致未来 [信任达到 10% 解锁]    | 海盗也许会失业，但无论如何——摇滚万岁！<br>Pirates may lose their job, but who cares … Rock 'n' Roll! |
+|              孑立               | 有点太安静了——要我说，来几首山地摇滚怎么样？<br>It's a bit too quiet … I'd say, how about some rockabilly music? |
+|              问候               |    哦哦哦、小心点，兄弟——<br>Oh oh oh! Watch out, mate …     |
+|              朝晨               | 新闻，还是摇滚乐？谁更合适来唤醒你的一天——？欢迎来到海盗电台。让我们开始今天，开始关于摇滚的每一天！<br>News, or rock music? Which is the best to wake you up? Welcome to the Pirate Radio. Let's get it on, today and every day, Rock N Roll! |
+| 信任 - 朝晨 [信任达到 20% 解锁] | 你打算今天一整天都呆在这儿？要不，跟本海盗去找点乐子？<br>Are you staying here all day today? How about having fun with the Pirate? |
+|              夜暮               | 当你航行在海上。有唱片机，有胡椒博士也有足够多的好唱片。所有星星都能看你开演唱会…… 而且它们从不会抱怨！<br>When you're sailing on the sea,there's a record player, there's Dr. Pepper, and there are enough good records. All the stars will be your audience … And they will never complain! |
+| 信任 - 夜暮 [信任达到 30% 解锁] | 嘿！我说，让我们听那张唱片吧，我们都喜欢的那张。<br>Hey! I'd say, let's play that record, the one we all like. |
+|           帽檐与发鬓            | 贝雷帽、遮阳帽、鸭舌帽和船长帽，遮风又挡雨，乘凉又避暑。星锑喜欢帽子，但也喜欢不戴帽子的时候。<br>Berets, sun hats, casquettes, and captain hats.Hats protect me against the wind and the rain, as well as the cold and the heat.Regulus loves hats, and also loves not wearing a hat. |
+|             袖与手              | 干嘛？我手上可没有多余的闲钱了。<br>What do you want? I don't have any spare scratch. |
+|           衣着与身形            | 现在？现在穿什么的都有！即使你明天想穿着纸袋上门也无所谓——这就是摇摆年代！<br>Now? You can wear anything now! Even if you want to wear a paper bag tomorrow, it doesn't matter … This is the Swinging Sixties! |
+|    嗜好 [信任达到 40% 解锁]     | 在海上漂流，在电台狂欢，向所有的新玩意发起进攻，直到永远！<br>Drift on the sea. Go on a radio spree. Attack all the new things. Forever and ever! |
+|    赞赏 [信任达到 50% 解锁]     | 你考虑过来 APPLe 电台当一名摇滚骑师吗？你会成为一名仅次于本海盗的伟大骑师的！<br>Have you thought about being a Rock DJ at Radio APPLe? You will be a great DJ only second to me! |
+|    亲昵 [信任达到 60% 解锁]     | 你去过现场演唱会吗？虽然电台里的摇滚乐也很棒，但在现场听摇滚，可是截然不同的感受！当然啦，票价也会随之上涨——你明白我的意思吧？<br>Have you ever been to a live show? The rock music from the radio is great, but it's completely different to have a live rock show! Of course, the ticket price will also go up … Can you dig it? |
+|             闲谈 Ⅰ              | 我听说有一种技术能够控制频率。让所有电台都收到你的消息…… 音乐从那些讨厌摇滚的官员们的收音机里传出来。哈哈哈，天大的乐子！<br>I've heard of a technique that can control the frequency. So that all the radio stations will receive your message … Rock music will be broadcast on the radios of the officials who hate rock. Haha, it's a gas! |
+|             闲谈 Ⅱ              | 没有那些惹人厌的 “跟屁虫” 的话，APPLe 号还能在泰晤士河上转一会呢。<br>If it had not been the annoying "shadows," APPLe could have sailed longer on the Thames. |
+|    独白 [信任达到 70% 解锁]     | 过去，未来。有人或许记得，有人或许不记得。但是勇敢的传说、冒险、摇滚乐和它的精神永恒不朽！<br>The past, the future. Some may remember; some may not. But the brave legends, adventures, rock music and its spirit will be immortal! |
+|              入队               | 等一会，我得先把唱片藏好！<br>Wait, I have to hide the records first! |
+|              战前               |         我已经迫不及待了！<br>I can't wait any more!         |
+|           择选咒语 Ⅰ            |                让我们开始吧！<br>Start Me Up!                |
+|           择选咒语 Ⅱ            |          只是小游戏～<br>They're just little games.          |
+|          择选高阶咒语           | 所有人，让我看见你们的双手！<br>Everybody, let me see your hands up! |
+|         择选至终的仪式          |    准备好被亮瞎眼睛了吗？<br>Are you ready to be blinded?    |
+|          释放神秘术 Ⅰ           | 抬起左手，现在，抬起右手！<br>Left hands up, now, right hands up! |
+|          释放神秘术 Ⅰ           | 摇滚！摇滚！摇滚！颠覆这个世界！<br>Rock! Rock! Rock! Change the world! |
+|          释放神秘术 Ⅱ           |              呼呜～！发射！<br>Woohoo! Release!              |
+|          释放神秘术 Ⅱ           |                      灯光！<br>Lights!                       |
+|         召唤至终的仪式          |      还有人没打算蹦起来吗？<br>Are you ready to shake?       |
+|             受敌 Ⅰ              |             别碰我的包！<br>Don't touch my bag!              |
+|             受敌 Ⅱ              |   爱与和平，爱与和平！<br>Peace and love, peace and love!    |
+|            战斗胜利             |              Hip hip … Hooray!Hip hip … Hooray!              |
+|        洞悉 [洞悉后解锁]        | 这些材料能换多少钱，又能买几张唱片呢？啊！不，我绝对没有偷偷藏几个走的意思啊！真的！<br>How much are these materials? And how many records can I buy?Ah! No, I definitely do not mean to steal a few! Really! |
+|   洞悉之底 [获得对应皮肤解锁]   | 机车轰鸣的引擎，电台音乐的震声，游轮下水的波涛。一切的一切，我已经等不及感受新世界了！<br>The roaring engine of the motor, the rocking music from the radio, the waves when the ship sets sail. Everything and everything. I can't wait to feel the new world! |
 
 
 
