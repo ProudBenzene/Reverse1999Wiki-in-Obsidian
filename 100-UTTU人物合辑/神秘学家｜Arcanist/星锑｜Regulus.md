@@ -115,12 +115,12 @@ color:
 
 > [!culture]+ 超酷太阳镜|Sunglasses
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2002.png)
-> ![利齿子儿|inlL](assets/星锑｜Regulus.assets/利齿子儿.png)**336**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**336**
 > 在伦敦哈罗德百货打折季时购买的太阳镜。公海的紫外线强烈，需要有一副太阳镜来遮蔽。但很显然，星锑的购物理由并不在此，而是它真的“好酷——！”。
 
 > [!culture]+ 双肩背包|Backpack
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2003.png)
-> ![利齿子儿|行内](assets/星锑｜Regulus.assets/利齿子儿.png)**8.5**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**8.5**
 > 星锑用来装唱片的背包。极其爱护自己唱片的星锑，一般来说，是不会随身携带唱片的。但当意外事件登门造访时，背包也就成为了她带着自己宝贝唱片逃命的救生艇。
 ````
 
@@ -137,12 +137,12 @@ color:
 
 > [!culture]+ 主场应援球衣|Soccer Jersey
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2005.png)
-> ![纯雨滴|行内](assets/星锑｜Regulus.assets/雨滴.png)**113**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**113**
 > 购置于帝国球场附近足球用品店的主场球队球衣，球迷特供版。 宣称“仅此一件”的孤品，似乎不可避免地因为断码而显得过大。所幸，穿着它的人完全不在乎合身与否。
 
 > [!culture]+ 流动的旗帜|Flag
 > ![](assets/星锑｜Regulus.assets/单品%20星锑%2006.png)
-> **6.5**
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**6.5**
 > 偶尔会被星锑用来当作披肩的主场旗帜。看起来比常见的缎面旗帜更长，面料也更加光滑。当然，如果你有幸见到那抹欢乐的身影，你会明白，最具感染力的显然不是旗帜本身。
 ````
 
