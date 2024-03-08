@@ -40,12 +40,12 @@
             }
           },
           {
-            "id": "b77804949144319f",
+            "id": "6da8cd0687100307",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
                 "mode": "source",
                 "source": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md"
               }
             }
           },
@@ -217,8 +217,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b77804949144319f",
+  "active": "6da8cd0687100307",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/神秘术 上清道符3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/槲寄生｜Druvis III.assets/单品 槲寄生 05.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
@@ -237,14 +241,10 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/单品 星锑 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/雨滴.png",
     "output/星锑｜Regulus.md",
-    "output/attachment/bfc1eb3a68a11bda7d393d7e791b9e77.png",
     "output/attachment",
     "output",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III~.md",
     "assets/十四行诗｜Sonetto.assets/神秘术 戒律·其五.png.md",
