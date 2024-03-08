@@ -1,6 +1,8 @@
 /* 行内图片，本地图片用![[xxx.jpg|行内]]，网络图片用![行内](http://xxx.jpg)，但是本地图片不能用![行内](xxx.jpg)，在阅读模式下不能在同一行，渲染不一样，有span的区别*/
 img[alt*="行内"] {
-  display: inline !important;
+  display: inline-block !important;
   vertical-align: middle;
   max-height: 2em;
+  float: none;
+  position: relative;
 }

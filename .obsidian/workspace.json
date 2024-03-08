@@ -52,7 +52,7 @@
             }
           },
           {
-            "id": "8c834eeed88c7c4a",
+            "id": "e5c99bebb109a4fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -216,11 +217,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "8c834eeed88c7c4a",
+  "active": "e5c99bebb109a4fb",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/利齿子儿.png",
-    "测试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
+    "测试.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/未命名.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/单品 星锑 06.png",
