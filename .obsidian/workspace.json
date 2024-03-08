@@ -40,13 +40,13 @@
             }
           },
           {
-            "id": "c0e8879020b79d46",
+            "id": "d99d848239f6cb92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
-                "mode": "source",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md"
               }
             }
           },
@@ -206,9 +206,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c0e8879020b79d46",
+  "active": "d99d848239f6cb92",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde~.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
@@ -228,8 +230,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/十四行诗｜Sonetto.assets/神秘术 劝勉·其九1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/泥鯭的士｜An-an Lee.assets/神秘术 百合灵水1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets",
