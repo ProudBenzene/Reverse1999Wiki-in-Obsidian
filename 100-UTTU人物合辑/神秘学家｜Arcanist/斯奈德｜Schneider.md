@@ -33,7 +33,7 @@ aliases:
 洞悉立绘: "[[立绘 斯奈德 01.png]]"
 banner_header: "{{filename}}"
 ---
-![cover](assets/斯奈德｜Schneider.assets/Portrait-302901.png)
+![](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2001.png)
 
 > [!info]+ 🌆背景
 > - 展出/活跃时代:: 20 世纪 20 年代
