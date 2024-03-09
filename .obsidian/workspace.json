@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -207,6 +208,7 @@
   },
   "active": "0e2289dfd06769b3",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/立绘 可燃点 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/立绘 可燃点 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
@@ -236,7 +238,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/未命名.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/星锑｜Regulus.assets/单品 星锑 06.png",
     "output/星锑｜Regulus.md",
     "output/attachment",
     "output",
