@@ -100,59 +100,40 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
-### 洞二衣着
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ 罪与罚|S192-9W
+> ![](assets/斯奈德｜Schneider.assets/单品%20斯奈德%2001.png)
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**473.11**
+> 以柯尔特M1911为原型设计，枪管与弹匣经由神秘学技术改良，能够装填某种特殊的子弹。这类武器在神秘学界十分紧俏，但它们的产出仍是个谜。
 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ 头饰|Maple Leaf
+> ![](assets/斯奈德｜Schneider.assets/单品%20斯奈德%2002.png)
+> **无估值**
+> 受赠于某一位得到庇护的意大利移民，颜色深沉。枫叶的颜色因季节更替与周遭环境而改变，这似乎与她的人生信条不谋而合。
 
-> [!culture]+ |
-> 
-> 
-> 
-````
-
-### 
-
-````ad-flex
-collapse: open
-title: 
-color: 
-> [!culture]+ |
-> 
-> 
-> 
-
-> [!culture]+ |
-> 
-> 
-> 
-
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ 珍珠项链|Necklace
+> ![](assets/斯奈德｜Schneider.assets/单品%20斯奈德%2003.png)
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.21**
+> 一条价格平庸的珍珠项链，陪伴着她一同踏上芝加哥的土地。人工珍珠的光泽略显廉价却也闪亮非凡，缠绕在这条项链上的柑橘香气无时无刻不伴她左右。
 ````
 
 ## 文化
 
 ````tab
 tab: |
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)第一次世界大战后，欧洲移民潮向大西洋的另一岸汹涌而来。大量的意大利移民涌进了芝加哥，他们带来了根植于意大利的“特色”——黑帮，如雨后的青苔，在芝加哥的土壤开得漫山遍野。
+
+混乱是芝加哥的主题，黑与白的界限在这里并不分明，枪火声也从未停止。有人为财富而来，有人追求着名望，而更多人只是想要活下去。所有人都在这座城市里辗转，企图找到自己的一席之地。
+
+一片来自西西里岛的羽毛，穿过遥远的大西洋，轻飘飘地落在这里。
+
+她努力地把自己伸展开来，身后是家族的亲人们。头顶，瓦砾摇摇欲坠。
+
+她会撑起一角天空。
 
 tab: |
 ![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
