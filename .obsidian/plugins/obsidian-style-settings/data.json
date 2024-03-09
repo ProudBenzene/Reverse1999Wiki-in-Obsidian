@@ -381,7 +381,7 @@
   "blue-topaz-theme@@remove-custom-svg-icons": true,
   "Blue-Topaz-Legacy@@loading-diy-text-color@@light": "#6B8A6C",
   "Blue-Topaz-Legacy@@font-loading-text": "'行楷-繁'",
-  "Blue-Topaz-Legacy@@loading-page-style-option": "loading-custom-text",
+  "Blue-Topaz-Legacy@@loading-page-style-option": "loading-animation-custom",
   "Blue-Topaz-Legacy@@hide-embed-title": true,
   "Blue-Topaz-Legacy@@naked-embed": true,
   "Blue-Topaz-Legacy@@embed-hover": true,
@@ -619,5 +619,6 @@
   "Mo-Table@@tbMH-qkms": "tbMH-zdykd-jz",
   "Mo-Table@@tbMH-kd": "tbMH-kd-cc",
   "anuppuccin-theme-settings@@anp-table-thickness": 2,
-  "Mo-Table@@tbMH-zdykd-jz": 591
+  "Mo-Table@@tbMH-zdykd-jz": 591,
+  "Blue-Topaz-Legacy@@loading-page-custom-gif-url": "url(https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403100052234.gif)"
 }
