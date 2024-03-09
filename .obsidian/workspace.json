@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7811004c82eda939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/主页.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -51,8 +63,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md"
+                "file": "000-箱的构成/主页.md"
               }
             }
           },
@@ -205,10 +216,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4aa4c11017d130f0",
+  "active": "7811004c82eda939",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
+    "000-箱的构成/assets",
+    "000-箱的构成/assets/主页.assets/仔细读信的小叶尼塞.gif",
+    "000-箱的构成/assets/主页.assets",
+    "assets",
     "000-箱的构成/自动化创建角色档案.md",
+    "000-箱的构成/主页.md",
+    "400-箱外阵营/未命名.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/牙仙的尤提姆.png",
@@ -221,7 +238,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Portrait-302901.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/单品 斯奈德 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
@@ -245,12 +261,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md",
     "output/星锑｜Regulus.md",
     "output/attachment",
-    "output",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III~.md",
-    "assets/十四行诗｜Sonetto.assets/神秘术 戒律·其五.png.md",
-    "assets/十四行诗｜Sonetto.assets"
+    "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde~.md"
   ]
 }
