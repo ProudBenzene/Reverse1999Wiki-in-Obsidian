@@ -50,9 +50,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "12db8667d8da9fe0",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -206,7 +214,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "770035572d26f134",
+  "active": "12db8667d8da9fe0",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 02.png",

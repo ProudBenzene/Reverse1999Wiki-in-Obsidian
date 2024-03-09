@@ -1443,7 +1443,7 @@ settings:
       title.zh: 变色效果
       type: class-toggle
       default: false
-      -
+    -
       id: loading-animation-custom-folder
       title: 2.3.14.3 Custom image/animation
       type: heading
@@ -6034,11 +6034,16 @@ body:not(.default-loading-page).loading-custom-text.loading-text-shinning-style.
 }
 
 /****加载图片****/
-body:not(.loading-animation-custom) .setting-item[data-id="loading-animation-custom-folder"] {
-  display: none;
+body:not(.default-loading-page).loading-animation-custom .progress-bar-message::before {
+  position: initial;
+  animation: unset;
+  display: block;
+  content: var(--loading-page-custom-gif-caption);
+  background: no-repeat center/cover var(--loading-page-custom-gif-url);
+  width: 800px;
+  height: 600px;
+  margin-top: -20px;
 }
-
-
 
 
 /*
