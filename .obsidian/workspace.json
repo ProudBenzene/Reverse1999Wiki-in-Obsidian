@@ -38,21 +38,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "0e2289dfd06769b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,8 +190,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0e2289dfd06769b3",
+  "active": "55f74fefb2268940",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/单品 可燃点 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/单品 可燃点 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/单品 可燃点 01.png",
@@ -215,7 +200,6 @@
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets/单品 可燃点 01.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/至终的仪式 火于之火.png",
@@ -223,7 +207,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/神秘术 “可燃点”1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/神秘术 “可燃点”2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/神秘术 “可燃点”3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets/二阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets",
     "100-UTTU人物合辑/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/assets/可燃点｜Spathodea.assets",
