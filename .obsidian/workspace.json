@@ -46,13 +46,13 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md"
+              }
             }
           },
           {
@@ -202,10 +206,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a465f894adf7290",
+  "active": "770035572d26f134",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/斯奈德.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/斯奈德.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 02.jpg",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/图像.jpg",
     "000-箱的构成/自动化创建角色档案.md",
@@ -216,8 +221,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/单品 斯奈德 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/单品 斯奈德 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/单品 斯奈德 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Belonging-302903.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Belonging-302902.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",

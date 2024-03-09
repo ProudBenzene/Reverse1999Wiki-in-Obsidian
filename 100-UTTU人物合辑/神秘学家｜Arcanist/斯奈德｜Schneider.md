@@ -33,7 +33,7 @@ aliases:
 洞悉立绘: "[[立绘 斯奈德 02.jpg]]"
 banner_header: "{{filename}}"
 ---
-![cover](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2001.png)
+![cover](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2002.png)
 
 > [!info]+ 🌆背景
 > - 展出/活跃时代:: 20 世纪 20 年代
@@ -207,3 +207,7 @@ tab: 向老爷们致敬|[UTTU×斯奈德]
 | 战斗胜利               | 嗯～合作愉快～？<br>Emm, what a good cooperation.                                                                                                                                                                                             |
 | 洞悉洞悉后解锁            | 我当然会好好报答您啦。<br>Of course I will repay you well.                                                                                                                                                                                       |
 | 洞悉之底获得对应衣着解锁       | 当我乘着那片羽毛，风将我送往何方，我就去往何方。<br>When I sit on that feather, wherever the wind sends me, I will go.                                                                                                                                        |
+> [!warning]- 注
+> - 本文关于斯奈德塑造的文字信息来源于百度文档
+> - 斯奈德的洞二立绘分别是用了 [𝕏](https://x.com/laxyiii/status/1682226343713583105?s=20)和 [Pixiv](https://www.pixiv.net/artworks/114858169) 画师的作品
+> 
