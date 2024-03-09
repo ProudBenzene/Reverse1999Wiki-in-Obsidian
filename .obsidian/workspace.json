@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +164,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,22 +202,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "770035572d26f134",
+  "active": "5a465f894adf7290",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/斯奈德.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 02.jpg",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/图像.jpg",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Portrait-302901.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/单品 斯奈德 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/单品 斯奈德 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/单品 斯奈德 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Belonging-302903.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Belonging-302902.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Belonging-302901.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/神秘术 有罪之人1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets",
@@ -252,7 +249,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III~.md",
     "assets/十四行诗｜Sonetto.assets/神秘术 戒律·其五.png.md",
-    "assets/十四行诗｜Sonetto.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/牙仙｜Tooth Fairy~.md"
+    "assets/十四行诗｜Sonetto.assets"
   ]
 }

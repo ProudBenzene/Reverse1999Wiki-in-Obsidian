@@ -30,7 +30,7 @@ aliases:
   - 斯奈德
   - Schneider
 初始立绘: "[[立绘 斯奈德 01.png]]"
-洞悉立绘: "[[立绘 斯奈德 01.png]]"
+洞悉立绘: "[[立绘 斯奈德 02.jpg]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2001.png)
