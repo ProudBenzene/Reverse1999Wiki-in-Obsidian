@@ -111,17 +111,17 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!note]+ |
+> [!culture]+ |
 > 
 > 
 > 
 
-> [!note]+ |
+> [!culture]+ |
 > 
 > 
 > 
 
-> [!note]+ |
+> [!culture]+ |
 > 
 > 
 > 
@@ -133,17 +133,17 @@ color:
 collapse: open
 title: 
 color: 
-> [!note]+ |
+> [!culture]+ |
 > 
 > 
 > 
 
-> [!note]+ |
+> [!culture]+ |
 > 
 > 
 > 
 
-> [!note]+ |
+> [!culture]+ |
 > 
 > 
 > 
