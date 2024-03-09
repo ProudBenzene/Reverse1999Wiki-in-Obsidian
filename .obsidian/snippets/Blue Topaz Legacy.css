@@ -1384,6 +1384,9 @@ settings:
       -
         label: Custom Text
         value: loading-custom-text
+      -
+        label: Adding Image or Animation (GIF)
+        value: loading-animation-custom
     -
       id: loading-custom-text-folder
       title: Custom Text
@@ -1440,6 +1443,22 @@ settings:
       title.zh: 变色效果
       type: class-toggle
       default: false
+      -
+      id: loading-animation-custom-folder
+      title: 2.3.14.3 Custom image/animation
+      type: heading
+      level: 4
+      collapsed: true
+    -
+      id: loading-page-custom-gif-url
+      title: Custom loading page image/animation
+      type: variable-text
+      default: url(https://)
+    -
+      id: loading-page-custom-gif-caption
+      title: Image caption
+      type: variable-text
+      default: " "
     -
       id: plugins
       title: Plugins
@@ -6013,6 +6032,15 @@ body:not(.default-loading-page).loading-custom-text.loading-text-shinning-style.
   -webkit-transform: translateZ(0);
   will-change: transform;
 }
+
+/****加载图片****/
+body:not(.loading-animation-custom) .setting-item[data-id="loading-animation-custom-folder"] {
+  display: none;
+}
+
+
+
+
 /*
 /*************** List列表 ***************/
 /*
