@@ -46,7 +46,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -207,6 +208,12 @@
   },
   "active": "f10721387a92b0ed",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/神秘术 律与戒2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/神秘术 律与戒3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/神秘术 律与戒1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/三阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/二阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/一阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
@@ -224,12 +231,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/牙仙的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/牙仙｜Tooth Fairy.assets/iShot_2024-03-10_00.42.50.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/斯奈德.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/Portrait-302901.png",
-    "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
