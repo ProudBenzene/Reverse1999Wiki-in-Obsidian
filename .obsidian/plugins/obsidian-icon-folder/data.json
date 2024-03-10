@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbHouse",
       "TiHeartUp",
       "RiSwordFill",
       "IbEarth",
-      "TiFriends",
-      "TiBriefcase"
+      "TiFriends"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -112,5 +112,6 @@
   "100-UTTU人物合辑": "TiFriends",
   "200-相从心生": "TiHeartUp",
   "300-箱外世界": "IbEarth",
-  "400-箱外阵营": "RiSwordFill"
+  "400-箱外阵营": "RiSwordFill",
+  "000-箱的构成/主页.md": "IbHouse"
 }
