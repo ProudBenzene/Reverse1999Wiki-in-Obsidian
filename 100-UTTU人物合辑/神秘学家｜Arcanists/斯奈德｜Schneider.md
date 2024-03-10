@@ -4,7 +4,7 @@ English Name: Schneider
 tags: 
 cssclasses:
   - book
-人物合辑: 神秘学家｜Arcanist
+人物合辑: 神秘学家｜Arcanists
 介质: 羽毛
 稀有度: ★★★★★
 灵感: 兽｜Beast
@@ -29,8 +29,8 @@ Udimo:
 aliases:
   - 斯奈德
   - Schneider
-初始立绘: "[[立绘 斯奈德 01.png]]"
-洞悉立绘: "[[立绘 斯奈德 02.jpg]]"
+初始立绘: "[[assets/斯奈德｜Schneider.assets/立绘 斯奈德 01.png]]"
+洞悉立绘: "[[assets/斯奈德｜Schneider.assets/立绘 斯奈德 02.jpg]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2002.png)

@@ -4,7 +4,7 @@ English Name: Druvis III
 tags: 
 cssclasses:
   - book
-人物合辑: 神秘学家｜Arcanist
+人物合辑: 神秘学家｜Arcanists
 介质: 树木
 稀有度: ★★★★★★
 灵感: 木｜Plant
@@ -29,8 +29,8 @@ Udimo: 猫类
 aliases:
   - 槲寄生
   - Druvis III
-初始立绘: "[[立绘 槲寄生 01.png]]"
-洞悉立绘: "[[立绘 槲寄生 02.png]]"
+初始立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png]]"
+洞悉立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)

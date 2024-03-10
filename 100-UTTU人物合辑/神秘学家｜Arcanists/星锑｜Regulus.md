@@ -27,9 +27,9 @@ Udimo: 幼狮类
 aliases:
   - Regulus
   - 星锑
-人物合辑: 神秘学家｜Arcanist
-初始立绘: "[[立绘 星锑 01.png]]"
-洞悉立绘: "[[立绘 星锑 02.png]]"
+人物合辑: 神秘学家｜Arcanists
+初始立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 01.png]]"
+洞悉立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 02.png]]"
 banner_header: "{{filename}}"
 ---
 

@@ -4,7 +4,7 @@ English Name: Spathodea
 tags: 
 cssclasses:
   - book
-人物合辑: 神秘学家｜Arcanist
+人物合辑: 神秘学家｜Arcanists
 介质: 勾拳
 稀有度: ★★★★★★
 灵感: 兽｜Beast
@@ -30,8 +30,8 @@ Udimo:
 aliases:
   - 可燃点
   - Spathodea
-初始立绘: "[[立绘 可燃点 01.png]]"
-洞悉立绘: "[[立绘 可燃点 02.png]]"
+初始立绘: "[[assets/可燃点｜Spathodea.assets/立绘 可燃点 01.png]]"
+洞悉立绘: "[[assets/可燃点｜Spathodea.assets/立绘 可燃点 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/可燃点｜Spathodea.assets/立绘%20可燃点%2002.png)

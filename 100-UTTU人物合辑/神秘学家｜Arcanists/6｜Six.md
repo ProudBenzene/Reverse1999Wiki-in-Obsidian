@@ -1,10 +1,10 @@
 ---
 Name: "6"
 English Name: Six
-tags:
+tags: 
 cssclasses:
   - book
-人物合辑: 神秘学家｜Arcanist
+人物合辑: 神秘学家｜Arcanists
 介质: 平衡
 稀有度: ★★★★★★
 灵感: 智｜Intellect
@@ -13,7 +13,7 @@ cssclasses:
 传承: 知识的崇奉
 造像: 这是完全数的职责，日复一日。命运照常运转，日复一日。
 银行彩色相片: 维持平衡的完全数，阿派朗学派的领导者，你最平静的朋友之一。
-Udimo:
+Udimo: 
 征集: 真理的壁影｜Seeker in the Cave
 定位标签:
   - 辅助
@@ -30,8 +30,8 @@ Udimo:
 aliases:
   - Six
   - "6"
-初始立绘: "[[立绘 6 01.png]]"
-洞悉立绘: "[[立绘 6 02.png]]"
+初始立绘: "[[assets/6｜Six.assets/立绘 6 01.png]]"
+洞悉立绘: "[[assets/6｜Six.assets/立绘 6 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/6｜Six.assets/立绘%206%2002.png)

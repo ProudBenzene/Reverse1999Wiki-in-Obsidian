@@ -4,7 +4,7 @@ English Name: Tooth Fairy
 tags: 
 cssclasses:
   - book
-人物合辑: 神秘学家｜Arcanist
+人物合辑: 神秘学家｜Arcanists
 介质: 牙釉质
 稀有度: ★★★★★★
 灵感: 星｜Star
@@ -30,8 +30,8 @@ Udimo: 牙签鸟类
 aliases:
   - 牙仙
   - Tooth Fairy
-初始立绘: "[[立绘 牙仙 01.png]]"
-洞悉立绘: "[[立绘 牙仙 02.png]]"
+初始立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 01.png]]"
+洞悉立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png]]"
 banner_header: "{{filename}}"
 ---
 ![cover](assets/牙仙｜Tooth%20Fairy.assets/立绘%20牙仙%2002.png)
