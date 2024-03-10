@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/主页.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -239,12 +240,13 @@
   },
   "active": "e348b335a60458f4",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "000-箱的构成/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "000-箱的构成/自动化创建角色档案.md",
@@ -276,7 +278,6 @@
     "000-箱的构成/assets/主页.assets",
     "400-箱外阵营/未命名.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea~.md",
     "100-UTTU人物合辑/可燃点｜Spathodea.md",
