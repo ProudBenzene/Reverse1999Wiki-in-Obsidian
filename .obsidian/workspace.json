@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -155,7 +154,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,9 +191,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -226,8 +221,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "47f0cac6056b0338",
+  "active": "045cafeb7c3139d6",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/assets/自动化创建角色档案.assets/iShot_2024-03-10_21.04.31.png",
@@ -256,7 +252,6 @@
     "000-箱的构成/templates/UTTU人物合辑~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "300-箱外世界/暴雨时间线.md",
     "000-箱的构成/主页.md",
     "000-箱的构成/assets",
