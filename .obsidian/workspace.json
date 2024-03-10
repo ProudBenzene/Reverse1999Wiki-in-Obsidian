@@ -46,7 +46,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -207,6 +208,10 @@
   },
   "active": "eb10f9cc94745d94",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/立绘 曲娘 01.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/立绘 曲娘 02.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/人类｜Human",
@@ -225,7 +230,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 三角正论.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/37｜Thirty-seven.assets/至终的仪式 数与几何的王国.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/37｜Thirty-seven.assets/神秘术 曲线映射3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
@@ -240,8 +244,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets",
-    "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea~.md",
     "100-UTTU人物合辑/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
@@ -251,7 +253,6 @@
     "测试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/未命名.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md",
-    "output/星锑｜Regulus.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus~.md"
+    "output/星锑｜Regulus.md"
   ]
 }
