@@ -515,7 +515,7 @@
   "background-under-frame@@dark-background-image": "url(https://figure-bed123.oss-cn-beijing.aliyuncs.com/202309090029456.jpg)",
   "anuppuccin-theme-settings@@anp-simple-rainbow-collapse-icon-toggle": true,
   "anuppuccin-custom-background@@anp-background-image-toggle": true,
-  "anuppuccin-custom-background@@anp-background-image-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
+  "anuppuccin-custom-background@@anp-background-image-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403102222441.png\")",
   "anuppuccin-custom-background@@anp-custom-bg-brightness-dark": 0.9,
   "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 0,
   "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.7,
@@ -620,5 +620,6 @@
   "Mo-Table@@tbMH-kd": "tbMH-kd-cc",
   "anuppuccin-theme-settings@@anp-table-thickness": 2,
   "Mo-Table@@tbMH-zdykd-jz": 591,
-  "Blue-Topaz-Legacy@@loading-page-custom-gif-url": "url(https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403100052234.gif)"
+  "Blue-Topaz-Legacy@@loading-page-custom-gif-url": "url(https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403100052234.gif)",
+  "anuppuccin-custom-background@@anp-background-image-light": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")"
 }

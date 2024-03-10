@@ -7,7 +7,7 @@
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 18,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "Timeline_Callouts",
     "[PKMer]Timeline_Callouts",
