@@ -70,7 +70,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 职与责
-> 
+> ![职与责 一阶|100](assets/6｜Six.assets/神秘术%20职与责1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -79,8 +79,8 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
-> 
+> [!skill]- 亘古亘今的启示
+> ![亘古亘今的启示](assets/6｜Six.assets/至终的仪式%20亘古亘今的启示.png)
 > 
 > | 技能 | 文化 |
 > | :--: | :--: |
