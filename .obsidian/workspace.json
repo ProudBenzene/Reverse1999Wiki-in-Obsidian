@@ -38,9 +38,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "cfc4f9c465aa0aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md"
+              }
             }
           },
           {
@@ -189,7 +205,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a465f894adf7290",
+  "active": "cfc4f9c465aa0aa0",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/37的尤提姆.png",
