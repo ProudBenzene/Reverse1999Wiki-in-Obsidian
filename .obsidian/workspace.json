@@ -35,8 +35,12 @@
             "id": "5a465f894adf7290",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -95,6 +99,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "1b88a00a56cdbf65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e473674be2f2f3c",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,19 +171,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "3e473674be2f2f3c",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
+              "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md"
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -189,7 +203,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "287b156a7fdfc44c",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six~.md",
