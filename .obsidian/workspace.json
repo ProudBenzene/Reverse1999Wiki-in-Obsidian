@@ -50,21 +50,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7aa6b44bcb836b81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/templates/UTTU人物合辑.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md"
               }
             }
           },
@@ -218,8 +206,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7aa6b44bcb836b81",
+  "active": "740b045a4aa531e3",
   "lastOpenFiles": [
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/UTTU人物合辑~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射2.png",
@@ -227,7 +216,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 三角正论.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/至终的仪式 数与几何的王国.png",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/一阶神秘术.png",
