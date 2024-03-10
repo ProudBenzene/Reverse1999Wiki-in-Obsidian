@@ -14,7 +14,7 @@
         "000-箱的构成/templates/UTTU人物合辑.md"
       ],
       "excludedNotes": [
-        "\".+\\\\.png$\""
+        ""
       ],
       "isDefault": true,
       "dataSource": {
