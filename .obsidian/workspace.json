@@ -40,13 +40,13 @@
             }
           },
           {
-            "id": "cfc4f9c465aa0aa0",
+            "id": "eb10f9cc94745d94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
-                "mode": "preview",
+                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
+                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
+                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md"
+                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md"
               }
             }
           },
@@ -205,10 +205,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "eb10f9cc94745d94",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/人类｜Human",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
+    "100-UTTU人物合辑/人类｜Human",
     "100-UTTU人物合辑/神秘学家感染者｜Infected",
     "100-UTTU人物合辑/意识唤醒者｜Awakened",
     "100-UTTU人物合辑/超自然者｜Beyond",
@@ -241,7 +242,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
-    "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea~.md",
     "100-UTTU人物合辑/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
