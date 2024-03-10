@@ -38,21 +38,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "5fafdde84b25761d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -127,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,12 +189,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5fafdde84b25761d",
+  "active": "5a465f894adf7290",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/至终的仪式 亘古亘今的启示.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/神秘术 职与责1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/神秘术 职与责2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/神秘术 职与责3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/一阶神秘术.png",
