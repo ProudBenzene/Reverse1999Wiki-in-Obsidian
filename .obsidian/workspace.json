@@ -47,6 +47,18 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7aa6b44bcb836b81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -208,6 +220,10 @@
   },
   "active": "f10721387a92b0ed",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 三角正论.png",
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射1.png",
@@ -217,8 +233,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 三角正论2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 三角正论3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 三角正论1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/神秘术 律与戒2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/6｜Six.assets/神秘术 律与戒3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
@@ -236,13 +250,11 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/assets",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/可燃点｜Spathodea~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/可燃点｜Spathodea.assets",
     "100-UTTU人物合辑/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/assets/可燃点｜Spathodea.assets",
     "100-UTTU人物合辑/assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
