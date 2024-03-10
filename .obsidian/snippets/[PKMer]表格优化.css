@@ -278,19 +278,19 @@ body.tbMH-ds-tm tr:nth-child(2n) td {
 
 /*行列标题底色模式*/
 body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
-  background-color:rgb(var(--tbMH-tt, 93,77,104))
+  background-color:rgb(var(--tbMH-tt, 32, 23, 23))
 }
 body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color: rgb(var(--tbMH-th, 145, 163, 143))
 }
 body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-  background-color:rgb(var(--tbMH-th, 93,77,104))
+  background-color:rgb(var(--tbMH-th, 32, 23, 23))
 }
 body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
   background-color:rgb(var(--tbMH-th-l, 145, 163, 143))
 }
 body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
-  background-color:rgb(var(--tbMH-th-l, 93,77,104))
+  background-color:rgb(var(--tbMH-th-l, 32, 23, 23))
 }
 body.tbMH-ds-hlbt .markdown-rendered td:first-child {
   font-size: var(--table-header-size);
