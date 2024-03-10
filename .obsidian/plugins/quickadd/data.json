@@ -62,11 +62,16 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "100-UTTU人物合辑"
+          "100-UTTU人物合辑/神秘学家｜Arcanists",
+          "100-UTTU人物合辑/神秘学家混血种｜Mixed",
+          "100-UTTU人物合辑/超自然者｜Beyond",
+          "100-UTTU人物合辑/意识唤醒者｜Awakened",
+          "100-UTTU人物合辑/神秘学家感染种｜Infected",
+          "100-UTTU人物合辑/人类｜Human"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": true
+        "chooseFromSubfolders": false
       },
       "appendLink": false,
       "openFileInNewTab": {
