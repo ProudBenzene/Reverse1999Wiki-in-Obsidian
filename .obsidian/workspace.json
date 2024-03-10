@@ -52,25 +52,13 @@
             }
           },
           {
-            "id": "aa7a02e9352f8775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e348b335a60458f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/主页.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -84,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,11 +236,14 @@
   },
   "active": "e348b335a60458f4",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "000-箱的构成/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/37｜Thirty-seven.assets/立绘 37 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/立绘 6 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
@@ -270,9 +261,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/神秘术 职与责3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/一阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/二阶神秘术.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/三阶神秘术.png",
-    "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/单品 曲娘 03.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi~.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets",
