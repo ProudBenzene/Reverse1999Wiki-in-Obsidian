@@ -79,7 +79,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 酒与之外的事故
-> ![酒与之外的事故|100](assets/曲娘｜Jiu%20Niangzi.assets/至终的仪式%201.png)
+> ![酒与之外的事故|100](assets/曲娘｜Jiu%20Niangzi.assets/至终的仪式%20酒与之外的事故.png)
 > 
 > |                             技能                             |          文化          |
 > | :----------------------------------------------------------: | :--------------------: |
@@ -109,19 +109,19 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ 长柄酒提|Liquor Ladle
+> ![](assets/曲娘｜Jiu%20Niangzi.assets/单品%20曲娘%2001.png)
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.05**
+> 据说是东方人用来舀起酒液的工具，但在实际使用过程中，其效果与长壶嘴的金色茶盅类似，延长的部分存在较大的表演性质。从造型上看，也许将它用来驱赶喧闹的酒客更为合适。
 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ “珍重，珍重！”|Cherished Purse
+> ![](assets/曲娘｜Jiu%20Niangzi.assets/单品%20曲娘%2002.png)
+> **无估值**
+> 邻人的好意，真诚的赞美，夸张的感谢，都被郑重地铰在布面之上，一种超越时代的拼贴作品，理应受到恰如其分的欢迎。但实际似乎与此相反，我们其他的中国受访者都对这件单品上的字迹露出了尴尬的神情。
 
-> [!culture]+ |
-> 
-> 
+> [!culture]+ “朋友”制造|Friendoll
+> ![](assets/曲娘｜Jiu%20Niangzi.assets/单品%20曲娘%2003.png)
+> 无估值
 > 
 ````
 
