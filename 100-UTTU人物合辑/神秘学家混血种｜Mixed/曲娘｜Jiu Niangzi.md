@@ -103,29 +103,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
-
-````ad-flex
-collapse: open
-title: 
-color: 
-> [!culture]+ |
-> 
-> 
-> 
-
-> [!culture]+ |
-> 
-> 
-> 
-
-> [!culture]+ |
-> 
-> 
-> 
-````
-
-### 
+### 天光照衣
 
 ````ad-flex
 collapse: open

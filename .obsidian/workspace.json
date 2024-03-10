@@ -46,8 +46,8 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -208,13 +208,18 @@
   },
   "active": "eb10f9cc94745d94",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/神秘术 更尽一杯3.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/神秘术 更尽一杯1.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/一阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/二阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/三阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi~.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/立绘 曲娘 01.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/立绘 曲娘 02.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/人类｜Human",
     "100-UTTU人物合辑/神秘学家感染者｜Infected",
     "100-UTTU人物合辑/意识唤醒者｜Awakened",
@@ -226,10 +231,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/iShot_2024-03-10_15.25.55.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/UTTU人物合辑~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/37｜Thirty-seven.assets/神秘术 曲线映射2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/二阶神秘术.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 三角正论.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/assets/37｜Thirty-seven.assets/神秘术 曲线映射.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
@@ -252,7 +253,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "测试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/未命名.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md",
-    "output/星锑｜Regulus.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanist/你好.md"
   ]
 }
