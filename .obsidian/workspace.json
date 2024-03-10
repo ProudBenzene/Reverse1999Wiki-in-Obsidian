@@ -38,9 +38,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "f10721387a92b0ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md"
               }
             }
           },
@@ -193,8 +205,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a465f894adf7290",
+  "active": "f10721387a92b0ed",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/立绘 斯奈德 02.jpg",
     "100-UTTU人物合辑/神秘学家｜Arcanist/assets/斯奈德｜Schneider.assets/图像.jpg",
@@ -228,9 +242,7 @@
     "100-UTTU人物合辑/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanist/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/6｜Six.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/泥鯭的士｜An-an Lee.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanist/星锑｜Regulus.md",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/[PKMer]行内图片.css",
