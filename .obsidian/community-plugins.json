@@ -28,5 +28,6 @@
   "better-fn",
   "obsidian-export-image",
   "quickadd",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-sortable"
 ]
