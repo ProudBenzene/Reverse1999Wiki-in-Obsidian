@@ -52,19 +52,19 @@
             }
           },
           {
-            "id": "1ffae2f77000a1e5",
+            "id": "143ccec3f11858dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md"
+              }
             }
           }
         ],
@@ -221,10 +225,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "045cafeb7c3139d6",
+  "active": "143ccec3f11858dd",
   "lastOpenFiles": [
-    "000-箱的构成/templates/心相.md",
     "000-箱的构成/主页.md",
+    "000-箱的构成/templates/心相.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
