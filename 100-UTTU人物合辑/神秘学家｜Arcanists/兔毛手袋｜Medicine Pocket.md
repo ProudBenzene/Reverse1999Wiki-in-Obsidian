@@ -1,7 +1,7 @@
 ---
 Name: 兔毛手袋
 English Name: Medicine Pocket
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 森林之铃
 造像: 与其他饱受限制的家伙们截然不同。它是最有用的，这就够了。
 银行彩色相片: 以自体试药的天才研究员，肆意妄为的破坏专家，你最任性的朋友之一。
-Udimo: 
+Udimo:
 征集: 金标破坏王｜Level Seven Biter
 定位标签:
   - 削弱

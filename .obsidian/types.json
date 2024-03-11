@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "初始衣着": "text",
-    "出场版本": "multitext"
+    "出场版本": "multitext",
+    "出场章节": "multitext"
   }
 }

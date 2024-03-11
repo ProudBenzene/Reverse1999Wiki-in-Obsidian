@@ -44,27 +44,19 @@
             }
           },
           {
-            "id": "323f7e81eb0030b9",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "b29e596a168a41e7",
+            "id": "d3c39df875a7f560",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -226,10 +218,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b29e596a168a41e7",
+  "active": "d3c39df875a7f560",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/立绘 小叶尼塞 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/一阶神秘术1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/二阶神秘术2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/三阶神秘术3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/三阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/二阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/一阶神秘术.png",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/立绘 小叶尼塞 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/立绘 小叶尼塞 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
@@ -237,12 +236,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/神秘术 炼金容器1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/神秘术 炼金容器2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/神秘术 炼金容器3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/单品 兔毛手袋 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/二阶神秘术22.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/三阶神秘术33.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/一阶神秘术11.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/至终的仪式 二十六项次生反应.png",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "000-箱的构成/主页.md",

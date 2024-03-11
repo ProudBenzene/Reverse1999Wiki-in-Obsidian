@@ -1,7 +1,7 @@
 ---
 Name: 斯奈德
 English Name: Schneider
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 以生存之名
 造像: 或许一切本不至于此。或许你还有机会带她回到那座橘子园。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 输出
   - 削弱
@@ -24,8 +24,8 @@ Udimo:
   - 香柠檬
   - 麝香
   - 烟草
-初始衣着: 
-洞悉二衣着: 
+初始衣着:
+洞悉二衣着:
 aliases:
   - 斯奈德
   - Schneider

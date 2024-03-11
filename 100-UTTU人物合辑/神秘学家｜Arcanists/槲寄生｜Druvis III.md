@@ -1,7 +1,7 @@
 ---
 Name: 槲寄生
 English Name: Druvis III
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -32,7 +32,7 @@ aliases:
 初始立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png]]"
 洞悉立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png]]"
 banner_header: "{{filename}}"
-出场剧情:
+出场章节:
   - 此即明日
   - 在我们的时代里
   - 夜色温柔

@@ -1,7 +1,7 @@
 ---
 Name: 星锑
 English Name: Regulus
-tags: 
+tags:
 cssclasses:
   - book
 介质: 神秘学家｜Arcanist
