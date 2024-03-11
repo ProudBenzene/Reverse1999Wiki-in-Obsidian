@@ -34,6 +34,8 @@ aliases:
 初始立绘: "[[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png]]"
 洞悉立绘: "[[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 02.png]]"
 banner_header: "{{filename}}"
+出场剧情:
+  - 未锈铠 · 第九条美德
 ---
 ![cover](assets/泥鯭的士｜An-an%20Lee.assets/立绘%20泥鯭的士%2002.png)
 ![[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png|inlR|200]]

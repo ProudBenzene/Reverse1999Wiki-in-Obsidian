@@ -1,10 +1,10 @@
 ---
-Name: 未命名
-English Name: undefined
+Name: 维尔汀
+English Name: Vertin
 tags: 
 cssclasses:
   - book
-人物合辑: 100-UTTU人物合辑
+人物合辑: 人类｜Human
 介质: 
 稀有度: ★★★★★★
 灵感: 
@@ -20,10 +20,10 @@ Udimo:
 初始衣着: 
 洞悉二衣着: 
 aliases:
-  - 未命名
-  - undefined
-初始立绘: '[[立绘 未命名 01.png]]'
-洞悉立绘: '[[立绘 未命名 02.png]]'
+  - 维尔汀
+  - Vertin
+初始立绘: '[[立绘 维尔汀 01.png]]'
+洞悉立绘: '[[立绘 维尔汀 02.png]]'
 banner_header: "{{filename}}"
 ---
 
@@ -158,7 +158,7 @@ tab: |
 tab: |
 ![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: |[UTTU×未命名]
+tab: |[UTTU×维尔汀]
 ![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````

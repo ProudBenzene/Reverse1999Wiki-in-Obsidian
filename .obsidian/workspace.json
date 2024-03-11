@@ -52,6 +52,18 @@
             }
           },
           {
+            "id": "c685bd12921ad356",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bd0fb2f80e0104b3",
             "type": "leaf",
             "state": {
@@ -62,33 +74,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "143ccec3f11858dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外阵营/维尔汀小队.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52963875ec77f2ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -178,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/未命名.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/未命名.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/未命名.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md"
               }
             }
           }
@@ -249,14 +237,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "52963875ec77f2ff",
+  "active": "c685bd12921ad356",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/维尔汀.md",
-    "100-UTTU人物合辑/未命名.md",
-    "400-箱外阵营/维尔汀小队.md",
-    "400-箱外阵营/圣洛夫基金会｜St. PavlovFoundation.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "000-箱的构成/主页.md",
+    "400-箱外阵营/维尔汀小队｜Vertin's Team.md",
+    "400-箱外阵营/重塑之手｜Manus Vindictae.md",
+    "100-UTTU人物合辑/维尔汀｜Vertin.md",
+    "100-UTTU人物合辑/维尔汀.md",
+    "400-箱外阵营/圣洛夫基金会｜St. PavlovFoundation.md",
     "000-箱的构成/templates/心相.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
@@ -264,7 +254,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/37｜Thirty-seven.assets/立绘 37 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/立绘 6 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
@@ -294,8 +283,6 @@
     "300-箱外世界/暴雨时间线.md",
     "000-箱的构成/assets",
     "000-箱的构成/assets/主页.assets",
-    "400-箱外阵营/未命名.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanist/斯奈德｜Schneider~.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md"
   ]
 }
