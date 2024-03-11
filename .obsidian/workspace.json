@@ -52,7 +52,7 @@
             }
           },
           {
-            "id": "46a0c5c94e23ca44",
+            "id": "1ffae2f77000a1e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -138,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -225,7 +226,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "46a0c5c94e23ca44",
+  "active": "1ffae2f77000a1e5",
   "lastOpenFiles": [
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",

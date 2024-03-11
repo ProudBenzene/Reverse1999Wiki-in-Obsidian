@@ -337,6 +337,23 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   line-height: var(--line-height-tight);
 }
 
+/*表格触摸底色模式*/
+/*
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) tr:hover,
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) tr:hover {
+  background-color: rgba(14, 171, 238, 0.142);
+  transform: scale(1.00);
+  transition: transform 0.1s cubic-bezier(0.11, 0.33, 0.23, 0.33);
+}
+
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) thead th:hover,
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) tbody td:hover {
+  background: rgba(14, 171, 238, 0.256);
+  transform: scale(1.00);
+  transition: transform 0.1s cubic-bezier(0.22, 0.66, 0.46, 0.66);
+}
+*/
+
 /*class的页面选择器*/
 
   /*常规底色模式 .常规底色模式*/
@@ -558,3 +575,10 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第八档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
+
+-
+
+.table-view-table > thead > tr > th {
+  font-size: larger;
+  color: var(--text-normal)!important;
+}
