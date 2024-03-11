@@ -44,14 +44,14 @@
             }
           },
           {
-            "id": "d3c39df875a7f560",
+            "id": "7e3a5412db7fb5d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -218,8 +218,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d3c39df875a7f560",
+  "active": "7e3a5412db7fb5d0",
   "lastOpenFiles": [
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/单品 小叶尼塞 03.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/单品 小叶尼塞 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/单品 小叶尼塞 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/至终的仪式 湍流知晓一切.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 水的话语3.png",
@@ -228,11 +233,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 实干家3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 实干家1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 实干家2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/一阶神秘术1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/二阶神秘术2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/三阶神秘术3.png",
-    "000-箱的构成/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
@@ -264,7 +264,6 @@
     "100-UTTU人物合辑/超自然者｜Beyond",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed",
     "000-箱的构成/templates/UTTU人物合辑~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构成/assets"
   ]
 }
