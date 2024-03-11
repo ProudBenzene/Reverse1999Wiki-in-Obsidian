@@ -52,13 +52,13 @@
             }
           },
           {
-            "id": "76e8343ff6ebc070",
+            "id": "f86ea2304987d4a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Jessica.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -225,12 +225,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "76e8343ff6ebc070",
+  "active": "f86ea2304987d4a9",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Jessica.md",
+    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Jessica.assets/立绘 洁西卡 01.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Jessica.assets/立绘 洁西卡 02.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Jessica.assets",
     "100-UTTU人物合辑/超自然者｜Beyond/assets",
-    "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Jessica.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/立绘 小叶尼塞 01.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
@@ -242,8 +243,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 水的话语3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 水的话语2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 水的话语1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 实干家3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/神秘术 实干家1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
