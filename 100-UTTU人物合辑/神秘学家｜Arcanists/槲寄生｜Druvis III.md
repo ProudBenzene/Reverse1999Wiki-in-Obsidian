@@ -33,11 +33,11 @@ aliases:
 洞悉立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png]]"
 banner_header: "{{filename}}"
 出场剧情:
-  - 序章
-  - 主线1
-  - 主线2
-  - 主线3
-  - 主线4
+  - 此即明日
+  - 在我们的时代里
+  - 夜色温柔
+  - 故事一无所有
+  - 老虎的金黄
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
 
