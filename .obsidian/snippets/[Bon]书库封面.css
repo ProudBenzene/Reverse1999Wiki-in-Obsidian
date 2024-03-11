@@ -15,8 +15,8 @@ padding-right: 10% !important;
 
 .book img[alt="cover"] {
     display: inline !important;
-    width: 300px;
-    height: 500px;
+    width: 350px;
+    height: 550px;
     object-fit: cover;
    }
 

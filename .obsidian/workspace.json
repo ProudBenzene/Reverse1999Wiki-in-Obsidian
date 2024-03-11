@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "045cafeb7c3139d6",
+            "id": "323f7e81eb0030b9",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
@@ -52,24 +52,12 @@
             }
           },
           {
-            "id": "c685bd12921ad356",
+            "id": "7482efe0f4a3b28b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd0fb2f80e0104b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
                 "mode": "preview",
                 "source": false
               }
@@ -166,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md"
               }
             }
           }
@@ -237,8 +225,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c685bd12921ad356",
+  "active": "7482efe0f4a3b28b",
   "lastOpenFiles": [
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "000-箱的构成/主页.md",
@@ -257,10 +248,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "000-箱的构成/自动化创建角色档案.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/assets/自动化创建角色档案.assets/iShot_2024-03-10_21.04.31.png",
     "000-箱的构成/assets/自动化创建角色档案.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six~.md",
@@ -282,7 +271,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "300-箱外世界/暴雨时间线.md",
     "000-箱的构成/assets",
-    "000-箱的构成/assets/主页.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md"
+    "000-箱的构成/assets/主页.assets"
   ]
 }

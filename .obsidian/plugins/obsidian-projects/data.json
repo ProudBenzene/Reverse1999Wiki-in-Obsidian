@@ -7,14 +7,16 @@
           "options": [
             "{{filename}}"
           ]
-        }
+        },
+        "出场剧情": {}
       },
       "defaultName": "",
       "templates": [
         "000-箱的构成/templates/UTTU人物合辑.md"
       ],
       "excludedNotes": [
-        "\".+\\\\.png$\""
+        "\".+\\\\.png$\"",
+        "100-UTTU人物合辑/维尔汀｜Vertin.md"
       ],
       "isDefault": true,
       "dataSource": {
@@ -227,8 +229,17 @@
               "aliases",
               "cssclasses",
               "English Name",
+              "出场剧情",
               "tags",
-              "Udimo"
+              "Udimo",
+              "初始立绘",
+              "初始衣着",
+              "洞悉二衣着",
+              "洞悉立绘",
+              "银行彩色相片",
+              "造像",
+              "征集",
+              "banner_header"
             ]
           },
           "filter": {
