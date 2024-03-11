@@ -170,11 +170,63 @@ A组实验体出现细胞异常自噬情况并全部死亡。
 除γ5-06号实验体外，其他实验全部中止。
 γ5-06号实验体基因融合成功，身体机能良好，显示出鹿女的身体形态与换生灵的智力水平。实验体能够较好地学习人类语言，对爱尔兰哨笛声有明显反应。将继续对其能力进行培养与观测。
 
-tab: |[UTTU×洁西卡]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+tab: 小姑娘大麻烦|[UTTU×洁西卡]
+![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)**洁西卡：你是我的新朋友吗？**
+白雪松：不，我只是来做一次采访。
+**洁西卡：采访？什么是采访？你要给我讲故事吗？**
+白雪松：恰恰相反。今天我们需要知道你的故事。
+**洁西卡：……哦。**
+**洁西卡：太好了，我很擅长讲故事。**
+**洁西卡：你想听哪种？红血液多一点的，还是白脑浆多一点的？**
+白雪松：……我想你误会了我的意思，洁西卡小姐。
+白雪松：你曾经提到过你有许多奇怪的梦境，和我们谈谈那些梦吧。
+**洁西卡：哦，好吧……那些梦，那些梦是在我听过“音乐”后才清晰起来的。在那之前，我很少做梦。**
+**洁西卡：我在梦里看见平原和柔软的草地，我从没去过那样的地方，但它们就在我脑袋里。**
+**洁西卡：它们让我有些难过，虽然我还不清楚什么是难过，但我有时候会哭……不过，有人在我巢穴里的时候，我哭得就少一些。**
+白雪松：所以你留下了那些人。
+**洁西卡：所以，我总是想，我需要朋友，很多朋友。**
+
 
 ````
 
 ## 语音
+
+|            情景            |                             语音                             |
+| :------------------------: | :----------------------------------------------------------: |
+|            初遇            | 你好，好朋友，现在我们能一直在一起了。我在这段时间内想了许多我们能一起做的事儿，首先是……在草地上打滚！  <br>Hello, dear friend. From now on, we can be together all the time. I thought of many things we can do. Firstly … let's roll in the grass! |
+|          箱中气候          | 当太阳这样暖和的时候，我会去湖里洗澡，然后躺在岸边打盹儿，直到太阳把我烘干～  <br>In the days when the sun warmly slants on me, I would bathe in the lake and enjoy a nap on the shore, until my fur was nicely dried under the sun … |
+|  致未来[信任达到10%解锁]   | 更远、更大、更神奇的地方——我会看到星星，看到舞蹈的蛇，看到你们所说的一切，看到我所想见到的一切，美好的一切。  <br>There is a place, far away from here, and it's grander, more wonderful than all places⁠— place where I can see the stars twinkling in the sky and snakes dancing in the grass, as well as other things you've talked about and things I've always wanted to see. These beautiful things. |
+|            孑立            | 九十七，九十八，九十九……一百！我要出来抓你了哦——  <br>97, 98, 99 … 100! I'm coming for you … |
+|            问候            | 很高兴再见到你，你不在的这段时间，我把你的毛发都收集到了那个抽屉里……  <br>I'm so glad we meet again. When you were gone, I collected every hair of yours and put them in that drawer … |
+|            朝晨            | 太阳冲破雾气，从树枝和山脉里浮起来，我想它尝起来像是生鸡蛋的味道……！  <br>In the morning, the sun would pierce through the fog, float on the tips of the trees and the mountains … I bet it tastes like a raw egg …! |
+| 信任-朝晨[信任达到20%解锁] | 你的被窝好像比草垛还柔软，我能……钻进去试试吗？  <br>Your bed feels even softer than my haystack. Can I … crawl in and join you? |
+|            夜暮            | 我的朋友到了，想见见他们吗？嘘，瞧，就在窗帘后面，看见他的脚了吗～？  <br>My friends are here. Do you want to meet them? Shh … Look! Over there behind the curtain. Can you see his feet? |
+| 信任-夜暮[信任达到30%解锁] | 你喜欢恶魔？还是幽灵？还是喜欢提着电锯的男人？我必须知道你喜欢什么样的怪物，这样我才能更好地藏在你床底，给你一个惊喜！  <br>Do you prefer demons or ghosts? Or the man with a chainsaw? I have to figure out what your favorite monster is, so that I can better surprise you under your bed! |
+|         帽檐与发鬓         | 当我吃了“药”的时候，脑子里总能听到一种轻飘飘的笛声……但是笛声？嗯？什么是笛声？  <br>Every time I took that "medicine," I could hear a soft, light whistling melody… Whistling? Hmm? What is "whistling"? |
+|           袖与手           | 我的手和你的手拉在一起，以后你到哪儿去都能带着我啦！  <br>My hands in your hands, friendship never ends! You can take me to any places you go! |
+|         衣着与身形         | 这是“环”——结实的、漂亮的环！它们紧紧地抱着我，让我和衣裳还有床铺牢固地贴在一起～我想……我们之间也需要这样的环。  <br>This is my "band" … Look how nice and pretty it is! It embraces me, securing me to my clothes and the bed … I think, between you and me, we can also use a band like this. |
+|   嗜好[信任达到40%解锁]    | 梦里……在奇怪的梦里，那片草原总在等着我，我听见轻快的笛声……  <br>In that dream … that strange dream, the grassland is waiting for me, and I can hear the joyful whistle … |
+|   赞赏[信任达到50%解锁]    | 举起左边的蹄子！再举起右边的蹄子！做得很好！就像是我们接受的训练那样——高高地跳起来，哇哇地嘶吼吧！  <br>Raise the left hoof! Then the right hoof! Well done! Now, just like what we have done in the training⁠—jump up, and roooar! |
+|   亲昵[信任达到60%解锁]    | 当我是“安妮”的时候，我会尽可能温柔地说话，像是这样——把语速变得慢慢的，要忍住不能发笑，也不能用蹄子踢我讨厌的人……那不容易，但我做到了！你应该像是那些穿着白衣服的人一样夸夸我！  <br>When I was "Anne," I spoke as gently as possible, like this … Slow down, hold in the chuckles, and resist the urge to give those annoying people a good kick … That was difficult, but I did it! You should say something nice to me, like those people in white do! |
+|           闲谈Ⅰ            | 我看到他们把小狗拴了起来，你也会对我这样吗？没关系，我不在乎这个。只要我们在一起，谁把谁拴住都无所谓……  <br>I saw them put a leash on that puppy. Are you going to do the same thing to me? It's okay. I will be fine with it. As long as we are together, it doesn't matter who is on which end of the leash … |
+|           闲谈Ⅱ            | 现在你身上有股特别的味道，它——它……它像是蜂蜜！像是鸢尾花，也像是被碾碎的瓢虫，我喜欢这个！  <br>There's a special scent on you. It … it … smells like honey! Or Iris, or a crushed ladybug. I like it! |
+|   独白[信任达到70%解锁]    | 为什么朋友们总是有“更重要的事”要做呢？让我们一起把那些多余的“镜头”删掉吧，只留下永远的、甜美的、大家一起笑着的画面。  <br>Why do my friends always have "more important things" to do? We should delete the unwanted "shots" in our lives, only keeping the takes which recorded the sweet, laughing moments. |
+|            入队            |               森林派对～  <br>A forest party!                |
+|            战前            |             嗨，你们好！  <br>Hey, hello there!              |
+|         择选咒语Ⅰ          |         认真，集中！  <br>Be serious. Stay focused!          |
+|         择选咒语Ⅱ          |                跑起来！  <br>Move your legs!                 |
+|        择选高阶咒语        |             一起来玩吧～  <br>Come play with us!             |
+|       择选至终的仪式       |      就像是训练时一样！  <br>Just like in the training!      |
+|        释放神秘术Ⅰ         |                 翻花绳～  <br>Cat's cradle!                  |
+|        释放神秘术Ⅰ         |             丝绒闪电～！  <br>Velvet lightning!              |
+|        释放神秘术Ⅱ         |                  上啊！上啊！  <br>Go! Go!                   |
+|        释放神秘术Ⅱ         |                 说“你好”！  <br>Say "hello"!                 |
+|       召唤至终的仪式       | 哦！别担心！我把一切都准备好了——一切都准备好了。  <br>Oh, don't worry! I have prepared it all. I … have prepared it all. |
+|           受敌Ⅰ            |                        呀！  <br>Aah!                        |
+|           受敌Ⅱ            |                      呜……  <br>\*sobs\*                      |
+|          战斗胜利          | 快起来，还有下一轮呢！  <br>Come on! Stand up! There's one more round! |
+|      洞悉[洞悉后解锁]      | 呀，谢谢你为我梳毛。好舒服呀，真希望你也能试试看！  <br>Oh, thank you for grooming me. How nice … I wish you could try it someday! |
+| 洞悉之底[获得对应皮肤解锁] | 我已经准备好了，准备好了告诉所有人我的名字，准备好了带来尖叫和眼泪……他们会像我喜欢他们那样喜欢我吗？  <br>I'm ready⁠—ready to tell everyone my name, ready to make them scream and cry … Will they like me in the same way as I like them? |
+
 
 [^1]: ==中毒==：回合结束时，受到基于释放者攻击的本源创伤（可以叠加）
