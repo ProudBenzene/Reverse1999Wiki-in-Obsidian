@@ -580,5 +580,5 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
 
 .table-view-table > thead > tr > th {
   font-size: larger;
-  color: var(--text-normal)!important;
+  color: rgb(198 208 245);
 }

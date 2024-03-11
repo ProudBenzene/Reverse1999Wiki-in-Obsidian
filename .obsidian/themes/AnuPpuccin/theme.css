@@ -7674,10 +7674,10 @@ None of the original code was used and the feature was implemented from scratch.
 }
 
 /*-Fix dataview table header size-*/
-.table-view-table > thead > tr > th {
+/*.table-view-table > thead > tr > th {
   font-size: medium;
   color: var(--text-muted);
-}
+}*/
 
 .dataview.inline-field-standalone-value, .dataview.inline-field-key, .dataview.inline-field-value {
   padding-left: 0px;
