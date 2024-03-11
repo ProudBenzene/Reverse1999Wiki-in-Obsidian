@@ -33,6 +33,8 @@ aliases:
 初始立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 01.png]]"
 洞悉立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png]]"
 banner_header: "{{filename}}"
+出场剧情:
+  - 1.2绿湖噩梦
 ---
 ![cover](assets/牙仙｜Tooth%20Fairy.assets/立绘%20牙仙%2002.png)
 

@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "初始衣着": "text"
+    "初始衣着": "text",
+    "出场版本": "multitext"
   }
 }
