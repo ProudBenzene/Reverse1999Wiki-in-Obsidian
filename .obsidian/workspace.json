@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,9 +191,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "000-箱的构成/主页.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -225,10 +221,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e348b335a60458f4",
+  "active": "045cafeb7c3139d6",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "000-箱的构成/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png",
