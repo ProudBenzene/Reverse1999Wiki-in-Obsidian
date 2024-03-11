@@ -62,7 +62,7 @@ banner_header: "{{filename}}"
 ## 神秘术
 
 > [!skill]- 白绒毯
-> 
+> ![白绒毯 一阶|100](assets/洁西卡｜Jessica.assets/神秘术%20白绒毯1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -72,7 +72,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 好朋友
-> 
+> ![好朋友 一阶|100](assets/洁西卡｜Jessica.assets/神秘术%20好朋友1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -82,7 +82,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 凝视来自深林之中
-> 
+> ![凝视来自深林之中|100](assets/洁西卡｜Jessica.assets/至终的仪式%20凝视来自深林之中.png)
 > 
 > | 技能 | 文化 |
 > | :--: | :--: |
