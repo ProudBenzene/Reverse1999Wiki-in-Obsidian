@@ -39,6 +39,7 @@ banner_header: "{{filename}}"
   - 1.0｜故事一无所有
   - 1.0｜老虎的金黄
   - 1.2｜绿湖噩梦
+  - 1.6｜朔日手记
 ---
 ![cover](assets/十四行诗｜Sonetto.assets/立绘%20十四行诗%2002.png)
 

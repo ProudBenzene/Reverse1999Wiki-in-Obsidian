@@ -1,7 +1,7 @@
 ---
 Name: 星锑
 English Name: Regulus
-tags:
+tags: 
 cssclasses:
   - book
 介质: 神秘学家｜Arcanist
@@ -31,6 +31,14 @@ aliases:
 初始立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 01.png]]"
 洞悉立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 02.png]]"
 banner_header: "{{filename}}"
+出场章节:
+  - 1.0｜此即明日
+  - 1.0｜在我们的时代里
+  - 1.0｜夜色温柔
+  - 1.0｜故事一无所有
+  - 1.0｜老虎的金黄
+  - 1.1｜雷米特杯失窃案
+  - 1.4｜洞穴的囚徒
 ---
 
 ![cover](assets/星锑｜Regulus.assets/立绘%20星锑%2002.png)

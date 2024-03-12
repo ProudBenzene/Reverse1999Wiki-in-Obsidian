@@ -1,7 +1,7 @@
 ---
 Name: 伊索尔德
 English Name: Isolde
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 七重纱
 造像: 空杯之中自可发出空灵响声。
 银行彩色相片: 一扇朴素的门，一樽剔透的玻璃盏，一片素白的骨瓷盘。你最为适宜容纳的朋友。
-Udimo:
+Udimo: 
 征集: 为艺术，为爱情｜Vissi d'arte, vissi d'amore
 定位标签:
   - 输出
@@ -33,6 +33,8 @@ aliases:
 初始立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png]]"
 洞悉立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png]]"
 banner_header: "{{filename}}"
+出场章节:
+  - 1.7｜今夜星光灿烂
 ---
 ![cover](assets/伊索尔德｜Isolde.assets/立绘%20伊索尔德%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 兔毛手袋
 English Name: Medicine Pocket
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 森林之铃
 造像: 与其他饱受限制的家伙们截然不同。它是最有用的，这就够了。
 银行彩色相片: 以自体试药的天才研究员，肆意妄为的破坏专家，你最任性的朋友之一。
-Udimo:
+Udimo: 
 征集: 金标破坏王｜Level Seven Biter
 定位标签:
   - 削弱
@@ -33,6 +33,9 @@ aliases:
 初始立绘: "[[assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png]]"
 洞悉立绘: "[[assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 02.png]]"
 banner_header: "{{filename}}"
+出场章节:
+  - 1.5｜复兴！乌卢鲁运动会
+  - 1.7｜今夜星光灿烂
 ---
 ![cover](assets/兔毛手袋｜Medicine%20Pocket.assets/立绘%20兔毛手袋%2002.png)
 
