@@ -338,7 +338,8 @@
             "cardWidth": 130,
             "includeFields": [
               "Chapter",
-              "English"
+              "English",
+              "年代"
             ]
           },
           "filter": {
