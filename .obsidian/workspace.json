@@ -44,6 +44,14 @@
             }
           },
           {
+            "id": "4090702df0507233",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
             "id": "f4c4f5d3ca61811d",
             "type": "leaf",
             "state": {
@@ -130,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/序幕 此即明日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/序幕 此即明日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300-以影像之/序幕 此即明日.md"
-              }
+              "state": {}
             }
           },
           {
@@ -209,10 +213,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f4c4f5d3ca61811d",
+  "active": "4090702df0507233",
   "lastOpenFiles": [
-    "300-以影像之/300-以影像之.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "300-以影像之/序幕 此即明日.md",
+    "300-以影像之/300-以影像之.md",
     "300-以影像之/assets/序幕 此即明日.assets/此即明日.jpg",
     "300-以影像之/assets/序幕 此即明日.assets",
     "300-以影像之/assets",
@@ -247,7 +252,6 @@
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Jessica~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets",
     "100-UTTU人物合辑/超自然者｜Beyond/assets",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets",
     "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
