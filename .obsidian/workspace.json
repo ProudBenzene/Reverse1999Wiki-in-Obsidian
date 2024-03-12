@@ -52,24 +52,12 @@
             }
           },
           {
-            "id": "970757b4bc0581ab",
+            "id": "948fb3025382ff9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/第五章 洞穴的囚徒.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98cf4205502f2509",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/特别篇 星.md",
+                "file": "300-以影像之/第六章 今夜星光灿烂.md",
                 "mode": "preview",
                 "source": false
               }
@@ -151,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/第五章 洞穴的囚徒.md",
+                "file": "300-以影像之/第六章 今夜星光灿烂.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/第五章 洞穴的囚徒.md",
+                "file": "300-以影像之/第六章 今夜星光灿烂.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-以影像之/第五章 洞穴的囚徒.md"
+                "file": "300-以影像之/第六章 今夜星光灿烂.md"
               }
             }
           },
@@ -230,8 +218,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "970757b4bc0581ab",
+  "active": "948fb3025382ff9e",
   "lastOpenFiles": [
+    "300-以影像之/assets/第六章 今夜星光灿烂.assets/今夜星光灿烂.png",
+    "300-以影像之/assets/第六章 今夜星光灿烂.assets",
+    "300-以影像之/第六章 今夜星光灿烂.md",
     "300-以影像之/特别篇 星.md",
     "300-以影像之/第五章 洞穴的囚徒.md",
     "300-以影像之/assets/特别篇 星.assets/特别篇 星.png",
@@ -266,7 +257,6 @@
     "000-箱的构成/templates/心相.md",
     "300-以影像之/assets/序幕 此即明日.assets",
     "300-以影像之/assets",
-    "300-以影像之",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf~.md",
@@ -275,7 +265,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md"
   ]
 }
