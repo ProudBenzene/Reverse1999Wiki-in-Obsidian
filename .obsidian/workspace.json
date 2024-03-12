@@ -50,21 +50,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "767a397df777828f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md"
-              }
+              "state": {}
             }
           },
           {
@@ -217,9 +201,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "767a397df777828f",
+  "active": "f4c4f5d3ca61811d",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/伽菈波那的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/单品 伽菈波那 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/单品 伽菈波那 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/单品 伽菈波那 01.png",
@@ -231,7 +216,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏2.png",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets",
