@@ -52,7 +52,7 @@
             }
           },
           {
-            "id": "3434583ad6bbb8dd",
+            "id": "53b961d64130a52a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -61,6 +61,14 @@
                 "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "37d2eb90d85ccd3a",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
             }
           },
           {
@@ -76,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -230,7 +238,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3434583ad6bbb8dd",
+  "active": "37d2eb90d85ccd3a",
   "lastOpenFiles": [
     "000-箱的构成/主页.md",
     "300-以影像之/序幕 此即明日.md",
