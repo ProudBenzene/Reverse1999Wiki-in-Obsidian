@@ -316,7 +316,9 @@
       "name": "UTTU人物合揖"
     },
     {
-      "fieldConfig": {},
+      "fieldConfig": {
+        "封面": {}
+      },
       "defaultName": "",
       "templates": [
         "000-箱的构成/templates/剧情章节.md"
@@ -358,7 +360,29 @@
           "type": "gallery"
         },
         {
-          "config": {},
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "年代",
+              "封面",
+              "海报寄语",
+              "上线版本",
+              "上线时间",
+              "章节起点",
+              "章节终点",
+              "aliases",
+              "Chapter",
+              "cssclasses",
+              "English",
+              "tags"
+            ],
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
           "filter": {
             "conditions": []
           },
