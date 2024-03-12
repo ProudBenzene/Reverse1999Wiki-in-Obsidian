@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "658c1c49b5c126d3",
+            "id": "f61c961f3aceabc0",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
@@ -52,13 +52,13 @@
             }
           },
           {
-            "id": "948fb3025382ff9e",
+            "id": "ed62deb4ff8c9348",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/第六章 今夜星光灿烂.md",
-                "mode": "preview",
+                "file": "000-箱的构成/主页.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/第六章 今夜星光灿烂.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/第六章 今夜星光灿烂.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-以影像之/第六章 今夜星光灿烂.md"
+                "file": "000-箱的构成/主页.md"
               }
             }
           },
@@ -218,11 +218,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "948fb3025382ff9e",
+  "active": "ed62deb4ff8c9348",
   "lastOpenFiles": [
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "300-以影像之/第六章 今夜星光灿烂.md",
     "300-以影像之/assets/第六章 今夜星光灿烂.assets/今夜星光灿烂.png",
     "300-以影像之/assets/第六章 今夜星光灿烂.assets",
-    "300-以影像之/第六章 今夜星光灿烂.md",
     "300-以影像之/特别篇 星.md",
     "300-以影像之/第五章 洞穴的囚徒.md",
     "300-以影像之/assets/特别篇 星.assets/特别篇 星.png",
@@ -242,7 +243,6 @@
     "300-以影像之/第四章 老虎的金黄.md",
     "300-以影像之/assets/第四章 老虎的金黄.assets/老虎的金黄.png",
     "300-以影像之/assets/第四章 老虎的金黄.assets",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "300-以影像之/第三章 故事一无所有.md",
     "300-以影像之/assets/第三章 故事一无所有.assets/故事一无所有.png",
     "300-以影像之/assets/第三章 故事一无所有.assets",
@@ -251,7 +251,6 @@
     "300-以影像之/序幕 此即明日.md",
     "300-以影像之/assets/第二章 夜色温柔.assets/夜色温柔.png",
     "300-以影像之/assets/第二章 夜色温柔.assets",
-    "300-以影像之/assets/第一章 在我们的时代里.assets/在我们的时代里 1.png",
     "300-以影像之/assets/第一章 在我们的时代里.assets",
     "300-以影像之/在我们的时代里.md",
     "000-箱的构成/templates/心相.md",
