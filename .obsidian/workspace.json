@@ -52,12 +52,24 @@
             }
           },
           {
-            "id": "98f4399bde60f366",
+            "id": "3434583ad6bbb8dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/主页.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04ccc4e39907f677",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/序幕 此即明日.md",
                 "mode": "preview",
                 "source": false
               }
@@ -218,10 +230,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "98f4399bde60f366",
+  "active": "3434583ad6bbb8dd",
   "lastOpenFiles": [
-    "300-以影像之/第六章 今夜星光灿烂.md",
     "000-箱的构成/主页.md",
+    "300-以影像之/序幕 此即明日.md",
+    "300-以影像之/第六章 今夜星光灿烂.md",
     "300-以影像之/assets/序幕 此即明日.assets/此即明日.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "300-以影像之/第一章 在我们的时代里.md",
@@ -251,7 +264,6 @@
     "300-以影像之/第三章 故事一无所有.md",
     "300-以影像之/assets/第三章 故事一无所有.assets",
     "300-以影像之/第二章 夜色温柔.md",
-    "300-以影像之/序幕 此即明日.md",
     "300-以影像之/assets/第二章 夜色温柔.assets",
     "300-以影像之/assets/第一章 在我们的时代里.assets",
     "300-以影像之/在我们的时代里.md",
