@@ -319,7 +319,9 @@
       "fieldConfig": {},
       "defaultName": "",
       "templates": [],
-      "excludedNotes": [],
+      "excludedNotes": [
+        "300-以影像之/300-以影像之.md"
+      ],
       "isDefault": false,
       "dataSource": {
         "kind": "folder",
@@ -330,6 +332,28 @@
       },
       "newNotesFolder": "",
       "views": [
+        {
+          "config": {
+            "coverField": "版本海报",
+            "cardWidth": 130,
+            "includeFields": [
+              "Chapter",
+              "English"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d5b4a6bd-e4c0-4691-8281-6cbe9ac27e3a",
+          "name": "章节海报",
+          "type": "gallery"
+        },
         {
           "config": {},
           "filter": {
