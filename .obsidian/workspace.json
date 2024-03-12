@@ -52,6 +52,18 @@
             }
           },
           {
+            "id": "970757b4bc0581ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/第五章 洞穴的囚徒.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "98cf4205502f2509",
             "type": "leaf",
             "state": {
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/特别篇 星.md",
+                "file": "300-以影像之/第五章 洞穴的囚徒.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/特别篇 星.md",
+                "file": "300-以影像之/第五章 洞穴的囚徒.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-以影像之/特别篇 星.md"
+                "file": "300-以影像之/第五章 洞穴的囚徒.md"
               }
             }
           },
@@ -218,12 +230,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "98cf4205502f2509",
+  "active": "970757b4bc0581ab",
   "lastOpenFiles": [
-    "300-以影像之/assets/特别篇 星.assets/特别篇 星.png",
-    "300-以影像之/assets/特别篇 星.assets",
     "300-以影像之/特别篇 星.md",
     "300-以影像之/第五章 洞穴的囚徒.md",
+    "300-以影像之/assets/特别篇 星.assets/特别篇 星.png",
+    "300-以影像之/assets/特别篇 星.assets",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/主页.md",
     "300-以影像之/300-以影像之.md",
@@ -249,7 +261,6 @@
     "300-以影像之/assets/第二章 夜色温柔.assets/夜色温柔.png",
     "300-以影像之/assets/第二章 夜色温柔.assets",
     "300-以影像之/assets/第一章 在我们的时代里.assets/在我们的时代里 1.png",
-    "300-以影像之/assets/第一章 在我们的时代里.assets/在我们的时代里.png",
     "300-以影像之/assets/第一章 在我们的时代里.assets",
     "300-以影像之/在我们的时代里.md",
     "000-箱的构成/templates/心相.md",
