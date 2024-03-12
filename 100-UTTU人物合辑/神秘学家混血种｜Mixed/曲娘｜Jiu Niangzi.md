@@ -1,7 +1,7 @@
 ---
 Name: 曲娘
 English Name: Jiu Niangzi
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家混血种｜Mixed
@@ -13,7 +13,7 @@ cssclasses:
 传承: 存想
 造像: 她揣摩一张张笑脸，试图理解“所求”的真意。
 银行彩色相片: 热心勤勉的酒坊娘子，竭力回应期许的少女，你最纯质的朋友之一。
-Udimo:
+Udimo: 
 征集: 尽杯酌｜Till the Last Drop
 定位标签:
   - 输出
@@ -32,6 +32,8 @@ aliases:
 初始立绘: "[[立绘 曲娘 01.png]]"
 洞悉立绘: "[[立绘 曲娘 02.png]]"
 banner_header: "{{filename}}"
+出场章节:
+  - 1.6朔日手记
 ---
 ![cover](assets/曲娘｜Jiu%20Niangzi.assets/立绘%20曲娘%2002.png)
 
