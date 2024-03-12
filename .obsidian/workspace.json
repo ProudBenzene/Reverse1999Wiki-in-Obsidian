@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "000-箱的构成/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -217,8 +213,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fe017d089d4201e8",
+  "active": "f4c4f5d3ca61811d",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/伽菈波那的尤提姆.png",
@@ -232,7 +229,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/至终的仪式 独一的圆满.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星2.png",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets",
@@ -247,7 +243,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
-    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Jessica~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets",
     "100-UTTU人物合辑/超自然者｜Beyond/assets",
