@@ -1,7 +1,7 @@
 ---
 Name: "37"
 English Name: Thirty-seven
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 本源的运算
 造像: 世界是一道数式，对她而言，这便够了。
 银行彩色相片: 洞察本质的天才，一位纯粹的求知者，你最专注的朋友之一。
-Udimo:
+Udimo: 
 征集: 现象未漫及处｜Beyond the World of Matters
 定位标签:
   - 输出
@@ -33,6 +33,8 @@ aliases:
 初始立绘: "[[assets/37｜Thirty-seven.assets/立绘 37 01.png]]"
 洞悉立绘: "[[assets/37｜Thirty-seven.assets/立绘 37 02.png]]"
 banner_header: "{{filename}}"
+出场章节:
+  - 1.4｜洞穴的囚徒
 ---
 ![cover](assets/37｜Thirty-seven.assets/立绘%2037%2002.png)
 
