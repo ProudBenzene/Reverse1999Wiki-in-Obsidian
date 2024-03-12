@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "8dca890df7885cd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/主页.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -49,30 +61,6 @@
             "state": {
               "type": "obsidian-projects",
               "state": {}
-            }
-          },
-          {
-            "id": "8dca890df7885cd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04ccc4e39907f677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/序幕 此即明日.md",
-                "mode": "preview",
-                "source": false
-              }
             }
           }
         ],
@@ -150,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "000-箱的构成/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -229,10 +213,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8dca890df7885cd1",
+  "active": "788e17ff1be888f3",
   "lastOpenFiles": [
-    "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "000-箱的构成/主页.md",
+    "300-以影像之/序幕 此即明日.md",
+    "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/第六章 今夜星光灿烂.md",
     "300-以影像之/特别篇 星.md",
@@ -242,7 +227,6 @@
     "300-以影像之/第二章 夜色温柔.md",
     "300-以影像之/第三章 故事一无所有.md",
     "000-箱的构成/templates/剧情章节.md",
-    "300-以影像之/序幕 此即明日.md",
     "300-以影像之/第一章 在我们的时代里.md",
     "300-以影像之/assets/序幕 此即明日.assets/此即明日.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
@@ -260,7 +244,6 @@
     "300-以影像之/assets/测试.assets/The Prisoner in the Cave.jpg",
     "300-以影像之/assets/测试.assets",
     "300-以影像之/assets/第五章 洞穴的囚徒.assets/The Prisoner in the Cave.jpg",
-    "300-以影像之/assets/第五章 洞穴的囚徒.assets/箱中巡游.jpg",
     "300-以影像之/assets/第五章 洞穴的囚徒.assets",
     "300-以影像之/assets/第四章 老虎的金黄.assets",
     "300-以影像之/assets/第三章 故事一无所有.assets",
