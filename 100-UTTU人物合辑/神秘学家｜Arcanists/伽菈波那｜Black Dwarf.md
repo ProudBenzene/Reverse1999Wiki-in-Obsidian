@@ -13,7 +13,7 @@ cssclasses:
 传承: 移星之学
 造像: 瞭望，再瞭望，在小小的眼眸中拼凑出宇宙的面貌。
 银行彩色相片: 实用至上的天文学家，不倦望向宇宙的占星者，你最执著的朋友之一。
-Udimo: 
+Udimo: 虎类
 征集: 晚星所纺织的｜That Steady Evening Star
 定位标签:
   - 输出
@@ -30,6 +30,7 @@ Udimo:
 aliases:
   - 伽菈波那
   - Black Dwarf
+  - Kaalaa Baunaa
 初始立绘: "[[立绘 伽菈波那 01.png]]"
 洞悉立绘: "[[立绘 伽菈波那 02.png]]"
 banner_header: "{{filename}}"
@@ -39,9 +40,9 @@ banner_header: "{{filename}}"
 ![cover](assets/伽菈波那｜Black%20Dwarf.assets/立绘%20伽菈波那%2002.png)
 
 > [!info]+ 🌆背景
-> - 展出/活跃时代:: 
-> - 诞生:: 
-> - 参展时长:: 
+> - 展出/活跃时代:: 20 世纪 60 年代
+> - 诞生:: 7 月 15 日夏
+> - 参展时长:: 27 年
 > - 展出/参展地点:: 
 
 > [!tip]+ 😼尤提姆
