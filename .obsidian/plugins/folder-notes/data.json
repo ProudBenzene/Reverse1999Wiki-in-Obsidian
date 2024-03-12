@@ -12,7 +12,7 @@
   "stopWhitespaceCollapsing": true,
   "underlineFolderInPath": true,
   "openFolderNoteOnClickInPath": true,
-  "openInNewTab": false,
+  "openInNewTab": true,
   "folderNoteName": "{{folder_name}}",
   "folderNoteType": ".md",
   "disableFolderHighlighting": false,
@@ -47,7 +47,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "general",
+  "settingsTab": "folder_overview",
   "supportedFileTypes": [
     "md",
     "canvas"
