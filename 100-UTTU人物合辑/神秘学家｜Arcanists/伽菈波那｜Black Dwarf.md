@@ -61,7 +61,7 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
+> [!skill]- 体术吟咏
 > 
 > 
 > | 等级  | 类型  | 技能  | 文化  |
@@ -71,7 +71,7 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
+> [!skill]- 古法观星
 > 
 > 
 > | 等级  | 类型  | 技能  | 文化  |
@@ -81,7 +81,7 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
+> [!skill]- 独一的圆满
 > 
 > 
 > | 技能 | 文化 |
