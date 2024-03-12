@@ -6,6 +6,7 @@
     "初始衣着": "text",
     "出场版本": "multitext",
     "出场章节": "multitext",
-    "年代": "text"
+    "年代": "text",
+    "上线时间": "date"
   }
 }
