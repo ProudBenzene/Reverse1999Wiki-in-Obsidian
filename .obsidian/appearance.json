@@ -20,15 +20,14 @@
     "[AnuPpuccin]custom-background",
     "[AnuPpuccin]custom-rainbow-colors",
     "[AnuPpuccin]extended-colorschemes",
-    "[PKMer]表格优化",
-    "[PKMer]文件夹添加头像",
-    "[PKMer]Code Tab美化",
-    "[PKMer]sidenote-callout",
-    "[PKMer]Timeline-Callouts",
-    "Blue Topaz Codebox",
     "[Bon]书库封面",
     "Blue Topaz Legacy",
-    "Blue Topaz Legacy特制版",
-    "[Minimal]Cards"
+    "[Minimal]Cards",
+    "[PKMer]文件夹添加头像",
+    "[PKMer]表格优化",
+    "[PKMer]Timeline-Callouts",
+    "[PKMer]sidenote-callout",
+    "[PKMer]Code Tab美化",
+    "Blue Topaz Codebox"
   ]
 }
