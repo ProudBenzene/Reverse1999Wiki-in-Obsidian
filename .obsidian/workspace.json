@@ -47,36 +47,16 @@
             "id": "f4c4f5d3ca61811d",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "fe017d089d4201e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/300-以影像之.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3af898eb24f1c26e",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/序幕 此即明日.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -229,13 +209,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3af898eb24f1c26e",
+  "active": "f4c4f5d3ca61811d",
   "lastOpenFiles": [
-    "300-以影像之/assets/序幕 此即明日.assets/@重返未来1999 的个人主页 - 微博.jpg",
+    "300-以影像之/300-以影像之.md",
     "300-以影像之/序幕 此即明日.md",
+    "300-以影像之/assets/序幕 此即明日.assets/此即明日.jpg",
     "300-以影像之/assets/序幕 此即明日.assets",
     "300-以影像之/assets",
-    "300-以影像之/300-以影像之.md",
     "000-箱的构成/主页.md",
     "300-以影像之",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
