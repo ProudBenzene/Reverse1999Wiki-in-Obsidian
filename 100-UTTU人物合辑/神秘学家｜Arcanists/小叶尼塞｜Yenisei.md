@@ -1,7 +1,7 @@
 ---
 Name: 小叶尼塞
 English Name: Yenisei
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 过保护欲
 造像: 走吧，走吧。直到磨破鞋底，直到失去气力，直到停止呼吸。
 银行彩色相片: 背离家族的少女，看似淡薄的保护者，你最果决的朋友之一。
-Udimo:
-征集:
+Udimo: 
+征集: 
 定位标签:
   - 辅助
   - 治疗
@@ -33,7 +33,8 @@ aliases:
 初始立绘: "[[立绘 小叶尼塞 01.png]]"
 洞悉立绘: "[[立绘 小叶尼塞 02.png]]"
 banner_header: "{{filename}}"
-出场章节: 1.6朔日手记
+出场章节:
+  - 1.6｜朔日手记
 ---
 ![cover](assets/小叶尼塞｜Yenisei.assets/立绘%20小叶尼塞%2002.png)
 

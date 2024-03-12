@@ -33,7 +33,7 @@ aliases:
 洞悉立绘: "[[立绘 曲娘 02.png]]"
 banner_header: "{{filename}}"
 出场章节:
-  - 1.6朔日手记
+  - 1.6｜朔日手记
 ---
 ![cover](assets/曲娘｜Jiu%20Niangzi.assets/立绘%20曲娘%2002.png)
 

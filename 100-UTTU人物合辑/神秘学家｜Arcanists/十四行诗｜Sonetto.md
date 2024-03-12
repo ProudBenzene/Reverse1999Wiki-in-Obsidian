@@ -1,7 +1,7 @@
 ---
 Name: 十四行诗
 English Name: Sonetto
-tags:
+tags: 
 cssclasses:
   - book
   - img-grid
@@ -32,6 +32,13 @@ aliases:
 初始立绘: "[[assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png]]"
 洞悉立绘: "[[assets/十四行诗｜Sonetto.assets/立绘 十四行诗 02.png]]"
 banner_header: "{{filename}}"
+出场章节:
+  - 1.0｜此即明日
+  - 1.0｜在我们的时代里
+  - 1.0｜夜色温柔
+  - 1.0｜故事一无所有
+  - 1.0｜老虎的金黄
+  - 1.2｜绿湖噩梦
 ---
 ![cover](assets/十四行诗｜Sonetto.assets/立绘%20十四行诗%2002.png)
 

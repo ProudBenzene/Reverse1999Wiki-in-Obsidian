@@ -1,7 +1,7 @@
 ---
 Name: 可燃点
 English Name: Spathodea
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 火焰花儿
 造像: 她会抓住那簇最明亮的火花，无论何时，无论何地。
 银行彩色相片: 点燃乌卢鲁圣火的少女，闪闪发光的运动新星，你最热情的朋友之一。
-Udimo:
+Udimo: 
 征集: 火花雀儿｜The Chirps of Flame
 定位标签:
   - 输出
@@ -33,6 +33,8 @@ aliases:
 初始立绘: "[[assets/可燃点｜Spathodea.assets/立绘 可燃点 01.png]]"
 洞悉立绘: "[[assets/可燃点｜Spathodea.assets/立绘 可燃点 02.png]]"
 banner_header: "{{filename}}"
+出场章节:
+  - 1.5｜复兴！乌卢鲁运动会
 ---
 ![cover](assets/可燃点｜Spathodea.assets/立绘%20可燃点%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 牙仙
 English Name: Tooth Fairy
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -34,7 +34,7 @@ aliases:
 洞悉立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png]]"
 banner_header: "{{filename}}"
 出场章节:
-  - 1.2绿湖噩梦
+  - 1.2｜绿湖噩梦
 ---
 ![cover](assets/牙仙｜Tooth%20Fairy.assets/立绘%20牙仙%2002.png)
 
