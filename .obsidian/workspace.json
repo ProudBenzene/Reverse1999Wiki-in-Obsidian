@@ -70,8 +70,8 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/序幕 此即明日.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -231,8 +231,11 @@
   },
   "active": "3af898eb24f1c26e",
   "lastOpenFiles": [
-    "300-以影像之/300-以影像之.md",
+    "300-以影像之/assets/序幕 此即明日.assets/@重返未来1999 的个人主页 - 微博.jpg",
     "300-以影像之/序幕 此即明日.md",
+    "300-以影像之/assets/序幕 此即明日.assets",
+    "300-以影像之/assets",
+    "300-以影像之/300-以影像之.md",
     "000-箱的构成/主页.md",
     "300-以影像之",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
@@ -247,7 +250,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/至终的仪式 独一的圆满.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星3.png",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets",
@@ -271,11 +273,8 @@
     "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
     "500-箱外阵营/重塑之手｜Manus Vindictae.md",
     "100-UTTU人物合辑/维尔汀｜Vertin.md",
-    "100-UTTU人物合辑/维尔汀.md",
     "000-箱的构成/assets/自动化创建角色档案.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets",
-    "100-UTTU人物合辑/人类｜Human",
-    "100-UTTU人物合辑/神秘学家感染种｜Infected"
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets"
   ]
 }
