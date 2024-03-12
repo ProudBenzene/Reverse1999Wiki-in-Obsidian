@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-箱外世界/暴雨时间线.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "mode": "preview",
                 "source": true
               }
@@ -57,14 +57,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "300-以影像之/300-以影像之.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3af898eb24f1c26e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/未命名.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -138,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300-以影像之/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300-以影像之/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300-以影像之/未命名.md"
+              }
             }
           },
           {
@@ -213,9 +229,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f4c4f5d3ca61811d",
+  "active": "3af898eb24f1c26e",
   "lastOpenFiles": [
+    "300-以影像之/300-以影像之.md",
+    "300-以影像之/未命名.md",
     "000-箱的构成/主页.md",
+    "300-以影像之",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/伽菈波那的尤提姆.png",
@@ -249,16 +268,14 @@
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets",
-    "400-箱外阵营/维尔汀小队｜Vertin's Team.md",
-    "400-箱外阵营/重塑之手｜Manus Vindictae.md",
+    "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
+    "500-箱外阵营/重塑之手｜Manus Vindictae.md",
     "100-UTTU人物合辑/维尔汀｜Vertin.md",
     "100-UTTU人物合辑/维尔汀.md",
-    "400-箱外阵营/圣洛夫基金会｜St. PavlovFoundation.md",
     "000-箱的构成/assets/自动化创建角色档案.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets",
     "100-UTTU人物合辑/人类｜Human",
-    "100-UTTU人物合辑/神秘学家感染种｜Infected",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened"
+    "100-UTTU人物合辑/神秘学家感染种｜Infected"
   ]
 }
