@@ -317,8 +317,8 @@
     },
     {
       "fieldConfig": {
-        "封面": {},
-        "Cover": {}
+        "Cover": {},
+        "Era": {}
       },
       "defaultName": "",
       "templates": [
@@ -365,7 +365,7 @@
             "orderFields": [
               "name",
               "Chapter",
-              "年代",
+              "Era",
               "Cover",
               "海报寄语",
               "上线版本",

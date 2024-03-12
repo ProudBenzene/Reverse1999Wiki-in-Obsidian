@@ -56,14 +56,6 @@
             }
           },
           {
-            "id": "9b1de9bcc9b6c6da",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
             "id": "db8831428240df10",
             "type": "leaf",
             "state": {
@@ -76,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -150,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000-箱的构成/主页.md"
+              }
             }
           },
           {
@@ -225,10 +221,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9b1de9bcc9b6c6da",
+  "active": "ed62deb4ff8c9348",
   "lastOpenFiles": [
-    "000-箱的构成/主页.md",
     "300-以影像之/第一章 在我们的时代里.md",
+    "000-箱的构成/主页.md",
     "300-以影像之/assets/序幕 此即明日.assets/此即明日.jpg",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation.md",
