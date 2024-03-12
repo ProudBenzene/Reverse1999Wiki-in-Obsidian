@@ -76,7 +76,6 @@
       {
         "id": "fb7552c6126461e8",
         "type": "tabs",
-        "dimension": 66.84005201560468,
         "children": [
           {
             "id": "250c5f6efff2f242",
@@ -108,29 +107,6 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "5b6377da7e207407",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "1b88a00a56cdbf65",
-        "type": "tabs",
-        "dimension": 33.159947984395316,
-        "children": [
-          {
-            "id": "3e473674be2f2f3c",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
               "state": {}
             }
           }
@@ -200,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -215,24 +191,18 @@
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "random-note:开始漫游笔记": false,
-      "cmdr:切换明暗主题": false,
-      "cmdr:在文件列表中显示当前文件": false,
-      "cmdr:Projects": false,
-      "cmdr:Style Settings 悬浮面板": false,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false
+      "random-note:开始漫游笔记": false
     }
   },
   "active": "f5e25f9e8eef5ae8",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/至终的仪式 独一的圆满.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏2.png",
@@ -245,7 +215,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
@@ -256,7 +225,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Jessica~.md",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/单品 洁西卡 03.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets",
     "100-UTTU人物合辑/超自然者｜Beyond/assets",
     "000-箱的构成/templates/UTTU人物合辑.md",
