@@ -57,14 +57,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/序幕 此即明日.md",
-                "mode": "preview",
+                "file": "300-以影像之/序幕 此即明日 1.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300-以影像之/序幕 此即明日 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300-以影像之/序幕 此即明日 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +177,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "300-以影像之/序幕 此即明日 1.md"
+              }
             }
           },
           {
@@ -213,10 +217,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fec816cac7df47af",
+  "active": "f4c4f5d3ca61811d",
   "lastOpenFiles": [
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "300-以影像之/序幕 此即明日.md",
+    "300-以影像之/序幕 此即明日 1.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/assets/序幕 此即明日.assets/此即明日.jpg",
     "300-以影像之/assets/序幕 此即明日.assets",
