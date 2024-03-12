@@ -52,19 +52,19 @@
             }
           },
           {
-            "id": "f4c4f5d3ca61811d",
+            "id": "a261c30c547f8048",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/序幕 此即明日 1.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/序幕 此即明日 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/序幕 此即明日 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "300-以影像之/序幕 此即明日 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -217,11 +213,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f4c4f5d3ca61811d",
+  "active": "fec816cac7df47af",
   "lastOpenFiles": [
-    "300-以影像之/序幕 此即明日.md",
-    "300-以影像之/序幕 此即明日 1.md",
+    "000-箱的构成/templates/剧情章节.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
+    "000-箱的构成/templates/心相.md",
+    "300-以影像之/序幕 此即明日.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/assets/序幕 此即明日.assets/此即明日.jpg",
     "300-以影像之/assets/序幕 此即明日.assets",
@@ -261,7 +258,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets",
     "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
     "500-箱外阵营/重塑之手｜Manus Vindictae.md",
-    "100-UTTU人物合辑/维尔汀｜Vertin.md",
     "000-箱的构成/assets/自动化创建角色档案.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets"

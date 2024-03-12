@@ -318,7 +318,9 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "000-箱的构成/templates/剧情章节.md"
+      ],
       "excludedNotes": [
         "300-以影像之/300-以影像之.md"
       ],
