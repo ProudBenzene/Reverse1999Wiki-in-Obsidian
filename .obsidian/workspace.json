@@ -52,24 +52,12 @@
             }
           },
           {
-            "id": "513668ae115e6bfc",
+            "id": "84295040670ac956",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/第五章 洞穴的囚徒.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "050340d5ecf42ec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/templates/剧情章节.md",
                 "mode": "preview",
                 "source": false
               }
@@ -229,11 +217,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "513668ae115e6bfc",
+  "active": "84295040670ac956",
   "lastOpenFiles": [
+    "300-以影像之/第五章 洞穴的囚徒.md",
+    "300-以影像之/assets/第五章 洞穴的囚徒.assets/The Prisoner in the Cave.jpg",
+    "000-箱的构成/templates/剧情章节.md",
+    "300-以影像之/assets/第五章 洞穴的囚徒.assets/箱中巡游.jpg",
     "300-以影像之/assets/第五章 洞穴的囚徒.assets/洞穴的囚徒.png",
     "300-以影像之/assets/第五章 洞穴的囚徒.assets",
-    "300-以影像之/第五章 洞穴的囚徒.md",
     "300-以影像之/第四章 老虎的金黄.md",
     "300-以影像之/assets/第四章 老虎的金黄.assets/老虎的金黄.png",
     "300-以影像之/assets/第四章 老虎的金黄.assets",
@@ -243,7 +234,6 @@
     "300-以影像之/assets/第三章 故事一无所有.assets",
     "300-以影像之/第二章 夜色温柔.md",
     "300-以影像之/第一章 在我们的时代里.md",
-    "000-箱的构成/templates/剧情章节.md",
     "300-以影像之/序幕 此即明日.md",
     "300-以影像之/assets/第二章 夜色温柔.assets/夜色温柔.png",
     "300-以影像之/assets/第二章 夜色温柔.assets",
@@ -259,10 +249,7 @@
     "300-以影像之/assets",
     "000-箱的构成/主页.md",
     "300-以影像之",
-    "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/伽菈波那的尤提姆.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/单品 伽菈波那 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
