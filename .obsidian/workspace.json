@@ -52,31 +52,19 @@
             }
           },
           {
-            "id": "84295040670ac956",
+            "id": "98cf4205502f2509",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/第五章 洞穴的囚徒.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c0061360a0df270",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "300-以影像之/特别篇 星.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "300-以影像之/特别篇 星.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "300-以影像之/特别篇 星.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md"
+                "file": "300-以影像之/特别篇 星.md"
               }
             }
           },
@@ -230,9 +218,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2c0061360a0df270",
+  "active": "98cf4205502f2509",
   "lastOpenFiles": [
+    "300-以影像之/assets/特别篇 星.assets/特别篇 星.png",
+    "300-以影像之/assets/特别篇 星.assets",
+    "300-以影像之/特别篇 星.md",
     "300-以影像之/第五章 洞穴的囚徒.md",
+    "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/主页.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/测试.md",
@@ -269,13 +261,10 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md"
   ]
 }
