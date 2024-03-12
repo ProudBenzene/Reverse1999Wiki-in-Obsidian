@@ -7,6 +7,8 @@
     "出场版本": "multitext",
     "出场章节": "multitext",
     "年代": "text",
-    "上线时间": "date"
+    "上线时间": "date",
+    "章节起点": "datetime",
+    "章节终点": "datetime"
   }
 }
