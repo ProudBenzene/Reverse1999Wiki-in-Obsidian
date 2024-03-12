@@ -3,7 +3,6 @@
   "longform",
   "Enhanced-editing",
   "better-word-count",
-  "obsidian-custom-attachment-location",
   "dataview",
   "easy-typing-obsidian",
   "editing-toolbar",
@@ -29,5 +28,6 @@
   "obsidian-export-image",
   "quickadd",
   "templater-obsidian",
-  "obsidian-sortable"
+  "obsidian-sortable",
+  "obsidian-custom-attachment-location"
 ]
