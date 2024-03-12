@@ -339,7 +339,7 @@
       "views": [
         {
           "config": {
-            "coverField": "版本海报",
+            "coverField": "Cover",
             "includeFields": [
               "Chapter",
               "English",
