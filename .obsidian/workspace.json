@@ -59,7 +59,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -227,9 +227,16 @@
   },
   "active": "f5e25f9e8eef5ae8",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/至终的仪式 独一的圆满.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 古法观星2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/神秘术 体术吟咏3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/立绘 伽菈波那 01.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伽菈波那｜Black Dwarf.assets/立绘 伽菈波那 02.png",
@@ -249,13 +256,6 @@
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Jessica~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/单品 洁西卡 03.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/单品 洁西卡 02.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/单品 洁西卡 01.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/立绘 洁西卡 01.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/至终的仪式 凝视来自深林之中.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Jessica.assets/至终的仪式.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/神秘术 白绒毯2.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/神秘术 白绒毯1.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets",
     "100-UTTU人物合辑/超自然者｜Beyond/assets",
     "000-箱的构成/templates/UTTU人物合辑.md",
@@ -266,7 +266,6 @@
     "100-UTTU人物合辑/维尔汀｜Vertin.md",
     "100-UTTU人物合辑/维尔汀.md",
     "400-箱外阵营/圣洛夫基金会｜St. PavlovFoundation.md",
-    "000-箱的构成/templates/心相.md",
     "000-箱的构成/assets/自动化创建角色档案.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets",
