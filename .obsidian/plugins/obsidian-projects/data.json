@@ -317,7 +317,8 @@
     },
     {
       "fieldConfig": {
-        "封面": {}
+        "封面": {},
+        "Cover": {}
       },
       "defaultName": "",
       "templates": [
@@ -363,16 +364,15 @@
           "config": {
             "orderFields": [
               "name",
-              "path",
+              "Chapter",
               "年代",
-              "封面",
+              "Cover",
               "海报寄语",
               "上线版本",
               "上线时间",
               "章节起点",
               "章节终点",
               "aliases",
-              "Chapter",
               "cssclasses",
               "English",
               "tags"
