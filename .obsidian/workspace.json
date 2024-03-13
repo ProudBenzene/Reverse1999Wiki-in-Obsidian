@@ -15,27 +15,7 @@
               "state": {
                 "file": "000-箱的构成/主页.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9479844061a213d9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
-            "id": "5a9dc53ae8135a22",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
+                "source": true
               }
             }
           },
@@ -72,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,9 +164,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "000-箱的构成/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -226,11 +202,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5a9dc53ae8135a22",
+  "active": "037f91fd41217031",
   "lastOpenFiles": [
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构成/主页.md",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "000-箱的构成/主页.md",
     "000-箱的构成/templates/剧情章节.md",
     "300-以影像之/序幕 此即明日.md",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
@@ -252,7 +229,6 @@
     "300-以影像之/assets/第六章 今夜星光灿烂.assets/今夜星光灿烂.png",
     "300-以影像之/assets/第六章 今夜星光灿烂.assets",
     "300-以影像之/assets/特别篇 星.assets",
-    "400-箱外世界/暴雨时间线.md",
     "300-以影像之/测试.md",
     "300-以影像之/assets/测试.assets/洞穴的囚徒.png",
     "300-以影像之/assets/测试.assets/The Prisoner in the Cave.jpg",
