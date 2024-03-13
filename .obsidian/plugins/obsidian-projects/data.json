@@ -354,7 +354,13 @@
             "conditions": []
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "Serial",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
           },
           "id": "d5b4a6bd-e4c0-4691-8281-6cbe9ac27e3a",
           "name": "章节海报",
@@ -390,7 +396,13 @@
             "conditions": []
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "Serial",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
           },
           "id": "c8bf4144-42b6-49e0-a4b0-63425b982a1d",
           "name": "表格",
