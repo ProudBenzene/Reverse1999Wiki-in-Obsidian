@@ -20,6 +20,26 @@
             }
           },
           {
+            "id": "9479844061a213d9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
+            "id": "5a9dc53ae8135a22",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -51,7 +71,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,24 +209,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": true,
-      "graph:查看关系图谱": false,
-      "workspaces:管理工作区布局": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": true,
-      "random-note:开始漫游笔记": false,
-      "cmdr:切换明暗主题": false,
-      "cmdr:在文件列表中显示当前文件": false,
-      "cmdr:Projects": false,
-      "cmdr:Style Settings 悬浮面板": false,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e9646f73ab876345",
+  "active": "5a9dc53ae8135a22",
   "lastOpenFiles": [
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
