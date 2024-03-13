@@ -1,6 +1,6 @@
 ---
 Name: 斯奈德
-English Name: Schneider
+exonym: Schneider
 tags: 
 cssclasses:
   - book

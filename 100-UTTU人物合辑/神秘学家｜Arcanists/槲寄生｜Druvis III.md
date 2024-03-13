@@ -1,6 +1,6 @@
 ---
 Name: 槲寄生
-English Name: Druvis III
+exonym: Druvis III
 tags: 
 cssclasses:
   - book

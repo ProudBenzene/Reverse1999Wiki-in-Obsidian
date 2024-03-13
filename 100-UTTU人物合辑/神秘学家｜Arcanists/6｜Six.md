@@ -1,6 +1,6 @@
 ---
 Name: "6"
-English Name: Six
+exonym: Six
 tags: 
 cssclasses:
   - book

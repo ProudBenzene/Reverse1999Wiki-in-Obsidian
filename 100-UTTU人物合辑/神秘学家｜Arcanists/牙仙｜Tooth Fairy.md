@@ -1,6 +1,6 @@
 ---
 Name: 牙仙
-English Name: Tooth Fairy
+exonym: Tooth Fairy
 tags: 
 cssclasses:
   - book

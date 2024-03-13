@@ -1,6 +1,6 @@
 ---
 Name: "37"
-English Name: Thirty-seven
+exonym: Thirty-seven
 tags: 
 cssclasses:
   - book

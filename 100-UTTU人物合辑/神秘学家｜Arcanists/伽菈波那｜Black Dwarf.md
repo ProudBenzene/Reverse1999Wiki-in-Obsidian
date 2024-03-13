@@ -1,6 +1,6 @@
 ---
 Name: 伽菈波那
-English Name: Black Dwarf
+exonym: Black Dwarf
 tags: 
 cssclasses:
   - book

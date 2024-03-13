@@ -1,6 +1,6 @@
 ---
 Name: 兔毛手袋
-English Name: Medicine Pocket
+exonym: Medicine Pocket
 tags: 
 cssclasses:
   - book

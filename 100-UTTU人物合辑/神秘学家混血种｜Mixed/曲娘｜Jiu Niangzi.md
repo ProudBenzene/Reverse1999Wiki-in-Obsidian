@@ -1,6 +1,6 @@
 ---
 Name: 曲娘
-English Name: Jiu Niangzi
+exonym: Jiu Niangzi
 tags: 
 cssclasses:
   - book

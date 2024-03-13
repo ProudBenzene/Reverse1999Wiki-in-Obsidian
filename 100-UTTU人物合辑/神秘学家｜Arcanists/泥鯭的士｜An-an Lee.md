@@ -1,6 +1,6 @@
 ---
 Name: 泥鯭的士
-English Name: An-an Lee
+exonym: An-an Lee
 tags: 
 cssclasses:
   - book

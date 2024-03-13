@@ -1,6 +1,6 @@
 ---
 Name: 小叶尼塞
-English Name: Yenisei
+exonym: Yenisei
 tags: 
 cssclasses:
   - book

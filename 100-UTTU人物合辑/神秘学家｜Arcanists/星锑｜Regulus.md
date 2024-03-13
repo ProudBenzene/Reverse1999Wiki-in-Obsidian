@@ -1,6 +1,6 @@
 ---
 Name: 星锑
-English Name: Regulus
+exonym: Regulus
 tags: 
 cssclasses:
   - book

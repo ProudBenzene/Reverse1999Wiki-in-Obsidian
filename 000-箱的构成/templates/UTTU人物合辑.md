@@ -1,6 +1,6 @@
 ---
 Name: <% tp.file.title.split("｜")[0] %>
-English Name: <% tp.file.title.split("｜")[1] %>
+exonym: <% tp.file.title.split("｜")[1] %>
 tags: 
 cssclasses:
   - book

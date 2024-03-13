@@ -1,6 +1,6 @@
 ---
 Name: 伊索尔德
-English Name: Isolde
+exonym: Isolde
 tags: 
 cssclasses:
   - book

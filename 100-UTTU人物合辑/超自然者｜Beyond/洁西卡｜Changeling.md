@@ -1,6 +1,6 @@
 ---
 Name: 洁西卡
-English Name: Changeling
+exonym: Changeling
 tags: 
 cssclasses:
   - book

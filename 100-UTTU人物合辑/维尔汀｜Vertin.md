@@ -1,6 +1,6 @@
 ---
 Name: 维尔汀
-English Name: Vertin
+exonym: Vertin
 tags: 
 cssclasses:
   - book

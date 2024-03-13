@@ -1,6 +1,6 @@
 ---
 Name: 十四行诗
-English Name: Sonetto
+exonym: Sonetto
 tags: 
 cssclasses:
   - book

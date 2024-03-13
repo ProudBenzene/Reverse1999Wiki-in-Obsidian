@@ -1,6 +1,6 @@
 ---
 Name: 可燃点
-English Name: Spathodea
+exonym: Spathodea
 tags: 
 cssclasses:
   - book
