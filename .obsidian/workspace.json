@@ -63,8 +63,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -138,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +177,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000-箱的构成/主页.md"
+              }
             }
           },
           {
@@ -213,7 +217,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "788e17ff1be888f3",
+  "active": "8dca890df7885cd1",
   "lastOpenFiles": [
     "000-箱的构成/主页.md",
     "300-以影像之/序幕 此即明日.md",
