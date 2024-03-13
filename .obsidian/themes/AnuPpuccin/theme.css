@@ -5224,7 +5224,7 @@ hr {
   background-color: transparent;
 }
 
-.anp-toggle-metadata .frontmatter-container, .markdown-rendered.hide-metadata .frontmatter-container {
+.anp-toggle-metadata .frontmatter-container, .markdown-rendered.hide-metadata .metadata-container {
   display: none;
 }
 
