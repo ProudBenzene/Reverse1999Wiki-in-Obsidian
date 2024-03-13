@@ -42,17 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "037f91fd41217031",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000-箱的构成/主页.md"
+              }
             }
           },
           {
@@ -202,11 +197,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "037f91fd41217031",
+  "active": "e9646f73ab876345",
   "lastOpenFiles": [
+    "000-箱的构成/自动化创建角色档案.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/主页.md",
-    "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/剧情章节.md",
     "300-以影像之/序幕 此即明日.md",

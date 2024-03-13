@@ -343,7 +343,8 @@
             "includeFields": [
               "Chapter",
               "English",
-              "年代"
+              "年代",
+              "Era"
             ],
             "cardWidth": 100
           },
