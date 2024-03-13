@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -54,17 +54,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "1c214638eb56057f",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000-箱的构成/templates/UTTU人物合辑.md"
+              }
             }
           },
           {
@@ -214,10 +210,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1c214638eb56057f",
+  "active": "76deb795d0363881",
   "lastOpenFiles": [
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/主页.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/剧情章节.md",
     "300-以影像之/序幕 此即明日.md",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
