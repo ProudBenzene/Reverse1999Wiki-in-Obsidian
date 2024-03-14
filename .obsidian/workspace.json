@@ -52,12 +52,12 @@
             }
           },
           {
-            "id": "e5e38ba08defa711",
+            "id": "2473adfa463511e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
                 "mode": "preview",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md"
               }
             }
           },
@@ -217,8 +217,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "e5e38ba08defa711",
+  "active": "2473adfa463511e1",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
@@ -263,7 +264,6 @@
     "300-以影像之/assets/第二章 夜色温柔.assets",
     "300-以影像之/assets/第一章 在我们的时代里.assets",
     "300-以影像之/在我们的时代里.md",
-    "000-箱的构成/templates/心相.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md"
+    "000-箱的构成/templates/心相.md"
   ]
 }

@@ -106,46 +106,46 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 熟识橡树之人
+### 熟识橡树之人｜The Druid
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!note]+ 1900橡木铃|Lugus Samildánach
+> [!culture]+ 1900橡木铃|Lugus Samildánach
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2001.png)
 > ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**20**
 > 由Lugus为爱尔兰德鲁维斯
 > 家族定制的1900百年纪念款，隶属Samildánach高级珠宝系列，同时也是她身上唯一的高定奢侈品。珠宝首次面世于1911年10月，在一场母亲为女儿举办的生日宴上。
 
-> [!note]+ 术杖 “他方世界”|Otherworld
+> [!culture]+ 术杖 “他方世界”|Otherworld
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2002.png)
 > 无估值
 > 这是一支极为奇特的术杖。外观是典型的德鲁伊风格，橡木材质，纯白的镰刀象征至圣之月，并缀以槲寄生白芽。而杖芯成分古怪，由猫胡须、失效止痛药和一小撮黑色的灰烬制成。她将术杖命名为“他方世界”。
 
-> [!note]+ 一束槲寄生|Mistletoe
+> [!culture]+ 一束槲寄生|Mistletoe
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2003.png)
 > 无估值
 > 青白花果与服饰的搭配、插花的层次设计、点缀的纱绢选材，都可称为艺术佳作。“不是私人订制，只是我随手采来的。”她这样说道。或许，我该更换为我订制鲜花的花匠了。
 ````
 
-### 闹蛾儿
+### 闹蛾儿｜Lady With Nao'E
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!note]+ 捻金雪柳闹蛾冠|Nao'E Willow Tiara
+> [!culture]+ 捻金雪柳闹蛾冠|Nao'E Willow Tiara
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2004.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**400**
 > 枝叶形头冠，饰以乌金纸剪裁的飞蛾翅膀，点缀饱满如果实的珍珠，因其接近自然的向上生长的形态而格外优雅。自然主义美学在哪里都不会过时。
 
-> [!note]+ 璎珞腰饰|Yingluo Waist Jewelry
+> [!culture]+ 璎珞腰饰|Yingluo Waist Jewelry
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2005.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85**
 > 佩戴在腰间的璎珞，通过编缀的手段把金银、玉片、砗磲连接在一起。纤长地垂落于腰侧，在步履间灵动地摇晃。
 
-> [!note]+ 青白银绣披帛|Silver Embroidery Pibo
+> [!culture]+ 青白银绣披帛|Silver Embroidery Pibo
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2006.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**34**
 > 绿色与白色的纱罗，金银线刺绣花纹，自然垂落时显得安静而整洁，但借着风势，它有任何人所不及的轻盈姿态。
