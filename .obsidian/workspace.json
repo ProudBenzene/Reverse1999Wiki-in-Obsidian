@@ -32,6 +32,14 @@
             }
           },
           {
+            "id": "9aadaddd821e22fa",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
             "id": "5a465f894adf7290",
             "type": "leaf",
             "state": {
@@ -44,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "000-箱的构成/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,10 +201,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5f9e84794212822e",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/主页.md",
+    "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/剧情章节.md",
