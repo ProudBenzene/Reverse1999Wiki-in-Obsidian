@@ -4678,65 +4678,37 @@ body.style-options-for-admonition-plugin .admonition-hibox .admonition-title {
 
 
 /*========段落首行缩进========*/
-/* from blue topaz */
-body.text-indentation-two-em .markdown-source-view.mod-cm6 div.cm-line:not(.HyperMD-header),
-.markdown-source-view.mod-cm6.indent div.cm-line:not(.HyperMD-header) div.tag {
-  text-indent: 2em;
+
+/* === 段落-首行缩进2个字符 By Linzeal 2024/2/1更新 === */
+
+/* 也包括段落中每个回车换行后的首行缩进 */
+
+/* 摘自https://forum-zh.obsidian.md/t/topic/28562/3 */
+
+.text-indentation-two-em :is(
+.markdown-source-view .cm-line:not(:is(:has(>.cm-hmd-frontmatter,>br),.HyperMD-header,.HyperMD-list-line,.HyperMD-quote,table .cm-line)), /* 编辑模式 */
+.markdown-rendered :not(:is(blockquote)) > p /* 阅读模式 text-indent不支持each-line的办法 */
+){
+  text-indent: 2em !important;
 }
 
-body.text-indentation-two-em .markdown-source-view.mod-cm6 div.cm-line:not(.HyperMD-header) .cm-hmd-frontmatter:first-of-type,
-.markdown-source-view.mod-cm6.indent div.cm-line:not(.HyperMD-header) .cm-hmd-frontmatter:first-of-type {
-  margin-left: -2em;
-}
-body.text-indentation-two-em .markdown-source-view.mod-cm6 div.has-banner.cm-line:not(.HyperMD-header) .cm-def.cm-hmd-frontmatter,
-body.text-indentation-two-em .markdown-source-view.mod-cm6 div.has-banner.cm-line:not(.HyperMD-header) .collapse-indicator,
-.markdown-source-view.mod-cm6.indent div.has-banner.cm-line:not(.HyperMD-header) .cm-def.cm-hmd-frontmatter,
-.markdown-source-view.mod-cm6.indent div.has-banner.cm-line:not(.HyperMD-header) .collapse-indicator {
-  margin-left: 0;
-  left: -3em;
-}
-
-body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockquote) > p,
-[data-type="markdown"] :is(.markdown-preview-view,.markdown-rendered).indent div[class="el-p"]:not(blockquote) > p {
-  text-indent: 2em;
-}
-
-
-body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockquote) > p>br,
-[data-type="markdown"] :is(.markdown-preview-view,.markdown-rendered).indent div[class="el-p"]:not(blockquote) >  p>br {
-  content: ' ';
-  white-space: pre;
-  line-height: calc((var(--paragraph-spacing) + 0.3)*1em);
-  display:unset;
-}
-body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockquote) > p>br::after,
-[data-type="markdown"] :is(.markdown-preview-view,.markdown-rendered).indent div[class="el-p"]:not(blockquote) >p>br::after {
-  content: '\A\9\9';
-}
-
-body.text-indentation-two-em .print *:not(blockquote) > p {
-    text-indent: 2em;
-}
-body.text-indentation-two-em .print *:not(blockquote) > p>br {
-    content: ' ';
-    white-space: pre;
-    line-height: calc((var(--paragraph-spacing) + 0.3)*1em);
-    display:unset;
-}
-body.text-indentation-two-em .print *:not(blockquote) > p>br::after {
-    content: '\A\9\9';
+.text-indentation-two-em .markdown-rendered :not(:is(blockquote)) > p
+{
+  /*text-indent: 2em each-line !important; 若支持each-line参数则用这个即可，更为简单，就无需下面的修正 */
 }
 
 /* 阅读模式下对每个回车换行后的首行缩进的修正 */
-.markdown-rendered :not(:is(blockquote)) > p > br
+.text-indentation-two-em .markdown-rendered :not(:is(blockquote)) > p > br
 {
   content:'';
   white-space:pre; 
 }
-.markdown-rendered :not(:is(blockquote)) > p > br::after
+.text-indentation-two-em .markdown-rendered :not(:is(blockquote)) > p > br::after
 {
-  content:'\A\0009\00A0\00A0\00A0';
+  content:'\000A\0009\00A0\00A0'; /* Unicode字符编码\0009表示水平制表符，\00A0表示不换行空格，可通过增减、组合搭配这两个Unicode字符来微调回车换行后的首行缩进量 */
 }
+
+/* === CSS代码结束 === */
 
 /*========段落两端对齐缩进========*/
 body.justify-align .markdown-source-view.mod-cm6 div[class="cm-line"]:not(.HyperMD-header),
