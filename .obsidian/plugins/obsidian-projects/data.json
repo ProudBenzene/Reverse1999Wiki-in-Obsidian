@@ -310,21 +310,6 @@
           "id": "5a2f1ae3-204b-4612-a64a-c10c95920e4a",
           "name": "表格",
           "type": "table"
-        },
-        {
-          "config": {},
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "ffc92bd1-7e64-4596-81c9-bc11ff030049",
-          "name": "日历",
-          "type": "calendar"
         }
       ],
       "id": "9ff693de-6abc-4520-b70c-e2c25b385535",
@@ -423,6 +408,23 @@
           "id": "c8bf4144-42b6-49e0-a4b0-63425b982a1d",
           "name": "表格",
           "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ed812190-c8b4-4e9a-a3ff-47e096839787",
+          "name": "日历",
+          "type": "calendar"
         }
       ],
       "id": "3b6e745d-c3f1-4477-9213-1e9b60975541",

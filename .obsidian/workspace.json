@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -126,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000-箱的构成/主页.md"
+              }
             }
           },
           {
@@ -201,7 +206,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
     "000-箱的构成/主页.md",
     "400-箱外世界/暴雨时间线.md",
