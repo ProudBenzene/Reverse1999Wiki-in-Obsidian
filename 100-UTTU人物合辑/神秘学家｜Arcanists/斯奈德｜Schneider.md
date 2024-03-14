@@ -139,7 +139,9 @@ tab: 芝加哥的新人|Newcomer in Chicago
 她会撑起一角天空。
 
 tab: 一本账簿|Family Ledger
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)1928/03/21
+![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+
+1928/03/21
 **﹡圣餐支出：-87￠**
 备注：半块黄油、三个面饼、一小块斜切火腿、203毫升白葡萄酒
 **﹡出行支出（25人）：-24￠**

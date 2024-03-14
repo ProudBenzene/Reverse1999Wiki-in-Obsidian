@@ -101,7 +101,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 拉米雷斯风格|The Ramirez Style
+### 拉米雷斯风格｜The Ramirez Style
 
 ````ad-flex
 collapse: open
@@ -124,7 +124,7 @@ color:
 > 一个颇为严苛的手提包。就存取物品的功能而言，她并不可靠。但就指导学生的作业而言，她完成得很好，并且触感柔软。
 ````
 
-### 夜晚如此祥和|A Peaceful Night
+### 夜晚如此祥和｜A Peaceful Night
 
 ````ad-flex
 collapse: open
