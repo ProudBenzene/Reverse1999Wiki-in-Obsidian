@@ -4479,6 +4479,7 @@ body.style-options-for-admonition-plugin .admonition-flex {
   box-shadow: none;
   border-left: none;
   word-break: break-word;
+  background-color: transparent; /**单品透明分栏**/
 }
 body.admonition-bg-color-same.style-options-for-admonition-plugin .admonition-flex {
   margin: 1em 0;
