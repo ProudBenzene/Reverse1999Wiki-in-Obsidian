@@ -101,11 +101,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
-### 洞二衣着
+### 拉米雷斯风格|The Ramirez Style
 
 ````ad-flex
 collapse: open
@@ -113,41 +109,42 @@ title:
 color: 
 > [!culture]+ 鸭舌帽|Peaked Cap
 > ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)63
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**63**
 > 一顶简朴的鸭舌帽，色调单一，设计平庸，通常会出现在某类无名店铺的折扣货架上。佩戴者理所当然地选择了它。“平庸是一个相当难得的选择。”
 
 > [!culture]+ 金质吊坠|Golden Pendant
 > ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)835
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**835**
 > 它的上一个身份是给女儿的生日礼物。打造一件独一无二的吊坠需要几个月的功夫，而亲手送出它则需要一个更合适的契机。  
 > 遗憾的是，它并没能得到这个机会。
 
-> [!culture]+ |
+> [!culture]+ 艾西|Ms Acey
 > ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2003.png)
-> 
-> 
+> **无估值**
+> 一个颇为严苛的手提包。就存取物品的功能而言，她并不可靠。但就指导学生的作业而言，她完成得很好，并且触感柔软。
 ````
 
-### 
+### 夜晚如此祥和|A Peaceful Night
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ “纯白的艾西”|"Ms. Acey in Pure White"
+> ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2004.png)
+> **无估值**
+> 被纯白的厚布料包裹住的艾西老师，小巧精致的外形更适宜当下的着装。这份美丽不仅需要忍耐住聚光灯带来的闷热，还要忍耐住对千篇一律的剧情发表意见的心。
 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ M字型发饰|M-shaped Hair Clip
+> ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2005.png)
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**35**
+> 材质为琉璃和铜的发饰，放在手心时会有些许重量感。  
+> 它在任何一个平凡的饰品店货架上都能被找到，但那些货色并不会在梅兰妮融入大众时提醒她记起伪装成普通人的要领。
 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ 红色丝绒手套|Red Velvet Gloves
+> ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2006.png)
+> **无估值**
+> 当服装设计师头疼于如何在装造上保有演员本人的特色时，从艾西老师的口中“不小心”掉出来了这双红色手套。这是能够聚集全场视线的一抹红。
 ````
 
 ## 文化
