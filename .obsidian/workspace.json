@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "5af761c2cc08b27d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md"
+              }
             }
           },
           {
@@ -202,8 +218,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "5af761c2cc08b27d",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets/单品 梅兰妮 06.png",
@@ -219,7 +236,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets/神秘术 发条鼠患2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets",
-    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/自动化创建角色档案.md",
