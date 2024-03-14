@@ -4727,6 +4727,17 @@ body.text-indentation-two-em .print *:not(blockquote) > p>br::after {
     content: '\A\9\9';
 }
 
+/* 阅读模式下对每个回车换行后的首行缩进的修正 */
+.markdown-rendered :not(:is(blockquote)) > p > br
+{
+  content:'';
+  white-space:pre; 
+}
+.markdown-rendered :not(:is(blockquote)) > p > br::after
+{
+  content:'\A\0009\00A0\00A0\00A0';
+}
+
 /*========段落两端对齐缩进========*/
 body.justify-align .markdown-source-view.mod-cm6 div[class="cm-line"]:not(.HyperMD-header),
 .markdown-source-view.mod-cm6.justify div[class="cm-line"]:not(.HyperMD-header) {
