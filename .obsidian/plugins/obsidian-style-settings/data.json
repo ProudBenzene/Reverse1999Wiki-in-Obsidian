@@ -612,7 +612,7 @@
   "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "luminosity",
   "timeline-callout@@node-automatic-coloring": true,
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00",
-  "Blue-Topaz-Legacy@@remove-table-transition": false,
+  "Blue-Topaz-Legacy@@remove-table-transition": true,
   "Mo-Table@@tbMH-ds": "tbMH-ds-bt",
   "Mo-Table@@tbMH-th@@dark": "#539D73",
   "Mo-Table@@tbMH-kj-color@@dark": "#FEEED1",
