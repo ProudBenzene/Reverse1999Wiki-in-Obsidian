@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "778c012de17ed8b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md"
               }
             }
           },
@@ -205,8 +218,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "778c012de17ed8b4",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets/立绘 梅兰妮 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "400-箱外世界/暴雨时间线.md",
@@ -245,13 +261,10 @@
     "300-以影像之/assets/第一章 在我们的时代里.assets",
     "300-以影像之/在我们的时代里.md",
     "000-箱的构成/templates/心相.md",
-    "300-以影像之/assets/序幕 此即明日.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md"
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md"
   ]
 }
