@@ -50,21 +50,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "5ed81f5a1f4913ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md"
-              }
+              "state": {}
             }
           },
           {
@@ -217,9 +201,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5ed81f5a1f4913ba",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构成/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
@@ -263,7 +248,6 @@
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md"
   ]
 }
