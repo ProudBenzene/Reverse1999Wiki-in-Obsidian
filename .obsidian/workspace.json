@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "aa88065a7af50517",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md"
+              }
             }
           },
           {
@@ -202,7 +218,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "05e815474d43ca5d",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
