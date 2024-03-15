@@ -16,8 +16,8 @@
         "000-箱的构成/templates/UTTU人物合辑.md"
       ],
       "excludedNotes": [
-        "\".+\\\\.png$\"",
-        "100-UTTU人物合辑/维尔汀｜Vertin.md"
+        "100-UTTU人物合辑/维尔汀｜Vertin.md",
+        "\".+\\\\.png$\""
       ],
       "isDefault": true,
       "dataSource": {
