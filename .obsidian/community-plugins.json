@@ -18,7 +18,6 @@
   "workspaces-plus",
   "obsidian-projects",
   "obsidian-style-settings",
-  "obsidian-admonition",
   "obsidian-code-tab",
   "obsidian42-brat",
   "obsidian-banners",
@@ -30,5 +29,6 @@
   "templater-obsidian",
   "obsidian-sortable",
   "obsidian-custom-attachment-location",
-  "folder-notes"
+  "folder-notes",
+  "obsidian-admonition"
 ]
