@@ -4479,7 +4479,7 @@ body.style-options-for-admonition-plugin .admonition-flex {
   box-shadow: none;
   border-left: none;
   word-break: break-word;
-  background-color: transparent; /**单品透明分栏**/
+  background-color: transparent; /**神秘学家单品透明分栏**/
 }
 body.admonition-bg-color-same.style-options-for-admonition-plugin .admonition-flex {
   margin: 1em 0;
@@ -4508,6 +4508,10 @@ body.style-options-for-admonition-plugin .admonition-flex .admonition-content[da
 
 body.style-options-for-admonition-plugin .admonition-flex .admonition-content[data-embed-type="image"] {
   justify-content: space-around;
+}
+
+.admonition-culture .callout-title {
+  text-decoration-line: underline;
 }
 
 /*ad-table*/
