@@ -103,7 +103,8 @@ body {
 }
 
 .tab-container .tab-contents {
-  border: 1px solid var(--bc);
+  border: none;
+  border-radius: 0.5em;
   background-color: var(--bc);
 }
 

@@ -622,5 +622,8 @@
   "Mo-Table@@tbMH-zdykd-jz": 620,
   "Blue-Topaz-Legacy@@loading-page-custom-gif-url": "url(https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403100052234.gif)",
   "anuppuccin-custom-background@@anp-background-image-light": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
-  "Blue-Topaz-Legacy@@font-family-strong": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)"
+  "Blue-Topaz-Legacy@@font-family-strong": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)",
+  "code-tab@@bc@@dark": "#E2E22817",
+  "code-tab@@tabbbc@@dark": "#9C663C",
+  "code-tab@@tabs-overflow-type": "default-type"
 }
