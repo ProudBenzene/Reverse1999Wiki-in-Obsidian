@@ -4510,8 +4510,8 @@ body.style-options-for-admonition-plugin .admonition-flex .admonition-content[da
   justify-content: space-around;
 }
 
-.admonition-culture .callout-title {
-  text-decoration-line: underline;
+callout[data-callout="culture"] {
+  background-color: transparent;
 }
 
 /*ad-table*/
