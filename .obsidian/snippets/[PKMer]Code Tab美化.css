@@ -12,6 +12,15 @@ settings:
     format: hex
     default-light: '#f6f8fa'
     default-dark: '#1e1e1e'
+  -
+    id: tabifc
+    title: the active tab item font color
+    title.zh: 选中的标签页的标签的字体颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#f6f8fa'
+    default-dark: '#1e1e1e'
   - 
     id: tabbbc
     title: the active tab item border bottom color
@@ -23,8 +32,8 @@ settings:
     default-dark: '#87a5c7'
   - 
     id: tabbc
-    title: active tab item background color
-    title.zh: 选中的标签页的标签的背景颜色
+    title: inactive tab border bottom color
+    title.zh: 未选中标签页下长条颜色
     type: variable-themed-color
     opacity: true
     format: hex
@@ -32,8 +41,8 @@ settings:
     default-dark: '#282c34'
   - 
     id: tabfc
-    title: active tab item font color
-    title.zh: 选中的标签页的标签的字体颜色
+    title: inactive tab item font color
+    title.zh: 未选中的标签页的标签的字体颜色
     type: variable-themed-color
     opacity: true
     format: hex
