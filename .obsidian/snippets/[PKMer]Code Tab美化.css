@@ -73,12 +73,14 @@ settings:
   --bc: #1e1e1e;
   --tabbc: #282c34;
   --tabfc: #D8DEE9;
+  --tabifc: #ffffff;
 }
 
 .theme-light {
   --bc: #f6f8fa;
   --tabbc: #d7dcff52;
   --tabfc: #0E0E0E;
+  --tabifc: #000000;
 }
 
 body {
@@ -89,7 +91,7 @@ body {
 .tab-container .tabs .tab-item--active {
   background-color: var(--tabbc);
   border-bottom-color: var(--tabbbc) !important;  /* 选中的标签页下方长条的颜色 */
-  color: #000000 !important;
+  color: var(--tabifc) !important;
   opacity: 1 !important;
 }
 

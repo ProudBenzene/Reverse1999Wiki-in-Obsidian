@@ -628,5 +628,6 @@
   "code-tab@@tabs-overflow-type": "default-type",
   "code-tab@@tabop": 0.6,
   "code-tab@@tabbc@@dark": "#435B8C",
-  "code-tab@@tabfc@@dark": "#7DA6F0"
+  "code-tab@@tabfc@@dark": "#7DA6F0",
+  "code-tab@@tabifc@@dark": "#E8AF81"
 }
