@@ -8,6 +8,7 @@ settings:
     title: background color of tab items and tab contents
     title.zh: 标签页栏和正文的背景颜色
     type: variable-themed-color
+    opacity: true
     format: hex
     default-light: '#f6f8fa'
     default-dark: '#1e1e1e'
@@ -16,6 +17,7 @@ settings:
     title: the active tab item border bottom color
     title.zh: 选中的标签页的标签下方长条的颜色
     type: variable-themed-color
+    opacity: true
     format: hex
     default-light: '#87a5c7'
     default-dark: '#87a5c7'
@@ -24,6 +26,7 @@ settings:
     title: active tab item background color
     title.zh: 选中的标签页的标签的背景颜色
     type: variable-themed-color
+    opacity: true
     format: hex
     default-light: '#d7dcff52'
     default-dark: '#282c34'
@@ -32,6 +35,7 @@ settings:
     title: active tab item font color
     title.zh: 选中的标签页的标签的字体颜色
     type: variable-themed-color
+    opacity: true
     format: hex
     default-light: '#0E0E0E'
     default-dark: '#D8DEE9'

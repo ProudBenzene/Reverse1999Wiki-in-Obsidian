@@ -122,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -218,7 +217,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "a154cee149dd7e58",
+  "active": "7854dc745d15e1f4",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
