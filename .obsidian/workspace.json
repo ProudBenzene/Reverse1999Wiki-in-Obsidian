@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/主页.md"
+                "file": "README.md"
               }
             }
           },
@@ -206,8 +206,8 @@
   },
   "active": "5f9e84794212822e",
   "lastOpenFiles": [
-    "README.md",
     "000-箱的构成/主页.md",
+    "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "macos.txt",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
