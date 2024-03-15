@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +176,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md"
-              }
+              "state": {}
             }
           },
           {
@@ -218,10 +214,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "510e5f00c7244dd8",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "macos.txt",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
+    "macos.txt",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets/斯奈德的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
@@ -264,7 +260,6 @@
     "300-以影像之/assets/第五章 洞穴的囚徒.assets",
     "300-以影像之/assets/第四章 老虎的金黄.assets",
     "300-以影像之/assets/第三章 故事一无所有.assets",
-    "300-以影像之/assets/第二章 夜色温柔.assets",
-    "300-以影像之/assets/第一章 在我们的时代里.assets"
+    "300-以影像之/assets/第二章 夜色温柔.assets"
   ]
 }
