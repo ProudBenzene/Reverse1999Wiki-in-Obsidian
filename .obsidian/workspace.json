@@ -59,7 +59,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -219,6 +219,7 @@
   },
   "active": "a90161bc86adb230",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets/斯奈德的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
@@ -263,7 +264,6 @@
     "300-以影像之/assets/第四章 老虎的金黄.assets",
     "300-以影像之/assets/第三章 故事一无所有.assets",
     "300-以影像之/assets/第二章 夜色温柔.assets",
-    "300-以影像之/assets/第一章 在我们的时代里.assets",
-    "300-以影像之/在我们的时代里.md"
+    "300-以影像之/assets/第一章 在我们的时代里.assets"
   ]
 }
