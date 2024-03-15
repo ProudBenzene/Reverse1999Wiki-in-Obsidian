@@ -179,7 +179,7 @@ tab: 一封历时颇长的信|A Letter Takes Long to Write
 如艾西老师所说，我们总会殊途同归的。
 
 
-<p align="right"><>您叛逆的女儿　　　　</p>
+<p align="right"><i>您叛逆的女儿</i>　　　　</p>
 
 tab: 仍未完成的难题|[UTTU×梅兰妮]
 ![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)白雪松：如何称呼你更合适？梅兰妮小姐，还是怪盗……？
