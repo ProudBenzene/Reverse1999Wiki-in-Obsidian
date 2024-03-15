@@ -624,6 +624,8 @@
   "anuppuccin-custom-background@@anp-background-image-light": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
   "Blue-Topaz-Legacy@@font-family-strong": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)",
   "code-tab@@bc@@dark": "#E2E22817",
-  "code-tab@@tabbbc@@dark": "#9C663C",
-  "code-tab@@tabs-overflow-type": "default-type"
+  "code-tab@@tabbbc@@dark": "#E8AF81",
+  "code-tab@@tabs-overflow-type": "default-type",
+  "code-tab@@tabop": 0.6,
+  "code-tab@@tabbc@@dark": "#435B8C"
 }

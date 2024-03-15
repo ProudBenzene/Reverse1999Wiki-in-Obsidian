@@ -80,7 +80,7 @@ body {
 .tab-container .tabs .tab-item--active {
   background-color: var(--tabbc);
   border-bottom-color: var(--tabbbc) !important;  /* 选中的标签页下方长条的颜色 */
-  color: #000000;
+  color: #000000 !important;
   opacity: 1 !important;
 }
 
