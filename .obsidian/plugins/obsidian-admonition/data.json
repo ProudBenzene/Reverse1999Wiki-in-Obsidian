@@ -198,7 +198,7 @@
     },
     "skill": {
       "type": "skill",
-      "color": "236, 198, 9",
+      "color": "244, 194, 16",
       "icon": {
         "type": "obsidian",
         "name": "lucide-swords"
@@ -237,7 +237,7 @@
     },
     "bkgd": {
       "type": "bkgd",
-      "color": "203, 87, 64",
+      "color": "220, 189, 96",
       "icon": {
         "name": "film",
         "type": "font-awesome"
