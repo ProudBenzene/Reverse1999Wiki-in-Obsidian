@@ -42,9 +42,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9aadaddd821e22fa",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md"
+                "file": "000-箱的构成/主页.md"
               }
             }
           },
@@ -197,8 +204,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "5a465f894adf7290",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/泥鯭的士｜An-an Lee.assets/Suitcase.png",
+    "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/可燃点｜Spathodea.assets/可燃点的尤提姆.png",
@@ -222,11 +232,9 @@
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets/梅兰妮的尤提姆.png",
     "300-以影像之/300-以影像之.md",
     "000-箱的构成/主页.md",
     "000-箱的构成/试试.md",
@@ -236,7 +244,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets",
     "400-箱外世界/暴雨时间线.md",
-    "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/assets/主页.assets/[Minimal]Cards.css",
     "300-以影像之/assets/第六章 今夜星光灿烂.assets",
     "300-以影像之/assets/特别篇 星.assets",
