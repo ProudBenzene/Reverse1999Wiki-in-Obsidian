@@ -34,7 +34,7 @@ banner_header: "{{filename}}"
 > - 参展时长:: 
 > - 展出/参展地点:: 
 
-> [!udimo]+ 😼尤提姆
+> [!udimo]- 尤提姆
 > 
 > 
 > <div style="height: 20px"></div>

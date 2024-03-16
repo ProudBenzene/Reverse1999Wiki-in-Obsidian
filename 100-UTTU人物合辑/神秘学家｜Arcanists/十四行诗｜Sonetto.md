@@ -49,7 +49,7 @@ banner_header: "{{filename}}"
 > - 参展时长:: 16 年
 > - 展出/参展地点:: 圣洛夫基金会对外巡查组
 
-> [!udimo]+ 😼尤提姆
+> [!udimo]- 尤提姆
 > ![尤提姆|inlL|200](assets/十四行诗｜Sonetto.assets/十四行诗的尤提姆.png)
 > 
 > 西西里灵缇类尤提姆，稀有。
