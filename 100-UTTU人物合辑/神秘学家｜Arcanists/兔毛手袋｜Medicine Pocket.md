@@ -46,7 +46,7 @@ banner_header: "{{filename}}"
 > - 展出/参展地点:: 原参展地点为美利坚合众国犹他州，后移往拉普拉斯科算中心
 
 > [!udimo]- 尤提姆
-> 
+> ![尤提姆|inlL|150](assets/兔毛手袋｜Medicine%20Pocket.assets/兔毛手袋的尤提姆.png)
 > 
 
 ## 传承：森林之铃

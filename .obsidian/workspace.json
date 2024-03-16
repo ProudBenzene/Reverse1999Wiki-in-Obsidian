@@ -52,12 +52,12 @@
             }
           },
           {
-            "id": "b5d4c87cef7ed6d6",
+            "id": "7f5f0e5b3ce1d33b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
                 "mode": "source",
                 "source": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md"
               }
             }
           },
@@ -217,9 +217,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b5d4c87cef7ed6d6",
+  "active": "7f5f0e5b3ce1d33b",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/6的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/兔毛手袋的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伊索尔德｜Isolde.assets/伊索尔德的尤提姆.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
@@ -241,7 +246,6 @@
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/单品 红弩箭 03 1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/单品 红弩箭 02 1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/单品 红弩箭 01 1.png",
     "000-箱的构成/试试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets",
     "README.md",
@@ -254,9 +258,6 @@
     "000-箱的构成/templates/剧情章节.md",
     "300-以影像之/序幕 此即明日.md",
     "300-以影像之/第六章 今夜星光灿烂.md",
-    "300-以影像之/特别篇 星.md",
-    "300-以影像之/第四章 老虎的金黄.md",
-    "300-以影像之/第五章 洞穴的囚徒.md",
     "000-箱的构成/assets/主页.assets/[Minimal]Cards.css",
     "300-以影像之/assets/第六章 今夜星光灿烂.assets",
     "300-以影像之/assets/特别篇 星.assets",
