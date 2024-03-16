@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "fadb4d29b2c84414",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
-          },
-          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +204,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fadb4d29b2c84414",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
     "README.md",
     "000-箱的构成/主页.md",
