@@ -52,18 +52,6 @@
             }
           },
           {
-            "id": "a958a6a1f93d6b20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "015feec46b7e81d5",
             "type": "leaf",
             "state": {
@@ -71,12 +59,12 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md"
+              }
             }
           },
           {
@@ -226,10 +218,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "015feec46b7e81d5",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/立绘 红弩箭 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/立绘 红弩箭 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets",
