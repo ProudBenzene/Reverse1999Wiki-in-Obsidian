@@ -234,6 +234,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "bkgd": {
+      "type": "bkgd",
+      "color": "203, 87, 64",
+      "icon": {
+        "name": "film",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Background",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": true,
