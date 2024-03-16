@@ -1,7 +1,7 @@
 ---
 Name: 伽菈波那
 exonym: Black Dwarf
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -25,7 +25,7 @@ Udimo: 虎类
   - 岩兰草
   - 金香木
   - 红没药
-初始衣着: 伽菈波那—格格不入。
+初始衣着: 格格不入。
 洞悉二衣着: 仰望者—人与群星并无不同。
 aliases:
   - 伽菈波那

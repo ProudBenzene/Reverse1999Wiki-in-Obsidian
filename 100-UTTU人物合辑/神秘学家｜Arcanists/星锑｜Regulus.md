@@ -1,7 +1,7 @@
 ---
 Name: 星锑
 exonym: Regulus
-tags: 
+tags:
 cssclasses:
   - book
 介质: 神秘学家｜Arcanist
@@ -22,7 +22,7 @@ Udimo: 幼狮类
   - 黑醋栗
   - 小豆蔻
   - 金桔
-初始衣着: 星锑—胡椒博士与黑胶唱片都是她的最爱。
+初始衣着: 胡椒博士与黑胶唱片都是她的最爱。
 洞悉二衣着: 灼热闪耀之星—好摇滚、酷座驾和棒朋友，她与她热爱的一切。
 aliases:
   - Regulus

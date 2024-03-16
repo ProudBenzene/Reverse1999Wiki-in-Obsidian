@@ -1,7 +1,7 @@
 ---
 Name: "37"
 exonym: Thirty-seven
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 本源的运算
 造像: 世界是一道数式，对她而言，这便够了。
 银行彩色相片: 洞察本质的天才，一位纯粹的求知者，你最专注的朋友之一。
-Udimo: 
+Udimo:
 征集: 现象未漫及处｜Beyond the World of Matters
 定位标签:
   - 输出
@@ -25,7 +25,7 @@ Udimo:
   - 盐花
   - 海岸松
   - 浮木
-初始衣着: 37—现象世界的一环。
+初始衣着: 现象世界的一环。
 洞悉二衣着: 一位质数—数字世界的基石。
 aliases:
   - Thirty-seven

@@ -1,7 +1,7 @@
 ---
 Name: 槲寄生
 exonym: Druvis III
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -24,7 +24,7 @@ Udimo: 猫类
   - 雪松
   - 晚香玉
   - 琥珀
-初始衣着: 槲寄生—酒会从来都是不适合她的。
+初始衣着: 酒会从来都是不适合她的。
 洞悉二衣着: 熟识橡树之人—她回到橡木树梢，像是回到母亲的怀抱。
 aliases:
   - 槲寄生
