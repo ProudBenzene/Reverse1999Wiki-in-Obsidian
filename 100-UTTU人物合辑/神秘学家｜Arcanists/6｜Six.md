@@ -45,7 +45,7 @@ banner_header: "{{filename}}"
 > - 展出/参展地点:: 爱琴海区域某岛
 
 > [!udimo]- 尤提姆
-> 
+> ![尤提姆|inlL|150](assets/6｜Six.assets/6的尤提姆.png)隼类尤提姆。罕见。以白色为主，生有金色硬质飞羽。左腿串有六边形金属环，飞行时略为吃力。栖息于海边岩洞，性情孤僻，攻击性弱。喜好独居，鲜少主动离开领地。
 > 
 
 ## 传承：知识的崇奉
@@ -101,7 +101,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 完备者
+### 完备者｜The Perfect Number
 
 ````ad-flex
 collapse: open

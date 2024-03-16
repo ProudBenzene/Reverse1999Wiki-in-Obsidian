@@ -99,7 +99,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 内有恶犬
+### 内有恶犬｜Beware of Dog
 
 ````ad-flex
 collapse: open
