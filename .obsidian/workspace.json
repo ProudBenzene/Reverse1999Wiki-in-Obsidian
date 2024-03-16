@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "bc8bf1bc0d16ce82",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -69,6 +61,14 @@
                 "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "42f01ce50eac6952",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
             }
           }
         ],
@@ -226,7 +226,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9da7140137dafa7e",
+  "active": "42f01ce50eac6952",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/红弩箭的尤提姆.png",

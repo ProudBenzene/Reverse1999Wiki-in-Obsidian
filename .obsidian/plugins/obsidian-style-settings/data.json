@@ -163,7 +163,7 @@
   "anuppuccin-theme-settings@@anp-tooltip-toggle": false,
   "anuppuccin-theme-settings@@anp-h2-color-custom": "anp-h2-blue",
   "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-maroon",
-  "anuppuccin-theme-settings@@ctp-custom-blue@@light": "#4286F7",
+  "anuppuccin-theme-settings@@ctp-custom-blue@@light": "#215CBE",
   "anuppuccin-theme-settings@@ctp-custom-blue@@dark": "#4286F7",
   "anuppuccin-theme-settings@@ctp-custom-green@@light": "#648D6B",
   "anuppuccin-theme-settings@@ctp-custom-green@@dark": "#648D6B",
@@ -621,7 +621,7 @@
   "anuppuccin-theme-settings@@anp-table-thickness": 2,
   "Mo-Table@@tbMH-zdykd-jz": 620,
   "Blue-Topaz-Legacy@@loading-page-custom-gif-url": "url(https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403100052234.gif)",
-  "anuppuccin-custom-background@@anp-background-image-light": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
+  "anuppuccin-custom-background@@anp-background-image-light": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241544066.jpg\")",
   "Blue-Topaz-Legacy@@font-family-strong": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)",
   "code-tab@@bc@@dark": "#A7963817",
   "code-tab@@tabbbc@@dark": "#E8AF81",
@@ -629,5 +629,8 @@
   "code-tab@@tabop": 0.6,
   "code-tab@@tabbc@@dark": "#435B8C",
   "code-tab@@tabfc@@dark": "#7DA6F0",
-  "code-tab@@tabifc@@dark": "#E8AF81"
+  "code-tab@@tabifc@@dark": "#E8AF81",
+  "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-light": 0.25,
+  "anuppuccin-custom-background@@anp-custom-bg-brightness-light": 0.7,
+  "anuppuccin-custom-background@@anp-custom-bg-blur-light": 0
 }
