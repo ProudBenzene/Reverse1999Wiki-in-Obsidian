@@ -66,12 +66,13 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md"
               }
             }
           },
@@ -225,11 +226,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5f9e84794212822e",
+  "active": "015feec46b7e81d5",
   "lastOpenFiles": [
-    "000-箱的构成/试试.md",
-    "000-箱的构成/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/神秘术 钟型摆动1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
+    "000-箱的构成/主页.md",
+    "000-箱的构成/试试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/至终的仪式 一点小花招.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/至终的仪式.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/神秘术 侧风起飞2.png",
@@ -237,7 +239,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/神秘术 侧风起飞1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/神秘术 钟型摆动2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/神秘术 钟型摆动3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/神秘术 钟型摆动1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/一阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/二阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
@@ -265,7 +266,6 @@
     "300-以影像之/第五章 洞穴的囚徒.md",
     "300-以影像之/第二章 夜色温柔.md",
     "300-以影像之/第三章 故事一无所有.md",
-    "300-以影像之/第一章 在我们的时代里.md",
     "000-箱的构成/assets/主页.assets/[Minimal]Cards.css",
     "300-以影像之/assets/第六章 今夜星光灿烂.assets",
     "300-以影像之/assets/特别篇 星.assets",
