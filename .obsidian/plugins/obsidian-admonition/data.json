@@ -221,6 +221,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "udimo": {
+      "type": "udimo",
+      "color": "182, 157, 137",
+      "icon": {
+        "name": "horse-head",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Udimo",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": true,
