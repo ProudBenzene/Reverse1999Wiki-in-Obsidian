@@ -1,7 +1,7 @@
 ---
 Name: 伊索尔德
 exonym: Isolde
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 七重纱
 造像: 空杯之中自可发出空灵响声。
 银行彩色相片: 一扇朴素的门，一樽剔透的玻璃盏，一片素白的骨瓷盘。你最为适宜容纳的朋友。
-Udimo:
+Udimo: 夜莺类
 征集: 为艺术，为爱情｜Vissi d'arte, vissi d'amore
 定位标签:
   - 输出
@@ -45,10 +45,7 @@ banner_header: "{{filename}}"
 > - 展出/参展地点:: 原展出于奥匈帝国内莱塔尼亚下奥地利维也纳市区，后封藏于圣洛夫基金会。
 
 > [!udimo]- 尤提姆
-> 
-> 
-> <div style="height: 20px"></div>
-> 
+> ![尤提姆|inlL|150](assets/伊索尔德｜Isolde.assets/伊索尔德的尤提姆.png)夜莺类尤提姆。稀有。体型小巧，胸口处长有玫瑰，其边缘可见血液样物质。常出没于沙龙。具有极高的声音模仿能力，歌声婉转动听。罹患精神类疾病，社交性强，攻击性未知。目击记录中有攻击他人的记载。
 > 
 
 ## 传承：七重纱
@@ -103,7 +100,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 洞二衣着
+### 多重唱｜Polyphony
 
 ````ad-flex
 collapse: open
