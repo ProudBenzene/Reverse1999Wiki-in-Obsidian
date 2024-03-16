@@ -120,32 +120,32 @@ color:
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**17**
 > 方形的不锈钢酒壶。一同配备的背带让它变得更加方便携带。在我方评测时，里面仍然灌满了烈酒。是所有俄罗斯人都这样吗，还是只有她会这样？
 
-> [!culture]+ |
-> 
+> [!culture]+ 认证秘钥|Key Su-01ве
+> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2003%201.png)
 > ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
-> 
+> Su-01ве扫帚的秘钥，用以开动那些扫帚的重要道具。从设计上来看，并没有什么值得吹嘘的地方。
 ````
 
-### ｜
+### 几何技艺｜The Art of Destreza[^1]
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ |
+> [!culture]+ 科克长剑|"Koch" the Sword
 > 
-> 
-> 
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**2000**
+> 兼具挥砍与突刺，是为了最理性的剑术而存在。组合直线、曲线与点，以此讨伐所有不规整。“切割，乃是解决几何题的基础手段。”剑术的开创者如是说。
 
-> [!culture]+ |
+> [!culture]+ 芒星缀饰品|Hexagram Pendent
 > 
-> 
-> 
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**24**
+> 有着星星形状的腰间饰品，与圆和三角串联，是结课剑士的证明。几何的线条代表了在战斗技艺上的无限探索，有人说，这枚饰品能号令一小众军队。
 
-> [!culture]+ |
+> [!culture]+ 金叶桂冠|Golden Laurel Crown
 > 
-> 
-> 
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
+> 由黄金和银打造的头冠，每片叶子都精雕细琢，向众人展示着她的胜利与荣耀。不过其上的棘刺与重量，也时刻提醒佩戴者，这荣光背后的付出。
 ````
 
 ## 文化
@@ -164,3 +164,4 @@ tab: |[UTTU×红弩箭]
 
 ## 语音
 
+[^1]: 剑术——点、线、面的组合模型。
