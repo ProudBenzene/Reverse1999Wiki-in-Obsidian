@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "015feec46b7e81d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -126,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md"
+              }
             }
           },
           {
@@ -201,8 +218,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "015feec46b7e81d5",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/立绘 红弩箭 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "000-箱的构成/主页.md",
     "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
@@ -239,15 +259,12 @@
     "300-以影像之/第二章 夜色温柔.md",
     "300-以影像之/第三章 故事一无所有.md",
     "300-以影像之/第一章 在我们的时代里.md",
-    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation.md",
     "000-箱的构成/assets/主页.assets/[Minimal]Cards.css",
     "300-以影像之/assets/第六章 今夜星光灿烂.assets",
     "300-以影像之/assets/特别篇 星.assets",
-    "300-以影像之/测试.md",
     "300-以影像之/assets/测试.assets",
     "300-以影像之/assets/第五章 洞穴的囚徒.assets",
     "300-以影像之/assets/第四章 老虎的金黄.assets",
-    "300-以影像之/assets/第三章 故事一无所有.assets",
-    "300-以影像之/assets/第二章 夜色温柔.assets"
+    "300-以影像之/assets/第三章 故事一无所有.assets"
   ]
 }
