@@ -52,7 +52,7 @@
             }
           },
           {
-            "id": "9da7140137dafa7e",
+            "id": "e30adf149bd220e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,17 +62,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "42f01ce50eac6952",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -147,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md"
-              }
+              "state": {}
             }
           },
           {
@@ -209,26 +196,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
+      "cmdr:Projects": false,
+      "canvas:新建白板": false,
+      "templater-obsidian:Templater": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "cmdr:Style Settings 悬浮面板": false,
+      "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "cmdr:Projects": false,
-      "cmdr:Style Settings 悬浮面板": false,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian42-brat:BRAT": false
+      "float-search:Search Obsidian In Modal": true,
+      "obsidian-projects:Open projects": true,
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "42f01ce50eac6952",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
+    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/红弩箭的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/单品 红弩箭 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/单品 红弩箭 05.png",
@@ -240,7 +228,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/单品 红弩箭 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/单品 红弩箭 01.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "000-箱的构成/主页.md",
     "000-箱的构成/试试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets",
