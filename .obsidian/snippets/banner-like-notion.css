@@ -1,0 +1,25 @@
+/* @settings
+
+name: 我的自定义 Banner
+id: my-banner
+settings:
+    - 
+        id: banner-icon
+        title: 头图
+        description: 头图icon
+        type: class-select
+        allowEmpty: false
+        default: blue-topaz
+        options:
+            - blue-topaz
+            - AnuPpuccin
+*/
+
+.obsidian-banner-icon .icon-box{
+        margin-top: 3em;
+        margin-left: -0.3em;
+        
+}
+.markdown-rendered img:not(.emoji), .markdown-rendered video, .markdown-source-view img:not(.emoji), .markdown-source-view video{
+    border-radius: 0 !important;
+}
