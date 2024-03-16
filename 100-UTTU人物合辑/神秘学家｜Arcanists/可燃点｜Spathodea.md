@@ -1,7 +1,7 @@
 ---
 Name: 可燃点
 exonym: Spathodea
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 火焰花儿
 造像: 她会抓住那簇最明亮的火花，无论何时，无论何地。
 银行彩色相片: 点燃乌卢鲁圣火的少女，闪闪发光的运动新星，你最热情的朋友之一。
-Udimo:
+Udimo: 蜂鸟类
 征集: 火花雀儿｜The Chirps of Flame
 定位标签:
   - 输出
@@ -45,10 +45,7 @@ banner_header: "{{filename}}"
 > - 展出/参展地点:: 澳大利亚联邦维多利亚州墨尔本市
 
 > [!udimo]- 尤提姆
-> 
-> 
-> <div style="height: 20px"></div>
-> 
+> ![尤提姆|inlL|150](assets/可燃点｜Spathodea.assets/可燃点的尤提姆.png)蜂鸟类尤提姆。千见。体型小巧，行动灵活，情绪高涨时会从翅膀底层的绒毛下喷扇出细微火星。不擅长阅读与根据指令行动，睡眠时必须栖息于火焰花枝上。
 > 
 
 ## 传承：火花雀儿
