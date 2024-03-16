@@ -1,7 +1,7 @@
 ---
 Name: "6"
 exonym: Six
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 知识的崇奉
 造像: 这是完全数的职责，日复一日。命运照常运转，日复一日。
 银行彩色相片: 维持平衡的完全数，阿派朗学派的领导者，你最平静的朋友之一。
-Udimo:
+Udimo: 隼类
 征集: 真理的壁影｜Seeker in the Cave
 定位标签:
   - 辅助

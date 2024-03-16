@@ -1,7 +1,7 @@
 ---
 Name: 洁西卡
 exonym: Changeling
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 超自然者｜Beyond
@@ -13,7 +13,7 @@ cssclasses:
 传承: 换生灵
 造像: 她梦见遥远的绿茵与沉沉的湖水。如今，她睁开双眼，不再孤独。
 银行彩色相片: 喜爱故事的爱尔兰换生灵，天真孤独的被遗留者，你最有创造力的朋友之一。
-Udimo:
+Udimo: 白尾鹿类
 征集: 精灵仍在等待｜THE CHANGELING AWAITS
 定位标签:
   - 输出
@@ -46,10 +46,7 @@ banner_header: "{{filename}}"
 > - 展出/参展地点:: 原参展地为爱尔兰共和国，后被移往美利坚合众国东南部佛罗里达州
 
 > [!udimo]- 尤提姆
-> 
-> 
-> <div style="height: 20px"></div>
-> 
+> ![尤提姆|inlL|150](assets/洁西卡｜Changeling.assets/洁西卡的尤提姆.png)白尾鹿类尤提姆。携带换生灵血统。极为罕见。习惯栖息于白色菌毯上方。社会化程度低，具有强烈的社交意向，危险性评断为中高，请勿擅自与其缔结社交关系。
 > 
 
 ## 传承：换生灵
