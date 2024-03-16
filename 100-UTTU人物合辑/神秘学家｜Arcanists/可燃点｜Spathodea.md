@@ -102,7 +102,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 雀儿、火焰、花
+### 雀儿、火焰、花｜Sparrow, Hummingbird, Flower
 
 ````ad-flex
 collapse: open

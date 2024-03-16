@@ -52,12 +52,12 @@
             }
           },
           {
-            "id": "4aa11cc2f5855900",
+            "id": "470abcc5eb728e62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
                 "mode": "preview",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md"
               }
             }
           },
@@ -217,14 +217,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4aa11cc2f5855900",
+  "active": "470abcc5eb728e62",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets/梅兰妮的尤提姆.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets/梅兰妮的尤提姆.png",
     "300-以影像之/300-以影像之.md",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets/红弩箭的尤提姆.png",
@@ -241,12 +245,9 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets",
     "README.md",
     "macos.txt",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/剧情章节.md",
