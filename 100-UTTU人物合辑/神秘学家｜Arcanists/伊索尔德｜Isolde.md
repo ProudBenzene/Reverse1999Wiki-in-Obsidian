@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/伊索尔德｜Isolde.assets/立绘%20伊索尔德%2002.png)
 
-> [!info]+ 🌆背景
+> [!bkgd]+ 背景
 > - 展出/活跃时代:: 20 世纪初叶
 > - 诞生:: 11 月 23 日秋
 > - 参展时长:: 18 年

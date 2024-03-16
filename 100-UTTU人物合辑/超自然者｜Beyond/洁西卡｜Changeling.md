@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/洁西卡｜Changeling.assets/立绘%20洁西卡%2002.png)
 
-> [!info]+ 🌆背景
+> [!bkgd]+ 背景
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 4 月 11 日春
 > - 参展时长:: 27 年

@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/可燃点｜Spathodea.assets/立绘%20可燃点%2002.png)
 
-> [!info]+ 🌆背景
+> [!bkgd]+ 背景
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 1 月 10 日夏
 > - 参展时长:: 14 年

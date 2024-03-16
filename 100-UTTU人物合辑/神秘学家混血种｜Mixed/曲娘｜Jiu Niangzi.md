@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/曲娘｜Jiu%20Niangzi.assets/立绘%20曲娘%2002.png)
 
-> [!info]+ 🌆背景
+> [!bkgd]+ 背景
 > - 展出/活跃时代:: 不详
 > - 诞生:: 据称诞生于早春
 > - 参展时长:: 未知
