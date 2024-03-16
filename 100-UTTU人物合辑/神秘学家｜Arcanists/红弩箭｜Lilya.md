@@ -88,19 +88,10 @@ banner_header: "{{filename}}"
 > [!skill]- 一点小花招
 > ![一点小花招|100](assets/红弩箭｜Lilya.assets/至终的仪式%20一点小花招.png)
 > 
-> |                            技能                            | 文化 |
-> | :--------------------------------------------------------: | :--: |
-> | 单体攻击，造成700％现实创伤；暴击时，本次攻击吸血率提升15% |      |
+> |                            技能                            |               文化               |
+> | :--------------------------------------------------------: | :------------------------------: |
+> | 单体攻击，造成700％现实创伤；暴击时，本次攻击吸血率提升15% | 极限数值是手册上写的，与我无关。 |
 > 
-
-
-
-> [!note]- 
-> ![增益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
-> ![减益](000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
-> ![攻击](000-箱的构成/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗](000-箱的构成/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
-> ![吟诵](000-箱的构成/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造
 
@@ -112,36 +103,30 @@ banner_header: "{{filename}}"
 | Lv.4 |        【一点小花招】暴击时*吸血率*提升的效果变为**25%**        |
 | Lv.5 |          【一点小花招】造成的现实创伤提升至**850%**          |
 
-
 ## 单品
-
-![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
-### 洞二衣着
+### 巴伦支海女巫|The Barents Witch
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ |
-> 
-> 
-> 
+> [!culture]+ 驾驶员制服帽6式|Aviator's Cap
+> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2001%201.png)
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**994**
+> 一款苏维埃军方为飞行编队特配的头盔，使用严寒种温尔特的皮革与秘淬金属制成。因其特殊的工艺与材质而价格不菲。顶端熊耳的设计会使空气摩擦力增强，但她对此毫不在乎。
+
+> [!culture]+ 飞行军配不锈钢酒壶|Liquor Can
+> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2002%201.png)
+> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**17**
+> 方形的不锈钢酒壶。一同配备的背带让它变得更加方便携带。在我方评测时，里面仍然灌满了烈酒。是所有俄罗斯人都这样吗，还是只有她会这样？
 
 > [!culture]+ |
 > 
-> 
-> 
-
-> [!culture]+ |
-> 
-> 
+> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
 > 
 ````
 
-### 
+### ｜
 
 ````ad-flex
 collapse: open
