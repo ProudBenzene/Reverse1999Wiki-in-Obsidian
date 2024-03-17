@@ -44,7 +44,7 @@ banner_header: "{{filename}}"
 ![cover](assets/十四行诗｜Sonetto.assets/立绘%20十四行诗%2002.png)
 
 > [!bkgd]+ 背景
-> ![十四行诗ID卡|inlL|330](assets/十四行诗｜Sonetto.assets/十四行诗ID卡.png)
+> ![十四行诗ID卡|inlR|300](assets/十四行诗｜Sonetto.assets/十四行诗ID卡.png)
 > - 展出/活跃时代:: 20 世纪
 > - 诞生:: 1月10日冬
 > - 参展时长:: 16 年
