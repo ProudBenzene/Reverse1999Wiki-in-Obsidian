@@ -159,7 +159,7 @@ _但希望它真的在深夜中为安德烈鼓起了一些勇气。_
 
 **19■■年■月23日**
 
-<span style="font-family: 'Microsoft YaHei', sans-serif; font-size: 12px; font-weight: bold; font-style: italic;">我和马库斯懂得最多的马库斯我写对了吗？</span>
+<span style="font-family: '楷体-简', sans-serif; font-size: 22px; font-weight: normal; font-style: italic;">我和马库斯懂得最多的马库斯我写对了吗？</span>
 
 \* 一张被折叠起来的纸，纸的正面印的是孤儿院的募捐传单，背面是一幅笔触稚嫩的简笔画，线条简单，颜色单一，勉强能辨认出画上是两名牵着手的小女孩。
 
