@@ -145,7 +145,8 @@ tab: 笔记中的冢|Tomb in a Note
 
 **19■■年■月4日**
 
-_**宋给你！**_
+<span style="font-family: '黑体', sans-serif; font-size: 36px; font-weight: bold; font-style: italic;">宋给你！</span>
+
 
 \* 一片干枯的树叶被浆糊粘在了笔记本的中央，下面是几行清秀的字。
 
@@ -158,7 +159,7 @@ _但希望它真的在深夜中为安德烈鼓起了一些勇气。_
 
 **19■■年■月23日**
 
-_我和马库斯懂得最多的马库斯我写对了吗？_
+<span style="font-family: 'Microsoft YaHei', sans-serif; font-size: 12px; font-weight: bold; font-style: italic;">我和马库斯懂得最多的马库斯我写对了吗？</span>
 
 \* 一张被折叠起来的纸，纸的正面印的是孤儿院的募捐传单，背面是一幅笔触稚嫩的简笔画，线条简单，颜色单一，勉强能辨认出画上是两名牵着手的小女孩。
 

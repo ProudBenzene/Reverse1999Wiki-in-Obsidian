@@ -632,5 +632,6 @@
   "code-tab@@tabifc@@dark": "#E8AF81",
   "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-light": 0.25,
   "anuppuccin-custom-background@@anp-custom-bg-brightness-light": 0.7,
-  "anuppuccin-custom-background@@anp-custom-bg-blur-light": 0
+  "anuppuccin-custom-background@@anp-custom-bg-blur-light": 0,
+  "Blue-Topaz-Legacy@@font-family-em": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)"
 }
