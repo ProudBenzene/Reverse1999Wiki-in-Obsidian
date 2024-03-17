@@ -53,15 +53,6 @@
       "key": "-"
     }
   ],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
   "workspace:undo-close-pane": [],
   "editor:insert-table": [
     {
@@ -96,6 +87,15 @@
         "Shift"
       ],
       "key": "Enter"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
     }
   ]
 }

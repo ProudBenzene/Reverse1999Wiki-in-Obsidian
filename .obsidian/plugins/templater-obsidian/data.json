@@ -17,6 +17,10 @@
     {
       "folder": "100-UTTU人物合辑",
       "template": "000-箱的构成/templates/UTTU人物合辑.md"
+    },
+    {
+      "folder": "200-相从心生",
+      "template": "000-箱的构成/templates/心相.md"
     }
   ],
   "syntax_highlighting": true,
