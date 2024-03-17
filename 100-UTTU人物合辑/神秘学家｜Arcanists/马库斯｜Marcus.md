@@ -109,17 +109,20 @@ color:
 > [!culture]+ 木质雕刻书写盒|Wooden Writing Box
 > ![](assets/马库斯｜Marcus.assets/单品%20马库斯%2001.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**340**
-> 
+> ---
+> 经久耐用、容量大的二手木质书写盒，外壳可见明显磨损。内部配有平面书写板、储存隔间和一个带锁的秘密抽屉。她和它曾一起走过了许多路，熬过了许多夜晚。
 
 > [!culture]+ 长明提灯|Lens Lantern
 > ![](assets/马库斯｜Marcus.assets/单品%20马库斯%2002.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**60**
+> ---
 > 无需燃料的长明提灯，由神秘的幽灵朋友赠予，其上刻有灯塔配备物资的编号，应该是某位遇难者的遗物。  
 > 系在上面的灰白格丝巾恰到好处地平衡了它的古朴感。
 
 > [!culture]+ 时尚报童帽|Stylish Newsboy Cap
 > ![](assets/马库斯｜Marcus.assets/单品%20马库斯%2003.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**23**
+> ---
 > 前往弗兰南群岛时路过了伦敦，乡村来的少女贴在橱窗玻璃上思考了34分钟28秒后买下了这顶别着蓝色小鱼的漂亮帽子——事实证明，它与受访者的穿着十分相配。
 ````
 
