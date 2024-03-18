@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1710755344795,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1710755334894,
+          "path": "000-箱的构成/templates/UTTU人物合辑.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1710755385984,
+          "path": "000-箱的构成/templates/剧情章节.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1710755375307,
+          "path": "000-箱的构成/templates/心相.md"
+        }
+      ],
+      "title": "常用模板"
+    }
+  ]
+}
