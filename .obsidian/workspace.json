@@ -13,20 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "00db1f18d231beca",
+            "id": "263ee4d372069124",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -237,13 +238,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "00db1f18d231beca",
+  "active": "263ee4d372069124",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
+    "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
     "200-相从心生/角色心相/assets/漫长悄悄话｜Long Night Talk.assets/心相 漫长悄悄话.png",
+    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/assets/漫长悄悄话｜Long Night Talk.assets",
     "200-相从心生/角色心相/assets",
-    "000-箱的构成/主页.md",
-    "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
     "000-箱的构成/templates/相从心生.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/功能页集成.md",
@@ -267,12 +269,10 @@
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/assets/基金会工号.assets/十四行诗ID卡.jpg",
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/assets",
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/单品 马库斯 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/单品 马库斯 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/单品 马库斯 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/至终的仪式 向更远处回望.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/神秘术 于灯火中1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
