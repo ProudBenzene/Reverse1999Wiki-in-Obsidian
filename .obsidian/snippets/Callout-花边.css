@@ -67,10 +67,16 @@
 
 /*******隐藏题头******/
 
-.callout.callout[data-callout-metadata*="banner"] .callout-title {
+.callout.callout[data-callout="dictum"] .callout-title {
   background-color: transparent;
-  display: inline;  /*使callout的题头行内排布*/
+  display: none;  /*使callout的题头行内排布*/
   visibility: hidden; /*不显示callout的题头*/
+}
+
+.callout.callout[data-callout="dictum"] .callout-title-inner {
+  line-height:0;
+  font-size:0;
+  overflow:hidden;
 }
 
 .callout.callout[data-callout="dictum"] .callout-title img {
