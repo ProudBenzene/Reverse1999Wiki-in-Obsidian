@@ -9,13 +9,12 @@ cssclasses:
 心相: "[[心相 漫长悄悄话.png]]"
 ---
 ![cover](assets/漫长悄悄话｜Long%20Night%20Talk.assets/心相%20漫长悄悄话.png)
-## 印象
+## 印象｜IMPRESSION
 > [!note] 印象
 > ![心相|inlL|300](assets/漫长悄悄话｜Long%20Night%20Talk.assets/心相%20漫长悄悄话.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">在四方城外<br><span style="font-family: serif; font-size: 14px; color: #888888;">　　　　Outside the City</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">漫长悄悄话<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Long Night Talk</span></p>
 > 
-> 柳花、青山与月光。
-> 诗中的酒香与诗外的酒香。
-> 城中的天空与城外的天空。
-> 一字一句，一笔一划，所知晓的，尚懵懂的。
-> 看呀看，学呀学，世界正如浊酒，滋味饮酌方知。
+> 故事自哪一页起始？
+> 小石头，红土地，遥远的火。
+> 摸索的轮廓，夜空之中，扑火的人。
+> 手与手的相握，心与心碰触涌动在喉咙深处，我温暖的火。
