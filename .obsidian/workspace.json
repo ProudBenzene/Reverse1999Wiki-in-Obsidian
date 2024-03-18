@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "e59d0100d127f0b7",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -68,6 +60,24 @@
                 "file": "000-箱的构成/功能页集成.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e9826b66bd2018bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b95bca5aaa626f89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -129,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -234,14 +245,14 @@
   },
   "active": "5f9e84794212822e",
   "lastOpenFiles": [
-    "000-箱的构成/功能页集成.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/相从心生.md",
+    "000-箱的构成/功能页集成.md",
     "200-相从心生/角色心相/漫长悄悄话.md",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相",
     "200-相从心生/普通心相",
     "000-箱的构成/templates/剧情章节.md",
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/基本模板.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
