@@ -64,3 +64,23 @@
 .callout[data-callout="dictum"]:active {
  --border-width: 5px;
 }
+
+/*******隐藏题头******/
+
+.callout.callout[data-callout-metadata*="banner"] .callout-title {
+  background-color: transparent;
+  display: none;  /*使callout的题头行内排布*/
+  visibility: hidden; /*不显示callout的题头*/
+}
+
+.callout.callout[data-callout="dictum"] .callout-title img {
+  border-radius: 1em;
+  margin: auto;
+  display: block;
+}
+.callout.callout[data-callout="dictum"] .callout-fold {
+  display: none;
+}
+.callout.callout[data-callout="dictum"] .callout-icon {
+  display: none;
+}
