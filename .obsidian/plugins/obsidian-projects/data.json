@@ -459,6 +459,29 @@
           "id": "098ab57d-2106-4f2f-afd6-0be00ef7473a",
           "name": "表格",
           "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "心相",
+            "cardWidth": 150,
+            "includeFields": [
+              "exonym",
+              "星级",
+              "强化属性"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e946b0cc-4590-4f4c-82c4-2efcc38052f4",
+          "name": "画册",
+          "type": "gallery"
         }
       ],
       "id": "43ddfc09-1831-4a77-a516-9caa0008068f",
