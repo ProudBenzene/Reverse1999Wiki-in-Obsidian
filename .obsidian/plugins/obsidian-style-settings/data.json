@@ -633,5 +633,11 @@
   "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-light": 0.25,
   "anuppuccin-custom-background@@anp-custom-bg-brightness-light": 0.7,
   "anuppuccin-custom-background@@anp-custom-bg-blur-light": 0,
-  "Blue-Topaz-Legacy@@font-family-em": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)"
+  "Blue-Topaz-Legacy@@font-family-em": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)",
+  "floating-tabs@@floating-lonely": true,
+  "floating-tabs@@floating-sidebar-tabs": true,
+  "floating-tabs@@floating-dot": 6,
+  "floating-tabs@@floating-tab": 32,
+  "floating-tabs@@floating-icon": 18,
+  "floating-tabs@@floating-dot-color-active@@dark": "#F48023"
 }
