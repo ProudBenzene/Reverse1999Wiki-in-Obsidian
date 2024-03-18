@@ -247,6 +247,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "dictum": {
+      "type": "dictum",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "safari",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Dictum",
+      "injectColor": false,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": true,
