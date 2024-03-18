@@ -12,7 +12,7 @@
     position: absolute;
     width: 40%; /* 调整截断部分的长度 */
     height: 2px; /* 边框粗细 */
-    background-color: #FFF; /* 和背景颜色相同，用于创建截断效果 */
+    background-color: transparent; /* 和背景颜色相同，用于创建截断效果 */
 }
 
 /* 上边框截断效果 */
@@ -23,6 +23,6 @@
 
 /* 下边框截断效果 */
 .callout[data-callout="dictum"]:after {
-   bottom:-2px;
-   left : calc(50% - 20%);
+    bottom:-2px;
+    left : calc(50% - 20%);
 }
