@@ -635,7 +635,7 @@
   "anuppuccin-custom-background@@anp-custom-bg-blur-light": 0,
   "Blue-Topaz-Legacy@@font-family-em": "Bookerly,'Inter', 'Segoe UI', '杨任东竹石体', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)",
   "floating-tabs@@floating-lonely": true,
-  "floating-tabs@@floating-sidebar-tabs": true,
+  "floating-tabs@@floating-sidebar-tabs": false,
   "floating-tabs@@floating-dot": 6,
   "floating-tabs@@floating-tab": 32,
   "floating-tabs@@floating-icon": 18,
