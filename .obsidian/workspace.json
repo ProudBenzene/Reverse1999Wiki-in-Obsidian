@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -75,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,12 +237,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "263ee4d372069124",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
     "200-相从心生/角色心相/assets/漫长悄悄话｜Long Night Talk.assets/心相 漫长悄悄话.png",
-    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/assets/漫长悄悄话｜Long Night Talk.assets",
     "200-相从心生/角色心相/assets",
     "000-箱的构成/templates/相从心生.md",
@@ -254,7 +254,6 @@
     "200-相从心生/普通心相",
     "000-箱的构成/templates/剧情章节.md",
     "000-箱的构成/templates/基本模板.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "000-箱的构成/自动化创建角色档案.md",
     "400-箱外世界/暴雨时间线.md",

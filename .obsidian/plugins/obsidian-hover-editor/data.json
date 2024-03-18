@@ -8,7 +8,7 @@
   "snapToEdges": true,
   "initialHeight": "340px",
   "initialWidth": "400px",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "imageZoom": true,
   "hoverEmbeds": false
 }

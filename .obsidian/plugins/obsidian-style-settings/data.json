@@ -507,7 +507,7 @@
   "Blue-Topaz-Legacy@@loading-text-moving-style": false,
   "Blue-Topaz-Legacy@@loading-text-shinning-style": true,
   "Blue-Topaz-Legacy@@loading-text-color-changing-style": true,
-  "Blue-Topaz-Legacy@@style-options-for-hover-editor-plugin-metadata": true,
+  "Blue-Topaz-Legacy@@style-options-for-hover-editor-plugin-metadata": false,
   "blue-topaz-theme@@bt-bubble-not-file-tree": true,
   "blue-topaz-theme@@bt-bubble-layout-hide-borders": true,
   "blue-topaz-theme@@bt-bubble-buttons": true,
