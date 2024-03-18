@@ -1,0 +1,255 @@
+/* @settings
+
+name: Floating Sidebar Tabs
+id: floating-tabs
+settings:
+    - 
+        id: floating-sidebar-tabs
+        title: Enable
+        description: Enables floating sidebar tabs.
+        type: class-toggle
+        default: true
+    - 
+        id: floating-lonely
+        title: Hide lonely tabs
+        description: Hide the floating tab panel if it only contains 1 tab. No tab deserves to be lonely.
+        type: class-toggle
+        default: true
+    - 
+        id: floating-sidebar-sizes
+        title: Sizes
+        type: heading
+        level: 1
+        collapsed: true
+    - 
+        id: floating-icon
+        title: Icon
+        description: The dimensions of the icon inside each tab
+        type: variable-number-slider
+        default: 18
+        min: 12
+        max: 24
+        format: px
+        step: 1
+    - 
+        id: floating-dot
+        title: Dot
+        description: The dimensions of each tab in its small state
+        type: variable-number-slider
+        default: 6
+        min: 4
+        max: 12
+        format: px
+        step: 1
+    - 
+        id: floating-tab
+        title: Tab
+        description: The dimensions of each tab in its large state
+        type: variable-number-slider
+        default: 32
+        min: 24
+        max: 48
+        format: px
+        step: 1
+    - 
+        id: floating-sidebar-colors
+        title: Colors
+        type: heading
+        level: 1
+        collapsed: true
+    - 
+        id: floating-background
+        title: Background Color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#E3E3E3'
+        default-dark: '#363636'
+    - 
+        id: floating-dot-color
+        title: Dot Color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#BDBDBD'
+        default-dark: '#555555'
+    - 
+        id: floating-dot-color-active
+        title: Active Dot Color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#707070'
+        default-dark: '#999999'
+    - 
+        id: floating-icon-color
+        title: Icon Color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#707070'
+        default-dark: '#999999'
+    - 
+        id: floating-icon-color-active
+        title: Active Icon Color
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#222222'
+        default-dark: '#DADADA'
+
+*/
+
+.theme-light {
+    --floating-background: var(--color-base-25);
+    --floating-dot-color: var(--color-base-40);
+    --floating-dot-color-active: var(--color-base-60);
+    --floating-icon-color: var(--color-base-60);
+    --floating-icon-color-active: var(--color-base-100);
+}
+
+.theme-dark {
+    --floating-background: var(--color-base-30);
+    --floating-dot-color: var(--color-base-40);
+    --floating-dot-color-active: var(--color-base-60);
+    --floating-icon-color: var(--color-base-60);
+    --floating-icon-color-active: var(--color-base-100);
+}
+
+.floating-sidebar-tabs {
+    --floating-dot: var(--size-2-3);
+    --floating-icon: var(--icon-m);
+    --floating-radius: var(--radius-m);
+    --floating-tab: var(--size-4-8);
+    --floating-tab-radius: calc(var(--floating-radius) - var(--floating-padding-hover));
+    --floating-padding: var(--size-4-2) var(--size-4-3);
+    --floating-padding-hover: var(--size-2-1);
+}
+
+/* Move the relative positioning outward to the tab wrapper, which allows us to
+   position the tab header relative to the bottom. */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tabs {
+    position: relative;
+}
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-container {
+    position: static;
+}
+
+
+/* Tab container before hover */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-container-inner {
+    -webkit-app-region: no-drag;
+    background: var(--floating-background);
+    border-radius: var(--floating-radius);
+    bottom: var(--size-4-3);
+    box-shadow: none;
+    gap: var(--size-4-2);
+    height: auto;
+    left: 50%;
+    margin-inline: auto;
+    padding: var(--floating-padding) !important;
+    position: absolute;
+    transform-origin: center bottom;
+    transform: translateX(-50%);
+    transition: all var(--anim-duration-fast) var(--anim-motion-smooth);
+    width: auto;
+    z-index: var(--layer-popover);
+}
+
+/* Tab container after hover */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-container-inner:hover {
+    gap: var(--size-2-3);
+    padding: var(--floating-padding-hover) !important;
+}
+
+/* Dots */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header {
+    background: var(--floating-dot-color);
+    height: var(--floating-dot);
+    transition: all var(--anim-duration-fast) var(--anim-motion-smooth);
+    width: var(--floating-dot);
+}
+
+/* Active dots */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header.is-active {
+    background: var(--floating-dot-color-active);
+}
+
+/* Tabs before container is hovered */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-container-inner:hover .workspace-tab-header {
+    background: transparent;
+    height: var(--floating-tab);
+    opacity: 1;
+    width: var(--floating-tab);
+}
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header .workspace-tab-header-inner {
+    border-radius: var(--floating-tab-radius);
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: scale(0.25);
+    transition: all var(--anim-duration-fast) var(--anim-motion-smooth);
+    width: 0;
+}
+
+/* Tab after the container is hovered */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-container-inner:hover .workspace-tab-header-inner {
+    height: var(--floating-tab);
+    opacity: 1;
+    transform: scale(1);
+    width: var(--floating-tab);
+}
+
+/* Hovered tabs */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header .workspace-tab-header-inner:hover {
+    background: var(--background-modifier-hover);
+}
+
+/* Icon colors */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-container-inner .workspace-tab-header-inner-icon {
+    color: var(--floating-icon-color);
+}
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-container-inner .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+    color: var(--floating-icon-color-active)
+}
+
+/* Icon size */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tab-header-inner-icon .svg-icon {
+    --icon-size: var(--floating-icon);
+}
+
+/* In the now-empty sidebar tab header containers, remove the minimum height
+   and border. */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+    border-bottom-width: 0;
+    height: auto;
+}
+
+/* In the now-empty sidebar tab header containers, remove the spacer. */
+.floating-sidebar-tabs .workspace-split.mod-sidedock .workspace-tabs:not(.mod-top) .workspace-tab-header-spacer {
+    display: none;
+}
+
+/* Force the left split sidebar toggle to the left side of the now-empty
+   header row. */
+.floating-sidebar-tabs .mod-left-split .mod-top-left-space .workspace-tab-header-container {
+    flex-direction: row-reverse;
+}
+
+/* Force the right split sidebar toggle to the right side of the now-empty header row. */
+.floating-sidebar-tabs .mod-top-right-space .workspace-tab-header-container {
+    justify-content: flex-end;
+}
+
+/* Reposition the tooltip and hide the arrow if hovering floating tabs. */
+.floating-sidebar-tabs:has(.workspace-split.mod-sidedock .workspace-tab-header-container-inner:hover) .tooltip {
+    margin-top: calc(-1 * (var(--size-4-3) + var(--floating-tab) + var(--floating-padding-hover)));
+}
+.floating-sidebar-tabs:has(.workspace-split.mod-sidedock .workspace-tab-header-container-inner:hover) .tooltip-arrow {
+    display: none;
+}
+
+/* If the floating-lonely setting is enabled, hide the entire tab container if there is only one tab header. */
+.floating-sidebar-tabs.floating-lonely .workspace-tab-header-container-inner:has(.workspace-tab-header:only-child) {
+    display: none;
+}
