@@ -29,3 +29,7 @@ padding-right: 10% !important;
     max-height: 500px;
     overflow-y: scroll
 }
+
+.internal-embed.markdown-embed img[alt="cover"]  {
+    display: none;
+}
