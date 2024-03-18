@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "file": "000-箱的构成/templates/心相.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -105,7 +105,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/templates/心相.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/templates/心相.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/主页.md"
+                "file": "000-箱的构成/templates/心相.md"
               }
             }
           },
@@ -206,11 +207,13 @@
   },
   "active": "5f9e84794212822e",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相",
+    "200-相从心生/普通心相",
     "000-箱的构成/templates/剧情章节.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/基本模板.md",
     "000-箱的构成/templates/心相.md",
-    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "000-箱的构成/自动化创建角色档案.md",
@@ -245,12 +248,9 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红弩箭｜Lilya.assets",
     "macos.txt",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets",
-    "000-箱的构成/assets/主页.assets/[Minimal]Cards.css",
-    "300-以影像之/assets/第六章 今夜星光灿烂.assets",
-    "300-以影像之/assets/特别篇 星.assets"
+    "000-箱的构成/assets/主页.assets/[Minimal]Cards.css"
   ]
 }

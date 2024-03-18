@@ -429,6 +429,40 @@
       ],
       "id": "3b6e745d-c3f1-4477-9213-1e9b60975541",
       "name": "以影像之"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "200-相从心生",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "098ab57d-2106-4f2f-afd6-0be00ef7473a",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "43ddfc09-1831-4a77-a516-9caa0008068f",
+      "name": "相从心生"
     }
   ],
   "archives": [],
