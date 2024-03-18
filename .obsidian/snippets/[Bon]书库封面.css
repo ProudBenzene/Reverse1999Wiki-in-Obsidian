@@ -32,5 +32,5 @@ padding-right: 10% !important;
 
 .internal-embed.markdown-embed img[alt="cover"] {
     display: block !important;
-    object-fit: cover !important;
+    width: initial !important;
 }
