@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/templates/相从心生.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/templates/相从心生.md",
+                "file": "000-箱的构成/templates/UTTU人物合辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,10 +243,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "5f9e84794212822e",
+  "active": "b95bca5aaa626f89",
   "lastOpenFiles": [
-    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/templates/相从心生.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
     "000-箱的构成/功能页集成.md",
     "200-相从心生/角色心相/漫长悄悄话.md",
     "000-箱的构成/主页.md",
