@@ -30,6 +30,7 @@ padding-right: 10% !important;
     overflow-y: scroll
 }
 
-.internal-embed.markdown-embed img[alt="cover"]  {
-    display: none;
+.internal-embed.markdown-embed img[alt="cover"] {
+    display: block !important;
+    object-fit: cover !important;
 }
