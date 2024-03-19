@@ -1,4 +1,4 @@
-
+import { Editor } from 'obsidian';
 const { exec } = require('child_process');
 const path = require("path");
 
@@ -9,8 +9,6 @@ module.exports = async function autoImageCaptions(params) {
 };
 
 // 获取笔记的基本路径
-const filePath = app.workspace.getActiveFile().path;
-const fileFullPath = app.vault.adapter.getFullPath(filePath)
 const basePath = app.vault.adapter.getBasePath()
 // 全局变量
 let wikiName;
@@ -29,6 +27,7 @@ if (selection.includes("[[")) { // 如果选中的是Wiki链接本身
 console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
+	
     // Wiki: 获取库所有文件列表
     const wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
     console.log(wikiPath);
