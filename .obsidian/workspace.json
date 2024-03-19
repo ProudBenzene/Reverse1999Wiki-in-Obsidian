@@ -75,8 +75,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/功能页集成.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/功能页集成.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,10 +218,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "e616ef7c2cf50c73",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
-    "000-箱的构成/功能页集成.md",
     "000-箱的构成/插件/buttons.md",
+    "000-箱的构成/功能页集成.md",
     "000-箱的构成/插件",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/在四方城外｜Outside the City.md",
