@@ -1,4 +1,3 @@
-import editor from "obsidian";
 const { exec } = require('child_process');
 const path = require("path");
 
@@ -44,9 +43,8 @@ if (!selection.includes("(")) {
 	imageName = matches2[1];
 	// 用imageName替换[]中的内容
 	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
-	editorCallback: (editor: Editor) => {
-        const selection = editor.getSelection();
-        editor.replaceSelection(selection.toUpperCase());
+	editor.replaceSelection(n);
+
 }
 
 // 获取Wiki路径
