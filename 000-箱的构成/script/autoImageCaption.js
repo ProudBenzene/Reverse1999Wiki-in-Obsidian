@@ -57,7 +57,7 @@ console.log(selectionEmbed)
 	const matches2 = regex.exec(decodedSelection);
 	let imageName = '';
 	if (matches2 && matches2[1]) {
-		imageName = matches2[1];
+		imageName = matches2[1] + "|inlL|300";
 	}
 	console.log(imageName);
 	// 用imageName替换[]中的内容
