@@ -2,7 +2,8 @@
 Name: 可度量之心
 exonym: The Carat of A Heart
 星级: ✦✦✦✦✦✦
-tags: 
+tags:
+  - 限定
 cssclasses:
   - book
 强化属性: 暴击率
