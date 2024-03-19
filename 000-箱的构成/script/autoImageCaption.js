@@ -1,3 +1,4 @@
+import editor from "obsidian";
 const { exec } = require('child_process');
 const path = require("path");
 
@@ -8,7 +9,6 @@ const basePath = app.vault.adapter.getBasePath()
 // 全局变量
 let wikiName;
 let imageName;
-let imageAbName;
 // 获取选中的文本
 const files = app.vault.getFiles(); // 获取库中文件
 const selection = getSelection().toString(); // 将 selection 转换为字符串
@@ -44,6 +44,9 @@ if (!selection.includes("(")) {
 	imageName = matches2[1];
 	// 用imageName替换[]中的内容
 	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
+	editorCallback: (editor: Editor) => {
+        const selection = editor.getSelection();
+        editor.replaceSelection(selection.toUpperCase());
 }
 
 // 获取Wiki路径
