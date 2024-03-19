@@ -192,7 +192,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -214,11 +215,10 @@
         }
       },
       "active": "5f9e84794212822e",
-      "mtime": "2024-03-19T15:30:36+08:00",
+      "mtime": "2024-03-19T16:00:18+08:00",
       "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "000-箱的构成"
-        ]
+        "explorerFoldState": [],
+        "mode": null
       }
     }
   },
