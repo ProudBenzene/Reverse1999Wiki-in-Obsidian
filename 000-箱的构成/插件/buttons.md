@@ -1,10 +1,17 @@
 ```meta-bind-button
 style: default
-label: Meta Bind Help
-id: help-button
+label: 全新角色登场
+id: newCharacters
 action:
-  type: command
-  command: obsidian-meta-bind-plugin:mb-open-faq
+  type: open
+  link: obsidian-meta-bind-plugin:mb-open-faq
 ```
 
-`BUTTON[help-button]`
+```meta-bind-button
+style: default
+label: 添加心相
+id: newCharacters
+action:
+  type: open
+  link: obsidian-meta-bind-plugin:mb-open-faq
+```
