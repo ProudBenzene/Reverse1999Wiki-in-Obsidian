@@ -1,0 +1,36 @@
+---
+Name: 可度量之心
+exonym: The Carat of A Heart
+星级: ✦✦✦✦✦✦
+tags: 
+cssclasses:
+  - book
+强化属性: 
+心相: '[[心相 可度量之心.png]]'
+人物:
+---
+![cover](assets/可度量之心｜The%20Carat%20of%20A%20Heart.assets/心相%20可度量之心.png)
+
+> [!note] 印象｜Impression
+> ![心相 可度量之心|inlL|300](assets/可度量之心｜The%20Carat%20of%20A%20Heart.assets/心相%20可度量之心.png)
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">可度量之心<br><span style="font-family: serif; font-size: 14px; color: #888888;">　The Carat of A Heart</span></p>
+> 
+> 八，十二，菱形，水滴，闪闪发亮。  
+> 有等级的，有标准的，被赋予证书的，失格而摒弃的。  
+> 可我啊，可我也曾是一抔砂砾，  
+> 不可度量，无人问津。
+
+> [!info]- 详情｜Detail
+> 攻击:: 340
+> 生命:: 2600
+> 现实防御:: 160
+> 精神防御:: 160
+> 暴击率:: 16%
+
+| 等级 |                        增幅｜Amplify                         |
+| :--: | :----------------------------------------------------------: |
+| LV.1 | 回合结束时，若记忆者本回合获得至少3点激情，下次释放至终的仪式时仪式威力提升8%；若记忆者本回合获得至少4点激情，该效果提升至12% |
+| LV.2 | 回合结束时，若记忆者本回合获得至少3点激情，下次释放至终的仪式时仪式威力提升10%；若记忆者本回合获得至少4点激情，该效果提升至15% |
+| LV.3 |                                                              |
+| LV.4 |                                                              |
+| LV.5 |                                                              |

@@ -20,14 +20,14 @@
             }
           },
           {
-            "id": "1d80823bf974221e",
+            "id": "d60368da0e38f10c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
-                "mode": "source",
-                "source": true
+                "file": "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
+                "mode": "preview",
+                "source": false
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
+                "file": "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
+                "file": "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,14 +225,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "1d80823bf974221e",
+  "active": "d60368da0e38f10c",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往 1.png",
-    "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
-    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往.png",
-    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets",
+    "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets/心相 可度量之心.png",
+    "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
+    "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
+    "200-相从心生/角色心相/沉默与向往｜Silent and Adoring~.md",
+    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往 1.png",
+    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往.png",
+    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/心相 请保持平衡.png",
     "400-箱外世界/暴雨时间线.md",
@@ -258,7 +261,6 @@
     "000-箱的构成/插件/buttons.md",
     "000-箱的构成/插件",
     "200-相从心生/角色心相/assets/在四方城外｜Outside the City.assets/心相 在四方城外.png",
-    "200-相从心生/角色心相/assets/在四方城外｜Outside the City.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "200-相从心生/角色心相/assets/漫长悄悄话｜Long Night Talk.assets/心相 漫长悄悄话.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
@@ -267,11 +269,8 @@
     "200-相从心生/角色心相/漫长悄悄话.md",
     "000-箱的构成/templates/剧情章节.md",
     "000-箱的构成/templates/基本模板.md",
-    "000-箱的构成/assets/主页.assets/国际服开服.jpg",
     "000-箱的构成/自动化创建角色档案.md",
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/圣洛夫基金会｜St. PavlovFoundation.md",
-    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/基金会工号.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md"
+    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/基金会工号.md"
   ]
 }
