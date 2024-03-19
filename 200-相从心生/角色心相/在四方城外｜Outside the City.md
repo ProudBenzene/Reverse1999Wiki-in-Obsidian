@@ -9,6 +9,7 @@ cssclasses:
 强化属性: 暴击率
 心相: "[[心相 在四方城外.png]]"
 人物: "[[../../100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi|曲娘]]"
+实装版本: 1.6｜朔日手记
 ---
 ![cover](assets/在四方城外｜Outside%20the%20City.assets/心相%20在四方城外.png)
 
