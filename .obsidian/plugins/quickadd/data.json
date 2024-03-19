@@ -307,7 +307,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "插件/tp",
+  "templateFolderPath": "000-箱的构成/templates",
   "announceUpdates": true,
   "version": "1.8.1",
   "disableOnlineFeatures": false,
