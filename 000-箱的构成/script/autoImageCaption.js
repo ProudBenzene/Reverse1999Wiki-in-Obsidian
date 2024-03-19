@@ -1,4 +1,9 @@
-import { Editor } from 'obsidian';
+let editor;
+let activeLeaf = this.app.workspace.activeLeaf;
+if (activeLeaf.view.getViewType() === 'markdown') {
+	editor = activeLeaf.view.sourceMode.cmEditor;
+}
+// 现在你可以在这个作用域内使用editor对象了
 const { exec } = require('child_process');
 const path = require("path");
 
