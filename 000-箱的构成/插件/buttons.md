@@ -8,6 +8,6 @@ action QuickAdd: 添加角色
 ```button
 name ♥️添加心相
 type command
-action Buttons: Button Maker
+action QuickAdd: 添加心相
 ```
 ^button-newPsychube
