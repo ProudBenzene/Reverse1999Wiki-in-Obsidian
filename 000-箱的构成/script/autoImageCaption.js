@@ -14,8 +14,6 @@ module.exports = async function autoImageCaptions(params) {
 };
 
 // 获取笔记的基本路径
-const filePath = app.workspace.getActiveFile().path;
-const fileFullPath = app.vault.adapter.getFullPath(filePath)
 const basePath = app.vault.adapter.getBasePath()
 
 // 获取选中的文本
