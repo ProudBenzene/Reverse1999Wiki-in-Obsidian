@@ -33,17 +33,17 @@ if (!selection.includes("(")) {
     const selectionPath = matches1[1]; //去掉嵌入语法后的图片路径
     console.log(selectionPath);
     const regex2 = /\/([^\/]*)\./;
-	const decodedSelection = decodeURIComponent("assets/请保持平衡｜Balance,%20Please.assets/心相%20请保持平衡.png");
+	const decodedSelection = decodeURIComponent(selectionPath);
 	const matches2 = regex2.exec(decodedSelection);
 	let imageName = '';
-	if (matches2 && matches2[1]) {
-		imageName = matches2[1];
-	}
+	imageName = matches2[1];
+
     // 根据基于仓库的绝对路径得到图片的绝对路径
-    const Abregex = /\((.*?)\)/;
-    const Abmatches = Abregex.exec(selection);
-    const selectionAbPath = Abmatches[1]; //去掉嵌入语法后的图片路径
+    const Abregex1 = /\((.*?)\)/;
+    const Abmatches1 = Abregex1.exec(selection);
+    const selectionAbPath = Abmatches1[1]; //去掉嵌入语法后的图片路径
     console.log(selectionAbPath);
+	
     const decodedAbPath = decodeURIComponent(selectionAbPath);
     console.log(decodedAbPath);
     imageAbName = basePath + "/" + decodedAbPath; // 绝对路径
