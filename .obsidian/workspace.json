@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
+                "file": "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
                 "mode": "preview",
                 "source": false
               }
@@ -62,9 +62,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "c6d6cfed0f2b81de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -176,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,14 +237,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "d60368da0e38f10c",
+  "active": "c6d6cfed0f2b81de",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets/心相 可度量之心.png",
+    "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
     "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
+    "000-箱的构成/templates/相从心生.md",
+    "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets/心相 可度量之心.png",
     "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
-    "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
     "200-相从心生/角色心相/沉默与向往｜Silent and Adoring~.md",
     "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往 1.png",
     "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往.png",
@@ -253,7 +267,6 @@
     "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
     "200-相从心生/角色心相/在四方城外｜Outside the City.md",
     "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
-    "000-箱的构成/templates/相从心生.md",
     "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets/心相 敲响这窄门.png",
     "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/Balance, Please.png",
