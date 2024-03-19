@@ -15,9 +15,7 @@ module.exports = async function autoImageCaptions(params) {
 
 // 获取笔记的基本路径
 const basePath = app.vault.adapter.getBasePath()
-// 全局变量
-let wikiName;
-let imageName;
+
 // 获取选中的文本
 const files = app.vault.getFiles(); // 获取库中文件
 const selection = getSelection().toString(); // 将 selection 转换为字符串
@@ -38,7 +36,8 @@ if (!selection.includes("(")) {
 	const regex = /\/([^\/]*)\./;
 	const decodedSelection = decodeURIComponent(wikiPath);
 	const matches = regex.exec(decodedSelection);
-	wikiName = matches[1];
+	const wikiName = matches[1];
+	console.log(wikiName)
 	// 用wikiName替换[]中的内容
 	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
 	editor.replaceSelection(newSelection);
@@ -52,7 +51,8 @@ if (!selection.includes("(")) {
     const regex2 = /\/([^\/]*)\./;
 	const decodedSelection = decodeURIComponent(selectionPath);
 	const matches2 = regex2.exec(decodedSelection);
-	imageName = matches2[1];
+	const imageName = matches2[1];
+	console.log(imageName)
 	// 用imageName替换[]中的内容
 	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
 	editor.replaceSelection(newSelection);
