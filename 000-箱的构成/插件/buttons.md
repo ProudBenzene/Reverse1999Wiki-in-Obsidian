@@ -15,3 +15,7 @@ action:
   type: open
   link: obsidian-meta-bind-plugin:mb-open-faq
 ```
+
+`BUTTON[newRole]`
+
+`BUTTON[newPsychube]`
