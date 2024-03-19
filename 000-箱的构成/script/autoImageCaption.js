@@ -36,10 +36,8 @@ if (!selection.includes("(")) {
 	const regex = /\/([^\/]*)\./;
 	const decodedSelection = decodeURIComponent(wikiPath);
 	const matches = regex.exec(decodedSelection);
-	let imageName = '';
-	if (matches && matches2[1]) {
-		imageName = matches2[1];
-	}
+	const wikiName = matches[1];
+	console.log(wikiName)
 	// 用wikiName替换[]中的内容
 	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
 	editor.replaceSelection(newSelection);
@@ -50,14 +48,14 @@ if (!selection.includes("(")) {
     const matches1 = regex1.exec(selection);
     const selectionPath = matches1[1]; //去掉嵌入语法后的图片路径
     console.log(selectionPath);
-    const regex2 = /\/([^\/]*)\.$/;
+	const regex = /\/([^\/]*)\./;
 	const decodedSelection = decodeURIComponent(selectionPath);
-	const matches2 = regex2.exec(decodedSelection);
+	const matches2 = regex.exec(decodedSelection);
 	let imageName = '';
-	if (matches && matches2[1]) {
+	if (matches2 && matches2[1]) {
 		imageName = matches2[1];
 	}
-	console.log(imageName)
+	console.log(imageName);
 	// 用imageName替换[]中的内容
 	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
 	editor.replaceSelection(newSelection);
