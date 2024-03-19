@@ -33,7 +33,7 @@ if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
     const wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
     console.log(wikiPath);
-	const regex = /\/([^\/]*)\./;
+	const regex = /.*\/(.*?)\./;
 	const decodedSelection = decodeURIComponent(wikiPath);
 	const matches = regex.exec(decodedSelection);
 	const wikiName = matches[1];
@@ -48,7 +48,7 @@ if (!selection.includes("(")) {
     const matches1 = regex1.exec(selection);
     const selectionPath = matches1[1]; //去掉嵌入语法后的图片路径
     console.log(selectionPath);
-	const regex = /\/([^\/]*)\./;
+	const regex = /.*\/(.*?)\./;
 	const decodedSelection = decodeURIComponent(selectionPath);
 	const matches2 = regex.exec(decodedSelection);
 	let imageName = '';
