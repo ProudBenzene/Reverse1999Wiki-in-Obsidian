@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +211,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "5f9e84794212822e",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/此刻无新事｜Same Old Story.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "200-相从心生/角色心相/assets/此刻无新事｜Same Old Story.assets/心相 此刻无新事.png",
@@ -226,7 +226,6 @@
     "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets/心相 敲响这窄门.png",
     "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/心相 请保持平衡.png",
-    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/Balance, Please.png",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets",
     "000-箱的构成/插件/buttons.md",
