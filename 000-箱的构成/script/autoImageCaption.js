@@ -14,10 +14,13 @@ module.exports = async function autoImageCaptions(params) {
 };
 
 // 获取笔记的基本路径
+const filePath = app.workspace.getActiveFile().path;
+const fileFullPath = app.vault.adapter.getFullPath(filePath)
 const basePath = app.vault.adapter.getBasePath()
 
 // 获取选中的文本
 const editors = app.workspace.activeLeaf.view.sourceMode.cmEditor;
+const files = app.vault.getFiles(); // 获取库中文件
 const selection = editors.getSelection();
 console.log(selection);
 // 分情况讨论（选中的是链接本身还是链接中的文件名）
