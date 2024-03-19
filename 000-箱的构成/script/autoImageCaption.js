@@ -31,7 +31,7 @@ if (!selection.includes("(")) {
 	const matches = regex.exec(decodedSelection);
 	wikiName = matches[1];
 	// 用wikiName替换[]中的内容
-	
+
 } else {
     // 通过正则依次获取图片路径、图片名称并将其解码为文本
     const regex1 = /\((.*?)\)/;
@@ -61,7 +61,7 @@ function matchSelectionEmbed(text) {
 }
 
 let QuickAdd;
-module.exports = async function openSelectedImage(params) {
+module.exports = async function autoImageCaptions(params) {
 	QuickAdd = params;
 	new Notice(`题注自动生成完毕`, 5000);
 };
