@@ -36,8 +36,10 @@ if (!selection.includes("(")) {
 	const regex = /\/([^\/]*)\./;
 	const decodedSelection = decodeURIComponent(wikiPath);
 	const matches = regex.exec(decodedSelection);
-	const wikiName = matches[1];
-	console.log(wikiName)
+	let imageName = '';
+	if (matches && matches2[1]) {
+		imageName = matches2[1];
+	}
 	// 用wikiName替换[]中的内容
 	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
 	editor.replaceSelection(newSelection);
@@ -51,7 +53,10 @@ if (!selection.includes("(")) {
     const regex2 = /\/([^\/]*)\.$/;
 	const decodedSelection = decodeURIComponent(selectionPath);
 	const matches2 = regex2.exec(decodedSelection);
-	const imageName = matches2[1];
+	let imageName = '';
+	if (matches && matches2[1]) {
+		imageName = matches2[1];
+	}
 	console.log(imageName)
 	// 用imageName替换[]中的内容
 	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
