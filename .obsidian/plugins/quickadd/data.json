@@ -114,6 +114,13 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": true
+    },
+    {
+      "id": "2e6ec4a7-2119-429e-825c-81753143010c",
+      "name": "图片题注",
+      "type": "Macro",
+      "command": true,
+      "macroId": ""
     }
   ],
   "macros": [
@@ -300,6 +307,20 @@
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": true
           }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "图片题注",
+      "id": "b01a30e3-00b4-48a8-948e-d1df0afef3ef",
+      "commands": [
+        {
+          "name": "autoImageCaption",
+          "type": "UserScript",
+          "id": "9dc2d202-17e8-48a8-8f3b-d99ad65a7588",
+          "path": "000-箱的构成/script/autoImageCaption.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false

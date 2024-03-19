@@ -1,5 +1,12 @@
+
 const { exec } = require('child_process');
 const path = require("path");
+
+let QuickAdd;
+module.exports = async function autoImageCaptions(params) {
+	QuickAdd = params;
+	new Notice(`题注自动生成完毕`, 5000);
+};
 
 // 获取笔记的基本路径
 const filePath = app.workspace.getActiveFile().path;
@@ -30,6 +37,8 @@ if (!selection.includes("(")) {
 	const matches = regex.exec(decodedSelection);
 	wikiName = matches[1];
 	// 用wikiName替换[]中的内容
+	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
+	editor.replaceSelection(newSelection);
 
 } else {
     // 通过正则依次获取图片路径、图片名称并将其解码为文本
@@ -43,7 +52,7 @@ if (!selection.includes("(")) {
 	imageName = matches2[1];
 	// 用imageName替换[]中的内容
 	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
-	editor.replaceSelection(n);
+	editor.replaceSelection(newSelection);
 
 }
 
@@ -60,10 +69,4 @@ function matchSelectionEmbed(text) {
     const matches = text.match(regex);
     return matches ? matches[1] : "";
 }
-
-let QuickAdd;
-module.exports = async function autoImageCaptions(params) {
-	QuickAdd = params;
-	new Notice(`题注自动生成完毕`, 5000);
-};
 
