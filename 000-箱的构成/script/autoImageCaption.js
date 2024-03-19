@@ -24,8 +24,12 @@ console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
-    wikiName = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
-    console.log(wikiName);
+    const wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
+    console.log(wikiPath);
+	const regex = /\/([^\/]*)\./;
+	const decodedSelection = decodeURIComponent(wikiPath);
+	const matches = regex.exec(decodedSelection);
+	wikiName = matches[1];
 } else {
     // 根据相对路径得到图片的绝对路径
     const regex1 = /\((.*?)\)/;
@@ -35,18 +39,7 @@ if (!selection.includes("(")) {
     const regex2 = /\/([^\/]*)\./;
 	const decodedSelection = decodeURIComponent(selectionPath);
 	const matches2 = regex2.exec(decodedSelection);
-	let imageName = '';
 	imageName = matches2[1];
-
-    // 根据基于仓库的绝对路径得到图片的绝对路径
-    const Abregex1 = /\((.*?)\)/;
-    const Abmatches1 = Abregex1.exec(selection);
-    const selectionAbPath = Abmatches1[1]; //去掉嵌入语法后的图片路径
-    console.log(selectionAbPath);
-	
-    const decodedAbPath = decodeURIComponent(selectionAbPath);
-    console.log(decodedAbPath);
-    imageAbName = basePath + "/" + decodedAbPath; // 绝对路径
 }
 
 // 获取Wiki路径
@@ -66,7 +59,7 @@ function matchSelectionEmbed(text) {
 let QuickAdd;
 module.exports = async function openSelectedImage(params) {
 	QuickAdd = params;
-	new Notice(`打开图片编辑器成功`, 5000);
+	new Notice(`题注自动生成完毕`, 5000);
 };
 
 // 使用默认应用打开文件
