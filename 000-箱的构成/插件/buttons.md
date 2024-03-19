@@ -1,5 +1,5 @@
 ```meta-bind-button
-style: primary
+style: default
 label: Meta Bind Help
 id: help-button
 action:
@@ -7,4 +7,4 @@ action:
   command: obsidian-meta-bind-plugin:mb-open-faq
 ```
 
-`button[help-button]`
+`BUTTON[help-button]`
