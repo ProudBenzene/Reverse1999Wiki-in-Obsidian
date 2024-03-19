@@ -30,8 +30,10 @@ if (!selection.includes("(")) {
 	const decodedSelection = decodeURIComponent(wikiPath);
 	const matches = regex.exec(decodedSelection);
 	wikiName = matches[1];
+	// 用wikiName替换[]中的内容
+	
 } else {
-    // 根据相对路径得到图片的绝对路径
+    // 通过正则依次获取图片路径、图片名称并将其解码为文本
     const regex1 = /\((.*?)\)/;
     const matches1 = regex1.exec(selection);
     const selectionPath = matches1[1]; //去掉嵌入语法后的图片路径
@@ -40,6 +42,8 @@ if (!selection.includes("(")) {
 	const decodedSelection = decodeURIComponent(selectionPath);
 	const matches2 = regex2.exec(decodedSelection);
 	imageName = matches2[1];
+	// 用imageName替换[]中的内容
+	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
 }
 
 // 获取Wiki路径
