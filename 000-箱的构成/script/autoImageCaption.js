@@ -6,9 +6,9 @@ const filePath = app.workspace.getActiveFile().path;
 const fileFullPath = app.vault.adapter.getFullPath(filePath)
 const basePath = app.vault.adapter.getBasePath()
 // 全局变量
-let wikiPath;
-let imagePath;
-let imageAbPath;
+let wikiName;
+let imageName;
+let imageAbName;
 // 获取选中的文本
 const files = app.vault.getFiles(); // 获取库中文件
 const selection = getSelection().toString(); // 将 selection 转换为字符串
@@ -24,17 +24,21 @@ console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
-    wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
-    console.log(wikiPath);
+    wikiName = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
+    console.log(wikiName);
 } else {
     // 根据相对路径得到图片的绝对路径
-    const regex = /\((.*?)\)/;
-    const matches = regex.exec(selection);
-    const selectionPath = matches[1]; //去掉嵌入语法后的图片路径
+    const regex1 = /\((.*?)\)/;
+    const matches1 = regex1.exec(selection);
+    const selectionPath = matches1[1]; //去掉嵌入语法后的图片路径
     console.log(selectionPath);
-    const decodedPath = decodeURIComponent(selectionPath);
-    console.log(decodedPath);
-    imagePath = path.resolve(path.dirname(fileFullPath), decodedPath); // 根据相对路径得到绝对路径
+    const regex2 = /\/([^\/]*)\./;
+	const decodedSelection = decodeURIComponent("assets/请保持平衡｜Balance,%20Please.assets/心相%20请保持平衡.png");
+	const matches2 = regex2.exec(decodedSelection);
+	let imageName = '';
+	if (matches2 && matches2[1]) {
+		imageName = matches2[1];
+	}
     // 根据基于仓库的绝对路径得到图片的绝对路径
     const Abregex = /\((.*?)\)/;
     const Abmatches = Abregex.exec(selection);
@@ -42,7 +46,7 @@ if (!selection.includes("(")) {
     console.log(selectionAbPath);
     const decodedAbPath = decodeURIComponent(selectionAbPath);
     console.log(decodedAbPath);
-    imageAbPath = basePath + "/" + decodedAbPath; // 绝对路径
+    imageAbName = basePath + "/" + decodedAbPath; // 绝对路径
 }
 
 // 获取Wiki路径
@@ -68,11 +72,11 @@ module.exports = async function openSelectedImage(params) {
 // 使用默认应用打开文件
 //Windows
 /*
-exec(`start "" "${imagePath}"`, (error, stdout, stderr) => {
+exec(`start "" "${imageName}"`, (error, stdout, stderr) => {
     if (error || stderr) {
-        exec(`start "" "${imageAbPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按绝对路径处理
+        exec(`start "" "${imageAbName}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按绝对路径处理
             if (error || stderr) {
-                exec(`start "" "${wikiPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki链接处理
+                exec(`start "" "${wikiName}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki链接处理
                     if (error) {
                         console.error(`打开文件时出错: ${error.message}`);
                         return;
@@ -92,11 +96,11 @@ exec(`start "" "${imagePath}"`, (error, stdout, stderr) => {
 });
 */
 //macOS
-exec(`open  -a "Adobe Photoshop 2022" "${imagePath}"`, (error, stdout, stderr) => { // 尝试如果将选中图片路径按相对路径处理能否打开图片
+exec(`open  -a "Adobe Photoshop 2022" "${imageName}"`, (error, stdout, stderr) => { // 尝试如果将选中图片路径按相对路径处理能否打开图片
     if (error || stderr) {
-        exec(`open  -a "Adobe Photoshop 2022" "${imageAbPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按绝对路径处理
+        exec(`open  -a "Adobe Photoshop 2022" "${imageAbName}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按绝对路径处理
             if (error || stderr) {
-                exec(`open  -a "Adobe Photoshop 2022" "${wikiPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki链接处理
+                exec(`open  -a "Adobe Photoshop 2022" "${wikiName}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki链接处理
                     if (error) {
                         console.error(`打开文件时出错: ${error.message}`);
                         return;
