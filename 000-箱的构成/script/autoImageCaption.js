@@ -17,9 +17,9 @@ module.exports = async function autoImageCaptions(params) {
 const basePath = app.vault.adapter.getBasePath()
 
 // 获取选中的文本
-const files = app.vault.getFiles(); // 获取库中文件
-const selection = getSelection().toString(); // 将 selection 转换为字符串
-console.log(selection)
+const editors = app.workspace.activeLeaf.view.sourceMode.cmEditor;
+const selection = editors.getSelection();
+console.log(selection);
 // 分情况讨论（选中的是链接本身还是链接中的文件名）
 let selectionEmbed;
 if (selection.includes("[[")) { // 如果选中的是Wiki链接本身
@@ -48,7 +48,7 @@ if (!selection.includes("(")) {
     const matches1 = regex1.exec(selection);
     const selectionPath = matches1[1]; //去掉嵌入语法后的图片路径
     console.log(selectionPath);
-    const regex2 = /\/([^\/]*)\./;
+    const regex2 = /\/([^\/]*)\.$/;
 	const decodedSelection = decodeURIComponent(selectionPath);
 	const matches2 = regex2.exec(decodedSelection);
 	const imageName = matches2[1];
