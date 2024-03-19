@@ -446,21 +446,6 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {},
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "098ab57d-2106-4f2f-afd6-0be00ef7473a",
-          "name": "表格",
-          "type": "table"
-        },
-        {
           "config": {
             "coverField": "心相",
             "cardWidth": 150,
@@ -482,6 +467,21 @@
           "id": "e946b0cc-4590-4f4c-82c4-2efcc38052f4",
           "name": "画册",
           "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "098ab57d-2106-4f2f-afd6-0be00ef7473a",
+          "name": "表格",
+          "type": "table"
         }
       ],
       "id": "43ddfc09-1831-4a77-a516-9caa0008068f",
