@@ -13,20 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "b2988885373bf6d6",
+            "id": "508de923d2922f22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/templates/相从心生.md",
-                "mode": "source",
+                "file": "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/templates/相从心生.md",
+                "file": "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/templates/相从心生.md",
+                "file": "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,20 +225,22 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b2988885373bf6d6",
+  "active": "508de923d2922f22",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+    "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/心相 请保持平衡.png",
+    "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/在四方城外｜Outside the City.md",
+    "000-箱的构成/templates/相从心生.md",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/Balance, Please.png",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons.md",
-    "000-箱的构成/主页.md",
     "000-箱的构成/插件",
-    "200-相从心生/角色心相/在四方城外｜Outside the City.md",
     "200-相从心生/角色心相/assets/在四方城外｜Outside the City.assets/心相 在四方城外.png",
     "200-相从心生/角色心相/assets/在四方城外｜Outside the City.assets",
-    "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
-    "000-箱的构成/templates/相从心生.md",
     "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "200-相从心生/角色心相/assets/漫长悄悄话｜Long Night Talk.assets/心相 漫长悄悄话.png",
@@ -266,7 +268,6 @@
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/assets",
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/单品 马库斯 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/单品 马库斯 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",

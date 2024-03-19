@@ -8,6 +8,7 @@ cssclasses:
   - book
 强化属性: 术法威力
 心相: "[[心相 漫长悄悄话.png]]"
+人物: "[[../../100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea|可燃点]]"
 ---
 ![cover](assets/漫长悄悄话｜Long%20Night%20Talk.assets/心相%20漫长悄悄话.png)
 
