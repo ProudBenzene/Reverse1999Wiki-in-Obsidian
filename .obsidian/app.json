@@ -3,8 +3,8 @@
   "attachmentFolderPath": "./assets/请保持平衡｜Balance, Please.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
