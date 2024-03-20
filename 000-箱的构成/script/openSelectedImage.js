@@ -6,8 +6,9 @@ const filePath = app.workspace.getActiveFile().path;
 const fileFullPath = app.vault.adapter.getFullPath(filePath)
 const basePath = app.vault.adapter.getBasePath()
 // 全局变量
-let wikiPath;
 let wikiPath1;
+let wikiPath2;
+let wikiPath3;
 let imagePath;
 let imageAbPath;
 // 获取选中的文本
@@ -25,9 +26,16 @@ console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
-    wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
+    // 解码
+    const decodedPath = decodeURIComponent(selectionEmbed); 
+    // 尽可能简短的形式
+    wikiPath1 = basePath + '/' + getFilePath(files, decodedPath); // 匹配Wiki链接
     console.log(wikiPath1);
-
+    
+    wikiPath2 = path.resolve(path.dirname(fileFullPath), decodedPath); // 根据相对路径得到绝对路径
+    console.log(wikiPath2);
+    wikiPath3 = basePath + '/' + decodedPath; // 绝对路径
+    console.log(wikiPath3);
 } else {
     // 根据相对路径得到图片的绝对路径
     const regex = /\((.*?)\)/;
