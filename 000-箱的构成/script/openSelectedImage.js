@@ -9,6 +9,7 @@ const basePath = app.vault.adapter.getBasePath()
 let wikiPath1;
 let wikiPath2;
 let wikiPath3;
+let IMPath;
 let imagePath;
 let imageAbPath;
 // 获取选中的文本
@@ -31,12 +32,14 @@ if (!selection.includes("(")) {
     // 尽可能简短的形式
     wikiPath1 = basePath + '/' + getFilePath(files, decodedPath); // 匹配Wiki链接
     console.log(wikiPath1);
-    
+    // 基于库的相对路径
     wikiPath2 = path.resolve(path.dirname(fileFullPath), decodedPath); // 根据相对路径得到绝对路径
     console.log(wikiPath2);
+    // 基于库的绝对路径
     wikiPath3 = basePath + '/' + decodedPath; // 绝对路径
     console.log(wikiPath3);
 } else {
+    
     // 根据相对路径得到图片的绝对路径
     const regex = /\((.*?)\)/;
     const matches = regex.exec(selection);
