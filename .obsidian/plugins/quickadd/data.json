@@ -330,6 +330,20 @@
       "id": "ab4f50a2-7320-440a-91e9-a4e66f02fa9e",
       "commands": [],
       "runOnStartup": false
+    },
+    {
+      "name": "Open With",
+      "id": "063262c4-5ab9-4b17-a130-4bd25b080c9c",
+      "commands": [
+        {
+          "name": "openSelectedImage",
+          "type": "UserScript",
+          "id": "3cbab8b8-fb13-43be-acf2-22ffce92feaf",
+          "path": "000-箱的构成/script/openSelectedImage.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",

@@ -47,8 +47,12 @@
             "id": "9aadaddd821e22fa",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -163,6 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,6 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
