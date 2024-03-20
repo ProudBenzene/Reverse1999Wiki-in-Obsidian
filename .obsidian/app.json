@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/掌声如雷鸣｜Thunderous Applause.assets",
+  "attachmentFolderPath": "./assets/常用工具.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
@@ -12,5 +12,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "newFileLocation": "root"
+  "newFileLocation": "root",
+  "livePreview": false
 }

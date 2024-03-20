@@ -15,7 +15,7 @@
               "state": {
                 "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -39,7 +39,7 @@
               "state": {
                 "file": "000-箱的构成/自动化创建角色档案.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -129,7 +129,7 @@
               "state": {
                 "file": "000-箱的构成/常用工具.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -190,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,11 +213,15 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/夜色亵渎者｜Blasphemer of Night.md",
+    "200-相从心生/角色心相/夜色亵渎者｜Blasphemer of Night~.md",
+    "200-相从心生/角色心相/assets/夜色亵渎者｜Blasphemer of Night.assets/心相 夜色亵渎者.png",
+    "200-相从心生/角色心相/assets/夜色亵渎者｜Blasphemer of Night.assets",
+    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause~.md",
     "200-相从心生/角色心相/assets/掌声如雷鸣｜Thunderous Applause.assets/心相 掌声如雷鸣.png",
     "200-相从心生/角色心相/assets/掌声如雷鸣｜Thunderous Applause.assets",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/好奇心宝贝｜That Inquisitive Dear.md",
     "200-相从心生/角色心相/assets/好奇心宝贝｜That Inquisitive Dear.assets/心相 好奇心宝贝.png",
     "200-相从心生/角色心相/assets/好奇心宝贝｜That Inquisitive Dear.assets",
@@ -253,12 +256,8 @@
     "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
     "400-箱外世界/暴雨时间线.md",
     "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
-    "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
-    "200-相从心生/角色心相/此刻无新事｜Same Old Story.md",
     "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets/心相 可度量之心.png",
     "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets",
-    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往 1.png",
-    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets",
-    "000-箱的构成/script/autoImageCaption.js"
+    "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets"
   ]
 }
