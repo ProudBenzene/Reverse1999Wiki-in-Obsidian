@@ -41,12 +41,12 @@ if (!selection.includes("(")) {
 	}
 	console.log(wikiName)
 	// 用wikiName替换[]中的内容
-	if (!selection.includes("(")) {
-		const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
+	if (!selection.includes("]]")) {
+		const newSelection = `${selectionEmbed}|${wikiName}`;
 		console.log(newSelection);
 		editor.replaceSelection(newSelection);
 	} else {
-		const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
+		const newSelection = selectionEmbed.replace(/\]\]/, `|${wikiName}]]`);
 		console.log(newSelection);
 		editor.replaceSelection(newSelection);
 	}
