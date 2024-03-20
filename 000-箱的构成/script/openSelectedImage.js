@@ -42,6 +42,10 @@ if (!selection.includes("(")) {
     const regex1 = /\((.*?)\)/;
     const matches1 = regex1.exec(selection);
     const selectionPath1 = matches1[1]; //去掉嵌入语法后的图片路径
+    console.log(selectionPath1);
+    const decodedPath1 = decodeURIComponent(selectionPath1);
+    console.log(decodedPath1);
+    
     // 根据相对路径得到图片的绝对路径
     const regex = /\((.*?)\)/;
     const matches = regex.exec(selection);
