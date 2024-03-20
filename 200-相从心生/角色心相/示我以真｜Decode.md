@@ -5,8 +5,8 @@ exonym: Decode
 tags: 
 cssclasses:
   - book
-强化属性: 
-心相: '[[心相 示我以真.png]]'
+强化属性: 治疗率
+心相: "[[心相 示我以真.png]]"
 人物: 
 实装版本:
 ---
