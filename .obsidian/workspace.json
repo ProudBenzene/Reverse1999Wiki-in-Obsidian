@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "fb3f2f9a188e18f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,14 +226,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "1c2e2cd45100488c",
+  "active": "fb3f2f9a188e18f3",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/跳房子游戏｜Hopscotch~.md",
+    "200-相从心生/角色心相/assets/跳房子游戏｜Hopscotch.assets/心相 跳房子游戏.png",
+    "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
+    "200-相从心生/角色心相/assets/跳房子游戏｜Hopscotch.assets",
+    "000-箱的构成/常用工具.md",
     "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life~.md",
     "200-相从心生/角色心相/assets/第二次生命｜Her Second Life.assets/心相 第二次生命.png",
     "200-相从心生/角色心相/assets/第二次生命｜Her Second Life.assets",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/夜色亵渎者｜Blasphemer of Night.md",
     "200-相从心生/角色心相/夜色亵渎者｜Blasphemer of Night~.md",
     "200-相从心生/角色心相/assets/夜色亵渎者｜Blasphemer of Night.assets/心相 夜色亵渎者.png",
@@ -255,10 +273,6 @@
     "200-相从心生/角色心相/assets/乖孩子晚安｜Sleep Tight Good Kid.assets",
     "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
     "200-相从心生/角色心相/另一个故事｜Another Story.md",
-    "200-相从心生/角色心相/另一个故事｜Another Story~.md",
-    "200-相从心生/角色心相/assets/另一个故事｜Another Story.assets/心相 另一个故事.png",
-    "200-相从心生/角色心相/assets/另一个故事｜Another Story.assets",
-    "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
-    "200-相从心生/角色心相/assets/可度量之心｜The Carat of A Heart.assets"
+    "200-相从心生/角色心相/assets/另一个故事｜Another Story.assets"
   ]
 }
