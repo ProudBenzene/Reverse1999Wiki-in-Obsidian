@@ -2,7 +2,8 @@
 Name: 敲响这窄门
 exonym: Knock on the Door
 星级: ✦✦✦✦✦✦
-tags: 
+tags:
+  - 限定
 cssclasses:
   - book
 强化属性: 暴击率
