@@ -5,15 +5,15 @@ exonym: An Afternoon Nap
 tags: 
 cssclasses:
   - book
-强化属性: 
-心相: '[[心相 午后小憩.png]]'
-人物: 
-实装版本:
+强化属性: 暴击率
+心相: "[[心相 午后小憩.png]]"
+人物: "[[AppLe]]"
+实装版本: "1.0"
 ---
-![cover](assets/午后小憩｜An%20Afternoon%20Nap.assets/An%20Afternoon%20Nap.png)
+![cover](assets/午后小憩｜An%20Afternoon%20Nap.assets/心相%20午后小憩.png)
 
 > [!note] 印象｜Impression
-> ![An Afternoon Nap|inlL|300](assets/午后小憩｜An%20Afternoon%20Nap.assets/An%20Afternoon%20Nap.png)
+> ![An Afternoon Nap|inlL|300](assets/午后小憩｜An%20Afternoon%20Nap.assets/心相%20午后小憩.png)
 > <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">午后小憩<br><span style="font-family: serif; font-size: 14px; color: #888888;">　An Afternoon Nap</span></p>
 > 
 > 你的孩子从不是你的孩子，  
@@ -26,12 +26,12 @@ cssclasses:
 > 生命:: 2000
 > 现实防御:: 140
 > 精神防御:: 140
-> 暴击率:: 
+> 暴击率:: 13%
 
-|  等级  | 增幅｜Amplify |
-| :--: | :--------: |
-| LV.1 |            |
-| LV.2 |            |
-| LV.3 |            |
-| LV.4 |            |
-| LV.5 |            |
+| 等级 |                        增幅｜Amplify                         |
+| :--: | :----------------------------------------------------------: |
+| LV.1 | 记忆者单体攻击暴击后，自身*暴击创伤*提升**3%**，该效果最多叠加**4**层 |
+| LV.2 | 记忆者单体攻击暴击后，自身*暴击创伤*提升**3%**，该效果最多叠加**5**层 |
+| LV.3 | 记忆者单体攻击暴击后，自身*暴击创伤*提升**3%**，该效果最多叠加**6**层 |
+| LV.4 | 记忆者单体攻击暴击后，自身*暴击创伤*提升**3%**，该效果最多叠加**7**层 |
+| LV.5 | 记忆者单体攻击暴击后，自身*暴击创伤*提升**3%**，该效果最多叠加**8**层 |

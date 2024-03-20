@@ -62,6 +62,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "93c9ae42c9e0874e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/示我以真｜Decode.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -204,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,12 +238,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "08d06787861f88c5",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets/An Afternoon Nap.png",
-    "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets",
+    "200-相从心生/角色心相/示我以真｜Decode.md",
+    "200-相从心生/角色心相/assets/示我以真｜Decode.assets/心相 示我以真.png",
+    "200-相从心生/角色心相/assets/示我以真｜Decode.assets",
     "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
+    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap~.md",
+    "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets/心相 午后小憩.png",
+    "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets",
     "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
     "200-相从心生/角色心相/远大前程｜Her Bright Future~.md",
     "200-相从心生/角色心相/assets/远大前程｜Her Bright Future.assets/心相 远大前程.png",
@@ -265,13 +282,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty~.md",
-    "200-相从心生/角色心相/assets/必要的记录｜His Bounden Duty.assets/心相 必要的记录.png",
     "200-相从心生/角色心相/assets/必要的记录｜His Bounden Duty.assets",
     "300-以影像之/300-以影像之.md",
-    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
-    "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-    "200-相从心生/角色心相/assets/大娱乐至上｜Luxurious Leisure.assets/心相 大娱乐至上.png",
-    "200-相从心生/角色心相/assets/大娱乐至上｜Luxurious Leisure.assets"
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md"
   ]
 }
