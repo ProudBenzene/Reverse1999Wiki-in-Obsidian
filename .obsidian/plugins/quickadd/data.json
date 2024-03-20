@@ -324,6 +324,12 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "复制文件夹路径",
+      "id": "ab4f50a2-7320-440a-91e9-a4e66f02fa9e",
+      "commands": [],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
