@@ -4,7 +4,7 @@
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
@@ -12,5 +12,5 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "newFileLocation": "current"
+  "newFileLocation": "root"
 }

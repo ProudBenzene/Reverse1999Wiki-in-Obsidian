@@ -30,23 +30,23 @@ if (selection.includes("[[")) { // 如果选中的是Wiki链接本身
 }
 console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
-// if (!selection.includes("(")) {
-//     // Wiki: 获取库所有文件列表
-//     const wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
-//     console.log(wikiPath);
-// 	const regex = /\/([^\/]*?)\./g;
-// 	const decodedSelection = decodeURIComponent(wikiPath);
-// 	const matches = regex.exec(decodedSelection);
-// 	let wikiName = '';
-// 	if(matches) {
-// 		wikiName = matches[1];
-// 	}
-// 	console.log(wikiName)
-// 	// 用wikiName替换[]中的内容
-// 	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
-// 	editor.replaceSelection(newSelection);
+if (!selection.includes("(")) {
+    // Wiki: 获取库所有文件列表
+    const wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
+    console.log(wikiPath);
+	const regex = /\/([^\/]*?)\./g;
+	const decodedSelection = decodeURIComponent(wikiPath);
+	const matches = regex.exec(decodedSelection);
+	let wikiName = '';
+	if(matches) {
+		wikiName = matches[1];
+	}
+	console.log(wikiName)
+	// 用wikiName替换[]中的内容
+	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
+	editor.replaceSelection(newSelection);
 
-// } else {
+} else {
     // 通过正则依次获取图片路径、图片名称并将其解码为文本
     const regex1 = /\((.*?)\)/;
     const matches1 = regex1.exec(selection);
@@ -64,7 +64,7 @@ console.log(selectionEmbed)
 	const newSelection = selection.replace(/\[.*?\]/, `[${imageName}]`);
 	editor.replaceSelection(newSelection);
 
-// }
+}
 
 // 获取Wiki路径
 function getFilePath(files, link) {
