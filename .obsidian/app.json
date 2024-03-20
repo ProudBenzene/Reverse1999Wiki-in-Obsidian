@@ -3,7 +3,7 @@
   "attachmentFolderPath": "./assets/请保持平衡｜Balance, Please.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": false,
   "readableLineLength": false,
   "pdfExportSettings": {
