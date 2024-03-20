@@ -45,7 +45,7 @@ if (!selection.includes("(")) {
     console.log(selectionPath1);
     const decodedPath1 = decodeURIComponent(selectionPath1);
     console.log(decodedPath1);
-    
+    wikiPath1 = basePath + '/' + getFilePath(files, decodedPath); // 匹配Wiki链接
     // 根据相对路径得到图片的绝对路径
     const regex = /\((.*?)\)/;
     const matches = regex.exec(selection);
