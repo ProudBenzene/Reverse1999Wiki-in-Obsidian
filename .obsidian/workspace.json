@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "dc23adebf18f4219",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,15 +224,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "5f9e84794212822e",
+  "active": "dc23adebf18f4219",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/另一个故事｜Another Story.md",
     "200-相从心生/角色心相/另一个故事｜Another Story~.md",
     "200-相从心生/角色心相/assets/另一个故事｜Another Story.assets/心相 另一个故事.png",
     "200-相从心生/角色心相/assets/另一个故事｜Another Story.assets",
     "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
-    "000-箱的构成/常用工具.md",
     "400-箱外世界/暴雨时间线.md",
     "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
     "000-箱的构成/自动化创建角色档案.md",
@@ -258,7 +271,6 @@
     "000-箱的构成/插件/buttons.md",
     "200-相从心生/角色心相/assets/在四方城外｜Outside the City.assets/心相 在四方城外.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "000-箱的构成/templates/UTTU人物合辑.md"
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md"
   ]
 }
