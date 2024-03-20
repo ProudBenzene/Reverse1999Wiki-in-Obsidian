@@ -33,7 +33,8 @@ console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
-    const wikiPath = path.resolve(path.dirname(fileFullPath), decodedPath); // 根据相对路径得到绝对路径
+	const decodedSelectionEmbed = decodeURIComponent(selectionEmbed);
+    const wikiPath = path.resolve(path.dirname(fileFullPath), decodedSelectionEmbed); // 根据相对路径得到绝对路径
     console.log(wikiPath);
 	const regex = /\/([^\/]*?)\./g;
 	const decodedSelection = decodeURIComponent(wikiPath);
@@ -45,6 +46,7 @@ if (!selection.includes("(")) {
 	console.log(wikiName)
 	// 用wikiName替换[]中的内容
 	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
+	console.log(newSelection);
 	editor.replaceSelection(newSelection);
 
 } else {
