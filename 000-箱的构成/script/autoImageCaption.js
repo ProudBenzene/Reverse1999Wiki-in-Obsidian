@@ -33,17 +33,23 @@ console.log(selectionEmbed)
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
 	const regex = /\/([^\/]*?)\./g;
-	const decodedSelection = decodeURIComponent(wikiPath);
-	const matches = regex.exec(decodedSelection);
-	let wikiName = '';
-	if(matches) {
+	let decodedSelection = decodeURIComponent(selectionEmbed);
+	let matches;
+	let wikiName;
+	while ((matches = regex.exec(decodedSelection)) !== null) {
 		wikiName = matches[1];
 	}
 	console.log(wikiName)
 	// 用wikiName替换[]中的内容
-	const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
-	console.log(newSelection);
-	editor.replaceSelection(newSelection);
+	if (!selection.includes("(")) {
+		const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
+		console.log(newSelection);
+		editor.replaceSelection(newSelection);
+	} else {
+		const newSelection = selection.replace(/\]\]/, `|${wikiName}]]`);
+		console.log(newSelection);
+		editor.replaceSelection(newSelection);
+	}
 
 } else {
     // 通过正则依次获取图片路径、图片名称并将其解码为文本
