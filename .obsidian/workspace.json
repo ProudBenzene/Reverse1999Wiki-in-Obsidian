@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "dc23adebf18f4219",
+            "id": "8f435fa3c3010c2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+                "file": "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
                 "mode": "source",
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+                "file": "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+                "file": "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,11 +225,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "dc23adebf18f4219",
+  "active": "8f435fa3c3010c2a",
   "lastOpenFiles": [
     "000-箱的构成/常用工具.md",
-    "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+    "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
     "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
+    "200-相从心生/角色心相/assets/乖孩子晚安｜Sleep Tight Good Kid.assets/心相 乖孩子晚安.png",
+    "200-相从心生/角色心相/assets/乖孩子晚安｜Sleep Tight Good Kid.assets",
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
     "200-相从心生/角色心相/另一个故事｜Another Story.md",
     "200-相从心生/角色心相/另一个故事｜Another Story~.md",
     "200-相从心生/角色心相/assets/另一个故事｜Another Story.assets/心相 另一个故事.png",
@@ -267,10 +272,6 @@
     "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets/心相 敲响这窄门.png",
     "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/Balance, Please.png",
-    "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets",
-    "000-箱的构成/插件/buttons.md",
-    "200-相从心生/角色心相/assets/在四方城外｜Outside the City.assets/心相 在四方城外.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md"
+    "000-箱的构成/插件/buttons.md"
   ]
 }
