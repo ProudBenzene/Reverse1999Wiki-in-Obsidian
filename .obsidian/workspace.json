@@ -52,25 +52,13 @@
             }
           },
           {
-            "id": "08d06787861f88c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "93c9ae42c9e0874e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/示我以真｜Decode.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -188,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
+                "file": "200-相从心生/角色心相/示我以真｜Decode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
+                "file": "200-相从心生/角色心相/示我以真｜Decode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,13 +226,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "93c9ae42c9e0874e",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
     "200-相从心生/角色心相/示我以真｜Decode.md",
     "200-相从心生/角色心相/assets/示我以真｜Decode.assets/心相 示我以真.png",
     "200-相从心生/角色心相/assets/示我以真｜Decode.assets",
     "000-箱的构成/常用工具.md",
-    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
     "200-相从心生/角色心相/午后小憩｜An Afternoon Nap~.md",
     "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets/心相 午后小憩.png",
     "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets",
