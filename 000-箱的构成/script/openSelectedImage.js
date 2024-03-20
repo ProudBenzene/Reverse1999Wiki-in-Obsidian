@@ -39,7 +39,9 @@ if (!selection.includes("(")) {
     wikiPath3 = basePath + '/' + decodedPath; // 绝对路径
     console.log(wikiPath3);
 } else {
-    
+    const regex1 = /\((.*?)\)/;
+    const matches1 = regex1.exec(selection);
+    const selectionPath1 = matches1[1]; //去掉嵌入语法后的图片路径
     // 根据相对路径得到图片的绝对路径
     const regex = /\((.*?)\)/;
     const matches = regex.exec(selection);
