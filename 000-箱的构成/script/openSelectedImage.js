@@ -34,7 +34,7 @@ if (!selection.includes("(")) {
     console.log(selectionPath);
     const decodedPath = decodeURIComponent(selectionPath);
     console.log(decodedPath);
-    imagePath = path.resolve(path.dirname(fileFullPath), decodedPath); // 根据相对路径得到绝对路径
+    imagePath = p/ath.resolve(path.dirname(fileFullPath), decodedPath); // 根据相对路径得到绝对路径
     // 根据基于仓库的绝对路径得到图片的绝对路径
     const Abregex = /\((.*?)\)/;
     const Abmatches = Abregex.exec(selection);

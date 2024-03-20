@@ -14,7 +14,8 @@ module.exports = async function autoImageCaptions(params) {
 };
 
 // 获取笔记的基本路径
-const basePath = app.vault.adapter.getBasePath()
+const filePath = app.workspace.getActiveFile().path;
+const fileFullPath = app.vault.adapter.getFullPath(filePath)
 
 // 获取选中的文本
 const editors = app.workspace.activeLeaf.view.sourceMode.cmEditor;
@@ -32,7 +33,7 @@ console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
-    const wikiPath = getFilePath(files, selectionEmbed); // 匹配Wiki链接
+    const wikiPath = path.resolve(path.dirname(fileFullPath), decodedPath); // 根据相对路径得到绝对路径
     console.log(wikiPath);
 	const regex = /\/([^\/]*?)\./g;
 	const decodedSelection = decodeURIComponent(wikiPath);
