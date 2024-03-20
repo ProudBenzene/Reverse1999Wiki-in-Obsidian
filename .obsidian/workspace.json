@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,12 +215,12 @@
   },
   "active": "5f9e84794212822e",
   "lastOpenFiles": [
-    "000-箱的构成/自动化创建角色档案.md",
-    "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/心相 请保持平衡.png",
+    "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+    "000-箱的构成/主页.md",
+    "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
-    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty~.md",
     "200-相从心生/角色心相/assets/必要的记录｜His Bounden Duty.assets/心相 必要的记录.png",
