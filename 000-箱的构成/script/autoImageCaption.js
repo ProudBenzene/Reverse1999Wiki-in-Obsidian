@@ -32,7 +32,7 @@ console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
-    const wikiPath = basePath + '/' + getFilePath(files, selectionEmbed); // 匹配Wiki链接
+    const wikiPath = getFilePath(files, selectionEmbed); // 匹配Wiki链接
     console.log(wikiPath);
 	const regex = /\/([^\/]*?)\./g;
 	const decodedSelection = decodeURIComponent(wikiPath);
