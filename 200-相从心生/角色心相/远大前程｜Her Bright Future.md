@@ -5,10 +5,10 @@ exonym: Her Bright Future
 tags: 
 cssclasses:
   - book
-强化属性: 
-心相: '[[心相 远大前程.png]]'
-人物: 
-实装版本:
+强化属性: 创伤加成
+心相: "[[心相 远大前程.png]]"
+人物: "[[../../100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto|十四行诗]]"
+实装版本: "1.0"
 ---
 ![cover](assets/远大前程｜Her%20Bright%20Future.assets/心相%20远大前程.png)
 

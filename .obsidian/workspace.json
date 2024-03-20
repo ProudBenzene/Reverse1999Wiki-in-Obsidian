@@ -52,13 +52,13 @@
             }
           },
           {
-            "id": "25e256519d5ad8bc",
+            "id": "08d06787861f88c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
-                "mode": "preview",
+                "file": "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
+                "file": "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
+                "file": "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,13 +225,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "25e256519d5ad8bc",
+  "active": "08d06787861f88c5",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets/An Afternoon Nap.png",
+    "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets",
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
+    "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
     "200-相从心生/角色心相/远大前程｜Her Bright Future~.md",
     "200-相从心生/角色心相/assets/远大前程｜Her Bright Future.assets/心相 远大前程.png",
     "200-相从心生/角色心相/assets/远大前程｜Her Bright Future.assets",
-    "000-箱的构成/常用工具.md",
-    "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
     "200-相从心生/角色心相/美丽新世界｜Brave New World.md",
     "200-相从心生/角色心相/assets/美丽新世界｜Brave New World.assets/心相 美丽新世界.png",
     "200-相从心生/角色心相/assets/美丽新世界｜Brave New World.assets",
@@ -269,10 +271,7 @@
     "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
     "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-    "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure~.md",
     "200-相从心生/角色心相/assets/大娱乐至上｜Luxurious Leisure.assets/心相 大娱乐至上.png",
-    "200-相从心生/角色心相/assets/大娱乐至上｜Luxurious Leisure.assets",
-    "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
-    "200-相从心生/角色心相/assets/在仙境之外｜Beyond Wonderland.assets"
+    "200-相从心生/角色心相/assets/大娱乐至上｜Luxurious Leisure.assets"
   ]
 }
