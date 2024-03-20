@@ -1,7 +1,7 @@
 ---
 Name: 牙仙
 exonym: Tooth Fairy
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists

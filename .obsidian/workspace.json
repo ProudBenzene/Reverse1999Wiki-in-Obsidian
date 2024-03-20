@@ -26,8 +26,8 @@
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -175,7 +176,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,10 +224,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "8f435fa3c3010c2a",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构成/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
+    "200-相从心生/角色心相/assets/在仙境之外｜Beyond Wonderland.assets/心相 在仙境之外.png",
+    "200-相从心生/角色心相/assets/在仙境之外｜Beyond Wonderland.assets",
+    "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
     "200-相从心生/角色心相/assets/乖孩子晚安｜Sleep Tight Good Kid.assets/心相 乖孩子晚安.png",
@@ -269,9 +271,6 @@
     "000-箱的构成/script/未命名文件夹",
     "200-相从心生/角色心相/assets/此刻无新事｜Same Old Story.assets/心相 此刻无新事.png",
     "200-相从心生/角色心相/assets/此刻无新事｜Same Old Story.assets",
-    "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets/心相 敲响这窄门.png",
-    "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets",
-    "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/Balance, Please.png",
-    "000-箱的构成/插件/buttons.md"
+    "200-相从心生/角色心相/assets/敲响这窄门｜Knock on the Door.assets/心相 敲响这窄门.png"
   ]
 }
