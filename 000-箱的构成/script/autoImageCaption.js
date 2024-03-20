@@ -19,7 +19,6 @@ const fileFullPath = app.vault.adapter.getFullPath(filePath)
 
 // 获取选中的文本
 const editors = app.workspace.activeLeaf.view.sourceMode.cmEditor;
-const files = app.vault.getFiles(); // 获取库中文件
 const selection = editors.getSelection();
 console.log(selection);
 // 分情况讨论（选中的是链接本身还是链接中的文件名）
@@ -33,9 +32,6 @@ console.log(selectionEmbed)
 // 分情况讨论（wiki链接或是标准markdown链接）
 if (!selection.includes("(")) {
     // Wiki: 获取库所有文件列表
-	const decodedSelectionEmbed = decodeURIComponent(selectionEmbed);
-    const wikiPath = path.resolve(path.dirname(fileFullPath), decodedSelectionEmbed); // 根据相对路径得到绝对路径
-    console.log(wikiPath);
 	const regex = /\/([^\/]*?)\./g;
 	const decodedSelection = decodeURIComponent(wikiPath);
 	const matches = regex.exec(decodedSelection);
