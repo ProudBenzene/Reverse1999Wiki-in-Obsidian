@@ -469,7 +469,21 @@
           "type": "gallery"
         },
         {
-          "config": {},
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "强化属性",
+              "人物",
+              "实装版本",
+              "心相",
+              "Name",
+              "星级",
+              "cssclasses",
+              "exonym",
+              "tags"
+            ]
+          },
           "filter": {
             "conditions": []
           },

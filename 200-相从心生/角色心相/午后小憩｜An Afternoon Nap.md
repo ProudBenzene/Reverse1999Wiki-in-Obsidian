@@ -1,8 +1,8 @@
 ---
 Name: 午后小憩
 exonym: An Afternoon Nap
-星级: ✦✦✦✦✦✦
-tags: 
+星级: ✦✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 暴击率

@@ -2,12 +2,12 @@
 Name: 夜色亵渎者
 exonym: Blasphemer of Night
 星级: ✦✦✦✦✦✦
-tags: 
+tags:
 cssclasses:
   - book
 强化属性: 术法威力
 心相: "[[心相 夜色亵渎者.png]]"
-人物: "[[../../100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider|斯奈德]]"
+人物: "[[斯奈德]]"
 实装版本: "1.0"
 ---
 ![cover](assets/夜色亵渎者｜Blasphemer%20of%20Night.assets/心相%20夜色亵渎者.png)

@@ -1,8 +1,8 @@
 ---
 Name: 示我以真
 exonym: Decode
-星级: ✦✦✦✦✦✦
-tags: 
+星级: ✦✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 治疗率

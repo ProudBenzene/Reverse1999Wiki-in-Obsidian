@@ -1,8 +1,8 @@
 ---
 Name: 无束无拘
 exonym: The Footloose
-星级: ✦✦✦✦✦✦
-tags: 
+星级: ✦✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 仪式威力
