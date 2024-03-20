@@ -48,7 +48,7 @@
     "explorer": true,
     "path": false
   },
-  "settingsTab": "file_explorer",
+  "settingsTab": "general",
   "supportedFileTypes": [
     "md",
     "canvas"
