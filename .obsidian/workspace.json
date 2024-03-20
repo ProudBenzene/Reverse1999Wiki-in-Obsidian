@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+                "file": "000-箱的构成/主页.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           },
@@ -39,32 +39,20 @@
               "state": {
                 "file": "000-箱的构成/自动化创建角色档案.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "1c2e2cd45100488c",
+            "id": "9aadaddd821e22fa",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "93c9ae42c9e0874e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/示我以真｜Decode.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -141,7 +128,7 @@
               "state": {
                 "file": "000-箱的构成/常用工具.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -176,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/示我以真｜Decode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +179,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/示我以真｜Decode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,14 +211,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "93c9ae42c9e0874e",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/无束无拘｜The Footloose.md",
+    "200-相从心生/角色心相/无束无拘｜The Footloose~.md",
+    "200-相从心生/角色心相/assets/无束无拘｜The Footloose.assets/心相 无束无拘.png",
+    "200-相从心生/角色心相/assets/无束无拘｜The Footloose.assets",
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/示我以真｜Decode.md",
     "200-相从心生/角色心相/示我以真｜Decode~.md",
     "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
-    "200-相从心生/角色心相/示我以真｜Decode.md",
     "200-相从心生/角色心相/assets/示我以真｜Decode.assets/心相 示我以真.png",
     "200-相从心生/角色心相/assets/示我以真｜Decode.assets",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/午后小憩｜An Afternoon Nap~.md",
     "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets/心相 午后小憩.png",
     "200-相从心生/角色心相/assets/午后小憩｜An Afternoon Nap.assets",
@@ -265,14 +255,9 @@
     "200-相从心生/角色心相/assets/好奇心宝贝｜That Inquisitive Dear.assets/心相 好奇心宝贝.png",
     "200-相从心生/角色心相/assets/好奇心宝贝｜That Inquisitive Dear.assets",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
-    "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/心相 请保持平衡.png",
-    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
-    "200-相从心生/角色心相/必要的记录｜His Bounden Duty~.md",
-    "200-相从心生/角色心相/assets/必要的记录｜His Bounden Duty.assets",
-    "300-以影像之/300-以影像之.md",
-    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md"
+    "200-相从心生/角色心相/必要的记录｜His Bounden Duty~.md"
   ]
 }
