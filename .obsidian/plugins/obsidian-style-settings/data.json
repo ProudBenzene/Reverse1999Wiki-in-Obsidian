@@ -640,5 +640,6 @@
   "floating-tabs@@floating-tab": 32,
   "floating-tabs@@floating-icon": 18,
   "floating-tabs@@floating-dot-color-active@@dark": "#EFB68E",
-  "floating-tabs@@floating-icon-color-active@@dark": "#FD8D3E"
+  "floating-tabs@@floating-icon-color-active@@dark": "#FD8D3E",
+  "Blue-Topaz-Legacy@@style-options-for-buttons-plugin": true
 }
