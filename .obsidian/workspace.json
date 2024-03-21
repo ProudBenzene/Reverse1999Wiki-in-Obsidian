@@ -50,21 +50,8 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "484ec2ccbe0b6fbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/心驰神往｜Yearning Desire.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -176,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/心驰神往｜Yearning Desire.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/心驰神往｜Yearning Desire.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,16 +212,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "484ec2ccbe0b6fbb",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
     "200-相从心生/角色心相/心驰神往｜Yearning Desire.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/心驰神往｜Yearning Desire~.md",
     "200-相从心生/角色心相/assets/心驰神往｜Yearning Desire.assets/心相 心驰神往.png",
     "200-相从心生/角色心相/assets/心驰神往｜Yearning Desire.assets",
     "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/明日亦然｜Tomorrow Also.md",
     "200-相从心生/角色心相/assets/明日亦然｜Tomorrow Also.assets/心相 明日亦然.png",
     "200-相从心生/角色心相/assets/明日亦然｜Tomorrow Also.assets",
-    "000-箱的构成/主页.md",
     "400-箱外世界/暴雨时间线.md",
     "200-相从心生/角色心相/无束无拘｜The Footloose.md",
     "200-相从心生/角色心相/无束无拘｜The Footloose~.md",
