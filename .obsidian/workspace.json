@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "file": "000-箱的构成/插件/buttons.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +173,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283
+    "width": 283,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,12 +205,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构成/插件/buttons.md",
     "000-箱的构成/主页.md",
     "000-箱的构成/常用工具.md",
     "button.md",
-    "000-箱的构成/插件/buttons.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/马库斯的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
