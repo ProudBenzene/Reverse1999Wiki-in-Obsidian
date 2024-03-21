@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33a92daf32e8b8c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9eabcdea84af2c1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e5c122558f603f52",
             "type": "leaf",
             "state": {
@@ -40,6 +16,42 @@
                 "file": "000-箱的构成/主页.md",
                 "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "38453c7cf9ec3ddc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4cc97b9a598538b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bdb701713589eda5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -176,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
+                "file": "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
+                "file": "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,15 +238,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9eabcdea84af2c1d",
+  "active": "4cc97b9a598538b7",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets/心相 茶歇时间.png",
-    "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
-    "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets",
+    "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets/心相 勇往直前.png",
+    "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets",
     "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
+    "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
+    "200-相从心生/角色心相/茶歇时间｜Tea Break~.md",
     "400-箱外世界/暴雨时间线.md",
-    "200-相从心生/角色心相/崭新一页｜A New Leaf.md",
     "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets/心相 茶歇时间.png",
+    "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets",
+    "200-相从心生/角色心相/崭新一页｜A New Leaf.md",
     "200-相从心生/角色心相/assets/崭新一页｜A New Leaf.assets/心相 崭新一页.png",
     "200-相从心生/角色心相/assets/崭新一页｜A New Leaf.assets",
     "200-相从心生/角色心相/齿轮之外｜Beyond the Gears.md",
@@ -267,11 +283,8 @@
     "200-相从心生/角色心相/无束无拘｜The Footloose.md",
     "200-相从心生/角色心相/无束无拘｜The Footloose~.md",
     "200-相从心生/角色心相/assets/无束无拘｜The Footloose.assets/心相 无束无拘.png",
-    "200-相从心生/角色心相/assets/无束无拘｜The Footloose.assets",
     "200-相从心生/角色心相/示我以真｜Decode.md",
     "200-相从心生/角色心相/示我以真｜Decode~.md",
-    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md",
-    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap~.md",
-    "200-相从心生/角色心相/远大前程｜Her Bright Future.md"
+    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md"
   ]
 }
