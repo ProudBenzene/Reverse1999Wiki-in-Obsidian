@@ -1,67 +1,132 @@
-/* From www.lingdaima.com */
-button.rainbow {
- --border-radius: 15px;
- --border-width: 2px;
- appearance: none;
- position: relative;
- padding: 1em 2em;
- border: 0;
- background-color: #212121;
- /*font-family: "Roboto", Arial, "Segoe UI", sans-serif;*/
- font-size: 18px;
- font-weight: bold;
- color: #fff;
- z-index: 2;
+button.btn-1,
+button.btn-1 *,
+button.btn-1 :after,
+button.btn-1 :before,
+button.btn-1:after,
+button.btn-1:before {
+  border: 0 solid;
+  box-sizing: border-box;
 }
 
-button.rainbow::after {
- --m-i: linear-gradient(#000, #000);
- --m-o: content-box, padding-box;
- content: "";
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- raidius: 15px;
- height: 100%;
- padding: var(--border-width);
- border-radius: var(--border-radius);
- background-image: conic-gradient(
-    #488cfb,
-    #29dbbc,
-    #ddf505,
-    #ff9f0e,
-    #e440bb,
-    #655adc,
-    #488cfb
+button.btn-1 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+button.btn-1:disabled {
+  cursor: default;
+}
+
+button.btn-1:-moz-focusring {
+  outline: auto;
+}
+
+button.btn-1 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+button.btn-1 [hidden] {
+  display: none;
+}
+
+button.btn-1 {
+  border-width: 1px;
+  padding: 1rem 2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button.btn-1:before {
+  --progress: 100%;
+  background: #fff;
+  -webkit-clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
   );
- -webkit-mask-image: var(--m-i), var(--m-i);
- mask-image: var(--m-i), var(--m-i);
- -webkit-mask-origin: var(--m-o);
- mask-origin: var(--m-o);
- -webkit-mask-clip: var(--m-o);
- mask-composite: exclude;
- -webkit-mask-composite: destination-out;
- filter: hue-rotate(0);
- animation: rotate-hue linear 500ms infinite;
- animation-play-state: paused;
+  clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
 }
 
-button.rainbow:hover::after {
- animation-play-state: running;
+button.btn-1:hover:before {
+  --progress: 0%;
 }
 
-@keyframes rotate-hue {
- to {
-  filter: hue-rotate(1turn);
- }
+button.btn-1 .text-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
 }
 
-button.rainbow,
-button.rainbow::after {
- box-sizing: border-box;
+button.btn-1 .text {
+  display: block;
+  font-weight: 900;
+  mix-blend-mode: difference;
+  position: relative;
 }
 
-button.rainbow:active {
- --border-width: 5px;
+button.btn-1:hover .text {
+  -webkit-animation: move-up-alternate 0.3s ease forwards;
+  animation: move-up-alternate 0.3s ease forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
