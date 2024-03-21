@@ -8,23 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f9e84794212822e",
+            "id": "ffef7e0cb0f0517e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "file": "button.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d3cb7ddc165b845d",
+            "id": "370e50268d7683a1",
             "type": "leaf",
             "state": {
-              "type": "style-settings",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/插件/buttons.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -171,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/插件/buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/插件/buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,8 +225,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "d3cb7ddc165b845d",
+  "active": "370e50268d7683a1",
   "lastOpenFiles": [
+    "button.md",
+    "000-箱的构成/插件/buttons.md",
+    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/马库斯的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
@@ -233,7 +240,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/神秘术 于灯火中1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/一阶神秘术.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
-    "000-箱的构成/主页.md",
     "200-相从心生/普通心相/笑语欢声｜Laughter and Laughter.md",
     "300-以影像之/300-以影像之.md",
     "200-相从心生/普通心相/assets",
@@ -265,7 +271,6 @@
     "200-相从心生/角色心相/昨日往事.md",
     "200-相从心生/角色心相/昨日往事~.md",
     "200-相从心生/角色心相/assets/昨日往事.assets",
-    "000-箱的构成/templates/相从心生.md",
     "200-相从心生/普通心相/assets/笑语欢声｜Laughter and Laughter.assets",
     "200-相从心生/角色心相/assets/食足餮满｜A Satisfied Eater.assets"
   ]
