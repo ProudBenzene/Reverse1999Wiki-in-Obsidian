@@ -11,10 +11,10 @@ cssclasses:
 轶事: 帕米埃·直到长夜下旬
 实装版本: 1.5｜复兴！乌卢鲁运动会
 ---
-![cover](assets/步此苦旅｜Take%20the%20Hard%20Journey.assets/心相%20｜.png)
+![cover](assets/步此苦旅｜Take%20the%20Hard%20Journey.assets/心相%20步此苦旅.png)
 
 > [!note] 印象｜Impression
-> ![心相 ｜|inlL|300](assets/步此苦旅｜Take%20the%20Hard%20Journey.assets/心相%20｜.png)
+> ![心相 步此苦旅|inlL|300](assets/步此苦旅｜Take%20the%20Hard%20Journey.assets/心相%20步此苦旅.png)
 > <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">步此苦旅<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Take the Hard Journey</span></p>
 > 
 > 锋锐更甚剑刃，炽烈更甚火焰。  
