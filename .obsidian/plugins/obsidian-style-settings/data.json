@@ -248,7 +248,7 @@
   "yaozhuwa@css@@blank-line-tweak": true,
   "anuppuccin-theme-settings@@anp-hide-borders": true,
   "anuppuccin-theme-settings@@anp-print": true,
-  "anuppuccin-theme-settings@@anp-status-bar-select": "anp-floating-status-bar",
+  "anuppuccin-theme-settings@@anp-status-bar-select": "anp-fixed-status-bar",
   "anuppuccin-theme-settings@@anp-kanban-hide-card-border": true,
   "anuppuccin-theme-settings@@anp-kanban-hide-card-menus": false,
   "anuppuccin-theme-settings@@anp-kanban-hide-archive-btn": true,
