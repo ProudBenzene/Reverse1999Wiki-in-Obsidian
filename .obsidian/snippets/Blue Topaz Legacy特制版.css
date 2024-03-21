@@ -2973,6 +2973,10 @@ body.admonition-bg-color-same .callout-title {
     > [!note|indent]
     > [!note indent]
    */
+.callout.callout-content {
+  text-indent: 0 !important;
+}
+
 .callout.callout:is([data-callout-metadata*="indent"],
 [data-callout*=indent]) .callout-content p br {
   content: '';
@@ -2982,16 +2986,16 @@ body.admonition-bg-color-same .callout-title {
 }
 .callout.callout:is([data-callout-metadata*="indent"],
 [data-callout*=indent]) .callout-content>p {
-  text-indent: 2em;
+  text-indent: 2em !important;
 }
 .callout.callout:is([data-callout-metadata*="indent"],
 [data-callout*=indent]) .callout-content blockquote>p {
-  text-indent: 2em;
+  text-indent: 2em  !important;
 }
 
 .callout.callout:is([data-callout-metadata*="indent"],
 [data-callout*=indent]) .callout-content p br::after {
-  content: '\A\9\9';
+  content: '\A\9\9' !important;
 }
 
 /* ===段落两端对齐============ */
