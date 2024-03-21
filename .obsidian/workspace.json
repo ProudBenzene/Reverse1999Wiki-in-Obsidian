@@ -32,6 +32,14 @@
             }
           },
           {
+            "id": "0721781c96a904b7",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -54,17 +62,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9aadaddd821e22fa",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,11 +205,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "0721781c96a904b7",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/插件/buttons.md",
     "000-箱的构成/主页.md",
-    "000-箱的构成/常用工具.md",
     "button.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/马库斯的尤提姆.png",
@@ -230,7 +231,6 @@
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅.png",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅｜Take the Hard Journey.png",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅｜.png",
-    "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
     "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets/心相 荒唐余生.png",
     "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets",

@@ -436,7 +436,9 @@
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [],
+      "templates": [
+        "000-箱的构成/templates/相从心生.md"
+      ],
       "excludedNotes": [],
       "isDefault": true,
       "dataSource": {
