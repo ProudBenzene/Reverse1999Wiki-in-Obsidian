@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
-                "mode": "source",
+                "file": "000-箱的构成/主页.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,12 +223,12 @@
   },
   "active": "5f9e84794212822e",
   "lastOpenFiles": [
+    "000-箱的构成/插件/buttons.md",
+    "000-箱的构成/常用工具.md",
+    "README.md",
     "button.md",
     "000-箱的构成/主页.md",
     "400-箱外世界/暴雨时间线.md",
-    "README.md",
-    "000-箱的构成/插件/buttons.md",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons-special.md",
     "000-箱的构成/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",

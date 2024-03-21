@@ -23,7 +23,7 @@ class grad_button g_purple hover
 ^button-role
 
 ```button
-name 🫀 心相
+name ♥️ 心相
 type command
 action Projects: Show 相从心生
 class grad_button g_green hover
@@ -54,11 +54,3 @@ action https://obsidian.md
 class circle_btn blank
 ```
 ^button-Obsidian
-
-```button
-name readme
-type link
-action obsidian://advanced-uri?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%88%90%E5%83%8F&filepath=README.md&commandid=obsidian-hover-editor%253Aconvert-active-pane-to-popover
-```
-^button-sadasd
-
