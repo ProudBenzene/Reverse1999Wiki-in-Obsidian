@@ -30,6 +30,7 @@ class grad_button g_green
 ```
 ^button-psychube
 
+
 ```button
 name 📖 故事
 type command

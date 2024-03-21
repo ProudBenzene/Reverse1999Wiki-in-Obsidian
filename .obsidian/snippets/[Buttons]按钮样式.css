@@ -4,14 +4,16 @@ button.btn-1 {
   background: transparent;
   position: relative;
   padding: 0px 18px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  height: 38px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid rgb(40, 144, 241);
   border-radius: 30px;
+  margin: 5px;
   outline: none;
   overflow: hidden;
   color: rgb(40, 144, 241);

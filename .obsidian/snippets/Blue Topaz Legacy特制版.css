@@ -8098,6 +8098,14 @@ body.style-options-for-buttons-plugin button.grad_button {
 }
 
 body.style-options-for-buttons-plugin button.grad_button:hover {
+  color: #fff;
+  border: 1px solid rgb(40, 144, 241);
+}
+
+body.style-options-for-buttons-plugin button.grad_button:hover::before {
+  box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
+}
+body.style-options-for-buttons-plugin button.grad_button:hover {
   animation: swing_image 0.8s linear 0s 1 normal;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
 }
