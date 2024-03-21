@@ -20,7 +20,7 @@ type command
 action Projects: Show UTTU人物合揖
 class grad_button g_purple
 ```
-^button-character
+^button-role
 
 ```button
 name 🫀 心相
@@ -29,3 +29,11 @@ action Projects: Show 相从心生
 class grad_button g_green
 ```
 ^button-psychube
+
+```button
+name 故事
+type command
+action Projects: Show 以影像之
+class grad_button g_blue
+```
+^button-story
