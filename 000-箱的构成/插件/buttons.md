@@ -26,7 +26,7 @@ class grad_button g_purple
 name 🫀 心相
 type command
 action Projects: Show 相从心生
-class grad_button g_green
+class grad_button g_green hover
 ```
 ^button-psychube
 

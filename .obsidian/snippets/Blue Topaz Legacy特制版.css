@@ -8098,14 +8098,6 @@ body.style-options-for-buttons-plugin button.grad_button {
 }
 
 body.style-options-for-buttons-plugin button.grad_button:hover {
-  color: #fff;
-  border: 1px solid rgb(40, 144, 241);
-}
-
-body.style-options-for-buttons-plugin button.grad_button:hover::before {
-  box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
-}
-body.style-options-for-buttons-plugin button.grad_button:hover {
   animation: swing_image 0.8s linear 0s 1 normal;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
 }
@@ -8154,6 +8146,64 @@ body.style-options-for-buttons-plugin.theme-dark  button.g_blue {
 body.style-options-for-buttons-plugin.theme-dark .grad_button:hover {
   color: var(--text-accent)
 }
+
+/******悬浮变色******/
+/*****空心悬浮渐变按钮*****/
+
+body.style-options-for-buttons-plugin.theme-dark  button.hover {
+  background: transparent;
+  position: relative;
+  padding: 0px 18px;
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid rgb(40, 144, 241);
+  border-radius: 30px;
+  margin: 5px;
+  outline: none;
+  overflow: hidden;
+  color: rgb(40, 144, 241);
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+body.style-options-for-buttons-plugin.theme-dark  button.hover span {
+  margin: 10px;
+}
+
+body.style-options-for-buttons-plugin.theme-dark  button.hover::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+body.style-options-for-buttons-plugin.theme-dark  button.hover:hover {
+  color: #fff;
+  /*border: 1px solid rgb(40, 144, 241);*/
+}
+
+body.style-options-for-buttons-plugin.theme-dark  button.hover:hover::before {
+  box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
+}
+ 
+/******悬浮变色******/
+
 
 button.tiny {
   border-radius: 10px;
