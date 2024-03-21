@@ -453,12 +453,12 @@
         {
           "config": {
             "coverField": "心相",
-            "cardWidth": 150,
             "includeFields": [
               "exonym",
               "星级",
               "强化属性"
-            ]
+            ],
+            "cardWidth": 150
           },
           "filter": {
             "conditions": []
