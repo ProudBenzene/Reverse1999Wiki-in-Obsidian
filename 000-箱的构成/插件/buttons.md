@@ -31,7 +31,7 @@ class grad_button g_green
 ^button-psychube
 
 ```button
-name 故事
+name 📖 故事
 type command
 action Projects: Show 以影像之
 class grad_button g_blue
