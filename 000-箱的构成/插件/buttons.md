@@ -38,3 +38,11 @@ action Projects: Show 以影像之
 class grad_button g_blue hover
 ```
 ^button-story
+
+```button
+name PKMer
+type link
+action https://pkmer.cn/page/1/
+class circle_btn blank
+```
+^button-pkmer
