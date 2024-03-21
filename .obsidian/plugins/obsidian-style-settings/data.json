@@ -68,7 +68,7 @@
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-peach",
   "anuppuccin-theme-settings@@anp-colorful-frame": false,
   "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1,
-  "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-vanilla-normal",
+  "anuppuccin-theme-settings@@anp-callout-select": "none",
   "anuppuccin-theme-settings@@anp-callout-color-toggle": true,
   "anuppuccin-theme-settings@@anp-callout-fold-position": "1",
   "anuppuccin-theme-settings@@anp-toggle-preview": true,

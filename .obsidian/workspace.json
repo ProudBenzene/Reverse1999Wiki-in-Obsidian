@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "289e7ba49aec94ae",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,10 +221,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "341c31e2faacb50f",
+  "active": "289e7ba49aec94ae",
   "lastOpenFiles": [
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
+    "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons.md",
     "000-箱的构成/自动化创建角色档案.md",
     "button.md",
