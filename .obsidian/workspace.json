@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "99d54c65a65df67c",
+            "id": "0b66a6921dec979a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/角色心相/笑语欢声｜Laughter and Laughter.md",
-                "mode": "preview",
+                "file": "200-相从心生/角色心相/昨日往事.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/笑语欢声｜Laughter and Laughter.md",
+                "file": "200-相从心生/角色心相/昨日往事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/笑语欢声｜Laughter and Laughter.md",
+                "file": "200-相从心生/角色心相/昨日往事.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,13 +226,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "99d54c65a65df67c",
+  "active": "0b66a6921dec979a",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/assets/笑语欢声｜Laughter and Laughter.assets/心相 笑语欢声.png",
-    "200-相从心生/角色心相/笑语欢声｜Laughter and Laughter.md",
-    "200-相从心生/角色心相/assets/笑语欢声｜Laughter and Laughter.assets",
     "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/昨日往事.md",
     "000-箱的构成/主页.md",
+    "000-箱的构成/templates/相从心生.md",
+    "200-相从心生/角色心相/笑语欢声｜Laughter and Laughter.md",
+    "200-相从心生/角色心相/assets/笑语欢声｜Laughter and Laughter.assets/心相 笑语欢声.png",
+    "200-相从心生/角色心相/assets/笑语欢声｜Laughter and Laughter.assets",
     "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/角色心相/食足餮满｜A Satisfied Eater.md",
     "200-相从心生/角色心相/食足餮满｜A Satisfied Eater~.md",
@@ -271,7 +273,6 @@
     "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
     "200-相从心生/角色心相/跳房子游戏｜Hopscotch~.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
-    "200-相从心生/角色心相/第二次生命｜Her Second Life~.md",
-    "200-相从心生/角色心相/夜色亵渎者｜Blasphemer of Night.md"
+    "200-相从心生/角色心相/第二次生命｜Her Second Life~.md"
   ]
 }
