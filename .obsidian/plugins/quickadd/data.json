@@ -121,6 +121,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "b01a30e3-00b4-48a8-948e-d1df0afef3ef"
+    },
+    {
+      "id": "3a516aa7-95bb-4e28-9555-3b38575572f5",
+      "name": "打开README",
+      "type": "Macro",
+      "command": false,
+      "macroId": "ffb32b42-d2fe-42ed-9331-22a317f4a28a"
     }
   ],
   "macros": [
@@ -343,6 +350,12 @@
           "settings": {}
         }
       ],
+      "runOnStartup": false
+    },
+    {
+      "name": "打开README",
+      "id": "145f4adc-e8fe-4b0b-ad0c-759bc127994f",
+      "commands": [],
       "runOnStartup": false
     }
   ],
