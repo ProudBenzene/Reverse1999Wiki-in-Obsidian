@@ -2973,10 +2973,6 @@ body.admonition-bg-color-same .callout-title {
     > [!note|indent]
     > [!note indent]
    */
-.callout.callout-content {
-  text-indent: 0 !important;
-}
-
 .callout.callout:is([data-callout-metadata*="indent"],
 [data-callout*=indent]) .callout-content p br {
   content: '';
@@ -4691,8 +4687,8 @@ body.style-options-for-admonition-plugin .admonition-hibox .admonition-title {
 /* 摘自https://forum-zh.obsidian.md/t/topic/28562/3 */
 
 .text-indentation-two-em :is(
-.markdown-source-view .cm-line:not(:is(:has(>.cm-hmd-frontmatter,>br),.HyperMD-header,.HyperMD-list-line,.HyperMD-quote,table .cm-line)), /* 编辑模式 */
-.markdown-rendered :not(:is(blockquote)) > p /* 阅读模式 text-indent不支持each-line的办法 */
+.markdown-source-view .cm-line:not(:is(:has(>.cm-hmd-frontmatter,>br),.HyperMD-header,.HyperMD-list-line,.HyperMD-quote,table .cm-line,.callout-content)), /* 编辑模式 */
+.markdown-rendered :not(:is(blockquote,.callout-content)) > p /* 阅读模式 text-indent不支持each-line的办法 */
 ){
   text-indent: 2em !important;
 }
