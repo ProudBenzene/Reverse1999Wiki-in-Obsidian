@@ -18,7 +18,7 @@ class grad_button green
 name 😼 角色
 type command
 action Projects: Show UTTU人物合揖
-class grad_button g_purple
+class grad_button g_purple hover
 ```
 ^button-role
 
@@ -35,6 +35,6 @@ class grad_button g_green hover
 name 📖 故事
 type command
 action Projects: Show 以影像之
-class btn-1
+class grad_button g_blue hover
 ```
 ^button-story
