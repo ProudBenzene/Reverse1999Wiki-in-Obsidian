@@ -8082,6 +8082,7 @@ body.style-options-for-buttons-plugin button.grad_button {
   padding: 0 18px;
   height: 38px;
   font-size: 16px;
+  font-family: Monaspace Xenon, "杨任东竹石体";
   color: #fff;
   text-align: center;
   box-sizing: border-box;
@@ -8158,7 +8159,7 @@ body.style-options-for-buttons-plugin.theme-dark  button.hover {
   display: inline-flex;
   align-items: center;
   height: 38px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;

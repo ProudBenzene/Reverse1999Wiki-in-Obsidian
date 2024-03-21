@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "file": "000-箱的构成/插件/buttons.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -150,7 +150,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/常用工具.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "000-箱的构成/插件/buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "000-箱的构成/插件/buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,10 +221,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
-    "000-箱的构成/主页.md",
+    "000-箱的构成/插件/buttons-special.md",
     "000-箱的构成/插件/buttons.md",
+    "000-箱的构成/主页.md",
     "000-箱的构成/常用工具.md",
     "button.md",
     "000-箱的构成/自动化创建角色档案.md",
@@ -265,7 +266,6 @@
     "200-相从心生/角色心相/齿轮之外｜Beyond the Gears~.md",
     "200-相从心生/角色心相/assets/齿轮之外｜Beyond the Gears.assets",
     "200-相从心生/角色心相/昨日往事.md",
-    "200-相从心生/角色心相/昨日往事~.md",
     "200-相从心生/角色心相/assets/昨日往事.assets",
     "200-相从心生/普通心相/assets/笑语欢声｜Laughter and Laughter.assets",
     "200-相从心生/角色心相/assets/食足餮满｜A Satisfied Eater.assets"
