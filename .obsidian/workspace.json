@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "72f011c1750d2cf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/自由的心｜A Free Heart.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/自由的心｜A Free Heart.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/自由的心｜A Free Heart.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,10 +212,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "72f011c1750d2cf4",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
-    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/自由的心｜A Free Heart.md",
+    "200-相从心生/角色心相/assets/自由的心｜A Free Heart.assets/心相 自由的心.png",
+    "200-相从心生/角色心相/assets/自由的心｜A Free Heart.assets",
+    "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/心驰神往｜Yearning Desire.md",
     "200-相从心生/角色心相/心驰神往｜Yearning Desire~.md",
@@ -268,10 +257,7 @@
     "200-相从心生/角色心相/assets/第二次生命｜Her Second Life.assets",
     "200-相从心生/角色心相/夜色亵渎者｜Blasphemer of Night.md",
     "200-相从心生/角色心相/夜色亵渎者｜Blasphemer of Night~.md",
-    "200-相从心生/角色心相/assets/夜色亵渎者｜Blasphemer of Night.assets/心相 夜色亵渎者.png",
-    "200-相从心生/角色心相/assets/夜色亵渎者｜Blasphemer of Night.assets",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
-    "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause~.md",
-    "200-相从心生/角色心相/好奇心宝贝｜That Inquisitive Dear.md"
+    "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause~.md"
   ]
 }
