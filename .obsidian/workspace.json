@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "0b66a6921dec979a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/昨日往事.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/昨日往事.md",
+                "file": "000-箱的构成/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/昨日往事.md",
+                "file": "000-箱的构成/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,15 +212,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "0b66a6921dec979a",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/昨日往事.md",
     "200-相从心生/角色心相/昨日往事~.md",
     "200-相从心生/角色心相/笑语欢声｜Laughter and Laughter.md",
-    "200-相从心生/角色心相/昨日往事.md",
     "200-相从心生/角色心相/assets/昨日往事.assets/心相 昨日往事.png",
     "200-相从心生/角色心相/assets/昨日往事.assets",
     "000-箱的构成/常用工具.md",
-    "000-箱的构成/主页.md",
     "000-箱的构成/templates/相从心生.md",
     "200-相从心生/角色心相/assets/笑语欢声｜Laughter and Laughter.assets/心相 笑语欢声.png",
     "200-相从心生/角色心相/assets/笑语欢声｜Laughter and Laughter.assets",
