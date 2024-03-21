@@ -19,7 +19,7 @@
         "100-UTTU人物合辑/维尔汀｜Vertin.md",
         "\".+\\\\.png$\""
       ],
-      "isDefault": true,
+      "isDefault": false,
       "dataSource": {
         "kind": "folder",
         "config": {
@@ -435,7 +435,7 @@
       "defaultName": "",
       "templates": [],
       "excludedNotes": [],
-      "isDefault": false,
+      "isDefault": true,
       "dataSource": {
         "kind": "folder",
         "config": {
