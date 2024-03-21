@@ -32,14 +32,6 @@
             }
           },
           {
-            "id": "0721781c96a904b7",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
             "id": "33a92daf32e8b8c4",
             "type": "leaf",
             "state": {
@@ -209,8 +201,8 @@
   "active": "5f9e84794212822e",
   "lastOpenFiles": [
     "000-箱的构成/常用工具.md",
-    "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/插件/buttons.md",
+    "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/主页.md",
     "button.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
