@@ -1,132 +1,52 @@
-button.btn-1,
-button.btn-1 *,
-button.btn-1 :after,
-button.btn-1 :before,
-button.btn-1:after,
-button.btn-1:before {
-  border: 0 solid;
-  box-sizing: border-box;
-}
+/*****空心悬浮渐变按钮*****/
 
 button.btn-1 {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
-  background-color: #000;
-  background-image: none;
-  color: #fff;
+  background: transparent;
+  position: relative;
+  padding: 0px 18px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
   cursor: pointer;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 100%;
-  font-weight: 900;
-  line-height: 1.5;
-  margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-  padding: 0;
-}
-
-button.btn-1:disabled {
-  cursor: default;
-}
-
-button.btn-1:-moz-focusring {
-  outline: auto;
-}
-
-button.btn-1 svg {
-  display: block;
-  vertical-align: middle;
-}
-
-button.btn-1 [hidden] {
-  display: none;
-}
-
-button.btn-1 {
-  border-width: 1px;
-  padding: 1rem 2rem;
-  position: relative;
-  text-transform: uppercase;
-}
-
-button.btn-1:before {
-  --progress: 100%;
-  background: #fff;
-  -webkit-clip-path: polygon(
-    100% 0,
-    var(--progress) var(--progress),
-    0 100%,
-    100% 100%
-  );
-  clip-path: polygon(
-    100% 0,
-    var(--progress) var(--progress),
-    0 100%,
-    100% 100%
-  );
-  content: "";
-  inset: 0;
-  position: absolute;
-  transition: -webkit-clip-path 0.2s ease;
-  transition: clip-path 0.2s ease;
-  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
-}
-
-button.btn-1:hover:before {
-  --progress: 0%;
-}
-
-button.btn-1 .text-container {
-  display: block;
+  border: 1px solid rgb(40, 144, 241);
+  border-radius: 30px;
+  outline: none;
   overflow: hidden;
-  position: relative;
+  color: rgb(40, 144, 241);
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
 }
 
-button.btn-1 .text {
+button.btn-1 span {
+  margin: 10px;
+}
+
+button.btn-1::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
   display: block;
-  font-weight: 900;
-  mix-blend-mode: difference;
-  position: relative;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
 }
 
-button.btn-1:hover .text {
-  -webkit-animation: move-up-alternate 0.3s ease forwards;
-  animation: move-up-alternate 0.3s ease forwards;
+button.btn-1:hover {
+  color: #fff;
+  border: 1px solid rgb(40, 144, 241);
 }
 
-@-webkit-keyframes move-up-alternate {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(80%);
-  }
-
-  51% {
-    transform: translateY(-80%);
-  }
-
-  to {
-    transform: translateY(0);
-  }
+button.btn-1:hover::before {
+  box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
 }
-
-@keyframes move-up-alternate {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(80%);
-  }
-
-  51% {
-    transform: translateY(-80%);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
+ 
