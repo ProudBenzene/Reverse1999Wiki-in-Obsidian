@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae0ee0175ee8627f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/常用工具.md",
-                "mode": "source",
+                "file": "000-箱的构成/主页.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -53,6 +41,14 @@
                 "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "9aadaddd821e22fa",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -120,6 +116,24 @@
     "type": "split",
     "children": [
       {
+        "id": "f3b59b964d45b39b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae0ee0175ee8627f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/常用工具.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "a0af558e737c8c63",
         "type": "tabs",
         "children": [
@@ -148,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -200,8 +214,8 @@
   },
   "active": "5f9e84794212822e",
   "lastOpenFiles": [
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons.md",
+    "000-箱的构成/常用工具.md",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/主页.md",
     "button.md",
