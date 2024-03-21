@@ -32,7 +32,7 @@ class grad_button g_green hover
 
 
 ```button
-name 📖 故事
+name 🔖 故事
 type command
 action Projects: Show 以影像之
 class grad_button g_blue hover
@@ -40,9 +40,10 @@ class grad_button g_blue hover
 ^button-story
 
 ```button
-name README
+name 📖 README
 type link
 action obsidian://open?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%88%90%E5%83%8F&file=README
+class grad_button g_yellow hover
 ```
 ^button-readme
 
