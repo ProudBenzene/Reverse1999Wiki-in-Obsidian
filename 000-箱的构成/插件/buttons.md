@@ -34,6 +34,6 @@ class grad_button g_green
 name 📖 故事
 type command
 action Projects: Show 以影像之
-class plant
+class rainbow
 ```
 ^button-story
