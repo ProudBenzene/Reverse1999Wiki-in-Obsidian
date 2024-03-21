@@ -8149,7 +8149,7 @@ body.style-options-for-buttons-plugin.theme-dark .grad_button:hover {
 
 /******悬浮变色******/
 /*****空心悬浮渐变按钮*****/
-
+/****** Modified From https://uiverse.io/mrhyddenn/red-stingray-4, Button by mrhyddenn******/
 body.style-options-for-buttons-plugin.theme-dark  button.hover {
   background: transparent;
   position: relative;
