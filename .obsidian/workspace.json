@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "button.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "button.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "button.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,8 +223,8 @@
   },
   "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
-    "button.md",
     "000-箱的构成/插件/buttons.md",
+    "button.md",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "000-箱的构成/自动化创建角色档案.md",
