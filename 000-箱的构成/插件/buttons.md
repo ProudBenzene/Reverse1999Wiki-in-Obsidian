@@ -14,3 +14,17 @@ class grad_button green
 ```
 ^button-newPsychube
 
+```button
+name 😼 角色
+type command
+action Projects: Show UTTU人物合揖
+class grad_button g_purple
+```
+^button-character
+```button
+name 🫀 心相
+type command
+action Projects: Show 相从心生
+class grad_button g_
+```
+^button-psychube
