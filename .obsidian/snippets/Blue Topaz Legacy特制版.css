@@ -8045,7 +8045,7 @@ button:not(.clickable-icon):hover {
 }
 body.style-options-for-buttons-plugin button.circle_btn {
   box-shadow: none;
-  font-size: 12px;
+  font-size: 16px;
   word-break: keep-all;
   margin: 4px;
   padding: 0px;
