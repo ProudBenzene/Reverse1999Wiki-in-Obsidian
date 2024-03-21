@@ -1,7 +1,7 @@
 ---
 Name: 笑语欢声
 exonym: Laughter and Laughter
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags: 
 cssclasses:
   - book
