@@ -63,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,6 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/插件/buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,6 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/插件/buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +206,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "0721781c96a904b7",
+  "active": "5f9e84794212822e",
   "lastOpenFiles": [
     "000-箱的构成/常用工具.md",
     "000-箱的构成/自动化创建角色档案.md",

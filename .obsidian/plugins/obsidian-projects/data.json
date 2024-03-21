@@ -513,7 +513,17 @@
     "frontmatter": {
       "quoteStrings": "PLAIN"
     },
-    "commands": [],
+    "commands": [
+      {
+        "project": "43ddfc09-1831-4a77-a516-9caa0008068f"
+      },
+      {
+        "project": "3b6e745d-c3f1-4477-9213-1e9b60975541"
+      },
+      {
+        "project": "9ff693de-6abc-4520-b70c-e2c25b385535"
+      }
+    ],
     "linkBehavior": "open-editor"
   }
 }
