@@ -20,25 +20,13 @@
             }
           },
           {
-            "id": "38453c7cf9ec3ddc",
+            "id": "2c29722edeba5603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3c9396386b1c10d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
-                "mode": "preview",
+                "file": "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -76,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
+                "file": "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
+                "file": "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,17 +226,23 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "3c9396386b1c10d2",
+  "active": "2c29722edeba5603",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/勇往直前｜Let's Set Sail~.md",
+    "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets/心相 荒唐余生.png",
+    "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets",
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/步此苦旅｜Take the Hard Journey.md",
+    "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 ｜.png",
+    "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets",
     "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
     "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
+    "200-相从心生/角色心相/勇往直前｜Let's Set Sail~.md",
     "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets/心相 勇往直前.png",
     "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/茶歇时间｜Tea Break~.md",
     "400-箱外世界/暴雨时间线.md",
-    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets/心相 茶歇时间.png",
     "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets",
     "200-相从心生/角色心相/崭新一页｜A New Leaf.md",
@@ -277,14 +271,8 @@
     "200-相从心生/角色心相/心驰神往｜Yearning Desire.md",
     "200-相从心生/角色心相/心驰神往｜Yearning Desire~.md",
     "200-相从心生/角色心相/assets/心驰神往｜Yearning Desire.assets/心相 心驰神往.png",
-    "200-相从心生/角色心相/assets/心驰神往｜Yearning Desire.assets",
     "200-相从心生/角色心相/明日亦然｜Tomorrow Also.md",
-    "200-相从心生/角色心相/assets/明日亦然｜Tomorrow Also.assets/心相 明日亦然.png",
-    "200-相从心生/角色心相/assets/明日亦然｜Tomorrow Also.assets",
     "200-相从心生/角色心相/无束无拘｜The Footloose.md",
-    "200-相从心生/角色心相/无束无拘｜The Footloose~.md",
-    "200-相从心生/角色心相/示我以真｜Decode.md",
-    "200-相从心生/角色心相/示我以真｜Decode~.md",
-    "200-相从心生/角色心相/午后小憩｜An Afternoon Nap.md"
+    "200-相从心生/角色心相/无束无拘｜The Footloose~.md"
   ]
 }
