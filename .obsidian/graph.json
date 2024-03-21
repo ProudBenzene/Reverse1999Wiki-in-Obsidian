@@ -1,37 +1,44 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:100-UTTU人物合辑  ",
+      "query": "path:100-UTTU人物合辑/",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "",
+      "query": "path: 200-相从心生/ ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "path: 300-以影像之/ ",
+      "color": {
+        "a": 1,
+        "rgb": 2525682
+      }
     }
   ],
-  "collapse-display": true,
-  "showArrow": false,
+  "collapse-display": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "collapse-forces": false,
+  "centerStrength": 0.599853515625,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2440244275700467,
-  "close": false
+  "scale": 0.24402442757004672,
+  "close": true
 }
