@@ -8,7 +8,7 @@ cssclasses:
   - book
 强化属性: 暴击率
 心相: "[[心相 敲响这窄门.png]]"
-人物: "[[伊索尔德]]"
+人物: "[[伊索尔德｜Isolde|伊索尔德]]"
 实装版本: 1.7｜今夜星光灿烂
 ---
 ![cover](assets/敲响这窄门｜Knock%20on%20the%20Door.assets/心相%20敲响这窄门.png)

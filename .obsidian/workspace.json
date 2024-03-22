@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -244,7 +244,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +260,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -272,7 +270,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311
+    "width": 313
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,12 +291,22 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构成/主页.md",
-    "000-箱的构成/插件/buttons.md",
-    "000-箱的构成/常用工具.md",
+    "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
+    "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
+    "200-相从心生/角色心相/在四方城外｜Outside the City.md",
+    "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
+    "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
+    "200-相从心生/角色心相/美丽新世界｜Brave New World.md",
     "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
+    "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
+    "200-相从心生/角色心相/另一个故事｜Another Story.md",
+    "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
+    "马库斯.md",
+    "000-箱的构成/主页.md",
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/插件/buttons.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "README.md",
     "button.md",
@@ -317,25 +325,15 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/一阶神秘术.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
     "200-相从心生/普通心相/笑语欢声｜Laughter and Laughter.md",
-    "300-以影像之/300-以影像之.md",
     "200-相从心生/普通心相/assets",
-    "200-相从心生/角色心相/食足餮满｜A Satisfied Eater.md",
-    "夏利]]·戏剧与戏剧.md",
-    "200-相从心生/角色心相/步此苦旅｜Take the Hard Journey.md",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅.png",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅｜Take the Hard Journey.png",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅｜.png",
-    "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
     "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets/心相 荒唐余生.png",
     "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets",
-    "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
-    "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
-    "200-相从心生/角色心相/勇往直前｜Let's Set Sail~.md",
     "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets",
-    "200-相从心生/角色心相/茶歇时间｜Tea Break~.md",
     "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets",
-    "200-相从心生/角色心相/崭新一页｜A New Leaf.md",
     "200-相从心生/角色心相/assets/崭新一页｜A New Leaf.assets",
     "200-相从心生/角色心相/assets/齿轮之外｜Beyond the Gears.assets",
     "200-相从心生/角色心相/assets/昨日往事.assets",

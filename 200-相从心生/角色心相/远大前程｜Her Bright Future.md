@@ -2,12 +2,12 @@
 Name: 远大前程
 exonym: Her Bright Future
 星级: ✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 创伤加成
 心相: "[[心相 远大前程.png]]"
-人物: "[[十四行诗]]"
+人物: "[[十四行诗｜Sonetto|十四行诗]]"
 实装版本: "1.0"
 ---
 ![cover](assets/远大前程｜Her%20Bright%20Future.assets/心相%20远大前程.png)
