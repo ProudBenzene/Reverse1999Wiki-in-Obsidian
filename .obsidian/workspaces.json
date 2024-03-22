@@ -65,6 +65,7 @@
           {
             "id": "fb7552c6126461e8",
             "type": "tabs",
+            "dimension": 75,
             "children": [
               {
                 "id": "250c5f6efff2f242",
@@ -105,6 +106,77 @@
                 "state": {
                   "type": "VIEW_TYPE_LONGFORM_EXPLORER",
                   "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "710bf2a9ba69c245",
+            "type": "tabs",
+            "dimension": 25,
+            "children": [
+              {
+                "id": "e94c2006ca70689a",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "000-箱的构成/主页.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": false,
+                      "colorGroups": [
+                        {
+                          "query": "path:100-UTTU人物合辑/ ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14701138
+                          }
+                        },
+                        {
+                          "query": "path:200-相从心生/ ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14725458
+                          }
+                        },
+                        {
+                          "query": "path:300-以影像之/ ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2790132
+                          }
+                        },
+                        {
+                          "query": "path:000-箱的构成/ ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 15636512
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
                 }
               }
             ]
@@ -224,7 +296,7 @@
         }
       },
       "active": "5f9e84794212822e",
-      "mtime": "2024-03-22T01:34:26+08:00",
+      "mtime": "2024-03-22T15:33:57+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null

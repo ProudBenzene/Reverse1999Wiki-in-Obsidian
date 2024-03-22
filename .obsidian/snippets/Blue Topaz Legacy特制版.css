@@ -8168,7 +8168,7 @@ button.tiny {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px, rgba(0, 0, 0, 0.05) 0px 5px 5px;
 }
 button.tiny:hover {
-  color: rgb(222, 90, 90, 1.0);
+  color: var(--text-on-accent);
 }
 button.tiny::before {
   content: "";
@@ -8180,7 +8180,7 @@ button.tiny::before {
   height: 1rem;
   transform: translate3d(-50%,-50%,0) scale(0,0);
   border-radius: 50%;
-  background-color: var(--interactive-accent-hover);
+  background-color: rgb(222, 90, 90, 1.0);;
   transform-origin: center;
   transition: ease-in-out .5s;
 }
