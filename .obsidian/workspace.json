@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -244,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,10 +293,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "5f9e84794212822e",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
-    "README.md",
     "000-箱的构成/主页.md",
+    "README.md",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons.md",
     "button.md",
