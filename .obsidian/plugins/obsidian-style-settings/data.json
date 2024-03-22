@@ -641,5 +641,9 @@
   "floating-tabs@@floating-icon": 18,
   "floating-tabs@@floating-dot-color-active@@dark": "#EFB68E",
   "floating-tabs@@floating-icon-color-active@@dark": "#FD8D3E",
-  "Blue-Topaz-Legacy@@style-options-for-buttons-plugin": true
+  "Blue-Topaz-Legacy@@style-options-for-buttons-plugin": true,
+  "code-tab@@bc@@light": "#F6F8FA6B",
+  "code-tab@@tabifc@@light": "#649E71",
+  "code-tab@@tabbbc@@light": "#649E71",
+  "code-tab@@tabbc@@light": "#1E76D9"
 }
