@@ -263,7 +263,7 @@
     }
   },
   "syntaxHighlight": true,
-  "copyButton": true,
+  "copyButton": false,
   "version": "10.2.0",
   "autoCollapse": false,
   "defaultCollapseType": "open",
@@ -272,9 +272,9 @@
   "dropShadow": true,
   "hideEmpty": false,
   "open": {
-    "admonitions": false,
-    "icons": false,
-    "other": false,
+    "admonitions": true,
+    "icons": true,
+    "other": true,
     "advanced": true
   },
   "icons": [
