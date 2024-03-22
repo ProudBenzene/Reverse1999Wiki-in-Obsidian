@@ -51,7 +51,7 @@ class grad_button g_yellow tiny
 name 💌 GitHub
 type link
 action https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian
-class grad_button g_li g h tiny
+class grad_button g_lightgreen tiny
 ```
 ^button-github
 
