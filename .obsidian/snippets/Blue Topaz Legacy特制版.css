@@ -4687,7 +4687,7 @@ body.style-options-for-admonition-plugin .admonition-hibox .admonition-title {
 /* 摘自https://forum-zh.obsidian.md/t/topic/28562/3 */
 
 .text-indentation-two-em :is(
-.markdown-source-view .cm-line:not(:is(:has(>.cm-hmd-frontmatter,>br),.HyperMD-header,.HyperMD-list-line,.HyperMD-quote,table .cm-line,.callout-content)), /* 编辑模式 */
+.markdown-source-view .cm-line:not(:is(:has(>.cm-hmd-frontmatter,>br),.HyperMD-header,.HyperMD-list-line,.HyperMD-quote,table .cm-line)), /* 编辑模式 */
 .markdown-rendered :not(:is(blockquote,.callout-content)) > p /* 阅读模式 text-indent不支持each-line的办法 */
 ){
   text-indent: 2em !important;
@@ -4699,12 +4699,12 @@ body.style-options-for-admonition-plugin .admonition-hibox .admonition-title {
 }
 
 /* 阅读模式下对每个回车换行后的首行缩进的修正 */
-.text-indentation-two-em .markdown-rendered :not(:is(blockquote)) > p > br
+.text-indentation-two-em .markdown-rendered :not(:is(blockquote,.callout-content)) > p > br
 {
   content:'';
   white-space:pre; 
 }
-.text-indentation-two-em .markdown-rendered :not(:is(blockquote)) > p > br::after
+.text-indentation-two-em .markdown-rendered :not(:is(blockquote,.callout-content)) > p > br::after
 {
   content:'\000A\0009\00A0\00A0'; /* Unicode字符编码\0009表示水平制表符，\00A0表示不换行空格，可通过增减、组合搭配这两个Unicode字符来微调回车换行后的首行缩进量 */
 }
