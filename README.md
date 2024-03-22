@@ -11,4 +11,6 @@
 > 
 > 除非另有说明，否则本库内容依据 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证进行授权，转载请附上出处链接。
 
-![HomePage](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/assets/93238080/b2733144-2d68-4a82-a188-6d1134a7dee0)
+<img width="500" alt="iShot_2024-03-22_16 53 40" src="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/assets/93238080/2073915b-8c72-4087-ab5b-9cabdb772c5a">
+
+<img width="500" alt="iShot_2024-03-22_16 53 40" src="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/assets/93238080/b2733144-2d68-4a82-a188-6d1134a7dee0">
