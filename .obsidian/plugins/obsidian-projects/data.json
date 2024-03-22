@@ -458,7 +458,8 @@
               "星级",
               "强化属性"
             ],
-            "cardWidth": 150
+            "cardWidth": 150,
+            "fitStyle": "cover"
           },
           "filter": {
             "conditions": []
