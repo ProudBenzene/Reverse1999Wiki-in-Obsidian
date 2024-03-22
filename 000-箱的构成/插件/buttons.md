@@ -18,7 +18,7 @@ class grad_button green
 name 😼 角色
 type command
 action Projects: Show UTTU人物合揖
-class grad_button g_purple hover
+class grad_button g_purple tiny
 ```
 ^button-role
 
@@ -26,7 +26,7 @@ class grad_button g_purple hover
 name ♥️ 心相
 type command
 action Projects: Show 相从心生
-class grad_button g_green hover
+class grad_button g_green tiny
 ```
 ^button-psychube
 
@@ -35,7 +35,7 @@ class grad_button g_green hover
 name 🔖 故事
 type command
 action Projects: Show 以影像之
-class grad_button g_blue hover
+class grad_button g_blue tiny
 ```
 ^button-story
 
@@ -43,7 +43,7 @@ class grad_button g_blue hover
 name README
 type link
 action obsidian://open?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%88%90%E5%83%8F&file=README
-class grad_button g_yellow hover
+class grad_button g_yellow tiny
 ```
 ^button-readme
 

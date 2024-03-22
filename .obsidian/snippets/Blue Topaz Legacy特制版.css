@@ -8150,63 +8150,6 @@ body.style-options-for-buttons-plugin.theme-dark .grad_button:hover {
 }
 
 /******悬浮变色******/
-/*****空心悬浮渐变按钮*****/
-/****** Modified From https://uiverse.io/mrhyddenn/red-stingray-4, Button by mrhyddenn******/
-body.style-options-for-buttons-plugin.theme-dark  button.hover {
-  background: transparent;
-  position: relative;
-  padding: 0px 18px;
-  display: inline-flex;
-  align-items: center;
-  height: 38px;
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
-  /*border: 1px solid rgb(40, 144, 241);*/
-  border-radius: 30px;
-  margin: 5px;
-  outline: none;
-  overflow: hidden;
-  /*color: rgb(40, 144, 241);*/
-  transition: color 0.3s 0.1s ease-out;
-  text-align: center;
-}
-
-body.style-options-for-buttons-plugin.theme-dark  button.hover span {
-  margin: 10px;
-}
-
-body.style-options-for-buttons-plugin.theme-dark  button.hover::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  content: '';
-  border-radius: 50%;
-  display: block;
-  width: 20em;
-  height: 20em;
-  left: -5em;
-  text-align: center;
-  transition: box-shadow 0.5s ease-out;
-  z-index: -1;
-}
-
-body.style-options-for-buttons-plugin.theme-dark  button.hover:hover {
-  color: #fff;
-  border: 1px solid initial;
-}
-
-body.style-options-for-buttons-plugin.theme-dark  button.hover:hover::before {
-  box-shadow: inset 0 0 0 10em rgb(217, 85, 83);
-}
- 
-/******悬浮变色******/
-
-
 button.tiny {
   border-radius: 10px;
   display: inline-flex;
@@ -8225,7 +8168,7 @@ button.tiny {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px, rgba(0, 0, 0, 0.05) 0px 5px 5px;
 }
 button.tiny:hover {
-  color: var(--text-on-accent);
+  color: rgb(222, 90, 90, 1.0);
 }
 button.tiny::before {
   content: "";
