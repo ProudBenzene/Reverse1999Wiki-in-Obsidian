@@ -50,37 +50,6 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "3f74fbb9869b94f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "18e977284dd73c96",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9651149d6711b258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -150,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -276,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313,
-    "collapsed": true
+    "width": 313
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -326,17 +293,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "3f74fbb9869b94f8",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
+    "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
+    "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
+    "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
+    "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/心相 启寤Ⅰ.png",
     "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
     "000-箱的构成/主页.md",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/心相 掠影.png",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets",
     "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
-    "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
-    "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/心相 启寤Ⅰ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets",
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/心相 启寤Ⅱ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ 1.png",
@@ -359,7 +327,6 @@
     "000-箱的构成/assets/README.assets",
     "000-箱的构成/assets/assets",
     "000-箱的构成/插件/buttons.md",
-    "000-箱的构成/自动化创建角色档案.md",
     "400-箱外世界/暴雨时间线.md",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
     "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
