@@ -2,14 +2,16 @@
 Name: 领航
 exonym: Navigatinga
 星级: ✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 受创减免
-心相标签: ""
+心相标签:
+  - ""
+  - 生存
 心相: "[[心相 领航.png]]"
-人物:
-轶事:
+人物: 
+轶事: 
 实装版本: "1.0"
 aliases:
   - 领航

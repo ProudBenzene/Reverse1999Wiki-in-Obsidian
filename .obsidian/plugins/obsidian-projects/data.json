@@ -456,7 +456,8 @@
             "includeFields": [
               "exonym",
               "星级",
-              "强化属性"
+              "强化属性",
+              "心相标签"
             ],
             "cardWidth": 150,
             "fitStyle": "cover"
