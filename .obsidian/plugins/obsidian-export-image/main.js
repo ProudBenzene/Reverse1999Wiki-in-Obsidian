@@ -12358,6 +12358,7 @@ var initFormatters = (locale2) => {
 // src/i18n/en/index.ts
 var en = {
   // TODO: your translations go here
+  command: "Export as an image",
   noActiveFile: "Please open an article first!",
   imageExportPreview: "Image Export Preview",
   copiedSuccess: "Copied to clipboard",
@@ -12366,6 +12367,7 @@ var en = {
   includingFilename: "Including File Name As Title: ",
   imageWidth: "Image Width: ",
   exportImage: "Export to image",
+  exportSelectionImage: "Export selection to image",
   invalidWidth: "Please set width with a reasonable number.",
   "2x": "Enable 2x resolution image",
   moreSetting: "More detailed settings can be found in the `Export Image` plugin settings.",
@@ -12442,7 +12444,7 @@ var en_default = en;
 
 // src/i18n/zh/index.ts
 var zh = {
-  // this is an example Translation, just rename or delete this folder if you want
+  command: "Export as an image\uFF08\u5BFC\u51FA\u4E3A\u56FE\u7247\uFF09",
   noActiveFile: "\u8BF7\u5148\u6253\u5F00\u4E00\u7BC7\u6587\u6863\uFF01",
   imageExportPreview: "\u56FE\u7247\u5BFC\u51FA\u9884\u89C8",
   copiedSuccess: "\u5DF2\u590D\u5236\u5230\u526A\u8D34\u677F",
@@ -12451,6 +12453,7 @@ var zh = {
   includingFilename: "\u5305\u542B\u6587\u4EF6\u540D\u4F5C\u4E3A\u6807\u9898\uFF1A",
   imageWidth: "\u56FE\u7247\u5BBD\u5EA6\uFF1A",
   exportImage: "\u5BFC\u51FA\u4E3A\u56FE\u7247",
+  exportSelectionImage: "\u5BFC\u51FA\u9009\u4E2D\u5185\u5BB9\u4E3A\u56FE\u7247",
   invalidWidth: "\u8BF7\u8BBE\u7F6E\u5408\u7406\u7684\u5BBD\u5EA6\u3002",
   "2x": "\u8F93\u51FA 2 \u500D\u5206\u8FA8\u7387\u7684\u56FE",
   moreSetting: "\u66F4\u8BE6\u7EC6\u7684\u914D\u7F6E\u8BF7\u8FDB\u5165 Export Image \u63D2\u4EF6\u7684\u8BBE\u7F6E\u754C\u9762\u3002",
@@ -12556,6 +12559,9 @@ var import_set = __toESM(require_set());
 
 // src/utils.ts
 var import_obsidian2 = require("obsidian");
+function isMarkdownFile(file) {
+  return ["md", "markdown"].includes(file?.extension ?? "");
+}
 async function fileToBase64(file) {
   const reader = new FileReader();
   reader.readAsDataURL(file);
@@ -13241,16 +13247,10 @@ async function copy(el, higtResolution) {
 }
 
 // src/exportImage.tsx
-async function exportImage_default(settings) {
-  const activeFile = this.app.workspace.getActiveFile();
-  if (!activeFile || !["md", "markdown"].includes(activeFile.extension)) {
-    new import_obsidian6.Notice(L_default.noActiveFile());
-    return;
-  }
-  const markdown = await this.app.vault.cachedRead(activeFile);
+async function exportImage_default(settings, markdown, file) {
   const el = document.createElement("div");
   el.createEl("h1", {
-    text: activeFile.basename,
+    text: file.basename,
     cls: "export-image-preview-filename"
   });
   el.addClasses([
@@ -13263,7 +13263,7 @@ async function exportImage_default(settings) {
     this.app,
     markdown,
     el,
-    activeFile.path,
+    file.path,
     new import_obsidian6.MarkdownRenderChild(el)
   );
   const modal = new import_obsidian6.Modal(this.app);
@@ -13277,7 +13277,7 @@ async function exportImage_default(settings) {
       ModalContent_default,
       {
         markdownEl: el,
-        save: () => save(el, activeFile.basename, settings["2x"]),
+        save: () => save(el, file.basename, settings["2x"]),
         copy: () => copy(el, settings["2x"]),
         settings,
         app: this.app
@@ -13322,25 +13322,51 @@ var ExportImagePlugin = class extends import_obsidian7.Plugin {
   async onload() {
     await this.loadSettings();
     this.registerEvent(
-      this.app.workspace.on("file-menu", (menu) => {
-        menu.addItem((item) => {
-          item.setTitle(L_default.exportImage()).setIcon("image-down").onClick(() => exportImage_default(this.settings));
-        });
+      this.app.workspace.on("file-menu", (menu, file) => {
+        if (isMarkdownFile(file)) {
+          menu.addItem((item) => {
+            item.setTitle(L_default.exportImage()).setIcon("image-down").onClick(async () => {
+              const markdown = await this.app.vault.cachedRead(file);
+              exportImage_default(this.settings, markdown, file);
+            });
+          });
+        }
       })
     );
     this.registerEvent(
-      this.app.workspace.on("editor-menu", (menu) => {
+      this.app.workspace.on("editor-menu", (menu, editor) => {
+        const file = (
+          // @ts-ignore
+          editor.editorComponent.file || this.app.workspace.getActiveFile()
+        );
+        if (!file)
+          return;
+        if (editor.somethingSelected()) {
+          menu.addItem((item) => {
+            item.setTitle(L_default.exportSelectionImage()).setIcon("text-select").onClick(
+              () => exportImage_default(this.settings, editor.getSelection(), file)
+            );
+          });
+        }
         menu.addItem((item) => {
-          item.setTitle(L_default.exportImage()).setIcon("image-down").onClick(() => exportImage_default(this.settings));
+          item.setTitle(L_default.exportImage()).setIcon("image-down").onClick(() => exportImage_default(this.settings, editor.getValue(), file));
         });
       })
     );
     this.addCommand({
       id: "export-image",
-      name: "Export as a image",
+      name: L_default.command(),
       checkCallback: (checking) => {
         if (!checking) {
-          exportImage_default(this.settings);
+          (async () => {
+            const activeFile = this.app.workspace.getActiveFile();
+            if (!activeFile || !["md", "markdown"].includes(activeFile.extension)) {
+              new import_obsidian7.Notice(L_default.noActiveFile());
+              return;
+            }
+            const markdown = await this.app.vault.cachedRead(activeFile);
+            exportImage_default(this.settings, markdown, activeFile);
+          })();
         }
         return true;
       }

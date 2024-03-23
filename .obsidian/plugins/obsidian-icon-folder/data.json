@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiFileSpreadsheet",
       "TiMovie",
       "IbHouse",
       "TiHeartUp",
-      "RiSwordFill",
-      "IbEarth"
+      "RiSwordFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -114,5 +114,6 @@
   "000-箱的构成/主页.md": "IbHouse",
   "400-箱外世界": "IbEarth",
   "500-箱外阵营": "RiSwordFill",
-  "300-以影像之": "TiMovie"
+  "300-以影像之": "TiMovie",
+  "README.md": "TiFileSpreadsheet"
 }

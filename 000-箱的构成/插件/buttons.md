@@ -39,13 +39,7 @@ class grad_button g_blue tiny
 ```
 ^button-story
 
-```button
-name ⚠️ README
-type link
-action obsidian://open?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%88%90%E5%83%8F&file=README
-class grad_button g_yellow tiny
-```
-^button-readme
+
 
 ```button
 name 💌 GitHub
