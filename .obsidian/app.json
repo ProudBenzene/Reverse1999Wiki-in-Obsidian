@@ -1,9 +1,9 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/README.assets",
+  "attachmentFolderPath": "./assets/主页.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
