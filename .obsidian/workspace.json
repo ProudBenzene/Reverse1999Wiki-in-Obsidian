@@ -50,21 +50,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "ba1ab18eb5c49c1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/普通心相/无餍｜Covet.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/普通心相/无餍｜Covet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,7 +245,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/普通心相/无餍｜Covet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +261,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/普通心相/无餍｜Covet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,8 +293,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ba1ab18eb5c49c1c",
+  "active": "8724b795663eff4f",
   "lastOpenFiles": [
+    "200-相从心生/印刻材料/贪欲｜Greed.md",
+    "200-相从心生/普通心相/无餍｜Covet.md",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets/心相 无餍.png",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets/Covet.png",
     "200-相从心生/普通心相/蒙昧｜Fatuous.md",
@@ -328,7 +315,6 @@
     "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets/心相 崇奉.png",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
-    "200-相从心生/普通心相/无餍｜Covet.md",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets",
     "000-箱的构成/主页.md",
     "200-相从心生/普通心相/绿毒｜Venomous.md",
@@ -338,7 +324,6 @@
     "200-相从心生/普通心相/assets/静谧｜Meek.assets/心相 静谧.png",
     "200-相从心生/普通心相/assets/静谧｜Meek.assets",
     "300-以影像之/300-以影像之.md",
-    "200-相从心生/印刻材料/贪欲｜Greed.md",
     "200-相从心生/印刻材料/assets/贪欲｜Greed.assets/心相 贪欲.png",
     "200-相从心生/印刻材料/assets/贪欲｜Greed.assets",
     "200-相从心生/印刻材料/饕餮｜Gluttony.md",
@@ -352,7 +337,6 @@
     "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
     "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/心相 启寤Ⅰ.png",
-    "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/心相 掠影.png",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets",
     "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets"
