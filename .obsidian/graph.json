@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 11543026
       }
+    },
+    {
+      "query": "path: 000-箱的构成/",
+      "color": {
+        "a": 1,
+        "rgb": 16021781
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 10.6005859375,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.29657871277204706,
-  "close": false
+  "scale": 0.21716320225466484,
+  "close": true
 }
