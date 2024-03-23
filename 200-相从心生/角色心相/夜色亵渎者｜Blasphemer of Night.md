@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 夜色亵渎者|inlL|300](assets/夜色亵渎者｜Blasphemer%20of%20Night.assets/心相%20夜色亵渎者.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">夜色亵渎者<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Blasphemer of Night</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">夜色亵渎者<br><span style="font-family: serif; font-size: 14px; color: #888888;">Blasphemer of Night</span></p>
 > 
 > 这夜将亵渎灯的色。  
 > 亵渎美与好，  

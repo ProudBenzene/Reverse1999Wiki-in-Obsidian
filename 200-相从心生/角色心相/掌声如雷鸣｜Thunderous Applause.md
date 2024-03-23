@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 掌声如雷鸣|inlL|300](assets/掌声如雷鸣｜Thunderous%20Applause.assets/心相%20掌声如雷鸣.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">掌声如雷鸣<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Thunderous Applause</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">掌声如雷鸣<br><span style="font-family: serif; font-size: 14px; color: #888888;">Thunderous Applause</span></p>
 > 
 > 越过风声和雨声，越发激昂，  
 > 她的声音在方寸之地回荡。  

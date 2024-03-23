@@ -89,7 +89,7 @@
       "name": "添加心相",
       "type": "Template",
       "command": true,
-      "templatePath": "000-箱的构成/templates/相从心生.md",
+      "templatePath": "000-箱的构成/templates/印刻材料.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -98,7 +98,8 @@
         "enabled": true,
         "folders": [
           "200-相从心生/普通心相",
-          "200-相从心生/角色心相"
+          "200-相从心生/角色心相",
+          "200-相从心生/印刻材料"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

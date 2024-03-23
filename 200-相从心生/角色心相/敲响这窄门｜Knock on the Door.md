@@ -15,7 +15,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相|inlL|300](assets/敲响这窄门｜Knock%20on%20the%20Door.assets/心相%20敲响这窄门.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">敲响这窄门<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Knock on the Door</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">敲响这窄门<br><span style="font-family: serif; font-size: 14px; color: #888888;">Knock on the Door</span></p>
 > 
 > 哪儿，哪儿，是这儿，还是那儿？  
 > 锁眼儿里，门缝儿里，还是被窝儿里？  

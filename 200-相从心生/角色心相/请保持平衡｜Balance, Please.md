@@ -14,7 +14,7 @@ cssclasses:
 ![cover](assets/请保持平衡｜Balance,%20Please.assets/心相%20请保持平衡.png)
 > [!note] 印象｜Impression
 > ![心相|inlL|300](assets/请保持平衡｜Balance,%20Please.assets/心相%20请保持平衡.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">请保持平衡<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Balance, Please</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">请保持平衡<br><span style="font-family: serif; font-size: 14px; color: #888888;">Balance, Please</span></p>
 > 
 > 向前滚动，沿预想的轨迹掉落。  
 > 他望向周遭，倍感亲切。  

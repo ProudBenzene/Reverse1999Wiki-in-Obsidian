@@ -17,7 +17,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 勇往直前|inlL|300](assets/勇往直前｜Let's%20Set%20Sail.assets/心相%20勇往直前.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">勇往直前<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Let's Set Sail</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">勇往直前<br><span style="font-family: serif; font-size: 14px; color: #888888;">Let's Set Sail</span></p>
 > 
 > 风帆鼓起，长剑擦亮，沿河而下。  
 > 一颗星在北方闪烁，追吧，追吧。  

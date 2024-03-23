@@ -15,7 +15,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 在仙境之外|inlL|300](assets/在仙境之外｜Beyond%20Wonderland.assets/心相%20在仙境之外.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">在仙境之外<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Beyond Wonderland</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">在仙境之外<br><span style="font-family: serif; font-size: 14px; color: #888888;">Beyond Wonderland</span></p>
 > 
 > 兔子，兔子，拿饼干，  
 > 帽匠，帽匠，倒茶水。  

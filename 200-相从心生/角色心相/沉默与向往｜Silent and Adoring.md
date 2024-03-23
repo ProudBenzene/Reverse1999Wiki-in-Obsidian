@@ -15,7 +15,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 沉默与向往|inlL|300](assets/沉默与向往｜Silent%20and%20Adoring.assets/心相%20沉默与向往.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">沉默与向往<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Silent and Adoring</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">沉默与向往<br><span style="font-family: serif; font-size: 14px; color: #888888;">Silent and Adoring</span></p>
 > 
 > 昨日，今日，明日。  
 > 保持缄默，保持冷静，保持忠诚。  

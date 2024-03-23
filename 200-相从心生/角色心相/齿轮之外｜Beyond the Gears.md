@@ -17,7 +17,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 齿轮之外|inlL|300](assets/齿轮之外｜Beyond%20the%20Gears.assets/心相%20齿轮之外.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">齿轮之外<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Beyond the Gears</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">齿轮之外<br><span style="font-family: serif; font-size: 14px; color: #888888;">Beyond the Gears</span></p>
 > 
 > 扬升，滑落。  
 > 紧紧咬合，熠熠生辉。  

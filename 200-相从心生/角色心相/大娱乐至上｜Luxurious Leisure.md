@@ -15,7 +15,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 大娱乐至上|inlL|300](assets/大娱乐至上｜Luxurious%20Leisure.assets/心相%20大娱乐至上.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">大娱乐至上<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Luxurious Leisure</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">大娱乐至上<br><span style="font-family: serif; font-size: 14px; color: #888888;">Luxurious Leisure</span></p>
 > 
 > 闪光，黑洞，万众瞩目之星。  
 > 美丽的国度之中最美丽的梦。  

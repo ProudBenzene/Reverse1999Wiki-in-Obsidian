@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 示我以真|inlL|300](assets/示我以真｜Decode.assets/心相%20示我以真.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">示我以真<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Decode</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">示我以真<br><span style="font-family: serif; font-size: 14px; color: #888888;">Decode</span></p>
 > 
 > 在格子间中敲打，  
 > 提行，首字节，41——  

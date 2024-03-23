@@ -17,7 +17,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 崭新一页|inlL|300](assets/崭新一页｜A%20New%20Leaf.assets/心相%20崭新一页.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">崭新一页<br><span style="font-family: serif; font-size: 14px; color: #888888;">　A New Leaf</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">崭新一页<br><span style="font-family: serif; font-size: 14px; color: #888888;">A New Leaf</span></p>
 > 
 > 诗在此处，诗人说。  
 > 冬日在此处，山雀说。  

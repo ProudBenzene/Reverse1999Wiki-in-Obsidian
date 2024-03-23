@@ -15,7 +15,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相|inlL|300](assets/此刻无新事｜Same%20Old%20Story.assets/心相%20此刻无新事.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">此刻无新事<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Same Old Story</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">此刻无新事<br><span style="font-family: serif; font-size: 14px; color: #888888;">Same Old Story</span></p>
 > 
 > 注视着，注视着。五百岁为春，五百岁为秋。  
 > 树荫之下，并无新事。  

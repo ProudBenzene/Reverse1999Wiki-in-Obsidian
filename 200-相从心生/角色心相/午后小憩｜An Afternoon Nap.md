@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 午后小憩|inlL|300](assets/午后小憩｜An%20Afternoon%20Nap.assets/心相%20午后小憩.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">午后小憩<br><span style="font-family: serif; font-size: 14px; color: #888888;">　An Afternoon Nap</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">午后小憩<br><span style="font-family: serif; font-size: 14px; color: #888888;">An Afternoon Nap</span></p>
 > 
 > 你的孩子从不是你的孩子，  
 > 优秀的监护人们善于度过独处的午后。  

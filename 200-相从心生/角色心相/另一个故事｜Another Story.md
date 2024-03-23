@@ -15,7 +15,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 另一个故事|inlL|300](assets/另一个故事｜Another%20Story.assets/心相%20另一个故事.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">另一个故事<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Another Story</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">另一个故事<br><span style="font-family: serif; font-size: 14px; color: #888888;">Another Story</span></p>
 > 
 > 一页，再一页。一本，又一本。  
 > 反复阅读，反复揣摩，反复探求。  

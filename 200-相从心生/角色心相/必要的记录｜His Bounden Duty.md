@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 必要的记录|inlL|300](assets/必要的记录｜His%20Bounden%20Duty.assets/心相%20必要的记录.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">必要的记录<br><span style="font-family: serif; font-size: 14px; color: #888888;">　His Bounden Duty</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">必要的记录<br><span style="font-family: serif; font-size: 14px; color: #888888;">His Bounden Duty</span></p>
 > 
 > 谨慎，躲避，游走。  
 > 安全考量，瞻前顾后。  

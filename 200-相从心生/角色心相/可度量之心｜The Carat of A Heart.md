@@ -15,7 +15,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 可度量之心|inlL|300](assets/可度量之心｜The%20Carat%20of%20A%20Heart.assets/心相%20可度量之心.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">可度量之心<br><span style="font-family: serif; font-size: 14px; color: #888888;">　The Carat of A Heart</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">可度量之心<br><span style="font-family: serif; font-size: 14px; color: #888888;">The Carat of A Heart</span></p>
 > 
 > 八，十二，菱形，水滴，闪闪发亮。  
 > 有等级的，有标准的，被赋予证书的，失格而摒弃的。  

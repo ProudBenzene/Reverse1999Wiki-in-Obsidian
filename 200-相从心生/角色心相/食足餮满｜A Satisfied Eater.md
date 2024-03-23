@@ -17,7 +17,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 食足餮满|inlL|300](assets/食足餮满｜A%20Satisfied%20Eater.assets/心相%20食足餮满.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">食足餮满<br><span style="font-family: serif; font-size: 14px; color: #888888;">　A Satisfied Eater</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">食足餮满<br><span style="font-family: serif; font-size: 14px; color: #888888;">A Satisfied Eater</span></p>
 > 
 > 街左侧，一名跟踪者。  
 > 后窗右方，三名寻仇而来的蠢蛋呆瓜。  

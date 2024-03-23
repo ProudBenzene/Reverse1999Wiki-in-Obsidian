@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 美丽新世界|inlL|300](assets/美丽新世界｜Brave%20New%20World.assets/心相%20美丽新世界.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">美丽新世界<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Brave New World</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">美丽新世界<br><span style="font-family: serif; font-size: 14px; color: #888888;">Brave New World</span></p>
 > 
 > 调整角度，系紧绶带，理平褶皱。  
 > 悄悄卷起袖口，放下，再卷起。  

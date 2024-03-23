@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 好奇心宝贝|inlL|300](assets/好奇心宝贝｜That%20Inquisitive%20Dear.assets/心相%20好奇心宝贝.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">好奇心宝贝<br><span style="font-family: serif; font-size: 14px; color: #888888;">　That Inquisitive Dear</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">好奇心宝贝<br><span style="font-family: serif; font-size: 14px; color: #888888;">That Inquisitive Dear</span></p>
 > 
 > 道路，由人亲手所造。  
 > 酒与面包，靠劳作取得。  

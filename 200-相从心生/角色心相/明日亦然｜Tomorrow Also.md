@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 明日亦然|inlL|300](assets/明日亦然｜Tomorrow%20Also.assets/心相%20明日亦然.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">明日亦然<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Tomorrow Also</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">明日亦然<br><span style="font-family: serif; font-size: 14px; color: #888888;">Tomorrow Also</span></p>
 > 
 > 从雾中捧起城市，勿忘轻拿轻放，  
 > 别将行色匆匆的人群惊扰。  

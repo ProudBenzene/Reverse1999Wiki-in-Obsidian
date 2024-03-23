@@ -14,7 +14,7 @@ cssclasses:
 
 > [!note] 印象｜Impression
 > ![心相 第二次生命|inlL|300](assets/第二次生命｜Her%20Second%20Life.assets/心相%20第二次生命.png)
-> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">第二次生命<br><span style="font-family: serif; font-size: 14px; color: #888888;">　Her Second Life</span></p>
+> <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">第二次生命<br><span style="font-family: serif; font-size: 14px; color: #888888;">Her Second Life</span></p>
 > 
 > 打磨，雕刻。水、油、蜜糖与沙堆。  
 > 月光审阅旧枝的蝉蜕，新杖的容貌。  
