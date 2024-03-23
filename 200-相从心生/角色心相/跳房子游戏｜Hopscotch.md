@@ -2,11 +2,11 @@
 Name: 跳房子游戏
 exonym: Hopscotch
 星级: ✦✦✦✦✦✦
-tags: 
+tags:
 cssclasses:
   - book
 强化属性: 术法威力
-心相标签: 
+心相标签: ""
 心相: "[[心相 跳房子游戏.png]]"
 人物: "[[玛蒂尔达]]"
 实装版本: "1.0"

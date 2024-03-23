@@ -2,11 +2,11 @@
 Name: 必要的记录
 exonym: His Bounden Duty
 星级: ✦✦✦✦✦✦
-tags: 
+tags:
 cssclasses:
   - book
 强化属性: 创伤加成
-心相标签: 
+心相标签: ""
 心相: "[[心相 必要的记录.png]]"
 人物: "[[咔嚓咔嚓]]"
 实装版本: "1.0"

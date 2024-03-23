@@ -9,6 +9,7 @@
     "年代": "text",
     "上线时间": "date",
     "章节起点": "datetime",
-    "章节终点": "datetime"
+    "章节终点": "datetime",
+    "心相标签": "multitext"
   }
 }

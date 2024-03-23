@@ -491,9 +491,12 @@
               "心相",
               "Name",
               "星级",
+              "心相标签",
               "cssclasses",
               "exonym",
-              "tags"
+              "tags",
+              "轶事",
+              "aliases"
             ]
           },
           "filter": {
