@@ -39,7 +39,13 @@ class grad_button g_blue tiny
 ```
 ^button-story
 
-
+```button
+name ⚠️ README
+type command
+action Workspaces Plus: Load: README
+class grad_button g_yellow tiny
+```
+^button-readme
 
 ```button
 name 💌 GitHub

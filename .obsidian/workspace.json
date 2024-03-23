@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
-                "mode": "source",
+                "file": "000-箱的构成/主页.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -244,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/插件/buttons.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,11 +295,12 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构成/主页.md",
     "README.md",
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/主页.md",
+    "000-箱的构成/插件/buttons.md",
     "000-箱的构成/自动化创建角色档案.md",
     "400-箱外世界/暴雨时间线.md",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
     "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
     "200-相从心生/角色心相/在四方城外｜Outside the City.md",
@@ -311,7 +312,6 @@
     "200-相从心生/角色心相/另一个故事｜Another Story.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
     "马库斯.md",
-    "000-箱的构成/插件/buttons.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "button.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
