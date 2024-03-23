@@ -286,7 +286,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313
+    "width": 313,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,8 +310,10 @@
   },
   "active": "783ae17167627c36",
   "lastOpenFiles": [
-    "000-箱的构成/常用工具.md",
     "200-相从心生/普通心相/领航｜Navigating.md",
+    "200-相从心生/普通心相/assets/领航｜Navigating.assets/心相 领航.png",
+    "200-相从心生/普通心相/assets/领航｜Navigating.assets",
+    "000-箱的构成/常用工具.md",
     "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets/心相 崇奉.png",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
@@ -348,12 +351,9 @@
     "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets",
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/心相 启寤Ⅱ.png",
-    "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ 1.png",
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets",
-    "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "README.md",
-    "000-箱的构成/插件/buttons.md",
-    "400-箱外世界/暴雨时间线.md"
+    "000-箱的构成/插件/buttons.md"
   ]
 }
