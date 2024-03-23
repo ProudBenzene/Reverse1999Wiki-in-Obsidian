@@ -11,6 +11,7 @@ cssclasses:
 人物: "[[帕米埃]]"
 轶事: 帕米埃·直到长夜下旬
 实装版本: 1.5｜复兴！乌卢鲁运动会
+aliases: 
 ---
 ![cover](assets/步此苦旅｜Take%20the%20Hard%20Journey.assets/心相%20步此苦旅.png)
 

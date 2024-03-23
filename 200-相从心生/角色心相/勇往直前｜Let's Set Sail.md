@@ -13,6 +13,7 @@ cssclasses:
 人物: "[[埃里克]]"
 轶事: 埃里克·美梦后记
 实装版本: 1.5｜复兴！乌卢鲁运动会
+aliases: 
 ---
 ![cover](assets/勇往直前｜Let's%20Set%20Sail.assets/心相%20勇往直前.png)
 

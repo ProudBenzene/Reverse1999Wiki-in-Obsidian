@@ -11,6 +11,7 @@ cssclasses:
 人物: "[[尼克·波顿]]"
 轶事: 雾行者·奥利弗的故事
 实装版本: 1.4｜洞穴的囚徒
+aliases: 
 ---
 ![cover](assets/荒唐余生｜Remaining%20Absurdity.assets/心相%20荒唐余生.png)
 

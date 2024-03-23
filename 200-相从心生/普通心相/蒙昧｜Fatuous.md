@@ -11,6 +11,7 @@ cssclasses:
 人物: 
 轶事: 
 实装版本:
+aliases: 
 ---
 ![cover](assets/蒙昧｜Fatuous.assets/心相%20蒙昧.png)
 

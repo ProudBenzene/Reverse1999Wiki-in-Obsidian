@@ -13,6 +13,7 @@ cssclasses:
 人物: "[[星之眼]]"
 轶事: 星之眼 · 庸碌喜剧
 实装版本: 1.6｜朔日手记
+aliases: 
 ---
 ![cover](assets/茶歇时间｜Tea%20Break.assets/心相%20茶歇时间.png)
 

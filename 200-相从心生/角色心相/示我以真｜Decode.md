@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 示我以真.png]]"
 人物: "[[约翰·提托]]"
 实装版本:
+aliases: 
 ---
 ![cover](assets/示我以真｜Decode.assets/心相%20示我以真.png)
 

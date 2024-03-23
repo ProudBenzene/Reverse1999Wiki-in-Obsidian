@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 明日亦然.png]]"
 人物: "[[雾行者]]"
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/明日亦然｜Tomorrow%20Also.assets/心相%20明日亦然.png)
 

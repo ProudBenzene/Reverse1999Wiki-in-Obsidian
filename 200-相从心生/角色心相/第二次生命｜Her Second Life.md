@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 第二次生命.png]]"
 人物: "[[槲寄生｜Druvis III|槲寄生]]"
 实装版本: "1.0"
+aliases: 
 ---
 
 ![cover](assets/第二次生命｜Her%20Second%20Life.assets/心相%20第二次生命.png)

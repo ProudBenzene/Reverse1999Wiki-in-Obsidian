@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 心驰神往.png]]"
 人物: "[[铅玻璃]]"
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/心驰神往｜Yearning%20Desire.assets/心相%20心驰神往.png)
 

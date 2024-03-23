@@ -11,6 +11,7 @@ cssclasses:
 心相: "[[心相 沉默与向往.png]]"
 人物: "[[柏林以东]]"
 实装版本: 1.4｜洞穴的囚徒
+aliases: 
 ---
 ![cover](assets/沉默与向往｜Silent%20and%20Adoring.assets/心相%20沉默与向往.png)
 

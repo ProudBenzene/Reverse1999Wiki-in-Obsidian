@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 午后小憩.png]]"
 人物: "[[AppLe]]"
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/午后小憩｜An%20Afternoon%20Nap.assets/心相%20午后小憩.png)
 

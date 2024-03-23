@@ -11,6 +11,7 @@ cssclasses:
 人物: 
 轶事: 
 实装版本:
+aliases: 
 ---
 ![cover](assets/麻木｜Numb.assets/心相%20麻木.png)
 

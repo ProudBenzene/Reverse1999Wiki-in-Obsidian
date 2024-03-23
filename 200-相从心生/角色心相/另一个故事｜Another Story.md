@@ -11,6 +11,7 @@ cssclasses:
 心相: "[[心相 另一个故事.png]]"
 人物: "[[马库斯｜Marcus|马库斯]]"
 实装版本: 1.7｜今夜星光灿烂
+aliases: 
 ---
 ![cover](assets/另一个故事｜Another%20Story.assets/心相%20另一个故事.png)
 

@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 乖孩子晚安.png]]"
 人物: "[[气球派对]]"
 实装版本: 未实装
+aliases: 
 ---
 ![cover](assets/乖孩子晚安｜Sleep%20Tight%20Good%20Kid.assets/心相%20乖孩子晚安.png)
 

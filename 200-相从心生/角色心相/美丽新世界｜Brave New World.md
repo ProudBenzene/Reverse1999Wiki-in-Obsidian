@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 美丽新世界.png]]"
 人物: "[[十四行诗｜Sonetto|十四行诗]]"
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/美丽新世界｜Brave%20New%20World.assets/心相%20美丽新世界.png)
 

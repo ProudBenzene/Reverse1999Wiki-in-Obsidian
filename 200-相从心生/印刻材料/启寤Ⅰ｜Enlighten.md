@@ -11,6 +11,7 @@ cssclasses:
 人物: 
 轶事: 
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/启寤Ⅰ｜Enlighten.assets/心相%20启寤Ⅰ.png)
 

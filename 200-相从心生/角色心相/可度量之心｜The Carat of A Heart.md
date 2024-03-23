@@ -11,6 +11,7 @@ cssclasses:
 心相: "[[心相 可度量之心.png]]"
 人物: "[[坦南特]]"
 实装版本: 1.3｜行至摩卢旁卡
+aliases: 
 ---
 ![cover](assets/可度量之心｜The%20Carat%20of%20A%20Heart.assets/心相%20可度量之心.png)
 

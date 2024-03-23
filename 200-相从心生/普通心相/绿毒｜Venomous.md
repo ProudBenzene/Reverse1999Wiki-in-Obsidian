@@ -11,6 +11,7 @@ cssclasses:
 人物: 
 轶事: 
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/绿毒｜Venomous.assets/心相%20绿毒.png)
 

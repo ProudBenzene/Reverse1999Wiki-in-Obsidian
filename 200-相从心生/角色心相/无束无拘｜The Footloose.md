@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 无束无拘.png]]"
 人物: "[[莉拉妮]]"
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/无束无拘｜The%20Footloose.assets/心相%20无束无拘.png)
 

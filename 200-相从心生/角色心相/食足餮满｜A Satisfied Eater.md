@@ -13,6 +13,7 @@ cssclasses:
 人物: "[[狼群]]"
 轶事: "夏利·戏剧与戏剧"
 实装版本: 1.4｜洞穴的囚徒
+aliases: 
 ---
 ![cover](assets/食足餮满｜A%20Satisfied%20Eater.assets/心相%20食足餮满.png)
 

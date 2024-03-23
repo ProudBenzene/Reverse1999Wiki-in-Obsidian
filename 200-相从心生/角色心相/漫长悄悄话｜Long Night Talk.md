@@ -11,6 +11,7 @@ cssclasses:
 心相: "[[心相 漫长悄悄话.png]]"
 人物: "[[可燃点｜Spathodea|可燃点]]"
 实装版本: 1.5｜复兴！乌卢鲁运动会
+aliases: 
 ---
 ![cover](assets/漫长悄悄话｜Long%20Night%20Talk.assets/心相%20漫长悄悄话.png)
 

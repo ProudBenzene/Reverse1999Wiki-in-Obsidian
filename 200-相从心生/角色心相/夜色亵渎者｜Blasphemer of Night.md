@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 夜色亵渎者.png]]"
 人物: "[[斯奈德]]"
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/夜色亵渎者｜Blasphemer%20of%20Night.assets/心相%20夜色亵渎者.png)
 

@@ -11,6 +11,7 @@ cssclasses:
 心相: "[[心相 在仙境之外.png]]"
 人物: "[[婴儿蓝]]"
 实装版本: 1.2｜绿湖噩梦
+aliases: 
 ---
 ![cover](assets/在仙境之外｜Beyond%20Wonderland.assets/心相%20在仙境之外.png)
 

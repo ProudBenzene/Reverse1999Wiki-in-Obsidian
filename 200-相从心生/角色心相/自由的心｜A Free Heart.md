@@ -10,6 +10,7 @@ cssclasses:
 心相: "[[心相 自由的心.png]]"
 人物: "[[冬]]"
 实装版本: "1.0"
+aliases: 
 ---
 ![cover](assets/自由的心｜A%20Free%20Heart.assets/心相%20自由的心.png)
 
