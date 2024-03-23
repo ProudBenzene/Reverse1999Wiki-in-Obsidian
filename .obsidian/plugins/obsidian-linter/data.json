@@ -271,8 +271,8 @@
   "customRegexes": [
     {
       "label": "替换",
-      "find": "(Name:\\s*)(.*?)([\\s\\S]*?)(exonym:\\s*)(.*?)([\\s\\S]*?)(aliases:\\s\\s*)",
-      "replace": "$1$2$3$4$5$6$7\\n- $2\\n- $5",
+      "find": "(Name:\\s*)(.*?)([\\s\\S]*?)(exonym:\\s*)(.*?)([\\s\\S]*?)(aliases:\\s*\\n(?:- .*\\n)*)",
+      "replace": "$1$2$3$4$5$6$7 - $2\\n - $5\\n",
       "flags": "gm"
     }
   ],

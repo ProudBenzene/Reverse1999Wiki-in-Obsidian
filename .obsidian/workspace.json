@@ -44,39 +44,15 @@
             }
           },
           {
-            "id": "9e701859e0765172",
+            "id": "95f89cae69831722",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "31e109e7396bb65f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "818ef3a342600efb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -144,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -270,7 +244,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +260,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,8 +270,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313,
-    "collapsed": true
+    "width": 313
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,15 +291,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "818ef3a342600efb",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
-    "000-箱的构成/自动化创建角色档案.md",
-    "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
-    "200-相从心生/普通心相/麻木｜Numb.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
     "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+    "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
+    "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
+    "000-箱的构成/自动化创建角色档案.md",
+    "200-相从心生/普通心相/麻木｜Numb.md",
     "200-相从心生/普通心相/轻藐｜Slighted.md",
     "200-相从心生/普通心相/蓬勃｜Flourishing.md",
-    "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "000-箱的构成/templates/相从心生.md",
     "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/普通心相/怅然｜LOSS.md",
@@ -337,8 +311,6 @@
     "200-相从心生/角色心相/崭新一页｜A New Leaf.md",
     "200-相从心生/角色心相/心驰神往｜Yearning Desire.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
-    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
-    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets/心相 轻藐.png",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets",
@@ -362,7 +334,6 @@
     "200-相从心生/普通心相/assets/无餍｜Covet.assets/Covet.png",
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets/心相 蒙昧.png",
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets",
-    "200-相从心生/普通心相/领航｜Navigating.md",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets/心相 领航.png",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets",

@@ -1,17 +1,17 @@
 ---
 Name: 漫长悄悄话
-exonym: Long Night Talk
+exonym: Her Second Life
 星级: ✦✦✦✦✦✦
 tags:
   - 限定
 cssclasses:
   - book
 强化属性: 术法威力
-心相标签: 
+心相标签:
 心相: "[[心相 漫长悄悄话.png]]"
 人物: "[[可燃点｜Spathodea|可燃点]]"
 实装版本: 1.5｜复兴！乌卢鲁运动会
-aliases: 
+aliases:
 ---
 ![cover](assets/漫长悄悄话｜Long%20Night%20Talk.assets/心相%20漫长悄悄话.png)
 
