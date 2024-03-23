@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "543989f097320130",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/普通心相/麻木｜Numb.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "200-相从心生/普通心相/麻木｜Numb.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,6 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200-相从心生/普通心相/麻木｜Numb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,6 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200-相从心生/普通心相/麻木｜Numb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,16 +308,20 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "8724b795663eff4f",
+  "active": "543989f097320130",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/普通心相/麻木｜Numb.md",
+    "200-相从心生/普通心相/蒙昧｜Fatuous.md",
+    "200-相从心生/普通心相/静谧｜Meek.md",
+    "200-相从心生/普通心相/assets/静谧｜Meek.assets/心相 静谧.png",
+    "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/印刻材料/贪欲｜Greed.md",
     "200-相从心生/普通心相/无餍｜Covet.md",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets/心相 无餍.png",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets/Covet.png",
-    "200-相从心生/普通心相/蒙昧｜Fatuous.md",
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets/心相 蒙昧.png",
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/普通心相/领航｜Navigating.md",
     "000-箱的构成/自动化创建角色档案.md",
     "000-箱的构成/templates/印刻材料.md",
@@ -312,7 +331,6 @@
     "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets/心相 领航.png",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets",
-    "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets/心相 崇奉.png",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets",
@@ -320,8 +338,6 @@
     "200-相从心生/普通心相/绿毒｜Venomous.md",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets/心相 绿毒.png",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets",
-    "200-相从心生/普通心相/静谧｜Meek.md",
-    "200-相从心生/普通心相/assets/静谧｜Meek.assets/心相 静谧.png",
     "200-相从心生/普通心相/assets/静谧｜Meek.assets",
     "300-以影像之/300-以影像之.md",
     "200-相从心生/印刻材料/assets/贪欲｜Greed.assets/心相 贪欲.png",
