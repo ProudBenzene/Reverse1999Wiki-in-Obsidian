@@ -11,7 +11,9 @@ cssclasses:
 心相: "[[心相 敲响这窄门.png]]"
 人物: "[[伊索尔德｜Isolde|伊索尔德]]"
 实装版本: 1.7｜今夜星光灿烂
-aliases: 
+aliases:
+  - 敲响这窄门
+  - Knock on the Door
 ---
 ![cover](assets/敲响这窄门｜Knock%20on%20the%20Door.assets/心相%20敲响这窄门.png)
 

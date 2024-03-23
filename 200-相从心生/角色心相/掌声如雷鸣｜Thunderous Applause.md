@@ -10,7 +10,9 @@ cssclasses:
 心相: "[[心相 掌声如雷鸣.png]]"
 人物: "[[夏利]]"
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 掌声如雷鸣
+  - Thunderous Applause
 ---
 ![cover](assets/掌声如雷鸣｜Thunderous%20Applause.assets/心相%20掌声如雷鸣.png)
 

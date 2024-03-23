@@ -10,7 +10,9 @@ cssclasses:
 心相: "[[心相 跳房子游戏.png]]"
 人物: "[[玛蒂尔达]]"
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 跳房子游戏
+  - Hopscotch
 ---
 ![cover](assets/跳房子游戏｜Hopscotch.assets/心相%20跳房子游戏.png)
 

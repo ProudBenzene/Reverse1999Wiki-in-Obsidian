@@ -11,7 +11,9 @@ cssclasses:
 心相: "[[心相 请保持平衡.png]]"
 人物: "[[X]]"
 实装版本: 1.4｜洞穴的囚徒
-aliases: 
+aliases:
+  - 请保持平衡
+  - Balance, Please
 ---
 ![cover](assets/请保持平衡｜Balance,%20Please.assets/心相%20请保持平衡.png)
 > [!note] 印象｜Impression

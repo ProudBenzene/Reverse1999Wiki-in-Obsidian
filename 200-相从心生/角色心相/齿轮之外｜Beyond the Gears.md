@@ -13,7 +13,9 @@ cssclasses:
 人物: "[[X]]"
 轶事: X · 齿轮的意志
 实装版本: 1.7｜今夜星光灿烂
-aliases: 
+aliases:
+  - 齿轮之外
+  - Beyond the Gears
 ---
 ![cover](assets/齿轮之外｜Beyond%20the%20Gears.assets/心相%20齿轮之外.png)
 

@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/主页.assets",
+  "attachmentFolderPath": "./assets/荒唐余生｜Remaining Absurdity.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
@@ -13,5 +13,6 @@
     "downscalePercent": 100
   },
   "newFileLocation": "root",
-  "livePreview": false
+  "livePreview": false,
+  "defaultViewMode": "preview"
 }

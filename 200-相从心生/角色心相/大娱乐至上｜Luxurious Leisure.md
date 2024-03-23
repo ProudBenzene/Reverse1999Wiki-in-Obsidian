@@ -11,7 +11,9 @@ cssclasses:
 心相: "[[心相 大娱乐至上.png]]"
 人物: "[[玛丽莲]]"
 实装版本: 1.1｜雷米特杯失窃案
-aliases: 
+aliases:
+  - 大娱乐至上
+  - Luxurious Leisure
 ---
 ![cover](assets/大娱乐至上｜Luxurious%20Leisure.assets/心相%20大娱乐至上.png)
 

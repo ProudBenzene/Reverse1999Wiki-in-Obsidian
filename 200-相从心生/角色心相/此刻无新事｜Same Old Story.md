@@ -11,7 +11,9 @@ cssclasses:
 心相: "[[心相 此刻无新事.png]]"
 人物: "[[葛天]]"
 实装版本: 1.6｜朔日手记
-aliases: 
+aliases:
+  - 此刻无新事
+  - Same Old Story
 ---
 ![cover](assets/此刻无新事｜Same%20Old%20Story.assets/心相%20此刻无新事.png)
 

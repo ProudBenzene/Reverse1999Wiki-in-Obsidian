@@ -10,7 +10,9 @@ cssclasses:
 心相: "[[心相 好奇心宝贝.png]]"
 人物: "[[苏芙比]]"
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 好奇心宝贝
+  - That Inquisitive Dear
 ---
 ![cover](assets/好奇心宝贝｜That%20Inquisitive%20Dear.assets/心相%20好奇心宝贝.png)
 

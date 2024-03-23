@@ -10,7 +10,9 @@ cssclasses:
 心相: "[[心相 必要的记录.png]]"
 人物: "[[咔嚓咔嚓]]"
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 必要的记录
+  - His Bounden Duty
 ---
 ![cover](assets/必要的记录｜His%20Bounden%20Duty.assets/心相%20必要的记录.png)
 

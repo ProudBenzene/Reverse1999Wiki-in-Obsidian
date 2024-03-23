@@ -2,15 +2,17 @@
 Name: 美丽新世界
 exonym: Brave New World
 星级: ✦✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 仪式威力
-心相标签:
+心相标签: 
 心相: "[[心相 美丽新世界.png]]"
 人物: "[[十四行诗｜Sonetto|十四行诗]]"
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 美丽新世界
+  - Brave New World
 ---
 ![cover](assets/美丽新世界｜Brave%20New%20World.assets/心相%20美丽新世界.png)
 

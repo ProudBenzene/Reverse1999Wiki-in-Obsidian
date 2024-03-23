@@ -11,7 +11,9 @@ cssclasses:
 心相: "[[心相 在四方城外.png]]"
 人物: "[[曲娘｜Jiu Niangzi|曲娘]]"
 实装版本: 1.6｜朔日手记
-aliases: 
+aliases:
+  - 在四方城外
+  - Outside the City
 ---
 ![cover](assets/在四方城外｜Outside%20the%20City.assets/心相%20在四方城外.png)
 
