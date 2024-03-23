@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -270,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,15 +320,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "31e109e7396bb65f",
+  "active": "818ef3a342600efb",
   "lastOpenFiles": [
+    "000-箱的构成/自动化创建角色档案.md",
+    "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
     "200-相从心生/普通心相/麻木｜Numb.md",
     "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
     "200-相从心生/普通心相/轻藐｜Slighted.md",
     "200-相从心生/普通心相/蓬勃｜Flourishing.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "000-箱的构成/templates/相从心生.md",
-    "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/普通心相/怅然｜LOSS.md",
     "200-相从心生/普通心相/无餍｜Covet.md",
@@ -362,7 +363,6 @@
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets/心相 蒙昧.png",
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets",
     "200-相从心生/普通心相/领航｜Navigating.md",
-    "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets/心相 领航.png",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
