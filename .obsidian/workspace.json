@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "c6d7d0bc7ba97e6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,8 +273,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313,
-    "collapsed": true
+    "width": 313
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,13 +294,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c6d7d0bc7ba97e6f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/主页.md",
+    "300-以影像之/300-以影像之.md",
+    "200-相从心生/印刻材料/贪欲｜Greed.md",
     "200-相从心生/印刻材料/assets/贪欲｜Greed.assets/心相 贪欲.png",
     "200-相从心生/印刻材料/assets/贪欲｜Greed.assets",
-    "000-箱的构成/常用工具.md",
-    "200-相从心生/印刻材料/贪欲｜Greed.md",
-    "000-箱的构成/主页.md",
     "200-相从心生/印刻材料/饕餮｜Gluttony.md",
     "000-箱的构成/templates/印刻材料.md",
     "200-相从心生/印刻材料/assets/饕餮｜Gluttony.assets/心相 饕餮.png",
@@ -343,12 +330,10 @@
     "000-箱的构成/templates/UTTU人物合辑.md",
     "200-相从心生/印刻材料/assets",
     "200-相从心生/印刻材料",
-    "300-以影像之/300-以影像之.md",
     "README.md",
     "000-箱的构成/templates/相从心生.md",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets",
     "000-箱的构成/assets/README.assets/角色档案.png",
-    "000-箱的构成/assets/README.assets/示例库主页.png",
     "000-箱的构成/assets/README.assets",
     "000-箱的构成/插件/buttons.md",
     "400-箱外世界/暴雨时间线.md",
