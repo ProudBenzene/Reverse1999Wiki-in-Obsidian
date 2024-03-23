@@ -6,6 +6,7 @@ tags:
 cssclasses:
   - book
 强化属性: 
+心相标签: 
 心相: "[[心相 掠影.png]]"
 人物: 
 轶事: 
