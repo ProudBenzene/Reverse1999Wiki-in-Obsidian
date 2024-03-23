@@ -11,7 +11,9 @@ cssclasses:
 人物: 
 轶事: 
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 欢声
+  - Cheering
 ---
 ![cover](assets/欢声｜Cheering.assets/心相%20欢声.png)
 

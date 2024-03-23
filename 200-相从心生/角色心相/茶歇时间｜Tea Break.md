@@ -8,12 +8,14 @@ tags:
 cssclasses:
   - book
 强化属性: 创伤加成
-心相标签:
+心相标签: 
 心相: "[[心相 茶歇时间.png]]"
 人物: "[[星之眼]]"
 轶事: 星之眼 · 庸碌喜剧
 实装版本: 1.6｜朔日手记
-aliases: 
+aliases:
+  - 茶歇时间
+  - Tea Break
 ---
 ![cover](assets/茶歇时间｜Tea%20Break.assets/心相%20茶歇时间.png)
 

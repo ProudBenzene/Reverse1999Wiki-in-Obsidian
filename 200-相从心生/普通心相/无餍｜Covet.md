@@ -2,16 +2,18 @@
 Name: 无餍
 exonym: Covet
 星级: ✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 暴击率
-心相标签:
+心相标签: 
 心相: "[[心相 无餍.png]]"
-人物:
-轶事:
+人物: 
+轶事: 
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 无餍
+  - Covet
 ---
 ![cover](assets/无餍｜Covet.assets/心相%20无餍.png)
 

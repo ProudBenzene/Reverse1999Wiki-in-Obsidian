@@ -13,7 +13,9 @@ cssclasses:
 人物: "[[冬]]"
 轶事: 冬 · 重返人间
 实装版本: 1.6｜朔日手记
-aliases: 
+aliases:
+  - 崭新一页
+  - A New Leaf
 ---
 ![cover](assets/崭新一页｜A%20New%20Leaf.assets/心相%20崭新一页.png)
 

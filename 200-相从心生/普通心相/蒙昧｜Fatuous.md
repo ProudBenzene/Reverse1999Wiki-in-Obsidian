@@ -10,8 +10,10 @@ cssclasses:
 心相: "[[心相 蒙昧.png]]"
 人物: 
 轶事: 
-实装版本:
-aliases: 
+实装版本: 
+aliases:
+  - 蒙昧
+  - Fatuous
 ---
 ![cover](assets/蒙昧｜Fatuous.assets/心相%20蒙昧.png)
 

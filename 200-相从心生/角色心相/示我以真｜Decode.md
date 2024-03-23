@@ -2,15 +2,17 @@
 Name: 示我以真
 exonym: Decode
 星级: ✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 治疗率
 心相标签: 
 心相: "[[心相 示我以真.png]]"
 人物: "[[约翰·提托]]"
-实装版本:
-aliases: 
+实装版本: "1.0"
+aliases:
+  - 示我以真
+  - Decode
 ---
 ![cover](assets/示我以真｜Decode.assets/心相%20示我以真.png)
 

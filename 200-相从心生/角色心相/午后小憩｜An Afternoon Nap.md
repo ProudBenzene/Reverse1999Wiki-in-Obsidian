@@ -2,7 +2,7 @@
 Name: 午后小憩
 exonym: An Afternoon Nap
 星级: ✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 暴击率
@@ -10,7 +10,9 @@ cssclasses:
 心相: "[[心相 午后小憩.png]]"
 人物: "[[AppLe]]"
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 午后小憩
+  - An Afternoon Nap
 ---
 ![cover](assets/午后小憩｜An%20Afternoon%20Nap.assets/心相%20午后小憩.png)
 

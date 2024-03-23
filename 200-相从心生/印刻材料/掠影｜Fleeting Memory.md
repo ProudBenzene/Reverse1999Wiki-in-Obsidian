@@ -11,7 +11,9 @@ cssclasses:
 人物: 
 轶事: 
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 掠影
+  - Fleeting Memory
 ---
 ![cover](assets/掠影｜Fleeting%20Memory.assets/心相%20掠影.png)
 

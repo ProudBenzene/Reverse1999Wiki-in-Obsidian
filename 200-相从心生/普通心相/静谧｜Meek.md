@@ -11,7 +11,9 @@ cssclasses:
 人物: 
 轶事: 
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 静谧
+  - Meek
 ---
 ![cover](assets/静谧｜Meek.assets/心相%20静谧.png)
 

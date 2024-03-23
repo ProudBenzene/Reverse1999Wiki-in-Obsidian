@@ -1,6 +1,6 @@
 ---
 Name: 领航
-exonym: Navigating
+exonym: Navigatinga
 星级: ✦✦✦✦
 tags: 
 cssclasses:
@@ -11,7 +11,9 @@ cssclasses:
 人物: 
 轶事: 
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 领航
+  - Navigatinga
 ---
 ![cover](assets/领航｜Navigating.assets/心相%20领航.png)
 

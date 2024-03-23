@@ -10,7 +10,9 @@ cssclasses:
 心相: "[[心相 笑语欢声.png]]"
 人物: 重塑之手
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 笑语欢声
+  - Laughter and Laughter
 ---
 ![cover](assets/笑语欢声｜Laughter%20and%20Laughter.assets/心相%20笑语欢声.png)
 

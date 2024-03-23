@@ -2,16 +2,18 @@
 Name: 步此苦旅
 exonym: Take the Hard Journey
 星级: ✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 治疗率
-心相标签:
+心相标签: 
 心相: "[[心相 步此苦旅.png]]"
 人物: "[[帕米埃]]"
 轶事: 帕米埃·直到长夜下旬
 实装版本: 1.5｜复兴！乌卢鲁运动会
-aliases: 
+aliases:
+  - 步此苦旅
+  - Take the Hard Journey
 ---
 ![cover](assets/步此苦旅｜Take%20the%20Hard%20Journey.assets/心相%20步此苦旅.png)
 

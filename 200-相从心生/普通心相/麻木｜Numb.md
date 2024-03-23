@@ -7,11 +7,13 @@ cssclasses:
   - book
 强化属性: 
 心相标签: 
-心相: '[[心相 麻木.png]]'
+心相: "[[心相 麻木.png]]"
 人物: 
 轶事: 
-实装版本:
-aliases: 
+实装版本: 
+aliases:
+  - 麻木
+  - Numb
 ---
 ![cover](assets/麻木｜Numb.assets/心相%20麻木.png)
 

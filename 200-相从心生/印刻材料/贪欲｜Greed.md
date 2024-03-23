@@ -11,7 +11,9 @@ cssclasses:
 人物: 
 轶事: 
 实装版本: 1.4｜洞穴的囚徒
-aliases: 
+aliases:
+  - 贪欲
+  - Greed
 ---
 ![cover](assets/贪欲｜Greed.assets/心相%20贪欲.png)
 

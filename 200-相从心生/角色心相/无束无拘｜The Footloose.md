@@ -2,7 +2,7 @@
 Name: 无束无拘
 exonym: The Footloose
 星级: ✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 仪式威力
@@ -10,7 +10,9 @@ cssclasses:
 心相: "[[心相 无束无拘.png]]"
 人物: "[[莉拉妮]]"
 实装版本: "1.0"
-aliases: 
+aliases:
+  - 无束无拘
+  - The Footloose
 ---
 ![cover](assets/无束无拘｜The%20Footloose.assets/心相%20无束无拘.png)
 
