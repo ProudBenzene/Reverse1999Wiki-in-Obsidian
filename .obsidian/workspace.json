@@ -44,7 +44,19 @@
             }
           },
           {
-            "id": "8724b795663eff4f",
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9e701859e0765172",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
@@ -52,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -271,7 +283,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313
+    "width": 313,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,12 +305,20 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "8724b795663eff4f",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+    "000-箱的构成/自动化创建角色档案.md",
+    "200-相从心生/普通心相/轻藐｜Slighted.md",
+    "200-相从心生/普通心相/assets/轻藐｜Slighted.assets/心相 轻藐.png",
+    "200-相从心生/普通心相/assets/轻藐｜Slighted.assets",
+    "000-箱的构成/常用工具.md",
     "200-相从心生/普通心相/蓬勃｜Flourishing.md",
     "200-相从心生/普通心相/assets/蓬勃｜Flourishing.assets/心相 蓬勃.png",
     "200-相从心生/普通心相/assets/蓬勃｜Flourishing.assets",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/普通心相/怅然｜LOSS.md",
     "200-相从心生/普通心相/assets/怅然｜LOSS.assets/心相 怅然.png",
     "200-相从心生/普通心相/assets/怅然｜LOSS.assets",
@@ -321,23 +342,15 @@
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets/心相 蒙昧.png",
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets",
     "200-相从心生/普通心相/领航｜Navigating.md",
-    "000-箱的构成/自动化创建角色档案.md",
-    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
-    "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
     "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets/心相 领航.png",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets",
-    "200-相从心生/普通心相/assets/崇奉｜Bow.assets/心相 崇奉.png",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets",
-    "000-箱的构成/主页.md",
     "200-相从心生/普通心相/绿毒｜Venomous.md",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets",
-    "200-相从心生/普通心相/assets/静谧｜Meek.assets",
     "300-以影像之/300-以影像之.md",
     "200-相从心生/印刻材料/饕餮｜Gluttony.md",
-    "200-相从心生/普通心相/饕餮｜Gluttony.md",
-    "200-相从心生/普通心相/笑语欢声｜Laughter and Laughter.md",
-    "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md"
+    "200-相从心生/普通心相/饕餮｜Gluttony.md"
   ]
 }
