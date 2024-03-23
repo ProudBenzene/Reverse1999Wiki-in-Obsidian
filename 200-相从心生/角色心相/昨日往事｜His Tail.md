@@ -8,8 +8,9 @@ tags:
 cssclasses:
   - book
 强化属性: 创伤加成
-心相标签: 
-心相: "[[心相 昨日往事.png]]"
+心相标签:
+  - 攻击
+心相: "[[assets/昨日往事｜His Tail.assets/心相 昨日往事.png]]"
 人物: "[[未锈铠]]"
 轶事: 未锈铠 · 第九条美德
 实装版本: 1.7｜今夜星光灿烂
@@ -17,10 +18,10 @@ aliases:
   - 昨日往事
   - His Tail
 ---
-![cover](assets/昨日往事.assets/心相%20昨日往事.png)
+![cover](assets/昨日往事｜His%20Tail.assets/心相%20昨日往事.png)
 
 > [!note] 印象｜Impression
-> ![心相 昨日往事|inlL|300](assets/昨日往事.assets/心相%20昨日往事.png)
+> ![心相 昨日往事|inlL|300](assets/昨日往事｜His%20Tail.assets/心相%20昨日往事.png)
 > <p style="font-family: '家族宋', sans-serif; font-size: 22px; line-height: 0.75; text-indent: 0;">昨日往事<br><span style="font-family: serif; font-size: 14px; color: #888888;">undefined</span></p>
 > 
 > 林间的兽，或是飞矢下的头颅；  

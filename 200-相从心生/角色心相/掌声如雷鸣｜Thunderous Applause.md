@@ -2,11 +2,14 @@
 Name: 掌声如雷鸣
 exonym: Thunderous Applause
 星级: ✦✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 暴击率
-心相标签: ""
+心相标签:
+  - ""
+  - 攻击
+  - 暴击
 心相: "[[心相 掌声如雷鸣.png]]"
 人物: "[[夏利]]"
 实装版本: "1.0"
