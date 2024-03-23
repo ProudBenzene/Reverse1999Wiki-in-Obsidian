@@ -272,7 +272,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313
+    "width": 313,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,13 +296,18 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "200-相从心生/普通心相/饕餮｜Gluttony.md",
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/普通心相/笑语欢声｜Laughter and Laughter.md",
+    "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
+    "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
+    "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
     "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
     "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
     "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/心相 启寤Ⅰ.png",
-    "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
-    "000-箱的构成/主页.md",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/心相 掠影.png",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets",
     "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
@@ -312,7 +318,6 @@
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ 1.png",
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/templates/印刻材料.md",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
@@ -335,9 +340,6 @@
     "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
     "200-相从心生/角色心相/美丽新世界｜Brave New World.md",
     "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
-    "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
-    "200-相从心生/角色心相/另一个故事｜Another Story.md",
-    "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/至终的仪式 亘古亘今的启示.png",
     "200-相从心生/普通心相/assets"
   ]

@@ -6,7 +6,7 @@ tags:
 cssclasses:
   - book
 强化属性: 受创减免
-心相: "[[assets/笑语欢声｜Laughter and Laughter.assets/心相 笑语欢声.png]]"
+心相: "[[心相 笑语欢声.png]]"
 人物: 重塑之手
 实装版本: "1.0"
 ---
