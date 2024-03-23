@@ -1,17 +1,17 @@
 ---
-Name: 启寤Ⅳ
+Name: 启寤Ⅱ
 exonym: Enlighten
-星级: ✦✦✦✦✦
+星级: ✦✦✦
 tags: 
 cssclasses:
   - book
 强化属性: 
-心相: "[[心相 启寤Ⅳ.png]]"
+心相: "[[心相 启寤Ⅱ.png]]"
 人物: 
 轶事: 
 实装版本: "1.0"
 ---
-![cover](assets/启寤Ⅳ｜Enlighten.assets/心相%20启寤Ⅳ.png)
+![cover](assets/启寤Ⅱ｜Enlighten.assets/心相%20启寤Ⅱ.png)
 
 > [!note] 印象｜Impression
 > ![心相 启寤Ⅳ 1|inlL|300](assets/启寤Ⅳ｜Enlighten.assets/心相%20启寤Ⅳ%201.png)
