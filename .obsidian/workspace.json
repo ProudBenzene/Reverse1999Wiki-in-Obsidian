@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -244,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,15 +293,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "README.md",
     "000-箱的构成/assets/README.assets/角色档案.png",
     "000-箱的构成/assets/README.assets/示例库主页.png",
     "000-箱的构成/assets/README.assets",
     "000-箱的构成/assets/assets",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons.md",
     "000-箱的构成/自动化创建角色档案.md",
     "400-箱外世界/暴雨时间线.md",
