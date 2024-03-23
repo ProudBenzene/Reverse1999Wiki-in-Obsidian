@@ -1,7 +1,7 @@
 ---
 Name: 勇往直前
 exonym: Let's Set Sail
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags:
   - 限定
   - 轶事

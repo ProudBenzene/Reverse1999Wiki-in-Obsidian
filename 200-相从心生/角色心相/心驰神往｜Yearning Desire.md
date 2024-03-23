@@ -1,7 +1,7 @@
 ---
 Name: 心驰神往
 exonym: Yearning Desire
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags: 
 cssclasses:
   - book

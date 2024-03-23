@@ -468,7 +468,13 @@
             "conditions": []
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "星级",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
           },
           "id": "e946b0cc-4590-4f4c-82c4-2efcc38052f4",
           "name": "画册",
@@ -497,7 +503,13 @@
             "conditions": []
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "星级",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
           },
           "id": "098ab57d-2106-4f2f-afd6-0be00ef7473a",
           "name": "表格",

@@ -1,15 +1,15 @@
 ---
 Name: 蓬勃
 exonym: Flourishing
-星级: ✦✦✦
-tags: 
+星级: ✦✦✦✦
+tags:
 cssclasses:
   - book
-强化属性: 
-心相标签: 
+强化属性:
+心相标签:
 心相: "[[心相 蓬勃.png]]"
-人物: 
-轶事: 
+人物:
+轶事:
 实装版本: "1.0"
 aliases:
   - 蓬勃

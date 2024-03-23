@@ -1,7 +1,7 @@
 ---
 Name: 崇奉
 exonym: Bow
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦
 tags: 
 cssclasses:
   - book

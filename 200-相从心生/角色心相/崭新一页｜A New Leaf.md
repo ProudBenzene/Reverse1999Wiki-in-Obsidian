@@ -1,7 +1,7 @@
 ---
 Name: 崭新一页
 exonym: A New Leaf
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags:
   - 限定
   - 轶事
