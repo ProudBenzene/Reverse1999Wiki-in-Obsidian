@@ -50,8 +50,17 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "13eab36a72e3758c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +128,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,24 +196,8 @@
     "type": "split",
     "children": [
       {
-        "id": "f3b59b964d45b39b",
-        "type": "tabs",
-        "dimension": 36.89903846153847,
-        "children": [
-          {
-            "id": "13eab36a72e3758c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "a0af558e737c8c63",
         "type": "tabs",
-        "dimension": 63.10096153846154,
         "children": [
           {
             "id": "0ff60fab5f307ba0",
@@ -244,7 +236,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +252,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +283,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "5f9e84794212822e",
+  "active": "13eab36a72e3758c",
   "lastOpenFiles": [
     "000-箱的构成/主页.md",
     "000-箱的构成/常用工具.md",

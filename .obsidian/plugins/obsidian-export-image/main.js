@@ -13092,8 +13092,7 @@ var ModalContent = ({ markdownEl, copy: copy2, save: save2, settings, app }) => 
         ref: previewOutRef,
         style: {
           height: mainHeight,
-          width: formData.width + "px",
-          maxWidth: "100%",
+          width: "100%",
           transition: "width 0.25s",
           cursor: isGrabbing ? "grabbing" : "grab"
         }
@@ -13154,7 +13153,8 @@ var ModalContent = ({ markdownEl, copy: copy2, save: save2, settings, app }) => 
                   [formData.authorInfo.position === "top" ? "borderBottom" : "borderTop"]: "1px solid var(--background-modifier-border)",
                   padding: "16px 32px",
                   justifyContent: alignMap[formData.authorInfo.align || "right"],
-                  alignItems: "center"
+                  alignItems: "center",
+                  background: "var(--background-primary)"
                 }
               },
               formData.authorInfo.avatar && /* @__PURE__ */ import_react7.default.createElement(

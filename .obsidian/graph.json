@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:100-UTTU人物合辑/",
+      "query": "path: 100-UTTU人物合辑/",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -27,18 +27,25 @@
         "a": 1,
         "rgb": 2525682
       }
+    },
+    {
+      "query": "file: README.md",
+      "color": {
+        "a": 1,
+        "rgb": 11543026
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1.9745849609375,
+  "nodeSizeMultiplier": 1.70741373697917,
+  "lineSizeMultiplier": 3.00020345052083,
   "collapse-forces": false,
-  "centerStrength": 0.599853515625,
-  "repelStrength": 10,
+  "centerStrength": 0.59619140625,
+  "repelStrength": 10.6005859375,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2886692731067512,
-  "close": true
+  "scale": 0.29657871277204706,
+  "close": false
 }
