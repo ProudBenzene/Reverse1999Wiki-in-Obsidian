@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "bf229121a08a4d54",
+            "id": "c6d7d0bc7ba97e6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/印刻材料/饕餮｜Gluttony.md",
-                "mode": "preview",
+                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/印刻材料/饕餮｜Gluttony.md",
+                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -257,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/印刻材料/饕餮｜Gluttony.md",
+                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/印刻材料/饕餮｜Gluttony.md",
+                "file": "200-相从心生/印刻材料/贪欲｜Greed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,13 +308,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "bf229121a08a4d54",
+  "active": "c6d7d0bc7ba97e6f",
   "lastOpenFiles": [
+    "200-相从心生/印刻材料/assets/贪欲｜Greed.assets/心相 贪欲.png",
+    "200-相从心生/印刻材料/assets/贪欲｜Greed.assets",
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/印刻材料/贪欲｜Greed.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/印刻材料/饕餮｜Gluttony.md",
+    "000-箱的构成/templates/印刻材料.md",
     "200-相从心生/印刻材料/assets/饕餮｜Gluttony.assets/心相 饕餮.png",
     "200-相从心生/印刻材料/assets/饕餮｜Gluttony.assets",
-    "000-箱的构成/常用工具.md",
-    "200-相从心生/印刻材料/饕餮｜Gluttony.md",
-    "000-箱的构成/主页.md",
     "200-相从心生/普通心相/饕餮｜Gluttony.md",
     "200-相从心生/普通心相/笑语欢声｜Laughter and Laughter.md",
     "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
@@ -334,7 +339,6 @@
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ 1.png",
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets",
-    "000-箱的构成/templates/印刻材料.md",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "200-相从心生/印刻材料/assets",
@@ -346,14 +350,11 @@
     "000-箱的构成/assets/README.assets/角色档案.png",
     "000-箱的构成/assets/README.assets/示例库主页.png",
     "000-箱的构成/assets/README.assets",
-    "000-箱的构成/assets/assets",
     "000-箱的构成/插件/buttons.md",
     "400-箱外世界/暴雨时间线.md",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
     "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
     "200-相从心生/角色心相/在四方城外｜Outside the City.md",
-    "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
-    "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/至终的仪式 亘古亘今的启示.png"
+    "200-相从心生/角色心相/远大前程｜Her Bright Future.md"
   ]
 }
