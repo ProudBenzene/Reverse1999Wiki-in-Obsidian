@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8f021bcb260b0f25",
+            "id": "9aadaddd821e22fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c0607bdbb332e698",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b0b24d9dc594219b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "95d0134be6a40e2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7fd1afb826441224",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
+                "file": "000-箱的构成/主页.md",
                 "mode": "preview",
                 "source": true
               }
@@ -98,9 +50,39 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "3f74fbb9869b94f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
+      },
+      {
+        "id": "18e977284dd73c96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9651149d6711b258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
+                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -293,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
+                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
+                "file": "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,13 +326,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c0607bdbb332e698",
+  "active": "3f74fbb9869b94f8",
   "lastOpenFiles": [
-    "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+    "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
     "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
     "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
+    "000-箱的构成/主页.md",
+    "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/心相 掠影.png",
+    "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets",
+    "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
     "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
-    "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/心相 启寤Ⅰ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets",
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/心相 启寤Ⅱ.png",
@@ -364,7 +350,6 @@
     "000-箱的构成/templates/UTTU人物合辑.md",
     "200-相从心生/印刻材料/assets",
     "200-相从心生/印刻材料",
-    "000-箱的构成/主页.md",
     "300-以影像之/300-以影像之.md",
     "README.md",
     "000-箱的构成/templates/相从心生.md",
@@ -386,10 +371,7 @@
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "200-相从心生/角色心相/另一个故事｜Another Story.md",
     "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
-    "马库斯.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/至终的仪式 亘古亘今的启示.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/马库斯的尤提姆.png",
-    "200-相从心生/普通心相/assets",
-    "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets"
+    "200-相从心生/普通心相/assets"
   ]
 }

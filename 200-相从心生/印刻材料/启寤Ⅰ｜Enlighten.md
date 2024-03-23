@@ -1,7 +1,7 @@
 ---
 Name: 启寤Ⅰ
 exonym: Enlighten
-星级: ✦✦✦
+星级: ✦✦
 tags: 
 cssclasses:
   - book
