@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "e840a35d9f595c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/普通心相/静谧｜Meek.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/普通心相/静谧｜Meek.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/普通心相/静谧｜Meek.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/普通心相/静谧｜Meek.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,9 +307,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "e840a35d9f595c73",
   "lastOpenFiles": [
+    "200-相从心生/普通心相/assets/静谧｜Meek.assets/心相 静谧.png",
+    "200-相从心生/普通心相/assets/静谧｜Meek.assets",
     "000-箱的构成/常用工具.md",
+    "200-相从心生/普通心相/静谧｜Meek.md",
     "000-箱的构成/主页.md",
     "300-以影像之/300-以影像之.md",
     "200-相从心生/印刻材料/贪欲｜Greed.md",
@@ -334,12 +350,10 @@
     "000-箱的构成/templates/相从心生.md",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets",
     "000-箱的构成/assets/README.assets/角色档案.png",
-    "000-箱的构成/assets/README.assets",
     "000-箱的构成/插件/buttons.md",
     "400-箱外世界/暴雨时间线.md",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
     "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
-    "200-相从心生/角色心相/在四方城外｜Outside the City.md",
-    "200-相从心生/角色心相/远大前程｜Her Bright Future.md"
+    "200-相从心生/角色心相/在四方城外｜Outside the City.md"
   ]
 }
