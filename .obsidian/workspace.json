@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "783ae17167627c36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/普通心相/领航｜Navigating.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "200-相从心生/普通心相/领航｜Navigating.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,6 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200-相从心生/普通心相/领航｜Navigating.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,6 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200-相从心生/普通心相/领航｜Navigating.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,14 +307,21 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "783ae17167627c36",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
+    "200-相从心生/普通心相/领航｜Navigating.md",
+    "200-相从心生/普通心相/崇奉｜Bow.md",
+    "200-相从心生/普通心相/assets/崇奉｜Bow.assets/心相 崇奉.png",
+    "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
+    "200-相从心生/普通心相/无餍｜Covet.md",
+    "200-相从心生/普通心相/assets/无餍｜Covet.assets/心相 无餍.png",
+    "200-相从心生/普通心相/assets/无餍｜Covet.assets",
     "000-箱的构成/主页.md",
     "200-相从心生/普通心相/绿毒｜Venomous.md",
     "000-箱的构成/templates/相从心生.md",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets/心相 绿毒.png",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/普通心相/静谧｜Meek.md",
     "200-相从心生/普通心相/assets/静谧｜Meek.assets/心相 静谧.png",
     "200-相从心生/普通心相/assets/静谧｜Meek.assets",
@@ -328,16 +350,10 @@
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/心相 启寤Ⅱ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ 1.png",
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets",
-    "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ 1.png",
-    "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets",
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "200-相从心生/印刻材料/assets",
-    "200-相从心生/印刻材料",
     "README.md",
     "000-箱的构成/插件/buttons.md",
-    "400-箱外世界/暴雨时间线.md",
-    "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
-    "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md"
+    "400-箱外世界/暴雨时间线.md"
   ]
 }
