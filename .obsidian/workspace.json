@@ -1,0 +1,346 @@
+{
+  "main": {
+    "id": "7fa45a73674a7b32",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4e7ab8c564d67d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9aadaddd821e22fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3f6df53d6a9606bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c28cfae046d28b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb7552c6126461e8",
+        "type": "tabs",
+        "dimension": 75,
+        "children": [
+          {
+            "id": "250c5f6efff2f242",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fa8a46648d62218",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4862ed181d29f3fe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "83914567a165aaad",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "710bf2a9ba69c245",
+        "type": "tabs",
+        "dimension": 25,
+        "children": [
+          {
+            "id": "e94c2006ca70689a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "path:100-UTTU人物合辑/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "path:200-相从心生/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "path:300-以影像之/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2790132
+                      }
+                    },
+                    {
+                      "query": "path:000-箱的构成/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15636512
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240
+  },
+  "right": {
+    "id": "3690d4dad9b484cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3b59b964d45b39b",
+        "type": "tabs",
+        "dimension": 36.89903846153847,
+        "children": [
+          {
+            "id": "13eab36a72e3758c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "a0af558e737c8c63",
+        "type": "tabs",
+        "dimension": 63.10096153846154,
+        "children": [
+          {
+            "id": "0ff60fab5f307ba0",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae0ee0175ee8627f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/常用工具.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e05dbb992a38c77c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "381f1e4757e8cce8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e38c54133e209543",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 313,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": false,
+      "workspaces:管理工作区布局": false,
+      "cmdr:Projects": false,
+      "canvas:新建白板": false,
+      "templater-obsidian:Templater": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "cmdr:Style Settings 悬浮面板": false,
+      "random-note:开始漫游笔记": false,
+      "cmdr:切换明暗主题": false,
+      "cmdr:在文件列表中显示当前文件": false,
+      "float-search:Search Obsidian In Modal": true,
+      "obsidian-projects:Open projects": true,
+      "obsidian42-brat:BRAT": true
+    }
+  },
+  "active": "9aadaddd821e22fa",
+  "lastOpenFiles": [
+    "000-箱的构成/templates/印刻材料.md",
+    "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+    "000-箱的构成/templates/UTTU人物合辑.md",
+    "200-相从心生/印刻材料/assets",
+    "200-相从心生/印刻材料",
+    "000-箱的构成/主页.md",
+    "300-以影像之/300-以影像之.md",
+    "README.md",
+    "000-箱的构成/templates/相从心生.md",
+    "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ 1.png",
+    "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ.png",
+    "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets",
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/assets/README.assets/角色档案.png",
+    "000-箱的构成/assets/README.assets/示例库主页.png",
+    "000-箱的构成/assets/README.assets",
+    "000-箱的构成/assets/assets",
+    "000-箱的构成/插件/buttons.md",
+    "000-箱的构成/自动化创建角色档案.md",
+    "400-箱外世界/暴雨时间线.md",
+    "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
+    "200-相从心生/角色心相/在仙境之外｜Beyond Wonderland.md",
+    "200-相从心生/角色心相/在四方城外｜Outside the City.md",
+    "200-相从心生/角色心相/远大前程｜Her Bright Future.md",
+    "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
+    "200-相从心生/角色心相/美丽新世界｜Brave New World.md",
+    "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
+    "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
+    "200-相从心生/角色心相/另一个故事｜Another Story.md",
+    "200-相从心生/角色心相/必要的记录｜His Bounden Duty.md",
+    "马库斯.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+    "button.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/至终的仪式 亘古亘今的启示.png",
+    "000-箱的构成/插件/buttons-special.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/马库斯的尤提姆.png",
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/神秘术 于灯火中1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/一阶神秘术.png",
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
+    "200-相从心生/普通心相/assets",
+    "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets",
+    "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets",
+    "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets",
+    "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets"
+  ]
+}

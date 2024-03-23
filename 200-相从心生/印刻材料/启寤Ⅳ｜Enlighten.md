@@ -1,12 +1,12 @@
 ---
 Name: 启寤Ⅳ
 exonym: Enlighten
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags: 
 cssclasses:
   - book
 强化属性: 
-心相: '[[心相 启寤Ⅳ.png]]'
+心相: "[[assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ.png]]"
 人物: 
 轶事: 
 实装版本:
@@ -25,10 +25,3 @@ cssclasses:
 > 
 > 洞明的灯火。用于心相印刻，提供大量经验。
 
-|  等级  | 增幅｜Amplify |
-| :--: | :--------: |
-| LV.1 |            |
-| LV.2 |            |
-| LV.3 |            |
-| LV.4 |            |
-| LV.5 |            |
