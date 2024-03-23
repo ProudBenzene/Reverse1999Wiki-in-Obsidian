@@ -11,7 +11,7 @@ cssclasses:
 轶事: 
 实装版本:
 ---
-
+![cover](assets/启寤Ⅳ｜Enlighten.assets/心相%20启寤Ⅳ.png)
 
 > [!note] 印象｜Impression
 > 
