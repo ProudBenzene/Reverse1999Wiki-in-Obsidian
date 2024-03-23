@@ -1,12 +1,12 @@
 ---
 Name: 自由的心
 exonym: A Free Heart
-星级: ✦✦✦✦✦✦
-tags: 
+星级: ✦✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 生命
-心相标签: 
+心相标签:
 心相: "[[心相 自由的心.png]]"
 人物: "[[冬]]"
 实装版本: "1.0"

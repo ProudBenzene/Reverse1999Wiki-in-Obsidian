@@ -268,7 +268,14 @@
   "linterLocale": "en",
   "logLevel": "ERROR",
   "lintCommands": [],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "替换",
+      "find": "(Name:\\s*)(\\w+)([\\s\\S]*?)(aliases:\\s*\\n(?:- .*\\n)*)",
+      "replace": "",
+      "flags": "gm"
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "single string comma delimited",
     "tagArrayStyle": "single string comma delimited",

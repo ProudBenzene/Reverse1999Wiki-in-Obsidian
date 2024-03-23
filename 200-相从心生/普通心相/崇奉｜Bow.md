@@ -1,15 +1,15 @@
 ---
 Name: 崇奉
 exonym: Bow
-星级: ✦✦✦
-tags: 
+星级: ✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 术法威力
-心相标签: 
+心相标签:
 心相: "[[心相 崇奉.png]]"
-人物: 
-轶事: 
+人物:
+轶事:
 实装版本: "1.0"
 ---
 ![cover](assets/崇奉｜Bow.assets/心相%20崇奉.png)

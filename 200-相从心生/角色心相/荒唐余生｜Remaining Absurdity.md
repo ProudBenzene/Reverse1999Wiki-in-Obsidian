@@ -1,12 +1,12 @@
 ---
 Name: 荒唐余生
 exonym: Remaining Absurdity
-星级: ✦✦✦✦✦✦
-tags: 
+星级: ✦✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 现实防御
-心相标签: 
+心相标签:
 心相: "[[心相 荒唐余生.png]]"
 人物: "[[尼克·波顿]]"
 轶事: 雾行者·奥利弗的故事

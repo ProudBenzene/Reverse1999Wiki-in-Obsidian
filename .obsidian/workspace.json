@@ -44,27 +44,27 @@
             }
           },
           {
-            "id": "95f89cae69831722",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "9e701859e0765172",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "818ef3a342600efb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -257,6 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,6 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/自动化创建角色档案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,8 +308,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9e701859e0765172",
+  "active": "01a2c60378addfb9",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "200-相从心生/普通心相/蓬勃｜Flourishing.md",
     "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/普通心相/怅然｜LOSS.md",
@@ -351,7 +355,6 @@
     "200-相从心生/普通心相/assets/领航｜Navigating.assets",
     "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
     "200-相从心生/普通心相/assets/无餍｜Covet.assets",
-    "200-相从心生/普通心相/绿毒｜Venomous.md",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets"
   ]
 }
