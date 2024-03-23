@@ -58,13 +58,13 @@
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/自动化创建角色档案.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,9 +308,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "01a2c60378addfb9",
+  "active": "818ef3a342600efb",
   "lastOpenFiles": [
+    "000-箱的构成/templates/相从心生.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
+    "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/普通心相/蓬勃｜Flourishing.md",
     "200-相从心生/普通心相/崇奉｜Bow.md",
     "200-相从心生/普通心相/怅然｜LOSS.md",
@@ -323,7 +325,6 @@
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
     "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
-    "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/普通心相/轻藐｜Slighted.md",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets/心相 轻藐.png",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets",
@@ -336,7 +337,6 @@
     "200-相从心生/普通心相/assets/欢声｜Cheering.assets/心相 欢声.png",
     "200-相从心生/普通心相/assets/欢声｜Cheering.assets",
     "000-箱的构成/templates/印刻材料.md",
-    "000-箱的构成/templates/相从心生.md",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "200-相从心生/普通心相/麻木｜Numb.md",
     "200-相从心生/普通心相/assets/麻木｜Numb.assets/心相 麻木.png",
