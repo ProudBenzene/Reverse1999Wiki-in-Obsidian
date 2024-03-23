@@ -20,12 +20,36 @@
             }
           },
           {
-            "id": "77cce30ae34ce34e",
+            "id": "bdf1b679845ac553",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/普通心相/启寤Ⅳ｜Enlighten.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1473116a33e7f882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/templates/相从心生-普通.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "56ea5269cca0ff9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/templates/相从心生-角色.md",
                 "mode": "source",
                 "source": true
               }
@@ -64,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/普通心相/启寤Ⅳ｜Enlighten.md",
+                "file": "000-箱的构成/templates/相从心生-角色.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -258,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/普通心相/启寤Ⅳ｜Enlighten.md",
+                "file": "000-箱的构成/templates/相从心生-角色.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +298,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/普通心相/启寤Ⅳ｜Enlighten.md",
+                "file": "000-箱的构成/templates/相从心生-角色.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,13 +331,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "77cce30ae34ce34e",
+  "active": "56ea5269cca0ff9f",
   "lastOpenFiles": [
+    "000-箱的构成/templates/相从心生-普通.md",
+    "200-相从心生/普通心相/启寤Ⅳ｜Enlighten.md",
+    "200-相从心生/普通心相/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ 1.png",
+    "000-箱的构成/主页.md",
     "200-相从心生/普通心相/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ.png",
     "200-相从心生/普通心相/assets/启寤Ⅳ｜Enlighten.assets",
     "000-箱的构成/常用工具.md",
-    "200-相从心生/普通心相/启寤Ⅳ｜Enlighten.md",
-    "000-箱的构成/主页.md",
     "README.md",
     "000-箱的构成/assets/README.assets/角色档案.png",
     "000-箱的构成/assets/README.assets/示例库主页.png",
@@ -348,8 +373,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/一阶神秘术.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
     "200-相从心生/普通心相/assets",
-    "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅.png",
-    "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅｜Take the Hard Journey.png",
     "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets",
     "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets",
