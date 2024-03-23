@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9aadaddd821e22fa",
+            "id": "8f021bcb260b0f25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bcef8e9a7303cee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
                 "mode": "preview",
                 "source": true
               }
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "file": "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -244,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "file": "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+                "file": "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,10 +308,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "bcef8e9a7303cee2",
   "lastOpenFiles": [
-    "000-箱的构成/templates/印刻材料.md",
     "200-相从心生/印刻材料/启寤Ⅳ｜Enlighten.md",
+    "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
+    "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ 1.png",
+    "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/心相 启寤Ⅲ.png",
+    "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets",
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/templates/印刻材料.md",
+    "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ.png",
     "000-箱的构成/templates/UTTU人物合辑.md",
     "200-相从心生/印刻材料/assets",
     "200-相从心生/印刻材料",
@@ -306,9 +326,7 @@
     "README.md",
     "000-箱的构成/templates/相从心生.md",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ 1.png",
-    "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets/心相 启寤Ⅳ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅳ｜Enlighten.assets",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/assets/README.assets/角色档案.png",
     "000-箱的构成/assets/README.assets/示例库主页.png",
     "000-箱的构成/assets/README.assets",
@@ -329,18 +347,13 @@
     "马库斯.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "button.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/至终的仪式 亘古亘今的启示.png",
-    "000-箱的构成/插件/buttons-special.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/马库斯的尤提姆.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/Debuff.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/神秘术 于灯火中1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/一阶神秘术.png",
-    "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
     "200-相从心生/普通心相/assets",
     "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets",
-    "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets",
-    "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets"
+    "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets"
   ]
 }
