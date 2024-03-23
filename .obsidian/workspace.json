@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "44d6ba8c38748d9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/普通心相/绿毒｜Venomous.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -64,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -283,8 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313,
-    "collapsed": true
+    "width": 313
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,11 +294,12 @@
   },
   "active": "95f89cae69831722",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
     "200-相从心生/普通心相/绿毒｜Venomous.md",
+    "000-箱的构成/templates/相从心生.md",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets/心相 绿毒.png",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets",
     "000-箱的构成/常用工具.md",
-    "000-箱的构成/主页.md",
     "200-相从心生/普通心相/静谧｜Meek.md",
     "200-相从心生/普通心相/assets/静谧｜Meek.assets/心相 静谧.png",
     "200-相从心生/普通心相/assets/静谧｜Meek.assets",
@@ -347,7 +335,6 @@
     "200-相从心生/印刻材料/assets",
     "200-相从心生/印刻材料",
     "README.md",
-    "000-箱的构成/templates/相从心生.md",
     "000-箱的构成/插件/buttons.md",
     "400-箱外世界/暴雨时间线.md",
     "200-相从心生/角色心相/掌声如雷鸣｜Thunderous Applause.md",
