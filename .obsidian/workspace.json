@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -244,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,9 +295,13 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "README.md",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
+    "README.md",
+    "000-箱的构成/assets/README.assets/角色档案.png",
+    "000-箱的构成/assets/README.assets/示例库主页.png",
+    "000-箱的构成/assets/README.assets",
+    "000-箱的构成/assets/assets",
+    "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons.md",
     "000-箱的构成/自动化创建角色档案.md",
     "400-箱外世界/暴雨时间线.md",
@@ -326,20 +330,15 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/神秘术 于灯火中1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/马库斯｜Marcus.assets/一阶神秘术.png",
     "000-箱的构成/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅲ.png",
-    "200-相从心生/普通心相/笑语欢声｜Laughter and Laughter.md",
     "200-相从心生/普通心相/assets",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅.png",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅｜Take the Hard Journey.png",
-    "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets/心相 步此苦旅｜.png",
-    "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets/心相 荒唐余生.png",
     "200-相从心生/角色心相/assets/荒唐余生｜Remaining Absurdity.assets",
     "200-相从心生/角色心相/assets/步此苦旅｜Take the Hard Journey.assets",
     "200-相从心生/角色心相/assets/勇往直前｜Let's Set Sail.assets",
     "200-相从心生/角色心相/assets/茶歇时间｜Tea Break.assets",
     "200-相从心生/角色心相/assets/崭新一页｜A New Leaf.assets",
     "200-相从心生/角色心相/assets/齿轮之外｜Beyond the Gears.assets",
-    "200-相从心生/角色心相/assets/昨日往事.assets",
-    "200-相从心生/普通心相/assets/笑语欢声｜Laughter and Laughter.assets",
-    "200-相从心生/角色心相/assets/食足餮满｜A Satisfied Eater.assets"
+    "200-相从心生/角色心相/assets/昨日往事.assets"
   ]
 }
