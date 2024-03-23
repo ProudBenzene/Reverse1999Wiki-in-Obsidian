@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "95f89cae69831722",
+            "id": "883aa521948ecf73",
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
@@ -52,7 +52,7 @@
             }
           },
           {
-            "id": "783ae17167627c36",
+            "id": "406a3f86e264add3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -308,9 +308,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "783ae17167627c36",
+  "active": "406a3f86e264add3",
   "lastOpenFiles": [
+    "000-箱的构成/templates/印刻材料.md",
     "200-相从心生/普通心相/领航｜Navigating.md",
+    "000-箱的构成/templates/相从心生.md",
+    "000-箱的构成/自动化创建角色档案.md",
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep Tight Good Kid.md",
+    "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid.md",
+    "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets/心相 领航.png",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets",
     "000-箱的构成/常用工具.md",
@@ -322,7 +328,6 @@
     "200-相从心生/普通心相/assets/无餍｜Covet.assets",
     "000-箱的构成/主页.md",
     "200-相从心生/普通心相/绿毒｜Venomous.md",
-    "000-箱的构成/templates/相从心生.md",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets/心相 绿毒.png",
     "200-相从心生/普通心相/assets/绿毒｜Venomous.assets",
     "200-相从心生/普通心相/静谧｜Meek.md",
@@ -333,7 +338,6 @@
     "200-相从心生/印刻材料/assets/贪欲｜Greed.assets/心相 贪欲.png",
     "200-相从心生/印刻材料/assets/贪欲｜Greed.assets",
     "200-相从心生/印刻材料/饕餮｜Gluttony.md",
-    "000-箱的构成/templates/印刻材料.md",
     "200-相从心生/印刻材料/assets/饕餮｜Gluttony.assets/心相 饕餮.png",
     "200-相从心生/印刻材料/assets/饕餮｜Gluttony.assets",
     "200-相从心生/普通心相/饕餮｜Gluttony.md",
@@ -341,9 +345,7 @@
     "200-相从心生/角色心相/大娱乐至上｜Luxurious Leisure.md",
     "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
     "200-相从心生/印刻材料/启寤Ⅲ｜Enlighten.md",
-    "000-箱的构成/自动化创建角色档案.md",
     "200-相从心生/印刻材料/掠影｜Fleeting Memory.md",
-    "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
     "200-相从心生/印刻材料/启寤Ⅰ｜Enlighten.md",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/心相 启寤Ⅰ.png",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/心相 掠影.png",
@@ -353,7 +355,6 @@
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/心相 启寤Ⅱ.png",
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets",
     "000-箱的构成/templates/UTTU人物合辑.md",
-    "README.md",
-    "000-箱的构成/插件/buttons.md"
+    "README.md"
   ]
 }
