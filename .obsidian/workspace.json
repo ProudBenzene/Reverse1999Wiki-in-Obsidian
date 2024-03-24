@@ -52,6 +52,18 @@
             }
           },
           {
+            "id": "0a794f7678c58a3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "e1fbc14fc83731bd",
             "type": "leaf",
             "state": {
@@ -308,9 +320,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "e1fbc14fc83731bd",
+  "active": "0a794f7678c58a3a",
   "lastOpenFiles": [
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
+    "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore~.md",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets/神秘术 看护于躯壳1.png",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets/至终的仪式 全方面关怀.png",
@@ -346,8 +360,6 @@
     "200-相从心生/角色心相/昨日往事｜His Tail.md",
     "200-相从心生/角色心相/步此苦旅｜Take the Hard Journey.md",
     "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
-    "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
-    "200-相从心生/角色心相/崭新一页｜A New Leaf.md",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets",
     "200-相从心生/普通心相/assets/蓬勃｜Flourishing.assets",
     "200-相从心生/普通心相/assets/怅然｜LOSS.assets",
