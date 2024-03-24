@@ -108,17 +108,17 @@ collapse: open
 title: 
 color: 
 > [!culture]+ 驾驶员制服帽6式|Aviator's Cap
-> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2001%201.png)
+> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2001.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**994**
 > 一款苏维埃军方为飞行编队特配的头盔，使用严寒种温尔特的皮革与秘淬金属制成。因其特殊的工艺与材质而价格不菲。顶端熊耳的设计会使空气摩擦力增强，但她对此毫不在乎。
 
 > [!culture]+ 飞行军配不锈钢酒壶|Liquor Can
-> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2002%201.png)
+> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2002.png)
 > ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**17**
 > 方形的不锈钢酒壶。一同配备的背带让它变得更加方便携带。在我方评测时，里面仍然灌满了烈酒。是所有俄罗斯人都这样吗，还是只有她会这样？
 
 > [!culture]+ 认证秘钥|Key Su-01ве
-> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2003%201.png)
+> ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2003.png)
 > ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
 > Su-01ве扫帚的秘钥，用以开动那些扫帚的重要道具。从设计上来看，并没有什么值得吹嘘的地方。
 ````
