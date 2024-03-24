@@ -52,6 +52,30 @@
             }
           },
           {
+            "id": "b13a7081de87f524",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f39a9953059e4fa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "f41262814689facc",
             "type": "leaf",
             "state": {
@@ -64,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,6 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -256,6 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,6 +299,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +310,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313
+    "width": 313,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -303,8 +332,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "b13a7081de87f524",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/6｜Six.assets/立绘 6 01.png",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/立绘 洁西卡 01.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/洁西卡｜Changeling.assets/Portrait-305601.png",
@@ -319,7 +350,6 @@
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets/神秘术 看护于躯壳1.png",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets/至终的仪式 全方面关怀.png",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets/神秘术 勉励以精神2.png",
-    "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets/神秘术 勉励以精神3.png",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets",
     "100-UTTU人物合辑/人类｜Human/assets",
     "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
