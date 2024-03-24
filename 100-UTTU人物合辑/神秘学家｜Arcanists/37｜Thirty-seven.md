@@ -1,7 +1,7 @@
 ---
 Name: "37"
 exonym: Thirty-seven
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -26,7 +26,7 @@ Udimo: 海豚类
   - 海岸松
   - 浮木
 初始衣着: 现象世界的一环。
-洞悉二衣着: 一位质数—数字世界的基石。
+洞悉二衣着: 数字世界的基石。
 aliases:
   - Thirty-seven
   - "37"

@@ -1,7 +1,7 @@
 ---
 Name: 洁西卡
 exonym: Changeling
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 超自然者｜Beyond
@@ -26,7 +26,7 @@ Udimo: 白尾鹿类
   - 土壤
   - 麝香
 初始衣着: 如此纯洁，如此乖巧，如此惹人怜爱。
-洞悉二衣着: 捉迷藏—如此迅速，如此轻巧，如此难以逃脱。
+洞悉二衣着: 如此迅速，如此轻巧，如此难以逃脱。
 aliases:
   - 洁西卡
   - Jessica

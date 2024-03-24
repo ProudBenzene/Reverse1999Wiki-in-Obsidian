@@ -1,7 +1,7 @@
 ---
 Name: "6"
 exonym: Six
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -26,7 +26,7 @@ Udimo: 隼类
   - 龙涎香
   - 水
 初始衣着: 尽职的领袖。
-洞悉二衣着: 完备者—孤独的领袖。
+洞悉二衣着: 孤独的领袖。
 aliases:
   - Six
   - "6"

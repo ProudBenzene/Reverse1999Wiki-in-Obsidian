@@ -1,7 +1,7 @@
 ---
 Name: 曲娘
 exonym: Jiu Niangzi
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家混血种｜Mixed
@@ -25,7 +25,7 @@ Udimo: 斑纹马类
   - 醪糟
   - 椒
 初始衣着: 一只幼兽，不慎迷失在泥泞的道路上。
-洞悉二衣着: 天光照衣—她终于明白，有些道路需要自己来开辟。
+洞悉二衣着: 她终于明白，有些道路需要自己来开辟。
 aliases:
   - 曲娘
   - Jiu Niangzi

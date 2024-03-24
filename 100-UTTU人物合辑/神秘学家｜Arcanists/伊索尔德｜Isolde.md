@@ -1,7 +1,7 @@
 ---
 Name: 伊索尔德
 exonym: Isolde
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -26,7 +26,7 @@ Udimo: 夜莺类
   - 红没药
   - 吲哚
 初始衣着: 国王的女儿，画家的爱人；璀璨的明星，家族的希望。
-洞悉二衣着: 多重唱—我是……我是？我是。我是！我是！！
+洞悉二衣着: 我是……我是？我是。我是！我是！！
 aliases:
   - 伊索尔德
   - Isolde

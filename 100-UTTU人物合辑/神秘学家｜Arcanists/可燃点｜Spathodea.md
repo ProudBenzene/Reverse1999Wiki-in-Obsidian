@@ -1,7 +1,7 @@
 ---
 Name: 可燃点
 exonym: Spathodea
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -26,7 +26,7 @@ Udimo: 蜂鸟类
   - 甜椒
   - 小豆蔻
 初始衣着: 训练、作业、遛狗、训练……下一项是？
-洞悉二衣着: 雀儿、火焰、花—捧起最明亮的火星，一如既往
+洞悉二衣着: 捧起最明亮的火星，一如既往
 aliases:
   - 可燃点
   - Spathodea

@@ -1,7 +1,7 @@
 ---
 Name: 爱兹拉
 exonym: Ezra Theodore
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 人类｜Human

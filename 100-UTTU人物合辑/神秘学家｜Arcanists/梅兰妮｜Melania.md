@@ -1,7 +1,7 @@
 ---
 Name: 梅兰妮
 exonym: Melania
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -25,7 +25,7 @@ Udimo: 松鼠亚类
   - 粉红胡椒
   - 榄香脂
 初始衣着: 万全准备、多重方案、演算预设，除此之外，还有……
-洞悉二衣着: 拉米雷斯风格—“超越所有小偷的想象力。”
+洞悉二衣着: “超越所有小偷的想象力。”
 aliases:
   - 梅兰妮
   - Melania
