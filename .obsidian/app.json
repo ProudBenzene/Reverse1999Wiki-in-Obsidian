@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/洁西卡｜Changeling.assets",
+  "attachmentFolderPath": "./assets/常用工具.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
@@ -13,6 +13,6 @@
     "downscalePercent": 100
   },
   "newFileLocation": "root",
-  "livePreview": false,
-  "defaultViewMode": "preview"
+  "livePreview": true,
+  "defaultViewMode": "source"
 }

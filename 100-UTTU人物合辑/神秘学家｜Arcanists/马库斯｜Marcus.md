@@ -99,7 +99,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-### 风儿吹回那日|A Returning Wind
+### 风儿吹回那日｜A Returning Wind
 
 ````ad-flex
 collapse: open

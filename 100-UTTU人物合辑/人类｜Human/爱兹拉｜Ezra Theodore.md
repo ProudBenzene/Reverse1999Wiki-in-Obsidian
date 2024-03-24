@@ -101,11 +101,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
-### 菌伞的启示｜Enlightment of Mushrooms[^5]
+### 菌伞的启示｜Enlightment of Mushrooms
 
 ````ad-flex
 collapse: open
@@ -222,4 +218,3 @@ tab: 适度关心|[UTTU×爱兹拉]
 [^2]: ==幽灵菇==：蘑菇，回合开始时，生长1次；生长3次后成熟，赋予己方全体2层**[明辨]**
 [^3]: ==易损==：被攻击时，*受创减免* **-25%**（生效后减少1层）
 [^4]: ==明辨==：*暴击创伤* **+40%**（使用咒语暴击后减少1层）
-[^5]: 他神秘、美丽、总是难以捉摸的伙伴。

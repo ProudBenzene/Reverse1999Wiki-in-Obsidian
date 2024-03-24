@@ -1,7 +1,7 @@
 ---
 Name: 十四行诗
 exonym: Sonetto
-tags:
+tags: 
 cssclasses:
   - book
   - img-grid
@@ -25,7 +25,7 @@ Udimo: 西西里灵缇类
   - 粉红胡椒
   - 辛香料
 初始衣着: 她扶正了墙上的画框，将其认作为一扇窗。
-洞悉二衣着: 一片新的天空。一段新奇的旅行。一场完美的表演。一段怦然心动的开端。
+洞悉二衣着: 
 aliases:
   - 十四行诗
   - Sonetto
