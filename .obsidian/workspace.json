@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "3ea19f4940f0a047",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -244,6 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,6 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +286,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313
+    "width": 313,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,9 +308,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "3ea19f4940f0a047",
   "lastOpenFiles": [
     "000-箱的构成/常用工具.md",
+    "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
+    "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets/立绘 爱兹拉 02.png",
+    "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets",
+    "100-UTTU人物合辑/人类｜Human/assets",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
     "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往.png",
@@ -319,8 +340,6 @@
     "200-相从心生/角色心相/勇往直前｜Let's Set Sail.md",
     "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
     "200-相从心生/角色心相/崭新一页｜A New Leaf.md",
-    "200-相从心生/角色心相/齿轮之外｜Beyond the Gears.md",
-    "200-相从心生/角色心相/自由的心｜A Free Heart.md",
     "200-相从心生/角色心相/assets/第二次生命｜Her Second Life.assets/心相 第二次生命.png",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets/心相 轻藐.png",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets",
@@ -333,11 +352,8 @@
     "200-相从心生/普通心相/assets/麻木｜Numb.assets/心相 麻木.png",
     "200-相从心生/普通心相/assets/麻木｜Numb.assets",
     "200-相从心生/普通心相/assets/静谧｜Meek.assets/心相 静谧.png",
-    "200-相从心生/普通心相/assets/无餍｜Covet.assets/心相 无餍.png",
     "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets",
     "200-相从心生/普通心相/assets/领航｜Navigating.assets",
-    "200-相从心生/普通心相/assets/崇奉｜Bow.assets",
-    "200-相从心生/普通心相/assets/无餍｜Covet.assets",
-    "200-相从心生/普通心相/assets/绿毒｜Venomous.assets"
+    "200-相从心生/普通心相/assets/崇奉｜Bow.assets"
   ]
 }
