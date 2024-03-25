@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
+                "file": "000-箱的构成/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
+                "file": "000-箱的构成/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
+                "file": "000-箱的构成/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,12 +308,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "0d74617d3ff80bf8",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/立绘 葛天 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/立绘 葛天 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets",
     "000-箱的构成/常用工具.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
@@ -342,8 +343,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets/立绘 斯奈德 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/梅兰妮｜Melania.assets/立绘 梅兰妮 01.png",
     "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore~.md",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets",
     "100-UTTU人物合辑/人类｜Human/assets",
