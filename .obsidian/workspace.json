@@ -27,7 +27,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -61,6 +61,18 @@
             "state": {
               "type": "obsidian-projects",
               "state": {}
+            }
+          },
+          {
+            "id": "98cb6738f1febb92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -132,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,13 +320,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "0d74617d3ff80bf8",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian~.md",
+    "000-箱的构成/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/葛天的尤提姆.png",
+    "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/立绘 葛天 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/立绘 葛天 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
@@ -333,7 +348,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
-    "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/立绘 曲娘 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png",
@@ -342,7 +356,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Yenisei.assets/立绘 小叶尼塞 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets/立绘 斯奈德 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
     "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore~.md",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets",
     "100-UTTU人物合辑/人类｜Human/assets",
