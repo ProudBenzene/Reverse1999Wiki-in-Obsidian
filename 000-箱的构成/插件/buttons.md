@@ -17,7 +17,7 @@ class grad_button green
 ```button
 name 😼 角色
 type command
-action Projects: Show UTTU人物合揖
+action QuickAdd: 角色面板
 class grad_button g_purple tiny
 ```
 ^button-role
@@ -25,7 +25,7 @@ class grad_button g_purple tiny
 ```button
 name ♥️ 心相
 type command
-action Projects: Show 相从心生
+action QuickAdd: 
 class grad_button g_green tiny
 ```
 ^button-psychube
