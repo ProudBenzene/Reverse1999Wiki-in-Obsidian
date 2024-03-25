@@ -122,6 +122,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "b01a30e3-00b4-48a8-948e-d1df0afef3ef"
+    },
+    {
+      "id": "1e5ebfca-1b35-4ec9-872d-1f27b8a2568c",
+      "name": "角色面板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "9c6fc846-2ae1-4511-b1f9-8e34201325ee"
     }
   ],
   "macros": [
@@ -344,6 +351,12 @@
           "settings": {}
         }
       ],
+      "runOnStartup": false
+    },
+    {
+      "name": "角色面板",
+      "id": "9c6fc846-2ae1-4511-b1f9-8e34201325ee",
+      "commands": [],
       "runOnStartup": false
     }
   ],
