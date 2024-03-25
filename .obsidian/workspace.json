@@ -11,14 +11,11 @@
             "id": "9aadaddd821e22fa",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "白板.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 46.5,
-                  "zoom": 0
-                }
+                "file": "000-箱的构成/主页.md",
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -122,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "白板.canvas",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -248,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "白板.canvas",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "白板.canvas",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313,
-    "collapsed": true
+    "width": 313
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,8 +295,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
     "白板.canvas",
+    "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
     "000-箱的构成/主页.md",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/插件/buttons.md",
