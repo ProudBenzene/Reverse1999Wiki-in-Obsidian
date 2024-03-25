@@ -372,21 +372,21 @@
       "id": "9c6fc846-2ae1-4511-b1f9-8e34201325ee",
       "commands": [
         {
-          "name": "Editing Toolbar: Fullscreen focus mode",
+          "name": "Editing Toolbar: workplace-Fullscreen ",
           "type": "Obsidian",
-          "id": "5e191c64-a0a2-4248-8ce8-f970ff2404e9",
-          "commandId": "editing-toolbar:fullscreen-focus"
+          "id": "cd8eaec3-c7a7-4123-b178-511a64316ed3",
+          "commandId": "editing-toolbar:workplace-fullscreen-focus"
         },
         {
           "name": "Wait",
           "type": "Wait",
-          "id": "e7e1dd9f-3374-45e9-b670-c44325277635",
+          "id": "7e77bf32-1a39-4626-9da7-742a11f6c7f8",
           "time": 100
         },
         {
           "name": "Projects: Show UTTU人物合揖",
           "type": "Obsidian",
-          "id": "78bce4ef-c382-4a44-9ae3-edcd92aceefb",
+          "id": "b7ad2ee5-53f4-4f00-9a16-0fa44fadf96e",
           "commandId": "obsidian-projects:show:9ff693de-6abc-4520-b70c-e2c25b385535"
         }
       ],
@@ -397,21 +397,21 @@
       "id": "9d2c6e0f-a0ef-4915-8a30-8cdfbcf5d915",
       "commands": [
         {
-          "name": "Editing Toolbar: Fullscreen focus mode",
+          "name": "Editing Toolbar: workplace-Fullscreen ",
           "type": "Obsidian",
-          "id": "35f4fdd1-67a0-4a0c-91b6-21e79e1f08c7",
-          "commandId": "editing-toolbar:fullscreen-focus"
+          "id": "057b4bfc-aaeb-46c3-8893-2261f5ca4bc6",
+          "commandId": "editing-toolbar:workplace-fullscreen-focus"
         },
         {
           "name": "Wait",
           "type": "Wait",
-          "id": "3842cedd-2bf8-404e-80e3-71ce81946469",
+          "id": "ebfda749-ee21-4e82-a184-6a3c3e8e3c0d",
           "time": 100
         },
         {
           "name": "Projects: Show 相从心生",
           "type": "Obsidian",
-          "id": "fe4319fb-82c5-4981-bcc0-7df48fd4d601",
+          "id": "d243979c-afa5-4c55-a248-678a2b5096b4",
           "commandId": "obsidian-projects:show:43ddfc09-1831-4a77-a516-9caa0008068f"
         }
       ],
