@@ -136,6 +136,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "9d2c6e0f-a0ef-4915-8a30-8cdfbcf5d915"
+    },
+    {
+      "id": "60868bc5-08b0-4302-855f-956096b6e2e7",
+      "name": "故事面板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d9e1d506-e46d-4dff-a3b4-15fc1af71765"
     }
   ],
   "macros": [
@@ -406,6 +413,31 @@
           "type": "Obsidian",
           "id": "fe4319fb-82c5-4981-bcc0-7df48fd4d601",
           "commandId": "obsidian-projects:show:43ddfc09-1831-4a77-a516-9caa0008068f"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "故事面板",
+      "id": "d9e1d506-e46d-4dff-a3b4-15fc1af71765",
+      "commands": [
+        {
+          "name": "Editing Toolbar: workplace-Fullscreen ",
+          "type": "Obsidian",
+          "id": "eded4224-af53-4b8d-a76f-ba2f3f38346a",
+          "commandId": "editing-toolbar:workplace-fullscreen-focus"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "11157dd8-e856-4bb4-b5d5-92aeee129dfc",
+          "time": 100
+        },
+        {
+          "name": "Projects: Show 以影像之",
+          "type": "Obsidian",
+          "id": "7d936843-d55c-4c0e-995e-c625806d6dce",
+          "commandId": "obsidian-projects:show:3b6e745d-c3f1-4477-9213-1e9b60975541"
         }
       ],
       "runOnStartup": false

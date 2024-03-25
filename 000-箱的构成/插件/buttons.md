@@ -25,7 +25,7 @@ class grad_button g_purple tiny
 ```button
 name ♥️ 心相
 type command
-action QuickAdd: 
+action QuickAdd: 心相面板
 class grad_button g_green tiny
 ```
 ^button-psychube
@@ -34,7 +34,7 @@ class grad_button g_green tiny
 ```button
 name 🔖 故事
 type command
-action Projects: Show 以影像之
+action QuickAdd: 故事面板
 class grad_button g_blue tiny
 ```
 ^button-story
