@@ -50,21 +50,8 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "8e3c465b93b8573a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -258,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,13 +293,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "8e3c465b93b8573a",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "README.md",
-    "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "200-相从心生/角色心相/美丽新世界｜Brave New World.md",
     "200-相从心生/角色心相/assets/美丽新世界｜Brave New World.assets/心相 美丽新世界.png",
