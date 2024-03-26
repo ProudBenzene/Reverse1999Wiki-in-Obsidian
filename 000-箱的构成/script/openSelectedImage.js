@@ -87,18 +87,33 @@ module.exports = async function openSelectedImage(params) {
 // 使用默认应用打开文件
 //Windows
 /*
-exec(`start "" "${imagePath}"`, (error, stdout, stderr) => {
+exec(`start "" "${imagePath}"`, (error, stdout, stderr) => { // 尝试如果将选中图片路径按相对路径处理能否打开图片
     if (error || stderr) {
         exec(`start "" "${imageAbPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按绝对路径处理
             if (error || stderr) {
-                exec(`start "" "${wikiPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki链接处理
-                    if (error) {
-                        console.error(`打开文件时出错: ${error.message}`);
-                        return;
-                    }
-                    if (stderr) {
-                        console.error(`打开文件时出错: ${stderr}`);
-                        return;
+                exec(`start "" "${IMPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按尽可能短的标准链接处理
+                    if (error || stderr) {
+                        exec(`start "" "${wikiPath1}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki链接处理
+                            if (error || stderr) {
+                                exec(`start "" "${wikiPath2}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki相对链接处理
+                                    if (error || stderr) {
+                                        exec(`start "" "${wikiPath3}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki绝对路径链接处理
+                                            if (error) {
+                                                console.error(`打开文件时出错: ${error.message}`);
+                                                return;
+                                            }
+                                            if (stderr) {
+                                                console.error(`打开文件时出错: ${stderr}`);
+                                                return;
+                                            }
+                                            console.log(`文件已成功打开`);
+                                        });
+                                    }
+                                    console.log(`文件已成功打开`);
+                                });
+                            }
+                            console.log(`文件已成功打开`);
+                        });
                     }
                     console.log(`文件已成功打开`);
                 });
