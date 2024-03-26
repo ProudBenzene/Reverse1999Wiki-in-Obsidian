@@ -2112,43 +2112,6 @@ body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebo
   background-position: 0 0, 15px 15px;
 }
 
-/* body.background-notebook-liked-switch.notebook-embed .export-image-root .markdown-reading-view .markdown-embed .markdown-rendered {
-  background-image: unset!important;
-}
-
-body.background-notebook-liked-switch.notebook-liked-markdown-page-grid-notebook-1 .export-image-root .markdown-reading-view .markdown-rendered,
-body.background-notebook-liked-switch.notebook-liked-markdown-page-grid-notebook-1 .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
-  background: var(--bg-color-notebook);
-  background-image: linear-gradient(90deg, var(--grid-notebook-line-color-1) 3%, transparent 0), linear-gradient(var(--grid-notebook-line-color-1) 3%, transparent 0);
-  background-size: 20px 20px;
-}
-
-body:not(.toggle-fixed-pattern).background-notebook-liked-switch .export-image-root .markdown-reading-view .markdown-rendered,
-body:not(.toggle-fixed-pattern).background-notebook-liked-switch .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
-  background-attachment: local !important;
-}
-
-body.background-notebook-liked-switch .export-image-root .markdown-source-view.mod-cm6 .cm-embed-block {
-  background: inherit;
-}
-
-body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-1 .export-image-root .markdown-reading-view .markdown-rendered,
-body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-1 .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
-  background: var(--bg-color-notebook);
-  background-image: radial-gradient(var(--dotted-notebook-dot-color) 10%, transparent 0);
-  background-size: 22px 22px;
-  background-position: 8px 8px;
-}
-
-body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-2 .export-image-root .markdown-reading-view .markdown-rendered,
-body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-2 .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
-  background: var(--bg-color-notebook);
-  background-image: radial-gradient(var(--dotted-notebook-dot-color) 10%, transparent 0),
-    radial-gradient(var(--dotted-notebook-dot-color) 10%, transparent 0);
-  background-size: 30px 30px;
-  background-position: 0 0, 15px 15px;
-} */
-
 
 
 /*https://www.jianshu.com/p/2b713844cfe9*/
