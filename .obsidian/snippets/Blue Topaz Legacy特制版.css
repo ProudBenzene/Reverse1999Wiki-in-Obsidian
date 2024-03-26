@@ -2112,7 +2112,7 @@ body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebo
   background-position: 0 0, 15px 15px;
 }
 
-body.background-notebook-liked-switch.notebook-embed .export-image-root .markdown-reading-view .markdown-embed .markdown-rendered {
+/* body.background-notebook-liked-switch.notebook-embed .export-image-root .markdown-reading-view .markdown-embed .markdown-rendered {
   background-image: unset!important;
 }
 
@@ -2147,7 +2147,7 @@ body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebo
     radial-gradient(var(--dotted-notebook-dot-color) 10%, transparent 0);
   background-size: 30px 30px;
   background-position: 0 0, 15px 15px;
-}
+} */
 
 
 
