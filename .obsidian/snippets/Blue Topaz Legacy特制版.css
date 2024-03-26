@@ -2198,6 +2198,44 @@ body.toggle-split-note-background .workspace-split.mod-horizontal:is(.mod-left-s
   background: initial;
 }
 
+/* body.background-notebook-liked-switch.notebook-liked-markdown-page-grid-notebook-2 .markdown-reading-view .markdown-rendered,
+body.background-notebook-liked-switch.notebook-liked-markdown-page-grid-notebook-2 .markdown-source-view.mod-cm6 .cm-scroller {
+  background: var(--bg-color-notebook);
+  background-image:
+    linear-gradient(var(--grid-notebook-line-color-2) 1px, transparent 0),
+    linear-gradient(90deg, var(--grid-notebook-line-color-2) 1px,transparent 0),
+    linear-gradient(var(--grid-notebook-line-color-1) 1px,
+    transparent 0),
+    linear-gradient(90deg,var(--grid-notebook-line-color-1) 1px,
+    transparent 0);
+  background-size: 75px 75px, 75px 75px, 15px 15px, 15px 15px;
+}
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-1 .export-image-root .markdown-reading-view .markdown-rendered,
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-1 .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
+  background: var(--stripe-notebook-stripe-color);
+  background-image: repeating-linear-gradient(135deg,
+  hsla(0,0%,100%,.03), hsla(0,0%,100%,.03) 13px, transparent 0, transparent 30px);
+}
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-1.theme-light .export-image-root .markdown-reading-view .markdown-rendered,
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-1.theme-light .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
+  background: var(--stripe-notebook-stripe-color);
+  background-image: repeating-linear-gradient(135deg,
+  hsla(0,0%,100%,.3), hsla(0,0%,100%,.3) 13px, transparent 0, transparent 30px);
+}
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-2 .export-image-root .markdown-reading-view .markdown-rendered,
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-2 .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
+  background: var(--stripe-notebook-stripe-color);
+  background-image:repeating-linear-gradient(45deg,
+  hsla(0,0%,100%,.025), hsla(0,0%,100%,.025) 20px, transparent 0, transparent 60px), repeating-linear-gradient(-45deg, hsla(0,0%,100%,.025), hsla(0,0%,100%,.025) 20px, transparent 0, transparent 60px);
+}
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-2.theme-light .export-image-root .markdown-reading-view .markdown-rendered,
+body.background-notebook-liked-switch.notebook-liked-markdown-page-stripe-notebook-2.theme-light .export-image-root .markdown-source-view.mod-cm6 .cm-scroller {
+  background: var(--stripe-notebook-stripe-color);
+  background-image:repeating-linear-gradient(45deg,
+  hsla(0,0%,100%,.3), hsla(0,0%,100%,.3) 20px, transparent 0, transparent 60px), repeating-linear-gradient(-45deg, hsla(0,0%,100%,.3), hsla(0,0%,100%,.3) 20px, transparent 0, transparent 60px);
+} */
+
+
 
 /*=================图片位置排列增强==================/
 /*-- reduce left padding --*/
