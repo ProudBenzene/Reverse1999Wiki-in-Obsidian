@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "preview",
-                "source": true
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -244,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,9 +295,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "000-箱的构成/常用工具.md",
-    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
