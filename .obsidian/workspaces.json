@@ -65,7 +65,7 @@
           {
             "id": "fb7552c6126461e8",
             "type": "tabs",
-            "dimension": 75,
+            "dimension": 73.83292383292384,
             "children": [
               {
                 "id": "250c5f6efff2f242",
@@ -111,9 +111,9 @@
             ]
           },
           {
-            "id": "710bf2a9ba69c245",
+            "id": "b94dcb9d96b5f843",
             "type": "tabs",
-            "dimension": 25,
+            "dimension": 26.16707616707617,
             "children": [
               {
                 "id": "e94c2006ca70689a",
@@ -163,10 +163,10 @@
                           }
                         }
                       ],
-                      "collapse-display": true,
+                      "collapse-display": false,
                       "showArrow": false,
                       "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
+                      "nodeSizeMultiplier": 0.589680989583333,
                       "lineSizeMultiplier": 1,
                       "collapse-forces": true,
                       "centerStrength": 0.518713248970312,
@@ -296,7 +296,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-03-26T14:04:42+08:00",
+      "mtime": "2024-03-26T14:26:10+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null
@@ -544,7 +544,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 313
+        "width": 317
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -566,7 +566,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-03-23T19:08:22+08:00",
+      "mtime": "2024-03-26T14:26:31+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }

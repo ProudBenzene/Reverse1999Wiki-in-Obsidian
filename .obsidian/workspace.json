@@ -63,7 +63,7 @@
       {
         "id": "fb7552c6126461e8",
         "type": "tabs",
-        "dimension": 75,
+        "dimension": 73.83292383292384,
         "children": [
           {
             "id": "250c5f6efff2f242",
@@ -109,9 +109,9 @@
         ]
       },
       {
-        "id": "710bf2a9ba69c245",
+        "id": "b94dcb9d96b5f843",
         "type": "tabs",
-        "dimension": 25,
+        "dimension": 26.167076167076164,
         "children": [
           {
             "id": "e94c2006ca70689a",
@@ -161,10 +161,10 @@
                       }
                     }
                   ],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
+                  "nodeSizeMultiplier": 0.589680989583333,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0.518713248970312,
@@ -296,8 +296,8 @@
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "README.md",
-    "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
+    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "200-相从心生/角色心相/美丽新世界｜Brave New World.md",
