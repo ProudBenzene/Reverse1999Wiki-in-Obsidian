@@ -18,7 +18,7 @@ const selection = getSelection().toString(); // 将 selection 转换为字符串
 console.log(selection)
 // 分情况讨论（选中的是链接本身还是链接中的文件名）
 let selectionEmbed;
-if (selection.includes("[[")) { // 如果选中的是Wiki链接本身
+if (selection.includes("[[") || selection.includes("]]")) { // 如果选中的是Wiki链接本身
     selectionEmbed = matchSelectionEmbed(selection);
 } else { // 如果选中的是Wiki链接中的文件名
     selectionEmbed = selection;
@@ -98,10 +98,6 @@ exec(`start "" "${imagePath}"`, (error, stdout, stderr) => { // 尝试如果将�
                                 exec(`start "" "${wikiPath2}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki相对链接处理
                                     if (error || stderr) {
                                         exec(`start "" "${wikiPath3}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki绝对路径链接处理
-                                            if (error) {
-                                                console.error(`打开文件时出错: ${error.message}`);
-                                                return;
-                                            }
                                             if (stderr) {
                                                 console.error(`打开文件时出错: ${stderr}`);
                                                 return;
@@ -137,10 +133,6 @@ exec(`open  -a "Adobe Photoshop 2022" "${imagePath}"`, (error, stdout, stderr) =
                                 exec(`open  -a "Adobe Photoshop 2022" "${wikiPath2}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki相对链接处理
                                     if (error || stderr) {
                                         exec(`open  -a "Adobe Photoshop 2022" "${wikiPath3}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按Wiki绝对路径链接处理
-                                            if (error) {
-                                                console.error(`打开文件时出错: ${error.message}`);
-                                                return;
-                                            }
                                             if (stderr) {
                                                 console.error(`打开文件时出错: ${stderr}`);
                                                 return;
