@@ -103,6 +103,7 @@ settings:
 
 .anp-background-image-toggle:not(.anp-colorful-frame) {
 	.app-container,
+	.export-image-preview-container,
 	&.anp-bg-fix .app-container {
 		background: var(
 			--anp-background-image,
@@ -112,12 +113,14 @@ settings:
 		background-color: transparent;
 	}
 	.horizontal-main-container,
+	.export-image-preview-container,
 	&.anp-bg-fix .horizontal-main-container {
 		backdrop-filter: brightness(var(--anp-custom-bg-brightness, 0.5))
 			blur(var(--anp-custom-bg-blur, 5px));
 		background-color: transparent;
 	}
-	.workspace {
+	.workspace,
+	.export-image-preview-container {
 		background: transparent;
 	}
 	--card-background-color: transparent;

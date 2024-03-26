@@ -15,7 +15,6 @@
     "表格优化",
     "[PKMer]行内图片",
     "[PKMer]ITS-Lists",
-    "Mac主题代码框",
     "[AnuPpuccin]Colorful Frontmatter",
     "[AnuPpuccin]custom-background",
     "[AnuPpuccin]custom-rainbow-colors",
@@ -32,13 +31,14 @@
     "Callout-名人名言",
     "Callout-名言框",
     "Callout-花边",
-    "[Bon]书库封面",
     "Blue Topaz Legacy特制版",
     "[Blue Topaz]mytools 样式",
     "[PKMer]Callout-花边",
     "[Buttons]炫光样式",
     "[Buttons]bhomelist",
     "[Buttons]按钮样式",
-    "Floating Sidebar Tabs"
+    "Floating Sidebar Tabs",
+    "[Bon]书库封面",
+    "Mac主题代码框"
   ]
 }
