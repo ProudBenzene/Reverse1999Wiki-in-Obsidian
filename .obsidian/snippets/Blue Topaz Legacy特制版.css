@@ -2089,7 +2089,7 @@ body.background-notebook-liked-switch.notebook-liked-markdown-page-grid-notebook
 }
 
 body:not(.toggle-fixed-pattern).background-notebook-liked-switch .markdown-reading-view .markdown-rendered,
-export-image-root:not(.toggle-fixed-pattern).background-notebook-liked-switch .markdown-reading-view .markdown-rendered,
+export-image-root:not(.toggle-fixed-pattern).background-notebook-liked-switch .markdown-reading-view .markdown-rendered .export-image-preview-container
 body:not(.toggle-fixed-pattern).background-notebook-liked-switch .markdown-source-view.mod-cm6 .cm-scroller {
   background-attachment: local !important;
 }
@@ -2099,7 +2099,7 @@ body.background-notebook-liked-switch .markdown-source-view.mod-cm6 .cm-embed-bl
 }
 
 body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-1 .markdown-reading-view .markdown-rendered,
-export-image-root .background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-1 .markdown-reading-view .markdown-rendered,
+export-image-root .background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-1 .markdown-reading-view .markdown-rendered .export-image-preview-container
 body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-1 .markdown-source-view.mod-cm6 .cm-scroller {
   background: var(--bg-color-notebook);
   background-image: radial-gradient(var(--dotted-notebook-dot-color) 10%, transparent 0);
@@ -2108,7 +2108,7 @@ body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebo
 }
 
 body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-2 .markdown-reading-view .markdown-rendered,
-export-image-root .background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-2 .markdown-reading-view .markdown-rendered,
+export-image-root .background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-2 .markdown-reading-view .markdown-rendered .export-image-preview-container,
 body.background-notebook-liked-switch.notebook-liked-markdown-page-dotted-notebook-2 .markdown-source-view.mod-cm6 .cm-scroller {
   background: var(--bg-color-notebook);
   background-image: radial-gradient(var(--dotted-notebook-dot-color) 10%, transparent 0),
