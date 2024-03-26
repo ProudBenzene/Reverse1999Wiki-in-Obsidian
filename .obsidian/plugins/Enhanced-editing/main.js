@@ -10,7 +10,7 @@ ZH增强编辑插件借鉴多款社区插件开发而成，蚕子水平有限，
 
 
 const 当前版本 = '0.6.4';
-const 功能更新 = '当前版本\n- 增加「标签双链互转 Ctrl+Alt+Shift+3」功能\n- 增加按ESC键关闭格式刷功能 \n- 优化功能菜单项及说明文档 \n- 补充修复外来文本功能 \n- 修正插件功能的说明文字（感谢 disjuno） \n- 增加一、二级标题格式刷功能 \n- 去除插入制表符「Tab」功能 \n- 优化「列表转图示」功能  \n- 增加「获取当前字符数」功能 \n- 增加「插入有效空行」功能 \n- 增加「空格转为空行」功能 \n- 状态栏显示Markdown及Html语法格式刷  \n- 状态栏显示实用功能菜单 \n- 增加「获取搜索结果（列表）」功能 \n- ...';
+const 功能更新 = '当前版本\n- 增加「标签转为内链 Ctrl+Alt+Shift+3」功能\n- 增加按ESC键关闭格式刷功能 \n- 优化功能菜单项及说明文档 \n- 补充修复外来文本功能 \n- 修正插件功能的说明文字（感谢 disjuno） \n- 增加一、二级标题格式刷功能 \n- 去除插入制表符「Tab」功能 \n- 优化「列表转图示」功能  \n- 增加「获取当前字符数」功能 \n- 增加「插入有效空行」功能 \n- 增加「空格转为空行」功能 \n- 状态栏显示Markdown及Html语法格式刷  \n- 状态栏显示实用功能菜单 \n- 增加「获取搜索结果（列表）」功能 \n- ...';
 const 宣传页面 = '查看 <a href="https://github.com/obsidian-canzi/Enhanced-editing/releases">Github 页面</a>，联系<a href="http://wpa.qq.com/msgrd?v=3&uin=312815311&site=qq&menu=yes">蚕子</a>';
 const 上标图标 ='<svg xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path fill="currentColor"d="M16 7.41L11.41 12L16 16.59L14.59 18L10 13.41L5.41 18L4 16.59L8.59 12L4 7.41L5.41 6L10 10.59L14.59 6L16 7.41M21.85 9h-4.88V8l.89-.82c.76-.64 1.32-1.18 1.7-1.63c.37-.44.56-.85.57-1.23a.884.884 0 0 0-.27-.7c-.18-.19-.47-.28-.86-.29c-.31.01-.58.07-.84.17l-.66.39l-.45-1.17c.27-.22.59-.39.98-.53S18.85 2 19.32 2c.78 0 1.38.2 1.78.61c.4.39.62.93.62 1.57c-.01.56-.19 1.08-.54 1.55c-.34.48-.76.93-1.27 1.36l-.64.52v.02h2.58V9z"/></svg>';
 const 下标图标 = '<svg xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path fill="currentColor" d="M16 7.41L11.41 12L16 16.59L14.59 18L10 13.41L5.41 18L4 16.59L8.59 12L4 7.41L5.41 6L10 10.59L14.59 6L16 7.41m5.85 13.62h-4.88v-1l.89-.8c.76-.65 1.32-1.19 1.7-1.63c.37-.44.56-.85.57-1.24a.898.898 0 0 0-.27-.7c-.18-.16-.47-.28-.86-.28c-.31 0-.58.06-.84.18l-.66.38l-.45-1.17c.27-.21.59-.39.98-.53s.82-.24 1.29-.24c.78.04 1.38.25 1.78.66c.4.41.62.93.62 1.57c-.01.56-.19 1.08-.54 1.55c-.34.47-.76.92-1.27 1.36l-.64.52v.02h2.58v1.35z"/></svg>';
@@ -124,10 +124,15 @@ class MyPlugin extends obsidian.Plugin {
             hotkeys: [{ modifiers: ["Alt","Shift"], key: "3" } ]
         });
         this.addCommand({
-            id: 'tag-link-text',
-            name: '标签双链互转',
-            callback: () => this.标签双链互转(),
+            id: 'tag2link-text',
+            name: '标签转为内链',
+            callback: () => this.标签转为内链(),
             hotkeys: [{ modifiers: ["Mod","Alt","Shift"], key: "3" } ]
+        });
+        this.addCommand({
+            id: 'link2tag-text',
+            name: '内链转为标签',
+            callback: () => this.内链转为标签()
         });
 
         /**/
@@ -799,29 +804,6 @@ class MyPlugin extends obsidian.Plugin {
         });
 
         this.addCommand({
-            id: 'promote-lines-level',
-            name: '调高所有标题级别',
-            callback: () => this.调高所有标题级别()
-        });
-        this.addCommand({
-            id: 'Down-lines-level',
-            name: '调低所有标题级别',
-            callback: () => this.调低所有标题级别()
-        });
-        /*
-        this.addCommand({
-            id: 'promote-texts-level',
-            name: '调高所选标题级别',
-            callback: () => this.调高所选标题级别()
-        });
-        this.addCommand({
-            id: 'Down-texts-level',
-            name: '调低所选标题级别',
-            callback: () => this.调低所选标题级别()
-        });
-        */
-
-        this.addCommand({
             id: 'modify-link-showname',
             name: '修改内部链接的显示名称',
             callback: () => this.修改内部链接的显示名称(2),
@@ -1193,16 +1175,7 @@ class MyPlugin extends obsidian.Plugin {
                 item.setIcon("double-up-arrow-glyph");
                 item.onClick(() =>this.折叠同级标题());
             });
-            menu.addItem((item) => {
-                item.setTitle("提升多个标题等级");
-                item.setIcon("double-up-arrow-glyph");
-                item.onClick(() =>this.调高所有标题级别());
-            });
-            menu.addItem((item) => {
-                item.setTitle("下调多个标题等级");
-                item.setIcon("double-down-arrow-glyph");
-                item.onClick(() =>this.调低所有标题级别());
-            });
+
             menu.addItem((item) => {
                 item.setTitle("嵌入当前网址");
                 item.setIcon("link");
@@ -1682,7 +1655,7 @@ class MyPlugin extends obsidian.Plugin {
             }else{
                 return;
             }
-            console.log('表达式 '+表达式);
+            //console.log('表达式 '+表达式);
             //逐行判断是否符合指定表达式
             for (var i=1;i<=末行行号;i++){
                 var 新行号;
@@ -1720,7 +1693,7 @@ class MyPlugin extends obsidian.Plugin {
             }else{
                 表达式 = 所选文本;
             }
-            console.log('表达式 '+表达式);
+            //console.log('表达式 '+表达式);
             选至文首 = 编辑模式.getRange({line:0,ch:0},当前光标);
             var 以前字数 = 选至文首.length;
             var 返回位置 = 0;
@@ -1905,20 +1878,35 @@ class MyPlugin extends obsidian.Plugin {
         this.替换所选文本 (所选文本);        
     };
 
-    标签双链互转() {
+    标签转为内链() {
         this.获取编辑器信息 ();
         if(所选文本 == ""){
             return;
         };
 
-        let tagReg = /(^|\s*)#([^#\s\/]+)(\s|[^\/]|\r*\n|$)/g;
-        let linkReg = /\[\[([^\[\]]+)\]\]/g;
+        let tagReg = /(?<=(^|\s?))#([^#\s\/]+)(?=(\s|[^\/]|\r*\n|$))/g;
 	  	if (tagReg.test(所选文本)) {
             所选文本 = 所选文本.replace(tagReg, "[[$2]]");
-		}else if(linkReg.test(所选文本)){
+            this.替换所选文本 (所选文本);  
+		}else{
+            return
+        }
+        
+    };
+
+    内链转为标签() {
+        this.获取编辑器信息 ();
+        if(所选文本 == ""){
+            return;
+        };
+
+        let linkReg = / ?\[\[([^\[\]]+)\]\] ?/g;
+	  	if(linkReg.test(所选文本)){
 			所选文本 = 所选文本.replace(linkReg, " #$1 ");
-		}
-        this.替换所选文本 (所选文本);  
+            this.替换所选文本 (所选文本);  
+		}else{
+            return
+        }
     };
 
     切换模式() {
@@ -2023,7 +2011,7 @@ class MyPlugin extends obsidian.Plugin {
             for (const file of this.app.vault.getMarkdownFiles()) {
                 if(file.name != 当前文件名){
                     fileNameAry.push(file.basename);
-                    console.log(file.name)
+                    //console.log(file.name)
                 }
             };
             fileNameAry.sort().reverse();
@@ -2971,7 +2959,7 @@ class MyPlugin extends obsidian.Plugin {
             新文本 = 当前行文本.replace(/^(\>*(\[[!\w]+\])?\s*)#+\s/,"$1");
         }else{  //列表、引用，先转为普通文本，再转为标题
             新文本 = 当前行文本.replace(/^\s*(#*|\>|\-|\d+\.)\s*/m,"");
-            console.log(新文本);
+            //console.log(新文本);
             新文本 = _str+" "+新文本;
         }
         //笔记全文.replaceRange(新文本, {line:当前行号,ch:0}, {line:当前行号,ch:当前行文本.length});
@@ -2981,27 +2969,166 @@ class MyPlugin extends obsidian.Plugin {
 
     调节标题级别(增加) {
         this.获取编辑器信息 ();
-        let 新文本 = "";
-        let 位置 = 选至行首.length;
-        if(增加){
-            if(/^##+\s/.test(当前行文本)){
-                新文本 = 当前行文本.replace(/(^\s*)##/,"$1#");
-                位置--
+        if(所选文本 == ""){
+            let 新文本 = "";
+            let 位置 = 选至行首.length;
+            if(增加){
+                if(/^#+ /.test(当前行文本)){
+                    this.app.commands.executeCommandById('editor:unfold-all');
+                    let _str = 当前行文本.replace(/^(#{2,6}) .*$/,"$1");   //获取前面的多个#号
+                    //new obsidian.Notice("当前为标题行 "+_str);
+                    // 如果 前缀# >= 2 个，替换掉首个#符号，即提升一级
+                    let 新标题 = 当前行文本.replace(/^#/,"")
+                    笔记全文.replaceRange(新标题,{line:当前行号,ch:0},{line:当前行号,ch:当前行文本.length});
+                    var 末行行号 = 编辑模式.lastLine();
+                    //console.log(当前行号+" "+末行行号);
+                    let 临时行文本
+                    for (var i = 当前行号+1; i <= 末行行号; i++) {
+                        临时行文本 = 编辑模式.getLine(i);
+                        if(/^#+ /.test(临时行文本)){
+                            //console.log(i+" "+临时行文本);
+                            // 临时行文本包含当前标题的 前缀# 符号组，代表下级标题
+                            if(eval("/^"+_str+"(?=#)/").test(临时行文本)){
+                                let 提升标题 = 临时行文本.replace(/^#/,"")
+                                笔记全文.replaceRange(提升标题,{line:i,ch:0},{line:i,ch:临时行文本.length});
+                            }else{
+                                break
+                            }
+                        }
+                    }
+                }
             }else{
-                return;
+                if(/^#+ /.test(当前行文本)){
+                    this.app.commands.executeCommandById('editor:unfold-all');
+                    let _str = 当前行文本.replace(/^(#{1,5}) .*$/,"$1");   //获取前面的多个#号
+                    //new obsidian.Notice("当前为标题行 "+_str);
+                    // 如果 前缀# >= 2 个，替换掉首个#符号，即提升一级
+                    let 新标题 = 当前行文本.replace(/^/,"#")
+                    笔记全文.replaceRange(新标题,{line:当前行号,ch:0},{line:当前行号,ch:当前行文本.length});
+                    var 末行行号 = 编辑模式.lastLine();
+                    //console.log(当前行号+" "+末行行号);
+                    let 临时行文本
+                    for (var i = 当前行号+1; i <= 末行行号; i++) {
+                        临时行文本 = 编辑模式.getLine(i);
+                        if(/^#{1,5} /.test(临时行文本)){
+                            //console.log(i+" "+临时行文本);
+                            // 临时行文本包含当前标题的 前缀# 符号组，代表下级标题
+                            if(eval("/^"+_str+"(?=#)/").test(临时行文本)){
+                                let 提升标题 = 临时行文本.replace(/^/,"#")
+                                笔记全文.replaceRange(提升标题,{line:i,ch:0},{line:i,ch:临时行文本.length});
+                            }else{
+                                break
+                            }
+                        }
+                    }
+                }
             }
+            //笔记全文.replaceRange(新文本, {line:当前行号,ch:0}, {line:当前行号,ch:当前行文本.length});
+            编辑模式.setLine(当前行号,新文本);
+            编辑模式.setCursor({line:当前行号,ch:位置});
         }else{
-            if(/^#{1,5}\s/.test(当前行文本)){
-                新文本 = 当前行文本.replace(/(^[‌‌‌‌‌‌　]*)#/,"$1##");
-                位置++
+            if(增加){
+                if (!所选文本) return;
+                所选文本 = 所选文本.replace(/(?<=^#+)# /mg," ");
+                this.替换所选文本 (所选文本);
             }else{
-                return;
+                if (!所选文本) return;
+                所选文本 = 所选文本.replace(/(?<=^#*)# /mg,"## ");
+                this.替换所选文本 (所选文本);
             }
         }
-        //笔记全文.replaceRange(新文本, {line:当前行号,ch:0}, {line:当前行号,ch:当前行文本.length});
-        编辑模式.setLine(当前行号,新文本);
-        编辑模式.setCursor({line:当前行号,ch:位置});
     };
+
+    /*
+    调高多个标题级别() {
+		this.获取编辑器信息 ();
+        if (!笔记全文) return;
+        if(/^#+ /.test(当前行文本)){
+            this.app.commands.executeCommandById('editor:unfold-all');
+            let _str = 当前行文本.replace(/^(#{2,6}) .*$/,"$1");   //获取前面的多个#号
+            //new obsidian.Notice("当前为标题行 "+_str);
+            // 如果 前缀# >= 2 个，替换掉首个#符号，即提升一级
+            let 新标题 = 当前行文本.replace(/^#/,"")
+            笔记全文.replaceRange(新标题,{line:当前行号,ch:0},{line:当前行号,ch:当前行文本.length});
+            var 末行行号 = 编辑模式.lastLine();
+            //console.log(当前行号+" "+末行行号);
+            let 临时行文本
+            for (var i = 当前行号+1; i <= 末行行号; i++) {
+                临时行文本 = 编辑模式.getLine(i);
+                if(/^#+ /.test(临时行文本)){
+                    //console.log(i+" "+临时行文本);
+                    // 临时行文本包含当前标题的 前缀# 符号组，代表下级标题
+                    if(eval("/^"+_str+"(?=#)/").test(临时行文本)){
+                        let 提升标题 = 临时行文本.replace(/^#/,"")
+                        笔记全文.replaceRange(提升标题,{line:i,ch:0},{line:i,ch:临时行文本.length});
+                    }else{
+                        break
+                    }
+                }
+            }
+        }
+    };
+
+    调低多个标题级别() {
+		this.获取编辑器信息 ();
+        if (!笔记全文) return;
+        if(/^#+ /.test(当前行文本)){
+            this.app.commands.executeCommandById('editor:unfold-all');
+            let _str = 当前行文本.replace(/^(#{1,5}) .*$/,"$1");   //获取前面的多个#号
+            //new obsidian.Notice("当前为标题行 "+_str);
+            // 如果 前缀# >= 2 个，替换掉首个#符号，即提升一级
+            let 新标题 = 当前行文本.replace(/^/,"#")
+            笔记全文.replaceRange(新标题,{line:当前行号,ch:0},{line:当前行号,ch:当前行文本.length});
+            var 末行行号 = 编辑模式.lastLine();
+            //console.log(当前行号+" "+末行行号);
+            let 临时行文本
+            for (var i = 当前行号+1; i <= 末行行号; i++) {
+                临时行文本 = 编辑模式.getLine(i);
+                if(/^#{1,5} /.test(临时行文本)){
+                    //console.log(i+" "+临时行文本);
+                    // 临时行文本包含当前标题的 前缀# 符号组，代表下级标题
+                    if(eval("/^"+_str+"(?=#)/").test(临时行文本)){
+                        let 提升标题 = 临时行文本.replace(/^/,"#")
+                        笔记全文.replaceRange(提升标题,{line:i,ch:0},{line:i,ch:临时行文本.length});
+                    }else{
+                        break
+                    }
+                }
+            }
+        }
+    };
+
+    调高所有标题级别() {
+		this.获取编辑器信息 ();
+        if (!笔记正文) return;
+        笔记正文 = 笔记正文.replace(/(?<=^#+)# /mg," ");
+        this.替换笔记正文 (笔记正文);
+    };
+
+    调低所有标题级别() {
+		this.获取编辑器信息 ();
+        if (!笔记正文) return;
+        笔记正文 = 笔记正文.replace(/(?<=^#*)# /mg,"## ");
+        this.替换笔记正文 (笔记正文);
+    };
+    */
+
+    /*
+    以下修改所选范围的标题行级别，代码失败，不能很好的获取到选区的首行和末行，处理后无法恢复选区范围
+    调高所选标题级别() {
+		this.获取编辑器信息 ();
+        if (!所选文本) return;
+        所选文本 = 所选文本.replace(/(?<=^#+)# /mg," ");
+        this.替换所选文本 (所选文本);
+    };
+
+    调低所有标题级别() {
+		this.获取编辑器信息 ();
+        if (!所选文本) return;
+        所选文本 = 所选文本.replace(/(?<=^#*)# /mg,"## ");
+        this.替换所选文本 (所选文本);
+    };
+    */
 
     彩字格式刷(_color){
         this.关闭格式刷();
@@ -3212,7 +3339,7 @@ class MyPlugin extends obsidian.Plugin {
         this.获取编辑器信息 ();
         let reg = /^[\t\s]*\d+(?=\.\s[^\s])/mg;
         if(当前行文本.match(reg)==null){
-            console.log("当前不是列表");
+            //console.log("当前不是列表");
             let reg1 =/^(.*\[\[)[^\[]+$/;
             let reg2 = /^[^\]]+(\]\].*)$/;
 
@@ -3358,7 +3485,7 @@ class MyPlugin extends obsidian.Plugin {
         //navigator.clipboard.writeText(所选文本);
         //this.app.workspace.activeLeaf.replaceSelection(所选文本);
         this.app.vault.adapter.rename(当前文件路径, 所选文本+".md"); //强行重命名，不能全局更新
-        console.log(当前文件路径+"\n"+所选文本);
+        new obsidian.Notice(当前文件路径+"\n"+所选文本);
     };
 
     获取相对路径 () {
@@ -3424,7 +3551,7 @@ class MyPlugin extends obsidian.Plugin {
                 clipText = clipText.replace(/(?<=\|)(?=\|)/g,"　");
                 new obsidian.Notice("剪贴板数据已转为MD语法表格！");
             }else if(htmlReg.test(tmpText)){
-                console.log('获取到富文本');
+                new obsidian.Notice('获取到富文本');
             }else/* if(codeReg.test(tmpText))*/{
                 clipText = "```\n"+clipText+"\n```\n"
                 new obsidian.Notice("剪贴板数据已转为代码块格式！");
@@ -3786,37 +3913,6 @@ class MyPlugin extends obsidian.Plugin {
             }
         }
     };
-
-    调高所有标题级别() {
-		this.获取编辑器信息 ();
-        if (!笔记正文) return;
-        笔记正文 = 笔记正文.replace(/(?<=^#+)# /mg," ");
-        this.替换笔记正文 (笔记正文);
-    };
-
-    调低所有标题级别() {
-		this.获取编辑器信息 ();
-        if (!笔记正文) return;
-        笔记正文 = 笔记正文.replace(/(?<=^#*)# /mg,"## ");
-        this.替换笔记正文 (笔记正文);
-    };
-    
-    /*
-    以下修改所选范围的标题行级别，代码失败，不能很好的获取到选区的首行和末行，处理后无法恢复选区范围
-    调高所选标题级别() {
-		this.获取编辑器信息 ();
-        if (!所选文本) return;
-        所选文本 = 所选文本.replace(/(?<=^#+)# /mg," ");
-        this.替换所选文本 (所选文本);
-    };
-
-    调低所有标题级别() {
-		this.获取编辑器信息 ();
-        if (!所选文本) return;
-        所选文本 = 所选文本.replace(/(?<=^#*)# /mg,"## ");
-        this.替换所选文本 (所选文本);
-    };
-    */
     
     //火冷添加
 
@@ -3968,7 +4064,7 @@ class MyPlugin extends obsidian.Plugin {
         //new obsidian.Notice(笔记正文);
         if(isIndent){
             笔记正文 = 笔记正文.replace(/^[‌‌‌‌　]+/mg,"");
-            笔记正文 = 笔记正文.replace(/^(?!(\s*\d+\.\s|\s*\-\.\s|[\n\s\>#]+|```|\-\-\-|\|[^\|]|\*\*\*))/mg,"‌‌‌‌　　");
+            笔记正文 = 笔记正文.replace(/^(?!(\s*\d+\.\s|[a-zA-Z一-龟]+:|\s*\-\.？\s|[\n\s\>#]+|```|\-\-\-|\|[^\|]|\*\*\*))/mg,"‌‌‌‌　　");
             isIndent = false;
         }else{
             笔记正文 = 笔记正文.replace(/^[‌‌‌‌　]+/mg,"");
@@ -4358,47 +4454,47 @@ class editSettingsTab extends obsidian.PluginSettingTab {
             cls: 'recent-files-donation',
         });
         var mdText = document.createDocumentFragment();
-        mdText.appendText('转换标题语法「待设置」：指定或取消当前行文本为N级标题；');
+        mdText.appendText('转换标题语法「待设置」：指定或取消当前行文本为N级标题');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('修改内部链接的显示名称「待设置」：从内部链接里路径中提取名称做为 [[|名称]] 显示。感谢火冷（85399416）增强相关功能；');
+        mdText.appendText('修改内部链接的显示名称「待设置」：从内部链接里路径中提取名称做为 [[|名称]] 显示，感谢火冷（85399416）增强相关功能');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('调高标题级别「待设置」：将当前标题级别调高一级（最高为一级）；');
+        mdText.appendText('调高标题级别「待设置」：将当前行标题（及子标题）或所选范围的标题级别调高。建议：空（1977878681）');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('调低标题级别「待设置」：将当前标题级别调低一级（最低为六级）；');
+        mdText.appendText('调低标题级别「待设置」：将当前行标题（及子标题）或所选范围的标题级别调低。建议：空（1977878681）');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('调高所有标题级别「待设置」：将所有标题的级别调高一级（最高为一级）。建议：空 QQ:1977878681；');
-        mdText.appendChild(document.createElement('br'));
-        mdText.appendText('调低所有标题级别「待设置」：将所有标题的级别调低一级（最低为六级）。建议：空 QQ:1977878681；');
-        mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换标签语法「Alt+Shift+3」：将选文转为或去除 #标签 效果；');
-        mdText.appendChild(document.createElement('br'));
-        mdText.appendText('标签双链互转「Ctrl+Alt+Shift+3」：将 [[笔记名]] 与 #笔记名 效果互转；');
-        mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换粗体语法「Alt+C」：将选文转为或去除 **粗体** 效果；');
-        mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换斜体语法「Alt+X」：将选文转为或去除 *斜体* 效果；');
-        mdText.appendChild(document.createElement('br'));
-        //mdText.appendText('转换行内代码「Alt+D」：将选文转为或去除 `行内代码` 效果；');
+        //mdText.appendText('调高所有标题级别「待设置」：将所有标题的级别调高一级（最高为一级）。');
         //mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换删除线「Alt+S」：将选文转为或去除 ~~删除线~~ 效果；');
+        //mdText.appendText('调低所有标题级别「待设置」：将所有标题的级别调低一级（最低为六级）。建议：空 QQ:1977878681');
+        //mdText.appendChild(document.createElement('br'));
+        mdText.appendText('转换标签语法「Alt+Shift+3」：将选文转为或去除 #标签 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换下划线「Alt+H」：将选文转为或去除 <u>下划线</u> 效果；');
+        mdText.appendText('标签转为链接「Ctrl+Alt+Shift+3」：将 [[笔记名]] 与 #笔记名 效果互转');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换代码块「待设置」：将选文转为或去除 ```代码块``` 效果；');
+        mdText.appendText('转换粗体语法「Alt+C」：将选文转为或去除 **粗体** 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换上标语法「待设置」：将选文转为或去除 <sup>上标</sup> 效果；');
+        mdText.appendText('转换斜体语法「Alt+X」：将选文转为或去除 *斜体* 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换下标语法「待设置」：将选文转为或去除 <sub>下标</sub> 效果；');
+        //mdText.appendText('转换行内代码「Alt+D」：将选文转为或去除 `行内代码` 效果');
+        //mdText.appendChild(document.createElement('br'));
+        mdText.appendText('转换删除线「Alt+S」：将选文转为或去除 ~~删除线~~ 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('[[]]转为[]()语法「待设置」：将划选文本中的[[内部链接]]语法转为[超](链接)语法；');
+        mdText.appendText('转换下划线「Alt+H」：将选文转为或去除 <u>下划线</u> 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('[]()转为[[]]语法「待设置」：将划选文本中的[超](链接)语法转为[[内部链接]]语法；');
+        mdText.appendText('转换代码块「待设置」：将选文转为或去除 ```代码块``` 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('去除超链接语法「待设置」：将划选文本中的[]()超链接样式恢复为普通文本，即只保留[]内的内容；');
+        mdText.appendText('转换上标语法「待设置」：将选文转为或去除 <sup>上标</sup> 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('转换无语法文本「Ctrl+Alt+Z」：鼠标点击或划选文本的语法部分，可去除相应的MarkDown语法字符；');
+        mdText.appendText('转换下标语法「待设置」：将选文转为或去除 <sub>下标</sub> 效果');
         mdText.appendChild(document.createElement('br'));
-        mdText.appendText('获取无语法文本「Ctrl+Alt+C」：去除划选文本中的所有MarkDown语法字符，并写入剪贴板；');
+        mdText.appendText('[[]]转为[]()语法「待设置」：将划选文本中的[[内部链接]]语法转为[超](链接)语法');
+        mdText.appendChild(document.createElement('br'));
+        mdText.appendText('[]()转为[[]]语法「待设置」：将划选文本中的[超](链接)语法转为[[内部链接]]语法');
+        mdText.appendChild(document.createElement('br'));
+        mdText.appendText('去除超链接语法「待设置」：将划选文本中的[]()超链接样式恢复为普通文本，即只保留[]内的内容');
+        mdText.appendChild(document.createElement('br'));
+        mdText.appendText('转换无语法文本「Ctrl+Alt+Z」：鼠标点击或划选文本的语法部分，可去除相应的MarkDown语法字符');
+        mdText.appendChild(document.createElement('br'));
+        mdText.appendText('获取无语法文本「Ctrl+Alt+C」：去除划选文本中的所有MarkDown语法字符，并写入剪贴板');
         mdText.appendChild(document.createElement('br'));
         div1.appendChild(mdText);
         
@@ -4574,33 +4670,33 @@ class editSettingsTab extends obsidian.PluginSettingTab {
             cls: 'recent-files-donation',
         });
         var charText = document.createDocumentFragment();
-        charText.appendText('修复外来文本「待设置」：对 PDF 或 OCR 识别的大段文本进行修复（断行、标点）。感谢 zhl111 建议；');
+        charText.appendText('修复外来文本「待设置」：对 PDF 或 OCR 识别的大段文本进行修复（断行、标点），感谢 zhl111 建议');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('修复错误标点「待设置」：将笔记中的汉字中间的英文标点修复为中文标点。感谢叶茜彬（7424863）参与；');
+        charText.appendText('修复错误标点「待设置」：将笔记中的汉字中间的英文标点修复为中文标点，感谢叶茜彬（7424863）参与');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('修复错误语法「待设置」：修复错误的MD语法，如1。列表、【】（）链接、[[]]()回链等；');
+        charText.appendText('修复错误语法「待设置」：修复错误的MD语法，如1。列表、【】（）链接、[[]]()回链等');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('转换路径语法「待设置」：将 c:\\windows 与 [](file:///c:\/windows) 路径语法相互转换；');
+        charText.appendText('转换路径语法「待设置」：将 c:\\windows 与 [](file:///c:\/windows) 路径语法相互转换');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('简体转为繁体「待设置」：将笔记中的简体汉字转换为繁体汉字；');
+        charText.appendText('简体转为繁体「待设置」：将笔记中的简体汉字转换为繁体汉字');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('繁体转为简体「待设置」：将笔记中的繁体汉字转换为简体汉字；');
+        charText.appendText('繁体转为简体「待设置」：将笔记中的繁体汉字转换为简体汉字');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('列表转为图示「待设置」：选中列表文本，转换为相应层级的MerMaid语法图示，支持修改列表后更新图示；');
+        charText.appendText('列表转为图示「待设置」：选中列表文本，转换为相应层级的MerMaid语法图示，支持修改列表后更新图示');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('转换待办状态「待设置」：转换选文行首的待办状态，顺序为 -[ x-!?><+] 效果；');
+        charText.appendText('转换待办状态「待设置」：转换选文行首的待办状态，顺序为 -[ x-!?><+] 效果');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('转换callout语法「待设置」：转换选文为callout语法样式，即行首补加>[!note]及>符号；');
+        charText.appendText('转换callout语法「待设置」：转换选文为callout语法样式，即行首补加>[!note]及>符号');
         charText.appendChild(document.createElement('br'));
-        charText.appendText('转换填空「待设置」：将选文转为或去除 {{c1::选文}} 效果；');
+        charText.appendText('转换填空「待设置」：将选文转为或去除 {{c1::选文}} 效果');
         //charText.appendChild(document.createElement('br'));
-        //charText.appendText('【选文】「待设置」：在选文两端添加或去除 【】符号；');
+        //charText.appendText('【选文】「待设置」：在选文两端添加或去除 【】符号');
         //charText.appendChild(document.createElement('br'));
-        //charText.appendText('（选文）「待设置」：在选文两端添加或去除 （）符号；');
+        //charText.appendText('（选文）「待设置」：在选文两端添加或去除 （）符号');
         //charText.appendChild(document.createElement('br'));
-        //charText.appendText('「选文」「待设置」：在选文两端添加或去除 「」符号；');
+        //charText.appendText('「选文」「待设置」：在选文两端添加或去除 「」符号');
         //charText.appendChild(document.createElement('br'));
-        //charText.appendText('《选文》「待设置」：在选文两端添加或去除 《》符号；');
+        //charText.appendText('《选文》「待设置」：在选文两端添加或去除 《》符号');
         div3.appendChild(charText);
 
         new obsidian.Setting(containerEl)
@@ -4610,29 +4706,29 @@ class editSettingsTab extends obsidian.PluginSettingTab {
             cls: 'recent-files-donation',
         });
         var toolText = document.createDocumentFragment();
-        toolText.appendText('计算所选结果「F9」：计算所选的四则运算式的结果，并写入剪贴板以备粘贴；');
+        toolText.appendText('计算所选结果「F9」：计算所选的四则运算式的结果，并写入剪贴板以备粘贴');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('修复意外断行「待设置」：修复笔记中的意外断行（删除结尾不是句式标点的换行符）；');
+        toolText.appendText('修复意外断行「待设置」：修复笔记中的意外断行（删除结尾不是句式标点的换行符）');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('搜索当前文本「待设置」：通过搜索面板在当前文档中搜索划选内容；');
+        toolText.appendText('搜索当前文本「待设置」：通过搜索面板在当前文档中搜索划选内容');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('选择当前整段「待设置」：选择光标所在的当前整段文本；');
+        toolText.appendText('选择当前整段「待设置」：选择光标所在的当前整段文本');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('选择当前整句「待设置」：选择光标所在的当前整句（中文）文本；');
+        toolText.appendText('选择当前整句「待设置」：选择光标所在的当前整句（中文）文本');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('选择当前语法「Alt+Shift+K」：选择光标所处的MrakDown语法文本（如加粗、高亮、删除、链接等效果）；');
+        toolText.appendText('选择当前语法「Alt+Shift+K」：选择光标所处的MrakDown语法文本（如加粗、高亮、删除、链接等效果）');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('获取标注文本「待设置」：获取标题、高亮、注释及前缀(#标注\批注\反思)等文本内容；');
+        toolText.appendText('获取标注文本「待设置」：获取标题、高亮、注释及前缀(#标注\批注\反思)等文本内容');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('获取当前字符数「待设置」：计算页面中可见字符（汉字、字母、数字、标点）和不可见字符（空格等）个数；');
+        toolText.appendText('获取当前字符数「待设置」：计算页面中可见字符（汉字、字母、数字、标点）和不可见字符（空格等）个数');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('自动设置标题「待设置」：将选文中的单行文本（末尾非标点或数字）转为标题；');
+        toolText.appendText('自动设置标题「待设置」：将选文中的单行文本（末尾非标点或数字）转为标题');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('指定当前文件名「待设置」：划选文字后指定为当前笔记的文件名；');
+        toolText.appendText('指定当前文件名「待设置」：划选文字后指定为当前笔记的文件名');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('嵌入当前网址页面「待设置」：在行末插入iframe代码来嵌入所选网址页面；');
+        toolText.appendText('嵌入当前网址页面「待设置」：在行末插入iframe代码来嵌入所选网址页面');
         toolText.appendChild(document.createElement('br'));
-        toolText.appendText('获取相对路径「待设置」：获取当前笔记在库目录内的相对路径；');
+        toolText.appendText('获取相对路径「待设置」：获取当前笔记在库目录内的相对路径');
         toolText.appendChild(document.createElement('br'));
         div4.appendChild(toolText);
 
@@ -4644,39 +4740,39 @@ class editSettingsTab extends obsidian.PluginSettingTab {
             cls: 'recent-files-donation',
         });
         var lineText = document.createDocumentFragment();
-        lineText.appendText('折叠同级标题「Ctrl+Shift+Alt+D」：判断当前行的标题层级，将正文中同级标题一次性折叠起来；');
+        lineText.appendText('折叠同级标题「Ctrl+Shift+Alt+D」：判断当前行的标题层级，将正文中同级标题一次性折叠起来');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('折叠某级别标题「待设置」：将正文中某一层级的标题一次性折叠起来。感谢火冷（85399416）增强相关功能；');
+        lineText.appendText('折叠某级别标题「待设置」：将正文中某一层级的标题一次性折叠起来，感谢火冷（85399416）增强相关功能');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('删除当前段落「Ctrl+D」：删除当前段落；若在[[]]内会先删除链接内容、在有序列表项内会自动调小后面序号；');
+        lineText.appendText('删除当前段落「Ctrl+D」：删除当前段落；若在[[]]内会先删除链接内容、在有序列表项内会自动调小后面序号');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('插入有效空行「Ctrl+Shift+Alt+Enter」：插入带有全角空格的空白行，保证渲染时占据一行；');
+        lineText.appendText('插入有效空行「Ctrl+Shift+Alt+Enter」：插入带有全角空格的空白行，保证渲染时占据一行');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('空格转为空行「待设置」：将两个汉字中间的空格或制表符转为空白行；');
+        lineText.appendText('空格转为空行「待设置」：将两个汉字中间的空格或制表符转为空白行');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('批量插入空行「Ctrl+Shift+L」：在划选的文本行或全文中间批量插入空白行；');
+        lineText.appendText('批量插入空行「Ctrl+Shift+L」：在划选的文本行或全文中间批量插入空白行');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('批量去除空行「Ctrl+Alt+L」：批量去除划选文本或全文中的空白行；');
+        lineText.appendText('批量去除空行「Ctrl+Alt+L」：批量去除划选文本或全文中的空白行');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('上方插入空行「待设置」：在当前文本行的上行插入空白行；');
+        lineText.appendText('上方插入空行「待设置」：在当前文本行的上行插入空白行');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('下方插入空行「待设置」：在当前文本行的下行插入空白行；');
+        lineText.appendText('下方插入空行「待设置」：在当前文本行的下行插入空白行');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('全文缩进「待设置」：在全文的每个行首添加两个全角空格，产生缩进效果；');
+        lineText.appendText('全文缩进「待设置」：在全文的每个行首添加两个全角空格，产生缩进效果');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('当前行缩进「待设置」：在当前行文本的行首添加两个全角空格，产生缩进效果；');
+        lineText.appendText('当前行缩进「待设置」：在当前行文本的行首添加两个全角空格，产生缩进效果');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('行首添加空格「待设置」：在每行文本的行首添加两个空格；');
+        lineText.appendText('行首添加空格「待设置」：在每行文本的行首添加两个空格');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('去除行首空格「待设置」：批量去除每行文本的行首空格字符；');
+        lineText.appendText('去除行首空格「待设置」：批量去除每行文本的行首空格字符');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('末尾追加空格「待设置」：在每行文本的末尾追加两个空格；');
+        lineText.appendText('末尾追加空格「待设置」：在每行文本的末尾追加两个空格');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('去除末尾空格「待设置」：批量去除每行文本的末尾空格字符；');
+        lineText.appendText('去除末尾空格「待设置」：批量去除每行文本的末尾空格字符');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('添加间隔空格「待设置」：在正文的汉字与字母之间批量添加空格，如 china 中国；');
+        lineText.appendText('添加间隔空格「待设置」：在正文的汉字与字母之间批量添加空格，如 china 中国');
         lineText.appendChild(document.createElement('br'));
-        lineText.appendText('去除所有空格「待设置」：去除正文中所有的全、半角空格。');
+        lineText.appendText('去除所有空格「待设置」：去除正文中所有的全、半角空格');
         lineText.appendChild(document.createElement('br'));
         div5.appendChild(lineText);
 

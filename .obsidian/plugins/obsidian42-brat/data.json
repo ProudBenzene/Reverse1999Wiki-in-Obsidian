@@ -1,5 +1,7 @@
 {
   "pluginList": [
+    "obsidian-canzi/Enhanced-editing",
+    "Yaozhuwa/AttachFlow",
     "noatpad/obsidian-banners"
   ],
   "pluginSubListFrozenVersion": [],
