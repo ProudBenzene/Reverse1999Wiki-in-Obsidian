@@ -15,7 +15,8 @@ padding-right: 10% !important;
 }
 
 .book img[alt="cover"],
-.book .export-image-preview-container img[alt="cover"] {
+.book .export-image-root img[alt="cover"],
+.book.export-image-preview-container img[alt="cover"] {
     display: inline !important;
     width: 350px !important;
     height: 500px !important;
@@ -24,7 +25,7 @@ padding-right: 10% !important;
 
 .book.is-live-preview .metadata-container,
 .book.markdown-preview-view .metadata-container,
-.book .export-image-preview-container.markdown-preview-view .metadata-container {
+.book.export-image-preview-container.markdown-preview-view .metadata-container {
     position: absolute;
     display: block;
     width: calc(80% - 330px);
@@ -33,7 +34,8 @@ padding-right: 10% !important;
     overflow-y: scroll
 }
 
-.internal-embed.markdown-embed img[alt="cover"] {
+.internal-embed.markdown-embed img[alt="cover"],
+.export-image-preview-container.internal-embed.markdown-embed img[alt="cover"] {
     display: block !important;
     width: initial !important;
 }
