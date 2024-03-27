@@ -15,7 +15,7 @@ padding-right: 10% !important;
 }
 
 .book img[alt="cover"],
-.export-image-preview-container img[alt="cover"] {
+.book .export-image-preview-container img[alt="cover"] {
     display: inline !important;
     width: 350px !important;
     height: 500px !important;
