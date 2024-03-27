@@ -1,9 +1,9 @@
 {
-  "width": 850,
+  "width": 800,
   "showFilename": false,
   "2x": true,
   "format": "jpg",
-  "showMetadata": false,
+  "showMetadata": true,
   "authorInfo": {
     "show": true,
     "align": "left",
