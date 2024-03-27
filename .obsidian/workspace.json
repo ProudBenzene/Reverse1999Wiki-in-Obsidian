@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "9f27f408a4e90bd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "测试.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -257,7 +243,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +259,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +290,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9f27f408a4e90bd7",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
     "000-箱的构成/主页.md",
     "测试.md",
