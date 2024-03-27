@@ -54,7 +54,8 @@
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true
   },
   "插件": "FasCode",
   "插件/彩色时钟.md": "FasClock",
