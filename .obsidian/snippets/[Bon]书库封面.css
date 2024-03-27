@@ -14,7 +14,8 @@ padding-right: 10% !important;
     display: none;
 }
 
-.book img[alt="cover"] {
+.book img[alt="cover"],
+.export-image-preview-container img[alt="cover"] {
     display: inline !important;
     width: 350px !important;
     height: 500px !important;

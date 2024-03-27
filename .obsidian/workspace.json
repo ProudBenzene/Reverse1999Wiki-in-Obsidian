@@ -52,7 +52,7 @@
             }
           },
           {
-            "id": "337fb0b184f019f6",
+            "id": "dd66d02320d32475",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -286,7 +286,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,7 +308,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "337fb0b184f019f6",
+  "active": "dd66d02320d32475",
   "lastOpenFiles": [
     "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
