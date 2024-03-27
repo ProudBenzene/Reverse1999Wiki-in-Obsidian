@@ -14,8 +14,7 @@ padding-right: 10% !important;
     display: none;
 }
 
-.book img[alt="cover"],
-.book .export-image-preview-container img[alt="cover"] {
+.book img[alt="cover"] {
     display: inline !important;
     width: 350px !important;
     height: 500px !important;
@@ -27,8 +26,8 @@ padding-right: 10% !important;
 .export-image-preview-container.markdown-preview-view .metadata-container {
     position: absolute;
     display: block;
-    width: calc(80% - 330px);
-    left: calc(10% + 330px);
+    width: calc(80% - 350px);
+    left: calc(10% + 350px);
     max-height: 500px;
     overflow-y: scroll
 }

@@ -3,7 +3,7 @@
   "showFilename": false,
   "2x": true,
   "format": "jpg",
-  "showMetadata": true,
+  "showMetadata": false,
   "authorInfo": {
     "show": true,
     "align": "left",
