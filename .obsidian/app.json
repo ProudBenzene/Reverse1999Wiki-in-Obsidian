@@ -14,5 +14,6 @@
   },
   "newFileLocation": "root",
   "livePreview": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "propertiesInDocument": "visible"
 }
