@@ -17,7 +17,8 @@
       ],
       "excludedNotes": [
         "100-UTTU人物合辑/维尔汀｜Vertin.md",
-        "\".+\\\\.png$\""
+        "\".+\\\\.png$\"",
+        "100-UTTU人物合辑/100-UTTU人物合辑.md"
       ],
       "isDefault": false,
       "dataSource": {
@@ -335,7 +336,7 @@
         "kind": "folder",
         "config": {
           "path": "300-以影像之",
-          "recursive": false
+          "recursive": true
         }
       },
       "newNotesFolder": "",

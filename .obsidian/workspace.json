@@ -13,21 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/301-主线/第五章 洞穴的囚徒.md",
-                "mode": "preview",
+                "file": "000-箱的构成/主页.md",
+                "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "4d143c3207c2f8c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/300-以影像之.md",
-                "mode": "preview",
-                "source": false
               }
             }
           },
@@ -64,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -210,9 +198,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "300-以影像之/300-以影像之.md"
-              }
+              "state": {}
             }
           },
           {
@@ -268,7 +254,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +270,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +280,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,15 +302,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4d143c3207c2f8c1",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
+    "000-箱的构成/主页.md",
+    "300-以影像之/300-以影像之.md",
     "300-以影像之/302-支线",
     "300-以影像之/301-主线/第五章 洞穴的囚徒.md",
-    "300-以影像之/300-以影像之.md",
     "300-以影像之/301-主线/序幕 此即明日.md",
-    "000-箱的构成/常用工具.md",
     "300-以影像之/301-主线",
-    "000-箱的构成/主页.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "200-相从心生/200-相从心生.md",
@@ -364,7 +349,6 @@
     "200-相从心生/普通心相/assets/蓬勃｜Flourishing.assets",
     "200-相从心生/普通心相/assets/怅然｜LOSS.assets",
     "200-相从心生/普通心相/assets/欢声｜Cheering.assets",
-    "200-相从心生/普通心相/assets/麻木｜Numb.assets",
-    "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets"
+    "200-相从心生/普通心相/assets/麻木｜Numb.assets"
   ]
 }
