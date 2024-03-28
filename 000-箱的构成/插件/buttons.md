@@ -79,3 +79,11 @@ action https://space.bilibili.com/1197454103
 class circle_btn blank
 ```
 ^button-bilibili
+
+
+```button
+name <img title="重新加载数据" width="90" src="https://s1.ax1x.com/2022/05/18/OI7Io9.png"> 
+type command
+action QuickAdd: 重载主页
+class  blank
+```
