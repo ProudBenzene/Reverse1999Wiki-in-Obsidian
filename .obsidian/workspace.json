@@ -13,9 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "300-以影像之/主线/第五章 洞穴的囚徒.md",
                 "mode": "preview",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "4d143c3207c2f8c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/300-以影像之.md",
+                "mode": "preview",
+                "source": false
               }
             }
           },
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "300-以影像之/300-以影像之.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构成/常用工具.md"
+                "file": "300-以影像之/300-以影像之.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "300-以影像之/300-以影像之.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/常用工具.md",
+                "file": "300-以影像之/300-以影像之.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,23 +317,26 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
+    "300-以影像之/远方的故人",
+    "300-以影像之/主线/第五章 洞穴的囚徒.md",
+    "300-以影像之/300-以影像之.md",
+    "300-以影像之/主线/序幕 此即明日.md",
+    "000-箱的构成/常用工具.md",
+    "300-以影像之/主线",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
-    "300-以影像之/300-以影像之.md",
     "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
     "200-相从心生/角色心相/齿轮之外｜Beyond the Gears.md",
     "200-相从心生/角色心相/食足餮满｜A Satisfied Eater.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
-    "300-以影像之/第一章 在我们的时代里.md",
-    "300-以影像之/序幕 此即明日.md",
+    "300-以影像之/主线/第一章 在我们的时代里.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
-    "000-箱的构成/常用工具.md",
     "200-相从心生/角色心相/assets/请保持平衡｜Balance, Please.assets/心相 请保持平衡.png",
     "README.md",
     "测试.md",
@@ -334,8 +350,6 @@
     "000-箱的构成/自动化创建角色档案.md",
     "白板.canvas",
     "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
-    "000-箱的构成/插件/buttons.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/单品 葛天 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/单品 葛天 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/单品 葛天 01.png",
@@ -351,7 +365,6 @@
     "200-相从心生/普通心相/assets/怅然｜LOSS.assets",
     "200-相从心生/普通心相/assets/欢声｜Cheering.assets",
     "200-相从心生/普通心相/assets/麻木｜Numb.assets",
-    "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets",
-    "200-相从心生/普通心相/assets/领航｜Navigating.assets"
+    "200-相从心生/普通心相/assets/蒙昧｜Fatuous.assets"
   ]
 }
