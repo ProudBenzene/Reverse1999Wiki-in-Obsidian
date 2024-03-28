@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "source",
+                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -143,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,7 +222,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构成/主页.md"
+                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md"
               }
             }
           },
@@ -279,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,9 +331,12 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/200-相从心生.md",
-    "000-箱的构成/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "300-以影像之/300-以影像之.md",
+    "000-箱的构成/主页.md",
     "200-相从心生/角色心相/荒唐余生｜Remaining Absurdity.md",
     "200-相从心生/角色心相/齿轮之外｜Beyond the Gears.md",
     "200-相从心生/角色心相/食足餮满｜A Satisfied Eater.md",
@@ -365,10 +368,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/至终的仪式 我行，我在，故我见.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/神秘术 独一的相3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/神秘术 独一的相2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets",
     "100-UTTU人物合辑/人类｜Human/assets",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets",
