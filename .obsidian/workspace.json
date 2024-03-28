@@ -13,57 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "000-箱的构成/插件/buttons.md",
                 "mode": "preview",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "f75838707f3853b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/插件/buttons.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "305111128ef889b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2995e68d36b63d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/200-相从心生.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78c3331053e32361",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/300-以影像之.md",
-                "mode": "preview",
-                "source": false
               }
             }
           },
@@ -99,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -332,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,14 +304,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "f75838707f3853b4",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
+    "000-箱的构成/主页.md",
     "000-箱的构成/插件/buttons.md",
     "300-以影像之/300-以影像之.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/200-相从心生.md",
     "000-箱的构成/插件/buttons-special.md",
-    "000-箱的构成/主页.md",
     "000-箱的构成/assets/主页.assets/相从心生.png",
     "000-箱的构成/assets/主页.assets/UTTU人物合辑.png",
     "000-箱的构成/assets/主页.assets/以影像之.png",
