@@ -440,7 +440,9 @@
       "templates": [
         "000-箱的构成/templates/相从心生.md"
       ],
-      "excludedNotes": [],
+      "excludedNotes": [
+        "200-相从心生/200-相从心生.md"
+      ],
       "isDefault": true,
       "dataSource": {
         "kind": "folder",

@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -198,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构成/主页.md"
+              }
             }
           },
           {
@@ -254,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,10 +305,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构成/常用工具.md",
+    "000-箱的构成/assets/主页.assets/UTTU人物合辑.png",
+    "000-箱的构成/assets/主页.assets/以影像之.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "000-箱的构成/主页.md",
+    "000-箱的构成/常用工具.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/302-支线",
     "300-以影像之/301-主线/第五章 洞穴的囚徒.md",
@@ -334,14 +340,12 @@
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/自动化创建角色档案.md",
     "白板.canvas",
-    "500-箱外阵营/维尔汀小队｜Vertin's Team.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/单品 葛天 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/单品 葛天 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/单品 葛天 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/神秘术 另类的骨1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/至终的仪式 我行，我在，故我见.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/神秘术 独一的相3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/神秘术 独一的相2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets",
     "100-UTTU人物合辑/人类｜Human/assets",
