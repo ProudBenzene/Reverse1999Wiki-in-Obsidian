@@ -195,6 +195,16 @@
             "dimension": 36.89903846153847,
             "children": [
               {
+                "id": "fcfeade928c29023",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "000-箱的构成/主页.md"
+                  }
+                }
+              },
+              {
                 "id": "13eab36a72e3758c",
                 "type": "leaf",
                 "state": {
@@ -202,7 +212,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "a0af558e737c8c63",
@@ -296,7 +307,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-03-26T15:36:30+08:00",
+      "mtime": "2024-03-28T15:53:31+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null
