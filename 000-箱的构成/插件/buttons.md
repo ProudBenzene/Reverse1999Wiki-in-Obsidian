@@ -82,8 +82,21 @@ class circle_btn blank
 
 
 ```button
-name <img title="重新加载数据" width="90" src="https://s1.ax1x.com/2022/05/18/OI7Io9.png"> 
-type command
-action QuickAdd: 重载主页
+name <img title="重新加载数据" width="300" src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403290124389.png"> 
+type link
+action obsidian://advanced-uri?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%88%90%E5%83%8F&filepath=300-%25E4%25BB%25A5%25E5%25BD%25B1%25E5%2583%258F%25E4%25B9%258B%252F300-%25E4%25BB%25A5%25E5%25BD%25B1%25E5%2583%258F%25E4%25B9%258B.md
+class  blank
+```
+```button
+name <img title="重新加载数据" width="300" src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403290125491.png"> 
+type link
+action obsidian://advanced-uri?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%88%90%E5%83%8F&filepath=300-%25E4%25BB%25A5%25E5%25BD%25B1%25E5%2583%258F%25E4%25B9%258B%252F300-%25E4%25BB%25A5%25E5%25BD%25B1%25E5%2583%258F%25E4%25B9%258B.md
+class  blank
+```
+
+```button
+name <img title="重新加载数据" width="300" src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403290125742.png"> 
+type link
+action obsidian://advanced-uri?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%88%90%E5%83%8F&filepath=300-%25E4%25BB%25A5%25E5%25BD%25B1%25E5%2583%258F%25E4%25B9%258B%252F300-%25E4%25BB%25A5%25E5%25BD%25B1%25E5%2583%258F%25E4%25B9%258B.md
 class  blank
 ```
