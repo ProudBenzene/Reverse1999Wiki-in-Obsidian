@@ -183,7 +183,7 @@
           "commandId": "workspaces-plus:HomePage"
         }
       ],
-      "runOnStartup": true
+      "runOnStartup": false
     },
     {
       "name": "刷新页面",
