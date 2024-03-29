@@ -398,5 +398,6 @@
   "custom_fc2": "#E1B343",
   "custom_fc3": "#5C87B3",
   "custom_fc4": "#47924C",
-  "custom_fc5": "#646A73"
+  "custom_fc5": "#646A73",
+  "isLoadOnMobile": false
 }
