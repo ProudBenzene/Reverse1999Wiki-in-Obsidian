@@ -25,7 +25,7 @@ padding-right: 10% !important;
 .export-image-preview-container.markdown-reading-view.markdown-rendered .metadata-container,
 .export-image-preview-container.markdown-preview-view .metadata-container {
     position: absolute;
-    display: none;
+    display: block;
     width: calc(80% - 330px);
     left: calc(10% + 330px);
     max-height: 500px;
