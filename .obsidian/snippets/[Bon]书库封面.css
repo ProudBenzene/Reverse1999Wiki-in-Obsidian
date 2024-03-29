@@ -21,9 +21,8 @@ padding-right: 10% !important;
    }
 
 .book.is-live-preview .metadata-container,
-.book.markdown-preview-view .metadata-container,
-.book .export-image-preview-container.markdown-preview-view .metadata-container {
-    position: absolute;
+.book.markdown-preview-view .metadata-container {
+    position: absolute !important;
     display: block;
     width: calc(80% - 330px);
     left: calc(10% + 330px);
