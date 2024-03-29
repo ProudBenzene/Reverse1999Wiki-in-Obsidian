@@ -700,14 +700,14 @@ settings:
         title.zh: 底层背景（亮色模式）
         type: class-select
         allowEmpty: false
-        default: background-underlying-defalut-light
+        default: background-underlying-default-light
         options:
             -   label: background-primary
                 value: background-underlying-primary-light
             -   label: background-secondary
                 value: background-underlying-secondary-light
-            -   label: adapt to accent color(defalut)
-                value: background-underlying-defalut-light
+            -   label: adapt to accent color(default)
+                value: background-underlying-default-light
             -   label: customize color
                 value: background-underlying-Color-light
             -   label: customize CSS
@@ -1648,14 +1648,14 @@ settings:
         title.zh: 底层背景（暗色模式）
         type: class-select
         allowEmpty: false
-        default: background-underlying-defalut-dark
+        default: background-underlying-default-dark
         options:
             -   label: background-primary
                 value: background-underlying-primary-dark
             -   label: background-secondary
                 value: background-underlying-secondary-dark
-            -   label: adapt to accent color(defalut)
-                value: background-underlying-defalut-dark
+            -   label: adapt to accent color(default)
+                value: background-underlying-default-dark
             -   label: customize color
                 value: background-underlying-Color-dark
             -   label: customize CSS
@@ -2344,6 +2344,14 @@ settings:
         type: variable-number
         default: 700
     - 
+		id: inline-title-text-transform
+		title: inline title text-transform
+		title.zh: 页内标题 text-transform
+		description: Accepts any CSS text-transform value
+		description.zh: 接受任何 CSS text-transform 值
+		type: variable-text
+		default: ''
+    - 
         id: inline-title-color-select
         title: inline title text color
         title.zh: 页内标题 文本颜色
@@ -2398,6 +2406,14 @@ settings:
         description.zh: 接受 100-900 的值
         type: variable-number
         default: 700
+    - 
+		id: h1-text-transform
+		title: H1 text-transform
+		title.zh: H1 text-transform
+		description: Accepts any CSS text-transform value
+		description.zh: 接受任何 CSS text-transform 值
+		type: variable-text
+		default: ''
     - 
 		id: h1-accent-color
 		title: Customize H1 accent color
@@ -2454,6 +2470,14 @@ settings:
         type: variable-number
         default: 675
     - 
+		id: h2-text-transform
+		title: H2 text-transform
+		title.zh: H2 text-transform
+		description: Accepts any CSS text-transform value
+		description.zh: 接受任何 CSS text-transform 值
+		type: variable-text
+		default: ''
+    - 
         id: h2-accent-color
 		title: Customize H2 accent color
         title.zh: 自定义 H2 强调色
@@ -2508,6 +2532,14 @@ settings:
         description.zh: 接受 100-900 的值
         type: variable-number
         default: 650
+    - 
+		id: h3-text-transform
+		title: H3 text-transform
+		title.zh: H3 text-transform
+		description: Accepts any CSS text-transform value
+		description.zh: 接受任何 CSS text-transform 值
+		type: variable-text
+		default: ''
     - 
         id: h3-accent-color
 		title: Customize H3 accent color
@@ -2564,6 +2596,14 @@ settings:
         type: variable-number
         default: 625
     - 
+		id: h4-text-transform
+		title: H4 text-transform
+    	title.zh: H4 text-transform
+		description: Accepts any CSS text-transform value
+		description.zh: 接受任何 CSS text-transform 值
+		type: variable-text
+		default: ''
+    - 
         id: h4-accent-color
 		title: Customize H4 accent color
         title.zh: 自定义 H4 强调色
@@ -2619,6 +2659,14 @@ settings:
         type: variable-number
         default: 600
     - 
+		id: h5-text-transform
+		title: H5 text-transform
+		title.zh: H5 text-transform
+		description: Accepts any CSS text-transform value
+		description.zh: 接受任何 CSS text-transform 值
+		type: variable-text
+		default: ''
+    - 
         id: h5-accent-color
 		title: Customize H5 accent color
         title.zh: 自定义 H5 强调色
@@ -2673,6 +2721,14 @@ settings:
         description.zh: 接受 100-900 的值
         type: variable-number
         default: 575
+    - 
+		id: h6-text-transform
+		title: H6 text-transform
+		title.zh: H6 text-transform
+		description: Accepts any CSS text-transform value
+		description.zh: 接受任何 CSS text-transform 值
+		type: variable-text
+		default: ''
     - 
         id: h6-accent-color
 		title: Customize H6 accent color
@@ -4127,8 +4183,8 @@ body.background-underlying-secondary-dark.theme-dark {
     --background-underlying: var(--background-secondary) !important;
 }
 
-body.background-underlying-defalut-light.theme-light,
-body.background-underlying-defalut-dark.theme-dark {
+body.background-underlying-default-light.theme-light,
+body.background-underlying-default-dark.theme-dark {
     --background-underlying: var(--background-tertiary) !important;
 }
 
@@ -6661,6 +6717,21 @@ body {
     --h6-weight: 575;
 }
 
+body {
+    /* Extra */
+    --inline-title-text-transform: var(--h1-text-transform);
+    --h1-text-transform: unset;
+    --h2-text-transform: unset;
+    --h3-text-transform: unset;
+    --h4-text-transform: unset;
+    --h5-text-transform: unset;
+    --h6-text-transform: unset;
+}
+
+.inline-title {
+    text-transform: var(--inline-title-text-transform);
+}
+
 body:not(.inline-title-divider-remove) .inline-title:not(.mk-inline-title) {
     border-bottom: 1px solid var(--divider-color);
     padding-bottom: var(--size-4-3);
@@ -6683,6 +6754,14 @@ body:not(.heading-indicator-off) .markdown-preview-sizer>div>:is(h1, h2, h3, h4,
 }
 
 /* h1 */
+h1,
+.markdown-rendered h1,
+.HyperMD-header-1,
+.inline-title[data-level='1'],
+.HyperMD-list-line .cm-header-1 {
+    text-transform: var(--h1-text-transform);
+}
+
 .h1-color-designated {
     --h1-color: var(--h1-accent-color) !important;
 }
@@ -6735,6 +6814,14 @@ body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-1 .is-collapse
 body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view) .is-collapsed h1 .collapse-indicator.collapse-icon svg {
     background-color: var(--h1-accent-color);
     color: var(--h1-accent-color);
+}
+
+h2,
+.markdown-rendered h2,
+.HyperMD-header-2,
+.inline-title[data-level='2'],
+.HyperMD-list-line .cm-header-2 {
+    text-transform: var(--h2-text-transform);
 }
 
 .h2-color-designated {
@@ -6792,6 +6879,14 @@ body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view)
     color: var(--h2-accent-color);
 }
 
+h3,
+.markdown-rendered h3,
+.HyperMD-header-3,
+.inline-title[data-level='3'],
+.HyperMD-list-line .cm-header-3 {
+    text-transform: var(--h3-text-transform);
+}
+
 .h3-color-designated {
     --h3-color: var(--h3-accent-color) !important;
 }
@@ -6843,6 +6938,14 @@ body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-3 .is-collapse
 body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view) .is-collapsed h3 .collapse-indicator.collapse-icon svg {
     background-color: var(--h3-accent-color);
     color: var(--h3-accent-color);
+}
+
+h4,
+.markdown-rendered h4,
+.HyperMD-header-4,
+.inline-title[data-level='4'],
+.HyperMD-list-line .cm-header-4 {
+    text-transform: var(--h4-text-transform);
 }
 
 .h4-color-designated {
@@ -6899,6 +7002,14 @@ body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view)
     color: var(--h4-accent-color);
 }
 
+h5,
+.markdown-rendered h5,
+.HyperMD-header-5,
+.inline-title[data-level='5'],
+.HyperMD-list-line .cm-header-5 {
+    text-transform: var(--h5-text-transform);
+}
+
 .h5-color-designated {
     --h5-color: var(--h5-accent-color) !important;
 }
@@ -6951,6 +7062,14 @@ body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-5 .is-collapse
 body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view) .is-collapsed h5 .collapse-indicator.collapse-icon svg {
     background-color: var(--h5-accent-color);
     color: var(--h5-accent-color);
+}
+
+h6,
+.markdown-rendered h6,
+.HyperMD-header-6,
+.inline-title[data-level='6'],
+.HyperMD-list-line .cm-header-6 {
+    text-transform: var(--h6-text-transform);
 }
 
 .h6-color-designated {
@@ -7011,11 +7130,16 @@ body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view)
 
 
 
+
 /* ====== link ====== */
 body {
     /* Links */
     --link-external-color: var(--color-blue);
     --link-external-color-hover: var(--color-blue);
+}
+
+.cm-s-obsidian span.cm-link a {
+    color: var(--link-external-color);
 }
 
 a:not(.tag, .raindrop-tag, .clickable-icon, :has(img:not(.link-favicon))):hover,
@@ -7093,15 +7217,14 @@ body {
     --hover-indicator-color: var(--color-accent);
 }
 
-.line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(.image-embed, .mk-header, :has(.mk-note-footer)),
-.line-hover-indicator .workspace-leaf-content[data-type="markdown"]:not(:has(.document-search-container)) .markdown-preview-sizer>div:not([class], :has(.collapse-indicator, .mk-header)) {
+.line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not([class], :has(.collapse-indicator, .mk-header)) {
     position: relative;
 }
 
 .line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(:has(.mk-note-footer)):has(.cm-hmd-list-indent)::after,
 .line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(.image-embed, .mk-header, :has(.mk-note-footer, .collapse-indicator))::after,
-.line-hover-indicator .workspace-leaf-content[data-type="markdown"]:not(:has(.document-search-container)) .markdown-preview-sizer>div:is(.el-ul, .el-ol)::after,
-.line-hover-indicator .workspace-leaf-content[data-type="markdown"]:not(:has(.document-search-container)) .markdown-preview-sizer>div:not([class], :has(.collapse-indicator, .mk-header))::after {
+.line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:is(.el-ul, .el-ol)::after,
+.line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not([class], :has(.collapse-indicator, .mk-header))::after {
     content: "";
     position: absolute;
     left: -12px;
@@ -7115,8 +7238,8 @@ body {
 
 .line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(:has(.mk-note-footer)):has(.cm-hmd-list-indent):hover::after,
 .line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(.image-embed, .mk-header, :has(.mk-note-footer, .collapse-indicator)):hover::after,
-.line-hover-indicator .workspace-leaf-content[data-type="markdown"]:not(:has(.document-search-container)) .markdown-preview-sizer>div:is(.el-ul, .el-ol):hover::after,
-.line-hover-indicator .workspace-leaf-content[data-type="markdown"]:not(:has(.document-search-container)) .markdown-preview-sizer>div:not([class], :has(.collapse-indicator, .mk-header)):hover::after {
+.line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:is(.el-ul, .el-ol):hover::after,
+.line-hover-indicator .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not([class], :has(.collapse-indicator, .mk-header)):hover::after {
     height: calc(100% - 6px);
 }
 
@@ -7212,9 +7335,17 @@ body {
     --bold-color: var(--color-red);
 }
 
+.cm-s-obsidian span.cm-quote.cm-strong {
+    color: var(--bold-color);
+}
+
 /* Italic */
 body {
     --italic-color: var(--color-orange);
+}
+
+.cm-s-obsidian span.cm-quote.cm-em {
+    color: var(--italic-color);
 }
 
 /* Lists */
@@ -7860,6 +7991,11 @@ body {
     --code-value: #bd93f9;
 }
 
+.codeblock-style-dracula .cm-s-obsidian .HyperMD-codeblock ::selection,
+.codeblock-style-dracula .markdown-rendered pre ::selection {
+    background-color: hsl(from var(--code-normal) h s l / 20%);
+}
+
 .codeblock-style-solarized-light {
     --code-background-light: #fdf6e3;
     --code-background-dark: #fdf6e3;
@@ -7874,6 +8010,11 @@ body {
     --code-string: #859900;
     --code-tag: #dc322f;
     --code-value: #6c71c4;
+}
+
+.codeblock-style-solarized-light .cm-s-obsidian .HyperMD-codeblock ::selection,
+.codeblock-style-solarized-light .markdown-rendered pre ::selection {
+    background-color: hsl(from var(--code-normal) h s l / 15%);
 }
 
 .codeblock-style-solarized-dark {
@@ -7892,6 +8033,11 @@ body {
     --code-value: #6c71c4;
 }
 
+.codeblock-style-solarized-dark .cm-s-obsidian .HyperMD-codeblock ::selection,
+.codeblock-style-solarized-dark .markdown-rendered pre ::selection {
+    background-color: hsl(from var(--code-normal) h s l / 30%);
+}
+
 .codeblock-style-one-dark {
     --code-background-light: #282C34;
     --code-background-dark: #282C34;
@@ -7906,6 +8052,11 @@ body {
     --code-string: #98C379;
     --code-tag: #BE5046;
     --code-value: #C678DD;
+}
+
+.codeblock-style-one-dark .cm-s-obsidian .HyperMD-codeblock ::selection,
+.codeblock-style-one-dark .markdown-rendered pre ::selection {
+    background-color: hsl(from var(--code-normal) h s l / 25%);
 }
 
 .markdown-source-view.mod-cm6 .code-block-flair,
@@ -8241,10 +8392,6 @@ svg.sidebar-left {
 .workspace-drawer.mod-right .workspace-drawer-inner .workspace-drawer-tab-container,
 .workspace-drawer.mod-right .workspace-drawer-inner .workspace-drawer-tab-container .workspace-leaf-content {
     background-color: var(--background-primary);
-}
-
-.is-phone.theme-dark .modal.mod-settings .vertical-tab-nav-item {
-    background-color: var(--background-tertiary);
 }
 
 .mobile-navbar {
