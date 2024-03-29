@@ -22,9 +22,10 @@ padding-right: 10% !important;
 
 .book.is-live-preview .metadata-container,
 .book.markdown-preview-view .metadata-container,
-.export-image-preview-container.markdown-reading-view.markdown-rendered .metadata-container {
+.export-image-preview-container.markdown-reading-view.markdown-rendered .metadata-container,
+.export-image-preview-container.markdown-preview-view .metadata-container {
     position: absolute;
-    display: block;
+    display: none;
     width: calc(80% - 330px);
     left: calc(10% + 330px);
     max-height: 500px;
