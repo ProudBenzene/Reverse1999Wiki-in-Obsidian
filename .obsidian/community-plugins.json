@@ -32,5 +32,7 @@
   "templater-obsidian",
   "obsidian-tidy-footnotes",
   "workspaces-plus",
-  "obsidian-banners"
+  "obsidian-banners",
+  "obsidian-contextual-typography",
+  "editing-toolbar"
 ]
