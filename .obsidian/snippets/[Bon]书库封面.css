@@ -22,10 +22,10 @@ padding-right: 10% !important;
 
 .book.is-live-preview .metadata-container,
 .book.markdown-preview-view .metadata-container {
-    position: absolute !important;
+    position: absolute;
     display: block;
     width: calc(80% - 330px);
     left: calc(10% + 330px);
     max-height: 500px;
-    overflow-y: scroll
+    overflow-y: scroll;
 }

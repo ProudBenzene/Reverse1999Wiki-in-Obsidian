@@ -29,8 +29,8 @@ Udimo: 西西里灵缇类
 aliases:
   - 十四行诗
   - Sonetto
-初始立绘: "[[assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png]]"
-洞悉立绘: "[[assets/十四行诗｜Sonetto.assets/立绘 十四行诗 02.png]]"
+初始立绘: "[[立绘 十四行诗 01.png]]"
+洞悉立绘: "[[立绘 十四行诗 02.png]]"
 banner_header: "{{filename}}"
 出场章节:
   - 1.0｜此即明日
