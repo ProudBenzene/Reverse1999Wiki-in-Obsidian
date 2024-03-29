@@ -1,5 +1,5 @@
 /***Original by Bon, very little modification by ProudBenzene***/
-.book .cm-scroller
+.book .cm-scroller,
 .book .export-image-preview-container.cm-scroller {
 padding-left: 10% !important;
 padding-right: 10% !important;
@@ -7,7 +7,7 @@ padding-right: 10% !important;
 
 .book .cm-sizer,
 .book .markdown-preview-sizer,
-.book .export-image-preview-container .markdown-preview-sizer {
+.book .export-image-preview-container.markdown-preview-sizer {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
@@ -16,8 +16,7 @@ padding-right: 10% !important;
     display: none;
 }
 
-.book img[alt="cover"],
-.book .export-image-preview-container img[alt="cover"] {
+.book img[alt="cover"] {
     display: inline !important;
     width: 350px !important;
     height: 500px !important;
