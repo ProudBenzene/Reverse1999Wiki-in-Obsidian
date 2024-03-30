@@ -123,7 +123,7 @@ exec(`start "" "${imagePath}"`, (error, stdout, stderr) => { // 尝试如果将�
 });
 */
 //macOS
-exec(`open  -a "Adobe Photoshop 2022" "${imagePath}"`, (error, stdout, stderr) => { // 尝试如果将选中图片路径按相对路径处理能否打开图片
+exec(`open  -a "Adobe Photoshop 2024" "${imagePath}"`, (error, stdout, stderr) => { // 尝试如果将选中图片路径按相对路径处理能否打开图片
     if (error || stderr) {
         exec(`open  -a "Adobe Photoshop 2022" "${imageAbPath}"`, (error, stdout, stderr) => { //如果不能，尝试将选中图片路径按绝对路径处理
             if (error || stderr) {
