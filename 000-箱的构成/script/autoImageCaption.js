@@ -1,3 +1,4 @@
+// autoImageCaption.js by @ProudBenzene
 let editor;
 let activeLeaf = this.app.workspace.activeLeaf;
 if (activeLeaf.view.getViewType() === 'markdown') {
