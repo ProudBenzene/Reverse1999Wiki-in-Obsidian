@@ -209,28 +209,6 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "d4eee8f85f65907e",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "620eeed28de27618",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构成/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -309,6 +287,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templify:Templify 市场": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -328,8 +307,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构成/常用工具.md",
+    "templify-康奈尔笔记模板-20240330175040.md",
     "000-箱的构成/主页.md",
+    "000-箱的构成/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
     "000-箱的构成/assets/主页.assets/以影像之.png",

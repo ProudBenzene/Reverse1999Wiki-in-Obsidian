@@ -34,5 +34,6 @@
   "workspaces-plus",
   "obsidian-banners",
   "obsidian-contextual-typography",
-  "editing-toolbar"
+  "editing-toolbar",
+  "templify"
 ]
