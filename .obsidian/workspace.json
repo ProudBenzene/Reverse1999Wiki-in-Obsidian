@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "80670f16e6b95b09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -198,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构成/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md"
               }
             }
           },
@@ -255,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,9 +320,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "80670f16e6b95b09",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/立绘 鬃毛沙砾 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/立绘 鬃毛沙砾 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets",
     "000-箱的构成/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "templify-康奈尔笔记模板-20240330175040.md",
@@ -342,17 +361,13 @@
     "测试.md",
     "-.md",
     "200-相从心生/角色心相/美丽新世界｜Brave New World.md",
-    "200-相从心生/角色心相/第二次生命｜Her Second Life.md",
     "200-相从心生/角色心相/assets/第二次生命｜Her Second Life.assets/心相 第二次生命.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "200-相从心生/角色心相/assets/美丽新世界｜Brave New World.assets/心相 美丽新世界.png",
     "白板.canvas",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets/单品 葛天 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets",
     "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets",
     "100-UTTU人物合辑/人类｜Human/assets",
     "200-相从心生/普通心相/assets/轻藐｜Slighted.assets",
-    "200-相从心生/普通心相/assets/蓬勃｜Flourishing.assets",
-    "200-相从心生/普通心相/assets/怅然｜LOSS.assets"
+    "200-相从心生/普通心相/assets/蓬勃｜Flourishing.assets"
   ]
 }
