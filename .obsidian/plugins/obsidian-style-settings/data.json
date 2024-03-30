@@ -518,7 +518,6 @@
   "anuppuccin-custom-background@@anp-background-image-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\")",
   "anuppuccin-custom-background@@anp-custom-bg-brightness-dark": 0.9,
   "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 0,
-  "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.7,
   "Folder-Image@@folder-image-url": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241513912.png\")",
   "Folder-Image@@folder-image-height": "200px",
   "Folder-Image@@folder-image-width": "200px",
@@ -647,5 +646,6 @@
   "code-tab@@tabbbc@@light": "#649E71",
   "code-tab@@tabbc@@light": "#1E76D9",
   "crearts@@skins-dark": "skin-dark-default",
-  "crearts@@neumorphism": true
+  "crearts@@neumorphism": true,
+  "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.5
 }
