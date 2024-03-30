@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构成/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +253,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +269,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,10 +301,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
-    "templify-康奈尔笔记模板-20240331013021.md",
     "000-箱的构成/主页.md",
+    "templify-康奈尔笔记模板-20240331013021.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
