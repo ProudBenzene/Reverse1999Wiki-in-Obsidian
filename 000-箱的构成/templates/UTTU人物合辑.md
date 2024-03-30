@@ -109,19 +109,19 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---
 > 
 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---
 > 
 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---
