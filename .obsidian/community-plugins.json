@@ -1,7 +1,6 @@
 [
   "obsidian-export-image",
   "Enhanced-editing",
-  "obsidian-admonition",
   "obsidian-advanced-uri",
   "attachment-flow-plugin",
   "better-fn",
@@ -35,5 +34,6 @@
   "obsidian-banners",
   "obsidian-contextual-typography",
   "editing-toolbar",
-  "templify"
+  "templify",
+  "obsidian-admonition"
 ]
