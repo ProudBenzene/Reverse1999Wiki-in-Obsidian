@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "pashashocky/obsidian-note-gallery",
     "Quorafind/Obsidian-Templify",
     "obsidian-canzi/Enhanced-editing",
     "Yaozhuwa/AttachFlow",
