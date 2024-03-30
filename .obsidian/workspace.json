@@ -27,7 +27,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -209,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md"
+              }
             }
           },
           {
@@ -265,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -313,26 +320,27 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "80670f16e6b95b09",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane~.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/至终的仪式 万物之灵的旨意.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/鬃毛沙砾的尤提姆.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/尤提姆-鬃毛沙砾.gif",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/立绘 鬃毛沙砾 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/立绘 鬃毛沙砾 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/神秘术 见习舞术1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/神秘术 通灵之媒2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/神秘术 通灵之媒3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/神秘术 通灵之媒1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/神秘术 见习舞术2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/神秘术 见习舞术3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/一阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/三阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets/二阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "templify-康奈尔笔记模板-20240330175040.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
-    "000-箱的构成/assets/主页.assets/以影像之.png",
-    "000-箱的构成/assets/主页.assets/相从心生.png",
-    "000-箱的构成/assets/主页.assets/国际服开服.jpg",
-    "000-箱的构成/assets/主页.assets/仔细读信的小叶尼塞.gif",
     "000-箱的构成/assets/主页.assets/[Minimal]Cards.css",
-    "000-箱的构成/assets/主页.assets/UTTU人物合辑.png",
     "000-箱的构成/assets/主页.assets",
     "000-箱的构成/插件/buttons.md",
     "300-以影像之/300-以影像之.md",
