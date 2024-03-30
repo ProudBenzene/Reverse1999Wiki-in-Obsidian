@@ -91,7 +91,7 @@
   "anuppuccin-theme-settings@@anp-translucency-opacity": 0.95,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-light": true,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
-  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": true,
   "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-generic-dark",
   "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-solarized-light",
   "minimal-style@@ax1@@light": "#638C6A",
