@@ -5,7 +5,12 @@
     "noatpad/obsidian-banners"
   ],
   "pluginSubListFrozenVersion": [],
-  "themesList": [],
+  "themesList": [
+    {
+      "repo": "CreArts-Community/CreArts-Obsidian",
+      "lastUpdate": "43240101"
+    }
+  ],
   "updateAtStartup": true,
   "updateThemesAtStartup": true,
   "enableAfterInstall": true,

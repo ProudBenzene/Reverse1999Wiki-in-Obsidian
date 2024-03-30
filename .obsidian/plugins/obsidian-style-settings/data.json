@@ -645,5 +645,7 @@
   "code-tab@@bc@@light": "#F6F8FA6B",
   "code-tab@@tabifc@@light": "#649E71",
   "code-tab@@tabbbc@@light": "#649E71",
-  "code-tab@@tabbc@@light": "#1E76D9"
+  "code-tab@@tabbc@@light": "#1E76D9",
+  "crearts@@skins-dark": "skin-dark-default",
+  "crearts@@neumorphism": true
 }
