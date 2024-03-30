@@ -113,19 +113,19 @@ color:
 > 
 > 
 > ---
-> 
+> 随手拾来的绸布编制而成的围巾，颜色驳杂，手工的痕迹应当承载着某种深沉的祝福。但其大小并不适宜它主人如今已经变得庞大的身躯。
 
-> [!culture]+ ｜
-> 
+> [!culture]+ 沟通的渠道｜Communication Medium
+> ![](assets/鬃毛沙砾｜Shamane.assets/单品%20鬃毛沙砾%2002.png)
 > 
 > ---
-> 
+> 造型传统的祭祀面具，由不知名皮革鞣制成了兽首的造型。据悉，那些颇具攻击性的獠牙来自于不同的猛兽。
 
-> [!culture]+ ｜
-> 
+> [!culture]+ 手制义肢｜Handmade Prosthesis
+> ![](assets/鬃毛沙砾｜Shamane.assets/单品%20鬃毛沙砾%2003.png)
 > 
 > ---
-> 
+> 质感朴实粗放，由随处可见的材料粗暴组合而成的联动机关，其间能感受到微弱的神秘术。如此敷衍的做工显然没考虑到实际使用时的舒适度。但据本人言，这具义肢有效减轻了孩童与他相处时的压力。
 ````
 
 ### ｜
@@ -156,13 +156,13 @@ color:
 ## 文化
 
 ````tab
-tab: |
+tab: ｜
 ![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
-tab: |
+tab: ｜
 ![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: |[UTTU×鬃毛沙砾]
+tab: ｜[UTTU×鬃毛沙砾]
 ![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
