@@ -109,19 +109,19 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!culture]+ |
+> [!culture]+ 做工粗糙的围巾｜Roughly-Made Scarf
 > 
 > 
 > ---
 > 
 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---
 > 
 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---

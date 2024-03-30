@@ -134,19 +134,19 @@ color:
 collapse: open
 title: 
 color: 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---
 > 
 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---
 > 
 
-> [!culture]+ |
+> [!culture]+ ｜
 > 
 > 
 > ---
@@ -156,7 +156,7 @@ color:
 ## 文化
 
 ````tab
-tab: |
+tab: ｜
 ![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 tab: |
