@@ -59,12 +59,12 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md"
+              }
             }
           },
           {
@@ -266,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +320,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "00898110e0351a26",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/X｜X.assets/立绘 X 01.png",
