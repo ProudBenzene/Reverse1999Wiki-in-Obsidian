@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md"
+              }
             }
           },
           {
@@ -266,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -314,13 +320,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "5620f7150728abb8",
   "lastOpenFiles": [
+    "000-箱的构成/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/立绘 未锈铠 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/立绘 未锈铠 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets",
-    "000-箱的构成/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/X｜X.assets/单品 X 06.png",
