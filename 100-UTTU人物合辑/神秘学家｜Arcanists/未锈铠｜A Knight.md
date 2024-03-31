@@ -49,8 +49,8 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
-> 
+> [!skill]- 公义
+> ![公义 一阶|100](assets/未锈铠｜A%20Knight.assets/神秘术%20公义1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -59,8 +59,8 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
-> 
+> [!skill]- 荣耀
+> ![荣耀 一阶|100](assets/未锈铠｜A%20Knight.assets/神秘术%20荣耀1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
