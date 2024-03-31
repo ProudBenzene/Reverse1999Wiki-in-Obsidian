@@ -50,21 +50,8 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "5620f7150728abb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -212,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md"
+                "file": "000-箱的构成/主页.md"
               }
             }
           },
@@ -269,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,10 +305,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "5620f7150728abb8",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
+    "000-箱的构成/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/单品 未锈铠 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/单品 未锈铠 05.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/单品 未锈铠 04.png",
@@ -334,7 +319,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/未锈铠的尤提姆.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/至终的仪式 公元七七八年后.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/神秘术 公义.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets/神秘术 荣耀2.png",
     "000-箱的构成/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
