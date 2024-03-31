@@ -125,7 +125,9 @@ color:
 
 ````tab
 tab: 小狗，小狗，小狗们|Puppies, Puppies, and Puppies
-![文化1|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)幻想的朋友，玩具朋友，动物朋友。
+![文化1|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+
+幻想的朋友，玩具朋友，动物朋友。
 
 人们总是需要朋友，但如果你想要一个最好的、最好的朋友，那就别忘了人常说的那句话——
 
@@ -146,7 +148,9 @@ tab: 小狗，小狗，小狗们|Puppies, Puppies, and Puppies
 她的孩子如往常一样身形轻巧，毫不回头地坐进了那辆白色的车。它曾经载着无数将将断奶的小狗儿离开母亲，如今也带走了她年幼的孩子。
 
 tab: 拉普拉斯破坏王|The Wrecker of Laplace
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)00019/9月/04周
+![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+
+00019/9月/04周
 
 《研究人员科室—器械报销单》
 
@@ -182,6 +186,7 @@ tab: 拉普拉斯破坏王|The Wrecker of Laplace
 
 tab: 无奉献心理的天才|[UTTU×兔毛手袋]
 ![文化3|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+
 白雪松：你能谈谈……
 **兔毛手袋：在苦目糖的制作中有什么困难与特殊的令人印象深刻之事，对吗？**
 白雪松：不。这不是我想问的。
