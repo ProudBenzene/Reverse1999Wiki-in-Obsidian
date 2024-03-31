@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "12a343b2af3afcd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md"
+              }
             }
           },
           {
@@ -254,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,8 +320,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "12a343b2af3afcd0",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/泥鯭的士｜An-an Lee.assets/泥鯭的士的尤提姆.png",
     "000-箱的构成/常用工具.md",
     "000-箱的构成/主页.md",
     "templify-康奈尔笔记模板-20240331013021.md",
@@ -343,7 +361,6 @@
     "000-箱的构成/assets/主页.assets",
     "000-箱的构成/插件/buttons.md",
     "300-以影像之/300-以影像之.md",
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "300-以影像之/302-支线",
     "300-以影像之/301-主线",
     "白板.canvas",
