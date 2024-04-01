@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9aadaddd821e22fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构成/主页.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -27,6 +15,18 @@
               "state": {
                 "file": "400-箱外世界/暴雨时间线.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "66a89598e413c912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构成/主页.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -327,10 +328,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "66a89598e413c912",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+    "400-箱外世界/暴雨时间线.md",
     "000-箱的构成/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/单品 皮克勒斯 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/单品 皮克勒斯 05.png",
