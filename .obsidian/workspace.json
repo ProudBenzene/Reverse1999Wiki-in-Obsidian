@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构成/主页.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -171,7 +171,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.8914715268792585,
                   "close": true
                 }
               }
