@@ -956,9 +956,9 @@ div[data-type="thino_view"] .memo-editor-wrapper #cMenuToolbarModalBar ~ .cm-edi
     padding-left:16px;
     padding-right:16px; 
 }
-div[data-type=thino_view] .common-editor-wrapper .common-editor-inputer:has(#cMenuToolbarModal)
+div[data-type=thino_view] .common-editor-wrapper .common-editor-inputer:has(#cMenuToolbarModalBar)
 {
-  min-height:145px;
+  min-height:118px;
 }
 
 
