@@ -50,9 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "d0f8697f0f09069c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md"
+              }
             }
           },
           {
@@ -226,7 +241,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md"
+              }
             }
           }
         ],
@@ -274,6 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,6 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,9 +342,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "d0f8697f0f09069c",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/立绘 皮克勒斯 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/立绘 皮克勒斯 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets",
     "000-箱的构成/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md",
     "000-箱的构成/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/恐怖通｜Horropedia.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets/单品 恐怖通 03.png",
@@ -337,7 +360,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets/神秘术 彩球杂耍3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets/神秘术 彩球杂耍2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets/神秘术 逻辑使然2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets/神秘术 逻辑使然3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/恐怖通｜Horropedia~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
@@ -362,14 +384,12 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伽菈波那｜Black Dwarf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets",
     "000-箱的构成/assets/主页.assets/[Minimal]Cards.css",
     "000-箱的构成/assets/主页.assets",
     "300-以影像之/302-支线",
     "300-以影像之/301-主线",
     "白板.canvas",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets",
-    "100-UTTU人物合辑/人类｜Human/assets/爱兹拉｜Ezra Theodore.assets"
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/葛天｜GeTian.assets"
   ]
 }
