@@ -13,7 +13,7 @@ cssclasses:
 传承: 
 造像: 
 银行彩色相片: 
-Udimo: 
+Udimo: 犬类
 征集: 
 定位标签: 
 香调: 
@@ -36,7 +36,7 @@ banner_header: "{{filename}}"
 > - 展出/参展地点:: 大不列颠及北爱尔兰联合王国大伦敦区。
 
 > [!udimo]- 尤提姆
-> 
+> ![尤提姆](assets/皮克勒斯｜Pickles.assets/尤提姆%20皮克勒斯.png)
 > 
 
 ## 传承：
