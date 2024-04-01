@@ -1,0 +1,782 @@
+/* AGPLv3 License
+Nyan Cat Progress Bars
+Author: AnubisNekhet
+Note: If you decide to implement it in your theme or redistribute it, please keep this comment (Especially for *certain* individuals who may try to rebrand it as their own :))
+Support me: https://buymeacoffee.com/AnubisNekhet
+*/
+/* This Snippet will only work for snippets with the following syntax:
+  <progress value="x" max="100" class="nyan-cat"></progress>
+  x can be a multiple of 1 from 0 to 100
+  Example: <progress value="71" max="100" class="nyan-cat"></progress>
+modified by OURSPACE- 
+*/
+.markdown-preview-view progress[value][max="100"][class*=nyan-cat]::-webkit-progress-bar,
+.markdown-rendered progress[value][max="100"][class*=nyan-cat]::-webkit-progress-bar,
+.markdown-source-view.is-live-preview progress[value][max="100"][class*=nyan-cat]::-webkit-progress-bar {
+  background-color: var(--background-secondary);
+  box-shadow: none;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.markdown-preview-view progress[value][max="100"][class*=nyan-cat]::-webkit-progress-bar,
+.markdown-rendered progress[value][max="100"][class*=nyan-cat]::-webkit-progress-bar,
+.markdown-source-view.is-live-preview progress[value][max="100"][class*=nyan-cat]::-webkit-progress-bar {
+  background: url("data:image/gif;base64,R0lGODlhMAAMAIAAAAxBd////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQECgAAACwAAAAAMAAMAAACJYSPqcvtD6MKstpLr24Z9A2GYvJ544mhXQmxoesElIyCcB3dRgEAIfkEBAoAAAAsAQACAC0ACgAAAiGEj6nLHG0enNQdWbPefOHYhSLydVhJoSYXPO04qrAmJwUAIfkEBAoAAAAsBQABACkACwAAAiGEj6nLwQ8jcC5ViW3evHt1GaE0flxpphn6BNTEqvI8dQUAIfkEBAoAAAAsAQABACoACwAAAiGEj6nLwQ+jcU5VidPNvPtvad0GfmSJeicUUECbxnK0RgUAIfkEBAoAAAAsAAAAACcADAAAAiCEj6mbwQ+ji5QGd6t+c/v2hZzYiVpXmuoKIikLm6hXAAAh+QQECgAAACwAAAAALQAMAAACI4SPqQvBD6NysloTXL480g4uX0iW1Wg21oem7ismLUy/LFwAACH5BAQKAAAALAkAAAAkAAwAAAIghI8Joe0Po0yBWTaz3g/z7UXhMX7kYmplmo0rC8cyUgAAIfkEBAoAAAAsBQAAACUACgAAAh2Ejwmh7Q+jbIFZNrPeEXPudU74IVa5kSiYqOtRAAAh+QQECgAAACwEAAAAIgAKAAACHISPELfpD6OcqTGKs4bWRp+B36YFi0mGaVmtWQEAIfkEBAoAAAAsAAAAACMACgAAAh2EjxC36Q+jnK8xirOW1kavgd+2BYtJhmnpiGtUAAAh+QQECgAAACwAAAAALgALAAACIYSPqcvtD+MKicqLn82c7e6BIhZQ5jem6oVKbfdqQLzKBQAh+QQECgAAACwCAAIALAAJAAACHQx+hsvtD2OStDplKc68r2CEm0eW5uSN6aqe1lgAADs=");
+}
+
+.markdown-preview-view progress[value][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value][max="100"][class*=nyan-cat]::after {
+  background: url("data:image/gif;base64,R0lGODlhIgAVAKIHAL3/9/+Zmf8zmf/MmZmZmf+Z/wAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMkJBNjY5RTU1NEJFMzExOUM4QUM2MDAwNDQzRERBQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCREIzOEIzMzRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCREIzOEIzMjRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM1QkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkMyQkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8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") !important;
+}
+
+.markdown-preview-view progress[value][max="100"][class*=nyan-cat]::-webkit-progress-value,
+.markdown-rendered progress[value][max="100"][class*=nyan-cat]::-webkit-progress-value,
+.markdown-source-view.is-live-preview progress[value][max="100"][class*=nyan-cat]::-webkit-progress-value {
+  background: linear-gradient(to bottom, #FF0000 0%, #FF0000 16.5%, #FF9900 16.5%, #FF9900 33%, #FFFF00 33%, #FFFF00 50%, #33FF00 50%, #33FF00 66%, #0099FF 66%, #0099FF 83.5%, #6633ff 83.5%, #6633ff 100%) !important;
+  overflow: hidden;
+}
+
+.markdown-preview-view progress[value][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value][max="100"][class*=nyan-cat]::after {
+  content: "";
+  width: 30px;
+  height: 24px;
+  background-size: contain !important;
+  position: absolute;
+  margin-top: -16px;
+  background-repeat: no-repeat !important;
+}
+
+.markdown-preview-view progress[value][max="100"][class*=nyan-cat], .markdown-rendered progress[value][max="100"][class*=nyan-cat], .markdown-source-view.is-live-preview progress[value][max="100"][class*=nyan-cat] {
+  -webkit-writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
+  appearance: none;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 14px;
+  margin-bottom: 4px;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 0px;
+  border: 0;
+  vertical-align: -0.2rem;
+}
+
+.markdown-preview-view progress[value="0"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="0"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="0"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0em - 20px);
+}
+
+
+
+.markdown-preview-view progress[value="1"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="1"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="1"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.1em - 20px);
+}
+
+.markdown-preview-view progress[value="2"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="2"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="2"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.2em - 20px);
+}
+
+.markdown-preview-view progress[value="3"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="3"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="3"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.3em - 20px);
+}
+
+.markdown-preview-view progress[value="4"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="4"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="4"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.4em - 20px);
+}
+
+.markdown-preview-view progress[value="5"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="5"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="5"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.5em - 20px);
+}
+
+
+/* value="6" */
+.markdown-preview-view progress[value="6"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="6"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="6"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.6em - 20px);
+}
+
+/* value="7" */
+.markdown-preview-view progress[value="7"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="7"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="7"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.7em - 20px);
+}
+
+/* value="8" */
+.markdown-preview-view progress[value="8"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="8"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="8"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.8em - 20px);
+}
+
+/* value="9" */
+.markdown-preview-view progress[value="9"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="9"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="9"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(0.9em - 20px);
+}
+
+/* value="10" */
+.markdown-preview-view progress[value="10"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="10"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="10"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1em - 20px);
+}
+
+
+
+/* value="11" */
+.markdown-preview-view progress[value="11"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="11"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="11"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.1em - 20px);
+}
+
+/* value="12" */
+.markdown-preview-view progress[value="12"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="12"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="12"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.2em - 20px);
+}
+
+/* value="13" */
+.markdown-preview-view progress[value="13"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="13"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="13"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.3em - 20px);
+}
+
+/* value="14" */
+.markdown-preview-view progress[value="14"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="14"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="14"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.4em - 20px);
+}
+
+/* value="15" */
+.markdown-preview-view progress[value="15"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="15"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="15"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.5em - 20px);
+}
+
+/* value="16" */
+.markdown-preview-view progress[value="16"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="16"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="16"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.6em - 20px);
+}
+
+/* value="17" */
+.markdown-preview-view progress[value="17"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="17"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="17"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.7em - 20px);
+}
+
+/* value="18" */
+.markdown-preview-view progress[value="18"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="18"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="18"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.8em - 20px);
+}
+
+/* value="19" */
+.markdown-preview-view progress[value="19"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="19"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="19"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(1.9em - 20px);
+}
+
+/* value="20" */
+.markdown-preview-view progress[value="20"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="20"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="20"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2em - 20px);
+}
+
+
+
+
+/* value="21" */
+.markdown-preview-view progress[value="21"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="21"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="21"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.1em - 20px);
+}
+
+/* value="22" */
+.markdown-preview-view progress[value="22"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="22"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="22"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.2em - 20px);
+}
+
+/* value="23" */
+.markdown-preview-view progress[value="23"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="23"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="23"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.3em - 20px);
+}
+
+/* value="24" */
+.markdown-preview-view progress[value="24"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="24"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="24"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.4em - 20px);
+}
+
+/* value="25" */
+.markdown-preview-view progress[value="25"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="25"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="25"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.5em - 20px);
+}
+
+/* value="26" */
+.markdown-preview-view progress[value="26"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="26"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="26"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.6em - 20px);
+}
+
+/* value="27" */
+.markdown-preview-view progress[value="27"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="27"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="27"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.7em - 20px);
+}
+
+/* value="28" */
+.markdown-preview-view progress[value="28"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="28"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="28"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.8em - 20px);
+}
+
+/* value="29" */
+.markdown-preview-view progress[value="29"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="29"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="29"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(2.9em - 20px);
+}
+
+/* value="30" */
+.markdown-preview-view progress[value="30"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="30"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="30"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3em - 20px);
+}
+
+
+
+/* value="31" */
+.markdown-preview-view progress[value="31"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="31"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="31"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.1em - 20px);
+}
+
+/* value="32" */
+.markdown-preview-view progress[value="32"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="32"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="32"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.2em - 20px);
+}
+
+/* value="33" */
+.markdown-preview-view progress[value="33"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="33"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="33"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.3em - 20px);
+}
+
+/* value="34" */
+.markdown-preview-view progress[value="34"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="34"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="34"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.4em - 20px);
+}
+
+/* value="35" */
+.markdown-preview-view progress[value="35"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="35"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="35"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.5em - 20px);
+}
+
+/* value="36" */
+.markdown-preview-view progress[value="36"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="36"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="36"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.6em - 20px);
+}
+
+/* value="37" */
+.markdown-preview-view progress[value="37"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="37"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="37"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.7em - 20px);
+}
+
+/* value="38" */
+.markdown-preview-view progress[value="38"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="38"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="38"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.8em - 20px);
+}
+
+/* value="39" */
+.markdown-preview-view progress[value="39"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="39"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="39"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(3.9em - 20px);
+}
+
+/* value="40" */
+.markdown-preview-view progress[value="40"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="40"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="40"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4em - 20px);
+}
+
+
+/* value="41" */
+.markdown-preview-view progress[value="41"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="41"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="41"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.1em - 20px);
+}
+
+/* value="42" */
+.markdown-preview-view progress[value="42"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="42"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="42"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.2em - 20px);
+}
+
+/* value="43" */
+.markdown-preview-view progress[value="43"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="43"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="43"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.3em - 20px);
+}
+
+/* value="44" */
+.markdown-preview-view progress[value="44"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="44"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="44"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.4em - 20px);
+}
+
+/* value="45" */
+.markdown-preview-view progress[value="45"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="45"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="45"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.5em - 20px);
+}
+
+/* value="46" */
+.markdown-preview-view progress[value="46"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="46"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="46"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.6em - 20px);
+}
+
+/* value="47" */
+.markdown-preview-view progress[value="47"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="47"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="47"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.7em - 20px);
+}
+
+/* value="48" */
+.markdown-preview-view progress[value="48"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="48"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="48"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.8em - 20px);
+}
+
+/* value="49" */
+.markdown-preview-view progress[value="49"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="49"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="49"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(4.9em - 20px);
+}
+
+/* value="50" */
+.markdown-preview-view progress[value="50"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="50"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="50"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5em - 20px);
+}
+
+/* value="51" */
+.markdown-preview-view progress[value="51"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="51"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="51"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.1em - 20px);
+}
+
+/* value="52" */
+.markdown-preview-view progress[value="52"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="52"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="52"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.2em - 20px);
+}
+
+/* value="53" */
+.markdown-preview-view progress[value="53"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="53"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="53"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.3em - 20px);
+}
+
+/* value="54" */
+.markdown-preview-view progress[value="54"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="54"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="54"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.4em - 20px);
+}
+
+/* value="55" */
+.markdown-preview-view progress[value="55"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="55"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="55"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.5em - 20px);
+}
+
+/* value="56" */
+.markdown-preview-view progress[value="56"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="56"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="56"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.6em - 20px);
+}
+
+/* value="57" */
+.markdown-preview-view progress[value="57"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="57"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="57"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.7em - 20px);
+}
+
+/* value="58" */
+.markdown-preview-view progress[value="58"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="58"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="58"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.8em - 20px);
+}
+
+/* value="59" */
+.markdown-preview-view progress[value="59"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="59"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="59"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(5.9em - 20px);
+}
+
+/* value="60" */
+.markdown-preview-view progress[value="60"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="60"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="60"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6em - 20px);
+}
+
+
+/* value="61" */
+.markdown-preview-view progress[value="61"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="61"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="61"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.1em - 20px);
+}
+
+/* value="62" */
+.markdown-preview-view progress[value="62"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="62"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="62"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.2em - 20px);
+}
+
+/* value="63" */
+.markdown-preview-view progress[value="63"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="63"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="63"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.3em - 20px);
+}
+
+/* value="64" */
+.markdown-preview-view progress[value="64"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="64"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="64"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.4em - 20px);
+}
+
+/* value="65" */
+.markdown-preview-view progress[value="65"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="65"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="65"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.5em - 20px);
+}
+
+/* value="66" */
+.markdown-preview-view progress[value="66"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="66"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="66"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.6em - 20px);
+}
+
+/* value="67" */
+.markdown-preview-view progress[value="67"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="67"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="67"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.7em - 20px);
+}
+
+/* value="68" */
+.markdown-preview-view progress[value="68"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="68"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="68"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.8em - 20px);
+}
+
+/* value="69" */
+.markdown-preview-view progress[value="69"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="69"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="69"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(6.9em - 20px);
+}
+
+/* value="70" */
+.markdown-preview-view progress[value="70"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="70"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="70"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7em - 20px);
+}
+
+/* value="71" */
+.markdown-preview-view progress[value="71"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="71"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="71"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.1em - 20px);
+}
+
+/* value="72" */
+.markdown-preview-view progress[value="72"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="72"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="72"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.2em - 20px);
+}
+
+/* value="73" */
+.markdown-preview-view progress[value="73"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="73"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="73"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.3em - 20px);
+}
+
+/* value="74" */
+.markdown-preview-view progress[value="74"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="74"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="74"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.4em - 20px);
+}
+
+/* value="75" */
+.markdown-preview-view progress[value="75"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="75"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="75"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.5em - 20px);
+}
+
+/* value="76" */
+.markdown-preview-view progress[value="76"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="76"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="76"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.6em - 20px);
+}
+
+/* value="77" */
+.markdown-preview-view progress[value="77"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="77"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="77"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.7em - 20px);
+}
+
+/* value="78" */
+.markdown-preview-view progress[value="78"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="78"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="78"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.8em - 20px);
+}
+
+/* value="79" */
+.markdown-preview-view progress[value="79"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="79"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="79"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(7.9em - 20px);
+}
+
+/* value="80" */
+.markdown-preview-view progress[value="80"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="80"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="80"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8em - 20px);
+}
+
+/* value="81" */
+.markdown-preview-view progress[value="81"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="81"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="81"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.1em - 20px);
+}
+
+/* value="82" */
+.markdown-preview-view progress[value="82"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="82"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="82"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.2em - 20px);
+}
+
+/* value="83" */
+.markdown-preview-view progress[value="83"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="83"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="83"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.3em - 20px);
+}
+
+/* value="84" */
+.markdown-preview-view progress[value="84"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="84"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="84"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.4em - 20px);
+}
+
+/* value="85" */
+.markdown-preview-view progress[value="85"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="85"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="85"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.5em - 20px);
+}
+
+/* value="86" */
+.markdown-preview-view progress[value="86"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="86"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="86"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.6em - 20px);
+}
+
+/* value="87" */
+.markdown-preview-view progress[value="87"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="87"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="87"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.7em - 20px);
+}
+
+/* value="88" */
+.markdown-preview-view progress[value="88"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="88"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="88"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.8em - 20px);
+}
+
+/* value="89" */
+.markdown-preview-view progress[value="89"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="89"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="89"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(8.9em - 20px);
+}
+
+/* value="90" */
+.markdown-preview-view progress[value="90"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="90"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="90"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9em - 20px);
+}
+
+/* value="91" */
+.markdown-preview-view progress[value="91"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="91"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="91"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.1em - 20px);
+}
+
+/* value="92" */
+.markdown-preview-view progress[value="92"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="92"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="92"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.2em - 20px);
+}
+
+/* value="93" */
+.markdown-preview-view progress[value="93"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="93"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="93"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.3em - 20px);
+}
+
+/* value="94" */
+.markdown-preview-view progress[value="94"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="94"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="94"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.4em - 20px);
+}
+
+/* value="95" */
+.markdown-preview-view progress[value="95"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="95"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="95"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.5em - 20px);
+}
+
+/* value="96" */
+.markdown-preview-view progress[value="96"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="96"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="96"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.6em - 20px);
+}
+
+/* value="97" */
+.markdown-preview-view progress[value="97"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="97"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="97"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.7em - 20px);
+}
+
+/* value="98" */
+.markdown-preview-view progress[value="98"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="98"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="98"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.8em - 20px);
+}
+
+/* value="99" */
+.markdown-preview-view progress[value="99"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="99"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="99"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(9.9em - 20px);
+}
+
+
+
+.markdown-preview-view progress[value="100"][max="100"][class*=nyan-cat]::after,
+.markdown-rendered progress[value="100"][max="100"][class*=nyan-cat]::after,
+.markdown-source-view.is-live-preview progress[value="100"][max="100"][class*=nyan-cat]::after {
+  margin-left: calc(10em - 20px);
+}
+
+/*# sourceMappingURL=sidebars.css.map */
