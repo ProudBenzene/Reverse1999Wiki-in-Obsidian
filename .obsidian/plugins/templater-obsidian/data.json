@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "000-箱的构成/templates",
+  "templates_folder": "000-箱的构造/templates",
   "templates_pairs": [
     [
       "tianqi",
@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "000-箱的构成/script/tp",
+  "user_scripts_folder": "000-箱的构造/script/tp",
   "enable_folder_templates": true,
   "folder_templates": [
     {

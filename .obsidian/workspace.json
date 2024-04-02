@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "测试.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,6 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "测试.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "测试.md"
+              }
             }
           },
           {
@@ -223,8 +226,12 @@
             "id": "ae0ee0175ee8627f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/常用工具.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           },
           {
@@ -244,6 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,6 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,18 +302,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "13eab36a72e3758c",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
-    "测试.md",
     "README.md",
+    "000-箱的构造/常用工具.md",
+    "测试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/恐怖通｜Horropedia.md",
     "000-箱的构造/箱中金句/20240402-7c30a6ed4cc507b8.md",
     "000-箱的构造/箱中金句/20240402-52af032179abebcd.md",
     "000-箱的构造/箱中金句",
     "200-相从心生/角色心相/齿轮之外｜Beyond the Gears.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/200-相从心生.md",
     "400-箱外世界/暴雨时间线.md",

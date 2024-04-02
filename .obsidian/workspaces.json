@@ -15,9 +15,9 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "000-箱的构成/主页.md",
+                    "file": "000-箱的构造/主页.md",
                     "mode": "preview",
-                    "source": true
+                    "source": false
                   }
                 }
               },
@@ -37,12 +37,8 @@
                 "id": "01a2c60378addfb9",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "000-箱的构成/自动化创建角色档案.md",
-                    "mode": "source",
-                    "source": true
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               },
               {
@@ -121,7 +117,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "000-箱的构成/主页.md",
+                    "file": "000-箱的构造/主页.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -200,7 +196,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "000-箱的构成/主页.md"
+                    "file": "000-箱的构造/主页.md"
                   }
                 }
               },
@@ -234,7 +230,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "000-箱的构成/常用工具.md",
+                    "file": "000-箱的构造/常用工具.md",
                     "mode": "preview",
                     "source": false
                   }
@@ -257,7 +253,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "000-箱的构成/主页.md",
+                    "file": "000-箱的构造/主页.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -274,7 +270,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "000-箱的构成/主页.md",
+                    "file": "000-箱的构造/主页.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -289,6 +285,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templify:Templify 市场": false,
+          "obsidian-memos:Thino": false,
           "switcher:打开快速切换": true,
           "graph:查看关系图谱": false,
           "workspaces:管理工作区布局": false,
@@ -307,7 +305,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-03-28T15:53:31+08:00",
+      "mtime": "2024-04-02T21:44:34+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null
@@ -504,7 +502,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "000-箱的构成/常用工具.md",
+                    "file": "000-箱的构造/常用工具.md",
                     "mode": "preview",
                     "source": false
                   }
@@ -559,6 +557,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templify:Templify 市场": false,
+          "obsidian-memos:Thino": false,
           "switcher:打开快速切换": true,
           "graph:查看关系图谱": false,
           "workspaces:管理工作区布局": false,
@@ -577,7 +577,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-03-26T14:26:31+08:00",
+      "mtime": "2024-04-02T21:44:52+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
