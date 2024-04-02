@@ -309,7 +309,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templify:Templify 市场": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -324,7 +323,8 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "templify:Templify 市场": false
     }
   },
   "active": "9aadaddd821e22fa",
