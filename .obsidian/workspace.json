@@ -26,17 +26,9 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "494bacc6c33b57c5",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
             }
           },
           {
@@ -68,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md"
               }
             }
           },
@@ -246,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md"
               }
             }
           }
@@ -295,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -347,10 +339,10 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "494bacc6c33b57c5",
+  "active": "94a75b14d674a25b",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
     "README.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "300-以影像之/300-以影像之.md",
