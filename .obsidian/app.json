@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/主页.assets",
+  "attachmentFolderPath": "./assets/fake-file-that-generated-for-thino.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",

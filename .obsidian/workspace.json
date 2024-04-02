@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "18921c91c52602ba",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -324,10 +333,11 @@
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
       "obsidian42-brat:BRAT": true,
-      "templify:Templify 市场": false
+      "templify:Templify 市场": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "18921c91c52602ba",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "000-箱的构成/主页.md",

@@ -17,7 +17,7 @@
   "FocusOnEditor": true,
   "OpenDailyMemosWithMemos": true,
   "HideDoneTasks": false,
-  "ShowTaskLabel": false,
+  "ShowTaskLabel": true,
   "MobileAndDesktop": "All",
   "OpenMemosAutomatically": false,
   "ShowTime": true,
@@ -37,31 +37,22 @@
   "FetchMemosMark": "#memo",
   "FetchMemosFromNote": false,
   "ShowCommentOnMemos": false,
-  "ShowLeftSideBar": false,
+  "ShowLeftSideBar": true,
   "MemoListView": "list",
-  "MemoSaveLocation": "DAILY",
+  "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "basic.thino.canvas",
-    "MemoDefaultMultiFilePath": "Thino",
+    "MemoDefaultMultiFilePath": "000-箱的构成/Thino",
     "MemoDefaultSingleFilePath": "basic.thino.md"
   },
   "MemoDailyTarget": 5,
-  "HeatmapColorScheme": "default",
-  "EnabledHttpApi": false,
+  "HeatmapColorScheme": "grass",
+  "EnabledHttpApi": true,
   "HttpApiIpType": "localhost",
   "HttpApiPort": "43999",
   "AutoDownloadImage": false,
   "EditorType": "obsidian",
   "EnabledLocationList": [
-    {
-      "value": "DAILY",
-      "target": "ProcessEntriesBelow",
-      "insert": "InsertAfter"
-    },
-    {
-      "value": "CANVAS",
-      "target": "MemoDefaultCanvasPath"
-    },
     {
       "value": "MULTI",
       "target": "MemoDefaultMultiFilePath"
@@ -69,6 +60,10 @@
     {
       "value": "FILE",
       "target": "MemoDefaultSingleFilePath"
+    },
+    {
+      "value": "CANVAS",
+      "target": "MemoDefaultCanvasPath"
     }
   ],
   "DeleteThinoDirectly": false,
@@ -78,9 +73,11 @@
     "ShowNearMouse": false
   },
   "startSync": false,
-  "tokenForVerify": {},
+  "tokenForVerify": {
+    "b9b61423165153adc5cd9849ba01180bf98063f6431bd5059080bdda3c2ab09c": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjI3MSwiYXBwSWQiOiJiOWI2MTQyMzE2NTE1M2FkYzVjZDk4NDliYTAxMTgwYmY5ODA2M2Y2NDMxYmQ1MDU5MDgwYmRkYTNjMmFiMDljIn0.aXJpfI0psnxKc-oSXikQJvN2mF7MkLeWeMG6oRZ9iy4h7ANxhkqtBS4_JqbhBW6UZ6EO0vOezhIdIMdJncWoJoeRVwCfIc9jgFU3SjksfmZzPHCuElOg_FsZoto8mRP2kFFu4PzTZ8UEwSphDG3DwbaV8fuECnLm4o7yG6SfwPhcWzFtl7UO3jfgXn8WN-6anPkYz0oGfifQgyBnesjPzMOV-a40TdJ5pLNXX7F6Hy_pDycCZvdlSXpXZEHfqAIS8q9MHUBM4lKLm6tbFVsML3CkpNAHRJpRvMQZYh0GLryVLg_s303nUJDqI6eYrIER-m-LZLw7L73TllXNExoosQ"
+  },
   "saveThinoType": "FILE",
-  "showDayMark": false,
+  "showDayMark": true,
   "dayMarkRange": "day",
   "navigation": false,
   "password": "",
