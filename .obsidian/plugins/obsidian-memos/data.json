@@ -18,7 +18,7 @@
   "OpenDailyMemosWithMemos": true,
   "HideDoneTasks": false,
   "ShowTaskLabel": true,
-  "MobileAndDesktop": "All",
+  "MobileAndDesktop": "Mobile",
   "OpenMemosAutomatically": false,
   "ShowTime": true,
   "ShowDate": true,
@@ -38,7 +38,7 @@
   "FetchMemosFromNote": false,
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": true,
-  "MemoListView": "list",
+  "MemoListView": "moments",
   "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "basic.thino.canvas",
@@ -86,9 +86,9 @@
   "addTagPosition": "Beginning",
   "addTagWithNewline": false,
   "chatViewStyle": "fluent",
-  "MomentsBackgroundImage": "https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg",
+  "MomentsBackgroundImage": "https://gamecms-res.sl916.com/official_website_resource/50001/4/PICTURE/20240205/156%202560x1440_979ed4831fab45b98366f2c8f0b0a15b.jpg",
   "MomentsIcon": "https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg",
   "MomentsQuote": "Share your thino with the world",
-  "DefaultThemeForThino": "classic",
+  "DefaultThemeForThino": "modern",
   "LastUpdatedVersion": "2.3.52"
 }
