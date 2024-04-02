@@ -41,12 +41,12 @@
     },
     "yaml-timestamp": {
       "enabled": true,
-      "date-created": false,
-      "date-created-key": "date created",
+      "date-created": true,
+      "date-created-key": "dateCreated",
       "force-retention-of-create-value": false,
-      "date-modified": false,
-      "date-modified-key": "date modified",
-      "format": "YYYY-M-D, HH:mm a"
+      "date-modified": true,
+      "date-modified-key": "dateModified",
+      "format": "YYYY-M-D, HH:mm"
     },
     "yaml-title": {
       "enabled": false,
