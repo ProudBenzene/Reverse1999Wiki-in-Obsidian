@@ -153,33 +153,33 @@
         {
           "name": "refreshhomepage",
           "type": "UserScript",
-          "id": "3f8fc711-f99d-4bcc-9a4c-467b3d821a38",
-          "path": "000-箱的构成/script/refreshhomepage.js",
+          "id": "2a2068da-8360-4887-9558-32f2ab39192c",
+          "path": "000-箱的构造/script/refreshhomepage.js",
           "settings": {}
         },
         {
           "name": "Wait",
           "type": "Wait",
-          "id": "9d4918a2-a690-4a89-9d20-a3adfd348655",
-          "time": 500
+          "id": "a14b86d3-9c29-4c1e-901e-bacf423ca37b",
+          "time": 100
         },
         {
           "name": "fetchhomepage",
           "type": "UserScript",
-          "id": "5cde150c-9398-4b12-a85f-4c6c9f16a63a",
-          "path": "000-箱的构成/script/fetchhomepage.js",
+          "id": "e69e401c-5958-4818-b218-cd6c639efab6",
+          "path": "000-箱的构造/script/fetchhomepage.js",
           "settings": {}
         },
         {
           "name": "Wait",
           "type": "Wait",
-          "id": "3385f735-b0ee-4fba-a0d8-dc331a55063f",
-          "time": 500
+          "id": "ade09cba-c1ca-4213-a355-16bd30db0ecc",
+          "time": 100
         },
         {
           "name": "Workspaces Plus: Load: HomePage",
           "type": "Obsidian",
-          "id": "3694088d-c09e-44cc-8bb4-883479ab5d27",
+          "id": "cda0ce29-6bf1-4a4c-8009-3c4b90661677",
           "commandId": "workspaces-plus:HomePage"
         }
       ],
@@ -215,10 +215,10 @@
       "id": "ebf7a10a-351e-489f-b393-2c46b39a4cee",
       "commands": [
         {
-          "name": "SwitcLightdark",
+          "name": "SwitchLightdark",
           "type": "UserScript",
-          "id": "d963074c-b812-4dba-8416-0d4afec36406",
-          "path": "000-箱的构成/script/SwitcLightdark.js",
+          "id": "e3b749a4-0fb8-4816-998f-79170d1a4228",
+          "path": "000-箱的构造/script/SwitchLightdark.js",
           "settings": {}
         }
       ],
@@ -256,22 +256,8 @@
         {
           "name": "ToggleCSSSnippets",
           "type": "UserScript",
-          "id": "31c96a35-bde6-4666-a258-ca7f5ab133f7",
-          "path": "000-箱的构成/script/ToggleCSSSnippets.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Open with",
-      "id": "3094e312-40ff-419e-81ae-757bdb253ba9",
-      "commands": [
-        {
-          "name": "openExternalEditor",
-          "type": "UserScript",
-          "id": "3eccd228-dd09-4f68-a926-6f05721cda99",
-          "path": "000-箱的构成/script/openExternalEditor.js",
+          "id": "79ccb1e8-b0da-48b8-bd20-54238a78d90c",
+          "path": "000-箱的构造/script/ToggleCSSSnippets.js",
           "settings": {}
         }
       ],
@@ -284,8 +270,8 @@
         {
           "name": "openSelectedImage",
           "type": "UserScript",
-          "id": "5eba0ea4-9256-469d-8227-38ecd9e21091",
-          "path": "000-箱的构成/script/openSelectedImage.js",
+          "id": "8349ed52-362b-4282-a608-62023bf31fbf",
+          "path": "000-箱的构造/script/openSelectedImage.js",
           "settings": {}
         }
       ],
@@ -348,20 +334,14 @@
       "runOnStartup": false
     },
     {
-      "name": "复制文件夹路径",
-      "id": "ab4f50a2-7320-440a-91e9-a4e66f02fa9e",
-      "commands": [],
-      "runOnStartup": false
-    },
-    {
       "name": "Open With",
       "id": "063262c4-5ab9-4b17-a130-4bd25b080c9c",
       "commands": [
         {
-          "name": "openSelectedImage",
+          "name": "openExternalEditor",
           "type": "UserScript",
-          "id": "3cbab8b8-fb13-43be-acf2-22ffce92feaf",
-          "path": "000-箱的构成/script/openSelectedImage.js",
+          "id": "bf5ec043-6cd5-47b7-a884-301bb2a36be4",
+          "path": "000-箱的构造/script/openExternalEditor.js",
           "settings": {}
         }
       ],

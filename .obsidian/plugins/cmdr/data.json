@@ -60,15 +60,15 @@
       "mode": "any"
     },
     {
-      "id": "quickadd:choice:f6a246d4-985b-4054-a9ce-265391080166",
-      "icon": "type",
-      "name": "Open with",
-      "mode": "any"
-    },
-    {
       "id": "workspaces-plus:HomePage",
       "icon": "home",
       "name": "主页",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:f6a246d4-985b-4054-a9ce-265391080166",
+      "icon": "type",
+      "name": "Open with",
       "mode": "any"
     }
   ],
