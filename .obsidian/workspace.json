@@ -209,6 +209,28 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "b76d6004e7912f7a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "00a91e7e8d3e58e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构成/主页.md"
+              }
+            }
           }
         ],
         "currentTab": 1
