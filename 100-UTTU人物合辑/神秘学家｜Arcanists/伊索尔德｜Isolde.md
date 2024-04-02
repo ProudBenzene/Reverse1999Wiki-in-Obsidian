@@ -32,7 +32,7 @@ aliases:
   - Isolde
 初始立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png]]"
 洞悉立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png]]"
-生日: 
+生日: 2024-11-23
 banner_header: "{{filename}}"
 出场章节:
   - 1.7｜今夜星光灿烂

@@ -31,7 +31,7 @@ aliases:
   - X
 初始立绘: "[[立绘 X 01.png]]"
 洞悉立绘: "[[立绘 X 02.png]]"
-生日: 
+生日: 2024-05-30
 banner_header: "{{filename}}"
 出场章节:
 ---

@@ -32,7 +32,7 @@ aliases:
   - Medicine Pocket
 初始立绘: "[[assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png]]"
 洞悉立绘: "[[assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 02.png]]"
-生日: 
+生日: 2024-11-24
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会

@@ -33,7 +33,7 @@ aliases:
   - An-an Lee
 初始立绘: "[[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png]]"
 洞悉立绘: "[[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 02.png]]"
-生日: 
+生日: 2024-07-27
 banner_header: "{{filename}}"
 出场章节:
   - 未锈铠 · 第九条美德

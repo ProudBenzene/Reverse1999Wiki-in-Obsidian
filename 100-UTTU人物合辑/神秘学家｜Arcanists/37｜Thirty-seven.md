@@ -32,7 +32,7 @@ aliases:
   - "37"
 初始立绘: "[[assets/37｜Thirty-seven.assets/立绘 37 01.png]]"
 洞悉立绘: "[[assets/37｜Thirty-seven.assets/立绘 37 02.png]]"
-生日: 
+生日: 2024-07-27
 banner_header: "{{filename}}"
 出场章节:
   - 1.4｜洞穴的囚徒
