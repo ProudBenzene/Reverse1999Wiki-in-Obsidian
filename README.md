@@ -11,6 +11,6 @@
 > 
 > 除非另有说明，否则本库内容依据 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证进行授权，转载请附上出处链接。
 
-![示例库主页](000-箱的构成/assets/README.assets/示例库主页.png)
+![示例库主页](000-箱的构造/assets/README.assets/示例库主页.png)
 
-![角色档案](000-箱的构成/assets/README.assets/角色档案.png)
+![角色档案](000-箱的构造/assets/README.assets/角色档案.png)

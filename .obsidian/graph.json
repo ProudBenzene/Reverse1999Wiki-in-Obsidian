@@ -36,14 +36,14 @@
       }
     },
     {
-      "query": "path: 000-箱的构成/",
+      "query": "path: 000-箱的构造/",
       "color": {
         "a": 1,
         "rgb": 16021781
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.70741373697917,

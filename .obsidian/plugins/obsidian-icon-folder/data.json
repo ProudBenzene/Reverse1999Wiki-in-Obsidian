@@ -109,12 +109,12 @@
   "Zotero文献笔记/针灸推拿治疗肩袖损伤": "FasCross",
   "Zotero文献笔记/航天康复医学": "FasUserAstronaut",
   "生词本": "RiEnglishInput",
-  "000-箱的构成": "TiBriefcase",
   "100-UTTU人物合辑": "TiFriends",
   "200-相从心生": "TiHeartUp",
-  "000-箱的构成/主页.md": "IbHouse",
   "400-箱外世界": "IbEarth",
   "500-箱外阵营": "RiSwordFill",
   "300-以影像之": "TiMovie",
-  "README.md": "TiFileSpreadsheet"
+  "README.md": "TiFileSpreadsheet",
+  "000-箱的构造": "TiBriefcase",
+  "000-箱的构造/主页.md": "IbHouse"
 }
