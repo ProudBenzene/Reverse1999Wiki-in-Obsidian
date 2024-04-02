@@ -108,17 +108,17 @@ title:
 color: 
 > [!note]+ “欲望与泪”|"Desires and Tears"
 > ![](assets/伊索尔德｜Isolde.assets/单品%20伊索尔德%2001.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**1200**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**1200**
 > 以“七重纱之舞”为灵感，时下大热的卡尔洛姐妹亲自操刀为伊索尔德量身定制了高级礼服“月光之纱”。 头部装饰“欲望与泪”为该礼服的点睛之笔，纯白的蕾丝为帽体增添了层次感和精致感，代表“泪”的珍珠链则凸显了穿着者的柔美与华贵。
 
 > [!note]+ 镶金珐琅天堂凤蝶胸针|Enamel Butterfly Broach
 > ![](assets/伊索尔德｜Isolde.assets/单品%20伊索尔德%2002.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**800**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**800**
 > 优雅，静谧，用并不昂贵的材料诠释了珠宝艺术的极致。据传曾为波旁王朝某位皇后的饰品。本是一只胸针，但被挪用得恰到好处。
 
 > [!note]+ 维也纳之星|Star of Vienna
 > ![](assets/伊索尔德｜Isolde.assets/单品%20伊索尔德%2003.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**39000**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**39000**
 > 一颗切割后重达326.37克拉的天然蓝宝石，因其内部有针状的细微杂质而造成了被称为星芒的光学效应，得名“维也纳之星”，它的美丽无需多言。
 ````
 
@@ -126,7 +126,7 @@ color:
 
 ````tab
 tab: 艺术：至真、至美|Art: Truth and Beauty
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 维也纳，一幅高雅祥和的图景，一枚镶嵌在多瑙河畔的珍珠。
 人人都知道，在这里，人们梦寐以求的不能仅仅是财富和权力，应是一个更加美妙的东西——它不拘泥于人类的阶级，使得每个赤诚之心在它面前都一样平等；它将贫瘠无趣的现实生活涂上了一层奇异蜜糖，极致地满足着维也纳人民的耳鼻口目，这才使得滋味成了滋味——它便是艺术，唯有艺术。
@@ -139,7 +139,7 @@ tab: 艺术：至真、至美|Art: Truth and Beauty
 但很可惜，他们缺少了一点、一点点“天赋”：一个短促的中间名，以及其后尾随着的，显赫的姓氏。
 
 tab: 美好，如此美好|The Utmost Beauty
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 **[一张被重新拼贴的纸]**
 
@@ -164,7 +164,7 @@ _—被拦腰撕毁后重新拼贴的痕迹—_
 ——■■■·施密勒
 
 tab: 维也纳的明珠——伊索尔德专访|[UTTU×伊索尔德]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：你好，伊索尔德小姐。
 **伊索尔德：您好，嘴巴女士。**

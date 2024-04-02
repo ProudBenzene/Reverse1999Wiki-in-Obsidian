@@ -119,7 +119,7 @@ color:
 
 > [!note]+ 形式|The Form
 > ![](assets/6｜Six.assets/单品%206%2003.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**32**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**32**
 > 数个相互联结的六边形，结构与排列十分独特，似乎隐含着某种不言自明的秩序。“理论上这象征着完满，"受访者如是说，“不过它被海鸥叼走了太多次，连接处已经严重磨损了。”
 ````
 
@@ -127,7 +127,7 @@ color:
 
 ````tab
 tab: 取道毕达哥拉斯|The Inheritor of Pythagoreanism
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 崇奉者专事教务，论理者深究思辨，形而下学者感悟自然，政事者体察社会。循着真理,毕达哥拉斯的弟子们各行其是。由此，他们也攫住了许多或鄙夷、或向往的目光。
 
@@ -140,7 +140,7 @@ tab: 取道毕达哥拉斯|The Inheritor of Pythagoreanism
 而今，又一位年轻的传道者接过了这份责任。
 
 tab: 岛的义务|His Obligation to the Island
-![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 “我们每日沐浴阿波罗星的晨光，咀嚼他人与自我的探讨与思辨，令它们与抹有蜂蜜的面包片一同在腹中消化……”面有难色的教众捂着肚子，表情看上去相当压抑。
 
@@ -164,7 +164,7 @@ tab: 岛的义务|His Obligation to the Island
 _——即日起，应增补部分教众的面包片份额。_
 
 tab: 领袖的心声|[UTTU×6]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **6：你是……？**
 白雪松：请原谅《UTTU》的不请自来。我很好奇，在正式的谈话开始前，你是否预想过与我们的这一次会面？

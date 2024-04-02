@@ -124,7 +124,7 @@ color:
 
 > [!culture]+ 无意义的铜管｜Component
 > ![](assets/X｜X.assets/单品%20X%2003.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**1**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**1**
 > ---
 > 他称其为“恰好出现在口袋中的无意义的铜管”。但根据这一物件的古怪造型不难推测出，它正是某个巨大机械中至关重要的一部分。
 ````
@@ -137,13 +137,13 @@ title:
 color: 
 > [!culture]+ 破碎的面具｜Broken Mask
 > ![](assets/X｜X.assets/单品%20X%2004.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.01**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.01**
 > ---
 > 破损的白色面具，可能来自街角商店的万圣节装扮特卖活动。受访者笑着提出了这样的问题：是面具需要佩戴它的面孔，还是面孔需要面具赋予的意义？
 
 > [!culture]+ 铁钩｜Iron Hook
 > ![](assets/X｜X.assets/单品%20X%2005.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.03**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.03**
 > ---
 > 穿进老旧皮衣的沉重铁钩，也许可以算作纽扣的另类替代者。“你看，做我们这行的多少有些怪癖。”受访者这样解释道，“它又实用又方便，不是吗？”
 
@@ -158,7 +158,7 @@ color:
 
 ````tab
 tab: 机械时代的到来？｜Has Mechanical Age Arrived?
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 第二次工业革命之后，无数的工厂林立，机械的轰鸣声昼夜不绝，现代化的浪潮影响到了美国社会的方方面面。无线电，汽车、新动力轮船、飞机，改变了人们的生活方式，一个无比美好的机械时代已然到来。
 最前沿的机器能够帮助人们解决从用餐到出行的很多问题，尽管它们看上去复杂、精密，以及昂贵。
@@ -166,7 +166,7 @@ tab: 机械时代的到来？｜Has Mechanical Age Arrived?
 有人认为这只是个玩笑，但有人对此无比认真。
 
 tab: 无用之用｜Something for Nothing
-![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 《水陆空三栖式自驱飞艇问世！天才机械少年的杰出之作》——他捏了捏手上的报纸，对着有依偎着巨大飞艇、正开怀大笑的少年的照片做了个鬼脸，随后得意洋洋地把报纸放在了橱柜中最显眼的地方，和那些形状奇怪的机械制品摆在了一起。
 
@@ -175,7 +175,7 @@ tab: 无用之用｜Something for Nothing
 “咔——”又一份报纸被郑重地摆在了橱窗上。
 
 tab: 人生总是充满意外｜[UTTU×X]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：介绍下你手上的这个造型别致的机械球吧。
 **X：没什么，它只是我随手造的一个小玩具。比起这个，我更愿意为你介绍这支——最新发明的“全自动挑逗唇膏”～快看，世界上难道还有比你更适合的实验对象吗？**

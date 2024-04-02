@@ -107,17 +107,17 @@ title:
 color: 
 > [!culture]+ 好奇之眼|Inquisitive Eyes
 > ![](assets/可燃点｜Spathodea.assets/单品%20可燃点%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.5**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.5**
 > 一对好奇的眼睛。从布玩偶上拆下，重新缝上牛仔裤折叠的扣眼，代替了千篇一律的装饰。但如实说，当个性化成为比赛，所有参与者都变得俗不可耐。
 
 > [!culture]+ 特伯特杯冠军腰带|Turbot Championship Belt
 > ![](assets/可燃点｜Spathodea.assets/单品%20可燃点%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**700**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**700**
 > 特伯特杯青少年组的冠军腰带。它充分地证明了这个小姑娘如何灵巧而有力。而她将其随身携带的行为不难显露出，她是多么希望遇上一位属于自己的头号粉丝。
 
 > [!culture]+ 棕色真皮拳套|Brown Gloves
 > ![](assets/可燃点｜Spathodea.assets/单品%20可燃点%2003.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**19**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**19**
 > 母亲赠送的棕色的小型拳套，使用上好真皮制作。“这是最好的生日礼物。”受访者如此评价。我们可以评价这是一场战斗的开始，也可以将其称为撼动传统体育界的一次撞击。
 ````
 
@@ -125,7 +125,7 @@ color:
 
 ````tab
 tab: 孩子们的运动赛|Games for Children
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 这是属于体育的好年代。
 当和平年代的新中产者，期盼他们的孩子能走一条体面的道路时，电视产业便贴心地调到了体育频道。
@@ -138,7 +138,7 @@ tab: 孩子们的运动赛|Games for Children
 这一切多么熟悉，又如此陌生。
 
 tab: 发皱的成绩单|A Wrinkled Report Card
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 坎伯韦尔公立中学
 7年级·第1学期成绩单
@@ -160,7 +160,7 @@ tab: 发皱的成绩单|A Wrinkled Report Card
 任课老师留言：我无法否认可燃点小姐在运动上的天分，如果她有意愿踏入职业运动员的道路，现在正是最好的时机。
 
 tab: 我与我的争辩|[UTTU×可燃点]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：根据目前的研究报告来看，你似乎是唯一一例保持了“自我”的轮回者。
 白雪松：你认为，是什么样的缘故促使了你得到与其他轮回者不同的结局？

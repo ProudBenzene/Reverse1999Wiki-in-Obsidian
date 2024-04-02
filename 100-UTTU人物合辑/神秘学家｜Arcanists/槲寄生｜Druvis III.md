@@ -115,7 +115,7 @@ title:
 color: 
 > [!culture]+ 1900橡木铃|Lugus Samildánach
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2001.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**20**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**20**
 > 由Lugus为爱尔兰德鲁维斯
 > 家族定制的1900百年纪念款，隶属Samildánach高级珠宝系列，同时也是她身上唯一的高定奢侈品。珠宝首次面世于1911年10月，在一场母亲为女儿举办的生日宴上。
 
@@ -138,17 +138,17 @@ title:
 color: 
 > [!culture]+ 捻金雪柳闹蛾冠|Nao'E Willow Tiara
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2004.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**400**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**400**
 > 枝叶形头冠，饰以乌金纸剪裁的飞蛾翅膀，点缀饱满如果实的珍珠，因其接近自然的向上生长的形态而格外优雅。自然主义美学在哪里都不会过时。
 
 > [!culture]+ 璎珞腰饰|Yingluo Waist Jewelry
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2005.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85**
 > 佩戴在腰间的璎珞，通过编缀的手段把金银、玉片、砗磲连接在一起。纤长地垂落于腰侧，在步履间灵动地摇晃。
 
 > [!culture]+ 青白银绣披帛|Silver Embroidery Pibo
 > ![](assets/槲寄生｜Druvis%20III.assets/单品%20槲寄生%2006.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**34**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**34**
 > 绿色与白色的纱罗，金银线刺绣花纹，自然垂落时显得安静而整洁，但借着风势，它有任何人所不及的轻盈姿态。
 ````
 
@@ -158,7 +158,7 @@ color:
 
 ````tab
 tab: 咆哮的1920年代|Roaring Twenties
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 20世纪20年代，立体派艺术蓬勃兴起。强调几何特征的风潮不仅影响了克莱斯勒大厦，也改变了女性的时尚风格。全新的剪裁设计，正揭示着一场不协调的碰撞变革——现代化。在美国，现代科学正在化一切为可能。
 蒸汽火车、福特汽车、无线电的使用，将世界推向乐观浪潮的更远处。
@@ -169,7 +169,7 @@ tab: 咆哮的1920年代|Roaring Twenties
 “与我们一起迎接‘新时代’吧。”
 
 tab: 喀斯卡特的秋天|Autumn in Cascade
-![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 她记得喀斯卡特山脉里的每一棵树木。
 苔藓的形状、生长轮的不规则、蚁窝的规模，每一棵树都是那么的不同。为了倾听它们的诉语，她多次背离母亲的期待，逃过一切没有结尾的宴会，只身闯入森林的长夜。
@@ -182,7 +182,7 @@ tab: 喀斯卡特的秋天|Autumn in Cascade
 在喀斯卡特的这个秋天，她想改变命运。
 
 tab: 她的世界 有另一种哲学|[UTTU×槲寄生]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：听说你的母亲为了追随“美国工业之梦”，背弃了自己的神秘学家族。我很好奇，你是如何理解“美国梦”的？
 **槲寄生：我不理解。**

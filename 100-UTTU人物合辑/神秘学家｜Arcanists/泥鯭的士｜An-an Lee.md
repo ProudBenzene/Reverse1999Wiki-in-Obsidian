@@ -110,12 +110,12 @@ title:
 color: 
 > [!culture]+ 鬼魂捕手2021K|Ghost Catcher 2021k
 > ![](assets/泥鯭的士｜An-an%20Lee.assets/单品%20泥鯭的士%2001.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**17**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**17**
 > 一台前所未有的神奇机械。圆形的外扩喇叭含有特殊的年代美感，同时具有捕捉鬼魂与将其转化的神奇功能。在运作时会产生热量与轻微的轰鸣。就像后腰里趴着一只猫咪儿呢！她如此总结。
 
 > [!culture]+ 新科驱鬼事务所商标|Brand Logo
 > ![](assets/泥鯭的士｜An-an%20Lee.assets/单品%20泥鯭的士%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**50**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**50**
 > 手工制作的精巧刺绣。简单直白的设计来自于受访者本人。她声称，自己所有的衣服、博客、笔记和所到之处都印有此商标，一切的一切都是为了事业考虑。
 
 > [!culture]+ 美丽的白百合|Lily
@@ -150,7 +150,7 @@ color:
 
 ````tab
 tab: 九龙新贵|Kowloon Upstart
-![文化1|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 三千名警官自然是铲不净九龙狭窄的地皮。钢筋铁骨的龙寨搭建出更密集浮夸的楼阁，它容纳了许多无家可归之人，在这片错杂而纷乱的城市中为他们留下一张床榻，也容纳了犯罪和更多见不得光的勾当。
 
@@ -163,7 +163,7 @@ tab: 九龙新贵|Kowloon Upstart
 “真的不紧要，何太。”八九岁的姑娘从口袋中掏出一张皱皱巴巴的黄纸，腕上儿童电子表的指针向着房门跳起，哔哔叭叭地响个不停。“我帮你搞掂这里，房租再给我减两百块每月，okay？”
 
 tab: 美丽的白百合|Beautiful White Lily
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 “啊啊啊啊——啊啊！”
 
@@ -184,7 +184,7 @@ tab: 美丽的白百合|Beautiful White Lily
 “当然不是活人了。”年轻姑娘抬起手，安慰似的用力拍了拍男人，“她肚子里塞着几十只恶鬼，一齐叫当然让您胆寒啦！我第一次遇到Lily时，她正把这房间里的女鬼吃到一半——啊！客人！客人！您醒一醒啊，客人！”
 
 tab: 新科学除灵 驱鬼事务所|[UTTU×泥鯭的士]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **泥鯭的士：您好！你好！Hello！Bonjour！**
 白雪松：你好，泥鯭的士小姐。

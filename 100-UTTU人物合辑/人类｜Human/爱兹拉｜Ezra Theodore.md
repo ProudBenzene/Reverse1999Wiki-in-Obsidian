@@ -109,19 +109,19 @@ title:
 color: 
 > [!culture]+ 菌类采集工具包|Fungi Collecting Kit
 > ![](assets/爱兹拉｜Ezra%20Theodore.assets/单品%20爱兹拉%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**850**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**850**
 > ---
 > 常被错认为是园艺工具包。根据受访者介绍，其中道具均为专业菌类收集道具。例如能扫下蘑菇孢子的小刷与方便扒开松针的小耙。从工具的打理与其排列逻辑之合理程度可知，受访者做事细致认真，注意整洁。
 
 > [!culture]+ 真菌生命循环机|Fungus Ecosystem Machine
 > ![](assets/爱兹拉｜Ezra%20Theodore.assets/单品%20爱兹拉%2002.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**30**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**30**
 > ---
 > 一台融合了生物、化学及物理知识所造的新型机器。具有成熟的营养液自循环系统，构造了一处几乎完全接近于自然环境的人造可携带生态圈。兔毛手袋参与制作，当前由拉普拉斯澳大利亚分部爱兹拉持有。
 
 > [!culture]+ 菌类研究笔记与寻水杖|Research Note and Dowsing Rod
 > ![](assets/爱兹拉｜Ezra%20Theodore.assets/单品%20爱兹拉%2003.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**6.3**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**6.3**
 > ---
 > 被皮带绑住的旧笔记与一支简洁的寻水杖。前者记录着对菌类的观察研究，其中夹放了过多纸条与照片，散落风险极高。后者灵感发源于一种古老的寻水巫术，经由拉普拉斯科算中心技术专员改造，获得了更加持久的可用性与更高的收益价值。
 ````
@@ -130,7 +130,7 @@ color:
 
 ````tab
 tab: 论蘑菇与神秘学家的相似性|The Similarities Between Mushrooms and Arcanists
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 1729年，米凯利提出了真菌分类检索表，菌物学由此诞生。
 长久以来，菌类为学术界提供了繁多的研究素材，并吸引无数研究者投身其中。有的学者们享受这无尽的辩论与驳斥，以一篇篇研究报告相互探讨这土壤之下神奇真菌的复杂分类。
@@ -144,7 +144,7 @@ tab: 论蘑菇与神秘学家的相似性|The Similarities Between Mushrooms and
 “啊！就像神秘学家一样！”
 
 tab: 绘有奇怪犬类涂鸦的交流笔记|Notes with Dog Doodles
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 **▪ 003号菌，外观呈现红与绿二色，于其所处地区的午后时分开始进行颜色转换。经试纸检测无毒性，可能含有一定量的麻痹效果。**
 _红色笔记：提纯注射后15分23秒开始出现麻痹症状，持续约5分钟后开始逐渐减弱，无眩晕、恶心等副作用。也许可以用于麻醉剂，但实际上这玩意儿太没趣儿了，下次就不用给我了。_
@@ -160,7 +160,7 @@ _蓝色笔记：兔毛手袋！我们上次已经说好了，你不能再从我�
 _红色笔记：我以为是可食用菇。我饿了。_
 
 tab: 适度关心|[UTTU×爱兹拉]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **爱兹拉：您好，女士。**
 **爱兹拉：您的神秘术表现……很特殊。**

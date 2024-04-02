@@ -107,17 +107,17 @@ title:
 color: 
 > [!note]+ 研究员身份标识牌|Researcher ID
 > ![](assets/兔毛手袋｜Medicine%20Pocket.assets/单品%20兔毛手袋%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**75**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**75**
 > 拉普拉斯配发给研究员的身份表示牌照，排版与色彩中规中矩，配有硅胶制外包裹金属镀膜的磁吸扣。受访者相当“风趣”地为其黏上了一枚贴纸。
 
 > [!note]+ 白手套|White Gloves
 > ![](assets/兔毛手袋｜Medicine%20Pocket.assets/单品%20兔毛手袋%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**310**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**310**
 > 从家乡携带而来的白手套。材质坚韧且具有透气性。帮助受访者更加自由地触碰各类药剂，也保护其双手在破坏行为中不至于受伤。
 
 > [!note]+ 米格鲁0-1号 体液分析套组|Beagle 0-1 Body Fluid Analysis Apparatus
 > ![](assets/兔毛手袋｜Medicine%20Pocket.assets/单品%20兔毛手袋%2003.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**120**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**120**
 > 结构精密的仪器，分为三端连接于受访者与其术杖。可以实时监控受访者服药后的身体转变，并抽取血液、汗液与泪水等体液进行分析，或凝结为子弹导入术杖。
 ````
 
@@ -125,7 +125,7 @@ color:
 
 ````tab
 tab: 小狗，小狗，小狗们|Puppies, Puppies, and Puppies
-![文化1|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 幻想的朋友，玩具朋友，动物朋友。
 
@@ -148,7 +148,7 @@ tab: 小狗，小狗，小狗们|Puppies, Puppies, and Puppies
 她的孩子如往常一样身形轻巧，毫不回头地坐进了那辆白色的车。它曾经载着无数将将断奶的小狗儿离开母亲，如今也带走了她年幼的孩子。
 
 tab: 拉普拉斯破坏王|The Wrecker of Laplace
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 00019/9月/04周
 
@@ -185,7 +185,7 @@ tab: 拉普拉斯破坏王|The Wrecker of Laplace
 ……
 
 tab: 无奉献心理的天才|[UTTU×兔毛手袋]
-![文化3|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：你能谈谈……
 **兔毛手袋：在苦目糖的制作中有什么困难与特殊的令人印象深刻之事，对吗？**

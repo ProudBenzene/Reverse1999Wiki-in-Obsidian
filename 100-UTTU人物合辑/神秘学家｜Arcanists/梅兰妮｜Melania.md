@@ -106,12 +106,12 @@ title:
 color: 
 > [!culture]+ 鸭舌帽|Peaked Cap
 > ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**63**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**63**
 > 一顶简朴的鸭舌帽，色调单一，设计平庸，通常会出现在某类无名店铺的折扣货架上。佩戴者理所当然地选择了它。“平庸是一个相当难得的选择。”
 
 > [!culture]+ 金质吊坠|Golden Pendant
 > ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**835**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**835**
 > 它的上一个身份是给女儿的生日礼物。打造一件独一无二的吊坠需要几个月的功夫，而亲手送出它则需要一个更合适的契机。  
 > 遗憾的是，它并没能得到这个机会。
 
@@ -134,7 +134,7 @@ color:
 
 > [!culture]+ M字型发饰|M-shaped Hair Clip
 > ![](assets/梅兰妮｜Melania.assets/单品%20梅兰妮%2005.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**35**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**35**
 > 材质为琉璃和铜的发饰，放在手心时会有些许重量感。  
 > 它在任何一个平凡的饰品店货架上都能被找到，但那些货色并不会在梅兰妮融入大众时提醒她记起伪装成普通人的要领。
 
@@ -148,7 +148,7 @@ color:
 
 ````tab
 tab: 拉米雷斯消亡史|Fall of Ramirez
-![文化1|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 人们向来对见证美好事物的毁坏情有独钟，伦敦的报纸们也不例外。记者们在大街小巷间忙忙碌碌，他们从来不会遗漏过民权运动、反战游行、新左派等等一切时髦的话题，也不打算放过任何一个能让政府官员或社会明星露怯出糗的好机会。
 理所当然地，他们没有错过一个盛极一时的明星公司的轰然倒塌。身处拉米雷斯成立的母地，他们当然要为它的衰落送上最及时的祝福，一如当时。
@@ -163,7 +163,7 @@ tab: 拉米雷斯消亡史|Fall of Ramirez
 *（以上内容摘录自《月亮报》、《今日伦敦》、《星星周刊》等报）*
 
 tab: 一封历时颇长的信|A Letter Takes Long to Write
-![文化2|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 我并不认可你的选择。
 
@@ -181,7 +181,7 @@ tab: 一封历时颇长的信|A Letter Takes Long to Write
 <p align="right"><i>您叛逆的女儿</i>　　　　</p>
 
 tab: 仍未完成的难题|[UTTU×梅兰妮]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：如何称呼你更合适？梅兰妮小姐，还是怪盗……？
 **梅兰妮：嘘～**

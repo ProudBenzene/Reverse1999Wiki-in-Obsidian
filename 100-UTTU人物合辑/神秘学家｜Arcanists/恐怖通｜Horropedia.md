@@ -106,14 +106,14 @@ title:
 color: 
 > [!culture]+ “看透真相”系列限定镜框｜Limited Glasses Frame
 > ![](assets/恐怖通｜Horropedia.assets/单品%20恐怖通%2001.png)
-> ![纯雨滴|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**12**
+> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**12**
 > ---
 > 设计上并无出彩之处的黑框眼镜，有着粉丝才会留心的优点与莫名的高价位。  
 > 该产品在《X光猴人》首映期间贩售，由于少有人愿意购买，市面上仅存厂家试做的300只。
 
 > [!culture]+ 绿色领带夹｜Tie Clip
 > ![](assets/恐怖通｜Horropedia.assets/单品%20恐怖通%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**300**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**300**
 > ---
 > 横插进黑白菱格世界的一条绿，循规蹈矩中恰到好处的一丁点儿狂热。  
 > 不错的搭配。
@@ -128,7 +128,7 @@ color:
 
 ````tab
 tab: 永不入眠｜Never Sleep Again
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 人们永远需要新的刺激。
 像植物要汲取更远、更深处的养分，我们会腻烦已探索过的土壤。无论那些能够带来感官刺激的事物曾经有多令我们心跳加速、血脉偾张，它们总有被嚼烂无味的时候，到那时，就该最后咂一咂味道，然后毫不留恋地把它们吐掉。
@@ -140,7 +140,7 @@ tab: 永不入眠｜Never Sleep Again
 “我们会爱这些糟糕的电影故事爱到死为止！”男孩儿欢呼。
 
 tab: 档案中的一页｜Personal File
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 **学生违纪处分表（存根）**
 
@@ -157,7 +157,7 @@ tab: 档案中的一页｜Personal File
 按照《第一防线学校学生违纪处分条例》及《第一防线学校学生成绩考核评定办法》，没收违禁物品并给予其记过处分。
 
 tab: 理性与逻辑之上｜[UTTU×恐怖通]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：是什么让你对80年代恐怖电影如此痴迷？从理性与逻辑的角度来讲——
 **恐怖通：它们荒诞、疯狂，完全不可能发生，是理性与逻辑的反义词……你想说这个吗？**

@@ -105,7 +105,7 @@ title:
 color: 
 > [!culture]+ 长柄酒提|Liquor Ladle
 > ![](assets/曲娘｜Jiu%20Niangzi.assets/单品%20曲娘%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.05**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.05**
 > 据说是东方人用来舀起酒液的工具，但在实际使用过程中，其效果与长壶嘴的金色茶盅类似，延长的部分存在较大的表演性质。从造型上看，也许将它用来驱赶喧闹的酒客更为合适。
 
 > [!culture]+ “珍重，珍重！”|Cherished Purse
@@ -123,7 +123,7 @@ color:
 
 ````tab
 tab: 适彼乐土|A City at Its Best
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 这座城停在了很好的时候。
 “风俗奢靡，不依格令，绮罗锦绣，随所好尚。上自宫掖，下至匹庶，递相仿效，贵贱无别”。一个伟大国度的青年时代，此刻人世的幸福是如此宽阔，几近正午的太阳。
@@ -136,7 +136,7 @@ tab: 适彼乐土|A City at Its Best
 城中之人于是怀念过去，不再展望后日。没有人记得京师的马车是什么时候不再来到门前的，四时自成年岁，在这片自足的乐土上，月光同一切都亘古如常。
 
 tab: 随身物品登记|Personal Belongings
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 **·01·半截树枝**
 *随手掰下，用于防身与拨开前路的“武器”，也可以用来整理发型。经测试，使用者本身的攻击力比树枝要强劲得多，但似乎因为它造型流畅，且意外称手，才得到了良好的保存。*
@@ -153,7 +153,7 @@ tab: 随身物品登记|Personal Belongings
 “它们和我只是临时搭个伴。”
 
 tab: 一次“重逢”|[UTTU×曲娘]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **曲娘：你——你是嘴巴娘子？！可你瞧上去，和先前不大一样，声音也不同。**
 **曲娘：不过，是了，一定是。天底下，应该只有一个嘴巴娘子……**

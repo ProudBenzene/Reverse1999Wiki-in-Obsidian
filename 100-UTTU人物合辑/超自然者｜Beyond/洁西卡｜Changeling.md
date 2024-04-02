@@ -109,7 +109,7 @@ title:
 color: 
 > [!culture]+ 实验体耳标|Ear Tag
 > ![](assets/洁西卡｜Changeling.assets/单品%20洁西卡%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**25**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**25**
 > 硬质耳标，记录着一长串编码，方便研究员分辨研究样本的卡片。当你拥有这张小小的，不怕水与火，且不易脱落的黄色标签时，你的名字就不那么重要了。
 
 > [!culture]+ 洁白的花朵|White Flower
@@ -119,7 +119,7 @@ color:
 
 > [!culture]+ 束缚带|Restraint Belt
 > ![](assets/洁西卡｜Changeling.assets/单品%20洁西卡%2003.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85.6**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85.6**
 > 坚韧的皮带。使用了芝诺军方制革工艺的精品产物，被广泛地利用于制服装饰、设备固定或病患拘束服上。作为点缀能够很好地隔断白色里衬，也能将“麻烦”好好固定于铁架床上。
 ````
 
@@ -127,7 +127,7 @@ color:
 
 ````tab
 tab: 换生灵计划|Project Changeling
-![文化1|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 科学实验和未知辐射带来的恐惧尚未完全平息，精神疾病和杀人狂又登上惊悚电影的舞台。显然，相较于哥特式的陌生与奇诡，这些关于生化改造与心理研究的话题离人们更近，更方便人们用想象力在平淡无奇的生活里添加些惊吓与寒战……也更容易变成现实。
 
@@ -140,7 +140,7 @@ tab: 换生灵计划|Project Changeling
 自然规律？伦理道德？那些可怜的小东西的身份认同与血脉乡愁？疯狂科学家们从不在乎这些。
 
 tab: 芝诺少年军研究员手记|Experiment Log
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 4月/03周
 A-α3组实验失败，实验体出现对奇罗谷怪蜥基因的严重排异反应。
@@ -168,7 +168,7 @@ A组实验体出现细胞异常自噬情况并全部死亡。
 γ5-06号实验体基因融合成功，身体机能良好，显示出==鹿女的身体形态与换生灵的智力水平==。实验体能够较好地学习人类语言，对爱尔兰哨笛声有明显反应。将继续对其能力进行培养与观测。
 
 tab: 小姑娘大麻烦|[UTTU×洁西卡]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **洁西卡：你是我的新朋友吗？**
 白雪松：不，我只是来做一次采访。

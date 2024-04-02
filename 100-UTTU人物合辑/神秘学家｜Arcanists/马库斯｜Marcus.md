@@ -107,20 +107,20 @@ title:
 color: 
 > [!culture]+ 木质雕刻书写盒|Wooden Writing Box
 > ![](assets/马库斯｜Marcus.assets/单品%20马库斯%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**340**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**340**
 > ---
 > 经久耐用、容量大的二手木质书写盒，外壳可见明显磨损。内部配有平面书写板、储存隔间和一个带锁的秘密抽屉。她和它曾一起走过了许多路，熬过了许多夜晚。
 
 > [!culture]+ 长明提灯|Lens Lantern
 > ![](assets/马库斯｜Marcus.assets/单品%20马库斯%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**60**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**60**
 > ---
 > 无需燃料的长明提灯，由神秘的幽灵朋友赠予，其上刻有灯塔配备物资的编号，应该是某位遇难者的遗物。  
 > 系在上面的灰白格丝巾恰到好处地平衡了它的古朴感。
 
 > [!culture]+ 时尚报童帽|Stylish Newsboy Cap
 > ![](assets/马库斯｜Marcus.assets/单品%20马库斯%2003.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**23**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**23**
 > ---
 > 前往弗兰南群岛时路过了伦敦，乡村来的少女贴在橱窗玻璃上思考了34分钟28秒后买下了这顶别着蓝色小鱼的漂亮帽子——事实证明，它与受访者的穿着十分相配。
 ````
@@ -129,7 +129,7 @@ color:
 
 ````tab
 tab: 四处涌动的觉醒暗潮|The Undercurrent of Awakening
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 当蒸汽机开始轰鸣，资源又进行了新一次的整合与分配。
 
@@ -142,7 +142,7 @@ tab: 四处涌动的觉醒暗潮|The Undercurrent of Awakening
 街的那边响起了嘈杂的脚步声，那是一队罢工的工人，他们举着横幅，喊着口号，走近时，女婴被洪亮的口号吵醒，发出了一声啼哭。
 
 tab: 笔记中的冢|Tomb in a Note
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 **19■■年■月4日**
 
@@ -169,7 +169,7 @@ _自制颜料极易褪色，也许再过几年这幅画就会从纸上消失（�
 _但我会永远留着它。_
 
 tab: 抉择|[UTTU×马库斯]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **马库斯：您好，嘴巴小姐！我是马库斯，您叫我马库斯就好，我，我……**
 白雪松：……不用紧张，马库斯小姐。

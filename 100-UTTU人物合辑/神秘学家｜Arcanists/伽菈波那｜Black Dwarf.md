@@ -108,12 +108,12 @@ title:
 color: 
 > [!culture]+ 提拉克|Tilak
 > ![](assets/伽菈波那｜Black%20Dwarf.assets/单品%20伽菈波那%2001.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**1.5**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**1.5**
 > 吉祥痣，印度妇女的额头上常会出现的传统妆饰。好客的人们也会为远道而来的旅客献上此等礼遇，其祝福意义大于装饰意义。这份鲜艳的红色或许来自某种具有轻微毒性的硫化矿物。
 
 > [!culture]+ 丹宁蓝旧款风衣|Oid Dinem Windbreakier
 > ![](assets/伽菈波那｜Black%20Dwarf.assets/单品%20伽菈波那%2002.png)
-> ![利齿子儿|inlL](000-箱的构成/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**12**
+> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**12**
 > 品牌不明、版型简单、颜色难以搭配的旧风衣，时尚人士不会考虑的老款式。但触感舒适，质量上乘——是实用主义者无法拒绝的选项。
 
 > [!culture]+ 回望的目光|"A Gaze into the Past" Finderscope
@@ -126,7 +126,7 @@ color:
 
 ````tab
 tab: 说明手册|Nabyak of Life
-![文化1|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 与西洋占星不同，吠陀占星很少将目光聚焦于人的自身认知，它们竭力避开一切障目的“现象”，直指人类灵魂的本质。本命盘如同一本说明手册，精细地记载着人生中喜悦与悲伤的配比，以及命运足迹的角度。
 
@@ -139,7 +139,7 @@ tab: 说明手册|Nabyak of Life
 那手册或许非常精准，但是一一去它的吧，她想，她从此不会再听它的鬼话了。
 
 tab: 我的孩子|My Chlid
-![文化2|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 养育一名孩童不是一件容易的事。
 瓦奎尼向上提起纱丽的下摆，步履匆忙地行走在松软的泥土路上。
@@ -157,7 +157,7 @@ tab: 我的孩子|My Chlid
 ……管它呢。瓦奎尼的嘴角含着笑意，嘟嘟囔囔地将找到的钥匙插入锁孔，轻轻扭动。这是他们的孩子……这就够了。
 
 tab: 命运的客观性|[UTTU×伽菈波那]
-![文化3|inlL|200](../../000-箱的构成/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：并非所有的受访者都像你一样准时。至少不会是这样不早不晚的——恰好的时间。
 **伽菈波那：准时对于我的工作十分有益……我想对您来说也是如此。**
