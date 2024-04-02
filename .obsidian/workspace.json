@@ -15,7 +15,7 @@
               "state": {
                 "file": "000-箱的构造/主页.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -54,12 +54,13 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md"
               }
             }
           },
@@ -236,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md"
               }
             }
           }
@@ -285,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,12 +338,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "17fcbe473b8016e6",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
-    "000-箱的构造/主页.md",
-    "200-相从心生/200-相从心生.md",
+    "000-箱的构造/日历视图.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
+    "000-箱的构造/主页.md",
+    "000-箱的构造/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
+    "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/立绘 新巴别塔 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/立绘 新巴别塔 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets",
@@ -367,7 +370,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/单品 皮克勒斯 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/单品 皮克勒斯 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/至终的仪式 皮克勒斯如是说 1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets/神秘术 皮球的审谛1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/恐怖通｜Horropedia~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets",
