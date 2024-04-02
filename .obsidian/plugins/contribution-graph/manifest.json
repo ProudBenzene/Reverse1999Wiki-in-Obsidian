@@ -1,0 +1,11 @@
+{
+	"id": "contribution-graph",
+	"name": "Contribution Graph",
+	"version": "0.9.0",
+	"minAppVersion": "1.3.0",
+	"description": "Generate a interactive heatmap graph to visualize and track your productivity",
+	"author": "vran",
+	"authorUrl": "https://github.com/vran-dev",
+	"isDesktopOnly": false,
+	"fundingUrl": "https://www.buymeacoffee.com/vran"
+}
