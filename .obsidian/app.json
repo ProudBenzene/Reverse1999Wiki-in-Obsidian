@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/主页.assets",
+  "attachmentFolderPath": "./assets/20240402-7c30a6ed4cc507b8.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
@@ -15,5 +15,6 @@
   "newFileLocation": "root",
   "livePreview": true,
   "defaultViewMode": "source",
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "showLineNumber": true
 }
