@@ -54,7 +54,7 @@
       "name": "添加角色",
       "type": "Template",
       "command": true,
-      "templatePath": "000-箱的构成/templates/UTTU人物合辑.md",
+      "templatePath": "000-箱的构造/templates/UTTU人物合辑.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -89,7 +89,7 @@
       "name": "添加心相",
       "type": "Template",
       "command": true,
-      "templatePath": "000-箱的构成/templates/相从心生.md",
+      "templatePath": "000-箱的构造/templates/相从心生.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -290,7 +290,7 @@
             "name": "UTTU人物合辑",
             "type": "Template",
             "command": false,
-            "templatePath": "000-箱的构成/templates/UTTU人物合辑.md",
+            "templatePath": "000-箱的构造/templates/UTTU人物合辑.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{name}}：{{value}}"
@@ -326,8 +326,8 @@
         {
           "name": "autoImageCaption",
           "type": "UserScript",
-          "id": "9dc2d202-17e8-48a8-8f3b-d99ad65a7588",
-          "path": "000-箱的构成/script/autoImageCaption.js",
+          "id": "460f3243-bf5b-47a0-a4fd-932b56bec918",
+          "path": "000-箱的构造/script/autoImageCaption.js",
           "settings": {}
         }
       ],
@@ -425,7 +425,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "000-箱的构成/templates",
+  "templateFolderPath": "000-箱的构造/templates",
   "announceUpdates": true,
   "version": "1.8.1",
   "disableOnlineFeatures": false,
