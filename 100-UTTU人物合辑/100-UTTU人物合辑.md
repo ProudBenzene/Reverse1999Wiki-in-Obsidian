@@ -21,5 +21,5 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 ```dataview
 CALENDAR 
 生日
-from "100-UTTU人物合辑"
+Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UTTU人物合辑") AND !contains(file.name,"维尔汀")
 ```

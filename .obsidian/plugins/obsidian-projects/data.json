@@ -9,7 +9,10 @@
           ]
         },
         "出场剧情": {},
-        "出场章节": {}
+        "出场章节": {},
+        "生日": {
+          "richText": true
+        }
       },
       "defaultName": "",
       "templates": [

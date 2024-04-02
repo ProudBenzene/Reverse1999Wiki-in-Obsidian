@@ -24,6 +24,7 @@ aliases:
   - <% tp.file.title.split("｜")[1] %>
 初始立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 01.png]]'
 洞悉立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 02.png]]'
+生日: 
 banner_header: "{{filename}}"
 出场章节:
 ---
