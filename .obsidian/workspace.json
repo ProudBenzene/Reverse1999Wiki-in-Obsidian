@@ -20,14 +20,14 @@
             }
           },
           {
-            "id": "795aa67795915b26",
+            "id": "94a75b14d674a25b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -207,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md"
               }
             }
           },
@@ -264,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +293,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -315,13 +317,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "795aa67795915b26",
+  "active": "94a75b14d674a25b",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
+    "300-以影像之/300-以影像之.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
     "000-箱的构造/日历视图.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/立绘 新巴别塔 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/立绘 新巴别塔 02.png",
@@ -359,7 +362,6 @@
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/伊索尔德｜Isolde.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets",
     "000-箱的构造/assets/主页.assets/[Minimal]Cards.css",
     "000-箱的构造/assets/主页.assets",
