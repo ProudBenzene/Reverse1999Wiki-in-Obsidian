@@ -63,8 +63,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构成/金句收藏/20240402-7c30a6ed4cc507b8.md",
+                "file": "000-箱的构成/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +210,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构成/金句收藏/20240402-7c30a6ed4cc507b8.md"
+                "file": "000-箱的构成/主页.md"
               }
             }
           },
@@ -241,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构成/金句收藏/20240402-7c30a6ed4cc507b8.md"
+                "file": "000-箱的构成/主页.md"
               }
             }
           }
@@ -290,7 +289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构成/金句收藏/20240402-7c30a6ed4cc507b8.md",
+                "file": "000-箱的构成/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +306,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构成/金句收藏/20240402-7c30a6ed4cc507b8.md",
+                "file": "000-箱的构成/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,11 +340,11 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "c0c522db8ae14887",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构成/金句收藏/20240402-7c30a6ed4cc507b8.md",
     "000-箱的构成/主页.md",
     "000-箱的构成/金句收藏/20240402-52af032179abebcd.md",
-    "000-箱的构成/金句收藏/20240402-7c30a6ed4cc507b8.md",
     "000-箱的构成/金句收藏",
     "200-相从心生/角色心相/齿轮之外｜Beyond the Gears.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
