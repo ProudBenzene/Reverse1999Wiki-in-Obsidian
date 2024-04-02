@@ -32,6 +32,7 @@ aliases:
   - Yenisei
 初始立绘: "[[立绘 小叶尼塞 01.png]]"
 洞悉立绘: "[[立绘 小叶尼塞 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记

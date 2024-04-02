@@ -32,6 +32,7 @@ aliases:
   - Marcus
 初始立绘: "[[立绘 马库斯 01.png]]"
 洞悉立绘: "[[立绘 马库斯 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.7｜今夜星光灿烂

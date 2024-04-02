@@ -33,6 +33,7 @@ aliases:
   - Kaalaa Baunaa
 初始立绘: "[[立绘 伽菈波那 01.png]]"
 洞悉立绘: "[[立绘 伽菈波那 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.3｜行至摩卢旁卡

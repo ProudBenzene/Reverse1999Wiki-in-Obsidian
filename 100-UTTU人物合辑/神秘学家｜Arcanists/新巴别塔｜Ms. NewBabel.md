@@ -32,6 +32,7 @@ aliases:
   - Ms. NewBabel
 初始立绘: "[[立绘 新巴别塔 01.png]]"
 洞悉立绘: "[[立绘 新巴别塔 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
 ---

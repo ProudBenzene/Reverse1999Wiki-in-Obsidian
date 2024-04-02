@@ -13,6 +13,7 @@
     "心相标签": "multitext",
     "time": "date",
     "dateCreated": "date",
-    "dateModified": "date"
+    "dateModified": "date",
+    "生日": "date"
   }
 }

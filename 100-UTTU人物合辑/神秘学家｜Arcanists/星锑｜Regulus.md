@@ -30,6 +30,7 @@ aliases:
 人物合辑: 神秘学家｜Arcanists
 初始立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 01.png]]"
 洞悉立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.0｜此即明日

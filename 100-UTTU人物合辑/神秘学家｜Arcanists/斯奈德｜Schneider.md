@@ -31,6 +31,7 @@ aliases:
   - Schneider
 初始立绘: "[[立绘 斯奈德 01.png]]"
 洞悉立绘: "[[立绘 斯奈德 02.jpg]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.0｜在我们的时代里

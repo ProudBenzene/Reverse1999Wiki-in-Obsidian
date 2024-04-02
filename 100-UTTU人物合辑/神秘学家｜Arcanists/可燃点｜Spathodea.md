@@ -32,6 +32,7 @@ aliases:
   - Spathodea
 初始立绘: "[[assets/可燃点｜Spathodea.assets/立绘 可燃点 01.png]]"
 洞悉立绘: "[[assets/可燃点｜Spathodea.assets/立绘 可燃点 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会

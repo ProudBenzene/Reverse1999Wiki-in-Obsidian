@@ -31,6 +31,7 @@ aliases:
   - Melania
 初始立绘: "[[立绘 梅兰妮 01.png]]"
 洞悉立绘: "[[立绘 梅兰妮 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.1｜雷米特杯失窃案

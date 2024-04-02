@@ -1,7 +1,7 @@
 ---
 Name: "6"
 exonym: Six
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -32,6 +32,7 @@ aliases:
   - "6"
 初始立绘: "[[立绘 6 01.png]]"
 洞悉立绘: "[[立绘 6 02.png]]"
+生日: 2024-02-13
 banner_header: "{{filename}}"
 出场章节:
   - 1.4｜洞穴的囚徒

@@ -24,6 +24,7 @@ aliases:
   - Vertin
 初始立绘: '[[立绘 维尔汀 01.png]]'
 洞悉立绘: '[[立绘 维尔汀 02.png]]'
+生日: 
 banner_header: "{{filename}}"
 ---
 

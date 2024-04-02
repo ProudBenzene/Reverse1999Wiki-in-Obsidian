@@ -32,6 +32,7 @@ aliases:
   - Tooth Fairy
 初始立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 01.png]]"
 洞悉立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦

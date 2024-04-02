@@ -31,6 +31,7 @@ aliases:
   - Jiu Niangzi
 初始立绘: "[[立绘 曲娘 01.png]]"
 洞悉立绘: "[[立绘 曲娘 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记

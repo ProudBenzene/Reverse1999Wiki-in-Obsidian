@@ -31,6 +31,7 @@ aliases:
   - Lilya
 初始立绘: "[[立绘 红弩箭 01.png]]"
 洞悉立绘: "[[立绘 红弩箭 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.0｜此即明日

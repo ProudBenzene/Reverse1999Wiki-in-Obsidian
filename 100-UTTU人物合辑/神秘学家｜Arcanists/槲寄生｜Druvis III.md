@@ -31,6 +31,7 @@ aliases:
   - Druvis III
 初始立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png]]"
 洞悉立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.0｜此即明日

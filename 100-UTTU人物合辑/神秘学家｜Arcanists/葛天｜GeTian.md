@@ -31,6 +31,7 @@ aliases:
   - GeTian
 初始立绘: "[[立绘 葛天 01.png]]"
 洞悉立绘: "[[立绘 葛天 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记

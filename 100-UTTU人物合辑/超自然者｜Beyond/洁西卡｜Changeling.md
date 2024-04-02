@@ -33,6 +33,7 @@ aliases:
   - Changeling
 初始立绘: "[[assets/洁西卡｜Changeling.assets/立绘 洁西卡 01.png]]"
 洞悉立绘: "[[assets/洁西卡｜Changeling.assets/立绘 洁西卡 02.png]]"
+生日: 
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
