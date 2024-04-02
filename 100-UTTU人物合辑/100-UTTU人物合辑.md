@@ -17,8 +17,9 @@ Table without id
 Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UTTU人物合辑") AND !contains(file.name,"维尔汀")
 ```
 
+
 ```dataview
 CALENDAR 
 生日
-From "100-UTTU人物合辑"
+from "100-UTTU人物合辑"
 ```
