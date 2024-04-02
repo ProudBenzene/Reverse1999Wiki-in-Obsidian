@@ -1,7 +1,7 @@
 ---
 Name: 爱兹拉
 exonym: Ezra Theodore
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 人类｜Human
@@ -32,7 +32,7 @@ aliases:
   - Ezra Theodore
 初始立绘: "[[立绘 爱兹拉 01.png]]"
 洞悉立绘: "[[立绘 爱兹拉 02.png]]"
-生日: 2024-
+生日: 2024-06-01
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
