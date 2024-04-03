@@ -283,6 +283,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
       "templify:Templify 市场": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
@@ -302,11 +303,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "600-箱中日历/2024/2024-04-03.md",
+    "000-箱的构造/主页.md",
+    "000-箱的构造/templates/箱中日历.md",
+    "600-箱中日历/2024",
+    "600-箱中日历/2023",
     "600-箱中日历",
     "000-箱的构造/templates/UTTU人物合辑.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
@@ -342,14 +347,10 @@
     "README.md",
     "300-以影像之/300-以影像之.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/script/SwitchLightdark.js",
     "000-箱的构造/箱中金句",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/恐怖通｜Horropedia.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/未锈铠｜A Knight.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/X｜X.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鬃毛沙砾｜Shamane.assets",
     "白板.canvas"
   ]
 }

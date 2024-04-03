@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiCalendar",
       "TiFileSpreadsheet",
       "TiMovie",
       "IbHouse",
-      "TiHeartUp",
-      "RiSwordFill"
+      "TiHeartUp"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -116,5 +116,6 @@
   "300-以影像之": "TiMovie",
   "README.md": "TiFileSpreadsheet",
   "000-箱的构造": "TiBriefcase",
-  "000-箱的构造/主页.md": "IbHouse"
+  "000-箱的构造/主页.md": "IbHouse",
+  "600-箱中日历": "TiCalendar"
 }
