@@ -42,7 +42,7 @@
   "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "basic.thino.canvas",
-    "MemoDefaultMultiFilePath": "000-箱的构造/箱中金句",
+    "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
     "MemoDefaultSingleFilePath": "basic.thino.md"
   },
   "MemoDailyTarget": 5,

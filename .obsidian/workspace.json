@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
+                "file": "000-箱的构造/金句展示.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/金句展示.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "000-箱的构造/金句展示.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/金句展示.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/金句展示.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,14 +309,14 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "200-相从心生/普通心相/轻藐｜Slighted.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/金句展示.md",
+    "200-相从心生/普通心相/轻藐｜Slighted.md",
     "README.md",
     "600-箱中日历/2024/2024-02-20.md",
     "400-箱外世界/暴雨时间线.md",
     "basic.thino.md",
-    "000-箱的构造/箱中金句/20240402-7c30a6ed4cc507b8.md",
+    "000-箱的构造/箱中memos/20240402-7c30a6ed4cc507b8.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 02.png",
@@ -353,7 +353,7 @@
     "测试",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets",
     "000-箱的构造/script/SwitchLightdark.js",
-    "000-箱的构造/箱中金句",
+    "000-箱的构造/箱中memos",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets",
     "白板.canvas"
   ]
