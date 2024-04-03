@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "e710791494a91b1f",
+            "id": "be64e94b81a53604",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试.md",
-                "mode": "source",
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -120,7 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "测试.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "测试.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -256,7 +256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,11 +308,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "e710791494a91b1f",
+  "active": "be64e94b81a53604",
   "lastOpenFiles": [
     "400-箱外世界/暴雨时间线.md",
-    "测试.md",
     "000-箱的构造/主页.md",
+    "测试.md",
     "600-箱中日历/2024/2024-02-20.md",
     "basic.thino.md",
     "000-箱的构造/箱中金句/20240402-7c30a6ed4cc507b8.md",
