@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "28609a1886d1f1f3",
+        "id": "a4e7ab8c564d67d7",
         "type": "tabs",
         "children": [
           {
-            "id": "639490fa10af33f1",
+            "id": "9aadaddd821e22fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,6 +17,38 @@
                 "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "3f6df53d6a9606bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/自动化创建角色档案.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -275,12 +307,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "639490fa10af33f1",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "600-箱中日历/2024/2024-02-20.md",
     "000-箱的构造/主页.md",
     "测试.md",
     "400-箱外世界/暴雨时间线.md",
-    "600-箱中日历/2024/2024-02-20.md",
     "basic.thino.md",
     "000-箱的构造/箱中金句/20240402-7c30a6ed4cc507b8.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",

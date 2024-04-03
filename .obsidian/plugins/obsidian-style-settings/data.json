@@ -646,6 +646,6 @@
   "code-tab@@tabbc@@light": "#1E76D9",
   "crearts@@skins-dark": "skin-dark-default",
   "crearts@@neumorphism": true,
-  "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.5,
-  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 1
+  "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.6,
+  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 3
 }

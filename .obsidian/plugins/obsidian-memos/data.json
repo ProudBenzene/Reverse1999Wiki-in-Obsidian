@@ -37,7 +37,7 @@
   "FetchMemosMark": "#memo",
   "FetchMemosFromNote": false,
   "ShowCommentOnMemos": false,
-  "ShowLeftSideBar": true,
+  "ShowLeftSideBar": false,
   "MemoListView": "moments",
   "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
@@ -89,7 +89,7 @@
   "MomentsBackgroundImage": "https://gamecms-res.sl916.com/official_website_resource/50001/4/PICTURE/20240205/156%202560x1440_979ed4831fab45b98366f2c8f0b0a15b.jpg",
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404030030403.png",
   "MomentsQuote": "The Storm is coming...",
-  "DefaultThemeForThino": "modern",
+  "DefaultThemeForThino": "classic",
   "LastUpdatedVersion": "2.3.57",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
