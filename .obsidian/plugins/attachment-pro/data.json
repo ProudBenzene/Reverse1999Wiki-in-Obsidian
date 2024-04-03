@@ -1,0 +1,24 @@
+{
+  "version": 0,
+  "rules": [
+    {
+      "id": "bb7e2d70-7578-4874-92b9-cf477100fb56",
+      "sort": 0,
+      "enabled": true,
+      "scopes": [
+        {
+          "id": "bc9b2da0-bbd9-4968-9d43-3086ff549257",
+          "type": "ALL"
+        }
+      ],
+      "repository": {
+        "type": "CUSTOMIZE",
+        "path": ""
+      },
+      "nameFormat": {
+        "type": "ORIGINAL"
+      }
+    }
+  ],
+  "debug": false
+}

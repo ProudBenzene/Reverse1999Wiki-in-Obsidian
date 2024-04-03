@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "9634cfc86792e09e",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -47,7 +55,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -303,7 +312,7 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "9634cfc86792e09e",
   "lastOpenFiles": [
     "README.md",
     "000-箱的构造/主页.md",
