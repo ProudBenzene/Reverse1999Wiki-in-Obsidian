@@ -32,6 +32,14 @@
             }
           },
           {
+            "id": "fcc8cc70f962adf7",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -64,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -297,8 +305,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,7 +329,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "3d8b756451e9b13e",
+  "active": "fcc8cc70f962adf7",
   "lastOpenFiles": [
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
