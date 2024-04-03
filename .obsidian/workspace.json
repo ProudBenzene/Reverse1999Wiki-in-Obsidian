@@ -20,11 +20,15 @@
             }
           },
           {
-            "id": "9634cfc86792e09e",
+            "id": "9a1b1fdae0cf4de2",
             "type": "leaf",
             "state": {
-              "type": "style-settings",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -43,8 +47,12 @@
             "id": "01a2c60378addfb9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/自动化创建角色档案.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -124,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md"
               }
             }
           },
@@ -260,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,6 +302,7 @@
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
       "templify:Templify 市场": false,
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -308,14 +317,16 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-memos:Thino": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9634cfc86792e09e",
+  "active": "9a1b1fdae0cf4de2",
   "lastOpenFiles": [
-    "README.md",
+    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "000-箱的构造/主页.md",
+    "README.md",
+    "000-箱的构造/自动化创建角色档案.md",
     "600-箱中日历/2024/2024-04-03.md",
     "000-箱的构造/templates/箱中日历.md",
     "600-箱中日历/2024",
@@ -342,8 +353,6 @@
     "测试",
     "200-相从心生/200-相从心生.md",
     "400-箱外世界/暴雨时间线.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/恐怖通｜Horropedia.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/新巴别塔｜Ms. NewBabel.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/单品 新巴别塔 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/单品 新巴别塔 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/单品 新巴别塔 03.png",
@@ -354,7 +363,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/神秘术 新浪潮3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/神秘术 新浪潮2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets/神秘术 新浪潮1.png",
-    "300-以影像之/300-以影像之.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets",
     "000-箱的构造/script/SwitchLightdark.js",
     "000-箱的构造/箱中金句",
