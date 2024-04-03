@@ -106,5 +106,15 @@
       ],
       "key": "I"
     }
+  ],
+  "clever-search:clever-search-in-vault": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "F"
+    }
   ]
 }
