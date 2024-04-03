@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "624a4f68edd3e503",
+        "id": "28609a1886d1f1f3",
         "type": "tabs",
         "children": [
           {
-            "id": "6e3114d2fa552e15",
+            "id": "639490fa10af33f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -275,7 +275,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "6e3114d2fa552e15",
+  "active": "639490fa10af33f1",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "测试.md",
