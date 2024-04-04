@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "600-箱中日历/2024/2024-01-01.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -176,8 +176,17 @@
                 }
               }
             }
+          },
+          {
+            "id": "5916773b3a344a77",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,17 +218,9 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "5916773b3a344a77",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "a0af558e737c8c63",
@@ -291,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
