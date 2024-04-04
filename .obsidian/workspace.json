@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md"
+              }
             }
           },
           {
@@ -266,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +321,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "a5c8d7db2197c122",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/百夫长｜Centurion.assets/立绘 百夫长 01.png",
