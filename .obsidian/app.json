@@ -3,7 +3,7 @@
   "attachmentFolderPath": "./assets/远旅｜Voyager.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
