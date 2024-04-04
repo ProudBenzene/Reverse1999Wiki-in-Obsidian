@@ -48,7 +48,14 @@
             "cardWidth": 200
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "星级",
+                "operator": "is",
+                "enabled": true,
+                "value": "✦✦✦✦✦✦"
+              }
+            ]
           },
           "colors": {
             "conditions": [
