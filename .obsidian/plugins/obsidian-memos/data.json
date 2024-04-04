@@ -40,7 +40,7 @@
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
   "MemoListView": "chat",
-  "MemoSaveLocation": "MULTI",
+  "MemoSaveLocation": "FILE",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "basic.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
