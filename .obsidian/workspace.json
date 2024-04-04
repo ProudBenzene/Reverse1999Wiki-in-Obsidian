@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
-                "mode": "source",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md"
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md"
               }
             }
           },
@@ -269,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,11 +322,11 @@
   },
   "active": "471e7cb6d13888b7",
   "lastOpenFiles": [
+    "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets/Counter-2217499.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets/Counter-2217498.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets/Counter.png",
-    "000-箱的构造/templates/UTTU人物合辑.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png",
