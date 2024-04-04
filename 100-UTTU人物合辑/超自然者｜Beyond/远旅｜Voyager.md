@@ -75,11 +75,11 @@ banner_header: "{{filename}}"
 > [!skill]- 
 > 
 > 
-> | 等级  | 类型  | 技能  | 文化  |
-> | :-: | :-: | :-: | :-: |
-> | ✦✧✧ |     |     |     |
-> | ✦✦✧ |     |     |     |
-> | ✦✦✦ |     |     |     |
+> | 等级 |                             类型                             | 技能 | 文化 |
+> | :--: | :----------------------------------------------------------: | :--: | :--: |
+> | ✦✧✧  | ![反制](assets/远旅｜Voyager.assets/Counter.png)<b><font color="#78652F">反制</font></b> |      |      |
+> | ✦✦✧  | ![反制](assets/远旅｜Voyager.assets/Counter-2217498.png)<b><font color="#78652F">反制</font></b> |      |      |
+> | ✦✦✦  | ![反制](assets/远旅｜Voyager.assets/Counter-2217499.png)<b><font color="#78652F">反制</font></b> |      |      |
 > 
 
 > [!skill]- 

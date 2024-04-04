@@ -44,9 +44,9 @@ banner_header: "{{filename}}"
 
 |                                 洞悉等级                                  | 效果  |
 | :-------------------------------------------------------------------: | :-: |
-| ![洞悉一\|50](000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅰ.png)洞悉一 |     |
-| ![洞悉二\|50](000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅱ.png)洞悉二 |     |
-| ![洞悉三\|50](000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅲ.png)洞悉三 |     |
+| ![洞悉一\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅰ.png)洞悉一 |     |
+| ![洞悉二\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅱ.png)洞悉二 |     |
+| ![洞悉三\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅲ.png)洞悉三 |     |
 
 ## 神秘术
 
