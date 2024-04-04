@@ -23,8 +23,10 @@ Udimo:
   - 木质调
   - 愈创木
   - 红醋栗
-初始衣着: 
-洞悉二衣着: 
+  - 板栗
+  - 琥珀
+初始衣着: 一个绵长的、自红土初生便开始的梦。
+洞悉二衣着: 它终会实现。
 aliases:
   - 和平乌鲁
   - Ulu
@@ -111,7 +113,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
+### 星火梦见之物｜Flammy's Dream
 
 ````ad-flex
 collapse: open
@@ -135,32 +137,6 @@ color:
 > ---
 > 
 ````
-
-### ｜
-
-````ad-flex
-collapse: open
-title: 
-color: 
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-````
-
 ## 文化
 
 ````tab
