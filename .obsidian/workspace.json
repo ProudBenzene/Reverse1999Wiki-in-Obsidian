@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -297,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
