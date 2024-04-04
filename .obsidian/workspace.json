@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "4c5262667b41eacb",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -315,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4c5262667b41eacb",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "README.md",
     "000-箱的构造/主页.md",
