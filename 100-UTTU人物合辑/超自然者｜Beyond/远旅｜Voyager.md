@@ -63,7 +63,7 @@ banner_header: "{{filename}}"
 ## 神秘术
 
 > [!skill]- 
-> 
+> ![群星奏鸣 二阶|](100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets/神秘术%20群星奏鸣2.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
