@@ -120,7 +120,7 @@ color:
 
 > [!note]+ 形式|The Form
 > ![](assets/6｜Six.assets/单品%206%2003.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**32**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**32**
 > 数个相互联结的六边形，结构与排列十分独特，似乎隐含着某种不言自明的秩序。“理论上这象征着完满，"受访者如是说，“不过它被海鸥叼走了太多次，连接处已经严重磨损了。”
 ````
 

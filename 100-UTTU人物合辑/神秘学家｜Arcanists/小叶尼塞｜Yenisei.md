@@ -108,12 +108,12 @@ title:
 color: 
 > [!culture]+ 杂质玻璃瓶|Opaque Glass Bottle
 > ![](assets/小叶尼塞｜Yenisei.assets/单品%20小叶尼塞%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**7**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**7**
 > 一些来自伦敦的“珍贵”礼物，玻璃工厂制造的流水线产品。她通常能一眼判断所用材质的好坏，也能从中知晓对方送出时是否出自真心。无论如何，从损耗速度上看，她的选择是物尽其用。
 
 > [!culture]+ 厚呢披风|Wool Cape
 > ![](assets/小叶尼塞｜Yenisei.assets/单品%20小叶尼塞%2002.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**13**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**13**
 > 也许每个俄罗斯孩子都有过这样一块披风，用以代替襁褓与母亲的怀抱，好去风雪中跌撞。但也总有不同，例如厚呢绒比棉布保暖许多，金线也比水染的刺绣更易存留色彩。诸如此类，不一而足。
 
 > [!culture]+ 自制马术“裙”|"Equestrian Skirt"

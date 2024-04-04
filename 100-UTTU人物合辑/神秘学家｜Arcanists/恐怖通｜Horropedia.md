@@ -107,14 +107,14 @@ title:
 color: 
 > [!culture]+ “看透真相”系列限定镜框｜Limited Glasses Frame
 > ![](assets/恐怖通｜Horropedia.assets/单品%20恐怖通%2001.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**12**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**12**
 > ---
 > 设计上并无出彩之处的黑框眼镜，有着粉丝才会留心的优点与莫名的高价位。  
 > 该产品在《X光猴人》首映期间贩售，由于少有人愿意购买，市面上仅存厂家试做的300只。
 
 > [!culture]+ 绿色领带夹｜Tie Clip
 > ![](assets/恐怖通｜Horropedia.assets/单品%20恐怖通%2002.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**300**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**300**
 > ---
 > 横插进黑白菱格世界的一条绿，循规蹈矩中恰到好处的一丁点儿狂热。  
 > 不错的搭配。

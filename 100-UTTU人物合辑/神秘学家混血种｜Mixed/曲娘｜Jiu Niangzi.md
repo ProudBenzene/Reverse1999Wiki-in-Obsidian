@@ -106,7 +106,7 @@ title:
 color: 
 > [!culture]+ 长柄酒提|Liquor Ladle
 > ![](assets/曲娘｜Jiu%20Niangzi.assets/单品%20曲娘%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.05**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.05**
 > 据说是东方人用来舀起酒液的工具，但在实际使用过程中，其效果与长壶嘴的金色茶盅类似，延长的部分存在较大的表演性质。从造型上看，也许将它用来驱赶喧闹的酒客更为合适。
 
 > [!culture]+ “珍重，珍重！”|Cherished Purse

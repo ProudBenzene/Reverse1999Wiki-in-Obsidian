@@ -110,7 +110,7 @@ title:
 color: 
 > [!culture]+ 实验体耳标|Ear Tag
 > ![](assets/洁西卡｜Changeling.assets/单品%20洁西卡%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**25**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**25**
 > 硬质耳标，记录着一长串编码，方便研究员分辨研究样本的卡片。当你拥有这张小小的，不怕水与火，且不易脱落的黄色标签时，你的名字就不那么重要了。
 
 > [!culture]+ 洁白的花朵|White Flower
@@ -120,7 +120,7 @@ color:
 
 > [!culture]+ 束缚带|Restraint Belt
 > ![](assets/洁西卡｜Changeling.assets/单品%20洁西卡%2003.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85.6**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85.6**
 > 坚韧的皮带。使用了芝诺军方制革工艺的精品产物，被广泛地利用于制服装饰、设备固定或病患拘束服上。作为点缀能够很好地隔断白色里衬，也能将“麻烦”好好固定于铁架床上。
 ````
 

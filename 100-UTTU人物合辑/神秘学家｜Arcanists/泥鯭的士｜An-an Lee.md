@@ -111,12 +111,12 @@ title:
 color: 
 > [!culture]+ 鬼魂捕手2021K|Ghost Catcher 2021k
 > ![](assets/泥鯭的士｜An-an%20Lee.assets/单品%20泥鯭的士%2001.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**17**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**17**
 > 一台前所未有的神奇机械。圆形的外扩喇叭含有特殊的年代美感，同时具有捕捉鬼魂与将其转化的神奇功能。在运作时会产生热量与轻微的轰鸣。就像后腰里趴着一只猫咪儿呢！她如此总结。
 
 > [!culture]+ 新科驱鬼事务所商标|Brand Logo
 > ![](assets/泥鯭的士｜An-an%20Lee.assets/单品%20泥鯭的士%2002.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**50**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**50**
 > 手工制作的精巧刺绣。简单直白的设计来自于受访者本人。她声称，自己所有的衣服、博客、笔记和所到之处都印有此商标，一切的一切都是为了事业考虑。
 
 > [!culture]+ 美丽的白百合|Lily

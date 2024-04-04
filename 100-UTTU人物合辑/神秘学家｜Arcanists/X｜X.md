@@ -125,7 +125,7 @@ color:
 
 > [!culture]+ 无意义的铜管｜Component
 > ![](assets/X｜X.assets/单品%20X%2003.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**1**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**1**
 > ---
 > 他称其为“恰好出现在口袋中的无意义的铜管”。但根据这一物件的古怪造型不难推测出，它正是某个巨大机械中至关重要的一部分。
 ````
@@ -138,13 +138,13 @@ title:
 color: 
 > [!culture]+ 破碎的面具｜Broken Mask
 > ![](assets/X｜X.assets/单品%20X%2004.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.01**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.01**
 > ---
 > 破损的白色面具，可能来自街角商店的万圣节装扮特卖活动。受访者笑着提出了这样的问题：是面具需要佩戴它的面孔，还是面孔需要面具赋予的意义？
 
 > [!culture]+ 铁钩｜Iron Hook
 > ![](assets/X｜X.assets/单品%20X%2005.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.03**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.03**
 > ---
 > 穿进老旧皮衣的沉重铁钩，也许可以算作纽扣的另类替代者。“你看，做我们这行的多少有些怪癖。”受访者这样解释道，“它又实用又方便，不是吗？”
 

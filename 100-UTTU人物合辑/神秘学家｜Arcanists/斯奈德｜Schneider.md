@@ -118,7 +118,7 @@ title:
 color: 
 > [!culture]+ 罪与罚|S192-9W
 > ![](assets/斯奈德｜Schneider.assets/单品%20斯奈德%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**473.11**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**473.11**
 > 以柯尔特M1911为原型设计，枪管与弹匣经由神秘学技术改良，能够装填某种特殊的子弹。这类武器在神秘学界十分紧俏，但它们的产出仍是个谜。
 
 > [!culture]+ 头饰|Maple Leaf
@@ -128,7 +128,7 @@ color:
 
 > [!culture]+ 珍珠项链|Necklace
 > ![](assets/斯奈德｜Schneider.assets/单品%20斯奈德%2003.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.21**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.21**
 > 一条价格平庸的珍珠项链，陪伴着她一同踏上芝加哥的土地。人工珍珠的光泽略显廉价却也闪亮非凡，缠绕在这条项链上的柑橘香气无时无刻不伴她左右。
 ````
 

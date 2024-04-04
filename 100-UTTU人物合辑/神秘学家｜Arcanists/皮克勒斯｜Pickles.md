@@ -110,7 +110,7 @@ title:
 color: 
 > [!culture]+ 宠物坐垫｜Pet Cushion
 > ![](assets/皮克勒斯｜Pickles.assets/单品%20皮克勒斯%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**52**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**52**
 > ---
 > 一块柔软的深蓝色坐垫，细心地缀上了所有者的名字，使其区别于其他小狗们相似的坐垫，以维护他独一无二的使用权，并免遭旁犬侵犯。
 
@@ -122,7 +122,7 @@ color:
 
 > [!culture]+ 光亮如新的眼镜｜Goggles
 > ![](assets/皮克勒斯｜Pickles.assets/单品%20皮克勒斯%2003.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**17**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**17**
 > ---
 > 在他攀上那处精致的、由灰白格子构成的登记窗口前，那位红白色的朋友为他精心擦拭了这副眼镜。这本该是一场平凡的外出，直到今天。
 ````
@@ -135,20 +135,20 @@ title:
 color: 
 > [!culture]+ “哲思的留影”｜"Catcher of Philosophy"
 > ![](assets/皮克勒斯｜Pickles.assets/单品%20皮克勒斯%2004.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15.5**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15.5**
 > ---
 > 35mm镜头神秘学相机，可装载神秘学或普通胶卷，轻巧便携，成像清晰，能够捉住运动场上最令人热血沸腾的瞬间。  
 > 抑或，它也适合留下旅途中的点滴，如同截住一滴奔流不回的河水。
 
 > [!culture]+ 翠绿披巾｜Emerald Shawl
 > ![](assets/皮克勒斯｜Pickles.assets/单品%20皮克勒斯%2005.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**15**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**15**
 > ---
 > 一条流苏披巾，质地柔软而光洁。许多小狗似乎更喜欢将同类织物用作寝具，但受访者显然认为，让它保持现状就够了。
 
 > [!culture]+ 太阳花墨镜｜Sunflower Sunglasses
 > ![](assets/皮克勒斯｜Pickles.assets/单品%20皮克勒斯%2006.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**2.2**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**2.2**
 > ---
 > 富于度假气氛的墨镜，一份来自热情小狗旅伴们的礼物。受访者对它表现出了明显的困惑：对于遮挡强光，它的能力还不够；对于滤去色彩，它能做的又太多。
 ````

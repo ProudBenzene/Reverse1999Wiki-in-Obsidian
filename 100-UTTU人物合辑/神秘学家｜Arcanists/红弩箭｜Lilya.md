@@ -110,17 +110,17 @@ title:
 color: 
 > [!culture]+ 驾驶员制服帽6式|Aviator's Cap
 > ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**994**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**994**
 > 一款苏维埃军方为飞行编队特配的头盔，使用严寒种温尔特的皮革与秘淬金属制成。因其特殊的工艺与材质而价格不菲。顶端熊耳的设计会使空气摩擦力增强，但她对此毫不在乎。
 
 > [!culture]+ 飞行军配不锈钢酒壶|Liquor Can
 > ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2002.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**17**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**17**
 > 方形的不锈钢酒壶。一同配备的背带让它变得更加方便携带。在我方评测时，里面仍然灌满了烈酒。是所有俄罗斯人都这样吗，还是只有她会这样？
 
 > [!culture]+ 认证秘钥|Key Su-01ве
 > ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2003.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
 > Su-01ве扫帚的秘钥，用以开动那些扫帚的重要道具。从设计上来看，并没有什么值得吹嘘的地方。
 ````
 
@@ -132,17 +132,17 @@ title:
 color: 
 > [!culture]+ 科克长剑|"Koch" the Sword
 > ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2004.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**2000**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**2000**
 > 兼具挥砍与突刺，是为了最理性的剑术而存在。组合直线、曲线与点，以此讨伐所有不规整。“切割，乃是解决几何题的基础手段。”剑术的开创者如是说。
 
 > [!culture]+ 芒星缀饰品|Hexagram Pendent
 > ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2005.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**24**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**24**
 > 有着星星形状的腰间饰品，与圆和三角串联，是结课剑士的证明。几何的线条代表了在战斗技艺上的无限探索，有人说，这枚饰品能号令一小众军队。
 
 > [!culture]+ 金叶桂冠|Golden Laurel Crown
 > ![](assets/红弩箭｜Lilya.assets/单品%20红弩箭%2006.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**15**
 > 由黄金和银打造的头冠，每片叶子都精雕细琢，向众人展示着她的胜利与荣耀。不过其上的棘刺与重量，也时刻提醒佩戴者，这荣光背后的付出。
 ````
 

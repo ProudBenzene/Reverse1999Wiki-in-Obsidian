@@ -110,19 +110,19 @@ title:
 color: 
 > [!culture]+ 菌类采集工具包|Fungi Collecting Kit
 > ![](assets/爱兹拉｜Ezra%20Theodore.assets/单品%20爱兹拉%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**850**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**850**
 > ---
 > 常被错认为是园艺工具包。根据受访者介绍，其中道具均为专业菌类收集道具。例如能扫下蘑菇孢子的小刷与方便扒开松针的小耙。从工具的打理与其排列逻辑之合理程度可知，受访者做事细致认真，注意整洁。
 
 > [!culture]+ 真菌生命循环机|Fungus Ecosystem Machine
 > ![](assets/爱兹拉｜Ezra%20Theodore.assets/单品%20爱兹拉%2002.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**30**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**30**
 > ---
 > 一台融合了生物、化学及物理知识所造的新型机器。具有成熟的营养液自循环系统，构造了一处几乎完全接近于自然环境的人造可携带生态圈。兔毛手袋参与制作，当前由拉普拉斯澳大利亚分部爱兹拉持有。
 
 > [!culture]+ 菌类研究笔记与寻水杖|Research Note and Dowsing Rod
 > ![](assets/爱兹拉｜Ezra%20Theodore.assets/单品%20爱兹拉%2003.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**6.3**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**6.3**
 > ---
 > 被皮带绑住的旧笔记与一支简洁的寻水杖。前者记录着对菌类的观察研究，其中夹放了过多纸条与照片，散落风险极高。后者灵感发源于一种古老的寻水巫术，经由拉普拉斯科算中心技术专员改造，获得了更加持久的可用性与更高的收益价值。
 ````
