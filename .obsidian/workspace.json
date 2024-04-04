@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "6ae322c5a1cc3f6a",
+            "id": "471e7cb6d13888b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/远旅｜Voyager.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
                 "mode": "preview",
                 "source": false
               }
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -209,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md"
+              }
             }
           },
           {
@@ -265,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -314,14 +321,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "471e7cb6d13888b7",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets/立绘 远旅 01.png",
+    "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets/立绘 远旅 02.png",
+    "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets",
+    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/远旅｜Voyager.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets/立绘 远旅 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets/立绘 远旅 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets",
-    "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-02-20.md",
     "600-箱中日历/2024/2024-01-15.md",
     "600-箱中日历/2024/2024-01-14.md",
@@ -343,7 +354,6 @@
     "000-箱的构造/templates/箱中日历.md",
     "README.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
-    "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 01.png",
@@ -351,7 +361,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 古董贝扇1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 古董贝扇3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 古董贝扇2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 活力手袋2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets",
     "600-箱中日历/2024",
     "600-箱中日历/2023",
@@ -360,7 +369,6 @@
     "测试",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets",
     "000-箱的构造/script/SwitchLightdark.js",
-    "000-箱的构造/箱中memos",
     "白板.canvas"
   ]
 }
