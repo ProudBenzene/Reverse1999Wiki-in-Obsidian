@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
+                "file": "600-箱中日历/2024/2024-01-01.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-01.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "600-箱中日历/2024/2024-01-01.md"
               }
             }
           },
@@ -209,9 +209,17 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "5916773b3a344a77",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "a0af558e737c8c63",
@@ -255,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,8 +317,11 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/templates/箱中日历.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-01-01.md",
+    "600-箱中日历/2024/2024-04-04.md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/templates/箱中日历.md",
     "README.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
@@ -335,7 +346,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 活力手袋.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 活力手袋3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/自动化创建角色档案.md",
     "600-箱中日历/2024/2024-04-03.md",
     "600-箱中日历/2024",
@@ -347,9 +357,7 @@
     "测试/2.md",
     "测试/1.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
-    "日历.md",
     "测试",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/6｜Six.md",
     "测试",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets",
     "000-箱的构造/script/SwitchLightdark.js",

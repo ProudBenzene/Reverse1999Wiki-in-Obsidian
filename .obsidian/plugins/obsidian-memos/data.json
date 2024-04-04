@@ -12,7 +12,7 @@
   "DefaultPrefix": "List",
   "DefaultTimePrefix": "HH:mm",
   "UseDailyOrPeriodic": "Daily",
-  "InsertDateFormat": "Tasks",
+  "InsertDateFormat": "Dataview",
   "DefaultEditorLocation": "Top",
   "UseButtonToShowEditor": false,
   "FocusOnEditor": true,
