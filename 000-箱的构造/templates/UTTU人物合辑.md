@@ -81,12 +81,12 @@ banner_header: "{{filename}}"
 
 
 > [!note]- 
-> ![增益](000-箱的构造/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
-> ![减益](000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
-> ![攻击](000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗](000-箱的构造/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
-> ![反制](000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
-> ![吟诵](000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
+> ![增益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
+> ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
+> ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
+> ![治疗](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
+> ![反制](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
+> ![吟诵](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造
 
@@ -159,13 +159,13 @@ color:
 
 ````tab
 tab: ｜
-![文化1|inlL|200](000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 tab: ｜
-![文化2|inlL|200](000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 tab: ｜[UTTU×<% tp.file.title.split("｜")[0] %>]
-![文化3|inlL|200](000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
 

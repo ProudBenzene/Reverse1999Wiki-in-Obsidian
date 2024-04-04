@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构造/templates/UTTU人物合辑.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -293,12 +293,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -323,10 +322,11 @@
   },
   "active": "471e7cb6d13888b7",
   "lastOpenFiles": [
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png",
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
+    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
+    "000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/Health.png",
     "000-箱的构造/自动化创建角色档案.md",
@@ -360,7 +360,6 @@
     "600-箱中日历/2024/2024-01-01.md",
     "600-箱中日历/2024/2024-04-04.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets",
     "600-箱中日历/2024",
     "600-箱中日历/2023",
