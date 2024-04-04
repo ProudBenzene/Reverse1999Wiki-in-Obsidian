@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "ad1497173c0e2651",
+            "id": "3331144ee5372224",
             "type": "leaf",
             "state": {
               "type": "thino_view",
@@ -49,6 +49,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ],
@@ -307,12 +315,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ad1497173c0e2651",
+  "active": "3331144ee5372224",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "README.md",
     "000-箱的构造/自动化创建角色档案.md",
     "000-箱的构造/箱中memos/memos.thino.md",
-    "README.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
     "000-箱的构造/箱中memos/20240402-7c30a6ed4cc507b8.md",
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
