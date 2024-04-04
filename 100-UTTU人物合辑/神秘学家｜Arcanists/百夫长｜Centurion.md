@@ -99,11 +99,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
-### 洞二衣着
+### 伟大秀场｜The Great Show
 
 ````ad-flex
 collapse: open
@@ -130,7 +126,7 @@ color:
 > 如果有人愿意回收它们，我愿意为此付账——这可真是一句熟悉的话。
 ````
 
-### ｜
+### 环球之星｜The Universal Star[^2]
 
 ````ad-flex
 collapse: open
@@ -189,8 +185,59 @@ tab: 本故事完全真实｜This Story Is Completely True
 tab: 777｜[UTTU×百夫长]
 ![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
+**百夫长：哇哦——您好您好，漂亮的小姐，您要如何和我握手呢？让我来看看……**
+白雪松：不，请不要努力了。
+白雪松：我听说你在获得如今盛名之前曾是个旅行者，前往了许多不同的地方。
+**百夫长：我不爱旅行，我只是不想留在原地罢了。**
+**百夫长：我需要看点新鲜人、新鲜事，比如永远饿着肚子的刑具制造者，打着瞌睡嘴巴里就有美酒流出来的小姑娘～**
+白雪松：这的确很新鲜。即使在我看来也是。我相信电视节目的录制中也能有不少这样的事。
+**百夫长：这可不好说。我承认一开始的确是挺有趣的，但他们现在为我准备了逃生暗门！天啊！我都开始有点怀念那个天天鼓捣着刑具家伙了——**
+白雪松：你的意思是，你将离开荧幕？
+**百夫长：不是现在，但也不遥远，我会享受最后一点乐趣。是时候结束了，我不会总留在那儿。**
+白雪松：你的观众会想念你的。
+**百夫长：哦——看看回放录像带，亲爱的们！**
+
+
 ````
 
 ## 语音
 
+|        情景        |                                                                                                                                    语音                                                                                                                                     |
+| :--------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        初遇        |                                           你好，老板～生活就是一场赌局。总是揣着手可不会发生奇迹的哦，你打算什么时候才下注呢？  <br>Hey, Jefe. Life is a gamble. Miracles won't happen if you just sit around and wait for it. When exactly are you going to make a bet?                                            |
+|       箱中气候       |                                                                                             我们来打个赌吧，我选天气会在三小时后放晴。  <br>I bet you the weather's gonna clear up in three hours.                                                                                             |
+|  致未来[信任达到10%解锁]  | 未来——未来会有更刺激的冒险吗？你想想，那些夸张的小说里不都这样写吗？神秘术总归会毁灭世界，让一切都变成废墟！  <br>The future–will the future bring more thrilling adventures? Think about it. Isn't it always like this in those exaggerated novels? Arcanum will eventually destroy the world and render everything to ruins! |
+|        孑立        |                                                                                                 老虎机、黑杰克、俄罗斯轮盘……哼哼～  <br>Slot machines, Blackjack, Russian Roulette … Hah.                                                                                                 |
+|        问候        |                                                                                                   哦，老板，随便坐，别和我客气。  <br>Oh, Jefe. Take a seat. Don't stand on ceremony.                                                                                                    |
+|        朝晨        |                                                             早上好……嗯？如果我没记错的话，昨晚我应该睡在了某个卡车货仓……  <br>Morning … Huh?If my memory didn't fail me, I must have fallen asleep at the back of some truck last night …                                                             |
+| 信任-朝晨[信任达到20%解锁] |                          来得正好，一起吃早餐吧？我准备了墨西哥辣酱卷饼……不合胃口？那就墨西哥辣酱玉米片……不是种类的问题？  <br>You're just in time. Shall we have breakfast together? I got some spicy burritos … you don't like it?What about enchiladas? … It's not about the type of food?                           |
+|        夜暮        |                                                                                                    夜晚！夜晚！开始吧，今天的豪赌！  <br>It's night! It's night! Let the gamble begin!                                                                                                    |
+| 信任-夜暮[信任达到30%解锁] |                       虽然我握着这枚金币出生，但始终搞不懂它的来历……就像陪伴我多年的好友，我却连它的名字都不知道一样～  <br>I was born holding this coin, but I have no idea where it came from … It's like a friend that's been accompanying me all these years, yet I don't even know its name.                        |
+|      帽檐与发鬓       |                                                                                        想要沾上我的好运吗？如果你觉得这样有效的话，来吧——  <br>Want some of my good luck? If you think it'll work, try me!                                                                                        |
+|       袖与手        |                                                                                                           来，握手！乖孩子～  <br>Here, let's shake hands! Buena chica!                                                                                                            |
+|      衣着与身形       |     想要身体健康的话，最好留神吃进去的东西！闹肚子可不好受。我曾经有一个合作伙伴，什么泥土啊、螺丝啊、都能吃得下去！吓人吧？  <br>If you want to be healthy, take care of what you eat. It doesn't feel good when you get an upset stomach. I once had a companion who would eat soil, screws and whatnot! Frightening, isn't it?     |
+|  嗜好[信任达到40%解锁]   |                           哦～这不是老板嘛～想一起去冒险吗？最近被评为危险的场所有超过261.6个，无论是凶案现场还是悬崖峭壁我们都有得选。  <br>Ooh, it's you, Jefe? Wanna go on an adventure? There are over 261.6 places that have been rated as dangerous. Murder scenes or cliffs, it's your call.                           |
+|  赞赏[信任达到50%解锁]   |                                          你绝对能大赢一把的，相信我，我不会说错的。拉斯维加斯每一架老虎机都是我的婴儿保姆，我懂它们！  <br>You'll definitely win a lot. Trust me, I'm never wrong. Every single slot machine in Las Vegas is like my babysitter. I know them!                                           |
+|  亲昵[信任达到60%解锁]   |                                                     准备好跟我一起大干一场了吗？所有人都会惊掉下巴，收视率将像雄鹰那样高飞～  <br>Are you ready to do this with me? Everyone's jaws are going to drop and the ratings are going to soar like the eagles!                                                      |
+|       闲谈Ⅰ        |                                                                                          硬币抛向哪儿，我就去到哪儿……一向如此。  <br>Wherever the coin goes, I go too … It's always been this way.                                                                                          |
+|       闲谈Ⅱ        |                                                我总是因为太过好运而招人嫉妒，不过你也知道的，我运气这么好，没人能对我怎么样～  <br>I'm often the object of people's jealousy because I'm too lucky, but as you know, with my luck, nobody can do anything to me.                                                 |
+|  独白[信任达到70%解锁]   |                   稳定？安全？如果要那样过日子，还不如现在就给我一颗毒苹果，让我好好地睡上一觉！——等有了好玩的事儿，记得吻醒我～  <br>Stability? Safety? For a life like that, you might as well just give me a poison apple and let me sleep! Remember to kiss me awake when there's something fun going on!                   |
+|        入队        |                                                                                                                   摄像机就位了么？  <br>Is the camera in place?                                                                                                                   |
+|        战前        |                                                                                           嗨，给我换点筹码。只要一枚，面额最低。  <br>Hey, give me a chip. Just one with the lowest denomination.                                                                                            |
+|      择选咒语Ⅰ       |                                                                                                                           听你的。  <br>Tú decides.                                                                                                                           |
+|      择选咒语Ⅱ       |                                                                                                                        嗯～我知道啦～  <br>Yeah, I know.                                                                                                                         |
+|      择选高阶咒语      |                                                                                                                           做得好～  <br>Bien hecho!                                                                                                                           |
+|     择选至终的仪式      |                                                                                                         现在～由我来挑选两位幸运嘉宾！  <br>Now, let me choose two lucky guests!                                                                                                         |
+|      释放神秘术Ⅰ      |                                                                                                            铛铛～特殊按摩时间！  <br>Ta-da! Time for a special massage!                                                                                                             |
+|      释放神秘术Ⅰ      |                                                                                              嘿、嘿、嘿！朋友，别这么拘谨，来跳舞吧——  <br>Hey, hey, hey! Don't be shy, mi amigo. Let's dance!                                                                                               |
+|      释放神秘术Ⅱ      |                                                                                                     哇……需要我帮你们叫救护车吗？  <br>Whoa … need me to get you guys an ambulance?                                                                                                     |
+|      释放神秘术Ⅱ      |                                                                                                 什么？你还不认识我吗？现在呢？  <br>What? You still don't recognize me? What about now?                                                                                                  |
+|     召唤至终的仪式      |                                                                       女士们，先生们，这不是魔术，也不是特殊机关。祝我们——好运！  <br>Ladies and gentlemen, this is no magic nor any special kind of mechanism. Wish us … luck!                                                                       |
+|       受敌Ⅰ        |                                                                                                                             ——嗯？！  <br>Huh?!                                                                                                                              |
+|       受敌Ⅱ        |                                                                                                                     ……再试一次？  <br>Intentarlo de nuevo?                                                                                                                     |
+|       战斗胜利       |                                                                                                                  哇哦——777！  <br>Whoa, seven, siete, sept!                                                                                                                  |
+|    洞悉[洞悉后解锁]     |                                                嘿，所有人都在猜呢，捧着我的“大老板”到底是谁，到底是谁让我在电视屏幕上为非作歹。——你要去露个面吗？  <br>Heh, everyone's guessing who is this "Jefe" always supporting me,letting me stir up trouble on TV…. Wanna show up?                                                |
+|  洞悉之底[获得对应皮肤解锁]  |                                                                                                氧气不足，就像是要飞起来了一样……！  <br>Not enough oxygen. I feel like … I'm about to fly!                                                                                                 |
+
 [^1]: ==状态异常== 攻击时，创伤加成-25%（生效后减少1层）
+[^2]: 人潮前仆后继而来，只为一触这绝佳好运的衣袂。
