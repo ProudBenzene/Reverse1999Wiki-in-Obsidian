@@ -85,6 +85,7 @@ banner_header: "{{filename}}"
 > ![减益](assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
 > ![攻击](assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
 > ![治疗](assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
+> ![反制](000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
 > ![吟诵](assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造
