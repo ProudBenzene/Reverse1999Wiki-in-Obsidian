@@ -52,7 +52,7 @@
               {
                 "field": "星级",
                 "operator": "is",
-                "enabled": true,
+                "enabled": false,
                 "value": "✦✦✦✦✦✦"
               }
             ]
