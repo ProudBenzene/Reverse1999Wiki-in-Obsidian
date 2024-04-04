@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,43 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "floating": {
-    "id": "743fb5db9c5848ae",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c3b5ad9bc8876f01",
-        "type": "window",
-        "children": [
-          {
-            "id": "3ed6bf3894a96370",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ebc4358051a0d9f7",
-                "type": "leaf",
-                "state": {
-                  "type": "thino_view",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 440,
-        "y": 62,
-        "width": 632,
-        "height": 746,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "ebc4358051a0d9f7",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "README.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240404-6b7059561cb7e93f.md",
     "000-箱的构造/自动化创建角色档案.md",
