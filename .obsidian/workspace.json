@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6ae322c5a1cc3f6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/远旅｜Voyager.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +209,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +265,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +281,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +296,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
-      "templify:Templify 市场": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
@@ -307,10 +314,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-02-20.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/远旅｜Voyager.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets/立绘 远旅 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets/立绘 远旅 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-02-20.md",
     "600-箱中日历/2024/2024-01-15.md",
     "600-箱中日历/2024/2024-01-14.md",
     "槲寄生.md",
@@ -328,13 +340,10 @@
     "600-箱中日历/2024/2024-01-02.md",
     "600-箱中日历/2024/2024-01-01.md",
     "600-箱中日历/2024/2024-04-04.md",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/templates/箱中日历.md",
     "README.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "100-UTTU人物合辑/超自然者｜Beyond/洁西卡｜Changeling.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
-    "000-箱的构造/金句展示.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/单品 温妮弗雷德 01.png",
@@ -343,8 +352,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 古董贝扇3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 古董贝扇2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 活力手袋2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 活力手袋.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets/神秘术 活力手袋3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets",
     "600-箱中日历/2024",
     "600-箱中日历/2023",
@@ -354,7 +361,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/新巴别塔｜Ms. NewBabel.assets",
     "000-箱的构造/script/SwitchLightdark.js",
     "000-箱的构造/箱中memos",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/皮克勒斯｜Pickles.assets",
     "白板.canvas"
   ]
 }
