@@ -40,11 +40,11 @@
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
   "MemoListView": "chat",
-  "MemoSaveLocation": "MULTI",
+  "MemoSaveLocation": "FILE",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "basic.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
-    "MemoDefaultSingleFilePath": "basic.thino.md"
+    "MemoDefaultSingleFilePath": "000-箱的构造/箱中memos/memos.thino.md"
   },
   "MemoDailyTarget": 5,
   "HeatmapColorScheme": "grass",
