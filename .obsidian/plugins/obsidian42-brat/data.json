@@ -1,8 +1,6 @@
 {
   "pluginList": [
     "yan42685/obsidian-clever-search",
-    "pashashocky/obsidian-note-gallery",
-    "Quorafind/Obsidian-Templify",
     "obsidian-canzi/Enhanced-editing",
     "Yaozhuwa/AttachFlow",
     "noatpad/obsidian-banners"
@@ -21,5 +19,6 @@
   "loggingPath": "BRAT-log",
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
-  "notificationsEnabled": true
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
 }
