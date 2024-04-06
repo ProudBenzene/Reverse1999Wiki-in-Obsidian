@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "dc36306e1bb54594",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -208,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -218,36 +208,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "3e459e69b5c10acc",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "1ef30c938f34a4ff",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "eeb95c08d9255b9c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
             }
           }
         ],
@@ -295,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -347,8 +306,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "dc36306e1bb54594",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "README.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/单品 和平乌鲁 03.png",
@@ -363,7 +323,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/一阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu~.md",
     "000-箱的构造/常用工具.md",
-    "README.md",
     "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets",
