@@ -18,7 +18,6 @@
   "obsidian-hover-editor",
   "obsidian-icon-folder",
   "obsidian-linter",
-  "longform",
   "mysnippets-plugin",
   "obsidian-plugin-update-tracker",
   "obsidian-projects",
@@ -35,5 +34,6 @@
   "obsidian-memos",
   "clever-search",
   "calendar",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "longform"
 ]
