@@ -59,7 +59,7 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
+> [!skill]- 混合双打！
 > 
 > 
 > | 等级 |                             类型                             |                             技能                             |                    文化                    |
@@ -69,7 +69,7 @@ banner_header: "{{filename}}"
 > | ✦✦✦  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 单体攻击，造成**450%**现实创伤，若自身处于**[状态增益]** **[反制]**，则本次攻击暴击率、暴击创伤提升**25%** | 一款不善拳脚的“格斗街机”，好在自备出场乐。 |
 > 
 
-> [!skill]- 
+> [!skill]- 唯一家人！
 > 
 > 
 > | 等级 |                             类型                             |                        技能                        |                    文化                    |
@@ -79,7 +79,7 @@ banner_header: "{{filename}}"
 > | ✦✦✦  | ![反制](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b> | 自我反制，赋予自身3层**[波拉比]**和2层**[爆发力]** | 一类电子宠物，除噪音、趾骨外，或并他害。无 |
 > 
 
-> [!skill]- 
+> [!skill]- 哔哔啵啵，波拉比！
 > 
 > 
 > |                             技能                             |                  文化                  |
