@@ -32,6 +32,14 @@
             }
           },
           {
+            "id": "3b85e2e31731cfb3",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -64,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -321,7 +329,7 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "02dfef22f5b0d608",
+  "active": "3b85e2e31731cfb3",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/尤提姆 沙丝绒.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
