@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "02dfef22f5b0d608",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -52,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -197,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md"
+              }
             }
           },
           {
@@ -253,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -302,11 +321,16 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "95f89cae69831722",
+  "active": "02dfef22f5b0d608",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
     "000-箱的构造/自动化创建角色档案.md",
-    "400-箱外世界/暴雨时间线.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/立绘 沙丝绒 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/立绘 沙丝绒 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "400-箱外世界/暴雨时间线.md",
     "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/单品 和平乌鲁 03.png",
@@ -317,10 +341,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/神秘术 跃动的心2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/神秘术 开幕仪式2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/神秘术 开幕仪式3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/神秘术 开幕仪式1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets/一阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu~.md",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets",
     "000-箱的构造/templates/UTTU人物合辑.md",
@@ -341,14 +362,12 @@
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/皮克勒斯｜Pickles.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets",
     "600-箱中日历/2024",
     "600-箱中日历/2023",
     "600-箱中日历",
-    "测试",
     "白板.canvas"
   ]
 }
