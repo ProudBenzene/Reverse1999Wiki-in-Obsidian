@@ -3,7 +3,7 @@
   "projects": {},
   "selectedDraftVaultPath": null,
   "userScriptFolder": null,
-  "sessionStorage": "file",
+  "sessionStorage": "data",
   "sessions": [],
   "showWordCountInStatusBar": true,
   "startNewSessionEachDay": true,
