@@ -1,5 +1,6 @@
+ /*author:PKMer群友-"上善若水" */
  /* @settings
-name: Table美化
+name: 表格美化
 id: Mo-Table
 settings:
   -
@@ -15,6 +16,12 @@ settings:
       -
         label: 圆角模式
         value: tbMH-yuan
+      -
+        label: 直角模式（三线表）
+        value: tbMH-zhi-SXB
+      -
+        label: 圆角模式（去边框）
+        value: tbMH-yuan-QBK
   -
     id: tbMH-qkms
     title: 表格全宽选择
@@ -54,6 +61,9 @@ settings:
       -
         label: 全透明底色模式
         value: tbMH-ds-tm
+      -
+        label: 全底色模式
+        value: tbMH-qds
   -
     id: tbMH-kd
     title: 表格宽度是否超出显示界面选择
@@ -76,136 +86,199 @@ settings:
     title: 表格自定义宽度
     description: 可通过拖拽自定义表格默认宽度。（仅自定义模式生效）
     type: variable-number-slider
-    default: 100
-    min: 50
-    max: 800
+    default: 300
+    min: 100
+    max: 1000
     format: px
   -
-    id: tbMH-tt
-    title: 表格行列标题头颜色调整
+    id: tbMH-BTT-DS
+    title: 表格行列标题头颜色
     type: variable-themed-color
-    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
-    id: tbMH-th
-    title: 表格列标题颜色调整
+    id: tbMH-BTL-DS
+    title: 表格列标题颜色
     type: variable-themed-color
-    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
-    id: tbMH-th-l
-    title: 表格行标题颜色调整
+    id: tbMH-BTH-DS
+    title: 表格行标题颜色
     type: variable-themed-color
-    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
-    id: tbMH-td
-    title: 表格间隔层颜色调整
+    id: tbMH-JGC-1-DS
+    title: 表格间隔1层颜色
     type: variable-themed-color
-    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
-    id: tbMH-th-djDS
-    title: 框选多单元格时行列底色调整
+    id: tbMH-JGC-2-DS
+    title: 表格间隔2层颜色
     type: variable-themed-color
-    opacity: true
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tbMH-CMXS-DS
+    title: 表格触摸显示底色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tbMH-KXDDYG-DS
+    title: 框选多单元格时行列底色
+    type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: tbMH-kj-color
-    title: 表格框架颜色调整
+    title: 表格框架颜色
     type: variable-themed-color
-    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
-    id: table-thickness
-    title: 表格框架粗度调整
+    id: table-BK-CX
+    title: 表格框架粗细
     type: variable-number
     default: 2
     format: px
   -
     id: tbMH-yuan-jd
-    title: 表格框架圆角角度调整
+    title: 表格框架圆角角度
     type: variable-number
     default: 6
     format: px
   -
+    id: tbMH-zhi-tmd-BT-LH
+    title: 表格标题行层底色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tbMH-zhi-tmd-JGC-1
+    title: 表格间隔1层底色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tbMH-zhi-tmd-JGC-2
+    title: 表格间隔2层底色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tbMH-MCXS-DS-tmd
+    title: 表格触摸显示底色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tbMH-KXDDYG-DS-tmd
+    title: 框选多单元格时行列底色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tbMH-MCXS-MS
+    title: 触摸动画模式
+    type: class-toggle
+    default: false
+  -
 */
+body {
+  --表格边框粗细:var(--table-BK-CX,2px);
+  --表格边框圆角角度:var(--tbMH-yuan-jd,6px);
+  --表格边框颜色-浅色模式:rgba(var(--tbMH-kj-color, 81, 81, 81,1));
+  --表格边框颜色-深色模式:rgba(var(--tbMH-kj-color, 108, 88, 88,1));
 
-/*表格边框颜色*/
+  --表格标题头底色-浅色模式:rgba(var(--tbMH-BTT-DS, 145, 163, 143));
+  --表格标题头底色-深色模式:rgba(var(--tbMH-BTT-DS, 32, 23, 23));
+  --表格标题列层底色-浅色模式:rgba(var(--tbMH-BTL-DS, 145, 163, 143),var(--tbMH-zhi-tmd-BT-LH,0.9));
+  --表格标题列层底色-深色模式:rgba(var(--tbMH-BTL-DS, 32, 23, 23),var(--tbMH-zhi-tmd-BT-LH,0.9));
+  --表格标题行层底色-浅色模式:rgba(var(--tbMH-BTH-DS, 145, 163, 143),var(--tbMH-zhi-tmd-BT-LH,0.9));
+  --表格标题行层底色-深色模式:rgba(var(--tbMH-BTH-DS, 32, 23, 23),var(--tbMH-zhi-tmd-BT-LH,0.9));
+  --表格间隔1层底色-浅色模式:rgba(var(--tbMH-JGC-1-DS, 145, 163, 143),var(--tbMH-zhi-tmd-JGC-1,0.4));
+  --表格间隔1层底色-深色模式:rgba(var(--tbMH-JGC-1-DS, 32, 23, 23),var(--tbMH-zhi-tmd-JGC-1,0.4));
+  --表格间隔2层底色-浅色模式:rgba(var(--tbMH-JGC-2-DS, 145, 163, 143),var(--tbMH-zhi-tmd-JGC-2,0.4));
+  --表格间隔2层底色-深色模式:rgba(var(--tbMH-JGC-2-DS, 32, 23, 23),var(--tbMH-zhi-tmd-JGC-2,0.4));
+
+  --表格触摸显示颜色-浅色模式:rgba(var(--tbMH-CMXS-DS,204, 178, 31),var(--tbMH-MCXS-DS-tmd,0.4));
+  --表格触摸显示颜色-深色模式:rgba(var(--tbMH-CMXS-DS,149, 31, 204),var(--tbMH-MCXS-DS-tmd,0.203));
+  --框选多单元格底色-浅色模式:rgba(var(--tbMH-KXDDYG-DS,204, 178, 31),var(--tbMH-KXDDYG-DS-tmd,0.279));
+  --框选多单元格底色-深色模式:rgba(var(--tbMH-KXDDYG-DS,149, 31, 204),var(--tbMH-KXDDYG-DS-tmd,0.203));
+
+  --表格自定义宽度:var(--tbMH-zdykd-jz,300);
+}
 body.theme-light {
-  --table-border-color: rgb(var(--tbMH-kj-color, 81, 81, 81));
-  --table-add-button-border-color:rgb(var(--tbMH-kj-color, 81, 81, 81));
+  --table-border-color: var(--表格边框颜色-浅色模式);
+  --table-add-button-border-color:var(--表格边框颜色-浅色模式);
 }
-
 body.theme-dark {
-  --table-border-color: rgb(var(--tbMH-kj-color, 108, 88, 88));
-  --table-add-button-border-color:rgb(var(--tbMH-kj-color, 108, 88, 88));
+  --table-border-color: var(--表格边框颜色-深色模式);
+  --table-add-button-border-color:var(--表格边框颜色-深色模式);
 }
-
-/*表格边框粗细*/
 .theme-dark, .theme-light {
-  --table-border-width: var(--table-thickness, 2px);
+  --table-border-width: var(--表格边框粗细);
 }
-
-/*表格按钮动画*/
 .markdown-source-view.mod-cm6 .cm-table-widget .table-row-btn, .markdown-source-view.mod-cm6 .cm-table-widget .table-col-btn {
   transition-duration:400ms
 }
-
-/*表格底色*/
 body.theme-light.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-    background-color: rgb(var(--tbMH-th, 145, 163, 143))
+  background-color: var(--表格标题列层底色-浅色模式)
 }
 body.theme-light.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
-    background-color:rgb(var(--tbMH-td, 145, 163, 143))
+  background-color:var(--表格间隔2层底色-浅色模式)
+}
+body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
+  background-color:var(--表格间隔1层底色-浅色模式)
 }
 
 body.theme-dark.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-    background-color:rgb(var(--tbMH-th, 32, 23, 23))
+  background-color:var(--表格标题列层底色-深色模式)
 }
 body.theme-dark.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
-    background-color:rgb(var(--tbMH-td, 32, 23, 23))
+  background-color:var(--表格间隔2层底色-深色模式)
 }
-
-/*全宽表格*/
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
+  background-color:var(--表格间隔1层底色-深色模式)
+}
 body.tbMH-qk :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
   --table-white-space: break-all;
   width: 100%;
 }
-
-/*自定义居中模式*/
 body.tbMH-zdykd-jz :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
   --table-white-space: break-all;
-  width: var(--tbMH-zdykd-jz);
-  margin-left: calc(50% - var(--tbMH-zdykd-jz) / 2);
-  margin-right: calc(50% - var(--tbMH-zdykd-jz) / 2);
+  width: var(--表格自定义宽度);
+  margin-left: calc(50% - var(--表格自定义宽度) / 2);
+  margin-right: calc(50% - var(--表格自定义宽度) / 2);
 }
-
-
-
-/*圆角样式*/
 body.tbMH-yuan {
-  --table-radius: var(--tbMH-yuan-jd,6px);
+  --table-radius: var(--表格边框圆角角度);
 }
-
-
 body.tbMH-yuan .markdown-rendered table {
   border-collapse: initial;
   border-spacing: 0;
 }
-
 body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) th:first-child:not(:has(:is(.table-row-drag-handle, .table-col-drag-handle):hover)) {
   border-top-left-radius: var(--table-radius);
 }
@@ -227,7 +300,6 @@ body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper
 body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(:is(.table-col-btn, .table-row-btn):hover) tr:last-child td:last-child {
   border-bottom-right-radius: 0;
 }
-
 body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-col-btn {
   border-top-right-radius: var(--table-radius);
   border-bottom-right-radius: var(--table-radius);
@@ -236,67 +308,57 @@ body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper
   border-bottom-left-radius: var(--table-radius);
   border-bottom-right-radius: var(--table-radius);
 }
-
 body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :is(th, td):not(:first-child) {
   border-left: 0;
 }
 body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) tbody td {
   border-top: 0;
 }
-
-/*点击连框颜色*/
 body.theme-light .markdown-source-view.mod-cm6 .cm-table-widget th.is-selected::after,body.theme-light .markdown-source-view.mod-cm6 .cm-table-widget td.is-selected::after {
-  background-color:rgba(var(--tbMH-th-djDS,204, 178, 31, 0.279))
+  background-color:var(--框选多单元格底色-浅色模式)
 }
-
 body.theme-dark .markdown-source-view.mod-cm6 .cm-table-widget th.is-selected::after,body.theme-dark .markdown-source-view.mod-cm6 .cm-table-widget td.is-selected::after {
-  background-color:rgba(var(--tbMH-th-djDS,149, 31, 204, 0.203))
+  background-color:var(--框选多单元格底色-深色模式)
 }
-
-/*不超过模式（非均匀模式）*/
 body.tbMH-kd-ncc :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
   word-break: break-all;
 }
-/*不超过模式（均匀模式）*/
 body.tbMH-kd-ncc-jy :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
   word-break: break-all;
   table-layout: fixed; 
 }
-
-/*标题底色模式*/
 body.theme-light.tbMH-ds-bt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-  background-color: rgb(var(--tbMH-th, 145, 163, 143))
+  background-color: var(--表格标题列层底色-浅色模式)
 }
 body.theme-dark.tbMH-ds-bt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-  background-color:rgb(var(--tbMH-th, 32, 23, 23))
+  background-color:var(--表格标题列层底色-深色模式)
 }
 body.tbMH-ds-bt tr:nth-child(2n) td {
   background-color:transparent;
 }
-
-/*透明底色模式*/
 body.tbMH-ds-tm :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color:transparent;
 }
 body.tbMH-ds-tm tr:nth-child(2n) td {
   background-color:transparent;
 }
-
-/*行列标题底色模式*/
+body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
+  background-color:var(--表格标题头底色-浅色模式)
+}
 body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
-  background-color:rgb(var(--tbMH-tt, 32, 23, 23))
+  background-color:var(--表格标题头底色-深色模式)
 }
 body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-  background-color: rgb(var(--tbMH-th, 145, 163, 143))
+  background-color: var(--表格标题列层底色-浅色模式)
 }
 body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-  background-color:rgb(var(--tbMH-th, 32, 23, 23))
+  background-color:var(--表格标题列层底色-深色模式)
 }
 body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
-  background-color:rgb(var(--tbMH-th-l, 145, 163, 143))
+  background-color:var(--表格标题行层底色-浅色模式)
 }
 body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
-  background-color:rgb(var(--tbMH-th-l, 32, 23, 23))
+  background-color:var(--表格标题行层底色-深色模式)
 }
 body.tbMH-ds-hlbt .markdown-rendered td:first-child {
   font-size: var(--table-header-size);
@@ -305,36 +367,31 @@ body.tbMH-ds-hlbt .markdown-rendered td:first-child {
   font-family: var(--table-header-font);
   line-height: var(--line-height-tight);
 }
-
-/*行列标题&间隔层底色模式*/
 body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
-  background-color:rgb(var(--tbMH-tt, 145, 163, 143))
+  background-color:var(--表格标题头底色-浅色模式)
 }
 body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
-  background-color:rgb(var(--tbMH-tt, 32, 23, 23))
+  background-color:var(--表格标题头底色-深色模式)
 }
-
 body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-  background-color: rgb(var(--tbMH-th, 145, 163, 143))
+  background-color: var(--表格标题列层底色-浅色模式)
 }
 body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
-  background-color:rgb(var(--tbMH-th, 32, 23, 23))
+  background-color:var(--表格标题列层底色-深色模式)
 }
-
 body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
-  background-color:rgb(var(--tbMH-th-l, 145, 163, 143))
+  background-color:var(--表格标题行层底色-浅色模式)
 }
 body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
-  background-color:rgb(var(--tbMH-th-l, 32, 23, 23))
+  background-color:var(--表格标题行层底色-深色模式)
 }
 
 body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td:not(:first-child) {
-  background-color:rgb(var(--tbMH-td, 145, 163, 143))
+  background-color:var(--表格间隔2层底色-浅色模式,)
 }
 body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td:not(:first-child) {
-  background-color:rgb(var(--tbMH-td, 32, 23, 23))
+  background-color:var(--表格间隔2层底色-深色模式)
 }
-
 body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   font-size: var(--table-header-size);
   font-weight: var(--table-header-weight);
@@ -342,44 +399,44 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   font-family: var(--table-header-font);
   line-height: var(--line-height-tight);
 }
-
-/*表格触摸底色模式*/
-/*
-:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) tr:hover,
-:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) tr:hover {
-  background-color: rgba(14, 171, 238, 0.142);
-  transform: scale(1.00);
-  transition: transform 0.1s cubic-bezier(0.11, 0.33, 0.23, 0.33);
+body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
+  background-color: var(--表格标题列层底色-浅色模式)
+}
+body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
+  background-color:var(--表格间隔2层底色-浅色模式)
+}
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
+  background-color:var(--表格间隔1层底色-浅色模式)
 }
 
-:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) thead th:hover,
-:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6 .cm-table-widget) tbody td:hover {
-  background: rgba(14, 171, 238, 0.256);
-  transform: scale(1.00);
-  transition: transform 0.1s cubic-bezier(0.22, 0.66, 0.46, 0.66);
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
+  background-color:var(--表格标题列层底色-深色模式)
 }
-*/
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
+  background-color:var(--表格间隔2层底色-深色模式)
+}
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
+  background-color:var(--表格间隔1层底色-深色模式)
+}
 
 /*class的页面选择器*/
-
-  /*常规底色模式 .常规底色模式*/
   body.theme-light .常规底色模式 th:first-child {
-    background-color:rgb(var(--tbMH-th, 145, 163, 143))!important
+    background-color:var(--表格标题列层底色-浅色模式)!important
   }
   body.theme-dark .常规底色模式 th:first-child {
-    background-color:rgb(var(--tbMH-th, 32, 23, 23))!important
+    background-color:var(--表格标题列层底色-深色模式)!important
   }
   body.theme-light.常规底色模式 th {
-    background-color: rgb(var(--tbMH-th, 145, 163, 143))!important
+    background-color: var(--表格标题列层底色-深色模式)!important
   }
   body.theme-light.常规底色模式 tr:nth-child(2n) td {
-    background-color:rgb(var(--tbMH-td, 145, 163, 143))!important
+    background-color:var(--表格间隔2层底色-浅色模式)!important
   }
   body.theme-dark .常规底色模式 th {
-    background-color:rgb(var(--tbMH-th, 32, 23, 23))!important
+    background-color:var(--表格标题列层底色-深色模式)!important
   }
   body.theme-dark .常规底色模式 tr:nth-child(2n) td {
-    background-color:rgb(var(--tbMH-td, 32, 23, 23))!important
+    background-color:var(--表格间隔2层底色-深色模式)!important
   }
   .常规底色模式 tr:nth-child(2n-1) td {
     background-color:transparent !important;
@@ -387,19 +444,17 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   .常规底色模式 td:first-child {
     font-weight: var(--anp-font-preview-wt, normal)!important;
   }
-
-  /*标题底色模式 .标题底色模式*/
   body.theme-light .标题底色模式 th:first-child {
-    background-color:rgb(var(--tbMH-th, 145, 163, 143))!important
+    background-color:var(--表格标题列层底色-浅色模式)!important
   }
   body.theme-dark .标题底色模式 th:first-child {
-    background-color:rgb(var(--tbMH-th, 32, 23, 23))!important
+    background-color:var(--表格标题列层底色-深色模式)!important
   }
   body.theme-light .标题底色模式 th {
-    background-color: rgb(var(--tbMH-th, 145, 163, 143))!important
+    background-color: var(--表格标题列层底色-深色模式)!important
   }
   body.theme-dark .标题底色模式 th {
-    background-color:rgb(var(--tbMH-th, 32, 23, 23))!important
+    background-color:var(--表格标题列层底色-深色模式)!important
   }
   .标题底色模式 tr:nth-child(2n-1) td {
     background-color:transparent !important;
@@ -410,25 +465,23 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   .标题底色模式 td:first-child {
     font-weight: var(--anp-font-preview-wt, normal)!important;
   }
-
-  /*行列标题底色模式 .行列标题底色模式*/
   body.theme-light .行列标题底色模式 th:first-child {
-    background-color:rgb(var(--tbMH-tt, 145, 163, 143))!important
+    background-color:var(--表格标题头底色-浅色模式)!important
   }
   body.theme-dark .行列标题底色模式 th:first-child {
-    background-color:rgb(var(--tbMH-tt, 32, 23, 23))!important
+    background-color:var(--表格标题头底色-深色模式)!important
   }
   body.theme-light .行列标题底色模式 th {
-    background-color: rgb(var(--tbMH-th, 145, 163, 143))!important
+    background-color: var(--表格标题列层底色-浅色模式)!important
   }
   body.theme-dark .行列标题底色模式 th {
-    background-color:rgb(var(--tbMH-th, 32, 23, 23))!important
+    background-color:var(--表格标题列层底色-深色模式)!important
   }
   body.theme-light .行列标题底色模式 td:first-child {
-    background-color:rgb(var(--tbMH-th-l, 145, 163, 143))!important
+    background-color:var(--表格标题行层底色-浅色模式)!important
   }
   body.theme-dark .行列标题底色模式 td:first-child {
-    background-color:rgb(var(--tbMH-th-l, 32, 23, 23))!important
+    background-color:var(--表格标题行层底色-深色模式)!important
   }
   .行列标题底色模式 td:first-child {
     font-size: var(--table-header-size)!important;
@@ -443,32 +496,30 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   body.theme-dark .行列标题底色模式 tr:nth-child(2n) td:not(:first-child) {
     background-color:transparent !important
   }
-
-
-  /*行列标题间隔层模式 .行列标题间隔层模式*/
+  body.theme-light .行列标题间隔层模式 th:first-child {
+    background-color:var(--表格标题头底色-浅色模式)!important
+  }
   body.theme-dark .行列标题间隔层模式 th:first-child {
-    background-color:rgb(var(--tbMH-tt, 32, 23, 23))!important
+    background-color:var(--表格标题头底色-深色模式)!important
   }
   
   body.theme-light .行列标题间隔层模式 th {
-    background-color: rgb(var(--tbMH-th, 145, 163, 143))!important
+    background-color: var(--表格标题列层底色-浅色模式)!important
   }
   body.theme-dark .行列标题间隔层模式 th {
-    background-color:rgb(var(--tbMH-th, 32, 23, 23))!important
+    background-color:var(--表格标题列层底色-深色模式)!important
   }
-  
   body.theme-light .行列标题间隔层模式 td:first-child {
-    background-color:rgb(var(--tbMH-th-l, 145, 163, 143))!important
+    background-color:var(--表格标题行层底色-浅色模式)!important
   }
   body.theme-dark .行列标题间隔层模式 td:first-child {
-    background-color:rgb(var(--tbMH-th-l, 32, 23, 23))!important
+    background-color:var(--表格标题行层底色-深色模式)!important
   }
-  
   body.theme-light .行列标题间隔层模式 tr:nth-child(2n) td:not(:first-child) {
-    background-color:rgb(var(--tbMH-td, 145, 163, 143))!important
+    background-color:var(--表格间隔2层底色-浅色模式)!important
   }
   body.theme-dark .行列标题间隔层模式 tr:nth-child(2n) td:not(:first-child) {
-    background-color:rgb(var(--tbMH-td, 32, 23, 23))!important
+    background-color:var(--表格间隔2层底色-深色模式)!important
   }
   .行列标题间隔层模式 td:first-child {
     font-size: var(--table-header-size)!important;
@@ -477,8 +528,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     font-family: var(--table-header-font)!important;
     line-height: var(--line-height-tight)!important;
   }
-
-  /*全透明底色模式 .全透明底色模式*/
   .全透明底色模式 th {
     background-color:transparent !important;
   }
@@ -491,17 +540,12 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   .全透明底色模式 td:first-child {
     font-weight: var(--anp-font-preview-wt, normal)!important;
   }
-
-  /*非均匀模式下均匀模式 .均匀模式*/
   body.tbMH-kd-ncc .均匀模式 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
     table-layout: fixed!important; 
   }
-  /*均匀模式下非均匀模式 .非均匀模式*/
   body.tbMH-kd-ncc-jy .非均匀模式 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
     table-layout: auto!important; 
   }
-
-  /*自定义表格宽度-第一档位*/
   .表格宽度-第一档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
   table-layout: fixed!important; 
   width:200px !important;
@@ -511,7 +555,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   .表格宽度-第一档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
     word-break: break-all!important;
   }
-  /*自定义表格宽度-第二档位*/
   .表格宽度-第二档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 300px !important;
@@ -521,7 +564,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第二档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-  /*自定义表格宽度-第三档位*/
   .表格宽度-第三档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 400px !important;
@@ -531,7 +573,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第三档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-  /*自定义表格宽度-第四档位*/
   .表格宽度-第四档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 500px !important;
@@ -541,7 +582,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第四档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-  /*自定义表格宽度-第五档位*/
   .表格宽度-第五档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 600px !important;
@@ -551,7 +591,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第五档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-  /*自定义表格宽度-第六档位*/
   .表格宽度-第六档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 700px !important;
@@ -561,7 +600,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第六档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-  /*自定义表格宽度-第七档位*/
   .表格宽度-第七档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 800px !important;
@@ -571,7 +609,6 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第七档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-  /*自定义表格宽度-第八档位*/
   .表格宽度-第八档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
     table-layout: fixed!important; 
     width: 900px !important;
@@ -581,10 +618,75 @@ body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
     .表格宽度-第八档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
       word-break: break-all!important;
     }
-
--
-
-.table-view-table > thead > tr > th {
-  font-size: larger;
-  color: rgb(198 208 245);
+  .表格宽度-第九档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
+    table-layout: fixed!important; 
+    width: 1000px !important;
+    margin-left: calc(50% - 1000px / 2)!important;
+    margin-right: calc(50% - 1000px / 2)!important;
+    }
+  .表格宽度-第九档位  :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
+    word-break: break-all!important;
+  }
+  .表格宽度-第十档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
+    table-layout: fixed!important; 
+    width: 1100px !important;
+    margin-left: calc(50% - 1100px / 2)!important;
+    margin-right: calc(50% - 1100px / 2)!important;
+    }
+  .表格宽度-第十档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table):not(.dataview) {
+    word-break: break-all!important;
+  }
+body.tbMH-yuan-QBK {
+  --表格边框粗细:0px;
+}
+body.tbMH-yuan-QBK table {
+  border-radius: var(--tbMH-yuan-jd,6px);
+  overflow: hidden;
+}
+body.tbMH-yuan-QBK.theme-light :is(.markdown-rendered table):not(.dataview) {
+  box-shadow: rgba(15, 15, 15,0.5) 0px 0px 5px 1px;
+}
+body.tbMH-yuan-QBK.theme-dark :is(.markdown-rendered table):not(.dataview) {
+  box-shadow: rgba(156, 156, 156, 0.43) 0px 0px 10px 1px;
+}
+body.tbMH-zhi-SXB.theme-dark :is(table):not(.dataview) {
+  border-top: 2px solid var(--表格边框颜色-深色模式);
+  border-bottom: 2px solid var(--表格边框颜色-深色模式);
+}
+body.tbMH-zhi-SXB.theme-dark :is(.markdown-rendered thead):not(.dataview) {
+  border-bottom: 1.5px solid var(--表格边框颜色-深色模式);
+}
+body.tbMH-zhi-SXB.theme-light :is(.markdown-rendered table):not(.dataview) {
+  border-top: 2px solid var(--表格边框颜色-浅色模式);
+  border-bottom: 2px solid var(--表格边框颜色-浅色模式);
+}
+body.tbMH-zhi-SXB.theme-light :is(.markdown-rendered thead):not(.dataview) {
+  border-bottom: 1.5px solid var(--表格边框颜色-浅色模式);
+}
+body.tbMH-zhi-SXB {
+  --表格边框粗细:0px;
+}
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+  height: 40px;
+}
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr {
+  transition: height 0.35s ease-in-out;
+}
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) .table-cell-wrapper:hover {
+  background-color: var(--表格触摸显示颜色-浅色模式);
+}
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+  background-color: var(--表格触摸显示颜色-浅色模式);
+}
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+  height: 40px;
+}
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr {
+  transition: height 0.35s ease-in-out;
+}
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) .table-cell-wrapper:hover {
+  background-color: var(--表格触摸显示颜色-深色模式);
+}
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+  background-color: var(--表格触摸显示颜色-深色模式);
 }

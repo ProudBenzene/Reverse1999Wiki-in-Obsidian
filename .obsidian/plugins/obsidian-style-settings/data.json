@@ -612,7 +612,6 @@
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00",
   "Blue-Topaz-Legacy@@remove-table-transition": true,
   "Mo-Table@@tbMH-ds": "tbMH-ds-bt",
-  "Mo-Table@@tbMH-th@@dark": "#624B457A",
   "Mo-Table@@tbMH-kj-color@@dark": "#FEEED1",
   "Mo-Table@@tbMH-qkms": "tbMH-qk",
   "Mo-Table@@tbMH-kd": "tbMH-kd-cc",
@@ -647,5 +646,6 @@
   "crearts@@skins-dark": "skin-dark-default",
   "crearts@@neumorphism": true,
   "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.6,
-  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 3
+  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 3,
+  "Mo-Table@@tbMH-MCXS-MS": true
 }

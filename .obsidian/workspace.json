@@ -209,36 +209,6 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "f59ee5561fe3ccff",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "7c3b5aa58da5d035",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "2bd2a91a317302b4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -338,6 +308,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/单品 沙丝绒 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/单品 沙丝绒 02.png",
@@ -351,8 +324,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/神秘术 混合双打！1.png",
     "000-箱的构造/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets",
-    "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "400-箱外世界/暴雨时间线.md",
     "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu.md",
@@ -374,7 +345,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/百夫长｜Centurion.assets",
-    "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets",
