@@ -21,8 +21,12 @@ Udimo: 蛇类
   - 削弱
 香调:
   - 美食调
-初始衣着: 
-洞悉本色: 
+  - 小豆蔻
+  - 零陵香豆
+  - 姜黄
+  - 芒果
+初始衣着: 生存是件精巧的活计，她很擅长。
+洞悉本色: 鼓点总会有的，随时都可以起舞。
 aliases:
   - 坎吉拉
   - Kanjira
@@ -112,7 +116,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
+### 小铃鼓｜Tambourine
 
 ````ad-flex
 collapse: open
