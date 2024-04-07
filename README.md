@@ -21,7 +21,7 @@
 	- [1999哔哩哔哩游戏Wiki](https://wiki.biligame.com/reverse1999/%E9%A6%96%E9%A1%B5)
 	- [Reverse: 1999 Wiki | Fandom](https://reverse1999.fandom.com/wiki/Reverse:_1999_Wiki)
 - 各大 1999 网络论坛
-	-  [NGA玩家社区](https://ngabbs.com/)
+	-  [NGA玩家社区](https://ngabbs.com/thread.php?fid=510389)
 	- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)
 	- [Bilibili](https://www.bilibili.com/)
 
