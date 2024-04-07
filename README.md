@@ -14,4 +14,3 @@
 ![示例库主页](000-箱的构造/assets/README.assets/示例库主页.png)
 
 ![角色档案](000-箱的构造/assets/README.assets/角色档案.png)
-
