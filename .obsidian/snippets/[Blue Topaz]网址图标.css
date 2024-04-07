@@ -206,7 +206,7 @@ https://yoksel.github.io/url-encoder/
     content: url("data:image/svg+xml,%3Csvg t='1631854338925' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='30466' data-darkreader-inline-fill='' width='16' height='16'%3E%3Cpath d='M512 535.512918m-488.487082 0a488.487082 488.487082 0 1 0 976.974164 0 488.487082 488.487082 0 1 0-976.974164 0Z' fill='%23F7CD1A' p-id='30467' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%23bb9807;'%3E%3C/path%3E%3Cpath d='M292.900741 830.222345a203.353051 163.278243 0 1 0 406.706103 0 203.353051 163.278243 0 1 0-406.706103 0Z' fill='%2300C413' p-id='30468' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%23009d0f;'%3E%3C/path%3E%3Cpath d='M682.016485 797.382282L352.977488 177.605874l24.257672-5.319665 304.781325 591.475791v33.620282z' fill='%2300C413' p-id='30469' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%23009d0f;'%3E%3C/path%3E%3Cpath d='M352.977488 178.173305s92.207522-133.062548 182.570895-98.094618S729.680682 0 729.680682 0s52.274572 216.262104-298.681444 312.086999l-78.02175-133.913694' fill='%2300C413' p-id='30470' data-darkreader-inline-fill='' style='--darkreader-inline-fill:%23009d0f;'%3E%3C/path%3E%3C/svg%3E");
 }
 
-.external-link[href*=""]::before{
+.external-link[href*="reddit.com"]::before{
     content: url("data:image/svg+xml,");
 }
 
