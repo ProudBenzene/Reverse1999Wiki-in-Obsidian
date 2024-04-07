@@ -26,8 +26,8 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md"
+              }
             }
           },
           {
@@ -246,7 +249,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md"
+              }
             }
           }
         ],
@@ -294,6 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,6 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,8 +351,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "676d9c8ad88d6946",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坎吉拉｜Kanjira.assets/尤提姆 坎吉拉.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坎吉拉｜Kanjira.assets/立绘 坎吉拉 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坎吉拉｜Kanjira.assets/立绘 坎吉拉 02.png",
