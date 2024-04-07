@@ -26,12 +26,12 @@ Udimo:
   - 树脂
   - 麝香
 初始衣着: 精巧饰品的毁灭者，永远行动着的实践家。
-洞悉二衣着: 对，没错，我说，你记。这就是你的作用。
+洞悉本色: 对，没错，我说，你记。这就是你的作用。
 aliases:
   - 兔毛手袋
   - Medicine Pocket
 初始立绘: "[[assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 01.png]]"
-洞悉立绘: "[[assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 02.png]]"
+本色立绘: "[[assets/兔毛手袋｜Medicine Pocket.assets/立绘 兔毛手袋 02.png]]"
 生日: 2024-11-24
 banner_header: "{{filename}}"
 出场章节:

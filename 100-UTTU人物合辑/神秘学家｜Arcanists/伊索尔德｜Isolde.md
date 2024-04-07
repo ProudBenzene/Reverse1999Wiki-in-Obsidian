@@ -26,12 +26,12 @@ Udimo: 夜莺类
   - 红没药
   - 吲哚
 初始衣着: 国王的女儿，画家的爱人；璀璨的明星，家族的希望。
-洞悉二衣着: 我是……我是？我是。我是！我是！！
+洞悉本色: 我是……我是？我是。我是！我是！！
 aliases:
   - 伊索尔德
   - Isolde
 初始立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png]]"
-洞悉立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png]]"
+本色立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png]]"
 生日: 2024-11-23
 banner_header: "{{filename}}"
 出场章节:

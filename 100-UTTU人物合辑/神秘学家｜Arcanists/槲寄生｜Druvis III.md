@@ -25,12 +25,12 @@ Udimo: 猫类
   - 晚香玉
   - 琥珀
 初始衣着: 酒会从来都是不适合她的。
-洞悉二衣着: 她回到橡木树梢，像是回到母亲的怀抱。
+洞悉本色: 她回到橡木树梢，像是回到母亲的怀抱。
 aliases:
   - 槲寄生
   - Druvis III
 初始立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png]]"
-洞悉立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png]]"
+本色立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png]]"
 生日: 2024-10-23
 banner_header: "{{filename}}"
 出场章节:

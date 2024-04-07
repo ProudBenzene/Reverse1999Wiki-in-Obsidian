@@ -23,13 +23,13 @@ Udimo: 幼狮类
   - 小豆蔻
   - 金桔
 初始衣着: 胡椒博士与黑胶唱片都是她的最爱。
-洞悉二衣着: 好摇滚、酷座驾和棒朋友，她与她热爱的一切。
+洞悉本色: 好摇滚、酷座驾和棒朋友，她与她热爱的一切。
 aliases:
   - Regulus
   - 星锑
 人物合辑: 神秘学家｜Arcanists
 初始立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 01.png]]"
-洞悉立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 02.png]]"
+本色立绘: "[[assets/星锑｜Regulus.assets/立绘 星锑 02.png]]"
 生日: 2024-08-15
 banner_header: "{{filename}}"
 出场章节:

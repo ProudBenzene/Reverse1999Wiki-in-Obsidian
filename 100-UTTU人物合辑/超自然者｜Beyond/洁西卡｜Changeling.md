@@ -26,13 +26,13 @@ Udimo: 白尾鹿类
   - 土壤
   - 麝香
 初始衣着: 如此纯洁，如此乖巧，如此惹人怜爱。
-洞悉二衣着: 如此迅速，如此轻巧，如此难以逃脱。
+洞悉本色: 如此迅速，如此轻巧，如此难以逃脱。
 aliases:
   - 洁西卡
   - Jessica
   - Changeling
 初始立绘: "[[assets/洁西卡｜Changeling.assets/立绘 洁西卡 01.png]]"
-洞悉立绘: "[[assets/洁西卡｜Changeling.assets/立绘 洁西卡 02.png]]"
+本色立绘: "[[assets/洁西卡｜Changeling.assets/立绘 洁西卡 02.png]]"
 生日: 2024-04-11
 banner_header: "{{filename}}"
 出场章节:

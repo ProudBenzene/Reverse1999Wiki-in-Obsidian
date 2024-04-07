@@ -26,12 +26,12 @@ Udimo: 牙签鸟类
   - 胡椒
   - 雪松
 初始衣着: 它不断地挣扎，鳞粉撒满了她的手臂，但没关系，这不重要。
-洞悉二衣着: 她感到扑朔的薄翅融化在舌面上，散发出栀子花混杂薄荷油的香气。
+洞悉本色: 她感到扑朔的薄翅融化在舌面上，散发出栀子花混杂薄荷油的香气。
 aliases:
   - 牙仙
   - Tooth Fairy
 初始立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 01.png]]"
-洞悉立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png]]"
+本色立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png]]"
 生日: 2024-11-27
 banner_header: "{{filename}}"
 出场章节:

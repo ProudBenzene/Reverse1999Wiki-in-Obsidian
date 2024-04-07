@@ -6,7 +6,7 @@ cssclasses:
 ---
 ```dataview
 Table without id
-	embed(link(洞悉立绘)) AS "相片",
+	embed(link(本色立绘)) AS "相片",
 "<span style='display:flex; justify-content: center;'>" + "**" + Name+ "**" + "</span>" As 角色,
 	"<span style='display:flex; justify-content: center;'>" + "*" + exonym + "*"  + "</span>" As 译名,
 	"<span style='display:flex; justify-content: center; font-size: 14px;'>" + 星级 + "</span>" As 星级,

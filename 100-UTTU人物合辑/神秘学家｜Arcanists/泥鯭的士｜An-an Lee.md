@@ -27,12 +27,12 @@ Udimo:
   - 薄荷
   - 焚香
 初始衣着: 本次捉鬼行动将成为她的杰作。
-洞悉二衣着: 迷途知返，方为上上良策。
+洞悉本色: 迷途知返，方为上上良策。
 aliases:
   - 泥鯭的士
   - An-an Lee
 初始立绘: "[[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png]]"
-洞悉立绘: "[[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 02.png]]"
+本色立绘: "[[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 02.png]]"
 生日: 2024-07-27
 banner_header: "{{filename}}"
 出场章节:
