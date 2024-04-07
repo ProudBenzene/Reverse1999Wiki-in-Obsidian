@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +253,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +269,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,11 +303,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/单品 沙丝绒 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets/单品 沙丝绒 02.png",
