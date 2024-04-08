@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "726bd678d99239a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +210,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md"
+              }
             }
           },
           {
@@ -252,6 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,6 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,19 +319,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "13eab36a72e3758c",
+  "active": "726bd678d99239a0",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "README.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱的构造教程/assets",
-    "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/箱的构造教程",
     "未命名",
-    "000-箱的构造/箱的构造教程/金句展示.md",
     "000-箱的构造/箱中memos/20240408-bd83d5ec7ae46897.md",
     "000-箱的构造/箱中memos/20240408-ea061373635b19fb.md",
     "000-箱的构造/箱中memos/20240408-e2f1e6555945b2d5.md",
