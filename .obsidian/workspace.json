@@ -209,9 +209,25 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "62e45ed25b92204f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "84279bfa0753221c",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "a0af558e737c8c63",
@@ -303,10 +319,11 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "84279bfa0753221c",
   "lastOpenFiles": [
     "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
     "000-箱的构造/主页.md",
