@@ -44,21 +44,32 @@ if (files.length === 0) {
 
 ````
 ```dataviewjs
-let files = dv.pages('"000-箱的构造/箱中memos" and #金句').file;
+let files = dv.pages('"000-箱的构造/箱中memos" and #金句').file; //检索同时满足文件夹与标签条件的文件
 if (files.length === 0) {
-  dv.paragraph("没有找到任何文件");
+  dv.paragraph("没有找到任何文件"); //未找到文件
 } else {
-  let randomFile = files[Math.floor(Math.random() * files.length)];
-  let fileContent = await app.vault.readRaw(dv.page(randomFile.path).file.path)
-  let lines = fileContent.split('\n');
+  let randomFile = files[Math.floor(Math.random() * files.length)]; //随机
+  let fileContent = await app.vault.readRaw(dv.page(randomFile.path).file.path) //读取抽中的随机文件的内容
+  let lines = fileContent.split('\n'); //将文件按照换行符分为数组
   if (lines.length < 10) {
     dv.paragraph("选中的文件没有足够的行");
   } else {
-    let line1 = lines[9];
+    let line1 = lines[9]; //找到第十行内容
     if (line1.startsWith("#金句")) {
-      let sentence = "——" + line1.substring(4);
-      dv.span("<center>" + sentence + "</center>");
+      let sentence = "——" + line1.substring(4); //添加前缀，去掉句子的前4位字符
+      dv.span("<center>" + sentence + "</center>"); //展示结果
     }
   }
 }
 ````
+
+将代码输入到对应的名言（dictim）Callout 中，即可完成所有步骤。
+
+## 一条龙使用
+
+每次记录金句时按以下步骤：
+
+1. 打开 Thino
+2. 选择「多文件模式」
+3. 输入金句内容
+4. 
