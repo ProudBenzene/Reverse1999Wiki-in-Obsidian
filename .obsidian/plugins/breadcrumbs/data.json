@@ -66,11 +66,7 @@
     4
   ],
   "limitTrailCheckboxes": [
-    "up",
-    "same",
-    "down",
-    "next",
-    "prev"
+    "up"
   ],
   "limitJumpToFirstFields": [],
   "showAll": "All",
