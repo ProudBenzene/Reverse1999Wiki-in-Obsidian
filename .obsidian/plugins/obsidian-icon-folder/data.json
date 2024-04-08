@@ -118,5 +118,6 @@
   "README.md": "TiFileSpreadsheet",
   "000-箱的构造": "TiBriefcase",
   "000-箱的构造/主页.md": "IbHouse",
-  "600-箱中日历": "TiCalendar"
+  "600-箱中日历": "TiCalendar",
+  "000-箱的构造/箱的构造教程": "TiFileSpreadsheet"
 }

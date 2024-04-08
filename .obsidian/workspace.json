@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/自动化创建角色档案.md",
+                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -252,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,9 +306,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "13eab36a72e3758c",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "000-箱的构造/主页.md",
+    "000-箱的构造/箱中memos/memos.thino.md",
+    "000-箱的构造/箱的构造教程/assets",
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/箱的构造教程",
+    "未命名",
+    "000-箱的构造/箱的构造教程/金句展示.md",
     "000-箱的构造/箱中memos/20240408-bd83d5ec7ae46897.md",
     "000-箱的构造/箱中memos/20240408-ea061373635b19fb.md",
     "000-箱的构造/箱中memos/20240408-e2f1e6555945b2d5.md",
@@ -321,12 +334,9 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坎吉拉｜Kanjira.assets/神秘术 噢，占卜！2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坎吉拉｜Kanjira.assets/至终的仪式 流浪之歌与舞.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坎吉拉｜Kanjira.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
-    "000-箱的构造/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets",
-    "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
@@ -335,20 +345,14 @@
     "倒计时.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "000-箱的构造/箱中memos/20240404-6b7059561cb7e93f.md",
-    "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
     "000-箱的构造/箱中memos/20240402-7c30a6ed4cc507b8.md",
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/苏芙比｜Sotheby.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/苏芙比｜Sotheby~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/苏芙比｜Sotheby.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/百夫长｜Centurion.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/百夫长｜Centurion.assets",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/远旅｜Voyager.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/远旅｜Voyager.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/温妮弗雷德｜Eternity.assets",
-    "600-箱中日历/2024",
-    "600-箱中日历/2023",
     "白板.canvas"
   ]
 }
