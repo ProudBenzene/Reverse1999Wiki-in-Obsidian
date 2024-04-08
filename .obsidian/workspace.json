@@ -20,42 +20,6 @@
             }
           },
           {
-            "id": "0850d8e30da6f93c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "92fbeee843187e6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64beff60cb4fe5b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -87,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "C.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "C.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -246,25 +209,9 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "62e45ed25b92204f",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "84279bfa0753221c",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "a0af558e737c8c63",
@@ -308,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,15 +303,14 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "64beff60cb4fe5b2",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "B.md",
-    "A.md",
     "C.md",
+    "A.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
     "400-箱外世界/暴雨时间线.md",
