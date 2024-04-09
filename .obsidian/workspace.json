@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "source",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +288,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -301,15 +300,18 @@
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "float-search:Search Obsidian In Modal": false,
+      "obsidian-memos:Thino": false
     }
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构造/主页.md",
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/尤提姆 挖掘艺术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 06.png",
@@ -327,9 +329,7 @@
     "C.md",
     "A.md",
     "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
-    "400-箱外世界/暴雨时间线.md",
     "README.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱的构造教程/assets",
     "000-箱的构造/箱的构造教程",

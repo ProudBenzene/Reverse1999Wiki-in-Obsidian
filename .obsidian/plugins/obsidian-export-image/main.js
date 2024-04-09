@@ -8241,7 +8241,7 @@ var require_dom_to_image_more = __commonJS({
           resolveUrl,
           getAndEncode,
           uid,
-          delay,
+          delay: delay2,
           asArray,
           escapeXhtml,
           makeImage,
@@ -8518,7 +8518,7 @@ var require_dom_to_image_more = __commonJS({
         function escapeRegEx(string) {
           return string.replace(/([.*+?^${}()|[]\/\\])/g, "\\$1");
         }
-        function delay(ms) {
+        function delay2(ms) {
           return function(arg) {
             return new Promise(function(resolve) {
               setTimeout(function() {
@@ -13633,7 +13633,7 @@ var require_html2canvas = __commonJS({
         }(ElementContainer)
       );
       var LIST_OWNERS = ["OL", "UL", "MENU"];
-      var parseNodeTree = function(context, node2, parent, root) {
+      var parseNodeTree = function(context, node2, parent, root2) {
         for (var childNode = node2.firstChild, nextNode = void 0; childNode; childNode = nextNode) {
           nextNode = childNode.nextSibling;
           if (isTextNode(childNode) && childNode.data.trim().length > 0) {
@@ -13641,12 +13641,12 @@ var require_html2canvas = __commonJS({
           } else if (isElementNode(childNode)) {
             if (isSlotElement(childNode) && childNode.assignedNodes) {
               childNode.assignedNodes().forEach(function(childNode2) {
-                return parseNodeTree(context, childNode2, parent, root);
+                return parseNodeTree(context, childNode2, parent, root2);
               });
             } else {
               var container = createContainer(context, childNode);
               if (container.styles.isVisible()) {
-                if (createsRealStackingContext(childNode, container, root)) {
+                if (createsRealStackingContext(childNode, container, root2)) {
                   container.flags |= 4;
                 } else if (createsStackingContext(container.styles)) {
                   container.flags |= 2;
@@ -13657,9 +13657,9 @@ var require_html2canvas = __commonJS({
                 parent.elements.push(container);
                 childNode.slot;
                 if (childNode.shadowRoot) {
-                  parseNodeTree(context, childNode.shadowRoot, container, root);
+                  parseNodeTree(context, childNode.shadowRoot, container, root2);
                 } else if (!isTextareaElement(childNode) && !isSVGElement(childNode) && !isSelectElement(childNode)) {
-                  parseNodeTree(context, childNode, container, root);
+                  parseNodeTree(context, childNode, container, root2);
                 }
               }
             }
@@ -13702,8 +13702,8 @@ var require_html2canvas = __commonJS({
         parseNodeTree(context, element, container, container);
         return container;
       };
-      var createsRealStackingContext = function(node2, container, root) {
-        return container.styles.isPositionedWithZIndex() || container.styles.opacity < 1 || container.styles.isTransformed() || isBodyElement(node2) && root.styles.isTransparent();
+      var createsRealStackingContext = function(node2, container, root2) {
+        return container.styles.isPositionedWithZIndex() || container.styles.opacity < 1 || container.styles.isTransformed() || isBodyElement(node2) && root2.styles.isTransparent();
       };
       var createsStackingContext = function(styles2) {
         return styles2.isPositioned() || styles2.isFloating();
@@ -15291,11 +15291,11 @@ var require_html2canvas = __commonJS({
       };
       var parseStackingContexts = function(container) {
         var paintContainer = new ElementPaint(container, null);
-        var root = new StackingContext(paintContainer);
+        var root2 = new StackingContext(paintContainer);
         var listItems = [];
-        parseStackTree(paintContainer, root, root, listItems);
+        parseStackTree(paintContainer, root2, root2, listItems);
         processListItems(paintContainer.container, listItems);
-        return root;
+        return root2;
       };
       var parsePathForBorder = function(curves, borderSide) {
         switch (borderSide) {
@@ -16764,7 +16764,7 @@ var require_html2canvas = __commonJS({
       }
       var renderElement = function(element, opts) {
         return __awaiter(void 0, void 0, void 0, function() {
-          var ownerDocument, defaultView, resourceOptions, contextOptions, windowOptions, windowBounds, context, foreignObjectRendering, cloneOptions, documentCloner, clonedElement, container, _a2, width, height, left, top, backgroundColor2, renderOptions, canvas, renderer, root, renderer;
+          var ownerDocument, defaultView, resourceOptions, contextOptions, windowOptions, windowBounds, context, foreignObjectRendering, cloneOptions, documentCloner, clonedElement, container, _a2, width, height, left, top, backgroundColor2, renderOptions, canvas, renderer, root2, renderer;
           var _b2, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t2;
           return __generator(this, function(_u) {
             switch (_u.label) {
@@ -16834,13 +16834,13 @@ var require_html2canvas = __commonJS({
               case 3:
                 context.logger.debug("Document cloned, element located at " + left + "," + top + " with size " + width + "x" + height + " using computed rendering");
                 context.logger.debug("Starting DOM parsing");
-                root = parseTree(context, clonedElement);
-                if (backgroundColor2 === root.styles.backgroundColor) {
-                  root.styles.backgroundColor = COLORS.TRANSPARENT;
+                root2 = parseTree(context, clonedElement);
+                if (backgroundColor2 === root2.styles.backgroundColor) {
+                  root2.styles.backgroundColor = COLORS.TRANSPARENT;
                 }
                 context.logger.debug("Starting renderer for element at " + renderOptions.x + "," + renderOptions.y + " with size " + renderOptions.width + "x" + renderOptions.height);
                 renderer = new CanvasRenderer(context, renderOptions);
-                return [4, renderer.render(root)];
+                return [4, renderer.render(root2)];
               case 4:
                 canvas = _u.sent();
                 _u.label = 5;
@@ -17112,10 +17112,10 @@ var require_purify = __commonJS({
       };
       function createDOMPurify() {
         var window2 = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : getGlobal();
-        var DOMPurify = function DOMPurify2(root) {
-          return createDOMPurify(root);
+        var DOMPurify = function DOMPurify2(root2) {
+          return createDOMPurify(root2);
         };
-        DOMPurify.version = "2.4.9";
+        DOMPurify.version = "2.5.0";
         DOMPurify.removed = [];
         if (!window2 || !window2.document || window2.document.nodeType !== 9) {
           DOMPurify.isSupported = false;
@@ -17179,6 +17179,7 @@ var require_purify = __commonJS({
         var ALLOW_UNKNOWN_PROTOCOLS = false;
         var ALLOW_SELF_CLOSE_IN_ATTR = true;
         var SAFE_FOR_TEMPLATES = false;
+        var SAFE_FOR_XML = true;
         var WHOLE_DOCUMENT = false;
         var SET_CONFIG = false;
         var FORCE_BODY = false;
@@ -17252,6 +17253,7 @@ var require_purify = __commonJS({
           ALLOW_UNKNOWN_PROTOCOLS = cfg.ALLOW_UNKNOWN_PROTOCOLS || false;
           ALLOW_SELF_CLOSE_IN_ATTR = cfg.ALLOW_SELF_CLOSE_IN_ATTR !== false;
           SAFE_FOR_TEMPLATES = cfg.SAFE_FOR_TEMPLATES || false;
+          SAFE_FOR_XML = cfg.SAFE_FOR_XML !== false;
           WHOLE_DOCUMENT = cfg.WHOLE_DOCUMENT || false;
           RETURN_DOM = cfg.RETURN_DOM || false;
           RETURN_DOM_FRAGMENT = cfg.RETURN_DOM_FRAGMENT || false;
@@ -17467,10 +17469,10 @@ var require_purify = __commonJS({
           }
           return WHOLE_DOCUMENT ? doc.documentElement : body;
         };
-        var _createIterator = function _createIterator2(root) {
+        var _createIterator = function _createIterator2(root2) {
           return createNodeIterator.call(
-            root.ownerDocument || root,
-            root,
+            root2.ownerDocument || root2,
+            root2,
             // eslint-disable-next-line no-bitwise
             NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_COMMENT | NodeFilter.SHOW_TEXT | NodeFilter.SHOW_PROCESSING_INSTRUCTION | NodeFilter.SHOW_CDATA_SECTION,
             null,
@@ -17516,6 +17518,10 @@ var require_purify = __commonJS({
             return true;
           }
           if (currentNode.nodeType === 7) {
+            _forceRemove(currentNode);
+            return true;
+          }
+          if (SAFE_FOR_XML && currentNode.nodeType === 8 && regExpTest(/<[/\w]/g, currentNode.data)) {
             _forceRemove(currentNode);
             return true;
           }
@@ -21976,14 +21982,14 @@ var require_performance_now = __commonJS({
 var require_raf = __commonJS({
   "node_modules/raf/index.js"(exports, module2) {
     var now = require_performance_now();
-    var root = typeof window === "undefined" ? global : window;
+    var root2 = typeof window === "undefined" ? global : window;
     var vendors = ["moz", "webkit"];
     var suffix = "AnimationFrame";
-    var raf = root["request" + suffix];
-    var caf = root["cancel" + suffix] || root["cancelRequest" + suffix];
+    var raf = root2["request" + suffix];
+    var caf = root2["cancel" + suffix] || root2["cancelRequest" + suffix];
     for (i4 = 0; !raf && i4 < vendors.length; i4++) {
-      raf = root[vendors[i4] + "Request" + suffix];
-      caf = root[vendors[i4] + "Cancel" + suffix] || root[vendors[i4] + "CancelRequest" + suffix];
+      raf = root2[vendors[i4] + "Request" + suffix];
+      caf = root2[vendors[i4] + "Cancel" + suffix] || root2[vendors[i4] + "CancelRequest" + suffix];
     }
     var i4;
     if (!raf || !caf) {
@@ -22028,14 +22034,14 @@ var require_raf = __commonJS({
     var queue;
     var frameDuration;
     module2.exports = function(fn) {
-      return raf.call(root, fn);
+      return raf.call(root2, fn);
     };
     module2.exports.cancel = function() {
-      caf.apply(root, arguments);
+      caf.apply(root2, arguments);
     };
     module2.exports.polyfill = function(object) {
       if (!object) {
-        object = root;
+        object = root2;
       }
       object.requestAnimationFrame = raf;
       object.cancelAnimationFrame = caf;
@@ -28542,16 +28548,16 @@ var require_root = __commonJS({
   "node_modules/lodash/_root.js"(exports, module2) {
     var freeGlobal = require_freeGlobal();
     var freeSelf = typeof self == "object" && self && self.Object === Object && self;
-    var root = freeGlobal || freeSelf || Function("return this")();
-    module2.exports = root;
+    var root2 = freeGlobal || freeSelf || Function("return this")();
+    module2.exports = root2;
   }
 });
 
 // node_modules/lodash/_Symbol.js
 var require_Symbol = __commonJS({
   "node_modules/lodash/_Symbol.js"(exports, module2) {
-    var root = require_root();
-    var Symbol2 = root.Symbol;
+    var root2 = require_root();
+    var Symbol2 = root2.Symbol;
     module2.exports = Symbol2;
   }
 });
@@ -28694,8 +28700,8 @@ var require_isFunction = __commonJS({
 // node_modules/lodash/_coreJsData.js
 var require_coreJsData = __commonJS({
   "node_modules/lodash/_coreJsData.js"(exports, module2) {
-    var root = require_root();
-    var coreJsData = root["__core-js_shared__"];
+    var root2 = require_root();
+    var coreJsData = root2["__core-js_shared__"];
     module2.exports = coreJsData;
   }
 });
@@ -29025,8 +29031,8 @@ var require_ListCache = __commonJS({
 var require_Map = __commonJS({
   "node_modules/lodash/_Map.js"(exports, module2) {
     var getNative = require_getNative();
-    var root = require_root();
-    var Map2 = getNative(root, "Map");
+    var root2 = require_root();
+    var Map2 = getNative(root2, "Map");
     module2.exports = Map2;
   }
 });
@@ -29446,7 +29452,7 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 
 // src/ExportImagePlugin.ts
-var import_obsidian7 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 
 // src/settingPreview.tsx
 var import_react2 = __toESM(require_react());
@@ -29956,7 +29962,7 @@ var Preview = ({
     }
   ));
 };
-var renderPreview = (root, app) => {
+var renderPreview = (root2, app) => {
   const el = createDiv();
   import_obsidian.MarkdownRenderer.render(
     app,
@@ -29971,21 +29977,21 @@ var renderPreview = (root, app) => {
     "/",
     new import_obsidian.MarkdownRenderChild(el)
   );
-  const r5 = (0, import_client.createRoot)(root);
+  const r5 = (0, import_client.createRoot)(root2);
   return (setting) => r5.render(/* @__PURE__ */ import_react2.default.createElement(Preview, { setting, el }));
 };
 
-// src/exportImage.tsx
-var import_react9 = __toESM(require_react());
-var import_obsidian6 = require("obsidian");
-var import_client3 = __toESM(require_client());
+// src/components/file/exportImage.tsx
+var import_react12 = __toESM(require_react());
+var import_obsidian7 = require("obsidian");
+var import_client4 = __toESM(require_client());
 
-// src/components/ModalContent.tsx
-var import_obsidian5 = require("obsidian");
-var import_react7 = __toESM(require_react());
+// src/components/file/ModalContent.tsx
+var import_obsidian6 = require("obsidian");
+var import_react10 = __toESM(require_react());
 
 // src/utils/capture.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 var import_dom_to_image_more = __toESM(require_dom_to_image_more());
 var import_file_saver = __toESM(require_FileSaver_min());
 
@@ -30230,15 +30236,19 @@ var en = {
   save: "Save Image",
   saveSuccess: "Export and save the image as {filePath: string}.",
   saveVault: "Save to Vault",
-  includingFilename: "Including File Name As Title: ",
-  imageWidth: "Image Width: ",
+  includingFilename: "Including File Name As Title",
+  imageWidth: "Image Width",
   exportImage: "Export to image",
   exportSelectionImage: "Export selection to image",
+  exportFolder: "Export all notes to image",
   invalidWidth: "Please set width with a reasonable number.",
   "2x": "Enable 2x resolution image",
   moreSetting: "More detailed settings can be found in the `Export Image` plugin settings.",
   guide: "Drag to Move, scroll or pinch to zoom in/out, double click to reset.",
   copyNotAllowed: "pdf format is not supported for copy",
+  exportAll: "Export Selected Notes",
+  noMarkdownFile: "No markdown files in the current directory",
+  selectAll: "Select All",
   setting: {
     title: "Export Image",
     imageWidth: {
@@ -30308,7 +30318,8 @@ var en = {
       y: "Watermark vertical gap"
     },
     preview: "Watermark preview",
-    reset: "Reset to default"
+    reset: "Reset to default",
+    recursive: "Include notes from subdirectories"
   },
   imageSelect: {
     search: "Search",
@@ -30329,15 +30340,19 @@ var zh = {
   save: "\u4FDD\u5B58\u56FE\u7247",
   saveSuccess: "\u5DF2\u5BFC\u51FA\u5E76\u4FDD\u5B58\u56FE\u7247\u81F3 {filePath}\u3002",
   saveVault: "\u4FDD\u5B58\u5230 vault",
-  includingFilename: "\u5305\u542B\u6587\u4EF6\u540D\u4F5C\u4E3A\u6807\u9898\uFF1A",
-  imageWidth: "\u56FE\u7247\u5BBD\u5EA6\uFF1A",
+  includingFilename: "\u5305\u542B\u6587\u4EF6\u540D\u4F5C\u4E3A\u6807\u9898",
+  imageWidth: "\u56FE\u7247\u5BBD\u5EA6",
   exportImage: "\u5BFC\u51FA\u4E3A\u56FE\u7247",
+  exportFolder: "\u5BFC\u51FA\u6240\u6709\u7B14\u8BB0\u4E3A\u56FE\u7247",
   exportSelectionImage: "\u5BFC\u51FA\u9009\u4E2D\u5185\u5BB9\u4E3A\u56FE\u7247",
   invalidWidth: "\u8BF7\u8BBE\u7F6E\u5408\u7406\u7684\u5BBD\u5EA6\u3002",
   "2x": "\u8F93\u51FA 2 \u500D\u5206\u8FA8\u7387\u7684\u56FE",
   moreSetting: "\u66F4\u8BE6\u7EC6\u7684\u914D\u7F6E\u8BF7\u8FDB\u5165 Export Image \u63D2\u4EF6\u7684\u8BBE\u7F6E\u754C\u9762\u3002",
   guide: "\u62D6\u52A8\u53EF\u79FB\u52A8\uFF0C\u6EDA\u8F6E\u6216\u53CC\u6307\u6ED1\u52A8\u53EF\u653E\u5927/\u7F29\u5C0F\uFF0C\u53CC\u51FB\u53EF\u91CD\u7F6E\u3002",
   copyNotAllowed: "pdf \u683C\u5F0F\u4E0D\u652F\u6301\u590D\u5236",
+  exportAll: "\u5BFC\u51FA\u6240\u9009\u7B14\u8BB0",
+  noMarkdownFile: "\u5F53\u524D\u76EE\u5F55\u4E0B\u6CA1\u6709 markdown \u6587\u4EF6",
+  selectAll: "\u5168\u9009",
   setting: {
     title: "\u5BFC\u51FA\u56FE\u7247",
     imageWidth: {
@@ -30407,7 +30422,8 @@ var zh = {
       y: "\u6C34\u5370\u5782\u76F4\u95F4\u8DDD"
     },
     preview: "\u6C34\u5370\u6548\u679C\u9884\u89C8",
-    reset: "\u91CD\u7F6E\u4E3A\u9ED8\u8BA4"
+    reset: "\u91CD\u7F6E\u4E3A\u9ED8\u8BA4",
+    recursive: "\u5305\u542B\u5B50\u76EE\u5F55\u4E2D\u7684\u7B14\u8BB0"
   },
   imageSelect: {
     search: "\u641C\u7D22",
@@ -30494,6 +30510,13 @@ async function createHtml(path, app) {
 }
 function getMetadata(file, app) {
   return app.metadataCache.getFileCache(file)?.frontmatter;
+}
+function delay(time) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(true);
+    }, time);
+  });
 }
 
 // node_modules/jspdf/dist/jspdf.es.min.js
@@ -39415,6 +39438,360 @@ E.API.PDFObject = function() {
 }();
 var jspdf_es_min_default = E;
 
+// src/utils/makeHTML.tsx
+var import_obsidian3 = require("obsidian");
+var import_react5 = __toESM(require_react());
+var import_client2 = __toESM(require_client());
+
+// src/components/common/Target.tsx
+var import_react4 = __toESM(require_react());
+
+// src/components/common/Metadata.tsx
+var import_react3 = __toESM(require_react());
+var iconMap = {
+  text: /* @__PURE__ */ import_react3.default.createElement(
+    "svg",
+    {
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-width": "2",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      className: "svg-icon"
+    },
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M17 6.1H3" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M21 12.1H3" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M15.1 18H3" })
+  ),
+  number: /* @__PURE__ */ import_react3.default.createElement(
+    "svg",
+    {
+      className: "svg-icon",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-width": "2",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    },
+    /* @__PURE__ */ import_react3.default.createElement("rect", { x: "14", y: "14", width: "4", height: "6", rx: "2" }),
+    /* @__PURE__ */ import_react3.default.createElement("rect", { x: "6", y: "4", width: "4", height: "6", rx: "2" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M6 20h4" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M14 10h4" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M6 14h2v6" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M14 4h2v6" })
+  ),
+  multitext: /* @__PURE__ */ import_react3.default.createElement(
+    "svg",
+    {
+      className: "svg-icon",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-width": "2",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    },
+    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "8", x2: "21", y1: "6", y2: "6" }),
+    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "8", x2: "21", y1: "12", y2: "12" }),
+    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "8", x2: "21", y1: "18", y2: "18" }),
+    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "3", x2: "3.01", y1: "6", y2: "6" }),
+    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "3", x2: "3.01", y1: "12", y2: "12" }),
+    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "3", x2: "3.01", y1: "18", y2: "18" })
+  ),
+  tags: /* @__PURE__ */ import_react3.default.createElement(
+    "svg",
+    {
+      className: "svg-icon",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-width": "2",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    },
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z" }),
+    /* @__PURE__ */ import_react3.default.createElement("circle", { cx: "6.5", cy: "9.5", r: ".5", fill: "currentColor" })
+  ),
+  date: /* @__PURE__ */ import_react3.default.createElement(
+    "svg",
+    {
+      className: "svg-icon",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-width": "2",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    },
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M8 2v4" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M16 2v4" }),
+    /* @__PURE__ */ import_react3.default.createElement("rect", { width: "18", height: "18", x: "3", y: "4", rx: "2" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M3 10h18" })
+  ),
+  datetime: /* @__PURE__ */ import_react3.default.createElement(
+    "svg",
+    {
+      className: "svg-icon",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-width": "2",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    },
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M16 2v4" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M8 2v4" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M3 10h5" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M17.5 17.5 16 16.3V14" }),
+    /* @__PURE__ */ import_react3.default.createElement("circle", { cx: "16", cy: "16", r: "6" })
+  ),
+  checkbox: /* @__PURE__ */ import_react3.default.createElement(
+    "svg",
+    {
+      className: "svg-icon",
+      xmlns: "http://www.w3.org/2000/svg",
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      "stroke-width": "2",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    },
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "m9 11 3 3L22 4" }),
+    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" })
+  ),
+  aliases: /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null)
+};
+var Metadata = ({ type, name, value }) => {
+  if (["aliases", "cssclasses"].contains(name)) {
+    return null;
+  }
+  if (value === null) {
+    return null;
+  }
+  const iconSvg = iconMap[type] || iconMap["text"];
+  let valueElement;
+  switch (type) {
+    case "text":
+      if (!value)
+        return null;
+      let content = value;
+      if (typeof value !== "string") {
+        content = JSON.stringify(value);
+      } else {
+        const match = value.match(/^\[\[(.+)\]\]$/);
+        if (match) {
+          content = match[1];
+        }
+      }
+      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, content);
+      break;
+    case "number":
+      valueElement = /* @__PURE__ */ import_react3.default.createElement(
+        "input",
+        {
+          className: "metadata-input metadata-input-number",
+          type: "number",
+          value
+        }
+      );
+      break;
+    case "checkbox":
+      valueElement = /* @__PURE__ */ import_react3.default.createElement(
+        "input",
+        {
+          className: "metadata-input-checkbox",
+          type: "checkbox",
+          checked: value
+        }
+      );
+      break;
+    case "date":
+      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
+      break;
+    case "datetime":
+      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
+      break;
+    case "multitext":
+    case "tags":
+      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "multi-select-container" }, value.map((str) => /* @__PURE__ */ import_react3.default.createElement("div", { className: "multi-select-pill", style: { border: "none" } }, /* @__PURE__ */ import_react3.default.createElement("div", { className: "multi-select-pill-content" }, /* @__PURE__ */ import_react3.default.createElement("span", null, str)))));
+      break;
+    case "aliases":
+      return null;
+    default:
+      valueElement = value;
+      break;
+  }
+  return /* @__PURE__ */ import_react3.default.createElement(
+    "div",
+    {
+      className: "metadata-property",
+      "data-property-type": type,
+      "data-property-key": name,
+      style: { border: 0 }
+    },
+    /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-property-key" }, /* @__PURE__ */ import_react3.default.createElement("span", { className: "metadata-property-icon" }, iconSvg), /* @__PURE__ */ import_react3.default.createElement("span", { className: "metadata-property-name" }, name)),
+    /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-property-value" }, valueElement)
+  );
+};
+var Metadata_default = Metadata;
+
+// src/components/common/Target.tsx
+var alignMap = {
+  left: "flex-start",
+  center: "center",
+  right: "flex-end"
+};
+var Target = ({ frontmatter, setting, title, metadataMap, markdownEl, app }) => {
+  const [watermarkProps, setWatermarkProps] = (0, import_react4.useState)({});
+  const contentRef = (0, import_react4.useRef)(null);
+  (0, import_react4.useEffect)(() => {
+    contentRef.current?.appendChild(markdownEl);
+  }, []);
+  (0, import_react4.useEffect)(() => {
+    const props = {
+      monitor: false,
+      mode: "interval",
+      visible: setting.watermark.enable,
+      rotate: setting.watermark.rotate ?? -30,
+      opacity: setting.watermark.opacity ?? 0.2,
+      height: setting.watermark.height ?? 64,
+      width: setting.watermark.width ?? 120,
+      gapX: setting.watermark.x ?? 100,
+      gapY: setting.watermark.y ?? 100
+    };
+    if (setting.watermark.type === "text") {
+      props.text = setting.watermark.text.content;
+      props.fontSize = setting.watermark.text.fontSize || 16;
+      props.fontColor = setting.watermark.text.color || "#cccccc";
+      props.image = void 0;
+    } else {
+      props.image = setting.watermark.image.src;
+    }
+    setWatermarkProps(props);
+  }, [setting]);
+  return /* @__PURE__ */ import_react4.default.createElement(
+    "div",
+    {
+      className: `export-image-root ${(frontmatter?.cssclasses || []).join(
+        " "
+      )}`,
+      style: {
+        display: "flex",
+        flexDirection: setting.authorInfo.position === "bottom" ? "column" : "column-reverse",
+        backgroundColor: setting.format === "png" ? "unset" : "var(--background-primary)"
+      }
+    },
+    /* @__PURE__ */ import_react4.default.createElement(src_default, { ...watermarkProps }, /* @__PURE__ */ import_react4.default.createElement(
+      "div",
+      {
+        className: "markdown-preview-view markdown-rendered export-image-preview-container",
+        style: {
+          width: `${setting.width}px`,
+          transition: "width 0.25s"
+        }
+      },
+      setting.showFilename && /* @__PURE__ */ import_react4.default.createElement("div", { className: "inline-title", autoCapitalize: "on" }, title),
+      setting.showMetadata && frontmatter && Object.keys(frontmatter).length > 0 && /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-container", style: { display: "block" } }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-content" }, Object.keys(frontmatter).map((name) => /* @__PURE__ */ import_react4.default.createElement(
+        Metadata_default,
+        {
+          name,
+          key: name,
+          value: frontmatter[name],
+          type: metadataMap[name]?.type || "text"
+        }
+      )))),
+      /* @__PURE__ */ import_react4.default.createElement("div", { ref: contentRef })
+    )),
+    setting.authorInfo.show && (setting.authorInfo.avatar || setting.authorInfo.name) && /* @__PURE__ */ import_react4.default.createElement(
+      "div",
+      {
+        className: "user-info-container",
+        style: {
+          [setting.authorInfo.position === "top" ? "borderBottom" : "borderTop"]: "1px solid var(--background-modifier-border)",
+          justifyContent: alignMap[setting.authorInfo.align || "right"],
+          background: setting.format === "png" ? "unset" : "var(--background-primary)"
+        }
+      },
+      setting.authorInfo.avatar && /* @__PURE__ */ import_react4.default.createElement(
+        "div",
+        {
+          className: "user-info-avatar",
+          style: {
+            backgroundImage: `url(${setting.authorInfo.avatar})`
+          }
+        }
+      ),
+      setting.authorInfo.name && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "user-info-name" }, setting.authorInfo.name), setting.authorInfo.remark && /* @__PURE__ */ import_react4.default.createElement("div", { className: "user-info-remark" }, setting.authorInfo.remark))
+    )
+  );
+};
+var Target_default = Target;
+
+// src/utils/makeHTML.tsx
+var root;
+async function makeHTML(file, settings, app, container) {
+  if (root) {
+    root.unmount();
+    await delay(20);
+    container.empty();
+  }
+  const markdown = await app.vault.cachedRead(file);
+  const el = document.createElement("div");
+  import_obsidian3.MarkdownRenderer.render(
+    app,
+    markdown,
+    el.createDiv(),
+    file.path,
+    app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView) || app.workspace.activeLeaf?.view || new import_obsidian3.MarkdownRenderChild(el)
+  );
+  const metadataMap = (
+    // @ts-ignore
+    app.metadataCache.getAllPropertyInfos()
+  );
+  const frontmatter = getMetadata(file, this.app);
+  root = (0, import_client2.createRoot)(container);
+  root.render(
+    /* @__PURE__ */ import_react5.default.createElement(
+      Target_default,
+      {
+        frontmatter,
+        setting: settings,
+        title: file.basename,
+        markdownEl: el,
+        app,
+        metadataMap
+      }
+    )
+  );
+  await delay(100);
+  return el.closest(".export-image-root") || el;
+}
+
 // src/utils/capture.ts
 async function getBlob(el, higtResolution, type) {
   return await import_dom_to_image_more.default.toBlob(el, {
@@ -39422,7 +39799,7 @@ async function getBlob(el, higtResolution, type) {
     height: el.clientHeight,
     quality: 0.85,
     scale: higtResolution ? 2 : 1,
-    requestUrl: import_obsidian3.requestUrl,
+    requestUrl: import_obsidian4.requestUrl,
     type
   });
 }
@@ -39431,6 +39808,7 @@ async function makePdf(blob, el) {
   const pdf = new jspdf_es_min_default({
     unit: "in",
     format: [el.clientWidth / 96, el.clientHeight / 96],
+    orientation: el.clientWidth > el.clientHeight ? "l" : "p",
     compress: true
   });
   pdf.addImage(
@@ -39458,7 +39836,7 @@ async function save(app, el, title, higtResolution, format, isMobile) {
           filename
         );
         await app.vault.createBinary(filePath, await blob.arrayBuffer());
-        new import_obsidian3.Notice(L_default.saveSuccess({ filePath }));
+        new import_obsidian4.Notice(L_default.saveSuccess({ filePath }));
       } else {
         (0, import_file_saver.default)(blob, filename);
       }
@@ -39469,8 +39847,8 @@ async function save(app, el, title, higtResolution, format, isMobile) {
         const filePath = await app.fileManager.getAvailablePathForAttachment(
           filename
         );
-        await app.vault.createBinary(filePath, await blob.arrayBuffer());
-        new import_obsidian3.Notice(L_default.saveSuccess({ filePath }));
+        await app.vault.createBinary(filePath, pdf.output("arraybuffer"));
+        new import_obsidian4.Notice(L_default.saveSuccess({ filePath }));
       } else {
         pdf.save(filename);
       }
@@ -39481,7 +39859,7 @@ async function save(app, el, title, higtResolution, format, isMobile) {
 }
 async function copy(el, higtResolution, format) {
   if (format === "pdf") {
-    new import_obsidian3.Notice("pdf \u683C\u5F0F\u4E0D\u652F\u6301\u590D\u5236");
+    new import_obsidian4.Notice(L_default.copyNotAllowed());
     return;
   }
   const blob = await getBlob(
@@ -39496,11 +39874,69 @@ async function copy(el, higtResolution, format) {
     })
   );
   await navigator.clipboard.write(data);
-  new import_obsidian3.Notice(L_default.copiedSuccess());
+  new import_obsidian4.Notice(L_default.copiedSuccess());
+}
+async function saveMultipleFiles(files, settings, onProgress, app, folderName, containner) {
+  const { format, "2x": higtResolution } = settings;
+  let finished = 0;
+  if (format === "pdf") {
+    let pdf;
+    for (const file of files) {
+      const el = await makeHTML(file, settings, app, containner);
+      await delay(20);
+      const width = el.clientWidth;
+      const height = el.clientHeight;
+      const blob = await getBlob(
+        el,
+        higtResolution,
+        "image/jpeg"
+      );
+      const dataUrl = await fileToBase64(blob);
+      if (pdf) {
+        pdf.addPage([width / 96, height / 96], width > height ? "l" : "p");
+      } else {
+        pdf = new jspdf_es_min_default({
+          unit: "in",
+          format: [width / 96, height / 96],
+          orientation: width > height ? "l" : "p",
+          compress: true
+        });
+      }
+      pdf.addImage(dataUrl, "JPEG", 0, 0, width / 96, height / 96);
+      finished++;
+      onProgress(finished);
+    }
+    if (!pdf) {
+      return;
+    }
+    const fileName = `${folderName.replace(/\s+/g, "_")}.pdf`;
+    if (app.isMobile) {
+      const filePath = await app.fileManager.getAvailablePathForAttachment(
+        fileName
+      );
+      await app.vault.createBinary(filePath, pdf.output("arraybuffer"));
+    } else {
+      pdf?.save(fileName);
+    }
+  } else {
+    for (const file of files) {
+      const el = await makeHTML(file, settings, app, containner);
+      await save(
+        app,
+        el,
+        file.basename,
+        higtResolution,
+        format,
+        true
+      );
+      finished++;
+      onProgress(finished);
+    }
+  }
 }
 
 // node_modules/react-zoom-pan-pinch/dist/index.esm.js
-var import_react3 = __toESM(require_react());
+var import_react6 = __toESM(require_react());
 var roundNumber = function(num, decimal) {
   return Number(num.toFixed(decimal));
 };
@@ -41056,28 +41492,28 @@ var ZoomPanPinch = (
     return ZoomPanPinch2;
   }()
 );
-var Context = import_react3.default.createContext(null);
+var Context = import_react6.default.createContext(null);
 var getContent2 = function(children, ctx) {
   if (typeof children === "function") {
     return children(ctx);
   }
   return children;
 };
-var TransformWrapper = import_react3.default.forwardRef(function(props, ref) {
-  var instance = (0, import_react3.useRef)(new ZoomPanPinch(props)).current;
+var TransformWrapper = import_react6.default.forwardRef(function(props, ref) {
+  var instance = (0, import_react6.useRef)(new ZoomPanPinch(props)).current;
   var content = getContent2(props.children, getControls(instance));
-  (0, import_react3.useImperativeHandle)(ref, function() {
+  (0, import_react6.useImperativeHandle)(ref, function() {
     return getControls(instance);
   }, [instance]);
-  (0, import_react3.useEffect)(function() {
+  (0, import_react6.useEffect)(function() {
     instance.update(props);
   }, [instance, props]);
-  return import_react3.default.createElement(Context.Provider, { value: instance }, content);
+  return import_react6.default.createElement(Context.Provider, { value: instance }, content);
 });
-var KeepScale = import_react3.default.forwardRef(function(props, ref) {
-  var localRef = (0, import_react3.useRef)(null);
-  var instance = (0, import_react3.useContext)(Context);
-  (0, import_react3.useEffect)(function() {
+var KeepScale = import_react6.default.forwardRef(function(props, ref) {
+  var localRef = (0, import_react6.useRef)(null);
+  var instance = (0, import_react6.useContext)(Context);
+  (0, import_react6.useEffect)(function() {
     return instance.onChange(function(ctx) {
       if (localRef.current) {
         var positionX = 0;
@@ -41086,7 +41522,7 @@ var KeepScale = import_react3.default.forwardRef(function(props, ref) {
       }
     });
   }, [instance]);
-  return import_react3.default.createElement("div", __assign({}, props, { ref: mergeRefs([localRef, ref]) }));
+  return import_react6.default.createElement("div", __assign({}, props, { ref: mergeRefs([localRef, ref]) }));
 });
 function styleInject(css, ref) {
   if (ref === void 0)
@@ -41118,10 +41554,10 @@ var styles = { "wrapper": "transform-component-module_wrapper__SPB86", "content"
 styleInject(css_248z);
 var TransformComponent = function(_a2) {
   var children = _a2.children, _b2 = _a2.wrapperClass, wrapperClass = _b2 === void 0 ? "" : _b2, _c = _a2.contentClass, contentClass = _c === void 0 ? "" : _c, wrapperStyle = _a2.wrapperStyle, contentStyle = _a2.contentStyle, _d = _a2.wrapperProps, wrapperProps = _d === void 0 ? {} : _d, _e = _a2.contentProps, contentProps = _e === void 0 ? {} : _e;
-  var _f = (0, import_react3.useContext)(Context), init = _f.init, cleanupWindowEvents = _f.cleanupWindowEvents;
-  var wrapperRef = (0, import_react3.useRef)(null);
-  var contentRef = (0, import_react3.useRef)(null);
-  (0, import_react3.useEffect)(function() {
+  var _f = (0, import_react6.useContext)(Context), init = _f.init, cleanupWindowEvents = _f.cleanupWindowEvents;
+  var wrapperRef = (0, import_react6.useRef)(null);
+  var contentRef = (0, import_react6.useRef)(null);
+  (0, import_react6.useEffect)(function() {
     var wrapper = wrapperRef.current;
     var content = contentRef.current;
     if (wrapper !== null && content !== null && init) {
@@ -41131,34 +41567,37 @@ var TransformComponent = function(_a2) {
       cleanupWindowEvents === null || cleanupWindowEvents === void 0 ? void 0 : cleanupWindowEvents();
     };
   }, []);
-  return import_react3.default.createElement(
+  return import_react6.default.createElement(
     "div",
     __assign({}, wrapperProps, { ref: wrapperRef, className: "react-transform-wrapper ".concat(styles.wrapper, " ").concat(wrapperClass), style: wrapperStyle }),
-    import_react3.default.createElement("div", __assign({}, contentProps, { ref: contentRef, className: "react-transform-component ".concat(styles.content, " ").concat(contentClass), style: contentStyle }), children)
+    import_react6.default.createElement("div", __assign({}, contentProps, { ref: contentRef, className: "react-transform-component ".concat(styles.content, " ").concat(contentClass), style: contentStyle }), children)
   );
 };
 
-// src/components/ModalContent.tsx
-var import_react8 = __toESM(require_react());
-var import_get2 = __toESM(require_get());
+// src/components/file/ModalContent.tsx
+var import_react11 = __toESM(require_react());
 
-// src/components/common/Control.tsx
-var import_react5 = __toESM(require_react());
+// src/components/common/form/FormItems.tsx
+var import_get2 = __toESM(require_get());
+var import_react9 = __toESM(require_react());
+
+// src/components/common/form/Control.tsx
+var import_react8 = __toESM(require_react());
 var import_get = __toESM(require_get());
 var import_set = __toESM(require_set());
 
 // src/components/common/imageSelectModal.tsx
-var import_obsidian4 = require("obsidian");
-var import_react4 = __toESM(require_react());
-var import_client2 = __toESM(require_client());
+var import_obsidian5 = require("obsidian");
+var import_react7 = __toESM(require_react());
+var import_client3 = __toESM(require_client());
 var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
-  const [list, setList] = (0, import_react4.useState)(imageList);
-  const [keyword, setKeyword] = (0, import_react4.useState)("");
-  const [selected, setSelected] = (0, import_react4.useState)(
+  const [list, setList] = (0, import_react7.useState)(imageList);
+  const [keyword, setKeyword] = (0, import_react7.useState)("");
+  const [selected, setSelected] = (0, import_react7.useState)(
     imageList?.[0] || null
   );
-  const previewRef = (0, import_react4.useRef)(null);
-  (0, import_react4.useEffect)(() => {
+  const previewRef = (0, import_react7.useRef)(null);
+  (0, import_react7.useEffect)(() => {
     if (!keyword) {
       setList(imageList);
     } else {
@@ -41166,14 +41605,14 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
       setList(imageList.filter((file) => regExp.test(file.path)));
     }
   }, [keyword, imageList]);
-  (0, import_react4.useEffect)(() => {
+  (0, import_react7.useEffect)(() => {
     if (!list.length) {
       setSelected(null);
     } else if (!selected || !list.find((file) => file.path === selected.path)) {
       setSelected(list?.[0] || null);
     }
   }, [selected, list]);
-  (0, import_react4.useEffect)(() => {
+  (0, import_react7.useEffect)(() => {
     previewRef.current?.empty();
     if (selected) {
       createHtml(selected.path, app).then(
@@ -41181,7 +41620,7 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
       );
     }
   }, [selected]);
-  const submit = (0, import_react4.useCallback)(async () => {
+  const submit = (0, import_react7.useCallback)(async () => {
     if (selected) {
       const file = await selected.vault.adapter.readBinary(selected.path);
       const blob = new Blob([file], { type: "image/" + selected.extension });
@@ -41189,7 +41628,7 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
       onSelect(url);
     }
   }, [onSelect, selected]);
-  return /* @__PURE__ */ import_react4.default.createElement("div", { className: "export-image-select-photo" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "search-input-container" }, /* @__PURE__ */ import_react4.default.createElement(
+  return /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-photo" }, /* @__PURE__ */ import_react7.default.createElement("div", { className: "search-input-container" }, /* @__PURE__ */ import_react7.default.createElement(
     "input",
     {
       enterKeyHint: "search",
@@ -41199,7 +41638,7 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
       placeholder: L_default.imageSelect.search(),
       onChange: (e4) => setKeyword(e4.target.value)
     }
-  ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "search-input-clear-button" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "export-image-select-photo-main" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "export-image-select-photo-left" }, list.length ? list.map((file) => /* @__PURE__ */ import_react4.default.createElement(
+  ), /* @__PURE__ */ import_react7.default.createElement("div", { className: "search-input-clear-button" })), /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-photo-main" }, /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-photo-left" }, list.length ? list.map((file) => /* @__PURE__ */ import_react7.default.createElement(
     "div",
     {
       key: file.path,
@@ -41210,7 +41649,7 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
       }
     },
     file.path
-  )) : /* @__PURE__ */ import_react4.default.createElement("div", { className: "export-image-select-empty" }, L_default.imageSelect.empty())), /* @__PURE__ */ import_react4.default.createElement("div", { className: "export-image-select-preview", ref: previewRef })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "export-image-select-selected" }, selected?.path || " "), /* @__PURE__ */ import_react4.default.createElement("div", { className: "export-image-select-actions" }, /* @__PURE__ */ import_react4.default.createElement(
+  )) : /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-empty" }, L_default.imageSelect.empty())), /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-preview", ref: previewRef })), /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-selected" }, selected?.path || " "), /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-actions" }, /* @__PURE__ */ import_react7.default.createElement(
     "button",
     {
       className: "mod-cta",
@@ -41219,9 +41658,9 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
       style: { marginRight: 40 }
     },
     L_default.imageSelect.select()
-  ), /* @__PURE__ */ import_react4.default.createElement("button", { onClick: onClose }, L_default.imageSelect.cancel())));
+  ), /* @__PURE__ */ import_react7.default.createElement("button", { onClick: onClose }, L_default.imageSelect.cancel())));
 };
-var ImageSelectModal = class extends import_obsidian4.Modal {
+var ImageSelectModal = class extends import_obsidian5.Modal {
   constructor(app, select) {
     super(app);
     this.select = select;
@@ -41229,9 +41668,9 @@ var ImageSelectModal = class extends import_obsidian4.Modal {
   onOpen() {
     let { contentEl, select } = this;
     const imageList = this.app.vault.getFiles().filter((file) => /^jpe?g|png$/i.test(file.extension || ""));
-    this.root = (0, import_client2.createRoot)(contentEl);
+    this.root = (0, import_client3.createRoot)(contentEl);
     this.root.render(
-      /* @__PURE__ */ import_react4.default.createElement(
+      /* @__PURE__ */ import_react7.default.createElement(
         ImageSelect,
         {
           imageList,
@@ -41243,20 +41682,20 @@ var ImageSelectModal = class extends import_obsidian4.Modal {
     );
   }
   onClose() {
-    let { contentEl, root } = this;
-    root?.unmount();
+    let { contentEl, root: root2 } = this;
+    root2?.unmount();
     contentEl.empty();
   }
 };
 
-// src/components/common/Control.tsx
-var Control = ({ fieldSchema, setting, updata, app }) => {
+// src/components/common/form/Control.tsx
+var Control = ({ fieldSchema, setting, update, app }) => {
   const value = (0, import_get.default)(setting, fieldSchema.path);
-  const inputRef = (0, import_react5.useRef)(null);
+  const inputRef = (0, import_react8.useRef)(null);
   const onChange = (value2) => {
     const newSetting = { ...setting };
     (0, import_set.default)(newSetting, fieldSchema.path, value2);
-    updata(newSetting);
+    update(newSetting);
   };
   const upload = async () => {
     const file = inputRef.current?.files?.[0];
@@ -41273,7 +41712,7 @@ var Control = ({ fieldSchema, setting, updata, app }) => {
   };
   switch (fieldSchema.type) {
     case "number": {
-      return /* @__PURE__ */ import_react5.default.createElement(
+      return /* @__PURE__ */ import_react8.default.createElement(
         "input",
         {
           type: "number",
@@ -41283,7 +41722,7 @@ var Control = ({ fieldSchema, setting, updata, app }) => {
       );
     }
     case "string": {
-      return /* @__PURE__ */ import_react5.default.createElement(
+      return /* @__PURE__ */ import_react8.default.createElement(
         "input",
         {
           type: "text",
@@ -41293,28 +41732,28 @@ var Control = ({ fieldSchema, setting, updata, app }) => {
       );
     }
     case "boolean": {
-      return /* @__PURE__ */ import_react5.default.createElement(
+      return /* @__PURE__ */ import_react8.default.createElement(
         "div",
         {
           className: `checkbox-container${value ? " is-enabled" : ""}`,
           onClick: () => onChange(!(0, import_get.default)(setting, fieldSchema.path))
         },
-        /* @__PURE__ */ import_react5.default.createElement("input", { type: "checkbox", checked: value })
+        /* @__PURE__ */ import_react8.default.createElement("input", { type: "checkbox", checked: value })
       );
     }
     case "select": {
-      return /* @__PURE__ */ import_react5.default.createElement(
+      return /* @__PURE__ */ import_react8.default.createElement(
         "select",
         {
           value,
           onChange: (e4) => onChange(e4.target.value),
           className: "dropdown"
         },
-        fieldSchema.options?.map((option) => /* @__PURE__ */ import_react5.default.createElement("option", { key: option.value, value: option.value }, option.text))
+        fieldSchema.options?.map((option) => /* @__PURE__ */ import_react8.default.createElement("option", { key: option.value, value: option.value }, option.text))
       );
     }
     case "file": {
-      return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement(
+      return /* @__PURE__ */ import_react8.default.createElement(import_react8.default.Fragment, null, /* @__PURE__ */ import_react8.default.createElement(
         "div",
         {
           className: "user-info-avatar",
@@ -41323,7 +41762,7 @@ var Control = ({ fieldSchema, setting, updata, app }) => {
             display: value ? "block" : "none"
           }
         }
-      ), /* @__PURE__ */ import_react5.default.createElement("button", { onClick: () => inputRef.current?.click() }, L_default.setting.watermark.image.src.upload(), /* @__PURE__ */ import_react5.default.createElement(
+      ), /* @__PURE__ */ import_react8.default.createElement("button", { onClick: () => inputRef.current?.click() }, L_default.setting.watermark.image.src.upload(), /* @__PURE__ */ import_react8.default.createElement(
         "input",
         {
           style: { display: "none" },
@@ -41331,7 +41770,7 @@ var Control = ({ fieldSchema, setting, updata, app }) => {
           ref: inputRef,
           onChange: upload
         }
-      )), /* @__PURE__ */ import_react5.default.createElement("button", { onClick: select }, L_default.setting.watermark.image.src.select()));
+      )), /* @__PURE__ */ import_react8.default.createElement("button", { onClick: select }, L_default.setting.watermark.image.src.select()));
     }
     default:
       return null;
@@ -41339,226 +41778,41 @@ var Control = ({ fieldSchema, setting, updata, app }) => {
 };
 var Control_default = Control;
 
-// src/components/common/Metadata.tsx
-var import_react6 = __toESM(require_react());
-var iconMap = {
-  text: /* @__PURE__ */ import_react6.default.createElement(
-    "svg",
-    {
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      className: "svg-icon"
-    },
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M17 6.1H3" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M21 12.1H3" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M15.1 18H3" })
-  ),
-  number: /* @__PURE__ */ import_react6.default.createElement(
-    "svg",
-    {
-      className: "svg-icon",
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round"
-    },
-    /* @__PURE__ */ import_react6.default.createElement("rect", { x: "14", y: "14", width: "4", height: "6", rx: "2" }),
-    /* @__PURE__ */ import_react6.default.createElement("rect", { x: "6", y: "4", width: "4", height: "6", rx: "2" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M6 20h4" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M14 10h4" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M6 14h2v6" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M14 4h2v6" })
-  ),
-  multitext: /* @__PURE__ */ import_react6.default.createElement(
-    "svg",
-    {
-      className: "svg-icon",
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round"
-    },
-    /* @__PURE__ */ import_react6.default.createElement("line", { x1: "8", x2: "21", y1: "6", y2: "6" }),
-    /* @__PURE__ */ import_react6.default.createElement("line", { x1: "8", x2: "21", y1: "12", y2: "12" }),
-    /* @__PURE__ */ import_react6.default.createElement("line", { x1: "8", x2: "21", y1: "18", y2: "18" }),
-    /* @__PURE__ */ import_react6.default.createElement("line", { x1: "3", x2: "3.01", y1: "6", y2: "6" }),
-    /* @__PURE__ */ import_react6.default.createElement("line", { x1: "3", x2: "3.01", y1: "12", y2: "12" }),
-    /* @__PURE__ */ import_react6.default.createElement("line", { x1: "3", x2: "3.01", y1: "18", y2: "18" })
-  ),
-  tags: /* @__PURE__ */ import_react6.default.createElement(
-    "svg",
-    {
-      className: "svg-icon",
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round"
-    },
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z" }),
-    /* @__PURE__ */ import_react6.default.createElement("circle", { cx: "6.5", cy: "9.5", r: ".5", fill: "currentColor" })
-  ),
-  date: /* @__PURE__ */ import_react6.default.createElement(
-    "svg",
-    {
-      className: "svg-icon",
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round"
-    },
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M8 2v4" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M16 2v4" }),
-    /* @__PURE__ */ import_react6.default.createElement("rect", { width: "18", height: "18", x: "3", y: "4", rx: "2" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M3 10h18" })
-  ),
-  datetime: /* @__PURE__ */ import_react6.default.createElement(
-    "svg",
-    {
-      className: "svg-icon",
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round"
-    },
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M16 2v4" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M8 2v4" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M3 10h5" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M17.5 17.5 16 16.3V14" }),
-    /* @__PURE__ */ import_react6.default.createElement("circle", { cx: "16", cy: "16", r: "6" })
-  ),
-  checkbox: /* @__PURE__ */ import_react6.default.createElement(
-    "svg",
-    {
-      className: "svg-icon",
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round"
-    },
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "m9 11 3 3L22 4" }),
-    /* @__PURE__ */ import_react6.default.createElement("path", { d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" })
-  ),
-  aliases: /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null)
-};
-var Metadata = ({ type, name, value }) => {
-  if (["aliases", "cssclasses"].contains(name)) {
-    return null;
+// src/components/common/form/FormItems.tsx
+function isShow(field, settings) {
+  if (!field.when) {
+    return true;
   }
-  if (value === null) {
-    return null;
+  if (typeof field.when === "function") {
+    return field.when(settings);
   }
-  const iconSvg = iconMap[type] || iconMap["text"];
-  let valueElement;
-  switch (type) {
-    case "text":
-      if (!value)
-        return null;
-      let content = value;
-      if (typeof value !== "string") {
-        content = JSON.stringify(value);
-      } else {
-        const match = value.match(/^\[\[(.+)\]\]$/);
-        if (match) {
-          content = match[1];
-        }
-      }
-      valueElement = /* @__PURE__ */ import_react6.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, content);
-      break;
-    case "number":
-      valueElement = /* @__PURE__ */ import_react6.default.createElement(
-        "input",
+  return (0, import_get2.default)(settings, field.when.path) === field.when.flag;
+}
+var FormItems = ({ formSchema: formSchema3, settings, update, app }) => {
+  return /* @__PURE__ */ import_react9.default.createElement(import_react9.default.Fragment, null, formSchema3.map(
+    (fieldSchema) => isShow(fieldSchema, settings) && /* @__PURE__ */ import_react9.default.createElement(
+      "div",
+      {
+        className: "setting-item",
+        key: fieldSchema.path,
+        style: { padding: "10px 0" }
+      },
+      /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-info" }, /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-name" }, fieldSchema.label), fieldSchema.desc && /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-description" }, fieldSchema.desc)),
+      /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-control" }, /* @__PURE__ */ import_react9.default.createElement(
+        Control_default,
         {
-          className: "metadata-input metadata-input-number",
-          type: "number",
-          value
+          fieldSchema,
+          setting: settings,
+          update,
+          app
         }
-      );
-      break;
-    case "checkbox":
-      valueElement = /* @__PURE__ */ import_react6.default.createElement(
-        "input",
-        {
-          className: "metadata-input-checkbox",
-          type: "checkbox",
-          checked: value
-        }
-      );
-      break;
-    case "date":
-      valueElement = /* @__PURE__ */ import_react6.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
-      break;
-    case "datetime":
-      valueElement = /* @__PURE__ */ import_react6.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
-      break;
-    case "multitext":
-    case "tags":
-      valueElement = /* @__PURE__ */ import_react6.default.createElement("div", { className: "multi-select-container" }, value.map((str) => /* @__PURE__ */ import_react6.default.createElement("div", { className: "multi-select-pill", style: { border: "none" } }, /* @__PURE__ */ import_react6.default.createElement("div", { className: "multi-select-pill-content" }, /* @__PURE__ */ import_react6.default.createElement("span", null, str)))));
-      break;
-    case "aliases":
-      return null;
-    default:
-      valueElement = value;
-      break;
-  }
-  return /* @__PURE__ */ import_react6.default.createElement(
-    "div",
-    {
-      className: "metadata-property",
-      "data-property-type": type,
-      "data-property-key": name,
-      style: { border: 0 }
-    },
-    /* @__PURE__ */ import_react6.default.createElement("div", { className: "metadata-property-key" }, /* @__PURE__ */ import_react6.default.createElement("span", { className: "metadata-property-icon" }, iconSvg), /* @__PURE__ */ import_react6.default.createElement("span", { className: "metadata-property-name" }, name)),
-    /* @__PURE__ */ import_react6.default.createElement("div", { className: "metadata-property-value" }, valueElement)
-  );
+      ))
+    )
+  ));
 };
-var Metadata_default = Metadata;
+var FormItems_default = FormItems;
 
-// src/components/ModalContent.tsx
-var alignMap = {
-  left: "flex-start",
-  center: "center",
-  right: "flex-end"
-};
+// src/components/file/ModalContent.tsx
 var formSchema = [
   {
     label: L_default.includingFilename(),
@@ -41667,40 +41921,25 @@ var formSchema = [
     when: { flag: true, path: "watermark.enable" }
   }
 ];
-function isShow(field, settings) {
-  if (!field.when) {
-    return true;
-  }
-  if (typeof field.when === "function") {
-    return field.when(settings);
-  }
-  return (0, import_get2.default)(settings, field.when.path) === field.when.flag;
-}
 var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap }) => {
-  const [formData, setFormData] = (0, import_react7.useState)(settings);
-  const [watermarkProps, setWatermarkProps] = (0, import_react7.useState)({});
-  const [isGrabbing, setIsGrabbing] = (0, import_react7.useState)(false);
-  const contentRef = (0, import_react7.useRef)(null);
-  const actionsRef = (0, import_react7.useRef)(null);
-  const previewOutRef = (0, import_react7.useRef)(null);
+  const [formData, setFormData] = (0, import_react10.useState)(settings);
+  const [isGrabbing, setIsGrabbing] = (0, import_react10.useState)(false);
+  const previewOutRef = (0, import_react10.useRef)(null);
   const mainHeight = Math.min(764, window.innerHeight * 0.85 - 225);
-  const root = markdownEl.closest(".export-image-root") || markdownEl;
-  (0, import_react7.useEffect)(() => {
-    contentRef.current?.appendChild(markdownEl);
-  }, []);
-  (0, import_react7.useEffect)(() => {
+  const root2 = markdownEl.closest(".export-image-root") || markdownEl;
+  (0, import_react10.useEffect)(() => {
     setFormData(settings);
   }, [settings]);
-  const [processing, setProcessing] = (0, import_react7.useState)(false);
-  const handleSave = (0, import_react7.useCallback)(async () => {
+  const [processing, setProcessing] = (0, import_react10.useState)(false);
+  const handleSave = (0, import_react10.useCallback)(async () => {
     if ((formData.width || 640) <= 20) {
-      new import_obsidian5.Notice(L_default.invalidWidth());
+      new import_obsidian6.Notice(L_default.invalidWidth());
       return;
     }
     setProcessing(true);
     await save(
       app,
-      root,
+      root2,
       title,
       formData["2x"],
       formData.format,
@@ -41708,58 +41947,25 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
       app.isMobile
     );
     setProcessing(false);
-  }, [root, formData["2x"], formData.format, title, formData.width]);
-  const handleCopy = (0, import_react7.useCallback)(async () => {
+  }, [root2, formData["2x"], formData.format, title, formData.width]);
+  const handleCopy = (0, import_react10.useCallback)(async () => {
     if ((formData.width || 640) <= 20) {
-      new import_obsidian5.Notice(L_default.invalidWidth());
+      new import_obsidian6.Notice(L_default.invalidWidth());
       return;
     }
     setProcessing(true);
-    await copy(root, formData["2x"], formData.format);
+    await copy(root2, formData["2x"], formData.format);
     setProcessing(false);
-  }, [root, formData["2x"], formData.format, title, formData.width]);
-  (0, import_react7.useEffect)(() => {
-    const props = {
-      monitor: false,
-      mode: "interval",
-      visible: formData.watermark.enable,
-      rotate: formData.watermark.rotate ?? -30,
-      opacity: formData.watermark.opacity ?? 0.2,
-      height: formData.watermark.height ?? 64,
-      width: formData.watermark.width ?? 120,
-      gapX: formData.watermark.x ?? 100,
-      gapY: formData.watermark.y ?? 100
-    };
-    if (formData.watermark.type === "text") {
-      props.text = formData.watermark.text.content;
-      props.fontSize = formData.watermark.text.fontSize || 16;
-      props.fontColor = formData.watermark.text.color || "#cccccc";
-      props.image = void 0;
-    } else {
-      props.image = formData.watermark.image.src;
+  }, [root2, formData["2x"], formData.format, title, formData.width]);
+  return /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-root" }, /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-main" }, /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-left" }, /* @__PURE__ */ import_react11.default.createElement(
+    FormItems_default,
+    {
+      formSchema,
+      update: setFormData,
+      settings: formData,
+      app
     }
-    setWatermarkProps(props);
-  }, [formData]);
-  return /* @__PURE__ */ import_react8.default.createElement("div", { className: "export-image-preview-root" }, /* @__PURE__ */ import_react8.default.createElement("div", { className: "export-image-preview-main" }, /* @__PURE__ */ import_react8.default.createElement("div", { className: "export-image-preview-left" }, formSchema.map(
-    (fieldSchema) => isShow(fieldSchema, formData) && /* @__PURE__ */ import_react8.default.createElement(
-      "div",
-      {
-        className: "setting-item",
-        key: fieldSchema.path,
-        style: { padding: "10px 0" }
-      },
-      /* @__PURE__ */ import_react8.default.createElement("div", { className: "setting-item-info" }, /* @__PURE__ */ import_react8.default.createElement("div", { className: "setting-item-name" }, fieldSchema.label), fieldSchema.desc && /* @__PURE__ */ import_react8.default.createElement("div", { className: "setting-item-description" }, fieldSchema.desc)),
-      /* @__PURE__ */ import_react8.default.createElement("div", { className: "setting-item-control" }, /* @__PURE__ */ import_react8.default.createElement(
-        Control_default,
-        {
-          fieldSchema,
-          setting: formData,
-          updata: setFormData,
-          app
-        }
-      ))
-    )
-  ), /* @__PURE__ */ import_react8.default.createElement("div", { className: "info-text" }, L_default.moreSetting())), /* @__PURE__ */ import_react8.default.createElement("div", { className: "export-image-preview-right" }, /* @__PURE__ */ import_react8.default.createElement(
+  ), /* @__PURE__ */ import_react11.default.createElement("div", { className: "info-text" }, L_default.moreSetting())), /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-right" }, /* @__PURE__ */ import_react11.default.createElement(
     "div",
     {
       className: "export-image-preview-out",
@@ -41769,13 +41975,13 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
         cursor: isGrabbing ? "grabbing" : "grab"
       }
     },
-    /* @__PURE__ */ import_react8.default.createElement(
+    /* @__PURE__ */ import_react11.default.createElement(
       TransformWrapper,
       {
         minScale: Math.min(
           1,
-          mainHeight / root.clientHeight,
-          (previewOutRef.current?.clientWidth || 400) / (root.clientWidth + 2)
+          mainHeight / root2.clientHeight,
+          (previewOutRef.current?.clientWidth || 400) / (root2.clientWidth + 2)
         ) / 2,
         maxScale: 4,
         pinch: { step: 20 },
@@ -41784,7 +41990,7 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
         onPanning: () => setIsGrabbing(true),
         onPanningStop: () => setIsGrabbing(false)
       },
-      /* @__PURE__ */ import_react8.default.createElement(
+      /* @__PURE__ */ import_react11.default.createElement(
         TransformComponent,
         {
           wrapperStyle: {
@@ -41798,94 +42004,45 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
             boxShadow: "0 0 10px 10px rgba(0,0,0,0.15)"
           }
         },
-        /* @__PURE__ */ import_react8.default.createElement(
-          "div",
+        /* @__PURE__ */ import_react11.default.createElement(
+          Target_default,
           {
-            className: `export-image-root ${(frontmatter?.cssclasses || []).join(" ")}`,
-            style: {
-              display: "flex",
-              flexDirection: formData.authorInfo.position === "bottom" ? "column" : "column-reverse",
-              backgroundColor: formData.format === "png" ? "unset" : "var(--background-primary)"
-            }
-          },
-          /* @__PURE__ */ import_react8.default.createElement(src_default, { ...watermarkProps }, /* @__PURE__ */ import_react8.default.createElement(
-            "div",
-            {
-              className: "markdown-preview-view markdown-rendered export-image-preview-container",
-              style: {
-                width: `${formData.width}px`,
-                transition: "width 0.25s"
-              }
-            },
-            formData.showFilename && /* @__PURE__ */ import_react8.default.createElement("div", { className: "inline-title", autoCapitalize: "on" }, title),
-            formData.showMetadata && frontmatter && Object.keys(frontmatter).length > 0 && /* @__PURE__ */ import_react8.default.createElement(
-              "div",
-              {
-                className: "metadata-container",
-                style: { display: "block" }
-              },
-              /* @__PURE__ */ import_react8.default.createElement("div", { className: "metadata-content" }, Object.keys(frontmatter).map((name) => /* @__PURE__ */ import_react8.default.createElement(
-                Metadata_default,
-                {
-                  name,
-                  key: name,
-                  value: frontmatter[name],
-                  type: metadataMap[name]?.type || "text"
-                }
-              )))
-            ),
-            /* @__PURE__ */ import_react8.default.createElement("div", { ref: contentRef })
-          )),
-          formData.authorInfo.show && (formData.authorInfo.avatar || formData.authorInfo.name) && /* @__PURE__ */ import_react8.default.createElement(
-            "div",
-            {
-              className: "user-info-container",
-              style: {
-                [formData.authorInfo.position === "top" ? "borderBottom" : "borderTop"]: "1px solid var(--background-modifier-border)",
-                justifyContent: alignMap[formData.authorInfo.align || "right"],
-                background: formData.format === "png" ? "unset" : "var(--background-primary)"
-              }
-            },
-            formData.authorInfo.avatar && /* @__PURE__ */ import_react8.default.createElement(
-              "div",
-              {
-                className: "user-info-avatar",
-                style: {
-                  backgroundImage: `url(${formData.authorInfo.avatar})`
-                }
-              }
-            ),
-            formData.authorInfo.name && /* @__PURE__ */ import_react8.default.createElement("div", null, /* @__PURE__ */ import_react8.default.createElement("div", { className: "user-info-name" }, formData.authorInfo.name), formData.authorInfo.remark && /* @__PURE__ */ import_react8.default.createElement("div", { className: "user-info-remark" }, formData.authorInfo.remark))
-          )
+            frontmatter,
+            markdownEl,
+            setting: formData,
+            metadataMap,
+            app,
+            title
+          }
         )
       )
     )
-  ), /* @__PURE__ */ import_react8.default.createElement("div", { className: "info-text" }, L_default.guide()))), /* @__PURE__ */ import_react8.default.createElement("div", { ref: actionsRef, className: "export-image-preview-actions" }, /* @__PURE__ */ import_react8.default.createElement("button", { onClick: handleCopy, disabled: processing }, L_default.copy()), /* @__PURE__ */ import_react8.default.createElement("button", { onClick: handleSave, disabled: processing }, app.isMobile ? L_default.saveVault() : L_default.save())));
+  ), /* @__PURE__ */ import_react11.default.createElement("div", { className: "info-text" }, L_default.guide()))), /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-actions" }, /* @__PURE__ */ import_react11.default.createElement("button", { onClick: handleCopy, disabled: processing }, L_default.copy()), /* @__PURE__ */ import_react11.default.createElement("button", { onClick: handleSave, disabled: processing }, app.isMobile ? L_default.saveVault() : L_default.save())));
 };
 var ModalContent_default = ModalContent;
 
-// src/exportImage.tsx
+// src/components/file/exportImage.tsx
 async function exportImage_default(app, settings, markdown, file, frontmatter) {
   const el = document.createElement("div");
-  import_obsidian6.MarkdownRenderer.render(
+  import_obsidian7.MarkdownRenderer.render(
     app,
     markdown,
     el.createDiv(),
     file.path,
-    app.workspace.getActiveViewOfType(import_obsidian6.MarkdownView) || app.workspace.activeLeaf?.view || new import_obsidian6.MarkdownRenderChild(el)
+    app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView) || app.workspace.activeLeaf?.view || new import_obsidian7.MarkdownRenderChild(el)
   );
-  const modal = new import_obsidian6.Modal(this.app);
+  const modal = new import_obsidian7.Modal(this.app);
   modal.setTitle(L_default.imageExportPreview());
   modal.modalEl.style.width = "85vw";
   modal.modalEl.style.maxWidth = "1500px";
   modal.open();
-  const root = (0, import_client3.createRoot)(modal.contentEl);
+  const root2 = (0, import_client4.createRoot)(modal.contentEl);
   const metadataMap = (
     // @ts-ignore
     app.metadataCache.getAllPropertyInfos()
   );
-  root.render(
-    /* @__PURE__ */ import_react9.default.createElement(
+  root2.render(
+    /* @__PURE__ */ import_react12.default.createElement(
       ModalContent_default,
       {
         markdownEl: el,
@@ -41898,17 +42055,18 @@ async function exportImage_default(app, settings, markdown, file, frontmatter) {
     )
   );
   modal.onClose = () => {
-    root?.unmount();
+    root2?.unmount();
   };
 }
 
-// src/ExportImagePlugin.ts
+// src/settings.ts
 var DEFAULT_SETTINGS = {
   width: 640,
   showFilename: true,
   "2x": true,
   format: "jpg",
   showMetadata: false,
+  recursive: false,
   authorInfo: {
     show: false,
     align: "right",
@@ -41933,23 +42091,242 @@ var DEFAULT_SETTINGS = {
     y: 100
   }
 };
-var ExportImagePlugin = class extends import_obsidian7.Plugin {
+
+// src/components/folder/exportFolder.tsx
+var import_react14 = __toESM(require_react());
+var import_obsidian9 = require("obsidian");
+var import_client5 = __toESM(require_client());
+
+// src/components/folder/ModalContent.tsx
+var import_react13 = __toESM(require_react());
+var import_obsidian8 = require("obsidian");
+var formSchema2 = [
+  {
+    label: L_default.setting.recursive(),
+    path: "recursive",
+    type: "boolean"
+  },
+  {
+    label: L_default.includingFilename(),
+    path: "showFilename",
+    type: "boolean"
+  },
+  {
+    label: L_default.imageWidth(),
+    path: "width",
+    type: "number"
+  },
+  {
+    label: L_default.setting.userInfo.show(),
+    path: "authorInfo.show",
+    type: "boolean"
+  },
+  {
+    label: L_default.setting.watermark.enable.label(),
+    path: "watermark.enable",
+    type: "boolean"
+  },
+  {
+    label: L_default.setting.format.title(),
+    path: "format",
+    type: "select",
+    options: [
+      { value: "jpg", text: "jpg" },
+      { value: "png", text: "png" },
+      { value: "pdf", text: "pdf" }
+    ]
+  }
+];
+var ModalContent2 = ({ settings, app, folder, close }) => {
+  const [formData, setFormData] = (0, import_react13.useState)(settings);
+  const [fileList, setFileList] = (0, import_react13.useState)([]);
+  const [selectFiles, setSelectFiles] = (0, import_react13.useState)([]);
+  const [finished, setFinished] = (0, import_react13.useState)(0);
+  const [running, setRunning] = (0, import_react13.useState)(false);
+  const hiddenRef = (0, import_react13.useRef)(null);
+  (0, import_react13.useEffect)(() => {
+    setFormData(settings);
+  }, [settings]);
+  const exportAll = (0, import_react13.useCallback)(async () => {
+    if (running) {
+      return;
+    }
+    setRunning(true);
+    await saveMultipleFiles(
+      selectFiles,
+      formData,
+      setFinished,
+      app,
+      folder.name,
+      hiddenRef.current
+    );
+    setRunning(false);
+    await delay(80);
+    close();
+  }, [
+    running,
+    selectFiles,
+    setFinished,
+    setRunning,
+    formData,
+    close,
+    folder.name
+  ]);
+  (0, import_react13.useEffect)(() => {
+    const fileList2 = [];
+    if (formData.recursive) {
+      const recursiveFileList = (folder2) => {
+        folder2.children.forEach((child) => {
+          if (child instanceof import_obsidian8.TFolder) {
+            recursiveFileList(child);
+          } else if (child instanceof import_obsidian8.TFile && isMarkdownFile(child)) {
+            fileList2.push(child);
+          }
+        });
+      };
+      recursiveFileList(folder);
+    } else {
+      for (let child of folder.children) {
+        if (child instanceof import_obsidian8.TFile && isMarkdownFile(child)) {
+          fileList2.push(child);
+        }
+      }
+    }
+    setFileList(fileList2);
+  }, [formData.recursive, folder]);
+  const selectAll = (0, import_react13.useCallback)(() => {
+    if (fileList.length === selectFiles.length) {
+      setSelectFiles([]);
+    } else {
+      setSelectFiles(fileList);
+    }
+  }, [fileList, selectFiles]);
+  (0, import_react13.useEffect)(() => {
+    const newSelectFiles = selectFiles.filter(
+      (file) => fileList.includes(file)
+    );
+    if (newSelectFiles.length !== selectFiles.length) {
+      setSelectFiles(newSelectFiles);
+    }
+  }, [fileList, selectFiles]);
+  return /* @__PURE__ */ import_react13.default.createElement(import_react13.default.Fragment, null, /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-hidden", ref: hiddenRef }), /* @__PURE__ */ import_react13.default.createElement(
+    "div",
+    {
+      className: "export-image-preview-root",
+      style: {
+        pointerEvents: running ? "none" : "unset",
+        cursor: "not-allowed"
+      }
+    },
+    /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-preview-main" }, /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-preview-left" }, /* @__PURE__ */ import_react13.default.createElement(
+      FormItems_default,
+      {
+        formSchema: formSchema2,
+        update: setFormData,
+        settings: formData,
+        app
+      }
+    )), /* @__PURE__ */ import_react13.default.createElement(
+      "div",
+      {
+        className: "export-image-preview-right",
+        style: { maxHeight: 320, overflowY: "auto" }
+      },
+      fileList.length ? /* @__PURE__ */ import_react13.default.createElement("div", null, /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-preview-file-item export-image-select-all" }, /* @__PURE__ */ import_react13.default.createElement(
+        "input",
+        {
+          type: "checkbox",
+          checked: selectFiles.length === fileList.length,
+          onChange: selectAll
+        }
+      ), /* @__PURE__ */ import_react13.default.createElement("span", { className: "export-image-filename" }, L_default.selectAll()), /* @__PURE__ */ import_react13.default.createElement("span", { className: "export-image-select-number" }, selectFiles.length, "/", fileList.length)), fileList.map((file) => /* @__PURE__ */ import_react13.default.createElement(
+        "div",
+        {
+          className: "export-image-preview-file-item",
+          key: file.path
+        },
+        /* @__PURE__ */ import_react13.default.createElement(
+          "input",
+          {
+            type: "checkbox",
+            checked: selectFiles.includes(file),
+            onChange: (e4) => {
+              if (e4.target.checked) {
+                setSelectFiles([...selectFiles, file]);
+              } else {
+                setSelectFiles(selectFiles.filter((f3) => f3 !== file));
+              }
+            }
+          }
+        ),
+        /* @__PURE__ */ import_react13.default.createElement("span", { className: "export-image-filename", title: file.path }, file.path)
+      ))) : /* @__PURE__ */ import_react13.default.createElement("div", null, L_default.noMarkdownFile())
+    )),
+    /* @__PURE__ */ import_react13.default.createElement(
+      "div",
+      {
+        className: "export-image-preview-actions",
+        style: { justifyContent: "space-around" }
+      },
+      /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-progress-bar", style: { width: "40%" } }, /* @__PURE__ */ import_react13.default.createElement(
+        "div",
+        {
+          className: "export-image-progress-bar-inner",
+          style: {
+            width: `${selectFiles.length ? 100 * (finished / selectFiles.length) : 0}%`
+          }
+        }
+      )),
+      /* @__PURE__ */ import_react13.default.createElement("button", { disabled: selectFiles.length === 0, onClick: exportAll }, L_default.exportAll())
+    )
+  ));
+};
+var ModalContent_default2 = ModalContent2;
+
+// src/components/folder/exportFolder.tsx
+async function exportFolder_default(app, settings, folder) {
+  const modal = new import_obsidian9.Modal(app);
+  modal.setTitle(L_default.exportFolder());
+  modal.modalEl.style.width = "640px";
+  modal.open();
+  const root2 = (0, import_client5.createRoot)(modal.contentEl);
+  root2.render(
+    /* @__PURE__ */ import_react14.default.createElement(
+      ModalContent_default2,
+      {
+        settings,
+        app,
+        folder,
+        close: () => modal.close()
+      }
+    )
+  );
+  modal.onClose = () => {
+    root2?.unmount();
+  };
+}
+
+// src/ExportImagePlugin.ts
+var ExportImagePlugin = class extends import_obsidian10.Plugin {
+  async epxortFile(file) {
+    const frontmatter = getMetadata(file, this.app);
+    const markdown = await this.app.vault.cachedRead(file);
+    exportImage_default(this.app, this.settings, markdown, file, frontmatter);
+  }
   async onload() {
     await this.loadSettings();
     this.registerEvent(
       this.app.workspace.on("file-menu", (menu, file) => {
-        if (isMarkdownFile(file)) {
-          const frontmatter = getMetadata(file, this.app);
+        if (file instanceof import_obsidian10.TFile && isMarkdownFile(file)) {
           menu.addItem((item) => {
             item.setTitle(L_default.exportImage()).setIcon("image-down").onClick(async () => {
-              const markdown = await this.app.vault.cachedRead(file);
-              exportImage_default(
-                this.app,
-                this.settings,
-                markdown,
-                file,
-                frontmatter
-              );
+              await this.epxortFile(file);
+            });
+          });
+        } else if (file instanceof import_obsidian10.TFolder) {
+          menu.addItem((item) => {
+            item.setTitle(L_default.exportFolder()).setIcon("image-down").onClick(async () => {
+              exportFolder_default(this.app, this.settings, file);
             });
           });
         }
@@ -41998,7 +42375,7 @@ var ExportImagePlugin = class extends import_obsidian7.Plugin {
           (async () => {
             const activeFile = this.app.workspace.getActiveFile();
             if (!activeFile || !["md", "markdown"].includes(activeFile.extension)) {
-              new import_obsidian7.Notice(L_default.noActiveFile());
+              new import_obsidian10.Notice(L_default.noActiveFile());
               return;
             }
             const frontmatter = getMetadata(activeFile, this.app);
@@ -42026,7 +42403,7 @@ var ExportImagePlugin = class extends import_obsidian7.Plugin {
     await this.saveData(this.settings);
   }
 };
-var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
+var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -42046,32 +42423,32 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         target: "_blank"
       }
     });
-    new import_obsidian7.Setting(containerEl).setName(L_default.setting.imageWidth.label()).setDesc(L_default.setting.imageWidth.description()).addText((text) => {
+    new import_obsidian10.Setting(containerEl).setName(L_default.setting.imageWidth.label()).setDesc(L_default.setting.imageWidth.description()).addText((text) => {
       text.inputEl.type = "number";
       text.setValue(String(this.plugin.settings.width)).setPlaceholder("640").onChange(async (value) => {
         this.plugin.settings.width = value ? parseInt(value) : void 0;
         await this.update();
       });
     });
-    new import_obsidian7.Setting(containerEl).setName(L_default.setting.filename.label()).setDesc(L_default.setting.filename.desscription()).addToggle((toggle) => {
+    new import_obsidian10.Setting(containerEl).setName(L_default.setting.filename.label()).setDesc(L_default.setting.filename.desscription()).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.showFilename).onChange(async (value) => {
         this.plugin.settings.showFilename = value;
         await this.update();
       });
     });
-    new import_obsidian7.Setting(containerEl).setName(L_default.setting.metadata.label()).addToggle((toggle) => {
+    new import_obsidian10.Setting(containerEl).setName(L_default.setting.metadata.label()).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.showMetadata).onChange(async (value) => {
         this.plugin.settings.showMetadata = value;
         await this.update();
       });
     });
-    new import_obsidian7.Setting(containerEl).setName(L_default.setting["2x"].label()).setDesc(L_default.setting["2x"].description()).addToggle((toggle) => {
+    new import_obsidian10.Setting(containerEl).setName(L_default.setting["2x"].label()).setDesc(L_default.setting["2x"].description()).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings["2x"]).onChange(async (value) => {
         this.plugin.settings["2x"] = value;
         await this.update();
       });
     });
-    new import_obsidian7.Setting(containerEl).setName(L_default.setting.format.title()).setDesc(L_default.setting.format.description()).addDropdown((dropdown) => {
+    new import_obsidian10.Setting(containerEl).setName(L_default.setting.format.title()).setDesc(L_default.setting.format.description()).addDropdown((dropdown) => {
       dropdown.addOptions({
         jpg: L_default.setting.format.jpg(),
         png: L_default.setting.format.png(),
@@ -42081,7 +42458,7 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         await this.update();
       });
     });
-    new import_obsidian7.Setting(containerEl).setHeading().setName(L_default.setting.userInfo.title());
+    new import_obsidian10.Setting(containerEl).setHeading().setName(L_default.setting.userInfo.title());
     let userInfoEl, avatarEl;
     function setAvatar(src) {
       if (src) {
@@ -42091,7 +42468,7 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         avatarEl.style.backgroundImage = "";
       }
     }
-    new import_obsidian7.Setting(containerEl).setName(L_default.setting.userInfo.show()).addToggle((toggle) => {
+    new import_obsidian10.Setting(containerEl).setName(L_default.setting.userInfo.show()).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.authorInfo.show).onChange(async (value) => {
         this.plugin.settings.authorInfo.show = value;
         userInfoEl.style.display = value ? "block" : "none";
@@ -42103,19 +42480,19 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         style: `display: ${this.plugin.settings.authorInfo.show ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian7.Setting(userInfoEl).setName(L_default.setting.userInfo.name()).addText((text) => {
+    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.name()).addText((text) => {
       text.setValue(this.plugin.settings.authorInfo.name || "").onChange(async (value) => {
         this.plugin.settings.authorInfo.name = value;
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian7.Setting(userInfoEl).setName(L_default.setting.userInfo.remark()).addText((text) => {
+    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.remark()).addText((text) => {
       text.setValue(this.plugin.settings.authorInfo.remark || "").onChange(async (value) => {
         this.plugin.settings.authorInfo.remark = value;
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian7.Setting(userInfoEl).setName(L_default.setting.userInfo.avatar.title()).setDesc(L_default.setting.userInfo.avatar.description()).addButton((button) => {
+    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.avatar.title()).setDesc(L_default.setting.userInfo.avatar.description()).addButton((button) => {
       avatarEl = createDiv({
         attr: {
           style: "width: 32px;height: 32px;border-radius: 50%;border:1px solid var(--background-modifier-border)"
@@ -42152,9 +42529,9 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         modal.open();
       });
     });
-    new import_obsidian7.Setting(containerEl).setHeading().setName(L_default.setting.watermark.title());
+    new import_obsidian10.Setting(containerEl).setHeading().setName(L_default.setting.watermark.title());
     let watermarkEl, textWatermarkEl, imageWatermarkEl, previewEl;
-    new import_obsidian7.Setting(containerEl).setName(L_default.setting.watermark.enable.label()).setDesc(L_default.setting.watermark.enable.description()).addToggle((toggle) => {
+    new import_obsidian10.Setting(containerEl).setName(L_default.setting.watermark.enable.label()).setDesc(L_default.setting.watermark.enable.description()).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.watermark.enable).onChange(async (value) => {
         this.plugin.settings.watermark.enable = value;
         watermarkEl.style.display = value ? "block" : "none";
@@ -42167,7 +42544,7 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         style: `display: ${this.plugin.settings.watermark.enable ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian7.Setting(watermarkEl).setName(L_default.setting.watermark.type.label()).setDesc(L_default.setting.watermark.type.description()).addDropdown((dropdown) => {
+    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.type.label()).setDesc(L_default.setting.watermark.type.description()).addDropdown((dropdown) => {
       dropdown.addOption("text", L_default.setting.watermark.type.text()).addOption("image", L_default.setting.watermark.type.image()).setValue(this.plugin.settings.watermark.type ?? "text").onChange(async (value) => {
         this.plugin.settings.watermark.type = value;
         if (value === "text") {
@@ -42185,13 +42562,13 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         style: `display: ${this.plugin.settings.watermark.type === "text" ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian7.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.content()).addText((text) => {
+    new import_obsidian10.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.content()).addText((text) => {
       text.setValue(this.plugin.settings.watermark.text.content ?? "").onChange(async (value) => {
         this.plugin.settings.watermark.text.content = value;
         await this.update();
       });
     });
-    new import_obsidian7.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.color()).addColorPicker((picker) => {
+    new import_obsidian10.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.color()).addColorPicker((picker) => {
       picker.setValue(this.plugin.settings.watermark.text.color ?? "#cccccc").onChange(async (value) => {
         this.plugin.settings.watermark.text.color = value;
         await this.update();
@@ -42202,7 +42579,7 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         await this.update();
       });
     });
-    new import_obsidian7.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.fontSize()).addText((text) => {
+    new import_obsidian10.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.fontSize()).addText((text) => {
       text.inputEl.type = "number";
       text.setValue(`${this.plugin.settings.watermark.text.fontSize ?? "16"}`).setPlaceholder("16").onChange(async (value) => {
         this.plugin.settings.watermark.text.fontSize = value ? parseInt(value) : void 0;
@@ -42226,7 +42603,7 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
       ).value = `${height}`;
       await this.update();
     };
-    new import_obsidian7.Setting(imageWatermarkEl).setName(L_default.setting.watermark.image.src.label()).addButton((button) => {
+    new import_obsidian10.Setting(imageWatermarkEl).setName(L_default.setting.watermark.image.src.label()).addButton((button) => {
       const input = createEl("input", {
         attr: {
           type: "file",
@@ -42262,33 +42639,33 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian7.Setting(userInfoEl).setName(L_default.setting.userInfo.position()).addDropdown((dropdown) => {
+    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.position()).addDropdown((dropdown) => {
       dropdown.setValue(this.plugin.settings.authorInfo.position ?? "bottom").addOptions({ top: "Top", bottom: "Bottom" }).onChange((value) => {
         this.plugin.settings.authorInfo.position = value;
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian7.Setting(userInfoEl).setName(L_default.setting.userInfo.align()).addDropdown((dropdown) => {
+    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.align()).addDropdown((dropdown) => {
       dropdown.setValue(this.plugin.settings.authorInfo.align ?? "right").addOptions({ left: "Left", center: "Center", right: "Right" }).onChange((value) => {
         this.plugin.settings.authorInfo.align = value;
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian7.Setting(watermarkEl).setName(L_default.setting.watermark.opacity()).addText((text) => {
+    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.opacity()).addText((text) => {
       text.inputEl.type = "number";
       text.setPlaceholder("0.2").setValue(`${this.plugin.settings.watermark.opacity ?? 0.2}`).onChange(async (value) => {
         this.plugin.settings.watermark.opacity = value ? Number(value) : void 0;
         await this.update();
       });
     });
-    new import_obsidian7.Setting(watermarkEl).setName(L_default.setting.watermark.rotate()).addText((text) => {
+    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.rotate()).addText((text) => {
       text.inputEl.type = "number";
       text.setPlaceholder("-30").setValue(`${this.plugin.settings.watermark.rotate ?? -30}`).onChange(async (value) => {
         this.plugin.settings.watermark.rotate = value ? Number(value) : void 0;
         await this.update();
       });
     });
-    new import_obsidian7.Setting(watermarkEl).setName(L_default.setting.watermark.width()).addText((text) => {
+    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.width()).addText((text) => {
       text.inputEl.type = "number";
       text.inputEl.addClass("watermark-width-setting");
       text.setPlaceholder("120").setValue(`${this.plugin.settings.watermark.width ?? 120}`).onChange((value) => {
@@ -42296,7 +42673,7 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         this.update();
       });
     });
-    new import_obsidian7.Setting(watermarkEl).setName(L_default.setting.watermark.height()).addText((text) => {
+    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.height()).addText((text) => {
       text.inputEl.type = "number";
       text.inputEl.addClass("watermark-height-setting");
       text.setPlaceholder("64").setValue(`${this.plugin.settings.watermark.height ?? 64}`).onChange((value) => {
@@ -42304,14 +42681,14 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         this.update();
       });
     });
-    new import_obsidian7.Setting(watermarkEl).setName(L_default.setting.watermark.x()).addText((text) => {
+    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.x()).addText((text) => {
       text.inputEl.type = "number";
       text.setPlaceholder("100").setValue(`${this.plugin.settings.watermark.x ?? 100}`).onChange((value) => {
         this.plugin.settings.watermark.x = value ? Number(value) : void 0;
         this.update();
       });
     });
-    new import_obsidian7.Setting(watermarkEl).setName(L_default.setting.watermark.y()).addText((text) => {
+    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.y()).addText((text) => {
       text.inputEl.type = "number";
       text.setPlaceholder("100").setValue(`${this.plugin.settings.watermark.y ?? 100}`).onChange((value) => {
         this.plugin.settings.watermark.y = value ? Number(value) : void 0;
@@ -42323,7 +42700,7 @@ var ImageSettingTab = class extends import_obsidian7.PluginSettingTab {
         style: `display: ${this.plugin.settings.watermark.enable ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian7.Setting(previewEl).setHeading().setName(L_default.setting.preview());
+    new import_obsidian10.Setting(previewEl).setHeading().setName(L_default.setting.preview());
     this.render = renderPreview(previewEl.createDiv(), this.app);
     this.render(this.plugin.settings);
   }

@@ -4787,8 +4787,8 @@ var AdvancedURI = class extends import_obsidian13.Plugin {
       if (file instanceof import_obsidian13.TFile) {
         const fileData = await this.app.vault.read(file);
         const cache = this.app.metadataCache.getFileCache(file);
-        if (cache.sections[0].type == "yaml" && cache.sections[0].position.start.line == 0) {
-          const line = cache.sections[0].position.end.line;
+        if (cache.frontmatterPosition) {
+          const line = cache.frontmatterPosition.end.line;
           const first = fileData.split("\n").slice(0, line + 1).join("\n");
           const last = fileData.split("\n").slice(line + 1).join("\n");
           dataToWrite = first + "\n" + parameters.data + "\n" + last;
