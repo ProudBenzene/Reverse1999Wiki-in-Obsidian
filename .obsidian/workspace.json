@@ -27,7 +27,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md"
+              }
             }
           },
           {
@@ -246,7 +249,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md"
+              }
             }
           }
         ],
@@ -294,6 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,6 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,7 +351,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "84c27a6bbe189864",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/立绘 挖掘艺术 01.png",
