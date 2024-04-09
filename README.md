@@ -18,6 +18,7 @@
 
 ## 鸣谢
 - 1999 方面：
+	- 首先当然是[深蓝互动官方]()，打造出这么一款兼具英伦文化与精美主线剧情的游戏！
 	- 各大在线 1999 Wiki 百科
 		-  [1999中文维基灰机Wiki](https://res1999.huijiwiki.com/wiki/%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8)
 		- [1999哔哩哔哩游戏Wiki](https://wiki.biligame.com/reverse1999/%E9%A6%96%E9%A1%B5)
@@ -30,7 +31,8 @@
 	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet
 	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte
 	- [Blue Topaz Example](https://github.com/PKM-er/Blue-topaz-example) by Cuman
-	- [Blue Topaz Legacy]()
+	- [Blue Topaz Legacy](https://github.com/ProudBenzene/Blue-Topaz-Legacy) sorted by Proudbenzene（我本人）
+	- [PKMer](https://pkmer.cn/)：知识管理社区
 
 
 在排版与资料查找方面，我也参考了以上网站及其玩家的讨论内容。在此也向其他热爱1999游戏的开源者、讨论者表示我的敬意与感谢。
