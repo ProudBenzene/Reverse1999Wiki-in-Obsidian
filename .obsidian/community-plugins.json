@@ -7,7 +7,6 @@
   "better-word-count",
   "obsidian42-brat",
   "buttons",
-  "obsidian-code-tab",
   "cmdr",
   "obsidian-custom-attachment-location",
   "dataview",
@@ -35,5 +34,6 @@
   "calendar",
   "easy-typing-obsidian",
   "longform",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-tabs"
 ]

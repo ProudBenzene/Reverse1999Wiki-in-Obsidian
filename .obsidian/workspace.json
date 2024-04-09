@@ -13,18 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
-            }
-          },
-          {
-            "id": "25263a94d0bfa940",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
             }
           },
           {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -207,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md"
               }
             }
           },
@@ -264,7 +256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +284,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -315,8 +308,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "25263a94d0bfa940",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/尤提姆 挖掘艺术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 06.png",
@@ -325,7 +319,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 01.png",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/至终的仪式 合上眼，美梦将至.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/神秘术 和平至上2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/神秘术 和平至上3.png",
