@@ -65,6 +65,11 @@
     {
       "value": "CANVAS",
       "target": "MemoDefaultCanvasPath"
+    },
+    {
+      "value": "DAILY",
+      "target": "ProcessEntriesBelow",
+      "insert": "InsertAfter"
     }
   ],
   "DeleteThinoDirectly": false,
