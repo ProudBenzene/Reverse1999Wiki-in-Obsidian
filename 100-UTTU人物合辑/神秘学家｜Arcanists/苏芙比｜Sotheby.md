@@ -102,9 +102,9 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
 
-![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
+![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
 ### 另一侧的世界|World on the Other Side
 
@@ -114,19 +114,19 @@ title:
 color: 
 > [!culture]+ 联名高定第二款式｜Daedalus×CB
 > ![](assets/苏芙比｜Sotheby.assets/单品%20苏芙比%2001.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**9800**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**9800**
 > ---
 > 由Daedalus品牌主导的高定低跟鞋，装饰宝石来自Coro-na Borealis品牌。初版从裁量到制作共用时十一个月。由于制作时间过长，导致成品并不适合在此期间长高了的苏芙比。因此Daedalus紧急重新设计定制了第二款。
 
 > [!culture]+ 十六世纪珠宝首饰套装｜Ruby
 > ![](assets/苏芙比｜Sotheby.assets/单品%20苏芙比%2002.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**70000**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**70000**
 > ---
 > 来自苏芙比家族的私人藏品。根据推测，该套藏品出自某位为伊丽莎白一世制作首饰的宝石神秘学家之手，其具体姓名已经不可考据。辗转后由苏芙比家族购入。据悉，这是苏芙比私人首饰收藏中相对亲民的一套。
 
 > [!culture]+ 提丰挂饰｜Typhon
 > ![](assets/苏芙比｜Sotheby.assets/单品%20苏芙比%2003.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.05**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.05**
 > ---
 > 
 ````
@@ -139,13 +139,13 @@ title:
 color: 
 > [!culture]+ 鸢蓝头冠｜Blue Iris Crown
 > ![](assets/苏芙比｜Sotheby.assets/单品%20苏芙比%2004.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**1.2**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**1.2**
 > ---
 > 镶嵌人造宝石的精美头冠，能够有效反射舞台灯光。每年都有众多学生怀抱追梦的热情，从世界各地来到舞蹈学院，他们渴望登上舞台，成为闪闪发光的明日之星——这位飘洋过海、初至学院的少女也不例外。
 
 > [!culture]+ 迸溅的朱红｜Splashing Scarlet
 > ![](assets/苏芙比｜Sotheby.assets/单品%20苏芙比%2005.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**6.5**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**6.5**
 > ---
 > 精心剪裁的芭蕾舞裙，采取了戏剧性的色彩设计。少女向来富于想象力，但她并未想到，梦幻般的机遇会向初来乍到的她如此倾斜。  
 > “你是个有天赋的姑娘，我亲爱的。穿上它吧，你为成为‘她’而生。”

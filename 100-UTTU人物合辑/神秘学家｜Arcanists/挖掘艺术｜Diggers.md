@@ -110,13 +110,13 @@ title:
 color: 
 > [!culture]+ 大大小小镜｜Glasses
 > ![](assets/挖掘艺术｜Diggers.assets/单品%20挖掘艺术%2001.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**67**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**67**
 > ---
 > 一副和谐的、寄托着美好愿景的自制眼镜。“它们代表着携手并进的人们，是你，也是我，朋友！”无论在取意或是仅仅聚焦于其本身的构造，这副眼镜要比它的主人惹眼得多。
 
 > [!culture]+ 泉涌的灵感｜Spring of Inspiration
 > ![](assets/挖掘艺术｜Diggers.assets/单品%20挖掘艺术%2002.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**118**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**118**
 > ---
 > 置于五花八门的容器之中、色泽驳杂、极具透光性的肥皂水们。应受访者的强烈意愿，我们需称之为“伟大缪斯女神所赠的如泉涌般的灵感汪洋”。
 
@@ -135,13 +135,13 @@ title:
 color: 
 > [!culture]+ 闪光半圆仪｜Graphometer
 > ![](assets/挖掘艺术｜Diggers.assets/单品%20挖掘艺术%2004.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**3**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**3**
 > ---
 > 闪闪发光的锡制半圆仪，其上的刻度被多方精准校对过。灵感的缪斯不会凭空产生，当测量世界的角度越大，所得的收获也会更多。
 
 > [!culture]+ 无序圆规｜Unconventional Drawing Compass
 > ![](assets/挖掘艺术｜Diggers.assets/单品%20挖掘艺术%2005.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**2**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**2**
 > ---
 > 相比起画出规整的圆，它的作用是提供有趣的外形，借此启发受尘世束缚的灵感。当事物被剥离创造时的作用，那时，它的艺术性才有了被探讨的价值。
 
