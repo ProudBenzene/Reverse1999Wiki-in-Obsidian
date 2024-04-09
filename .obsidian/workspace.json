@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/templates/UTTU人物合辑.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,6 +288,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -300,14 +301,14 @@
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
+      "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian-memos:Thino": false
+      "obsidian42-brat:BRAT": true
     }
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构造/主页.md",
@@ -346,7 +347,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/和平乌鲁｜Ulu~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets",
-    "000-箱的构造/templates/UTTU人物合辑.md",
     "倒计时.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "000-箱的构造/箱中memos/20240404-6b7059561cb7e93f.md",
