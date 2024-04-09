@@ -123,10 +123,10 @@ body {
   padding-left: 20px;
 }
 
-:is(.markdown-preview-view, .markdown-rendered) pre {
+/*:is(.markdown-preview-view, .markdown-rendered) pre {
   background-color: var(--bc) !important;
   padding: 0px;
-}
+}*/
 
 .tab-container .tab-contents {
   max-height: 600px;
