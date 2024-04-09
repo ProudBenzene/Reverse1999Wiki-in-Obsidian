@@ -18,7 +18,7 @@
 
 ## 鸣谢
 - 1999 方面：
-	- 首先当然是[深蓝互动官方]()，打造出这么一款兼具英伦文化与精美主线剧情的游戏！
+	- 首先当然是[深蓝互动官方](https://www.bluepoch.com/)，打造出这么一款兼具英伦文化与精美主线剧情的游戏！
 	- 各大在线 1999 Wiki 百科
 		-  [1999中文维基灰机Wiki](https://res1999.huijiwiki.com/wiki/%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8)
 		- [1999哔哩哔哩游戏Wiki](https://wiki.biligame.com/reverse1999/%E9%A6%96%E9%A1%B5)

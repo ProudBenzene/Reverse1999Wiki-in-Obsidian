@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,14 +272,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -309,6 +308,7 @@
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "爵士时代.json",
     "葛天.json",
@@ -333,8 +333,7 @@
     "B.md",
     "C.md",
     "A.md",
-    "000-箱的构造/箱的构造教程/结合Thino插件搭建金句展示一条龙.md",
-    "README.md",
+    "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱的构造教程/assets",
     "000-箱的构造/箱的构造教程",
