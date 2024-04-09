@@ -515,7 +515,7 @@
   "background-under-frame@@dark-background-image": "url(https://figure-bed123.oss-cn-beijing.aliyuncs.com/202309090029456.jpg)",
   "anuppuccin-theme-settings@@anp-simple-rainbow-collapse-icon-toggle": true,
   "anuppuccin-custom-background@@anp-background-image-toggle": true,
-  "anuppuccin-custom-background@@anp-background-image-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\")",
+  "anuppuccin-custom-background@@anp-background-image-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404100048569.png\")",
   "anuppuccin-custom-background@@anp-custom-bg-brightness-dark": 0.7,
   "Folder-Image@@folder-image-url": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241513912.png\")",
   "Folder-Image@@folder-image-height": "200px",
@@ -646,6 +646,6 @@
   "crearts@@skins-dark": "skin-dark-default",
   "crearts@@neumorphism": true,
   "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.6,
-  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 2,
+  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 1,
   "Mo-Table@@tbMH-MCXS-MS": true
 }
