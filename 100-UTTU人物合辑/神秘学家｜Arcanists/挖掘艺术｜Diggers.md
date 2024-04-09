@@ -97,11 +97,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
-### 洞二衣着
+### 艺术挖掘者｜The Digger of Art
 
 ````ad-flex
 collapse: open
@@ -126,7 +122,7 @@ color:
 > 一块极简的铁质徽章。当我们谈及“和平与爱”时，你很难再从受访者身上闻到已成惯常的颓丧气质，而能够轻易地察觉到某种平静之外的激进与勇气。
 ````
 
-### ｜
+### 第三种假设｜Another Assumption[^5]
 
 ````ad-flex
 collapse: open
@@ -206,9 +202,45 @@ tab: 挖掘艺术仍在路上｜[UTTU×挖掘艺术]
 
 ## 语音
 
-
+|          情景          |                                                                                                                                                                    语音                                                                                                                                                                     |
+| :------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                              隆重介绍：现在在你面前的，正是将成为伟大艺术家的，始终散播和平希望的，坚持反对陈腐与暴力的——挖掘艺术！<br><br>Ladies and gentlemen, before you stands the great-artist-to-be, the voice of peace, the adversary of banality and violence. I give you -- Diggers!                                                               |
+|         箱中气候         |                                                                                                                  哦不！这下我留在海德公园的艺术要化为一滩油彩了……<br><br>Oh no! My art in Hyde Park is gonna be nothing but splashes of paint …                                                                                                                  |
+|  致未来  <br>信任达到10%解锁  |                               天空缀满钻石，草坪绿意盎然。我躺在带露水的草叶上，听见孩子们奔跑嬉戏的声音……一些人在唱歌，一些人弹吉他。<br><br>In the sky with diamonds, on the grass in green garments. I would lie on the grass, among the dew, listening to the kids running around and playing … Some of the people would be singing, some playing guitar.                                |
+|          孑立          |                                                                          凝视它，可别用手触摸它……像这样，否则的话，你就会——阿嚏！……呼、很好，这只是场没人注意到的即兴表演。<br><br>Simply looking, no touching … if you do this, you will — Atishoo! Phew, good, just an improvised show that nobody noticed.                                                                           |
+|          问候          |                                                                                                                          ……想听什么？我们有很多在一起的时间。<br><br>… What do you wanna hear? We've got plenty of time together.                                                                                                                          |
+|          朝晨          |                                                                           我们应当反对清晨，反对睡眠不足，反对闹钟，反对起床铃！这是对艺术……以及艺术家的严重摧残！<br><br>We should be anti morning, anti sleep deprivation, anti clocks, anti morning alarm! This is vandalism of art … and its artists!                                                                            |
+| 信任-朝晨  <br>信任达到20%解锁 |                                           艺术不舍昼夜，警察却会上班下班。好了朋友，拿着这些烟花和涂料赶紧跑吧。我往东，你往西。<br><br>The creator of arts would work regardless of day and night, but the enforcer of laws would come to work in the day. Now, friend, take these paints and fireworks and run. I'll go east, you west.                                            |
+|          夜暮          |                            啊，黑夜，我的旧友。思绪与话语在静夜的街巷生长，从一人口中，到另一人的耳中。那些年轻的面孔彻夜游荡，而我也在他们之间。<br><br>Hello, my old friend darkness. At night, ideas and words would grow from the silent streets, blown by the wind from one person to another. Faces of the young wander far into the night, and I walk among them.                             |
+| 信任-夜暮  <br>信任达到30%解锁 |                                                                          走吧，上路吧！去乡下，去搭便车，坐在农夫家的马车后，漫无目的地畅聊人生，哲学和艺术。<br><br>Go on, keep on trucking! To the countryside, to hitchhike, to sit behind a farmer's wagon; and talk about life, philosophy, and arts.                                                                          |
+|        帽檐与发鬓         |                                                                                                             我总是在公园前的喷泉那儿刮脸，他们提供镜子。<br><br>I always shave my face at the fountain in the park. That's where you find a mirror.                                                                                                             |
+|         袖与手          |                                                                              对，伸出中指和食指，手掌要向外，就像这样！……祝贺你，朋友，和平在你手中。<br><br>Yes, put out your middle finger and the index finger, palm outward, like this! … Congrats, my friend, you have peace in your hand.                                                                              |
+|        衣着与身形         |                                         你问我为什么要制造镜面肥皂泡？因为新生的艺术风格迈上街头，却无法收获正当的评价。人们步履匆匆，也无一人愿意停留！<br><br>What are the Reflective Bubbles for, you ask? For the new-born arts being ignored and underestimated, for the fact that people bustle past, not even willing to stop and appreciate them!                                         |
+|  嗜好  <br>信任达到40%解锁   |                                            新世界的曙光将刺破夜幕，想象力正在夺权。我们将重新发明这个世界，为了那一天，我还将不停奋进，奋进！奋进！<br><br>The dawn of the new world is about to pierce the night, the power of imagination is taking over. We will reinvent the world; and for that day to come, I shall march, march, and march!                                            |
+|  赞赏  <br>信任达到50%解锁   |                                                                                            噢，我看到了。尽管你总是板着脸，但你身上也有叛逆的火光。<br><br>Oh, I can see it on you. Though you always keep that stern look on your face, I see the sparkles of rebellion.                                                                                             |
+|  亲昵  <br>信任达到60%解锁   |                                                                     我亲爱、亲爱的朋友，你能把这些烟花先拿到大本钟那去吗？别担心，我带上这些拉炮就来……<br><br>My dear, dear friend, can you take these fireworks to the Big Ben first? Don't worry, I will be with you shortly after getting these crackers …                                                                     |
+|         闲谈Ⅰ          |                                        世人已经被蒙蔽了太久！他们屈从于庸俗的现状，而我将用美梦带他们重返生命的真实。不行，这个太小了。<br><br>The vision of men and women has been blinded for too long! They succumbed to the vulgar circumstances, and I will bring them back into the arms of life with dreams. No no, this one is too small.                                         |
+|         闲谈Ⅱ          |                                  当你走在伦敦的街上，你得留神，得小心那些紧抿着嘴，戴着帽子，总是面无表情的人。他们古板，缺少想象力，不具有高智商与审……哦，无意冒犯。<br><br>When you walk on the streets in London, be careful of those lip-pressing, hat-wearing, emotionless passers-by. They are stuffy, stupid, lack of imagination and aesthet- … Oops, no offence.                                  |
+|  独白  <br>信任达到70%解锁   | “在此驻足吧：看这崭新的坟茔……去寻求荫蔽，摆脱茔地的昏暗，摆脱人世以外的苦风。阿多尼斯已然逝去，我们何须惶恐？”……白蝴蝶飞舞在草坪上，这情境如此罕见。<br><br>Here pause: these graves are all too young as yet … From the world's bitter wind Seek shelter in the shadow of the tomb. What Adonais is, why fear we to become? … Here witness: the white butterfly on the lawn, What a rare view we stumbled upon. |
+|          入队          |                                                                                                                                   噢，太棒了！让我们不假思索地上路吧。<br><br>Oh, this is groovy! Let's get on the road.                                                                                                                                    |
+|          战前          |                                                                                                                                                  空前绝后！<br><br>Well, this is outtasight.                                                                                                                                                   |
+|        择选咒语Ⅰ         |                                                                                                                                                         来吧，来吧。<br><br>Come, come.                                                                                                                                                         |
+|        择选咒语Ⅱ         |                                                                                                                                              嘿，嘿！艺术家在这呢！<br><br>Hey, HEY! The artist's here!                                                                                                                                              |
+|        择选高阶咒语        |                                                                                                                                                      我的经典之作！<br><br>This is classic!                                                                                                                                                      |
+|       择选至终的仪式        |                                                                                                                                               向美好的愿景致礼。<br><br>Salute to a better tomorrow.                                                                                                                                               |
+|        释放神秘术Ⅰ        |                                                                                                                                                  勇气的鸣响！<br><br>The resonance of bravery!                                                                                                                                                  |
+|        释放神秘术Ⅰ        |                                                                                                                                        你的道路是什么，老兄？<br><br>What is the road you have taken, my man?                                                                                                                                        |
+|        释放神秘术Ⅱ        |                                                                                                                                                    竖起耳朵，朋友。<br><br>Listen, my friend.                                                                                                                                                     |
+|        释放神秘术Ⅱ        |                                                                                                                                              瞧，多活泼的孩子们。<br><br>Look at these little fellas!                                                                                                                                               |
+|       召唤至终的仪式        |                                                                                                                                         泡影如镜，朋友。<br><br>Bubbles reflect like mirrors, my friend.                                                                                                                                          |
+|         受敌Ⅰ          |                                                                                                                                                             哇！<br><br>Whaaa!                                                                                                                                                              |
+|         受敌Ⅱ          |                                                                                                                                                   可耻的暴力……！<br><br>Shame on violence …!                                                                                                                                                    |
+|         战斗胜利         |                                                                                                                                     当然了，和平需要主动争取。<br><br>Of course, peace needs to be made to happen.                                                                                                                                     |
+|    洞悉  <br>洞悉后解锁     |                                                                                                                                         我听到了，缪斯女神的启示……<br><br>I hear it—the revelation of Muse …                                                                                                                                          |
+|  洞悉之底  <br>获得对应衣着解锁  |                                                                                                           阳光灿烂的日子。曾有过这样的日子，以后也还会有。<br><br>A bright summer day. We once had days like this, and we will have more in the future.                                                                                                           |
 
 [^1]: ==状态异常== 攻击时，*创伤加成*-**25%**（生效后减少1层）
 [^2]: ==特殊== 回合结束时，*激情*-1
 [^3]: ==控制== 无法行动，受到任意攻击后解除
 [^4]: ==控制==：眩晕，石化，噩梦，冰冻，缴械，缄默，封印等限制角色行动的效果
+[^5]: 反对暴力，反对仇恨，反对早起，反对数学。
