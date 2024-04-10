@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-code-tab",
+  "name": "Tab",
+  "version": "1.5.8",
+  "minAppVersion": "0.11.0",
+  "description": "Create tabs in your notes",
+  "author": "Huajin",
+  "authorUrl": "https://github.com/xhuajin/obsidian-tabs",
+  "isDesktopOnly": false
+}

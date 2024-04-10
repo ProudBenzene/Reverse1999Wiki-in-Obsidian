@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,8 +309,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-01-12.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-01-12.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
