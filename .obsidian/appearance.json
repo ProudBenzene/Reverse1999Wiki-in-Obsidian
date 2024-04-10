@@ -1,6 +1,6 @@
 {
   "accentColor": "#efb68e",
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "AnuPpuccin",
   "textFontFamily": "杨任东竹石体",
   "interfaceFontFamily": "Comic Sans MS,手札体-简",
   "monospaceFontFamily": "Fira Code",
@@ -41,6 +41,7 @@
     "[Blue Topaz]myhome 样式",
     "Floating Sidebar Tabs",
     "[Blue Topaz]网址图标",
-    "[PKMer]Code Tab美化"
+    "[PKMer]Code Tab美化",
+    "Blue Topaz Legacy特制版"
   ]
 }
