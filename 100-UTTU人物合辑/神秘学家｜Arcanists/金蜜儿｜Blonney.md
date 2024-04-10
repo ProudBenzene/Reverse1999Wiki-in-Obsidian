@@ -34,6 +34,7 @@ aliases:
 生日: 2024-07-22
 banner_header: "{{filename}}"
 出场章节:
+  - 1.2｜绿湖噩梦
 ---
 ![cover](assets/金蜜儿｜Blonney.assets/立绘%20金蜜儿%2002.png)
 
@@ -98,10 +99,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 粉-粉-粉色女郎｜P-P-Pink Lady
 
 ````ad-flex
@@ -121,7 +118,7 @@ color:
 > ---
 > 某个年轻奢侈品牌的当季新品。受访者并不在意它灾难性的定价与更加灾难性的设计，她只是需要借助它让自己看起来更像个货真价实的“粉色女郎”。
 
-> [!culture]+ ｜
+> [!culture]+ “好孩子”系列玩偶挂饰｜Doll Plushie
 > ![](assets/金蜜儿｜Blonney.assets/单品%20金蜜儿%2003.png)
 > ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**8.5**
 > ---
@@ -140,9 +137,44 @@ tab: 斑斓之中｜Blurred Among Time
 只是融入斑斓。
 
 tab: 402号宿舍的留言板｜Message Board
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
+**9月13日**
 
+珍妮弗，你在哪？
+麦克教授把摄影课换到了今天上午，你没忘吧？
+我和丹妮先过去了。
+
+------------------------------------------
+
+傻姑娘们，我就坐在第二排。
+你们真的睡到课前才起？
+我早上在外面练习健美操——等会儿也去。
+下次不必贴寻人启事。
+
+**9月18日**
+
+            _亲爱的珍妮弗：_
+                _我这儿有两张电影票。_
+                _你愿意和我一起用掉它们吗？_
+                                                   _汉克_
+
+给你的，珍妮弗。
+老天，转告你“亲爱的”们别再托我传话了！
+
+------------------------------------------
+
+谢了～需要小费吗？
+[一张20美元的纸币]
+
+**9月19日**
+
+新派对，朋友们，今晚八点。
+我需要买个新的提包，而你们也该穿点像样的东西了。四点在商场见～
+
+------------------------------------------
+
+下午有艺术史考试，珍妮弗！
 
 tab: 新锐导演｜[UTTU×金蜜儿]
 ![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
@@ -162,5 +194,42 @@ tab: 新锐导演｜[UTTU×金蜜儿]
 ````
 
 ## 语音
+
+|        情景        |                                                                                                                                                                                           语音                                                                                                                                                                                           |
+| :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        初遇        |                                                                                         这就是神秘学家住的地方？……说实话，格调不错。就是缺了点亮色。你介意我换掉房间的窗帘吗？  <br>This is where the arcanists live?… To be fair, not a bad taste, but the place needs a touch of bright colors. Do you mind me changing the curtains?                                                                                          |
+|       箱中气候       |                                                                                                     我讨厌雨天，没有派对、不能旅行，只能和呆——子们一起在室内玩桌游。好了，抓牌吧。  <br>I hate rainy days, no parties, no outings, only getting stuck with these morons to play some board games. Alright, take a card.                                                                                                      |
+|  致未来[信任达到10%解锁]  |                                                                                         人们先爱迪斯科，再恨它，最终杀死它，而现在它在电子流行乐中再次复活……未来没什么不能发生的，亲爱的。  <br>People once loved Disco, then hated it, then killed it, and now they resurrected it in Electropop…. Everthing can happen in the future, dear.                                                                                          |
+|        孑立        |                                                                                                                                      可不是嘛，派对棒极了，连主办人都溜之大吉了。  <br>Where's the lie? The party was very successful, even the host has sneaked away.                                                                                                                                       |
+|        问候        |                                                                                                                                                  ……我希望你最好是真的有很……很重要的事儿。  <br>… You'd better really have something … important to say.                                                                                                                                                  |
+|        朝晨        |                                                                                                           脱脂牛奶和麦片～要不然你以为身材和气球一样，戳一戳就会瘦么？  <br>Always having skimmed milk and cereals for breakfast. Or do you think you can get slim by a poke of the needle like a balloon?                                                                                                           |
+| 信任-朝晨[信任达到20%解锁] | 首先是早餐，然后去商场挑衣服……下午带洁西卡去公园参加宠物聚会，晚上开车去海边烧烤，再为洁西卡拍摄一些用于电影的镜头——动作快点儿，这一天还有好多事呢！  <br>Breakfast first, then some shoppings in the mall … Then I gotta take Jessica to the park for a Pets' Day-out in the afternoon. After that, we are driving to the beach to have a nighttime barbecue. I also need to take a few shots of Jessica for my movie … Hurry up, the day is insanely packed! |
+|        夜暮        |                                                                                                              教授的作业把我的夜生活全——毁了。你是来同情我的吗？那你能帮我写论文吗？  <br>This assignment has ruuuuuined my nightlife. Are you here to show sympathy? Then will you write the essay for me?                                                                                                               |
+| 信任-夜暮[信任达到30%解锁] |                                                                                                                                去买个七彩灯球，挑上你最漂亮的衣裳，接下来我会告诉你什么是真正的舞蹈！  <br>Buy a disco ball and put on your best clothes. I'm gonna show you how to dance!                                                                                                                                |
+|      帽檐与发鬓       |                                                                                                               猜猜我和平时有什么不一样？……哈，我新做了头发，缺少审美的家伙。  <br>Do you see anything different on me today? … Humph, I have my hair made. You have no idea how to appreciate beauty.                                                                                                                |
+|       袖与手        |                                                                                                                                 有意思，好久没遇到流程是从牵手开始的了。  <br>Interesting, it's been a while since I last met someone who would start with holding hands.                                                                                                                                  |
+|      衣着与身形       |                                                                               ……一个无聊的小木偶，我随手买来的，它很搭我的衣服。谁管它是不是很贵，是不是限量款呢——反正我爸爸有的是钱。  <br>Ahem … This is just a random boring doll, I bought it just to match my clothes. Who cares if it's expensive or a limited edition … Dad will pay for it anyway.                                                                               |
+|  嗜好[信任达到40%解锁]   |                                                                                                                                           我喜欢的是……什么无聊的问题？为什么我非得回答？  <br>I like … What a boring question is this? Why do I have to answer it?                                                                                                                                           |
+|  赞赏[信任达到50%解锁]   |                                                                                                                         加入你们或许也不是坏事。你可比学校里那些书呆子和蠢货有趣多了。  <br>Maybe it's not so bad to join your little club. You are much funnier than those dorks in college.                                                                                                                         |
+|  亲昵[信任达到60%解锁]   |                                                                                 是，我知道自己情绪不太稳定，眼光不够长远，过于自我中心，轻浮又朝三暮四……但没办法，这就是我，忍着点吧。  <br>Yes, I know I have quick mood swings, lack of vision, and I'm self-centered, frivolous, and fickle … But this is who I am, you should learn to bear with me.                                                                                 |
+|       闲谈Ⅰ        |                                                                                                                               你好像生来就知道自己该做什么……这样的生活，也、也太无趣了。  <br>You always seem so certain of your life … What a bo- … boring life to live like this.                                                                                                                                |
+|       闲谈Ⅱ        |                                                                                                       玛丽莲……她是个电影明星吗？她简直就是被时尚亲吻过的人，我一定得找个机会搭话才行……  <br>Sweetheart … is she a movie star? She is is defintely blessed by the god of fashion, I have to find a way to talk to her …                                                                                                       |
+|  独白[信任达到70%解锁]   |                  人类和神秘学家，真的无法调合吗？总有很多东西是共通的，比如电影。就像我从电影里了解了人类，人们也可以从电影里了解神秘学家……只是还没有人拍这样一部电影。  <br>Is it true that humans and arcanists cannot live in harmony? We have so many things in common to share and enjoy, like movies. As I learned about humans from the movies, so can humans learned about arcanists … It's just that no one has made such a movie yet.                  |
+|        入队        |                                                                                                                                                                     好吧，天才指挥，你说什么就是什么。  <br>Fine, genius, whatever.                                                                                                                                                                     |
+|        战前        |                                                                                                                                                                      好吧，让我试试看……  <br>Fiiine, I'll give it a try …                                                                                                                                                                      |
+|      择选咒语Ⅰ       |                                                                                                                                                                                  这儿呢～  <br>Over here.                                                                                                                                                                                  |
+|      择选咒语Ⅱ       |                                                                                                                                                                                      所以？  <br>So?                                                                                                                                                                                      |
+|      择选高阶咒语      |                                                                                                                                                                       别让我出汗。  <br>Can't be bothered to sweat it.                                                                                                                                                                       |
+|     择选至终的仪式      |                                                                                                                                                              看好了，这可是特殊表演。  <br>Watch out, this is a special performance.                                                                                                                                                               |
+|      释放神秘术Ⅰ      |                                                                                                                                                                                      喂！  <br>Hey!                                                                                                                                                                                      |
+|      释放神秘术Ⅰ      |                                                                                                                                                                           全力——投球！  <br>One haaaard piiitch!                                                                                                                                                                            |
+|      释放神秘术Ⅱ      |                                                                                                                                                                        呵呵……来吧，宝贝～  <br>Heh heh … come on, baby!                                                                                                                                                                        |
+|      释放神秘术Ⅱ      |                                                                                                                                                                      粉色一直都很衬我～  <br>Pink always looks good on me.                                                                                                                                                                      |
+|     召唤至终的仪式      |                                                                                                                                      他们从天而降，他们骇人邪恶——他们……是我的朋友。  <br>They come out of thin air, they are hideous and evil … They … are my friends.                                                                                                                                      |
+|       受敌Ⅰ        |                                                                                                                                                                                     好痛！  <br>Ouch!                                                                                                                                                                                     |
+|       受敌Ⅱ        |                                                                                                                                                                                   该死！  <br>Damn it!                                                                                                                                                                                    |
+|       战斗胜利       |                                                                                                       好了，派对结束——洗杯子和打扫房间的工作就麻烦各位了，我后面还有约。  <br>Alright, the party's over … Thank you for cleaning up the room and washing those mugs and glasses, I have another round to catch.                                                                                                        |
+|    洞悉[洞悉后解锁]     |                                                                                                                                                            呼——完美的水疗～这是小费，不用找了～  <br>Wuuh … a perfect spa. Keep the change.                                                                                                                                                             |
+|  洞悉之底[获得对应皮肤解锁]  |                                                                                                                                  嗯——我得再做一些修改，把设计做得更精致一些……就像，这样？  <br>Hmm … I should make some adjustments, to perfect the design … Just like … this?                                                                                                                                   |
 
 [^1]: ==同调== *抗暴率*-**25%**（效果可叠加，每层时间独立计算）
