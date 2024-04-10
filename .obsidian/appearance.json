@@ -24,9 +24,6 @@
     "[Buttons]bhomelist",
     "Mac主题代码框",
     "[AnuPpuccin]custom-rainbow-colors",
-    "[AnuPpuccin]custom-background",
-    "[AnuPpuccin]Colorful Frontmatter",
-    "[AnuPpuccin]extended-colorschemes",
     "[Blue Topaz]mytools 样式",
     "[Bon]书库封面",
     "[Buttons]按钮样式",
@@ -42,6 +39,9 @@
     "Floating Sidebar Tabs",
     "[Blue Topaz]网址图标",
     "Blue Topaz Legacy特制版",
-    "[PKMer]Code Tab美化"
+    "[PKMer]Code Tab美化",
+    "[AnuPpuccin]Colorful Frontmatter",
+    "[AnuPpuccin]extended-colorschemes",
+    "[AnuPpuccin]custom-background"
   ]
 }
