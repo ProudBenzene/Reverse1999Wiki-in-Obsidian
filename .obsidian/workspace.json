@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +253,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +269,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,11 +302,12 @@
       "obsidian-projects:Open projects": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/立绘 金蜜儿 01.png",
     "000-箱的构造/主页.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/立绘 金蜜儿 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets",
     "000-箱的构造/常用工具.md",
@@ -325,7 +322,6 @@
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "400-箱外世界/暴雨时间线.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/尤提姆 挖掘艺术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 05.png",
@@ -334,7 +330,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/单品 挖掘艺术 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/至终的仪式 合上眼，美梦将至.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets/神秘术 和平至上2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets",
     "B.md",
     "C.md",
