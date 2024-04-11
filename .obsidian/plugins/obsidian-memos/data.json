@@ -32,8 +32,8 @@
   "SetCustomMemoFooter": true,
   "DefaultLightBackgroundImage": "\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
   "DefaultDarkBackgroundImage": "\"https:a//figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
-  "DefaultLightBackgroundImageForClean": "",
-  "DefaultDarkBackgroundImageForClean": "",
+  "DefaultLightBackgroundImageForClean": "\"https:a//figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
+  "DefaultDarkBackgroundImageForClean": "\"https:a//figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
   "DefaultMemoComposition": "{TIME} {CONTENT}",
   "CommentOnMemos": false,
   "CommentsInOriginalNotes": false,
@@ -87,7 +87,7 @@
   "saveThinoType": "FILE",
   "showDayMark": true,
   "dayMarkRange": "day",
-  "navigation": false,
+  "navigation": true,
   "password": "",
   "needVerify": false,
   "addTagAutomatically": true,
@@ -110,5 +110,5 @@
   "InsertType": "custom",
   "ShareAppendType": "preset",
   "SharePrependType": "preset",
-  "SetFileNameAfterCreate": false
+  "SetFileNameAfterCreate": true
 }
