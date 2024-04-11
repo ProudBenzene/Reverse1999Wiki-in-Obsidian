@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -326,7 +326,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "path:000-箱的构造/ ",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "active": "af813614ff075e65",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "600-箱中日历/2024/2024-01-15.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
