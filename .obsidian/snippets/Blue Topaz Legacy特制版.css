@@ -8641,16 +8641,12 @@ body:is(.thino-default,.thino-frosted-style-default)  div[data-type=thino_view] 
   background-color: var(--background-primary-bg-4-bt, var(--background-primary));
 }
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memolist-wrapper>.memolist-container {
-
   background-color: transparent;
-
 }
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memo-wrapper,
 body:is(.thino-default,.thino-frosted-style-default)    .thino-hover-popover .memo-wrapper, 
 body:is(.thino-default,.thino-frosted-style-default)  .block-language-thino .thino-embed-container .memo-wrapper {
-
   background-color: var(--background-primary-bg-4-bt, var(--background-primary));
-
 }
 div[data-type=thino_view] .memo-editor-wrapper>.tip-text {
 padding-left:1.5em;
@@ -8676,7 +8672,6 @@ body.custom-thino-background.theme-dark div[data-type='thino_view'].workspace-le
 }
 
 body.custom-thino-background.theme-dark div[data-type='thino_view'] #page-wrapper {
-
   background: var(--bg-color-settings-2);
 }
 

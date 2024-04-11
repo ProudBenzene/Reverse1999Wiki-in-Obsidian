@@ -652,5 +652,10 @@
   "blue-topaz-theme@@thino-view-style": "thino-frosted-style",
   "blue-topaz-theme@@thino-view-background": "custom-thino-background",
   "blue-topaz-theme@@thino-background-dark-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")",
-  "blue-topaz-theme@@thino-background-light-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")"
+  "blue-topaz-theme@@thino-background-light-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")",
+  "Blue-Topaz-Legacy@@memos-hide-header": false,
+  "Blue-Topaz-Legacy@@thino-view-style": "thino-frosted-style-default",
+  "Blue-Topaz-Legacy@@thino-view-background": "custom-thino-background",
+  "Blue-Topaz-Legacy@@thino-background-dark-custom": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404120103670.jpg\")",
+  "Blue-Topaz-Legacy@@thino-background-light-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")"
 }
