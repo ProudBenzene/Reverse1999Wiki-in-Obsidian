@@ -27,7 +27,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -62,21 +62,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "d0da3a44ca47439f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md"
+              }
             }
           },
           {
@@ -278,6 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,6 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,7 +320,7 @@
       "obsidian-projects:Open projects": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "838cdc201041ec25",
   "lastOpenFiles": [
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
