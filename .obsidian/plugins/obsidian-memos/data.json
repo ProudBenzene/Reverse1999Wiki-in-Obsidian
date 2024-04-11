@@ -98,7 +98,7 @@
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404061622490.png",
   "MomentsQuote": "The Storm is coming...",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.19",
+  "LastUpdatedVersion": "2.4.20",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -109,5 +109,6 @@
   "ProcessContentTarget": "custom",
   "InsertType": "custom",
   "ShareAppendType": "preset",
-  "SharePrependType": "preset"
+  "SharePrependType": "preset",
+  "SetFileNameAfterCreate": false
 }

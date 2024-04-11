@@ -13,20 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
-                "mode": "source",
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "b20a744b5577a102",
+            "id": "01a698bcaaf4ef95",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -39,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "600-箱中日历/2024/2024-01-15.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -186,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md"
+                "file": "600-箱中日历/2024/2024-01-15.md"
               }
             }
           },
@@ -243,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "600-箱中日历/2024/2024-01-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "600-箱中日历/2024/2024-01-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -271,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,14 +316,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "01a698bcaaf4ef95",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "000-箱的构造/插件/buttons.md",
     "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
     "000-箱的构造/常用工具.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "300-以影像之/300-以影像之.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/templates/角色剧情.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "600-箱中日历/2024/2024-01-15.md",
@@ -341,7 +364,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "白板.canvas"
   ]
 }
