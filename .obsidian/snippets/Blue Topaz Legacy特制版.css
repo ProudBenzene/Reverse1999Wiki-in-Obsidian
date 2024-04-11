@@ -8767,18 +8767,17 @@ body:is(.thino-background-default,.thino-frosted-style,.custom-thino-background,
   --thino-modern-primary:transparent;
 }
 body.thino-frosted-style-default  div[data-type=thino_view] .modern#page-wrapper:is(.memos-chat-view,.memos-moments-view,.memos-list-view,.memos-table-view,.memos-calendar-view,.memos-waterfall-view) 
-
-  {
-    --thino-modern-primary: var(--bg-color-settings-0-1);
-    --thino-modern-secondary: transparent;
-  }
-  body.thino-frosted-style-default div[data-type=thino_view] .moments-view .thino-moment-wrapper {
-    border-radius: var(--radius-m);
-    background-color: var(--bg-color-settings-2);
+{
+  --thino-modern-primary: var(--bg-color-settings-0-1);
+  --thino-modern-secondary: transparent;
+}
+body.thino-frosted-style-default div[data-type=thino_view] .moments-view .thino-moment-wrapper {
+  border-radius: var(--radius-m);
+  background-color: var(--bg-color-settings-2);
 }
 body.thino-frosted-style-default div[data-type=thino_view] .moments-view .thino-moment-wrapper:after
 {
-  display:none;
+  display: none;
 }
 body.thino-background-color div[data-type=thino_view].workspace-leaf-content
 {
