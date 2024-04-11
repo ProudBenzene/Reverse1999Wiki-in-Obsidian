@@ -128,7 +128,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,9 +206,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md"
-              }
+              "state": {}
             }
           },
           {
@@ -265,7 +262,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +278,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,10 +312,43 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "67d1f4d9569a4fd0",
+  "floating": {
+    "id": "aad616b59a0b2622",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d0e933dc9407a848",
+        "type": "window",
+        "children": [
+          {
+            "id": "420d074cb8b34206",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "222103ab4f1fb3cf",
+                "type": "leaf",
+                "state": {
+                  "type": "style-settings",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 165,
+        "y": 71,
+        "width": 1182,
+        "height": 728,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "222103ab4f1fb3cf",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-01-15.md",
+    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
     "000-箱的构造/插件/buttons.md",
     "400-箱外世界/暴雨时间线.md",
