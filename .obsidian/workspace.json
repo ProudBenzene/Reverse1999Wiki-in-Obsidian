@@ -283,7 +283,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,8 +308,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
+    "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/templates/角色剧情.md",
@@ -352,7 +354,6 @@
     "600-箱中日历/2024/2024-01-12.md",
     "README.md",
     "200-相从心生/200-相从心生.md",
-    "300-以影像之/300-以影像之.md",
     "白板.canvas"
   ]
 }
