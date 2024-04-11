@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "80398e7d5b62b885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,9 +318,11 @@
       "obsidian-projects:Open projects": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "80398e7d5b62b885",
   "lastOpenFiles": [
-    "300-以影像之/303-",
+    "000-箱的构造/主页.md",
+    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "300-以影像之/303-角色剧情",
     "300-以影像之/302-支线/未命名",
     "300-以影像之/304-轶事",
     "600-箱中日历/2024/2024-01-15.md",
@@ -322,7 +337,6 @@
     "600-箱中日历/2024/assets",
     "assets/README.assets",
     "assets",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 旁观者2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者1.png",
@@ -346,7 +360,6 @@
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "README.md",
     "爵士时代.json",
-    "葛天.json",
     "200-相从心生/200-相从心生.md",
     "300-以影像之/300-以影像之.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
