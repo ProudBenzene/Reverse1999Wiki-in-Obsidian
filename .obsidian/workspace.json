@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "preview",
+                "file": "000-箱的构造/插件/buttons.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,32 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f6df53d6a9606bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "01a2c60378addfb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-                "mode": "source",
                 "source": false
               }
             }
@@ -63,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md"
+                "file": "000-箱的构造/插件/buttons.md"
               }
             }
           },
@@ -268,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,13 +294,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b20a744b5577a102",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "300-以影像之/300-以影像之.md",
     "400-箱外世界/暴雨时间线.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
+    "000-箱的构造/常用工具.md",
+    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "300-以影像之/300-以影像之.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/templates/角色剧情.md",
-    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
@@ -362,11 +339,9 @@
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "600-箱中日历/2024/2024-01-12.md",
     "白板.canvas"
   ]
 }
