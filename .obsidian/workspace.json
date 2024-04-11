@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "a27e8ba75d082334",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,13 +305,18 @@
       "obsidian-projects:Open projects": true
     }
   },
-  "active": "a27e8ba75d082334",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
+    "300-以影像之/303-",
+    "300-以影像之/302-支线/未命名",
+    "300-以影像之/304-轶事",
+    "600-箱中日历/2024/2024-01-15.md",
+    "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
+    "000-箱的构造/箱中memos/20240411-f91cc6faa7826ba1.md",
     "000-箱的构造/箱中memos/20240411-c8e4ed2eb7ad4bfb.md",
     "000-箱的构造/箱中memos/20240411-60b56e73107bc56a.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "000-箱的构造/箱中memos/memos.thino.md",
-    "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240411-22e1a61a2324fe1a.md",
     "600-箱中日历/2024/assets/README.assets",
     "600-箱中日历/2024/assets",
@@ -356,12 +352,7 @@
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "400-箱外世界/暴雨时间线.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/挖掘艺术｜Diggers.assets",
     "B.md",
-    "C.md",
-    "A.md",
-    "000-箱的构造/箱的构造教程/assets",
-    "000-箱的构造/箱中memos/20240408-bd83d5ec7ae46897.md",
     "白板.canvas"
   ]
 }
