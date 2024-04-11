@@ -58,7 +58,7 @@ banner_header: "{{filename}}"
 ## 神秘术
 
 > [!skill]- 旁观者
-> ![旁观者 二阶|150](assets/喀嚓喀嚓｜Click.assets/神秘术%20旁观者2.png)
+> ![旁观者 二阶|100](assets/喀嚓喀嚓｜Click.assets/神秘术%20旁观者2.png)
 > 
 > | 等级 |                             类型                             |                             技能                             |                   文化                   |
 > | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------: |
@@ -68,7 +68,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 见证者
-> ![见证者 一阶](assets/喀嚓喀嚓｜Click.assets/神秘术%20见证者1.png)
+> ![见证者 一阶|100](assets/喀嚓喀嚓｜Click.assets/神秘术%20见证者1.png)
 > 
 > | 等级 |                             类型                             |                        技能                        |                             文化                             |
 > | :--: | :----------------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------: |
@@ -78,7 +78,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 昂贵的好照片
-> ![昂贵的好照片|150](assets/喀嚓喀嚓｜Click.assets/至终的仪式%20昂贵的好照片.png)
+> ![昂贵的好照片|100](assets/喀嚓喀嚓｜Click.assets/至终的仪式%20昂贵的好照片.png)
 > 
 > |                             技能                             |                             文化                             |
 > | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -167,6 +167,43 @@ tab: 迟钝与敏锐｜[UTTU×喀嚓喀嚓]
 ````
 
 ## 语音
+
+|        情景        |                                                                                                                                                  语音                                                                                                                                                  |
+| :--------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        初遇        |                                                                                                                               您的帽子歪了，小姐。  <br>Ms., your hat is tilted.                                                                                                                               |
+|       箱中气候       |                                                                   光线还是恰当为好，太强烈会使画面过曝……胶卷要用在刀刃上。  <br>Lighting needs to be appropriate. Too bright will cause overexposure … And the films should be saved for sensational moments.                                                                   |
+|  致未来[信任达到10%解锁]  |                                             硝烟从未彻底散去，只是味道或浓或淡的问题……我一直会记录到它们消失的那一天。  <br>The smoke of war has never fully cleared. It just occasionally gets thinner … I will follow it and keep photographing it until the day it eventually dissipates.                                             |
+|        孑立        |                                                                                                         我再也不怕地雷了……不对，我就没害怕过地雷。  <br>I am no longer afraid of land mines … Wait, I never was.                                                                                                         |
+|        问候        |                                                                                                             如果可以……我希望您能先敲门。  <br>If possible … a knock on the door will be appreciated.                                                                                                              |
+|        朝晨        |                                                                                说不上是害怕，但我现在不太喜欢阳光……或许我需要一副墨镜？  <br>I am not afraid of the sun. I just dislike being exposed to it … Maybe I need a pair of sunglasses?                                                                                |
+| 信任-朝晨[信任达到20%解锁] |                                                                                如果您有兴趣，我可以带您去我的“职场”看看，嗯……请自备头盔。  <br>If you are interested, I can show you my "workplace." Hmm … remember to take your safety helmet.                                                                                 |
+|        夜暮        |                                           那些轰炸总是会在夜晚来临，所以在深夜还能保持清醒未尝不是一件好事……无论是作为普通人还是战地记者都是如此。  <br>Those air raids always strike at night, so it is probably a good thing to stay awake late at night … no matter as a civilian or a war correspondent.                                            |
+| 信任-夜暮[信任达到30%解锁] | 防空洞内不分昼夜……但并不压抑，有时候，很少一部分时候，人们甚至有心情在一片黑暗中享用下午茶……我也一样。拍这种照片的时候我的心情总要好得多。  <br>There's no day and night in the air-raid shelter … but it's not depressing. Sometimes, not frequently, people enjoy the afternoon tea in the dark … so do I. Taking photos of them sometimes makes me feel much better. |
+|      帽檐与发鬓       |                                                                                                    我有过一个很结实的头盔，后来、后来发生了什么来着……？  <br>I once had a strong helmet. And then … then what happened …?                                                                                                     |
+|       袖与手        |                                      对焦基线100mm，最高快门速度1/1250秒，而且密封性极好……没有什么比它更适合穿梭废墟，记录真实。  <br>Baseline 100mm, shutter speed 1/1250 of a second; it's very resilient … This camera is the best device to take with me to cross the ruins and record the truth.                                       |
+|      衣着与身形       |                                                                                                  虽然看得到，但是却碰不着……没有比这状态更适合当一名记者了。  <br>I am visible but impalpable … This is ideal for a journalist.                                                                                                   |
+|  嗜好[信任达到40%解锁]   |                                                                                                               或者，有时，我会无所事事地漂浮……  <br>Or … sometimes, I have nothing to do but float …                                                                                                                |
+|  赞赏[信任达到50%解锁]   |                                                                                              《维尔汀小姐的盛大冒险》，同样是一组值得珍藏的精彩影集。  <br>_The Great Adventure of Ms. Vertin_, another memorable photo portfolio.                                                                                               |
+|  亲昵[信任达到60%解锁]   |                                                                                                       您……介意我将您的照片收入摄影集中吗？  <br>Do you … mind me putting these photos of you into my portfolio?                                                                                                       |
+|       闲谈Ⅰ        |                                                                        三百二十米以外的大厅内正在发生激烈的争辩，其源头是狼与……百合花，抱歉，我要走了。  <br>A quarrel is happening in the hall 320 meters away. It's the wolf and … the lily. Sorry, I have to go.                                                                         |
+|       闲谈Ⅱ        |                                                            这张就有趣得多了，一只白色的猫和一个女人的冲突……它看起来不太爱吃蔬菜，因为猫本来就不爱吃蔬菜。  <br>This one is much funnier. A white kitten is confronting a lady … It seems not into vegetables because cats just aren't.                                                             |
+|  独白[信任达到70%解锁]   |                                        战地记者是一份好差事吗？……它成就了我，也杀死了我。但我还能继续拍摄，我想这不是什么大问题。  <br>Is war correspondent a good occupation?… It shaped me into somebody but also took my life away. Now I can still take photos, so I think death is not a bad ending.                                        |
+|        入队        |                                                                                                                           并肩作战……就像战友？  <br>Standing by you … like an ally?                                                                                                                           |
+|        战前        |                                                                                                           亲临战场，就像是我一直都在做的那样。  <br>Join the battlefield, like what I've always been doing.                                                                                                            |
+|      择选咒语Ⅰ       |                                                                                                                                    疯狂的构图。  <br>Bold composition.                                                                                                                                     |
+|      择选咒语Ⅱ       |                                                                                                                             等等，我换个角度。  <br>One sec, need a better angle.                                                                                                                             |
+|      择选高阶咒语      |                                                                                                                                          哈啊——  <br>Ha ah …                                                                                                                                           |
+|     择选至终的仪式      |                                                                                                                                ……很好！足够近了。  <br>… Good! Close enough.                                                                                                                                 |
+|      释放神秘术Ⅰ      |                                                                                                                                 时机正好！  <br>Got it in the right time!                                                                                                                                 |
+|      释放神秘术Ⅰ      |                                                                                                                                  ……差点就错过了。  <br>… Almost missed it.                                                                                                                                  |
+|      释放神秘术Ⅱ      |                                                                                                                                一张优秀的素材。  <br>A satisfactory negative.                                                                                                                                |
+|      释放神秘术Ⅱ      |                                                                                                                                美好的回忆……  <br>What an amazing memory …                                                                                                                                 |
+|     召唤至终的仪式      |                                                                                                                       一个值得被历史记录的时刻。  <br>A historic moment for commemoration.                                                                                                                        |
+|       受敌Ⅰ        |                                                                                                                                   呃……我的相机！  <br>Urrgh … My camera!                                                                                                                                   |
+|       受敌Ⅱ        |                                                                                                                                            ——不！  <br>No!                                                                                                                                             |
+|       战斗胜利       |                                                                                                                胶卷消耗得有些多……不过一切都很值得。  <br>I used too many films … but it is worthwhile.                                                                                                                |
+|    洞悉[洞悉后解锁]     |                                                                                                            这本摄影集……你要买下吗？……我很荣幸！  <br>This portfolio … you wanna buy it? … It is my honor!                                                                                                            |
+|  洞悉之底[获得对应皮肤解锁]  |                                                                                                                                 ……一个完美的瞬间！  <br>… A perfect moment!                                                                                                                                  |
 
 [^1]: ==特殊== 被现实创伤攻击时，*受创减免*+**50%**
 [^2]: ==特殊== 单体攻击时，*创伤加成*-**30%**
