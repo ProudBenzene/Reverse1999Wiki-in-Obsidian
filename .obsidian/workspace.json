@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -303,13 +303,16 @@
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
-      "obsidian-projects:Open projects": true
+      "obsidian-projects:Open projects": true,
+      "obsidian42-brat:BRAT": false,
+      "templify:Templify 市场": false
     }
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
+    "600-箱中日历/2024/2024-01-15.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "000-箱的构造/主页.md",
@@ -322,7 +325,6 @@
     "300-以影像之/303-角色剧情",
     "300-以影像之/302-支线/未命名",
     "300-以影像之/304-轶事",
-    "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
     "000-箱的构造/箱中memos/20240411-f91cc6faa7826ba1.md",
     "000-箱的构造/箱中memos/20240411-c8e4ed2eb7ad4bfb.md",
