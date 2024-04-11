@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "838cdc201041ec25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -50,8 +62,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "d0da3a44ca47439f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +144,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -197,9 +222,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +278,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +294,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +304,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,13 +327,19 @@
       "obsidian-projects:Open projects": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-01-15.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/喀嚓喀嚓｜Click.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/立绘 喀嚓喀嚓 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/立绘 喀嚓喀嚓 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-01-15.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/尤提姆 金蜜儿.png",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/单品 金蜜儿 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/单品 金蜜儿 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/单品 金蜜儿 01.png",
@@ -320,9 +348,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/神秘术 电锯惊魂2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/神秘术 电锯惊魂3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/神秘术 电锯惊魂1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/神秘术 狂笑之兔2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets/神秘术 狂笑之兔3.png",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "600-箱中日历/2024/2024-01-12.md",
@@ -347,12 +372,8 @@
     "000-箱的构造/箱中memos/20240408-ea061373635b19fb.md",
     "000-箱的构造/箱中memos/20240408-e2f1e6555945b2d5.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坎吉拉｜Kanjira.assets",
-    "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/沙丝绒｜Desert Flannel.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/沙丝绒｜Desert Flannel.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/和平乌鲁｜Ulu.assets",
     "白板.canvas"
   ]
 }

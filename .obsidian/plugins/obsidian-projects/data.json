@@ -124,7 +124,7 @@
         },
         {
           "config": {
-            "coverField": "洞悉立绘",
+            "coverField": "本色立绘",
             "fitStyle": "cover",
             "includeFields": [
               "English Name",
