@@ -44,7 +44,7 @@
   "MemoListView": "list",
   "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
-    "MemoDefaultCanvasPath": "basic.thino.canvas",
+    "MemoDefaultCanvasPath": "memos.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
     "MemoDefaultSingleFilePath": "000-箱的构造/箱中memos/memos.thino.md"
   },
