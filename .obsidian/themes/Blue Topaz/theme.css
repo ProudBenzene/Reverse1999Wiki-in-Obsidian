@@ -19968,38 +19968,39 @@ body.hider-memos-modern-banner div[data-type=thino_view] .memos-moments-view.mod
 }
 body.hider-memos-modern-banner  div[data-type=thino_view] .view-header:has(+.view-content>.memos-moments-view.modern) {
   display: none;
-}
-body.hider-memos-modern-banner div[data-type=thino_view] .memos-moments-view.modern .moments-view .moments-view-background-wrapper .moments-view-background-overlay .moments-view-user-info .moments-view-user-icon
-{
+}body.hider-memos-modern-banner div[data-type=thino_view] .memos-moments-view.modern .moments-view .moments-view-background-wrapper .moments-view-background-overlay .moments-view-user-info .moments-view-user-icon {
   width: 40px;
   height: 40px;
-  margin-top: -12px;;
+  margin-top: -12px;
+  ;
 }
- body:is(.custom-thino-background,.thino-background-color) div[data-type='thino_view'] .view-content  
- {
-  background: var(--bg-color-settings-0-1) ;
- }
- body.thino-frosted-style-default:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content ,
-  body.thino-frosted-style:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content  {
-  background: var(--bg-color-settings-2) ;
+
+body:is(.custom-thino-background, .thino-background-color) div[data-type='thino_view'] .view-content {
+  background: var(--bg-color-settings-0-1);
+}
+
+body.thino-frosted-style-default:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content,
+body.thino-frosted-style:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content {
+  background: var(--bg-color-settings-2);
   backdrop-filter: blur(20px);
-  width: 95% ;
-  height: 95% ;
+  width: 95%;
+  height: 95%;
   margin: auto;
-  box-shadow: var( --window-shadow2);
-  border-radius:var(--radius-l);
+  box-shadow: var(--window-shadow2);
+  border-radius: var(--radius-l);
 }
-body:is(.thino-frosted-style,.custom-thino-background,.thino-background-color)  div[data-type=thino_view] #page-wrapper:is(.memos-chat-view,.memos-moments-view,.memos-list-view,.memos-table-view,.memos-calendar-view,.memos-waterfall-view) {
-  background: var(--bg-color-settings-2) ;
-  
+
+body:is(.thino-frosted-style, .custom-thino-background, .thino-background-color) div[data-type=thino_view] #page-wrapper:is(.memos-chat-view, .memos-moments-view, .memos-list-view, .memos-table-view, .memos-calendar-view, .memos-waterfall-view) {
+  background: var(--bg-color-settings-2);
+
 }
- 
+
 /**memos 输入框移到下方***/
 body.memos-inputbox div[data-type='thino_view']:not(.mobile-view) #page-wrapper .memo-editor-wrapper {
   bottom: 0;
   margin-bottom: -145px;
   position: absolute;
-  padding:8px;
+  padding: 8px;
 }
 body.memos-inputbox div[data-type='thino_view']:not(.mobile-view) .memolist-wrapper.completed {
   padding-bottom: 20px;
