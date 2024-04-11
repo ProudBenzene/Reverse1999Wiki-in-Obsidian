@@ -128,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,8 +317,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "01a698bcaaf4ef95",
+  "active": "505ef6197b513e67",
   "lastOpenFiles": [
+    "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/插件/buttons.md",
@@ -329,7 +330,6 @@
     "300-以影像之/300-以影像之.md",
     "000-箱的构造/templates/角色剧情.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
-    "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",

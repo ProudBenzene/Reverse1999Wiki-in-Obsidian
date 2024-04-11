@@ -1512,6 +1512,165 @@ settings:
       type: class-toggle
       default: true
       description: 在主笔记属性面板不受影响的前提下关闭Hover Editor预览模式下的属性面板
+    -
+      id: style-options-for-Thino-plugin-heading
+      title: 3.9 ✏️Thino
+      description: Adapted from @Quorafind's Thino Plugin
+      type: heading
+      level: 2
+      collapsed: false
+    -
+      id: style-options-for-Thino-plugin-heading-1
+      title: Thino  style
+      title.zh: Thino  全局样式
+      type: heading
+      level: 2
+      collapsed: true
+    -
+      id: memos-inputbox
+      title: Put input box to bottom
+      title.zh: PC端Thino输入框置于页面底部
+      type: class-toggle
+      default: false
+    -
+      id: memos-hide-header
+      title: hider Thino header
+      title.zh: 隐藏thino 视图的头部
+      type: class-toggle
+      default: false
+    -
+      id: memos-scroll
+      title: add Thino list scroll
+      title.zh: 列表 瀑布流模式下给thino 增加一个滚动条
+      type: class-toggle
+      default: false
+    -
+      id: hider-memos-modern-banner
+      title: hide thino modern moment banner
+      title.zh: 隐藏Thino modern 主题下的动态视图的banner
+      type: class-toggle
+      default: false
+    -
+      id: memos-banner-gradient
+      title: moment banner gradient
+      title.zh: 动态视图的 banner 渐变显示
+      type: class-toggle
+      default: true
+    -
+      id: thino-view-style
+      title: thino style
+      title.zh: Thino的风格
+      type: class-select
+      allowEmpty: false
+      default: thino-frosted-style
+      options:
+        -
+          label: default
+          value: thino-default
+        -
+          label: Frosted Style(Transparent)
+          value: thino-frosted-style
+        -
+          label: Frosted Style
+          value: thino-frosted-style-default
+    -
+      id: thino-view-background
+      title: custom thino background
+      title.zh: 自定义Thino背景
+      type: class-select
+      allowEmpty: false
+      default: thino-background-default
+      options:
+        -
+          label: default
+          value: thino-background-default
+        -
+          label: custom color  
+          value: thino-background-color  
+        -
+          label: Custom background img
+          value: custom-thino-background
+    -
+      id: thino-modern-primary
+      title: thino  background color
+      title.zh: thino 背景色
+      type: variable-themed-color
+      opacity: true
+      format: hsl-split
+      default-light: '#ebf3ee'
+      default-dark: '#1e1e1e'
+    -
+      id: thino-background-light-custom
+      title: Custom thino background light (url)
+      title.zh: 自定义Thino背景（亮色模式）
+      description: Customise the background image. Use the format in the Default below for an Online image. 
+      description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置在线图片。 
+      type: variable-text
+      default: url("https://")
+    -
+      id: thino-background-dark-custom
+      title: Custom thino background dark (url)
+      title.zh: 自定义Thino背景（暗色模式）
+      description: Customise the background image. Use the format in the Default below for an Online image. 
+      description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置在线图片。 
+      type: variable-text
+      default: url("https://")
+    -
+      id: style-options-for-Thino-plugin-share-heading
+      title: 3.9.2 Thino share style
+      title.zh: 3.9.2 Thino 卡片分享样式
+      type: heading
+      level: 3
+      collapsed: true
+    -
+      id: hide-share-thino-banner 
+      title: hide share thino banner 
+      title.zh: 隐藏分享Thino的横幅图片
+      type: class-toggle
+      default: false
+    -
+      id: share-thino-style
+      title: share thino style
+      title.zh: Thino分享样式
+      type: class-select
+      allowEmpty: false
+      default: thino-share-default
+      options:
+        -
+          label: default
+          value: thino-share-default
+        -
+          label: Same as workspace background
+          value: share-thino-with-workspace-background
+        -
+          label: Same as  thino  background 
+          value: share-thino-with-thino-background
+        -
+          label: Custom share background
+          value: custom-thino-share-background
+    -
+      id: share-card-background-opacity-cp
+      title: Share Card Background Opacity
+      title.zh: 分享卡片背景透明度
+      type: variable-number-slider
+      default: 0.6
+      min: 0
+      max: 1
+      step: 0.05
+    -
+      id: share-thino-background-light-custom
+      title: Custom thino share background light (url)
+      description: Customise the background image. Use the format in the Default below for an Online image. 
+      description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置在线图片。 
+      type: variable-text
+      default: url("https://")
+    -
+      id: share-thino-background-dark-custom
+      title: Custom thino share background dark (url)
+      description: Customise the background image. Use the format in the Default below for an Online image. 
+      description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置在线图片。 
+      type: variable-text
+      default: url("https://")
 
 
 
