@@ -19092,7 +19092,7 @@ body:not(.custom-thino-background) .setting-item[data-id="thino-background-light
 body:not(.custom-thino-share-background) .setting-item[data-id="share-thino-background-dark-custom"],
 body:not(.custom-thino-share-background) .setting-item[data-id="share-thino-background-light-custom"],
 body:not(.thino-background-color) .setting-item[data-id="thino-modern-primary"]
- {
+{
   display: none;
 }
 body:not(:is(.share-thino-with-workspace-background,.share-thino-with-thino-background,.custom-thino-share-background)) .setting-item[data-id="blur-thino-share-frosted-glass"]

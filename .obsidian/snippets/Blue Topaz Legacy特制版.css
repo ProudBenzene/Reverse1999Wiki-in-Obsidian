@@ -1514,7 +1514,7 @@ settings:
       description: 在主笔记属性面板不受影响的前提下关闭Hover Editor预览模式下的属性面板
     -
       id: style-options-for-Thino-plugin-heading
-      title: 3.9 ✏️Thino
+      title: ✏️Thino
       description: Adapted from @Quorafind's Thino Plugin
       type: heading
       level: 2
@@ -1524,7 +1524,7 @@ settings:
       title: Thino  style
       title.zh: Thino  全局样式
       type: heading
-      level: 2
+      level: 3
       collapsed: true
     -
       id: memos-inputbox
@@ -1617,8 +1617,8 @@ settings:
       default: url("https://")
     -
       id: style-options-for-Thino-plugin-share-heading
-      title: 3.9.2 Thino share style
-      title.zh: 3.9.2 Thino 卡片分享样式
+      title: Thino share style
+      title.zh: Thino 卡片分享样式
       type: heading
       level: 3
       collapsed: true
@@ -1928,7 +1928,12 @@ body {
   --hr-numbers-text-fill: transparent;
   --hr-numbers-text-stroke: var(--text-normal);
 
-
+  /***thino***/
+  --share-thino-background-light-custom:url("https://");
+  --share-thino-background-dark-custom:url("https://");
+  --thino-background-light-custom:url("https://");
+  --thino-background-dark-custom:url("https://");
+  --share-card-background-opacity-cp:0.6;
 }
 
 /**style setting logic  ******/
@@ -1952,6 +1957,19 @@ body:not(.custom-ordered-list) .setting-item[data-id^="list-ol-marker-"] {
 body:not(.fancy-hr-icon) .setting-item[data-id="fancy-hr-folder-icon"],
 body:not(.fancy-hr-no-icon) .setting-item[data-id="fancy-hr-folder-no-icon"],
 body:not(.fancy-hr-number) .setting-item[data-id="fancy-hr-folder-with-number"] {
+  display: none;
+}
+
+body:not(.custom-thino-background) .setting-item[data-id="thino-background-dark-custom"],
+body:not(.custom-thino-background) .setting-item[data-id="thino-background-light-custom"],
+body:not(.custom-thino-share-background) .setting-item[data-id="share-thino-background-dark-custom"],
+body:not(.custom-thino-share-background) .setting-item[data-id="share-thino-background-light-custom"],
+body:not(.thino-background-color) .setting-item[data-id="thino-modern-primary"]
+{
+  display: none;
+}
+body:not(:is(.share-thino-with-workspace-background,.share-thino-with-thino-background,.custom-thino-share-background)) .setting-item[data-id="blur-thino-share-frosted-glass"]
+{
   display: none;
 }
 
