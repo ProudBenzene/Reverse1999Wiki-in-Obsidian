@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -320,8 +320,12 @@
   },
   "active": "80398e7d5b62b885",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
+    "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets/马库斯·灯塔集.jpg",
+    "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets",
+    "300-以影像之/303-角色剧情/assets",
+    "000-箱的构造/主页.md",
     "300-以影像之/303-角色剧情",
     "300-以影像之/302-支线/未命名",
     "300-以影像之/304-轶事",
@@ -347,25 +351,21 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 旁观者3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 旁观者1.png",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/金蜜儿｜Blonney.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "600-箱中日历/2024/2024-01-12.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "README.md",
-    "爵士时代.json",
     "200-相从心生/200-相从心生.md",
     "300-以影像之/300-以影像之.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "400-箱外世界/暴雨时间线.md",
-    "B.md",
     "白板.canvas"
   ]
 }
