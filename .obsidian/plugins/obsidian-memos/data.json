@@ -41,8 +41,8 @@
   "FetchMemosFromNote": false,
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
-  "MemoListView": "waterfall",
-  "MemoSaveLocation": "MULTI",
+  "MemoListView": "chat",
+  "MemoSaveLocation": "FILE",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "basic.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
