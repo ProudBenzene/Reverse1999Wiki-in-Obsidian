@@ -1944,7 +1944,7 @@ body {
   --bg-color-settings-5: #424242aa;
   --bg-color-settings-6: #191919c7;
 
-  
+
 }
 
 /**style setting logic  ******/
@@ -9154,7 +9154,7 @@ body:is(.custom-thino-background,.thino-background-color) div[data-type='thino_v
 body.thino-frosted-style-default:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content ,
   body.thino-frosted-style:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content  {
   background: var(--bg-color-settings-2) ;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
   width: 95% ;
   height: 95% ;
   margin: auto;
