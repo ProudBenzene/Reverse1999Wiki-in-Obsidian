@@ -8654,6 +8654,7 @@ padding-left:1.5em;
 .thino-editor-modal .common-editor-wrapper .common-editor-inputer {
   border: none;
 }
+
 body.custom-thino-background div[data-type='thino_view'].workspace-leaf-content
 {
   background-image: var(--thino-background-light-custom) ;
@@ -8665,12 +8666,11 @@ body.custom-thino-background div[data-type='thino_view'].workspace-leaf-content
 body.custom-thino-background.theme-dark div[data-type='thino_view'].workspace-leaf-content
 {
   background-image: var(--thino-background-dark-custom);
-  --background-primary:var(--bg-color-settings-2);
-  --memos-memo-bg:var(--bg-color-settings-0-1);
-  --memos-memo-border:var(--bg-color-settings-0-1);
+  --background-primary: var(--bg-color-settings-2);
+  --memos-memo-bg: var(--bg-color-settings-0-1);
+  --memos-memo-border: var(--bg-color-settings-0-1);
   background-size: cover;
 }
-
 body.custom-thino-background.theme-dark div[data-type='thino_view'] #page-wrapper {
   background: var(--bg-color-settings-2);
 }
