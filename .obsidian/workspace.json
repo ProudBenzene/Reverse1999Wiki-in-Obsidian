@@ -15,7 +15,7 @@
               "state": {
                 "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -307,14 +307,56 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "floating": {
+    "id": "423e8967eb9d0532",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a94138becf3e3573",
+        "type": "window",
+        "children": [
+          {
+            "id": "bf7de97b0d6931c4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "af813614ff075e65",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "path:000-箱的构造/ ",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 244,
+        "y": 38,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "af813614ff075e65",
   "lastOpenFiles": [
-    "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
+    "600-箱中日历/2024/2024-01-15.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
     "300-以影像之/300-以影像之.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/主页.md",
-    "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",

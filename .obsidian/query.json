@@ -1,3 +1,13 @@
 {
-  "queries": []
+  "queries": [
+    {
+      "createdAt": "2024/04/11 20:07:09",
+      "id": "202404112007090",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TEXT\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"灯塔集\"},\"relation\":\"AND\"},{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"金句\"},\"relation\":\"AND\"}]",
+      "title": "戏剧",
+      "updatedAt": "2024/04/11 20:07:09",
+      "userId": "Thino"
+    }
+  ]
 }

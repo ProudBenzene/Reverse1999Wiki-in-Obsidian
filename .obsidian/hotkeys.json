@@ -98,16 +98,6 @@
       "key": "I"
     }
   ],
-  "clever-search:clever-search-in-vault": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
@@ -115,6 +105,16 @@
         "Shift"
       ],
       "key": "T"
+    }
+  ],
+  "float-search:open-search-view-window": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "F"
     }
   ]
 }
