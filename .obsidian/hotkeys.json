@@ -89,15 +89,6 @@
       "key": "Enter"
     }
   ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
   "quickadd:choice:2e6ec4a7-2119-429e-825c-81753143010c": [
     {
       "modifiers": [
@@ -115,6 +106,15 @@
         "Mod"
       ],
       "key": "F"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
     }
   ]
 }
