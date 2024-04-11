@@ -1,13 +1,13 @@
 {
   "accentColor": "#efb68e",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Blue Topaz",
   "textFontFamily": "杨任东竹石体",
   "interfaceFontFamily": "Comic Sans MS,手札体-简",
   "monospaceFontFamily": "Fira Code",
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 19,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "Timeline_Callouts",
     "[PKMer]Timeline_Callouts",

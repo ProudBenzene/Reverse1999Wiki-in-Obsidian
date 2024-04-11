@@ -651,5 +651,6 @@
   "blue-topaz-theme@@memos-scroll": true,
   "blue-topaz-theme@@thino-view-style": "thino-frosted-style-default",
   "blue-topaz-theme@@thino-view-background": "custom-thino-background",
-  "blue-topaz-theme@@thino-background-dark-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")"
+  "blue-topaz-theme@@thino-background-dark-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")",
+  "blue-topaz-theme@@thino-background-light-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")"
 }
