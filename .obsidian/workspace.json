@@ -13,9 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1b2ed6a8e37ed53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           },
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -283,12 +296,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -303,61 +316,18 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-memos:Thino": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "floating": {
-    "id": "423e8967eb9d0532",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a94138becf3e3573",
-        "type": "window",
-        "children": [
-          {
-            "id": "bf7de97b0d6931c4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "af813614ff075e65",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "pinned": true
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 244,
-        "y": 38,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "9aadaddd821e22fa",
+  "active": "a1b2ed6a8e37ed53",
   "lastOpenFiles": [
-    "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
+    "000-箱的构造/主页.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "300-以影像之/300-以影像之.md",
     "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
     "000-箱的构造/箱中memos/memos.thino.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
