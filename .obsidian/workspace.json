@@ -32,14 +32,14 @@
             }
           },
           {
-            "id": "b3115f16c9b77984",
+            "id": "817d4a74fe0de0d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           },
@@ -319,7 +319,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b3115f16c9b77984",
+  "active": "817d4a74fe0de0d8",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "测试.md",
