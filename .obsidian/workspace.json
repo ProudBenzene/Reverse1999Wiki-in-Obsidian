@@ -28,6 +28,18 @@
             }
           },
           {
+            "id": "94157638b33a089b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -60,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -208,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md"
+                "file": "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md"
               }
             }
           },
@@ -265,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
+                "file": "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,12 +328,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "84f7748f01b792ee",
+  "active": "94157638b33a089b",
   "lastOpenFiles": [
+    "600-箱中日历/2024/assets/README.assets/Pasted Image 20240412235750.png",
     "600-箱中日历/2024/2024-01-15.md",
     "600-箱中日历/2024/assets/README.assets/iShot_2024-04-13_00.10.21.png",
     "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
-    "600-箱中日历/2024/assets/README.assets/Pasted Image 20240412235750.png",
     "600-箱中日历/2024/2024-04-12.md",
     "assets/README.assets",
     "assets",
