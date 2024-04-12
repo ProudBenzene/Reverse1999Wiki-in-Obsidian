@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9aadaddd821e22fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f6df53d6a9606bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "01a2c60378addfb9",
             "type": "leaf",
             "state": {
@@ -44,6 +20,30 @@
             }
           },
           {
+            "id": "b4656a9f3627670d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2bebbe5be8dd8eaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "95f89cae69831722",
             "type": "leaf",
             "state": {
@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,13 +307,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "b4656a9f3627670d",
   "lastOpenFiles": [
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
     "000-箱的构造/箱中memos/20240411-f91cc6faa7826ba1.md",
     "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240412-35333b965971104e.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱中memos/20240412-d56d24910d5794bf.md",
@@ -327,7 +330,6 @@
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "000-箱的构造/插件/buttons.md",
-    "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
@@ -343,7 +345,6 @@
     "300-以影像之/302-支线/未命名",
     "300-以影像之/304-轶事",
     "000-箱的构造/箱中memos/20240411-c8e4ed2eb7ad4bfb.md",
-    "000-箱的构造/箱中memos/20240411-22e1a61a2324fe1a.md",
     "600-箱中日历/2024/assets/README.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 旁观者2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者1.png",
