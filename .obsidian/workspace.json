@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -296,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,8 +323,12 @@
   },
   "active": "0fcfac8c93cc0c51",
   "lastOpenFiles": [
-    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/立绘 维拉 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/立绘 维拉 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-01-15.md",
     "600-箱中日历/2024/assets/README.assets/Pasted Image 20240412235750.png",
@@ -354,19 +360,15 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "000-箱的构造/插件/buttons.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
-    "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets/马库斯·灯塔集.jpg",
     "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets",
     "300-以影像之/303-角色剧情/assets",
     "300-以影像之/303-角色剧情",
-    "300-以影像之/302-支线/未命名",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 旁观者2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/单品 喀嚓喀嚓 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/单品 喀嚓喀嚓 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/单品 喀嚓喀嚓 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/至终的仪式 昂贵的好照片.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者3.png",
     "白板.canvas"
   ]
 }
