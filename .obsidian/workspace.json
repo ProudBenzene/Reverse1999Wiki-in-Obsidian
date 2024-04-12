@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "51599470a7fd95be",
+            "id": "4b0cb18ccb1f18ac",
             "type": "leaf",
             "state": {
               "type": "thino_view",
@@ -128,7 +128,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -206,9 +206,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md"
-              }
+              "state": {}
             }
           },
           {
@@ -264,7 +262,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +278,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +288,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -315,15 +312,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "51599470a7fd95be",
+  "active": "4b0cb18ccb1f18ac",
   "lastOpenFiles": [
-    "000-箱的构造/箱中memos/memos.thino.md",
-    "600-箱中日历/2024/2024-01-15.md",
-    "000-箱的构造/箱中memos/20240412-d56d24910d5794bf.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
-    "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
     "000-箱的构造/箱中memos/20240412-35333b965971104e.md",
+    "000-箱的构造/箱中memos/memos.thino.md",
+    "000-箱的构造/箱中memos/20240412-d56d24910d5794bf.md",
+    "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
     "000-箱的构造/箱中memos/20240411-60b56e73107bc56a.md",
     "000-箱的构造/箱中memos/20240411-f91cc6faa7826ba1.md",
     "300-以影像之/300-以影像之.md",
