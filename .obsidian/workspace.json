@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "84f7748f01b792ee",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-15.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -198,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "600-箱中日历/2024/2024-01-15.md"
               }
             }
           },
@@ -255,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +293,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,11 +317,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "84f7748f01b792ee",
   "lastOpenFiles": [
+    "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
+    "600-箱中日历/2024/assets/README.assets/Pasted Image 20240412235750.png",
+    "600-箱中日历/2024/2024-04-12.md",
+    "assets/README.assets",
+    "assets",
+    "000-箱的构造/主页.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "600-箱中日历/2024/2024-01-15.md",
-    "000-箱的构造/主页.md",
     "测试.md",
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "400-箱外世界/暴雨时间线.md",
@@ -336,15 +352,11 @@
     "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "000-箱的构造/箱中memos/20240404-fd6b8d27e714d4bc.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
-    "000-箱的构造/templates/UTTU人物合辑.md",
     "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets/马库斯·灯塔集.jpg",
     "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets",
     "300-以影像之/303-角色剧情/assets",
     "300-以影像之/303-角色剧情",
     "300-以影像之/302-支线/未命名",
-    "300-以影像之/304-轶事",
-    "600-箱中日历/2024/assets/README.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 旁观者2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/单品 喀嚓喀嚓 03.png",
@@ -353,7 +365,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/至终的仪式 昂贵的好照片.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 见证者2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets/神秘术 旁观者3.png",
     "白板.canvas"
   ]
 }
