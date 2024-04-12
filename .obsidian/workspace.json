@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,9 +308,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "000-箱的构造/主页.md",
     "测试.md",
+    "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "600-箱中日历/2024/2024-01-15.md",
