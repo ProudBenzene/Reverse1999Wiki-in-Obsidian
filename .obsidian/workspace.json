@@ -20,15 +20,11 @@
             }
           },
           {
-            "id": "9b100c2975bb9810",
+            "id": "752db82ef458502c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "thino_view",
+              "state": {}
             }
           },
           {
@@ -132,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "file": "600-箱中日历/2024/2024-01-12.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -211,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md"
+                "file": "600-箱中日历/2024/2024-01-12.md"
               }
             }
           },
@@ -268,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "file": "600-箱中日历/2024/2024-01-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+                "file": "600-箱中日历/2024/2024-01-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,12 +317,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9b100c2975bb9810",
+  "active": "752db82ef458502c",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "600-箱中日历/2024/2024-01-12.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
-    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
     "000-箱的构造/插件/buttons.md",
