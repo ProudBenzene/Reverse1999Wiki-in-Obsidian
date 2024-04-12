@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "0fcfac8c93cc0c51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -212,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -247,7 +233,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构造/常用工具.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -269,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,14 +306,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "0fcfac8c93cc0c51",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/单品 维拉 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/单品 维拉 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/单品 维拉 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/可燃点｜Spathodea.assets/神秘术 “可燃点”1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 无言的歌1.png",
@@ -337,11 +323,9 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 高昂的心3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 高昂的心2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 高昂的心1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/二阶神秘术.png",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
-    "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
     "600-箱中日历/2024/2024-04-12.md",
