@@ -10,7 +10,6 @@
   "obsidian-custom-attachment-location",
   "dataview",
   "float-search",
-  "folder-notes",
   "obsidian-footnotes",
   "obsidian-git",
   "obsidian-hover-editor",
@@ -36,5 +35,7 @@
   "obsidian-icon-folder",
   "obsidian-code-tab",
   "note-gallery",
-  "obsidian42-brat"
+  "obsidian42-brat",
+  "alx-folder-note",
+  "folder-note-core"
 ]
