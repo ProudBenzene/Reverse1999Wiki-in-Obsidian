@@ -209,36 +209,6 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "5234e8da6759d419",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "46229de5d8c2433c",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "9d991babfd50bf52",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -338,8 +308,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-01-15.md",
+    "600-箱中日历/2024/2024-01-12.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-01-15.md",
     "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
     "000-箱的构造/插件/buttons.md",
     "400-箱外世界/暴雨时间线.md",
@@ -383,7 +354,6 @@
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/坎吉拉｜Kanjira.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/喀嚓喀嚓｜Click.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/金蜜儿｜Blonney.md",
     "白板.canvas"
   ]
 }
