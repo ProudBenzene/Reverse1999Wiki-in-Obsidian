@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "5f630df7f5f727a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -198,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md"
               }
             }
           },
@@ -255,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,12 +321,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "5f630df7f5f727a3",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/Portrait-304302.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
+    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
+    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "600-箱中日历/2024/2024-04-12.md",
     "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
-    "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-01-09.md",
     "000-箱的构造/箱中memos/20240413-128b70f0dd4d33cf.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
@@ -328,7 +347,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 高昂的心3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 高昂的心2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 高昂的心1.png",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
     "600-箱中日历/2024/2024-01-15.md",
@@ -345,15 +363,12 @@
     "000-箱的构造/箱中memos/20240412-35333b965971104e.md",
     "000-箱的构造/箱中memos/20240412-d56d24910d5794bf.md",
     "000-箱的构造/箱中memos/20240411-60b56e73107bc56a.md",
-    "300-以影像之/300-以影像之.md",
     "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/Thumbs.db",
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/Thumbs.db",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/Thumbs.db",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/Thumbs.db",
-    "000-箱的构造/templates/角色剧情.md",
     "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets",
     "300-以影像之/303-角色剧情/assets",
-    "300-以影像之/303-角色剧情",
     "白板.canvas"
   ]
 }
