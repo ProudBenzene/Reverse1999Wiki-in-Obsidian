@@ -110,54 +110,30 @@ collapse: open
 title: 
 color: 
 > [!culture]+ 宽檐礼帽｜Wide Brimmed Hat
-> 
-> 
+> ![](assets/坦南特｜Tennant.assets/单品%20坦南特%2001.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**128**
 > ---
 > 相较于巴黎的其他绅士，这顶宽檐帽显得更为宽大。它不单单是为了遮住眼睛，以营造危险而迷人的氛围，也是为了在谎言被戳穿时，能掩人耳目而逃。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 左轮手枪｜Revolver M1917
+> ![](assets/坦南特｜Tennant.assets/单品%20坦南特%2002.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**8900**
 > ---
-> 
+> 经过神秘学改造的左轮手枪术杖。尽管不常使用，但它被保养得非常好。转轮里装的并非子弹，而是由她自行制作的特殊火药。通过神秘术，她能够将其变为钻石子弹，并发射出去。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 毒蛇饰品｜Viper
+> ![](assets/坦南特｜Tennant.assets/单品%20坦南特%2003.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**12**
 > ---
-> 
+> 坦南特自新德里购买的廉价装饰，不知为何被她一直保留到了现在。不管怎样，这件小饰品都为这顶礼帽增加了一点别样的点缀。
 ````
-
-### ｜
-
-````ad-flex
-collapse: open
-title: 
-color: 
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-````
-
 ## 文化
 
 ````tab
 tab: ｜
 ![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+
+
 
 tab: ｜
 ![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
