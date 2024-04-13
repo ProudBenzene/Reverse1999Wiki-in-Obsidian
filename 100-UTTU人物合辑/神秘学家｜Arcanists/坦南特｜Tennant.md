@@ -103,7 +103,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
+### 
 
 ````ad-flex
 collapse: open
@@ -130,18 +130,77 @@ color:
 ## 文化
 
 ````tab
-tab: ｜
+tab: 1937年的数则新闻｜Several News in 1937
 ![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
+“……英属印度殖民地政府官员劳伦斯·坦南特爵士于近日失踪，殖民地高级专员宣布将在印度进行全面搜查。”
 
+“……劳伦斯·坦南特爵士出生于著名神秘学家族坦南特家族，在英属印度殖民地进行了多年钻石开采、鉴定与运输工作。”
 
-tab: ｜
+“……白金汉宫宣布，将暂时褫夺劳伦斯·坦南特的爵位以及一切荣誉，理由是他涉嫌包括神秘学犯罪、盗窃罪、诈骗罪在内的九项指控。”
+
+“……英属印度殖民地政府正式发出对前殖民地高级官员、矿物学家、神秘学家劳伦斯·坦南特的通缉令。通缉金额为三万英镑，创下了近年来通缉金额之最。”
+
+tab: 1938年的数则新闻｜Several News in 1938
 ![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×坦南特]
+“……劳伦斯·坦南特被指控涉嫌参与了一场神秘学犯罪。他利用神秘学能力，将一批运往英国的钻石变成了木炭。截止目前，殖民地政府尚未发现劳伦斯·坦南特及钻石的下落，无法提起诉讼。”
+
+“……英属印度殖民地一名名为艾达·坦南特的少女于家中离奇失踪。英属印度军队与印度警察队伍展开调查。”
+
+“……据悉，艾达·坦南特是涉嫌犯下世纪大案的劳伦斯·坦南特的独生女。英属印度殖民地政府在调查案件期间，对她实施了长期的监视与软禁。”
+
+“……近日，法国巴黎警方通告了一起神秘学盗窃案。一名珠宝商人购买的一批钻石在夜晚遭到盗窃，窃贼通过神秘学手段将其替换为煤炭。”
+
+tab: 巴黎的“艺术家”｜[UTTU×坦南特]
 ![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+
+白雪松：对你而言，英国、印度、法国有何不同？
+**坦南特：没有任何不同，美丽的女士。**
+白雪松：此话怎讲？
+**坦南特：对我而言，不管是世界上的哪个角落，所有的人类都是一样的。**
+**坦南特：我们有着同样的优点，又有着同样的弱点。但这不是我们的错，是源自于我们生而为人的本能。**
+白雪松：倘若如此，你用谎言来对待你的“客户们”，是否有点太过失礼了？
+**坦南特：噢，我本质上是个艺术家，女士。而他们只是被我的表演所折服，留下了一点对他们来说微不足道的财富而已。**
+**坦南特：他们一向都非常配合，仿佛是对艺术家的小小的褒奖。**
 
 ````
 
 ## 语音
 
+|        情景        |                                                                                                                                              语音                                                                                                                                               |
+| :--------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        初遇        |                                                            向您致意，美丽的女士，请允许我为您献上一枝玫瑰。噢，看来您不吃这一套，真可惜。  <br>Greetings to you, fair lady, may I present you a rose?Oh, seems like you won't fall for this cheap flattery. I'm ashamed.                                                             |
+|       箱中气候       |                                                                  太阳会给人以安全的暗示，也会赋予钻石更为美丽的光华。而这便是趁虚而入的最好时机。  <br>Sunlight eases people's mind and endows diamonds with glowing luxury. What a perfect occasion for deceiving.                                                                   |
+|  致未来[信任达到10%解锁]  | 接下来会怎样？富豪家的千金小姐不介意我的身份地位，痴心一片地钟情于我，下定决心带着千万财产与我远走高飞。接着，我将从她身边离去，永远永远，不见踪迹。  <br>So what's next? The young lady of the rich, resolute and courageous as she is, disregards my humble beginnings and takes her possessions to elope with me. But then, I will leave her and disappear, forever. |
+|        孑立        |                         雪茄看起来很酷，那些贵妇们也愿意她们的情人看起来风度翩翩。可是……算了，我可不想染黑自己的牙齿。  <br>A cigar would make a nifty accessory, and those gracious ladies would certainly love to see their lover to be a sight for the eyes. But … no, thank you. I'd prefer my teeth unstained.                         |
+|        问候        |                                                                               贵安，老爷。很遗憾我的房间里什么都没有，让你见笑了。  <br>Good day, my lord. You're too kind visiting me, and I regret to receive you in a room of nothing.                                                                               |
+|        朝晨        |       美丽的清晨，许多美丽的事儿。人们等着新舞会，新衣裳，新的阿谀奉承，和新的、闪烁的、无比迷人的星星落在自己的手中。  <br>Another beautiful morning arrives, and many beautiful things are about to come. I see people opening their arms, waiting to go to the ball, new clothes, new flatteries, and new glittering stars to come to them.        |
+| 信任-朝晨[信任达到20%解锁] |     早安，女士。我为您准备了咖啡，三明治，以及这颗璀璨的钻石。哦，当然，我不会欺骗您，这是一颗假钻。但它依旧闪耀夺目，不是吗？  <br>Good morning, my lady. I've prepared you fresh coffee, sandwiches, and this shiny diamond. Of course, I would never lie to you, this is a piece of cultured work. But look how it sparkles, how elegant, isn't it?     |
+|        夜暮        |                    请问您是否愿意赏光，与我共进晚餐？我为您准备了一场由他人举办的宴会。嗯？吃白食？不不，它有更体面的名字，叫“物尽其用”。  <br>Would I have the honor to invite you for dinner? There's a banquet held by someone I don't know. Huh? A freeloader? No no no, I'd say it would be lavish of us if we don't enjoy it.                     |
+| 信任-夜暮[信任达到30%解锁] |                                                     红宝石波特，来自杜罗河谷的美人。嗯～它的味道和它的颜色一样甜美。相信我，它会让你度过一个美好的夜晚。  <br>Ruby Port, a beauty from Douro Valley.Em … tastes as sweet as it smells.Believe me, it will make your evening unforgettable.                                                      |
+|      帽檐与发鬓       |                                                                一个优雅的绅士少不了这个。不过小心，不要让它挡住你的视线。眼神交流，非常重要。  <br>A decent gentleman will not let go of this. But be careful, don't let it tilt to your eyes. Eye contact is vital.                                                                 |
+|       袖与手        |                                                                            尽管我并不常用手枪解决问题，但它依旧是必须的。想必您也明白其中的道理。  <br>Although I'm not woman of guns, it's necessary to carry one. I'm sure you know the reason why.                                                                            |
+|      衣着与身形       |           当然，我并不抵触裙装。它们很漂亮，很复杂，花样多得迷人眼睛。换句话说，它们才是我本应该穿着的服饰。哼，真是造化弄人，不是吗？  <br>I don't dislike dresses. They are pretty, delicately embroidered, intricately sewed apparels. They are what I'm supposed to wear, not these trousers.Heh, destiny holds a different plan, doesn't it?           |
+|  嗜好[信任达到40%解锁]   |               欺骗是一种繁杂的化合物质，其中包含：敬终慎始、自利自私、百折不挠、神机妙算、胆大泼天、泰然自若、独具匠心、肆意妄为——以及，预示着胜利的嗤笑。  <br>Diddling, rightly considered, is a compound of which the ingredients are minuteness, interests, perseverance, ingenuity, audacity, nonchalance, originality, impertinence, and grin.               |
+|  赞赏[信任达到50%解锁]   |                                 您拥有着骗子应该拥有的一切美德，但您却如此诚实。我不知道是应该赞扬您，还是应该感叹您如此浪费天赋。  <br>You have every virtue that belongs to a deceiver, yet you're a woman of honesty. I don't know if I should admire your righteous nature, or lament the waste of gifts.                                  |
+|  亲昵[信任达到60%解锁]   |                                            如果您需要，欢迎随时来拜访我。我与我最精致的骗局永远在这儿，等待着您的邀请。  <br>If you want to, you're always welcome at my place. I will be here, with my cleverest scam, waiting for your arrival and, of course, an invitation to yours.                                            |
+|       闲谈Ⅰ        |          如果我没看走眼的话，那位大小姐身上的宝石正是传说中的“光明海湾”。哦，别担心，我不会对她下手的。她的来头太大，年纪又太小。  <br>If my eyes serve me well, it's the "Bay of Light" this respectable young lady is wearing.Oh, don't worry, I won't do anything. She is of a background too prominent and an age too young for my tricks.           |
+|       闲谈Ⅱ        |                                                新德里？老实说，我几乎都遗忘得差不多了。说到底，除了毒辣的太阳之外，那里和英国本土并无多大的区别。  <br>New Delhi? To be honest, I barely remember anything about it. It doesn't make much difference to England, aside from the scorching sun.                                                 |
+|  独白[信任达到70%解锁]   |                                                         你跟我是同一类人，我亲爱的，会为了探寻心底期望的真相而不顾一切，甚至不择手段。我们很相似。  <br>We are two of a kind, dear.We would employ every means possible to find out the truth we crave to know.We are very alike.                                                          |
+|        入队        |                                                                                                                   团伙作案？哼，我喜欢。  <br>A crime group? Heh, just to my likings.                                                                                                                    |
+|        战前        |                                                                                                     我并不喜欢用暴力解决问题，但偶尔会有意外。  <br>I don't like to resort to violence, but accidents happen.                                                                                                      |
+|      择选咒语Ⅰ       |                                                                                                                         遵命，我的女士。  <br>Glad to be of service, my lady.                                                                                                                         |
+|      择选咒语Ⅱ       |                                                                                                                             相当有趣，不是吗？  <br>Intriguing, isn't it?                                                                                                                              |
+|      择选高阶咒语      |                                                                                                                             独具匠心。  <br>A design of its own kind.                                                                                                                              |
+|     择选至终的仪式      |                                                                                                                         该从梦中跌落了，绅士们。  <br>Time to wake up, gentlemen.                                                                                                                         |
+|      释放神秘术Ⅰ      |                                                                                                                                正中下怀。  <br>Just as I willed it.                                                                                                                                |
+|      释放神秘术Ⅰ      |                                                                                                                                       好极了！  <br>Bravo!                                                                                                                                        |
+|      释放神秘术Ⅱ      |                                                                                                                         很可惜，这是假货。  <br>Sadly, these are counterfeits.                                                                                                                         |
+|      释放神秘术Ⅱ      |                                                                                                                          是的，它很坚硬，就像真货。  <br>Just like real diamonds.                                                                                                                          |
+|     召唤至终的仪式      |                                                                                            香气与闪烁的弧光总会遮挡人的目光，我为你感到遗憾。  <br>Fragrance and dazzle can easily confuse one's vision. I'm sorry for you.                                                                                            |
+|       受敌Ⅰ        |                                                                                                                             我的衣服都要皱了！  <br>Tsk, watch my clothes!                                                                                                                             |
+|       受敌Ⅱ        |                                                                                                                                       该死。  <br>Damn it.                                                                                                                                       |
+|       战斗胜利       |                                                                                    接下来是分赃环节……或者说，对于战利品的合理再分配。  <br>Now, to divide the spoils … Or should I say, a reasonable reallocation of the profits?                                                                                     |
+|    洞悉[洞悉后解锁]     |                                                                                                                   越发的完美，越发的闪耀。  <br>To its perfection, to its best clarity.                                                                                                                   |
+|  洞悉之底[获得对应皮肤解锁]  |                                                                                    嘘，我的小姐，让我们共享这一刻。这美好，短暂，惹人迷醉的一刻。  <br>Shush, my lady, let us enjoy this moment,this beautiful, short, enchanted moment.                                                                                     |
