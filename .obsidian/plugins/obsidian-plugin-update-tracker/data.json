@@ -35,28 +35,7 @@
     "obsidian-icon-folder": {
       "pluginId": "obsidian-icon-folder",
       "pluginRepoPath": "FlorianWoelki/obsidian-iconize",
-      "dismissedVersions": [
-        {
-          "versionNumber": "2.11.6",
-          "versionName": "2.11.6",
-          "publishedAt": "2024-04-07T07:45:22Z"
-        },
-        {
-          "versionNumber": "2.11.7",
-          "versionName": "2.11.7",
-          "publishedAt": "2024-04-07T15:02:35Z"
-        },
-        {
-          "versionNumber": "2.11.8",
-          "versionName": "2.11.8",
-          "publishedAt": "2024-04-08T06:32:20Z"
-        },
-        {
-          "versionNumber": "2.11.9",
-          "versionName": "2.11.9",
-          "publishedAt": "2024-04-08T06:41:41Z"
-        }
-      ]
+      "dismissedVersions": []
     }
   },
   "showIconOnMobile": true,
