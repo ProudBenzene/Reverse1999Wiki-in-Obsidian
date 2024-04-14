@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "876ef7fc89792254",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -315,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "876ef7fc89792254",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/script/tp",
     "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
