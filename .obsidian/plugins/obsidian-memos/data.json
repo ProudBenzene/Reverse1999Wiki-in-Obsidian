@@ -58,18 +58,6 @@
   "EditorType": "obsidian",
   "EnabledLocationList": [
     {
-      "value": "MULTI",
-      "target": "MemoDefaultMultiFilePath"
-    },
-    {
-      "value": "FILE",
-      "target": "MemoDefaultSingleFilePath"
-    },
-    {
-      "value": "CANVAS",
-      "target": "MemoDefaultCanvasPath"
-    },
-    {
       "value": "DAILY",
       "target": "ProcessEntriesBelow",
       "insert": "InsertAfter"
