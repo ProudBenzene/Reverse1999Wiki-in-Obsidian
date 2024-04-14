@@ -37,6 +37,16 @@
       "pluginRepoPath": "FlorianWoelki/obsidian-iconize",
       "dismissedVersions": [
         {
+          "versionNumber": "2.11.9",
+          "versionName": "2.11.9",
+          "publishedAt": "2024-04-08T06:41:41Z"
+        },
+        {
+          "versionNumber": "2.11.10",
+          "versionName": "2.11.10",
+          "publishedAt": "2024-04-13T07:15:52Z"
+        },
+        {
           "versionNumber": "2.11.11",
           "versionName": "2.11.11",
           "publishedAt": "2024-04-14T08:38:53Z"
