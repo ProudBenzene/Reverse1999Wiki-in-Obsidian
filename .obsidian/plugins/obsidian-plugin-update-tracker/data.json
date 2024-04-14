@@ -35,7 +35,13 @@
     "obsidian-icon-folder": {
       "pluginId": "obsidian-icon-folder",
       "pluginRepoPath": "FlorianWoelki/obsidian-iconize",
-      "dismissedVersions": []
+      "dismissedVersions": [
+        {
+          "versionNumber": "2.11.11",
+          "versionName": "2.11.11",
+          "publishedAt": "2024-04-14T08:38:53Z"
+        }
+      ]
     }
   },
   "showIconOnMobile": true,
