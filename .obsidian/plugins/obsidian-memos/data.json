@@ -19,6 +19,7 @@
   "OpenDailyMemosWithMemos": true,
   "HideDoneTasks": false,
   "ShowTaskLabel": true,
+  "AppendDateWhenTaskDone": false,
   "MobileAndDesktop": "Mobile",
   "OpenMemosAutomatically": false,
   "ShowTime": true,
@@ -98,7 +99,7 @@
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404061622490.png",
   "MomentsQuote": "The Storm is coming...",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.22",
+  "LastUpdatedVersion": "2.4.23",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -110,5 +111,8 @@
   "InsertType": "custom",
   "ShareAppendType": "preset",
   "SharePrependType": "preset",
-  "SetFileNameAfterCreate": true
+  "SetFileNameAfterCreate": true,
+  "TagForFileTypeFiles": "thino/file",
+  "TagForMultiTypeFiles": "thino/multi",
+  "MinHeightForShare": "200px"
 }
