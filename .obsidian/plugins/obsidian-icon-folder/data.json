@@ -56,7 +56,9 @@
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
     "iconsInLinksEnabled": true,
-    "debugMode": false
+    "debugMode": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor"
   },
   "插件": "FasCode",
   "插件/彩色时钟.md": "FasClock",
