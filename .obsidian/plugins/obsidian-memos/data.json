@@ -1,7 +1,7 @@
 {
   "FirstLoaded": false,
   "StartDate": "Sunday",
-  "InsertAfter": "# Journal",
+  "InsertAfter": "# 今日签到",
   "UserName": "🤌🏻Vertin",
   "ProcessEntriesBelow": "",
   "Language": "en",
@@ -19,6 +19,7 @@
   "OpenDailyMemosWithMemos": true,
   "HideDoneTasks": false,
   "ShowTaskLabel": true,
+  "AppendDateWhenTaskDone": false,
   "MobileAndDesktop": "Mobile",
   "OpenMemosAutomatically": false,
   "ShowTime": true,
@@ -32,6 +33,8 @@
   "SetCustomMemoFooter": true,
   "DefaultLightBackgroundImage": "\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
   "DefaultDarkBackgroundImage": "\"https:a//figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
+  "DefaultLightBackgroundImageForClean": "\"https:a//figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
+  "DefaultDarkBackgroundImageForClean": "\"https:a//figure-bed123.oss-cn-beijing.aliyuncs.com/202404022340066.png\"",
   "DefaultMemoComposition": "{TIME} {CONTENT}",
   "CommentOnMemos": false,
   "CommentsInOriginalNotes": false,
@@ -39,10 +42,10 @@
   "FetchMemosFromNote": false,
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
-  "MemoListView": "calendar",
+  "MemoListView": "list",
   "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
-    "MemoDefaultCanvasPath": "basic.thino.canvas",
+    "MemoDefaultCanvasPath": "memos.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
     "MemoDefaultSingleFilePath": "000-箱的构造/箱中memos/memos.thino.md"
   },
@@ -65,6 +68,11 @@
     {
       "value": "CANVAS",
       "target": "MemoDefaultCanvasPath"
+    },
+    {
+      "value": "DAILY",
+      "target": "ProcessEntriesBelow",
+      "insert": "InsertAfter"
     }
   ],
   "DeleteThinoDirectly": false,
@@ -80,7 +88,7 @@
   "saveThinoType": "FILE",
   "showDayMark": true,
   "dayMarkRange": "day",
-  "navigation": false,
+  "navigation": true,
   "password": "",
   "needVerify": false,
   "addTagAutomatically": true,
@@ -90,8 +98,8 @@
   "MomentsBackgroundImage": "https://gamecms-res.sl916.com/official_website_resource/50001/4/PICTURE/20240205/156%202560x1440_979ed4831fab45b98366f2c8f0b0a15b.jpg",
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404061622490.png",
   "MomentsQuote": "The Storm is coming...",
-  "DefaultThemeForThino": "classic",
-  "LastUpdatedVersion": "2.4.10",
+  "DefaultThemeForThino": "modern",
+  "LastUpdatedVersion": "2.4.23",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -102,5 +110,9 @@
   "ProcessContentTarget": "custom",
   "InsertType": "custom",
   "ShareAppendType": "preset",
-  "SharePrependType": "preset"
+  "SharePrependType": "preset",
+  "SetFileNameAfterCreate": true,
+  "TagForFileTypeFiles": "thino/file",
+  "TagForMultiTypeFiles": "thino/multi",
+  "MinHeightForShare": "200px"
 }

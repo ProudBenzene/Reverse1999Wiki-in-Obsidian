@@ -100,9 +100,9 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
 
-![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
+![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
 ### 红沙特卖｜Red Desert Special Offer
 
@@ -119,7 +119,7 @@ color:
 
 > [!culture]+ 机车皮夹克｜Leather jacket
 > ![](assets/沙丝绒｜Desert%20Flannel.assets/单品%20沙丝绒%2002.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**30**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**30**
 > ---
 > 深棕色的皮夹克，能有效遮风保暖。作为打扫杂物间的奖励，从摩托车行的老板那里获得。只要披上它，无论内搭如何，都足够让你变得桀骜不驯。“这是对抗生活的方式，迎风飞驰。”
 

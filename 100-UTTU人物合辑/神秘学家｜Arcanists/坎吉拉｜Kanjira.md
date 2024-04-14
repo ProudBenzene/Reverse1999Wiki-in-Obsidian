@@ -117,7 +117,7 @@ color:
 
 > [!culture]+ 亮金色布艺发带｜Golden Hairband
 > ![](assets/坎吉拉｜Kanjira.assets/单品%20坎吉拉%2002.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.7**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.7**
 > ---
 > 受访者的友人们赠予她的生日礼物，颜色显然经过了精挑细选。触感粗砺，材质轻薄，应当并不牢固，但它如今成为了她维系回忆的最为坚实的纽带。
 

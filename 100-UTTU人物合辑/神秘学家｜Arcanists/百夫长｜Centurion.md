@@ -107,20 +107,20 @@ title:
 color: 
 > [!culture]+ 好运金币｜Lucky Coins
 > ![](assets/百夫长｜Centurion.assets/单品%20百夫长%2001.png)
-> ![纯雨滴|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**7777777**
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**7777777**
 > ---
 > 如果你没听说过“硬币女孩儿”的传奇故事，你就从未真正去过拉斯维加斯。一枚陈旧但闪耀不减的百夫长金币，带来数之不尽的、奇迹般的好运。连持有者本人也不知道它到底从何而来。
 
 > [!culture]+ 巴士领带｜Necktie
 > ![](assets/百夫长｜Centurion.assets/单品%20百夫长%2002.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**4.5**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**4.5**
 > ---
 > 不来自于任何品牌的领带。购买于巴士的礼品店。由于受访者本人十分中意而长期佩戴在身上。  
 > 在我看来，这样的审美和品位过于自由了。但放在她身上——这是符合时宜的，这就够了。
 
 > [!culture]+ 镀金饰品组｜Goldplated Ornaments
 > ![](assets/百夫长｜Centurion.assets/单品%20百夫长%2003.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**110**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**110**
 > ---
 > 混乱的饰品组合。均为镀金品，价格平庸。或许来自于某种不健康的收集癖。其中部分饰品的设计称得上可圈可点，但是过量的堆叠把一切都弄糟了。  
 > 如果有人愿意回收它们，我愿意为此付账——这可真是一句熟悉的话。
@@ -140,7 +140,7 @@ color:
 
 > [!culture]+ 墨西哥风情宽边檐帽｜Sombrero
 > ![](assets/百夫长｜Centurion.assets/单品%20百夫长%2005.png)
-> ![利齿子儿|inlL](000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**5**
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**5**
 > ---
 > 一顶带有墨西哥风情的宽边檐帽，来自受访者家族遥远的故地。她在临行前无意捎上了它，最终与庆典礼服达成了良好的搭配效果。
 

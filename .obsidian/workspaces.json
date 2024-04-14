@@ -39,7 +39,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "000-箱的构造/自动化创建角色档案.md",
+                    "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
                     "mode": "source",
                     "source": false
                   }
@@ -290,7 +290,6 @@
       "left-ribbon": {
         "hiddenItems": {
           "daily-notes:打开/创建今天的日记": false,
-          "templify:Templify 市场": false,
           "obsidian-memos:Thino": false,
           "switcher:打开快速切换": true,
           "graph:查看关系图谱": false,
@@ -310,7 +309,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-04-03T14:03:16+08:00",
+      "mtime": "2024-04-08T14:55:10+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null

@@ -35,7 +35,8 @@ aliases:
 生日: 2024-01-12
 banner_header: "{{filename}}"
 出场章节:
-  - 1.7｜今夜星光灿烂
+  - "[[第六章 今夜星光灿烂]]"
+  - "[[马库斯·灯塔集]]"
 ---
 ![cover](assets/马库斯｜Marcus.assets/立绘%20马库斯%2002.png)
 

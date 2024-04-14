@@ -6,5 +6,6 @@
     "collapseAll": false,
     "extraContext": false,
     "sortOrder": "alphabetical"
-  }
+  },
+  "showFilePath": false
 }

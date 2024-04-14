@@ -14,6 +14,8 @@ class grad_button green
 ```
 ^button-newPsychube
 
+
+
 ```button
 name 😼 角色
 type command
