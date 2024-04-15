@@ -14,7 +14,19 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构造/插件/buttons.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ce8c968d2ce3469",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/常用工具.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -87,7 +99,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/常用工具.md"
+                "file": "000-箱的构造/插件/buttons.md"
               }
             }
           },
@@ -204,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/常用工具.md"
+                "file": "000-箱的构造/插件/buttons.md"
               }
             }
           },
@@ -253,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,10 +315,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/插件/buttons.md",
     "000-箱的构造/常用工具.md",
+    "000-箱的构造/插件/buttons.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",
     "000-箱的构造/templates/剧情章节-支线.md",
