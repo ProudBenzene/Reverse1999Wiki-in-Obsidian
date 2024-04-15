@@ -34,6 +34,7 @@ aliases:
 生日: 2024-12-25
 banner_header: "{{filename}}"
 出场章节:
+  - 温妮弗雷德 · 致温妮弗雷德
 ---
 ![cover](assets/温妮弗雷德｜Eternity.assets/立绘%20温妮弗雷德%2002.png)
 
