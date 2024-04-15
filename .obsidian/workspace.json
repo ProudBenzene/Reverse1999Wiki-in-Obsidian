@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c62127976fb019dd",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,7 +283,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "c62127976fb019dd",
   "lastOpenFiles": [
     "000-箱的构造/templates/剧情章节-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",

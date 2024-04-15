@@ -13,7 +13,31 @@ action QuickAdd: 添加心相
 class grad_button green
 ```
 ^button-newPsychube
+```button
+name Main
+type command
+action QuickAdd: 🧳 添加主线
+```
+^button-main
 
+```button
+name 支线
+type command
+action QuickAdd: 🏆 添加支线
+```
+^button-branch
+
+```button
+name 角剧
+type command
+action QuickAdd: 😼 添加角色剧情
+```
+^button-rolestory
+
+```button
+name 轶事
+```
+^button-anecdote
 
 
 ```button
