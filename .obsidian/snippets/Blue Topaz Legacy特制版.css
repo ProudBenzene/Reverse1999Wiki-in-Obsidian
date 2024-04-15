@@ -8338,6 +8338,17 @@ body.style-options-for-buttons-plugin.theme-dark .grad_button:hover {
   color: var(--text-accent)
 }
 
+/***********Catppuccin**********/
+body.style-options-for-buttons-plugin  button.peach {
+  background-color:var(--peach);
+  background-image:linear-gradient(120deg,var(--peach),var(--red));background-size:150% 100%;
+  background-position:top left;font-weight:600;color:var(--inverted-text)
+}
+body.style-options-for-buttons-plugin  button.peach:hover {
+  background-position:top right
+}
+
+
 /******悬浮变色******/
 button.tiny {
   border-radius: 10px;
