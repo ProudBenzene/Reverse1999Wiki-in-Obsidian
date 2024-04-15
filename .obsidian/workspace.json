@@ -13,22 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "9ce8c968d2ce3469",
+            "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -99,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -178,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -189,53 +209,23 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "89b18783e56c0197",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a56bb3c9bc5977f3",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "0c215d81624eedbb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/插件/buttons.md"
-              }
-            }
-          },
-          {
-            "id": "fce8508bcb20fa75",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "a0af558e737c8c63",
         "type": "tabs",
         "dimension": 63.10096153846154,
         "children": [
+          {
+            "id": "0ff60fab5f307ba0",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
           {
             "id": "ae0ee0175ee8627f",
             "type": "leaf",
@@ -265,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,13 +272,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",

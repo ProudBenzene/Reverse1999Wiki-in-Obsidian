@@ -27,7 +27,7 @@ name 支线
 type command
 action QuickAdd: 🏆 添加支线
 class grad_button
-customColor #ef9f76
+customColor #f5a97f
 ```
 ^button-branch
 
@@ -36,7 +36,7 @@ name 角剧
 type command
 action QuickAdd: 😼 添加角色剧情
 class grad_button
-customColor #1E1E2D
+customColor #1e66f5
 ```
 ^button-rolestory
 
@@ -45,7 +45,7 @@ name 轶事
 type command
 action QuickAdd: 🥹 添加轶事
 class grad_button
-customColor #BEA0E8
+customColor #179299
 ```
 ^button-anecdote
 
