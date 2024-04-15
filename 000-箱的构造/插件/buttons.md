@@ -45,7 +45,7 @@ name 轶事
 type command
 action QuickAdd: 🥹 添加轶事
 class grad_button
-customColor #D56660
+customColor #BEA0E8
 ```
 ^button-anecdote
 
