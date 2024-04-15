@@ -143,37 +143,6 @@
       "type": "Macro",
       "command": true,
       "macroId": "d9e1d506-e46d-4dff-a3b4-15fc1af71765"
-    },
-    {
-      "id": "62d4832f-c0ed-432e-9272-6df2c36050db",
-      "name": "添加角色剧情",
-      "type": "Template",
-      "command": true,
-      "templatePath": "000-箱的构造/templates/角色剧情.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "300-以影像之/303-角色剧情",
-          "300-以影像之/304-轶事"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
     }
   ],
   "macros": [
