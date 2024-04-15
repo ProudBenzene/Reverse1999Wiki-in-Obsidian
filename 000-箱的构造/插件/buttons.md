@@ -107,3 +107,4 @@ action obsidian://advanced-uri?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84
 class  blank
 ```
 ^button-collection
+
