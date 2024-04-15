@@ -17,7 +17,7 @@ class grad_button green
 name Main
 type command
 action QuickAdd: 🧳 添加主线
-class grad_button yellow
+class grad_button g_purple
 ```
 ^button-main
 
@@ -25,6 +25,7 @@ class grad_button yellow
 name 支线
 type command
 action QuickAdd: 🏆 添加支线
+class grad_button g_blue
 ```
 ^button-branch
 
@@ -32,13 +33,11 @@ action QuickAdd: 🏆 添加支线
 name 角剧
 type command
 action QuickAdd: 😼 添加角色剧情
+class grad_button g_green
 ```
 ^button-rolestory
 
-```button
-name 轶事
-```
-^button-anecdote
+
 
 
 ```button
