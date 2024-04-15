@@ -14,10 +14,11 @@ class grad_button green
 ```
 ^button-newPsychube
 ```button
-name Main
+name 主线
 type command
 action QuickAdd: 🧳 添加主线
-class grad_button g_purple
+class grad_button
+customColor #E44246
 ```
 ^button-main
 
@@ -25,7 +26,8 @@ class grad_button g_purple
 name 支线
 type command
 action QuickAdd: 🏆 添加支线
-class grad_button g_blue
+class grad_button
+customColor #5584F1
 ```
 ^button-branch
 
@@ -34,10 +36,18 @@ name 角剧
 type command
 action QuickAdd: 😼 添加角色剧情
 class grad_button g_green
+customColor #A7E0D5
 ```
 ^button-rolestory
 
-
+```button
+name 轶事
+type command
+action QuickAdd: 🥹 添加轶事
+class grad_button
+customColor #D56660
+```
+^button-anecdote
 
 
 ```button

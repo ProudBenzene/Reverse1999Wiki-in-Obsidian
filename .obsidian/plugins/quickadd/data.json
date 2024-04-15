@@ -236,7 +236,7 @@
     },
     {
       "id": "24cd61bb-5172-4c7b-b374-9a3e95693066",
-      "name": "🥹 轶事",
+      "name": "🥹 添加轶事",
       "type": "Template",
       "command": true,
       "templatePath": "000-箱的构造/templates/剧情章节-轶事.md",
