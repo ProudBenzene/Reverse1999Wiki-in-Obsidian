@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "d9f9ba4c61811a0c",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,6 +209,36 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "8abb08968dc818ae",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "83170171f59a9f42",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "42286bde5de32497",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -315,7 +336,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "d9f9ba4c61811a0c",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/单品 坦南特 03.png",
