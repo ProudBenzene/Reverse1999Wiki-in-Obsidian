@@ -17,6 +17,7 @@ class grad_button green
 name Main
 type command
 action QuickAdd: 🧳 添加主线
+class grad_button yellow
 ```
 ^button-main
 
