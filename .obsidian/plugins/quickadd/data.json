@@ -148,15 +148,17 @@
       "id": "8e1942c6-e7c0-4f76-9a5d-f0a1839dc4e7",
       "name": "🧳 添加主线",
       "type": "Template",
-      "command": false,
-      "templatePath": "",
+      "command": true,
+      "templatePath": "000-箱的构造/templates/剧情章节-主线.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "300-以影像之/301-主线"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -167,7 +169,7 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
@@ -176,7 +178,67 @@
       "id": "029dbb1f-daa3-40b1-823e-ca7c31684dde",
       "name": "🏆 添加支线",
       "type": "Template",
-      "command": false,
+      "command": true,
+      "templatePath": "000-箱的构造/templates/剧情章节-支线.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "300-以影像之/302-支线"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "fda9255c-34ca-478b-92d3-4367e522fbc8",
+      "name": "😼 添加角色剧情",
+      "type": "Template",
+      "command": true,
+      "templatePath": "000-箱的构造/templates/剧情章节-角色.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "300-以影像之/303-角色剧情"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "24cd61bb-5172-4c7b-b374-9a3e95693066",
+      "name": "🥹 轶事",
+      "type": "Template",
+      "command": true,
       "templatePath": "",
       "fileNameFormat": {
         "enabled": false,
