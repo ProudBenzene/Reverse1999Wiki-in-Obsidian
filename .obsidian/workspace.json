@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md"
+                "file": "000-箱的构造/常用工具.md"
               }
             }
           },
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md"
+                "file": "000-箱的构造/常用工具.md"
               }
             }
           },
@@ -253,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +270,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,8 +303,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
+    "000-箱的构造/插件/buttons.md",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",
     "000-箱的构造/templates/剧情章节-支线.md",
@@ -313,7 +315,6 @@
     "000-箱的构造/templates/箱中日历.md",
     "300-以影像之/301-主线/第一章 在我们的时代里.md",
     "300-以影像之/302-支线/1.1 雷米特杯失窃案.md",
-    "000-箱的构造/插件/buttons.md",
     "300-以影像之/300-以影像之.md",
     "000-箱的构造/主页.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
@@ -339,7 +340,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一束星河2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一颗闪钻2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "600-箱中日历/2024/2024-04-12.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",

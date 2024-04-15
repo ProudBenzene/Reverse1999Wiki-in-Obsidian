@@ -8338,9 +8338,6 @@ body.style-options-for-buttons-plugin.theme-dark .grad_button:hover {
   color: var(--text-accent)
 }
 
-/***********Catppuccin**********/
-
-
 /******悬浮变色******/
 button.tiny {
   border-radius: 10px;
