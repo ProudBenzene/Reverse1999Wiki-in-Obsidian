@@ -239,14 +239,16 @@
       "name": "🥹 轶事",
       "type": "Template",
       "command": true,
-      "templatePath": "",
+      "templatePath": "000-箱的构造/templates/剧情章节-轶事.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "300-以影像之/304-轶事"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -257,7 +259,7 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false

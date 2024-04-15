@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0b29a80836d43691",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/301-主线/第一章 在我们的时代里.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/301-主线/第一章 在我们的时代里.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/301-主线/第一章 在我们的时代里.md"
+                "file": "000-箱的构造/插件/buttons.md"
               }
             }
           },
@@ -236,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/301-主线/第一章 在我们的时代里.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/301-主线/第一章 在我们的时代里.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,14 +274,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/templates/剧情章节-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",
     "000-箱的构造/templates/剧情章节-支线.md",
-    "300-以影像之/302-支线/1.1 雷米特杯失窃案.md",
     "000-箱的构造/templates/剧情章节-主线.md",
+    "000-箱的构造/templates/剧情章节-角色_副本.md",
+    "000-箱的构造/templates/箱中日历.md",
     "300-以影像之/301-主线/第一章 在我们的时代里.md",
+    "300-以影像之/302-支线/1.1 雷米特杯失窃案.md",
     "000-箱的构造/插件/buttons.md",
     "300-以影像之/300-以影像之.md",
     "000-箱的构造/主页.md",
@@ -324,8 +313,6 @@
     "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "600-箱中日历/2024/2024-04-12.md",
-    "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
-    "600-箱中日历/2024/2024-01-09.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
     "assets/README.assets",
     "assets",
