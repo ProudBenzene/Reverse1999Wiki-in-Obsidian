@@ -35,7 +35,7 @@ customColor #5584F1
 name 角剧
 type command
 action QuickAdd: 😼 添加角色剧情
-class peach
+class btn-peach btn
 ```
 ^button-rolestory
 
