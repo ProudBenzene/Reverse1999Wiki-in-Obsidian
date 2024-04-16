@@ -50,21 +50,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "c9aab6af16683ea5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md"
-              }
+              "state": {}
             }
           },
           {
@@ -268,7 +253,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +269,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322
+    "width": 322,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,10 +303,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c9aab6af16683ea5",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets/心相 黎明将到来.png",
     "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
+    "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets/心相 黎明将到来.png",
     "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
     "000-箱的构造/常用工具.md",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
