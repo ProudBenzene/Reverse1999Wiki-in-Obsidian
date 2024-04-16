@@ -8295,10 +8295,10 @@ body.style-options-for-buttons-plugin button.grad_button:hover {
 
 /*****修改小按钮*****/
 
-body.style-options-for-buttons-plugin .admonition-content span>button.small {
+body.style-options-for-buttons-plugin .admonition-content span>button.grad_tiny_button {
   margin:3px;
 }
-body.style-options-for-buttons-plugin button.small {
+body.style-options-for-buttons-plugin button.grad_tiny_button {
   margin:5PX 0.4PX;
   line-height: inherit;
   display: inline-flex;
@@ -8325,7 +8325,7 @@ body.style-options-for-buttons-plugin button.small {
     translateZ(var(--tz, -12px));
 }
 
-body.style-options-for-buttons-plugin button.small:hover {
+body.style-options-for-buttons-plugin button.grad_tiny_button:hover {
   animation: swing_image 0.8s linear 0s 1 normal;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
 }
