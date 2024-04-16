@@ -1,9 +1,9 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/夏利·戏剧与戏剧.assets",
+  "attachmentFolderPath": "./assets/阿夫西维｜Авксивий.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
