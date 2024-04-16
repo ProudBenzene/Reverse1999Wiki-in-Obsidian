@@ -209,7 +209,7 @@
       "name": "😹 添加角色剧情",
       "type": "Template",
       "command": true,
-      "templatePath": "000-箱的构造/templates/剧情章节-角色剧情&轶事.md",
+      "templatePath": "000-箱的构造/templates/剧情章节-角色.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -239,7 +239,7 @@
       "name": "🥹 添加轶事",
       "type": "Template",
       "command": true,
-      "templatePath": "000-箱的构造/templates/剧情章节-角色剧情&轶事.md",
+      "templatePath": "000-箱的构造/templates/剧情章节-轶事.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""

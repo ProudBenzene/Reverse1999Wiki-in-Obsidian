@@ -3,7 +3,7 @@
   "attachmentFolderPath": "./assets/夏利·戏剧与戏剧.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
