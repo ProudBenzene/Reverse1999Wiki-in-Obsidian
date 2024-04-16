@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path: 100-UTTU人物合辑/",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "path: 000-箱的构造/",
+      "query": "path: 000-箱的构造/箱中memos  ",
       "color": {
         "a": 1,
         "rgb": 16111006
