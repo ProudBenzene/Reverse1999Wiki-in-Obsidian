@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/常用工具.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 358
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,8 +309,9 @@
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/插件/buttons.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/常用工具.md",
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/主页.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",
     "000-箱的构造/templates/剧情章节-支线.md",
@@ -344,7 +345,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一颗闪钻2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
     "000-箱的构造/箱中memos/memos.thino.md",
-    "600-箱中日历/2024/2024-04-12.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
     "assets/README.assets",
     "assets",

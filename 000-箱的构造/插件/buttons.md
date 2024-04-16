@@ -13,6 +13,7 @@ action QuickAdd: 添加心相
 class grad_button green
 ```
 ^button-newPsychube
+
 ```button
 name 主线
 type command
