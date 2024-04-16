@@ -29,6 +29,7 @@ Udimo:
 aliases:
   - 温妮弗雷德
   - Eternity
+  - Winnifred
 初始立绘: "[[立绘 温妮弗雷德 01.png]]"
 本色立绘: "[[立绘 温妮弗雷德 02.png]]"
 生日: 2024-12-25
