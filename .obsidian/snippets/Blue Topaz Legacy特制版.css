@@ -8295,9 +8295,7 @@ body.style-options-for-buttons-plugin button.grad_button:hover {
 
 /*****修改小按钮*****/
 
-body.style-options-for-buttons-plugin .admonition-content span>button.grad_tiny_button {
-  margin:3px;
-}
+
 body.style-options-for-buttons-plugin button.grad_tiny_button {
   margin:5PX 0.4PX;
   line-height: inherit;
