@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/插件/buttons.md",
+                "file": "000-箱的构造/常用工具.md",
                 "mode": "preview",
                 "source": false
               }
@@ -306,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/插件/buttons.md",
     "000-箱的构造/主页.md",
