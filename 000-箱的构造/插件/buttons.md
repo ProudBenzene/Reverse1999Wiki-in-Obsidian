@@ -15,7 +15,7 @@ class grad_button green
 ^button-newPsychube
 
 ```button
-name 主线
+name 🧳主
 type command
 action QuickAdd: 🧳 添加主线
 class grad_button
@@ -24,7 +24,7 @@ customColor #e64553
 ^button-main
 
 ```button
-name 🏆 支线
+name 🏆 支
 type command
 action QuickAdd: 🏆 添加支线
 class grad_button
