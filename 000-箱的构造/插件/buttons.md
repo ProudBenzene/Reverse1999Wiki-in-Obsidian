@@ -15,7 +15,7 @@ class grad_button green
 ^button-newPsychube
 
 ```button
-name 🧳 主线
+name 主线
 type command
 action QuickAdd: 🧳 添加主线
 class grad_button
