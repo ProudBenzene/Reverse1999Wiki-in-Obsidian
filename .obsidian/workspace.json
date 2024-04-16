@@ -26,8 +26,8 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -296,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322
+    "width": 322,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,9 +324,11 @@
   "active": "89d52a8bc3a7cc44",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets/立绘 阿夫西维 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets/立绘 阿夫西维 02 1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets",
     "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
     "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "000-箱的构造/templates/剧情章节-角色.md",
@@ -352,14 +356,11 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "300-以影像之/304-轶事/未命名.md",
     "测试.md",
-    "000-箱的构造/箱中memos/20240411-60b56e73107bc56a.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/单品 坦南特 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/单品 坦南特 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/单品 坦南特 02.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/至终的仪式 一颗真诚的心.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一束星河1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
     "assets/README.assets",
