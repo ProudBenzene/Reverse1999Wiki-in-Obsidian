@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2ecdeb44f3c0e019",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,6 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +210,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md"
+              }
             }
           },
           {
@@ -252,6 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,6 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,11 +319,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "13eab36a72e3758c",
+  "active": "2ecdeb44f3c0e019",
   "lastOpenFiles": [
+    "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/夏利·戏剧与戏剧.png",
+    "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets",
+    "300-以影像之/304-轶事/assets",
+    "000-箱的构造/常用工具.md",
+    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/插件/buttons.md",
-    "000-箱的构造/常用工具.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",
@@ -317,7 +339,6 @@
     "300-以影像之/302-支线/1.1 雷米特杯失窃案.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
-    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "300-以影像之/304-轶事/未命名.md",
     "测试.md",
@@ -339,7 +360,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一束星河2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一颗闪钻2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
-    "000-箱的构造/箱中memos/memos.thino.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
     "assets/README.assets",
     "assets",
@@ -347,8 +367,6 @@
     "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/Thumbs.db",
     "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/Thumbs.db",
     "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/Thumbs.db",
-    "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets",
-    "300-以影像之/303-角色剧情/assets",
     "白板.canvas"
   ]
 }
