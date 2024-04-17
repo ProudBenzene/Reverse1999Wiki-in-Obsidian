@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "4395e42a907aab98",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,8 +306,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4395e42a907aab98",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "README.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
@@ -355,7 +347,6 @@
     "<% tp.file.title %>.jpeg.md",
     "000-箱的构造/templates/剧情章节-轶事_副本.md",
     "D05BE51D-0BA2-425A-9E21-B24F4A056473_1_102_o.jpeg.md",
-    "000-箱的构造/templates/剧情章节-角色剧情&轶事.md",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets",
     "300-以影像之/304-轶事/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",

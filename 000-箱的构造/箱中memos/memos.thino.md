@@ -1,11 +1,7 @@
 
 # 2024-04-12
-> [!thino] 2024/04/12 20:01:08 %% [id::4ce7c4c65572f3e2] [thinoType::TASK-DONE] [deleted::20240412200125] %%
-> 你好
 
 
-> [!thino] 2024/04/12 20:03:43 %% [id::d1e11b593ef17b8b] [thinoType::TASK-TODO] [deleted::20240412200357] %%
-> #金句 
 
 # 2024-04-11
 > [!thino] 2024/04/11 15:17:51 %% [id::3184f1220afcc081] [thinoType::JOURNAL] %%
