@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "57d30ccac7eb0c04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322,
-    "collapsed": true
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,10 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "57d30ccac7eb0c04",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "300-以影像之/300-以影像之.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
+    "300-以影像之/300-以影像之.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets/单品 玛蒂尔达 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets/单品 玛蒂尔达 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets/单品 玛蒂尔达 01.png",
