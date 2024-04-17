@@ -1,10 +1,10 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/温妮弗雷德 · 致温妮弗雷德.assets",
+  "attachmentFolderPath": "./assets/README.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
