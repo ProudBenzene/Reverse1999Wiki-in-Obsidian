@@ -13,18 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
                 "mode": "preview",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "d5b385a0aae40cc9",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
             }
           },
           {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,12 +306,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "d5b385a0aae40cc9",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/箱中memos/20240417-2c39e26eca2a128f.md",
     "000-箱的构造/主页.md",
-    "README.md",
     "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
+    "README.md",
+    "000-箱的构造/箱中memos/20240417-2c39e26eca2a128f.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "测试.md",
