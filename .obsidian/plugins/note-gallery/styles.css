@@ -47,11 +47,11 @@
   border: 1px solid var(--interactive-accent);
 }
 
-/* .note-card hr {
+.note-card hr {
   border-top: 1px solid var(--background-secondary);
   margin-top: 0.4rem !important;
   margin-bottom: 0.4rem !important;
-} */
+}
 
 .note-card .inline-title {
   display: block !important;
@@ -85,9 +85,9 @@
 
 /* Styling of external elements */
 
-.view-content:has(div):has(.block-language-note-gallery) {
+/* .view-content:has(div):has(.block-language-note-gallery) {
   background-color: var(--background-secondary) !important;
-}
+} */
 
 .cm-embed-block:has(> div.block-language-note-gallery):hover {
   box-shadow: unset !important;
