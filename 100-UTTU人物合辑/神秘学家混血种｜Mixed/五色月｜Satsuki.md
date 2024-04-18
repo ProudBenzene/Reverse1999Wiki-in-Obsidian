@@ -109,23 +109,23 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
+> [!culture]+ 做工精致的饰物｜Fine Accessories
+> ![](assets/五色月｜Satsuki.assets/单品%20五色月%2001.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**4**
 > ---
-> 
+> 做工讲究，售价却低廉得让人感到吃惊的精致饰品。从穿着简朴的受访人口中，可以感受到她对这个小东西的珍视，以及深藏其中的一段等待被挖掘的小故事。
 
-> [!culture]+ ｜
-> 
+> [!culture]+ 罕见的手铐｜Handcuff
+> ![](assets/五色月｜Satsuki.assets/单品%20五色月%2002.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**8.58**
 > ---
-> 
+> 不以禁锢自由为目的，而是为了控制神秘术打造的造型奇特的手铐。如果找得到买家的话，就能过上一段时间的好日子了。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 满开期飘落的小樱｜Blossom
+> ![](assets/五色月｜Satsuki.assets/单品%20五色月%2003.png)
+> **无估值**
 > ---
-> 
+> 五月的樱花树上飘落的其中一朵，来自一年中最迟的满开期。这样的小花生来就充满韧性，它会坚持不懈地追求绽放——哪怕这样的努力会被斥为毫无价值。
 ````
 
 ### ｜
@@ -134,23 +134,24 @@ color:
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
+> [!culture]+ 湛蓝波奈特帽配单樱｜Sakura Bonnet
 > 
-> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**40**
 > ---
-> 
+> 一顶带有蕾丝花边的棉质湛蓝色波奈特帽，年轻小姐们的出行首选。  
+> 上台前，为平复演员的紧张情绪，道具师为其点缀了一朵单樱。
 
-> [!culture]+ ｜
+> [!culture]+ 珍珠锁链｜Chains of Pearl
 > 
-> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**28**
 > ---
-> 
+> 由特殊金属材料和道具珍珠串成的锁链，在保有演员本身特有风格的同时契合了戏剧的时代背景，由演员本人在后台亲手串成。
 
-> [!culture]+ ｜
+> [!culture]+ “银玫瑰”｜"Silver Rose"
 > 
-> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**67**
 > ---
-> 
+> 由欧根纱、缎带和塑料珍珠制成的颈饰，内侧为了提高演员佩戴时的舒适度而垫了棉布。演员本人曾十分在意它的位置是否合适，以至于前期排练时，时常因为担心它看上去是否和谐美观而分神。
 ````
 
 ## 文化
