@@ -18378,10 +18378,10 @@ var require_shared_store = __commonJS({
     var SHARED = "__core-js_shared__";
     var store = module2.exports = globalThis2[SHARED] || defineGlobalProperty(SHARED, {});
     (store.versions || (store.versions = [])).push({
-      version: "3.36.1",
+      version: "3.37.0",
       mode: IS_PURE ? "pure" : "global",
       copyright: "\xA9 2014-2024 Denis Pushkarev (zloirock.ru)",
-      license: "https://github.com/zloirock/core-js/blob/v3.36.1/LICENSE",
+      license: "https://github.com/zloirock/core-js/blob/v3.37.0/LICENSE",
       source: "https://github.com/zloirock/core-js"
     });
   }
@@ -28752,7 +28752,7 @@ var require_dom_to_image_more = __commonJS({
           return Promise.resolve(node3).then((svg) => {
             svg.setAttribute("xmlns", "http://www.w3.org/1999/xhtml");
             return new XMLSerializer().serializeToString(svg);
-          }).then(util.escapeXhtml).then((xhtml) => {
+          }).then((html) => html.replace(/background-image:/g, "-webkit-background-clip: text; background-image:")).then(util.escapeXhtml).then((xhtml) => {
             const foreignObjectSizing = (util.isDimensionMissing(width) ? ' width="100%"' : ` width="${width}"`) + (util.isDimensionMissing(height) ? ' height="100%"' : ` height="${height}"`);
             const svgSizing = (util.isDimensionMissing(width) ? "" : ` width="${width}"`) + (util.isDimensionMissing(height) ? "" : ` height="${height}"`);
             return `<svg xmlns="http://www.w3.org/2000/svg"${svgSizing}><foreignObject${foreignObjectSizing}>${xhtml}</foreignObject></svg>`;
@@ -28910,8 +28910,6 @@ var require_dom_to_image_more = __commonJS({
             function copyStyle(sourceElement, targetElement) {
               const sourceComputedStyles = getComputedStyle2(sourceElement);
               if (sourceComputedStyles.cssText) {
-                targetElement.style.cssText = sourceComputedStyles.cssText;
-                copyFont(sourceComputedStyles, targetElement.style);
               } else {
                 copyUserComputedStyleFast(
                   options,
@@ -29503,7 +29501,7 @@ var require_dom_to_image_more = __commonJS({
         for (const name of util.asArray(sourceComputedStyles)) {
           const sourceValue = sourceComputedStyles.getPropertyValue(name);
           const defaultValue = defaultStyle[name];
-          const parentValue = parentComputedStyles ? parentComputedStyles.getPropertyValue(name) : void 0;
+          const parentValue = void 0;
           if (sourceValue !== defaultValue || parentComputedStyles && sourceValue !== parentValue) {
             const priority = sourceComputedStyles.getPropertyPriority(name);
             setStyleProperty(targetStyle, name, sourceValue, priority);
@@ -43476,7 +43474,7 @@ var Target = (0, import_react5.forwardRef)(({ frontmatter, setting, title, metad
   return /* @__PURE__ */ import_react5.default.createElement(
     "div",
     {
-      className: `export-image-root ${(frontmatter?.cssclasses || []).join(
+      className: `export-image-root markdown-reading-view ${(frontmatter?.cssclasses || []).join(
         " "
       )}`,
       ref,
@@ -44637,7 +44635,7 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
         png0: L_default.setting.format.png0(),
         png1: L_default.setting.format.png1(),
         jpg: L_default.setting.format.jpg(),
-        webp: "webp",
+        webp: ".webp",
         pdf: L_default.setting.format.pdf()
       }, formatAvailable)).setValue(this.plugin.settings.format).onChange(async (value) => {
         this.plugin.settings.format = value;
