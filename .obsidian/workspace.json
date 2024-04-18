@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,9 +210,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md"
-              }
+              "state": {}
             }
           },
           {
@@ -269,7 +266,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +282,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -321,12 +316,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4b735045523cbaf6",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/立绘 五色月 01.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/立绘 五色月 02.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
     "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
     "300-以影像之/300-以影像之.md",
@@ -338,8 +334,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets/单品 玛蒂尔达 04.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets/神秘术 众望瞩目1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets/神秘术 众望瞩目3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets/神秘术 众望瞩目2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets",
     "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
