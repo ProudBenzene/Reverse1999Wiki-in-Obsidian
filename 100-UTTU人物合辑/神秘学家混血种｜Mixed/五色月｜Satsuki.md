@@ -209,6 +209,43 @@ tab: 文学的味道太过于文学的味道｜[UTTU×五色月]
 
 ## 语音
 
+|        情景        |                                                                                                  语音                                                                                                  |
+| :--------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        初遇        |                                                               初次见面，请多指教。司辰……小姐，对吗？  <br>はじめまして。どうぞよろしくお願いします。 Ms…. Timekeeper, is it?                                                                |
+|       箱中气候       |                    “隐约雷鸣 阴霾天空 但盼风雨来 能留你在此”“隐约雷鸣 阴霾天空 即使天无雨 我亦留此地”……这是店里的客人教奴家的。  <br>「雷神の少し響みてさし曇り雨もふらぬか君を留めむ」「雷神の少し響みてふらずとも吾は留らむ妹し留めば」 The customers in the cafe taught me this.                    |
+|  致未来[信任达到10%解锁]  |                                               奴家想和老板娘还有孩子们在一起……当下如此，未来亦是。  <br>I would like to be with the boss and children … Now, and in the future.                                               |
+|        孑立        |                                                 有谁在吗？……好安静……咖啡店里的大家现在怎么样了呢？  <br>どなたかいらっしゃいませんか？ … It's so quiet … How is everyone in the cafe now?                                                  |
+|        问候        | 两名绅士走入了气派的料理屋……啊，司辰小姐！十分抱歉，奴家沉迷于小说中，没有注意到您来了……  <br>Two gentlemen walked into a fine brick building … Oh, Ms. Timekeeper! My sincerest apologies. I was immersed in a novel and did not notice you … |
+|        朝晨        |                                                            早上好，请问您今天想要咖啡还是茶呢？  <br>Good morning. Would you like some tea or coffee today?                                                            |
+| 信任-朝晨[信任达到20%解锁] |                         早上好，早饭已经准备好了，有味噌汤、米饭……您没有早上吃米饭的习惯吗？  <br>Good morning, breakfast is ready. There is miso soup, rice … Are you not used to having rice for breakfast?                         |
+|        夜暮        |                                                                        这么晚了，您还要继续工作吗？  <br>It's late. Are you still working?                                                                         |
+| 信任-夜暮[信任达到30%解锁] |     以前在牢房里，一到了晚上，看守的大哥都会跟奴家讲讲日间他遇到的趣闻……不知道他现在过得怎么样了。  <br>When I was in jail, the guard in the jail would tell me about the fun parts of his day once night fell … I wonder how he is doing now.     |
+|      帽檐与发鬓       |                                                         过往奴家从来不曾注重过自身容貌。全靠老板娘的教导，奴家才有幸略知一二。  <br>私、お洒落にはからっきしでしたけれど、女将様のご指導で少しだけ嗜むようになりました。                                                          |
+|       袖与手        |                                         过去迫于生计，奴家做了某些无可奈何的事而招致了这副……饰品。  <br>For my survival, I did some thing that resulted in me getting this … accessory.                                          |
+|      衣着与身形       |                                                                     请不要这样……啊，您没有恶意？  <br>Please don't … Ah, you didn't mean to?                                                                      |
+|  嗜好[信任达到40%解锁]   |                      兴趣？奴家并没有想过这种事情，因为奴家一直以来都只能考虑眼前发生的事……  <br>Hobby? I have never thought about it, because the only thing need to be worried about is the immediate future …                       |
+|  赞赏[信任达到50%解锁]   |                   好厉害……奴家想应该没有什么事是您做不到的吧？只要穿上女仆装，您也一定能很好地胜任这份工作……  <br>すごいです … There must be nothing you cannot do. If you wear a maid outfit, you will be great at this job too …                   |
+|  亲昵[信任达到60%解锁]   |                                东京府的孩子，都会穿好看的衣服吗……啊、奴家只是随口一提，请别放在心上……  <br>Do children in Tokyo … wear nice clothing? Oh, I just brought it up. Please do not mind me.                                |
+|       闲谈Ⅰ        |                  不、不……奴家不会再偷东西了……即、即使一不小心拿了，也会立刻还回去的……嗯……  <br>N- No, I won't steal anything anymore … E-even if I take something by accident, I will return it right away … Yes …                   |
+|       闲谈Ⅱ        |                “雁儿啊，勿再悲啼。从今开始，我身也漂泊。”偶尔一次与咖啡店的客人们谈及奴家的过往，他们教给了奴家这支俳句。  <br>「なくな雁　けふから我も　旅人ぞ」 … I spoke about the past with customers at the cafe once. This Haiku was taught by them.                |
+|  独白[信任达到70%解锁]   |  安全的居所，干净的衣服，美味的食物，安稳的工作……这一切，简直就像是梦境一样，真害怕……会有醒来的那天。  <br>A safe place, clean clothes, delicious food, a stable job … All these are like a dream. Thinking of waking up from this is … terrifying.  |
+|        入队        |                                                                       团伙作案……嗯，不。没什么。  <br>Group crime … Oh, no. It's nothing.                                                                        |
+|        战前        |                                                                                      那么，奴家出发了。  <br>では、いってきます。                                                                                       |
+|      择选咒语Ⅰ       |                                                                                        请交给奴家。  <br>私にお任せください。                                                                                        |
+|      择选咒语Ⅱ       |                                                                                  奴家会照吩咐做的。  <br>I will do as asked.                                                                                  |
+|      择选高阶咒语      |                                                                                      奴家不会手下留情。  <br>手加減は致しませんよ。                                                                                      |
+|     择选至终的仪式      |                                                                                 又到了一个好时节。  <br>What a great season.                                                                                  |
+|      释放神秘术Ⅰ      |                                                                              一只小兔子，两只小兔子。  <br>One rabbit, two rabbits.                                                                              |
+|      释放神秘术Ⅰ      |                                                                                           去吧——！  <br>Gooo!                                                                                           |
+|      释放神秘术Ⅱ      |                                                                                      不好意思……  <br>My apologies …                                                                                      |
+|      释放神秘术Ⅱ      |                                                                              适当的利用磨难。  <br>Take advantage of adversity.                                                                              |
+|     召唤至终的仪式      |                                                                          赏樱的时节到了。  <br>Time to admire the cherry blossoms.                                                                           |
+|       受敌Ⅰ        |                                                                                          ……好痛！  <br>……いたい！                                                                                           |
+|       受敌Ⅱ        |                                                                                           不行……！  <br>No …!                                                                                           |
+|       战斗胜利       |                                                              结束了吗？真是太好了，我们一起回去吧。  <br>Is it over? That's great. Let's go back together.                                                              |
+|    洞悉[洞悉后解锁]     |                                                                         承、承蒙您的厚爱……  <br>Th-Thank you so much for your care …                                                                         |
+|  洞悉之底[获得对应皮肤解锁]  |                                                           好像有什么发生了变化，但……又好像什么都没有变。  <br>Something seems to have changed, but … not really.                                                           |
+
 [^1]: ==控制== 叠加到2层时，变为[石化]或使已存在的[石化]持续时间+1
 [^2]: ==控制== 无法行动，受到现实创伤攻击后解除
 [^3]: 她接受了，她在等候。

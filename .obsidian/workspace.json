@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "a580a2836d4db782",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -212,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -269,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322,
-    "collapsed": true
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,8 +306,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "a580a2836d4db782",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 06.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 05.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 04.png",
@@ -330,11 +316,9 @@
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 02.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 01.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/至终的仪式 樱花落于漫步之间.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/神秘术 伊豆舞女2.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/神秘术 伊豆舞女3.png",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/神秘术 束手窃贼3.png",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
     "000-箱的构造/常用工具.md",
