@@ -136,19 +136,19 @@ title:
 color: 
 > [!culture]+ ｜
 > 
-> 
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
 > ---
 > 
 
 > [!culture]+ ｜
 > 
-> 
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
 > ---
 > 
 
 > [!culture]+ ｜
 > 
-> 
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
 > ---
 > 
 ````
