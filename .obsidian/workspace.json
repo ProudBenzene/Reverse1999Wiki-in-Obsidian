@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "dcedd298a0c1ec71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "200-相从心生/角色心相/夜夜亦然｜Night After Night.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,8 +319,11 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "dcedd298a0c1ec71",
   "lastOpenFiles": [
+    "000-箱的构造/常用工具.md",
+    "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 06.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 05.png",
@@ -319,9 +335,7 @@
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/至终的仪式 樱花落于漫步之间.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/神秘术 伊豆舞女2.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/神秘术 伊豆舞女3.png",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
     "300-以影像之/300-以影像之.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets",
