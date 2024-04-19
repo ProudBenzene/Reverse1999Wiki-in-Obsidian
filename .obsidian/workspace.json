@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "d2f67116c93fea57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -198,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md"
               }
             }
           },
@@ -236,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md"
               }
             }
           }
@@ -285,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +327,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322
+    "width": 322,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -336,14 +351,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "d2f67116c93fea57",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/立绘 讣告人 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/立绘 讣告人 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze~.md",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets/心相 无声注视.png",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
-    "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
     "200-相从心生/角色心相/夜夜亦然｜Night After Night~.md",
     "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets/心相 夜夜亦然.png",
@@ -355,8 +374,6 @@
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 03.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 02.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 01.png",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/至终的仪式 樱花落于漫步之间.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
     "300-以影像之/300-以影像之.md",
@@ -377,13 +394,10 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构造/箱中memos/20240417-13670126f595aec0.md",
-    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets",
     "300-以影像之/304-轶事/assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
     "白板.canvas"
   ]
 }
