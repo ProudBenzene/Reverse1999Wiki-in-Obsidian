@@ -26,8 +26,8 @@
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -296,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322
+    "width": 322,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,8 +323,10 @@
   },
   "active": "dcedd298a0c1ec71",
   "lastOpenFiles": [
-    "000-箱的构造/常用工具.md",
+    "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets/心相 夜夜亦然.png",
     "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
+    "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/单品 五色月 06.png",
@@ -334,7 +338,6 @@
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/至终的仪式 樱花落于漫步之间.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/神秘术 伊豆舞女2.png",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets/神秘术 伊豆舞女3.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
     "300-以影像之/300-以影像之.md",
@@ -360,13 +363,11 @@
     "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
     "200-相从心生/角色心相/请保持平衡｜Balance, Please.md",
     "200-相从心生/角色心相/跳房子游戏｜Hopscotch.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets",
     "300-以影像之/304-轶事/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
-    "assets/README.assets",
     "白板.canvas"
   ]
 }
