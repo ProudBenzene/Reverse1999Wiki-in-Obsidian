@@ -28910,6 +28910,8 @@ var require_dom_to_image_more = __commonJS({
             function copyStyle(sourceElement, targetElement) {
               const sourceComputedStyles = getComputedStyle2(sourceElement);
               if (sourceComputedStyles.cssText) {
+                targetElement.style.cssText = sourceComputedStyles.cssText;
+                copyFont(sourceComputedStyles, targetElement.style);
               } else {
                 copyUserComputedStyleFast(
                   options,
@@ -29501,8 +29503,8 @@ var require_dom_to_image_more = __commonJS({
         for (const name of util.asArray(sourceComputedStyles)) {
           const sourceValue = sourceComputedStyles.getPropertyValue(name);
           const defaultValue = defaultStyle[name];
-          const parentValue = void 0;
-          if (sourceValue !== defaultValue || parentComputedStyles && sourceValue !== parentValue) {
+          const parentValue = parentComputedStyles ? parentComputedStyles.getPropertyValue(name) : void 0;
+          if (sourceValue !== defaultValue || parentComputedStyles && sourceValue !== parentValue || /border/.test(name)) {
             const priority = sourceComputedStyles.getPropertyPriority(name);
             setStyleProperty(targetStyle, name, sourceValue, priority);
           }
