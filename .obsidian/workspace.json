@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c0de59f895fbf688",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "01a2c60378addfb9",
             "type": "leaf",
             "state": {
@@ -38,8 +50,21 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "f4cd067b6182c792",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -107,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md"
               }
             }
           },
@@ -244,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,8 +321,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "3f6df53d6a9606bd",
+  "active": "f4cd067b6182c792",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/帕米埃｜Dikke.assets/立绘 帕米埃 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/帕米埃｜Dikke.assets/立绘 帕米埃 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/帕米埃｜Dikke.assets",
+    "000-箱的构造/常用工具.md",
+    "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/单品 气球派对 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/单品 气球派对 05.png",
@@ -309,11 +340,7 @@
     "测试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 皮纳塔塔1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 皮纳塔塔2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 皮纳塔塔3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 咳咳怪人3.png",
-    "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
     "600-箱中日历/2024/2024-04-12.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
@@ -339,10 +366,8 @@
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
     "000-箱的构造/templates/剧情章节-支线.md",
     "000-箱的构造/templates/剧情章节-主线.md",
-    "000-箱的构造/箱中memos/20240417-1636089e5582f056.md",
     "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets",
-    "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets",
     "白板.canvas"
   ]
 }
