@@ -98,10 +98,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 不请自来的客人｜An Uninvited Guest
 
 ````ad-flex
@@ -128,7 +124,7 @@ color:
 > 当我们试图征集与之相关的传闻时，来稿的信件铺满了编辑室的门廊。
 ````
 
-### 银翅谣｜The Folk Song of Silver Butterfly
+### 银翅谣｜The Folk Song of Silver Butterfly[^3]
 
 ````ad-flex
 collapse: open
@@ -247,3 +243,4 @@ tab: 次周休刊通知｜[UTTU×气球派对]
 
 [^1]: ==护盾== 对攻击者造成气球派对*现实防御*\***100%**的*本源创伤*（生效后减少1层）
 [^2]: ==护盾== *受创减免*+**25%**，被攻击后回复**20%**已损失*生命*（生效后减少1层）
+[^3]: 嘘，那是？啊呀——是一簇蝶！
