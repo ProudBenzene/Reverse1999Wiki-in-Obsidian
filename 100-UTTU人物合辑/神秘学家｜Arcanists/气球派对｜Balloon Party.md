@@ -57,7 +57,7 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
+> [!skill]- 皮纳塔塔
 > 
 > 
 > | 等级  | 类型  | 技能  | 文化  |
@@ -67,7 +67,7 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
+> [!skill]- 咳咳怪人
 > 
 > 
 > | 等级  | 类型  | 技能  | 文化  |
@@ -77,8 +77,8 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
-> 
+> [!skill]- 好孩子、坏大人
+> ![好孩子、坏大人|100](assets/气球派对｜Balloon%20Party.assets/至终的仪式%20好孩子、坏大人.png)
 > 
 > | 技能 | 文化 |
 > | :--: | :--: |
