@@ -111,7 +111,7 @@
   "InsertType": "custom",
   "ShareAppendType": "preset",
   "SharePrependType": "preset",
-  "SetFileNameAfterCreate": true,
+  "SetFileNameAfterCreate": false,
   "TagForFileTypeFiles": "thino/file",
   "TagForMultiTypeFiles": "thino/multi",
   "MinHeightForShare": "200px",
