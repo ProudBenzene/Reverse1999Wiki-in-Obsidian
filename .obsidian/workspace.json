@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "10a878fb4ce2ed93",
+            "id": "d4d05bc9658f7671",
             "type": "leaf",
             "state": {
               "type": "thino_view",
@@ -317,15 +317,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "10a878fb4ce2ed93",
+  "active": "d4d05bc9658f7671",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "README.md",
     "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
     "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
     "assets/README.assets",
     "assets",
     "000-箱的构造/箱中memos/20240420-574a42658d21e4fe.md",
     "000-箱的构造/箱中memos/20240420-448f2443defb3e33.md",
-    "000-箱的构造/主页.md",
     "测试.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
@@ -363,7 +364,6 @@
     "000-箱的构造/templates/剧情章节-角色.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
-    "README.md",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
     "白板.canvas"
   ]
