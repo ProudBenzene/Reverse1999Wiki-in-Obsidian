@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -310,11 +311,12 @@
   },
   "active": "74992bd6505d156b",
   "lastOpenFiles": [
+    "400-箱外世界/暴雨时间线.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/立绘 气球派对 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/立绘 气球派对 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
     "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
-    "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
     "000-箱的构造/主页.md",
     "测试.md",
@@ -327,8 +329,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 与棺同行3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 与棺同行2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/至终的仪式 逝者们的低语.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
     "200-相从心生/角色心相/无声注视｜Silent Gaze.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze~.md",
