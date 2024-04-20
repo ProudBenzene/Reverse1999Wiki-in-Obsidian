@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9aadaddd821e22fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "74992bd6505d156b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
                 "mode": "preview",
                 "source": true
               }
@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -200,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -257,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322,
-    "collapsed": true
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,10 +306,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "74992bd6505d156b",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 皮纳塔塔1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 皮纳塔塔2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 皮纳塔塔3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 咳咳怪人3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 咳咳怪人2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/神秘术 咳咳怪人1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/至终的仪式 好孩子、坏大人.png",
+    "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/立绘 气球派对 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets/立绘 气球派对 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
@@ -322,13 +326,6 @@
     "测试.md",
     "600-箱中日历/2024/2024-04-12.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/单品 讣告人 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/单品 讣告人 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/单品 讣告人 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 与棺同行1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 与棺同行3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
     "200-相从心生/角色心相/无声注视｜Silent Gaze.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze~.md",
