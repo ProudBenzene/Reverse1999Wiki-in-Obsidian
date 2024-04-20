@@ -58,7 +58,7 @@ banner_header: "{{filename}}"
 ## 神秘术
 
 > [!skill]- 皮纳塔塔
-> 
+> ![皮纳塔塔|100](assets/气球派对｜Balloon%20Party.assets/神秘术%20皮纳塔塔1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -68,7 +68,7 @@ banner_header: "{{filename}}"
 > 
 
 > [!skill]- 咳咳怪人
-> 
+> ![咳咳怪人|100](assets/气球派对｜Balloon%20Party.assets/神秘术%20咳咳怪人1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
