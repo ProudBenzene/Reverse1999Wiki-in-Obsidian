@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "7c5187332f36e1dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +296,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322
+    "width": 322,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,10 +320,10 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "7c5187332f36e1dc",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-01-12.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-01-12.md",
     "README.md",
     "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
     "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
