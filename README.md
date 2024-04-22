@@ -29,7 +29,7 @@
 		- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)
 		- [Bilibili](https://www.bilibili.com/)
 	- 各大 9 友用爱发电整理的其他资源：
-		- 
+		- [重返未来1999官方微博图](https://pan.baidu.com/s/1A4o9VM4kPa_vzWZEtHiZSA?pwd=1999#list/path=%2F)
 		- [Reverse: 1999 Base Game Enemies - Google Docs](https://docs.google.com/document/d/1HX-r1yrY82VKAkFtTo2HRI1M6DFT8bUdUxnEZLNoBB0/edit?pli=1)
 - Obsidian 方面：
 	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet

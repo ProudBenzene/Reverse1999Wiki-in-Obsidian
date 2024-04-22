@@ -13,10 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f6df53d6a9606bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
                 "source": true
               }
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -31,7 +63,7 @@
       {
         "id": "fb7552c6126461e8",
         "type": "tabs",
-        "dimension": 75,
+        "dimension": 73.83292383292384,
         "children": [
           {
             "id": "250c5f6efff2f242",
@@ -77,9 +109,9 @@
         ]
       },
       {
-        "id": "710bf2a9ba69c245",
+        "id": "b94dcb9d96b5f843",
         "type": "tabs",
-        "dimension": 25,
+        "dimension": 26.167076167076164,
         "children": [
           {
             "id": "e94c2006ca70689a",
@@ -87,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,10 +161,10 @@
                       }
                     }
                   ],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
+                  "nodeSizeMultiplier": 0.589680989583333,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0.518713248970312,
@@ -161,6 +193,16 @@
         "dimension": 36.89903846153847,
         "children": [
           {
+            "id": "fcfeade928c29023",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
+            }
+          },
+          {
             "id": "13eab36a72e3758c",
             "type": "leaf",
             "state": {
@@ -168,7 +210,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a0af558e737c8c63",
@@ -212,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,10 +308,10 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "README.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "600-箱中日历/2024/2024-01-12.md",
-    "README.md",
     "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
     "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
     "assets/README.assets",
