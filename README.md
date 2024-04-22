@@ -28,6 +28,9 @@
 		- [1999 官方 Discord](https://discord.gg/reverse1999)
 		- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)
 		- [Bilibili](https://www.bilibili.com/)
+	- 各大 9 友用爱发电整理的其他资源：
+		- 
+		- [Reverse: 1999 Base Game Enemies - Google Docs](https://docs.google.com/document/d/1HX-r1yrY82VKAkFtTo2HRI1M6DFT8bUdUxnEZLNoBB0/edit?pli=1)
 - Obsidian 方面：
 	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet
 	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte
