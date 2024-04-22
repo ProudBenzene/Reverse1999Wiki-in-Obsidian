@@ -13,58 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c5187332f36e1dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f6df53d6a9606bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": true
               }
             }
-          },
-          {
-            "id": "01a2c60378addfb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95f89cae69831722",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +31,7 @@
       {
         "id": "fb7552c6126461e8",
         "type": "tabs",
-        "dimension": 73.83292383292384,
+        "dimension": 75,
         "children": [
           {
             "id": "250c5f6efff2f242",
@@ -122,9 +77,9 @@
         ]
       },
       {
-        "id": "b94dcb9d96b5f843",
+        "id": "710bf2a9ba69c245",
         "type": "tabs",
-        "dimension": 26.167076167076164,
+        "dimension": 25,
         "children": [
           {
             "id": "e94c2006ca70689a",
@@ -132,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,10 +129,10 @@
                       }
                     }
                   ],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 0.589680989583333,
+                  "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0.518713248970312,
@@ -206,16 +161,6 @@
         "dimension": 36.89903846153847,
         "children": [
           {
-            "id": "fcfeade928c29023",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md"
-              }
-            }
-          },
-          {
             "id": "13eab36a72e3758c",
             "type": "leaf",
             "state": {
@@ -223,8 +168,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a0af558e737c8c63",
@@ -268,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,12 +240,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322,
-    "collapsed": true
+    "width": 317
   },
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -316,13 +260,13 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-memos:Thino": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "7c5187332f36e1dc",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
     "600-箱中日历/2024/2024-01-12.md",
     "README.md",
     "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
@@ -366,7 +310,6 @@
     "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",
-    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
     "白板.canvas"
   ]

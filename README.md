@@ -25,6 +25,7 @@
 		- [Reverse: 1999 Wiki | Fandom](https://reverse1999.fandom.com/wiki/Reverse:_1999_Wiki)
 	- 各大 1999 网络论坛
 		-  [NGA玩家社区](https://ngabbs.com/thread.php?fid=510389)
+		- [1999 官方 Discord](https://discord.gg/reverse1999)
 		- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)
 		- [Bilibili](https://www.bilibili.com/)
 - Obsidian 方面：
