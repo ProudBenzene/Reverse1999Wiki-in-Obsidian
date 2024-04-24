@@ -660,5 +660,6 @@
   "Blue-Topaz-Legacy@@thino-background-light-custom": "url(\"https://www.freeimg.cn/i/2024/04/09/661558fb25533.jpg\")",
   "Blue-Topaz-Legacy@@hide-share-thino-banner": false,
   "Blue-Topaz-Legacy@@share-thino-style": "share-thino-with-thino-background",
-  "Thino@@memos-inputbox": false
+  "Thino@@memos-inputbox": false,
+  "Blue-Topaz-Legacy@@thino-modern-primary@@dark": "#312E2E"
 }
