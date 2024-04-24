@@ -1,0 +1,120 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.sakana-widget-box {
+	position: fixed;
+	bottom: 30px;
+	right: 15px;
+	/* min-width / height: 120px */
+	width: 150px;
+	height: 150px;
+}
+
+.sakana-widget {
+	width: 100%;
+	height: 100%;
+}
+
+/* component/wrapper/index.scss */
+.sakana-widget *,
+.sakana-widget *::before,
+.sakana-widget *::after {
+	box-sizing: border-box;
+}
+.sakana-widget-wrapper {
+	pointer-events: none;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.sakana-widget-app {
+	pointer-events: none;
+	position: relative;
+}
+.sakana-widget-canvas {
+	z-index: 10;
+	pointer-events: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.sakana-widget-main {
+	z-index: 20;
+	pointer-events: none;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.sakana-widget-img {
+	z-index: 40;
+	cursor: move;
+	pointer-events: auto;
+	position: relative;
+	background: no-repeat 50% 50%;
+	background-size: cover;
+}
+.sakana-widget-ctrl {
+	z-index: 30;
+	cursor: pointer;
+	pointer-events: auto;
+	position: relative;
+	height: 24px;
+	width: 112px;
+	display: flex;
+	border-radius: 4px;
+	background-color: #dddddd;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.sakana-widget-ctrl-item {
+	height: 24px;
+	width: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #555555;
+	background-color: transparent;
+}
+.sakana-widget-ctrl-item:hover {
+	color: #555555;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.sakana-widget-icon {
+	height: 18px;
+	width: 18px;
+}
+.sakana-widget-icon--rotate {
+	animation: sakana-widget-spin 2s linear infinite;
+}
+@keyframes sakana-widget-spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiY29tcG9uZW50L3dyYXBwZXIvRTovb2JkZXYvLm9ic2lkaWFuL3BsdWdpbnMvc2FrYW5hLXdpZGdldC9jb21wb25lbnQvd3JhcHBlci9pbmRleC5zY3NzIiwgImNvbXBvbmVudC93cmFwcGVyLyUzQ2lucHV0JTIwY3NzJTIwWmpKamotJTNFIiwgImNvbXBvbmVudC93cmFwcGVyL0U6L29iZGV2Ly5vYnNpZGlhbi9wbHVnaW5zL3Nha2FuYS13aWRnZXQvbm9kZV9tb2R1bGVzL2Rzci1kZXNpZ24vc2Nzcy92YXJpYWJsZXMuc2NzcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFtudWxsLCBudWxsLCBudWxsXSwKICAibWFwcGluZ3MiOiAiO0FBUUU7OztBQUdFOztBQUdGO0FBQ0U7QUFDQTtBQUNBO0FBQ0E7O0FBR0Y7QUFDRTtBQUNBOztBQUdGO0FBQ0U7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUdGO0FBQ0U7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBR0Y7QUFDRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBR0Y7QUFDRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFDQTtBQUNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUNBO0FBQ0U7QUFDQTs7QUFLTjtBQUNFO0FBQ0E7O0FBQ0E7QUFDRTs7QUFLTjs7QUFFSTs7OyIsCiAgIm5hbWVzIjogW10KfQo= */
+
+/* Settings Styles */
+.widget-setting {
+	flex-wrap: wrap;
+}
+.widget-setting .setting-item-name {
+	font-weight: bold;
+}
+.widget-setting .widget-main-settings {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 80% 20%;
+	border-top: solid 1px var(--background-modifier-border);
+	margin-top: 10px;
+}
+.widget-setting .widget-main-settings * {
+	margin-top: 10px;
+}
