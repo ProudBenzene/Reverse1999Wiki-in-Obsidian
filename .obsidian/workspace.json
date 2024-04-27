@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "6a9ea13b0b67f04d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -76,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md"
               }
             }
           },
@@ -281,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -333,10 +321,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "6a9ea13b0b67f04d",
+  "active": "2ba9b9da845e5dec",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets/尤提姆 阿夫西维.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/尤提姆 北方哨歌.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets/尤提姆 阿夫西维.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/立绘 北方哨歌 01.png",
