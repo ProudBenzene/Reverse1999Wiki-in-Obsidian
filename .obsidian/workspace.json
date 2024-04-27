@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "68eaa5d8a1f1970f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -211,9 +196,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md"
-              }
+              "state": {}
             }
           },
           {
@@ -224,8 +207,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a0af558e737c8c63",
@@ -269,7 +251,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +267,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,8 +277,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322,
-    "collapsed": true
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,13 +300,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "68eaa5d8a1f1970f",
+  "active": "fcfeade928c29023",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明2.png",
@@ -336,8 +316,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/至终的仪式 更漫长的漫长.png",
-    "000-箱的构造/主页.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/尤提姆 北方哨歌.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets",
