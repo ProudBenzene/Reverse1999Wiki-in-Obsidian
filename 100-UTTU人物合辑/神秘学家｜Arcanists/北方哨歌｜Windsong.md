@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 出场章节:
   - 1.8｜再见，来亚什基
 ---
-![cover](assets/北方哨歌｜Windsong.assets/立绘%20北方哨歌%2002.png)
+![](assets/北方哨歌｜Windsong.assets/神秘术%20故此证明1.png)![cover](assets/北方哨歌｜Windsong.assets/立绘%20北方哨歌%2002.png)
 
 > [!bkgd]+ 背景
 > - 展出/活跃时代:: 20 世纪 90 年代
@@ -63,8 +63,8 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
-> 
+> [!skill]- 故此证明
+> ![故此证明 一阶|100](assets/北方哨歌｜Windsong.assets/神秘术%20故此证明1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -73,8 +73,8 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
-> 
+> [!skill]- 实用论调
+> ![实用论调 一阶|100](assets/北方哨歌｜Windsong.assets/神秘术%20实用论调1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
