@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +253,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +269,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,12 +302,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "000-箱的构造/assets/主页.assets/十全调【尽杯酌】.png",
     "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
     "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/维尔汀｜Vertin.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "000-箱的构造/箱中memos/20240428-bacc550aa9c2b867.md",
@@ -327,7 +324,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/至终的仪式 更漫长的漫长.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets",
@@ -348,7 +344,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/帕米埃｜Dikke.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
     "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets",
