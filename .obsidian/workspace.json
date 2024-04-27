@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构造/主页.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -253,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,53 +306,54 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
-    "000-箱的构造/assets/主页.assets/十全调【尽杯酌】.png",
-    "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
-    "400-箱外世界/暴雨时间线.md",
-    "100-UTTU人物合辑/维尔汀｜Vertin.md",
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
-    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
-    "000-箱的构造/箱中memos/20240428-bacc550aa9c2b867.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets",
-    "000-箱的构造/常用工具.md",
-    "README.md",
-    "600-箱中日历/2024/2024-04-12.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
-    "600-箱中日历/2024/2024-01-12.md",
-    "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
-    "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
-    "assets/README.assets",
-    "assets",
-    "000-箱的构造/箱中memos/20240420-574a42658d21e4fe.md",
-    "000-箱的构造/箱中memos/20240420-448f2443defb3e33.md",
-    "测试.md",
+    "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
+    "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets/温妮弗雷德 · 致温妮弗雷德.jpeg",
+    "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
+    "200-相从心生/角色心相/无声注视｜Silent Gaze.md",
+    "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
+    "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets/心相 无声注视.png",
+    "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
+    "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets/心相 夜夜亦然.png",
+    "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/讣告人｜Necrologist.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/玛蒂尔达｜Matilda Bouanich.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/帕米埃｜Dikke.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets/尤提姆 阿夫西维.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/至终的仪式 逝者们的低语.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/立绘 讣告人 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/立绘 讣告人 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
-    "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
-    "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
+    "000-箱的构造/箱中memos/20240428-bacc550aa9c2b867.md",
+    "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
+    "000-箱的构造/箱中memos/20240420-574a42658d21e4fe.md",
+    "000-箱的构造/箱中memos/20240420-448f2443defb3e33.md",
+    "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
+    "000-箱的构造/箱中memos/20240417-2c39e26eca2a128f.md",
+    "000-箱的构造/箱中memos/20240417-1636089e5582f056.md",
+    "000-箱的构造/箱中memos/20240417-13670126f595aec0.md",
+    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
+    "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
+    "000-箱的构造/templates/剧情章节-轶事.md",
+    "000-箱的构造/templates/剧情章节-角色.md",
+    "000-箱的构造/templates/剧情章节-支线.md",
+    "000-箱的构造/templates/剧情章节-主线.md",
+    "测试.md",
+    "000-箱的构造/箱中memos/20240413-128b70f0dd4d33cf.md",
+    "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
+    "000-箱的构造/箱中memos/20240412-35333b965971104e.md",
+    "assets/README.assets",
     "白板.canvas"
   ]
 }
