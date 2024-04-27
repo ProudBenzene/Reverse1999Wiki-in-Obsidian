@@ -119,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -207,7 +210,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a0af558e737c8c63",
@@ -251,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,8 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "fcfeade928c29023",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "000-箱的构造/箱中memos/20240428-bacc550aa9c2b867.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 01.png",
@@ -320,7 +328,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets",
     "000-箱的构造/常用工具.md",
-    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "README.md",
     "600-箱中日历/2024/2024-04-12.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
