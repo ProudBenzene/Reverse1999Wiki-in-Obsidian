@@ -171,7 +171,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7084715741045352,
+                  "scale": 1,
                   "close": true
                 }
               }
@@ -283,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322,
-    "collapsed": true
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
