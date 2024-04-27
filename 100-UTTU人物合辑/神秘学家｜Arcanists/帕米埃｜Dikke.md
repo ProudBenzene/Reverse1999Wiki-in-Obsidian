@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/帕米埃｜Dikke.assets/立绘%20帕米埃%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 中世纪
 > - 诞生:: 10 月 10 日秋
 > - 参展时长:: 19 年

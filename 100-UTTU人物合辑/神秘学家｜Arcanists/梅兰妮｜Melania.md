@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/梅兰妮｜Melania.assets/立绘%20梅兰妮%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 60 年代
 > - 诞生:: 3 月 20 日春
 > - 参展时长:: 18 年

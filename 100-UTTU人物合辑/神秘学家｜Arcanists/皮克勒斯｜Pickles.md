@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/皮克勒斯｜Pickles.assets/立绘%20皮克勒斯%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 60 年代
 > - 诞生:: 10 月 27 日秋
 > - 参展时长:: 4 年

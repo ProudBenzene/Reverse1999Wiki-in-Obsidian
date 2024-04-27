@@ -40,7 +40,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/6｜Six.assets/立绘%206%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 二十世纪八十年代
 > - 诞生:: 2 月 13 日冬
 > - 参展时长:: 22 年

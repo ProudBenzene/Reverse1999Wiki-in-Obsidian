@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/37｜Thirty-seven.assets/立绘%2037%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 7 月 27 日夏
 > - 参展时长:: 16 年

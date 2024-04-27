@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/小叶尼塞｜Yenisei.assets/立绘%20小叶尼塞%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 19 世纪早期
 > - 诞生:: 3 月 4 日春
 > - 参展时长:: 16 年

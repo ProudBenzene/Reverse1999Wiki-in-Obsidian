@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/远旅｜Voyager.assets/立绘%20远旅%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪中叶
 > - 诞生:: 11 月 12 日冬
 > - 参展时长:: 未知

@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/北方哨歌｜Windsong.assets/立绘%20北方哨歌%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 10 月 13 日秋
 > - 参展时长:: 22 年

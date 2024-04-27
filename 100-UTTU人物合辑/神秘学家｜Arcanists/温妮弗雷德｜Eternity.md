@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/温妮弗雷德｜Eternity.assets/立绘%20温妮弗雷德%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > ![名片|inlR|200](assets/温妮弗雷德｜Eternity.assets/名片%20温妮弗雷德.png)
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 12 月 25 日冬

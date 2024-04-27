@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/和平乌鲁｜Ulu.assets/立绘%20和平乌鲁%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 未知
 > - 诞生:: 1 月 12 日夏
 > - 参展时长:: 未知

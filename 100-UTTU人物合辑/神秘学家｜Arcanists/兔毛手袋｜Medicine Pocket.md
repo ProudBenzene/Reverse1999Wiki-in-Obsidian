@@ -40,7 +40,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/兔毛手袋｜Medicine%20Pocket.assets/立绘%20兔毛手袋%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 90 年代末
 > - 诞生:: 11 月 24 日冬
 > - 参展时长:: 18 年

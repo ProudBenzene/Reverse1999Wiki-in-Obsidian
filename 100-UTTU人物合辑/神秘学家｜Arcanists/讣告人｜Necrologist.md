@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/讣告人｜Necrologist.assets/立绘%20讣告人%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 40 年代
 > - 诞生:: 11 月 2 日秋
 > - 参展时长:: 17 年

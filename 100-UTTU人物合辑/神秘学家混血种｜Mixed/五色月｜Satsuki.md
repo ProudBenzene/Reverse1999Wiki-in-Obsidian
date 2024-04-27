@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/五色月｜Satsuki.assets/立绘%20五色月%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 10—20 年代
 > - 诞生:: 5 月 1 日春
 > - 参展时长:: 16 年

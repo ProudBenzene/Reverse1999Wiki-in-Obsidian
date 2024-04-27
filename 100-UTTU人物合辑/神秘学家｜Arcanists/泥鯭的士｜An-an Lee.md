@@ -42,7 +42,7 @@ banner_header: "{{filename}}"
 ![[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png|inlR|200]]
 <div style="height: 50px"></div>
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 90 年代末
 > - 诞生:: 7 月 27 日夏
 > - 参展时长:: 16 年

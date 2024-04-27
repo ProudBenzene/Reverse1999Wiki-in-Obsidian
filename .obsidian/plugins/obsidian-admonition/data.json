@@ -235,15 +235,15 @@
       "noTitle": false,
       "copy": true
     },
-    "bkgd": {
-      "type": "bkgd",
+    "overview": {
+      "type": "overview",
       "color": "220, 189, 96",
       "icon": {
         "name": "film",
         "type": "font-awesome"
       },
       "command": false,
-      "title": "Background",
+      "title": "Overview",
       "injectColor": true,
       "noTitle": false,
       "copy": true

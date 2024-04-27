@@ -40,7 +40,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/马库斯｜Marcus.assets/立绘%20马库斯%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪初叶
 > - 诞生:: 1 月 12 日春
 > - 参展时长:: 17 年
