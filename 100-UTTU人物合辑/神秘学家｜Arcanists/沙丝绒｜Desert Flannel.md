@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/沙丝绒｜Desert%20Flannel.assets/立绘%20沙丝绒%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 9 月 22 日春
 > - 参展时长:: 17 年

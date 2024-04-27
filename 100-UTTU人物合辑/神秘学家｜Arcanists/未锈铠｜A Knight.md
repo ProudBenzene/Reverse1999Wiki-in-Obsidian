@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/未锈铠｜A%20Knight.assets/立绘%20未锈铠%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 或曾于中世纪时期展出
 > - 诞生:: 未知
 > - 参展时长:: 未知

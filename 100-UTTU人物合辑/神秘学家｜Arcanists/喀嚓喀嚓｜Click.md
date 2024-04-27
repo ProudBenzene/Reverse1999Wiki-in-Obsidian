@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/喀嚓喀嚓｜Click.assets/立绘%20喀嚓喀嚓%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 40 年代
 > - 诞生:: 
 > - 参展时长:: 

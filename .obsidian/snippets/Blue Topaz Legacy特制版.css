@@ -8292,6 +8292,46 @@ body.style-options-for-buttons-plugin button.grad_button:hover {
   animation: swing_image 0.8s linear 0s 1 normal;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
 }
+
+/*****修改小按钮*****/
+
+body.style-options-for-buttons-plugin .admonition-content span>button.grad_tiny_button {
+  margin:3px;
+}
+body.style-options-for-buttons-plugin button.grad_tiny_button {
+  margin:5PX 0.4PX;
+  line-height: inherit;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px;
+  padding: 0 18px;
+  height: 38px;
+  font-size: 16px;
+  font-family: Monaspace Xenon, "杨任东竹石体";
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: box-shadow .5s ease, transform .2s ease;
+  will-change: transform;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  transform:
+    translateY(var(--ty, 0))
+    rotateX(var(--rx, 0))
+    rotateY(var(--ry, 0))
+    translateZ(var(--tz, -12px));
+}
+
+body.style-options-for-buttons-plugin button.grad_tiny_button:hover {
+  animation: swing_image 0.8s linear 0s 1 normal;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+/*****修改小按钮*****/
+
 body.style-options-for-buttons-plugin button.g_purple {
   background: linear-gradient(135deg, #6e8efb, #a777e3);
 }

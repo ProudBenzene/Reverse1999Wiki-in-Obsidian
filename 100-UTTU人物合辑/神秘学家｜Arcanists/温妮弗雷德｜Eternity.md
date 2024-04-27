@@ -29,15 +29,18 @@ Udimo:
 aliases:
   - 温妮弗雷德
   - Eternity
+  - Winnifred
 初始立绘: "[[立绘 温妮弗雷德 01.png]]"
 本色立绘: "[[立绘 温妮弗雷德 02.png]]"
 生日: 2024-12-25
 banner_header: "{{filename}}"
 出场章节:
+  - 温妮弗雷德 · 致温妮弗雷德
 ---
 ![cover](assets/温妮弗雷德｜Eternity.assets/立绘%20温妮弗雷德%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
+> ![名片|inlR|200](assets/温妮弗雷德｜Eternity.assets/名片%20温妮弗雷德.png)
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 12 月 25 日冬
 > - 参展时长:: 逾一世纪

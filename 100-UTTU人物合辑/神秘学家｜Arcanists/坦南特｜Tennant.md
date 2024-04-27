@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/坦南特｜Tennant.assets/立绘%20坦南特%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 40 年代
 > - 诞生:: 9 月 8 日秋
 > - 参展时长:: 25 年

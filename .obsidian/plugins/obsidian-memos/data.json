@@ -87,7 +87,7 @@
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404061622490.png",
   "MomentsQuote": "The Storm is coming...",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.23",
+  "LastUpdatedVersion": "2.4.33",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -99,8 +99,17 @@
   "InsertType": "custom",
   "ShareAppendType": "preset",
   "SharePrependType": "preset",
-  "SetFileNameAfterCreate": true,
+  "SetFileNameAfterCreate": false,
   "TagForFileTypeFiles": "thino/file",
   "TagForMultiTypeFiles": "thino/multi",
-  "MinHeightForShare": "200px"
+  "MinHeightForShare": "200px",
+  "ThinoMaxHeight": 0,
+  "ThinoCollapsedHeight": 100,
+  "OptimizeForCallout": true,
+  "AppendOrPrependTextViaServer": false,
+  "AppendViaServer": "",
+  "PrependViaServer": "",
+  "WithNewLineViaServer": "none",
+  "SupportSelectOtherView": false,
+  "WaitTemplaterToFinishParse": false
 }

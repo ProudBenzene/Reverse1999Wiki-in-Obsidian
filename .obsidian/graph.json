@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 16021781
       }
+    },
+    {
+      "query": "path: 000-箱的构造/箱中memos  ",
+      "color": {
+        "a": 1,
+        "rgb": 16111006
+      }
     }
   ],
   "collapse-display": true,
@@ -53,6 +60,6 @@
   "repelStrength": 10.6005859375,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.14271756999166396,
+  "scale": 0.1632461073133523,
   "close": true
 }

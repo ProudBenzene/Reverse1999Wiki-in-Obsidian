@@ -285,7 +285,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 318
+        "width": 322
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -309,7 +309,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-04-08T14:55:10+08:00",
+      "mtime": "2024-04-16T19:19:45+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null

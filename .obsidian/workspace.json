@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +253,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +269,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +279,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,54 +302,53 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
-    "000-箱的构造/script/tp",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/坦南特｜Tennant.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/单品 坦南特 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/单品 坦南特 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/单品 坦南特 02.png",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/至终的仪式 一颗真诚的心.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一束星河1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一束星河3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一束星河2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets/神秘术 一颗闪钻2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/坦南特｜Tennant.assets",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
-    "000-箱的构造/箱中memos/memos.thino.md",
-    "600-箱中日历/2024/2024-04-12.md",
-    "000-箱的构造/箱中memos/20240412-cc4b3d010760f128.md",
-    "600-箱中日历/2024/2024-01-09.md",
-    "000-箱的构造/箱中memos/20240413-128b70f0dd4d33cf.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+    "000-箱的构造/assets/主页.assets/十全调【尽杯酌】.png",
+    "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
+    "400-箱外世界/暴雨时间线.md",
+    "100-UTTU人物合辑/维尔汀｜Vertin.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
+    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "000-箱的构造/箱中memos/20240428-bacc550aa9c2b867.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/单品 北方哨歌 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/马库斯｜Marcus.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Yenisei.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets",
-    "600-箱中日历/2024/2024-01-15.md",
-    "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong~.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 故此证明3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets/神秘术 实用论调1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/北方哨歌｜Windsong.assets",
+    "000-箱的构造/常用工具.md",
+    "README.md",
+    "600-箱中日历/2024/2024-04-12.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/牙仙｜Tooth Fairy.md",
+    "600-箱中日历/2024/2024-01-12.md",
+    "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
+    "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
     "assets/README.assets",
     "assets",
-    "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
+    "000-箱的构造/箱中memos/20240420-574a42658d21e4fe.md",
+    "000-箱的构造/箱中memos/20240420-448f2443defb3e33.md",
     "测试.md",
-    "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
-    "400-箱外世界/暴雨时间线.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-    "000-箱的构造/箱中memos/20240411-f91cc6faa7826ba1.md",
-    "000-箱的构造/箱中memos/20240411-cec44589992cb449.md",
-    "000-箱的构造/箱中memos/20240412-35333b965971104e.md",
-    "000-箱的构造/箱中memos/20240412-d56d24910d5794bf.md",
-    "000-箱的构造/箱中memos/20240411-60b56e73107bc56a.md",
-    "200-相从心生/印刻材料/assets/启寤Ⅲ｜Enlighten.assets/Thumbs.db",
-    "200-相从心生/印刻材料/assets/启寤Ⅱ｜Enlighten.assets/Thumbs.db",
-    "200-相从心生/印刻材料/assets/启寤Ⅰ｜Enlighten.assets/Thumbs.db",
-    "200-相从心生/印刻材料/assets/掠影｜Fleeting Memory.assets/Thumbs.db",
-    "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets",
-    "300-以影像之/303-角色剧情/assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/气球派对｜Balloon Party.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke~.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/帕米埃｜Dikke.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
+    "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
+    "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/五色月｜Satsuki.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets",
     "白板.canvas"
   ]
 }

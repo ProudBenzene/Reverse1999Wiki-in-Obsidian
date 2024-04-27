@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-sakana-widget",
+	"name": "Sakana Widget",
+	"version": "2.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "Add the Sakana! Widget to your own Obsidian!",
+	"author": "Boninall",
+	"authorUrl": "https://obsidian.md",
+	"isDesktopOnly": false
+}

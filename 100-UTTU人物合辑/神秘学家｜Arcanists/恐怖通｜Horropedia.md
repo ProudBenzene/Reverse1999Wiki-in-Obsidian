@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/恐怖通｜Horropedia.assets/立绘%20恐怖通%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 1 月 3 日冬
 > - 参展时长:: 21 年

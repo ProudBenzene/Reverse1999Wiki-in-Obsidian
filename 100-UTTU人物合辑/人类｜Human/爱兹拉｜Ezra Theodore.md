@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/爱兹拉｜Ezra%20Theodore.assets/立绘%20爱兹拉%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 90 年代
 > - 诞生:: 6 月 1 日冬
 > - 参展时长:: 14

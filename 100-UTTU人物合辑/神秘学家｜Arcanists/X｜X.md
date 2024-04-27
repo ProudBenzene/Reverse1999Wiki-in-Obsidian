@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/X｜X.assets/立绘%20X%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 30 年代
 > - 诞生:: 5 月 30 日春
 > - 参展时长:: 16 年

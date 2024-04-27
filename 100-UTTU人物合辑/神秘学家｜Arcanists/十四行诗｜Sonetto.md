@@ -43,7 +43,7 @@ aliases:
 ---
 ![cover](assets/十四行诗｜Sonetto.assets/立绘%20十四行诗%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > ![十四行诗ID卡|inlR|280](assets/十四行诗｜Sonetto.assets/十四行诗ID卡.png)
 > - 展出/活跃时代:: 20 世纪
 > - 诞生:: 1月10日冬

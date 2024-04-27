@@ -29,6 +29,7 @@ Udimo:
 aliases:
   - 葛天
   - GeTian
+  - 燕平
 初始立绘: "[[立绘 葛天 01.png]]"
 本色立绘: "[[立绘 葛天 02.png]]"
 生日: 2024-02-29
@@ -38,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/葛天｜GeTian.assets/立绘%20葛天%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 经换算，或曾于公元220年左右展出
 > - 诞生:: 夏季
 > - 参展时长:: 

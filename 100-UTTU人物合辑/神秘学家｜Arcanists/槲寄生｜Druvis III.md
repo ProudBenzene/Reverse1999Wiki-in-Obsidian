@@ -43,7 +43,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪初叶
 > - 诞生:: 10 月 23 日秋
 > - 参展时长:: 20 年

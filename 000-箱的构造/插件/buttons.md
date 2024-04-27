@@ -14,6 +14,41 @@ class grad_button green
 ```
 ^button-newPsychube
 
+```button
+name 🧳主线
+type command
+action QuickAdd: 🧳 添加主线
+class grad_tiny_button
+customColor #e64553
+```
+^button-main
+
+```button
+name 🏆支线
+type command
+action QuickAdd: 🏆 添加支线
+class grad_tiny_button
+customColor #f5a97f
+```
+^button-branch
+
+```button
+name 😹角剧
+type command
+action QuickAdd: 😹 添加角色剧情
+class grad_tiny_button
+customColor #1e66f5
+```
+^button-rolestory
+
+```button
+name 🥹轶事
+type command
+action QuickAdd: 🥹 添加轶事
+class grad_tiny_button
+customColor #179299
+```
+^button-anecdote
 
 
 ```button
@@ -107,3 +142,4 @@ action obsidian://advanced-uri?vault=Reverse%EF%BC%9A%E6%97%B6%E9%97%B4%E7%9A%84
 class  blank
 ```
 ^button-collection
+

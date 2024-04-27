@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 20 年代
 > - 诞生:: 10 月 22 日秋
 > - 参展时长:: 18 年

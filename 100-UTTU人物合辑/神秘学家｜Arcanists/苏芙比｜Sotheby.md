@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/苏芙比｜Sotheby.assets/立绘%20苏芙比%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪初叶
 > - 诞生:: 4 月 15 日春
 > - 参展时长:: 13 年

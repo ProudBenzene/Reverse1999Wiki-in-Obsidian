@@ -39,7 +39,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/挖掘艺术｜Diggers.assets/立绘%20挖掘艺术%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 60 年代
 > - 诞生:: 2 月 15 日冬
 > - 参展时长:: 20 年

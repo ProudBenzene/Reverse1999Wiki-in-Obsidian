@@ -25,8 +25,12 @@
 		- [Reverse: 1999 Wiki | Fandom](https://reverse1999.fandom.com/wiki/Reverse:_1999_Wiki)
 	- 各大 1999 网络论坛
 		-  [NGA玩家社区](https://ngabbs.com/thread.php?fid=510389)
+		- [1999 官方 Discord](https://discord.gg/reverse1999)
 		- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)
 		- [Bilibili](https://www.bilibili.com/)
+	- 各大 9 友用爱发电整理的其他资源：
+		- [重返未来1999官方微博图](https://pan.baidu.com/s/1A4o9VM4kPa_vzWZEtHiZSA?pwd=1999#list/path=%2F)
+		- [Reverse: 1999 Base Game Enemies - Google Docs](https://docs.google.com/document/d/1HX-r1yrY82VKAkFtTo2HRI1M6DFT8bUdUxnEZLNoBB0/edit?pli=1)
 - Obsidian 方面：
 	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet
 	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte

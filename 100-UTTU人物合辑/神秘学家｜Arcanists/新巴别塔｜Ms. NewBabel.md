@@ -38,7 +38,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/新巴别塔｜Ms.%20NewBabel.assets/立绘%20新巴别塔%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20世纪80年代
 > - 诞生:: 11月16日秋
 > - 参展时长:: 25年

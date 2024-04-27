@@ -40,7 +40,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/伽菈波那｜Black%20Dwarf.assets/立绘%20伽菈波那%2002.png)
 
-> [!bkgd]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 60 年代
 > - 诞生:: 7 月 15 日夏
 > - 参展时长:: 27 年

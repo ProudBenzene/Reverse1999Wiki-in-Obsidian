@@ -37,6 +37,1238 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
+// node_modules/lodash/isArray.js
+var require_isArray = __commonJS({
+  "node_modules/lodash/isArray.js"(exports, module2) {
+    var isArray = Array.isArray;
+    module2.exports = isArray;
+  }
+});
+
+// node_modules/lodash/_freeGlobal.js
+var require_freeGlobal = __commonJS({
+  "node_modules/lodash/_freeGlobal.js"(exports, module2) {
+    var freeGlobal = typeof global == "object" && global && global.Object === Object && global;
+    module2.exports = freeGlobal;
+  }
+});
+
+// node_modules/lodash/_root.js
+var require_root = __commonJS({
+  "node_modules/lodash/_root.js"(exports, module2) {
+    var freeGlobal = require_freeGlobal();
+    var freeSelf = typeof self == "object" && self && self.Object === Object && self;
+    var root2 = freeGlobal || freeSelf || Function("return this")();
+    module2.exports = root2;
+  }
+});
+
+// node_modules/lodash/_Symbol.js
+var require_Symbol = __commonJS({
+  "node_modules/lodash/_Symbol.js"(exports, module2) {
+    var root2 = require_root();
+    var Symbol2 = root2.Symbol;
+    module2.exports = Symbol2;
+  }
+});
+
+// node_modules/lodash/_getRawTag.js
+var require_getRawTag = __commonJS({
+  "node_modules/lodash/_getRawTag.js"(exports, module2) {
+    var Symbol2 = require_Symbol();
+    var objectProto = Object.prototype;
+    var hasOwnProperty = objectProto.hasOwnProperty;
+    var nativeObjectToString = objectProto.toString;
+    var symToStringTag = Symbol2 ? Symbol2.toStringTag : void 0;
+    function getRawTag(value) {
+      var isOwn = hasOwnProperty.call(value, symToStringTag), tag = value[symToStringTag];
+      try {
+        value[symToStringTag] = void 0;
+        var unmasked = true;
+      } catch (e4) {
+      }
+      var result = nativeObjectToString.call(value);
+      if (unmasked) {
+        if (isOwn) {
+          value[symToStringTag] = tag;
+        } else {
+          delete value[symToStringTag];
+        }
+      }
+      return result;
+    }
+    module2.exports = getRawTag;
+  }
+});
+
+// node_modules/lodash/_objectToString.js
+var require_objectToString = __commonJS({
+  "node_modules/lodash/_objectToString.js"(exports, module2) {
+    var objectProto = Object.prototype;
+    var nativeObjectToString = objectProto.toString;
+    function objectToString(value) {
+      return nativeObjectToString.call(value);
+    }
+    module2.exports = objectToString;
+  }
+});
+
+// node_modules/lodash/_baseGetTag.js
+var require_baseGetTag = __commonJS({
+  "node_modules/lodash/_baseGetTag.js"(exports, module2) {
+    var Symbol2 = require_Symbol();
+    var getRawTag = require_getRawTag();
+    var objectToString = require_objectToString();
+    var nullTag = "[object Null]";
+    var undefinedTag = "[object Undefined]";
+    var symToStringTag = Symbol2 ? Symbol2.toStringTag : void 0;
+    function baseGetTag(value) {
+      if (value == null) {
+        return value === void 0 ? undefinedTag : nullTag;
+      }
+      return symToStringTag && symToStringTag in Object(value) ? getRawTag(value) : objectToString(value);
+    }
+    module2.exports = baseGetTag;
+  }
+});
+
+// node_modules/lodash/isObjectLike.js
+var require_isObjectLike = __commonJS({
+  "node_modules/lodash/isObjectLike.js"(exports, module2) {
+    function isObjectLike(value) {
+      return value != null && typeof value == "object";
+    }
+    module2.exports = isObjectLike;
+  }
+});
+
+// node_modules/lodash/isSymbol.js
+var require_isSymbol = __commonJS({
+  "node_modules/lodash/isSymbol.js"(exports, module2) {
+    var baseGetTag = require_baseGetTag();
+    var isObjectLike = require_isObjectLike();
+    var symbolTag = "[object Symbol]";
+    function isSymbol(value) {
+      return typeof value == "symbol" || isObjectLike(value) && baseGetTag(value) == symbolTag;
+    }
+    module2.exports = isSymbol;
+  }
+});
+
+// node_modules/lodash/_isKey.js
+var require_isKey = __commonJS({
+  "node_modules/lodash/_isKey.js"(exports, module2) {
+    var isArray = require_isArray();
+    var isSymbol = require_isSymbol();
+    var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/;
+    var reIsPlainProp = /^\w*$/;
+    function isKey(value, object) {
+      if (isArray(value)) {
+        return false;
+      }
+      var type = typeof value;
+      if (type == "number" || type == "symbol" || type == "boolean" || value == null || isSymbol(value)) {
+        return true;
+      }
+      return reIsPlainProp.test(value) || !reIsDeepProp.test(value) || object != null && value in Object(object);
+    }
+    module2.exports = isKey;
+  }
+});
+
+// node_modules/lodash/isObject.js
+var require_isObject = __commonJS({
+  "node_modules/lodash/isObject.js"(exports, module2) {
+    function isObject(value) {
+      var type = typeof value;
+      return value != null && (type == "object" || type == "function");
+    }
+    module2.exports = isObject;
+  }
+});
+
+// node_modules/lodash/isFunction.js
+var require_isFunction = __commonJS({
+  "node_modules/lodash/isFunction.js"(exports, module2) {
+    var baseGetTag = require_baseGetTag();
+    var isObject = require_isObject();
+    var asyncTag = "[object AsyncFunction]";
+    var funcTag = "[object Function]";
+    var genTag = "[object GeneratorFunction]";
+    var proxyTag = "[object Proxy]";
+    function isFunction(value) {
+      if (!isObject(value)) {
+        return false;
+      }
+      var tag = baseGetTag(value);
+      return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
+    }
+    module2.exports = isFunction;
+  }
+});
+
+// node_modules/lodash/_coreJsData.js
+var require_coreJsData = __commonJS({
+  "node_modules/lodash/_coreJsData.js"(exports, module2) {
+    var root2 = require_root();
+    var coreJsData = root2["__core-js_shared__"];
+    module2.exports = coreJsData;
+  }
+});
+
+// node_modules/lodash/_isMasked.js
+var require_isMasked = __commonJS({
+  "node_modules/lodash/_isMasked.js"(exports, module2) {
+    var coreJsData = require_coreJsData();
+    var maskSrcKey = function() {
+      var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || "");
+      return uid ? "Symbol(src)_1." + uid : "";
+    }();
+    function isMasked(func) {
+      return !!maskSrcKey && maskSrcKey in func;
+    }
+    module2.exports = isMasked;
+  }
+});
+
+// node_modules/lodash/_toSource.js
+var require_toSource = __commonJS({
+  "node_modules/lodash/_toSource.js"(exports, module2) {
+    var funcProto = Function.prototype;
+    var funcToString = funcProto.toString;
+    function toSource(func) {
+      if (func != null) {
+        try {
+          return funcToString.call(func);
+        } catch (e4) {
+        }
+        try {
+          return func + "";
+        } catch (e4) {
+        }
+      }
+      return "";
+    }
+    module2.exports = toSource;
+  }
+});
+
+// node_modules/lodash/_baseIsNative.js
+var require_baseIsNative = __commonJS({
+  "node_modules/lodash/_baseIsNative.js"(exports, module2) {
+    var isFunction = require_isFunction();
+    var isMasked = require_isMasked();
+    var isObject = require_isObject();
+    var toSource = require_toSource();
+    var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+    var reIsHostCtor = /^\[object .+?Constructor\]$/;
+    var funcProto = Function.prototype;
+    var objectProto = Object.prototype;
+    var funcToString = funcProto.toString;
+    var hasOwnProperty = objectProto.hasOwnProperty;
+    var reIsNative = RegExp(
+      "^" + funcToString.call(hasOwnProperty).replace(reRegExpChar, "\\$&").replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, "$1.*?") + "$"
+    );
+    function baseIsNative(value) {
+      if (!isObject(value) || isMasked(value)) {
+        return false;
+      }
+      var pattern = isFunction(value) ? reIsNative : reIsHostCtor;
+      return pattern.test(toSource(value));
+    }
+    module2.exports = baseIsNative;
+  }
+});
+
+// node_modules/lodash/_getValue.js
+var require_getValue = __commonJS({
+  "node_modules/lodash/_getValue.js"(exports, module2) {
+    function getValue(object, key) {
+      return object == null ? void 0 : object[key];
+    }
+    module2.exports = getValue;
+  }
+});
+
+// node_modules/lodash/_getNative.js
+var require_getNative = __commonJS({
+  "node_modules/lodash/_getNative.js"(exports, module2) {
+    var baseIsNative = require_baseIsNative();
+    var getValue = require_getValue();
+    function getNative(object, key) {
+      var value = getValue(object, key);
+      return baseIsNative(value) ? value : void 0;
+    }
+    module2.exports = getNative;
+  }
+});
+
+// node_modules/lodash/_nativeCreate.js
+var require_nativeCreate = __commonJS({
+  "node_modules/lodash/_nativeCreate.js"(exports, module2) {
+    var getNative = require_getNative();
+    var nativeCreate = getNative(Object, "create");
+    module2.exports = nativeCreate;
+  }
+});
+
+// node_modules/lodash/_hashClear.js
+var require_hashClear = __commonJS({
+  "node_modules/lodash/_hashClear.js"(exports, module2) {
+    var nativeCreate = require_nativeCreate();
+    function hashClear() {
+      this.__data__ = nativeCreate ? nativeCreate(null) : {};
+      this.size = 0;
+    }
+    module2.exports = hashClear;
+  }
+});
+
+// node_modules/lodash/_hashDelete.js
+var require_hashDelete = __commonJS({
+  "node_modules/lodash/_hashDelete.js"(exports, module2) {
+    function hashDelete(key) {
+      var result = this.has(key) && delete this.__data__[key];
+      this.size -= result ? 1 : 0;
+      return result;
+    }
+    module2.exports = hashDelete;
+  }
+});
+
+// node_modules/lodash/_hashGet.js
+var require_hashGet = __commonJS({
+  "node_modules/lodash/_hashGet.js"(exports, module2) {
+    var nativeCreate = require_nativeCreate();
+    var HASH_UNDEFINED = "__lodash_hash_undefined__";
+    var objectProto = Object.prototype;
+    var hasOwnProperty = objectProto.hasOwnProperty;
+    function hashGet(key) {
+      var data = this.__data__;
+      if (nativeCreate) {
+        var result = data[key];
+        return result === HASH_UNDEFINED ? void 0 : result;
+      }
+      return hasOwnProperty.call(data, key) ? data[key] : void 0;
+    }
+    module2.exports = hashGet;
+  }
+});
+
+// node_modules/lodash/_hashHas.js
+var require_hashHas = __commonJS({
+  "node_modules/lodash/_hashHas.js"(exports, module2) {
+    var nativeCreate = require_nativeCreate();
+    var objectProto = Object.prototype;
+    var hasOwnProperty = objectProto.hasOwnProperty;
+    function hashHas(key) {
+      var data = this.__data__;
+      return nativeCreate ? data[key] !== void 0 : hasOwnProperty.call(data, key);
+    }
+    module2.exports = hashHas;
+  }
+});
+
+// node_modules/lodash/_hashSet.js
+var require_hashSet = __commonJS({
+  "node_modules/lodash/_hashSet.js"(exports, module2) {
+    var nativeCreate = require_nativeCreate();
+    var HASH_UNDEFINED = "__lodash_hash_undefined__";
+    function hashSet(key, value) {
+      var data = this.__data__;
+      this.size += this.has(key) ? 0 : 1;
+      data[key] = nativeCreate && value === void 0 ? HASH_UNDEFINED : value;
+      return this;
+    }
+    module2.exports = hashSet;
+  }
+});
+
+// node_modules/lodash/_Hash.js
+var require_Hash = __commonJS({
+  "node_modules/lodash/_Hash.js"(exports, module2) {
+    var hashClear = require_hashClear();
+    var hashDelete = require_hashDelete();
+    var hashGet = require_hashGet();
+    var hashHas = require_hashHas();
+    var hashSet = require_hashSet();
+    function Hash(entries) {
+      var index2 = -1, length = entries == null ? 0 : entries.length;
+      this.clear();
+      while (++index2 < length) {
+        var entry = entries[index2];
+        this.set(entry[0], entry[1]);
+      }
+    }
+    Hash.prototype.clear = hashClear;
+    Hash.prototype["delete"] = hashDelete;
+    Hash.prototype.get = hashGet;
+    Hash.prototype.has = hashHas;
+    Hash.prototype.set = hashSet;
+    module2.exports = Hash;
+  }
+});
+
+// node_modules/lodash/_listCacheClear.js
+var require_listCacheClear = __commonJS({
+  "node_modules/lodash/_listCacheClear.js"(exports, module2) {
+    function listCacheClear() {
+      this.__data__ = [];
+      this.size = 0;
+    }
+    module2.exports = listCacheClear;
+  }
+});
+
+// node_modules/lodash/eq.js
+var require_eq = __commonJS({
+  "node_modules/lodash/eq.js"(exports, module2) {
+    function eq(value, other) {
+      return value === other || value !== value && other !== other;
+    }
+    module2.exports = eq;
+  }
+});
+
+// node_modules/lodash/_assocIndexOf.js
+var require_assocIndexOf = __commonJS({
+  "node_modules/lodash/_assocIndexOf.js"(exports, module2) {
+    var eq = require_eq();
+    function assocIndexOf(array, key) {
+      var length = array.length;
+      while (length--) {
+        if (eq(array[length][0], key)) {
+          return length;
+        }
+      }
+      return -1;
+    }
+    module2.exports = assocIndexOf;
+  }
+});
+
+// node_modules/lodash/_listCacheDelete.js
+var require_listCacheDelete = __commonJS({
+  "node_modules/lodash/_listCacheDelete.js"(exports, module2) {
+    var assocIndexOf = require_assocIndexOf();
+    var arrayProto = Array.prototype;
+    var splice = arrayProto.splice;
+    function listCacheDelete(key) {
+      var data = this.__data__, index2 = assocIndexOf(data, key);
+      if (index2 < 0) {
+        return false;
+      }
+      var lastIndex = data.length - 1;
+      if (index2 == lastIndex) {
+        data.pop();
+      } else {
+        splice.call(data, index2, 1);
+      }
+      --this.size;
+      return true;
+    }
+    module2.exports = listCacheDelete;
+  }
+});
+
+// node_modules/lodash/_listCacheGet.js
+var require_listCacheGet = __commonJS({
+  "node_modules/lodash/_listCacheGet.js"(exports, module2) {
+    var assocIndexOf = require_assocIndexOf();
+    function listCacheGet(key) {
+      var data = this.__data__, index2 = assocIndexOf(data, key);
+      return index2 < 0 ? void 0 : data[index2][1];
+    }
+    module2.exports = listCacheGet;
+  }
+});
+
+// node_modules/lodash/_listCacheHas.js
+var require_listCacheHas = __commonJS({
+  "node_modules/lodash/_listCacheHas.js"(exports, module2) {
+    var assocIndexOf = require_assocIndexOf();
+    function listCacheHas(key) {
+      return assocIndexOf(this.__data__, key) > -1;
+    }
+    module2.exports = listCacheHas;
+  }
+});
+
+// node_modules/lodash/_listCacheSet.js
+var require_listCacheSet = __commonJS({
+  "node_modules/lodash/_listCacheSet.js"(exports, module2) {
+    var assocIndexOf = require_assocIndexOf();
+    function listCacheSet(key, value) {
+      var data = this.__data__, index2 = assocIndexOf(data, key);
+      if (index2 < 0) {
+        ++this.size;
+        data.push([key, value]);
+      } else {
+        data[index2][1] = value;
+      }
+      return this;
+    }
+    module2.exports = listCacheSet;
+  }
+});
+
+// node_modules/lodash/_ListCache.js
+var require_ListCache = __commonJS({
+  "node_modules/lodash/_ListCache.js"(exports, module2) {
+    var listCacheClear = require_listCacheClear();
+    var listCacheDelete = require_listCacheDelete();
+    var listCacheGet = require_listCacheGet();
+    var listCacheHas = require_listCacheHas();
+    var listCacheSet = require_listCacheSet();
+    function ListCache(entries) {
+      var index2 = -1, length = entries == null ? 0 : entries.length;
+      this.clear();
+      while (++index2 < length) {
+        var entry = entries[index2];
+        this.set(entry[0], entry[1]);
+      }
+    }
+    ListCache.prototype.clear = listCacheClear;
+    ListCache.prototype["delete"] = listCacheDelete;
+    ListCache.prototype.get = listCacheGet;
+    ListCache.prototype.has = listCacheHas;
+    ListCache.prototype.set = listCacheSet;
+    module2.exports = ListCache;
+  }
+});
+
+// node_modules/lodash/_Map.js
+var require_Map = __commonJS({
+  "node_modules/lodash/_Map.js"(exports, module2) {
+    var getNative = require_getNative();
+    var root2 = require_root();
+    var Map2 = getNative(root2, "Map");
+    module2.exports = Map2;
+  }
+});
+
+// node_modules/lodash/_mapCacheClear.js
+var require_mapCacheClear = __commonJS({
+  "node_modules/lodash/_mapCacheClear.js"(exports, module2) {
+    var Hash = require_Hash();
+    var ListCache = require_ListCache();
+    var Map2 = require_Map();
+    function mapCacheClear() {
+      this.size = 0;
+      this.__data__ = {
+        "hash": new Hash(),
+        "map": new (Map2 || ListCache)(),
+        "string": new Hash()
+      };
+    }
+    module2.exports = mapCacheClear;
+  }
+});
+
+// node_modules/lodash/_isKeyable.js
+var require_isKeyable = __commonJS({
+  "node_modules/lodash/_isKeyable.js"(exports, module2) {
+    function isKeyable(value) {
+      var type = typeof value;
+      return type == "string" || type == "number" || type == "symbol" || type == "boolean" ? value !== "__proto__" : value === null;
+    }
+    module2.exports = isKeyable;
+  }
+});
+
+// node_modules/lodash/_getMapData.js
+var require_getMapData = __commonJS({
+  "node_modules/lodash/_getMapData.js"(exports, module2) {
+    var isKeyable = require_isKeyable();
+    function getMapData(map, key) {
+      var data = map.__data__;
+      return isKeyable(key) ? data[typeof key == "string" ? "string" : "hash"] : data.map;
+    }
+    module2.exports = getMapData;
+  }
+});
+
+// node_modules/lodash/_mapCacheDelete.js
+var require_mapCacheDelete = __commonJS({
+  "node_modules/lodash/_mapCacheDelete.js"(exports, module2) {
+    var getMapData = require_getMapData();
+    function mapCacheDelete(key) {
+      var result = getMapData(this, key)["delete"](key);
+      this.size -= result ? 1 : 0;
+      return result;
+    }
+    module2.exports = mapCacheDelete;
+  }
+});
+
+// node_modules/lodash/_mapCacheGet.js
+var require_mapCacheGet = __commonJS({
+  "node_modules/lodash/_mapCacheGet.js"(exports, module2) {
+    var getMapData = require_getMapData();
+    function mapCacheGet(key) {
+      return getMapData(this, key).get(key);
+    }
+    module2.exports = mapCacheGet;
+  }
+});
+
+// node_modules/lodash/_mapCacheHas.js
+var require_mapCacheHas = __commonJS({
+  "node_modules/lodash/_mapCacheHas.js"(exports, module2) {
+    var getMapData = require_getMapData();
+    function mapCacheHas(key) {
+      return getMapData(this, key).has(key);
+    }
+    module2.exports = mapCacheHas;
+  }
+});
+
+// node_modules/lodash/_mapCacheSet.js
+var require_mapCacheSet = __commonJS({
+  "node_modules/lodash/_mapCacheSet.js"(exports, module2) {
+    var getMapData = require_getMapData();
+    function mapCacheSet(key, value) {
+      var data = getMapData(this, key), size = data.size;
+      data.set(key, value);
+      this.size += data.size == size ? 0 : 1;
+      return this;
+    }
+    module2.exports = mapCacheSet;
+  }
+});
+
+// node_modules/lodash/_MapCache.js
+var require_MapCache = __commonJS({
+  "node_modules/lodash/_MapCache.js"(exports, module2) {
+    var mapCacheClear = require_mapCacheClear();
+    var mapCacheDelete = require_mapCacheDelete();
+    var mapCacheGet = require_mapCacheGet();
+    var mapCacheHas = require_mapCacheHas();
+    var mapCacheSet = require_mapCacheSet();
+    function MapCache(entries) {
+      var index2 = -1, length = entries == null ? 0 : entries.length;
+      this.clear();
+      while (++index2 < length) {
+        var entry = entries[index2];
+        this.set(entry[0], entry[1]);
+      }
+    }
+    MapCache.prototype.clear = mapCacheClear;
+    MapCache.prototype["delete"] = mapCacheDelete;
+    MapCache.prototype.get = mapCacheGet;
+    MapCache.prototype.has = mapCacheHas;
+    MapCache.prototype.set = mapCacheSet;
+    module2.exports = MapCache;
+  }
+});
+
+// node_modules/lodash/memoize.js
+var require_memoize = __commonJS({
+  "node_modules/lodash/memoize.js"(exports, module2) {
+    var MapCache = require_MapCache();
+    var FUNC_ERROR_TEXT = "Expected a function";
+    function memoize(func, resolver) {
+      if (typeof func != "function" || resolver != null && typeof resolver != "function") {
+        throw new TypeError(FUNC_ERROR_TEXT);
+      }
+      var memoized = function() {
+        var args = arguments, key = resolver ? resolver.apply(this, args) : args[0], cache = memoized.cache;
+        if (cache.has(key)) {
+          return cache.get(key);
+        }
+        var result = func.apply(this, args);
+        memoized.cache = cache.set(key, result) || cache;
+        return result;
+      };
+      memoized.cache = new (memoize.Cache || MapCache)();
+      return memoized;
+    }
+    memoize.Cache = MapCache;
+    module2.exports = memoize;
+  }
+});
+
+// node_modules/lodash/_memoizeCapped.js
+var require_memoizeCapped = __commonJS({
+  "node_modules/lodash/_memoizeCapped.js"(exports, module2) {
+    var memoize = require_memoize();
+    var MAX_MEMOIZE_SIZE = 500;
+    function memoizeCapped(func) {
+      var result = memoize(func, function(key) {
+        if (cache.size === MAX_MEMOIZE_SIZE) {
+          cache.clear();
+        }
+        return key;
+      });
+      var cache = result.cache;
+      return result;
+    }
+    module2.exports = memoizeCapped;
+  }
+});
+
+// node_modules/lodash/_stringToPath.js
+var require_stringToPath = __commonJS({
+  "node_modules/lodash/_stringToPath.js"(exports, module2) {
+    var memoizeCapped = require_memoizeCapped();
+    var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
+    var reEscapeChar = /\\(\\)?/g;
+    var stringToPath = memoizeCapped(function(string) {
+      var result = [];
+      if (string.charCodeAt(0) === 46) {
+        result.push("");
+      }
+      string.replace(rePropName, function(match, number, quote, subString) {
+        result.push(quote ? subString.replace(reEscapeChar, "$1") : number || match);
+      });
+      return result;
+    });
+    module2.exports = stringToPath;
+  }
+});
+
+// node_modules/lodash/_arrayMap.js
+var require_arrayMap = __commonJS({
+  "node_modules/lodash/_arrayMap.js"(exports, module2) {
+    function arrayMap(array, iteratee) {
+      var index2 = -1, length = array == null ? 0 : array.length, result = Array(length);
+      while (++index2 < length) {
+        result[index2] = iteratee(array[index2], index2, array);
+      }
+      return result;
+    }
+    module2.exports = arrayMap;
+  }
+});
+
+// node_modules/lodash/_baseToString.js
+var require_baseToString = __commonJS({
+  "node_modules/lodash/_baseToString.js"(exports, module2) {
+    var Symbol2 = require_Symbol();
+    var arrayMap = require_arrayMap();
+    var isArray = require_isArray();
+    var isSymbol = require_isSymbol();
+    var INFINITY = 1 / 0;
+    var symbolProto = Symbol2 ? Symbol2.prototype : void 0;
+    var symbolToString = symbolProto ? symbolProto.toString : void 0;
+    function baseToString(value) {
+      if (typeof value == "string") {
+        return value;
+      }
+      if (isArray(value)) {
+        return arrayMap(value, baseToString) + "";
+      }
+      if (isSymbol(value)) {
+        return symbolToString ? symbolToString.call(value) : "";
+      }
+      var result = value + "";
+      return result == "0" && 1 / value == -INFINITY ? "-0" : result;
+    }
+    module2.exports = baseToString;
+  }
+});
+
+// node_modules/lodash/toString.js
+var require_toString = __commonJS({
+  "node_modules/lodash/toString.js"(exports, module2) {
+    var baseToString = require_baseToString();
+    function toString(value) {
+      return value == null ? "" : baseToString(value);
+    }
+    module2.exports = toString;
+  }
+});
+
+// node_modules/lodash/_castPath.js
+var require_castPath = __commonJS({
+  "node_modules/lodash/_castPath.js"(exports, module2) {
+    var isArray = require_isArray();
+    var isKey = require_isKey();
+    var stringToPath = require_stringToPath();
+    var toString = require_toString();
+    function castPath(value, object) {
+      if (isArray(value)) {
+        return value;
+      }
+      return isKey(value, object) ? [value] : stringToPath(toString(value));
+    }
+    module2.exports = castPath;
+  }
+});
+
+// node_modules/lodash/_toKey.js
+var require_toKey = __commonJS({
+  "node_modules/lodash/_toKey.js"(exports, module2) {
+    var isSymbol = require_isSymbol();
+    var INFINITY = 1 / 0;
+    function toKey(value) {
+      if (typeof value == "string" || isSymbol(value)) {
+        return value;
+      }
+      var result = value + "";
+      return result == "0" && 1 / value == -INFINITY ? "-0" : result;
+    }
+    module2.exports = toKey;
+  }
+});
+
+// node_modules/lodash/_baseGet.js
+var require_baseGet = __commonJS({
+  "node_modules/lodash/_baseGet.js"(exports, module2) {
+    var castPath = require_castPath();
+    var toKey = require_toKey();
+    function baseGet(object, path) {
+      path = castPath(path, object);
+      var index2 = 0, length = path.length;
+      while (object != null && index2 < length) {
+        object = object[toKey(path[index2++])];
+      }
+      return index2 && index2 == length ? object : void 0;
+    }
+    module2.exports = baseGet;
+  }
+});
+
+// node_modules/lodash/_defineProperty.js
+var require_defineProperty = __commonJS({
+  "node_modules/lodash/_defineProperty.js"(exports, module2) {
+    var getNative = require_getNative();
+    var defineProperty = function() {
+      try {
+        var func = getNative(Object, "defineProperty");
+        func({}, "", {});
+        return func;
+      } catch (e4) {
+      }
+    }();
+    module2.exports = defineProperty;
+  }
+});
+
+// node_modules/lodash/_baseAssignValue.js
+var require_baseAssignValue = __commonJS({
+  "node_modules/lodash/_baseAssignValue.js"(exports, module2) {
+    var defineProperty = require_defineProperty();
+    function baseAssignValue(object, key, value) {
+      if (key == "__proto__" && defineProperty) {
+        defineProperty(object, key, {
+          "configurable": true,
+          "enumerable": true,
+          "value": value,
+          "writable": true
+        });
+      } else {
+        object[key] = value;
+      }
+    }
+    module2.exports = baseAssignValue;
+  }
+});
+
+// node_modules/lodash/_assignValue.js
+var require_assignValue = __commonJS({
+  "node_modules/lodash/_assignValue.js"(exports, module2) {
+    var baseAssignValue = require_baseAssignValue();
+    var eq = require_eq();
+    var objectProto = Object.prototype;
+    var hasOwnProperty = objectProto.hasOwnProperty;
+    function assignValue(object, key, value) {
+      var objValue = object[key];
+      if (!(hasOwnProperty.call(object, key) && eq(objValue, value)) || value === void 0 && !(key in object)) {
+        baseAssignValue(object, key, value);
+      }
+    }
+    module2.exports = assignValue;
+  }
+});
+
+// node_modules/lodash/_isIndex.js
+var require_isIndex = __commonJS({
+  "node_modules/lodash/_isIndex.js"(exports, module2) {
+    var MAX_SAFE_INTEGER = 9007199254740991;
+    var reIsUint = /^(?:0|[1-9]\d*)$/;
+    function isIndex(value, length) {
+      var type = typeof value;
+      length = length == null ? MAX_SAFE_INTEGER : length;
+      return !!length && (type == "number" || type != "symbol" && reIsUint.test(value)) && (value > -1 && value % 1 == 0 && value < length);
+    }
+    module2.exports = isIndex;
+  }
+});
+
+// node_modules/lodash/_baseSet.js
+var require_baseSet = __commonJS({
+  "node_modules/lodash/_baseSet.js"(exports, module2) {
+    var assignValue = require_assignValue();
+    var castPath = require_castPath();
+    var isIndex = require_isIndex();
+    var isObject = require_isObject();
+    var toKey = require_toKey();
+    function baseSet(object, path, value, customizer) {
+      if (!isObject(object)) {
+        return object;
+      }
+      path = castPath(path, object);
+      var index2 = -1, length = path.length, lastIndex = length - 1, nested = object;
+      while (nested != null && ++index2 < length) {
+        var key = toKey(path[index2]), newValue = value;
+        if (key === "__proto__" || key === "constructor" || key === "prototype") {
+          return object;
+        }
+        if (index2 != lastIndex) {
+          var objValue = nested[key];
+          newValue = customizer ? customizer(objValue, key, nested) : void 0;
+          if (newValue === void 0) {
+            newValue = isObject(objValue) ? objValue : isIndex(path[index2 + 1]) ? [] : {};
+          }
+        }
+        assignValue(nested, key, newValue);
+        nested = nested[key];
+      }
+      return object;
+    }
+    module2.exports = baseSet;
+  }
+});
+
+// node_modules/lodash/_basePickBy.js
+var require_basePickBy = __commonJS({
+  "node_modules/lodash/_basePickBy.js"(exports, module2) {
+    var baseGet = require_baseGet();
+    var baseSet = require_baseSet();
+    var castPath = require_castPath();
+    function basePickBy(object, paths, predicate) {
+      var index2 = -1, length = paths.length, result = {};
+      while (++index2 < length) {
+        var path = paths[index2], value = baseGet(object, path);
+        if (predicate(value, path)) {
+          baseSet(result, castPath(path, object), value);
+        }
+      }
+      return result;
+    }
+    module2.exports = basePickBy;
+  }
+});
+
+// node_modules/lodash/_baseHasIn.js
+var require_baseHasIn = __commonJS({
+  "node_modules/lodash/_baseHasIn.js"(exports, module2) {
+    function baseHasIn(object, key) {
+      return object != null && key in Object(object);
+    }
+    module2.exports = baseHasIn;
+  }
+});
+
+// node_modules/lodash/_baseIsArguments.js
+var require_baseIsArguments = __commonJS({
+  "node_modules/lodash/_baseIsArguments.js"(exports, module2) {
+    var baseGetTag = require_baseGetTag();
+    var isObjectLike = require_isObjectLike();
+    var argsTag = "[object Arguments]";
+    function baseIsArguments(value) {
+      return isObjectLike(value) && baseGetTag(value) == argsTag;
+    }
+    module2.exports = baseIsArguments;
+  }
+});
+
+// node_modules/lodash/isArguments.js
+var require_isArguments = __commonJS({
+  "node_modules/lodash/isArguments.js"(exports, module2) {
+    var baseIsArguments = require_baseIsArguments();
+    var isObjectLike = require_isObjectLike();
+    var objectProto = Object.prototype;
+    var hasOwnProperty = objectProto.hasOwnProperty;
+    var propertyIsEnumerable = objectProto.propertyIsEnumerable;
+    var isArguments = baseIsArguments(/* @__PURE__ */ function() {
+      return arguments;
+    }()) ? baseIsArguments : function(value) {
+      return isObjectLike(value) && hasOwnProperty.call(value, "callee") && !propertyIsEnumerable.call(value, "callee");
+    };
+    module2.exports = isArguments;
+  }
+});
+
+// node_modules/lodash/isLength.js
+var require_isLength = __commonJS({
+  "node_modules/lodash/isLength.js"(exports, module2) {
+    var MAX_SAFE_INTEGER = 9007199254740991;
+    function isLength(value) {
+      return typeof value == "number" && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+    }
+    module2.exports = isLength;
+  }
+});
+
+// node_modules/lodash/_hasPath.js
+var require_hasPath = __commonJS({
+  "node_modules/lodash/_hasPath.js"(exports, module2) {
+    var castPath = require_castPath();
+    var isArguments = require_isArguments();
+    var isArray = require_isArray();
+    var isIndex = require_isIndex();
+    var isLength = require_isLength();
+    var toKey = require_toKey();
+    function hasPath(object, path, hasFunc) {
+      path = castPath(path, object);
+      var index2 = -1, length = path.length, result = false;
+      while (++index2 < length) {
+        var key = toKey(path[index2]);
+        if (!(result = object != null && hasFunc(object, key))) {
+          break;
+        }
+        object = object[key];
+      }
+      if (result || ++index2 != length) {
+        return result;
+      }
+      length = object == null ? 0 : object.length;
+      return !!length && isLength(length) && isIndex(key, length) && (isArray(object) || isArguments(object));
+    }
+    module2.exports = hasPath;
+  }
+});
+
+// node_modules/lodash/hasIn.js
+var require_hasIn = __commonJS({
+  "node_modules/lodash/hasIn.js"(exports, module2) {
+    var baseHasIn = require_baseHasIn();
+    var hasPath = require_hasPath();
+    function hasIn(object, path) {
+      return object != null && hasPath(object, path, baseHasIn);
+    }
+    module2.exports = hasIn;
+  }
+});
+
+// node_modules/lodash/_basePick.js
+var require_basePick = __commonJS({
+  "node_modules/lodash/_basePick.js"(exports, module2) {
+    var basePickBy = require_basePickBy();
+    var hasIn = require_hasIn();
+    function basePick(object, paths) {
+      return basePickBy(object, paths, function(value, path) {
+        return hasIn(object, path);
+      });
+    }
+    module2.exports = basePick;
+  }
+});
+
+// node_modules/lodash/_arrayPush.js
+var require_arrayPush = __commonJS({
+  "node_modules/lodash/_arrayPush.js"(exports, module2) {
+    function arrayPush(array, values) {
+      var index2 = -1, length = values.length, offset = array.length;
+      while (++index2 < length) {
+        array[offset + index2] = values[index2];
+      }
+      return array;
+    }
+    module2.exports = arrayPush;
+  }
+});
+
+// node_modules/lodash/_isFlattenable.js
+var require_isFlattenable = __commonJS({
+  "node_modules/lodash/_isFlattenable.js"(exports, module2) {
+    var Symbol2 = require_Symbol();
+    var isArguments = require_isArguments();
+    var isArray = require_isArray();
+    var spreadableSymbol = Symbol2 ? Symbol2.isConcatSpreadable : void 0;
+    function isFlattenable(value) {
+      return isArray(value) || isArguments(value) || !!(spreadableSymbol && value && value[spreadableSymbol]);
+    }
+    module2.exports = isFlattenable;
+  }
+});
+
+// node_modules/lodash/_baseFlatten.js
+var require_baseFlatten = __commonJS({
+  "node_modules/lodash/_baseFlatten.js"(exports, module2) {
+    var arrayPush = require_arrayPush();
+    var isFlattenable = require_isFlattenable();
+    function baseFlatten(array, depth, predicate, isStrict, result) {
+      var index2 = -1, length = array.length;
+      predicate || (predicate = isFlattenable);
+      result || (result = []);
+      while (++index2 < length) {
+        var value = array[index2];
+        if (depth > 0 && predicate(value)) {
+          if (depth > 1) {
+            baseFlatten(value, depth - 1, predicate, isStrict, result);
+          } else {
+            arrayPush(result, value);
+          }
+        } else if (!isStrict) {
+          result[result.length] = value;
+        }
+      }
+      return result;
+    }
+    module2.exports = baseFlatten;
+  }
+});
+
+// node_modules/lodash/flatten.js
+var require_flatten = __commonJS({
+  "node_modules/lodash/flatten.js"(exports, module2) {
+    var baseFlatten = require_baseFlatten();
+    function flatten(array) {
+      var length = array == null ? 0 : array.length;
+      return length ? baseFlatten(array, 1) : [];
+    }
+    module2.exports = flatten;
+  }
+});
+
+// node_modules/lodash/_apply.js
+var require_apply = __commonJS({
+  "node_modules/lodash/_apply.js"(exports, module2) {
+    function apply(func, thisArg, args) {
+      switch (args.length) {
+        case 0:
+          return func.call(thisArg);
+        case 1:
+          return func.call(thisArg, args[0]);
+        case 2:
+          return func.call(thisArg, args[0], args[1]);
+        case 3:
+          return func.call(thisArg, args[0], args[1], args[2]);
+      }
+      return func.apply(thisArg, args);
+    }
+    module2.exports = apply;
+  }
+});
+
+// node_modules/lodash/_overRest.js
+var require_overRest = __commonJS({
+  "node_modules/lodash/_overRest.js"(exports, module2) {
+    var apply = require_apply();
+    var nativeMax = Math.max;
+    function overRest(func, start, transform) {
+      start = nativeMax(start === void 0 ? func.length - 1 : start, 0);
+      return function() {
+        var args = arguments, index2 = -1, length = nativeMax(args.length - start, 0), array = Array(length);
+        while (++index2 < length) {
+          array[index2] = args[start + index2];
+        }
+        index2 = -1;
+        var otherArgs = Array(start + 1);
+        while (++index2 < start) {
+          otherArgs[index2] = args[index2];
+        }
+        otherArgs[start] = transform(array);
+        return apply(func, this, otherArgs);
+      };
+    }
+    module2.exports = overRest;
+  }
+});
+
+// node_modules/lodash/constant.js
+var require_constant = __commonJS({
+  "node_modules/lodash/constant.js"(exports, module2) {
+    function constant(value) {
+      return function() {
+        return value;
+      };
+    }
+    module2.exports = constant;
+  }
+});
+
+// node_modules/lodash/identity.js
+var require_identity = __commonJS({
+  "node_modules/lodash/identity.js"(exports, module2) {
+    function identity(value) {
+      return value;
+    }
+    module2.exports = identity;
+  }
+});
+
+// node_modules/lodash/_baseSetToString.js
+var require_baseSetToString = __commonJS({
+  "node_modules/lodash/_baseSetToString.js"(exports, module2) {
+    var constant = require_constant();
+    var defineProperty = require_defineProperty();
+    var identity = require_identity();
+    var baseSetToString = !defineProperty ? identity : function(func, string) {
+      return defineProperty(func, "toString", {
+        "configurable": true,
+        "enumerable": false,
+        "value": constant(string),
+        "writable": true
+      });
+    };
+    module2.exports = baseSetToString;
+  }
+});
+
+// node_modules/lodash/_shortOut.js
+var require_shortOut = __commonJS({
+  "node_modules/lodash/_shortOut.js"(exports, module2) {
+    var HOT_COUNT = 800;
+    var HOT_SPAN = 16;
+    var nativeNow = Date.now;
+    function shortOut(func) {
+      var count = 0, lastCalled = 0;
+      return function() {
+        var stamp = nativeNow(), remaining = HOT_SPAN - (stamp - lastCalled);
+        lastCalled = stamp;
+        if (remaining > 0) {
+          if (++count >= HOT_COUNT) {
+            return arguments[0];
+          }
+        } else {
+          count = 0;
+        }
+        return func.apply(void 0, arguments);
+      };
+    }
+    module2.exports = shortOut;
+  }
+});
+
+// node_modules/lodash/_setToString.js
+var require_setToString = __commonJS({
+  "node_modules/lodash/_setToString.js"(exports, module2) {
+    var baseSetToString = require_baseSetToString();
+    var shortOut = require_shortOut();
+    var setToString = shortOut(baseSetToString);
+    module2.exports = setToString;
+  }
+});
+
+// node_modules/lodash/_flatRest.js
+var require_flatRest = __commonJS({
+  "node_modules/lodash/_flatRest.js"(exports, module2) {
+    var flatten = require_flatten();
+    var overRest = require_overRest();
+    var setToString = require_setToString();
+    function flatRest(func) {
+      return setToString(overRest(func, void 0, flatten), func + "");
+    }
+    module2.exports = flatRest;
+  }
+});
+
+// node_modules/lodash/pick.js
+var require_pick = __commonJS({
+  "node_modules/lodash/pick.js"(exports, module2) {
+    var basePick = require_basePick();
+    var flatRest = require_flatRest();
+    var pick2 = flatRest(function(object, paths) {
+      return object == null ? {} : basePick(object, paths);
+    });
+    module2.exports = pick2;
+  }
+});
+
 // node_modules/react/cjs/react.production.min.js
 var require_react_production_min = __commonJS({
   "node_modules/react/cjs/react.production.min.js"(exports) {
@@ -640,7 +1872,7 @@ var require_react_dom_production_min = __commonJS({
         b2 += "&args[]=" + encodeURIComponent(arguments[c5]);
       return "Minified React error #" + a3 + "; visit " + b2 + " for the full message or use the non-minified dev environment for full errors and additional helpful warnings.";
     }
-    var da = /* @__PURE__ */ new Set();
+    var da2 = /* @__PURE__ */ new Set();
     var ea = {};
     function fa(a3, b2) {
       ha(a3, b2);
@@ -649,17 +1881,17 @@ var require_react_dom_production_min = __commonJS({
     function ha(a3, b2) {
       ea[a3] = b2;
       for (a3 = 0; a3 < b2.length; a3++)
-        da.add(b2[a3]);
+        da2.add(b2[a3]);
     }
     var ia = !("undefined" === typeof window || "undefined" === typeof window.document || "undefined" === typeof window.document.createElement);
-    var ja = Object.prototype.hasOwnProperty;
+    var ja2 = Object.prototype.hasOwnProperty;
     var ka = /^[:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\-.0-9\u00B7\u0300-\u036F\u203F-\u2040]*$/;
     var la = {};
     var ma = {};
     function oa(a3) {
-      if (ja.call(ma, a3))
+      if (ja2.call(ma, a3))
         return true;
-      if (ja.call(la, a3))
+      if (ja2.call(la, a3))
         return false;
       if (ka.test(a3))
         return ma[a3] = true;
@@ -1898,7 +3130,7 @@ var require_react_dom_production_min = __commonJS({
       if (dd) {
         var e4 = Yc(a3, b2, c5, d2);
         if (null === e4)
-          hd(a3, b2, d2, id, c5), Sc(a3, d2);
+          hd(a3, b2, d2, id2, c5), Sc(a3, d2);
         else if (Uc(e4, a3, b2, c5, d2))
           d2.stopPropagation();
         else if (Sc(a3, d2), b2 & 4 && -1 < Rc.indexOf(a3)) {
@@ -1906,7 +3138,7 @@ var require_react_dom_production_min = __commonJS({
             var f3 = Cb(e4);
             null !== f3 && Ec(f3);
             f3 = Yc(a3, b2, c5, d2);
-            null === f3 && hd(a3, b2, d2, id, c5);
+            null === f3 && hd(a3, b2, d2, id2, c5);
             if (f3 === e4)
               break;
             e4 = f3;
@@ -1916,9 +3148,9 @@ var require_react_dom_production_min = __commonJS({
           hd(a3, b2, d2, null, c5);
       }
     }
-    var id = null;
+    var id2 = null;
     function Yc(a3, b2, c5, d2) {
-      id = null;
+      id2 = null;
       a3 = xb(d2);
       a3 = Wc(a3);
       if (null !== a3)
@@ -1935,7 +3167,7 @@ var require_react_dom_production_min = __commonJS({
           a3 = null;
         } else
           b2 !== a3 && (a3 = null);
-      id = a3;
+      id2 = a3;
       return null;
     }
     function jd(a3) {
@@ -2210,7 +3442,7 @@ var require_react_dom_production_min = __commonJS({
     var be2 = null;
     ia && "documentMode" in document && (be2 = document.documentMode);
     var ce2 = ia && "TextEvent" in window && !be2;
-    var de2 = ia && (!ae2 || be2 && 8 < be2 && 11 >= be2);
+    var de3 = ia && (!ae2 || be2 && 8 < be2 && 11 >= be2);
     var ee2 = String.fromCharCode(32);
     var fe2 = false;
     function ge2(a3, b2) {
@@ -2262,7 +3494,7 @@ var require_react_dom_production_min = __commonJS({
           }
           return null;
         case "compositionend":
-          return de2 && "ko" !== b2.locale ? null : b2.data;
+          return de3 && "ko" !== b2.locale ? null : b2.data;
         default:
           return null;
       }
@@ -2347,7 +3579,7 @@ var require_react_dom_production_min = __commonJS({
         return false;
       for (d2 = 0; d2 < c5.length; d2++) {
         var e4 = c5[d2];
-        if (!ja.call(b2, e4) || !He(a3[e4], b2[e4]))
+        if (!ja2.call(b2, e4) || !He(a3[e4], b2[e4]))
           return false;
       }
       return true;
@@ -2550,7 +3782,7 @@ var require_react_dom_production_min = __commonJS({
     function sf(a3) {
       if (!a3[rf]) {
         a3[rf] = true;
-        da.forEach(function(b3) {
+        da2.forEach(function(b3) {
           "selectionchange" !== b3 && (mf.has(b3) || qf(b3, false, a3), qf(b3, true, a3));
         });
         var b2 = 9 === a3.nodeType ? a3 : a3.ownerDocument;
@@ -2826,7 +4058,7 @@ var require_react_dom_production_min = __commonJS({
             }
           else
             ie2 ? ge2(a3, c5) && (ba = "onCompositionEnd") : "keydown" === a3 && 229 === c5.keyCode && (ba = "onCompositionStart");
-          ba && (de2 && "ko" !== c5.locale && (ie2 || "onCompositionStart" !== ba ? "onCompositionEnd" === ba && ie2 && ($a = nd()) : (kd = e5, ld = "value" in kd ? kd.value : kd.textContent, ie2 = true)), xa = oe2(d3, ba), 0 < xa.length && (ba = new Ld(ba, a3, null, c5, e5), g3.push({ event: ba, listeners: xa }), $a ? ba.data = $a : ($a = he2(c5), null !== $a && (ba.data = $a))));
+          ba && (de3 && "ko" !== c5.locale && (ie2 || "onCompositionStart" !== ba ? "onCompositionEnd" === ba && ie2 && ($a = nd()) : (kd = e5, ld = "value" in kd ? kd.value : kd.textContent, ie2 = true)), xa = oe2(d3, ba), 0 < xa.length && (ba = new Ld(ba, a3, null, c5, e5), g3.push({ event: ba, listeners: xa }), $a ? ba.data = $a : ($a = he2(c5), null !== $a && (ba.data = $a))));
           if ($a = ce2 ? je(a3, c5) : ke(a3, c5))
             d3 = oe2(d3, "onBeforeInput"), 0 < d3.length && (e5 = new Ld("onBeforeInput", "beforeinput", null, c5, e5), g3.push({ event: e5, listeners: d3 }), e5.data = $a);
         }
@@ -7504,13 +8736,13 @@ var require_react_dom_production_min = __commonJS({
     function ml(a3) {
       this._internalRoot = a3;
     }
-    nl.prototype.render = ml.prototype.render = function(a3) {
+    nl2.prototype.render = ml.prototype.render = function(a3) {
       var b2 = this._internalRoot;
       if (null === b2)
         throw Error(p3(409));
       gl(a3, b2, null, null);
     };
-    nl.prototype.unmount = ml.prototype.unmount = function() {
+    nl2.prototype.unmount = ml.prototype.unmount = function() {
       var a3 = this._internalRoot;
       if (null !== a3) {
         this._internalRoot = null;
@@ -7521,10 +8753,10 @@ var require_react_dom_production_min = __commonJS({
         b2[uf] = null;
       }
     };
-    function nl(a3) {
+    function nl2(a3) {
       this._internalRoot = a3;
     }
-    nl.prototype.unstable_scheduleHydration = function(a3) {
+    nl2.prototype.unstable_scheduleHydration = function(a3) {
       if (a3) {
         var b2 = Hc();
         a3 = { blockedOn: null, target: a3, priority: b2 };
@@ -7537,7 +8769,7 @@ var require_react_dom_production_min = __commonJS({
     function ol(a3) {
       return !(!a3 || 1 !== a3.nodeType && 9 !== a3.nodeType && 11 !== a3.nodeType);
     }
-    function pl(a3) {
+    function pl2(a3) {
       return !(!a3 || 1 !== a3.nodeType && 9 !== a3.nodeType && 11 !== a3.nodeType && (8 !== a3.nodeType || " react-mount-point-unstable " !== a3.nodeValue));
     }
     function ql() {
@@ -7724,7 +8956,7 @@ var require_react_dom_production_min = __commonJS({
       return Sk(a3);
     };
     exports.hydrate = function(a3, b2, c5) {
-      if (!pl(b2))
+      if (!pl2(b2))
         throw Error(p3(200));
       return sl(null, a3, b2, true, c5);
     };
@@ -7742,15 +8974,15 @@ var require_react_dom_production_min = __commonJS({
             c5,
             e4
           );
-      return new nl(b2);
+      return new nl2(b2);
     };
     exports.render = function(a3, b2, c5) {
-      if (!pl(b2))
+      if (!pl2(b2))
         throw Error(p3(200));
       return sl(null, a3, b2, false, c5);
     };
     exports.unmountComponentAtNode = function(a3) {
-      if (!pl(a3))
+      if (!pl2(a3))
         throw Error(p3(40));
       return a3._reactRootContainer ? (Sk(function() {
         sl(null, null, a3, false, function() {
@@ -7761,7 +8993,7 @@ var require_react_dom_production_min = __commonJS({
     };
     exports.unstable_batchedUpdates = Rk;
     exports.unstable_renderSubtreeIntoContainer = function(a3, b2, c5, d2) {
-      if (!pl(c5))
+      if (!pl2(c5))
         throw Error(p3(200));
       if (null == a3 || void 0 === a3._reactInternals)
         throw Error(p3(38));
@@ -7825,1123 +9057,6 @@ var require_client = __commonJS({
       };
     }
     var i4;
-  }
-});
-
-// src/dom-to-image-more.js
-var require_dom_to_image_more = __commonJS({
-  "src/dom-to-image-more.js"(exports, module2) {
-    (function(global2) {
-      "use strict";
-      const util = newUtil();
-      const inliner = newInliner();
-      const fontFaces = newFontFaces();
-      const images = newImages();
-      const defaultOptions2 = {
-        // Default is to copy default styles of elements
-        copyDefaultStyles: true,
-        // Default is to fail on error, no placeholder
-        imagePlaceholder: void 0,
-        // Default cache bust is false, it will use the cache
-        cacheBust: false,
-        // Use (existing) authentication credentials for external URIs (CORS requests)
-        useCredentials: false,
-        // Default resolve timeout
-        httpTimeout: 3e4,
-        // Style computation cache tag rules (options are strict, relaxed)
-        styleCaching: "strict",
-        // Default cors config is to request the image address directly
-        corsImg: void 0
-      };
-      const domtoimage2 = {
-        toSvg,
-        toPng,
-        toJpeg,
-        toBlob,
-        toPixelData,
-        toCanvas,
-        impl: {
-          fontFaces,
-          images,
-          util,
-          inliner,
-          urlCache: [],
-          options: {}
-        }
-      };
-      if (typeof exports === "object" && typeof module2 === "object") {
-        module2.exports = domtoimage2;
-      } else {
-        global2.domtoimage = domtoimage2;
-      }
-      const ELEMENT_NODE = (typeof Node !== "undefined" ? Node.ELEMENT_NODE : void 0) || 1;
-      const getComputedStyle2 = (typeof global2 !== "undefined" ? global2.getComputedStyle : void 0) || (typeof window !== "undefined" ? window.getComputedStyle : void 0) || globalThis.getComputedStyle;
-      const atob2 = (typeof global2 !== "undefined" ? global2.atob : void 0) || (typeof window !== "undefined" ? window.atob : void 0) || globalThis.atob;
-      function toSvg(node2, options) {
-        const ownerWindow = domtoimage2.impl.util.getWindow(node2);
-        options = options || {};
-        copyOptions(options);
-        let restorations = [];
-        return Promise.resolve(node2).then(ensureElement).then(function(clonee) {
-          return cloneNode(clonee, options, null, ownerWindow);
-        }).then(embedFonts).then(inlineImages).then(applyOptions).then(makeSvgDataUri).then(restoreWrappers).then(clearCache);
-        function ensureElement(node3) {
-          if (node3.nodeType === ELEMENT_NODE)
-            return node3;
-          const originalChild = node3;
-          const originalParent = node3.parentNode;
-          const wrappingSpan = document.createElement("span");
-          originalParent.replaceChild(wrappingSpan, originalChild);
-          wrappingSpan.append(node3);
-          restorations.push({
-            parent: originalParent,
-            child: originalChild,
-            wrapper: wrappingSpan
-          });
-          return wrappingSpan;
-        }
-        function restoreWrappers(result) {
-          while (restorations.length > 0) {
-            const restoration = restorations.pop();
-            restoration.parent.replaceChild(restoration.child, restoration.wrapper);
-          }
-          return result;
-        }
-        function clearCache(result) {
-          domtoimage2.impl.urlCache = [];
-          removeSandbox();
-          return result;
-        }
-        function applyOptions(clone) {
-          if (options.bgcolor) {
-            clone.style.backgroundColor = options.bgcolor;
-          }
-          if (options.width) {
-            clone.style.width = `${options.width}px`;
-          }
-          if (options.height) {
-            clone.style.height = `${options.height}px`;
-          }
-          if (options.style) {
-            Object.keys(options.style).forEach(function(property) {
-              clone.style[property] = options.style[property];
-            });
-          }
-          let onCloneResult = null;
-          if (typeof options.onclone === "function") {
-            onCloneResult = options.onclone(clone);
-          }
-          return Promise.resolve(onCloneResult).then(function() {
-            return clone;
-          });
-        }
-        function makeSvgDataUri(node3) {
-          let width = options.width || util.width(node3);
-          let height = options.height || util.height(node3);
-          return Promise.resolve(node3).then(function(svg) {
-            svg.setAttribute("xmlns", "http://www.w3.org/1999/xhtml");
-            return new XMLSerializer().serializeToString(svg);
-          }).then(util.escapeXhtml).then(function(xhtml) {
-            const foreignObjectSizing = (util.isDimensionMissing(width) ? ' width="100%"' : ` width="${width}"`) + (util.isDimensionMissing(height) ? ' height="100%"' : ` height="${height}"`);
-            const svgSizing = (util.isDimensionMissing(width) ? "" : ` width="${width}"`) + (util.isDimensionMissing(height) ? "" : ` height="${height}"`);
-            return `<svg xmlns="http://www.w3.org/2000/svg"${svgSizing}><foreignObject${foreignObjectSizing}>${xhtml}</foreignObject></svg>`;
-          }).then(function(svg) {
-            return `data:image/svg+xml;charset=utf-8,${svg}`;
-          });
-        }
-      }
-      function toPixelData(node2, options) {
-        return draw(node2, options).then(function(canvas) {
-          return canvas.getContext("2d").getImageData(0, 0, util.width(node2), util.height(node2)).data;
-        });
-      }
-      function toPng(node2, options) {
-        return draw(node2, options).then(function(canvas) {
-          return canvas.toDataURL();
-        });
-      }
-      function toJpeg(node2, options) {
-        return draw(node2, options).then(function(canvas) {
-          return canvas.toDataURL(
-            "image/jpeg",
-            (options ? options.quality : void 0) || 1
-          );
-        });
-      }
-      function toBlob(node2, options) {
-        return draw(node2, options).then(util.canvasToBlob);
-      }
-      function toCanvas(node2, options) {
-        return draw(node2, options);
-      }
-      function copyOptions(options) {
-        if (typeof options.copyDefaultStyles === "undefined") {
-          domtoimage2.impl.options.copyDefaultStyles = defaultOptions2.copyDefaultStyles;
-        } else {
-          domtoimage2.impl.options.copyDefaultStyles = options.copyDefaultStyles;
-        }
-        if (typeof options.imagePlaceholder === "undefined") {
-          domtoimage2.impl.options.imagePlaceholder = defaultOptions2.imagePlaceholder;
-        } else {
-          domtoimage2.impl.options.imagePlaceholder = options.imagePlaceholder;
-        }
-        if (typeof options.cacheBust === "undefined") {
-          domtoimage2.impl.options.cacheBust = defaultOptions2.cacheBust;
-        } else {
-          domtoimage2.impl.options.cacheBust = options.cacheBust;
-        }
-        if (typeof options.corsImg === "undefined") {
-          domtoimage2.impl.options.corsImg = defaultOptions2.corsImg;
-        } else {
-          domtoimage2.impl.options.corsImg = options.corsImg;
-        }
-        if (typeof options.useCredentials === "undefined") {
-          domtoimage2.impl.options.useCredentials = defaultOptions2.useCredentials;
-        } else {
-          domtoimage2.impl.options.useCredentials = options.useCredentials;
-        }
-        if (typeof options.httpTimeout === "undefined") {
-          domtoimage2.impl.options.httpTimeout = defaultOptions2.httpTimeout;
-        } else {
-          domtoimage2.impl.options.httpTimeout = options.httpTimeout;
-        }
-        if (typeof options.styleCaching === "undefined") {
-          domtoimage2.impl.options.styleCaching = defaultOptions2.styleCaching;
-        } else {
-          domtoimage2.impl.options.styleCaching = options.styleCaching;
-        }
-        domtoimage2.impl.options.requestUrl = options.requestUrl;
-        domtoimage2.impl.options.type = options.type || "image/png";
-      }
-      function draw(domNode, options) {
-        options = options || {};
-        return toSvg(domNode, options).then(util.makeImage).then(function(image) {
-          const scale = typeof options.scale !== "number" ? 1 : options.scale;
-          const canvas = newCanvas(domNode, scale);
-          const ctx = canvas.getContext("2d");
-          ctx.msImageSmoothingEnabled = false;
-          ctx.imageSmoothingEnabled = false;
-          if (image) {
-            ctx.scale(scale, scale);
-            ctx.drawImage(image, 0, 0);
-          }
-          return canvas;
-        });
-        function newCanvas(node2, scale) {
-          let width = options.width || util.width(node2);
-          let height = options.height || util.height(node2);
-          if (util.isDimensionMissing(width)) {
-            width = util.isDimensionMissing(height) ? 300 : height * 2;
-          }
-          if (util.isDimensionMissing(height)) {
-            height = width / 2;
-          }
-          const canvas = document.createElement("canvas");
-          canvas.width = width * scale;
-          canvas.height = height * scale;
-          if (options.bgcolor) {
-            const ctx = canvas.getContext("2d");
-            ctx.fillStyle = options.bgcolor;
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-          }
-          return canvas;
-        }
-      }
-      let sandbox = null;
-      function cloneNode(node2, options, parentComputedStyles, ownerWindow) {
-        const filter = options.filter;
-        if (node2 === sandbox || util.isHTMLScriptElement(node2) || util.isHTMLStyleElement(node2) || util.isHTMLLinkElement(node2) || parentComputedStyles !== null && filter && !filter(node2)) {
-          return Promise.resolve();
-        }
-        return Promise.resolve(node2).then(makeNodeCopy).then(function(clone) {
-          return cloneChildren(clone, getParentOfChildren(node2));
-        }).then(function(clone) {
-          return processClone(clone, node2);
-        });
-        function makeNodeCopy(original) {
-          if (util.isHTMLCanvasElement(original)) {
-            return util.makeImage(original.toDataURL());
-          }
-          return original.cloneNode(false);
-        }
-        function getParentOfChildren(original) {
-          if (util.isElementHostForOpenShadowRoot(original)) {
-            return original.shadowRoot;
-          }
-          return original;
-        }
-        function cloneChildren(clone, original) {
-          const originalChildren = getRenderedChildren(original);
-          let done = Promise.resolve();
-          if (originalChildren.length !== 0) {
-            const originalComputedStyles = getComputedStyle2(
-              getRenderedParent(original)
-            );
-            util.asArray(originalChildren).forEach(function(originalChild) {
-              done = done.then(function() {
-                return cloneNode(
-                  originalChild,
-                  options,
-                  originalComputedStyles,
-                  ownerWindow
-                ).then(function(clonedChild) {
-                  if (clonedChild) {
-                    clone.appendChild(clonedChild);
-                  }
-                });
-              });
-            });
-          }
-          return done.then(function() {
-            return clone;
-          });
-          function getRenderedParent(original2) {
-            if (util.isShadowRoot(original2)) {
-              return original2.host;
-            }
-            return original2;
-          }
-          function getRenderedChildren(original2) {
-            if (util.isShadowSlotElement(original2)) {
-              return original2.assignedNodes();
-            }
-            return original2.childNodes;
-          }
-        }
-        function processClone(clone, original) {
-          if (!util.isElement(clone) || util.isShadowSlotElement(original)) {
-            return Promise.resolve(clone);
-          }
-          return Promise.resolve().then(cloneStyle).then(clonePseudoElements).then(copyUserInput).then(fixSvg).then(function() {
-            return clone;
-          });
-          function cloneStyle() {
-            copyStyle(original, clone);
-            function copyFont(source, target) {
-              target.font = source.font;
-              target.fontFamily = source.fontFamily;
-              target.fontFeatureSettings = source.fontFeatureSettings;
-              target.fontKerning = source.fontKerning;
-              target.fontSize = source.fontSize;
-              target.fontStretch = source.fontStretch;
-              target.fontStyle = source.fontStyle;
-              target.fontVariant = source.fontVariant;
-              target.fontVariantCaps = source.fontVariantCaps;
-              target.fontVariantEastAsian = source.fontVariantEastAsian;
-              target.fontVariantLigatures = source.fontVariantLigatures;
-              target.fontVariantNumeric = source.fontVariantNumeric;
-              target.fontVariationSettings = source.fontVariationSettings;
-              target.fontWeight = source.fontWeight;
-            }
-            function copyStyle(sourceElement, targetElement) {
-              const sourceComputedStyles = getComputedStyle2(sourceElement);
-              if (sourceComputedStyles.cssText) {
-                targetElement.style.cssText = sourceComputedStyles.cssText;
-                copyFont(sourceComputedStyles, targetElement.style);
-              } else {
-                copyUserComputedStyleFast(
-                  options,
-                  sourceElement,
-                  sourceComputedStyles,
-                  parentComputedStyles,
-                  targetElement
-                );
-                if (parentComputedStyles === null) {
-                  ["inset-block", "inset-block-start", "inset-block-end"].forEach(
-                    (prop) => targetElement.style.removeProperty(prop)
-                  );
-                  ["left", "right", "top", "bottom"].forEach((prop) => {
-                    if (targetElement.style.getPropertyValue(prop)) {
-                      targetElement.style.setProperty(prop, "0px");
-                    }
-                  });
-                }
-              }
-            }
-          }
-          function clonePseudoElements() {
-            const cloneClassName = util.uid();
-            [":before", ":after"].forEach(function(element) {
-              clonePseudoElement(element);
-            });
-            function clonePseudoElement(element) {
-              const style = getComputedStyle2(original, element);
-              const content = style.getPropertyValue("content");
-              if (content === "" || content === "none") {
-                return;
-              }
-              const currentClass = clone.getAttribute("class") || "";
-              clone.setAttribute("class", `${currentClass} ${cloneClassName}`);
-              const styleElement = document.createElement("style");
-              styleElement.appendChild(formatPseudoElementStyle());
-              clone.appendChild(styleElement);
-              function formatPseudoElementStyle() {
-                const selector = `.${cloneClassName}:${element}`;
-                const cssText = style.cssText ? formatCssText() : formatCssProperties();
-                return document.createTextNode(`${selector}{${cssText}}`);
-                function formatCssText() {
-                  return `${style.cssText} content: ${content};`;
-                }
-                function formatCssProperties() {
-                  const styleText = util.asArray(style).map(formatProperty).join("; ");
-                  return `${styleText};`;
-                  function formatProperty(name) {
-                    const propertyValue = style.getPropertyValue(name);
-                    const propertyPriority = style.getPropertyPriority(name) ? " !important" : "";
-                    return `${name}: ${propertyValue}${propertyPriority}`;
-                  }
-                }
-              }
-            }
-          }
-          function copyUserInput() {
-            if (util.isHTMLTextAreaElement(original)) {
-              clone.innerHTML = original.value;
-            }
-            if (util.isHTMLInputElement(original)) {
-              clone.setAttribute("value", original.value);
-            }
-          }
-          function fixSvg() {
-            if (util.isSVGElement(clone)) {
-              clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-              if (util.isSVGRectElement(clone)) {
-                ["width", "height"].forEach(function(attribute) {
-                  const value = clone.getAttribute(attribute);
-                  if (value) {
-                    clone.style.setProperty(attribute, value);
-                  }
-                });
-              }
-            }
-          }
-        }
-      }
-      function embedFonts(node2) {
-        return fontFaces.resolveAll().then(function(cssText) {
-          if (cssText !== "") {
-            const styleNode = document.createElement("style");
-            node2.appendChild(styleNode);
-            styleNode.appendChild(document.createTextNode(cssText));
-          }
-          return node2;
-        });
-      }
-      function inlineImages(node2) {
-        return images.inlineAll(node2).then(function() {
-          return node2;
-        });
-      }
-      function newUtil() {
-        let uid_index = 0;
-        return {
-          escape: escapeRegEx,
-          isDataUrl,
-          canvasToBlob,
-          resolveUrl,
-          getAndEncode,
-          uid,
-          delay: delay2,
-          asArray,
-          escapeXhtml,
-          makeImage,
-          width,
-          height,
-          getWindow,
-          isElement,
-          isElementHostForOpenShadowRoot,
-          isShadowRoot,
-          isInShadowRoot,
-          isHTMLElement,
-          isHTMLCanvasElement,
-          isHTMLInputElement,
-          isHTMLImageElement,
-          isHTMLLinkElement,
-          isHTMLScriptElement,
-          isHTMLStyleElement,
-          isHTMLTextAreaElement,
-          isShadowSlotElement,
-          isSVGElement,
-          isSVGRectElement,
-          isDimensionMissing
-        };
-        function getWindow(node2) {
-          const ownerDocument = node2 ? node2.ownerDocument : void 0;
-          return (ownerDocument ? ownerDocument.defaultView : void 0) || global2 || window;
-        }
-        function isElementHostForOpenShadowRoot(value) {
-          return isElement(value) && value.shadowRoot !== null;
-        }
-        function isShadowRoot(value) {
-          return value instanceof getWindow(value).ShadowRoot;
-        }
-        function isInShadowRoot(value) {
-          return value !== null && Object.prototype.hasOwnProperty.call(value, "getRootNode") && isShadowRoot(value.getRootNode());
-        }
-        function isElement(value) {
-          return value instanceof getWindow(value).Element;
-        }
-        function isHTMLCanvasElement(value) {
-          return value instanceof getWindow(value).HTMLCanvasElement;
-        }
-        function isHTMLElement(value) {
-          return value instanceof getWindow(value).HTMLElement;
-        }
-        function isHTMLImageElement(value) {
-          return value instanceof getWindow(value).HTMLImageElement;
-        }
-        function isHTMLInputElement(value) {
-          return value instanceof getWindow(value).HTMLInputElement;
-        }
-        function isHTMLLinkElement(value) {
-          return value instanceof getWindow(value).HTMLLinkElement;
-        }
-        function isHTMLScriptElement(value) {
-          return value instanceof getWindow(value).HTMLScriptElement;
-        }
-        function isHTMLStyleElement(value) {
-          return value instanceof getWindow(value).HTMLStyleElement;
-        }
-        function isHTMLTextAreaElement(value) {
-          return value instanceof getWindow(value).HTMLTextAreaElement;
-        }
-        function isShadowSlotElement(value) {
-          return isInShadowRoot(value) && value instanceof getWindow(value).HTMLSlotElement;
-        }
-        function isSVGElement(value) {
-          return value instanceof getWindow(value).SVGElement;
-        }
-        function isSVGRectElement(value) {
-          return value instanceof getWindow(value).SVGRectElement;
-        }
-        function isDataUrl(url) {
-          return url.search(/^(data:)/) !== -1;
-        }
-        function isDimensionMissing(value) {
-          return isNaN(value) || value <= 0;
-        }
-        function asBlob(canvas) {
-          return new Promise(function(resolve) {
-            const binaryString = atob2(canvas.toDataURL().split(",")[1]);
-            const length = binaryString.length;
-            const binaryArray = new Uint8Array(length);
-            for (let i4 = 0; i4 < length; i4++) {
-              binaryArray[i4] = binaryString.charCodeAt(i4);
-            }
-            resolve(
-              new Blob([binaryArray], {
-                type: domtoimage2.impl.options.type
-              })
-            );
-          });
-        }
-        function canvasToBlob(canvas) {
-          if (canvas.toBlob) {
-            return new Promise(function(resolve) {
-              canvas.toBlob(resolve);
-            });
-          }
-          return asBlob(canvas);
-        }
-        function resolveUrl(url, baseUrl) {
-          const doc = document.implementation.createHTMLDocument();
-          const base = doc.createElement("base");
-          doc.head.appendChild(base);
-          const a3 = doc.createElement("a");
-          doc.body.appendChild(a3);
-          base.href = baseUrl;
-          a3.href = url;
-          return a3.href;
-        }
-        function uid() {
-          return `u${fourRandomChars()}${uid_index++}`;
-          function fourRandomChars() {
-            return `0000${(Math.random() * Math.pow(36, 4) << 0).toString(
-              36
-            )}`.slice(-4);
-          }
-        }
-        function makeImage(uri) {
-          if (uri === "data:,") {
-            return Promise.resolve();
-          }
-          return new Promise(function(resolve, reject) {
-            const image = new Image();
-            if (domtoimage2.impl.options.useCredentials) {
-              image.crossOrigin = "use-credentials";
-            }
-            image.onload = function() {
-              if (window && window.requestAnimationFrame) {
-                window.requestAnimationFrame(function() {
-                  resolve(image);
-                });
-              } else {
-                resolve(image);
-              }
-            };
-            image.onerror = reject;
-            image.src = uri;
-          });
-        }
-        function getAndEncode(url) {
-          let cacheEntry = domtoimage2.impl.urlCache.find(function(el) {
-            return el.url === url;
-          });
-          if (!cacheEntry) {
-            cacheEntry = {
-              url,
-              promise: null
-            };
-            domtoimage2.impl.urlCache.push(cacheEntry);
-          }
-          if (cacheEntry.promise === null) {
-            if (domtoimage2.impl.options.cacheBust) {
-              url += (/\?/.test(url) ? "&" : "?") + (/* @__PURE__ */ new Date()).getTime();
-            }
-            if (domtoimage2.impl.options.requestUrl && /^http/.test(url)) {
-              cacheEntry.promise = domtoimage2.impl.options.requestUrl({
-                url,
-                method: "GET"
-              }).then((data) => {
-                return new Promise((resolve) => {
-                  const encoder = new FileReader();
-                  encoder.onload = function(env) {
-                    resolve(env.target.result);
-                  };
-                  encoder.readAsDataURL(
-                    new Blob([data.arrayBuffer], {
-                      type: data.headers["content-type"]
-                    })
-                  );
-                });
-              }).catch((err) => {
-                console.error(
-                  "cannot fetch resource: " + url + ", error: " + err
-                );
-                return "";
-              });
-            } else {
-              cacheEntry.promise = new Promise(function(resolve) {
-                const httpTimeout = domtoimage2.impl.options.httpTimeout;
-                const request = new XMLHttpRequest();
-                request.onreadystatechange = done;
-                request.ontimeout = timeout;
-                request.responseType = "blob";
-                request.timeout = httpTimeout;
-                if (domtoimage2.impl.options.useCredentials) {
-                  request.withCredentials = true;
-                }
-                if (domtoimage2.impl.options.corsImg && url.indexOf("http") === 0 && url.indexOf(window.location.origin) === -1) {
-                  const method = (domtoimage2.impl.options.corsImg.method || "GET").toUpperCase() === "POST" ? "POST" : "GET";
-                  request.open(
-                    method,
-                    (domtoimage2.impl.options.corsImg.url || "").replace(
-                      "#{cors}",
-                      url
-                    ),
-                    true
-                  );
-                  let isJson = false;
-                  const headers = domtoimage2.impl.options.corsImg.headers || {};
-                  Object.keys(headers).forEach(function(key) {
-                    if (headers[key].indexOf("application/json") !== -1) {
-                      isJson = true;
-                    }
-                    request.setRequestHeader(key, headers[key]);
-                  });
-                  const corsData = handleJson(
-                    domtoimage2.impl.options.corsImg.data || ""
-                  );
-                  Object.keys(corsData).forEach(function(key) {
-                    if (typeof corsData[key] === "string") {
-                      corsData[key] = corsData[key].replace("#{cors}", url);
-                    }
-                  });
-                  request.send(isJson ? JSON.stringify(corsData) : corsData);
-                } else {
-                  request.open("GET", url, true);
-                  request.send();
-                }
-                let placeholder;
-                if (domtoimage2.impl.options.imagePlaceholder) {
-                  const split = domtoimage2.impl.options.imagePlaceholder.split(/,/);
-                  if (split && split[1]) {
-                    placeholder = split[1];
-                  }
-                }
-                function done() {
-                  if (request.readyState !== 4) {
-                    return;
-                  }
-                  if (request.status >= 300) {
-                    if (placeholder) {
-                      resolve(placeholder);
-                    } else {
-                      fail(
-                        `cannot fetch resource: ${url}, status: ${request.status}`
-                      );
-                    }
-                    return;
-                  }
-                  const encoder = new FileReader();
-                  encoder.onloadend = function() {
-                    resolve(encoder.result);
-                  };
-                  encoder.readAsDataURL(request.response);
-                }
-                function timeout() {
-                  if (placeholder) {
-                    resolve(placeholder);
-                  } else {
-                    fail(
-                      `timeout of ${httpTimeout}ms occured while fetching resource: ${url}`
-                    );
-                  }
-                }
-                function handleJson(data) {
-                  try {
-                    return JSON.parse(JSON.stringify(data));
-                  } catch (e4) {
-                    fail("corsImg.data is missing or invalid");
-                    return;
-                  }
-                }
-                function fail(message) {
-                  console.error(message);
-                  resolve("");
-                }
-              });
-            }
-          }
-          return cacheEntry.promise;
-        }
-        function escapeRegEx(string) {
-          return string.replace(/([.*+?^${}()|[]\/\\])/g, "\\$1");
-        }
-        function delay2(ms) {
-          return function(arg) {
-            return new Promise(function(resolve) {
-              setTimeout(function() {
-                resolve(arg);
-              }, ms);
-            });
-          };
-        }
-        function asArray(arrayLike) {
-          const array = [];
-          const length = arrayLike.length;
-          for (let i4 = 0; i4 < length; i4++) {
-            array.push(arrayLike[i4]);
-          }
-          return array;
-        }
-        function escapeXhtml(string) {
-          return string.replace(/%/g, "%25").replace(/#/g, "%23").replace(/\n/g, "%0A").replace(/[\x00-\x1F]/g, "");
-        }
-        function width(node2) {
-          const width2 = px(node2, "width");
-          if (!isNaN(width2))
-            return width2;
-          const leftBorder = px(node2, "border-left-width");
-          const rightBorder = px(node2, "border-right-width");
-          return node2.scrollWidth + leftBorder + rightBorder;
-        }
-        function height(node2) {
-          const height2 = px(node2, "height");
-          if (!isNaN(height2))
-            return height2;
-          const topBorder = px(node2, "border-top-width");
-          const bottomBorder = px(node2, "border-bottom-width");
-          return node2.scrollHeight + topBorder + bottomBorder;
-        }
-        function px(node2, styleProperty) {
-          if (node2.nodeType === ELEMENT_NODE) {
-            let value = getComputedStyle2(node2).getPropertyValue(styleProperty);
-            if (value.slice(-2) === "px") {
-              value = value.slice(0, -2);
-              return parseFloat(value);
-            }
-          }
-          return NaN;
-        }
-      }
-      function newInliner() {
-        const URL_REGEX = /url\(['"]?([^'"]+?)['"]?\)/g;
-        return {
-          inlineAll,
-          shouldProcess,
-          impl: {
-            readUrls,
-            inline
-          }
-        };
-        function shouldProcess(string) {
-          return string.search(URL_REGEX) !== -1;
-        }
-        function readUrls(string) {
-          const result = [];
-          let match;
-          while ((match = URL_REGEX.exec(string)) !== null) {
-            result.push(match[1]);
-          }
-          return result.filter(function(url) {
-            return !util.isDataUrl(url);
-          });
-        }
-        function inline(string, url, baseUrl, get3) {
-          return Promise.resolve(url).then(function(urlValue) {
-            return baseUrl ? util.resolveUrl(urlValue, baseUrl) : urlValue;
-          }).then(get3 || util.getAndEncode).then(function(dataUrl) {
-            return string.replace(urlAsRegex(url), `$1${dataUrl}$3`);
-          });
-          function urlAsRegex(urlValue) {
-            return new RegExp(
-              `(url\\(['"]?)(${util.escape(urlValue)})(['"]?\\))`,
-              "g"
-            );
-          }
-        }
-        function inlineAll(string, baseUrl, get3) {
-          if (nothingToInline()) {
-            return Promise.resolve(string);
-          }
-          return Promise.resolve(string).then(readUrls).then(function(urls) {
-            let done = Promise.resolve(string);
-            urls.forEach(function(url) {
-              done = done.then(function(prefix) {
-                return inline(prefix, url, baseUrl, get3);
-              });
-            });
-            return done;
-          });
-          function nothingToInline() {
-            return !shouldProcess(string);
-          }
-        }
-      }
-      function newFontFaces() {
-        return {
-          resolveAll,
-          impl: {
-            readAll
-          }
-        };
-        function resolveAll() {
-          return readAll().then(function(webFonts) {
-            return Promise.all(
-              webFonts.map(function(webFont) {
-                return webFont.resolve();
-              })
-            );
-          }).then(function(cssStrings) {
-            return cssStrings.join("\n");
-          });
-        }
-        function readAll() {
-          return Promise.resolve(util.asArray(document.styleSheets)).then(getCssRules).then(selectWebFontRules).then(function(rules) {
-            return rules.map(newWebFont);
-          });
-          function selectWebFontRules(cssRules) {
-            return cssRules.filter(function(rule) {
-              return rule.type === CSSRule.FONT_FACE_RULE;
-            }).filter(function(rule) {
-              return inliner.shouldProcess(rule.style.getPropertyValue("src"));
-            });
-          }
-          function getCssRules(styleSheets) {
-            const cssRules = [];
-            styleSheets.forEach(function(sheet) {
-              if (Object.prototype.hasOwnProperty.call(
-                Object.getPrototypeOf(sheet),
-                "cssRules"
-              )) {
-                try {
-                  util.asArray(sheet.cssRules || []).forEach(cssRules.push.bind(cssRules));
-                } catch (e4) {
-                  console.error(
-                    `domtoimage: Error while reading CSS rules from ${sheet.href}`,
-                    e4.toString()
-                  );
-                }
-              }
-            });
-            return cssRules;
-          }
-          function newWebFont(webFontRule) {
-            return {
-              resolve: function resolve() {
-                const baseUrl = (webFontRule.parentStyleSheet || {}).href;
-                return inliner.inlineAll(webFontRule.cssText, baseUrl);
-              },
-              src: function() {
-                return webFontRule.style.getPropertyValue("src");
-              }
-            };
-          }
-        }
-      }
-      function newImages() {
-        return {
-          inlineAll,
-          impl: {
-            newImage
-          }
-        };
-        function newImage(element) {
-          return {
-            inline
-          };
-          function inline(get3) {
-            if (util.isDataUrl(element.src)) {
-              return Promise.resolve();
-            }
-            return Promise.resolve(element.src).then(get3 || util.getAndEncode).then(function(dataUrl) {
-              return new Promise(function(resolve) {
-                element.onload = resolve;
-                element.onerror = resolve;
-                element.src = dataUrl;
-              });
-            });
-          }
-        }
-        function inlineAll(node2) {
-          if (!util.isElement(node2)) {
-            return Promise.resolve(node2);
-          }
-          return inlineCSSProperty(node2).then(function() {
-            if (util.isHTMLImageElement(node2)) {
-              return newImage(node2).inline();
-            } else {
-              return Promise.all(
-                util.asArray(node2.childNodes).map(function(child) {
-                  return inlineAll(child);
-                })
-              );
-            }
-          });
-          function inlineCSSProperty(node3) {
-            const properties = ["background", "background-image"];
-            const inliningTasks = properties.map(function(propertyName) {
-              const value = node3.style.getPropertyValue(propertyName);
-              const priority = node3.style.getPropertyPriority(propertyName);
-              if (!value) {
-                return Promise.resolve();
-              }
-              return inliner.inlineAll(value).then(function(inlinedValue) {
-                node3.style.setProperty(propertyName, inlinedValue, priority);
-              });
-            });
-            return Promise.all(inliningTasks).then(function() {
-              return node3;
-            });
-          }
-        }
-      }
-      function setStyleProperty(targetStyle, name, value, priority) {
-        const needs_prefixing = ["background-clip"].indexOf(name) >= 0;
-        if (priority) {
-          targetStyle.setProperty(name, value, priority);
-          if (needs_prefixing) {
-            targetStyle.setProperty(`-webkit-${name}`, value, priority);
-          }
-        } else {
-          targetStyle.setProperty(name, value);
-          if (needs_prefixing) {
-            targetStyle.setProperty(`-webkit-${name}`, value);
-          }
-        }
-      }
-      function copyUserComputedStyleFast(options, sourceElement, sourceComputedStyles, parentComputedStyles, targetElement) {
-        const defaultStyle = domtoimage2.impl.options.copyDefaultStyles ? getDefaultStyle(options, sourceElement) : {};
-        const targetStyle = targetElement.style;
-        util.asArray(sourceComputedStyles).forEach(function(name) {
-          const sourceValue = sourceComputedStyles.getPropertyValue(name);
-          const defaultValue = defaultStyle[name];
-          const parentValue = parentComputedStyles ? parentComputedStyles.getPropertyValue(name) : void 0;
-          if (sourceValue !== defaultValue || parentComputedStyles && sourceValue !== parentValue) {
-            const priority = sourceComputedStyles.getPropertyPriority(name);
-            setStyleProperty(targetStyle, name, sourceValue, priority);
-          }
-        });
-      }
-      let removeDefaultStylesTimeoutId = null;
-      let tagNameDefaultStyles = {};
-      const ascentStoppers = [
-        // these come from https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
-        "ADDRESS",
-        "ARTICLE",
-        "ASIDE",
-        "BLOCKQUOTE",
-        "DETAILS",
-        "DIALOG",
-        "DD",
-        "DIV",
-        "DL",
-        "DT",
-        "FIELDSET",
-        "FIGCAPTION",
-        "FIGURE",
-        "FOOTER",
-        "FORM",
-        "H1",
-        "H2",
-        "H3",
-        "H4",
-        "H5",
-        "H6",
-        "HEADER",
-        "HGROUP",
-        "HR",
-        "LI",
-        "MAIN",
-        "NAV",
-        "OL",
-        "P",
-        "PRE",
-        "SECTION",
-        "SVG",
-        "TABLE",
-        "UL",
-        // this is some non-standard ones
-        "math",
-        // intentionally lowercase, thanks Safari
-        "svg",
-        // in case we have an svg embedded element
-        // these are ultimate stoppers in case something drastic changes in how the DOM works
-        "BODY",
-        "HEAD",
-        "HTML"
-      ];
-      function getDefaultStyle(options, sourceElement) {
-        const tagHierarchy = computeTagHierarchy(sourceElement);
-        const tagKey = computeTagKey(tagHierarchy);
-        if (tagNameDefaultStyles[tagKey]) {
-          return tagNameDefaultStyles[tagKey];
-        }
-        const sandboxWindow = ensureSandboxWindow();
-        const defaultElement = constructElementHierachy(
-          sandboxWindow.document,
-          tagHierarchy
-        );
-        const defaultStyle = computeStyleForDefaults(sandboxWindow, defaultElement);
-        destroyElementHierarchy(defaultElement);
-        tagNameDefaultStyles[tagKey] = defaultStyle;
-        return defaultStyle;
-        function computeTagHierarchy(sourceNode) {
-          const tagNames = [];
-          do {
-            if (sourceNode.nodeType === ELEMENT_NODE) {
-              const tagName = sourceNode.tagName;
-              tagNames.push(tagName);
-              if (ascentStoppers.includes(tagName)) {
-                break;
-              }
-            }
-            sourceNode = sourceNode.parentNode;
-          } while (sourceNode);
-          return tagNames;
-        }
-        function computeTagKey(tagHierarchy2) {
-          if (options.styleCaching === "relaxed") {
-            return tagHierarchy2.filter((_3, i4, a3) => i4 === 0 || i4 === a3.length - 1).join(">");
-          }
-          return tagHierarchy2.join(">");
-        }
-        function constructElementHierachy(sandboxDocument, tagHierarchy2) {
-          let element = sandboxDocument.body;
-          do {
-            const childTagName = tagHierarchy2.pop();
-            const childElement = sandboxDocument.createElement(childTagName);
-            element.appendChild(childElement);
-            element = childElement;
-          } while (tagHierarchy2.length > 0);
-          element.textContent = "\u200B";
-          return element;
-        }
-        function computeStyleForDefaults(sandboxWindow2, defaultElement2) {
-          const defaultStyle2 = {};
-          const defaultComputedStyle = sandboxWindow2.getComputedStyle(defaultElement2);
-          util.asArray(defaultComputedStyle).forEach(function(name) {
-            defaultStyle2[name] = name === "width" || name === "height" ? "auto" : defaultComputedStyle.getPropertyValue(name);
-          });
-          return defaultStyle2;
-        }
-        function destroyElementHierarchy(element) {
-          do {
-            const parentElement = element.parentElement;
-            if (parentElement !== null) {
-              parentElement.removeChild(element);
-            }
-            element = parentElement;
-          } while (element && element.tagName !== "BODY");
-        }
-      }
-      function ensureSandboxWindow() {
-        if (sandbox) {
-          return sandbox.contentWindow;
-        }
-        const charsetToUse = document.characterSet || "UTF-8";
-        const docType = document.doctype;
-        const docTypeDeclaration = docType ? `<!DOCTYPE ${escapeHTML(docType.name)} ${escapeHTML(
-          docType.publicId
-        )} ${escapeHTML(docType.systemId)}`.trim() + ">" : "";
-        sandbox = document.createElement("iframe");
-        sandbox.id = "domtoimage-sandbox-" + util.uid();
-        sandbox.style.visibility = "hidden";
-        sandbox.style.position = "fixed";
-        document.body.appendChild(sandbox);
-        return tryTechniques(
-          sandbox,
-          docTypeDeclaration,
-          charsetToUse,
-          "domtoimage-sandbox"
-        );
-        function escapeHTML(unsafeText) {
-          if (unsafeText) {
-            const div = document.createElement("div");
-            div.innerText = unsafeText;
-            return div.innerHTML;
-          } else {
-            return "";
-          }
-        }
-        function tryTechniques(sandbox2, doctype, charset, title) {
-          try {
-            sandbox2.contentWindow.document.write(
-              `${doctype}<html><head><meta charset='${charset}'><title>${title}</title></head><body></body></html>`
-            );
-            return sandbox2.contentWindow;
-          } catch (_3) {
-          }
-          const metaCharset = document.createElement("meta");
-          metaCharset.setAttribute("charset", charset);
-          try {
-            const sandboxDocument = document.implementation.createHTMLDocument(title);
-            sandboxDocument.head.appendChild(metaCharset);
-            const sandboxHTML = doctype + sandboxDocument.documentElement.outerHTML;
-            sandbox2.setAttribute("srcdoc", sandboxHTML);
-            return sandbox2.contentWindow;
-          } catch (_3) {
-          }
-          sandbox2.contentDocument.head.appendChild(metaCharset);
-          sandbox2.contentDocument.title = title;
-          return sandbox2.contentWindow;
-        }
-      }
-      function removeSandbox() {
-        if (sandbox) {
-          document.body.removeChild(sandbox);
-          sandbox = null;
-        }
-        if (removeDefaultStylesTimeoutId) {
-          clearTimeout(removeDefaultStylesTimeoutId);
-        }
-        removeDefaultStylesTimeoutId = setTimeout(() => {
-          removeDefaultStylesTimeoutId = null;
-          tagNameDefaultStyles = {};
-        }, 20 * 1e3);
-      }
-    })(exports);
   }
 });
 
@@ -16677,8 +16792,8 @@ var require_html2canvas = __commonJS({
         /** @class */
         function() {
           function Logger2(_a2) {
-            var id = _a2.id, enabled = _a2.enabled;
-            this.id = id;
+            var id2 = _a2.id, enabled = _a2.enabled;
+            this.id = id2;
             this.enabled = enabled;
             this.start = Date.now();
           }
@@ -18263,10 +18378,10 @@ var require_shared_store = __commonJS({
     var SHARED = "__core-js_shared__";
     var store = module2.exports = globalThis2[SHARED] || defineGlobalProperty(SHARED, {});
     (store.versions || (store.versions = [])).push({
-      version: "3.36.1",
+      version: "3.37.0",
       mode: IS_PURE ? "pure" : "global",
       copyright: "\xA9 2014-2024 Denis Pushkarev (zloirock.ru)",
-      license: "https://github.com/zloirock/core-js/blob/v3.36.1/LICENSE",
+      license: "https://github.com/zloirock/core-js/blob/v3.37.0/LICENSE",
       source: "https://github.com/zloirock/core-js"
     });
   }
@@ -18313,11 +18428,11 @@ var require_uid = __commonJS({
   "node_modules/core-js/internals/uid.js"(exports, module2) {
     "use strict";
     var uncurryThis = require_function_uncurry_this();
-    var id = 0;
+    var id2 = 0;
     var postfix = Math.random();
     var toString = uncurryThis(1 .toString);
     module2.exports = function(key) {
-      return "Symbol(" + (key === void 0 ? "" : key) + ")_" + toString(++id + postfix, 36);
+      return "Symbol(" + (key === void 0 ? "" : key) + ")_" + toString(++id2 + postfix, 36);
     };
   }
 });
@@ -19459,23 +19574,23 @@ var require_task = __commonJS({
     fails(function() {
       $location = global2.location;
     });
-    var run = function(id) {
-      if (hasOwn(queue, id)) {
-        var fn = queue[id];
-        delete queue[id];
+    var run = function(id2) {
+      if (hasOwn(queue, id2)) {
+        var fn = queue[id2];
+        delete queue[id2];
         fn();
       }
     };
-    var runner = function(id) {
+    var runner = function(id2) {
       return function() {
-        run(id);
+        run(id2);
       };
     };
     var eventListener = function(event) {
       run(event.data);
     };
-    var globalPostMessageDefer = function(id) {
-      global2.postMessage(String2(id), $location.protocol + "//" + $location.host);
+    var globalPostMessageDefer = function(id2) {
+      global2.postMessage(String2(id2), $location.protocol + "//" + $location.host);
     };
     if (!set2 || !clear) {
       set2 = function setImmediate2(handler) {
@@ -19488,16 +19603,16 @@ var require_task = __commonJS({
         defer(counter);
         return counter;
       };
-      clear = function clearImmediate(id) {
-        delete queue[id];
+      clear = function clearImmediate(id2) {
+        delete queue[id2];
       };
       if (IS_NODE) {
-        defer = function(id) {
-          process2.nextTick(runner(id));
+        defer = function(id2) {
+          process2.nextTick(runner(id2));
         };
       } else if (Dispatch && Dispatch.now) {
-        defer = function(id) {
-          Dispatch.now(runner(id));
+        defer = function(id2) {
+          Dispatch.now(runner(id2));
         };
       } else if (MessageChannel2 && !IS_IOS) {
         channel = new MessageChannel2();
@@ -19508,15 +19623,15 @@ var require_task = __commonJS({
         defer = globalPostMessageDefer;
         global2.addEventListener("message", eventListener, false);
       } else if (ONREADYSTATECHANGE in createElement("script")) {
-        defer = function(id) {
+        defer = function(id2) {
           html.appendChild(createElement("script"))[ONREADYSTATECHANGE] = function() {
             html.removeChild(this);
-            run(id);
+            run(id2);
           };
         };
       } else {
-        defer = function(id) {
-          setTimeout(runner(id), 0);
+        defer = function(id2) {
+          setTimeout(runner(id2), 0);
         };
       }
     }
@@ -21993,7 +22108,7 @@ var require_raf = __commonJS({
     }
     var i4;
     if (!raf || !caf) {
-      last = 0, id = 0, queue = [], frameDuration = 1e3 / 60;
+      last = 0, id2 = 0, queue = [], frameDuration = 1e3 / 60;
       raf = function(callback) {
         if (queue.length === 0) {
           var _now = now(), next = Math.max(0, frameDuration - (_now - last));
@@ -22015,11 +22130,11 @@ var require_raf = __commonJS({
           }, Math.round(next));
         }
         queue.push({
-          handle: ++id,
+          handle: ++id2,
           callback,
           cancelled: false
         });
-        return id;
+        return id2;
       };
       caf = function(handle) {
         for (var i5 = 0; i5 < queue.length; i5++) {
@@ -22030,7 +22145,7 @@ var require_raf = __commonJS({
       };
     }
     var last;
-    var id;
+    var id2;
     var queue;
     var frameDuration;
     module2.exports = function(fn) {
@@ -24767,10 +24882,10 @@ var init_index_es = __esm({
         var {
           definitions
         } = document2;
-        var id = this.getAttribute("id");
-        if (id.hasValue()) {
-          if (!definitions[id.getString()]) {
-            definitions[id.getString()] = this;
+        var id2 = this.getAttribute("id");
+        if (id2.hasValue()) {
+          if (!definitions[id2.getString()]) {
+            definitions[id2.getString()] = this;
           }
         }
         Array.from(node2.childNodes).forEach((childNode) => {
@@ -26805,8 +26920,8 @@ var init_index_es = __esm({
           fy = isBoundingBoxUnits ? boundingBox.y + boundingBox.height * this.getAttribute("fy").getNumber() : this.getAttribute("fy").getPixels("y");
         }
         var r5 = isBoundingBoxUnits ? (boundingBox.width + boundingBox.height) / 2 * this.getAttribute("r").getNumber() : this.getAttribute("r").getPixels();
-        var fr = this.getAttribute("fr").getPixels();
-        return ctx.createRadialGradient(fx, fy, fr, cx, cy, r5);
+        var fr2 = this.getAttribute("fr").getPixels();
+        return ctx.createRadialGradient(fx, fy, fr2, cx, cy, r5);
       }
     };
     StopElement = class extends Element2 {
@@ -27550,14 +27665,14 @@ var init_index_es = __esm({
           run *= -1;
         }
         var rise = m5 * run;
-        var pt2 = null;
+        var pt3 = null;
         if (p2x === p1x) {
-          pt2 = {
+          pt3 = {
             x: fromX,
             y: fromY + rise
           };
         } else if ((fromY - p1y) / (fromX - p1x + PSEUDO_ZERO) === m5) {
-          pt2 = {
+          pt3 = {
             x: fromX + run,
             y: fromY + rise
           };
@@ -27579,12 +27694,12 @@ var init_index_es = __esm({
             run *= -1;
           }
           rise = m5 * run;
-          pt2 = {
+          pt3 = {
             x: ix + run,
             y: iy + rise
           };
         }
-        return pt2;
+        return pt3;
       }
       getPointOnPath(distance) {
         var fullLen = this.getPathLength();
@@ -27668,13 +27783,13 @@ var init_index_es = __esm({
       getPointOnEllipticalArc(cx, cy, rx, ry, theta, psi) {
         var cosPsi = Math.cos(psi);
         var sinPsi = Math.sin(psi);
-        var pt2 = {
+        var pt3 = {
           x: rx * Math.cos(theta),
           y: ry * Math.sin(theta)
         };
         return {
-          x: cx + (pt2.x * cosPsi - pt2.y * sinPsi),
-          y: cy + (pt2.x * sinPsi + pt2.y * cosPsi)
+          x: cx + (pt3.x * cosPsi - pt3.y * sinPsi),
+          y: cy + (pt3.x * sinPsi + pt3.y * cosPsi)
         };
       }
       // TODO need some optimisations. possibly build cache only for curved segments?
@@ -28527,795 +28642,1051 @@ var init_index_es = __esm({
   }
 });
 
-// node_modules/lodash/isArray.js
-var require_isArray = __commonJS({
-  "node_modules/lodash/isArray.js"(exports, module2) {
-    var isArray = Array.isArray;
-    module2.exports = isArray;
-  }
-});
-
-// node_modules/lodash/_freeGlobal.js
-var require_freeGlobal = __commonJS({
-  "node_modules/lodash/_freeGlobal.js"(exports, module2) {
-    var freeGlobal = typeof global == "object" && global && global.Object === Object && global;
-    module2.exports = freeGlobal;
-  }
-});
-
-// node_modules/lodash/_root.js
-var require_root = __commonJS({
-  "node_modules/lodash/_root.js"(exports, module2) {
-    var freeGlobal = require_freeGlobal();
-    var freeSelf = typeof self == "object" && self && self.Object === Object && self;
-    var root2 = freeGlobal || freeSelf || Function("return this")();
-    module2.exports = root2;
-  }
-});
-
-// node_modules/lodash/_Symbol.js
-var require_Symbol = __commonJS({
-  "node_modules/lodash/_Symbol.js"(exports, module2) {
-    var root2 = require_root();
-    var Symbol2 = root2.Symbol;
-    module2.exports = Symbol2;
-  }
-});
-
-// node_modules/lodash/_getRawTag.js
-var require_getRawTag = __commonJS({
-  "node_modules/lodash/_getRawTag.js"(exports, module2) {
-    var Symbol2 = require_Symbol();
-    var objectProto = Object.prototype;
-    var hasOwnProperty = objectProto.hasOwnProperty;
-    var nativeObjectToString = objectProto.toString;
-    var symToStringTag = Symbol2 ? Symbol2.toStringTag : void 0;
-    function getRawTag(value) {
-      var isOwn = hasOwnProperty.call(value, symToStringTag), tag = value[symToStringTag];
-      try {
-        value[symToStringTag] = void 0;
-        var unmasked = true;
-      } catch (e4) {
+// src/dom-to-image-more.js
+var require_dom_to_image_more = __commonJS({
+  "src/dom-to-image-more.js"(exports, module2) {
+    (function(global2) {
+      "use strict";
+      const util = newUtil();
+      const inliner = newInliner();
+      const fontFaces = newFontFaces();
+      const images = newImages();
+      const defaultOptions2 = {
+        // Default is to copy default styles of elements
+        copyDefaultStyles: true,
+        // Default is to fail on error, no placeholder
+        imagePlaceholder: void 0,
+        // Default cache bust is false, it will use the cache
+        cacheBust: false,
+        // Use (existing) authentication credentials for external URIs (CORS requests)
+        useCredentials: false,
+        // Default resolve timeout
+        httpTimeout: 3e4,
+        // Style computation cache tag rules (options are strict, relaxed)
+        styleCaching: "strict",
+        // Default cors config is to request the image address directly
+        corsImg: void 0
+      };
+      const domtoimage2 = {
+        toSvg,
+        toPng,
+        toJpeg,
+        toBlob,
+        toPixelData,
+        toCanvas,
+        impl: {
+          fontFaces,
+          images,
+          util,
+          inliner,
+          urlCache: [],
+          options: {}
+        }
+      };
+      if (typeof exports === "object" && typeof module2 === "object") {
+        module2.exports = domtoimage2;
+      } else {
+        global2.domtoimage = domtoimage2;
       }
-      var result = nativeObjectToString.call(value);
-      if (unmasked) {
-        if (isOwn) {
-          value[symToStringTag] = tag;
+      const ELEMENT_NODE = (typeof Node === "undefined" ? void 0 : Node.ELEMENT_NODE) || 1;
+      const getComputedStyle2 = (global2 === void 0 ? void 0 : global2.getComputedStyle) || (typeof window === "undefined" ? void 0 : window.getComputedStyle) || globalThis.getComputedStyle;
+      const atob2 = (global2 === void 0 ? void 0 : global2.atob) || (typeof window === "undefined" ? void 0 : window.atob) || globalThis.atob;
+      function toSvg(node2, options) {
+        const ownerWindow = domtoimage2.impl.util.getWindow(node2);
+        options ||= {};
+        copyOptions(options);
+        const restorations = [];
+        return Promise.resolve(node2).then(ensureElement).then((clonee) => cloneNode(clonee, options, null, ownerWindow)).then(embedFonts).then(inlineImages).then(applyOptions).then(makeSvgDataUri).then(restoreWrappers).then(clearCache);
+        function ensureElement(node3) {
+          if (node3.nodeType === ELEMENT_NODE) {
+            return node3;
+          }
+          const originalChild = node3;
+          const originalParent = node3.parentNode;
+          const wrappingSpan = document.createElement("span");
+          originalChild.replaceWith(wrappingSpan);
+          wrappingSpan.append(node3);
+          restorations.push({
+            parent: originalParent,
+            child: originalChild,
+            wrapper: wrappingSpan
+          });
+          return wrappingSpan;
+        }
+        function restoreWrappers(result) {
+          while (restorations.length > 0) {
+            const restoration = restorations.pop();
+            restoration.parent.replaceChild(restoration.child, restoration.wrapper);
+          }
+          return result;
+        }
+        function clearCache(result) {
+          domtoimage2.impl.urlCache = [];
+          removeSandbox();
+          return result;
+        }
+        function applyOptions(clone) {
+          if (options.bgcolor) {
+            clone.style.backgroundColor = options.bgcolor;
+          }
+          if (options.width) {
+            clone.style.width = `${options.width}px`;
+          }
+          if (options.height) {
+            clone.style.height = `${options.height}px`;
+          }
+          if (options.style) {
+            for (const property of Object.keys(options.style)) {
+              clone.style[property] = options.style[property];
+            }
+          }
+          let onCloneResult = null;
+          if (typeof options.onclone === "function") {
+            onCloneResult = options.onclone(clone);
+          }
+          return Promise.resolve(onCloneResult).then(() => clone);
+        }
+        function makeSvgDataUri(node3) {
+          const width = options.width || util.width(node3);
+          const height = options.height || util.height(node3);
+          return Promise.resolve(node3).then((svg) => {
+            svg.setAttribute("xmlns", "http://www.w3.org/1999/xhtml");
+            return new XMLSerializer().serializeToString(svg);
+          }).then((html) => html.replace(/background-image:/g, "-webkit-background-clip: text; background-image:")).then(util.escapeXhtml).then((xhtml) => {
+            const foreignObjectSizing = (util.isDimensionMissing(width) ? ' width="100%"' : ` width="${width}"`) + (util.isDimensionMissing(height) ? ' height="100%"' : ` height="${height}"`);
+            const svgSizing = (util.isDimensionMissing(width) ? "" : ` width="${width}"`) + (util.isDimensionMissing(height) ? "" : ` height="${height}"`);
+            return `<svg xmlns="http://www.w3.org/2000/svg"${svgSizing}><foreignObject${foreignObjectSizing}>${xhtml}</foreignObject></svg>`;
+          }).then((svg) => `data:image/svg+xml;charset=utf-8,${svg}`);
+        }
+      }
+      function toPixelData(node2, options) {
+        return draw(node2, options).then((canvas) => canvas.getContext("2d").getImageData(0, 0, util.width(node2), util.height(node2)).data);
+      }
+      function toPng(node2, options) {
+        return draw(node2, options).then((canvas) => canvas.toDataURL());
+      }
+      function toJpeg(node2, options) {
+        return draw(node2, options).then((canvas) => canvas.toDataURL(
+          "image/jpeg",
+          (options ? options.quality : void 0) || 1
+        ));
+      }
+      function toBlob(node2, options) {
+        return draw(node2, options).then(util.canvasToBlob);
+      }
+      function toCanvas(node2, options) {
+        return draw(node2, options);
+      }
+      function copyOptions(options) {
+        if (options.copyDefaultStyles === void 0) {
+          domtoimage2.impl.options.copyDefaultStyles = defaultOptions2.copyDefaultStyles;
         } else {
-          delete value[symToStringTag];
+          domtoimage2.impl.options.copyDefaultStyles = options.copyDefaultStyles;
+        }
+        if (options.imagePlaceholder === void 0) {
+          domtoimage2.impl.options.imagePlaceholder = defaultOptions2.imagePlaceholder;
+        } else {
+          domtoimage2.impl.options.imagePlaceholder = options.imagePlaceholder;
+        }
+        domtoimage2.impl.options.cacheBust = options.cacheBust === void 0 ? defaultOptions2.cacheBust : options.cacheBust;
+        domtoimage2.impl.options.corsImg = options.corsImg === void 0 ? defaultOptions2.corsImg : options.corsImg;
+        domtoimage2.impl.options.useCredentials = options.useCredentials === void 0 ? defaultOptions2.useCredentials : options.useCredentials;
+        domtoimage2.impl.options.httpTimeout = options.httpTimeout === void 0 ? defaultOptions2.httpTimeout : options.httpTimeout;
+        domtoimage2.impl.options.styleCaching = options.styleCaching === void 0 ? defaultOptions2.styleCaching : options.styleCaching;
+        domtoimage2.impl.options.requestUrl = options.requestUrl;
+        domtoimage2.impl.options.type = options.type || "image/png";
+        domtoimage2.impl.options.quality = options.quality || 1;
+      }
+      function draw(domNode, options) {
+        options ||= {};
+        return toSvg(domNode, options).then(util.makeImage).then((image) => {
+          const scale = typeof options.scale === "number" ? options.scale : 1;
+          const canvas = newCanvas(domNode, scale);
+          const context = canvas.getContext("2d");
+          context.msImageSmoothingEnabled = false;
+          context.imageSmoothingEnabled = false;
+          if (image) {
+            context.scale(scale, scale);
+            context.drawImage(image, 0, 0);
+          }
+          return canvas;
+        });
+        function newCanvas(node2, scale) {
+          let width = options.width || util.width(node2);
+          let height = options.height || util.height(node2);
+          if (util.isDimensionMissing(width)) {
+            width = util.isDimensionMissing(height) ? 300 : height * 2;
+          }
+          if (util.isDimensionMissing(height)) {
+            height = width / 2;
+          }
+          const canvas = document.createElement("canvas");
+          canvas.width = width * scale;
+          canvas.height = height * scale;
+          if (options.bgcolor) {
+            const context = canvas.getContext("2d");
+            context.fillStyle = options.bgcolor;
+            context.fillRect(0, 0, canvas.width, canvas.height);
+          }
+          return canvas;
         }
       }
-      return result;
-    }
-    module2.exports = getRawTag;
-  }
-});
-
-// node_modules/lodash/_objectToString.js
-var require_objectToString = __commonJS({
-  "node_modules/lodash/_objectToString.js"(exports, module2) {
-    var objectProto = Object.prototype;
-    var nativeObjectToString = objectProto.toString;
-    function objectToString(value) {
-      return nativeObjectToString.call(value);
-    }
-    module2.exports = objectToString;
-  }
-});
-
-// node_modules/lodash/_baseGetTag.js
-var require_baseGetTag = __commonJS({
-  "node_modules/lodash/_baseGetTag.js"(exports, module2) {
-    var Symbol2 = require_Symbol();
-    var getRawTag = require_getRawTag();
-    var objectToString = require_objectToString();
-    var nullTag = "[object Null]";
-    var undefinedTag = "[object Undefined]";
-    var symToStringTag = Symbol2 ? Symbol2.toStringTag : void 0;
-    function baseGetTag(value) {
-      if (value == null) {
-        return value === void 0 ? undefinedTag : nullTag;
-      }
-      return symToStringTag && symToStringTag in Object(value) ? getRawTag(value) : objectToString(value);
-    }
-    module2.exports = baseGetTag;
-  }
-});
-
-// node_modules/lodash/isObjectLike.js
-var require_isObjectLike = __commonJS({
-  "node_modules/lodash/isObjectLike.js"(exports, module2) {
-    function isObjectLike(value) {
-      return value != null && typeof value == "object";
-    }
-    module2.exports = isObjectLike;
-  }
-});
-
-// node_modules/lodash/isSymbol.js
-var require_isSymbol = __commonJS({
-  "node_modules/lodash/isSymbol.js"(exports, module2) {
-    var baseGetTag = require_baseGetTag();
-    var isObjectLike = require_isObjectLike();
-    var symbolTag = "[object Symbol]";
-    function isSymbol(value) {
-      return typeof value == "symbol" || isObjectLike(value) && baseGetTag(value) == symbolTag;
-    }
-    module2.exports = isSymbol;
-  }
-});
-
-// node_modules/lodash/_isKey.js
-var require_isKey = __commonJS({
-  "node_modules/lodash/_isKey.js"(exports, module2) {
-    var isArray = require_isArray();
-    var isSymbol = require_isSymbol();
-    var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/;
-    var reIsPlainProp = /^\w*$/;
-    function isKey(value, object) {
-      if (isArray(value)) {
-        return false;
-      }
-      var type = typeof value;
-      if (type == "number" || type == "symbol" || type == "boolean" || value == null || isSymbol(value)) {
-        return true;
-      }
-      return reIsPlainProp.test(value) || !reIsDeepProp.test(value) || object != null && value in Object(object);
-    }
-    module2.exports = isKey;
-  }
-});
-
-// node_modules/lodash/isObject.js
-var require_isObject = __commonJS({
-  "node_modules/lodash/isObject.js"(exports, module2) {
-    function isObject(value) {
-      var type = typeof value;
-      return value != null && (type == "object" || type == "function");
-    }
-    module2.exports = isObject;
-  }
-});
-
-// node_modules/lodash/isFunction.js
-var require_isFunction = __commonJS({
-  "node_modules/lodash/isFunction.js"(exports, module2) {
-    var baseGetTag = require_baseGetTag();
-    var isObject = require_isObject();
-    var asyncTag = "[object AsyncFunction]";
-    var funcTag = "[object Function]";
-    var genTag = "[object GeneratorFunction]";
-    var proxyTag = "[object Proxy]";
-    function isFunction(value) {
-      if (!isObject(value)) {
-        return false;
-      }
-      var tag = baseGetTag(value);
-      return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
-    }
-    module2.exports = isFunction;
-  }
-});
-
-// node_modules/lodash/_coreJsData.js
-var require_coreJsData = __commonJS({
-  "node_modules/lodash/_coreJsData.js"(exports, module2) {
-    var root2 = require_root();
-    var coreJsData = root2["__core-js_shared__"];
-    module2.exports = coreJsData;
-  }
-});
-
-// node_modules/lodash/_isMasked.js
-var require_isMasked = __commonJS({
-  "node_modules/lodash/_isMasked.js"(exports, module2) {
-    var coreJsData = require_coreJsData();
-    var maskSrcKey = function() {
-      var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || "");
-      return uid ? "Symbol(src)_1." + uid : "";
-    }();
-    function isMasked(func) {
-      return !!maskSrcKey && maskSrcKey in func;
-    }
-    module2.exports = isMasked;
-  }
-});
-
-// node_modules/lodash/_toSource.js
-var require_toSource = __commonJS({
-  "node_modules/lodash/_toSource.js"(exports, module2) {
-    var funcProto = Function.prototype;
-    var funcToString = funcProto.toString;
-    function toSource(func) {
-      if (func != null) {
-        try {
-          return funcToString.call(func);
-        } catch (e4) {
+      let sandbox = null;
+      function cloneNode(node2, options, parentComputedStyles, ownerWindow) {
+        const filter = options.filter;
+        if (node2 === sandbox || util.isHTMLScriptElement(node2) || util.isHTMLStyleElement(node2) || util.isHTMLLinkElement(node2) || parentComputedStyles !== null && filter && !filter(node2)) {
+          return Promise.resolve();
         }
-        try {
-          return func + "";
-        } catch (e4) {
+        return Promise.resolve(node2).then(makeNodeCopy).then((clone) => cloneChildren(clone, getParentOfChildren(node2))).then((clone) => processClone(clone, node2));
+        function makeNodeCopy(original) {
+          if (util.isHTMLCanvasElement(original)) {
+            return util.makeImage(original.toDataURL());
+          }
+          return original.cloneNode(false);
         }
-      }
-      return "";
-    }
-    module2.exports = toSource;
-  }
-});
-
-// node_modules/lodash/_baseIsNative.js
-var require_baseIsNative = __commonJS({
-  "node_modules/lodash/_baseIsNative.js"(exports, module2) {
-    var isFunction = require_isFunction();
-    var isMasked = require_isMasked();
-    var isObject = require_isObject();
-    var toSource = require_toSource();
-    var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
-    var reIsHostCtor = /^\[object .+?Constructor\]$/;
-    var funcProto = Function.prototype;
-    var objectProto = Object.prototype;
-    var funcToString = funcProto.toString;
-    var hasOwnProperty = objectProto.hasOwnProperty;
-    var reIsNative = RegExp(
-      "^" + funcToString.call(hasOwnProperty).replace(reRegExpChar, "\\$&").replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, "$1.*?") + "$"
-    );
-    function baseIsNative(value) {
-      if (!isObject(value) || isMasked(value)) {
-        return false;
-      }
-      var pattern = isFunction(value) ? reIsNative : reIsHostCtor;
-      return pattern.test(toSource(value));
-    }
-    module2.exports = baseIsNative;
-  }
-});
-
-// node_modules/lodash/_getValue.js
-var require_getValue = __commonJS({
-  "node_modules/lodash/_getValue.js"(exports, module2) {
-    function getValue(object, key) {
-      return object == null ? void 0 : object[key];
-    }
-    module2.exports = getValue;
-  }
-});
-
-// node_modules/lodash/_getNative.js
-var require_getNative = __commonJS({
-  "node_modules/lodash/_getNative.js"(exports, module2) {
-    var baseIsNative = require_baseIsNative();
-    var getValue = require_getValue();
-    function getNative(object, key) {
-      var value = getValue(object, key);
-      return baseIsNative(value) ? value : void 0;
-    }
-    module2.exports = getNative;
-  }
-});
-
-// node_modules/lodash/_nativeCreate.js
-var require_nativeCreate = __commonJS({
-  "node_modules/lodash/_nativeCreate.js"(exports, module2) {
-    var getNative = require_getNative();
-    var nativeCreate = getNative(Object, "create");
-    module2.exports = nativeCreate;
-  }
-});
-
-// node_modules/lodash/_hashClear.js
-var require_hashClear = __commonJS({
-  "node_modules/lodash/_hashClear.js"(exports, module2) {
-    var nativeCreate = require_nativeCreate();
-    function hashClear() {
-      this.__data__ = nativeCreate ? nativeCreate(null) : {};
-      this.size = 0;
-    }
-    module2.exports = hashClear;
-  }
-});
-
-// node_modules/lodash/_hashDelete.js
-var require_hashDelete = __commonJS({
-  "node_modules/lodash/_hashDelete.js"(exports, module2) {
-    function hashDelete(key) {
-      var result = this.has(key) && delete this.__data__[key];
-      this.size -= result ? 1 : 0;
-      return result;
-    }
-    module2.exports = hashDelete;
-  }
-});
-
-// node_modules/lodash/_hashGet.js
-var require_hashGet = __commonJS({
-  "node_modules/lodash/_hashGet.js"(exports, module2) {
-    var nativeCreate = require_nativeCreate();
-    var HASH_UNDEFINED = "__lodash_hash_undefined__";
-    var objectProto = Object.prototype;
-    var hasOwnProperty = objectProto.hasOwnProperty;
-    function hashGet(key) {
-      var data = this.__data__;
-      if (nativeCreate) {
-        var result = data[key];
-        return result === HASH_UNDEFINED ? void 0 : result;
-      }
-      return hasOwnProperty.call(data, key) ? data[key] : void 0;
-    }
-    module2.exports = hashGet;
-  }
-});
-
-// node_modules/lodash/_hashHas.js
-var require_hashHas = __commonJS({
-  "node_modules/lodash/_hashHas.js"(exports, module2) {
-    var nativeCreate = require_nativeCreate();
-    var objectProto = Object.prototype;
-    var hasOwnProperty = objectProto.hasOwnProperty;
-    function hashHas(key) {
-      var data = this.__data__;
-      return nativeCreate ? data[key] !== void 0 : hasOwnProperty.call(data, key);
-    }
-    module2.exports = hashHas;
-  }
-});
-
-// node_modules/lodash/_hashSet.js
-var require_hashSet = __commonJS({
-  "node_modules/lodash/_hashSet.js"(exports, module2) {
-    var nativeCreate = require_nativeCreate();
-    var HASH_UNDEFINED = "__lodash_hash_undefined__";
-    function hashSet(key, value) {
-      var data = this.__data__;
-      this.size += this.has(key) ? 0 : 1;
-      data[key] = nativeCreate && value === void 0 ? HASH_UNDEFINED : value;
-      return this;
-    }
-    module2.exports = hashSet;
-  }
-});
-
-// node_modules/lodash/_Hash.js
-var require_Hash = __commonJS({
-  "node_modules/lodash/_Hash.js"(exports, module2) {
-    var hashClear = require_hashClear();
-    var hashDelete = require_hashDelete();
-    var hashGet = require_hashGet();
-    var hashHas = require_hashHas();
-    var hashSet = require_hashSet();
-    function Hash(entries) {
-      var index2 = -1, length = entries == null ? 0 : entries.length;
-      this.clear();
-      while (++index2 < length) {
-        var entry = entries[index2];
-        this.set(entry[0], entry[1]);
-      }
-    }
-    Hash.prototype.clear = hashClear;
-    Hash.prototype["delete"] = hashDelete;
-    Hash.prototype.get = hashGet;
-    Hash.prototype.has = hashHas;
-    Hash.prototype.set = hashSet;
-    module2.exports = Hash;
-  }
-});
-
-// node_modules/lodash/_listCacheClear.js
-var require_listCacheClear = __commonJS({
-  "node_modules/lodash/_listCacheClear.js"(exports, module2) {
-    function listCacheClear() {
-      this.__data__ = [];
-      this.size = 0;
-    }
-    module2.exports = listCacheClear;
-  }
-});
-
-// node_modules/lodash/eq.js
-var require_eq = __commonJS({
-  "node_modules/lodash/eq.js"(exports, module2) {
-    function eq(value, other) {
-      return value === other || value !== value && other !== other;
-    }
-    module2.exports = eq;
-  }
-});
-
-// node_modules/lodash/_assocIndexOf.js
-var require_assocIndexOf = __commonJS({
-  "node_modules/lodash/_assocIndexOf.js"(exports, module2) {
-    var eq = require_eq();
-    function assocIndexOf(array, key) {
-      var length = array.length;
-      while (length--) {
-        if (eq(array[length][0], key)) {
-          return length;
+        function getParentOfChildren(original) {
+          if (util.isElementHostForOpenShadowRoot(original)) {
+            return original.shadowRoot;
+          }
+          return original;
+        }
+        function cloneChildren(clone, original) {
+          const originalChildren = getRenderedChildren(original);
+          let done = Promise.resolve();
+          if (originalChildren.length > 0) {
+            const originalComputedStyles = getComputedStyle2(
+              getRenderedParent(original)
+            );
+            for (const originalChild of util.asArray(originalChildren)) {
+              done = done.then(() => cloneNode(
+                originalChild,
+                options,
+                originalComputedStyles,
+                ownerWindow
+              ).then((clonedChild) => {
+                if (clonedChild) {
+                  clone.append(clonedChild);
+                }
+              }));
+            }
+          }
+          return done.then(() => clone);
+          function getRenderedParent(original2) {
+            if (util.isShadowRoot(original2)) {
+              return original2.host;
+            }
+            return original2;
+          }
+          function getRenderedChildren(original2) {
+            if (util.isShadowSlotElement(original2)) {
+              return original2.assignedNodes();
+            }
+            return original2.childNodes;
+          }
+        }
+        function processClone(clone, original) {
+          if (!util.isElement(clone) || util.isShadowSlotElement(original)) {
+            return Promise.resolve(clone);
+          }
+          return Promise.resolve().then(cloneStyle).then(clonePseudoElements).then(copyUserInput).then(fixSvg).then(() => clone);
+          function cloneStyle() {
+            copyStyle(original, clone);
+            function copyFont(source, target) {
+              target.font = source.font;
+              target.fontFamily = source.fontFamily;
+              target.fontFeatureSettings = source.fontFeatureSettings;
+              target.fontKerning = source.fontKerning;
+              target.fontSize = source.fontSize;
+              target.fontStretch = source.fontStretch;
+              target.fontStyle = source.fontStyle;
+              target.fontVariant = source.fontVariant;
+              target.fontVariantCaps = source.fontVariantCaps;
+              target.fontVariantEastAsian = source.fontVariantEastAsian;
+              target.fontVariantLigatures = source.fontVariantLigatures;
+              target.fontVariantNumeric = source.fontVariantNumeric;
+              target.fontVariationSettings = source.fontVariationSettings;
+              target.fontWeight = source.fontWeight;
+            }
+            function copyStyle(sourceElement, targetElement) {
+              const sourceComputedStyles = getComputedStyle2(sourceElement);
+              if (sourceComputedStyles.cssText) {
+                targetElement.style.cssText = sourceComputedStyles.cssText;
+                copyFont(sourceComputedStyles, targetElement.style);
+              } else {
+                copyUserComputedStyleFast(
+                  options,
+                  sourceElement,
+                  sourceComputedStyles,
+                  parentComputedStyles,
+                  targetElement
+                );
+                if (parentComputedStyles === null) {
+                  for (const property of ["inset-block", "inset-block-start", "inset-block-end"]) {
+                    targetElement.style.removeProperty(property);
+                  }
+                  for (const property of ["left", "right", "top", "bottom"]) {
+                    if (targetElement.style.getPropertyValue(property)) {
+                      targetElement.style.setProperty(property, "0px");
+                    }
+                  }
+                }
+              }
+            }
+          }
+          function clonePseudoElements() {
+            const cloneClassName = util.uid();
+            for (const element of [":before", ":after"]) {
+              clonePseudoElement(element);
+            }
+            function clonePseudoElement(element) {
+              const style = getComputedStyle2(original, element);
+              const content = style.getPropertyValue("content");
+              if (content === "" || content === "none") {
+                return;
+              }
+              const currentClass = clone.getAttribute("class") || "";
+              clone.setAttribute("class", `${currentClass} ${cloneClassName}`);
+              const styleElement = document.createElement("style");
+              styleElement.append(formatPseudoElementStyle());
+              clone.append(styleElement);
+              function formatPseudoElementStyle() {
+                const selector = `.${cloneClassName}:${element}`;
+                const cssText = style.cssText ? formatCssText() : formatCssProperties();
+                return document.createTextNode(`${selector}{${cssText}}`);
+                function formatCssText() {
+                  return `${style.cssText} content: ${content};`;
+                }
+                function formatCssProperties() {
+                  const styleText = util.asArray(style).map(formatProperty).join("; ");
+                  return `${styleText};`;
+                  function formatProperty(name) {
+                    const propertyValue = style.getPropertyValue(name);
+                    const propertyPriority = style.getPropertyPriority(name) ? " !important" : "";
+                    return `${name}: ${propertyValue}${propertyPriority}`;
+                  }
+                }
+              }
+            }
+          }
+          function copyUserInput() {
+            if (util.isHTMLTextAreaElement(original)) {
+              clone.innerHTML = original.value;
+            }
+            if (util.isHTMLInputElement(original)) {
+              clone.setAttribute("value", original.value);
+            }
+          }
+          function fixSvg() {
+            if (util.isSVGElement(clone)) {
+              clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+              if (util.isSVGRectElement(clone)) {
+                for (const attribute of ["width", "height"]) {
+                  const value = clone.getAttribute(attribute);
+                  if (value) {
+                    clone.style.setProperty(attribute, value);
+                  }
+                }
+              }
+            }
+          }
         }
       }
-      return -1;
-    }
-    module2.exports = assocIndexOf;
-  }
-});
-
-// node_modules/lodash/_listCacheDelete.js
-var require_listCacheDelete = __commonJS({
-  "node_modules/lodash/_listCacheDelete.js"(exports, module2) {
-    var assocIndexOf = require_assocIndexOf();
-    var arrayProto = Array.prototype;
-    var splice = arrayProto.splice;
-    function listCacheDelete(key) {
-      var data = this.__data__, index2 = assocIndexOf(data, key);
-      if (index2 < 0) {
-        return false;
+      function embedFonts(node2) {
+        return fontFaces.resolveAll().then((cssText) => {
+          if (cssText !== "") {
+            const styleNode = document.createElement("style");
+            node2.append(styleNode);
+            styleNode.append(document.createTextNode(cssText));
+          }
+          return node2;
+        });
       }
-      var lastIndex = data.length - 1;
-      if (index2 == lastIndex) {
-        data.pop();
-      } else {
-        splice.call(data, index2, 1);
+      function inlineImages(node2) {
+        return images.inlineAll(node2).then(() => node2);
       }
-      --this.size;
-      return true;
-    }
-    module2.exports = listCacheDelete;
-  }
-});
-
-// node_modules/lodash/_listCacheGet.js
-var require_listCacheGet = __commonJS({
-  "node_modules/lodash/_listCacheGet.js"(exports, module2) {
-    var assocIndexOf = require_assocIndexOf();
-    function listCacheGet(key) {
-      var data = this.__data__, index2 = assocIndexOf(data, key);
-      return index2 < 0 ? void 0 : data[index2][1];
-    }
-    module2.exports = listCacheGet;
-  }
-});
-
-// node_modules/lodash/_listCacheHas.js
-var require_listCacheHas = __commonJS({
-  "node_modules/lodash/_listCacheHas.js"(exports, module2) {
-    var assocIndexOf = require_assocIndexOf();
-    function listCacheHas(key) {
-      return assocIndexOf(this.__data__, key) > -1;
-    }
-    module2.exports = listCacheHas;
-  }
-});
-
-// node_modules/lodash/_listCacheSet.js
-var require_listCacheSet = __commonJS({
-  "node_modules/lodash/_listCacheSet.js"(exports, module2) {
-    var assocIndexOf = require_assocIndexOf();
-    function listCacheSet(key, value) {
-      var data = this.__data__, index2 = assocIndexOf(data, key);
-      if (index2 < 0) {
-        ++this.size;
-        data.push([key, value]);
-      } else {
-        data[index2][1] = value;
-      }
-      return this;
-    }
-    module2.exports = listCacheSet;
-  }
-});
-
-// node_modules/lodash/_ListCache.js
-var require_ListCache = __commonJS({
-  "node_modules/lodash/_ListCache.js"(exports, module2) {
-    var listCacheClear = require_listCacheClear();
-    var listCacheDelete = require_listCacheDelete();
-    var listCacheGet = require_listCacheGet();
-    var listCacheHas = require_listCacheHas();
-    var listCacheSet = require_listCacheSet();
-    function ListCache(entries) {
-      var index2 = -1, length = entries == null ? 0 : entries.length;
-      this.clear();
-      while (++index2 < length) {
-        var entry = entries[index2];
-        this.set(entry[0], entry[1]);
-      }
-    }
-    ListCache.prototype.clear = listCacheClear;
-    ListCache.prototype["delete"] = listCacheDelete;
-    ListCache.prototype.get = listCacheGet;
-    ListCache.prototype.has = listCacheHas;
-    ListCache.prototype.set = listCacheSet;
-    module2.exports = ListCache;
-  }
-});
-
-// node_modules/lodash/_Map.js
-var require_Map = __commonJS({
-  "node_modules/lodash/_Map.js"(exports, module2) {
-    var getNative = require_getNative();
-    var root2 = require_root();
-    var Map2 = getNative(root2, "Map");
-    module2.exports = Map2;
-  }
-});
-
-// node_modules/lodash/_mapCacheClear.js
-var require_mapCacheClear = __commonJS({
-  "node_modules/lodash/_mapCacheClear.js"(exports, module2) {
-    var Hash = require_Hash();
-    var ListCache = require_ListCache();
-    var Map2 = require_Map();
-    function mapCacheClear() {
-      this.size = 0;
-      this.__data__ = {
-        "hash": new Hash(),
-        "map": new (Map2 || ListCache)(),
-        "string": new Hash()
-      };
-    }
-    module2.exports = mapCacheClear;
-  }
-});
-
-// node_modules/lodash/_isKeyable.js
-var require_isKeyable = __commonJS({
-  "node_modules/lodash/_isKeyable.js"(exports, module2) {
-    function isKeyable(value) {
-      var type = typeof value;
-      return type == "string" || type == "number" || type == "symbol" || type == "boolean" ? value !== "__proto__" : value === null;
-    }
-    module2.exports = isKeyable;
-  }
-});
-
-// node_modules/lodash/_getMapData.js
-var require_getMapData = __commonJS({
-  "node_modules/lodash/_getMapData.js"(exports, module2) {
-    var isKeyable = require_isKeyable();
-    function getMapData(map, key) {
-      var data = map.__data__;
-      return isKeyable(key) ? data[typeof key == "string" ? "string" : "hash"] : data.map;
-    }
-    module2.exports = getMapData;
-  }
-});
-
-// node_modules/lodash/_mapCacheDelete.js
-var require_mapCacheDelete = __commonJS({
-  "node_modules/lodash/_mapCacheDelete.js"(exports, module2) {
-    var getMapData = require_getMapData();
-    function mapCacheDelete(key) {
-      var result = getMapData(this, key)["delete"](key);
-      this.size -= result ? 1 : 0;
-      return result;
-    }
-    module2.exports = mapCacheDelete;
-  }
-});
-
-// node_modules/lodash/_mapCacheGet.js
-var require_mapCacheGet = __commonJS({
-  "node_modules/lodash/_mapCacheGet.js"(exports, module2) {
-    var getMapData = require_getMapData();
-    function mapCacheGet(key) {
-      return getMapData(this, key).get(key);
-    }
-    module2.exports = mapCacheGet;
-  }
-});
-
-// node_modules/lodash/_mapCacheHas.js
-var require_mapCacheHas = __commonJS({
-  "node_modules/lodash/_mapCacheHas.js"(exports, module2) {
-    var getMapData = require_getMapData();
-    function mapCacheHas(key) {
-      return getMapData(this, key).has(key);
-    }
-    module2.exports = mapCacheHas;
-  }
-});
-
-// node_modules/lodash/_mapCacheSet.js
-var require_mapCacheSet = __commonJS({
-  "node_modules/lodash/_mapCacheSet.js"(exports, module2) {
-    var getMapData = require_getMapData();
-    function mapCacheSet(key, value) {
-      var data = getMapData(this, key), size = data.size;
-      data.set(key, value);
-      this.size += data.size == size ? 0 : 1;
-      return this;
-    }
-    module2.exports = mapCacheSet;
-  }
-});
-
-// node_modules/lodash/_MapCache.js
-var require_MapCache = __commonJS({
-  "node_modules/lodash/_MapCache.js"(exports, module2) {
-    var mapCacheClear = require_mapCacheClear();
-    var mapCacheDelete = require_mapCacheDelete();
-    var mapCacheGet = require_mapCacheGet();
-    var mapCacheHas = require_mapCacheHas();
-    var mapCacheSet = require_mapCacheSet();
-    function MapCache(entries) {
-      var index2 = -1, length = entries == null ? 0 : entries.length;
-      this.clear();
-      while (++index2 < length) {
-        var entry = entries[index2];
-        this.set(entry[0], entry[1]);
-      }
-    }
-    MapCache.prototype.clear = mapCacheClear;
-    MapCache.prototype["delete"] = mapCacheDelete;
-    MapCache.prototype.get = mapCacheGet;
-    MapCache.prototype.has = mapCacheHas;
-    MapCache.prototype.set = mapCacheSet;
-    module2.exports = MapCache;
-  }
-});
-
-// node_modules/lodash/memoize.js
-var require_memoize = __commonJS({
-  "node_modules/lodash/memoize.js"(exports, module2) {
-    var MapCache = require_MapCache();
-    var FUNC_ERROR_TEXT = "Expected a function";
-    function memoize(func, resolver) {
-      if (typeof func != "function" || resolver != null && typeof resolver != "function") {
-        throw new TypeError(FUNC_ERROR_TEXT);
-      }
-      var memoized = function() {
-        var args = arguments, key = resolver ? resolver.apply(this, args) : args[0], cache = memoized.cache;
-        if (cache.has(key)) {
-          return cache.get(key);
+      function newUtil() {
+        let uid_index = 0;
+        return {
+          escape: escapeRegEx,
+          isDataUrl,
+          canvasToBlob,
+          resolveUrl,
+          getAndEncode,
+          uid,
+          delay: delay2,
+          asArray,
+          escapeXhtml,
+          makeImage,
+          width,
+          height,
+          getWindow,
+          isElement,
+          isElementHostForOpenShadowRoot,
+          isShadowRoot,
+          isInShadowRoot,
+          isHTMLElement,
+          isHTMLCanvasElement,
+          isHTMLInputElement,
+          isHTMLImageElement,
+          isHTMLLinkElement,
+          isHTMLScriptElement,
+          isHTMLStyleElement,
+          isHTMLTextAreaElement,
+          isShadowSlotElement,
+          isSVGElement,
+          isSVGRectElement,
+          isDimensionMissing
+        };
+        function getWindow(node2) {
+          const ownerDocument = node2 ? node2.ownerDocument : void 0;
+          return (ownerDocument ? ownerDocument.defaultView : void 0) || global2 || window;
         }
-        var result = func.apply(this, args);
-        memoized.cache = cache.set(key, result) || cache;
-        return result;
-      };
-      memoized.cache = new (memoize.Cache || MapCache)();
-      return memoized;
-    }
-    memoize.Cache = MapCache;
-    module2.exports = memoize;
-  }
-});
-
-// node_modules/lodash/_memoizeCapped.js
-var require_memoizeCapped = __commonJS({
-  "node_modules/lodash/_memoizeCapped.js"(exports, module2) {
-    var memoize = require_memoize();
-    var MAX_MEMOIZE_SIZE = 500;
-    function memoizeCapped(func) {
-      var result = memoize(func, function(key) {
-        if (cache.size === MAX_MEMOIZE_SIZE) {
-          cache.clear();
+        function isElementHostForOpenShadowRoot(value) {
+          return isElement(value) && value.shadowRoot !== null;
         }
-        return key;
-      });
-      var cache = result.cache;
-      return result;
-    }
-    module2.exports = memoizeCapped;
-  }
-});
-
-// node_modules/lodash/_stringToPath.js
-var require_stringToPath = __commonJS({
-  "node_modules/lodash/_stringToPath.js"(exports, module2) {
-    var memoizeCapped = require_memoizeCapped();
-    var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
-    var reEscapeChar = /\\(\\)?/g;
-    var stringToPath = memoizeCapped(function(string) {
-      var result = [];
-      if (string.charCodeAt(0) === 46) {
-        result.push("");
+        function isShadowRoot(value) {
+          return value instanceof getWindow(value).ShadowRoot;
+        }
+        function isInShadowRoot(value) {
+          return value !== null && Object.hasOwn(value, "getRootNode") && isShadowRoot(value.getRootNode());
+        }
+        function isElement(value) {
+          return value instanceof getWindow(value).Element;
+        }
+        function isHTMLCanvasElement(value) {
+          return value instanceof getWindow(value).HTMLCanvasElement;
+        }
+        function isHTMLElement(value) {
+          return value instanceof getWindow(value).HTMLElement;
+        }
+        function isHTMLImageElement(value) {
+          return value instanceof getWindow(value).HTMLImageElement;
+        }
+        function isHTMLInputElement(value) {
+          return value instanceof getWindow(value).HTMLInputElement;
+        }
+        function isHTMLLinkElement(value) {
+          return value instanceof getWindow(value).HTMLLinkElement;
+        }
+        function isHTMLScriptElement(value) {
+          return value instanceof getWindow(value).HTMLScriptElement;
+        }
+        function isHTMLStyleElement(value) {
+          return value instanceof getWindow(value).HTMLStyleElement;
+        }
+        function isHTMLTextAreaElement(value) {
+          return value instanceof getWindow(value).HTMLTextAreaElement;
+        }
+        function isShadowSlotElement(value) {
+          return isInShadowRoot(value) && value instanceof getWindow(value).HTMLSlotElement;
+        }
+        function isSVGElement(value) {
+          return value instanceof getWindow(value).SVGElement;
+        }
+        function isSVGRectElement(value) {
+          return value instanceof getWindow(value).SVGRectElement;
+        }
+        function isDataUrl(url) {
+          return url.search(/^(data:)/) !== -1;
+        }
+        function isDimensionMissing(value) {
+          return isNaN(value) || value <= 0;
+        }
+        function asBlob(canvas) {
+          return new Promise((resolve) => {
+            const binaryString = atob2(canvas.toDataURL().split(",")[1]);
+            const length = binaryString.length;
+            const binaryArray = new Uint8Array(length);
+            for (let i4 = 0; i4 < length; i4++) {
+              binaryArray[i4] = binaryString.charCodeAt(i4);
+            }
+            resolve(
+              new Blob([binaryArray], {
+                type: domtoimage2.impl.options.type
+              })
+            );
+          });
+        }
+        function canvasToBlob(canvas) {
+          if (canvas.toBlob) {
+            return new Promise((resolve) => {
+              canvas.toBlob(
+                resolve,
+                domtoimage2.impl.options.type,
+                domtoimage2.impl.options.quality
+              );
+            });
+          }
+          return asBlob(canvas);
+        }
+        function resolveUrl(url, baseUrl) {
+          const document_ = document.implementation.createHTMLDocument();
+          const base = document_.createElement("base");
+          document_.head.append(base);
+          const a3 = document_.createElement("a");
+          document_.body.append(a3);
+          base.href = baseUrl;
+          a3.href = url;
+          return a3.href;
+        }
+        function uid() {
+          return `u${fourRandomChars()}${uid_index++}`;
+          function fourRandomChars() {
+            return `0000${Math.trunc(Math.random() * 36 ** 4).toString(
+              36
+            )}`.slice(-4);
+          }
+        }
+        function makeImage(uri) {
+          if (uri === "data:,") {
+            return Promise.resolve();
+          }
+          return new Promise((resolve, reject) => {
+            const image = new Image();
+            if (domtoimage2.impl.options.useCredentials) {
+              image.crossOrigin = "use-credentials";
+            }
+            image.addEventListener("load", () => {
+              if (window && window.requestAnimationFrame) {
+                window.requestAnimationFrame(() => {
+                  resolve(image);
+                });
+              } else {
+                resolve(image);
+              }
+            });
+            image.onerror = reject;
+            image.src = uri;
+          });
+        }
+        function getAndEncode(url) {
+          let cacheEntry = domtoimage2.impl.urlCache.find((element) => element.url === url);
+          if (!cacheEntry) {
+            cacheEntry = {
+              url,
+              promise: null
+            };
+            domtoimage2.impl.urlCache.push(cacheEntry);
+          }
+          if (cacheEntry.promise === null) {
+            if (domtoimage2.impl.options.cacheBust) {
+              url += (/\?/.test(url) ? "&" : "?") + Date.now();
+            }
+            if (domtoimage2.impl.options.requestUrl && url.startsWith("http")) {
+              cacheEntry.promise = domtoimage2.impl.options.requestUrl({
+                url,
+                method: "GET"
+              }).then((data) => new Promise((resolve) => {
+                const encoder = new FileReader();
+                encoder.addEventListener("load", (env) => {
+                  resolve(env.target.result);
+                });
+                encoder.readAsDataURL(
+                  new Blob([data.arrayBuffer], {
+                    type: data.headers["content-type"]
+                  })
+                );
+              })).catch((error) => {
+                console.error(
+                  "cannot fetch resource: " + url + ", error: " + error
+                );
+                return "";
+              });
+            } else {
+              cacheEntry.promise = new Promise((resolve) => {
+                const httpTimeout = domtoimage2.impl.options.httpTimeout;
+                const request = new XMLHttpRequest();
+                request.addEventListener("readystatechange", done);
+                request.ontimeout = timeout;
+                request.responseType = "blob";
+                request.timeout = httpTimeout;
+                if (domtoimage2.impl.options.useCredentials) {
+                  request.withCredentials = true;
+                }
+                if (domtoimage2.impl.options.corsImg && url.indexOf("http") === 0 && !url.includes(window.location.origin)) {
+                  const method = (domtoimage2.impl.options.corsImg.method || "GET").toUpperCase() === "POST" ? "POST" : "GET";
+                  request.open(
+                    method,
+                    (domtoimage2.impl.options.corsImg.url || "").replace(
+                      "#{cors}",
+                      url
+                    ),
+                    true
+                  );
+                  let isJson = false;
+                  const headers = domtoimage2.impl.options.corsImg.headers || {};
+                  for (const key of Object.keys(headers)) {
+                    if (headers[key].includes("application/json")) {
+                      isJson = true;
+                    }
+                    request.setRequestHeader(key, headers[key]);
+                  }
+                  const corsData = handleJson(
+                    domtoimage2.impl.options.corsImg.data || ""
+                  );
+                  for (const key of Object.keys(corsData)) {
+                    if (typeof corsData[key] === "string") {
+                      corsData[key] = corsData[key].replace("#{cors}", url);
+                    }
+                  }
+                  request.send(isJson ? JSON.stringify(corsData) : corsData);
+                } else {
+                  request.open("GET", url, true);
+                  request.send();
+                }
+                let placeholder;
+                if (domtoimage2.impl.options.imagePlaceholder) {
+                  const split = domtoimage2.impl.options.imagePlaceholder.split(/,/);
+                  if (split && split[1]) {
+                    placeholder = split[1];
+                  }
+                }
+                function done() {
+                  if (request.readyState !== 4) {
+                    return;
+                  }
+                  if (request.status >= 300) {
+                    if (placeholder) {
+                      resolve(placeholder);
+                    } else {
+                      fail(
+                        `cannot fetch resource: ${url}, status: ${request.status}`
+                      );
+                    }
+                    return;
+                  }
+                  const encoder = new FileReader();
+                  encoder.onloadend = function() {
+                    resolve(encoder.result);
+                  };
+                  encoder.readAsDataURL(request.response);
+                }
+                function timeout() {
+                  if (placeholder) {
+                    resolve(placeholder);
+                  } else {
+                    fail(
+                      `timeout of ${httpTimeout}ms occured while fetching resource: ${url}`
+                    );
+                  }
+                }
+                function handleJson(data) {
+                  try {
+                    return JSON.parse(JSON.stringify(data));
+                  } catch {
+                    fail("corsImg.data is missing or invalid");
+                  }
+                }
+                function fail(message) {
+                  console.error(message);
+                  resolve("");
+                }
+              });
+            }
+          }
+          return cacheEntry.promise;
+        }
+        function escapeRegEx(string) {
+          return string.replaceAll(/([.*+?^${}()|[]\/\\])/g, "\\$1");
+        }
+        function delay2(ms2) {
+          return function(argument) {
+            return new Promise((resolve) => {
+              setTimeout(() => {
+                resolve(argument);
+              }, ms2);
+            });
+          };
+        }
+        function asArray(arrayLike) {
+          const array = [];
+          const length = arrayLike.length;
+          for (let i4 = 0; i4 < length; i4++) {
+            array.push(arrayLike[i4]);
+          }
+          return array;
+        }
+        function escapeXhtml(string) {
+          return string.replaceAll("%", "%25").replaceAll("#", "%23").replaceAll("\n", "%0A").replaceAll(/[\u0000-\u001F\u007F]/g, "");
+        }
+        function width(node2) {
+          const width2 = px(node2, "width");
+          if (!isNaN(width2)) {
+            return width2;
+          }
+          const leftBorder = px(node2, "border-left-width");
+          const rightBorder = px(node2, "border-right-width");
+          return node2.scrollWidth + leftBorder + rightBorder;
+        }
+        function height(node2) {
+          const height2 = px(node2, "height");
+          if (!isNaN(height2)) {
+            return height2;
+          }
+          const topBorder = px(node2, "border-top-width");
+          const bottomBorder = px(node2, "border-bottom-width");
+          return node2.scrollHeight + topBorder + bottomBorder;
+        }
+        function px(node2, styleProperty) {
+          if (node2.nodeType === ELEMENT_NODE) {
+            let value = getComputedStyle2(node2).getPropertyValue(styleProperty);
+            if (value.slice(-2) === "px") {
+              value = value.slice(0, -2);
+              return Number.parseFloat(value);
+            }
+          }
+          return Number.NaN;
+        }
       }
-      string.replace(rePropName, function(match, number, quote, subString) {
-        result.push(quote ? subString.replace(reEscapeChar, "$1") : number || match);
-      });
-      return result;
-    });
-    module2.exports = stringToPath;
-  }
-});
-
-// node_modules/lodash/_arrayMap.js
-var require_arrayMap = __commonJS({
-  "node_modules/lodash/_arrayMap.js"(exports, module2) {
-    function arrayMap(array, iteratee) {
-      var index2 = -1, length = array == null ? 0 : array.length, result = Array(length);
-      while (++index2 < length) {
-        result[index2] = iteratee(array[index2], index2, array);
+      function newInliner() {
+        const URL_REGEX = /url\(['"]?([^'"]+?)['"]?\)/g;
+        return {
+          inlineAll,
+          shouldProcess,
+          impl: {
+            readUrls,
+            inline
+          }
+        };
+        function shouldProcess(string) {
+          return string.search(URL_REGEX) !== -1;
+        }
+        function readUrls(string) {
+          const result = [];
+          let match;
+          while ((match = URL_REGEX.exec(string)) !== null) {
+            result.push(match[1]);
+          }
+          return result.filter((url) => !util.isDataUrl(url));
+        }
+        function inline(string, url, baseUrl, get3) {
+          return Promise.resolve(url).then((urlValue) => baseUrl ? util.resolveUrl(urlValue, baseUrl) : urlValue).then(get3 || util.getAndEncode).then((dataUrl) => string.replace(urlAsRegex(url), `$1${dataUrl}$3`));
+          function urlAsRegex(urlValue) {
+            return new RegExp(
+              `(url\\(['"]?)(${util.escape(urlValue)})(['"]?\\))`,
+              "g"
+            );
+          }
+        }
+        function inlineAll(string, baseUrl, get3) {
+          if (nothingToInline()) {
+            return Promise.resolve(string);
+          }
+          return Promise.resolve(string).then(readUrls).then((urls) => {
+            let done = Promise.resolve(string);
+            for (const url of urls) {
+              done = done.then((prefix) => inline(prefix, url, baseUrl, get3));
+            }
+            return done;
+          });
+          function nothingToInline() {
+            return !shouldProcess(string);
+          }
+        }
       }
-      return result;
-    }
-    module2.exports = arrayMap;
-  }
-});
-
-// node_modules/lodash/_baseToString.js
-var require_baseToString = __commonJS({
-  "node_modules/lodash/_baseToString.js"(exports, module2) {
-    var Symbol2 = require_Symbol();
-    var arrayMap = require_arrayMap();
-    var isArray = require_isArray();
-    var isSymbol = require_isSymbol();
-    var INFINITY = 1 / 0;
-    var symbolProto = Symbol2 ? Symbol2.prototype : void 0;
-    var symbolToString = symbolProto ? symbolProto.toString : void 0;
-    function baseToString(value) {
-      if (typeof value == "string") {
-        return value;
+      function newFontFaces() {
+        return {
+          resolveAll,
+          impl: {
+            readAll
+          }
+        };
+        function resolveAll() {
+          return readAll().then((webFonts) => Promise.all(
+            webFonts.map((webFont) => webFont.resolve())
+          )).then((cssStrings) => cssStrings.join("\n"));
+        }
+        function readAll() {
+          return Promise.resolve(util.asArray(document.styleSheets)).then(getCssRules).then(selectWebFontRules).then((rules) => rules.map(newWebFont));
+          function selectWebFontRules(cssRules) {
+            return cssRules.filter((rule) => rule.type === CSSRule.FONT_FACE_RULE).filter((rule) => inliner.shouldProcess(rule.style.getPropertyValue("src")));
+          }
+          function getCssRules(styleSheets) {
+            const cssRules = [];
+            for (const sheet of styleSheets) {
+              if (Object.hasOwn(
+                Object.getPrototypeOf(sheet),
+                "cssRules"
+              )) {
+                try {
+                  util.asArray(sheet.cssRules || []).forEach(cssRules.push.bind(cssRules));
+                } catch (error) {
+                  console.error(
+                    `domtoimage: Error while reading CSS rules from ${sheet.href}`,
+                    error.toString()
+                  );
+                }
+              }
+            }
+            return cssRules;
+          }
+          function newWebFont(webFontRule) {
+            return {
+              resolve: function resolve() {
+                const baseUrl = (webFontRule.parentStyleSheet || {}).href;
+                return inliner.inlineAll(webFontRule.cssText, baseUrl);
+              },
+              src() {
+                return webFontRule.style.getPropertyValue("src");
+              }
+            };
+          }
+        }
       }
-      if (isArray(value)) {
-        return arrayMap(value, baseToString) + "";
+      function newImages() {
+        return {
+          inlineAll,
+          impl: {
+            newImage
+          }
+        };
+        function newImage(element) {
+          return {
+            inline
+          };
+          function inline(get3) {
+            if (util.isDataUrl(element.src)) {
+              return Promise.resolve();
+            }
+            return Promise.resolve(element.src).then(get3 || util.getAndEncode).then((dataUrl) => new Promise((resolve) => {
+              element.addEventListener("load", resolve);
+              element.onerror = resolve;
+              element.src = dataUrl;
+            }));
+          }
+        }
+        function inlineAll(node2) {
+          if (!util.isElement(node2)) {
+            return Promise.resolve(node2);
+          }
+          return inlineCSSProperty(node2).then(() => {
+            if (util.isHTMLImageElement(node2)) {
+              return newImage(node2).inline();
+            }
+            return Promise.all(
+              util.asArray(node2.childNodes).map((child) => inlineAll(child))
+            );
+          });
+          function inlineCSSProperty(node3) {
+            const properties = ["background", "background-image"];
+            const inliningTasks = properties.map((propertyName) => {
+              const value = node3.style.getPropertyValue(propertyName);
+              const priority = node3.style.getPropertyPriority(propertyName);
+              if (!value) {
+                return Promise.resolve();
+              }
+              return inliner.inlineAll(value).then((inlinedValue) => {
+                node3.style.setProperty(propertyName, inlinedValue, priority);
+              });
+            });
+            return Promise.all(inliningTasks).then(() => node3);
+          }
+        }
       }
-      if (isSymbol(value)) {
-        return symbolToString ? symbolToString.call(value) : "";
+      function setStyleProperty(targetStyle, name, value, priority) {
+        const needs_prefixing = ["background-clip"].includes(name);
+        if (priority) {
+          targetStyle.setProperty(name, value, priority);
+          if (needs_prefixing) {
+            targetStyle.setProperty(`-webkit-${name}`, value, priority);
+          }
+        } else {
+          targetStyle.setProperty(name, value);
+          if (needs_prefixing) {
+            targetStyle.setProperty(`-webkit-${name}`, value);
+          }
+        }
       }
-      var result = value + "";
-      return result == "0" && 1 / value == -INFINITY ? "-0" : result;
-    }
-    module2.exports = baseToString;
-  }
-});
-
-// node_modules/lodash/toString.js
-var require_toString = __commonJS({
-  "node_modules/lodash/toString.js"(exports, module2) {
-    var baseToString = require_baseToString();
-    function toString(value) {
-      return value == null ? "" : baseToString(value);
-    }
-    module2.exports = toString;
-  }
-});
-
-// node_modules/lodash/_castPath.js
-var require_castPath = __commonJS({
-  "node_modules/lodash/_castPath.js"(exports, module2) {
-    var isArray = require_isArray();
-    var isKey = require_isKey();
-    var stringToPath = require_stringToPath();
-    var toString = require_toString();
-    function castPath(value, object) {
-      if (isArray(value)) {
-        return value;
+      function copyUserComputedStyleFast(options, sourceElement, sourceComputedStyles, parentComputedStyles, targetElement) {
+        const defaultStyle = domtoimage2.impl.options.copyDefaultStyles ? getDefaultStyle(options, sourceElement) : {};
+        const targetStyle = targetElement.style;
+        for (const name of util.asArray(sourceComputedStyles)) {
+          const sourceValue = sourceComputedStyles.getPropertyValue(name);
+          const defaultValue = defaultStyle[name];
+          const parentValue = parentComputedStyles ? parentComputedStyles.getPropertyValue(name) : void 0;
+          if (sourceValue !== defaultValue || parentComputedStyles && sourceValue !== parentValue || /border/.test(name)) {
+            const priority = sourceComputedStyles.getPropertyPriority(name);
+            setStyleProperty(targetStyle, name, sourceValue, priority);
+          }
+        }
       }
-      return isKey(value, object) ? [value] : stringToPath(toString(value));
-    }
-    module2.exports = castPath;
-  }
-});
-
-// node_modules/lodash/_toKey.js
-var require_toKey = __commonJS({
-  "node_modules/lodash/_toKey.js"(exports, module2) {
-    var isSymbol = require_isSymbol();
-    var INFINITY = 1 / 0;
-    function toKey(value) {
-      if (typeof value == "string" || isSymbol(value)) {
-        return value;
+      let removeDefaultStylesTimeoutId = null;
+      let tagNameDefaultStyles = {};
+      const ascentStoppers = /* @__PURE__ */ new Set([
+        // these come from https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+        "ADDRESS",
+        "ARTICLE",
+        "ASIDE",
+        "BLOCKQUOTE",
+        "DETAILS",
+        "DIALOG",
+        "DD",
+        "DIV",
+        "DL",
+        "DT",
+        "FIELDSET",
+        "FIGCAPTION",
+        "FIGURE",
+        "FOOTER",
+        "FORM",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "HEADER",
+        "HGROUP",
+        "HR",
+        "LI",
+        "MAIN",
+        "NAV",
+        "OL",
+        "P",
+        "PRE",
+        "SECTION",
+        "SVG",
+        "TABLE",
+        "UL",
+        // this is some non-standard ones
+        "math",
+        // intentionally lowercase, thanks Safari
+        "svg",
+        // in case we have an svg embedded element
+        // these are ultimate stoppers in case something drastic changes in how the DOM works
+        "BODY",
+        "HEAD",
+        "HTML"
+      ]);
+      function getDefaultStyle(options, sourceElement) {
+        const tagHierarchy = computeTagHierarchy(sourceElement);
+        const tagKey = computeTagKey(tagHierarchy);
+        if (tagNameDefaultStyles[tagKey]) {
+          return tagNameDefaultStyles[tagKey];
+        }
+        const sandboxWindow = ensureSandboxWindow();
+        const defaultElement = constructElementHierachy(
+          sandboxWindow.document,
+          tagHierarchy
+        );
+        const defaultStyle = computeStyleForDefaults(sandboxWindow, defaultElement);
+        destroyElementHierarchy(defaultElement);
+        tagNameDefaultStyles[tagKey] = defaultStyle;
+        return defaultStyle;
+        function computeTagHierarchy(sourceNode) {
+          const tagNames = [];
+          do {
+            if (sourceNode.nodeType === ELEMENT_NODE) {
+              const tagName = sourceNode.tagName;
+              tagNames.push(tagName);
+              if (ascentStoppers.has(tagName)) {
+                break;
+              }
+            }
+            sourceNode = sourceNode.parentNode;
+          } while (sourceNode);
+          return tagNames;
+        }
+        function computeTagKey(tagHierarchy2) {
+          if (options.styleCaching === "relaxed") {
+            return tagHierarchy2.filter((_3, i4, a3) => i4 === 0 || i4 === a3.length - 1).join(">");
+          }
+          return tagHierarchy2.join(">");
+        }
+        function constructElementHierachy(sandboxDocument, tagHierarchy2) {
+          let element = sandboxDocument.body;
+          do {
+            const childTagName = tagHierarchy2.pop();
+            const childElement = sandboxDocument.createElement(childTagName);
+            element.append(childElement);
+            element = childElement;
+          } while (tagHierarchy2.length > 0);
+          element.textContent = "\u200B";
+          return element;
+        }
+        function computeStyleForDefaults(sandboxWindow2, defaultElement2) {
+          const defaultStyle2 = {};
+          const defaultComputedStyle = sandboxWindow2.getComputedStyle(defaultElement2);
+          for (const name of util.asArray(defaultComputedStyle)) {
+            defaultStyle2[name] = name === "width" || name === "height" ? "auto" : defaultComputedStyle.getPropertyValue(name);
+          }
+          return defaultStyle2;
+        }
+        function destroyElementHierarchy(element) {
+          do {
+            const parentElement = element.parentElement;
+            if (parentElement !== null) {
+              element.remove();
+            }
+            element = parentElement;
+          } while (element && element.tagName !== "BODY");
+        }
       }
-      var result = value + "";
-      return result == "0" && 1 / value == -INFINITY ? "-0" : result;
-    }
-    module2.exports = toKey;
-  }
-});
-
-// node_modules/lodash/_baseGet.js
-var require_baseGet = __commonJS({
-  "node_modules/lodash/_baseGet.js"(exports, module2) {
-    var castPath = require_castPath();
-    var toKey = require_toKey();
-    function baseGet(object, path) {
-      path = castPath(path, object);
-      var index2 = 0, length = path.length;
-      while (object != null && index2 < length) {
-        object = object[toKey(path[index2++])];
+      function ensureSandboxWindow() {
+        if (sandbox) {
+          return sandbox.contentWindow;
+        }
+        const charsetToUse = document.characterSet || "UTF-8";
+        const documentType = document.doctype;
+        const documentTypeDeclaration = documentType ? `<!DOCTYPE ${escapeHTML(documentType.name)} ${escapeHTML(
+          documentType.publicId
+        )} ${escapeHTML(documentType.systemId)}`.trim() + ">" : "";
+        sandbox = document.createElement("iframe");
+        sandbox.id = "domtoimage-sandbox-" + util.uid();
+        sandbox.style.visibility = "hidden";
+        sandbox.style.position = "fixed";
+        document.body.append(sandbox);
+        return tryTechniques(
+          sandbox,
+          documentTypeDeclaration,
+          charsetToUse,
+          "domtoimage-sandbox"
+        );
+        function escapeHTML(unsafeText) {
+          if (unsafeText) {
+            const div = document.createElement("div");
+            div.innerText = unsafeText;
+            return div.innerHTML;
+          }
+          return "";
+        }
+        function tryTechniques(sandbox2, doctype, charset, title) {
+          try {
+            sandbox2.contentWindow.document.write(
+              `${doctype}<html><head><meta charset='${charset}'><title>${title}</title></head><body></body></html>`
+            );
+            return sandbox2.contentWindow;
+          } catch {
+          }
+          const metaCharset = document.createElement("meta");
+          metaCharset.setAttribute("charset", charset);
+          try {
+            const sandboxDocument = document.implementation.createHTMLDocument(title);
+            sandboxDocument.head.append(metaCharset);
+            const sandboxHTML = doctype + sandboxDocument.documentElement.outerHTML;
+            sandbox2.setAttribute("srcdoc", sandboxHTML);
+            return sandbox2.contentWindow;
+          } catch {
+          }
+          sandbox2.contentDocument.head.append(metaCharset);
+          sandbox2.contentDocument.title = title;
+          return sandbox2.contentWindow;
+        }
       }
-      return index2 && index2 == length ? object : void 0;
-    }
-    module2.exports = baseGet;
+      function removeSandbox() {
+        if (sandbox) {
+          sandbox.remove();
+          sandbox = null;
+        }
+        if (removeDefaultStylesTimeoutId) {
+          clearTimeout(removeDefaultStylesTimeoutId);
+        }
+        removeDefaultStylesTimeoutId = setTimeout(() => {
+          removeDefaultStylesTimeoutId = null;
+          tagNameDefaultStyles = {};
+        }, 20 * 1e3);
+      }
+    })(exports);
   }
 });
 
@@ -29328,108 +29699,6 @@ var require_get = __commonJS({
       return result === void 0 ? defaultValue : result;
     }
     module2.exports = get3;
-  }
-});
-
-// node_modules/lodash/_defineProperty.js
-var require_defineProperty = __commonJS({
-  "node_modules/lodash/_defineProperty.js"(exports, module2) {
-    var getNative = require_getNative();
-    var defineProperty = function() {
-      try {
-        var func = getNative(Object, "defineProperty");
-        func({}, "", {});
-        return func;
-      } catch (e4) {
-      }
-    }();
-    module2.exports = defineProperty;
-  }
-});
-
-// node_modules/lodash/_baseAssignValue.js
-var require_baseAssignValue = __commonJS({
-  "node_modules/lodash/_baseAssignValue.js"(exports, module2) {
-    var defineProperty = require_defineProperty();
-    function baseAssignValue(object, key, value) {
-      if (key == "__proto__" && defineProperty) {
-        defineProperty(object, key, {
-          "configurable": true,
-          "enumerable": true,
-          "value": value,
-          "writable": true
-        });
-      } else {
-        object[key] = value;
-      }
-    }
-    module2.exports = baseAssignValue;
-  }
-});
-
-// node_modules/lodash/_assignValue.js
-var require_assignValue = __commonJS({
-  "node_modules/lodash/_assignValue.js"(exports, module2) {
-    var baseAssignValue = require_baseAssignValue();
-    var eq = require_eq();
-    var objectProto = Object.prototype;
-    var hasOwnProperty = objectProto.hasOwnProperty;
-    function assignValue(object, key, value) {
-      var objValue = object[key];
-      if (!(hasOwnProperty.call(object, key) && eq(objValue, value)) || value === void 0 && !(key in object)) {
-        baseAssignValue(object, key, value);
-      }
-    }
-    module2.exports = assignValue;
-  }
-});
-
-// node_modules/lodash/_isIndex.js
-var require_isIndex = __commonJS({
-  "node_modules/lodash/_isIndex.js"(exports, module2) {
-    var MAX_SAFE_INTEGER = 9007199254740991;
-    var reIsUint = /^(?:0|[1-9]\d*)$/;
-    function isIndex(value, length) {
-      var type = typeof value;
-      length = length == null ? MAX_SAFE_INTEGER : length;
-      return !!length && (type == "number" || type != "symbol" && reIsUint.test(value)) && (value > -1 && value % 1 == 0 && value < length);
-    }
-    module2.exports = isIndex;
-  }
-});
-
-// node_modules/lodash/_baseSet.js
-var require_baseSet = __commonJS({
-  "node_modules/lodash/_baseSet.js"(exports, module2) {
-    var assignValue = require_assignValue();
-    var castPath = require_castPath();
-    var isIndex = require_isIndex();
-    var isObject = require_isObject();
-    var toKey = require_toKey();
-    function baseSet(object, path, value, customizer) {
-      if (!isObject(object)) {
-        return object;
-      }
-      path = castPath(path, object);
-      var index2 = -1, length = path.length, lastIndex = length - 1, nested = object;
-      while (nested != null && ++index2 < length) {
-        var key = toKey(path[index2]), newValue = value;
-        if (key === "__proto__" || key === "constructor" || key === "prototype") {
-          return object;
-        }
-        if (index2 != lastIndex) {
-          var objValue = nested[key];
-          newValue = customizer ? customizer(objValue, key, nested) : void 0;
-          if (newValue === void 0) {
-            newValue = isObject(objValue) ? objValue : isIndex(path[index2 + 1]) ? [] : {};
-          }
-        }
-        assignValue(nested, key, newValue);
-        nested = nested[key];
-      }
-      return object;
-    }
-    module2.exports = baseSet;
   }
 });
 
@@ -29447,12 +29716,13 @@ var require_set = __commonJS({
 // main.ts
 var main_exports = {};
 __export(main_exports, {
-  default: () => main_default
+  default: () => ExportImagePlugin
 });
 module.exports = __toCommonJS(main_exports);
 
 // src/ExportImagePlugin.ts
 var import_obsidian10 = require("obsidian");
+var import_pick = __toESM(require_pick());
 
 // src/settingPreview.tsx
 var import_react2 = __toESM(require_react());
@@ -29921,7 +30191,6 @@ var Watermark2 = (_a2) => {
     style
   }, children);
 };
-var src_default = Watermark2;
 
 // src/settingPreview.tsx
 var defaultConfig = {
@@ -29934,9 +30203,9 @@ var Preview = ({
 }) => {
   const container = (0, import_react2.useRef)(null);
   (0, import_react2.useEffect)(() => {
-    container.current?.appendChild(el);
+    container.current?.append(el);
   });
-  const props = {
+  const properties = {
     ...defaultConfig,
     visible: setting.watermark.enable,
     rotate: setting.watermark.rotate ?? -30,
@@ -29947,14 +30216,14 @@ var Preview = ({
     gapY: setting.watermark.y ?? 100
   };
   if (setting.watermark.type === "text") {
-    props.text = setting.watermark.text.content;
-    props.fontSize = setting.watermark.text.fontSize || 16;
-    props.fontColor = setting.watermark.text.color || "#cccccc";
-    props.image = void 0;
+    properties.text = setting.watermark.text.content;
+    properties.fontSize = setting.watermark.text.fontSize ?? 16;
+    properties.fontColor = setting.watermark.text.color ?? "#cccccc";
+    properties.image = void 0;
   } else {
-    props.image = setting.watermark.image.src;
+    properties.image = setting.watermark.image.src;
   }
-  return /* @__PURE__ */ import_react2.default.createElement(Watermark2, { ...props }, /* @__PURE__ */ import_react2.default.createElement(
+  return /* @__PURE__ */ import_react2.default.createElement(Watermark2, { ...properties }, /* @__PURE__ */ import_react2.default.createElement(
     "div",
     {
       className: "markdown-preview-view markdown-rendered export-image-setting-preview-mock",
@@ -29962,9 +30231,9 @@ var Preview = ({
     }
   ));
 };
-var renderPreview = (root2, app) => {
-  const el = createDiv();
-  import_obsidian.MarkdownRenderer.render(
+var renderPreview = async (root2, app) => {
+  const element = createDiv();
+  await import_obsidian.MarkdownRenderer.render(
     app,
     [
       "# test markdown",
@@ -29973,27 +30242,20 @@ var renderPreview = (root2, app) => {
       "some content...\n",
       "some content...\n"
     ].join("\n"),
-    el,
+    element,
     "/",
-    new import_obsidian.MarkdownRenderChild(el)
+    new import_obsidian.MarkdownRenderChild(element)
   );
   const r5 = (0, import_client.createRoot)(root2);
-  return (setting) => r5.render(/* @__PURE__ */ import_react2.default.createElement(Preview, { setting, el }));
+  return (setting) => {
+    r5.render(/* @__PURE__ */ import_react2.default.createElement(Preview, { setting, el: element }));
+  };
 };
 
 // src/components/file/exportImage.tsx
-var import_react12 = __toESM(require_react());
+var import_react11 = __toESM(require_react());
 var import_obsidian7 = require("obsidian");
 var import_client4 = __toESM(require_client());
-
-// src/components/file/ModalContent.tsx
-var import_obsidian6 = require("obsidian");
-var import_react10 = __toESM(require_react());
-
-// src/utils/capture.ts
-var import_obsidian4 = require("obsidian");
-var import_dom_to_image_more = __toESM(require_dom_to_image_more());
-var import_file_saver = __toESM(require_FileSaver_min());
 
 // node_modules/typesafe-i18n/runtime/esm/parser/src/basic.mjs
 var removeEmptyValues = (object) => Object.fromEntries(
@@ -30208,8 +30470,25 @@ var initExtendDictionary = () => (base, part) => objectExtend({}, base, part);
 var extendDictionary = initExtendDictionary();
 
 // src/i18n/i18n-util.ts
+var baseLocale = "en";
 var locales = [
+  "cs",
+  "da",
+  "de",
   "en",
+  "es",
+  "fr",
+  "hu",
+  "id",
+  "ja",
+  "ko",
+  "ms",
+  "nl",
+  "no",
+  "pl",
+  "pt",
+  "ro",
+  "ru",
   "zh"
 ];
 var loadedLocales = {};
@@ -30225,6 +30504,332 @@ var initFormatters = (locale2) => {
   return formatters;
 };
 
+// src/i18n/cs/index.ts
+var cs = {
+  command: "Exportovat jako obr\xE1zek",
+  noActiveFile: "Nejd\u0159\xEDve pros\xEDm otev\u0159ete \u010Dl\xE1nek!",
+  imageExportPreview: "N\xE1hled exportu obr\xE1zku",
+  copiedSuccess: "Zkop\xEDrov\xE1no do schr\xE1nky",
+  copy: "Kop\xEDrovat do schr\xE1nky",
+  copyFail: "Kop\xEDrov\xE1n\xED selhalo",
+  notAllowCopy: "Nen\xED mo\u017En\xE9 p\u0159\xEDmo kop\xEDrovat form\xE1t {format}",
+  save: "Ulo\u017Eit obr\xE1zek",
+  saveSuccess: "Obr\xE1zek byl exportov\xE1n a ulo\u017Een jako {filePath: string}.",
+  saveFail: "Ulo\u017Een\xED obr\xE1zku selhalo",
+  saveVault: "Ulo\u017Eit do trezoru",
+  includingFilename: "V\u010Detn\u011B n\xE1zvu souboru jako titulku",
+  imageWidth: "\u0160\xED\u0159ka obr\xE1zku",
+  exportImage: "Exportovat do obr\xE1zku",
+  exportSelectionImage: "Exportovat v\xFDb\u011Br do obr\xE1zku",
+  exportFolder: "Exportovat v\u0161echny pozn\xE1mky do obr\xE1zku",
+  invalidWidth: "Pros\xEDm, nastavte \u0161\xED\u0159ku na rozumn\xE9 \u010D\xEDslo.",
+  "2x": "Povolit obr\xE1zek s dvojn\xE1sobn\xFDm rozli\u0161en\xEDm",
+  moreSetting: "Podrobn\u011Bj\u0161\xED nastaven\xED naleznete v nastaven\xED pluginu `Exportovat obr\xE1zek`.",
+  guide: "Ta\u017Een\xEDm p\u0159esu\u0148te, posouv\xE1n\xEDm nebo \u0161petkou zv\u011Bt\u0161te/zmen\u0161te, dvoj\xEDm kliknut\xEDm resetujte.",
+  copyNotAllowed: "Form\xE1t pdf nen\xED podporov\xE1n pro kop\xEDrov\xE1n\xED",
+  exportAll: "Exportovat vybran\xE9 pozn\xE1mky",
+  noMarkdownFile: "V aktu\xE1ln\xEDm adres\xE1\u0159i nejsou \u017E\xE1dn\xE9 soubory markdown",
+  selectAll: "Vybrat v\u0161e",
+  setting: {
+    title: "Exportovat obr\xE1zek",
+    imageWidth: {
+      label: "V\xFDchoz\xED \u0161\xED\u0159ka exportovan\xE9ho obr\xE1zku",
+      description: "Nastavte \u0161\xED\u0159ku exportovan\xE9ho obr\xE1zku v pixelech. V\xFDchoz\xED je 640px."
+    },
+    filename: {
+      label: "Zahrnout n\xE1zev souboru jako titulek",
+      description: "Nastavte, zda zahrnout n\xE1zev souboru jako titulek. Kdy\u017E Obsidian zobrazuje dokument, zobraz\xED n\xE1zev souboru jako nadpis h1. N\u011Bkdy to nen\xED \u017E\xE1douc\xED a m\u016F\u017Ee doj\xEDt ke zdvojen\xED titulk\u016F."
+    },
+    "2x": {
+      label: "Povolit obr\xE1zek s dvojn\xE1sobn\xFDm rozli\u0161en\xEDm",
+      description: "Nastavte, zda povolit obr\xE1zek s dvojn\xE1sobn\xFDm rozli\u0161en\xEDm. Obr\xE1zky s dvojn\xE1sobn\xFDm rozli\u0161en\xEDm budou vypadat ost\u0159eji a poskytnou lep\u0161\xED z\xE1\u017Eitek na obrazovk\xE1ch s vysok\xFDm PPI, jako jsou smartphony. Nev\xFDhodou je v\u0161ak v\u011Bt\u0161\xED velikost souboru obr\xE1zk\u016F."
+    },
+    metadata: {
+      label: "Zobrazit metadata"
+    },
+    format: {
+      title: "Form\xE1t v\xFDstupn\xEDho souboru",
+      description: "Obr\xE1zky ve form\xE1tu PNG by m\u011Bly vyhovovat v\u011Bt\u0161in\u011B pot\u0159eb, ale pro lep\u0161\xED podporu sc\xE9n\xE1\u0159\u016F u\u017Eivatel\u016F: 1. Podpora pro export obr\xE1zk\u016F s norm\xE1ln\xEDm i pr\u016Fhledn\xFDm pozad\xEDm; 2. Podpora pro export obr\xE1zk\u016F ve form\xE1tu JPG pro dosa\u017Een\xED men\u0161\xEDch velikost\xED soubor\u016F, i kdy\u017E nemus\xED b\xFDt mo\u017En\xE9 je p\u0159\xEDmo kop\xEDrovat do schr\xE1nky; 3. Podpora pro export do form\xE1tu jednostr\xE1nkov\xE9ho PDF, kter\xFD se li\u0161\xED od b\u011B\u017En\xFDch form\xE1t\u016F pap\xEDru PDF, d\xE1vejte pozor, abyste jej nespr\xE1vn\u011B nepou\u017Eili.",
+      png0: ".png - v\xFDchoz\xED",
+      png1: ".png - obr\xE1zek s pr\u016Fhledn\xFDm pozad\xEDm",
+      jpg: ".jpg - obr\xE1zek ve form\xE1tu jpg",
+      pdf: ".pdf - jednostr\xE1nkov\xFD PDF"
+    },
+    userInfo: {
+      title: "Informace o autorovi",
+      show: "Zobrazit informace o autorovi",
+      avatar: {
+        title: "Avatar",
+        description: "Doporu\u010Duje se pou\u017Eit\xED \u010Dtvercov\xFDch obr\xE1zk\u016F"
+      },
+      name: "Jm\xE9no autora",
+      position: "Kde zobrazit",
+      remark: "Dodate\u010Dn\xFD text",
+      align: "Zarovnat",
+      removeAvatar: "Odstranit avatar"
+    },
+    watermark: {
+      title: "Vodoznak",
+      enable: {
+        label: "Povolit vodoznak",
+        description: "Povolit vodoznak, podporuje textov\xFD a obrazov\xFD vodoznak."
+      },
+      type: {
+        label: "Typ vodoznaku",
+        description: "Nastavte typ vodoznaku, text nebo obr\xE1zek.",
+        text: "Text",
+        image: "Obr\xE1zek"
+      },
+      text: {
+        content: "Obsah textu",
+        fontSize: "Velikost p\xEDsma vodoznaku",
+        color: "Barva textu vodoznaku"
+      },
+      image: {
+        src: {
+          label: "URL obr\xE1zku",
+          upload: "Nahr\xE1t obr\xE1zek",
+          select: "Vybrat ze trezoru"
+        }
+      },
+      opacity: "Pr\u016Fhlednost vodoznaku (0 je pr\u016Fhledn\xFD, 1 je nepr\u016Fhledn\xFD)",
+      rotate: "Rotace vodoznaku (ve stupn\xEDch)",
+      width: "\u0160\xED\u0159ka vodoznaku",
+      height: "V\xFD\u0161ka vodoznaku",
+      x: "Horizont\xE1ln\xED mezera vodoznaku",
+      y: "Vertik\xE1ln\xED mezera vodoznaku"
+    },
+    preview: "N\xE1hled vodoznaku",
+    reset: "Obnovit v\xFDchoz\xED",
+    recursive: "Zahrnout pozn\xE1mky z podadres\xE1\u0159\u016F"
+  },
+  imageSelect: {
+    search: "Hledat",
+    select: "Vybrat",
+    cancel: "Zru\u0161it",
+    empty: "Nenalezeny \u017E\xE1dn\xE9 obr\xE1zky"
+  }
+};
+var cs_default = cs;
+
+// src/i18n/da/index.ts
+var da = {
+  // TODO: Indsæt dine oversættelser her
+  command: "Eksporter som billede",
+  noActiveFile: "\xC5bn venligst en artikel f\xF8rst!",
+  imageExportPreview: "Forh\xE5ndsvisning af billedexport",
+  copiedSuccess: "Kopieret til udklipsholderen",
+  copy: "Kopier til udklipsholderen",
+  copyFail: "Kunne ikke kopiere",
+  notAllowCopy: "Kan ikke kopiere {format} formatet direkte",
+  save: "Gem billede",
+  saveSuccess: "Billedet er eksporteret og gemt som {filePath: string}.",
+  saveFail: "Kunne ikke gemme billedet",
+  saveVault: "Gem i boksen",
+  includingFilename: "Inkluder filnavn som titel",
+  imageWidth: "Billedbredde",
+  exportImage: "Eksport\xE9r til billede",
+  exportSelectionImage: "Eksport\xE9r valg til billede",
+  exportFolder: "Eksport\xE9r alle noter til billeder",
+  invalidWidth: "Angiv venligst en bredde som et rimeligt tal.",
+  "2x": "Aktiver billede med 2x opl\xF8sning",
+  moreSetting: "Flere detaljerede indstillinger kan findes i `Eksport\xE9r billede` plugin-indstillingerne.",
+  guide: "Tr\xE6k for at flytte, scroll eller knib for at zoome ind/ud, dobbeltklik for at nulstille.",
+  copyNotAllowed: "pdf formatet underst\xF8ttes ikke til kopiering",
+  exportAll: "Eksport\xE9r udvalgte noter",
+  noMarkdownFile: "Ingen markdown filer i den aktuelle mappe",
+  selectAll: "V\xE6lg alle",
+  setting: {
+    title: "Eksport\xE9r billede",
+    imageWidth: {
+      label: "Standard eksportbilledbredde",
+      description: "Indstil bredden af det eksporterede billede i pixels. Standarden er 640px."
+    },
+    filename: {
+      label: "Inkluder filnavn som titel",
+      description: "Indstil om filnavnet skal inkluderes som titel. N\xE5r Obsidian viser dokumentet, vises filnavnet som en h1 titel. Nogle gange er dette ikke \xF8nsket, og du vil f\xE5 dobbelte titler."
+    },
+    "2x": {
+      label: "Aktiver billede med 2x opl\xF8sning",
+      description: "Indstil om billede med 2x opl\xF8sning skal aktiveres. Billeder med 2x opl\xF8sning vil se skarpere ud og giver en bedre oplevelse p\xE5 sk\xE6rme med h\xF8j PPI, s\xE5som smartphones. Ulempen er dog, at filst\xF8rrelsen p\xE5 billederne er st\xF8rre."
+    },
+    metadata: {
+      label: "Vis metadata"
+    },
+    format: {
+      title: "Output filformat",
+      description: "Standard PNG format billeder b\xF8r opfylde de fleste behov, men for bedre at underst\xF8tte brugerscenarier: 1. Support for eksport af billeder med b\xE5de normal og gennemsigtig baggrund; 2. Support for eksport af JPG billeder for at opn\xE5 mindre filst\xF8rrelser, selvom det muligvis ikke kan kopieres direkte til udklipsholderen; 3. Support for eksport til enkeltside PDF format, som adskiller sig fra de s\xE6dvanlige PDF-papirformater, v\xE6r venlig ikke at misbruge.",
+      png0: ".png - standard",
+      png1: ".png - billede med gennemsigtig baggrund",
+      jpg: ".jpg - JPG format billede",
+      pdf: ".pdf - enkeltside PDF"
+    },
+    userInfo: {
+      title: "Forfatterinfo",
+      show: "Vis forfatterinfo",
+      avatar: {
+        title: "Avatar",
+        description: "Anbefales at bruge kvadratiske billeder"
+      },
+      name: "Forfatternavn",
+      position: "Hvor skal det vises",
+      remark: "Ekstra tekst",
+      align: "Just\xE9r",
+      removeAvatar: "Fjern avatar"
+    },
+    watermark: {
+      title: "Vandm\xE6rke",
+      enable: {
+        label: "Aktiv\xE9r vandm\xE6rke",
+        description: "Aktiver vandm\xE6rke, underst\xF8tter tekst og billede vandm\xE6rker."
+      },
+      type: {
+        label: "Vandm\xE6rke type",
+        description: "Indstil typen af vandm\xE6rke, tekst eller billede.",
+        text: "Tekst",
+        image: "Billede"
+      },
+      text: {
+        content: "Tekstindhold",
+        fontSize: "Vandm\xE6rke fontst\xF8rrelse",
+        color: "Vandm\xE6rketekstfarve"
+      },
+      image: {
+        src: {
+          label: "Billed-URL",
+          upload: "Upload billede",
+          select: "V\xE6lg fra boks"
+        }
+      },
+      opacity: "Vandm\xE6rke opacitet (0 er gennemsigtig, 1 er ikke gennemsigtig)",
+      rotate: "Vandm\xE6rke rotation (i grader)",
+      width: "Vandm\xE6rke bredde",
+      height: "Vandm\xE6rke h\xF8jde",
+      x: "Vandm\xE6rke horisontal afstand",
+      y: "Vandm\xE6rke vertikal afstand"
+    },
+    preview: "Vandm\xE6rke forh\xE5ndsvisning",
+    reset: "Nulstil til standard",
+    recursive: "Inkluder noter fra undermapper"
+  },
+  imageSelect: {
+    search: "S\xF8g",
+    select: "V\xE6lg",
+    cancel: "Annuller",
+    empty: "Ingen billeder fundet"
+  }
+};
+var da_default = da;
+
+// src/i18n/de/index.ts
+var de = {
+  // TODO: Ihre Übersetzungen hier eingeben
+  command: "Als Bild exportieren",
+  noActiveFile: "Bitte \xF6ffnen Sie zuerst einen Artikel!",
+  imageExportPreview: "Bildexport-Vorschau",
+  copiedSuccess: "In die Zwischenablage kopiert",
+  copy: "In Zwischenablage kopieren",
+  copyFail: "Kopieren fehlgeschlagen",
+  notAllowCopy: "Direktes Kopieren des {format} Formats nicht m\xF6glich",
+  save: "Bild speichern",
+  saveSuccess: "Das Bild wurde erfolgreich als {filePath: string} gespeichert.",
+  saveFail: "Das Bild konnte nicht gespeichert werden",
+  saveVault: "Im Tresor speichern",
+  includingFilename: "Mit Dateinamen als Titel einschlie\xDFen",
+  imageWidth: "Bildbreite",
+  exportImage: "Zu Bild exportieren",
+  exportSelectionImage: "Auswahl als Bild exportieren",
+  exportFolder: "Alle Notizen als Bilder exportieren",
+  invalidWidth: "Bitte geben Sie eine vern\xFCnftige Nummer f\xFCr die Breite an.",
+  "2x": "Bild mit 2x Aufl\xF6sung aktivieren",
+  moreSetting: "Detailliertere Einstellungen finden Sie in den `Bild exportieren` Plugin-Einstellungen.",
+  guide: "Ziehen zum Bewegen, scrollen oder kneifen zum Zoomen, Doppelklick zum Zur\xFCcksetzen.",
+  copyNotAllowed: "Das pdf-Format wird f\xFCr das Kopieren nicht unterst\xFCtzt",
+  exportAll: "Ausgew\xE4hlte Notizen exportieren",
+  noMarkdownFile: "Keine Markdown-Dateien im aktuellen Verzeichnis",
+  selectAll: "Alles ausw\xE4hlen",
+  setting: {
+    title: "Bild exportieren",
+    imageWidth: {
+      label: "Standardm\xE4\xDFige exportierte Bildbreite",
+      description: "Setzen Sie die Breite des exportierten Bildes in Pixel. Standardm\xE4\xDFig ist 640px."
+    },
+    filename: {
+      label: "Dateinamen als Titel einbeziehen",
+      description: "Stellen Sie ein, ob der Dateiname als Titel einbezogen werden soll. Wenn Obsidian das Dokument anzeigt, wird der Dateiname als h1 Titel angezeigt. Manchmal ist das nicht erw\xFCnscht, und Sie erhalten doppelte Titel."
+    },
+    "2x": {
+      label: "Bild mit 2x Aufl\xF6sung aktivieren",
+      description: "Stellen Sie ein, ob Bilder mit 2x Aufl\xF6sung aktiviert werden sollen. Bilder mit 2x Aufl\xF6sung erscheinen sch\xE4rfer und bieten eine bessere Erfahrung auf Bildschirmen mit hoher PPI, wie z.B. auf Smartphones. Der Nachteil ist jedoch, dass die Dateigr\xF6\xDFe der Bilder gr\xF6\xDFer ist."
+    },
+    metadata: {
+      label: "Metadaten anzeigen"
+    },
+    format: {
+      title: "Ausgabeformat der Datei",
+      description: "Standardm\xE4\xDFige PNG-Formatbilder sollten die Mehrheit der Bed\xFCrfnisse erf\xFCllen, aber um Benutzerszenarien besser zu unterst\xFCtzen: 1. Unterst\xFCtzung f\xFCr den Export von Bildern mit normalem und transparentem Hintergrund; 2. Unterst\xFCtzung f\xFCr den Export von JPG-Bildern zur Erreichung kleinerer Dateigr\xF6\xDFen, obwohl es m\xF6glicherweise nicht m\xF6glich ist, direkt in die Zwischenablage zu kopieren; 3. Unterst\xFCtzung f\xFCr den Export in das Einzelseiten-PDF-Format, das sich von den \xFCblichen PDF-Papierformaten unterscheidet, bitte Vorsicht, um keine Verwechslung zu verursachen.",
+      png0: ".png - Standard",
+      png1: ".png - Bild mit transparentem Hintergrund",
+      jpg: ".jpg - jpg-Format Bild",
+      pdf: ".pdf - Einzelseiten-PDF"
+    },
+    userInfo: {
+      title: "Autoreninfo",
+      show: "Autoreninfo anzeigen",
+      avatar: {
+        title: "Avatar",
+        description: "Es wird empfohlen, quadratische Bilder zu verwenden"
+      },
+      name: "Autorenname",
+      position: "Anzeigeposition",
+      remark: "Zus\xE4tzlicher Text",
+      align: "Ausrichten",
+      removeAvatar: "Avatar entfernen"
+    },
+    watermark: {
+      title: "Wasserzeichen",
+      enable: {
+        label: "Wasserzeichen aktivieren",
+        description: "Wasserzeichen aktivieren, unterst\xFCtzt Text- und Bildwasserzeichen."
+      },
+      type: {
+        label: "Wasserzeichentyp",
+        description: "Legen Sie den Typ des Wasserzeichens fest, Text oder Bild.",
+        text: "Text",
+        image: "Bild"
+      },
+      text: {
+        content: "Textinhalt",
+        fontSize: "Schriftgr\xF6\xDFe des Wasserzeichens",
+        color: "Wasserzeichentextfarbe"
+      },
+      image: {
+        src: {
+          label: "Bild-URL",
+          upload: "Bild hochladen",
+          select: "Aus Tresor w\xE4hlen"
+        }
+      },
+      opacity: "Wasserzeichen-Durchsichtigkeit (0 ist transparent, 1 ist nicht transparent)",
+      rotate: "Wasserzeichen-Drehung (in Grad)",
+      width: "Wasserzeichenbreite",
+      height: "Wasserzeichenh\xF6he",
+      x: "Horizontaler Abstand des Wasserzeichens",
+      y: "Vertikaler Abstand des Wasserzeichens"
+    },
+    preview: "Wasserzeichen-Vorschau",
+    reset: "Auf Standard zur\xFCcksetzen",
+    recursive: "Notizen aus Unterordnern einbeziehen"
+  },
+  imageSelect: {
+    search: "Suchen",
+    select: "Ausw\xE4hlen",
+    cancel: "Abbrechen",
+    empty: "Kein Bild gefunden"
+  }
+};
+var de_default = de;
+
 // src/i18n/en/index.ts
 var en = {
   // TODO: your translations go here
@@ -30233,8 +30838,11 @@ var en = {
   imageExportPreview: "Image Export Preview",
   copiedSuccess: "Copied to clipboard",
   copy: "Copy to Clipboard",
+  copyFail: "Failed to copy",
+  notAllowCopy: "Unable to directly copy {format} format",
   save: "Save Image",
   saveSuccess: "Export and save the image as {filePath: string}.",
+  saveFail: "Failed to save the image",
   saveVault: "Save to Vault",
   includingFilename: "Including File Name As Title",
   imageWidth: "Image Width",
@@ -30268,9 +30876,10 @@ var en = {
     },
     format: {
       title: "Output file format",
-      description: "The default JPG format for images should suffice for most needs. However, for customization: 1. Support PNG format for images with transparent backgrounds. 2. Offer the ability to export as a single-page PDF with a non-standard paper size, please ensure it is used correctly.",
-      jpg: ".jpg - default",
-      png: ".png - transparent background image",
+      description: "Default PNG format images should satisfy the majority of needs, but to better support user scenarios: 1. Support for exporting images with both normal and transparent backgrounds; 2. Support for exporting JPG images to achieve smaller file sizes, though it may not be possible to copy directly to the clipboard; 3. Support for exporting to single-page PDF format, which differs from the usual PDF paper formats, please be careful not to misuse.",
+      png0: ".png - default",
+      png1: ".png - transparent background image",
+      jpg: ".jpg - jpg format image",
       pdf: ".pdf - single page pdf"
     },
     userInfo: {
@@ -30330,6 +30939,1416 @@ var en = {
 };
 var en_default = en;
 
+// src/i18n/es/index.ts
+var es = {
+  command: "Exportar como imagen",
+  noActiveFile: "\xA1Por favor, abre un art\xEDculo primero!",
+  imageExportPreview: "Vista previa de exportaci\xF3n de imagen",
+  copiedSuccess: "Copiado al portapapeles",
+  copy: "Copiar al portapapeles",
+  copyFail: "Fallo al copiar",
+  notAllowCopy: "No se permite copiar directamente el formato {format}",
+  save: "Guardar imagen",
+  saveSuccess: "Imagen exportada y guardada como {filePath: string}.",
+  saveFail: "Fallo al guardar la imagen",
+  saveVault: "Guardar en la b\xF3veda",
+  includingFilename: "Incluir nombre de archivo como t\xEDtulo",
+  imageWidth: "Ancho de la imagen",
+  exportImage: "Exportar a imagen",
+  exportSelectionImage: "Exportar selecci\xF3n a imagen",
+  exportFolder: "Exportar todas las notas a imagen",
+  invalidWidth: "Por favor, establece un ancho en un n\xFAmero razonable.",
+  "2x": "Activar imagen con resoluci\xF3n 2x",
+  moreSetting: "Puedes encontrar configuraciones m\xE1s detalladas en los ajustes del plugin `Exportar como imagen`.",
+  guide: "Arrastra para mover, desplaza o pellizca para acercar/alejar, doble clic para restablecer.",
+  copyNotAllowed: "El formato pdf no es compatible para copiar",
+  exportAll: "Exportar notas seleccionadas",
+  noMarkdownFile: "No hay archivos markdown en el directorio actual",
+  selectAll: "Seleccionar todo",
+  setting: {
+    title: "Exportar como imagen",
+    imageWidth: {
+      label: "Ancho de imagen exportada por defecto",
+      description: "Establece el ancho de la imagen exportada en p\xEDxeles. El predeterminado es 640px."
+    },
+    filename: {
+      label: "Incluir nombre de archivo como t\xEDtulo",
+      description: "Establece si incluir el nombre del archivo como t\xEDtulo. Cuando Obsidian muestra el documento, muestra el nombre del archivo como un t\xEDtulo h1. A veces esto no es lo que quieres y terminar\xE1s con t\xEDtulos duplicados."
+    },
+    "2x": {
+      label: "Activar imagen con resoluci\xF3n 2x",
+      description: "Establece si activar la imagen con resoluci\xF3n 2x. Las im\xE1genes con resoluci\xF3n 2x aparecer\xE1n m\xE1s n\xEDtidas y proporcionar\xE1n una mejor experiencia en pantallas de alta PPI, como las de los smartphones. Sin embargo, el lado negativo es que el tama\xF1o del archivo de las im\xE1genes es mayor."
+    },
+    metadata: {
+      label: "Mostrar metadatos"
+    },
+    format: {
+      title: "Formato del archivo de salida",
+      description: "Las im\xE1genes en formato PNG por defecto deber\xEDan satisfacer la mayor\xEDa de necesidades, pero para soportar mejor los escenarios de uso: 1. Soporte para exportar im\xE1genes con fondos normales y transparentes; 2. Soporte para exportar im\xE1genes en formato JPG para lograr tama\xF1os de archivo m\xE1s peque\xF1os, aunque puede que no sea posible copiar directamente al portapapeles; 3. Soporte para exportar al formato de PDF de una sola p\xE1gina, que difiere de los formatos de papel PDF habituales, por favor, ten cuidado de no usarlo incorrectamente.",
+      png0: ".png - por defecto",
+      png1: ".png - imagen con fondo transparente",
+      jpg: ".jpg - imagen en formato jpg",
+      pdf: ".pdf - PDF de una sola p\xE1gina"
+    },
+    userInfo: {
+      title: "Informaci\xF3n del autor",
+      show: "Mostrar informaci\xF3n del autor",
+      avatar: {
+        title: "Avatar",
+        description: "Se recomienda usar im\xE1genes cuadradas"
+      },
+      name: "Nombre del autor",
+      position: "D\xF3nde mostrar",
+      remark: "Texto extra",
+      align: "Alinear",
+      removeAvatar: "Eliminar avatar"
+    },
+    watermark: {
+      title: "Marca de agua",
+      enable: {
+        label: "Activar marca de agua",
+        description: "Activar la marca de agua, admite marcas de agua de texto e imagen."
+      },
+      type: {
+        label: "Tipo de marca de agua",
+        description: "Establece el tipo de marca de agua, texto o imagen.",
+        text: "Texto",
+        image: "Imagen"
+      },
+      text: {
+        content: "Contenido del texto",
+        fontSize: "Tama\xF1o de fuente de la marca de agua",
+        color: "Color del texto de la marca de agua"
+      },
+      image: {
+        src: {
+          label: "URL de la imagen",
+          upload: "Subir imagen",
+          select: "Seleccionar de la b\xF3veda"
+        }
+      },
+      opacity: "Opacidad de la marca de agua (0 es transparente, 1 es opaco)",
+      rotate: "Rotaci\xF3n de la marca de agua (en grados)",
+      width: "Ancho de la marca de agua",
+      height: "Altura de la marca de agua",
+      x: "Distancia horizontal de la marca de agua",
+      y: "Distancia vertical de la marca de agua"
+    },
+    preview: "Vista previa de la marca de agua",
+    reset: "Restablecer a los valores por defecto",
+    recursive: "Incluir notas de subdirectorios"
+  },
+  imageSelect: {
+    search: "Buscar",
+    select: "Seleccionar",
+    cancel: "Cancelar",
+    empty: "No se encontraron im\xE1genes"
+  }
+};
+var es_default = es;
+
+// src/i18n/fr/index.ts
+var fr = {
+  // TODO: Insérez vos traductions ici
+  command: "Exporter en image",
+  noActiveFile: "Veuillez d'abord ouvrir un article !",
+  imageExportPreview: "Aper\xE7u de l'exportation d'image",
+  copiedSuccess: "Copi\xE9 dans le presse-papiers",
+  copy: "Copier dans le presse-papiers",
+  copyFail: "\xC9chec de la copie",
+  notAllowCopy: "Impossible de copier directement le format {format}",
+  save: "Enregistrer l'image",
+  saveSuccess: "L'image a \xE9t\xE9 export\xE9e et enregistr\xE9e sous {filePath: string}.",
+  saveFail: "\xC9chec de l'enregistrement de l'image",
+  saveVault: "Enregistrer dans le coffre",
+  includingFilename: "Incluant le nom du fichier comme titre",
+  imageWidth: "Largeur de l'image",
+  exportImage: "Exporter en image",
+  exportSelectionImage: "Exporter la s\xE9lection en image",
+  exportFolder: "Exporter toutes les notes en image",
+  invalidWidth: "Veuillez d\xE9finir une largeur avec un nombre raisonnable.",
+  "2x": "Activer l'image en r\xE9solution 2x",
+  moreSetting: "Des param\xE8tres plus d\xE9taill\xE9s peuvent \xEAtre trouv\xE9s dans les r\xE9glages du plugin `Exporter en image`.",
+  guide: "Faites glisser pour d\xE9placer, faites d\xE9filer ou pincez pour zoomer, double-cliquez pour r\xE9initialiser.",
+  copyNotAllowed: "Le format pdf n'est pas pris en charge pour la copie",
+  exportAll: "Exporter les notes s\xE9lectionn\xE9es",
+  noMarkdownFile: "Aucun fichier markdown dans le r\xE9pertoire actuel",
+  selectAll: "Tout s\xE9lectionner",
+  setting: {
+    title: "Exporter en image",
+    imageWidth: {
+      label: "Largeur d'image export\xE9e par d\xE9faut",
+      description: "D\xE9finissez la largeur de l'image export\xE9e en pixels. La valeur par d\xE9faut est 640px."
+    },
+    filename: {
+      label: "Inclure le nom du fichier comme titre",
+      description: "D\xE9finissez si le nom du fichier doit \xEAtre inclus comme titre. Lorsqu'Obsidian affiche le document, il affiche le nom du fichier comme un titre h1. Parfois, ce n'est pas ce que vous souhaitez, et vous obtiendrez des titres en double."
+    },
+    "2x": {
+      label: "Activer l'image en r\xE9solution 2x",
+      description: "D\xE9finissez si l'image en r\xE9solution 2x doit \xEAtre activ\xE9e. Les images en r\xE9solution 2x appara\xEEtront plus nettes et offriront une meilleure exp\xE9rience sur les \xE9crans \xE0 haute PPI, tels que ceux des smartphones. Cependant, l'inconv\xE9nient est que la taille du fichier des images est plus grande."
+    },
+    metadata: {
+      label: "Afficher les m\xE9tadonn\xE9es"
+    },
+    format: {
+      title: "Format de fichier de sortie",
+      description: "Les images au format PNG par d\xE9faut devraient satisfaire la majorit\xE9 des besoins, mais pour mieux soutenir les sc\xE9narios utilisateurs : 1. Support pour l'exportation d'images avec des arri\xE8re-plans normaux et transparents ; 2. Support pour l'exportation d'images JPG pour obtenir des tailles de fichier plus petites, bien qu'il ne soit peut-\xEAtre pas possible de copier directement dans le presse-papiers ; 3. Support pour l'exportation au format PDF d'une seule page, ce qui diff\xE8re des formats de papier PDF habituels, veillez \xE0 ne pas faire d'erreur.",
+      png0: ".png - par d\xE9faut",
+      png1: ".png - image avec fond transparent",
+      jpg: ".jpg - image au format jpg",
+      pdf: ".pdf - PDF d'une seule page"
+    },
+    userInfo: {
+      title: "Info auteur",
+      show: "Afficher les infos de l'auteur",
+      avatar: {
+        title: "Avatar",
+        description: "L'utilisation d'images carr\xE9es est recommand\xE9e"
+      },
+      name: "Nom de l'auteur",
+      position: "O\xF9 afficher",
+      remark: "Texte suppl\xE9mentaire",
+      align: "Aligner",
+      removeAvatar: "Supprimer l'avatar"
+    },
+    watermark: {
+      title: "Filigrane",
+      enable: {
+        label: "Activer le filigrane",
+        description: "Activer le filigrane, supporte le filigrane texte et image."
+      },
+      type: {
+        label: "Type de filigrane",
+        description: "D\xE9finissez le type de filigrane, texte ou image.",
+        text: "Texte",
+        image: "Image"
+      },
+      text: {
+        content: "Contenu du texte",
+        fontSize: "Taille de la police du filigrane",
+        color: "Couleur du texte du filigrane"
+      },
+      image: {
+        src: {
+          label: "URL de l'image",
+          upload: "T\xE9l\xE9charger l'image",
+          select: "S\xE9lectionner depuis le coffre"
+        }
+      },
+      opacity: "Opacit\xE9 du filigrane (0 est transparent, 1 n'est pas transparent)",
+      rotate: "Rotation du filigrane (en degr\xE9s)",
+      width: "Largeur du filigrane",
+      height: "Hauteur du filigrane",
+      x: "Espacement horizontal du filigrane",
+      y: "Espacement vertical du filigrane"
+    },
+    preview: "Aper\xE7u du filigrane",
+    reset: "R\xE9initialiser par d\xE9faut",
+    recursive: "Inclure les notes des sous-r\xE9pertoires"
+  },
+  imageSelect: {
+    search: "Rechercher",
+    select: "S\xE9lectionner",
+    cancel: "Annuler",
+    empty: "Aucune image trouv\xE9e"
+  }
+};
+var fr_default = fr;
+
+// src/i18n/hu/index.ts
+var hu = {
+  command: "Export\xE1l\xE1s k\xE9pk\xE9nt",
+  noActiveFile: "K\xE9rlek, el\u0151sz\xF6r nyiss meg egy cikket!",
+  imageExportPreview: "K\xE9p export el\u0151n\xE9zet",
+  copiedSuccess: "V\xE1g\xF3lapra m\xE1solva",
+  copy: "M\xE1sol\xE1s v\xE1g\xF3lapra",
+  copyFail: "A m\xE1sol\xE1s sikertelen",
+  notAllowCopy: "A {format} form\xE1tum k\xF6zvetlen m\xE1sol\xE1sa nem enged\xE9lyezett",
+  save: "K\xE9p ment\xE9se",
+  saveSuccess: "A k\xE9p export\xE1lva \xE9s mentve mint {filePath: string}.",
+  saveFail: "A k\xE9p ment\xE9se sikertelen",
+  saveVault: "Ment\xE9s a Vaultba",
+  includingFilename: "F\xE1jln\xE9v hozz\xE1ad\xE1sa c\xEDmk\xE9nt",
+  imageWidth: "K\xE9psz\xE9less\xE9g",
+  exportImage: "Export\xE1l\xE1s k\xE9pk\xE9nt",
+  exportSelectionImage: "Kijel\xF6l\xE9s export\xE1l\xE1sa k\xE9pk\xE9nt",
+  exportFolder: "Az \xF6sszes jegyzet export\xE1l\xE1sa k\xE9pk\xE9nt",
+  invalidWidth: "K\xE9rlek, adj meg egy \xE9sszer\u0171 sz\xE9less\xE9gi \xE9rt\xE9ket.",
+  "2x": "2x felbont\xE1s\xFA k\xE9p enged\xE9lyez\xE9se",
+  moreSetting: "Tov\xE1bbi r\xE9szletes be\xE1ll\xEDt\xE1sok a `K\xE9pk\xE9nt export\xE1l\xE1s` b\u0151v\xEDtm\xE9ny be\xE1ll\xEDt\xE1saiban tal\xE1lhat\xF3ak.",
+  guide: "H\xFAz\xE1ssal mozgathat\xF3, g\xF6rget\xE9ssel vagy csipetmozdulattal zoomolhat\xF3, dupla kattint\xE1ssal vissza\xE1ll\xEDthat\xF3.",
+  copyNotAllowed: "A pdf form\xE1tum m\xE1sol\xE1sa nem t\xE1mogatott",
+  exportAll: "Kiv\xE1lasztott jegyzetek export\xE1l\xE1sa",
+  noMarkdownFile: "Nincsenek markdown f\xE1jlok az aktu\xE1lis k\xF6nyvt\xE1rban",
+  selectAll: "\xD6sszes kiv\xE1laszt\xE1sa",
+  setting: {
+    title: "K\xE9pk\xE9nt export\xE1l\xE1s",
+    imageWidth: {
+      label: "Alap\xE9rtelmezett export\xE1lt k\xE9pszeless\xE9g",
+      description: "\xC1ll\xEDtsd be az export\xE1lt k\xE9p sz\xE9less\xE9g\xE9t pixelben. Az alap\xE9rtelmezett \xE9rt\xE9k 640px."
+    },
+    filename: {
+      label: "F\xE1jln\xE9v hozz\xE1ad\xE1sa c\xEDmk\xE9nt",
+      description: "\xC1ll\xEDtsd be, hogy a f\xE1jln\xE9v hozz\xE1 legyen-e adva c\xEDmk\xE9nt. Amikor az Obsidian megjelen\xEDti a dokumentumot, a f\xE1jln\xE9v h1 c\xEDmk\xE9nt jelenik meg. N\xE9ha ez nem k\xEDv\xE1natos, \xE9s \xEDgy dupla c\xEDmeket kaphatsz."
+    },
+    "2x": {
+      label: "2x felbont\xE1s\xFA k\xE9p enged\xE9lyez\xE9se",
+      description: "\xC1ll\xEDtsd be, hogy enged\xE9lyezve legyen-e a 2x felbont\xE1s\xFA k\xE9p. A 2x felbont\xE1s\xFA k\xE9pek \xE9lesebbnek t\u0171nnek, \xE9s jobb felhaszn\xE1l\xF3i \xE9lm\xE9nyt ny\xFAjtanak magas PPI-j\u0171 kijelz\u0151k\xF6n, mint amilyenek a smartphone-ok. Azonban a h\xE1tr\xE1nya, hogy a k\xE9pf\xE1jlok m\xE9rete nagyobb lesz."
+    },
+    metadata: {
+      label: "Metaadatok megjelen\xEDt\xE9se"
+    },
+    format: {
+      title: "Kimeneti f\xE1jl form\xE1tum",
+      description: "Az alap\xE9rtelmezett PNG form\xE1tum\xFA k\xE9peknek meg kell felelni\xFCk a legt\xF6bb ig\xE9nynek, de a felhaszn\xE1l\xF3i forgat\xF3k\xF6nyvek jobb t\xE1mogat\xE1sa \xE9rdek\xE9ben: 1. T\xE1mogat\xE1s norm\xE1l \xE9s \xE1tl\xE1tsz\xF3 h\xE1tt\xE9rrel rendelkez\u0151 k\xE9pek export\xE1l\xE1s\xE1ra; 2. JPG k\xE9pek export\xE1l\xE1s\xE1nak t\xE1mogat\xE1sa a kisebb f\xE1jlm\xE9ret el\xE9r\xE9se \xE9rdek\xE9ben, b\xE1r lehet, hogy k\xF6zvetlen\xFCl nem m\xE1solhat\xF3 a v\xE1g\xF3lapra; 3. Egyoldalas PDF form\xE1tumra val\xF3 export\xE1l\xE1s t\xE1mogat\xE1sa, amely elt\xE9r a szok\xE1sos PDF pap\xEDrform\xE1tumokt\xF3l, k\xE9rlek, l\xE9gy \xF3vatos a haszn\xE1latakor.",
+      png0: ".png - alap\xE9rtelmezett",
+      png1: ".png - \xE1tl\xE1tsz\xF3 h\xE1tt\xE9rrel",
+      jpg: ".jpg - JPG form\xE1tum\xFA k\xE9p",
+      pdf: ".pdf - egyoldalas PDF"
+    },
+    userInfo: {
+      title: "Szerz\u0151i inform\xE1ci\xF3",
+      show: "Szerz\u0151i inform\xE1ci\xF3 megjelen\xEDt\xE9se",
+      avatar: {
+        title: "Avatar",
+        description: "N\xE9gyzetes k\xE9pek haszn\xE1lata aj\xE1nlott"
+      },
+      name: "Szerz\u0151 neve",
+      position: "Megjelen\xEDt\xE9s helye",
+      remark: "Tov\xE1bbi sz\xF6veg",
+      align: "Igaz\xEDt\xE1s",
+      removeAvatar: "Avatar elt\xE1vol\xEDt\xE1sa"
+    },
+    watermark: {
+      title: "V\xEDzjel",
+      enable: {
+        label: "V\xEDzjel enged\xE9lyez\xE9se",
+        description: "V\xEDzjel enged\xE9lyez\xE9se, t\xE1mogat sz\xF6veges \xE9s k\xE9pes v\xEDzjeleket."
+      },
+      type: {
+        label: "V\xEDzjel t\xEDpusa",
+        description: "\xC1ll\xEDtsd be a v\xEDzjel t\xEDpus\xE1t, sz\xF6veg vagy k\xE9p.",
+        text: "Sz\xF6veg",
+        image: "K\xE9p"
+      },
+      text: {
+        content: "Sz\xF6veg tartalma",
+        fontSize: "V\xEDzjel bet\u0171m\xE9rete",
+        color: "V\xEDzjel sz\xF6veg\xE9nek sz\xEDne"
+      },
+      image: {
+        src: {
+          label: "K\xE9p URL",
+          upload: "K\xE9p felt\xF6lt\xE9se",
+          select: "Kiv\xE1laszt\xE1s a Vaultb\xF3l"
+        }
+      },
+      opacity: "V\xEDzjel \xE1tl\xE1tsz\xF3s\xE1ga (0 \xE1tl\xE1tsz\xF3, 1 nem \xE1tl\xE1tsz\xF3)",
+      rotate: "V\xEDzjel forgat\xE1sa (fokban)",
+      width: "V\xEDzjel sz\xE9less\xE9ge",
+      height: "V\xEDzjel magass\xE1ga",
+      x: "V\xEDzjel v\xEDzszintes t\xE1vols\xE1ga",
+      y: "V\xEDzjel f\xFCgg\u0151leges t\xE1vols\xE1ga"
+    },
+    preview: "V\xEDzjel el\u0151n\xE9zet",
+    reset: "Alap\xE9rtelmezettek vissza\xE1ll\xEDt\xE1sa",
+    recursive: "Jegyzetek bevon\xE1sa az almapp\xE1kb\xF3l"
+  },
+  imageSelect: {
+    search: "Keres\xE9s",
+    select: "Kiv\xE1laszt\xE1s",
+    cancel: "M\xE9gse",
+    empty: "Nem tal\xE1lhat\xF3 k\xE9p"
+  }
+};
+var hu_default = hu;
+
+// src/i18n/id/index.ts
+var id = {
+  command: "Ekspor sebagai gambar",
+  noActiveFile: "Silakan buka artikel terlebih dahulu!",
+  imageExportPreview: "Pratinjau Ekspor Gambar",
+  copiedSuccess: "Disalin ke clipboard",
+  copy: "Salin ke Clipboard",
+  copyFail: "Gagal menyalin",
+  notAllowCopy: "Tidak dapat langsung menyalin format {format}",
+  save: "Simpan Gambar",
+  saveSuccess: "Gambar berhasil diekspor dan disimpan sebagai {filePath: string}.",
+  saveFail: "Gagal menyimpan gambar",
+  saveVault: "Simpan ke Vault",
+  includingFilename: "Termasuk Nama File Sebagai Judul",
+  imageWidth: "Lebar Gambar",
+  exportImage: "Ekspor ke gambar",
+  exportSelectionImage: "Ekspor seleksi ke gambar",
+  exportFolder: "Ekspor semua catatan ke gambar",
+  invalidWidth: "Please set width with a reasonable number.",
+  // Opsional: "Silakan atur lebar dengan angka yang wajar."
+  "2x": "Aktifkan gambar resolusi 2x",
+  moreSetting: "Pengaturan lebih rinci dapat ditemukan di pengaturan plugin `Ekspor Gambar`.",
+  guide: "Seret untuk Bergerak, gulir atau cubit untuk memperbesar/memperkecil, klik dua kali untuk mereset.",
+  copyNotAllowed: "format pdf tidak didukung untuk disalin",
+  exportAll: "Ekspor Catatan yang Dipilih",
+  noMarkdownFile: "Tidak ada berkas markdown di direktori saat ini",
+  selectAll: "Pilih Semua",
+  setting: {
+    title: "Ekspor Gambar",
+    imageWidth: {
+      label: "Lebar gambar ekspor default",
+      description: "Atur lebar gambar yang diekspor dalam piksel. Default adalah 640px."
+    },
+    filename: {
+      label: "Termasuk nama file sebagai judul",
+      description: "Atur apakah nama file akan disertakan sebagai judul. Ketika Obsidian menampilkan dokumen, itu akan menampilkan nama file sebagai judul h1. Kadang ini tidak diinginkan, dan Anda akan mendapat judul ganda."
+    },
+    "2x": {
+      label: "Aktifkan gambar resolusi 2x",
+      description: "Atur apakah gambar resolusi 2x akan diaktifkan. Gambar dengan resolusi 2x akan terlihat lebih tajam dan memberikan pengalaman yang lebih baik pada layar DPI tinggi, seperti pada smartphone. Namun, kekurangannya adalah ukuran file gambar lebih besar."
+    },
+    metadata: {
+      label: "Tampilkan metadata"
+    },
+    format: {
+      title: "Format file keluaran",
+      description: "Gambar format PNG default harus memenuhi kebutuhan sebagian besar, tapi untuk lebih mendukung skenario pengguna: 1. Dukungan untuk mengekspor gambar dengan latar belakang normal dan transparan; 2. Dukungan untuk mengekspor gambar JPG untuk mencapai ukuran file yang lebih kecil, walaupun mungkin tidak bisa langsung disalin ke clipboard; 3. Dukungan untuk mengekspor ke format PDF satu halaman, yang berbeda dari format kertas PDF biasa, harap berhati-hati untuk tidak salah gunakan.",
+      png0: ".png - default",
+      png1: ".png - gambar latar belakang transparan",
+      jpg: ".jpg - gambar format jpg",
+      pdf: ".pdf - PDF satu halaman"
+    },
+    userInfo: {
+      title: "Info Penulis",
+      show: "Tampilkan info penulis",
+      avatar: {
+        title: "Avatar",
+        description: "Disarankan menggunakan gambar persegi"
+      },
+      name: "Nama penulis",
+      position: "Dimana ditampilkan",
+      remark: "Teks tambahan",
+      align: "Menyelaraskan",
+      removeAvatar: "Hapus avatar"
+    },
+    watermark: {
+      title: "Watermark",
+      enable: {
+        label: "Aktifkan watermark",
+        description: "Mengaktifkan watermark, mendukung watermark teks dan gambar."
+      },
+      type: {
+        label: "Tipe watermark",
+        description: "Atur tipe watermark, teks atau gambar.",
+        text: "Teks",
+        image: "Gambar"
+      },
+      text: {
+        content: "Konten teks",
+        fontSize: "Ukuran font watermark",
+        color: "Warna teks watermark"
+      },
+      image: {
+        src: {
+          label: "URL gambar",
+          upload: "Unggah gambar",
+          select: "Pilih dari Vault"
+        }
+      },
+      opacity: "Ketebalan watermark (0 transparan, 1 tidak transparan)",
+      rotate: "Rotasi watermark (dalam derajat)",
+      width: "Lebar watermark",
+      height: "Tinggi watermark",
+      x: "Jarak horizontal watermark",
+      y: "Jarak vertikal watermark"
+    },
+    preview: "Pratinjau watermark",
+    reset: "Reset ke default",
+    recursive: "Termasuk catatan dari subdirektori"
+  },
+  imageSelect: {
+    search: "Cari",
+    select: "Pilih",
+    cancel: "Batal",
+    empty: "Tidak ada gambar yang ditemukan"
+  }
+};
+var id_default = id;
+
+// src/i18n/ja/index.ts
+var ja = {
+  command: "\u753B\u50CF\u3068\u3057\u3066\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8",
+  noActiveFile: "\u5148\u306B\u8A18\u4E8B\u3092\u958B\u3044\u3066\u304F\u3060\u3055\u3044\uFF01",
+  imageExportPreview: "\u753B\u50CF\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u30D7\u30EC\u30D3\u30E5\u30FC",
+  copiedSuccess: "\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9\u306B\u30B3\u30D4\u30FC\u3055\u308C\u307E\u3057\u305F",
+  copy: "\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9\u306B\u30B3\u30D4\u30FC",
+  copyFail: "\u30B3\u30D4\u30FC\u306B\u5931\u6557\u3057\u307E\u3057\u305F",
+  notAllowCopy: "{format}\u30D5\u30A9\u30FC\u30DE\u30C3\u30C8\u306E\u76F4\u63A5\u30B3\u30D4\u30FC\u306F\u3067\u304D\u307E\u305B\u3093",
+  save: "\u753B\u50CF\u3092\u4FDD\u5B58",
+  saveSuccess: "\u753B\u50CF\u3092{filePath: string}\u3068\u3057\u3066\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3057\u3066\u4FDD\u5B58\u3057\u307E\u3057\u305F\u3002",
+  saveFail: "\u753B\u50CF\u306E\u4FDD\u5B58\u306B\u5931\u6557\u3057\u307E\u3057\u305F",
+  saveVault: "\u30DC\u30FC\u30EB\u30C8\u306B\u4FDD\u5B58",
+  includingFilename: "\u30D5\u30A1\u30A4\u30EB\u540D\u3092\u30BF\u30A4\u30C8\u30EB\u3068\u3057\u3066\u542B\u3080",
+  imageWidth: "\u753B\u50CF\u306E\u5E45",
+  exportImage: "\u753B\u50CF\u3068\u3057\u3066\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8",
+  exportSelectionImage: "\u9078\u629E\u7BC4\u56F2\u3092\u753B\u50CF\u3068\u3057\u3066\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8",
+  exportFolder: "\u3059\u3079\u3066\u306E\u30CE\u30FC\u30C8\u3092\u753B\u50CF\u3068\u3057\u3066\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8",
+  invalidWidth: "\u9069\u5207\u306A\u6570\u5024\u3067\u5E45\u3092\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
+  "2x": "2\u500D\u306E\u89E3\u50CF\u5EA6\u306E\u753B\u50CF\u3092\u6709\u52B9\u306B\u3059\u308B",
+  moreSetting: "`\u753B\u50CF\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8`\u30D7\u30E9\u30B0\u30A4\u30F3\u306E\u8A2D\u5B9A\u3067\u3001\u3088\u308A\u8A73\u7D30\u306A\u8A2D\u5B9A\u304C\u3067\u304D\u307E\u3059\u3002",
+  guide: "\u30C9\u30E9\u30C3\u30B0\u3057\u3066\u79FB\u52D5\u3001\u30B9\u30AF\u30ED\u30FC\u30EB\u307E\u305F\u306F\u30D4\u30F3\u30C1\u3067\u30BA\u30FC\u30E0\u30A4\u30F3/\u30A2\u30A6\u30C8\u3001\u30C0\u30D6\u30EB\u30AF\u30EA\u30C3\u30AF\u3067\u30EA\u30BB\u30C3\u30C8\u3002",
+  copyNotAllowed: "pdf\u5F62\u5F0F\u306F\u30B3\u30D4\u30FC\u3092\u30B5\u30DD\u30FC\u30C8\u3057\u3066\u3044\u307E\u305B\u3093",
+  exportAll: "\u9078\u629E\u3057\u305F\u30CE\u30FC\u30C8\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8",
+  noMarkdownFile: "\u73FE\u5728\u306E\u30C7\u30A3\u30EC\u30AF\u30C8\u30EA\u306B\u30DE\u30FC\u30AF\u30C0\u30A6\u30F3\u30D5\u30A1\u30A4\u30EB\u304C\u3042\u308A\u307E\u305B\u3093",
+  selectAll: "\u3059\u3079\u3066\u9078\u629E",
+  setting: {
+    title: "\u753B\u50CF\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8",
+    imageWidth: {
+      label: "\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3055\u308C\u308B\u753B\u50CF\u306E\u30C7\u30D5\u30A9\u30EB\u30C8\u5E45",
+      description: "\u30D4\u30AF\u30BB\u30EB\u5358\u4F4D\u3067\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3055\u308C\u308B\u753B\u50CF\u306E\u5E45\u3092\u8A2D\u5B9A\u3057\u307E\u3059\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u306F640px\u3067\u3059\u3002"
+    },
+    filename: {
+      label: "\u30D5\u30A1\u30A4\u30EB\u540D\u3092\u30BF\u30A4\u30C8\u30EB\u3068\u3057\u3066\u542B\u3080",
+      description: "\u30D5\u30A1\u30A4\u30EB\u540D\u3092\u30BF\u30A4\u30C8\u30EB\u3068\u3057\u3066\u542B\u3080\u304B\u3069\u3046\u304B\u3092\u8A2D\u5B9A\u3057\u307E\u3059\u3002Obsidian\u304C\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\u3092\u8868\u793A\u3059\u308B\u6642\u3001\u30D5\u30A1\u30A4\u30EB\u540D\u3092h1\u30BF\u30A4\u30C8\u30EB\u3068\u3057\u3066\u8868\u793A\u3057\u307E\u3059\u3002\u3053\u308C\u306F\u671B\u307E\u3057\u304F\u306A\u3044\u5834\u5408\u3082\u3042\u308A\u3001\u30BF\u30A4\u30C8\u30EB\u304C\u91CD\u8907\u3059\u308B\u3053\u3068\u304C\u3042\u308A\u307E\u3059\u3002"
+    },
+    "2x": {
+      label: "2\u500D\u306E\u89E3\u50CF\u5EA6\u306E\u753B\u50CF\u3092\u6709\u52B9\u306B\u3059\u308B",
+      description: "2\u500D\u306E\u89E3\u50CF\u5EA6\u306E\u753B\u50CF\u3092\u6709\u52B9\u306B\u3059\u308B\u304B\u3069\u3046\u304B\u3092\u8A2D\u5B9A\u3057\u307E\u3059\u30022\u500D\u306E\u89E3\u50CF\u5EA6\u306E\u753B\u50CF\u306F\u3088\u308A\u9BAE\u660E\u306B\u898B\u3048\u3001\u9AD8PPI\u306E\u753B\u9762\uFF08\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3\u306A\u3069\uFF09\u3067\u3088\u308A\u826F\u3044\u4F53\u9A13\u3092\u63D0\u4F9B\u3057\u307E\u3059\u3002\u305F\u3060\u3057\u3001\u753B\u50CF\u306E\u30D5\u30A1\u30A4\u30EB\u30B5\u30A4\u30BA\u304C\u5927\u304D\u304F\u306A\u308B\u3068\u3044\u3046\u30C7\u30E1\u30EA\u30C3\u30C8\u304C\u3042\u308A\u307E\u3059\u3002"
+    },
+    metadata: {
+      label: "\u30E1\u30BF\u30C7\u30FC\u30BF\u3092\u8868\u793A"
+    },
+    format: {
+      title: "\u51FA\u529B\u30D5\u30A1\u30A4\u30EB\u5F62\u5F0F",
+      description: "\u30C7\u30D5\u30A9\u30EB\u30C8\u306EPNG\u5F62\u5F0F\u306E\u753B\u50CF\u3067\u307B\u3068\u3093\u3069\u306E\u30CB\u30FC\u30BA\u3092\u6E80\u305F\u3059\u306F\u305A\u3067\u3059\u304C\u3001\u30E6\u30FC\u30B6\u30FC\u30B7\u30CA\u30EA\u30AA\u3092\u3088\u308A\u826F\u304F\u30B5\u30DD\u30FC\u30C8\u3059\u308B\u305F\u3081\u306B\uFF1A1. \u901A\u5E38\u306E\u80CC\u666F\u304A\u3088\u3073\u900F\u660E\u80CC\u666F\u306E\u753B\u50CF\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3059\u308B\u30B5\u30DD\u30FC\u30C8\uFF1B2. JPG\u753B\u50CF\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3057\u3066\u30D5\u30A1\u30A4\u30EB\u30B5\u30A4\u30BA\u3092\u5C0F\u3055\u304F\u3059\u308B\u30B5\u30DD\u30FC\u30C8\u3001\u305F\u3060\u3057\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9\u306B\u76F4\u63A5\u30B3\u30D4\u30FC\u3059\u308B\u3053\u3068\u306F\u3067\u304D\u306A\u3044\u304B\u3082\u3057\u308C\u307E\u305B\u3093\uFF1B3. \u5358\u4E00\u30DA\u30FC\u30B8\u306EPDF\u5F62\u5F0F\u306B\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3059\u308B\u30B5\u30DD\u30FC\u30C8\u3001\u901A\u5E38\u306EPDF\u7D19\u306E\u5F62\u5F0F\u3068\u306F\u7570\u306A\u308A\u307E\u3059\u306E\u3067\u3001\u8AA4\u7528\u3057\u306A\u3044\u3088\u3046\u306B\u6CE8\u610F\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
+      png0: ".png - \u30C7\u30D5\u30A9\u30EB\u30C8",
+      png1: ".png - \u900F\u660E\u306A\u80CC\u666F\u306E\u753B\u50CF",
+      jpg: ".jpg - jpg\u5F62\u5F0F\u306E\u753B\u50CF",
+      pdf: ".pdf - \u5358\u4E00\u30DA\u30FC\u30B8\u306EPDF"
+    },
+    userInfo: {
+      title: "\u8457\u8005\u60C5\u5831",
+      show: "\u8457\u8005\u60C5\u5831\u3092\u8868\u793A",
+      avatar: {
+        title: "\u30A2\u30D0\u30BF\u30FC",
+        description: "\u6B63\u65B9\u5F62\u306E\u753B\u50CF\u306E\u4F7F\u7528\u3092\u63A8\u5968"
+      },
+      name: "\u8457\u8005\u540D",
+      position: "\u8868\u793A\u4F4D\u7F6E",
+      remark: "\u8FFD\u52A0\u30C6\u30AD\u30B9\u30C8",
+      align: "\u914D\u7F6E",
+      removeAvatar: "\u30A2\u30D0\u30BF\u30FC\u3092\u524A\u9664"
+    },
+    watermark: {
+      title: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF",
+      enable: {
+        label: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u3092\u6709\u52B9\u306B\u3059\u308B",
+        description: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u3092\u6709\u52B9\u306B\u3059\u308B\u3001\u30C6\u30AD\u30B9\u30C8\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u3068\u753B\u50CF\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u3092\u30B5\u30DD\u30FC\u30C8\u3002"
+      },
+      type: {
+        label: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u30BF\u30A4\u30D7",
+        description: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u30BF\u30A4\u30D7\u3092\u8A2D\u5B9A\u3057\u307E\u3059\u3001\u30C6\u30AD\u30B9\u30C8\u307E\u305F\u306F\u753B\u50CF\u3002",
+        text: "\u30C6\u30AD\u30B9\u30C8",
+        image: "\u753B\u50CF"
+      },
+      text: {
+        content: "\u30C6\u30AD\u30B9\u30C8\u306E\u5185\u5BB9",
+        fontSize: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u30D5\u30A9\u30F3\u30C8\u30B5\u30A4\u30BA",
+        color: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u30C6\u30AD\u30B9\u30C8\u8272"
+      },
+      image: {
+        src: {
+          label: "\u753B\u50CFURL",
+          upload: "\u753B\u50CF\u3092\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9",
+          select: "\u30DC\u30FC\u30EB\u30C8\u304B\u3089\u9078\u629E"
+        }
+      },
+      opacity: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u4E0D\u900F\u660E\u5EA6\uFF080\u306F\u900F\u660E\u30011\u306F\u4E0D\u900F\u660E\uFF09",
+      rotate: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u56DE\u8EE2\uFF08\u5EA6\u5358\u4F4D\uFF09",
+      width: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u5E45",
+      height: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u9AD8\u3055",
+      x: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u6C34\u5E73\u65B9\u5411\u306E\u9593\u9694",
+      y: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u306E\u5782\u76F4\u65B9\u5411\u306E\u9593\u9694"
+    },
+    preview: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DE\u30FC\u30AF\u30D7\u30EC\u30D3\u30E5\u30FC",
+    reset: "\u30C7\u30D5\u30A9\u30EB\u30C8\u306B\u30EA\u30BB\u30C3\u30C8",
+    recursive: "\u30B5\u30D6\u30C7\u30A3\u30EC\u30AF\u30C8\u30EA\u306E\u30CE\u30FC\u30C8\u3092\u542B\u3080"
+  },
+  imageSelect: {
+    search: "\u691C\u7D22",
+    select: "\u9078\u629E",
+    cancel: "\u30AD\u30E3\u30F3\u30BB\u30EB",
+    empty: "\u753B\u50CF\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093"
+  }
+};
+var ja_default = ja;
+
+// src/i18n/ko/index.ts
+var ko = {
+  // TODO: 여기에 번역을 삽입하세요
+  command: "\uC774\uBBF8\uC9C0\uB85C \uB0B4\uBCF4\uB0B4\uAE30",
+  noActiveFile: "\uBA3C\uC800 \uBB38\uC11C\uB97C \uC5F4\uC5B4\uC8FC\uC138\uC694!",
+  imageExportPreview: "\uC774\uBBF8\uC9C0 \uB0B4\uBCF4\uB0B4\uAE30 \uBBF8\uB9AC\uBCF4\uAE30",
+  copiedSuccess: "\uD074\uB9BD\uBCF4\uB4DC\uC5D0 \uBCF5\uC0AC\uB428",
+  copy: "\uD074\uB9BD\uBCF4\uB4DC\uC5D0 \uBCF5\uC0AC\uD558\uAE30",
+  copyFail: "\uBCF5\uC0AC \uC2E4\uD328",
+  notAllowCopy: "{format} \uD615\uC2DD\uC744 \uC9C1\uC811 \uBCF5\uC0AC\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4",
+  save: "\uC774\uBBF8\uC9C0 \uC800\uC7A5\uD558\uAE30",
+  saveSuccess: "\uC774\uBBF8\uC9C0\uAC00 {filePath: string} \uC73C\uB85C \uB0B4\uBCF4\uB0B4\uACE0 \uC800\uC7A5\uB418\uC5C8\uC2B5\uB2C8\uB2E4.",
+  saveFail: "\uC774\uBBF8\uC9C0 \uC800\uC7A5 \uC2E4\uD328",
+  saveVault: "\uBCFC\uD2B8\uC5D0 \uC800\uC7A5\uD558\uAE30",
+  includingFilename: "\uD30C\uC77C \uC774\uB984\uC744 \uC81C\uBAA9\uC73C\uB85C \uD3EC\uD568\uC2DC\uD0A4\uAE30",
+  imageWidth: "\uC774\uBBF8\uC9C0 \uB108\uBE44",
+  exportImage: "\uC774\uBBF8\uC9C0\uB85C \uB0B4\uBCF4\uB0B4\uAE30",
+  exportSelectionImage: "\uC120\uD0DD \uC601\uC5ED\uC744 \uC774\uBBF8\uC9C0\uB85C \uB0B4\uBCF4\uB0B4\uAE30",
+  exportFolder: "\uBAA8\uB4E0 \uB178\uD2B8\uB97C \uC774\uBBF8\uC9C0\uB85C \uB0B4\uBCF4\uB0B4\uAE30",
+  invalidWidth: "\uC801\uC808\uD55C \uC22B\uC790\uB85C \uB108\uBE44\uB97C \uC124\uC815\uD574 \uC8FC\uC138\uC694.",
+  "2x": "2\uBC30 \uD574\uC0C1\uB3C4 \uC774\uBBF8\uC9C0 \uD65C\uC131\uD654",
+  moreSetting: "`\uC774\uBBF8\uC9C0\uB85C \uB0B4\uBCF4\uB0B4\uAE30` \uD50C\uB7EC\uADF8\uC778 \uC124\uC815\uC5D0\uC11C \uB354 \uC790\uC138\uD55C \uC124\uC815\uC744 \uCC3E\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+  guide: "\uC774\uB3D9\uD558\uB824\uBA74 \uB4DC\uB798\uADF8\uD558\uACE0, \uD655\uB300/\uCD95\uC18C\uD558\uB824\uBA74 \uC2A4\uD06C\uB864\uD558\uAC70\uB098 \uD540\uCE58\uD558\uC138\uC694, \uB354\uBE14 \uD074\uB9AD\uC73C\uB85C \uCD08\uAE30\uD654\uD569\uB2C8\uB2E4.",
+  copyNotAllowed: "pdf \uD615\uC2DD\uC740 \uBCF5\uC0AC\uB97C \uC9C0\uC6D0\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4",
+  exportAll: "\uC120\uD0DD\uB41C \uB178\uD2B8 \uB0B4\uBCF4\uB0B4\uAE30",
+  noMarkdownFile: "\uD604\uC7AC \uB514\uB809\uD1A0\uB9AC\uC5D0 \uB9C8\uD06C\uB2E4\uC6B4 \uD30C\uC77C\uC774 \uC5C6\uC2B5\uB2C8\uB2E4",
+  selectAll: "\uC804\uCCB4 \uC120\uD0DD",
+  setting: {
+    title: "\uC774\uBBF8\uC9C0\uB85C \uB0B4\uBCF4\uB0B4\uAE30",
+    imageWidth: {
+      label: "\uB0B4\uBCF4\uB0BC \uC774\uBBF8\uC9C0\uC758 \uAE30\uBCF8 \uB108\uBE44",
+      description: "\uD53D\uC140 \uB2E8\uC704\uB85C \uB0B4\uBCF4\uB0BC \uC774\uBBF8\uC9C0\uC758 \uB108\uBE44\uB97C \uC124\uC815\uD558\uC2ED\uC2DC\uC624. \uAE30\uBCF8\uAC12\uC740 640px\uC785\uB2C8\uB2E4."
+    },
+    filename: {
+      label: "\uD30C\uC77C \uC774\uB984\uC744 \uC81C\uBAA9\uC73C\uB85C \uD3EC\uD568",
+      description: "\uD30C\uC77C \uC774\uB984\uC744 \uC81C\uBAA9\uC73C\uB85C \uD3EC\uD568\uD560\uC9C0 \uC5EC\uBD80\uB97C \uC124\uC815\uD569\uB2C8\uB2E4. Obsidian\uC774 \uBB38\uC11C\uB97C \uD45C\uC2DC\uD560 \uB54C \uD30C\uC77C \uC774\uB984\uC744 h1 \uC81C\uBAA9\uC73C\uB85C \uD45C\uC2DC\uD569\uB2C8\uB2E4. \uB54C\uB54C\uB85C \uC774\uAC83\uC740 \uC6D0\uD558\uC9C0 \uC54A\uB294 \uAC83\uC77C \uC218 \uC788\uC73C\uBA70 \uC81C\uBAA9\uC774 \uC911\uBCF5\uB420 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    },
+    "2x": {
+      label: "2\uBC30 \uD574\uC0C1\uB3C4 \uC774\uBBF8\uC9C0 \uD65C\uC131\uD654",
+      description: "2\uBC30 \uD574\uC0C1\uB3C4 \uC774\uBBF8\uC9C0\uB97C \uD65C\uC131\uD654\uD560\uC9C0 \uC5EC\uBD80\uB97C \uC124\uC815\uD569\uB2C8\uB2E4. 2\uBC30 \uD574\uC0C1\uB3C4\uC758 \uC774\uBBF8\uC9C0\uB294 \uB354 \uC120\uBA85\uD574 \uBCF4\uC774\uACE0, \uC608\uB97C \uB4E4\uC5B4 \uC2A4\uB9C8\uD2B8\uD3F0\uACFC \uAC19\uC740 \uACE0PPI \uD654\uBA74\uC5D0\uC11C \uB354 \uB098\uC740 \uACBD\uD5D8\uC744 \uC81C\uACF5\uD569\uB2C8\uB2E4. \uADF8\uB7EC\uB098 \uB2E8\uC810\uC740 \uC774\uBBF8\uC9C0 \uD30C\uC77C \uD06C\uAE30\uAC00 \uB354 \uD06C\uB2E4\uB294 \uAC83\uC785\uB2C8\uB2E4."
+    },
+    metadata: {
+      label: "\uBA54\uD0C0\uB370\uC774\uD130 \uD45C\uC2DC"
+    },
+    format: {
+      title: "\uCD9C\uB825 \uD30C\uC77C \uD615\uC2DD",
+      description: "\uAE30\uBCF8 PNG \uD615\uC2DD \uC774\uBBF8\uC9C0\uB294 \uB300\uBD80\uBD84\uC758 \uC694\uAD6C\uB97C \uCDA9\uC871\uD574\uC57C \uD558\uC9C0\uB9CC \uC0AC\uC6A9\uC790 \uC2DC\uB098\uB9AC\uC624\uB97C \uB354 \uC798 \uC9C0\uC6D0\uD558\uAE30 \uC704\uD574: 1. \uC77C\uBC18 \uBC0F \uD22C\uBA85 \uBC30\uACBD\uC758 \uC774\uBBF8\uC9C0 \uB0B4\uBCF4\uB0B4\uAE30 \uC9C0\uC6D0; 2. JPG \uC774\uBBF8\uC9C0\uB97C \uB0B4\uBCF4\uB0B4\uC5B4 \uD30C\uC77C \uD06C\uAE30\uB97C \uC904\uC774\uB294 \uC9C0\uC6D0, \uD074\uB9BD\uBCF4\uB4DC\uC5D0 \uC9C1\uC811 \uBCF5\uC0AC\uD560 \uC218\uB294 \uC5C6\uC744 \uC218\uB3C4 \uC788\uC74C; 3. \uC77C\uBC18\uC801\uC778 PDF \uC6A9\uC9C0 \uD615\uC2DD\uACFC \uB2E4\uB978 \uB2E8\uC77C \uD398\uC774\uC9C0 PDF \uD615\uC2DD\uC73C\uB85C \uB0B4\uBCF4\uB0B4\uAE30 \uC9C0\uC6D0, \uC798\uBABB \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uB3C4\uB85D \uC8FC\uC758\uD574 \uC8FC\uC2ED\uC2DC\uC624.",
+      png0: ".png - \uAE30\uBCF8",
+      png1: ".png - \uD22C\uBA85 \uBC30\uACBD \uC774\uBBF8\uC9C0",
+      jpg: ".jpg - jpg \uD615\uC2DD \uC774\uBBF8\uC9C0",
+      pdf: ".pdf - \uB2E8\uC77C \uD398\uC774\uC9C0 PDF"
+    },
+    userInfo: {
+      title: "\uC791\uC131\uC790 \uC815\uBCF4",
+      show: "\uC791\uC131\uC790 \uC815\uBCF4 \uD45C\uC2DC",
+      avatar: {
+        title: "\uC544\uBC14\uD0C0",
+        description: "\uC815\uC0AC\uAC01\uD615 \uC774\uBBF8\uC9C0 \uC0AC\uC6A9\uC744 \uAD8C\uC7A5\uD569\uB2C8\uB2E4"
+      },
+      name: "\uC791\uC131\uC790 \uC774\uB984",
+      position: "\uD45C\uC2DC \uC704\uCE58",
+      remark: "\uCD94\uAC00 \uD14D\uC2A4\uD2B8",
+      align: "\uC815\uB82C",
+      removeAvatar: "\uC544\uBC14\uD0C0 \uC81C\uAC70"
+    },
+    watermark: {
+      title: "\uC6CC\uD130\uB9C8\uD06C",
+      enable: {
+        label: "\uC6CC\uD130\uB9C8\uD06C \uD65C\uC131\uD654",
+        description: "\uC6CC\uD130\uB9C8\uD06C\uB97C \uD65C\uC131\uD654\uD558\uBA70, \uD14D\uC2A4\uD2B8 \uBC0F \uC774\uBBF8\uC9C0 \uC6CC\uD130\uB9C8\uD06C\uB97C \uC9C0\uC6D0\uD569\uB2C8\uB2E4."
+      },
+      type: {
+        label: "\uC6CC\uD130\uB9C8\uD06C \uC720\uD615",
+        description: "\uC6CC\uD130\uB9C8\uD06C \uC720\uD615\uC744 \uC124\uC815\uD569\uB2C8\uB2E4, \uD14D\uC2A4\uD2B8 \uB610\uB294 \uC774\uBBF8\uC9C0.",
+        text: "\uD14D\uC2A4\uD2B8",
+        image: "\uC774\uBBF8\uC9C0"
+      },
+      text: {
+        content: "\uD14D\uC2A4\uD2B8 \uB0B4\uC6A9",
+        fontSize: "\uC6CC\uD130\uB9C8\uD06C \uAE00\uAF34 \uD06C\uAE30",
+        color: "\uC6CC\uD130\uB9C8\uD06C \uD14D\uC2A4\uD2B8 \uC0C9\uC0C1"
+      },
+      image: {
+        src: {
+          label: "\uC774\uBBF8\uC9C0 URL",
+          upload: "\uC774\uBBF8\uC9C0 \uC5C5\uB85C\uB4DC",
+          select: "\uBCFC\uD2B8\uC5D0\uC11C \uC120\uD0DD"
+        }
+      },
+      opacity: "\uC6CC\uD130\uB9C8\uD06C \uD22C\uBA85\uB3C4 (0\uC740 \uD22C\uBA85, 1\uC740 \uBD88\uD22C\uBA85)",
+      rotate: "\uC6CC\uD130\uB9C8\uD06C \uD68C\uC804 (\uB3C4 \uB2E8\uC704)",
+      width: "\uC6CC\uD130\uB9C8\uD06C \uB108\uBE44",
+      height: "\uC6CC\uD130\uB9C8\uD06C \uB192\uC774",
+      x: "\uC6CC\uD130\uB9C8\uD06C\uC758 \uC218\uD3C9 \uAC04\uACA9",
+      y: "\uC6CC\uD130\uB9C8\uD06C\uC758 \uC218\uC9C1 \uAC04\uACA9"
+    },
+    preview: "\uC6CC\uD130\uB9C8\uD06C \uBBF8\uB9AC\uBCF4\uAE30",
+    reset: "\uAE30\uBCF8\uAC12\uC73C\uB85C \uC7AC\uC124\uC815",
+    recursive: "\uD558\uC704 \uB514\uB809\uD1A0\uB9AC\uC758 \uB178\uD2B8 \uD3EC\uD568"
+  },
+  imageSelect: {
+    search: "\uAC80\uC0C9",
+    select: "\uC120\uD0DD",
+    cancel: "\uCDE8\uC18C",
+    empty: "\uC774\uBBF8\uC9C0\uB97C \uCC3E\uC744 \uC218 \uC5C6\uC74C"
+  }
+};
+var ko_default = ko;
+
+// src/i18n/ms/index.ts
+var ms = {
+  command: "Eksport sebagai imej",
+  noActiveFile: "Sila buka artikel terlebih dahulu!",
+  imageExportPreview: "Pratonton Eksport Imej",
+  copiedSuccess: "Disalin ke papan keratan",
+  copy: "Salin ke Papan Keratan",
+  copyFail: "Gagal menyalin",
+  notAllowCopy: "Tidak boleh menyalin format {format} secara langsung",
+  save: "Simpan Imej",
+  saveSuccess: "Imej telah dieksport dan disimpan sebagai {filePath: string}.",
+  saveFail: "Gagal menyimpan imej",
+  saveVault: "Simpan ke Vault",
+  includingFilename: "Termasuk Nama Fail Sebagai Tajuk",
+  imageWidth: "Lebar Imej",
+  exportImage: "Eksport sebagai imej",
+  exportSelectionImage: "Eksport pilihan sebagai imej",
+  exportFolder: "Eksport semua nota sebagai imej",
+  invalidWidth: "Sila tetapkan lebar dengan angka yang munasabah.",
+  "2x": "Aktifkan imej resolusi 2x",
+  moreSetting: "Seting lebih terperinci boleh didapati dalam tetapan plugin `Eksport Imej`.",
+  guide: "Seret untuk Bergerak, gulir atau cubit untuk zoom masuk/keluar, klik dua kali untuk menetapkan semula.",
+  copyNotAllowed: "format pdf tidak disokong untuk disalin",
+  exportAll: "Eksport Nota Terpilih",
+  noMarkdownFile: "Tiada fail markdown dalam direktori semasa",
+  selectAll: "Pilih Semua",
+  setting: {
+    title: "Eksport Imej",
+    imageWidth: {
+      label: "Lebar Imej Eksport Lalai",
+      description: "Tetapkan lebar imej yang dieksport dalam piksel. Lalai adalah 640px."
+    },
+    filename: {
+      label: "Termasuk Nama Fail Sebagai Tajuk",
+      description: "Tetapkan sama ada untuk menyertakan nama fail sebagai tajuk. Apabila Obsidian memaparkan dokumen, ia akan menunjukkan nama fail sebagai tajuk h1. Kadangkala ini bukan apa yang anda mahu, dan anda akan mendapatkan tajuk berganda."
+    },
+    "2x": {
+      label: "Aktifkan imej resolusi 2x",
+      description: "Tetapkan sama ada untuk mengaktifkan imej resolusi 2x. Imej dengan resolusi 2x akan kelihatan lebih tajam dan menyediakan pengalaman yang lebih baik pada skrin PPI tinggi, seperti pada telefon pintar. Walau bagaimanapun, kelemahannya adalah saiz fail imej lebih besar."
+    },
+    metadata: {
+      label: "Papar Metadata"
+    },
+    format: {
+      title: "Format Fail Output",
+      description: "Imej format PNG lalai seharusnya memenuhi kebanyakan keperluan, tetapi untuk menyokong skenario pengguna lebih baik: 1. Sokongan untuk mengeksport imej dengan latar belakang normal dan telus; 2. Sokongan untuk mengeksport imej JPG untuk mencapai saiz fail yang lebih kecil, walaupun mungkin tidak dapat disalin langsung ke papan keratan; 3. Sokongan untuk mengeksport ke format PDF satu halaman, yang berbeza dari format kertas PDF biasa, sila berhati-hati untuk tidak salah guna.",
+      png0: ".png - lalai",
+      png1: ".png - imej dengan latar belakang telus",
+      jpg: ".jpg - imej format jpg",
+      pdf: ".pdf - PDF satu halaman"
+    },
+    userInfo: {
+      title: "Info Penulis",
+      show: "Papar Info Penulis",
+      avatar: {
+        title: "Avatar",
+        description: "Menggunakan gambar persegi disarankan"
+      },
+      name: "Nama Penulis",
+      position: "Di mana untuk dipaparkan",
+      remark: "Teks tambahan",
+      align: "Menyelaraskan",
+      removeAvatar: "Buang Avatar"
+    },
+    watermark: {
+      title: "Watermark",
+      enable: {
+        label: "Aktifkan watermark",
+        description: "Aktifkan watermark, menyokong watermark teks dan imej."
+      },
+      type: {
+        label: "Jenis Watermark",
+        description: "Tetapkan jenis watermark, teks atau imej.",
+        text: "Teks",
+        image: "Imej"
+      },
+      text: {
+        content: "Kandungan Teks",
+        fontSize: "Saiz Fon Watermark",
+        color: "Warna Teks Watermark"
+      },
+      image: {
+        src: {
+          label: "URL Imej",
+          upload: "Muat Naik Imej",
+          select: "Pilih dari Vault"
+        }
+      },
+      opacity: "Ketelapan Watermark (0 telus, 1 tidak telus)",
+      rotate: "Putaran Watermark (dalam darjah)",
+      width: "Lebar Watermark",
+      height: "Tinggi Watermark",
+      x: "Jarak mendatar Watermark",
+      y: "Jarak menegak Watermark"
+    },
+    preview: "Pratonton Watermark",
+    reset: "Tetapkan Semula ke Lalai",
+    recursive: "Masukkan nota dari subdirektori"
+  },
+  imageSelect: {
+    search: "Cari",
+    select: "Pilih",
+    cancel: "Batal",
+    empty: "Tiada imej ditemui"
+  }
+};
+var ms_default = ms;
+
+// src/i18n/nl/index.ts
+var nl = {
+  // TODO: Voeg hier je vertalingen toe
+  command: "Exporteren als afbeelding",
+  noActiveFile: "Open eerst een artikel!",
+  imageExportPreview: "Voorbeeld van afbeeldingsexport",
+  copiedSuccess: "Gekopieerd naar klembord",
+  copy: "Kopieer naar klembord",
+  copyFail: "Kopi\xEBren mislukt",
+  notAllowCopy: "Kan {format} formaat niet direct kopi\xEBren",
+  save: "Afbeelding Opslaan",
+  saveSuccess: "Afbeelding ge\xEBxporteerd en opgeslagen als {filePath: string}.",
+  saveFail: "Afbeelding opslaan mislukt",
+  saveVault: "Opslaan in kluis",
+  includingFilename: "Inclusief bestandsnaam als titel",
+  imageWidth: "Afbeelding breedte",
+  exportImage: "Exporteren als afbeelding",
+  exportSelectionImage: "Selectie exporteren als afbeelding",
+  exportFolder: "Alle notities exporteren als afbeelding",
+  invalidWidth: "Stel de breedte in met een redelijk nummer.",
+  "2x": "Activeer afbeelding met 2x resolutie",
+  moreSetting: "Meer gedetailleerde instellingen zijn te vinden in de `Exporteer afbeelding` plugin-instellingen.",
+  guide: "Sleep om te bewegen, scroll of knijp om in/uit te zoomen, dubbelklik om te resetten.",
+  copyNotAllowed: "pdf formaat wordt niet ondersteund voor kopi\xEBren",
+  exportAll: "Geselecteerde notities exporteren",
+  noMarkdownFile: "Geen markdown bestanden in de huidige map",
+  selectAll: "Alles selecteren",
+  setting: {
+    title: "Afbeelding exporteren",
+    imageWidth: {
+      label: "Standaard ge\xEBxporteerde afbeeldingsbreedte",
+      description: "Stel de breedte van de ge\xEBxporteerde afbeelding in pixels in. De standaard is 640px."
+    },
+    filename: {
+      label: "Bestandsnaam als titel opnemen",
+      description: "Stel in of de bestandsnaam moet worden opgenomen als titel. Wanneer Obsidian het document weergeeft, wordt de bestandsnaam weergegeven als een h1 titel. Soms is dit niet wat je wilt, en krijg je dubbele titels."
+    },
+    "2x": {
+      label: "Activeer afbeelding met 2x resolutie",
+      description: "Stel in of de afbeelding met 2x resolutie moet worden ingeschakeld. Afbeeldingen met 2x resolutie zien er scherper uit en bieden een betere ervaring op schermen met hoge PPI, zoals die van smartphones. Het nadeel is echter dat de bestandsgrootte van de afbeeldingen groter is."
+    },
+    metadata: {
+      label: "Metadata weergeven"
+    },
+    format: {
+      title: "Uitvoerbestandsformaat",
+      description: "Standaard PNG-formaatafbeeldingen zouden aan de meeste behoeften moeten voldoen, maar om beter gebruikersscenario's te ondersteunen: 1. Ondersteuning voor het exporteren van afbeeldingen met zowel normale als transparante achtergronden; 2. Ondersteuning voor het exporteren van JPG-afbeeldingen om kleinere bestandsgroottes te bereiken, hoewel het misschien niet mogelijk is om direct naar het klembord te kopi\xEBren; 3. Ondersteuning voor het exporteren naar PDF-formaat met \xE9\xE9n pagina, wat verschilt van de gebruikelijke PDF-papierformaten, let op dat u het niet verkeerd gebruikt.",
+      png0: ".png - standaard",
+      png1: ".png - afbeelding met transparante achtergrond",
+      jpg: ".jpg - JPG-formaat afbeelding",
+      pdf: ".pdf - enkele pagina PDF"
+    },
+    userInfo: {
+      title: "Auteursinformatie",
+      show: "Auteursinformatie weergeven",
+      avatar: {
+        title: "Avatar",
+        description: "Het gebruik van vierkante afbeeldingen wordt aanbevolen"
+      },
+      name: "Auteursnaam",
+      position: "Waar te tonen",
+      remark: "Extra tekst",
+      align: "Uitlijnen",
+      removeAvatar: "Avatar verwijderen"
+    },
+    watermark: {
+      title: "Watermerk",
+      enable: {
+        label: "Watermerk inschakelen",
+        description: "Schakel watermerk in, ondersteunt tekst- en afbeeldingwatermerken."
+      },
+      type: {
+        label: "Type watermerk",
+        description: "Stel het type watermerk in, tekst of afbeelding.",
+        text: "Tekst",
+        image: "Afbeelding"
+      },
+      text: {
+        content: "Tekstinhoud",
+        fontSize: "Lettergrootte van watermerk",
+        color: "Tekstkleur van watermerk"
+      },
+      image: {
+        src: {
+          label: "Afbeeldings-URL",
+          upload: "Afbeelding uploaden",
+          select: "Selecteer uit kluis"
+        }
+      },
+      opacity: "Doorzichtigheid van watermerk (0 is transparant, 1 is niet transparant)",
+      rotate: "Rotatie van watermerk (in graden)",
+      width: "Breedte van watermerk",
+      height: "Hoogte van watermerk",
+      x: "Horizontale afstand van watermerk",
+      y: "Verticale afstand van watermerk"
+    },
+    preview: "Voorbeeld van watermerk",
+    reset: "Reset naar standaard",
+    recursive: "Notities uit submappen insluiten"
+  },
+  imageSelect: {
+    search: "Zoeken",
+    select: "Selecteren",
+    cancel: "Annuleren",
+    empty: "Geen afbeeldingen gevonden"
+  }
+};
+var nl_default = nl;
+
+// src/i18n/no/index.ts
+var no = {
+  command: "Eksporter som bilde",
+  noActiveFile: "Vennligst \xE5pne en artikkel f\xF8rst!",
+  imageExportPreview: "Forh\xE5ndsvisning av bildeeksport",
+  copiedSuccess: "Kopiert til utklippstavlen",
+  copy: "Kopier til utklippstavlen",
+  copyFail: "Klarte ikke \xE5 kopiere",
+  notAllowCopy: "Kan ikke kopiere {format} formatet direkte",
+  save: "Lagre bilde",
+  saveSuccess: "Bildet er eksportert og lagret som {filePath: string}.",
+  saveFail: "Kunne ikke lagre bildet",
+  saveVault: "Lagre i hvelv",
+  includingFilename: "Inkluderer filnavn som tittel",
+  imageWidth: "Bildebredde",
+  exportImage: "Eksporter til bilde",
+  exportSelectionImage: "Eksporter utvalg til bilde",
+  exportFolder: "Eksporter alle notater til bilde",
+  invalidWidth: "Vennligst sett bredden til et rimelig tall.",
+  "2x": "Aktiver bilde med 2x oppl\xF8sning",
+  moreSetting: "Mer detaljerte innstillinger finnes i `Eksporter bilde` plugin-innstillinger.",
+  guide: "Dra for \xE5 flytte, rull eller knip for \xE5 zoome inn/ut, dobbeltklikk for \xE5 tilbakestille.",
+  copyNotAllowed: "pdf formatet st\xF8ttes ikke for kopiering",
+  exportAll: "Eksporter valgte notater",
+  noMarkdownFile: "Ingen markdown-filer i gjeldende katalog",
+  selectAll: "Velg alle",
+  setting: {
+    title: "Eksporter bilde",
+    imageWidth: {
+      label: "Standard eksportbredde for bilde",
+      description: "Angi bredden p\xE5 det eksporterte bildet i piksler. Standarden er 640px."
+    },
+    filename: {
+      label: "Inkluder filnavn som tittel",
+      description: "Angi om filnavnet skal inkluderes som tittel. N\xE5r Obsidian viser dokumentet, vises filnavnet som en h1 tittel. Noen ganger er dette ikke \xF8nsket, og du vil f\xE5 dupliserte titler."
+    },
+    "2x": {
+      label: "Aktiver bilde med 2x oppl\xF8sning",
+      description: "Angi om bildet med 2x oppl\xF8sning skal aktiveres. Bilder med 2x oppl\xF8sning vil se skarpere ut og gi en bedre opplevelse p\xE5 h\xF8y PPI-skjermer, som de p\xE5 smarttelefoner. Ulempen er imidlertid at filst\xF8rrelsen p\xE5 bildene er st\xF8rre."
+    },
+    metadata: {
+      label: "Vis metadata"
+    },
+    format: {
+      title: "Utg\xE5ende filformat",
+      description: "Standard PNG-formatbilder b\xF8r tilfredsstille de fleste behov, men for bedre \xE5 st\xF8tte brukerscenarier: 1. St\xF8tte for \xE5 eksportere bilder med b\xE5de normal og gjennomsiktig bakgrunn; 2. St\xF8tte for \xE5 eksportere JPG-bilder for \xE5 oppn\xE5 mindre filst\xF8rrelser, selv om det kanskje ikke er mulig \xE5 kopiere direkte til utklippstavlen; 3. St\xF8tte for eksport til enkelt-side PDF-format, som er forskjellig fra de vanlige PDF-papirformatene, v\xE6r forsiktig s\xE5 du ikke misbruker.",
+      png0: ".png - standard",
+      png1: ".png - bilde med gjennomsiktig bakgrunn",
+      jpg: ".jpg - JPG-formatbilde",
+      pdf: ".pdf - enkeltside PDF"
+    },
+    userInfo: {
+      title: "Forfatterinformasjon",
+      show: "Vis forfatterinformasjon",
+      avatar: {
+        title: "Avatar",
+        description: "Det anbefales \xE5 bruke kvadratiske bilder"
+      },
+      name: "Forfatternavn",
+      position: "Hvor det skal vises",
+      remark: "Ekstra tekst",
+      align: "Justering",
+      removeAvatar: "Fjern avatar"
+    },
+    watermark: {
+      title: "Vannmerke",
+      enable: {
+        label: "Aktiver vannmerke",
+        description: "Aktiver vannmerke, st\xF8tter tekst- og bildevannmerker."
+      },
+      type: {
+        label: "Type vannmerke",
+        description: "Sett typen av vannmerke, tekst eller bilde.",
+        text: "Tekst",
+        image: "Bilde"
+      },
+      text: {
+        content: "Tekstinnhold",
+        fontSize: "Vannmerke fontst\xF8rrelse",
+        color: "Vannmerketekstfarge"
+      },
+      image: {
+        src: {
+          label: "Bilde URL",
+          upload: "Last opp bilde",
+          select: "Velg fra hvelv"
+        }
+      },
+      opacity: "Vannmerkets opasitet (0 er gjennomsiktig, 1 er ikke gjennomsiktig)",
+      rotate: "Vannmerkerotasjon (i grader)",
+      width: "Vannmerkebredde",
+      height: "Vannmerkeh\xF8yde",
+      x: "Vannmerkets horisontale avstand",
+      y: "Vannmerkets vertikale avstand"
+    },
+    preview: "Forh\xE5ndsvisning av vannmerke",
+    reset: "Tilbakestill til standard",
+    recursive: "Inkluder notater fra undermapper"
+  },
+  imageSelect: {
+    search: "S\xF8k",
+    select: "Velg",
+    cancel: "Avbryt",
+    empty: "Ingen bilder funnet"
+  }
+};
+var no_default = no;
+
+// src/i18n/pl/index.ts
+var pl = {
+  command: "Eksportuj jako obraz",
+  noActiveFile: "Najpierw otw\xF3rz artyku\u0142!",
+  imageExportPreview: "Podgl\u0105d eksportu obrazu",
+  copiedSuccess: "Skopiowano do schowka",
+  copy: "Kopiuj do schowka",
+  copyFail: "Nie uda\u0142o si\u0119 skopiowa\u0107",
+  notAllowCopy: "Nie mo\u017Cna bezpo\u015Brednio skopiowa\u0107 formatu {format}",
+  save: "Zapisz obraz",
+  saveSuccess: "Obraz zosta\u0142 wyeksportowany i zapisany jako {filePath: string}.",
+  saveFail: "Nie uda\u0142o si\u0119 zapisa\u0107 obrazu",
+  saveVault: "Zapisz w sejfie",
+  includingFilename: "W\u0142\u0105cznie z nazw\u0105 pliku jako tytu\u0142em",
+  imageWidth: "Szeroko\u015B\u0107 obrazu",
+  exportImage: "Eksportuj do obrazu",
+  exportSelectionImage: "Eksportuj wyb\xF3r do obrazu",
+  exportFolder: "Eksportuj wszystkie notatki do obrazu",
+  invalidWidth: "Prosz\u0119 ustawi\u0107 szeroko\u015B\u0107 na rozs\u0105dn\u0105 liczb\u0119.",
+  "2x": "W\u0142\u0105cz obraz o rozdzielczo\u015Bci 2x",
+  moreSetting: "Wi\u0119cej szczeg\xF3\u0142owych ustawie\u0144 mo\u017Cna znale\u017A\u0107 w ustawieniach wtyczki \u201EEksport obrazu\u201D.",
+  guide: "Przeci\u0105gnij, aby przesun\u0105\u0107, przewi\u0144 lub zaci\u015Bnij, aby przybli\u017Cy\u0107/oddali\u0107, podw\xF3jne klikni\u0119cie, aby zresetowa\u0107.",
+  copyNotAllowed: "format pdf nie jest obs\u0142ugiwany do kopiowania",
+  exportAll: "Eksportuj wybrane notatki",
+  noMarkdownFile: "Brak plik\xF3w markdown w bie\u017C\u0105cym katalogu",
+  selectAll: "Zaznacz wszystko",
+  setting: {
+    title: "Eksport obrazu",
+    imageWidth: {
+      label: "Domy\u015Blna szeroko\u015B\u0107 eksportowanego obrazu",
+      description: "Ustaw szeroko\u015B\u0107 eksportowanego obrazu w pikselach. Domy\u015Blnie jest 640px."
+    },
+    filename: {
+      label: "Do\u0142\u0105cz nazw\u0119 pliku jako tytu\u0142",
+      description: "Ustaw, czy nazwa pliku powinna by\u0107 uwzgl\u0119dniona jako tytu\u0142. Gdy Obsidian wy\u015Bwietla dokument, wy\u015Bwietla nazw\u0119 pliku jako tytu\u0142 h1. Czasami nie jest to po\u017C\u0105dane i mo\u017Cesz otrzyma\u0107 zduplikowane tytu\u0142y."
+    },
+    "2x": {
+      label: "W\u0142\u0105cz obraz o rozdzielczo\u015Bci 2x",
+      description: "Ustaw, czy obraz o rozdzielczo\u015Bci 2x ma by\u0107 w\u0142\u0105czony. Obrazy o rozdzielczo\u015Bci 2x wygl\u0105daj\u0105 ostrzej i zapewniaj\u0105 lepsze do\u015Bwiadczenie na ekranach o wysokiej PPI, takich jak te w smartfonach. Jednak wad\u0105 jest wi\u0119kszy rozmiar pliku obraz\xF3w."
+    },
+    metadata: {
+      label: "Poka\u017C metadane"
+    },
+    format: {
+      title: "Format pliku wyj\u015Bciowego",
+      description: "Domy\u015Blne obrazy w formacie PNG powinny zaspokoi\u0107 wi\u0119kszo\u015B\u0107 potrzeb, ale aby lepiej wspiera\u0107 scenariusze u\u017Cytkownik\xF3w: 1. Wsparcie dla eksportowania obraz\xF3w z normalnym i przezroczystym t\u0142em; 2. Wsparcie dla eksportowania obraz\xF3w JPG, aby osi\u0105gn\u0105\u0107 mniejsze rozmiary plik\xF3w, cho\u0107 mo\u017Ce nie by\u0107 mo\u017Cliwe bezpo\u015Brednie kopiowanie do schowka; 3. Wsparcie dla eksportowania do formatu PDF jednostronicowego, kt\xF3ry r\xF3\u017Cni si\u0119 od zwyk\u0142ych format\xF3w papierowych PDF, prosz\u0119 uwa\u017Ca\u0107, aby nie nadu\u017Cywa\u0107.",
+      png0: ".png - domy\u015Blny",
+      png1: ".png - obraz z przezroczystym t\u0142em",
+      jpg: ".jpg - obraz w formacie jpg",
+      pdf: ".pdf - jednostronicowy PDF"
+    },
+    userInfo: {
+      title: "Informacje o autorze",
+      show: "Poka\u017C informacje o autorze",
+      avatar: {
+        title: "Awatar",
+        description: "Zaleca si\u0119 u\u017Cywanie zdj\u0119\u0107 kwadratowych"
+      },
+      name: "Nazwa autora",
+      position: "Gdzie wy\u015Bwietli\u0107",
+      remark: "Dodatkowy tekst",
+      align: "Wyr\xF3wnaj",
+      removeAvatar: "Usu\u0144 awatar"
+    },
+    watermark: {
+      title: "Znak wodny",
+      enable: {
+        label: "W\u0142\u0105cz znak wodny",
+        description: "W\u0142\u0105cz znak wodny, obs\u0142uguje znaki wodne tekstowe i obrazkowe."
+      },
+      type: {
+        label: "Typ znaku wodnego",
+        description: "Ustaw typ znaku wodnego, tekst lub obraz.",
+        text: "Tekst",
+        image: "Obraz"
+      },
+      text: {
+        content: "Tre\u015B\u0107 tekstu",
+        fontSize: "Rozmiar czcionki znaku wodnego",
+        color: "Kolor tekstu znaku wodnego"
+      },
+      image: {
+        src: {
+          label: "URL obrazu",
+          upload: "Prze\u015Blij obraz",
+          select: "Wybierz z sejfu"
+        }
+      },
+      opacity: "Przezroczysto\u015B\u0107 znaku wodnego (0 jest przezroczysty, 1 nieprzezroczysty)",
+      rotate: "Obr\xF3t znaku wodnego (w stopniach)",
+      width: "Szeroko\u015B\u0107 znaku wodnego",
+      height: "Wysoko\u015B\u0107 znaku wodnego",
+      x: "Poziome odst\u0119py znaku wodnego",
+      y: "Pionowe odst\u0119py znaku wodnego"
+    },
+    preview: "Podgl\u0105d znaku wodnego",
+    reset: "Resetuj do domy\u015Blnych",
+    recursive: "Do\u0142\u0105cz notatki z podkatalog\xF3w"
+  },
+  imageSelect: {
+    search: "Szukaj",
+    select: "Wybierz",
+    cancel: "Anuluj",
+    empty: "Nie znaleziono obraz\xF3w"
+  }
+};
+var pl_default = pl;
+
+// src/i18n/pt/index.ts
+var pt = {
+  // TODO: Insira suas traduções aqui
+  command: "Exportar como imagem",
+  noActiveFile: "Por favor, abra um artigo primeiro!",
+  imageExportPreview: "Pr\xE9-visualiza\xE7\xE3o da Exporta\xE7\xE3o de Imagem",
+  copiedSuccess: "Copiado para a \xE1rea de transfer\xEAncia",
+  copy: "Copiar para a \xE1rea de transfer\xEAncia",
+  copyFail: "Falha ao copiar",
+  notAllowCopy: "N\xE3o \xE9 poss\xEDvel copiar diretamente o formato {format}",
+  save: "Salvar Imagem",
+  saveSuccess: "Imagem exportada e salva como {filePath: string}.",
+  saveFail: "Falha ao salvar a imagem",
+  saveVault: "Salvar no Cofre",
+  includingFilename: "Incluindo o Nome do Arquivo Como T\xEDtulo",
+  imageWidth: "Largura da Imagem",
+  exportImage: "Exportar para imagem",
+  exportSelectionImage: "Exportar sele\xE7\xE3o para imagem",
+  exportFolder: "Exportar todas as notas para imagem",
+  invalidWidth: "Por favor, defina a largura com um n\xFAmero razo\xE1vel.",
+  "2x": "Ativar imagem com resolu\xE7\xE3o 2x",
+  moreSetting: "Configura\xE7\xF5es mais detalhadas podem ser encontradas nas configura\xE7\xF5es do plugin `Exportar Imagem`.",
+  guide: "Arraste para mover, role ou belisque para ampliar/reduzir, clique duas vezes para redefinir.",
+  copyNotAllowed: "formato pdf n\xE3o \xE9 suportado para c\xF3pia",
+  exportAll: "Exportar Notas Selecionadas",
+  noMarkdownFile: "Nenhum arquivo markdown no diret\xF3rio atual",
+  selectAll: "Selecionar Tudo",
+  setting: {
+    title: "Exportar Imagem",
+    imageWidth: {
+      label: "Largura padr\xE3o da imagem exportada",
+      description: "Defina a largura da imagem exportada em pixels. O padr\xE3o \xE9 640px."
+    },
+    filename: {
+      label: "Incluir nome do arquivo como t\xEDtulo",
+      description: "Defina se o nome do arquivo deve ser inclu\xEDdo como t\xEDtulo. Quando o Obsidian exibe o documento, ele mostra o nome do arquivo como um t\xEDtulo h1. \xC0s vezes, isso n\xE3o \xE9 desejado e voc\xEA ter\xE1 t\xEDtulos duplicados."
+    },
+    "2x": {
+      label: "Ativar imagem com resolu\xE7\xE3o 2x",
+      description: "Defina se a imagem com resolu\xE7\xE3o 2x deve ser ativada. Imagens com resolu\xE7\xE3o 2x parecer\xE3o mais n\xEDtidas e fornecer\xE3o uma melhor experi\xEAncia em telas de alta PPI, como as de smartphones. No entanto, o lado negativo \xE9 que o tamanho do arquivo das imagens \xE9 maior."
+    },
+    metadata: {
+      label: "Mostrar metadados"
+    },
+    format: {
+      title: "Formato do arquivo de sa\xEDda",
+      description: "Imagens no formato PNG padr\xE3o devem satisfazer a maioria das necessidades, mas para apoiar melhor os cen\xE1rios dos usu\xE1rios: 1. Suporte para exporta\xE7\xE3o de imagens com fundos normais e transparentes; 2. Suporte para exportar imagens em formato JPG para alcan\xE7ar tamanhos de arquivo menores, embora possa n\xE3o ser poss\xEDvel copi\xE1-las diretamente para a \xE1rea de transfer\xEAncia; 3. Suporte para exportar para formato PDF de uma \xFAnica p\xE1gina, que difere dos formatos de papel PDF usuais, por favor, tenha cuidado para n\xE3o usar de maneira errada.",
+      png0: ".png - padr\xE3o",
+      png1: ".png - imagem com fundo transparente",
+      jpg: ".jpg - imagem em formato jpg",
+      pdf: ".pdf - PDF de uma \xFAnica p\xE1gina"
+    },
+    userInfo: {
+      title: "Informa\xE7\xE3o do Autor",
+      show: "Mostrar informa\xE7\xE3o do autor",
+      avatar: {
+        title: "Avatar",
+        description: "Recomenda-se usar imagens quadradas"
+      },
+      name: "Nome do autor",
+      position: "Onde exibir",
+      remark: "Texto extra",
+      align: "Alinhar",
+      removeAvatar: "Remover avatar"
+    },
+    watermark: {
+      title: "Marca d'\xE1gua",
+      enable: {
+        label: "Ativar marca d'\xE1gua",
+        description: "Ativar marca d'\xE1gua, suporta marcas d'\xE1gua de texto e imagem."
+      },
+      type: {
+        label: "Tipo de marca d'\xE1gua",
+        description: "Defina o tipo de marca d'\xE1gua, texto ou imagem.",
+        text: "Texto",
+        image: "Imagem"
+      },
+      text: {
+        content: "Conte\xFAdo do texto",
+        fontSize: "Tamanho da fonte da marca d'\xE1gua",
+        color: "Cor do texto da marca d'\xE1gua"
+      },
+      image: {
+        src: {
+          label: "URL da imagem",
+          upload: "Carregar imagem",
+          select: "Selecionar do Cofre"
+        }
+      },
+      opacity: "Opacidade da marca d'\xE1gua (0 \xE9 transparente, 1 \xE9 opaco)",
+      rotate: "Rota\xE7\xE3o da marca d'\xE1gua (em graus)",
+      width: "Largura da marca d'\xE1gua",
+      height: "Altura da marca d'\xE1gua",
+      x: "Espa\xE7amento horizontal da marca d'\xE1gua",
+      y: "Espa\xE7amento vertical da marca d'\xE1gua"
+    },
+    preview: "Pr\xE9-visualiza\xE7\xE3o da marca d'\xE1gua",
+    reset: "Redefinir para o padr\xE3o",
+    recursive: "Incluir notas de subdiret\xF3rios"
+  },
+  imageSelect: {
+    search: "Pesquisar",
+    select: "Selecionar",
+    cancel: "Cancelar",
+    empty: "Nenhuma imagem encontrada"
+  }
+};
+var pt_default = pt;
+
+// src/i18n/ro/index.ts
+var ro = {
+  // TODO: Introduceți traducerile dvs. aici
+  command: "Export\u0103 ca imagine",
+  noActiveFile: "V\u0103 rug\u0103m s\u0103 deschide\u021Bi mai \xEEnt\xE2i un articol!",
+  imageExportPreview: "Previzualizare export imagine",
+  copiedSuccess: "Copiat \xEEn clipboard",
+  copy: "Copiaz\u0103 \xEEn clipboard",
+  copyFail: "Copiere e\u0219uat\u0103",
+  notAllowCopy: "Nu se poate copia direct formatul {format}",
+  save: "Salveaz\u0103 imaginea",
+  saveSuccess: "Imaginea a fost exportat\u0103 \u0219i salvat\u0103 ca {filePath: string}.",
+  saveFail: "Salvare imagine e\u0219uat\u0103",
+  saveVault: "Salveaz\u0103 \xEEn Vault",
+  includingFilename: "Includere nume fi\u0219ier ca titlu",
+  imageWidth: "L\u0103\u021Bime imagine",
+  exportImage: "Export\u0103 ca imagine",
+  exportSelectionImage: "Export\u0103 selec\u021Bia ca imagine",
+  exportFolder: "Export\u0103 toate notele ca imagine",
+  invalidWidth: "V\u0103 rug\u0103m s\u0103 seta\u021Bi l\u0103\u021Bimea la un num\u0103r rezonabil.",
+  "2x": "Activeaz\u0103 imaginea cu rezolu\u021Bie 2x",
+  moreSetting: "Set\u0103ri mai detaliate pot fi g\u0103site \xEEn set\u0103rile pluginului `Export\u0103 imagine`.",
+  guide: "Trage\u021Bi pentru a muta, derula\u021Bi sau ciupi\u021Bi pentru zoom, face\u021Bi dublu clic pentru a reseta.",
+  copyNotAllowed: "formatul pdf nu este suportat pentru copiere",
+  exportAll: "Export\u0103 notele selectate",
+  noMarkdownFile: "Niciun fi\u0219ier markdown \xEEn directorul curent",
+  selectAll: "Selecteaz\u0103 tot",
+  setting: {
+    title: "Export\u0103 imagine",
+    imageWidth: {
+      label: "L\u0103\u021Bimea implicit\u0103 a imaginii exportate",
+      description: "Seteaz\u0103 l\u0103\u021Bimea imaginii exportate \xEEn pixeli. Implicit este 640px."
+    },
+    filename: {
+      label: "Include numele de fi\u0219ier ca titlu",
+      description: "Seteaz\u0103 dac\u0103 numele fi\u0219ierului trebuie inclus ca titlu. C\xE2nd Obsidian afi\u0219eaz\u0103 documentul, afi\u0219eaz\u0103 numele fi\u0219ierului ca un titlu h1. Uneori acest lucru nu este dorit \u0219i ve\u021Bi ob\u021Bine titluri duplicate."
+    },
+    "2x": {
+      label: "Activeaz\u0103 imaginea cu rezolu\u021Bie 2x",
+      description: "Seteaz\u0103 dac\u0103 imaginea cu rezolu\u021Bie 2x trebuie activat\u0103. Imaginile cu rezolu\u021Bie 2x vor ap\u0103rea mai clare \u0219i ofer\u0103 o experien\u021B\u0103 mai bun\u0103 pe ecranele cu PPI ridicat, cum ar fi cele de pe smartphone-uri. Cu toate acestea, dezavantajul este c\u0103 m\u0103rimea fi\u0219ierului de imagine este mai mare."
+    },
+    metadata: {
+      label: "Afi\u0219eaz\u0103 metadatele"
+    },
+    format: {
+      title: "Formatul fi\u0219ierului de ie\u0219ire",
+      description: "Imaginile \xEEn format PNG implicit ar trebui s\u0103 satisfac\u0103 majoritatea nevoilor, dar pentru a sus\u021Bine mai bine scenariile utilizatorilor: 1. Suport pentru exportul imaginilor cu fundaluri normale \u0219i transparente; 2. Suport pentru exportul imaginilor JPG pentru a ob\u021Bine dimensiuni mai mici ale fi\u0219ierului, de\u0219i s-ar putea s\u0103 nu fie posibil\u0103 copierea direct\u0103 \xEEn clipboard; 3. Suport pentru exportul \xEEn format PDF de o singur\u0103 pagin\u0103, care difer\u0103 de formatele de h\xE2rtie PDF obi\u0219nuite, v\u0103 rug\u0103m s\u0103 fi\u021Bi aten\u021Bi s\u0103 nu-l utiliza\u021Bi incorect.",
+      png0: ".png - implicit",
+      png1: ".png - imagine cu fundal transparent",
+      jpg: ".jpg - imagine \xEEn format jpg",
+      pdf: ".pdf - PDF de o singur\u0103 pagin\u0103"
+    },
+    userInfo: {
+      title: "Informa\u021Bii autor",
+      show: "Arat\u0103 informa\u021Biile autorului",
+      avatar: {
+        title: "Avatar",
+        description: "Se recomand\u0103 utilizarea imaginilor p\u0103trate"
+      },
+      name: "Numele autorului",
+      position: "Unde s\u0103 afi\u0219eze",
+      remark: "Text suplimentar",
+      align: "Alinia\u021Bi",
+      removeAvatar: "Elimin\u0103 avatarul"
+    },
+    watermark: {
+      title: "Filigran",
+      enable: {
+        label: "Activeaz\u0103 filigranul",
+        description: "Activeaz\u0103 filigranul, suport\u0103 filigrane text \u0219i imagine."
+      },
+      type: {
+        label: "Tipul de filigran",
+        description: "Seteaz\u0103 tipul de filigran, text sau imagine.",
+        text: "Text",
+        image: "Imagine"
+      },
+      text: {
+        content: "Con\u021Binutul textului",
+        fontSize: "Dimensiunea fontului filigranului",
+        color: "Culoarea textului filigranului"
+      },
+      image: {
+        src: {
+          label: "URL imagine",
+          upload: "\xCEncarc\u0103 imagine",
+          select: "Selecteaz\u0103 din Vault"
+        }
+      },
+      opacity: "Opacitatea filigranului (0 este transparent, 1 nu este transparent)",
+      rotate: "Rota\u021Bia filigranului (\xEEn grade)",
+      width: "L\u0103\u021Bimea filigranului",
+      height: "\xCEn\u0103l\u021Bimea filigranului",
+      x: "Distan\u021Ba orizontal\u0103 a filigranului",
+      y: "Distan\u021Ba vertical\u0103 a filigranului"
+    },
+    preview: "Previzualizare filigran",
+    reset: "Resetare la implicit",
+    recursive: "Include note din subdirectoare"
+  },
+  imageSelect: {
+    search: "Caut\u0103",
+    select: "Selecteaz\u0103",
+    cancel: "Anuleaz\u0103",
+    empty: "Nicio imagine g\u0103sit\u0103"
+  }
+};
+var ro_default = ro;
+
+// src/i18n/ru/index.ts
+var ru = {
+  command: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043A\u0430\u043A \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
+  noActiveFile: "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0441\u043D\u0430\u0447\u0430\u043B\u0430 \u043E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0441\u0442\u0430\u0442\u044C\u044E!",
+  imageExportPreview: "\u041F\u0440\u0435\u0434\u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
+  copiedSuccess: "\u0421\u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u043D\u043E \u0432 \u0431\u0443\u0444\u0435\u0440 \u043E\u0431\u043C\u0435\u043D\u0430",
+  copy: "\u041A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0432 \u0431\u0443\u0444\u0435\u0440 \u043E\u0431\u043C\u0435\u043D\u0430",
+  copyFail: "\u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0441\u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C",
+  notAllowCopy: "\u041D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E \u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0444\u043E\u0440\u043C\u0430\u0442 {format}",
+  save: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
+  saveSuccess: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043E \u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u043E \u043A\u0430\u043A {filePath: string}.",
+  saveFail: "\u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
+  saveVault: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0432 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435",
+  includingFilename: "\u0412\u043A\u043B\u044E\u0447\u0430\u044F \u0438\u043C\u044F \u0444\u0430\u0439\u043B\u0430 \u0432 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0430",
+  imageWidth: "\u0428\u0438\u0440\u0438\u043D\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
+  exportImage: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0432 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
+  exportSelectionImage: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u043E\u0435 \u0432 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
+  exportFolder: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0432\u0441\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u0432 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
+  invalidWidth: "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u0448\u0438\u0440\u0438\u043D\u0443 \u0432 \u0440\u0430\u0437\u0443\u043C\u043D\u043E\u043C \u0447\u0438\u0441\u043B\u0435.",
+  "2x": "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435\u043C 2x",
+  moreSetting: "\u0411\u043E\u043B\u0435\u0435 \u0434\u0435\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043C\u043E\u0436\u043D\u043E \u043D\u0430\u0439\u0442\u0438 \u0432 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430\u0445 \u043F\u043B\u0430\u0433\u0438\u043D\u0430 `\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F`.",
+  guide: "\u041F\u0435\u0440\u0435\u0442\u0430\u0441\u043A\u0438\u0432\u0430\u0439\u0442\u0435 \u0434\u043B\u044F \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F, \u043F\u0440\u043E\u043A\u0440\u0443\u0447\u0438\u0432\u0430\u0439\u0442\u0435 \u0438\u043B\u0438 \u0441\u0436\u0438\u043C\u0430\u0439\u0442\u0435 \u0434\u043B\u044F \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F, \u0434\u0432\u0430\u0436\u0434\u044B \u0449\u0435\u043B\u043A\u043D\u0438\u0442\u0435 \u0434\u043B\u044F \u0441\u0431\u0440\u043E\u0441\u0430.",
+  copyNotAllowed: "\u0424\u043E\u0440\u043C\u0430\u0442 pdf \u043D\u0435 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u0434\u043B\u044F \u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F",
+  exportAll: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u044B\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438",
+  noMarkdownFile: "\u0412 \u0442\u0435\u043A\u0443\u0449\u0435\u043C \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u0435 \u043D\u0435\u0442 \u0444\u0430\u0439\u043B\u043E\u0432 markdown",
+  selectAll: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0432\u0441\u0435",
+  setting: {
+    title: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
+    imageWidth: {
+      label: "\u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0430\u044F \u0448\u0438\u0440\u0438\u043D\u0430 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u0443\u0435\u043C\u043E\u0433\u043E \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
+      description: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u0448\u0438\u0440\u0438\u043D\u0443 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u0443\u0435\u043C\u043E\u0433\u043E \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432 \u043F\u0438\u043A\u0441\u0435\u043B\u044F\u0445. \u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E 640px."
+    },
+    filename: {
+      label: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0438\u043C\u044F \u0444\u0430\u0439\u043B\u0430 \u0432 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0430",
+      description: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435, \u0441\u043B\u0435\u0434\u0443\u0435\u0442 \u043B\u0438 \u0432\u043A\u043B\u044E\u0447\u0430\u0442\u044C \u0438\u043C\u044F \u0444\u0430\u0439\u043B\u0430 \u0432 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0430. \u041A\u043E\u0433\u0434\u0430 Obsidian \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442, \u043E\u043D \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442 \u0438\u043C\u044F \u0444\u0430\u0439\u043B\u0430 \u0432 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0430 h1. \u0418\u043D\u043E\u0433\u0434\u0430 \u044D\u0442\u043E \u043D\u0435 \u0442\u043E, \u0447\u0442\u043E \u0432\u044B \u0445\u043E\u0442\u0438\u0442\u0435, \u0438 \u0432\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0435 \u0434\u0443\u0431\u043B\u0438\u0440\u0443\u044E\u0449\u0438\u0435\u0441\u044F \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0438."
+    },
+    "2x": {
+      label: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435\u043C 2x",
+      description: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435, \u0441\u043B\u0435\u0434\u0443\u0435\u0442 \u043B\u0438 \u0432\u043A\u043B\u044E\u0447\u0430\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435\u043C 2x. \u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435\u043C 2x \u0431\u0443\u0434\u0443\u0442 \u0432\u044B\u0433\u043B\u044F\u0434\u0435\u0442\u044C \u0431\u043E\u043B\u0435\u0435 \u0447\u0435\u0442\u043A\u0438\u043C\u0438 \u0438 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0430\u0442 \u043B\u0443\u0447\u0448\u0438\u0439 \u043E\u043F\u044B\u0442 \u043D\u0430 \u044D\u043A\u0440\u0430\u043D\u0430\u0445 \u0441 \u0432\u044B\u0441\u043E\u043A\u043E\u0439 PPI, \u0442\u0430\u043A\u0438\u0445 \u043A\u0430\u043A \u0441\u043C\u0430\u0440\u0442\u0444\u043E\u043D\u044B. \u041E\u0434\u043D\u0430\u043A\u043E \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u043A \u0437\u0430\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F \u0432 \u0442\u043E\u043C, \u0447\u0442\u043E \u0440\u0430\u0437\u043C\u0435\u0440 \u0444\u0430\u0439\u043B\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u0431\u0443\u0434\u0435\u0442 \u0431\u043E\u043B\u044C\u0448\u0435."
+    },
+    metadata: {
+      label: "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u043C\u0435\u0442\u0430\u0434\u0430\u043D\u043D\u044B\u0435"
+    },
+    format: {
+      title: "\u0424\u043E\u0440\u043C\u0430\u0442 \u0432\u044B\u0445\u043E\u0434\u043D\u043E\u0433\u043E \u0444\u0430\u0439\u043B\u0430",
+      description: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 PNG \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0434\u043E\u043B\u0436\u043D\u044B \u0443\u0434\u043E\u0432\u043B\u0435\u0442\u0432\u043E\u0440\u0438\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0438\u043D\u0441\u0442\u0432\u043E \u043F\u043E\u0442\u0440\u0435\u0431\u043D\u043E\u0441\u0442\u0435\u0439, \u043D\u043E \u0434\u043B\u044F \u043B\u0443\u0447\u0448\u0435\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0445 \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0435\u0432: 1. \u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u0441 \u043E\u0431\u044B\u0447\u043D\u044B\u043C\u0438 \u0438 \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u043C\u0438 \u0444\u043E\u043D\u0430\u043C\u0438; 2. \u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 JPG \u0434\u043B\u044F \u0443\u043C\u0435\u043D\u044C\u0448\u0435\u043D\u0438\u044F \u0440\u0430\u0437\u043C\u0435\u0440\u0430 \u0444\u0430\u0439\u043B\u0430, \u0445\u043E\u0442\u044F \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E, \u0447\u0442\u043E \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0431\u0443\u0434\u0435\u0442 \u0441\u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E \u0432 \u0431\u0443\u0444\u0435\u0440 \u043E\u0431\u043C\u0435\u043D\u0430; 3. \u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0430 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442 \u043E\u0434\u043D\u043E\u0441\u0442\u0440\u0430\u043D\u0438\u0447\u043D\u043E\u0433\u043E PDF, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043E\u0442\u043B\u0438\u0447\u0430\u0435\u0442\u0441\u044F \u043E\u0442 \u043E\u0431\u044B\u0447\u043D\u044B\u0445 \u0444\u043E\u0440\u043C\u0430\u0442\u043E\u0432 \u0431\u0443\u043C\u0430\u0433\u0438 PDF, \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0431\u0443\u0434\u044C\u0442\u0435 \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u044B, \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0435\u0433\u043E \u043D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E.",
+      png0: ".png - \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E",
+      png1: ".png - \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0441 \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u043C \u0444\u043E\u043D\u043E\u043C",
+      jpg: ".jpg - \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 jpg",
+      pdf: ".pdf - \u043E\u0434\u043D\u043E\u0441\u0442\u0440\u0430\u043D\u0438\u0447\u043D\u044B\u0439 PDF"
+    },
+    userInfo: {
+      title: "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E\u0431 \u0430\u0432\u0442\u043E\u0440\u0435",
+      show: "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043E\u0431 \u0430\u0432\u0442\u043E\u0440\u0435",
+      avatar: {
+        title: "\u0410\u0432\u0430\u0442\u0430\u0440",
+        description: "\u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u043D\u044B\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F"
+      },
+      name: "\u0418\u043C\u044F \u0430\u0432\u0442\u043E\u0440\u0430",
+      position: "\u0413\u0434\u0435 \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0442\u044C",
+      remark: "\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442",
+      align: "\u0412\u044B\u0440\u043E\u0432\u043D\u044F\u0442\u044C",
+      removeAvatar: "\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0430\u0432\u0430\u0442\u0430\u0440"
+    },
+    watermark: {
+      title: "\u0412\u043E\u0434\u044F\u043D\u043E\u0439 \u0437\u043D\u0430\u043A",
+      enable: {
+        label: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0432\u043E\u0434\u044F\u043D\u043E\u0439 \u0437\u043D\u0430\u043A",
+        description: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0432\u043E\u0434\u044F\u043D\u043E\u0439 \u0437\u043D\u0430\u043A, \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0439 \u0438 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0447\u0435\u0441\u043A\u0438\u0439 \u0432\u043E\u0434\u044F\u043D\u044B\u0435 \u0437\u043D\u0430\u043A\u0438."
+      },
+      type: {
+        label: "\u0422\u0438\u043F \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430",
+        description: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u0442\u0438\u043F \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430, \u0442\u0435\u043A\u0441\u0442 \u0438\u043B\u0438 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435.",
+        text: "\u0422\u0435\u043A\u0441\u0442",
+        image: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435"
+      },
+      text: {
+        content: "\u0421\u043E\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435 \u0442\u0435\u043A\u0441\u0442\u0430",
+        fontSize: "\u0420\u0430\u0437\u043C\u0435\u0440 \u0448\u0440\u0438\u0444\u0442\u0430 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430",
+        color: "\u0426\u0432\u0435\u0442 \u0442\u0435\u043A\u0441\u0442\u0430 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430"
+      },
+      image: {
+        src: {
+          label: "URL \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
+          upload: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
+          select: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0438\u0437 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430"
+        }
+      },
+      opacity: "\u041F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u043E\u0441\u0442\u044C \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430 (0 \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u0439, 1 \u043D\u0435\u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u0439)",
+      rotate: "\u041F\u043E\u0432\u043E\u0440\u043E\u0442 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430 (\u0432 \u0433\u0440\u0430\u0434\u0443\u0441\u0430\u0445)",
+      width: "\u0428\u0438\u0440\u0438\u043D\u0430 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430",
+      height: "\u0412\u044B\u0441\u043E\u0442\u0430 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430",
+      x: "\u0413\u043E\u0440\u0438\u0437\u043E\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0435 \u0440\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430",
+      y: "\u0412\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u044C\u043D\u043E\u0435 \u0440\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430"
+    },
+    preview: "\u041F\u0440\u0435\u0434\u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u0432\u043E\u0434\u044F\u043D\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430",
+    reset: "\u0421\u0431\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E",
+    recursive: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u0438\u0437 \u043F\u043E\u0434\u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0438\u0439"
+  },
+  imageSelect: {
+    search: "\u041F\u043E\u0438\u0441\u043A",
+    select: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C",
+    cancel: "\u041E\u0442\u043C\u0435\u043D\u0430",
+    empty: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u044B"
+  }
+};
+var ru_default = ru;
+
 // src/i18n/zh/index.ts
 var zh = {
   command: "Export as an image\uFF08\u5BFC\u51FA\u4E3A\u56FE\u7247\uFF09",
@@ -30337,8 +32356,11 @@ var zh = {
   imageExportPreview: "\u56FE\u7247\u5BFC\u51FA\u9884\u89C8",
   copiedSuccess: "\u5DF2\u590D\u5236\u5230\u526A\u8D34\u677F",
   copy: "\u590D\u5236\u5230\u526A\u8D34\u677F",
+  copyFail: "\u590D\u5236\u5230\u526A\u8D34\u677F\u5931\u8D25",
+  notAllowCopy: "\u65E0\u6CD5\u76F4\u63A5\u590D\u5236 {format} \u683C\u5F0F",
   save: "\u4FDD\u5B58\u56FE\u7247",
   saveSuccess: "\u5DF2\u5BFC\u51FA\u5E76\u4FDD\u5B58\u56FE\u7247\u81F3 {filePath}\u3002",
+  saveFail: "\u4FDD\u5B58\u56FE\u7247\u5931\u8D25",
   saveVault: "\u4FDD\u5B58\u5230 vault",
   includingFilename: "\u5305\u542B\u6587\u4EF6\u540D\u4F5C\u4E3A\u6807\u9898",
   imageWidth: "\u56FE\u7247\u5BBD\u5EA6",
@@ -30372,9 +32394,10 @@ var zh = {
     },
     format: {
       title: "\u8F93\u51FA\u6587\u4EF6\u683C\u5F0F",
-      description: "\u9ED8\u8BA4\u7684 jpg \u683C\u5F0F\u56FE\u7247\u5E94\u8BE5\u6EE1\u8DB3\u7EDD\u5927\u591A\u6570\u9700\u6C42\uFF0C\u4F46\u4E3A\u4E86\u4E00\u4E9B\u5B9A\u5236\u5316\u7684\u573A\u666F\uFF1A1. \u652F\u6301 png \u683C\u5F0F\u56FE\u7247\uFF0C\u4EE5\u8F93\u51FA\u900F\u660E\u80CC\u666F\u7684\u56FE\u7247\uFF1B2. \u652F\u6301\u5BFC\u51FA\u6210\u5355\u9875 pdf \u529F\u80FD\uFF0C\u8FD9\u4E0E\u901A\u5E38 pdf \u7684\u7EB8\u5F20\u683C\u5F0F\u4E0D\u540C\uFF0C\u8BF7\u6CE8\u610F\u4E0D\u8981\u8BEF\u7528\u3002",
-      jpg: "jpg - \u9ED8\u8BA4",
-      png: "png - \u5BFC\u51FA\u900F\u660E\u80CC\u666F\u7684\u56FE\u7247",
+      description: "\u9ED8\u8BA4\u7684 png \u683C\u5F0F\u56FE\u7247\u5E94\u8BE5\u6EE1\u8DB3\u7EDD\u5927\u591A\u6570\u9700\u6C42\uFF0C\u4F46\u4E3A\u4E86\u66F4\u597D\u5730\u652F\u6301\u7528\u6237\u573A\u666F\uFF1A1. \u652F\u6301\u5BFC\u51FA\u6B63\u5E38\u80CC\u666F\u4E0E\u900F\u660E\u80CC\u666F\u7684\uFF1B\u56FE\u7247\uFF1B2. \u652F\u6301\u5BFC\u51FA jpg \u56FE\u7247\u4EE5\u83B7\u5F97\u66F4\u5C0F\u7684\u56FE\u7247\u5927\u5C0F\uFF0C\u4F46\u53EF\u80FD\u65E0\u6CD5\u76F4\u63A5\u590D\u5236\u5230\u526A\u5207\u677F\uFF1B3. \u652F\u6301\u5BFC\u51FA\u6210\u5355\u9875 pdf \u529F\u80FD\uFF0C\u8FD9\u4E0E\u901A\u5E38 pdf \u7684\u7EB8\u5F20\u683C\u5F0F\u4E0D\u540C\uFF0C\u8BF7\u6CE8\u610F\u4E0D\u8981\u8BEF\u7528\u3002",
+      png0: "png - \u9ED8\u8BA4",
+      png1: "png - \u5BFC\u51FA\u900F\u660E\u80CC\u666F\u56FE\u7247",
+      jpg: "jpg - \u5BFC\u51FA jpg \u56FE\u7247",
       pdf: "pdf - \u5BFC\u51FA\u5355\u9875 pdf"
     },
     userInfo: {
@@ -30436,7 +32459,23 @@ var zh_default = zh;
 
 // src/i18n/i18n-util.sync.ts
 var localeTranslations = {
+  cs: cs_default,
+  da: da_default,
+  de: de_default,
   en: en_default,
+  es: es_default,
+  fr: fr_default,
+  hu: hu_default,
+  id: id_default,
+  ja: ja_default,
+  ko: ko_default,
+  ms: ms_default,
+  nl: nl_default,
+  no: no_default,
+  pl: pl_default,
+  pt: pt_default,
+  ro: ro_default,
+  ru: ru_default,
   zh: zh_default
 };
 var loadLocale = (locale2) => {
@@ -30452,11 +32491,1660 @@ var loadFormatters = (locale2) => void (loadedFormatters[locale2] = initFormatte
 loadAllLocales();
 var locale = "en";
 try {
-  locale = /^zh/.test(global?.i18next?.language || "") ? "zh" : "en";
-} catch (e4) {
+  locale = global?.i18next?.language || "";
+  if (locale.startsWith("zh")) {
+    locale = "zh";
+  }
+  if (!locales.includes(locale)) {
+    locale = baseLocale;
+  }
+} catch {
 }
 var L = i18n2()[locale];
 var L_default = L;
+
+// src/components/file/ModalContent.tsx
+var import_obsidian6 = require("obsidian");
+var import_react10 = __toESM(require_react());
+
+// node_modules/react-zoom-pan-pinch/dist/index.esm.js
+var import_react3 = __toESM(require_react());
+var roundNumber = function(num, decimal) {
+  return Number(num.toFixed(decimal));
+};
+var checkIsNumber = function(num, defaultValue) {
+  return typeof num === "number" ? num : defaultValue;
+};
+var handleCallback = function(context, event, callback) {
+  if (callback && typeof callback === "function") {
+    callback(context, event);
+  }
+};
+var easeOut = function(t5) {
+  return -Math.cos(t5 * Math.PI) / 2 + 0.5;
+};
+var linear = function(t5) {
+  return t5;
+};
+var easeInQuad = function(t5) {
+  return t5 * t5;
+};
+var easeOutQuad = function(t5) {
+  return t5 * (2 - t5);
+};
+var easeInOutQuad = function(t5) {
+  return t5 < 0.5 ? 2 * t5 * t5 : -1 + (4 - 2 * t5) * t5;
+};
+var easeInCubic = function(t5) {
+  return t5 * t5 * t5;
+};
+var easeOutCubic = function(t5) {
+  return --t5 * t5 * t5 + 1;
+};
+var easeInOutCubic = function(t5) {
+  return t5 < 0.5 ? 4 * t5 * t5 * t5 : (t5 - 1) * (2 * t5 - 2) * (2 * t5 - 2) + 1;
+};
+var easeInQuart = function(t5) {
+  return t5 * t5 * t5 * t5;
+};
+var easeOutQuart = function(t5) {
+  return 1 - --t5 * t5 * t5 * t5;
+};
+var easeInOutQuart = function(t5) {
+  return t5 < 0.5 ? 8 * t5 * t5 * t5 * t5 : 1 - 8 * --t5 * t5 * t5 * t5;
+};
+var easeInQuint = function(t5) {
+  return t5 * t5 * t5 * t5 * t5;
+};
+var easeOutQuint = function(t5) {
+  return 1 + --t5 * t5 * t5 * t5 * t5;
+};
+var easeInOutQuint = function(t5) {
+  return t5 < 0.5 ? 16 * t5 * t5 * t5 * t5 * t5 : 1 + 16 * --t5 * t5 * t5 * t5 * t5;
+};
+var animations = {
+  easeOut,
+  linear,
+  easeInQuad,
+  easeOutQuad,
+  easeInOutQuad,
+  easeInCubic,
+  easeOutCubic,
+  easeInOutCubic,
+  easeInQuart,
+  easeOutQuart,
+  easeInOutQuart,
+  easeInQuint,
+  easeOutQuint,
+  easeInOutQuint
+};
+var handleCancelAnimationFrame = function(animation) {
+  if (typeof animation === "number") {
+    cancelAnimationFrame(animation);
+  }
+};
+var handleCancelAnimation = function(contextInstance) {
+  if (!contextInstance.mounted)
+    return;
+  handleCancelAnimationFrame(contextInstance.animation);
+  contextInstance.animate = false;
+  contextInstance.animation = null;
+  contextInstance.velocity = null;
+};
+function handleSetupAnimation(contextInstance, animationName, animationTime, callback) {
+  if (!contextInstance.mounted)
+    return;
+  var startTime = (/* @__PURE__ */ new Date()).getTime();
+  var lastStep = 1;
+  handleCancelAnimation(contextInstance);
+  contextInstance.animation = function() {
+    if (!contextInstance.mounted) {
+      return handleCancelAnimationFrame(contextInstance.animation);
+    }
+    var frameTime = (/* @__PURE__ */ new Date()).getTime() - startTime;
+    var animationProgress = frameTime / animationTime;
+    var animationType = animations[animationName];
+    var step = animationType(animationProgress);
+    if (frameTime >= animationTime) {
+      callback(lastStep);
+      contextInstance.animation = null;
+    } else if (contextInstance.animation) {
+      callback(step);
+      requestAnimationFrame(contextInstance.animation);
+    }
+  };
+  requestAnimationFrame(contextInstance.animation);
+}
+function isValidTargetState(targetState) {
+  var scale = targetState.scale, positionX = targetState.positionX, positionY = targetState.positionY;
+  if (Number.isNaN(scale) || Number.isNaN(positionX) || Number.isNaN(positionY)) {
+    return false;
+  }
+  return true;
+}
+function animate(contextInstance, targetState, animationTime, animationName) {
+  var isValid = isValidTargetState(targetState);
+  if (!contextInstance.mounted || !isValid)
+    return;
+  var setTransformState = contextInstance.setTransformState;
+  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
+  var scaleDiff = targetState.scale - scale;
+  var positionXDiff = targetState.positionX - positionX;
+  var positionYDiff = targetState.positionY - positionY;
+  if (animationTime === 0) {
+    setTransformState(targetState.scale, targetState.positionX, targetState.positionY);
+  } else {
+    handleSetupAnimation(contextInstance, animationName, animationTime, function(step) {
+      var newScale = scale + scaleDiff * step;
+      var newPositionX = positionX + positionXDiff * step;
+      var newPositionY = positionY + positionYDiff * step;
+      setTransformState(newScale, newPositionX, newPositionY);
+    });
+  }
+}
+function getComponentsSizes(wrapperComponent, contentComponent, newScale) {
+  var wrapperWidth = wrapperComponent.offsetWidth;
+  var wrapperHeight = wrapperComponent.offsetHeight;
+  var contentWidth = contentComponent.offsetWidth;
+  var contentHeight = contentComponent.offsetHeight;
+  var newContentWidth = contentWidth * newScale;
+  var newContentHeight = contentHeight * newScale;
+  var newDiffWidth = wrapperWidth - newContentWidth;
+  var newDiffHeight = wrapperHeight - newContentHeight;
+  return {
+    wrapperWidth,
+    wrapperHeight,
+    newContentWidth,
+    newDiffWidth,
+    newContentHeight,
+    newDiffHeight
+  };
+}
+var getBounds = function(wrapperWidth, newContentWidth, diffWidth, wrapperHeight, newContentHeight, diffHeight, centerZoomedOut) {
+  var scaleWidthFactor = wrapperWidth > newContentWidth ? diffWidth * (centerZoomedOut ? 1 : 0.5) : 0;
+  var scaleHeightFactor = wrapperHeight > newContentHeight ? diffHeight * (centerZoomedOut ? 1 : 0.5) : 0;
+  var minPositionX = wrapperWidth - newContentWidth - scaleWidthFactor;
+  var maxPositionX = scaleWidthFactor;
+  var minPositionY = wrapperHeight - newContentHeight - scaleHeightFactor;
+  var maxPositionY = scaleHeightFactor;
+  return { minPositionX, maxPositionX, minPositionY, maxPositionY };
+};
+var calculateBounds = function(contextInstance, newScale) {
+  var wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
+  var centerZoomedOut = contextInstance.setup.centerZoomedOut;
+  if (!wrapperComponent || !contentComponent) {
+    throw new Error("Components are not mounted");
+  }
+  var _a2 = getComponentsSizes(wrapperComponent, contentComponent, newScale), wrapperWidth = _a2.wrapperWidth, wrapperHeight = _a2.wrapperHeight, newContentWidth = _a2.newContentWidth, newDiffWidth = _a2.newDiffWidth, newContentHeight = _a2.newContentHeight, newDiffHeight = _a2.newDiffHeight;
+  var bounds = getBounds(wrapperWidth, newContentWidth, newDiffWidth, wrapperHeight, newContentHeight, newDiffHeight, Boolean(centerZoomedOut));
+  return bounds;
+};
+var boundLimiter = function(value, minBound, maxBound, isActive) {
+  if (!isActive)
+    return roundNumber(value, 2);
+  if (value < minBound)
+    return roundNumber(minBound, 2);
+  if (value > maxBound)
+    return roundNumber(maxBound, 2);
+  return roundNumber(value, 2);
+};
+var handleCalculateBounds = function(contextInstance, newScale) {
+  var bounds = calculateBounds(contextInstance, newScale);
+  contextInstance.bounds = bounds;
+  return bounds;
+};
+function getMouseBoundedPosition(positionX, positionY, bounds, limitToBounds, paddingValueX, paddingValueY, wrapperComponent) {
+  var minPositionX = bounds.minPositionX, minPositionY = bounds.minPositionY, maxPositionX = bounds.maxPositionX, maxPositionY = bounds.maxPositionY;
+  var paddingX = 0;
+  var paddingY = 0;
+  if (wrapperComponent) {
+    paddingX = paddingValueX;
+    paddingY = paddingValueY;
+  }
+  var x2 = boundLimiter(positionX, minPositionX - paddingX, maxPositionX + paddingX, limitToBounds);
+  var y3 = boundLimiter(positionY, minPositionY - paddingY, maxPositionY + paddingY, limitToBounds);
+  return { x: x2, y: y3 };
+}
+function handleCalculateZoomPositions(contextInstance, mouseX, mouseY, newScale, bounds, limitToBounds) {
+  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
+  var scaleDifference = newScale - scale;
+  if (typeof mouseX !== "number" || typeof mouseY !== "number") {
+    console.error("Mouse X and Y position were not provided!");
+    return { x: positionX, y: positionY };
+  }
+  var calculatedPositionX = positionX - mouseX * scaleDifference;
+  var calculatedPositionY = positionY - mouseY * scaleDifference;
+  var newPositions = getMouseBoundedPosition(calculatedPositionX, calculatedPositionY, bounds, limitToBounds, 0, 0, null);
+  return newPositions;
+}
+function checkZoomBounds(zoom, minScale, maxScale, zoomPadding, enablePadding) {
+  var scalePadding = enablePadding ? zoomPadding : 0;
+  var minScaleWithPadding = minScale - scalePadding;
+  if (!Number.isNaN(maxScale) && zoom >= maxScale)
+    return maxScale;
+  if (!Number.isNaN(minScale) && zoom <= minScaleWithPadding)
+    return minScaleWithPadding;
+  return zoom;
+}
+var isPanningStartAllowed = function(contextInstance, event) {
+  var excluded = contextInstance.setup.panning.excluded;
+  var isInitialized = contextInstance.isInitialized, wrapperComponent = contextInstance.wrapperComponent;
+  var target = event.target;
+  var targetIsShadowDom = "shadowRoot" in target && "composedPath" in event;
+  var isWrapperChild = targetIsShadowDom ? event.composedPath().some(function(el) {
+    if (!(el instanceof Element)) {
+      return false;
+    }
+    return wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.contains(el);
+  }) : wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.contains(target);
+  var isAllowed = isInitialized && target && isWrapperChild;
+  if (!isAllowed)
+    return false;
+  var isExcluded = isExcludedNode(target, excluded);
+  if (isExcluded)
+    return false;
+  return true;
+};
+var isPanningAllowed = function(contextInstance) {
+  var isInitialized = contextInstance.isInitialized, isPanning = contextInstance.isPanning, setup = contextInstance.setup;
+  var disabled = setup.panning.disabled;
+  var isAllowed = isInitialized && isPanning && !disabled;
+  if (!isAllowed)
+    return false;
+  return true;
+};
+var handlePanningSetup = function(contextInstance, event) {
+  var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY;
+  contextInstance.isPanning = true;
+  var x2 = event.clientX;
+  var y3 = event.clientY;
+  contextInstance.startCoords = { x: x2 - positionX, y: y3 - positionY };
+};
+var handleTouchPanningSetup = function(contextInstance, event) {
+  var touches = event.touches;
+  var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY;
+  contextInstance.isPanning = true;
+  var oneFingerTouch = touches.length === 1;
+  if (oneFingerTouch) {
+    var x2 = touches[0].clientX;
+    var y3 = touches[0].clientY;
+    contextInstance.startCoords = { x: x2 - positionX, y: y3 - positionY };
+  }
+};
+function handlePanToBounds(contextInstance) {
+  var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY, scale = _a2.scale;
+  var _b2 = contextInstance.setup, disabled = _b2.disabled, limitToBounds = _b2.limitToBounds, centerZoomedOut = _b2.centerZoomedOut;
+  var wrapperComponent = contextInstance.wrapperComponent;
+  if (disabled || !wrapperComponent || !contextInstance.bounds)
+    return;
+  var _c = contextInstance.bounds, maxPositionX = _c.maxPositionX, minPositionX = _c.minPositionX, maxPositionY = _c.maxPositionY, minPositionY = _c.minPositionY;
+  var xChanged = positionX > maxPositionX || positionX < minPositionX;
+  var yChanged = positionY > maxPositionY || positionY < minPositionY;
+  var mousePosX = positionX > maxPositionX ? wrapperComponent.offsetWidth : contextInstance.setup.minPositionX || 0;
+  var mousePosY = positionY > maxPositionY ? wrapperComponent.offsetHeight : contextInstance.setup.minPositionY || 0;
+  var _d = handleCalculateZoomPositions(contextInstance, mousePosX, mousePosY, scale, contextInstance.bounds, limitToBounds || centerZoomedOut), x2 = _d.x, y3 = _d.y;
+  return {
+    scale,
+    positionX: xChanged ? x2 : positionX,
+    positionY: yChanged ? y3 : positionY
+  };
+}
+function handleNewPosition(contextInstance, newPositionX, newPositionY, paddingValueX, paddingValueY) {
+  var limitToBounds = contextInstance.setup.limitToBounds;
+  var wrapperComponent = contextInstance.wrapperComponent, bounds = contextInstance.bounds;
+  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
+  if (wrapperComponent === null || bounds === null || newPositionX === positionX && newPositionY === positionY) {
+    return;
+  }
+  var _b2 = getMouseBoundedPosition(newPositionX, newPositionY, bounds, limitToBounds, paddingValueX, paddingValueY, wrapperComponent), x2 = _b2.x, y3 = _b2.y;
+  contextInstance.setTransformState(scale, x2, y3);
+}
+var getPanningClientPosition = function(contextInstance, clientX, clientY) {
+  var startCoords = contextInstance.startCoords, transformState = contextInstance.transformState;
+  var panning = contextInstance.setup.panning;
+  var lockAxisX = panning.lockAxisX, lockAxisY = panning.lockAxisY;
+  var positionX = transformState.positionX, positionY = transformState.positionY;
+  if (!startCoords) {
+    return { x: positionX, y: positionY };
+  }
+  var mouseX = clientX - startCoords.x;
+  var mouseY = clientY - startCoords.y;
+  var newPositionX = lockAxisX ? positionX : mouseX;
+  var newPositionY = lockAxisY ? positionY : mouseY;
+  return { x: newPositionX, y: newPositionY };
+};
+var getPaddingValue = function(contextInstance, size) {
+  var setup = contextInstance.setup, transformState = contextInstance.transformState;
+  var scale = transformState.scale;
+  var minScale = setup.minScale, disablePadding = setup.disablePadding;
+  if (size > 0 && scale >= minScale && !disablePadding) {
+    return size;
+  }
+  return 0;
+};
+var isVelocityCalculationAllowed = function(contextInstance) {
+  var mounted = contextInstance.mounted;
+  var _a2 = contextInstance.setup, disabled = _a2.disabled, velocityAnimation = _a2.velocityAnimation;
+  var scale = contextInstance.transformState.scale;
+  var disabledVelocity = velocityAnimation.disabled;
+  var isAllowed = !disabledVelocity || scale > 1 || !disabled || mounted;
+  if (!isAllowed)
+    return false;
+  return true;
+};
+var isVelocityAllowed = function(contextInstance) {
+  var mounted = contextInstance.mounted, velocity = contextInstance.velocity, bounds = contextInstance.bounds;
+  var _a2 = contextInstance.setup, disabled = _a2.disabled, velocityAnimation = _a2.velocityAnimation;
+  var scale = contextInstance.transformState.scale;
+  var disabledVelocity = velocityAnimation.disabled;
+  var isAllowed = !disabledVelocity || scale > 1 || !disabled || mounted;
+  if (!isAllowed)
+    return false;
+  if (!velocity || !bounds)
+    return false;
+  return true;
+};
+function getVelocityMoveTime(contextInstance, velocity) {
+  var velocityAnimation = contextInstance.setup.velocityAnimation;
+  var equalToMove = velocityAnimation.equalToMove, animationTime = velocityAnimation.animationTime, sensitivity = velocityAnimation.sensitivity;
+  if (equalToMove) {
+    return animationTime * velocity * sensitivity;
+  }
+  return animationTime;
+}
+function getVelocityPosition(newPosition, startPosition, currentPosition, isLocked, limitToBounds, minPosition, maxPosition, minTarget, maxTarget, step) {
+  if (limitToBounds) {
+    if (startPosition > maxPosition && currentPosition > maxPosition) {
+      var calculatedPosition = maxPosition + (newPosition - maxPosition) * step;
+      if (calculatedPosition > maxTarget)
+        return maxTarget;
+      if (calculatedPosition < maxPosition)
+        return maxPosition;
+      return calculatedPosition;
+    }
+    if (startPosition < minPosition && currentPosition < minPosition) {
+      var calculatedPosition = minPosition + (newPosition - minPosition) * step;
+      if (calculatedPosition < minTarget)
+        return minTarget;
+      if (calculatedPosition > minPosition)
+        return minPosition;
+      return calculatedPosition;
+    }
+  }
+  if (isLocked)
+    return startPosition;
+  return boundLimiter(newPosition, minPosition, maxPosition, limitToBounds);
+}
+function getSizeMultiplier(wrapperComponent, equalToMove) {
+  var defaultMultiplier = 1;
+  if (equalToMove) {
+    return Math.min(defaultMultiplier, wrapperComponent.offsetWidth / window.innerWidth);
+  }
+  return defaultMultiplier;
+}
+function handleCalculateVelocity(contextInstance, position) {
+  var isAllowed = isVelocityCalculationAllowed(contextInstance);
+  if (!isAllowed) {
+    return;
+  }
+  var lastMousePosition = contextInstance.lastMousePosition, velocityTime = contextInstance.velocityTime, setup = contextInstance.setup;
+  var wrapperComponent = contextInstance.wrapperComponent;
+  var equalToMove = setup.velocityAnimation.equalToMove;
+  var now = Date.now();
+  if (lastMousePosition && velocityTime && wrapperComponent) {
+    var sizeMultiplier = getSizeMultiplier(wrapperComponent, equalToMove);
+    var distanceX = position.x - lastMousePosition.x;
+    var distanceY = position.y - lastMousePosition.y;
+    var velocityX = distanceX / sizeMultiplier;
+    var velocityY = distanceY / sizeMultiplier;
+    var interval = now - velocityTime;
+    var speed = distanceX * distanceX + distanceY * distanceY;
+    var velocity = Math.sqrt(speed) / interval;
+    contextInstance.velocity = { velocityX, velocityY, total: velocity };
+  }
+  contextInstance.lastMousePosition = position;
+  contextInstance.velocityTime = now;
+}
+function handleVelocityPanning(contextInstance) {
+  var velocity = contextInstance.velocity, bounds = contextInstance.bounds, setup = contextInstance.setup, wrapperComponent = contextInstance.wrapperComponent;
+  var isAllowed = isVelocityAllowed(contextInstance);
+  if (!isAllowed || !velocity || !bounds || !wrapperComponent) {
+    return;
+  }
+  var velocityX = velocity.velocityX, velocityY = velocity.velocityY, total = velocity.total;
+  var maxPositionX = bounds.maxPositionX, minPositionX = bounds.minPositionX, maxPositionY = bounds.maxPositionY, minPositionY = bounds.minPositionY;
+  var limitToBounds = setup.limitToBounds, alignmentAnimation = setup.alignmentAnimation;
+  var zoomAnimation = setup.zoomAnimation, panning = setup.panning;
+  var lockAxisY = panning.lockAxisY, lockAxisX = panning.lockAxisX;
+  var animationType = zoomAnimation.animationType;
+  var sizeX = alignmentAnimation.sizeX, sizeY = alignmentAnimation.sizeY, velocityAlignmentTime = alignmentAnimation.velocityAlignmentTime;
+  var alignAnimationTime = velocityAlignmentTime;
+  var moveAnimationTime = getVelocityMoveTime(contextInstance, total);
+  var finalAnimationTime = Math.max(moveAnimationTime, alignAnimationTime);
+  var paddingValueX = getPaddingValue(contextInstance, sizeX);
+  var paddingValueY = getPaddingValue(contextInstance, sizeY);
+  var paddingX = paddingValueX * wrapperComponent.offsetWidth / 100;
+  var paddingY = paddingValueY * wrapperComponent.offsetHeight / 100;
+  var maxTargetX = maxPositionX + paddingX;
+  var minTargetX = minPositionX - paddingX;
+  var maxTargetY = maxPositionY + paddingY;
+  var minTargetY = minPositionY - paddingY;
+  var startState = contextInstance.transformState;
+  var startTime = (/* @__PURE__ */ new Date()).getTime();
+  handleSetupAnimation(contextInstance, animationType, finalAnimationTime, function(step) {
+    var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
+    var frameTime = (/* @__PURE__ */ new Date()).getTime() - startTime;
+    var animationProgress = frameTime / alignAnimationTime;
+    var alignAnimation = animations[alignmentAnimation.animationType];
+    var alignStep = 1 - alignAnimation(Math.min(1, animationProgress));
+    var customStep = 1 - step;
+    var newPositionX = positionX + velocityX * customStep;
+    var newPositionY = positionY + velocityY * customStep;
+    var currentPositionX = getVelocityPosition(newPositionX, startState.positionX, positionX, lockAxisX, limitToBounds, minPositionX, maxPositionX, minTargetX, maxTargetX, alignStep);
+    var currentPositionY = getVelocityPosition(newPositionY, startState.positionY, positionY, lockAxisY, limitToBounds, minPositionY, maxPositionY, minTargetY, maxTargetY, alignStep);
+    if (positionX !== newPositionX || positionY !== newPositionY) {
+      contextInstance.setTransformState(scale, currentPositionX, currentPositionY);
+    }
+  });
+}
+function handlePanningStart(contextInstance, event) {
+  var scale = contextInstance.transformState.scale;
+  handleCancelAnimation(contextInstance);
+  handleCalculateBounds(contextInstance, scale);
+  if (window.TouchEvent !== void 0 && event instanceof TouchEvent) {
+    handleTouchPanningSetup(contextInstance, event);
+  } else {
+    handlePanningSetup(contextInstance, event);
+  }
+}
+function handleAlignToBounds(contextInstance) {
+  var scale = contextInstance.transformState.scale;
+  var _a2 = contextInstance.setup, minScale = _a2.minScale, alignmentAnimation = _a2.alignmentAnimation;
+  var disabled = alignmentAnimation.disabled, sizeX = alignmentAnimation.sizeX, sizeY = alignmentAnimation.sizeY, animationTime = alignmentAnimation.animationTime, animationType = alignmentAnimation.animationType;
+  var isDisabled = disabled || scale < minScale || !sizeX && !sizeY;
+  if (isDisabled)
+    return;
+  var targetState = handlePanToBounds(contextInstance);
+  if (targetState) {
+    animate(contextInstance, targetState, animationTime, animationType);
+  }
+}
+function handlePanning(contextInstance, clientX, clientY) {
+  var startCoords = contextInstance.startCoords, setup = contextInstance.setup;
+  var _a2 = setup.alignmentAnimation, sizeX = _a2.sizeX, sizeY = _a2.sizeY;
+  if (!startCoords)
+    return;
+  var _b2 = getPanningClientPosition(contextInstance, clientX, clientY), x2 = _b2.x, y3 = _b2.y;
+  var paddingValueX = getPaddingValue(contextInstance, sizeX);
+  var paddingValueY = getPaddingValue(contextInstance, sizeY);
+  handleCalculateVelocity(contextInstance, { x: x2, y: y3 });
+  handleNewPosition(contextInstance, x2, y3, paddingValueX, paddingValueY);
+}
+function handlePanningEnd(contextInstance) {
+  if (contextInstance.isPanning) {
+    var velocityDisabled = contextInstance.setup.panning.velocityDisabled;
+    var velocity = contextInstance.velocity, wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
+    contextInstance.isPanning = false;
+    contextInstance.animate = false;
+    contextInstance.animation = null;
+    var wrapperRect = wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.getBoundingClientRect();
+    var contentRect = contentComponent === null || contentComponent === void 0 ? void 0 : contentComponent.getBoundingClientRect();
+    var wrapperWidth = (wrapperRect === null || wrapperRect === void 0 ? void 0 : wrapperRect.width) || 0;
+    var wrapperHeight = (wrapperRect === null || wrapperRect === void 0 ? void 0 : wrapperRect.height) || 0;
+    var contentWidth = (contentRect === null || contentRect === void 0 ? void 0 : contentRect.width) || 0;
+    var contentHeight = (contentRect === null || contentRect === void 0 ? void 0 : contentRect.height) || 0;
+    var isZoomed = wrapperWidth < contentWidth || wrapperHeight < contentHeight;
+    var shouldAnimate = !velocityDisabled && velocity && (velocity === null || velocity === void 0 ? void 0 : velocity.total) > 0.1 && isZoomed;
+    if (shouldAnimate) {
+      handleVelocityPanning(contextInstance);
+    } else {
+      handleAlignToBounds(contextInstance);
+    }
+  }
+}
+function handleZoomToPoint(contextInstance, scale, mouseX, mouseY) {
+  var _a2 = contextInstance.setup, minScale = _a2.minScale, maxScale = _a2.maxScale, limitToBounds = _a2.limitToBounds;
+  var newScale = checkZoomBounds(roundNumber(scale, 2), minScale, maxScale, 0, false);
+  var bounds = handleCalculateBounds(contextInstance, newScale);
+  var _b2 = handleCalculateZoomPositions(contextInstance, mouseX, mouseY, newScale, bounds, limitToBounds), x2 = _b2.x, y3 = _b2.y;
+  return { scale: newScale, positionX: x2, positionY: y3 };
+}
+function handleAlignToScaleBounds(contextInstance, mousePositionX, mousePositionY) {
+  var scale = contextInstance.transformState.scale;
+  var wrapperComponent = contextInstance.wrapperComponent;
+  var _a2 = contextInstance.setup, minScale = _a2.minScale, limitToBounds = _a2.limitToBounds, zoomAnimation = _a2.zoomAnimation;
+  var disabled = zoomAnimation.disabled, animationTime = zoomAnimation.animationTime, animationType = zoomAnimation.animationType;
+  var isDisabled = disabled || scale >= minScale;
+  if (scale >= 1 || limitToBounds) {
+    handleAlignToBounds(contextInstance);
+  }
+  if (isDisabled || !wrapperComponent || !contextInstance.mounted)
+    return;
+  var mouseX = mousePositionX || wrapperComponent.offsetWidth / 2;
+  var mouseY = mousePositionY || wrapperComponent.offsetHeight / 2;
+  var targetState = handleZoomToPoint(contextInstance, minScale, mouseX, mouseY);
+  if (targetState) {
+    animate(contextInstance, targetState, animationTime, animationType);
+  }
+}
+var __assign = function() {
+  __assign = Object.assign || function __assign2(t5) {
+    for (var s3, i4 = 1, n4 = arguments.length; i4 < n4; i4++) {
+      s3 = arguments[i4];
+      for (var p3 in s3)
+        if (Object.prototype.hasOwnProperty.call(s3, p3))
+          t5[p3] = s3[p3];
+    }
+    return t5;
+  };
+  return __assign.apply(this, arguments);
+};
+function __spreadArray(to, from, pack) {
+  if (pack || arguments.length === 2)
+    for (var i4 = 0, l3 = from.length, ar2; i4 < l3; i4++) {
+      if (ar2 || !(i4 in from)) {
+        if (!ar2)
+          ar2 = Array.prototype.slice.call(from, 0, i4);
+        ar2[i4] = from[i4];
+      }
+    }
+  return to.concat(ar2 || Array.prototype.slice.call(from));
+}
+var initialState = {
+  previousScale: 1,
+  scale: 1,
+  positionX: 0,
+  positionY: 0
+};
+var initialSetup = {
+  disabled: false,
+  minPositionX: null,
+  maxPositionX: null,
+  minPositionY: null,
+  maxPositionY: null,
+  minScale: 1,
+  maxScale: 8,
+  limitToBounds: true,
+  centerZoomedOut: false,
+  centerOnInit: false,
+  disablePadding: false,
+  smooth: true,
+  wheel: {
+    step: 0.2,
+    disabled: false,
+    smoothStep: 1e-3,
+    wheelDisabled: false,
+    touchPadDisabled: false,
+    activationKeys: [],
+    excluded: []
+  },
+  panning: {
+    disabled: false,
+    velocityDisabled: false,
+    lockAxisX: false,
+    lockAxisY: false,
+    allowLeftClickPan: true,
+    allowMiddleClickPan: true,
+    allowRightClickPan: true,
+    wheelPanning: false,
+    activationKeys: [],
+    excluded: []
+  },
+  pinch: {
+    step: 5,
+    disabled: false,
+    excluded: []
+  },
+  doubleClick: {
+    disabled: false,
+    step: 0.7,
+    mode: "zoomIn",
+    animationType: "easeOut",
+    animationTime: 200,
+    excluded: []
+  },
+  zoomAnimation: {
+    disabled: false,
+    size: 0.4,
+    animationTime: 200,
+    animationType: "easeOut"
+  },
+  alignmentAnimation: {
+    disabled: false,
+    sizeX: 100,
+    sizeY: 100,
+    animationTime: 200,
+    velocityAlignmentTime: 400,
+    animationType: "easeOut"
+  },
+  velocityAnimation: {
+    disabled: false,
+    sensitivity: 1,
+    animationTime: 400,
+    animationType: "easeOut",
+    equalToMove: true
+  }
+};
+var createState = function(props) {
+  var _a2, _b2, _c, _d;
+  return {
+    previousScale: (_a2 = props.initialScale) !== null && _a2 !== void 0 ? _a2 : initialState.scale,
+    scale: (_b2 = props.initialScale) !== null && _b2 !== void 0 ? _b2 : initialState.scale,
+    positionX: (_c = props.initialPositionX) !== null && _c !== void 0 ? _c : initialState.positionX,
+    positionY: (_d = props.initialPositionY) !== null && _d !== void 0 ? _d : initialState.positionY
+  };
+};
+var createSetup = function(props) {
+  var newSetup = __assign({}, initialSetup);
+  Object.keys(props).forEach(function(key) {
+    var validValue = typeof props[key] !== "undefined";
+    var validParameter = typeof initialSetup[key] !== "undefined";
+    if (validParameter && validValue) {
+      var dataType = Object.prototype.toString.call(initialSetup[key]);
+      var isObject = dataType === "[object Object]";
+      var isArray = dataType === "[object Array]";
+      if (isObject) {
+        newSetup[key] = __assign(__assign({}, initialSetup[key]), props[key]);
+      } else if (isArray) {
+        newSetup[key] = __spreadArray(__spreadArray([], initialSetup[key], true), props[key], true);
+      } else {
+        newSetup[key] = props[key];
+      }
+    }
+  });
+  return newSetup;
+};
+var handleCalculateButtonZoom = function(contextInstance, delta, step) {
+  var scale = contextInstance.transformState.scale;
+  var wrapperComponent = contextInstance.wrapperComponent, setup = contextInstance.setup;
+  var maxScale = setup.maxScale, minScale = setup.minScale, zoomAnimation = setup.zoomAnimation, smooth = setup.smooth;
+  var size = zoomAnimation.size;
+  if (!wrapperComponent) {
+    throw new Error("Wrapper is not mounted");
+  }
+  var targetScale = smooth ? scale * Math.exp(delta * step) : scale + delta * step;
+  var newScale = checkZoomBounds(roundNumber(targetScale, 3), minScale, maxScale, size, false);
+  return newScale;
+};
+function handleZoomToViewCenter(contextInstance, delta, step, animationTime, animationType) {
+  var wrapperComponent = contextInstance.wrapperComponent;
+  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
+  if (!wrapperComponent)
+    return console.error("No WrapperComponent found");
+  var wrapperWidth = wrapperComponent.offsetWidth;
+  var wrapperHeight = wrapperComponent.offsetHeight;
+  var mouseX = (wrapperWidth / 2 - positionX) / scale;
+  var mouseY = (wrapperHeight / 2 - positionY) / scale;
+  var newScale = handleCalculateButtonZoom(contextInstance, delta, step);
+  var targetState = handleZoomToPoint(contextInstance, newScale, mouseX, mouseY);
+  if (!targetState) {
+    return console.error("Error during zoom event. New transformation state was not calculated.");
+  }
+  animate(contextInstance, targetState, animationTime, animationType);
+}
+function resetTransformations(contextInstance, animationTime, animationType, onResetTransformation) {
+  var setup = contextInstance.setup, wrapperComponent = contextInstance.wrapperComponent;
+  var limitToBounds = setup.limitToBounds;
+  var initialTransformation = createState(contextInstance.props);
+  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
+  if (!wrapperComponent)
+    return;
+  var newBounds = calculateBounds(contextInstance, initialTransformation.scale);
+  var boundedPositions = getMouseBoundedPosition(initialTransformation.positionX, initialTransformation.positionY, newBounds, limitToBounds, 0, 0, wrapperComponent);
+  var newState = {
+    scale: initialTransformation.scale,
+    positionX: boundedPositions.x,
+    positionY: boundedPositions.y
+  };
+  if (scale === initialTransformation.scale && positionX === initialTransformation.positionX && positionY === initialTransformation.positionY) {
+    return;
+  }
+  onResetTransformation === null || onResetTransformation === void 0 ? void 0 : onResetTransformation();
+  animate(contextInstance, newState, animationTime, animationType);
+}
+function getOffset(element, wrapper, content, state) {
+  var offset = element.getBoundingClientRect();
+  var wrapperOffset = wrapper.getBoundingClientRect();
+  var contentOffset = content.getBoundingClientRect();
+  var xOff = wrapperOffset.x * state.scale;
+  var yOff = wrapperOffset.y * state.scale;
+  return {
+    x: (offset.x - contentOffset.x + xOff) / state.scale,
+    y: (offset.y - contentOffset.y + yOff) / state.scale
+  };
+}
+function calculateZoomToNode(contextInstance, node2, customZoom) {
+  var wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent, transformState = contextInstance.transformState;
+  var _a2 = contextInstance.setup, limitToBounds = _a2.limitToBounds, minScale = _a2.minScale, maxScale = _a2.maxScale;
+  if (!wrapperComponent || !contentComponent)
+    return transformState;
+  var wrapperRect = wrapperComponent.getBoundingClientRect();
+  var nodeRect = node2.getBoundingClientRect();
+  var nodeOffset = getOffset(node2, wrapperComponent, contentComponent, transformState);
+  var nodeLeft = nodeOffset.x;
+  var nodeTop = nodeOffset.y;
+  var nodeWidth = nodeRect.width / transformState.scale;
+  var nodeHeight = nodeRect.height / transformState.scale;
+  var scaleX = wrapperComponent.offsetWidth / nodeWidth;
+  var scaleY = wrapperComponent.offsetHeight / nodeHeight;
+  var newScale = checkZoomBounds(customZoom || Math.min(scaleX, scaleY), minScale, maxScale, 0, false);
+  var offsetX = (wrapperRect.width - nodeWidth * newScale) / 2;
+  var offsetY = (wrapperRect.height - nodeHeight * newScale) / 2;
+  var newPositionX = (wrapperRect.left - nodeLeft) * newScale + offsetX;
+  var newPositionY = (wrapperRect.top - nodeTop) * newScale + offsetY;
+  var bounds = calculateBounds(contextInstance, newScale);
+  var _b2 = getMouseBoundedPosition(newPositionX, newPositionY, bounds, limitToBounds, 0, 0, wrapperComponent), x2 = _b2.x, y3 = _b2.y;
+  return { positionX: x2, positionY: y3, scale: newScale };
+}
+var zoomIn = function(contextInstance) {
+  return function(step, animationTime, animationType) {
+    if (step === void 0) {
+      step = 0.5;
+    }
+    if (animationTime === void 0) {
+      animationTime = 300;
+    }
+    if (animationType === void 0) {
+      animationType = "easeOut";
+    }
+    handleZoomToViewCenter(contextInstance, 1, step, animationTime, animationType);
+  };
+};
+var zoomOut = function(contextInstance) {
+  return function(step, animationTime, animationType) {
+    if (step === void 0) {
+      step = 0.5;
+    }
+    if (animationTime === void 0) {
+      animationTime = 300;
+    }
+    if (animationType === void 0) {
+      animationType = "easeOut";
+    }
+    handleZoomToViewCenter(contextInstance, -1, step, animationTime, animationType);
+  };
+};
+var setTransform = function(contextInstance) {
+  return function(newPositionX, newPositionY, newScale, animationTime, animationType) {
+    if (animationTime === void 0) {
+      animationTime = 300;
+    }
+    if (animationType === void 0) {
+      animationType = "easeOut";
+    }
+    var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY, scale = _a2.scale;
+    var wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
+    var disabled = contextInstance.setup.disabled;
+    if (disabled || !wrapperComponent || !contentComponent)
+      return;
+    var targetState = {
+      positionX: Number.isNaN(newPositionX) ? positionX : newPositionX,
+      positionY: Number.isNaN(newPositionY) ? positionY : newPositionY,
+      scale: Number.isNaN(newScale) ? scale : newScale
+    };
+    animate(contextInstance, targetState, animationTime, animationType);
+  };
+};
+var resetTransform = function(contextInstance) {
+  return function(animationTime, animationType) {
+    if (animationTime === void 0) {
+      animationTime = 200;
+    }
+    if (animationType === void 0) {
+      animationType = "easeOut";
+    }
+    resetTransformations(contextInstance, animationTime, animationType);
+  };
+};
+var centerView = function(contextInstance) {
+  return function(scale, animationTime, animationType) {
+    if (animationTime === void 0) {
+      animationTime = 200;
+    }
+    if (animationType === void 0) {
+      animationType = "easeOut";
+    }
+    var transformState = contextInstance.transformState, wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
+    if (wrapperComponent && contentComponent) {
+      var targetState = getCenterPosition(scale || transformState.scale, wrapperComponent, contentComponent);
+      animate(contextInstance, targetState, animationTime, animationType);
+    }
+  };
+};
+var zoomToElement = function(contextInstance) {
+  return function(node2, scale, animationTime, animationType) {
+    if (animationTime === void 0) {
+      animationTime = 600;
+    }
+    if (animationType === void 0) {
+      animationType = "easeOut";
+    }
+    handleCancelAnimation(contextInstance);
+    var wrapperComponent = contextInstance.wrapperComponent;
+    var target = typeof node2 === "string" ? document.getElementById(node2) : node2;
+    if (wrapperComponent && target && wrapperComponent.contains(target)) {
+      var targetState = calculateZoomToNode(contextInstance, target, scale);
+      animate(contextInstance, targetState, animationTime, animationType);
+    }
+  };
+};
+var getControls = function(contextInstance) {
+  return {
+    instance: contextInstance,
+    zoomIn: zoomIn(contextInstance),
+    zoomOut: zoomOut(contextInstance),
+    setTransform: setTransform(contextInstance),
+    resetTransform: resetTransform(contextInstance),
+    centerView: centerView(contextInstance),
+    zoomToElement: zoomToElement(contextInstance)
+  };
+};
+var getState = function(contextInstance) {
+  return {
+    instance: contextInstance,
+    state: contextInstance.transformState
+  };
+};
+var getContext = function(contextInstance) {
+  var ref = {};
+  Object.assign(ref, getState(contextInstance));
+  Object.assign(ref, getControls(contextInstance));
+  return ref;
+};
+var passiveSupported = false;
+function makePassiveEventOption() {
+  try {
+    var options = {
+      get passive() {
+        passiveSupported = true;
+        return false;
+      }
+    };
+    return options;
+  } catch (err) {
+    passiveSupported = false;
+    return passiveSupported;
+  }
+}
+var isExcludedNode = function(node2, excluded) {
+  return excluded.some(function(exclude) {
+    return node2.matches("".concat(exclude, ", .").concat(exclude, ", ").concat(exclude, " *, .").concat(exclude, " *"));
+  });
+};
+var cancelTimeout = function(timeout) {
+  if (timeout) {
+    clearTimeout(timeout);
+  }
+};
+var getTransformStyles = function(x2, y3, scale) {
+  return "translate(".concat(x2, "px, ").concat(y3, "px) scale(").concat(scale, ")");
+};
+var getCenterPosition = function(scale, wrapperComponent, contentComponent) {
+  var contentWidth = contentComponent.offsetWidth * scale;
+  var contentHeight = contentComponent.offsetHeight * scale;
+  var centerPositionX = (wrapperComponent.offsetWidth - contentWidth) / 2;
+  var centerPositionY = (wrapperComponent.offsetHeight - contentHeight) / 2;
+  return {
+    scale,
+    positionX: centerPositionX,
+    positionY: centerPositionY
+  };
+};
+function mergeRefs(refs) {
+  return function(value) {
+    refs.forEach(function(ref) {
+      if (typeof ref === "function") {
+        ref(value);
+      } else if (ref != null) {
+        ref.current = value;
+      }
+    });
+  };
+}
+var isWheelAllowed = function(contextInstance, event) {
+  var _a2 = contextInstance.setup.wheel, disabled = _a2.disabled, wheelDisabled = _a2.wheelDisabled, touchPadDisabled = _a2.touchPadDisabled, excluded = _a2.excluded;
+  var isInitialized = contextInstance.isInitialized, isPanning = contextInstance.isPanning;
+  var target = event.target;
+  var isAllowed = isInitialized && !isPanning && !disabled && target;
+  if (!isAllowed)
+    return false;
+  if (wheelDisabled && !event.ctrlKey)
+    return false;
+  if (touchPadDisabled && event.ctrlKey)
+    return false;
+  var isExcluded = isExcludedNode(target, excluded);
+  if (isExcluded)
+    return false;
+  return true;
+};
+var getDeltaY = function(event) {
+  if (event) {
+    return event.deltaY < 0 ? 1 : -1;
+  }
+  return 0;
+};
+function getDelta(event, customDelta) {
+  var deltaY = getDeltaY(event);
+  var delta = checkIsNumber(customDelta, deltaY);
+  return delta;
+}
+function getMousePosition(event, contentComponent, scale) {
+  var contentRect = contentComponent.getBoundingClientRect();
+  var mouseX = 0;
+  var mouseY = 0;
+  if ("clientX" in event) {
+    mouseX = (event.clientX - contentRect.left) / scale;
+    mouseY = (event.clientY - contentRect.top) / scale;
+  } else {
+    var touch = event.touches[0];
+    mouseX = (touch.clientX - contentRect.left) / scale;
+    mouseY = (touch.clientY - contentRect.top) / scale;
+  }
+  if (Number.isNaN(mouseX) || Number.isNaN(mouseY))
+    console.error("No mouse or touch offset found");
+  return {
+    x: mouseX,
+    y: mouseY
+  };
+}
+var handleCalculateWheelZoom = function(contextInstance, delta, step, disable, getTarget) {
+  var scale = contextInstance.transformState.scale;
+  var wrapperComponent = contextInstance.wrapperComponent, setup = contextInstance.setup;
+  var maxScale = setup.maxScale, minScale = setup.minScale, zoomAnimation = setup.zoomAnimation, disablePadding = setup.disablePadding;
+  var size = zoomAnimation.size, disabled = zoomAnimation.disabled;
+  if (!wrapperComponent) {
+    throw new Error("Wrapper is not mounted");
+  }
+  var targetScale = scale + delta * step;
+  if (getTarget)
+    return targetScale;
+  var paddingEnabled = disable ? false : !disabled;
+  var newScale = checkZoomBounds(roundNumber(targetScale, 3), minScale, maxScale, size, paddingEnabled && !disablePadding);
+  return newScale;
+};
+var handleWheelZoomStop = function(contextInstance, event) {
+  var previousWheelEvent = contextInstance.previousWheelEvent;
+  var scale = contextInstance.transformState.scale;
+  var _a2 = contextInstance.setup, maxScale = _a2.maxScale, minScale = _a2.minScale;
+  if (!previousWheelEvent)
+    return false;
+  if (scale < maxScale || scale > minScale)
+    return true;
+  if (Math.sign(previousWheelEvent.deltaY) !== Math.sign(event.deltaY))
+    return true;
+  if (previousWheelEvent.deltaY > 0 && previousWheelEvent.deltaY < event.deltaY)
+    return true;
+  if (previousWheelEvent.deltaY < 0 && previousWheelEvent.deltaY > event.deltaY)
+    return true;
+  if (Math.sign(previousWheelEvent.deltaY) !== Math.sign(event.deltaY))
+    return true;
+  return false;
+};
+var isPinchStartAllowed = function(contextInstance, event) {
+  var _a2 = contextInstance.setup.pinch, disabled = _a2.disabled, excluded = _a2.excluded;
+  var isInitialized = contextInstance.isInitialized;
+  var target = event.target;
+  var isAllowed = isInitialized && !disabled && target;
+  if (!isAllowed)
+    return false;
+  var isExcluded = isExcludedNode(target, excluded);
+  if (isExcluded)
+    return false;
+  return true;
+};
+var isPinchAllowed = function(contextInstance) {
+  var disabled = contextInstance.setup.pinch.disabled;
+  var isInitialized = contextInstance.isInitialized, pinchStartDistance = contextInstance.pinchStartDistance;
+  var isAllowed = isInitialized && !disabled && pinchStartDistance;
+  if (!isAllowed)
+    return false;
+  return true;
+};
+var calculateTouchMidPoint = function(event, scale, contentComponent) {
+  var contentRect = contentComponent.getBoundingClientRect();
+  var touches = event.touches;
+  var firstPointX = roundNumber(touches[0].clientX - contentRect.left, 5);
+  var firstPointY = roundNumber(touches[0].clientY - contentRect.top, 5);
+  var secondPointX = roundNumber(touches[1].clientX - contentRect.left, 5);
+  var secondPointY = roundNumber(touches[1].clientY - contentRect.top, 5);
+  return {
+    x: (firstPointX + secondPointX) / 2 / scale,
+    y: (firstPointY + secondPointY) / 2 / scale
+  };
+};
+var getTouchDistance = function(event) {
+  return Math.sqrt(Math.pow(event.touches[0].pageX - event.touches[1].pageX, 2) + Math.pow(event.touches[0].pageY - event.touches[1].pageY, 2));
+};
+var calculatePinchZoom = function(contextInstance, currentDistance) {
+  var pinchStartScale = contextInstance.pinchStartScale, pinchStartDistance = contextInstance.pinchStartDistance, setup = contextInstance.setup;
+  var maxScale = setup.maxScale, minScale = setup.minScale, zoomAnimation = setup.zoomAnimation, disablePadding = setup.disablePadding;
+  var size = zoomAnimation.size, disabled = zoomAnimation.disabled;
+  if (!pinchStartScale || pinchStartDistance === null || !currentDistance) {
+    throw new Error("Pinch touches distance was not provided");
+  }
+  if (currentDistance < 0) {
+    return contextInstance.transformState.scale;
+  }
+  var touchProportion = currentDistance / pinchStartDistance;
+  var scaleDifference = touchProportion * pinchStartScale;
+  return checkZoomBounds(roundNumber(scaleDifference, 2), minScale, maxScale, size, !disabled && !disablePadding);
+};
+var wheelStopEventTime = 160;
+var wheelAnimationTime = 100;
+var handleWheelStart = function(contextInstance, event) {
+  var _a2 = contextInstance.props, onWheelStart = _a2.onWheelStart, onZoomStart = _a2.onZoomStart;
+  if (!contextInstance.wheelStopEventTimer) {
+    handleCancelAnimation(contextInstance);
+    handleCallback(getContext(contextInstance), event, onWheelStart);
+    handleCallback(getContext(contextInstance), event, onZoomStart);
+  }
+};
+var handleWheelZoom = function(contextInstance, event) {
+  var _a2 = contextInstance.props, onWheel = _a2.onWheel, onZoom = _a2.onZoom;
+  var contentComponent = contextInstance.contentComponent, setup = contextInstance.setup, transformState = contextInstance.transformState;
+  var scale = transformState.scale;
+  var limitToBounds = setup.limitToBounds, centerZoomedOut = setup.centerZoomedOut, zoomAnimation = setup.zoomAnimation, wheel = setup.wheel, disablePadding = setup.disablePadding, smooth = setup.smooth;
+  var size = zoomAnimation.size, disabled = zoomAnimation.disabled;
+  var step = wheel.step, smoothStep = wheel.smoothStep;
+  if (!contentComponent) {
+    throw new Error("Component not mounted");
+  }
+  event.preventDefault();
+  event.stopPropagation();
+  var delta = getDelta(event, null);
+  var zoomStep = smooth ? smoothStep * Math.abs(event.deltaY) : step;
+  var newScale = handleCalculateWheelZoom(contextInstance, delta, zoomStep, !event.ctrlKey);
+  if (scale === newScale)
+    return;
+  var bounds = handleCalculateBounds(contextInstance, newScale);
+  var mousePosition = getMousePosition(event, contentComponent, scale);
+  var isPaddingDisabled = disabled || size === 0 || centerZoomedOut || disablePadding;
+  var isLimitedToBounds = limitToBounds && isPaddingDisabled;
+  var _b2 = handleCalculateZoomPositions(contextInstance, mousePosition.x, mousePosition.y, newScale, bounds, isLimitedToBounds), x2 = _b2.x, y3 = _b2.y;
+  contextInstance.previousWheelEvent = event;
+  contextInstance.setTransformState(newScale, x2, y3);
+  handleCallback(getContext(contextInstance), event, onWheel);
+  handleCallback(getContext(contextInstance), event, onZoom);
+};
+var handleWheelStop = function(contextInstance, event) {
+  var _a2 = contextInstance.props, onWheelStop = _a2.onWheelStop, onZoomStop = _a2.onZoomStop;
+  cancelTimeout(contextInstance.wheelAnimationTimer);
+  contextInstance.wheelAnimationTimer = setTimeout(function() {
+    if (!contextInstance.mounted)
+      return;
+    handleAlignToScaleBounds(contextInstance, event.x, event.y);
+    contextInstance.wheelAnimationTimer = null;
+  }, wheelAnimationTime);
+  var hasStoppedZooming = handleWheelZoomStop(contextInstance, event);
+  if (hasStoppedZooming) {
+    cancelTimeout(contextInstance.wheelStopEventTimer);
+    contextInstance.wheelStopEventTimer = setTimeout(function() {
+      if (!contextInstance.mounted)
+        return;
+      contextInstance.wheelStopEventTimer = null;
+      handleCallback(getContext(contextInstance), event, onWheelStop);
+      handleCallback(getContext(contextInstance), event, onZoomStop);
+    }, wheelStopEventTime);
+  }
+};
+var handlePinchStart = function(contextInstance, event) {
+  var distance = getTouchDistance(event);
+  contextInstance.pinchStartDistance = distance;
+  contextInstance.lastDistance = distance;
+  contextInstance.pinchStartScale = contextInstance.transformState.scale;
+  contextInstance.isPanning = false;
+  handleCancelAnimation(contextInstance);
+};
+var handlePinchZoom = function(contextInstance, event) {
+  var contentComponent = contextInstance.contentComponent, pinchStartDistance = contextInstance.pinchStartDistance;
+  var scale = contextInstance.transformState.scale;
+  var _a2 = contextInstance.setup, limitToBounds = _a2.limitToBounds, centerZoomedOut = _a2.centerZoomedOut, zoomAnimation = _a2.zoomAnimation;
+  var disabled = zoomAnimation.disabled, size = zoomAnimation.size;
+  if (pinchStartDistance === null || !contentComponent)
+    return;
+  var midPoint = calculateTouchMidPoint(event, scale, contentComponent);
+  if (!Number.isFinite(midPoint.x) || !Number.isFinite(midPoint.y))
+    return;
+  var currentDistance = getTouchDistance(event);
+  var newScale = calculatePinchZoom(contextInstance, currentDistance);
+  if (newScale === scale)
+    return;
+  var bounds = handleCalculateBounds(contextInstance, newScale);
+  var isPaddingDisabled = disabled || size === 0 || centerZoomedOut;
+  var isLimitedToBounds = limitToBounds && isPaddingDisabled;
+  var _b2 = handleCalculateZoomPositions(contextInstance, midPoint.x, midPoint.y, newScale, bounds, isLimitedToBounds), x2 = _b2.x, y3 = _b2.y;
+  contextInstance.pinchMidpoint = midPoint;
+  contextInstance.lastDistance = currentDistance;
+  contextInstance.setTransformState(newScale, x2, y3);
+};
+var handlePinchStop = function(contextInstance) {
+  var pinchMidpoint = contextInstance.pinchMidpoint;
+  contextInstance.velocity = null;
+  contextInstance.lastDistance = null;
+  contextInstance.pinchMidpoint = null;
+  contextInstance.pinchStartScale = null;
+  contextInstance.pinchStartDistance = null;
+  handleAlignToScaleBounds(contextInstance, pinchMidpoint === null || pinchMidpoint === void 0 ? void 0 : pinchMidpoint.x, pinchMidpoint === null || pinchMidpoint === void 0 ? void 0 : pinchMidpoint.y);
+};
+var handleDoubleClickStop = function(contextInstance, event) {
+  var onZoomStop = contextInstance.props.onZoomStop;
+  var animationTime = contextInstance.setup.doubleClick.animationTime;
+  cancelTimeout(contextInstance.doubleClickStopEventTimer);
+  contextInstance.doubleClickStopEventTimer = setTimeout(function() {
+    contextInstance.doubleClickStopEventTimer = null;
+    handleCallback(getContext(contextInstance), event, onZoomStop);
+  }, animationTime);
+};
+var handleDoubleClickResetMode = function(contextInstance, event) {
+  var _a2 = contextInstance.props, onZoomStart = _a2.onZoomStart, onZoom = _a2.onZoom;
+  var _b2 = contextInstance.setup.doubleClick, animationTime = _b2.animationTime, animationType = _b2.animationType;
+  handleCallback(getContext(contextInstance), event, onZoomStart);
+  resetTransformations(contextInstance, animationTime, animationType, function() {
+    return handleCallback(getContext(contextInstance), event, onZoom);
+  });
+  handleDoubleClickStop(contextInstance, event);
+};
+function getDoubleClickScale(mode, scale) {
+  if (mode === "toggle") {
+    return scale === 1 ? 1 : -1;
+  }
+  return mode === "zoomOut" ? -1 : 1;
+}
+function handleDoubleClick(contextInstance, event) {
+  var setup = contextInstance.setup, doubleClickStopEventTimer = contextInstance.doubleClickStopEventTimer, transformState = contextInstance.transformState, contentComponent = contextInstance.contentComponent;
+  var scale = transformState.scale;
+  var _a2 = contextInstance.props, onZoomStart = _a2.onZoomStart, onZoom = _a2.onZoom;
+  var _b2 = setup.doubleClick, disabled = _b2.disabled, mode = _b2.mode, step = _b2.step, animationTime = _b2.animationTime, animationType = _b2.animationType;
+  if (disabled)
+    return;
+  if (doubleClickStopEventTimer)
+    return;
+  if (mode === "reset") {
+    return handleDoubleClickResetMode(contextInstance, event);
+  }
+  if (!contentComponent)
+    return console.error("No ContentComponent found");
+  var delta = getDoubleClickScale(mode, contextInstance.transformState.scale);
+  var newScale = handleCalculateButtonZoom(contextInstance, delta, step);
+  if (scale === newScale)
+    return;
+  handleCallback(getContext(contextInstance), event, onZoomStart);
+  var mousePosition = getMousePosition(event, contentComponent, scale);
+  var targetState = handleZoomToPoint(contextInstance, newScale, mousePosition.x, mousePosition.y);
+  if (!targetState) {
+    return console.error("Error during zoom event. New transformation state was not calculated.");
+  }
+  handleCallback(getContext(contextInstance), event, onZoom);
+  animate(contextInstance, targetState, animationTime, animationType);
+  handleDoubleClickStop(contextInstance, event);
+}
+var isDoubleClickAllowed = function(contextInstance, event) {
+  var isInitialized = contextInstance.isInitialized, setup = contextInstance.setup, wrapperComponent = contextInstance.wrapperComponent;
+  var _a2 = setup.doubleClick, disabled = _a2.disabled, excluded = _a2.excluded;
+  var target = event.target;
+  var isWrapperChild = wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.contains(target);
+  var isAllowed = isInitialized && target && isWrapperChild && !disabled;
+  if (!isAllowed)
+    return false;
+  var isExcluded = isExcludedNode(target, excluded);
+  if (isExcluded)
+    return false;
+  return true;
+};
+var ZoomPanPinch = (
+  /** @class */
+  /* @__PURE__ */ function() {
+    function ZoomPanPinch2(props) {
+      var _this = this;
+      this.mounted = true;
+      this.onChangeCallbacks = /* @__PURE__ */ new Set();
+      this.onInitCallbacks = /* @__PURE__ */ new Set();
+      this.wrapperComponent = null;
+      this.contentComponent = null;
+      this.isInitialized = false;
+      this.bounds = null;
+      this.previousWheelEvent = null;
+      this.wheelStopEventTimer = null;
+      this.wheelAnimationTimer = null;
+      this.isPanning = false;
+      this.isWheelPanning = false;
+      this.startCoords = null;
+      this.lastTouch = null;
+      this.distance = null;
+      this.lastDistance = null;
+      this.pinchStartDistance = null;
+      this.pinchStartScale = null;
+      this.pinchMidpoint = null;
+      this.doubleClickStopEventTimer = null;
+      this.velocity = null;
+      this.velocityTime = null;
+      this.lastMousePosition = null;
+      this.animate = false;
+      this.animation = null;
+      this.maxBounds = null;
+      this.pressedKeys = {};
+      this.mount = function() {
+        _this.initializeWindowEvents();
+      };
+      this.unmount = function() {
+        _this.cleanupWindowEvents();
+      };
+      this.update = function(newProps) {
+        _this.props = newProps;
+        handleCalculateBounds(_this, _this.transformState.scale);
+        _this.setup = createSetup(newProps);
+      };
+      this.initializeWindowEvents = function() {
+        var _a2, _b2;
+        var passive = makePassiveEventOption();
+        var currentDocument = (_a2 = _this.wrapperComponent) === null || _a2 === void 0 ? void 0 : _a2.ownerDocument;
+        var currentWindow = currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.defaultView;
+        (_b2 = _this.wrapperComponent) === null || _b2 === void 0 ? void 0 : _b2.addEventListener("wheel", _this.onWheelPanning, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("mousedown", _this.onPanningStart, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("mousemove", _this.onPanning, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("mouseup", _this.onPanningStop, passive);
+        currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.addEventListener("mouseleave", _this.clearPanning, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("keyup", _this.setKeyUnPressed, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("keydown", _this.setKeyPressed, passive);
+      };
+      this.cleanupWindowEvents = function() {
+        var _a2, _b2;
+        var passive = makePassiveEventOption();
+        var currentDocument = (_a2 = _this.wrapperComponent) === null || _a2 === void 0 ? void 0 : _a2.ownerDocument;
+        var currentWindow = currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.defaultView;
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("mousedown", _this.onPanningStart, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("mousemove", _this.onPanning, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("mouseup", _this.onPanningStop, passive);
+        currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.removeEventListener("mouseleave", _this.clearPanning, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("keyup", _this.setKeyUnPressed, passive);
+        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("keydown", _this.setKeyPressed, passive);
+        document.removeEventListener("mouseleave", _this.clearPanning, passive);
+        handleCancelAnimation(_this);
+        (_b2 = _this.observer) === null || _b2 === void 0 ? void 0 : _b2.disconnect();
+      };
+      this.handleInitializeWrapperEvents = function(wrapper) {
+        var passive = makePassiveEventOption();
+        wrapper.addEventListener("wheel", _this.onWheelZoom, passive);
+        wrapper.addEventListener("dblclick", _this.onDoubleClick, passive);
+        wrapper.addEventListener("touchstart", _this.onTouchPanningStart, passive);
+        wrapper.addEventListener("touchmove", _this.onTouchPanning, passive);
+        wrapper.addEventListener("touchend", _this.onTouchPanningStop, passive);
+      };
+      this.handleInitialize = function(contentComponent) {
+        var centerOnInit = _this.setup.centerOnInit;
+        _this.applyTransformation();
+        _this.onInitCallbacks.forEach(function(callback) {
+          return callback(getContext(_this));
+        });
+        if (centerOnInit) {
+          _this.setCenter();
+          _this.observer = new ResizeObserver(function() {
+            var _a2;
+            var currentWidth = contentComponent.offsetWidth;
+            var currentHeight = contentComponent.offsetHeight;
+            if (currentWidth > 0 || currentHeight > 0) {
+              _this.onInitCallbacks.forEach(function(callback) {
+                return callback(getContext(_this));
+              });
+              _this.setCenter();
+              (_a2 = _this.observer) === null || _a2 === void 0 ? void 0 : _a2.disconnect();
+            }
+          });
+          setTimeout(function() {
+            var _a2;
+            (_a2 = _this.observer) === null || _a2 === void 0 ? void 0 : _a2.disconnect();
+          }, 5e3);
+          _this.observer.observe(contentComponent);
+        }
+      };
+      this.onWheelZoom = function(event) {
+        var disabled = _this.setup.disabled;
+        if (disabled)
+          return;
+        var isAllowed = isWheelAllowed(_this, event);
+        if (!isAllowed)
+          return;
+        var keysPressed = _this.isPressingKeys(_this.setup.wheel.activationKeys);
+        if (!keysPressed)
+          return;
+        handleWheelStart(_this, event);
+        handleWheelZoom(_this, event);
+        handleWheelStop(_this, event);
+      };
+      this.onWheelPanning = function(event) {
+        var _a2 = _this.setup, disabled = _a2.disabled, wheel = _a2.wheel, panning = _a2.panning;
+        if (!_this.wrapperComponent || !_this.contentComponent || disabled || !wheel.wheelDisabled || panning.disabled || !panning.wheelPanning || event.ctrlKey) {
+          return;
+        }
+        event.preventDefault();
+        event.stopPropagation();
+        var _b2 = _this.transformState, positionX = _b2.positionX, positionY = _b2.positionY;
+        var mouseX = positionX - event.deltaX;
+        var mouseY = positionY - event.deltaY;
+        var newPositionX = panning.lockAxisX ? positionX : mouseX;
+        var newPositionY = panning.lockAxisY ? positionY : mouseY;
+        var _c = _this.setup.alignmentAnimation, sizeX = _c.sizeX, sizeY = _c.sizeY;
+        var paddingValueX = getPaddingValue(_this, sizeX);
+        var paddingValueY = getPaddingValue(_this, sizeY);
+        if (newPositionX === positionX && newPositionY === positionY)
+          return;
+        handleNewPosition(_this, newPositionX, newPositionY, paddingValueX, paddingValueY);
+      };
+      this.onPanningStart = function(event) {
+        var disabled = _this.setup.disabled;
+        var onPanningStart = _this.props.onPanningStart;
+        if (disabled)
+          return;
+        var isAllowed = isPanningStartAllowed(_this, event);
+        if (!isAllowed)
+          return;
+        var keysPressed = _this.isPressingKeys(_this.setup.panning.activationKeys);
+        if (!keysPressed)
+          return;
+        if (event.button === 0 && !_this.setup.panning.allowLeftClickPan)
+          return;
+        if (event.button === 1 && !_this.setup.panning.allowMiddleClickPan)
+          return;
+        if (event.button === 2 && !_this.setup.panning.allowRightClickPan)
+          return;
+        event.preventDefault();
+        event.stopPropagation();
+        handleCancelAnimation(_this);
+        handlePanningStart(_this, event);
+        handleCallback(getContext(_this), event, onPanningStart);
+      };
+      this.onPanning = function(event) {
+        var disabled = _this.setup.disabled;
+        var onPanning = _this.props.onPanning;
+        if (disabled)
+          return;
+        var isAllowed = isPanningAllowed(_this);
+        if (!isAllowed)
+          return;
+        var keysPressed = _this.isPressingKeys(_this.setup.panning.activationKeys);
+        if (!keysPressed)
+          return;
+        event.preventDefault();
+        event.stopPropagation();
+        handlePanning(_this, event.clientX, event.clientY);
+        handleCallback(getContext(_this), event, onPanning);
+      };
+      this.onPanningStop = function(event) {
+        var onPanningStop = _this.props.onPanningStop;
+        if (_this.isPanning) {
+          handlePanningEnd(_this);
+          handleCallback(getContext(_this), event, onPanningStop);
+        }
+      };
+      this.onPinchStart = function(event) {
+        var disabled = _this.setup.disabled;
+        var _a2 = _this.props, onPinchingStart = _a2.onPinchingStart, onZoomStart = _a2.onZoomStart;
+        if (disabled)
+          return;
+        var isAllowed = isPinchStartAllowed(_this, event);
+        if (!isAllowed)
+          return;
+        handlePinchStart(_this, event);
+        handleCancelAnimation(_this);
+        handleCallback(getContext(_this), event, onPinchingStart);
+        handleCallback(getContext(_this), event, onZoomStart);
+      };
+      this.onPinch = function(event) {
+        var disabled = _this.setup.disabled;
+        var _a2 = _this.props, onPinching = _a2.onPinching, onZoom = _a2.onZoom;
+        if (disabled)
+          return;
+        var isAllowed = isPinchAllowed(_this);
+        if (!isAllowed)
+          return;
+        event.preventDefault();
+        event.stopPropagation();
+        handlePinchZoom(_this, event);
+        handleCallback(getContext(_this), event, onPinching);
+        handleCallback(getContext(_this), event, onZoom);
+      };
+      this.onPinchStop = function(event) {
+        var _a2 = _this.props, onPinchingStop = _a2.onPinchingStop, onZoomStop = _a2.onZoomStop;
+        if (_this.pinchStartScale) {
+          handlePinchStop(_this);
+          handleCallback(getContext(_this), event, onPinchingStop);
+          handleCallback(getContext(_this), event, onZoomStop);
+        }
+      };
+      this.onTouchPanningStart = function(event) {
+        var disabled = _this.setup.disabled;
+        var onPanningStart = _this.props.onPanningStart;
+        if (disabled)
+          return;
+        var isAllowed = isPanningStartAllowed(_this, event);
+        if (!isAllowed)
+          return;
+        var isDoubleTap = _this.lastTouch && +/* @__PURE__ */ new Date() - _this.lastTouch < 200;
+        if (isDoubleTap && event.touches.length === 1) {
+          _this.onDoubleClick(event);
+        } else {
+          _this.lastTouch = +/* @__PURE__ */ new Date();
+          handleCancelAnimation(_this);
+          var touches = event.touches;
+          var isPanningAction = touches.length === 1;
+          var isPinchAction = touches.length === 2;
+          if (isPanningAction) {
+            handleCancelAnimation(_this);
+            handlePanningStart(_this, event);
+            handleCallback(getContext(_this), event, onPanningStart);
+          }
+          if (isPinchAction) {
+            _this.onPinchStart(event);
+          }
+        }
+      };
+      this.onTouchPanning = function(event) {
+        var disabled = _this.setup.disabled;
+        var onPanning = _this.props.onPanning;
+        if (_this.isPanning && event.touches.length === 1) {
+          if (disabled)
+            return;
+          var isAllowed = isPanningAllowed(_this);
+          if (!isAllowed)
+            return;
+          event.preventDefault();
+          event.stopPropagation();
+          var touch = event.touches[0];
+          handlePanning(_this, touch.clientX, touch.clientY);
+          handleCallback(getContext(_this), event, onPanning);
+        } else if (event.touches.length > 1) {
+          _this.onPinch(event);
+        }
+      };
+      this.onTouchPanningStop = function(event) {
+        _this.onPanningStop(event);
+        _this.onPinchStop(event);
+      };
+      this.onDoubleClick = function(event) {
+        var disabled = _this.setup.disabled;
+        if (disabled)
+          return;
+        var isAllowed = isDoubleClickAllowed(_this, event);
+        if (!isAllowed)
+          return;
+        handleDoubleClick(_this, event);
+      };
+      this.clearPanning = function(event) {
+        if (_this.isPanning) {
+          _this.onPanningStop(event);
+        }
+      };
+      this.setKeyPressed = function(e4) {
+        _this.pressedKeys[e4.key] = true;
+      };
+      this.setKeyUnPressed = function(e4) {
+        _this.pressedKeys[e4.key] = false;
+      };
+      this.isPressingKeys = function(keys) {
+        if (!keys.length) {
+          return true;
+        }
+        return Boolean(keys.find(function(key) {
+          return _this.pressedKeys[key];
+        }));
+      };
+      this.setTransformState = function(scale, positionX, positionY) {
+        var onTransformed = _this.props.onTransformed;
+        if (!Number.isNaN(scale) && !Number.isNaN(positionX) && !Number.isNaN(positionY)) {
+          if (scale !== _this.transformState.scale) {
+            _this.transformState.previousScale = _this.transformState.scale;
+            _this.transformState.scale = scale;
+          }
+          _this.transformState.positionX = positionX;
+          _this.transformState.positionY = positionY;
+          _this.applyTransformation();
+          var ctx_1 = getContext(_this);
+          _this.onChangeCallbacks.forEach(function(callback) {
+            return callback(ctx_1);
+          });
+          handleCallback(ctx_1, { scale, positionX, positionY }, onTransformed);
+        } else {
+          console.error("Detected NaN set state values");
+        }
+      };
+      this.setCenter = function() {
+        if (_this.wrapperComponent && _this.contentComponent) {
+          var targetState = getCenterPosition(_this.transformState.scale, _this.wrapperComponent, _this.contentComponent);
+          _this.setTransformState(targetState.scale, targetState.positionX, targetState.positionY);
+        }
+      };
+      this.handleTransformStyles = function(x2, y3, scale) {
+        if (_this.props.customTransform) {
+          return _this.props.customTransform(x2, y3, scale);
+        }
+        return getTransformStyles(x2, y3, scale);
+      };
+      this.applyTransformation = function() {
+        if (!_this.mounted || !_this.contentComponent)
+          return;
+        var _a2 = _this.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
+        var transform = _this.handleTransformStyles(positionX, positionY, scale);
+        _this.contentComponent.style.transform = transform;
+      };
+      this.getContext = function() {
+        return getContext(_this);
+      };
+      this.onChange = function(callback) {
+        if (!_this.onChangeCallbacks.has(callback)) {
+          _this.onChangeCallbacks.add(callback);
+        }
+        return function() {
+          _this.onChangeCallbacks.delete(callback);
+        };
+      };
+      this.onInit = function(callback) {
+        if (!_this.onInitCallbacks.has(callback)) {
+          _this.onInitCallbacks.add(callback);
+        }
+        return function() {
+          _this.onInitCallbacks.delete(callback);
+        };
+      };
+      this.init = function(wrapperComponent, contentComponent) {
+        _this.cleanupWindowEvents();
+        _this.wrapperComponent = wrapperComponent;
+        _this.contentComponent = contentComponent;
+        handleCalculateBounds(_this, _this.transformState.scale);
+        _this.handleInitializeWrapperEvents(wrapperComponent);
+        _this.handleInitialize(contentComponent);
+        _this.initializeWindowEvents();
+        _this.isInitialized = true;
+        var ctx = getContext(_this);
+        handleCallback(ctx, void 0, _this.props.onInit);
+      };
+      this.props = props;
+      this.setup = createSetup(this.props);
+      this.transformState = createState(this.props);
+    }
+    return ZoomPanPinch2;
+  }()
+);
+var Context = import_react3.default.createContext(null);
+var getContent2 = function(children, ctx) {
+  if (typeof children === "function") {
+    return children(ctx);
+  }
+  return children;
+};
+var TransformWrapper = import_react3.default.forwardRef(function(props, ref) {
+  var instance = (0, import_react3.useRef)(new ZoomPanPinch(props)).current;
+  var content = getContent2(props.children, getControls(instance));
+  (0, import_react3.useImperativeHandle)(ref, function() {
+    return getControls(instance);
+  }, [instance]);
+  (0, import_react3.useEffect)(function() {
+    instance.update(props);
+  }, [instance, props]);
+  return import_react3.default.createElement(Context.Provider, { value: instance }, content);
+});
+var KeepScale = import_react3.default.forwardRef(function(props, ref) {
+  var localRef = (0, import_react3.useRef)(null);
+  var instance = (0, import_react3.useContext)(Context);
+  (0, import_react3.useEffect)(function() {
+    return instance.onChange(function(ctx) {
+      if (localRef.current) {
+        var positionX = 0;
+        var positionY = 0;
+        localRef.current.style.transform = instance.handleTransformStyles(positionX, positionY, 1 / ctx.instance.transformState.scale);
+      }
+    });
+  }, [instance]);
+  return import_react3.default.createElement("div", __assign({}, props, { ref: mergeRefs([localRef, ref]) }));
+});
+function styleInject(css, ref) {
+  if (ref === void 0)
+    ref = {};
+  var insertAt = ref.insertAt;
+  if (!css || typeof document === "undefined") {
+    return;
+  }
+  var head = document.head || document.getElementsByTagName("head")[0];
+  var style = document.createElement("style");
+  style.type = "text/css";
+  if (insertAt === "top") {
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild);
+    } else {
+      head.appendChild(style);
+    }
+  } else {
+    head.appendChild(style);
+  }
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+}
+var css_248z = ".transform-component-module_wrapper__SPB86 {\n  position: relative;\n  width: -moz-fit-content;\n  width: fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n  overflow: hidden;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */\n  -khtml-user-select: none; /* Konqueror HTML */\n  -moz-user-select: none; /* Firefox */\n  -ms-user-select: none; /* Internet Explorer/Edge */\n  user-select: none;\n  margin: 0;\n  padding: 0;\n}\n.transform-component-module_content__FBWxo {\n  display: flex;\n  flex-wrap: wrap;\n  width: -moz-fit-content;\n  width: fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n  margin: 0;\n  padding: 0;\n  transform-origin: 0% 0%;\n}\n.transform-component-module_content__FBWxo img {\n  pointer-events: none;\n}\n";
+var styles = { "wrapper": "transform-component-module_wrapper__SPB86", "content": "transform-component-module_content__FBWxo" };
+styleInject(css_248z);
+var TransformComponent = function(_a2) {
+  var children = _a2.children, _b2 = _a2.wrapperClass, wrapperClass = _b2 === void 0 ? "" : _b2, _c = _a2.contentClass, contentClass = _c === void 0 ? "" : _c, wrapperStyle = _a2.wrapperStyle, contentStyle = _a2.contentStyle, _d = _a2.wrapperProps, wrapperProps = _d === void 0 ? {} : _d, _e = _a2.contentProps, contentProps = _e === void 0 ? {} : _e;
+  var _f = (0, import_react3.useContext)(Context), init = _f.init, cleanupWindowEvents = _f.cleanupWindowEvents;
+  var wrapperRef = (0, import_react3.useRef)(null);
+  var contentRef = (0, import_react3.useRef)(null);
+  (0, import_react3.useEffect)(function() {
+    var wrapper = wrapperRef.current;
+    var content = contentRef.current;
+    if (wrapper !== null && content !== null && init) {
+      init === null || init === void 0 ? void 0 : init(wrapper, content);
+    }
+    return function() {
+      cleanupWindowEvents === null || cleanupWindowEvents === void 0 ? void 0 : cleanupWindowEvents();
+    };
+  }, []);
+  return import_react3.default.createElement(
+    "div",
+    __assign({}, wrapperProps, { ref: wrapperRef, className: "react-transform-wrapper ".concat(styles.wrapper, " ").concat(wrapperClass), style: wrapperStyle }),
+    import_react3.default.createElement("div", __assign({}, contentProps, { ref: contentRef, className: "react-transform-component ".concat(styles.content, " ").concat(contentClass), style: contentStyle }), children)
+  );
+};
 
 // src/utils/index.ts
 var import_obsidian2 = require("obsidian");
@@ -30467,9 +34155,9 @@ async function fileToBase64(file) {
   const reader = new FileReader();
   reader.readAsDataURL(file);
   return new Promise((resolve, reject) => {
-    reader.onload = () => {
+    reader.addEventListener("load", () => {
       resolve(reader.result);
-    };
+    });
     reader.onerror = (error) => {
       reject(error);
     };
@@ -30481,14 +34169,14 @@ function fileToUrl(file) {
 async function getSizeOfImage(url) {
   return new Promise((resolve, reject) => {
     const image = new Image();
-    image.onload = () => {
+    image.addEventListener("load", () => {
       resolve({
         width: Math.round(image.width / 2),
         height: Math.round(image.height / 2)
       });
       URL.revokeObjectURL(url);
       image.remove();
-    };
+    });
     image.onerror = (error) => {
       reject(error);
       URL.revokeObjectURL(url);
@@ -30501,7 +34189,7 @@ async function createHtml(path, app) {
   const div = createDiv();
   await import_obsidian2.MarkdownRenderer.render(
     app,
-    `![](${(0, import_obsidian2.normalizePath)(path).replace(/ /g, "%20")})`,
+    `![](${(0, import_obsidian2.normalizePath)(path).replaceAll(" ", "%20")})`,
     div,
     "",
     new import_obsidian2.MarkdownRenderChild(div)
@@ -30511,13 +34199,96 @@ async function createHtml(path, app) {
 function getMetadata(file, app) {
   return app.metadataCache.getFileCache(file)?.frontmatter;
 }
-function delay(time) {
+async function delay(time) {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(true);
     }, time);
   });
 }
+function getMime(format) {
+  return `image/${format.includes("png") ? "png" : format === "jpg" ? "jpeg" : format}`;
+}
+
+// src/imageFormatTester/tiny.ts
+var jpg = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=";
+var png = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==";
+var webp = "data:image/webp;base64,UklGRkAAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAIAAAAAAFZQOCAYAAAAMAEAnQEqAQABAAIANCWkAANwAP77/VAA";
+
+// src/imageFormatTester/index.ts
+async function tester(image) {
+  try {
+    const blob = await (await fetch(image)).blob();
+    const data = [];
+    data.push(
+      new ClipboardItem({
+        [blob.type]: blob
+      })
+    );
+    await navigator.clipboard.write(data);
+    return true;
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+}
+var copyCache = {
+  pdf: Promise.resolve(false)
+};
+var createCache = {
+  pdf: true
+};
+async function isCopiable(type) {
+  if (type in copyCache) {
+    return copyCache[type];
+  }
+  if (type === "jpg") {
+    copyCache[type] = tester(jpg);
+    return copyCache[type];
+  }
+  if (type === "webp") {
+    copyCache[type] = tester(webp);
+    return copyCache[type];
+  }
+  const result = tester(png);
+  copyCache.png0 = result;
+  copyCache.png1 = result;
+  return result;
+}
+async function isCreatable(type) {
+  if (type in createCache) {
+    return createCache[type];
+  }
+  const canvas = document.createElement("canvas");
+  canvas.width = 1;
+  canvas.height = 1;
+  const mime = getMime(type);
+  return new Promise((resolve) => {
+    try {
+      canvas.toBlob(() => {
+        if (type.includes("png")) {
+          createCache.png0 = true;
+          createCache.png1 = true;
+        } else {
+          createCache[type] = true;
+        }
+        resolve(true);
+      }, mime);
+    } catch {
+      if (type.includes("png")) {
+        createCache.png0 = false;
+        createCache.png1 = false;
+      } else {
+        createCache[type] = false;
+      }
+      resolve(false);
+    }
+  });
+}
+
+// src/utils/capture.ts
+var import_obsidian4 = require("obsidian");
+var import_file_saver = __toESM(require_FileSaver_min());
 
 // node_modules/jspdf/dist/jspdf.es.min.js
 init_typeof();
@@ -31087,14 +34858,14 @@ var dflt = function(dat, lvl, plvl, pre, post, lst) {
           var ml = Math.min(258, rem);
           while (dif <= maxd && --ch_1 && imod != pimod) {
             if (dat[i4 + l3] == dat[i4 + l3 - dif]) {
-              var nl = 0;
-              for (; nl < ml && dat[i4 + nl] == dat[i4 + nl - dif]; ++nl)
+              var nl2 = 0;
+              for (; nl2 < ml && dat[i4 + nl2] == dat[i4 + nl2 - dif]; ++nl2)
                 ;
-              if (nl > l3) {
-                l3 = nl, d2 = dif;
-                if (nl > maxn)
+              if (nl2 > l3) {
+                l3 = nl2, d2 = dif;
+                if (nl2 > maxn)
                   break;
-                var mmd = Math.min(dif, nl - 2);
+                var mmd = Math.min(dif, nl2 - 2);
                 var md = 0;
                 for (var j2 = 0; j2 < mmd; ++j2) {
                   var ti = i4 - dif + j2 + 32768 & 32767;
@@ -31579,9 +35350,9 @@ function E(e4) {
     for (var e5 = t5.length, r6 = new ArrayBuffer(e5), n4 = new Uint8Array(r6); e5--; )
       n4[e5] = t5.charCodeAt(e5);
     return r6;
-  }, pt2 = [["Helvetica", "helvetica", "normal", "WinAnsiEncoding"], ["Helvetica-Bold", "helvetica", "bold", "WinAnsiEncoding"], ["Helvetica-Oblique", "helvetica", "italic", "WinAnsiEncoding"], ["Helvetica-BoldOblique", "helvetica", "bolditalic", "WinAnsiEncoding"], ["Courier", "courier", "normal", "WinAnsiEncoding"], ["Courier-Bold", "courier", "bold", "WinAnsiEncoding"], ["Courier-Oblique", "courier", "italic", "WinAnsiEncoding"], ["Courier-BoldOblique", "courier", "bolditalic", "WinAnsiEncoding"], ["Times-Roman", "times", "normal", "WinAnsiEncoding"], ["Times-Bold", "times", "bold", "WinAnsiEncoding"], ["Times-Italic", "times", "italic", "WinAnsiEncoding"], ["Times-BoldItalic", "times", "bolditalic", "WinAnsiEncoding"], ["ZapfDingbats", "zapfdingbats", "normal", null], ["Symbol", "symbol", "normal", null]];
+  }, pt3 = [["Helvetica", "helvetica", "normal", "WinAnsiEncoding"], ["Helvetica-Bold", "helvetica", "bold", "WinAnsiEncoding"], ["Helvetica-Oblique", "helvetica", "italic", "WinAnsiEncoding"], ["Helvetica-BoldOblique", "helvetica", "bolditalic", "WinAnsiEncoding"], ["Courier", "courier", "normal", "WinAnsiEncoding"], ["Courier-Bold", "courier", "bold", "WinAnsiEncoding"], ["Courier-Oblique", "courier", "italic", "WinAnsiEncoding"], ["Courier-BoldOblique", "courier", "bolditalic", "WinAnsiEncoding"], ["Times-Roman", "times", "normal", "WinAnsiEncoding"], ["Times-Bold", "times", "bold", "WinAnsiEncoding"], ["Times-Italic", "times", "italic", "WinAnsiEncoding"], ["Times-BoldItalic", "times", "bolditalic", "WinAnsiEncoding"], ["ZapfDingbats", "zapfdingbats", "normal", null], ["Symbol", "symbol", "normal", null]];
   y3.__private__.getStandardFonts = function() {
-    return pt2;
+    return pt3;
   };
   var gt2 = e4.fontSize || 16;
   y3.__private__.setFontSize = y3.setFontSize = function(t5) {
@@ -31907,7 +35678,7 @@ function E(e4) {
     i5.push({ key: "FunctionType", value: "0" }), i5.push({ key: "Domain", value: "[0.0 1.0]" }), i5.push({ key: "Size", value: "[" + e5 + "]" }), i5.push({ key: "BitsPerSample", value: "8" }), i5.push({ key: "Range", value: "[0.0 1.0 0.0 1.0 0.0 1.0]" }), i5.push({ key: "Decode", value: "[0.0 1.0 0.0 1.0 0.0 1.0]" }), ie2({ data: n4, additionalKeyValues: i5, alreadyAppliedFilters: ["/ASCIIHexDecode"], objectId: r6 }), lt2("endobj"), t5.objectNumber = Xt2(), lt2("<< /ShadingType " + t5.type), lt2("/ColorSpace /DeviceRGB");
     var a3 = "/Coords [" + O3(parseFloat(t5.coords[0])) + " " + O3(parseFloat(t5.coords[1])) + " ";
     2 === t5.type ? a3 += O3(parseFloat(t5.coords[2])) + " " + O3(parseFloat(t5.coords[3])) : a3 += O3(parseFloat(t5.coords[2])) + " " + O3(parseFloat(t5.coords[3])) + " " + O3(parseFloat(t5.coords[4])) + " " + O3(parseFloat(t5.coords[5])), lt2(a3 += "]"), t5.matrix && lt2("/Matrix [" + t5.matrix.toString() + "]"), lt2("/Function " + r6 + " 0 R"), lt2("/Extend [true true]"), lt2(">>"), lt2("endobj");
-  }, de2 = function(t5, e5) {
+  }, de3 = function(t5, e5) {
     var r6 = Kt2(), n4 = Xt2();
     e5.push({ resourcesOid: r6, objectOid: n4 }), t5.objectNumber = n4;
     var i5 = [];
@@ -31915,7 +35686,7 @@ function E(e4) {
   }, pe2 = function(t5) {
     var e5;
     for (e5 in Ot2)
-      Ot2.hasOwnProperty(e5) && (Ot2[e5] instanceof B ? fe2(Ot2[e5]) : Ot2[e5] instanceof M && de2(Ot2[e5], t5));
+      Ot2.hasOwnProperty(e5) && (Ot2[e5] instanceof B ? fe2(Ot2[e5]) : Ot2[e5] instanceof M && de3(Ot2[e5], t5));
   }, ge2 = function(t5) {
     for (var e5 in t5.objectNumber = Xt2(), lt2("<<"), t5)
       switch (e5) {
@@ -31977,8 +35748,8 @@ function E(e4) {
     var a3 = { id: "F" + (Object.keys(Ft2).length + 1).toString(10), postScriptName: t5, fontName: e5, fontStyle: r6, encoding: n4, isStandardFont: i5 || false, metadata: {} };
     return Tt2.publish("addFont", { font: a3, instance: this }), Ft2[a3.id] = a3, _e(a3), a3.id;
   }, ke = function(t5) {
-    for (var e5 = 0, r6 = pt2.length; e5 < r6; e5++) {
-      var n4 = Pe.call(this, t5[e5][0], t5[e5][1], t5[e5][2], pt2[e5][3], true);
+    for (var e5 = 0, r6 = pt3.length; e5 < r6; e5++) {
+      var n4 = Pe.call(this, t5[e5][0], t5[e5][1], t5[e5][2], pt3[e5][3], true);
       false === v3 && (b2[n4] = true);
       var i5 = t5[e5][0].split("-");
       _e({ id: n4, fontName: i5[0], fontStyle: i5[1] || "" });
@@ -32027,7 +35798,7 @@ function E(e4) {
       case "p":
         n4 > o5 && (s3 = [o5, n4]);
     }
-    je(s3), pr(fr), lt2(Lr), 0 !== kr && lt2(kr + " J"), 0 !== Ir && lt2(Ir + " j"), Tt2.publish("addPage", { pageNumber: Dt2 });
+    je(s3), pr(fr2), lt2(Lr), 0 !== kr && lt2(kr + " J"), 0 !== Ir && lt2(Ir + " j"), Tt2.publish("addPage", { pageNumber: Dt2 });
   }, Be = function(t5) {
     t5 > 0 && t5 <= Dt2 && (ot2.splice(t5, 1), Rt2.splice(t5, 1), Dt2--, $2 > Dt2 && ($2 = Dt2), this.setPage($2));
   }, Me = function(t5) {
@@ -32546,10 +36317,10 @@ function E(e4) {
     var a3 = ["StandardEncoding", "MacRomanEncoding", "Identity-H", "WinAnsiEncoding"];
     return arguments[3] && -1 !== a3.indexOf(arguments[3]) ? i5 = arguments[3] : arguments[3] && -1 == a3.indexOf(arguments[3]) && (r6 = k2(r6, n4)), i5 = i5 || "Identity-H", Pe.call(this, t5, e5, r6, i5);
   };
-  var lr2, fr = e4.lineWidth || 0.200025, dr = y3.__private__.getLineWidth = y3.getLineWidth = function() {
-    return fr;
+  var lr2, fr2 = e4.lineWidth || 0.200025, dr = y3.__private__.getLineWidth = y3.getLineWidth = function() {
+    return fr2;
   }, pr = y3.__private__.setLineWidth = y3.setLineWidth = function(t5) {
-    return fr = t5, lt2(O3(U2(t5)) + " w"), this;
+    return fr2 = t5, lt2(O3(U2(t5)) + " w"), this;
   };
   y3.__private__.setLineDash = E.API.setLineDash = E.API.setLineDashPattern = function(t5, e5) {
     if (t5 = t5 || [], e5 = e5 || 0, isNaN(e5) || !Array.isArray(t5))
@@ -32753,7 +36524,7 @@ function E(e4) {
     return Rr($2);
   }, set: function(t5) {
     Tr($2, t5);
-  }, enumerable: true, configurable: true }), ke.call(y3, pt2), St2 = "F1", Oe(s3, i4), Tt2.publish("initialized"), y3;
+  }, enumerable: true, configurable: true }), ke.call(y3, pt3), St2 = "F1", Oe(s3, i4), Tt2.publish("initialized"), y3;
 }
 I.prototype.lsbFirstWord = function(t5) {
   return String.fromCharCode(t5 >> 0 & 255, t5 >> 8 & 255, t5 >> 16 & 255, t5 >> 24 & 255);
@@ -33380,14 +37151,14 @@ var dt = function() {
   ft.call(this), this.fontName = "helvetica", this.combo = false;
 };
 H(dt, ft);
-var pt = function() {
+var pt2 = function() {
   dt.call(this), this.combo = true;
 };
-H(pt, dt);
+H(pt2, dt);
 var gt = function() {
-  pt.call(this), this.edit = true;
+  pt2.call(this), this.edit = true;
 };
-H(gt, pt);
+H(gt, pt2);
 var mt = function() {
   lt.call(this), this.FT = "/Btn", Object.defineProperty(this, "noToggleToOff", { enumerable: true, configurable: true, get: function() {
     return Boolean(X(this.Ff, 15));
@@ -33632,7 +37403,7 @@ var xt = q.addField = function(t5) {
   var e4;
   return (e4 = t5).scope.internal.acroformPlugin.printedOut && (e4.scope.internal.acroformPlugin.printedOut = false, e4.scope.internal.acroformPlugin.acroFormDictionaryRoot = null), e4.scope.internal.acroformPlugin.acroFormDictionaryRoot.Fields.push(e4), t5.page = t5.scope.internal.getCurrentPageInfo().pageNumber, this;
 };
-q.AcroFormChoiceField = ft, q.AcroFormListBox = dt, q.AcroFormComboBox = pt, q.AcroFormEditBox = gt, q.AcroFormButton = mt, q.AcroFormPushButton = vt, q.AcroFormRadioButton = bt, q.AcroFormCheckBox = wt, q.AcroFormTextField = Nt, q.AcroFormPasswordField = Lt, q.AcroFormAppearance = At, q.AcroForm = { ChoiceField: ft, ListBox: dt, ComboBox: pt, EditBox: gt, Button: mt, PushButton: vt, RadioButton: bt, CheckBox: wt, TextField: Nt, PasswordField: Lt, Appearance: At }, E.AcroForm = { ChoiceField: ft, ListBox: dt, ComboBox: pt, EditBox: gt, Button: mt, PushButton: vt, RadioButton: bt, CheckBox: wt, TextField: Nt, PasswordField: Lt, Appearance: At };
+q.AcroFormChoiceField = ft, q.AcroFormListBox = dt, q.AcroFormComboBox = pt2, q.AcroFormEditBox = gt, q.AcroFormButton = mt, q.AcroFormPushButton = vt, q.AcroFormRadioButton = bt, q.AcroFormCheckBox = wt, q.AcroFormTextField = Nt, q.AcroFormPasswordField = Lt, q.AcroFormAppearance = At, q.AcroForm = { ChoiceField: ft, ListBox: dt, ComboBox: pt2, EditBox: gt, Button: mt, PushButton: vt, RadioButton: bt, CheckBox: wt, TextField: Nt, PasswordField: Lt, Appearance: At }, E.AcroForm = { ChoiceField: ft, ListBox: dt, ComboBox: pt2, EditBox: gt, Button: mt, PushButton: vt, RadioButton: bt, CheckBox: wt, TextField: Nt, PasswordField: Lt, Appearance: At };
 var St = E.AcroForm;
 function _t(t5) {
   return t5.reduce(function(t6, e4, r5) {
@@ -36375,7 +40146,7 @@ function ee(t5) {
       var r6 = t7.ma, n5 = t7.U, i5 = t7.T;
       return e4(!(1 & t7.ka)), 0 >= n5 || 0 >= i5 ? 0 : (n5 = r6.Ib(t7, r6), null != r6.Jb && r6.Jb(t7, r6, n5), r6.Dc += n5, 1);
     }
-    function pt2(t7) {
+    function pt3(t7) {
       t7.ma.memory = null;
     }
     function gt2(t7, e5, r6, n5) {
@@ -36681,8 +40452,8 @@ function ee(t5) {
                     var dt3 = null;
                   else
                     e4(65536 >= lt3), dt3 = ft3;
-                  var pt3 = a3(rt3);
-                  if (null == dt3 || null == pt3 || null == ht3) {
+                  var pt4 = a3(rt3);
+                  if (null == dt3 || null == pt4 || null == ht3) {
                     Y3.a = 1;
                     break r;
                   }
@@ -36692,7 +40463,7 @@ function ee(t5) {
                     for (V3 = 0; 5 > V3; ++V3) {
                       ut3 = Xn[V3], vt3[V3] = gt3, bt3[V3] = G3, !V3 && 0 < K3 && (ut3 += 1 << K3);
                       n: {
-                        var At3, xt3 = ut3, St3 = Y3, kt3 = pt3, Ft3 = gt3, Ct3 = G3, jt3 = 0, Ot3 = St3.m, Bt3 = y4(Ot3, 1);
+                        var At3, xt3 = ut3, St3 = Y3, kt3 = pt4, Ft3 = gt3, Ct3 = G3, jt3 = 0, Ot3 = St3.m, Bt3 = y4(Ot3, 1);
                         if (i4(kt3, 0, 0, xt3), Bt3) {
                           var Mt3 = y4(Ot3, 1) + 1, Et3 = y4(Ot3, 1), qt3 = y4(Ot3, 0 == Et3 ? 1 : 8);
                           kt3[qt3] = 1, 2 == Mt3 && (kt3[qt3 = y4(Ot3, 8)] = 1);
@@ -36740,9 +40511,9 @@ function ee(t5) {
                       if (0 == Ut3)
                         break r;
                       if (Nt3 && 1 == Kn[V3] && (Nt3 = 0 == gt3[G3].g), wt3 += gt3[G3].g, G3 += Ut3, 3 >= V3) {
-                        var oe3, se3 = pt3[0];
+                        var oe3, se3 = pt4[0];
                         for (oe3 = 1; oe3 < ut3; ++oe3)
-                          pt3[oe3] > se3 && (se3 = pt3[oe3]);
+                          pt4[oe3] > se3 && (se3 = pt4[oe3]);
                         Lt3 += se3;
                       }
                     }
@@ -36770,8 +40541,8 @@ function ee(t5) {
             }
           } else
             m7.ua = 0;
-          var de3 = s4, pe3 = f5, ge3 = p5, me3 = de3.s, ve3 = me3.xc;
-          if (de3.c = pe3, de3.i = ge3, me3.md = q2(pe3, ve3), me3.wc = 0 == ve3 ? -1 : (1 << ve3) - 1, n5) {
+          var de4 = s4, pe3 = f5, ge3 = p5, me3 = de4.s, ve3 = me3.xc;
+          if (de4.c = pe3, de4.i = ge3, me3.md = q2(pe3, ve3), me3.wc = 0 == ve3 ? -1 : (1 << ve3) - 1, n5) {
             s4.xb = pi;
             break t;
           }
@@ -37041,7 +40812,7 @@ function ee(t5) {
                 Fn[255 + s4] = 0 > s4 ? 0 : 255 < s4 ? 255 : s4;
               Cn = 1;
             }
-            an = ue2, on = ae2, cn = oe2, un = se2, hn = ce2, sn = ie2, ln2 = Je, fn = Xe, dn = $e, pn = Qe, gn = Ke, mn = Ze, vn = tr, bn = er, yn = ze, wn = He, Nn = We, Ln = Ve, fi[0] = xe2, fi[1] = le3, fi[2] = Le2, fi[3] = Ae, fi[4] = Se, fi[5] = Pe, fi[6] = _e, fi[7] = ke, fi[8] = Fe, fi[9] = Ie, li[0] = ve2, li[1] = de2, li[2] = pe2, li[3] = ge2, li[4] = be2, li[5] = ye3, li[6] = we2, di[0] = Be, di[1] = fe2, di[2] = Ce, di[3] = je, di[4] = Ee, di[5] = Me, di[6] = qe, s4 = 1;
+            an = ue2, on = ae2, cn = oe2, un = se2, hn = ce2, sn = ie2, ln2 = Je, fn = Xe, dn = $e, pn = Qe, gn = Ke, mn = Ze, vn = tr, bn = er, yn = ze, wn = He, Nn = We, Ln = Ve, fi[0] = xe2, fi[1] = le3, fi[2] = Le2, fi[3] = Ae, fi[4] = Se, fi[5] = Pe, fi[6] = _e, fi[7] = ke, fi[8] = Fe, fi[9] = Ie, li[0] = ve2, li[1] = de3, li[2] = pe2, li[3] = ge2, li[4] = be2, li[5] = ye3, li[6] = we2, di[0] = Be, di[1] = fe2, di[2] = Ce, di[3] = je, di[4] = Ee, di[5] = Me, di[6] = qe, s4 = 1;
           } else
             s4 = 0;
         }
@@ -37203,7 +40974,7 @@ function ee(t5) {
     function fe2(t7, e5) {
       he2(t7, e5, 8);
     }
-    function de2(t7, e5) {
+    function de3(t7, e5) {
       he2(t7, e5, 16);
     }
     function pe2(t7, e5) {
@@ -37462,7 +41233,7 @@ function ee(t5) {
               r6 = 0;
             else if (u5.$a = h5[l5 + 0] >> 0 & 3, u5.Z = h5[l5 + 0] >> 2 & 3, u5.Lc = h5[l5 + 0] >> 4 & 3, l5 = h5[l5 + 0] >> 6 & 3, 0 > u5.$a || 1 < u5.$a || 4 <= u5.Z || 1 < u5.Lc || l5)
               r6 = 0;
-            else if (b4.put = dt2, b4.ac = ft2, b4.bc = pt2, b4.ma = u5, b4.width = r6.width, b4.height = r6.height, b4.Da = r6.Da, b4.v = r6.v, b4.va = r6.va, b4.j = r6.j, b4.o = r6.o, u5.$a)
+            else if (b4.put = dt2, b4.ac = ft2, b4.bc = pt3, b4.ma = u5, b4.width = r6.width, b4.height = r6.height, b4.Da = r6.Da, b4.v = r6.v, b4.va = r6.va, b4.j = r6.j, b4.o = r6.o, u5.$a)
               t: {
                 e4(1 == u5.$a), r6 = kt2();
                 e:
@@ -37549,7 +41320,7 @@ function ee(t5) {
       }
       return t7.nb + i5 * s4;
     }
-    function fr(t7, e5, r6, n5, i5, a4) {
+    function fr2(t7, e5, r6, n5, i5, a4) {
       for (; 0 < i5--; ) {
         var o5, s4 = t7, c7 = e5 + (r6 ? 1 : 0), u5 = t7, h5 = e5 + (r6 ? 0 : 3);
         for (o5 = 0; o5 < n5; ++o5) {
@@ -37586,7 +41357,7 @@ function ee(t5) {
         r6[n5 + a4] = t7[e5 + a4] >> 8;
     }
     function mr() {
-      An = fr, xn = dr, Sn = pr, _n = gr;
+      An = fr2, xn = dr, Sn = pr, _n = gr;
     }
     function vr(r6, n5, i5) {
       t6[r6] = function(t7, r7, a4, o5, s4, c7, u5, h5, l5, f5, d4, p5, g4, m7, v5, b4, y5) {
@@ -37973,7 +41744,7 @@ function ee(t5) {
         c7.width = c7.width[0], c7.height = c7.height[0], null != i5 && (i5[0] = c7.width), null != a4 && (a4[0] = c7.height);
         t: {
           if (i5 = new Gt2(), (a4 = new nr()).data = t7, a4.w = r6, a4.ha = n5, a4.kd = 1, r6 = [0], e4(null != a4), (0 == (t7 = Br(a4.data, a4.w, a4.ha, null, null, null, r6, null, a4)) || 7 == t7) && r6[0] && (t7 = 4), 0 == (r6 = t7)) {
-            if (e4(null != s4), i5.data = a4.data, i5.w = a4.w + a4.offset, i5.ha = a4.ha - a4.offset, i5.put = dt2, i5.ac = ft2, i5.bc = pt2, i5.ma = s4, a4.xa) {
+            if (e4(null != s4), i5.data = a4.data, i5.w = a4.w + a4.offset, i5.ha = a4.ha - a4.offset, i5.put = dt2, i5.ac = ft2, i5.bc = pt3, i5.ma = s4, a4.xa) {
               if (null == (t7 = kt2())) {
                 s4 = 1;
                 break t;
@@ -39241,7 +43012,7 @@ var fe = function(t5) {
     }
   }, e4;
 }();
-var de = function(t5, e4) {
+var de2 = function(t5, e4) {
   this.raw = t5, this.length = t5.length, this.platformID = e4.platformID, this.encodingID = e4.encodingID, this.languageID = e4.languageID;
 };
 var pe = function(t5) {
@@ -39253,7 +43024,7 @@ var pe = function(t5) {
     for (t6.pos = this.offset, t6.readShort(), e5 = t6.readShort(), o4 = t6.readShort(), r5 = [], i4 = 0; 0 <= e5 ? i4 < e5 : i4 > e5; i4 = 0 <= e5 ? ++i4 : --i4)
       r5.push({ platformID: t6.readShort(), encodingID: t6.readShort(), languageID: t6.readShort(), nameID: t6.readShort(), length: t6.readShort(), offset: this.offset + o4 + t6.readShort() });
     for (s3 = {}, i4 = u3 = 0, h3 = r5.length; u3 < h3; i4 = ++u3)
-      n4 = r5[i4], t6.pos = n4.offset, c5 = t6.readString(n4.length), a3 = new de(c5, n4), null == s3[l3 = n4.nameID] && (s3[l3] = []), s3[n4.nameID].push(a3);
+      n4 = r5[i4], t6.pos = n4.offset, c5 = t6.readString(n4.length), a3 = new de2(c5, n4), null == s3[l3 = n4.nameID] && (s3[l3] = []), s3[n4.nameID].push(a3);
     this.strings = s3, this.copyright = s3[0], this.fontFamily = s3[1], this.fontSubfamily = s3[2], this.uniqueSubfamily = s3[3], this.fontName = s3[4], this.version = s3[5];
     try {
       this.postscriptName = s3[6][0].raw.replace(/[\x00-\x19\x80-\xff]/g, "");
@@ -39438,18 +43209,21 @@ E.API.PDFObject = function() {
 }();
 var jspdf_es_min_default = E;
 
+// src/utils/capture.ts
+var import_dom_to_image_more = __toESM(require_dom_to_image_more());
+
 // src/utils/makeHTML.tsx
 var import_obsidian3 = require("obsidian");
-var import_react5 = __toESM(require_react());
+var import_react6 = __toESM(require_react());
 var import_client2 = __toESM(require_client());
 
 // src/components/common/Target.tsx
-var import_react4 = __toESM(require_react());
+var import_react5 = __toESM(require_react());
 
 // src/components/common/Metadata.tsx
-var import_react3 = __toESM(require_react());
+var import_react4 = __toESM(require_react());
 var iconMap = {
-  text: /* @__PURE__ */ import_react3.default.createElement(
+  text: /* @__PURE__ */ import_react4.default.createElement(
     "svg",
     {
       xmlns: "http://www.w3.org/2000/svg",
@@ -39463,11 +43237,11 @@ var iconMap = {
       "stroke-linejoin": "round",
       className: "svg-icon"
     },
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M17 6.1H3" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M21 12.1H3" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M15.1 18H3" })
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M17 6.1H3" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M21 12.1H3" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M15.1 18H3" })
   ),
-  number: /* @__PURE__ */ import_react3.default.createElement(
+  number: /* @__PURE__ */ import_react4.default.createElement(
     "svg",
     {
       className: "svg-icon",
@@ -39481,14 +43255,14 @@ var iconMap = {
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     },
-    /* @__PURE__ */ import_react3.default.createElement("rect", { x: "14", y: "14", width: "4", height: "6", rx: "2" }),
-    /* @__PURE__ */ import_react3.default.createElement("rect", { x: "6", y: "4", width: "4", height: "6", rx: "2" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M6 20h4" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M14 10h4" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M6 14h2v6" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M14 4h2v6" })
+    /* @__PURE__ */ import_react4.default.createElement("rect", { x: "14", y: "14", width: "4", height: "6", rx: "2" }),
+    /* @__PURE__ */ import_react4.default.createElement("rect", { x: "6", y: "4", width: "4", height: "6", rx: "2" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M6 20h4" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M14 10h4" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M6 14h2v6" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M14 4h2v6" })
   ),
-  multitext: /* @__PURE__ */ import_react3.default.createElement(
+  multitext: /* @__PURE__ */ import_react4.default.createElement(
     "svg",
     {
       className: "svg-icon",
@@ -39502,14 +43276,14 @@ var iconMap = {
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     },
-    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "8", x2: "21", y1: "6", y2: "6" }),
-    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "8", x2: "21", y1: "12", y2: "12" }),
-    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "8", x2: "21", y1: "18", y2: "18" }),
-    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "3", x2: "3.01", y1: "6", y2: "6" }),
-    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "3", x2: "3.01", y1: "12", y2: "12" }),
-    /* @__PURE__ */ import_react3.default.createElement("line", { x1: "3", x2: "3.01", y1: "18", y2: "18" })
+    /* @__PURE__ */ import_react4.default.createElement("line", { x1: "8", x2: "21", y1: "6", y2: "6" }),
+    /* @__PURE__ */ import_react4.default.createElement("line", { x1: "8", x2: "21", y1: "12", y2: "12" }),
+    /* @__PURE__ */ import_react4.default.createElement("line", { x1: "8", x2: "21", y1: "18", y2: "18" }),
+    /* @__PURE__ */ import_react4.default.createElement("line", { x1: "3", x2: "3.01", y1: "6", y2: "6" }),
+    /* @__PURE__ */ import_react4.default.createElement("line", { x1: "3", x2: "3.01", y1: "12", y2: "12" }),
+    /* @__PURE__ */ import_react4.default.createElement("line", { x1: "3", x2: "3.01", y1: "18", y2: "18" })
   ),
-  tags: /* @__PURE__ */ import_react3.default.createElement(
+  tags: /* @__PURE__ */ import_react4.default.createElement(
     "svg",
     {
       className: "svg-icon",
@@ -39523,11 +43297,11 @@ var iconMap = {
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     },
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z" }),
-    /* @__PURE__ */ import_react3.default.createElement("circle", { cx: "6.5", cy: "9.5", r: ".5", fill: "currentColor" })
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z" }),
+    /* @__PURE__ */ import_react4.default.createElement("circle", { cx: "6.5", cy: "9.5", r: ".5", fill: "currentColor" })
   ),
-  date: /* @__PURE__ */ import_react3.default.createElement(
+  date: /* @__PURE__ */ import_react4.default.createElement(
     "svg",
     {
       className: "svg-icon",
@@ -39541,12 +43315,12 @@ var iconMap = {
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     },
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M8 2v4" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M16 2v4" }),
-    /* @__PURE__ */ import_react3.default.createElement("rect", { width: "18", height: "18", x: "3", y: "4", rx: "2" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M3 10h18" })
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M8 2v4" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M16 2v4" }),
+    /* @__PURE__ */ import_react4.default.createElement("rect", { width: "18", height: "18", x: "3", y: "4", rx: "2" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M3 10h18" })
   ),
-  datetime: /* @__PURE__ */ import_react3.default.createElement(
+  datetime: /* @__PURE__ */ import_react4.default.createElement(
     "svg",
     {
       className: "svg-icon",
@@ -39560,14 +43334,14 @@ var iconMap = {
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     },
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M16 2v4" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M8 2v4" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M3 10h5" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M17.5 17.5 16 16.3V14" }),
-    /* @__PURE__ */ import_react3.default.createElement("circle", { cx: "16", cy: "16", r: "6" })
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M16 2v4" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M8 2v4" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M3 10h5" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M17.5 17.5 16 16.3V14" }),
+    /* @__PURE__ */ import_react4.default.createElement("circle", { cx: "16", cy: "16", r: "6" })
   ),
-  checkbox: /* @__PURE__ */ import_react3.default.createElement(
+  checkbox: /* @__PURE__ */ import_react4.default.createElement(
     "svg",
     {
       className: "svg-icon",
@@ -39581,10 +43355,10 @@ var iconMap = {
       "stroke-linecap": "round",
       "stroke-linejoin": "round"
     },
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "m9 11 3 3L22 4" }),
-    /* @__PURE__ */ import_react3.default.createElement("path", { d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" })
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "m9 11 3 3L22 4" }),
+    /* @__PURE__ */ import_react4.default.createElement("path", { d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" })
   ),
-  aliases: /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null)
+  aliases: /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null)
 };
 var Metadata = ({ type, name, value }) => {
   if (["aliases", "cssclasses"].contains(name)) {
@@ -39593,25 +43367,27 @@ var Metadata = ({ type, name, value }) => {
   if (value === null) {
     return null;
   }
-  const iconSvg = iconMap[type] || iconMap["text"];
+  const iconSvg = iconMap[type] || iconMap.text;
   let valueElement;
   switch (type) {
-    case "text":
-      if (!value)
+    case "text": {
+      if (!value) {
         return null;
+      }
       let content = value;
-      if (typeof value !== "string") {
-        content = JSON.stringify(value);
-      } else {
-        const match = value.match(/^\[\[(.+)\]\]$/);
+      if (typeof value === "string") {
+        const match = /^\[\[(.+)]]$/.exec(value);
         if (match) {
           content = match[1];
         }
+      } else {
+        content = JSON.stringify(value);
       }
-      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, content);
+      valueElement = /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, content);
       break;
-    case "number":
-      valueElement = /* @__PURE__ */ import_react3.default.createElement(
+    }
+    case "number": {
+      valueElement = /* @__PURE__ */ import_react4.default.createElement(
         "input",
         {
           className: "metadata-input metadata-input-number",
@@ -39620,8 +43396,9 @@ var Metadata = ({ type, name, value }) => {
         }
       );
       break;
-    case "checkbox":
-      valueElement = /* @__PURE__ */ import_react3.default.createElement(
+    }
+    case "checkbox": {
+      valueElement = /* @__PURE__ */ import_react4.default.createElement(
         "input",
         {
           className: "metadata-input-checkbox",
@@ -39630,23 +43407,25 @@ var Metadata = ({ type, name, value }) => {
         }
       );
       break;
-    case "date":
-      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
+    }
+    case "date": {
+      valueElement = /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
       break;
-    case "datetime":
-      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
+    }
+    case "datetime": {
+      valueElement = /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-input-longtext mod-truncate" }, value);
       break;
+    }
     case "multitext":
-    case "tags":
-      valueElement = /* @__PURE__ */ import_react3.default.createElement("div", { className: "multi-select-container" }, value.map((str) => /* @__PURE__ */ import_react3.default.createElement("div", { className: "multi-select-pill", style: { border: "none" } }, /* @__PURE__ */ import_react3.default.createElement("div", { className: "multi-select-pill-content" }, /* @__PURE__ */ import_react3.default.createElement("span", null, str)))));
+    case "tags": {
+      valueElement = /* @__PURE__ */ import_react4.default.createElement("div", { className: "multi-select-container" }, value?.map((str) => /* @__PURE__ */ import_react4.default.createElement("div", { className: "multi-select-pill", style: { border: "none" } }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "multi-select-pill-content" }, /* @__PURE__ */ import_react4.default.createElement("span", null, str)))));
       break;
-    case "aliases":
+    }
+    case "aliases": {
       return null;
-    default:
-      valueElement = value;
-      break;
+    }
   }
-  return /* @__PURE__ */ import_react3.default.createElement(
+  return /* @__PURE__ */ import_react4.default.createElement(
     "div",
     {
       className: "metadata-property",
@@ -39654,8 +43433,8 @@ var Metadata = ({ type, name, value }) => {
       "data-property-key": name,
       style: { border: 0 }
     },
-    /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-property-key" }, /* @__PURE__ */ import_react3.default.createElement("span", { className: "metadata-property-icon" }, iconSvg), /* @__PURE__ */ import_react3.default.createElement("span", { className: "metadata-property-name" }, name)),
-    /* @__PURE__ */ import_react3.default.createElement("div", { className: "metadata-property-value" }, valueElement)
+    /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-property-key" }, /* @__PURE__ */ import_react4.default.createElement("span", { className: "metadata-property-icon" }, iconSvg), /* @__PURE__ */ import_react4.default.createElement("span", { className: "metadata-property-name" }, name)),
+    /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-property-value" }, valueElement)
   );
 };
 var Metadata_default = Metadata;
@@ -39666,13 +43445,13 @@ var alignMap = {
   center: "center",
   right: "flex-end"
 };
-var Target = ({ frontmatter, setting, title, metadataMap, markdownEl, app }) => {
-  const [watermarkProps, setWatermarkProps] = (0, import_react4.useState)({});
-  const contentRef = (0, import_react4.useRef)(null);
-  (0, import_react4.useEffect)(() => {
-    contentRef.current?.appendChild(markdownEl);
+var Target = (0, import_react5.forwardRef)(({ frontmatter, setting, title, metadataMap, markdownEl }, ref) => {
+  const [watermarkProps, setWatermarkProps] = (0, import_react5.useState)({});
+  const contentRef = (0, import_react5.useRef)(null);
+  (0, import_react5.useEffect)(() => {
+    contentRef.current?.append(markdownEl);
   }, []);
-  (0, import_react4.useEffect)(() => {
+  (0, import_react5.useEffect)(() => {
     const props = {
       monitor: false,
       mode: "interval",
@@ -39694,19 +43473,20 @@ var Target = ({ frontmatter, setting, title, metadataMap, markdownEl, app }) => 
     }
     setWatermarkProps(props);
   }, [setting]);
-  return /* @__PURE__ */ import_react4.default.createElement(
+  return /* @__PURE__ */ import_react5.default.createElement(
     "div",
     {
-      className: `export-image-root ${(frontmatter?.cssclasses || []).join(
+      className: `export-image-root markdown-reading-view ${(frontmatter?.cssclasses || []).join(
         " "
       )}`,
+      ref,
       style: {
         display: "flex",
         flexDirection: setting.authorInfo.position === "bottom" ? "column" : "column-reverse",
-        backgroundColor: setting.format === "png" ? "unset" : "var(--background-primary)"
+        backgroundColor: setting.format === "png1" ? "unset" : "var(--background-primary)"
       }
     },
-    /* @__PURE__ */ import_react4.default.createElement(src_default, { ...watermarkProps }, /* @__PURE__ */ import_react4.default.createElement(
+    /* @__PURE__ */ import_react5.default.createElement(Watermark2, { ...watermarkProps }, /* @__PURE__ */ import_react5.default.createElement(
       "div",
       {
         className: "markdown-preview-view markdown-rendered export-image-preview-container",
@@ -39715,8 +43495,8 @@ var Target = ({ frontmatter, setting, title, metadataMap, markdownEl, app }) => 
           transition: "width 0.25s"
         }
       },
-      setting.showFilename && /* @__PURE__ */ import_react4.default.createElement("div", { className: "inline-title", autoCapitalize: "on" }, title),
-      setting.showMetadata && frontmatter && Object.keys(frontmatter).length > 0 && /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-container", style: { display: "block" } }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "metadata-content" }, Object.keys(frontmatter).map((name) => /* @__PURE__ */ import_react4.default.createElement(
+      setting.showFilename && /* @__PURE__ */ import_react5.default.createElement("div", { className: "inline-title", autoCapitalize: "on" }, title),
+      setting.showMetadata && frontmatter && Object.keys(frontmatter).length > 0 && /* @__PURE__ */ import_react5.default.createElement("div", { className: "metadata-container", style: { display: "block" } }, /* @__PURE__ */ import_react5.default.createElement("div", { className: "metadata-content" }, Object.keys(frontmatter).map((name) => /* @__PURE__ */ import_react5.default.createElement(
         Metadata_default,
         {
           name,
@@ -39725,19 +43505,19 @@ var Target = ({ frontmatter, setting, title, metadataMap, markdownEl, app }) => 
           type: metadataMap[name]?.type || "text"
         }
       )))),
-      /* @__PURE__ */ import_react4.default.createElement("div", { ref: contentRef })
+      /* @__PURE__ */ import_react5.default.createElement("div", { ref: contentRef })
     )),
-    setting.authorInfo.show && (setting.authorInfo.avatar || setting.authorInfo.name) && /* @__PURE__ */ import_react4.default.createElement(
+    setting.authorInfo.show && (setting.authorInfo.avatar || setting.authorInfo.name) && /* @__PURE__ */ import_react5.default.createElement(
       "div",
       {
         className: "user-info-container",
         style: {
           [setting.authorInfo.position === "top" ? "borderBottom" : "borderTop"]: "1px solid var(--background-modifier-border)",
           justifyContent: alignMap[setting.authorInfo.align || "right"],
-          background: setting.format === "png" ? "unset" : "var(--background-primary)"
+          background: setting.format === "png1" ? "unset" : "var(--background-primary)"
         }
       },
-      setting.authorInfo.avatar && /* @__PURE__ */ import_react4.default.createElement(
+      setting.authorInfo.avatar && /* @__PURE__ */ import_react5.default.createElement(
         "div",
         {
           className: "user-info-avatar",
@@ -39746,10 +43526,10 @@ var Target = ({ frontmatter, setting, title, metadataMap, markdownEl, app }) => 
           }
         }
       ),
-      setting.authorInfo.name && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "user-info-name" }, setting.authorInfo.name), setting.authorInfo.remark && /* @__PURE__ */ import_react4.default.createElement("div", { className: "user-info-remark" }, setting.authorInfo.remark))
+      setting.authorInfo.name && /* @__PURE__ */ import_react5.default.createElement("div", null, /* @__PURE__ */ import_react5.default.createElement("div", { className: "user-info-name" }, setting.authorInfo.name), setting.authorInfo.remark && /* @__PURE__ */ import_react5.default.createElement("div", { className: "user-info-remark" }, setting.authorInfo.remark))
     )
   );
-};
+});
 var Target_default = Target;
 
 // src/utils/makeHTML.tsx
@@ -39761,40 +43541,37 @@ async function makeHTML(file, settings, app, container) {
     container.empty();
   }
   const markdown = await app.vault.cachedRead(file);
-  const el = document.createElement("div");
-  import_obsidian3.MarkdownRenderer.render(
+  const element = document.createElement("div");
+  await import_obsidian3.MarkdownRenderer.render(
     app,
     markdown,
-    el.createDiv(),
+    element.createDiv(),
     file.path,
-    app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView) || app.workspace.activeLeaf?.view || new import_obsidian3.MarkdownRenderChild(el)
+    app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView) || app.workspace.activeLeaf?.view || new import_obsidian3.MarkdownRenderChild(element)
   );
-  const metadataMap = (
-    // @ts-ignore
-    app.metadataCache.getAllPropertyInfos()
-  );
-  const frontmatter = getMetadata(file, this.app);
+  const metadataMap = app.metadataCache.getAllPropertyInfos();
+  const frontmatter = getMetadata(file, app);
   root = (0, import_client2.createRoot)(container);
   root.render(
-    /* @__PURE__ */ import_react5.default.createElement(
+    /* @__PURE__ */ import_react6.default.createElement(
       Target_default,
       {
         frontmatter,
         setting: settings,
         title: file.basename,
-        markdownEl: el,
+        markdownEl: element,
         app,
         metadataMap
       }
     )
   );
   await delay(100);
-  return el.closest(".export-image-root") || el;
+  return element.closest(".export-image-root") || element;
 }
 
 // src/utils/capture.ts
 async function getBlob(el, higtResolution, type) {
-  return await import_dom_to_image_more.default.toBlob(el, {
+  return import_dom_to_image_more.default.toBlob(el, {
     width: el.clientWidth,
     height: el.clientHeight,
     quality: 0.85,
@@ -39825,12 +43602,14 @@ async function save(app, el, title, higtResolution, format, isMobile) {
   const blob = await getBlob(
     el,
     higtResolution,
-    `image/${format === "png" ? "png" : "jpeg"}`
+    getMime(format)
   );
-  const filename = `${title.replace(/\s+/g, "_")}.${format}`;
+  const filename = `${title.replaceAll(/\s+/g, "_")}.${format.replace(/\d$/, "")}`;
   switch (format) {
     case "jpg":
-    case "png":
+    case "webp":
+    case "png0":
+    case "png1": {
       if (isMobile) {
         const filePath = await app.fileManager.getAvailablePathForAttachment(
           filename
@@ -39841,7 +43620,8 @@ async function save(app, el, title, higtResolution, format, isMobile) {
         (0, import_file_saver.default)(blob, filename);
       }
       break;
-    case "pdf":
+    }
+    case "pdf": {
       const pdf = await makePdf(blob, el);
       if (isMobile) {
         const filePath = await app.fileManager.getAvailablePathForAttachment(
@@ -39853,8 +43633,7 @@ async function save(app, el, title, higtResolution, format, isMobile) {
         pdf.save(filename);
       }
       break;
-    default:
-      break;
+    }
   }
 }
 async function copy(el, higtResolution, format) {
@@ -39865,7 +43644,7 @@ async function copy(el, higtResolution, format) {
   const blob = await getBlob(
     el,
     higtResolution,
-    `image/${format === "png" ? "png" : "jpeg"}`
+    getMime(format)
   );
   const data = [];
   data.push(
@@ -39909,7 +43688,7 @@ async function saveMultipleFiles(files, settings, onProgress, app, folderName, c
     if (!pdf) {
       return;
     }
-    const fileName = `${folderName.replace(/\s+/g, "_")}.pdf`;
+    const fileName = `${folderName.replaceAll(/\s+/g, "_")}.pdf`;
     if (app.isMobile) {
       const filePath = await app.fileManager.getAvailablePathForAttachment(
         fileName
@@ -39935,1648 +43714,6 @@ async function saveMultipleFiles(files, settings, onProgress, app, folderName, c
   }
 }
 
-// node_modules/react-zoom-pan-pinch/dist/index.esm.js
-var import_react6 = __toESM(require_react());
-var roundNumber = function(num, decimal) {
-  return Number(num.toFixed(decimal));
-};
-var checkIsNumber = function(num, defaultValue) {
-  return typeof num === "number" ? num : defaultValue;
-};
-var handleCallback = function(context, event, callback) {
-  if (callback && typeof callback === "function") {
-    callback(context, event);
-  }
-};
-var easeOut = function(t5) {
-  return -Math.cos(t5 * Math.PI) / 2 + 0.5;
-};
-var linear = function(t5) {
-  return t5;
-};
-var easeInQuad = function(t5) {
-  return t5 * t5;
-};
-var easeOutQuad = function(t5) {
-  return t5 * (2 - t5);
-};
-var easeInOutQuad = function(t5) {
-  return t5 < 0.5 ? 2 * t5 * t5 : -1 + (4 - 2 * t5) * t5;
-};
-var easeInCubic = function(t5) {
-  return t5 * t5 * t5;
-};
-var easeOutCubic = function(t5) {
-  return --t5 * t5 * t5 + 1;
-};
-var easeInOutCubic = function(t5) {
-  return t5 < 0.5 ? 4 * t5 * t5 * t5 : (t5 - 1) * (2 * t5 - 2) * (2 * t5 - 2) + 1;
-};
-var easeInQuart = function(t5) {
-  return t5 * t5 * t5 * t5;
-};
-var easeOutQuart = function(t5) {
-  return 1 - --t5 * t5 * t5 * t5;
-};
-var easeInOutQuart = function(t5) {
-  return t5 < 0.5 ? 8 * t5 * t5 * t5 * t5 : 1 - 8 * --t5 * t5 * t5 * t5;
-};
-var easeInQuint = function(t5) {
-  return t5 * t5 * t5 * t5 * t5;
-};
-var easeOutQuint = function(t5) {
-  return 1 + --t5 * t5 * t5 * t5 * t5;
-};
-var easeInOutQuint = function(t5) {
-  return t5 < 0.5 ? 16 * t5 * t5 * t5 * t5 * t5 : 1 + 16 * --t5 * t5 * t5 * t5 * t5;
-};
-var animations = {
-  easeOut,
-  linear,
-  easeInQuad,
-  easeOutQuad,
-  easeInOutQuad,
-  easeInCubic,
-  easeOutCubic,
-  easeInOutCubic,
-  easeInQuart,
-  easeOutQuart,
-  easeInOutQuart,
-  easeInQuint,
-  easeOutQuint,
-  easeInOutQuint
-};
-var handleCancelAnimationFrame = function(animation) {
-  if (typeof animation === "number") {
-    cancelAnimationFrame(animation);
-  }
-};
-var handleCancelAnimation = function(contextInstance) {
-  if (!contextInstance.mounted)
-    return;
-  handleCancelAnimationFrame(contextInstance.animation);
-  contextInstance.animate = false;
-  contextInstance.animation = null;
-  contextInstance.velocity = null;
-};
-function handleSetupAnimation(contextInstance, animationName, animationTime, callback) {
-  if (!contextInstance.mounted)
-    return;
-  var startTime = (/* @__PURE__ */ new Date()).getTime();
-  var lastStep = 1;
-  handleCancelAnimation(contextInstance);
-  contextInstance.animation = function() {
-    if (!contextInstance.mounted) {
-      return handleCancelAnimationFrame(contextInstance.animation);
-    }
-    var frameTime = (/* @__PURE__ */ new Date()).getTime() - startTime;
-    var animationProgress = frameTime / animationTime;
-    var animationType = animations[animationName];
-    var step = animationType(animationProgress);
-    if (frameTime >= animationTime) {
-      callback(lastStep);
-      contextInstance.animation = null;
-    } else if (contextInstance.animation) {
-      callback(step);
-      requestAnimationFrame(contextInstance.animation);
-    }
-  };
-  requestAnimationFrame(contextInstance.animation);
-}
-function isValidTargetState(targetState) {
-  var scale = targetState.scale, positionX = targetState.positionX, positionY = targetState.positionY;
-  if (Number.isNaN(scale) || Number.isNaN(positionX) || Number.isNaN(positionY)) {
-    return false;
-  }
-  return true;
-}
-function animate(contextInstance, targetState, animationTime, animationName) {
-  var isValid = isValidTargetState(targetState);
-  if (!contextInstance.mounted || !isValid)
-    return;
-  var setTransformState = contextInstance.setTransformState;
-  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
-  var scaleDiff = targetState.scale - scale;
-  var positionXDiff = targetState.positionX - positionX;
-  var positionYDiff = targetState.positionY - positionY;
-  if (animationTime === 0) {
-    setTransformState(targetState.scale, targetState.positionX, targetState.positionY);
-  } else {
-    handleSetupAnimation(contextInstance, animationName, animationTime, function(step) {
-      var newScale = scale + scaleDiff * step;
-      var newPositionX = positionX + positionXDiff * step;
-      var newPositionY = positionY + positionYDiff * step;
-      setTransformState(newScale, newPositionX, newPositionY);
-    });
-  }
-}
-function getComponentsSizes(wrapperComponent, contentComponent, newScale) {
-  var wrapperWidth = wrapperComponent.offsetWidth;
-  var wrapperHeight = wrapperComponent.offsetHeight;
-  var contentWidth = contentComponent.offsetWidth;
-  var contentHeight = contentComponent.offsetHeight;
-  var newContentWidth = contentWidth * newScale;
-  var newContentHeight = contentHeight * newScale;
-  var newDiffWidth = wrapperWidth - newContentWidth;
-  var newDiffHeight = wrapperHeight - newContentHeight;
-  return {
-    wrapperWidth,
-    wrapperHeight,
-    newContentWidth,
-    newDiffWidth,
-    newContentHeight,
-    newDiffHeight
-  };
-}
-var getBounds = function(wrapperWidth, newContentWidth, diffWidth, wrapperHeight, newContentHeight, diffHeight, centerZoomedOut) {
-  var scaleWidthFactor = wrapperWidth > newContentWidth ? diffWidth * (centerZoomedOut ? 1 : 0.5) : 0;
-  var scaleHeightFactor = wrapperHeight > newContentHeight ? diffHeight * (centerZoomedOut ? 1 : 0.5) : 0;
-  var minPositionX = wrapperWidth - newContentWidth - scaleWidthFactor;
-  var maxPositionX = scaleWidthFactor;
-  var minPositionY = wrapperHeight - newContentHeight - scaleHeightFactor;
-  var maxPositionY = scaleHeightFactor;
-  return { minPositionX, maxPositionX, minPositionY, maxPositionY };
-};
-var calculateBounds = function(contextInstance, newScale) {
-  var wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
-  var centerZoomedOut = contextInstance.setup.centerZoomedOut;
-  if (!wrapperComponent || !contentComponent) {
-    throw new Error("Components are not mounted");
-  }
-  var _a2 = getComponentsSizes(wrapperComponent, contentComponent, newScale), wrapperWidth = _a2.wrapperWidth, wrapperHeight = _a2.wrapperHeight, newContentWidth = _a2.newContentWidth, newDiffWidth = _a2.newDiffWidth, newContentHeight = _a2.newContentHeight, newDiffHeight = _a2.newDiffHeight;
-  var bounds = getBounds(wrapperWidth, newContentWidth, newDiffWidth, wrapperHeight, newContentHeight, newDiffHeight, Boolean(centerZoomedOut));
-  return bounds;
-};
-var boundLimiter = function(value, minBound, maxBound, isActive) {
-  if (!isActive)
-    return roundNumber(value, 2);
-  if (value < minBound)
-    return roundNumber(minBound, 2);
-  if (value > maxBound)
-    return roundNumber(maxBound, 2);
-  return roundNumber(value, 2);
-};
-var handleCalculateBounds = function(contextInstance, newScale) {
-  var bounds = calculateBounds(contextInstance, newScale);
-  contextInstance.bounds = bounds;
-  return bounds;
-};
-function getMouseBoundedPosition(positionX, positionY, bounds, limitToBounds, paddingValueX, paddingValueY, wrapperComponent) {
-  var minPositionX = bounds.minPositionX, minPositionY = bounds.minPositionY, maxPositionX = bounds.maxPositionX, maxPositionY = bounds.maxPositionY;
-  var paddingX = 0;
-  var paddingY = 0;
-  if (wrapperComponent) {
-    paddingX = paddingValueX;
-    paddingY = paddingValueY;
-  }
-  var x2 = boundLimiter(positionX, minPositionX - paddingX, maxPositionX + paddingX, limitToBounds);
-  var y3 = boundLimiter(positionY, minPositionY - paddingY, maxPositionY + paddingY, limitToBounds);
-  return { x: x2, y: y3 };
-}
-function handleCalculateZoomPositions(contextInstance, mouseX, mouseY, newScale, bounds, limitToBounds) {
-  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
-  var scaleDifference = newScale - scale;
-  if (typeof mouseX !== "number" || typeof mouseY !== "number") {
-    console.error("Mouse X and Y position were not provided!");
-    return { x: positionX, y: positionY };
-  }
-  var calculatedPositionX = positionX - mouseX * scaleDifference;
-  var calculatedPositionY = positionY - mouseY * scaleDifference;
-  var newPositions = getMouseBoundedPosition(calculatedPositionX, calculatedPositionY, bounds, limitToBounds, 0, 0, null);
-  return newPositions;
-}
-function checkZoomBounds(zoom, minScale, maxScale, zoomPadding, enablePadding) {
-  var scalePadding = enablePadding ? zoomPadding : 0;
-  var minScaleWithPadding = minScale - scalePadding;
-  if (!Number.isNaN(maxScale) && zoom >= maxScale)
-    return maxScale;
-  if (!Number.isNaN(minScale) && zoom <= minScaleWithPadding)
-    return minScaleWithPadding;
-  return zoom;
-}
-var isPanningStartAllowed = function(contextInstance, event) {
-  var excluded = contextInstance.setup.panning.excluded;
-  var isInitialized = contextInstance.isInitialized, wrapperComponent = contextInstance.wrapperComponent;
-  var target = event.target;
-  var targetIsShadowDom = "shadowRoot" in target && "composedPath" in event;
-  var isWrapperChild = targetIsShadowDom ? event.composedPath().some(function(el) {
-    if (!(el instanceof Element)) {
-      return false;
-    }
-    return wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.contains(el);
-  }) : wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.contains(target);
-  var isAllowed = isInitialized && target && isWrapperChild;
-  if (!isAllowed)
-    return false;
-  var isExcluded = isExcludedNode(target, excluded);
-  if (isExcluded)
-    return false;
-  return true;
-};
-var isPanningAllowed = function(contextInstance) {
-  var isInitialized = contextInstance.isInitialized, isPanning = contextInstance.isPanning, setup = contextInstance.setup;
-  var disabled = setup.panning.disabled;
-  var isAllowed = isInitialized && isPanning && !disabled;
-  if (!isAllowed)
-    return false;
-  return true;
-};
-var handlePanningSetup = function(contextInstance, event) {
-  var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY;
-  contextInstance.isPanning = true;
-  var x2 = event.clientX;
-  var y3 = event.clientY;
-  contextInstance.startCoords = { x: x2 - positionX, y: y3 - positionY };
-};
-var handleTouchPanningSetup = function(contextInstance, event) {
-  var touches = event.touches;
-  var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY;
-  contextInstance.isPanning = true;
-  var oneFingerTouch = touches.length === 1;
-  if (oneFingerTouch) {
-    var x2 = touches[0].clientX;
-    var y3 = touches[0].clientY;
-    contextInstance.startCoords = { x: x2 - positionX, y: y3 - positionY };
-  }
-};
-function handlePanToBounds(contextInstance) {
-  var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY, scale = _a2.scale;
-  var _b2 = contextInstance.setup, disabled = _b2.disabled, limitToBounds = _b2.limitToBounds, centerZoomedOut = _b2.centerZoomedOut;
-  var wrapperComponent = contextInstance.wrapperComponent;
-  if (disabled || !wrapperComponent || !contextInstance.bounds)
-    return;
-  var _c = contextInstance.bounds, maxPositionX = _c.maxPositionX, minPositionX = _c.minPositionX, maxPositionY = _c.maxPositionY, minPositionY = _c.minPositionY;
-  var xChanged = positionX > maxPositionX || positionX < minPositionX;
-  var yChanged = positionY > maxPositionY || positionY < minPositionY;
-  var mousePosX = positionX > maxPositionX ? wrapperComponent.offsetWidth : contextInstance.setup.minPositionX || 0;
-  var mousePosY = positionY > maxPositionY ? wrapperComponent.offsetHeight : contextInstance.setup.minPositionY || 0;
-  var _d = handleCalculateZoomPositions(contextInstance, mousePosX, mousePosY, scale, contextInstance.bounds, limitToBounds || centerZoomedOut), x2 = _d.x, y3 = _d.y;
-  return {
-    scale,
-    positionX: xChanged ? x2 : positionX,
-    positionY: yChanged ? y3 : positionY
-  };
-}
-function handleNewPosition(contextInstance, newPositionX, newPositionY, paddingValueX, paddingValueY) {
-  var limitToBounds = contextInstance.setup.limitToBounds;
-  var wrapperComponent = contextInstance.wrapperComponent, bounds = contextInstance.bounds;
-  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
-  if (wrapperComponent === null || bounds === null || newPositionX === positionX && newPositionY === positionY) {
-    return;
-  }
-  var _b2 = getMouseBoundedPosition(newPositionX, newPositionY, bounds, limitToBounds, paddingValueX, paddingValueY, wrapperComponent), x2 = _b2.x, y3 = _b2.y;
-  contextInstance.setTransformState(scale, x2, y3);
-}
-var getPanningClientPosition = function(contextInstance, clientX, clientY) {
-  var startCoords = contextInstance.startCoords, transformState = contextInstance.transformState;
-  var panning = contextInstance.setup.panning;
-  var lockAxisX = panning.lockAxisX, lockAxisY = panning.lockAxisY;
-  var positionX = transformState.positionX, positionY = transformState.positionY;
-  if (!startCoords) {
-    return { x: positionX, y: positionY };
-  }
-  var mouseX = clientX - startCoords.x;
-  var mouseY = clientY - startCoords.y;
-  var newPositionX = lockAxisX ? positionX : mouseX;
-  var newPositionY = lockAxisY ? positionY : mouseY;
-  return { x: newPositionX, y: newPositionY };
-};
-var getPaddingValue = function(contextInstance, size) {
-  var setup = contextInstance.setup, transformState = contextInstance.transformState;
-  var scale = transformState.scale;
-  var minScale = setup.minScale, disablePadding = setup.disablePadding;
-  if (size > 0 && scale >= minScale && !disablePadding) {
-    return size;
-  }
-  return 0;
-};
-var isVelocityCalculationAllowed = function(contextInstance) {
-  var mounted = contextInstance.mounted;
-  var _a2 = contextInstance.setup, disabled = _a2.disabled, velocityAnimation = _a2.velocityAnimation;
-  var scale = contextInstance.transformState.scale;
-  var disabledVelocity = velocityAnimation.disabled;
-  var isAllowed = !disabledVelocity || scale > 1 || !disabled || mounted;
-  if (!isAllowed)
-    return false;
-  return true;
-};
-var isVelocityAllowed = function(contextInstance) {
-  var mounted = contextInstance.mounted, velocity = contextInstance.velocity, bounds = contextInstance.bounds;
-  var _a2 = contextInstance.setup, disabled = _a2.disabled, velocityAnimation = _a2.velocityAnimation;
-  var scale = contextInstance.transformState.scale;
-  var disabledVelocity = velocityAnimation.disabled;
-  var isAllowed = !disabledVelocity || scale > 1 || !disabled || mounted;
-  if (!isAllowed)
-    return false;
-  if (!velocity || !bounds)
-    return false;
-  return true;
-};
-function getVelocityMoveTime(contextInstance, velocity) {
-  var velocityAnimation = contextInstance.setup.velocityAnimation;
-  var equalToMove = velocityAnimation.equalToMove, animationTime = velocityAnimation.animationTime, sensitivity = velocityAnimation.sensitivity;
-  if (equalToMove) {
-    return animationTime * velocity * sensitivity;
-  }
-  return animationTime;
-}
-function getVelocityPosition(newPosition, startPosition, currentPosition, isLocked, limitToBounds, minPosition, maxPosition, minTarget, maxTarget, step) {
-  if (limitToBounds) {
-    if (startPosition > maxPosition && currentPosition > maxPosition) {
-      var calculatedPosition = maxPosition + (newPosition - maxPosition) * step;
-      if (calculatedPosition > maxTarget)
-        return maxTarget;
-      if (calculatedPosition < maxPosition)
-        return maxPosition;
-      return calculatedPosition;
-    }
-    if (startPosition < minPosition && currentPosition < minPosition) {
-      var calculatedPosition = minPosition + (newPosition - minPosition) * step;
-      if (calculatedPosition < minTarget)
-        return minTarget;
-      if (calculatedPosition > minPosition)
-        return minPosition;
-      return calculatedPosition;
-    }
-  }
-  if (isLocked)
-    return startPosition;
-  return boundLimiter(newPosition, minPosition, maxPosition, limitToBounds);
-}
-function getSizeMultiplier(wrapperComponent, equalToMove) {
-  var defaultMultiplier = 1;
-  if (equalToMove) {
-    return Math.min(defaultMultiplier, wrapperComponent.offsetWidth / window.innerWidth);
-  }
-  return defaultMultiplier;
-}
-function handleCalculateVelocity(contextInstance, position) {
-  var isAllowed = isVelocityCalculationAllowed(contextInstance);
-  if (!isAllowed) {
-    return;
-  }
-  var lastMousePosition = contextInstance.lastMousePosition, velocityTime = contextInstance.velocityTime, setup = contextInstance.setup;
-  var wrapperComponent = contextInstance.wrapperComponent;
-  var equalToMove = setup.velocityAnimation.equalToMove;
-  var now = Date.now();
-  if (lastMousePosition && velocityTime && wrapperComponent) {
-    var sizeMultiplier = getSizeMultiplier(wrapperComponent, equalToMove);
-    var distanceX = position.x - lastMousePosition.x;
-    var distanceY = position.y - lastMousePosition.y;
-    var velocityX = distanceX / sizeMultiplier;
-    var velocityY = distanceY / sizeMultiplier;
-    var interval = now - velocityTime;
-    var speed = distanceX * distanceX + distanceY * distanceY;
-    var velocity = Math.sqrt(speed) / interval;
-    contextInstance.velocity = { velocityX, velocityY, total: velocity };
-  }
-  contextInstance.lastMousePosition = position;
-  contextInstance.velocityTime = now;
-}
-function handleVelocityPanning(contextInstance) {
-  var velocity = contextInstance.velocity, bounds = contextInstance.bounds, setup = contextInstance.setup, wrapperComponent = contextInstance.wrapperComponent;
-  var isAllowed = isVelocityAllowed(contextInstance);
-  if (!isAllowed || !velocity || !bounds || !wrapperComponent) {
-    return;
-  }
-  var velocityX = velocity.velocityX, velocityY = velocity.velocityY, total = velocity.total;
-  var maxPositionX = bounds.maxPositionX, minPositionX = bounds.minPositionX, maxPositionY = bounds.maxPositionY, minPositionY = bounds.minPositionY;
-  var limitToBounds = setup.limitToBounds, alignmentAnimation = setup.alignmentAnimation;
-  var zoomAnimation = setup.zoomAnimation, panning = setup.panning;
-  var lockAxisY = panning.lockAxisY, lockAxisX = panning.lockAxisX;
-  var animationType = zoomAnimation.animationType;
-  var sizeX = alignmentAnimation.sizeX, sizeY = alignmentAnimation.sizeY, velocityAlignmentTime = alignmentAnimation.velocityAlignmentTime;
-  var alignAnimationTime = velocityAlignmentTime;
-  var moveAnimationTime = getVelocityMoveTime(contextInstance, total);
-  var finalAnimationTime = Math.max(moveAnimationTime, alignAnimationTime);
-  var paddingValueX = getPaddingValue(contextInstance, sizeX);
-  var paddingValueY = getPaddingValue(contextInstance, sizeY);
-  var paddingX = paddingValueX * wrapperComponent.offsetWidth / 100;
-  var paddingY = paddingValueY * wrapperComponent.offsetHeight / 100;
-  var maxTargetX = maxPositionX + paddingX;
-  var minTargetX = minPositionX - paddingX;
-  var maxTargetY = maxPositionY + paddingY;
-  var minTargetY = minPositionY - paddingY;
-  var startState = contextInstance.transformState;
-  var startTime = (/* @__PURE__ */ new Date()).getTime();
-  handleSetupAnimation(contextInstance, animationType, finalAnimationTime, function(step) {
-    var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
-    var frameTime = (/* @__PURE__ */ new Date()).getTime() - startTime;
-    var animationProgress = frameTime / alignAnimationTime;
-    var alignAnimation = animations[alignmentAnimation.animationType];
-    var alignStep = 1 - alignAnimation(Math.min(1, animationProgress));
-    var customStep = 1 - step;
-    var newPositionX = positionX + velocityX * customStep;
-    var newPositionY = positionY + velocityY * customStep;
-    var currentPositionX = getVelocityPosition(newPositionX, startState.positionX, positionX, lockAxisX, limitToBounds, minPositionX, maxPositionX, minTargetX, maxTargetX, alignStep);
-    var currentPositionY = getVelocityPosition(newPositionY, startState.positionY, positionY, lockAxisY, limitToBounds, minPositionY, maxPositionY, minTargetY, maxTargetY, alignStep);
-    if (positionX !== newPositionX || positionY !== newPositionY) {
-      contextInstance.setTransformState(scale, currentPositionX, currentPositionY);
-    }
-  });
-}
-function handlePanningStart(contextInstance, event) {
-  var scale = contextInstance.transformState.scale;
-  handleCancelAnimation(contextInstance);
-  handleCalculateBounds(contextInstance, scale);
-  if (window.TouchEvent !== void 0 && event instanceof TouchEvent) {
-    handleTouchPanningSetup(contextInstance, event);
-  } else {
-    handlePanningSetup(contextInstance, event);
-  }
-}
-function handleAlignToBounds(contextInstance) {
-  var scale = contextInstance.transformState.scale;
-  var _a2 = contextInstance.setup, minScale = _a2.minScale, alignmentAnimation = _a2.alignmentAnimation;
-  var disabled = alignmentAnimation.disabled, sizeX = alignmentAnimation.sizeX, sizeY = alignmentAnimation.sizeY, animationTime = alignmentAnimation.animationTime, animationType = alignmentAnimation.animationType;
-  var isDisabled = disabled || scale < minScale || !sizeX && !sizeY;
-  if (isDisabled)
-    return;
-  var targetState = handlePanToBounds(contextInstance);
-  if (targetState) {
-    animate(contextInstance, targetState, animationTime, animationType);
-  }
-}
-function handlePanning(contextInstance, clientX, clientY) {
-  var startCoords = contextInstance.startCoords, setup = contextInstance.setup;
-  var _a2 = setup.alignmentAnimation, sizeX = _a2.sizeX, sizeY = _a2.sizeY;
-  if (!startCoords)
-    return;
-  var _b2 = getPanningClientPosition(contextInstance, clientX, clientY), x2 = _b2.x, y3 = _b2.y;
-  var paddingValueX = getPaddingValue(contextInstance, sizeX);
-  var paddingValueY = getPaddingValue(contextInstance, sizeY);
-  handleCalculateVelocity(contextInstance, { x: x2, y: y3 });
-  handleNewPosition(contextInstance, x2, y3, paddingValueX, paddingValueY);
-}
-function handlePanningEnd(contextInstance) {
-  if (contextInstance.isPanning) {
-    var velocityDisabled = contextInstance.setup.panning.velocityDisabled;
-    var velocity = contextInstance.velocity, wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
-    contextInstance.isPanning = false;
-    contextInstance.animate = false;
-    contextInstance.animation = null;
-    var wrapperRect = wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.getBoundingClientRect();
-    var contentRect = contentComponent === null || contentComponent === void 0 ? void 0 : contentComponent.getBoundingClientRect();
-    var wrapperWidth = (wrapperRect === null || wrapperRect === void 0 ? void 0 : wrapperRect.width) || 0;
-    var wrapperHeight = (wrapperRect === null || wrapperRect === void 0 ? void 0 : wrapperRect.height) || 0;
-    var contentWidth = (contentRect === null || contentRect === void 0 ? void 0 : contentRect.width) || 0;
-    var contentHeight = (contentRect === null || contentRect === void 0 ? void 0 : contentRect.height) || 0;
-    var isZoomed = wrapperWidth < contentWidth || wrapperHeight < contentHeight;
-    var shouldAnimate = !velocityDisabled && velocity && (velocity === null || velocity === void 0 ? void 0 : velocity.total) > 0.1 && isZoomed;
-    if (shouldAnimate) {
-      handleVelocityPanning(contextInstance);
-    } else {
-      handleAlignToBounds(contextInstance);
-    }
-  }
-}
-function handleZoomToPoint(contextInstance, scale, mouseX, mouseY) {
-  var _a2 = contextInstance.setup, minScale = _a2.minScale, maxScale = _a2.maxScale, limitToBounds = _a2.limitToBounds;
-  var newScale = checkZoomBounds(roundNumber(scale, 2), minScale, maxScale, 0, false);
-  var bounds = handleCalculateBounds(contextInstance, newScale);
-  var _b2 = handleCalculateZoomPositions(contextInstance, mouseX, mouseY, newScale, bounds, limitToBounds), x2 = _b2.x, y3 = _b2.y;
-  return { scale: newScale, positionX: x2, positionY: y3 };
-}
-function handleAlignToScaleBounds(contextInstance, mousePositionX, mousePositionY) {
-  var scale = contextInstance.transformState.scale;
-  var wrapperComponent = contextInstance.wrapperComponent;
-  var _a2 = contextInstance.setup, minScale = _a2.minScale, limitToBounds = _a2.limitToBounds, zoomAnimation = _a2.zoomAnimation;
-  var disabled = zoomAnimation.disabled, animationTime = zoomAnimation.animationTime, animationType = zoomAnimation.animationType;
-  var isDisabled = disabled || scale >= minScale;
-  if (scale >= 1 || limitToBounds) {
-    handleAlignToBounds(contextInstance);
-  }
-  if (isDisabled || !wrapperComponent || !contextInstance.mounted)
-    return;
-  var mouseX = mousePositionX || wrapperComponent.offsetWidth / 2;
-  var mouseY = mousePositionY || wrapperComponent.offsetHeight / 2;
-  var targetState = handleZoomToPoint(contextInstance, minScale, mouseX, mouseY);
-  if (targetState) {
-    animate(contextInstance, targetState, animationTime, animationType);
-  }
-}
-var __assign = function() {
-  __assign = Object.assign || function __assign2(t5) {
-    for (var s3, i4 = 1, n4 = arguments.length; i4 < n4; i4++) {
-      s3 = arguments[i4];
-      for (var p3 in s3)
-        if (Object.prototype.hasOwnProperty.call(s3, p3))
-          t5[p3] = s3[p3];
-    }
-    return t5;
-  };
-  return __assign.apply(this, arguments);
-};
-function __spreadArray(to, from, pack) {
-  if (pack || arguments.length === 2)
-    for (var i4 = 0, l3 = from.length, ar2; i4 < l3; i4++) {
-      if (ar2 || !(i4 in from)) {
-        if (!ar2)
-          ar2 = Array.prototype.slice.call(from, 0, i4);
-        ar2[i4] = from[i4];
-      }
-    }
-  return to.concat(ar2 || Array.prototype.slice.call(from));
-}
-var initialState = {
-  previousScale: 1,
-  scale: 1,
-  positionX: 0,
-  positionY: 0
-};
-var initialSetup = {
-  disabled: false,
-  minPositionX: null,
-  maxPositionX: null,
-  minPositionY: null,
-  maxPositionY: null,
-  minScale: 1,
-  maxScale: 8,
-  limitToBounds: true,
-  centerZoomedOut: false,
-  centerOnInit: false,
-  disablePadding: false,
-  smooth: true,
-  wheel: {
-    step: 0.2,
-    disabled: false,
-    smoothStep: 1e-3,
-    wheelDisabled: false,
-    touchPadDisabled: false,
-    activationKeys: [],
-    excluded: []
-  },
-  panning: {
-    disabled: false,
-    velocityDisabled: false,
-    lockAxisX: false,
-    lockAxisY: false,
-    allowLeftClickPan: true,
-    allowMiddleClickPan: true,
-    allowRightClickPan: true,
-    wheelPanning: false,
-    activationKeys: [],
-    excluded: []
-  },
-  pinch: {
-    step: 5,
-    disabled: false,
-    excluded: []
-  },
-  doubleClick: {
-    disabled: false,
-    step: 0.7,
-    mode: "zoomIn",
-    animationType: "easeOut",
-    animationTime: 200,
-    excluded: []
-  },
-  zoomAnimation: {
-    disabled: false,
-    size: 0.4,
-    animationTime: 200,
-    animationType: "easeOut"
-  },
-  alignmentAnimation: {
-    disabled: false,
-    sizeX: 100,
-    sizeY: 100,
-    animationTime: 200,
-    velocityAlignmentTime: 400,
-    animationType: "easeOut"
-  },
-  velocityAnimation: {
-    disabled: false,
-    sensitivity: 1,
-    animationTime: 400,
-    animationType: "easeOut",
-    equalToMove: true
-  }
-};
-var createState = function(props) {
-  var _a2, _b2, _c, _d;
-  return {
-    previousScale: (_a2 = props.initialScale) !== null && _a2 !== void 0 ? _a2 : initialState.scale,
-    scale: (_b2 = props.initialScale) !== null && _b2 !== void 0 ? _b2 : initialState.scale,
-    positionX: (_c = props.initialPositionX) !== null && _c !== void 0 ? _c : initialState.positionX,
-    positionY: (_d = props.initialPositionY) !== null && _d !== void 0 ? _d : initialState.positionY
-  };
-};
-var createSetup = function(props) {
-  var newSetup = __assign({}, initialSetup);
-  Object.keys(props).forEach(function(key) {
-    var validValue = typeof props[key] !== "undefined";
-    var validParameter = typeof initialSetup[key] !== "undefined";
-    if (validParameter && validValue) {
-      var dataType = Object.prototype.toString.call(initialSetup[key]);
-      var isObject = dataType === "[object Object]";
-      var isArray = dataType === "[object Array]";
-      if (isObject) {
-        newSetup[key] = __assign(__assign({}, initialSetup[key]), props[key]);
-      } else if (isArray) {
-        newSetup[key] = __spreadArray(__spreadArray([], initialSetup[key], true), props[key], true);
-      } else {
-        newSetup[key] = props[key];
-      }
-    }
-  });
-  return newSetup;
-};
-var handleCalculateButtonZoom = function(contextInstance, delta, step) {
-  var scale = contextInstance.transformState.scale;
-  var wrapperComponent = contextInstance.wrapperComponent, setup = contextInstance.setup;
-  var maxScale = setup.maxScale, minScale = setup.minScale, zoomAnimation = setup.zoomAnimation, smooth = setup.smooth;
-  var size = zoomAnimation.size;
-  if (!wrapperComponent) {
-    throw new Error("Wrapper is not mounted");
-  }
-  var targetScale = smooth ? scale * Math.exp(delta * step) : scale + delta * step;
-  var newScale = checkZoomBounds(roundNumber(targetScale, 3), minScale, maxScale, size, false);
-  return newScale;
-};
-function handleZoomToViewCenter(contextInstance, delta, step, animationTime, animationType) {
-  var wrapperComponent = contextInstance.wrapperComponent;
-  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
-  if (!wrapperComponent)
-    return console.error("No WrapperComponent found");
-  var wrapperWidth = wrapperComponent.offsetWidth;
-  var wrapperHeight = wrapperComponent.offsetHeight;
-  var mouseX = (wrapperWidth / 2 - positionX) / scale;
-  var mouseY = (wrapperHeight / 2 - positionY) / scale;
-  var newScale = handleCalculateButtonZoom(contextInstance, delta, step);
-  var targetState = handleZoomToPoint(contextInstance, newScale, mouseX, mouseY);
-  if (!targetState) {
-    return console.error("Error during zoom event. New transformation state was not calculated.");
-  }
-  animate(contextInstance, targetState, animationTime, animationType);
-}
-function resetTransformations(contextInstance, animationTime, animationType, onResetTransformation) {
-  var setup = contextInstance.setup, wrapperComponent = contextInstance.wrapperComponent;
-  var limitToBounds = setup.limitToBounds;
-  var initialTransformation = createState(contextInstance.props);
-  var _a2 = contextInstance.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
-  if (!wrapperComponent)
-    return;
-  var newBounds = calculateBounds(contextInstance, initialTransformation.scale);
-  var boundedPositions = getMouseBoundedPosition(initialTransformation.positionX, initialTransformation.positionY, newBounds, limitToBounds, 0, 0, wrapperComponent);
-  var newState = {
-    scale: initialTransformation.scale,
-    positionX: boundedPositions.x,
-    positionY: boundedPositions.y
-  };
-  if (scale === initialTransformation.scale && positionX === initialTransformation.positionX && positionY === initialTransformation.positionY) {
-    return;
-  }
-  onResetTransformation === null || onResetTransformation === void 0 ? void 0 : onResetTransformation();
-  animate(contextInstance, newState, animationTime, animationType);
-}
-function getOffset(element, wrapper, content, state) {
-  var offset = element.getBoundingClientRect();
-  var wrapperOffset = wrapper.getBoundingClientRect();
-  var contentOffset = content.getBoundingClientRect();
-  var xOff = wrapperOffset.x * state.scale;
-  var yOff = wrapperOffset.y * state.scale;
-  return {
-    x: (offset.x - contentOffset.x + xOff) / state.scale,
-    y: (offset.y - contentOffset.y + yOff) / state.scale
-  };
-}
-function calculateZoomToNode(contextInstance, node2, customZoom) {
-  var wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent, transformState = contextInstance.transformState;
-  var _a2 = contextInstance.setup, limitToBounds = _a2.limitToBounds, minScale = _a2.minScale, maxScale = _a2.maxScale;
-  if (!wrapperComponent || !contentComponent)
-    return transformState;
-  var wrapperRect = wrapperComponent.getBoundingClientRect();
-  var nodeRect = node2.getBoundingClientRect();
-  var nodeOffset = getOffset(node2, wrapperComponent, contentComponent, transformState);
-  var nodeLeft = nodeOffset.x;
-  var nodeTop = nodeOffset.y;
-  var nodeWidth = nodeRect.width / transformState.scale;
-  var nodeHeight = nodeRect.height / transformState.scale;
-  var scaleX = wrapperComponent.offsetWidth / nodeWidth;
-  var scaleY = wrapperComponent.offsetHeight / nodeHeight;
-  var newScale = checkZoomBounds(customZoom || Math.min(scaleX, scaleY), minScale, maxScale, 0, false);
-  var offsetX = (wrapperRect.width - nodeWidth * newScale) / 2;
-  var offsetY = (wrapperRect.height - nodeHeight * newScale) / 2;
-  var newPositionX = (wrapperRect.left - nodeLeft) * newScale + offsetX;
-  var newPositionY = (wrapperRect.top - nodeTop) * newScale + offsetY;
-  var bounds = calculateBounds(contextInstance, newScale);
-  var _b2 = getMouseBoundedPosition(newPositionX, newPositionY, bounds, limitToBounds, 0, 0, wrapperComponent), x2 = _b2.x, y3 = _b2.y;
-  return { positionX: x2, positionY: y3, scale: newScale };
-}
-var zoomIn = function(contextInstance) {
-  return function(step, animationTime, animationType) {
-    if (step === void 0) {
-      step = 0.5;
-    }
-    if (animationTime === void 0) {
-      animationTime = 300;
-    }
-    if (animationType === void 0) {
-      animationType = "easeOut";
-    }
-    handleZoomToViewCenter(contextInstance, 1, step, animationTime, animationType);
-  };
-};
-var zoomOut = function(contextInstance) {
-  return function(step, animationTime, animationType) {
-    if (step === void 0) {
-      step = 0.5;
-    }
-    if (animationTime === void 0) {
-      animationTime = 300;
-    }
-    if (animationType === void 0) {
-      animationType = "easeOut";
-    }
-    handleZoomToViewCenter(contextInstance, -1, step, animationTime, animationType);
-  };
-};
-var setTransform = function(contextInstance) {
-  return function(newPositionX, newPositionY, newScale, animationTime, animationType) {
-    if (animationTime === void 0) {
-      animationTime = 300;
-    }
-    if (animationType === void 0) {
-      animationType = "easeOut";
-    }
-    var _a2 = contextInstance.transformState, positionX = _a2.positionX, positionY = _a2.positionY, scale = _a2.scale;
-    var wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
-    var disabled = contextInstance.setup.disabled;
-    if (disabled || !wrapperComponent || !contentComponent)
-      return;
-    var targetState = {
-      positionX: Number.isNaN(newPositionX) ? positionX : newPositionX,
-      positionY: Number.isNaN(newPositionY) ? positionY : newPositionY,
-      scale: Number.isNaN(newScale) ? scale : newScale
-    };
-    animate(contextInstance, targetState, animationTime, animationType);
-  };
-};
-var resetTransform = function(contextInstance) {
-  return function(animationTime, animationType) {
-    if (animationTime === void 0) {
-      animationTime = 200;
-    }
-    if (animationType === void 0) {
-      animationType = "easeOut";
-    }
-    resetTransformations(contextInstance, animationTime, animationType);
-  };
-};
-var centerView = function(contextInstance) {
-  return function(scale, animationTime, animationType) {
-    if (animationTime === void 0) {
-      animationTime = 200;
-    }
-    if (animationType === void 0) {
-      animationType = "easeOut";
-    }
-    var transformState = contextInstance.transformState, wrapperComponent = contextInstance.wrapperComponent, contentComponent = contextInstance.contentComponent;
-    if (wrapperComponent && contentComponent) {
-      var targetState = getCenterPosition(scale || transformState.scale, wrapperComponent, contentComponent);
-      animate(contextInstance, targetState, animationTime, animationType);
-    }
-  };
-};
-var zoomToElement = function(contextInstance) {
-  return function(node2, scale, animationTime, animationType) {
-    if (animationTime === void 0) {
-      animationTime = 600;
-    }
-    if (animationType === void 0) {
-      animationType = "easeOut";
-    }
-    handleCancelAnimation(contextInstance);
-    var wrapperComponent = contextInstance.wrapperComponent;
-    var target = typeof node2 === "string" ? document.getElementById(node2) : node2;
-    if (wrapperComponent && target && wrapperComponent.contains(target)) {
-      var targetState = calculateZoomToNode(contextInstance, target, scale);
-      animate(contextInstance, targetState, animationTime, animationType);
-    }
-  };
-};
-var getControls = function(contextInstance) {
-  return {
-    instance: contextInstance,
-    zoomIn: zoomIn(contextInstance),
-    zoomOut: zoomOut(contextInstance),
-    setTransform: setTransform(contextInstance),
-    resetTransform: resetTransform(contextInstance),
-    centerView: centerView(contextInstance),
-    zoomToElement: zoomToElement(contextInstance)
-  };
-};
-var getState = function(contextInstance) {
-  return {
-    instance: contextInstance,
-    state: contextInstance.transformState
-  };
-};
-var getContext = function(contextInstance) {
-  var ref = {};
-  Object.assign(ref, getState(contextInstance));
-  Object.assign(ref, getControls(contextInstance));
-  return ref;
-};
-var passiveSupported = false;
-function makePassiveEventOption() {
-  try {
-    var options = {
-      get passive() {
-        passiveSupported = true;
-        return false;
-      }
-    };
-    return options;
-  } catch (err) {
-    passiveSupported = false;
-    return passiveSupported;
-  }
-}
-var isExcludedNode = function(node2, excluded) {
-  return excluded.some(function(exclude) {
-    return node2.matches("".concat(exclude, ", .").concat(exclude, ", ").concat(exclude, " *, .").concat(exclude, " *"));
-  });
-};
-var cancelTimeout = function(timeout) {
-  if (timeout) {
-    clearTimeout(timeout);
-  }
-};
-var getTransformStyles = function(x2, y3, scale) {
-  return "translate(".concat(x2, "px, ").concat(y3, "px) scale(").concat(scale, ")");
-};
-var getCenterPosition = function(scale, wrapperComponent, contentComponent) {
-  var contentWidth = contentComponent.offsetWidth * scale;
-  var contentHeight = contentComponent.offsetHeight * scale;
-  var centerPositionX = (wrapperComponent.offsetWidth - contentWidth) / 2;
-  var centerPositionY = (wrapperComponent.offsetHeight - contentHeight) / 2;
-  return {
-    scale,
-    positionX: centerPositionX,
-    positionY: centerPositionY
-  };
-};
-function mergeRefs(refs) {
-  return function(value) {
-    refs.forEach(function(ref) {
-      if (typeof ref === "function") {
-        ref(value);
-      } else if (ref != null) {
-        ref.current = value;
-      }
-    });
-  };
-}
-var isWheelAllowed = function(contextInstance, event) {
-  var _a2 = contextInstance.setup.wheel, disabled = _a2.disabled, wheelDisabled = _a2.wheelDisabled, touchPadDisabled = _a2.touchPadDisabled, excluded = _a2.excluded;
-  var isInitialized = contextInstance.isInitialized, isPanning = contextInstance.isPanning;
-  var target = event.target;
-  var isAllowed = isInitialized && !isPanning && !disabled && target;
-  if (!isAllowed)
-    return false;
-  if (wheelDisabled && !event.ctrlKey)
-    return false;
-  if (touchPadDisabled && event.ctrlKey)
-    return false;
-  var isExcluded = isExcludedNode(target, excluded);
-  if (isExcluded)
-    return false;
-  return true;
-};
-var getDeltaY = function(event) {
-  if (event) {
-    return event.deltaY < 0 ? 1 : -1;
-  }
-  return 0;
-};
-function getDelta(event, customDelta) {
-  var deltaY = getDeltaY(event);
-  var delta = checkIsNumber(customDelta, deltaY);
-  return delta;
-}
-function getMousePosition(event, contentComponent, scale) {
-  var contentRect = contentComponent.getBoundingClientRect();
-  var mouseX = 0;
-  var mouseY = 0;
-  if ("clientX" in event) {
-    mouseX = (event.clientX - contentRect.left) / scale;
-    mouseY = (event.clientY - contentRect.top) / scale;
-  } else {
-    var touch = event.touches[0];
-    mouseX = (touch.clientX - contentRect.left) / scale;
-    mouseY = (touch.clientY - contentRect.top) / scale;
-  }
-  if (Number.isNaN(mouseX) || Number.isNaN(mouseY))
-    console.error("No mouse or touch offset found");
-  return {
-    x: mouseX,
-    y: mouseY
-  };
-}
-var handleCalculateWheelZoom = function(contextInstance, delta, step, disable, getTarget) {
-  var scale = contextInstance.transformState.scale;
-  var wrapperComponent = contextInstance.wrapperComponent, setup = contextInstance.setup;
-  var maxScale = setup.maxScale, minScale = setup.minScale, zoomAnimation = setup.zoomAnimation, disablePadding = setup.disablePadding;
-  var size = zoomAnimation.size, disabled = zoomAnimation.disabled;
-  if (!wrapperComponent) {
-    throw new Error("Wrapper is not mounted");
-  }
-  var targetScale = scale + delta * step;
-  if (getTarget)
-    return targetScale;
-  var paddingEnabled = disable ? false : !disabled;
-  var newScale = checkZoomBounds(roundNumber(targetScale, 3), minScale, maxScale, size, paddingEnabled && !disablePadding);
-  return newScale;
-};
-var handleWheelZoomStop = function(contextInstance, event) {
-  var previousWheelEvent = contextInstance.previousWheelEvent;
-  var scale = contextInstance.transformState.scale;
-  var _a2 = contextInstance.setup, maxScale = _a2.maxScale, minScale = _a2.minScale;
-  if (!previousWheelEvent)
-    return false;
-  if (scale < maxScale || scale > minScale)
-    return true;
-  if (Math.sign(previousWheelEvent.deltaY) !== Math.sign(event.deltaY))
-    return true;
-  if (previousWheelEvent.deltaY > 0 && previousWheelEvent.deltaY < event.deltaY)
-    return true;
-  if (previousWheelEvent.deltaY < 0 && previousWheelEvent.deltaY > event.deltaY)
-    return true;
-  if (Math.sign(previousWheelEvent.deltaY) !== Math.sign(event.deltaY))
-    return true;
-  return false;
-};
-var isPinchStartAllowed = function(contextInstance, event) {
-  var _a2 = contextInstance.setup.pinch, disabled = _a2.disabled, excluded = _a2.excluded;
-  var isInitialized = contextInstance.isInitialized;
-  var target = event.target;
-  var isAllowed = isInitialized && !disabled && target;
-  if (!isAllowed)
-    return false;
-  var isExcluded = isExcludedNode(target, excluded);
-  if (isExcluded)
-    return false;
-  return true;
-};
-var isPinchAllowed = function(contextInstance) {
-  var disabled = contextInstance.setup.pinch.disabled;
-  var isInitialized = contextInstance.isInitialized, pinchStartDistance = contextInstance.pinchStartDistance;
-  var isAllowed = isInitialized && !disabled && pinchStartDistance;
-  if (!isAllowed)
-    return false;
-  return true;
-};
-var calculateTouchMidPoint = function(event, scale, contentComponent) {
-  var contentRect = contentComponent.getBoundingClientRect();
-  var touches = event.touches;
-  var firstPointX = roundNumber(touches[0].clientX - contentRect.left, 5);
-  var firstPointY = roundNumber(touches[0].clientY - contentRect.top, 5);
-  var secondPointX = roundNumber(touches[1].clientX - contentRect.left, 5);
-  var secondPointY = roundNumber(touches[1].clientY - contentRect.top, 5);
-  return {
-    x: (firstPointX + secondPointX) / 2 / scale,
-    y: (firstPointY + secondPointY) / 2 / scale
-  };
-};
-var getTouchDistance = function(event) {
-  return Math.sqrt(Math.pow(event.touches[0].pageX - event.touches[1].pageX, 2) + Math.pow(event.touches[0].pageY - event.touches[1].pageY, 2));
-};
-var calculatePinchZoom = function(contextInstance, currentDistance) {
-  var pinchStartScale = contextInstance.pinchStartScale, pinchStartDistance = contextInstance.pinchStartDistance, setup = contextInstance.setup;
-  var maxScale = setup.maxScale, minScale = setup.minScale, zoomAnimation = setup.zoomAnimation, disablePadding = setup.disablePadding;
-  var size = zoomAnimation.size, disabled = zoomAnimation.disabled;
-  if (!pinchStartScale || pinchStartDistance === null || !currentDistance) {
-    throw new Error("Pinch touches distance was not provided");
-  }
-  if (currentDistance < 0) {
-    return contextInstance.transformState.scale;
-  }
-  var touchProportion = currentDistance / pinchStartDistance;
-  var scaleDifference = touchProportion * pinchStartScale;
-  return checkZoomBounds(roundNumber(scaleDifference, 2), minScale, maxScale, size, !disabled && !disablePadding);
-};
-var wheelStopEventTime = 160;
-var wheelAnimationTime = 100;
-var handleWheelStart = function(contextInstance, event) {
-  var _a2 = contextInstance.props, onWheelStart = _a2.onWheelStart, onZoomStart = _a2.onZoomStart;
-  if (!contextInstance.wheelStopEventTimer) {
-    handleCancelAnimation(contextInstance);
-    handleCallback(getContext(contextInstance), event, onWheelStart);
-    handleCallback(getContext(contextInstance), event, onZoomStart);
-  }
-};
-var handleWheelZoom = function(contextInstance, event) {
-  var _a2 = contextInstance.props, onWheel = _a2.onWheel, onZoom = _a2.onZoom;
-  var contentComponent = contextInstance.contentComponent, setup = contextInstance.setup, transformState = contextInstance.transformState;
-  var scale = transformState.scale;
-  var limitToBounds = setup.limitToBounds, centerZoomedOut = setup.centerZoomedOut, zoomAnimation = setup.zoomAnimation, wheel = setup.wheel, disablePadding = setup.disablePadding, smooth = setup.smooth;
-  var size = zoomAnimation.size, disabled = zoomAnimation.disabled;
-  var step = wheel.step, smoothStep = wheel.smoothStep;
-  if (!contentComponent) {
-    throw new Error("Component not mounted");
-  }
-  event.preventDefault();
-  event.stopPropagation();
-  var delta = getDelta(event, null);
-  var zoomStep = smooth ? smoothStep * Math.abs(event.deltaY) : step;
-  var newScale = handleCalculateWheelZoom(contextInstance, delta, zoomStep, !event.ctrlKey);
-  if (scale === newScale)
-    return;
-  var bounds = handleCalculateBounds(contextInstance, newScale);
-  var mousePosition = getMousePosition(event, contentComponent, scale);
-  var isPaddingDisabled = disabled || size === 0 || centerZoomedOut || disablePadding;
-  var isLimitedToBounds = limitToBounds && isPaddingDisabled;
-  var _b2 = handleCalculateZoomPositions(contextInstance, mousePosition.x, mousePosition.y, newScale, bounds, isLimitedToBounds), x2 = _b2.x, y3 = _b2.y;
-  contextInstance.previousWheelEvent = event;
-  contextInstance.setTransformState(newScale, x2, y3);
-  handleCallback(getContext(contextInstance), event, onWheel);
-  handleCallback(getContext(contextInstance), event, onZoom);
-};
-var handleWheelStop = function(contextInstance, event) {
-  var _a2 = contextInstance.props, onWheelStop = _a2.onWheelStop, onZoomStop = _a2.onZoomStop;
-  cancelTimeout(contextInstance.wheelAnimationTimer);
-  contextInstance.wheelAnimationTimer = setTimeout(function() {
-    if (!contextInstance.mounted)
-      return;
-    handleAlignToScaleBounds(contextInstance, event.x, event.y);
-    contextInstance.wheelAnimationTimer = null;
-  }, wheelAnimationTime);
-  var hasStoppedZooming = handleWheelZoomStop(contextInstance, event);
-  if (hasStoppedZooming) {
-    cancelTimeout(contextInstance.wheelStopEventTimer);
-    contextInstance.wheelStopEventTimer = setTimeout(function() {
-      if (!contextInstance.mounted)
-        return;
-      contextInstance.wheelStopEventTimer = null;
-      handleCallback(getContext(contextInstance), event, onWheelStop);
-      handleCallback(getContext(contextInstance), event, onZoomStop);
-    }, wheelStopEventTime);
-  }
-};
-var handlePinchStart = function(contextInstance, event) {
-  var distance = getTouchDistance(event);
-  contextInstance.pinchStartDistance = distance;
-  contextInstance.lastDistance = distance;
-  contextInstance.pinchStartScale = contextInstance.transformState.scale;
-  contextInstance.isPanning = false;
-  handleCancelAnimation(contextInstance);
-};
-var handlePinchZoom = function(contextInstance, event) {
-  var contentComponent = contextInstance.contentComponent, pinchStartDistance = contextInstance.pinchStartDistance;
-  var scale = contextInstance.transformState.scale;
-  var _a2 = contextInstance.setup, limitToBounds = _a2.limitToBounds, centerZoomedOut = _a2.centerZoomedOut, zoomAnimation = _a2.zoomAnimation;
-  var disabled = zoomAnimation.disabled, size = zoomAnimation.size;
-  if (pinchStartDistance === null || !contentComponent)
-    return;
-  var midPoint = calculateTouchMidPoint(event, scale, contentComponent);
-  if (!Number.isFinite(midPoint.x) || !Number.isFinite(midPoint.y))
-    return;
-  var currentDistance = getTouchDistance(event);
-  var newScale = calculatePinchZoom(contextInstance, currentDistance);
-  if (newScale === scale)
-    return;
-  var bounds = handleCalculateBounds(contextInstance, newScale);
-  var isPaddingDisabled = disabled || size === 0 || centerZoomedOut;
-  var isLimitedToBounds = limitToBounds && isPaddingDisabled;
-  var _b2 = handleCalculateZoomPositions(contextInstance, midPoint.x, midPoint.y, newScale, bounds, isLimitedToBounds), x2 = _b2.x, y3 = _b2.y;
-  contextInstance.pinchMidpoint = midPoint;
-  contextInstance.lastDistance = currentDistance;
-  contextInstance.setTransformState(newScale, x2, y3);
-};
-var handlePinchStop = function(contextInstance) {
-  var pinchMidpoint = contextInstance.pinchMidpoint;
-  contextInstance.velocity = null;
-  contextInstance.lastDistance = null;
-  contextInstance.pinchMidpoint = null;
-  contextInstance.pinchStartScale = null;
-  contextInstance.pinchStartDistance = null;
-  handleAlignToScaleBounds(contextInstance, pinchMidpoint === null || pinchMidpoint === void 0 ? void 0 : pinchMidpoint.x, pinchMidpoint === null || pinchMidpoint === void 0 ? void 0 : pinchMidpoint.y);
-};
-var handleDoubleClickStop = function(contextInstance, event) {
-  var onZoomStop = contextInstance.props.onZoomStop;
-  var animationTime = contextInstance.setup.doubleClick.animationTime;
-  cancelTimeout(contextInstance.doubleClickStopEventTimer);
-  contextInstance.doubleClickStopEventTimer = setTimeout(function() {
-    contextInstance.doubleClickStopEventTimer = null;
-    handleCallback(getContext(contextInstance), event, onZoomStop);
-  }, animationTime);
-};
-var handleDoubleClickResetMode = function(contextInstance, event) {
-  var _a2 = contextInstance.props, onZoomStart = _a2.onZoomStart, onZoom = _a2.onZoom;
-  var _b2 = contextInstance.setup.doubleClick, animationTime = _b2.animationTime, animationType = _b2.animationType;
-  handleCallback(getContext(contextInstance), event, onZoomStart);
-  resetTransformations(contextInstance, animationTime, animationType, function() {
-    return handleCallback(getContext(contextInstance), event, onZoom);
-  });
-  handleDoubleClickStop(contextInstance, event);
-};
-function getDoubleClickScale(mode, scale) {
-  if (mode === "toggle") {
-    return scale === 1 ? 1 : -1;
-  }
-  return mode === "zoomOut" ? -1 : 1;
-}
-function handleDoubleClick(contextInstance, event) {
-  var setup = contextInstance.setup, doubleClickStopEventTimer = contextInstance.doubleClickStopEventTimer, transformState = contextInstance.transformState, contentComponent = contextInstance.contentComponent;
-  var scale = transformState.scale;
-  var _a2 = contextInstance.props, onZoomStart = _a2.onZoomStart, onZoom = _a2.onZoom;
-  var _b2 = setup.doubleClick, disabled = _b2.disabled, mode = _b2.mode, step = _b2.step, animationTime = _b2.animationTime, animationType = _b2.animationType;
-  if (disabled)
-    return;
-  if (doubleClickStopEventTimer)
-    return;
-  if (mode === "reset") {
-    return handleDoubleClickResetMode(contextInstance, event);
-  }
-  if (!contentComponent)
-    return console.error("No ContentComponent found");
-  var delta = getDoubleClickScale(mode, contextInstance.transformState.scale);
-  var newScale = handleCalculateButtonZoom(contextInstance, delta, step);
-  if (scale === newScale)
-    return;
-  handleCallback(getContext(contextInstance), event, onZoomStart);
-  var mousePosition = getMousePosition(event, contentComponent, scale);
-  var targetState = handleZoomToPoint(contextInstance, newScale, mousePosition.x, mousePosition.y);
-  if (!targetState) {
-    return console.error("Error during zoom event. New transformation state was not calculated.");
-  }
-  handleCallback(getContext(contextInstance), event, onZoom);
-  animate(contextInstance, targetState, animationTime, animationType);
-  handleDoubleClickStop(contextInstance, event);
-}
-var isDoubleClickAllowed = function(contextInstance, event) {
-  var isInitialized = contextInstance.isInitialized, setup = contextInstance.setup, wrapperComponent = contextInstance.wrapperComponent;
-  var _a2 = setup.doubleClick, disabled = _a2.disabled, excluded = _a2.excluded;
-  var target = event.target;
-  var isWrapperChild = wrapperComponent === null || wrapperComponent === void 0 ? void 0 : wrapperComponent.contains(target);
-  var isAllowed = isInitialized && target && isWrapperChild && !disabled;
-  if (!isAllowed)
-    return false;
-  var isExcluded = isExcludedNode(target, excluded);
-  if (isExcluded)
-    return false;
-  return true;
-};
-var ZoomPanPinch = (
-  /** @class */
-  /* @__PURE__ */ function() {
-    function ZoomPanPinch2(props) {
-      var _this = this;
-      this.mounted = true;
-      this.onChangeCallbacks = /* @__PURE__ */ new Set();
-      this.onInitCallbacks = /* @__PURE__ */ new Set();
-      this.wrapperComponent = null;
-      this.contentComponent = null;
-      this.isInitialized = false;
-      this.bounds = null;
-      this.previousWheelEvent = null;
-      this.wheelStopEventTimer = null;
-      this.wheelAnimationTimer = null;
-      this.isPanning = false;
-      this.isWheelPanning = false;
-      this.startCoords = null;
-      this.lastTouch = null;
-      this.distance = null;
-      this.lastDistance = null;
-      this.pinchStartDistance = null;
-      this.pinchStartScale = null;
-      this.pinchMidpoint = null;
-      this.doubleClickStopEventTimer = null;
-      this.velocity = null;
-      this.velocityTime = null;
-      this.lastMousePosition = null;
-      this.animate = false;
-      this.animation = null;
-      this.maxBounds = null;
-      this.pressedKeys = {};
-      this.mount = function() {
-        _this.initializeWindowEvents();
-      };
-      this.unmount = function() {
-        _this.cleanupWindowEvents();
-      };
-      this.update = function(newProps) {
-        _this.props = newProps;
-        handleCalculateBounds(_this, _this.transformState.scale);
-        _this.setup = createSetup(newProps);
-      };
-      this.initializeWindowEvents = function() {
-        var _a2, _b2;
-        var passive = makePassiveEventOption();
-        var currentDocument = (_a2 = _this.wrapperComponent) === null || _a2 === void 0 ? void 0 : _a2.ownerDocument;
-        var currentWindow = currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.defaultView;
-        (_b2 = _this.wrapperComponent) === null || _b2 === void 0 ? void 0 : _b2.addEventListener("wheel", _this.onWheelPanning, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("mousedown", _this.onPanningStart, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("mousemove", _this.onPanning, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("mouseup", _this.onPanningStop, passive);
-        currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.addEventListener("mouseleave", _this.clearPanning, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("keyup", _this.setKeyUnPressed, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.addEventListener("keydown", _this.setKeyPressed, passive);
-      };
-      this.cleanupWindowEvents = function() {
-        var _a2, _b2;
-        var passive = makePassiveEventOption();
-        var currentDocument = (_a2 = _this.wrapperComponent) === null || _a2 === void 0 ? void 0 : _a2.ownerDocument;
-        var currentWindow = currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.defaultView;
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("mousedown", _this.onPanningStart, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("mousemove", _this.onPanning, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("mouseup", _this.onPanningStop, passive);
-        currentDocument === null || currentDocument === void 0 ? void 0 : currentDocument.removeEventListener("mouseleave", _this.clearPanning, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("keyup", _this.setKeyUnPressed, passive);
-        currentWindow === null || currentWindow === void 0 ? void 0 : currentWindow.removeEventListener("keydown", _this.setKeyPressed, passive);
-        document.removeEventListener("mouseleave", _this.clearPanning, passive);
-        handleCancelAnimation(_this);
-        (_b2 = _this.observer) === null || _b2 === void 0 ? void 0 : _b2.disconnect();
-      };
-      this.handleInitializeWrapperEvents = function(wrapper) {
-        var passive = makePassiveEventOption();
-        wrapper.addEventListener("wheel", _this.onWheelZoom, passive);
-        wrapper.addEventListener("dblclick", _this.onDoubleClick, passive);
-        wrapper.addEventListener("touchstart", _this.onTouchPanningStart, passive);
-        wrapper.addEventListener("touchmove", _this.onTouchPanning, passive);
-        wrapper.addEventListener("touchend", _this.onTouchPanningStop, passive);
-      };
-      this.handleInitialize = function(contentComponent) {
-        var centerOnInit = _this.setup.centerOnInit;
-        _this.applyTransformation();
-        _this.onInitCallbacks.forEach(function(callback) {
-          return callback(getContext(_this));
-        });
-        if (centerOnInit) {
-          _this.setCenter();
-          _this.observer = new ResizeObserver(function() {
-            var _a2;
-            var currentWidth = contentComponent.offsetWidth;
-            var currentHeight = contentComponent.offsetHeight;
-            if (currentWidth > 0 || currentHeight > 0) {
-              _this.onInitCallbacks.forEach(function(callback) {
-                return callback(getContext(_this));
-              });
-              _this.setCenter();
-              (_a2 = _this.observer) === null || _a2 === void 0 ? void 0 : _a2.disconnect();
-            }
-          });
-          setTimeout(function() {
-            var _a2;
-            (_a2 = _this.observer) === null || _a2 === void 0 ? void 0 : _a2.disconnect();
-          }, 5e3);
-          _this.observer.observe(contentComponent);
-        }
-      };
-      this.onWheelZoom = function(event) {
-        var disabled = _this.setup.disabled;
-        if (disabled)
-          return;
-        var isAllowed = isWheelAllowed(_this, event);
-        if (!isAllowed)
-          return;
-        var keysPressed = _this.isPressingKeys(_this.setup.wheel.activationKeys);
-        if (!keysPressed)
-          return;
-        handleWheelStart(_this, event);
-        handleWheelZoom(_this, event);
-        handleWheelStop(_this, event);
-      };
-      this.onWheelPanning = function(event) {
-        var _a2 = _this.setup, disabled = _a2.disabled, wheel = _a2.wheel, panning = _a2.panning;
-        if (!_this.wrapperComponent || !_this.contentComponent || disabled || !wheel.wheelDisabled || panning.disabled || !panning.wheelPanning || event.ctrlKey) {
-          return;
-        }
-        event.preventDefault();
-        event.stopPropagation();
-        var _b2 = _this.transformState, positionX = _b2.positionX, positionY = _b2.positionY;
-        var mouseX = positionX - event.deltaX;
-        var mouseY = positionY - event.deltaY;
-        var newPositionX = panning.lockAxisX ? positionX : mouseX;
-        var newPositionY = panning.lockAxisY ? positionY : mouseY;
-        var _c = _this.setup.alignmentAnimation, sizeX = _c.sizeX, sizeY = _c.sizeY;
-        var paddingValueX = getPaddingValue(_this, sizeX);
-        var paddingValueY = getPaddingValue(_this, sizeY);
-        if (newPositionX === positionX && newPositionY === positionY)
-          return;
-        handleNewPosition(_this, newPositionX, newPositionY, paddingValueX, paddingValueY);
-      };
-      this.onPanningStart = function(event) {
-        var disabled = _this.setup.disabled;
-        var onPanningStart = _this.props.onPanningStart;
-        if (disabled)
-          return;
-        var isAllowed = isPanningStartAllowed(_this, event);
-        if (!isAllowed)
-          return;
-        var keysPressed = _this.isPressingKeys(_this.setup.panning.activationKeys);
-        if (!keysPressed)
-          return;
-        if (event.button === 0 && !_this.setup.panning.allowLeftClickPan)
-          return;
-        if (event.button === 1 && !_this.setup.panning.allowMiddleClickPan)
-          return;
-        if (event.button === 2 && !_this.setup.panning.allowRightClickPan)
-          return;
-        event.preventDefault();
-        event.stopPropagation();
-        handleCancelAnimation(_this);
-        handlePanningStart(_this, event);
-        handleCallback(getContext(_this), event, onPanningStart);
-      };
-      this.onPanning = function(event) {
-        var disabled = _this.setup.disabled;
-        var onPanning = _this.props.onPanning;
-        if (disabled)
-          return;
-        var isAllowed = isPanningAllowed(_this);
-        if (!isAllowed)
-          return;
-        var keysPressed = _this.isPressingKeys(_this.setup.panning.activationKeys);
-        if (!keysPressed)
-          return;
-        event.preventDefault();
-        event.stopPropagation();
-        handlePanning(_this, event.clientX, event.clientY);
-        handleCallback(getContext(_this), event, onPanning);
-      };
-      this.onPanningStop = function(event) {
-        var onPanningStop = _this.props.onPanningStop;
-        if (_this.isPanning) {
-          handlePanningEnd(_this);
-          handleCallback(getContext(_this), event, onPanningStop);
-        }
-      };
-      this.onPinchStart = function(event) {
-        var disabled = _this.setup.disabled;
-        var _a2 = _this.props, onPinchingStart = _a2.onPinchingStart, onZoomStart = _a2.onZoomStart;
-        if (disabled)
-          return;
-        var isAllowed = isPinchStartAllowed(_this, event);
-        if (!isAllowed)
-          return;
-        handlePinchStart(_this, event);
-        handleCancelAnimation(_this);
-        handleCallback(getContext(_this), event, onPinchingStart);
-        handleCallback(getContext(_this), event, onZoomStart);
-      };
-      this.onPinch = function(event) {
-        var disabled = _this.setup.disabled;
-        var _a2 = _this.props, onPinching = _a2.onPinching, onZoom = _a2.onZoom;
-        if (disabled)
-          return;
-        var isAllowed = isPinchAllowed(_this);
-        if (!isAllowed)
-          return;
-        event.preventDefault();
-        event.stopPropagation();
-        handlePinchZoom(_this, event);
-        handleCallback(getContext(_this), event, onPinching);
-        handleCallback(getContext(_this), event, onZoom);
-      };
-      this.onPinchStop = function(event) {
-        var _a2 = _this.props, onPinchingStop = _a2.onPinchingStop, onZoomStop = _a2.onZoomStop;
-        if (_this.pinchStartScale) {
-          handlePinchStop(_this);
-          handleCallback(getContext(_this), event, onPinchingStop);
-          handleCallback(getContext(_this), event, onZoomStop);
-        }
-      };
-      this.onTouchPanningStart = function(event) {
-        var disabled = _this.setup.disabled;
-        var onPanningStart = _this.props.onPanningStart;
-        if (disabled)
-          return;
-        var isAllowed = isPanningStartAllowed(_this, event);
-        if (!isAllowed)
-          return;
-        var isDoubleTap = _this.lastTouch && +/* @__PURE__ */ new Date() - _this.lastTouch < 200;
-        if (isDoubleTap && event.touches.length === 1) {
-          _this.onDoubleClick(event);
-        } else {
-          _this.lastTouch = +/* @__PURE__ */ new Date();
-          handleCancelAnimation(_this);
-          var touches = event.touches;
-          var isPanningAction = touches.length === 1;
-          var isPinchAction = touches.length === 2;
-          if (isPanningAction) {
-            handleCancelAnimation(_this);
-            handlePanningStart(_this, event);
-            handleCallback(getContext(_this), event, onPanningStart);
-          }
-          if (isPinchAction) {
-            _this.onPinchStart(event);
-          }
-        }
-      };
-      this.onTouchPanning = function(event) {
-        var disabled = _this.setup.disabled;
-        var onPanning = _this.props.onPanning;
-        if (_this.isPanning && event.touches.length === 1) {
-          if (disabled)
-            return;
-          var isAllowed = isPanningAllowed(_this);
-          if (!isAllowed)
-            return;
-          event.preventDefault();
-          event.stopPropagation();
-          var touch = event.touches[0];
-          handlePanning(_this, touch.clientX, touch.clientY);
-          handleCallback(getContext(_this), event, onPanning);
-        } else if (event.touches.length > 1) {
-          _this.onPinch(event);
-        }
-      };
-      this.onTouchPanningStop = function(event) {
-        _this.onPanningStop(event);
-        _this.onPinchStop(event);
-      };
-      this.onDoubleClick = function(event) {
-        var disabled = _this.setup.disabled;
-        if (disabled)
-          return;
-        var isAllowed = isDoubleClickAllowed(_this, event);
-        if (!isAllowed)
-          return;
-        handleDoubleClick(_this, event);
-      };
-      this.clearPanning = function(event) {
-        if (_this.isPanning) {
-          _this.onPanningStop(event);
-        }
-      };
-      this.setKeyPressed = function(e4) {
-        _this.pressedKeys[e4.key] = true;
-      };
-      this.setKeyUnPressed = function(e4) {
-        _this.pressedKeys[e4.key] = false;
-      };
-      this.isPressingKeys = function(keys) {
-        if (!keys.length) {
-          return true;
-        }
-        return Boolean(keys.find(function(key) {
-          return _this.pressedKeys[key];
-        }));
-      };
-      this.setTransformState = function(scale, positionX, positionY) {
-        var onTransformed = _this.props.onTransformed;
-        if (!Number.isNaN(scale) && !Number.isNaN(positionX) && !Number.isNaN(positionY)) {
-          if (scale !== _this.transformState.scale) {
-            _this.transformState.previousScale = _this.transformState.scale;
-            _this.transformState.scale = scale;
-          }
-          _this.transformState.positionX = positionX;
-          _this.transformState.positionY = positionY;
-          _this.applyTransformation();
-          var ctx_1 = getContext(_this);
-          _this.onChangeCallbacks.forEach(function(callback) {
-            return callback(ctx_1);
-          });
-          handleCallback(ctx_1, { scale, positionX, positionY }, onTransformed);
-        } else {
-          console.error("Detected NaN set state values");
-        }
-      };
-      this.setCenter = function() {
-        if (_this.wrapperComponent && _this.contentComponent) {
-          var targetState = getCenterPosition(_this.transformState.scale, _this.wrapperComponent, _this.contentComponent);
-          _this.setTransformState(targetState.scale, targetState.positionX, targetState.positionY);
-        }
-      };
-      this.handleTransformStyles = function(x2, y3, scale) {
-        if (_this.props.customTransform) {
-          return _this.props.customTransform(x2, y3, scale);
-        }
-        return getTransformStyles(x2, y3, scale);
-      };
-      this.applyTransformation = function() {
-        if (!_this.mounted || !_this.contentComponent)
-          return;
-        var _a2 = _this.transformState, scale = _a2.scale, positionX = _a2.positionX, positionY = _a2.positionY;
-        var transform = _this.handleTransformStyles(positionX, positionY, scale);
-        _this.contentComponent.style.transform = transform;
-      };
-      this.getContext = function() {
-        return getContext(_this);
-      };
-      this.onChange = function(callback) {
-        if (!_this.onChangeCallbacks.has(callback)) {
-          _this.onChangeCallbacks.add(callback);
-        }
-        return function() {
-          _this.onChangeCallbacks.delete(callback);
-        };
-      };
-      this.onInit = function(callback) {
-        if (!_this.onInitCallbacks.has(callback)) {
-          _this.onInitCallbacks.add(callback);
-        }
-        return function() {
-          _this.onInitCallbacks.delete(callback);
-        };
-      };
-      this.init = function(wrapperComponent, contentComponent) {
-        _this.cleanupWindowEvents();
-        _this.wrapperComponent = wrapperComponent;
-        _this.contentComponent = contentComponent;
-        handleCalculateBounds(_this, _this.transformState.scale);
-        _this.handleInitializeWrapperEvents(wrapperComponent);
-        _this.handleInitialize(contentComponent);
-        _this.initializeWindowEvents();
-        _this.isInitialized = true;
-        var ctx = getContext(_this);
-        handleCallback(ctx, void 0, _this.props.onInit);
-      };
-      this.props = props;
-      this.setup = createSetup(this.props);
-      this.transformState = createState(this.props);
-    }
-    return ZoomPanPinch2;
-  }()
-);
-var Context = import_react6.default.createContext(null);
-var getContent2 = function(children, ctx) {
-  if (typeof children === "function") {
-    return children(ctx);
-  }
-  return children;
-};
-var TransformWrapper = import_react6.default.forwardRef(function(props, ref) {
-  var instance = (0, import_react6.useRef)(new ZoomPanPinch(props)).current;
-  var content = getContent2(props.children, getControls(instance));
-  (0, import_react6.useImperativeHandle)(ref, function() {
-    return getControls(instance);
-  }, [instance]);
-  (0, import_react6.useEffect)(function() {
-    instance.update(props);
-  }, [instance, props]);
-  return import_react6.default.createElement(Context.Provider, { value: instance }, content);
-});
-var KeepScale = import_react6.default.forwardRef(function(props, ref) {
-  var localRef = (0, import_react6.useRef)(null);
-  var instance = (0, import_react6.useContext)(Context);
-  (0, import_react6.useEffect)(function() {
-    return instance.onChange(function(ctx) {
-      if (localRef.current) {
-        var positionX = 0;
-        var positionY = 0;
-        localRef.current.style.transform = instance.handleTransformStyles(positionX, positionY, 1 / ctx.instance.transformState.scale);
-      }
-    });
-  }, [instance]);
-  return import_react6.default.createElement("div", __assign({}, props, { ref: mergeRefs([localRef, ref]) }));
-});
-function styleInject(css, ref) {
-  if (ref === void 0)
-    ref = {};
-  var insertAt = ref.insertAt;
-  if (!css || typeof document === "undefined") {
-    return;
-  }
-  var head = document.head || document.getElementsByTagName("head")[0];
-  var style = document.createElement("style");
-  style.type = "text/css";
-  if (insertAt === "top") {
-    if (head.firstChild) {
-      head.insertBefore(style, head.firstChild);
-    } else {
-      head.appendChild(style);
-    }
-  } else {
-    head.appendChild(style);
-  }
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    style.appendChild(document.createTextNode(css));
-  }
-}
-var css_248z = ".transform-component-module_wrapper__SPB86 {\n  position: relative;\n  width: -moz-fit-content;\n  width: fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n  overflow: hidden;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */\n  -khtml-user-select: none; /* Konqueror HTML */\n  -moz-user-select: none; /* Firefox */\n  -ms-user-select: none; /* Internet Explorer/Edge */\n  user-select: none;\n  margin: 0;\n  padding: 0;\n}\n.transform-component-module_content__FBWxo {\n  display: flex;\n  flex-wrap: wrap;\n  width: -moz-fit-content;\n  width: fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n  margin: 0;\n  padding: 0;\n  transform-origin: 0% 0%;\n}\n.transform-component-module_content__FBWxo img {\n  pointer-events: none;\n}\n";
-var styles = { "wrapper": "transform-component-module_wrapper__SPB86", "content": "transform-component-module_content__FBWxo" };
-styleInject(css_248z);
-var TransformComponent = function(_a2) {
-  var children = _a2.children, _b2 = _a2.wrapperClass, wrapperClass = _b2 === void 0 ? "" : _b2, _c = _a2.contentClass, contentClass = _c === void 0 ? "" : _c, wrapperStyle = _a2.wrapperStyle, contentStyle = _a2.contentStyle, _d = _a2.wrapperProps, wrapperProps = _d === void 0 ? {} : _d, _e = _a2.contentProps, contentProps = _e === void 0 ? {} : _e;
-  var _f = (0, import_react6.useContext)(Context), init = _f.init, cleanupWindowEvents = _f.cleanupWindowEvents;
-  var wrapperRef = (0, import_react6.useRef)(null);
-  var contentRef = (0, import_react6.useRef)(null);
-  (0, import_react6.useEffect)(function() {
-    var wrapper = wrapperRef.current;
-    var content = contentRef.current;
-    if (wrapper !== null && content !== null && init) {
-      init === null || init === void 0 ? void 0 : init(wrapper, content);
-    }
-    return function() {
-      cleanupWindowEvents === null || cleanupWindowEvents === void 0 ? void 0 : cleanupWindowEvents();
-    };
-  }, []);
-  return import_react6.default.createElement(
-    "div",
-    __assign({}, wrapperProps, { ref: wrapperRef, className: "react-transform-wrapper ".concat(styles.wrapper, " ").concat(wrapperClass), style: wrapperStyle }),
-    import_react6.default.createElement("div", __assign({}, contentProps, { ref: contentRef, className: "react-transform-component ".concat(styles.content, " ").concat(contentClass), style: contentStyle }), children)
-  );
-};
-
-// src/components/file/ModalContent.tsx
-var import_react11 = __toESM(require_react());
-
 // src/components/common/form/FormItems.tsx
 var import_get2 = __toESM(require_get());
 var import_react9 = __toESM(require_react());
@@ -41598,16 +43735,16 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
   );
   const previewRef = (0, import_react7.useRef)(null);
   (0, import_react7.useEffect)(() => {
-    if (!keyword) {
-      setList(imageList);
-    } else {
+    if (keyword) {
       const regExp = new RegExp(keyword.split("").join(".*"), "i");
       setList(imageList.filter((file) => regExp.test(file.path)));
+    } else {
+      setList(imageList);
     }
   }, [keyword, imageList]);
   (0, import_react7.useEffect)(() => {
-    if (!list.length) {
-      setSelected(null);
+    if (list.length === 0) {
+      setSelected(void 0);
     } else if (!selected || !list.find((file) => file.path === selected.path)) {
       setSelected(list?.[0] || null);
     }
@@ -41616,8 +43753,12 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
     previewRef.current?.empty();
     if (selected) {
       createHtml(selected.path, app).then(
-        (html) => previewRef.current?.appendChild(html)
-      );
+        (html) => (
+          // eslint-disable-next-line unicorn/prefer-dom-node-append
+          previewRef.current?.appendChild(html)
+        )
+      ).catch(() => {
+      });
     }
   }, [selected]);
   const submit = (0, import_react7.useCallback)(async () => {
@@ -41636,14 +43777,18 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
       spellCheck: "false",
       value: keyword,
       placeholder: L_default.imageSelect.search(),
-      onChange: (e4) => setKeyword(e4.target.value)
+      onChange: (e4) => {
+        setKeyword(e4.target.value);
+      }
     }
-  ), /* @__PURE__ */ import_react7.default.createElement("div", { className: "search-input-clear-button" })), /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-photo-main" }, /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-photo-left" }, list.length ? list.map((file) => /* @__PURE__ */ import_react7.default.createElement(
+  ), /* @__PURE__ */ import_react7.default.createElement("div", { className: "search-input-clear-button" })), /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-photo-main" }, /* @__PURE__ */ import_react7.default.createElement("div", { className: "export-image-select-photo-left" }, list.length > 0 ? list.map((file) => /* @__PURE__ */ import_react7.default.createElement(
     "div",
     {
       key: file.path,
       title: file.path,
-      onClick: () => setSelected(file),
+      onClick: () => {
+        setSelected(file);
+      },
       style: {
         background: selected?.path === file.path ? "var(--background-modifier-hover)" : "transparent"
       }
@@ -41661,12 +43806,14 @@ var ImageSelect = ({ imageList, app, onSelect, onClose }) => {
   ), /* @__PURE__ */ import_react7.default.createElement("button", { onClick: onClose }, L_default.imageSelect.cancel())));
 };
 var ImageSelectModal = class extends import_obsidian5.Modal {
+  select;
+  root;
   constructor(app, select) {
     super(app);
     this.select = select;
   }
   onOpen() {
-    let { contentEl, select } = this;
+    const { contentEl, select } = this;
     const imageList = this.app.vault.getFiles().filter((file) => /^jpe?g|png$/i.test(file.extension || ""));
     this.root = (0, import_client3.createRoot)(contentEl);
     this.root.render(
@@ -41676,13 +43823,15 @@ var ImageSelectModal = class extends import_obsidian5.Modal {
           imageList,
           app: this.app,
           onSelect: select,
-          onClose: () => this.close()
+          onClose: () => {
+            this.close();
+          }
         }
       )
     );
   }
   onClose() {
-    let { contentEl, root: root2 } = this;
+    const { contentEl, root: root2 } = this;
     root2?.unmount();
     contentEl.empty();
   }
@@ -41691,14 +43840,14 @@ var ImageSelectModal = class extends import_obsidian5.Modal {
 // src/components/common/form/Control.tsx
 var Control = ({ fieldSchema, setting, update, app }) => {
   const value = (0, import_get.default)(setting, fieldSchema.path);
-  const inputRef = (0, import_react8.useRef)(null);
+  const inputReference = (0, import_react8.useRef)(null);
   const onChange = (value2) => {
     const newSetting = { ...setting };
     (0, import_set.default)(newSetting, fieldSchema.path, value2);
     update(newSetting);
   };
   const upload = async () => {
-    const file = inputRef.current?.files?.[0];
+    const file = inputReference.current?.files?.[0];
     if (file) {
       onChange(await fileToBase64(file));
     }
@@ -41717,7 +43866,9 @@ var Control = ({ fieldSchema, setting, update, app }) => {
         {
           type: "number",
           value,
-          onChange: (e4) => onChange(e4.target.value ? Number(e4.target.value) : void 0)
+          onChange: (e4) => {
+            onChange(e4.target.value ? Number(e4.target.value) : void 0);
+          }
         }
       );
     }
@@ -41727,7 +43878,9 @@ var Control = ({ fieldSchema, setting, update, app }) => {
         {
           type: "text",
           value,
-          onChange: (e4) => onChange(e4.target.value)
+          onChange: (e4) => {
+            onChange(e4.target.value);
+          }
         }
       );
     }
@@ -41736,7 +43889,9 @@ var Control = ({ fieldSchema, setting, update, app }) => {
         "div",
         {
           className: `checkbox-container${value ? " is-enabled" : ""}`,
-          onClick: () => onChange(!(0, import_get.default)(setting, fieldSchema.path))
+          onClick: () => {
+            onChange(!(0, import_get.default)(setting, fieldSchema.path));
+          }
         },
         /* @__PURE__ */ import_react8.default.createElement("input", { type: "checkbox", checked: value })
       );
@@ -41746,7 +43901,9 @@ var Control = ({ fieldSchema, setting, update, app }) => {
         "select",
         {
           value,
-          onChange: (e4) => onChange(e4.target.value),
+          onChange: (e4) => {
+            onChange(e4.target.value);
+          },
           className: "dropdown"
         },
         fieldSchema.options?.map((option) => /* @__PURE__ */ import_react8.default.createElement("option", { key: option.value, value: option.value }, option.text))
@@ -41762,18 +43919,16 @@ var Control = ({ fieldSchema, setting, update, app }) => {
             display: value ? "block" : "none"
           }
         }
-      ), /* @__PURE__ */ import_react8.default.createElement("button", { onClick: () => inputRef.current?.click() }, L_default.setting.watermark.image.src.upload(), /* @__PURE__ */ import_react8.default.createElement(
+      ), /* @__PURE__ */ import_react8.default.createElement("button", { onClick: () => inputReference.current?.click() }, L_default.setting.watermark.image.src.upload(), /* @__PURE__ */ import_react8.default.createElement(
         "input",
         {
           style: { display: "none" },
           type: "file",
-          ref: inputRef,
+          ref: inputReference,
           onChange: upload
         }
       )), /* @__PURE__ */ import_react8.default.createElement("button", { onClick: select }, L_default.setting.watermark.image.src.select()));
     }
-    default:
-      return null;
   }
 };
 var Control_default = Control;
@@ -41788,28 +43943,26 @@ function isShow(field, settings) {
   }
   return (0, import_get2.default)(settings, field.when.path) === field.when.flag;
 }
-var FormItems = ({ formSchema: formSchema3, settings, update, app }) => {
-  return /* @__PURE__ */ import_react9.default.createElement(import_react9.default.Fragment, null, formSchema3.map(
-    (fieldSchema) => isShow(fieldSchema, settings) && /* @__PURE__ */ import_react9.default.createElement(
-      "div",
+var FormItems = ({ formSchema: formSchema2, settings, update, app }) => /* @__PURE__ */ import_react9.default.createElement(import_react9.default.Fragment, null, formSchema2.map(
+  (fieldSchema) => isShow(fieldSchema, settings) && /* @__PURE__ */ import_react9.default.createElement(
+    "div",
+    {
+      className: "setting-item",
+      key: fieldSchema.path,
+      style: { padding: "10px 0" }
+    },
+    /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-info" }, /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-name" }, fieldSchema.label), fieldSchema.desc && /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-description" }, fieldSchema.desc)),
+    /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-control" }, /* @__PURE__ */ import_react9.default.createElement(
+      Control_default,
       {
-        className: "setting-item",
-        key: fieldSchema.path,
-        style: { padding: "10px 0" }
-      },
-      /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-info" }, /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-name" }, fieldSchema.label), fieldSchema.desc && /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-description" }, fieldSchema.desc)),
-      /* @__PURE__ */ import_react9.default.createElement("div", { className: "setting-item-control" }, /* @__PURE__ */ import_react9.default.createElement(
-        Control_default,
-        {
-          fieldSchema,
-          setting: settings,
-          update,
-          app
-        }
-      ))
-    )
-  ));
-};
+        fieldSchema,
+        setting: settings,
+        update,
+        app
+      }
+    ))
+  )
+));
 var FormItems_default = FormItems;
 
 // src/components/file/ModalContent.tsx
@@ -41926,26 +44079,36 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
   const [isGrabbing, setIsGrabbing] = (0, import_react10.useState)(false);
   const previewOutRef = (0, import_react10.useRef)(null);
   const mainHeight = Math.min(764, window.innerHeight * 0.85 - 225);
-  const root2 = markdownEl.closest(".export-image-root") || markdownEl;
+  const root2 = (0, import_react10.useRef)(null);
   (0, import_react10.useEffect)(() => {
     setFormData(settings);
   }, [settings]);
   const [processing, setProcessing] = (0, import_react10.useState)(false);
+  const [allowCopy, setAllowCopy] = (0, import_react10.useState)(true);
+  (0, import_react10.useEffect)(() => {
+    isCopiable(formData.format).then((result) => {
+      setAllowCopy(Boolean(result));
+    });
+  }, [formData.format]);
   const handleSave = (0, import_react10.useCallback)(async () => {
     if ((formData.width || 640) <= 20) {
       new import_obsidian6.Notice(L_default.invalidWidth());
       return;
     }
     setProcessing(true);
-    await save(
-      app,
-      root2,
-      title,
-      formData["2x"],
-      formData.format,
-      // @ts-ignore
-      app.isMobile
-    );
+    try {
+      await save(
+        app,
+        root2.current,
+        title,
+        formData["2x"],
+        formData.format,
+        // @ts-ignore
+        app.isMobile
+      );
+    } catch {
+      new import_obsidian6.Notice(L_default.saveFail());
+    }
     setProcessing(false);
   }, [root2, formData["2x"], formData.format, title, formData.width]);
   const handleCopy = (0, import_react10.useCallback)(async () => {
@@ -41954,10 +44117,14 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
       return;
     }
     setProcessing(true);
-    await copy(root2, formData["2x"], formData.format);
+    try {
+      await copy(root2.current, formData["2x"], formData.format);
+    } catch {
+      new import_obsidian6.Notice(L_default.copyFail());
+    }
     setProcessing(false);
   }, [root2, formData["2x"], formData.format, title, formData.width]);
-  return /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-root" }, /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-main" }, /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-left" }, /* @__PURE__ */ import_react11.default.createElement(
+  return /* @__PURE__ */ import_react10.default.createElement("div", { className: "export-image-preview-root" }, /* @__PURE__ */ import_react10.default.createElement("div", { className: "export-image-preview-main" }, /* @__PURE__ */ import_react10.default.createElement("div", { className: "export-image-preview-left" }, /* @__PURE__ */ import_react10.default.createElement(
     FormItems_default,
     {
       formSchema,
@@ -41965,7 +44132,7 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
       settings: formData,
       app
     }
-  ), /* @__PURE__ */ import_react11.default.createElement("div", { className: "info-text" }, L_default.moreSetting())), /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-right" }, /* @__PURE__ */ import_react11.default.createElement(
+  ), /* @__PURE__ */ import_react10.default.createElement("div", { className: "info-text" }, L_default.moreSetting())), /* @__PURE__ */ import_react10.default.createElement("div", { className: "export-image-preview-right" }, /* @__PURE__ */ import_react10.default.createElement(
     "div",
     {
       className: "export-image-preview-out",
@@ -41975,22 +44142,26 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
         cursor: isGrabbing ? "grabbing" : "grab"
       }
     },
-    /* @__PURE__ */ import_react11.default.createElement(
+    /* @__PURE__ */ import_react10.default.createElement(
       TransformWrapper,
       {
         minScale: Math.min(
           1,
-          mainHeight / root2.clientHeight,
-          (previewOutRef.current?.clientWidth || 400) / (root2.clientWidth + 2)
+          mainHeight / (root2.current?.clientHeight || 100),
+          (previewOutRef.current?.clientWidth || 400) / ((root2.current?.clientWidth || 0) + 2)
         ) / 2,
         maxScale: 4,
         pinch: { step: 20 },
         doubleClick: { mode: "reset" },
         centerZoomedOut: false,
-        onPanning: () => setIsGrabbing(true),
-        onPanningStop: () => setIsGrabbing(false)
+        onPanning: () => {
+          setIsGrabbing(true);
+        },
+        onPanningStop: () => {
+          setIsGrabbing(false);
+        }
       },
-      /* @__PURE__ */ import_react11.default.createElement(
+      /* @__PURE__ */ import_react10.default.createElement(
         TransformComponent,
         {
           wrapperStyle: {
@@ -42004,9 +44175,10 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
             boxShadow: "0 0 10px 10px rgba(0,0,0,0.15)"
           }
         },
-        /* @__PURE__ */ import_react11.default.createElement(
+        /* @__PURE__ */ import_react10.default.createElement(
           Target_default,
           {
+            ref: root2,
             frontmatter,
             markdownEl,
             setting: formData,
@@ -42017,32 +44189,29 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
         )
       )
     )
-  ), /* @__PURE__ */ import_react11.default.createElement("div", { className: "info-text" }, L_default.guide()))), /* @__PURE__ */ import_react11.default.createElement("div", { className: "export-image-preview-actions" }, /* @__PURE__ */ import_react11.default.createElement("button", { onClick: handleCopy, disabled: processing }, L_default.copy()), /* @__PURE__ */ import_react11.default.createElement("button", { onClick: handleSave, disabled: processing }, app.isMobile ? L_default.saveVault() : L_default.save())));
+  ), /* @__PURE__ */ import_react10.default.createElement("div", { className: "info-text" }, L_default.guide()))), /* @__PURE__ */ import_react10.default.createElement("div", { className: "export-image-preview-actions" }, /* @__PURE__ */ import_react10.default.createElement("div", null, /* @__PURE__ */ import_react10.default.createElement("button", { onClick: handleCopy, disabled: processing || !allowCopy }, L_default.copy()), allowCopy || /* @__PURE__ */ import_react10.default.createElement("p", null, L_default.notAllowCopy({ format: formData.format.replace(/\d$/, "").toUpperCase() }))), /* @__PURE__ */ import_react10.default.createElement("button", { onClick: handleSave, disabled: processing }, app.isMobile ? L_default.saveVault() : L_default.save())));
 };
 var ModalContent_default = ModalContent;
 
 // src/components/file/exportImage.tsx
 async function exportImage_default(app, settings, markdown, file, frontmatter) {
   const el = document.createElement("div");
-  import_obsidian7.MarkdownRenderer.render(
+  await import_obsidian7.MarkdownRenderer.render(
     app,
     markdown,
     el.createDiv(),
     file.path,
     app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView) || app.workspace.activeLeaf?.view || new import_obsidian7.MarkdownRenderChild(el)
   );
-  const modal = new import_obsidian7.Modal(this.app);
+  const modal = new import_obsidian7.Modal(app);
   modal.setTitle(L_default.imageExportPreview());
   modal.modalEl.style.width = "85vw";
   modal.modalEl.style.maxWidth = "1500px";
   modal.open();
   const root2 = (0, import_client4.createRoot)(modal.contentEl);
-  const metadataMap = (
-    // @ts-ignore
-    app.metadataCache.getAllPropertyInfos()
-  );
+  const metadataMap = app.metadataCache.getAllPropertyInfos();
   root2.render(
-    /* @__PURE__ */ import_react12.default.createElement(
+    /* @__PURE__ */ import_react11.default.createElement(
       ModalContent_default,
       {
         markdownEl: el,
@@ -42063,8 +44232,9 @@ async function exportImage_default(app, settings, markdown, file, frontmatter) {
 var DEFAULT_SETTINGS = {
   width: 640,
   showFilename: true,
+  // eslint-disable-next-line @typescript-eslint/naming-convention
   "2x": true,
-  format: "jpg",
+  format: "png0",
   showMetadata: false,
   recursive: false,
   authorInfo: {
@@ -42091,63 +44261,35 @@ var DEFAULT_SETTINGS = {
     y: 100
   }
 };
+var formatList = ["png0", "png1", "jpg", "webp", "pdf"];
+var formatAvailable = [];
+(async () => {
+  for (const type of formatList) {
+    if (await isCreatable(type)) {
+      formatAvailable.push(type);
+    }
+  }
+})();
 
 // src/components/folder/exportFolder.tsx
-var import_react14 = __toESM(require_react());
+var import_react13 = __toESM(require_react());
 var import_obsidian9 = require("obsidian");
 var import_client5 = __toESM(require_client());
 
 // src/components/folder/ModalContent.tsx
-var import_react13 = __toESM(require_react());
+var import_react12 = __toESM(require_react());
 var import_obsidian8 = require("obsidian");
-var formSchema2 = [
-  {
-    label: L_default.setting.recursive(),
-    path: "recursive",
-    type: "boolean"
-  },
-  {
-    label: L_default.includingFilename(),
-    path: "showFilename",
-    type: "boolean"
-  },
-  {
-    label: L_default.imageWidth(),
-    path: "width",
-    type: "number"
-  },
-  {
-    label: L_default.setting.userInfo.show(),
-    path: "authorInfo.show",
-    type: "boolean"
-  },
-  {
-    label: L_default.setting.watermark.enable.label(),
-    path: "watermark.enable",
-    type: "boolean"
-  },
-  {
-    label: L_default.setting.format.title(),
-    path: "format",
-    type: "select",
-    options: [
-      { value: "jpg", text: "jpg" },
-      { value: "png", text: "png" },
-      { value: "pdf", text: "pdf" }
-    ]
-  }
-];
 var ModalContent2 = ({ settings, app, folder, close }) => {
-  const [formData, setFormData] = (0, import_react13.useState)(settings);
-  const [fileList, setFileList] = (0, import_react13.useState)([]);
-  const [selectFiles, setSelectFiles] = (0, import_react13.useState)([]);
-  const [finished, setFinished] = (0, import_react13.useState)(0);
-  const [running, setRunning] = (0, import_react13.useState)(false);
-  const hiddenRef = (0, import_react13.useRef)(null);
-  (0, import_react13.useEffect)(() => {
+  const [formData, setFormData] = (0, import_react12.useState)(settings);
+  const [fileList, setFileList] = (0, import_react12.useState)([]);
+  const [selectFiles, setSelectFiles] = (0, import_react12.useState)([]);
+  const [finished, setFinished] = (0, import_react12.useState)(0);
+  const [running, setRunning] = (0, import_react12.useState)(false);
+  const hiddenRef = (0, import_react12.useRef)(null);
+  (0, import_react12.useEffect)(() => {
     setFormData(settings);
   }, [settings]);
-  const exportAll = (0, import_react13.useCallback)(async () => {
+  const exportAll = (0, import_react12.useCallback)(async () => {
     if (running) {
       return;
     }
@@ -42172,7 +44314,46 @@ var ModalContent2 = ({ settings, app, folder, close }) => {
     close,
     folder.name
   ]);
-  (0, import_react13.useEffect)(() => {
+  const formSchema2 = [
+    {
+      label: L_default.setting.recursive(),
+      path: "recursive",
+      type: "boolean"
+    },
+    {
+      label: L_default.includingFilename(),
+      path: "showFilename",
+      type: "boolean"
+    },
+    {
+      label: L_default.imageWidth(),
+      path: "width",
+      type: "number"
+    },
+    {
+      label: L_default.setting.userInfo.show(),
+      path: "authorInfo.show",
+      type: "boolean"
+    },
+    {
+      label: L_default.setting.watermark.enable.label(),
+      path: "watermark.enable",
+      type: "boolean"
+    },
+    {
+      label: L_default.setting.format.title(),
+      path: "format",
+      type: "select",
+      options: [
+        { value: "png0", text: "png(normal)" },
+        { value: "png1", text: "png(no background)" },
+        { value: "jpg", text: "jpg" },
+        { value: "webp", text: "webp" },
+        { value: "pdf", text: "pdf" }
+      ].filter(({ value }) => formatAvailable.contains(value))
+    }
+  ];
+  (0, import_react12.useEffect)(() => {
     const fileList2 = [];
     if (formData.recursive) {
       const recursiveFileList = (folder2) => {
@@ -42186,7 +44367,7 @@ var ModalContent2 = ({ settings, app, folder, close }) => {
       };
       recursiveFileList(folder);
     } else {
-      for (let child of folder.children) {
+      for (const child of folder.children) {
         if (child instanceof import_obsidian8.TFile && isMarkdownFile(child)) {
           fileList2.push(child);
         }
@@ -42194,14 +44375,14 @@ var ModalContent2 = ({ settings, app, folder, close }) => {
     }
     setFileList(fileList2);
   }, [formData.recursive, folder]);
-  const selectAll = (0, import_react13.useCallback)(() => {
+  const selectAll = (0, import_react12.useCallback)(() => {
     if (fileList.length === selectFiles.length) {
       setSelectFiles([]);
     } else {
       setSelectFiles(fileList);
     }
   }, [fileList, selectFiles]);
-  (0, import_react13.useEffect)(() => {
+  (0, import_react12.useEffect)(() => {
     const newSelectFiles = selectFiles.filter(
       (file) => fileList.includes(file)
     );
@@ -42209,7 +44390,7 @@ var ModalContent2 = ({ settings, app, folder, close }) => {
       setSelectFiles(newSelectFiles);
     }
   }, [fileList, selectFiles]);
-  return /* @__PURE__ */ import_react13.default.createElement(import_react13.default.Fragment, null, /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-hidden", ref: hiddenRef }), /* @__PURE__ */ import_react13.default.createElement(
+  return /* @__PURE__ */ import_react12.default.createElement(import_react12.default.Fragment, null, /* @__PURE__ */ import_react12.default.createElement("div", { className: "export-image-hidden", ref: hiddenRef }), /* @__PURE__ */ import_react12.default.createElement(
     "div",
     {
       className: "export-image-preview-root",
@@ -42218,7 +44399,7 @@ var ModalContent2 = ({ settings, app, folder, close }) => {
         cursor: "not-allowed"
       }
     },
-    /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-preview-main" }, /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-preview-left" }, /* @__PURE__ */ import_react13.default.createElement(
+    /* @__PURE__ */ import_react12.default.createElement("div", { className: "export-image-preview-main" }, /* @__PURE__ */ import_react12.default.createElement("div", { className: "export-image-preview-left" }, /* @__PURE__ */ import_react12.default.createElement(
       FormItems_default,
       {
         formSchema: formSchema2,
@@ -42226,26 +44407,26 @@ var ModalContent2 = ({ settings, app, folder, close }) => {
         settings: formData,
         app
       }
-    )), /* @__PURE__ */ import_react13.default.createElement(
+    )), /* @__PURE__ */ import_react12.default.createElement(
       "div",
       {
         className: "export-image-preview-right",
         style: { maxHeight: 320, overflowY: "auto" }
       },
-      fileList.length ? /* @__PURE__ */ import_react13.default.createElement("div", null, /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-preview-file-item export-image-select-all" }, /* @__PURE__ */ import_react13.default.createElement(
+      fileList.length > 0 ? /* @__PURE__ */ import_react12.default.createElement("div", null, /* @__PURE__ */ import_react12.default.createElement("div", { className: "export-image-preview-file-item export-image-select-all" }, /* @__PURE__ */ import_react12.default.createElement(
         "input",
         {
           type: "checkbox",
           checked: selectFiles.length === fileList.length,
           onChange: selectAll
         }
-      ), /* @__PURE__ */ import_react13.default.createElement("span", { className: "export-image-filename" }, L_default.selectAll()), /* @__PURE__ */ import_react13.default.createElement("span", { className: "export-image-select-number" }, selectFiles.length, "/", fileList.length)), fileList.map((file) => /* @__PURE__ */ import_react13.default.createElement(
+      ), /* @__PURE__ */ import_react12.default.createElement("span", { className: "export-image-filename" }, L_default.selectAll()), /* @__PURE__ */ import_react12.default.createElement("span", { className: "export-image-select-number" }, selectFiles.length, "/", fileList.length)), fileList.map((file) => /* @__PURE__ */ import_react12.default.createElement(
         "div",
         {
           className: "export-image-preview-file-item",
           key: file.path
         },
-        /* @__PURE__ */ import_react13.default.createElement(
+        /* @__PURE__ */ import_react12.default.createElement(
           "input",
           {
             type: "checkbox",
@@ -42259,25 +44440,25 @@ var ModalContent2 = ({ settings, app, folder, close }) => {
             }
           }
         ),
-        /* @__PURE__ */ import_react13.default.createElement("span", { className: "export-image-filename", title: file.path }, file.path)
-      ))) : /* @__PURE__ */ import_react13.default.createElement("div", null, L_default.noMarkdownFile())
+        /* @__PURE__ */ import_react12.default.createElement("span", { className: "export-image-filename", title: file.path }, file.path)
+      ))) : /* @__PURE__ */ import_react12.default.createElement("div", null, L_default.noMarkdownFile())
     )),
-    /* @__PURE__ */ import_react13.default.createElement(
+    /* @__PURE__ */ import_react12.default.createElement(
       "div",
       {
         className: "export-image-preview-actions",
         style: { justifyContent: "space-around" }
       },
-      /* @__PURE__ */ import_react13.default.createElement("div", { className: "export-image-progress-bar", style: { width: "40%" } }, /* @__PURE__ */ import_react13.default.createElement(
+      /* @__PURE__ */ import_react12.default.createElement("div", { className: "export-image-progress-bar", style: { width: "40%" } }, /* @__PURE__ */ import_react12.default.createElement(
         "div",
         {
           className: "export-image-progress-bar-inner",
           style: {
-            width: `${selectFiles.length ? 100 * (finished / selectFiles.length) : 0}%`
+            width: `${selectFiles.length > 0 ? 100 * (finished / selectFiles.length) : 0}%`
           }
         }
       )),
-      /* @__PURE__ */ import_react13.default.createElement("button", { disabled: selectFiles.length === 0, onClick: exportAll }, L_default.exportAll())
+      /* @__PURE__ */ import_react12.default.createElement("button", { disabled: selectFiles.length === 0, onClick: exportAll }, L_default.exportAll())
     )
   ));
 };
@@ -42287,17 +44468,19 @@ var ModalContent_default2 = ModalContent2;
 async function exportFolder_default(app, settings, folder) {
   const modal = new import_obsidian9.Modal(app);
   modal.setTitle(L_default.exportFolder());
-  modal.modalEl.style.width = "640px";
+  modal.modalEl.style.width = "800px";
   modal.open();
   const root2 = (0, import_client5.createRoot)(modal.contentEl);
   root2.render(
-    /* @__PURE__ */ import_react14.default.createElement(
+    /* @__PURE__ */ import_react13.default.createElement(
       ModalContent_default2,
       {
         settings,
         app,
         folder,
-        close: () => modal.close()
+        close: () => {
+          modal.close();
+        }
       }
     )
   );
@@ -42308,10 +44491,11 @@ async function exportFolder_default(app, settings, folder) {
 
 // src/ExportImagePlugin.ts
 var ExportImagePlugin = class extends import_obsidian10.Plugin {
+  settings;
   async epxortFile(file) {
     const frontmatter = getMetadata(file, this.app);
     const markdown = await this.app.vault.cachedRead(file);
-    exportImage_default(this.app, this.settings, markdown, file, frontmatter);
+    await exportImage_default(this.app, this.settings, markdown, file, frontmatter);
   }
   async onload() {
     await this.loadSettings();
@@ -42326,7 +44510,7 @@ var ExportImagePlugin = class extends import_obsidian10.Plugin {
         } else if (file instanceof import_obsidian10.TFolder) {
           menu.addItem((item) => {
             item.setTitle(L_default.exportFolder()).setIcon("image-down").onClick(async () => {
-              exportFolder_default(this.app, this.settings, file);
+              await exportFolder_default(this.app, this.settings, file);
             });
           });
         }
@@ -42334,17 +44518,15 @@ var ExportImagePlugin = class extends import_obsidian10.Plugin {
     );
     this.registerEvent(
       this.app.workspace.on("editor-menu", (menu, editor) => {
-        const file = (
-          // @ts-ignore
-          editor.editorComponent.file || this.app.workspace.getActiveFile()
-        );
+        const file = editor.editorComponent.file ?? this.app.workspace.getActiveFile();
         const frontmatter = getMetadata(file, this.app);
-        if (!file)
+        if (!file) {
           return;
+        }
         if (editor.somethingSelected()) {
           menu.addItem((item) => {
             item.setTitle(L_default.exportSelectionImage()).setIcon("text-select").onClick(
-              () => exportImage_default(
+              async () => exportImage_default(
                 this.app,
                 this.settings,
                 editor.getSelection(),
@@ -42356,7 +44538,7 @@ var ExportImagePlugin = class extends import_obsidian10.Plugin {
         }
         menu.addItem((item) => {
           item.setTitle(L_default.exportImage()).setIcon("image-down").onClick(
-            () => exportImage_default(
+            async () => exportImage_default(
               this.app,
               this.settings,
               editor.getValue(),
@@ -42380,7 +44562,7 @@ var ExportImagePlugin = class extends import_obsidian10.Plugin {
             }
             const frontmatter = getMetadata(activeFile, this.app);
             const markdown = await this.app.vault.cachedRead(activeFile);
-            exportImage_default(
+            await exportImage_default(
               this.app,
               this.settings,
               markdown,
@@ -42404,15 +44586,17 @@ var ExportImagePlugin = class extends import_obsidian10.Plugin {
   }
 };
 var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
+  plugin;
+  render;
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
   }
   async update() {
-    this.plugin.saveSettings();
+    await this.plugin.saveSettings();
     this.render(this.plugin.settings);
   }
-  display() {
+  async display() {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h3", { text: L_default.setting.title() });
@@ -42426,7 +44610,7 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
     new import_obsidian10.Setting(containerEl).setName(L_default.setting.imageWidth.label()).setDesc(L_default.setting.imageWidth.description()).addText((text) => {
       text.inputEl.type = "number";
       text.setValue(String(this.plugin.settings.width)).setPlaceholder("640").onChange(async (value) => {
-        this.plugin.settings.width = value ? parseInt(value) : void 0;
+        this.plugin.settings.width = value ? Number.parseInt(value, 10) : void 0;
         await this.update();
       });
     });
@@ -42449,51 +44633,54 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
       });
     });
     new import_obsidian10.Setting(containerEl).setName(L_default.setting.format.title()).setDesc(L_default.setting.format.description()).addDropdown((dropdown) => {
-      dropdown.addOptions({
+      dropdown.addOptions((0, import_pick.default)({
+        png0: L_default.setting.format.png0(),
+        png1: L_default.setting.format.png1(),
         jpg: L_default.setting.format.jpg(),
-        png: L_default.setting.format.png(),
+        webp: ".webp",
         pdf: L_default.setting.format.pdf()
-      }).setValue(this.plugin.settings.format).onChange(async (value) => {
+      }, formatAvailable)).setValue(this.plugin.settings.format).onChange(async (value) => {
         this.plugin.settings.format = value;
         await this.update();
       });
     });
     new import_obsidian10.Setting(containerEl).setHeading().setName(L_default.setting.userInfo.title());
-    let userInfoEl, avatarEl;
-    function setAvatar(src) {
-      if (src) {
-        avatarEl.style.backgroundImage = `url(${src})`;
-        avatarEl.style.backgroundSize = "cover";
+    let userInfoElement;
+    let avatarElement;
+    function setAvatar(source) {
+      if (source) {
+        avatarElement.style.backgroundImage = `url(${source})`;
+        avatarElement.style.backgroundSize = "cover";
       } else {
-        avatarEl.style.backgroundImage = "";
+        avatarElement.style.backgroundImage = "";
       }
     }
     new import_obsidian10.Setting(containerEl).setName(L_default.setting.userInfo.show()).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.authorInfo.show).onChange(async (value) => {
         this.plugin.settings.authorInfo.show = value;
-        userInfoEl.style.display = value ? "block" : "none";
+        userInfoElement.style.display = value ? "block" : "none";
         await this.update();
       });
     });
-    userInfoEl = containerEl.createDiv({
+    userInfoElement = containerEl.createDiv({
       attr: {
         style: `display: ${this.plugin.settings.authorInfo.show ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.name()).addText((text) => {
-      text.setValue(this.plugin.settings.authorInfo.name || "").onChange(async (value) => {
+    new import_obsidian10.Setting(userInfoElement).setName(L_default.setting.userInfo.name()).addText((text) => {
+      text.setValue(this.plugin.settings.authorInfo.name ?? "").onChange(async (value) => {
         this.plugin.settings.authorInfo.name = value;
-        this.plugin.saveSettings();
+        await this.plugin.saveSettings();
       });
     });
-    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.remark()).addText((text) => {
-      text.setValue(this.plugin.settings.authorInfo.remark || "").onChange(async (value) => {
+    new import_obsidian10.Setting(userInfoElement).setName(L_default.setting.userInfo.remark()).addText((text) => {
+      text.setValue(this.plugin.settings.authorInfo.remark ?? "").onChange(async (value) => {
         this.plugin.settings.authorInfo.remark = value;
-        this.plugin.saveSettings();
+        await this.plugin.saveSettings();
       });
     });
-    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.avatar.title()).setDesc(L_default.setting.userInfo.avatar.description()).addButton((button) => {
-      avatarEl = createDiv({
+    new import_obsidian10.Setting(userInfoElement).setName(L_default.setting.userInfo.avatar.title()).setDesc(L_default.setting.userInfo.avatar.description()).addButton((button) => {
+      avatarElement = createDiv({
         attr: {
           style: "width: 32px;height: 32px;border-radius: 50%;border:1px solid var(--background-modifier-border)"
         }
@@ -42506,23 +44693,25 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
           style: "display: none;"
         }
       });
-      input.onchange = async () => {
+      input.addEventListener("change", async () => {
         const file = input.files?.[0];
         if (file) {
           this.plugin.settings.authorInfo.avatar = await fileToBase64(file);
           setAvatar(this.plugin.settings.authorInfo.avatar);
-          this.plugin.saveSettings();
+          await this.plugin.saveSettings();
         }
-      };
-      button.buttonEl.appendChild(input);
-      button.buttonEl.parentElement?.prepend(avatarEl);
-      button.setButtonText(L_default.setting.watermark.image.src.upload()).onClick(() => input.click());
+      });
+      button.buttonEl.append(input);
+      button.buttonEl.parentElement?.prepend(avatarElement);
+      button.setButtonText(L_default.setting.watermark.image.src.upload()).onClick(() => {
+        input.click();
+      });
     }).addButton((button) => {
       button.setButtonText(L_default.setting.watermark.image.src.select());
       button.onClick(async () => {
-        const modal = new ImageSelectModal(this.plugin.app, (img) => {
+        const modal = new ImageSelectModal(this.plugin.app, async (img) => {
           this.plugin.settings.authorInfo.avatar = img;
-          this.plugin.saveSettings();
+          await this.plugin.saveSettings();
           setAvatar(img);
           modal.close();
         });
@@ -42530,45 +44719,48 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
       });
     });
     new import_obsidian10.Setting(containerEl).setHeading().setName(L_default.setting.watermark.title());
-    let watermarkEl, textWatermarkEl, imageWatermarkEl, previewEl;
+    let watermarkElement;
+    let textWatermarkElement;
+    let imageWatermarkElement;
+    let previewElement;
     new import_obsidian10.Setting(containerEl).setName(L_default.setting.watermark.enable.label()).setDesc(L_default.setting.watermark.enable.description()).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.watermark.enable).onChange(async (value) => {
         this.plugin.settings.watermark.enable = value;
-        watermarkEl.style.display = value ? "block" : "none";
-        previewEl.style.display = value ? "block" : "none";
+        watermarkElement.style.display = value ? "block" : "none";
+        previewElement.style.display = value ? "block" : "none";
         await this.update();
       });
     });
-    watermarkEl = containerEl.createDiv({
+    watermarkElement = containerEl.createDiv({
       attr: {
         style: `display: ${this.plugin.settings.watermark.enable ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.type.label()).setDesc(L_default.setting.watermark.type.description()).addDropdown((dropdown) => {
+    new import_obsidian10.Setting(watermarkElement).setName(L_default.setting.watermark.type.label()).setDesc(L_default.setting.watermark.type.description()).addDropdown((dropdown) => {
       dropdown.addOption("text", L_default.setting.watermark.type.text()).addOption("image", L_default.setting.watermark.type.image()).setValue(this.plugin.settings.watermark.type ?? "text").onChange(async (value) => {
         this.plugin.settings.watermark.type = value;
         if (value === "text") {
-          textWatermarkEl.style.display = "block";
-          imageWatermarkEl.style.display = "none";
+          textWatermarkElement.style.display = "block";
+          imageWatermarkElement.style.display = "none";
         } else {
-          textWatermarkEl.style.display = "none";
-          imageWatermarkEl.style.display = "block";
+          textWatermarkElement.style.display = "none";
+          imageWatermarkElement.style.display = "block";
         }
         await this.update();
       });
     });
-    textWatermarkEl = watermarkEl.createDiv({
+    textWatermarkElement = watermarkElement.createDiv({
       attr: {
         style: `display: ${this.plugin.settings.watermark.type === "text" ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian10.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.content()).addText((text) => {
+    new import_obsidian10.Setting(textWatermarkElement).setName(L_default.setting.watermark.text.content()).addText((text) => {
       text.setValue(this.plugin.settings.watermark.text.content ?? "").onChange(async (value) => {
         this.plugin.settings.watermark.text.content = value;
         await this.update();
       });
     });
-    new import_obsidian10.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.color()).addColorPicker((picker) => {
+    new import_obsidian10.Setting(textWatermarkElement).setName(L_default.setting.watermark.text.color()).addColorPicker((picker) => {
       picker.setValue(this.plugin.settings.watermark.text.color ?? "#cccccc").onChange(async (value) => {
         this.plugin.settings.watermark.text.color = value;
         await this.update();
@@ -42579,20 +44771,20 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
         await this.update();
       });
     });
-    new import_obsidian10.Setting(textWatermarkEl).setName(L_default.setting.watermark.text.fontSize()).addText((text) => {
+    new import_obsidian10.Setting(textWatermarkElement).setName(L_default.setting.watermark.text.fontSize()).addText((text) => {
       text.inputEl.type = "number";
       text.setValue(`${this.plugin.settings.watermark.text.fontSize ?? "16"}`).setPlaceholder("16").onChange(async (value) => {
-        this.plugin.settings.watermark.text.fontSize = value ? parseInt(value) : void 0;
+        this.plugin.settings.watermark.text.fontSize = value ? Number.parseInt(value, 10) : void 0;
         await this.update();
       });
     });
-    imageWatermarkEl = watermarkEl.createDiv({
+    imageWatermarkElement = watermarkElement.createDiv({
       attr: {
         style: `display: ${this.plugin.settings.watermark.type === "image" ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    const setImage = async (src) => {
-      const { width, height } = await getSizeOfImage(src);
+    const setImage = async (source) => {
+      const { width, height } = await getSizeOfImage(source);
       this.plugin.settings.watermark.width = width;
       this.plugin.settings.watermark.height = height;
       containerEl.querySelector(
@@ -42603,7 +44795,7 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
       ).value = `${height}`;
       await this.update();
     };
-    new import_obsidian10.Setting(imageWatermarkEl).setName(L_default.setting.watermark.image.src.label()).addButton((button) => {
+    new import_obsidian10.Setting(imageWatermarkElement).setName(L_default.setting.watermark.image.src.label()).addButton((button) => {
       const input = createEl("input", {
         attr: {
           type: "file",
@@ -42612,99 +44804,98 @@ var ImageSettingTab = class extends import_obsidian10.PluginSettingTab {
           style: "display: none;"
         }
       });
-      input.onchange = async () => {
+      input.addEventListener("change", async () => {
         const file = input.files?.[0];
         if (file) {
           this.plugin.settings.watermark.image.src = await fileToBase64(file);
-          setImage(fileToUrl(file));
+          await setImage(fileToUrl(file));
         }
-      };
-      button.buttonEl.appendChild(input);
-      button.setButtonText(L_default.setting.watermark.image.src.upload()).onClick(() => input.click());
+      });
+      button.buttonEl.append(input);
+      button.setButtonText(L_default.setting.watermark.image.src.upload()).onClick(() => {
+        input.click();
+      });
     }).addButton((button) => {
       button.setButtonText(L_default.setting.watermark.image.src.select());
       button.onClick(async () => {
-        const modal = new ImageSelectModal(this.plugin.app, (img) => {
+        const modal = new ImageSelectModal(this.plugin.app, async (img) => {
           this.plugin.settings.watermark.image.src = img;
-          setImage(img);
-          this.plugin.saveSettings();
+          await setImage(img);
+          await this.plugin.saveSettings();
           modal.close();
         });
         modal.open();
       });
     }).addExtraButton((button) => {
-      button.setIcon("transh-2").setTooltip(L_default.setting.userInfo.removeAvatar()).onClick(() => {
+      button.setIcon("transh-2").setTooltip(L_default.setting.userInfo.removeAvatar()).onClick(async () => {
         this.plugin.settings.watermark.image.src = "";
-        setImage("");
-        this.plugin.saveSettings();
+        await setImage("");
+        await this.plugin.saveSettings();
       });
     });
-    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.position()).addDropdown((dropdown) => {
-      dropdown.setValue(this.plugin.settings.authorInfo.position ?? "bottom").addOptions({ top: "Top", bottom: "Bottom" }).onChange((value) => {
+    new import_obsidian10.Setting(userInfoElement).setName(L_default.setting.userInfo.position()).addDropdown((dropdown) => {
+      dropdown.setValue(this.plugin.settings.authorInfo.position ?? "bottom").addOptions({ top: "Top", bottom: "Bottom" }).onChange(async (value) => {
         this.plugin.settings.authorInfo.position = value;
-        this.plugin.saveSettings();
+        await this.plugin.saveSettings();
       });
     });
-    new import_obsidian10.Setting(userInfoEl).setName(L_default.setting.userInfo.align()).addDropdown((dropdown) => {
-      dropdown.setValue(this.plugin.settings.authorInfo.align ?? "right").addOptions({ left: "Left", center: "Center", right: "Right" }).onChange((value) => {
+    new import_obsidian10.Setting(userInfoElement).setName(L_default.setting.userInfo.align()).addDropdown((dropdown) => {
+      dropdown.setValue(this.plugin.settings.authorInfo.align ?? "right").addOptions({ left: "Left", center: "Center", right: "Right" }).onChange(async (value) => {
         this.plugin.settings.authorInfo.align = value;
-        this.plugin.saveSettings();
+        await this.plugin.saveSettings();
       });
     });
-    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.opacity()).addText((text) => {
+    new import_obsidian10.Setting(watermarkElement).setName(L_default.setting.watermark.opacity()).addText((text) => {
       text.inputEl.type = "number";
       text.setPlaceholder("0.2").setValue(`${this.plugin.settings.watermark.opacity ?? 0.2}`).onChange(async (value) => {
         this.plugin.settings.watermark.opacity = value ? Number(value) : void 0;
         await this.update();
       });
     });
-    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.rotate()).addText((text) => {
+    new import_obsidian10.Setting(watermarkElement).setName(L_default.setting.watermark.rotate()).addText((text) => {
       text.inputEl.type = "number";
       text.setPlaceholder("-30").setValue(`${this.plugin.settings.watermark.rotate ?? -30}`).onChange(async (value) => {
         this.plugin.settings.watermark.rotate = value ? Number(value) : void 0;
         await this.update();
       });
     });
-    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.width()).addText((text) => {
+    new import_obsidian10.Setting(watermarkElement).setName(L_default.setting.watermark.width()).addText((text) => {
       text.inputEl.type = "number";
       text.inputEl.addClass("watermark-width-setting");
-      text.setPlaceholder("120").setValue(`${this.plugin.settings.watermark.width ?? 120}`).onChange((value) => {
+      text.setPlaceholder("120").setValue(`${this.plugin.settings.watermark.width ?? 120}`).onChange(async (value) => {
         this.plugin.settings.watermark.width = value ? Number(value) : void 0;
-        this.update();
+        await this.update();
       });
     });
-    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.height()).addText((text) => {
+    new import_obsidian10.Setting(watermarkElement).setName(L_default.setting.watermark.height()).addText((text) => {
       text.inputEl.type = "number";
       text.inputEl.addClass("watermark-height-setting");
-      text.setPlaceholder("64").setValue(`${this.plugin.settings.watermark.height ?? 64}`).onChange((value) => {
+      text.setPlaceholder("64").setValue(`${this.plugin.settings.watermark.height ?? 64}`).onChange(async (value) => {
         this.plugin.settings.watermark.height = value ? Number(value) : void 0;
-        this.update();
+        await this.update();
       });
     });
-    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.x()).addText((text) => {
+    new import_obsidian10.Setting(watermarkElement).setName(L_default.setting.watermark.x()).addText((text) => {
       text.inputEl.type = "number";
-      text.setPlaceholder("100").setValue(`${this.plugin.settings.watermark.x ?? 100}`).onChange((value) => {
+      text.setPlaceholder("100").setValue(`${this.plugin.settings.watermark.x ?? 100}`).onChange(async (value) => {
         this.plugin.settings.watermark.x = value ? Number(value) : void 0;
-        this.update();
+        await this.update();
       });
     });
-    new import_obsidian10.Setting(watermarkEl).setName(L_default.setting.watermark.y()).addText((text) => {
+    new import_obsidian10.Setting(watermarkElement).setName(L_default.setting.watermark.y()).addText((text) => {
       text.inputEl.type = "number";
-      text.setPlaceholder("100").setValue(`${this.plugin.settings.watermark.y ?? 100}`).onChange((value) => {
+      text.setPlaceholder("100").setValue(`${this.plugin.settings.watermark.y ?? 100}`).onChange(async (value) => {
         this.plugin.settings.watermark.y = value ? Number(value) : void 0;
-        this.update();
+        await this.update();
       });
     });
-    previewEl = containerEl.createDiv({
+    previewElement = containerEl.createDiv({
       attr: {
         style: `display: ${this.plugin.settings.watermark.enable ? "block" : "none"};border-top:1px solid var(--background-modifier-border);padding-top:0.75em`
       }
     });
-    new import_obsidian10.Setting(previewEl).setHeading().setName(L_default.setting.preview());
-    this.render = renderPreview(previewEl.createDiv(), this.app);
+    new import_obsidian10.Setting(previewElement).setHeading().setName(L_default.setting.preview());
+    this.render = await renderPreview(previewElement.createDiv(), this.app);
     this.render(this.plugin.settings);
   }
 };
-
-// main.ts
-var main_default = ExportImagePlugin;
