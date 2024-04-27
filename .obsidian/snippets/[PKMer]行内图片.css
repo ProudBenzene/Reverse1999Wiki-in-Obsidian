@@ -1,0 +1,10 @@
+/* 行内显示 */
+.view-content span[alt="I"] img:not([width]) {
+  float: unset;
+  text-align: left;
+  height: 2rem !important;
+  margin: 0px 0.2rem 0px 0.2rem !important;
+  transform: translateY(0.3rem);
+  margin-block: unset;
+  display: inline !important;
+}

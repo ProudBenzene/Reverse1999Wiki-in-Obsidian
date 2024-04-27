@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构造/主页.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -171,7 +171,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.7084715741045352,
                   "close": true
                 }
               }
@@ -283,7 +283,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322
+    "width": 322,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,6 +309,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/assets/主页.assets/十全调【尽杯酌】.png",
+    "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets/温妮弗雷德 · 致温妮弗雷德.jpeg",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
@@ -328,7 +331,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/立绘 讣告人 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/神秘术 及时道别1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
@@ -351,8 +353,6 @@
     "000-箱的构造/templates/剧情章节-主线.md",
     "测试.md",
     "000-箱的构造/箱中memos/20240413-128b70f0dd4d33cf.md",
-    "000-箱的构造/箱中memos/20240412-3ea4947995c4e2a6.md",
-    "000-箱的构造/箱中memos/20240412-35333b965971104e.md",
     "assets/README.assets",
     "白板.canvas"
   ]
