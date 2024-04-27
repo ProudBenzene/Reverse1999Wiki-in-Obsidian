@@ -332,8 +332,8 @@
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
-      "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "obsidian-projects:Open projects": false
     }
   },
   "active": "9aadaddd821e22fa",
