@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "f576530d80bb74fd",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,8 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "f576530d80bb74fd",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "600-箱中日历/2024/2024-04-12.md",
+    "000-箱的构造/箱中memos/20240428-7c6fb6e2309f9fc0.md",
     "000-箱的构造/箱中memos/20240428-468bddb53d17976f.md",
     "000-箱的构造/箱中memos/20240428-fe08af2d27b681f5.md",
     "000-箱的构造/主页.md",
@@ -360,8 +353,6 @@
     "000-箱的构造/箱中memos/20240420-d4a84042dc08765f.md",
     "000-箱的构造/箱中memos/20240420-574a42658d21e4fe.md",
     "000-箱的构造/箱中memos/20240420-448f2443defb3e33.md",
-    "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
-    "000-箱的构造/箱中memos/20240417-2c39e26eca2a128f.md",
     "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
     "白板.canvas"
   ]
