@@ -154,7 +154,7 @@ color:
 
 ````tab
 tab: 武功歌｜Les Chansons de Geste
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 游吟诗人们手里拿着鲁特琴，他们站在小酒馆的柔和灯光中。
 拨动琴弦，诗歌如同流水般涌出。
@@ -164,7 +164,7 @@ tab: 武功歌｜Les Chansons de Geste
 古老的歌谣并不会刻在石板上，但留在人们脑海中的它们，却依旧能够穿过时间。甚至，它们要比大帝的丰功伟绩，还要长久得多。
 
 tab: 绿咬鹃｜Resplendent Quetzal
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 主君将骑士的勋带赐予了骑士。
 骑士单膝下跪，宣誓自己会为了荣耀而战。
@@ -180,7 +180,7 @@ tab: 绿咬鹃｜Resplendent Quetzal
 空中飞过的绿咬鹃，就如同她所追寻的自由一般。即便只剩下灵魂，即便最后一刻似乎永远没有尽头。骑士仍旧不会放弃自己的誓言。
 
 tab: 骑士礼仪｜[UTTU×未锈铠]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：向你致意，骑士。
 **未锈铠：噢，噢！……某人承认，的确是被吓了一跳。虽然有些失礼，但请允许某人冒昧地问一句——女士，您也是某个被囚禁在雕塑之中的灵魂吗？**

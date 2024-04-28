@@ -161,7 +161,7 @@ color:
 ````tab
 
 tab: 基金会的孩子们|The Children of SF
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 圣洛夫基金会，是目前公开的、最为庞大的收容神秘学家的官方机构。
 
@@ -172,7 +172,7 @@ tab: 基金会的孩子们|The Children of SF
 为了人类的和平。
 
 tab: 一本剪裁了报纸杂志内容的小册子|The Unknown
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 2月14日，里约热内卢狂欢节上，某富商斥巨资打造的巡游花车在乘客下车休息时突然升至半空解体，警方到达现场后并未发现暴力拆解痕迹。
 
@@ -187,7 +187,7 @@ tab: 一本剪裁了报纸杂志内容的小册子|The Unknown
 **——！！！从基金会总部到威尼斯的话，应该很快吧？！**
 
 tab: 写实之外的具象画|[UTTU×十四行诗]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：我见过你画出的场景……极高的复杂度，想必耗费了大量的训练。
 **十四行诗：我并不擅长绘画……这些都是我对于诗歌所描绘的……想象。**

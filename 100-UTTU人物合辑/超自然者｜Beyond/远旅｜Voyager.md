@@ -130,7 +130,7 @@ color:
 
 ````tab
 tab: 京兆分之一的奇迹｜A One-in-a-quadrillion Miracle
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 “真是一张美丽的照片。”
 它来自一次64亿公里远的回眸。
@@ -142,7 +142,7 @@ tab: 京兆分之一的奇迹｜A One-in-a-quadrillion Miracle
 以京兆分之一的奇迹，换来这不值一提的相遇。
 
 tab: 遥远来客｜Visitor from Afar
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 “见鬼！她到底是什么怪物！从她‘进入’这个星系的那一刻开始，我的飞行器上的仪表盘就全部爆炸停工了！”
 “我一直劝你多读点信息存储体，E-0991.31。因为它至少会让你死得更明白一点。”
@@ -157,7 +157,7 @@ E-0991.31甚至能够想象到对方幸灾乐祸的样子。
 “呃，小生物，哦，不，我是说……您，您好。”
 
 tab: 无言旅者｜[UTTU×远旅]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：您好，远旅小姐。
 **远旅：（微笑）**

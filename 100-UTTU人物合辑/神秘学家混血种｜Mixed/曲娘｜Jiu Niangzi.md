@@ -124,7 +124,7 @@ color:
 
 ````tab
 tab: 适彼乐土|A City at Its Best
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 这座城停在了很好的时候。
 “风俗奢靡，不依格令，绮罗锦绣，随所好尚。上自宫掖，下至匹庶，递相仿效，贵贱无别”。一个伟大国度的青年时代，此刻人世的幸福是如此宽阔，几近正午的太阳。
@@ -154,7 +154,7 @@ tab: 随身物品登记|Personal Belongings
 “它们和我只是临时搭个伴。”
 
 tab: 一次“重逢”|[UTTU×曲娘]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **曲娘：你——你是嘴巴娘子？！可你瞧上去，和先前不大一样，声音也不同。**
 **曲娘：不过，是了，一定是。天底下，应该只有一个嘴巴娘子……**

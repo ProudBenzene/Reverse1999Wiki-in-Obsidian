@@ -155,7 +155,7 @@ color:
 
 ````tab
 tab: 拉斯维加斯之梦｜Las Vegas Dream
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 大萧条如同噩梦，笼罩在每一个人的心中。
 梅隆先生的誓言如同经济泡沫一样消散，墨西哥人所发掘的金矿价格一落千丈，淘金人离去了，几乎人人都吃不饱饭，孩子们连哭泣的力气都不剩。可日子仍旧一日接一日地过。
@@ -168,7 +168,7 @@ tab: 拉斯维加斯之梦｜Las Vegas Dream
 它呼吸着，喝彩着，千百枚老虎机硬币投入水池，为拉斯维加斯的女儿献上新生的贺礼。
 
 tab: 本故事完全真实｜This Story Is Completely True
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 “你听说了吗？《一日女巫》节目组正在镇子东面的断崖上，他们带着，呃——那是什么？摄影机吗？”
 人们涌向海岸旁的断崖，英俊而备受欢迎的杰克斯·贝利在主妇之中引起潮水一般的小声尖叫。
@@ -183,7 +183,7 @@ tab: 本故事完全真实｜This Story Is Completely True
       <center> \﹡本故事完全真实，毫无虚构\﹡</center>
 
 tab: 777｜[UTTU×百夫长]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **百夫长：哇哦——您好您好，漂亮的小姐，您要如何和我握手呢？让我来看看……**
 白雪松：不，请不要努力了。

@@ -153,7 +153,7 @@ color:
 
 ````tab
 tab: 白色石屋｜White Stone House
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 城里有一座白房子。白色岩石堆砌起的房子。大家都知道那是尼克劳斯医生的家。
 高耸的墙壁将德国分割成两片不同的拼图，它们失去了彼此，又永恒地凝视着对方。
@@ -167,7 +167,7 @@ tab: 白色石屋｜White Stone House
 白色石屋被装点一新，犹如从未举行过的派对。
 
 tab: 气球派对｜Balloon Party's It
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 镇子上来了个奇怪的女人，穿着奇怪的衣服，说着奇怪的话，孩子们却都围着她打转。
 这一定不对劲。
@@ -183,7 +183,7 @@ tab: 气球派对｜Balloon Party's It
 我想，我知道昨天晚上在我窗外徘徊的是什么了。我会做个好爸爸的，至少从今天开始。
 
 tab: 次周休刊通知｜[UTTU×气球派对]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：听说你是一个医生？
 **气球派对：是，但也不是。哦……女士、小姐，哦不，我的“嘴巴朋友”！我更乐意被称之为“派对爱好者”，或者“派对狂人”！大家都开心时我就开心。对！就是这样。**

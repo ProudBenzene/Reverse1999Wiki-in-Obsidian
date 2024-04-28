@@ -164,7 +164,7 @@ tab: 拉米雷斯消亡史|Fall of Ramirez
 *（以上内容摘录自《月亮报》、《今日伦敦》、《星星周刊》等报）*
 
 tab: 一封历时颇长的信|A Letter Takes Long to Write
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 我并不认可你的选择。
 
@@ -182,7 +182,7 @@ tab: 一封历时颇长的信|A Letter Takes Long to Write
 <p align="right"><i>您叛逆的女儿</i>　　　　</p>
 
 tab: 仍未完成的难题|[UTTU×梅兰妮]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：如何称呼你更合适？梅兰妮小姐，还是怪盗……？
 **梅兰妮：嘘～**

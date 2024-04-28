@@ -131,7 +131,7 @@ color:
 
 ````tab
 tab: 论蘑菇与神秘学家的相似性|The Similarities Between Mushrooms and Arcanists
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 1729年，米凯利提出了真菌分类检索表，菌物学由此诞生。
 长久以来，菌类为学术界提供了繁多的研究素材，并吸引无数研究者投身其中。有的学者们享受这无尽的辩论与驳斥，以一篇篇研究报告相互探讨这土壤之下神奇真菌的复杂分类。
@@ -161,7 +161,7 @@ _蓝色笔记：兔毛手袋！我们上次已经说好了，你不能再从我�
 _红色笔记：我以为是可食用菇。我饿了。_
 
 tab: 适度关心|[UTTU×爱兹拉]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 **爱兹拉：您好，女士。**
 **爱兹拉：您的神秘术表现……很特殊。**

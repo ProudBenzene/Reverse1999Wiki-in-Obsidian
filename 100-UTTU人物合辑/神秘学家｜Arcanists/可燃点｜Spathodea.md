@@ -126,7 +126,7 @@ color:
 
 ````tab
 tab: 孩子们的运动赛|Games for Children
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 这是属于体育的好年代。
 当和平年代的新中产者，期盼他们的孩子能走一条体面的道路时，电视产业便贴心地调到了体育频道。
@@ -161,7 +161,7 @@ tab: 发皱的成绩单|A Wrinkled Report Card
 任课老师留言：我无法否认可燃点小姐在运动上的天分，如果她有意愿踏入职业运动员的道路，现在正是最好的时机。
 
 tab: 我与我的争辩|[UTTU×可燃点]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：根据目前的研究报告来看，你似乎是唯一一例保持了“自我”的轮回者。
 白雪松：你认为，是什么样的缘故促使了你得到与其他轮回者不同的结局？

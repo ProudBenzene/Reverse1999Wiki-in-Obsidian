@@ -159,7 +159,7 @@ color:
 
 ````tab
 tab: 海盗、DJ 以及灵魂|Pirate, DJ, Souls
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 伦敦的公海中，一艘艘由渔船改造而成的海盗船正游弋于这片海域。
 他们是海盗，游离于规则之外的海盗。
@@ -212,7 +212,7 @@ Re-Re-Re-Re-Re-Re-Regulus！
 
 tab: 摇滚电台|[UTTU×星锑]
 
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：据说公海上的电台似乎越来越少了，你对此有什么看法？
 **星锑：哼哼，没有任何看法。如果硬要说的话，还不错。**

@@ -164,7 +164,7 @@ color:
 
 ````tab
 tab: 水晶占卜与顾此失彼｜Crystal, Divination and Ticket for Caring
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 布翁尼家族自一个世纪前就经营着这桩不大不小的生意。
 那些纯粹的优质矿物从不过问求购者的来路为何，它们一视同仁地被打磨光滑，装进匣子，偶尔还伴随着几句有关未来的箴言——就这样一齐被送到等待之人的手中。
@@ -192,7 +192,7 @@ _玛蒂尔达·布翁尼_  同学
 在第一防线学校本年度的学习中总评第三，以资鼓励。
 
 tab: 另一位受访者｜[UTTU×玛蒂尔达]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：……希望我没打扰你的占卜。
 **玛蒂尔达：哇啊！嘴，嘴巴？**

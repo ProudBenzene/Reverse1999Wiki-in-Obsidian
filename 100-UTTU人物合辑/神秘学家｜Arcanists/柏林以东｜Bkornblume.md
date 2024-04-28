@@ -159,7 +159,7 @@ color:
 
 ````tab
 tab: 无处不在｜WIR SIND ÜBERALL
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 史塔西，成立于1950年2月8日，以“Schild und Schwert der Partei”为格言。他们无声地注视着这个国家里的几乎所有国民，如同黄昏中起飞的群鸦，遮蔽了整片天空。
 在东德的世界里，他们无处不在。
@@ -169,7 +169,7 @@ tab: 无处不在｜WIR SIND ÜBERALL
 她似乎并不打算跟上来。
 
 tab: 接受审查者｜GeDa-StMi-ReAu:No.51836
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 关于SCH KA/7的今日行为报告记录如下：
 
@@ -192,7 +192,7 @@ _备注：监听记录速度约为235字符/分，与以往记录相近_
 ……
 
 tab: 柏林之外的柏林人｜[UTTU×柏林以东]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：如你这般……特立独行的存在，我很难想象他们会选择长期容忍。
 **柏林以东：事实上，他们似乎还没有这项计划～**

@@ -156,7 +156,7 @@ color:
 
 ````tab
 tab: 当我们提出疑问｜When We Say WHY
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 艺术在哪儿呢？
 在20世纪以前，它们属于一小撮人。
@@ -171,7 +171,7 @@ tab: 当我们提出疑问｜When We Say WHY
 那么，朋友，请你告诉我，艺术究竟在哪儿呢？
 
 tab: 漫长的一月｜A Long January
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 米勒太太与车库共同度过了一个漫长的月份。
 起先是卷闸门后弥漫不去的、窸窸窣窣的啃咬声，像是某种群居性啮齿动物，但到来的捕鼠队与他们精密的分析仪器都没能在车库里找到半点关于老鼠们的痕迹。
@@ -185,7 +185,7 @@ tab: 漫长的一月｜A Long January
 或许这会是一个让邻居们羡慕的漂亮车库，或许我也该买台新的收音机了，米勒太太心想。
 
 tab: 挖掘艺术仍在路上｜[UTTU×挖掘艺术]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：你好——？
 **挖掘艺术：您终于来了！！！**

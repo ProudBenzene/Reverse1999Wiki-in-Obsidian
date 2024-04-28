@@ -132,7 +132,7 @@ color:
 
 ````tab
 tab: 战争之后｜After the War
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 满足感是永无可能的美好想象，至少对于国家而言确是如此。因此，战争可以视为一种根植于土壤之上的顽疾，随着河流与大风传染至各个国度。
 死亡也是。
@@ -160,7 +160,7 @@ tab: 博物馆游览须知｜Tombstone Museum
 ﹡面向所有公众，全天开放。
 
 tab: 讣告专栏｜[UTTU×讣告人]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：我很少在如此正常的地方进行采访。
 **讣告人：这是什么必要的环节吗？抱歉，我对人们之间的礼节有些迟钝……**
