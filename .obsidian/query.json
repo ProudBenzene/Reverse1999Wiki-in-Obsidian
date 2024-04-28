@@ -8,6 +8,15 @@
       "title": "戏剧",
       "updatedAt": "2024/04/11 20:07:09",
       "userId": "Thino"
+    },
+    {
+      "createdAt": "2024/04/28 19:48:19",
+      "id": "202404281948191",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"设定\"},\"relation\":\"AND\"}]",
+      "title": "设定",
+      "updatedAt": "2024/04/28 19:48:19",
+      "userId": "Thino"
     }
   ]
 }

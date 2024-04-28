@@ -1,4 +1,44 @@
 
+# 2024-04-28
+> [!thino] 2024/04/28 19:49:37 %% [id::3a8daecbd954d713] [thinoType::JOURNAL] %%
+> #设定 命名日看起来介于男人和男孩之间，神秘术：给小物品起名字，让它们短暂地变得“有用”。
+> 
+> ——《维拉·黎明依旧到来-厨房谈话》
+
+
+> [!thino] 2024/04/28 19:50:18 %% [id::e865c1a3bcc533b3] [thinoType::JOURNAL] %%
+> I need someone to check out a draft I got after a lot of thorough analysis of the internal makings of the St. Pavlov Foundation
+> Sub-Divisions
+> 
+> Within the St. Pavlov Foundation, different parties superintend the innards and jobs that are held within the Foundation itself. The most notable parties are listed herein.
+> 
+> The House of Integratus
+> “Any affairs related to the human-arcanist relationship will be brought to their table, and they will handle each of the affairs with their properly manicured but muscle-torn hands.” (A Ride on the Toboggan, El Oro de los Tigres, ???)
+> 
+> The House of Integratus is one of two primary legislative sects within the St. Pavlov Foundation, which proposes and revises drafts to be submitted to the Committee, the other legislative party in the Foundation. The House of Integratus’ bailiwick is to manage and propose drafts shaped by internal and/or external events. The House of Integratus can also revise proposals. One notable instance would be the revised draft of Storm Reformation: Manpower and Discipline, which under the events of El Oro de los Tigres, would determine if the Timekeeper would be able to gain semi-autonomous function. Furthermore, if a draft fails to go anywhere within 60 days, the proposal will be abrogated and wouldn’t be able to be revised or resubmitted. This also applies to the Committee.
+> facts within this should be correct, but the entire explanation I need to simplify
+> 
+> #收集/Discord #基金会 #设定 
+
+> [!thino] 2024/04/28 19:50:42 %% [id::29f849b07580300d] [thinoType::JOURNAL] %%
+> #设定 #理线学 理线学初创于20世纪初，在长达五十余年的时间里都埋没在浩如烟海的学派众说里。
+> 它是地理学、生物学，甚至应用物理学的边角料，而唯独不仅仅是它自己。
+> 那是一幕漫长的夜晚⋯•直到特里斯坦 •莱索夫同志的到来。
+> 天才总是令人嫉妒的，他以短短不到十年的时间将理线学推上了从未有过的高峰。
+> 他告诉我们：“21世纪，将会是理线学的世纪。”
+> 对我来说，不止是我，也许对很多投身过理线学的人来说，这都是一句令他们感触颇深的话。
+> 它就像是一枚阴燃的火种，让理线师们那段骄傲却难以追悼的人生熠熠生光。
+> 
+> ——《北方哨歌·银线结-银厅的诘问》
+
+> [!thino] 2024/04/28 19:51:10 %% [id::0d26df2678230ffc] [thinoType::JOURNAL] %%
+> #设定 #基金会 命名日如何加入了基金会？
+> 
+> - 维拉：没想到从其他地方来的大家也会这样想。基金会对你来说，不像来亚什基之于我们吗？
+> - 命名日：并不是。我只是在路过列宁格勒的时候，错误地推开了一扇恰好开着的门。
+> 
+> ——小径
+
 # 2024-04-12
 
 
