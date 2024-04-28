@@ -27,7 +27,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -335,8 +335,9 @@
   },
   "active": "cd2e9c3b275dd8d8",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets/尤提姆 柏林以东.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets/立绘 柏林以东 01.png",
@@ -365,7 +366,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/阿夫西维｜Авксивий.assets/尤提姆 阿夫西维.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/至终的仪式 逝者们的低语.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/立绘 讣告人 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets/立绘 讣告人 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
@@ -379,7 +379,6 @@
     "000-箱的构造/箱中memos/20240420-34d01d73dd423c0e.md",
     "000-箱的构造/箱中memos/20240417-2c39e26eca2a128f.md",
     "000-箱的构造/箱中memos/20240417-1636089e5582f056.md",
-    "000-箱的构造/箱中memos/20240417-13670126f595aec0.md",
     "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
     "白板.canvas"
   ]

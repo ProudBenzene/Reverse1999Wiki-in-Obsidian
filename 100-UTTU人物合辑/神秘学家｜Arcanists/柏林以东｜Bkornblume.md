@@ -44,7 +44,7 @@ banner_header: "{{filename}}"
 > - 展出/参展地点:: 德意志民主共和国柏林市
 
 > [!udimo]- 尤提姆
-> 
+> ![尤提姆|inlL|150](assets/柏林以东｜Bkornblume.assets/尤提姆%20柏林以东.png)
 > 
 
 ## 传承：逆流
