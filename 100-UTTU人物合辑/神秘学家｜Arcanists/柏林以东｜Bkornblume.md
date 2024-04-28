@@ -57,7 +57,7 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
+> [!skill]- 神秘术 小心袖口
 > 
 > 
 > | 等级  | 类型  | 技能  | 文化  |
@@ -67,8 +67,8 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
-> 
+> [!skill]- 神秘术 注意墙外
+> ![注意墙外 一阶|100](assets/柏林以东｜Bkornblume.assets/神秘术%20注意墙外1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -77,8 +77,8 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
-> 
+> [!skill]- 不请自来的点评者
+> ![不请自来的点评者|100](assets/柏林以东｜Bkornblume.assets/至终的仪式%20不请自来的点评者.png)
 > 
 > | 技能 | 文化 |
 > | :--: | :--: |
