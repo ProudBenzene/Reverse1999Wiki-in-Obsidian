@@ -1,10 +1,10 @@
 ---
-Name: <% tp.file.title.split("｜")[0] %>
-exonym: <% tp.file.title.split("｜")[1] %>
+Name: 柏林以东
+exonym: Bkornblume
 tags: 
 cssclasses:
   - book
-人物合辑: <% tp.file.folder() %>
+人物合辑: 神秘学家｜Arcanists
 介质: 
 星级: ✦✦✦✦✦
 灵感: 
@@ -20,18 +20,18 @@ Udimo:
 初始衣着: 
 洞悉本色: 
 aliases:
-  - <% tp.file.title.split("｜")[0] %>
-  - <% tp.file.title.split("｜")[1] %>
-初始立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 01.png]]'
-本色立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 02.png]]'
+  - 柏林以东
+  - Bkornblume
+初始立绘: '[[立绘 柏林以东 01.png]]'
+本色立绘: '[[立绘 柏林以东 02.png]]'
 生日: 
 banner_header: "{{filename}}"
 出场章节:
 ---
-
+![cover](assets/柏林以东｜Bkornblume.assets/立绘%20柏林以东%2002.png)
 
 > [!overview]+ 背景
-> - 展出/活跃时代:: 
+> - 展出/活跃时代:: 20 世纪 80 年代
 > - 诞生:: 
 > - 参展时长:: 
 > - 展出/参展地点:: 
@@ -164,7 +164,7 @@ tab: ｜
 tab: ｜
 ![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×<% tp.file.title.split("｜")[0] %>]
+tab: ｜[UTTU×柏林以东]
 ![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
