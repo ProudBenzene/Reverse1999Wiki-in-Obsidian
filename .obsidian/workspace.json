@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "README.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,8 +308,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-04-12.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-04-12.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
     "000-箱的构造/箱中memos/20240428-caa152427bfa9371.md",
     "000-箱的构造/箱中memos/20240428-3cdab1db447e8e74.md",
