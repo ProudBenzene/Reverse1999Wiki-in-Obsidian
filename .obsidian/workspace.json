@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "a8537d823b1c5470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3b52107d48b3dd75",
             "type": "leaf",
             "state": {
@@ -88,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md"
               }
             }
           },
@@ -293,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +298,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,10 +333,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "a8537d823b1c5470",
+  "active": "cd2e9c3b275dd8d8",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets/立绘 柏林以东 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets/立绘 柏林以东 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets",
@@ -390,9 +380,7 @@
     "000-箱的构造/箱中memos/20240417-2c39e26eca2a128f.md",
     "000-箱的构造/箱中memos/20240417-1636089e5582f056.md",
     "000-箱的构造/箱中memos/20240417-13670126f595aec0.md",
-    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
     "200-相从心生/角色心相/assets/黎明将到来｜Dawn Is Coming.assets",
-    "000-箱的构造/templates/剧情章节-轶事.md",
     "白板.canvas"
   ]
 }

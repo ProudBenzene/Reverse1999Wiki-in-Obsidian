@@ -43,7 +43,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/红弩箭｜Lilya.assets/立绘%20红弩箭%2002.png)
 
-> [!bkgd]+ 🌆背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪后半叶
 > - 诞生:: 11 月 14 日秋
 > - 参展时长:: 17 年

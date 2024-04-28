@@ -37,7 +37,7 @@ banner_header: "{{filename}}"
 ---
 ![cover](assets/柏林以东｜Bkornblume.assets/立绘%20柏林以东%2002.png)
 
-> [!overview]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 80 年代
 > - 诞生:: 2 月 9 日冬
 > - 参展时长:: 18 年

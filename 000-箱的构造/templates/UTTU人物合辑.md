@@ -30,7 +30,7 @@ banner_header: "{{filename}}"
 ---
 
 
-> [!overview]+ 背景
+> [!overview]+ 概述
 > - 展出/活跃时代:: 
 > - 诞生:: 
 > - 参展时长:: 
