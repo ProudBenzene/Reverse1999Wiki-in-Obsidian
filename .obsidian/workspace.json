@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "400-箱外世界/暴雨时间线.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,9 +308,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze.md",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze1.md",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze1.assets/无声注视.png",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze1.assets",
