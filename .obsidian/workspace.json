@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "mode": "preview",
                 "source": false
               }
@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "游戏文件解包说明.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "游戏文件解包说明.md"
+              }
             }
           },
           {
@@ -205,34 +207,6 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "c6a277c6a81c076f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "2ced0fb2d463e0eb",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "09b2d1b893c4100a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
               "state": {}
             }
           }
@@ -281,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "游戏文件解包说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "游戏文件解包说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322
+    "width": 334
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -330,9 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "README.md",
     "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
     "游戏文件解包说明.md",
     "000-箱的构造/常用工具.md",
@@ -366,7 +343,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie~.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/夏利｜Charlie.assets",
-    "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
     "000-箱的构造/箱中memos/20240428-caa152427bfa9371.md",
     "000-箱的构造/箱中memos/20240428-3cdab1db447e8e74.md",
