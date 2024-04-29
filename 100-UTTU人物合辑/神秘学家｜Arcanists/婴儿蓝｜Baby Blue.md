@@ -190,9 +190,58 @@ tab: 月亮上的怪物｜The Monster in the Moon
 tab: 梦中的茶会｜[UTTU×婴儿蓝]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
+**婴儿蓝：你要怎么喝茶呢？需要帮你从嘴巴里倒进去吗？**
+白雪松：不！我是说，谢谢你的体贴，我只吃餐厅和助理准备的食物。
+白雪松：让我们来看看采访问题……据你所说，仙境并非一种幻觉癔病，而是某个通过梦境前往的现实。那么，你会如何解释那些已经“康复”的孩子们呢？
+**婴儿蓝：他们……他们不再相信自己的能力，他们循规蹈矩。他们丢弃了仙境，也被仙境排除在外了。**
+白雪松：那么你与仙境的关系是？
+**婴儿蓝：我属于那里～所以我永远地留在了那里！我爱它，它就一样爱我～**
+白雪松：它也爱着你？
+**婴儿蓝：难道外头这个世界不会爱你们吗？还是你们不～够爱它？**
+白雪松：……我想世界谁也不爱。
+**婴儿蓝：哇～那它可真绝情，我更不喜欢它了！**
+
+
 ````
 
 ## 语音
+
+|        情景        |                                                                                                                      语音                                                                                                                      |
+| :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        初遇        |                                                          我是……我是谁呢？我不知道……没关系，在仙境之中……每个人，都是爱丽丝……  <br>I am … Who am I? I don't know … It's okay, in Wonderland … everyone is Alice …                                                           |
+|       箱中气候       |                     天上落下雨滴这种事情……真是太陌生了。在仙境中不是糖浆就是缝衣针，我在那儿有很多把伞。  <br>It's so strange to see … the raindrops falling from the sky. In Wonderland, it is either syrup or sewing needles. I have a lot of umbrellas there.                      |
+|  致未来[信任达到10%解锁]  |                        你总是很在乎未来的事情。可仙境几千几百年都一样。停滞不前也没有什么不好喔。  <br>You always care about the future. But Wonderland has been the same for hundreds and thousands of years. There is nothing wrong with standing still.                        |
+|        孑立        |                                你在做什么？你在看什么？你也有你的仙境需要处理吗？一个我们都不知道的……繁忙的世界？  <br>What are you doing? What are you looking at? Do you also have your Wonderland to deal with? A busy world that … we never know?                                |
+|        问候        |                                                                                                      ……呼呼，嗯？……嗯。  <br>… Huuu, hm? … Hm.                                                                                                      |
+|        朝晨        |                                                                 军粮味道的蛋糕～蛋糕味道的军粮～徽章小姐会更喜欢哪一个呢？  <br>MRE-flavored cake, cake-flavored MRE, which one would Miss Badge prefer?                                                                  |
+| 信任-朝晨[信任达到20%解锁] |                                还～没有到可以去睡觉的时间吗？仙境里的大家都等着我们呢。再这么浪费下去的话，时间就要生气了……  <br>Still too early to go to bed? Everyone in Wonderland is waiting for us. If it goes on like this, time will not be happy …                                |
+|        夜暮        |                                                   将晚餐缩小到一口能够吞下的程度……这样，我就能够最快地吃完它们了。  <br>Shrink the dinner to be swallowed in … one bite … Then, I could finish it as quickly as possible.                                                   |
+| 信任-夜暮[信任达到30%解锁] |      梦里的所有人都在等我，闭起眼睛听听看吧。那是门外鞋后跟踩在草地上的声音……你今天还是不跟我一起来吗？  <br>Everyone in the dream is waiting for me. Close your eyes and listen.Outside the door, it's the sound of the heel stepping on the grass … Are you not coming with me today?      |
+|      帽檐与发鬓       |                                        自从我来到仙境以后，就再也没人帮我编过头发了……所以它们越来越长，越来越长～  <br>Since I came to Wonderland, no one has braided my hair … so they are getting longer and longer, longer and longer.                                        |
+|       袖与手        |                                                                      你在找糖果吗？或许你应该拿一个放大镜来哦。  <br>Are you looking for candies? Maybe you should bring a magnifying glass.                                                                      |
+|      衣着与身形       |                         我好像越来越高了……椅子已经逐渐装不下我了……如果我把自己变小的话，是不是就能回到从前呢？  <br>I seem to be taller and taller … The chair is getting too small to seat me … If I shrink myself, will everything be as usual like before?                         |
+|  嗜好[信任达到40%解锁]   | 我的房间里有山一样的熊布偶，话剧盒子里也有爱吃蜂蜜的小熊。为什么仙境里没有小熊呢？嗯……我会找到一只合适的小熊的～  <br>There's a teddy bear as big as a mountain in my room. And there're bears that love honey in the circus box. Why are there no bears in Wonderland? Hmm … I will find the bear. |
+|  赞赏[信任达到50%解锁]   |                                                               我会让兔子先生多准备一份蛋糕……嗯……是给你的奖励哦……  <br>I will ask Mr. Rabbit to prepare one more cake … Hmm … It's a reward for you …                                                               |
+|  亲昵[信任达到60%解锁]   |                                                                  如果有一天我回去了，再也不出来了，你会来探望我吗？  <br>One day, if I go back and never come out again, will you come to visit me?                                                                   |
+|       闲谈Ⅰ        |                                 时间停滞不前了？我想我们应该赶紧买茶杯。更多更多的茶杯，我们很快就会失去洗茶杯的时间了。  <br>Time paused? I think we should hurry up to buy teacups. More and more teacups. We won't have time to wash them very soon.                                  |
+|       闲谈Ⅱ        |                                一闪一闪亮晶晶，满天都是小星星～挂在天空放光明，好像许多小眼睛～闪啊～闪啊～  <br>Twinkle twinkle little star, how I wonder what you are. Up above the world so high, like a diamond in the sky. Twinkle, twinkle …                                 |
+|  独白[信任达到70%解锁]   |        从前的学校里，有人叫我……嗯～那个词怎么说来着？啊……疯子！难过？我不难过啊……他们告诉我，最厉害的人都是疯子……  <br>People at school once called me … Umm, how do you say that word? Ah … Crazy! Sad? I'm not sad … They told me that the most outstanding people were all crazy …         |
+|        入队        |                                                                                          你们……也是来参加茶会的吗？  <br>Are you also here … for the tea party?                                                                                          |
+|        战前        |                                                                                 我不怕你们，你们只是一堆桥牌而已。  <br>I am not afraid of you. You are just a pile of cards.                                                                                 |
+|      择选咒语Ⅰ       |                                                                                                          是……这条路吗？  <br>… This way?                                                                                                           |
+|      择选咒语Ⅱ       |                                                                                                        你说了什么？  <br>What did you say?                                                                                                         |
+|      择选高阶咒语      |                                                                                                           哈哈哈～  <br>Heh heh heh …                                                                                                            |
+|     择选至终的仪式      |                                                                                                           我饿了……  <br>I'm hungry …                                                                                                            |
+|      释放神秘术Ⅰ      |                                                                                         来玩躲猫猫吧……我会帮助你们喔！  <br>Let's play peekaboo … I will help you!                                                                                         |
+|      释放神秘术Ⅰ      |                                                                                        所有人都会喜欢蓝色泡泡花园～  <br>Everyone will love the Blue Bubble Garden.                                                                                        |
+|      释放神秘术Ⅱ      |                                                                                     比星星更小～比蘑菇更大～  <br>Smaller than the stars, bigger than the mushrooms.                                                                                     |
+|      释放神秘术Ⅱ      |                                                                                        约好了！要记得来找我玩呀……  <br>Promised! Don't forget to come visit me …                                                                                         |
+|     召唤至终的仪式      |                                                                                                  点心时间！……嚼嚼～嚼嚼～♪  <br>Snack time! … Yum yum.                                                                                                  |
+|       受敌Ⅰ        |                                                                                                        呼呼……咦？！  <br>Huh huh … Huh? !                                                                                                         |
+|       受敌Ⅱ        |                                                                                                       妈咪……妈咪……！  <br>Mommy … mommy …!                                                                                                        |
+|       战斗胜利       |                                                               所有人都坐好了吗？咳咳、现在开庭～审判结果是——有罪！  <br>Is everyone seated? Ahem, the court is now in session.The verdict is … guilty!                                                                |
+|    洞悉[洞悉后解锁]     |                                                                         兔子先生和王后的边界，越来越大～  <br>The boundary of Mr. Rabbit and the Queen is getting bigger and bigger.                                                                         |
+|  洞悉之底[获得对应皮肤解锁]  |                                                             我该回报你什么呢？一个小熊玩偶？嗯……还是一座糖浆做的井？  <br>What should I give you in return? A teddy bear? Hmm, or a well filled with syrup?                                                             |
 
 [^1]: ==状态异常== *创伤加成*-**10%**（效果可叠加，每层时间独立计算）
 [^2]: ==控制== 眩晕，石化，噩梦，冰冻，缴械，缄默，封印等限制角色行动的效果
