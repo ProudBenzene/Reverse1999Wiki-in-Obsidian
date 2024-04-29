@@ -116,5 +116,21 @@
       ],
       "key": "F"
     }
+  ],
+  "Enhanced-editing:mouse-end": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "Enhanced-editing:mouse-start": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
   ]
 }
