@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +120,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -207,6 +205,34 @@
             "type": "leaf",
             "state": {
               "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "c6a277c6a81c076f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2ced0fb2d463e0eb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "09b2d1b893c4100a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
               "state": {}
             }
           }
@@ -255,7 +281,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +297,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,10 +330,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "95f89cae69831722",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
     "000-箱的构造/主页.md",
+    "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
     "游戏文件解包说明.md",
     "000-箱的构造/常用工具.md",
     "600-箱中日历/2024/2024-04-12.md",
