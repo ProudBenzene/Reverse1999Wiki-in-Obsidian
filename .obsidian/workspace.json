@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f385b0341e140aff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,10 +319,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "f385b0341e140aff",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-04-12.md",
+    "000-箱的构造/常用工具.md",
+    "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
     "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-04-12.md",
     "000-箱的构造/箱中memos/20240429-7f9c85dae0ada732.md",
     "000-箱的构造/箱中memos/20240429-d4be6561f8f15fd3.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
@@ -317,7 +332,6 @@
     "300-以影像之/302-支线/assets/再见，来亚什基.assets/再见，来亚什基.jpg",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
     "300-以影像之/302-支线/assets",
-    "000-箱的构造/常用工具.md",
     "300-以影像之/301-主线/第二章 夜色温柔.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/302-支线",
@@ -349,7 +363,6 @@
     "000-箱的构造/箱中memos/20240428-fe08af2d27b681f5.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
