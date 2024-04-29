@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "7d69e66d0b7dbce9",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-12.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,10 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "7d69e66d0b7dbce9",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-04-12.md",
+    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240429-7f9c85dae0ada732.md",
     "000-箱的构造/箱中memos/20240429-d4be6561f8f15fd3.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
