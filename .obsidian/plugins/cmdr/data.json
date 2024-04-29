@@ -1,0 +1,92 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "quickadd:choice:d2d1d2ba-d670-4f9a-b998-f41b03202c54",
+      "icon": "image",
+      "name": "在编辑器中编辑图片",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:deec549a-d2dd-4e1d-b87e-c5abdfdc2802",
+      "icon": "sun",
+      "name": "切换明暗主题",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "在文件列表中显示当前文件",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-projects:show-projects",
+      "icon": "aperture",
+      "name": "Projects",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:ac510f4b-5e30-4b80-8591-320d92252404",
+      "icon": "settings",
+      "name": "Style Settings 悬浮面板",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "quickadd:choice:27d06043-87de-47b1-a058-cf6ff596b9c1",
+      "icon": "refresh-ccw",
+      "name": "QuickAdd: 刷新面板",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:style-settings-class-toggle-Blue-Topaz-Legacy-background-notebook-liked-switch",
+      "icon": "layout-grid",
+      "name": "网格纸",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:89cefecf-617a-4eae-ab1e-fc3d16117391",
+      "icon": "sliders",
+      "name": "macOS风格代码框",
+      "mode": "any"
+    },
+    {
+      "id": "workspaces-plus:HomePage",
+      "icon": "home",
+      "name": "主页",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:f6a246d4-985b-4054-a9ce-265391080166",
+      "icon": "type",
+      "name": "Open with",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}
