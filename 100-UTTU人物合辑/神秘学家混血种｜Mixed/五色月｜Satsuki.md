@@ -154,7 +154,7 @@ color:
 
 ````tab
 tab: 某个女孩｜A Certain Girl
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 或许会有人觉得为国家开拓可耕种土地是一件光荣的事情，但真相则大为不同——他们不过是一群被驱赶到荒地当苦工的劳动力而已。  
 
@@ -188,7 +188,7 @@ tab: 茶室菜单上的留言｜Message on the Menu
 _出品跟其他店没什么区别，但店里的女孩们还真可爱呢！尤其是那个戴着手铐的，走起路来当啷当啷响，真有意思！_
 
 tab: 文学的味道太过于文学的味道｜[UTTU×五色月]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：五色月小姐……你的人生经历，实在是令人动容。
 **五色月：咦？**

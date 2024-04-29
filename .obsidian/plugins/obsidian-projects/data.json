@@ -54,6 +54,12 @@
                 "operator": "is",
                 "enabled": false,
                 "value": "✦✦✦✦✦✦"
+              },
+              {
+                "field": "星级",
+                "operator": "is",
+                "enabled": true,
+                "value": "✦✦✦✦✦"
               }
             ]
           },

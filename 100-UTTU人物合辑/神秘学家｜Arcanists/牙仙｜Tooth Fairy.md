@@ -152,7 +152,7 @@ color:
 
 ````tab
 tab: 龋病的治疗手段|Treatment Of Tooth Decay
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 人们对牙齿的重视由来已久。在古埃及，人们已经有了保护和治疗牙齿的尝试。而在古希腊伯里克利时代，“医学之父”希波克拉底写下了治疗蛀牙和牙龈疾病的方法。
 
@@ -194,7 +194,7 @@ tab: 更多珍藏|Her Collections
 ……
 
 tab: “牙仙”的准则|[UTTU×牙仙]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：你好，坎贝尔小姐。
 **牙仙：你好，女士。你可以称呼我为“牙仙”。**

@@ -137,7 +137,7 @@ color:
 
 ````tab
 tab: 密封糖果罐｜A Sealed Candy Jar
-![文化1|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
+![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 19世纪末期，位于美国领土边陲的埃克塞特小镇，火把仍彻夜燃烧。
 临街的商铺紧闭房门，光线昏暗的货架上，糖果罐被塞得满满当当。最后一个光顾它的小客人早在三个月前被送进了那片人满为患的贫瘠墓地——如果你更愿意称其为墓地的话。
@@ -147,7 +147,7 @@ tab: 密封糖果罐｜A Sealed Candy Jar
 直到某一日，结核病的概念传遍了大街小巷，埃克塞特小镇才恢复了往日的平静。
 
 tab: 王子的自白｜The Prince's Confession
-![文化2|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 **我受够了。**  
 
@@ -176,7 +176,7 @@ tab: 王子的自白｜The Prince's Confession
 **——真是一场灾难！**
 
 tab: 真人秀特别嘉宾｜[UTTU×温妮弗雷德]
-![文化3|inlL|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 白雪松：请允许我拒绝你的请求，温妮，我是不会做那种愚蠢模仿的。
 白雪松：我是一名采访者，并非某种脱口秀主持人。
