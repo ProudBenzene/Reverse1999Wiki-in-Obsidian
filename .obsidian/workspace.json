@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "source",
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,9 +308,18 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "300-以影像之/302-支线/再见，来亚什基.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
+    "300-以影像之/302-支线/assets/再见，来亚什基.assets/再见，来亚什基.jpg",
+    "300-以影像之/302-支线/assets/再见，来亚什基.assets",
+    "300-以影像之/302-支线/assets",
+    "000-箱的构造/常用工具.md",
+    "300-以影像之/301-主线/第二章 夜色温柔.md",
+    "300-以影像之/300-以影像之.md",
+    "300-以影像之/302-支线",
+    "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/主页.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze.md",
-    "000-箱的构造/常用工具.md",
     "200-相从心生/角色心相/无声注视｜Silent Gaze1.md",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze1.assets/无声注视.png",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze1.assets",
@@ -323,7 +332,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/单品 婴儿蓝 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/至终的仪式 好朋友与茶话会.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/神秘术 过家家2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/立绘 婴儿蓝 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie~.md",
@@ -338,21 +346,13 @@
     "000-箱的构造/箱中memos/20240428-468bddb53d17976f.md",
     "000-箱的构造/箱中memos/20240428-fe08af2d27b681f5.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
-    "玛丽莲.md",
-    "300-以影像之/304-轶事/温妮弗雷德 · 致温妮弗雷德.md",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
-    "200-相从心生/角色心相/夜夜亦然｜Night After Night.md",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
     "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/讣告人｜Necrologist.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛蒂尔达｜Matilda Bouanich.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/气球派对｜Balloon Party.assets",
     "白板.canvas"
   ]
 }
