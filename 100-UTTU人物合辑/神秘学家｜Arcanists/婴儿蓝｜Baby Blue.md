@@ -97,10 +97,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 新“红皇后”｜The New "Red Queen"
 
 ````ad-flex
@@ -108,14 +104,14 @@ collapse: open
 title: 
 color: 
 > [!culture]+ 赐予眷属者的钥匙｜Key
-> 
+> ![](assets/婴儿蓝｜Baby%20Blue.assets/单品%20婴儿蓝%2001.png)
 > **无估值**
 > ---
 > 以未知金属所打造的钥匙，十分轻巧，用于打开“仙境之门”。  
 > 挂链瓶内的红色液体经查验后确认为玫瑰花汁，虽然品种尚未查明，但可确信不具有任何改变身体的神秘术功效。
 
 > [!culture]+ 宝贝乌撒｜Baby Bear
-> 
+> ![](assets/婴儿蓝｜Baby%20Blue.assets/单品%20婴儿蓝%2002.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**152**
 > ---
 > 受访者家乡相当时兴的布偶，厂商称其为“乌撒”。造型讨巧可爱，价格昂贵，货源稀缺，家长们无条件溺爱孩子的最好代表物。脖子上紧束的缎带据称是为了防止走失。  
@@ -123,8 +119,8 @@ color:
 > 她这么说。
 
 > [!culture]+ 乐园茶具组｜Teapot
-> 
-> 无估值
+> ![](assets/婴儿蓝｜Baby%20Blue.assets/单品%20婴儿蓝%2003.png)
+> **无估值**
 > ---
 > 一套茶具，带有与之相配的杯子蛋糕。以不合理的方式扭曲，难以用常理和目光审视，只有她才能看懂如何使用。负责拍照的编辑部工作成员在长时间观察后，出现了晕眩和惊惶的症状。
 ````
@@ -135,23 +131,23 @@ color:
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+> [!culture]+ 印花头巾｜Patterned Headscarf
+> ![](assets/婴儿蓝｜Baby%20Blue.assets/单品%20婴儿蓝%2004.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.8**
 > ---
-> 
+> 带有传统纹样印花的棉布头巾，柔软而整洁。她说，它能够收集阳光、湿润的豌豆和青草的气息。
 
-> [!culture]+ ｜
-> 
-> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+> [!culture]+ 小毡靴｜Felt Boots
+> ![](assets/婴儿蓝｜Baby%20Blue.assets/单品%20婴儿蓝%2005.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**12**
 > ---
-> 
+> 粗羊毛制成的厚实靴子，既是漫长冬季的必需品，也是装饰精巧、富有民族特色的衣饰。“有了它，所有人都能快活地亲吻雪花与冰面啦～”受访者表现得相当兴奋。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ “温暖与甜蜜”｜"Warm & Sweet"
+> ![](assets/婴儿蓝｜Baby%20Blue.assets/单品%20婴儿蓝%2006.png)
+> **无估值**
 > ---
-> 
+> 沉甸甸的铜茶壶，搭配传统风味茶点。茶壶并非附属加热装置，但似乎在任何时候，它都能倒出热腾腾的茶水。“秘密是，糖块需要一个绿色的柔软拥抱。”对此，她小声地回应。
 ````
 
 ## 文化
