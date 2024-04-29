@@ -1,7 +1,7 @@
 ---
 Name: 红弩箭
 exonym: Lilya
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -29,6 +29,7 @@ Udimo: 隼类
 aliases:
   - 红弩箭
   - Lilya
+  - 隼崽儿
 初始立绘: "[[立绘 红弩箭 01.png]]"
 本色立绘: "[[立绘 红弩箭 02.png]]"
 生日: 2024-11-14
