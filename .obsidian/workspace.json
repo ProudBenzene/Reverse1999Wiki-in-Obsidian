@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e8d55b1085fe2c3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "mode": "preview",
                 "source": true
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -296,7 +309,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,13 +333,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "506b52dcc6d4711f",
+  "active": "e8d55b1085fe2c3c",
   "lastOpenFiles": [
-    "000-箱的构造/templates/剧情章节-轶事.md",
-    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
-    "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/头图 戏剧与戏剧.png",
+    "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/封面 戏剧与戏剧.png",
+    "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/封面 头图 戏剧与戏剧.png",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/301701.png",
+    "000-箱的构造/常用工具.md",
+    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+    "000-箱的构造/templates/剧情章节-轶事.md",
+    "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/头图 戏剧与戏剧.png",
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/封面 致温妮弗雷德.png",
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/头图 致温妮弗雷德.jpeg",
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/v1a8_rolestory_photorole1.png",
@@ -343,8 +361,6 @@
     "300-以影像之/304-轶事/304-轶事.md",
     "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-04-30.md",
-    "000-箱的构造/常用工具.md",
-    "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/温妮弗雷德·致温妮弗雷德.jpeg",
     "400-箱外世界/暴雨时间线.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets",
     "600-箱中日历/2024/2024-01-03.md",
@@ -357,7 +373,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "README.md",
     "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
-    "600-箱中日历/2024/2024-04-12.md",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
     "300-以影像之/302-支线/assets",
     "300-以影像之/302-支线",

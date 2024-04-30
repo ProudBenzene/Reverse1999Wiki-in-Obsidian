@@ -72,13 +72,29 @@
       "mode": "any"
     },
     {
-      "id": "editing-toolbar:workplace-fullscreen-focus",
+      "id": "cmdr:macro-0",
       "icon": "eye",
-      "name": "聚焦模式",
+      "name": "专注模式",
       "mode": "any"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "app:toggle-left-sidebar"
+        },
+        {
+          "action": 0,
+          "commandId": "app:toggle-right-sidebar"
+        }
+      ],
+      "name": "专注模式",
+      "icon": "eye",
+      "startup": false
+    }
+  ],
   "explorer": [],
   "hide": {
     "statusbar": [],
