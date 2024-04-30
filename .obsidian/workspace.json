@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8916783a165adf8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/templates/剧情章节-轶事.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +210,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md"
+                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md"
               }
             }
           },
@@ -255,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +295,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,6 +321,7 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/templates/剧情章节-轶事.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "300-以影像之/304-轶事/304-轶事.md",
     "000-箱的构造/主页.md",
@@ -320,7 +334,6 @@
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/温妮弗雷德·致温妮弗雷德.jpeg",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/芝诺·风吹乌哈拉.png",
     "400-箱外世界/暴雨时间线.md",
-    "000-箱的构造/templates/剧情章节-轶事.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/芝诺 · 风吹乌哈拉.png",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets",
     "600-箱中日历/2024/2024-01-03.md",
