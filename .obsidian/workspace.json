@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "65dba6e80866658f",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-30.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-30.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-30.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-04-30.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,10 +306,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "65dba6e80866658f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+    "000-箱的构造/主页.md",
+    "600-箱中日历/2024/2024-04-30.md",
     "000-箱的构造/常用工具.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
@@ -336,7 +328,6 @@
     "000-箱的构造/箱中memos/20240430-54c5b547b8eb8e56.md",
     "000-箱的构造/箱中memos/20240430-387024f509231880.md",
     "000-箱的构造/箱中memos/20240430-5dc597ff9b1294fc.md",
-    "600-箱中日历/2024/2024-04-30.md",
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/单品 玛丽莲 06.png",
