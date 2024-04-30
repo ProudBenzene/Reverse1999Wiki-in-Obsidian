@@ -13,21 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "506b52dcc6d4711f",
+            "id": "1ee81adc14b57e63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+                "file": "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+                "file": "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,7 +184,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8045597426358173,
+                  "scale": 1,
                   "close": true
                 }
               }
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -211,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md"
+                "file": "300-以影像之/304-轶事/雾行者·奥利弗的故事.md"
               }
             }
           },
@@ -268,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+                "file": "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+                "file": "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,10 +321,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "506b52dcc6d4711f",
+  "active": "1ee81adc14b57e63",
   "lastOpenFiles": [
-    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
+    "000-箱的构造/主页.md",
+    "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
+    "300-以影像之/304-轶事/assets/雾行者·奥利弗的故事.assets/头图 奥利弗的故事.png",
+    "300-以影像之/304-轶事/assets/雾行者·奥利弗的故事.assets/301801.png",
+    "300-以影像之/304-轶事/assets/雾行者·奥利弗的故事.assets/封面 奥利弗的故事.png",
+    "300-以影像之/304-轶事/assets/雾行者·奥利弗的故事.assets",
+    "000-箱的构造/常用工具.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德~.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
@@ -331,7 +340,6 @@
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/封面 戏剧与戏剧.png",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/封面 头图 戏剧与戏剧.png",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/301701.png",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/头图 戏剧与戏剧.png",
@@ -343,12 +351,8 @@
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉~.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "000-箱的构造/箱中memos/20240430-0b3dffef37e13b4f.md",
-    "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
-    "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/封面 风吹乌哈拉.png",
-    "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/风吹乌哈拉.png",
     "游戏文件解包说明.md",
     "300-以影像之/304-轶事/304-轶事.md",
-    "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-04-30.md",
     "400-箱外世界/暴雨时间线.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets",
@@ -356,8 +360,6 @@
     "000-箱的构造/箱中memos/20240430-08af6ccd50f16390.md",
     "000-箱的构造/箱中memos/20240430-54c5b547b8eb8e56.md",
     "000-箱的构造/箱中memos/20240430-387024f509231880.md",
-    "000-箱的构造/箱中memos/20240430-5dc597ff9b1294fc.md",
-    "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
     "300-以影像之/302-支线/assets",
@@ -366,7 +368,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/夏利｜Charlie.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets",
-    "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets",
     "白板.canvas"
   ]
 }
