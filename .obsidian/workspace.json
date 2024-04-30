@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -26,18 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e8d55b1085fe2c3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "mode": "preview",
                 "source": true
               }
@@ -206,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -309,8 +296,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334,
-    "collapsed": true
+    "width": 334
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -336,6 +322,9 @@
   "active": "506b52dcc6d4711f",
   "lastOpenFiles": [
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
+    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德~.md",
+    "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
     "200-相从心生/角色心相/另一个故事｜Another Story.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧~.md",
@@ -344,14 +333,12 @@
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/301701.png",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
-    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
     "300-以影像之/304-轶事/assets/夏利·戏剧与戏剧.assets/头图 戏剧与戏剧.png",
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/封面 致温妮弗雷德.png",
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/头图 致温妮弗雷德.jpeg",
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/v1a8_rolestory_photorole1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
-    "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "000-箱的构造/templates/相从心生.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉~.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
@@ -371,7 +358,6 @@
     "000-箱的构造/箱中memos/20240430-387024f509231880.md",
     "000-箱的构造/箱中memos/20240430-5dc597ff9b1294fc.md",
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
     "300-以影像之/302-支线/assets",
