@@ -14,20 +14,20 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "8916783a165adf8b",
+            "id": "506b52dcc6d4711f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/templates/剧情章节-轶事.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -63,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md"
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md"
               }
             }
           },
@@ -267,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,10 +319,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "506b52dcc6d4711f",
   "lastOpenFiles": [
-    "000-箱的构造/templates/相从心生.md",
+    "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/封面 致温妮弗雷德.png",
+    "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/头图 致温妮弗雷德.jpeg",
+    "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/v1a8_rolestory_photorole1.png",
+    "000-箱的构造/templates/剧情章节-轶事.md",
+    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+    "000-箱的构造/templates/相从心生.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉~.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "000-箱的构造/箱中memos/20240430-0b3dffef37e13b4f.md",
@@ -330,13 +337,10 @@
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/风吹乌哈拉.png",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/v1a8_rolestory_photorole2.png",
     "游戏文件解包说明.md",
-    "000-箱的构造/templates/剧情章节-轶事.md",
     "300-以影像之/304-轶事/304-轶事.md",
     "000-箱的构造/主页.md",
     "600-箱中日历/2024/2024-04-30.md",
     "000-箱的构造/常用工具.md",
-    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/温妮弗雷德·致温妮弗雷德.jpeg",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/芝诺·风吹乌哈拉.png",
@@ -351,13 +355,10 @@
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/单品 玛丽莲 06.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/单品 玛丽莲 05.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/单品 玛丽莲 04.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "README.md",
     "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
     "600-箱中日历/2024/2024-04-12.md",
-    "000-箱的构造/箱中memos/20240429-7f9c85dae0ada732.md",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
     "300-以影像之/302-支线/assets",
     "300-以影像之/302-支线",

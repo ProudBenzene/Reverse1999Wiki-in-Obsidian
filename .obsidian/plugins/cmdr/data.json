@@ -73,7 +73,7 @@
     },
     {
       "id": "editing-toolbar:workplace-fullscreen-focus",
-      "icon": "remix-SplitCellsHorizontal",
+      "icon": "eye",
       "name": "聚焦模式",
       "mode": "any"
     }
