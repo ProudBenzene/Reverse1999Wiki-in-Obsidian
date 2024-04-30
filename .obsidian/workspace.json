@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "524d1c2247831ccc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,9 +319,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "524d1c2247831ccc",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/立绘 玛丽莲 02 1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/立绘 玛丽莲 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
     "000-箱的构造/主页.md",
     "游戏文件解包说明.md",
     "README.md",
@@ -337,7 +354,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/单品 婴儿蓝 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/单品 婴儿蓝 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/至终的仪式 好朋友与茶话会.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets/神秘术 过家家2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie~.md",
@@ -348,12 +364,9 @@
     "000-箱的构造/箱中memos/20240428-3cdab1db447e8e74.md",
     "000-箱的构造/箱中memos/20240428-7c6fb6e2309f9fc0.md",
     "000-箱的构造/箱中memos/20240428-468bddb53d17976f.md",
-    "000-箱的构造/箱中memos/20240428-fe08af2d27b681f5.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/柏林以东｜Bkornblume.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze.assets",
-    "200-相从心生/角色心相/assets/夜夜亦然｜Night After Night.assets",
     "白板.canvas"
   ]
 }
