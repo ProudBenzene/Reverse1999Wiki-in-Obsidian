@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "4721f22afd9ef647",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -208,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -265,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334,
-    "collapsed": true
+    "width": 334
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,8 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4721f22afd9ef647",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "600-箱中日历/2024/2024-01-03.md",
+    "000-箱的构造/箱中memos/20240430-0b3dffef37e13b4f.md",
     "000-箱的构造/箱中memos/20240430-08af6ccd50f16390.md",
     "000-箱的构造/箱中memos/20240430-54c5b547b8eb8e56.md",
     "000-箱的构造/箱中memos/20240430-387024f509231880.md",
@@ -326,7 +317,6 @@
     "600-箱中日历/2024/2024-04-30.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
-    "600-箱中日历/2024/2024-01-03.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/单品 玛丽莲 06.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/单品 玛丽莲 05.png",
@@ -360,7 +350,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/婴儿蓝｜Baby Blue.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/夏利｜Charlie.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/柏林以东｜Bkornblume.assets",
     "300-以影像之/304-轶事/assets/温妮弗雷德 · 致温妮弗雷德.assets",
