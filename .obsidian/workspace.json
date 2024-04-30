@@ -26,8 +26,8 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/玛丽莲｜Sweet heart.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           },
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240
+    "width": 240,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -296,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
