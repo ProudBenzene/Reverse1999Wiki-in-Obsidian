@@ -31,7 +31,7 @@ aliases:
   - Sweet heart
 初始立绘: "[[立绘 玛丽莲 01.png]]"
 本色立绘: "[[立绘 玛丽莲 02.png]]"
-生日: 
+生日: 2024-06-01
 banner_header: "{{filename}}"
 出场章节:
 ---
@@ -179,19 +179,56 @@ tab: 万千迷恋者｜[UTTU×玛丽莲]
 白雪松：你指的是，你一次都没有做过噩梦吗？
 **玛丽莲：当然，我的夜晚比蜜糖更甜美。**
 **玛丽莲：哦～小姐！**
-玛丽莲：如果我为大家编织了一场场美梦，自己却夜夜难以安眠，这未免也太过于可笑与荒诞。如果你想创造点快乐，就要让自己先快乐起来～
+**玛丽莲：如果我为大家编织了一场场美梦，自己却夜夜难以安眠，这未免也太过于可笑与荒诞。如果你想创造点快乐，就要让自己先快乐起来～**
 白雪松：这很奇特。因为我们大部分人都有过噩梦。
-玛丽莲：或许是因为“甜蜜的晚安”，它永远都陪伴着我。从我遇见它的第一天开始～！
-玛丽莲：你指的是……你认为雕像都是无比美丽的吗？
+**玛丽莲：或许是因为“甜蜜的晚安”，它永远都陪伴着我。从我遇见它的第一天开始～！**
+**玛丽莲：你指的是……你认为雕像都是无比美丽的吗？**
 白雪松：当然。他们冷静、无暇、近乎完美。
-玛丽莲：可是他们也冰冷、僵硬，不懂得爱与骚动。
+**玛丽莲：可是他们也冰冷、僵硬，不懂得爱与骚动。**
 白雪松：这正是他们的优点。
-玛丽莲：真是奇怪的爱好～我亲爱的！
+**玛丽莲：真是奇怪的爱好～我亲爱的！**
 
 
 ````
 
 ## 语音
+
+|          情景          |                                                                                                                 语音                                                                                                                 |
+| :------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                          你好，亲爱的——还需要我说自己的名字吗？还是先给你来一个签名？<br><br>Hello dear … Do I still have to tell you my name? Or sign my name first?                                                           |
+|         箱中气候         |         如果今天可以整日休息，我哪里都不会去。我只想坐在窗台上唱歌。在玻璃的雾气上，画上许多小猫。<br><br>If I could take a break all day today, nowhere will I go. I just want to sing on the balcony. And on the mist of the window, I will draw many many pussycats.         |
+|  致未来  <br>信任达到10%解锁  |                               去未来？求之不得呢！搞不好我会变得更出名，将画报送到世界另一头去哦。<br><br>Travel to the future? Most welcome! Maybe I will become more famous, bringing the pictorial to the other side of the world.                                |
+|          孑立          |                                       好吧，看来我有了少见的休息时间。如果这里能有躺椅和毯子就好了。<br><br>Well, it seems I have a rare opportunity to take a break. Even better if there's a recliner and blanket for me.                                       |
+|          问候          |                                                                      在安静的地方待久了，心里总会空落落的……<br><br>It's always lonely to stay somewhere quiet for a long time …                                                                      |
+|          朝晨          |                                 我每天早上都会看新闻，看媒体们是如何用夸张的笔墨，来拼凑出他们想象中的我。<br><br>I read the news every morning, just to see how the press piece together what they imagine me with exaggerated words.                                  |
+| 信任-朝晨  <br>信任达到20%解锁 |         每当我在卧室漫步时，一看到首饰盒里那颗椭圆形切割的钻石，我就会认为昨天并没有那么糟糕，今天，也会是美好的一天。<br><br>While wandering in the bedroom, whenever I see the oval diamond in my jewelry box, I know that yesterday was not that bad, and today will be good.          |
+|          夜暮          |                             嗯～哈～真丝睡袍？谢谢，但我不需要。劳驾为我喷上几滴Chanel No. 5，它才是我唯一的睡袍。<br><br>Hmm … hah … a silk robe? Thank you, but I don't want it. Dress me up with Chanel No.5. Only that is my nightwear.                             |
+| 信任-夜暮  <br>信任达到30%解锁 |                          我常常梦见祖父母们在一团紫色的迷雾中向我走来，可他们却从未到达我的身旁……你能靠近些吗？<br><br>I often dream of my grandparents coming towards me in a purple mist, but they never reach my side … Come closer, would you?                           |
+|        帽檐与发鬓         | 金发女郎、金发女郎，大家都喜欢我的头发。但做发型可真不是一桩简单事。你能明白吗？染发根的时候，你要做的事情可太多了……<br><br>Blondie, blondie, everyone likes my blonde hair. I can't believe it is really a technical job to do hair. Can you? When dyeing … you need to do this and that … |
+|         袖与手          |                                      这根手杖？我叫它“甜蜜的晚安”……至于名字的含义，我希望你不会有知道的那一天。<br><br>The cane? That's my "Sweet Nighty Night" … How it got its name? I hope you won't have the chance to know.                                      |
+|        衣着与身形         |                                                                    步枪是战士的武器，衣服是女人的武器。在我这里，两者并行。<br><br>Rifle for soldier; dress for woman. For me, I got both.                                                                     |
+|  嗜好  <br>信任达到40%解锁   |                               你会为了一个电影中不足三秒钟的镜头而尝试三百次吗？我试过。这就是我对待喜好之物的态度。<br><br>Will you try three hundred times for a scene less than three seconds? I tried. For what I love, that's my attitude.                               |
+|  赞赏  <br>信任达到50%解锁   |                                         比起外貌，我更看重合作伙伴的内在。毕竟，说起外表，又有谁比得上我呢？<br><br>I value your qualities more than your looks. After all, when it comes to appearance, who will win? You?                                          |
+|  亲昵  <br>信任达到60%解锁   |           妻子们厌恶我。她们骂我是莎乐美，是拉米亚，是大巴比伦，是塞壬……但我谁也不是。我只是……玛丽莲而已。<br><br>Wives hate me. They called me Salome. They call me Lamia. They call me Whore of Babylon, or even Siren … but I'm none of them. I'm just … who I am.            |
+|         闲谈Ⅰ          |                                            如果你想成为明星，好莱坞是个不错的选择。如果你想成为你自己，那就永远不要踏入好莱坞。<br><br>If you want to be a star, come to Hollywood; if you want to be yourself, then never come.                                             |
+|         闲谈Ⅱ          |                                                                      如果你想要得到一个秘密，就得用另一个秘密来交换。<br><br>A story for another story; a secret for another secret.                                                                       |
+|  独白  <br>信任达到70%解锁   |                                                每个人都愿意为我的回眸一掷千金，只有你，愿意为我的灵魂付一分钱。谢谢你。<br><br>People spend thousands for my glance. But you are willing to pay for my soul. Thank you.                                                |
+|          入队          |                                                                                               咦，我居然没有迟到吗？<br><br>Huh, am I not late?                                                                                               |
+|          战前          |                                                                                    那些热场嘉宾怎么还没下台？<br><br>Why haven't those warm-ups walked away?                                                                                    |
+|        择选咒语Ⅰ         |                                                                                                       蒂芙尼！<br><br>Tiffany's!                                                                                                       |
+|        择选咒语Ⅱ         |                                                                                                        卡地亚！<br><br>Cartier!                                                                                                        |
+|        择选高阶咒语        |                                                                                            呵呵，难忘的一幕。<br><br>Haha, unforgettable scene.                                                                                             |
+|       择选至终的仪式        |                                                                                     这是不会留下回忆的一幕戏。<br><br>No memory of the scene will be left.                                                                                      |
+|        释放神秘术Ⅰ        |                                                                                           对不起，我是故意的～<br><br>Sorry, I did it on purpose.                                                                                            |
+|        释放神秘术Ⅰ        |                                                                                                原谅我好吗？<br><br>Forgive me, will you?                                                                                                 |
+|        释放神秘术Ⅱ        |                                                                                                         Mwah～<br><br>Mwah.                                                                                                         |
+|        释放神秘术Ⅱ        |                                                                                                为我倾心吧～<br><br>Fall in love with me.                                                                                                 |
+|       召唤至终的仪式        |                                                                                       晚安，做个好梦～<br><br>Nighty night. I wish you sweet dreams.                                                                                       |
+|         受敌Ⅰ          |                                                                                                          什么？<br><br>What?                                                                                                          |
+|         受敌Ⅱ          |                                                                                                         唔嗯……<br><br>Umm …                                                                                                          |
+|         战斗胜利         |                                                                                 如果我也能像他们一样健忘，该有多好。<br><br>If only I could be as forgetful as them.                                                                                 |
+|    洞悉  <br>洞悉后解锁     |                                                                                     啊呀，我的魅力正在与日俱增呢。<br><br>Gosh! I am even more glamorous now!                                                                                     |
+|  洞悉之底  <br>获得对应衣着解锁  |                                                         他们站在高处，俯视所有人……世界已空无一物……呵～<br><br>When they sit here, they look down at everyone … The world is in my hands? … Huh.                                                         |
 
 [^1]: ==特殊== *对玛丽莲造成伤害*降低**10%**（效果可叠加，每层时间独立计算）
 [^2]: ==控制== 眩晕，石化，噩梦，冰冻，缴械，缄默，封印等限制角色行动的效果
