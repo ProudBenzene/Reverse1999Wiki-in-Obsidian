@@ -70,6 +70,12 @@
       "icon": "type",
       "name": "Open with",
       "mode": "any"
+    },
+    {
+      "id": "editing-toolbar:workplace-fullscreen-focus",
+      "icon": "remix-SplitCellsHorizontal",
+      "name": "聚焦模式",
+      "mode": "any"
     }
   ],
   "macros": [],

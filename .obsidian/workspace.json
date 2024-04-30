@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -295,8 +295,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334,
-    "collapsed": true
+    "width": 334
   },
   "left-ribbon": {
     "hiddenItems": {
