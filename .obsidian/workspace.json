@@ -40,12 +40,12 @@
             }
           },
           {
-            "id": "fd0931cb83967d0e",
+            "id": "2465899ec67c74ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/304-轶事/未锈铠·第九条美德.md",
+                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/未锈铠·第九条美德.md",
+                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/未锈铠·第九条美德.md"
+                "file": "300-以影像之/304-轶事/X·齿轮的意志.md"
               }
             }
           },
@@ -237,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-以影像之/304-轶事/未锈铠·第九条美德.md"
+                "file": "300-以影像之/304-轶事/X·齿轮的意志.md"
               }
             }
           }
@@ -286,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/未锈铠·第九条美德.md",
+                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/未锈铠·第九条美德.md",
+                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,11 +337,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "fd0931cb83967d0e",
+  "active": "2465899ec67c74ab",
   "lastOpenFiles": [
     "000-箱的构造/常用工具.md",
-    "300-以影像之/304-轶事/未锈铠·第九条美德.md",
+    "300-以影像之/304-轶事/X·齿轮的意志.md",
     "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+    "300-以影像之/304-轶事/未锈铠·第九条美德.md",
+    "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets/头图 第九条美德.png",
+    "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets/300701.png",
+    "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets/封面 第九条美德.png",
+    "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets/300702.png",
+    "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets",
     "300-以影像之/304-轶事/埃里克·美梦后记.md",
     "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
     "300-以影像之/304-轶事/assets/星之眼·庸碌喜剧.assets/头图 庸碌喜剧.png",
@@ -351,12 +357,8 @@
     "300-以影像之/304-轶事/assets/星之眼·庸碌喜剧.assets",
     "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets/头图 美梦后记.png",
     "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets/305801.png",
-    "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets/封面 美梦后记.png",
     "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
-    "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/头图 直到长夜下旬.png",
-    "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/302201.png",
-    "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/封面 直到长夜下旬.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/301-主线/第一章 在我们的时代里.md",
@@ -378,13 +380,11 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "000-箱的构造/templates/相从心生.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉~.md",
-    "000-箱的构造/templates/UTTU人物合辑.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
     "300-以影像之/302-支线/assets",
     "300-以影像之/302-支线",
-    "200-相从心生/角色心相/assets/无声注视｜Silent Gaze1.assets",
     "白板.canvas"
   ]
 }

@@ -1,16 +1,16 @@
 ---
-剧情主角: "[[未锈铠]]"
-角色剧情: 第九条美德
-English: The Ninth Virtue
+剧情主角: '[[X]]'
+角色剧情: 齿轮的意志
+English: 
 tags: 
 cssclasses: 
 上线版本: 
-banner: "[[头图 第九条美德.png]]"
+banner: '[[头图 齿轮的意志.png]]'
 aliases:
-  - 第九条美德
+  - 齿轮的意志
 ---
-> [!bookinfo]- 第九条美德
-> ![](assets/未锈铠·第九条美德.assets/封面%20第九条美德.png)
+> [!bookinfo]- 齿轮的意志
+> 
 > 
 |   编号   | 关卡  | 寄语  |
 | :----: | :-: | :-: |
@@ -26,7 +26,7 @@ aliases:
 > [!note]- 阅读感想
 
 ~~~~note-gallery
-query: path:000-箱的构造/箱中memos tag:#金句 第九条美德
+query: path:000-箱的构造/箱中memos tag:#金句 齿轮的意志
 sortBy: ctime
 sort: asc
 showTitle: false
