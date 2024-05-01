@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240,
-    "collapsed": true
+    "width": 240
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -199,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md"
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md"
               }
             }
           },
@@ -237,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md"
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md"
               }
             }
           }
@@ -286,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+                "file": "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,6 +339,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+    "300-以影像之/304-轶事/帕米埃·直到长夜下旬~.md",
     "300-以影像之/304-轶事/冬·重返人间.md",
     "300-以影像之/304-轶事/冬·重返人间~.md",
     "300-以影像之/304-轶事/埃里克·美梦后记.md",
@@ -355,7 +356,6 @@
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/封面 齿轮的意志.png",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/301002.png",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets",
-    "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
     "300-以影像之/304-轶事/未锈铠·第九条美德.md",
     "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets/头图 第九条美德.png",
     "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets/300701.png",
@@ -382,7 +382,6 @@
     "300-以影像之/304-轶事/夏利·戏剧与戏剧~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
