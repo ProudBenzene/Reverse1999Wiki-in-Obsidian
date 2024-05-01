@@ -11,16 +11,33 @@
         },
         {
           "type": "file",
-          "ctime": 1710755385984,
-          "path": "000-箱的构造/templates/剧情章节-主线.md"
-        },
-        {
-          "type": "file",
           "ctime": 1710755375307,
           "path": "000-箱的构造/templates/相从心生.md"
         }
       ],
       "title": "常用模板"
+    },
+    {
+      "type": "group",
+      "ctime": 1714577332295,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1710755385984,
+          "path": "000-箱的构造/templates/剧情章节-主线.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1714577449702,
+          "path": "000-箱的构造/templates/剧情章节-支线.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1714577463788,
+          "path": "000-箱的构造/templates/剧情章节-角色.md"
+        }
+      ],
+      "title": "剧情模板"
     }
   ]
 }
