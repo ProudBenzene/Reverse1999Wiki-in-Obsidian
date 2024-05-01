@@ -6,7 +6,21 @@
   "templatePath": "",
   "autoCreate": false,
   "enableCollapsing": false,
-  "excludeFolders": [],
+  "excludeFolders": [
+    {
+      "type": "folder",
+      "path": "300-以影像之/301-主线",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 0,
+      "excludeFromFolderOverview": false,
+      "string": "",
+      "hideInSettings": false
+    }
+  ],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
   "underlineFolder": false,
