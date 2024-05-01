@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/X·齿轮的意志.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -208,36 +208,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "b76fc1d51971e736",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "7f5d6216ae19e267",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "fe5c5d060ac62b9b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "300-以影像之/304-轶事/X·齿轮的意志.md"
-              }
             }
           }
         ],
@@ -285,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/X·齿轮的意志.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334,
-    "collapsed": true
+    "width": 334
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -339,9 +308,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "300-以影像之/304-轶事/X·齿轮的意志~.md",
+    "300-以影像之/304-轶事/X·齿轮的意志.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
-    "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
@@ -349,6 +317,9 @@
     "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
     "300-以影像之/304-轶事/冬·重返人间.md",
     "300-以影像之/304-轶事/埃里克·美梦后记.md",
+    "300-以影像之/300-以影像之.md",
+    "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
+    "300-以影像之/304-轶事/X·齿轮的意志~.md",
     "300-以影像之/304-轶事/未锈铠·第九条美德~.md",
     "300-以影像之/304-轶事/帕米埃·直到长夜下旬~.md",
     "300-以影像之/304-轶事/冬·重返人间~.md",
@@ -358,7 +329,6 @@
     "300-以影像之/304-轶事/assets/冬·重返人间.assets/301301.png",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets/封面 重返人间.png",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets",
-    "300-以影像之/304-轶事/X·齿轮的意志.md",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/头图 齿轮的意志.png",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/301001.png",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/封面 齿轮的意志.png",
@@ -371,7 +341,6 @@
     "300-以影像之/304-轶事/assets/星之眼·庸碌喜剧.assets",
     "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets",
-    "300-以影像之/300-以影像之.md",
     "300-以影像之/301-主线/第一章 在我们的时代里.md",
     "游戏文件解包说明.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/未锈铠｜A Knight.md",
