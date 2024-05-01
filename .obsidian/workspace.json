@@ -38,9 +38,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "222d68f1fe28c1b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/304-轶事/埃里克·美梦后记.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+                "file": "300-以影像之/304-轶事/埃里克·美梦后记.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md"
+                "file": "300-以影像之/304-轶事/埃里克·美梦后记.md"
               }
             }
           },
@@ -225,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md"
+                "file": "300-以影像之/304-轶事/埃里克·美梦后记.md"
               }
             }
           }
@@ -274,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+                "file": "300-以影像之/304-轶事/埃里克·美梦后记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+                "file": "300-以影像之/304-轶事/埃里克·美梦后记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,15 +337,18 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "a23dbb40662568f5",
+  "active": "222d68f1fe28c1b4",
   "lastOpenFiles": [
-    "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+    "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets/305801.png",
+    "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets",
+    "000-箱的构造/常用工具.md",
+    "300-以影像之/304-轶事/埃里克·美梦后记.md",
     "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
+    "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/头图 直到长夜下旬.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/302201.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/封面 直到长夜下旬.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets",
-    "000-箱的构造/常用工具.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/301-主线/第一章 在我们的时代里.md",
     "300-以影像之/301-主线/assets/第六章 今夜星光灿烂.assets/今夜星光灿烂.png",
@@ -363,7 +378,6 @@
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉~.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "000-箱的构造/箱中memos/20240430-0b3dffef37e13b4f.md",
-    "300-以影像之/304-轶事/304-轶事.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets",
@@ -371,7 +385,6 @@
     "300-以影像之/302-支线",
     "200-相从心生/角色心相/assets/无声注视｜Silent Gaze1.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/婴儿蓝｜Baby Blue.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/夏利｜Charlie.assets",
     "白板.canvas"
   ]
 }
