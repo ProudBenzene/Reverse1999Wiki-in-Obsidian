@@ -35,6 +35,11 @@
           "type": "file",
           "ctime": 1714577463788,
           "path": "000-箱的构造/templates/剧情章节-角色.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1714577470395,
+          "path": "000-箱的构造/templates/剧情章节-轶事.md"
         }
       ],
       "title": "剧情模板"
