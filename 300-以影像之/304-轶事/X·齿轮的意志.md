@@ -6,8 +6,10 @@ tags:
 cssclasses: 
 上线版本: 
 banner: "[[头图 齿轮的意志.png]]"
+Cover: "[[封面 齿轮的意志.png]]"
 aliases:
   - 齿轮的意志
+  - The Will of Gears
 ---
 > [!bookinfo]- 齿轮的意志
 > ![](assets/X·齿轮的意志.assets/封面%20齿轮的意志.png)
