@@ -4,7 +4,7 @@
 English: The Will of Gears
 tags: 
 cssclasses: 
-上线版本: 
+上线版本: 1.7｜今夜星光灿烂
 banner: "[[头图 齿轮的意志.png]]"
 Cover: "[[封面 齿轮的意志.png]]"
 aliases:
