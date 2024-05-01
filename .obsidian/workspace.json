@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构造/templates/剧情章节-角色.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -71,19 +71,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "43cecf3e9ff68633",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/templates/剧情章节-轶事.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "189705ac3700d6e5",
+            "id": "56d846dbb3426d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,8 +82,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/templates/剧情章节-角色.md",
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -242,7 +229,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/templates/剧情章节-角色.md"
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md"
               }
             }
           },
@@ -298,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/templates/剧情章节-角色.md",
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/templates/剧情章节-角色.md",
+                "file": "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -352,9 +339,9 @@
   },
   "active": "b5af3deab9917e20",
   "lastOpenFiles": [
-    "000-箱的构造/templates/剧情章节-轶事.md",
-    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "000-箱的构造/templates/剧情章节-角色.md",
+    "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
+    "000-箱的构造/templates/剧情章节-轶事.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/304-轶事.md",
