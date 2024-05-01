@@ -1,7 +1,7 @@
 ---
 剧情主角: '[[X]]'
 角色剧情: 齿轮的意志
-English: 
+English: The Will of Gears
 tags: 
 cssclasses: 
 上线版本: 
@@ -14,14 +14,13 @@ aliases:
 > 
 |   编号   | 关卡  | 寄语 |
 | :----: | :-: | :-: |
-| TWJ-01 |     |     |
-| TWJ-02 |     |     |
-| TWJ-03 |     |     |
-| TWJ-04 |     |     |
-| TWJ-05 |     |     |
-| TWJ-06 |     |     |
-| TWJ-07 |     |     |
-| TWJ-08 |     |     |
+| TWG-01 | 震动的音叉<br/>Tuning Fork |     |
+| TWG-02 | 特效药<br/>Potent Drugs |     |
+| TWG-03 | 马太效应<br/>The Matthew Effect |     |
+| TWG-04 | 孩子们<br/>The Kids | 在好奇心与想象力之外，还有少许的报复心。 |
+| TWG-05 | 起点，落点<br/>Starting Point, End Point | 这是物理学定律，没有意外。 |
+| TWG-06 | 重力势能<br/>Gravitational Potential | “Ep=mgh”，这条定律同样适用于社会结构。 |
+| TWG-07 | 沉默的装置<br/>Silent Machine | “一切都严丝合缝，恰到好处。” |
 
 > [!note]- 阅读感想
 
