@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md"
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "file": "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,10 +320,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "bc10007466879a78",
+  "active": "0481fc03f132a282",
   "lastOpenFiles": [
-    "400-箱外世界/暴雨时间线.md",
     "300-以影像之/304-轶事/304-轶事.md",
+    "400-箱外世界/暴雨时间线.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/301-主线/301-主线.md",
