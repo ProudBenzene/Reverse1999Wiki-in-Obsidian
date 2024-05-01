@@ -132,7 +132,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,9 +209,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/常用工具.md"
-              }
+              "state": {}
             }
           },
           {
@@ -268,7 +265,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +281,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,9 +314,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "13eab36a72e3758c",
   "lastOpenFiles": [
     "300-以影像之/304-轶事/304-轶事.md",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/埃里克·美梦后记.md",
     "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
@@ -345,7 +341,6 @@
     "300-以影像之/304-轶事/未锈铠·第九条美德~.md",
     "300-以影像之/304-轶事/帕米埃·直到长夜下旬~.md",
     "300-以影像之/304-轶事/冬·重返人间~.md",
-    "000-箱的构造/常用工具.md",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets/头图 重返人间.png",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets/301301.png",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets/封面 重返人间.png",
