@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "dc458f4fc80ab519",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -283,7 +292,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,10 +315,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "dc458f4fc80ab519",
   "lastOpenFiles": [
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "anu主题配置.zip",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
@@ -333,7 +343,6 @@
     "300-以影像之/304-轶事/未锈铠·第九条美德.md",
     "300-以影像之/304-轶事/X·齿轮的意志.md",
     "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
-    "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/头图 齿轮的意志.png",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/封面 直到长夜下旬.png",
@@ -353,7 +362,6 @@
     "300-以影像之/304-轶事/assets/雾行者·奥利弗的故事.assets",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets",
-    "300-以影像之/302-支线/assets/再见，来亚什基.assets",
     "白板.canvas"
   ]
 }
