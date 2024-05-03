@@ -663,5 +663,6 @@
   "Blue-Topaz-Legacy@@thino-modern-primary@@dark": "#312E2E",
   "Appearance-dark@@accent-dark": "#5F5555",
   "Components@@new-tab-image": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404241740939.png\")",
-  "Appearance-dark@@background-mod-root-split-dark": "#2A2825"
+  "Appearance-dark@@background-mod-root-split-dark": "#2A2825",
+  "Editor@@codeblock-style-select": "codeblock-style-one-dark"
 }

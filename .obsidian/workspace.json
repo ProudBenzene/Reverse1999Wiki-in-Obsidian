@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/常用工具.md"
+              }
             }
           },
           {
@@ -253,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -302,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
