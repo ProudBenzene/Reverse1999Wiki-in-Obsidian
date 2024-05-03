@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "4995fc22a917e54c",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -283,7 +292,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 280.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,11 +318,11 @@
   "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "300-以影像之/300-以影像之.md",
-    "000-箱的构造/常用工具.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集~.md",
     "300-以影像之/303-角色剧情/303-角色剧情.md",
