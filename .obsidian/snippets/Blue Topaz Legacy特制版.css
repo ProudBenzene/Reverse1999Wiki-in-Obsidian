@@ -3264,7 +3264,7 @@ body.admonition-bg-color-same .callout-title {
 }
 
 /* ===隐藏标题============ */
-.callout-style-4.callout:is([data-callout-metadata*="notitle"],
+.callout.callout:is([data-callout-metadata*="notitle"],
 [data-callout*=notitle]) .callout-title {
   display:none;
 }
@@ -3273,25 +3273,25 @@ body.admonition-bg-color-same .callout-title {
     > [!note|right]
     > [!note right]
    */
-.callout-style-4.callout:is([data-callout-metadata*="left"],
+.callout.callout:is([data-callout-metadata*="left"],
 [data-callout*=left]) {
   float: left !important;
   margin: unset;
 }
-.callout-style-4.callout:is([data-callout-metadata*="right"],
+.callout.callout:is([data-callout-metadata*="right"],
 [data-callout*=right]) {
   float: right !important;
   margin: unset;
 }
 
-.callout-style-4.callout:is([data-callout-metadata*="center"],
+.callout.callout:is([data-callout-metadata*="center"],
 [data-callout*=center]) {
   display: block;
   margin: auto;
   float: unset ;
   text-align: center;
 }
-/* ============块内元素不换行============ */
+/* ===块内元素不换行============ */
 .callout.callout:is([data-callout-metadata*='nowrap'],
 [data-callout*='nowrap']) {
   max-width: unset !important;
