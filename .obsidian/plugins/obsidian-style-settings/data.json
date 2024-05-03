@@ -665,7 +665,7 @@
   "Components@@new-tab-image": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404241740939.png\")",
   "Appearance-dark@@background-mod-root-split-dark": "#2A2825",
   "Editor@@codeblock-style-select": "codeblock-style-one-dark",
-  "Editor@@callout-style-select": "callout-style-4",
+  "Editor@@callout-style-select": "callout-style-customize",
   "Editor@@callout-content-radius": "2px",
   "Appearance-dark@@color-accent-dark": "#EFB78D",
   "Appearance-dark@@color-accent-hsl-dark": "#EFB78D"

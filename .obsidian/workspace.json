@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -296,7 +296,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
