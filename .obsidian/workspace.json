@@ -50,8 +50,17 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "90ff3f23445704b0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +128,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,9 +205,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +261,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +277,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,10 +310,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "90ff3f23445704b0",
   "lastOpenFiles": [
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "300-以影像之/300-以影像之.md",
+    "000-箱的构造/常用工具.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集~.md",
     "300-以影像之/303-角色剧情/303-角色剧情.md",
@@ -317,7 +325,6 @@
     "000-箱的构造/templates/剧情章节-角色.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
-    "300-以影像之/300-以影像之.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
@@ -331,9 +338,6 @@
     "300-以影像之/304-轶事/X·齿轮的意志.md",
     "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
     "200-相从心生/角色心相/漫长悄悄话｜Long Night Talk.md",
-    "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
-    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
-    "000-箱的构造/templates/剧情章节-主线.md",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/头图 齿轮的意志.png",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/封面 直到长夜下旬.png",

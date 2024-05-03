@@ -1,6 +1,6 @@
 {
   "accentColor": "#efb68e",
-  "cssTheme": "Border",
+  "cssTheme": "AnuPpuccin",
   "textFontFamily": "杨任东竹石体,霞鹜文楷",
   "interfaceFontFamily": "Comic Sans MS,手札体-简,杨任东竹石体",
   "monospaceFontFamily": "Fira Code",
@@ -40,6 +40,9 @@
     "[PKMer]sidenote-callout",
     "[AnuPpuccin]彩虹猫猫进度条",
     "[AnuPpuccin]Colorful Frontmatter",
-    "[Blue Topaz]网址图标"
+    "[Blue Topaz]网址图标",
+    "[AnuPpuccin]custom-background",
+    "[AnuPpuccin]custom-rainbow-colors",
+    "[AnuPpuccin]extended-colorschemes"
   ]
 }

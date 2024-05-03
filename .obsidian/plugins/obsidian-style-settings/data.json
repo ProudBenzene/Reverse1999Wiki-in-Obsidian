@@ -547,7 +547,7 @@
   "Components@@file-icon-remove": false,
   "Components@@outline-enhanced": true,
   "Components@@new-tab-btn-select": "new-tab-btn-default",
-  "Components@@new-tab-image-select": "new-tab-image-default",
+  "Components@@new-tab-image-select": "new-tab-image-customize",
   "Components@@immersive-canvas": true,
   "Components@@media-embed-card-border-off": true,
   "Components@@setting-item-title-icon-remove": false,
@@ -601,7 +601,7 @@
   "Editor@@seamless-embeds": true,
   "Folder-Image@@folder-image-radius": 0.1,
   "Components@@Ribbon-autohide": false,
-  "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-CSS-dark",
+  "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-customize-dark",
   "Appearance-dark@@background-underlying-select-dark": "background-underlying-primary-dark",
   "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
   "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "luminosity",
@@ -661,5 +661,7 @@
   "Blue-Topaz-Legacy@@share-thino-style": "share-thino-with-thino-background",
   "Thino@@memos-inputbox": false,
   "Blue-Topaz-Legacy@@thino-modern-primary@@dark": "#312E2E",
-  "Appearance-dark@@accent-dark": "#5F5555"
+  "Appearance-dark@@accent-dark": "#5F5555",
+  "Components@@new-tab-image": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404241740939.png\")",
+  "Appearance-dark@@background-mod-root-split-dark": "#2A2825"
 }
