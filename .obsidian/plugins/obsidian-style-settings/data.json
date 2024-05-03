@@ -573,7 +573,7 @@
   "Appearance-dark@@color-blue-rgb@@dark": "#5496EF",
   "Appearance-dark@@color-purple-rgb@@dark": "#A96AF3",
   "Appearance-dark@@color-pink-rgb@@dark": "#F2B6DE",
-  "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-transparent-dark",
+  "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-customize-dark",
   "Appearance-dark@@workspace-divider-transparent-dark": true,
   "Appearance-dark@@card-highlight-dark": true,
   "Editor@@border-focus-mode": false,
@@ -581,7 +581,7 @@
   "Editor@@hover-indicator-color@@dark": "#EFB68E",
   "Editor@@h1-divider-on": true,
   "Editor@@text-align-justify": true,
-  "Editor@@p-spacing-br": true,
+  "Editor@@p-spacing-br": false,
   "Editor@@bold-color@@dark": "#FF545F",
   "Editor@@bold-color@@light": "#C02F39",
   "Editor@@italic-color@@dark": "#5B96F5",
@@ -673,5 +673,13 @@
   "Editor@@callout-title-size": "\"\"",
   "Editor@@callout-border-opacity": 0.25,
   "Plugin@@Surfing-bookmark-bar-hide": true,
-  "Plugin@@Projects-bg-color": "Projects-bg-color-adapt"
+  "Plugin@@Projects-bg-color": "Projects-bg-color-adapt",
+  "Editor@@inline-title-font": "\"\"",
+  "Editor@@h1-font": "霞鹜文楷 屏幕阅读版",
+  "Editor@@h2-font": "霞鹜文楷 屏幕阅读版",
+  "Editor@@h3-font": "霞鹜文楷 屏幕阅读版",
+  "Editor@@h4-font": "霞鹜文楷 屏幕阅读版",
+  "Editor@@h5-font": "霞鹜文楷 屏幕阅读版",
+  "Editor@@h6-font": "霞鹜文楷 屏幕阅读版",
+  "Appearance-dark@@background-mod-left-split-dark": "#272626"
 }
