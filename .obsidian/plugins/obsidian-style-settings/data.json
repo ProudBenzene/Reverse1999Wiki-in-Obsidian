@@ -568,7 +568,7 @@
   "Appearance-light@@workspace-divider-transparent-light": true,
   "Appearance-dark@@card-layout-open-dark": true,
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-brighter",
-  "Appearance-dark@@accent-dark": "#5F5555",
+  "Appearance-dark@@accent-dark": "#7801D6",
   "Appearance-dark@@accent-color-override-dark": true,
   "Appearance-dark@@color-yellow-rgb@@dark": "#FFDF88",
   "Appearance-dark@@color-blue-rgb@@dark": "#5496EF",
