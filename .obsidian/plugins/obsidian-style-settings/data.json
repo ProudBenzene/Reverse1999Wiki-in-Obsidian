@@ -671,5 +671,6 @@
   "Appearance-dark@@color-accent-hsl-dark": "#EFB78D",
   "Editor@@callout-title-padding": "\"\"",
   "Editor@@callout-content-padding": "\"\"",
-  "Editor@@callout-title-size": "\"\""
+  "Editor@@callout-title-size": "\"\"",
+  "Editor@@callout-border-opacity": 0.25
 }

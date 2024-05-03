@@ -296,8 +296,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,7 +319,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "51a381350868cb1d",
+  "active": "2f0a53885d16ad32",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "测试.md",
