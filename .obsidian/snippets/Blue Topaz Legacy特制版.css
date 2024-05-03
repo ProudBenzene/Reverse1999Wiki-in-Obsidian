@@ -3289,7 +3289,7 @@ body.admonition-bg-color-same .callout-title {
   display: block;
   margin: auto;
   float: unset ;
-  text-align:center;
+  text-align: center;
 }
 /* ===块内元素不换行============ */
 .callout.callout:is([data-callout-metadata*='nowrap'],

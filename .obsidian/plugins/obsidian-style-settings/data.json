@@ -668,5 +668,8 @@
   "Editor@@callout-style-select": "callout-style-customize",
   "Editor@@callout-content-radius": "2px",
   "Appearance-dark@@color-accent-dark": "#EFB78D",
-  "Appearance-dark@@color-accent-hsl-dark": "#EFB78D"
+  "Appearance-dark@@color-accent-hsl-dark": "#EFB78D",
+  "Editor@@callout-title-padding": "\"\"",
+  "Editor@@callout-content-padding": "\"\"",
+  "Editor@@callout-title-size": "\"\""
 }
