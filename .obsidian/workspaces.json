@@ -183,7 +183,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 240
+        "width": 250.5
       },
       "right": {
         "id": "3690d4dad9b484cc",
@@ -309,7 +309,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-05-03T22:43:27+08:00",
+      "mtime": "2024-05-03T22:58:08+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null

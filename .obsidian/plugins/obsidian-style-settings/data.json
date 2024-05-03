@@ -667,6 +667,6 @@
   "Editor@@codeblock-style-select": "codeblock-style-one-dark",
   "Editor@@callout-style-select": "callout-style-4",
   "Editor@@callout-content-radius": "2px",
-  "Appearance-dark@@color-accent-dark": "#EF710C",
-  "Appearance-dark@@color-accent-hsl-dark": "#EF7912"
+  "Appearance-dark@@color-accent-dark": "#EFB78D",
+  "Appearance-dark@@color-accent-hsl-dark": "#EFB78D"
 }
