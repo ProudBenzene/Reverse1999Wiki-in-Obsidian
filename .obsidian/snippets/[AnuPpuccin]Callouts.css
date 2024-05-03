@@ -94,7 +94,7 @@
 .callout[data-callout-metadata*=anp-vanilla-normal]:not([data-callout-metadata*=revert],
 [data-callout=blank-container],
 [data-callout=multi-column]) {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 .anp-callout-vanilla-normal .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-plus],
@@ -104,7 +104,7 @@
 .callout[data-callout-metadata*=anp-vanilla-normal]:not([data-callout-metadata*=revert],
 [data-callout=blank-container],
 [data-callout=multi-column]) > .callout-title {
-  background-color: rgba(var(--callout-color), var(--callout-title-opacity, 0.3)) !important;
+  background-color: rgba(var(--callout-color), var(--callout-title-opacity, 0.3));
 }
 .anp-callout-vanilla-normal .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-plus],
@@ -114,7 +114,7 @@
 .callout[data-callout-metadata*=anp-vanilla-normal]:not([data-callout-metadata*=revert],
 [data-callout=blank-container],
 [data-callout=multi-column]) > .callout-content {
-  background-color: rgb(var(--ctp-mantle), 0.6) !important;
+  background-color: rgb(var(--ctp-mantle), 0.6);
 }
 .anp-callout-vanilla-normal .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-plus],
@@ -131,7 +131,7 @@
 .callout[data-callout-metadata*=anp-vanilla-normal]:not([data-callout-metadata*=revert],
 [data-callout=blank-container],
 [data-callout=multi-column]) > .callout-content {
-  border-left: var(--size-2-3) solid rgb(var(--callout-color)) !important;
+  border-left: var(--size-2-3) solid rgb(var(--callout-color));
 }
 
 .anp-callout-vanilla-plus .callout:not([data-callout-metadata*=anp-sleek],
