@@ -183,7 +183,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 250.5
+        "width": 241
       },
       "right": {
         "id": "3690d4dad9b484cc",
@@ -285,7 +285,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 317.5
+        "width": 318
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -309,7 +309,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-05-04T00:18:28+08:00",
+      "mtime": "2024-05-04T08:12:12+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null
