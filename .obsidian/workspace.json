@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "ae0ee0175ee8627f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/常用工具.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "01a2c60378addfb9",
             "type": "leaf",
             "state": {
@@ -228,18 +240,6 @@
             }
           },
           {
-            "id": "ae0ee0175ee8627f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/常用工具.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e05dbb992a38c77c",
             "type": "leaf",
             "state": {
@@ -279,8 +279,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
