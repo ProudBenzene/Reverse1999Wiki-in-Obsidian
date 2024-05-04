@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "fde85d6e7732ee8b",
+            "id": "f75bfda809c64add",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,49 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "30f8a46f21d6c2dc",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
-          },
-          {
-            "id": "3f6df53d6a9606bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "01a2c60378addfb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95f89cae69831722",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +80,7 @@
             }
           },
           {
-            "id": "11d25f61903aaf0d",
+            "id": "b5939b8753277f6c",
             "type": "leaf",
             "state": {
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
@@ -232,37 +192,7 @@
             }
           },
           {
-            "id": "d6dd006017e640a0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "fdc0f80d69ddfd64",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "test.md"
-              }
-            }
-          },
-          {
-            "id": "cdaf0f6422ff74cd",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "6745c06c5af9eb14",
+            "id": "46ca6ce057b00da0",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -270,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "a0af558e737c8c63",
@@ -338,35 +268,35 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
+      "cmdr:Projects": false,
       "canvas:新建白板": false,
+      "templater-obsidian:Templater": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
+      "cmdr:Style Settings 悬浮面板": false,
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "cmdr:Projects": false,
-      "cmdr:Style Settings 悬浮面板": false,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-memos:Thino": false,
-      "templater-obsidian:Templater": false,
+      "float-search:Search Obsidian In Modal": true,
+      "obsidian42-brat:BRAT": true,
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "30f8a46f21d6c2dc",
+  "active": "46ca6ce057b00da0",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "test.md",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "400-箱外世界/暴雨时间线.md",
     "游戏文件解包说明.md",
     "README.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "测试.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "anu主题配置.zip",
