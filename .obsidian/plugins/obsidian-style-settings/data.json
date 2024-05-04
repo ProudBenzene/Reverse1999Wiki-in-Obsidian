@@ -573,7 +573,7 @@
   "Appearance-dark@@color-blue-rgb@@dark": "#5496EF",
   "Appearance-dark@@color-purple-rgb@@dark": "#A96AF3",
   "Appearance-dark@@color-pink-rgb@@dark": "#F2B6DE",
-  "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-customize-dark",
+  "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-CSS-dark",
   "Appearance-dark@@workspace-divider-transparent-dark": true,
   "Appearance-dark@@card-highlight-dark": true,
   "Editor@@border-focus-mode": false,
@@ -601,9 +601,9 @@
   "Editor@@seamless-embeds": true,
   "Folder-Image@@folder-image-radius": 0.1,
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-customize-dark",
-  "Appearance-dark@@background-underlying-select-dark": "background-underlying-primary-dark",
-  "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202402241600989.jpg\")",
-  "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "luminosity",
+  "Appearance-dark@@background-underlying-select-dark": "background-underlying-CSS-dark",
+  "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\")",
+  "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "soft-light",
   "timeline-callout@@node-automatic-coloring": true,
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00",
   "Blue-Topaz-Legacy@@remove-table-transition": true,
@@ -685,5 +685,7 @@
   "Appearance-dark@@card-shadow-dark": "0 3px 4px 0px rgba(0, 0, 0, 0.05)",
   "Appearance-dark@@color-activated-tab-header-dark": "#EBBB15",
   "Appearance-dark@@color-to-tab-icon-dark": true,
-  "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-tab-style-dark"
+  "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-accent-dark",
+  "Appearance-dark@@background-mod-left-CSS-backdrop-filter-dark": "blur(20px)",
+  "Appearance-dark@@card-border-radius-dark": "8px"
 }
