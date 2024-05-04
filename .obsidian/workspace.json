@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "733a107d0190ced1",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -50,21 +58,9 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "e36efbd462a68910",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -212,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -269,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,8 +292,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5,
-    "collapsed": true
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,8 +315,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "e36efbd462a68910",
+  "active": "733a107d0190ced1",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/常用工具.md",
@@ -349,7 +344,6 @@
     "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
     "300-以影像之/304-轶事/埃里克·美梦后记.md",
     "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
-    "300-以影像之/304-轶事/冬·重返人间.md",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/头图 齿轮的意志.png",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/封面 直到长夜下旬.png",
