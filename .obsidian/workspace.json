@@ -30,23 +30,17 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "fecf2bfa07eee875",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "7ae6b88c13ef814b",
+            "id": "c2996c5a42e6f508",
             "type": "leaf",
             "state": {
               "type": "style-settings",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -332,17 +326,17 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "10a774f97542791d",
+  "active": "c2996c5a42e6f508",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
+    "README.md",
+    "游戏文件解包说明.md",
     "test.md",
+    "000-箱的构造/主页.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "游戏文件解包说明.md",
-    "README.md",
     "测试.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "anu主题配置.zip",

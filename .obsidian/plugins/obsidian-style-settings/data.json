@@ -580,7 +580,7 @@
   "Editor@@line-hover-indicator": true,
   "Editor@@hover-indicator-color@@dark": "#EFB68E",
   "Editor@@h1-divider-on": true,
-  "Editor@@text-align-justify": true,
+  "Editor@@text-align-justify": false,
   "Editor@@p-spacing-br": false,
   "Editor@@bold-color@@dark": "#FF545F",
   "Editor@@bold-color@@light": "#C02F39",
