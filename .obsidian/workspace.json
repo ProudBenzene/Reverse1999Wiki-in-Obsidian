@@ -32,14 +32,6 @@
             }
           },
           {
-            "id": "4ae987467cb9e977",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -72,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -305,8 +297,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5,
-    "collapsed": true
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -329,7 +320,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "4ae987467cb9e977",
+  "active": "c04c0e37bcd41e28",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构造/主页.md",
