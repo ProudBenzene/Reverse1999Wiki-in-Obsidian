@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "8758a394b85c2dc4",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,12 +315,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "8758a394b85c2dc4",
   "lastOpenFiles": [
-    "游戏文件解包说明.md",
-    "000-箱的构造/主页.md",
-    "README.md",
     "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
+    "游戏文件解包说明.md",
+    "README.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "400-箱外世界/暴雨时间线.md",
     "测试.md",
