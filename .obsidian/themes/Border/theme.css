@@ -7788,7 +7788,7 @@ body {
 .callout-style-4.theme-dark {
     --callout-border-width: 0 0 0 4px;
     --callout-border-opacity: 1;
-    --callout-padding: 8px;
+    --callout-padding: 0px;
     --callout-radius: var(--radius-s);
     --callout-title-color: inherit;
     --callout-title-padding: 8px 16px;
