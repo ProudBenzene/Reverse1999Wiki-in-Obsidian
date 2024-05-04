@@ -204,6 +204,36 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "04d06c0edef74b4e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "08e65b135d87885f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "cf75c3170a80ebcc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "test.md"
+              }
+            }
           }
         ],
         "currentTab": 1

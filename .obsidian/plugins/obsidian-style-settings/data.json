@@ -602,6 +602,7 @@
   "Folder-Image@@folder-image-radius": 0.1,
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-CSS-dark",
   "Appearance-dark@@background-underlying-select-dark": "background-underlying-CSS-dark",
+  "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\")",
   "timeline-callout@@node-automatic-coloring": true,
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00",
   "Blue-Topaz-Legacy@@remove-table-transition": true,
@@ -691,7 +692,7 @@
   "Appearance-dark@@background-mod-root-CSS-backdrop-filter-dark": "blur(5px)",
   "Appearance-dark@@mix-blend-mode-on-border-dark": "screen",
   "Appearance-dark@@background-mod-root-CSS-blend-mode-dark": "screen",
+  "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "soft-light, luminosity, hue, luminosity, hard-light, darken",
   "Components@@extra-anim-remove": false,
-  "Editor@@table-width-select": "table-width-default",
-  "Appearance-dark@@background-underlying-CSS-dark": "\"url(\\\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\\\")\""
+  "Editor@@table-width-select": "table-width-default"
 }
