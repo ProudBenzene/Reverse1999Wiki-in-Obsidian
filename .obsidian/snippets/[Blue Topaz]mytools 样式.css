@@ -196,8 +196,12 @@ display: none;
 }
  
 
-/*按钮页面callout之间高度*/
+/*Border主题按钮页面callout之间高度*/
 
-.mytools element.style {
-  height: 10px !important;
+.mytools .callout {
+  margin-top: -10px !important;
+}
+
+.mytools .callout-content {
+  margin-top: -8px !important;
 }
