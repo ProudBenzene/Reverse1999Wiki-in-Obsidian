@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "000-箱的构造/常用工具.md"
               }
             }
           },
@@ -208,36 +208,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "017680646d0f5589",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "6d3c1301d69fe3c0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "889b5b110ac5c731",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
             }
           }
         ],
@@ -285,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,11 +306,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
-    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
     "000-箱的构造/常用工具.md",
     "400-箱外世界/暴雨时间线.md",
     "README.md",
