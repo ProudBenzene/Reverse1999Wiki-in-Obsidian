@@ -1,0 +1,2 @@
+> [!note|center] hello
+> hello
