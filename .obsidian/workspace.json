@@ -50,17 +50,8 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "7253a59512cab973",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -241,7 +235,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           }
         ],
@@ -289,6 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,6 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +336,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "7253a59512cab973",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",

@@ -9248,7 +9248,7 @@ body.memos-inputbox div[data-type=thino_view] .common-editor-wrapper .common-edi
 
 /*****Callout颜色自定义*****/
 /*---------------CALLOUT COLORS----------------*/
-.callout-color-toggle .callout[data-callout=note] {
+/*.callout-color-toggle .callout[data-callout=note] {
   --callout-color: var(--color-blue-rgb);
 }
 .callout-color-toggle .callout[data-callout=abstract], .anp-callout-color-toggle .callout[data-callout=summary], .anp-callout-color-toggle .callout[data-callout=tldr], .anp-callout-color-toggle .callout[data-callout=seealso] {
@@ -9274,7 +9274,7 @@ body.memos-inputbox div[data-type=thino_view] .common-editor-wrapper .common-edi
 }
 .callout-color-toggle .callout[data-callout=quote], .anp-callout-color-toggle .callout[data-callout=cite] {
   --callout-color: var(--color-surface2-rgb);
-}
-.callout-color-toggle.anuppuccin-accent-toggle .callout[data-callout=note] {
-  --callout-color: var(--color-accent);
+}*/
+.callout-color-toggle .callout[data-callout=note] {
+  --callout-color: var(--accent-color-dark);
 }
