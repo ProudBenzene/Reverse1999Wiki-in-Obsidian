@@ -696,5 +696,6 @@
   "Components@@extra-anim-remove": false,
   "Editor@@table-width-select": "table-width-default",
   "Appearance-dark@@background-secondary@@dark": "#262626",
-  "Appearance-dark@@background-primary@@dark": "#312E2E"
+  "Appearance-dark@@background-primary@@dark": "#312E2E",
+  "Blue-Topaz-Legacy@@callout-color-toggle": true
 }
