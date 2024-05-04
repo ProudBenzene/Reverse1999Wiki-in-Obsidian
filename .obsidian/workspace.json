@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "c04c0e37bcd41e28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -62,9 +50,17 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "35f49016aed85778",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +128,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -211,9 +205,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md"
-              }
+              "state": {}
             }
           },
           {
@@ -269,7 +261,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +277,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,17 +310,21 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c04c0e37bcd41e28",
+  "active": "35f49016aed85778",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构造/主页.md",
+    "300-以影像之/304-轶事/304-轶事.md",
+    "300-以影像之/303-角色剧情/303-角色剧情.md",
+    "200-相从心生/200-相从心生.md",
+    "游戏文件解包说明.md",
+    "README.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
     "400-箱外世界/暴雨时间线.md",
-    "README.md",
     "test.md",
-    "游戏文件解包说明.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "测试.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
@@ -338,8 +332,6 @@
     "300-以影像之/300-以影像之.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集~.md",
-    "300-以影像之/303-角色剧情/303-角色剧情.md",
-    "300-以影像之/304-轶事/304-轶事.md",
     "000-箱的构造/templates/剧情章节-角色.md",
     "000-箱的构造/箱中memos/20240411-aefb1c0c157c2174.md",
     "000-箱的构造/templates/剧情章节-轶事.md",
@@ -347,8 +339,6 @@
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
     "200-相从心生/角色心相/敲响这窄门｜Knock on the Door.md",
-    "300-以影像之/304-轶事/埃里克·美梦后记.md",
-    "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/头图 齿轮的意志.png",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/封面 直到长夜下旬.png",
