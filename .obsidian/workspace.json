@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "733a107d0190ced1",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -315,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "733a107d0190ced1",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",

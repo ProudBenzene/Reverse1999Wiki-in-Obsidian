@@ -694,5 +694,7 @@
   "Appearance-dark@@background-mod-root-CSS-blend-mode-dark": "screen",
   "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "soft-light, luminosity, hue, luminosity, hard-light, darken",
   "Components@@extra-anim-remove": false,
-  "Editor@@table-width-select": "table-width-default"
+  "Editor@@table-width-select": "table-width-default",
+  "Appearance-dark@@background-secondary@@dark": "#262626",
+  "Appearance-dark@@background-primary@@dark": "#312E2E"
 }
