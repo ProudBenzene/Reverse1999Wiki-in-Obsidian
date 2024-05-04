@@ -58,9 +58,17 @@
               "type": "style-settings",
               "state": {}
             }
+          },
+          {
+            "id": "6442dde60ec67f8a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -310,7 +318,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "35f49016aed85778",
+  "active": "6442dde60ec67f8a",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/304-轶事.md",
