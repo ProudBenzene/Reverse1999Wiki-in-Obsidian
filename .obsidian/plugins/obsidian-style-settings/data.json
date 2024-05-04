@@ -686,7 +686,7 @@
   "Appearance-dark@@color-activated-tab-header-dark": "#EBBB15",
   "Appearance-dark@@color-to-tab-icon-dark": true,
   "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-accent-dark",
-  "Appearance-dark@@background-mod-left-CSS-backdrop-filter-dark": "blur(20px)",
+  "Appearance-dark@@background-mod-left-CSS-backdrop-filter-dark": "blur(5px)",
   "Appearance-dark@@card-border-radius-dark": "8px",
   "Appearance-dark@@mod-right-split-background-select-dark": "mod-right-split-background-CSS-dark"
 }
