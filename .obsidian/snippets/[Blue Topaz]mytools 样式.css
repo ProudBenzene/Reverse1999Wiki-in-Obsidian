@@ -199,9 +199,9 @@ display: none;
 /*Border主题按钮页面callout之间高度*/
 
 .mytools .callout {
-  margin-top: -10px !important;
+  margin-top: -8px !important;
 }
 
 .mytools .callout-content {
-  margin-top: -8px !important;
+  margin-top: -6px !important;
 }
