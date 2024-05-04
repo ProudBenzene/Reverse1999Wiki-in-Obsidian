@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 318
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,6 +308,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/常用工具.md",
     "400-箱外世界/暴雨时间线.md",
@@ -316,7 +318,6 @@
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "测试.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "anu主题配置.zip",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
@@ -334,7 +335,6 @@
     "300-以影像之/304-轶事/帕米埃·直到长夜下旬.md",
     "300-以影像之/304-轶事/冬·重返人间.md",
     "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
-    "200-相从心生/角色心相/茶歇时间｜Tea Break.md",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets/头图 齿轮的意志.png",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
     "300-以影像之/304-轶事/assets/帕米埃·直到长夜下旬.assets/封面 直到长夜下旬.png",

@@ -1,13 +1,13 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/十四行诗｜Sonetto.assets",
+  "attachmentFolderPath": "./assets/主页.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "readableLineLength": false,
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
