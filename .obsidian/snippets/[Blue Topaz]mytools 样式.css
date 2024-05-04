@@ -198,6 +198,6 @@ display: none;
 
 /*按钮页面callout之间高度*/
 
-element.style {
-  height: 20px;
+.mytools element.style {
+  height: 10px !important;
 }
