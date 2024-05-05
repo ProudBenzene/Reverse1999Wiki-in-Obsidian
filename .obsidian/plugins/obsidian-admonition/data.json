@@ -283,7 +283,7 @@
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,
-  "useSnippet": false,
+  "useSnippet": true,
   "snippetPath": "custom-admonitions.c9c6cb",
   "syncLinks": false,
   "allowMSSyntax": true,

@@ -1480,13 +1480,6 @@ settings:
       type: class-toggle
       default: false
     -
-      id: callout-color-toggle
-      title: Callout Color Toggle
-      title.zh: callout颜色自定义
-      description.zh: 自选Callout颜色
-      type: class-toggle
-      default: false
-    -
       id: style-options-for-admonition-plugin
       title: Admonition special style support
       title.zh: 是否开启Admonition特别样式支持
@@ -9244,39 +9237,4 @@ body.memos-inputbox div[data-type=thino_view] .common-editor-wrapper .common-edi
 .memo-context-menu{
   background-color:var(--bg-color-settings-0-1);
   backdrop-filter: blur(10px);
-}
-
-/*****Callout颜色自定义*****/
-/*---------------CALLOUT COLORS----------------*/
-/*.callout-color-toggle .callout[data-callout=note] {
-  --callout-color: var(--color-blue-rgb);
-}
-.callout-color-toggle .callout[data-callout=abstract], .anp-callout-color-toggle .callout[data-callout=summary], .anp-callout-color-toggle .callout[data-callout=tldr], .anp-callout-color-toggle .callout[data-callout=seealso] {
-  --callout-color: var(--color-blue-rgb);
-}
-.callout-color-toggle .callout[data-callout=info], .anp-callout-color-toggle .callout[data-callout=todo], .anp-callout-color-toggle .callout[data-callout=tip], .anp-callout-color-toggle .callout[data-callout=hint], .anp-callout-color-toggle .callout[data-callout=important] {
-  --callout-color: var(--color-teal-rgb);
-}
-.callout-color-toggle .callout[data-callout=success], .anp-callout-color-toggle .callout[data-callout=check], .anp-callout-color-toggle .callout[data-callout=done], .anp-callout-color-toggle .callout[data-callout=question], .anp-callout-color-toggle .callout[data-callout=help], .anp-callout-color-toggle .callout[data-callout=faq] {
-  --callout-color: var(--color-green-rgb);
-}
-.callout-color-toggle .callout[data-callout=warning], .anp-callout-color-toggle .callout[data-callout=caution], .anp-callout-color-toggle .callout[data-callout=attention] {
-  --callout-color: var(--color-yellow-rgb);
-}
-.callout-color-toggle .callout[data-callout=failure], .anp-callout-color-toggle .callout[data-callout=fail], .anp-callout-color-toggle .callout[data-callout=missing] {
-  --callout-color: var(--color-maroon-rgb);
-}
-.callout-color-toggle .callout[data-callout=danger], .anp-callout-color-toggle .callout[data-callout=error], .anp-callout-color-toggle .callout[data-callout=bug] {
-  --callout-color: var(--color-red-rgb);
-}
-.callout-color-toggle .callout[data-callout=example] {
-  --callout-color: var(--color-mauve-rgb);
-}
-.callout-color-toggle .callout[data-callout=quote], .anp-callout-color-toggle .callout[data-callout=cite] {
-  --callout-color: var(--color-surface2-rgb);
-}*/
-body.callout-color-toggle .callout[data-callout=note] {
-  --callout-color: var(--color-accent-dark);
-  color: var(--callout-color);
-  background-color: rgba(var(--callout-color), 0.1);
 }
