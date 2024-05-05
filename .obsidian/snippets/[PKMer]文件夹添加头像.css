@@ -48,7 +48,7 @@ div[data-type="file-explorer"] > div.nav-header::after {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
   height: var(--folder-image-height);
   width: var(--folder-image-width);

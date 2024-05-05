@@ -599,7 +599,6 @@
   "Plugin@@colorful-checkbox": true,
   "Editor@@img-center-align": true,
   "Editor@@seamless-embeds": true,
-  "Folder-Image@@folder-image-radius": 0.1,
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-CSS-dark",
   "Appearance-dark@@background-underlying-select-dark": "background-underlying-CSS-dark",
   "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\")",
@@ -697,5 +696,6 @@
   "Editor@@table-width-select": "table-width-default",
   "Appearance-dark@@background-secondary@@dark": "#262626",
   "Appearance-dark@@background-primary@@dark": "#312E2E",
-  "Blue-Topaz-Legacy@@callout-color-toggle": true
+  "Blue-Topaz-Legacy@@callout-color-toggle": true,
+  "Folder-Image@@folder-image-radius": 0.2
 }
