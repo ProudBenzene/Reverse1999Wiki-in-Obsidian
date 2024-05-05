@@ -50,9 +50,17 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "1d2bea6d385fe480",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -330,7 +338,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "1d2bea6d385fe480",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
