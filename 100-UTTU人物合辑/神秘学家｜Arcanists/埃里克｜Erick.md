@@ -1,10 +1,10 @@
 ---
-Name: <% tp.file.title.split("｜")[0] %>
-exonym: <% tp.file.title.split("｜")[1] %>
+Name: 埃里克
+exonym: Erick
 tags: 
 cssclasses:
   - book
-人物合辑: <% tp.file.folder() %>
+人物合辑: 神秘学家｜Arcanists
 介质: 
 星级: ✦✦✦✦
 灵感: 
@@ -20,21 +20,21 @@ Udimo:
 初始衣着: 
 洞悉本色: 
 aliases:
-  - <% tp.file.title.split("｜")[0] %>
-  - <% tp.file.title.split("｜")[1] %>
-初始立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 01.png]]'
-本色立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 02.png]]'
+  - 埃里克
+  - Erick
+初始立绘: "[[立绘 埃里克 01.png]]"
+本色立绘: "[[立绘 埃里克 02.png]]"
 生日: 
 banner_header: "{{filename}}"
 出场章节:
 ---
-
+![cover](assets/埃里克｜Erick.assets/立绘%20埃里克%2002.png)
 
 > [!overview]+ 概述
-> - 展出/活跃时代:: 
-> - 诞生:: 
-> - 参展时长:: 
-> - 展出/参展地点:: 
+> - 展出/活跃时代:: 20 世纪 80 年代
+> - 诞生:: 5 月 14 日夏
+> - 参展时长:: 12 年
+> - 展出/参展地点:: 挪威王国卑尔根地区，曾试图巡展于世界各地
 
 > [!udimo]- 尤提姆
 > 
@@ -164,7 +164,7 @@ tab: ｜
 tab: ｜
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×<% tp.file.title.split("｜")[0] %>]
+tab: ｜[UTTU×埃里克]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
