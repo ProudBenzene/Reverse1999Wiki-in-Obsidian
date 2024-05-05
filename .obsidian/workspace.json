@@ -50,17 +50,8 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "1d2bea6d385fe480",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -213,34 +207,6 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "810807f855b88958",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "024be2c4681eea35",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "8ba0839503b6eaef",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
               "state": {}
             }
           }
@@ -289,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "1d2bea6d385fe480",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
