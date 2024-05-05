@@ -106,7 +106,7 @@ settings:
 	/* .export-image-preview-container, */
 	&.anp-bg-fix .app-container {
 		background: var(
-			--anp-background-image,
+			--anp-background-image-dark,
 			url("https://i.redd.it/m23bwh4n0x151.png")
 		);
 		background-size: cover;

@@ -640,7 +640,6 @@
   "crearts@@skins-dark": "skin-dark-default",
   "crearts@@neumorphism": true,
   "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-dark": 0.6,
-  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 2,
   "Mo-Table@@tbMH-MCXS-MS": true,
   "blue-topaz-theme@@memos-inputbox": false,
   "blue-topaz-theme@@memos-hide-header": false,
@@ -697,5 +696,6 @@
   "Appearance-dark@@background-secondary@@dark": "#262626",
   "Appearance-dark@@background-primary@@dark": "#312E2E",
   "Blue-Topaz-Legacy@@callout-color-toggle": true,
-  "Folder-Image@@folder-image-radius": 0.2
+  "Folder-Image@@folder-image-radius": 0.2,
+  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 3
 }
