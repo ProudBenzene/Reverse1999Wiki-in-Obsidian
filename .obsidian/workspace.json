@@ -326,7 +326,7 @@
                   "state": {
                     "file": "100-UTTU人物合辑/神秘学家｜Arcanists/埃里克｜Erick.md",
                     "mode": "source",
-                    "source": true
+                    "source": false
                   }
                 }
               }
@@ -340,23 +340,54 @@
         "height": 1055,
         "maximize": false,
         "zoom": 0
+      },
+      {
+        "id": "849d62db711626ab",
+        "type": "window",
+        "children": [
+          {
+            "id": "5124d97867c63442",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "946659d3ebcca9ae",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2473,
+        "y": 0,
+        "width": 928,
+        "height": 995,
+        "maximize": false,
+        "zoom": 0
       }
     ]
   },
   "active": "395ea32051e8a334",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/埃里克｜Erick.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/单品 埃里克 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/单品 埃里克 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/单品 埃里克 03.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/埃里克｜Erick.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/至终的仪式 荣耀归于维京主.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/神秘术 沉重战斧3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/三阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/神秘术 木质龙船3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/神秘术 木质龙船1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/神秘术 木质龙船2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets/神秘术 沉重战斧2.png",
     "300-以影像之/304-轶事/埃里克·美梦后记.md",
     "000-箱的构造/主页.md",
     "测试.md",

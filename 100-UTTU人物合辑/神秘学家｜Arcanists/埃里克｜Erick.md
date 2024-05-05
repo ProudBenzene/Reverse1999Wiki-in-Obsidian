@@ -145,11 +145,9 @@ tab: 约翰·安德森的信箱｜John Anderson's Mailbox
 3月15日 《威顿便利店的账单》
 
 寄 尼克街道 147号
-
 约翰·安德森警长 收
 
 埃里克第九个“掠夺周”
-
 ▪ 扭扭糖 40.3 Kr
 ▪ 曲奇饼 70.5 Kr
 ▪ 橡皮擦   4.0 Kr
@@ -160,13 +158,10 @@ tab: 约翰·安德森的信箱｜John Anderson's Mailbox
 约翰·安德森：
 
    我要回松娜峡湾的旧屋子一段时间，看好小埃里克，别让她把臂环摘下来。
+（请告诉她，外公前去劫掠了。）
 
-   （请告诉她，外公前去劫掠了。）
+哈拉尔
 
-                                         哈拉尔
-
-
-      
 
 4月8日 《小纸条》
 
@@ -176,22 +171,69 @@ tab: 约翰·安德森的信箱｜John Anderson's Mailbox
 
    等待您的归来……
 
-                                    您忠诚的大副
-
-                                          亨利
-
-
+您忠诚的大副
+亨利
 
 4月10日 《静水湖公园失窃通告》
 
 我园近日遗失一辆鸭子船，有目击者称曾在尼克街道见过该鸭子船，望偷窃者早日返还！
 
-tab: ｜[UTTU×埃里克]
+tab: 被背叛的领主｜[UTTU×埃里克]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+
+白雪松：很高兴见到你，小埃里克。
+**埃里克：嘿，别带“小”，我的斧头可比你的手臂还长！**
+白雪松：很好……悉听尊便。
+白雪松：请听这个问题。是什么……让您决定要在20世纪重现祖先维京人的事迹？
+**埃里克：为了荣耀和英灵殿！**
+白雪松：……请让我说得更简单一些——您是出于什么动机，“掠夺”了静水湖公园的财产，鸭子船？
+**埃里克：……为了荣耀和英灵殿！**
+白雪松：您似乎不愿意正面回答我的问题。
+**埃里克：领……领主不会暴露自己的恢弘计划！**
+白雪松：但我了解到，您的大副，已经在学校办公室向老师交代了您的计划。
+**埃里克：该死……胆小鬼亨利。如果不是当初他帮我写过作业……**
+白雪松：是的，他也交代了这个。
 
 ````
 
 ## 语音
+
+|          情景          |                                                                                                                                                           语音                                                                                                                                                           |
+| :------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                                                    感谢你成为我的船员～好了！现在，马上滚到船屁股后边儿，让船动起来！别偷懒！<br><br>Welcome to sail with us! Well, now, go to the back of the ship and make it move! Don't be dawdling!                                                                                    |
+|         箱中气候         |                                                                                               咳咳！在晒伤之前，我或许该去维京酒吧找安迪老头喝一杯……<br><br>Ahem! Before I get sunburnt, I should go to the Viking's Bar and drink with Old Andy …                                                                                               |
+|  致未来  <br>信任达到10%解锁  |                                   总有一天，整个静水湖小学都将成为我的领地！我要让打小报告的杰克去冲洗厕所，至于维京俱乐部的威廉老师，他将成为我的大副……<br><br>One day, I shall make the Stillwater Lake School my territory! Jack, that tattletale, will be flushing the toilet, and Mr Williams of the Viking Club will be my first mate …                                    |
+|          孑立          |                                                                                              嗨、嗨？人都去哪了？勇敢的埃里克可不怕一个人……<br><br>Hey, heeeey? Where are all the people? Erick the Fearless is not afraid of standing alone …                                                                                               |
+|          问候          |                                                                                       见到我，你就要蹲下来。不准让我仰起头看你，这对领主来说有失尊敬！<br><br>Squat down when you are before me. Do not make me look up. That's so very disrespectful to a Lord!                                                                                       |
+|          朝晨          |                                                                                                    睁大眼睛，打起精神！英灵殿不欢迎懒惰的瞌睡虫。<br><br>Keep your eyes open and get it together! Valhalla does not welcome sleepy heads.                                                                                                     |
+| 信任-朝晨  <br>信任达到20%解锁 |                                                                                                         糟了！作业！我的家庭作业——我还一个字都没写呢！<br><br>Oh, shoot! The homework! My homework … I haven't written anything yet!                                                                                                         |
+|          夜暮          |                                                                                                              我要先睡了，有什么掠夺计划明天再说吧……<br><br>I'm going to bed now. Any raiding plans can wait till tomorrow …                                                                                                              |
+| 信任-夜暮  <br>信任达到30%解锁 |                                                                         过来，我的船员！让我给你讲讲，我妈妈拉葛莎独自打败两只棕熊的荣誉事迹……<br><br>Gather around, brothers and sisters! Let me tell you the legend of my mother Lagertha who defeated two bears on her own …                                                                          |
+|        帽檐与发鬓         |                                                                                    我发过一个誓……在我的长船开到海上之前，我绝对不会剪我的头发。<br><br>I've taken an oath … Until the day my longship sets sail to the sea, I will never, ever get my hair cut.                                                                                     |
+|         袖与手          |                                                                                      别牵我！除非你要把我从海崖拉上来，或者，要带我去海上乐园……<br><br>Don't touch me! Unless you are going to pull me up from the cliff, or, take me to the Ocean Funland …                                                                                       |
+|        衣着与身形         |                                                                                      看上什么了？放心，只要你在船队好好干，你也会拥有这些的！<br><br>Like what you see? Worry not, you will also be rewarded with these if you stay long enough in the fleet!                                                                                      |
+|  嗜好  <br>信任达到40%解锁   |                                                          我只在照片里见过她，哈拉尔说她像索尔一样勇猛，如西芙女神般动人。她一定会是瓦尔哈拉里最美丽的女武神。<br><br>I've only seen her in the photos. Harald said she has Thor's courage and Sif's charm. She must be the most beautiful Valkyrie in Valhalla.                                                          |
+|  赞赏  <br>信任达到50%解锁   |                                                                         你的勇气令我对你刮目相看。我决定任命你为舵手，并且将公园空地的管理权交给你！<br><br>Your courage impressed me. I will appoint you to be my helmsman, and put you in command of that open space in the park!                                                                          |
+|  亲昵  <br>信任达到60%解锁   |                                                                  明天是学校的“最佳朋友日”，我已经邀请你了，你可不能作为其他人的朋友去参加！<br><br>Tomorrow is "Best Friends Day" at school. Now that I have given you my invitation, you are not allowed to present as another's friend!                                                                  |
+|         闲谈Ⅰ          |                                             那个叫十四行诗的家伙，似乎是一位吟游诗人……我正缺人传颂我的伟大事迹——哼哼，没有人会拒绝一整箱扭扭糖！<br><br>That Sonetto girl, I heard that she's a skald … I happen to need someone to sing my legends across the lands … Hmph, no one can turn down a full box of Twizzlers!                                             |
+|         闲谈Ⅱ          |                                             老约翰想让我戴上臂环，那样我就会变成一个需要他保护的小女孩儿了！我才不会依靠他！我要成为像妈妈那样的战士。<br><br>Old John wants to put that arm ring on me, so that I will become a little girl who needs his protection! But I will not! I will become a warrior like my mother.                                              |
+|  独白  <br>信任达到70%解锁   | 我的妈妈是最美、最强大的女武神，而我是大陆与海洋上最强、最勇敢的维京战士。当我前往瓦尔哈拉的那天，她会穿着最美丽的铠甲来迎接我……<br><br>My mother is the strongest and most beautiful Valkyrie, and I am the strongest and bravest Viking across all the lands and seas. When my day comes, she will ride across the sky in her finest armor, taking me to sup in Odin's great hall … |
+|          入队          |                                                                                                                                 准备好让他们屁滚尿流了吗？<br><br>Ready to show them a good fight?                                                                                                                                  |
+|          战前          |                                                                                                                                要么吃亏，要么吃斧头！<br><br>Suffer the loss, or suffer the notch!                                                                                                                                |
+|        择选咒语Ⅰ         |                                                                                                                                                    好耶！<br><br>Yay!                                                                                                                                                     |
+|        择选咒语Ⅱ         |                                                                                                                                      斧子说它准备好啦！<br><br>The axe told me it's ready!                                                                                                                                      |
+|        择选高阶咒语        |                                                                                                                                            偷袭准备！<br><br>Prepare to engage!                                                                                                                                             |
+|       择选至终的仪式        |                                                                                                                              扬帆，谁也挡不住我们～<br><br>Hoist the sails! We will not be stopped!                                                                                                                               |
+|        释放神秘术Ⅰ        |                                                                                                                                              尝尝这个！<br><br>How about this!                                                                                                                                              |
+|        释放神秘术Ⅰ        |                                                                                                                                              维京魔术！<br><br>A Viking trick!                                                                                                                                              |
+|        释放神秘术Ⅱ        |                                                                                                                                                船员们——！<br><br>Rowers …!                                                                                                                                                 |
+|        释放神秘术Ⅱ        |                                                                                                                                          长船的魄力！<br><br>Power of the Longship!                                                                                                                                          |
+|       召唤至终的仪式        |                                                                                                            你们将承受海的狂怒！就像……生气的老师一样！<br><br>The rage of the sea will claim you! Like … the anger of a teacher!                                                                                                            |
+|         受敌Ⅰ          |                                                                                                                                                    嘶！<br><br>Hiss!                                                                                                                                                     |
+|         受敌Ⅱ          |                                                                                                                                                 我没事！<br><br>I'm okay!                                                                                                                                                  |
+|         战斗胜利         |                                                                                                               跨过这些家伙，埃里克领主自此开始了她的史诗之路！<br><br>As they fell, Lord Erick embarks on her legendary journey!                                                                                                               |
+|    洞悉  <br>洞悉后解锁     |                                                                                                  谢谢你的进贡！埃里克领主会考虑给你追封领地的！<br><br>Thank you for paying the tribute! Lord Erick will promise you more lands and wealth!                                                                                                   |
+|  洞悉之底  <br>获得对应衣着解锁  |                                                                                    乘风破浪，埃里克领主即将启航！——要上厕所的家伙抓紧了。<br><br>Riding the winds and waves, Lord Erick is setting out for her great journey! … If you need the loo, go now.                                                                                     |
 
 [^1]: ==反制== 赋予持续的反制状态，被攻击时触发效果
 [^2]: ==控制== 无法使用攻击类咒语
