@@ -12,6 +12,7 @@
 .markdown-preview-view.mytools
 {
   padding: 0px auto !important;
+  margin-top: -12px;
 }
 
 .markdown-preview-view.mytools .markdown-preview-section
@@ -199,9 +200,9 @@ display: none;
 /*Border主题按钮页面callout之间高度*/
 
 .mytools .callout {
-  margin-top: -10px !important;
+  margin-top: -12px !important;
 }
 
 .mytools .callout-content {
-  margin-top: -6px !important;
+  margin-top: -10px !important;
 }
