@@ -600,7 +600,7 @@
   "Editor@@img-center-align": true,
   "Editor@@seamless-embeds": true,
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-CSS-dark",
-  "Appearance-dark@@background-underlying-select-dark": "background-underlying-CSS-dark",
+  "Appearance-dark@@background-underlying-select-dark": "background-underlying-default-dark",
   "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\")",
   "timeline-callout@@node-automatic-coloring": true,
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00",

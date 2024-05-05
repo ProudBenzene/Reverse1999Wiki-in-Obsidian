@@ -9276,6 +9276,6 @@ body.memos-inputbox div[data-type=thino_view] .common-editor-wrapper .common-edi
   --callout-color: var(--color-surface2-rgb);
 }*/
 body.callout-color-toggle .callout[data-callout=note] {
-  --callout-color: var(--color-accent-dark);
+  callout-color: var(--color-accent-dark);
   color: var(--callout-color);
 }
