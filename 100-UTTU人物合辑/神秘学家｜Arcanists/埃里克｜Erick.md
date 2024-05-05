@@ -32,6 +32,7 @@ aliases:
 生日: 2024-05-14
 banner_header: "{{filename}}"
 出场章节:
+  - 埃里克·美梦后记
 ---
 ![cover](assets/埃里克｜Erick.assets/立绘%20埃里克%2002.png)
 
