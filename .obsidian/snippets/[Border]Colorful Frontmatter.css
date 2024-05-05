@@ -1,0 +1,39 @@
+.metadata-property:not([data-property-key="tags"]) .multi-select-pill {
+    --icon-rgb: var(--color-base);
+    --icon-size: var(--icon-xs);
+    --icon-stroke: var(--icon-xs-stroke-width);
+    --pill-background: rgba(var(--icon-rgb), 0.3);
+    --pill-background-hover: rgba(var(--icon-rgb), 0.4);
+    --pill-radius: 2px;
+    --pill-color: var(--text-normal);
+    --pill-color-hover: var(--text-normal);
+    --cursor: pointer;
+    padding: var(--pill-padding-y) var(--size-2-2);
+}
+.metadata-property:not([data-property-key="tags"]) .multi-select-pill-remove-button {
+    --pill-remove-color: var(--text-normal);
+    --pill-remove-color-hover: var(--text-normal);
+    --icon-stroke: 3;
+    --icon-size: 12px;
+}
+.metadata-property .multi-select-pill:nth-child(11n+1) {--icon-rgb: var(--color-red);}
+.metadata-property .multi-select-pill:nth-child(11n+2) {--icon-rgb: var(--color-peach);}
+.metadata-property .multi-select-pill:nth-child(11n+3) {--icon-rgb: var(--color-yellow);}
+.metadata-property .multi-select-pill:nth-child(11n+4) {--icon-rgb: var(--color-green);}
+.metadata-property .multi-select-pill:nth-child(11n+5) {--icon-rgb: var(--color-cyan);}
+.metadata-property .multi-select-pill:nth-child(11n+6) {--icon-rgb: var(--color-sky);}
+.metadata-property .multi-select-pill:nth-child(11n+7) {--icon-rgb: var(--color-sapphire);}
+.metadata-property .multi-select-pill:nth-child(11n+8) {--icon-rgb: var(--color-blue);}
+.metadata-property .multi-select-pill:nth-child(11n+9) {--icon-rgb: var(--color-lavender);}
+.metadata-property .multi-select-pill:nth-child(11n+10) {--icon-rgb: var(--color-mauve);}
+.metadata-property .multi-select-pill:nth-child(11n) {--icon-rgb: var(--color-pink);}
+
+.metadata-property .multi-select-pill .multi-select-pill-remove-button {
+    max-width: 0;
+    opacity: 0;
+}
+.metadata-property .multi-select-pill:hover .multi-select-pill-remove-button {
+    max-width: 100%;
+    opacity: 1;
+    transition: opacity 0.2s;
+}

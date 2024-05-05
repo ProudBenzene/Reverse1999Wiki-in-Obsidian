@@ -4466,7 +4466,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 .callout[data-callout-metadata*=anp-vanilla-normal]:not([data-callout-metadata*=revert],
 [data-callout=blank-container],
 [data-callout=multi-column]) > .callout-content {
-  background-color: rgb(var(--ctp-mantle), 0.6);
+  background-color: rgb(var(--ctp-mantle), 0.1);
 }
 .anp-callout-vanilla-normal .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-plus],
