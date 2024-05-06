@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/常用工具.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,11 +306,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/单品 小梅斯梅尔 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/单品 小梅斯梅尔 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/单品 小梅斯梅尔 03.png",
@@ -326,7 +327,6 @@
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱中memos/20240402-52af032179abebcd.md",
     "游戏文件解包说明.md",
