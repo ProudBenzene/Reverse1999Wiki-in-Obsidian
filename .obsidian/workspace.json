@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
+                "file": "000-箱的构造/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md"
+                "file": "000-箱的构造/常用工具.md"
               }
             }
           },
@@ -256,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
+                "file": "000-箱的构造/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
+                "file": "000-箱的构造/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,63 +306,25 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "floating": {
-    "id": "e31f849f2ed2d373",
-    "type": "floating",
-    "children": [
-      {
-        "id": "94edd8c0b1c7c7cf",
-        "type": "window",
-        "children": [
-          {
-            "id": "ff21cd038ea7e27f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "281ef826a160430f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1512,
-        "y": -23,
-        "width": 960,
-        "height": 1055,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "281ef826a160430f",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/单品 小梅斯梅尔 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/单品 小梅斯梅尔 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/单品 小梅斯梅尔 03.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/至终的仪式 人工梦游疗法.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 抑制握环1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 抑制握环2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 抑制握环3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 透体磁流3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 透体磁流2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 透体磁流1.png",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/埃里克｜Erick.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "400-箱外世界/暴雨时间线.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/memos.thino.md",
