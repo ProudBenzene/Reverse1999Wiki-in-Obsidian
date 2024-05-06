@@ -3,7 +3,7 @@ Name: <% tp.file.title.split("｜")[0] %>
 exonym: <% tp.file.title.split("｜")[1] %>
 tags: 
 cssclasses:
-  - book
+  - role
 人物合辑: <% tp.file.folder() %>
 介质: 
 星级: ✦✦✦✦

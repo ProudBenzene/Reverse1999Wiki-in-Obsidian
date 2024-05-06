@@ -1,27 +1,27 @@
-.book .cm-scroller {
+.role .cm-scroller {
 padding-left: 10% !important;
 padding-right: 10% !important;
 } 
 
-.book .cm-sizer,
-.book .markdown-preview-sizer {
+.role .cm-sizer,
+.role .markdown-preview-sizer {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
 
-.book .inline-title {
+.role .inline-title {
     display: none;
 }
 
-.book img[alt="cover"] {
+.role img[alt="cover"] {
     display: inline !important;
     width: 350px;
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
    }
 
-.book.is-live-preview .metadata-container,
-.book.markdown-preview-view .metadata-container,
+.role.is-live-preview .metadata-container,
+.role.markdown-preview-view .metadata-container,
 .export-image-preview-container.markdown-preview-view .metadata-container {
     position: absolute;
     display: block;

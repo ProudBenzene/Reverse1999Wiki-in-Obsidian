@@ -3,7 +3,7 @@ Name: 埃里克
 exonym: Erick
 tags: 
 cssclasses:
-  - book
+  - role
 人物合辑: 神秘学家｜Arcanists
 介质: 故事书
 星级: ✦✦✦✦

@@ -3,7 +3,7 @@ Name: 小梅斯梅尔
 exonym: Mesmer Jr.
 tags: 
 cssclasses:
-  - book
+  - role
 人物合辑: 神秘学家｜Arcanists
 介质: 
 星级: ✦✦✦✦
@@ -22,8 +22,8 @@ Udimo:
 aliases:
   - 小梅斯梅尔
   - Mesmer Jr.
-初始立绘: '[[立绘 小梅斯梅尔 01.png]]'
-本色立绘: '[[立绘 小梅斯梅尔 02.png]]'
+初始立绘: "[[立绘 小梅斯梅尔 01.png]]"
+本色立绘: "[[立绘 小梅斯梅尔 02.png]]"
 生日: 
 banner_header: "{{filename}}"
 出场章节:
@@ -31,8 +31,8 @@ banner_header: "{{filename}}"
 ![cover](assets/小梅斯梅尔｜Mesmer%20Jr..assets/立绘%20小梅斯梅尔%2002.png)
 
 > [!overview]+ 概述
-> - 展出/活跃时代:: 
-> - 诞生:: 
+> - 展出/活跃时代:: 20 世纪 90 年代
+> - 诞生:: 9 月 20 日qiu
 > - 参展时长:: 
 > - 展出/参展地点:: 
 
