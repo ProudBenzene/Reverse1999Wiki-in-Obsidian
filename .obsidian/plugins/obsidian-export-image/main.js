@@ -28718,6 +28718,9 @@ var require_dom_to_image_more = __commonJS({
       const ELEMENT_NODE = (typeof Node === "undefined" ? void 0 : Node.ELEMENT_NODE) || 1;
       const getComputedStyle2 = (global2 === void 0 ? void 0 : global2.getComputedStyle) || (typeof window === "undefined" ? void 0 : window.getComputedStyle) || globalThis.getComputedStyle;
       const atob2 = (global2 === void 0 ? void 0 : global2.atob) || (typeof window === "undefined" ? void 0 : window.atob) || globalThis.atob;
+      function isUndefined(value) {
+        return value === "" || value === "none";
+      }
       function toSvg(node2, options) {
         const ownerWindow = domtoimage2.impl.util.getWindow(node2);
         options ||= {};
@@ -28779,7 +28782,7 @@ var require_dom_to_image_more = __commonJS({
           return Promise.resolve(node3).then((svg) => {
             svg.setAttribute("xmlns", "http://www.w3.org/1999/xhtml");
             return new XMLSerializer().serializeToString(svg);
-          }).then((html) => html.replace(/background-image:/g, "-webkit-background-clip: text; background-image:")).then(util.escapeXhtml).then((xhtml) => {
+          }).then(util.escapeXhtml).then((xhtml) => {
             const foreignObjectSizing = (util.isDimensionMissing(width) ? ' width="100%"' : ` width="${width}"`) + (util.isDimensionMissing(height) ? ' height="100%"' : ` height="${height}"`);
             const svgSizing = (util.isDimensionMissing(width) ? "" : ` width="${width}"`) + (util.isDimensionMissing(height) ? "" : ` height="${height}"`);
             return `<svg xmlns="http://www.w3.org/2000/svg"${svgSizing}><foreignObject${foreignObjectSizing}>${xhtml}</foreignObject></svg>`;
@@ -28957,6 +28960,16 @@ var require_dom_to_image_more = __commonJS({
                     }
                   }
                 }
+                const propertyName = "-webkit-background-clip";
+                const propertyValue = sourceComputedStyles.getPropertyValue(propertyName);
+                if (propertyValue !== "border-box") {
+                  const styleElement = document.createElement("style");
+                  const className = util.uid();
+                  const currentClass = targetElement.getAttribute("class") || "";
+                  targetElement.setAttribute("class", `${currentClass} ${className}`);
+                  styleElement.append(document.createTextNode(`.${className}{${propertyName}: ${propertyValue};}`));
+                  targetElement.prepend(styleElement);
+                }
               }
             }
           }
@@ -28988,7 +29001,7 @@ var require_dom_to_image_more = __commonJS({
                   return `${styleText};`;
                   function fixPseudoStyle(properties) {
                     for (let name of ["counter-increment", "counter-reset", "counter-set"]) {
-                      if (properties.indexOf(name) < 0 && style.getPropertyValue(name) !== "") {
+                      if (properties.indexOf(name) < 0 && !isUndefined(style.getPropertyValue(name))) {
                         properties.push(name);
                         console.log(name);
                       }
@@ -29547,7 +29560,8 @@ var require_dom_to_image_more = __commonJS({
         }
         function fixStyle(properties) {
           for (let name of ["counter-reset", "counter-increment", "counter-set"]) {
-            if (properties.indexOf(name) < 0 && sourceComputedStyles.getPropertyValue(name) !== "") {
+            if (properties.indexOf(name) < 0 && !isUndefined(sourceComputedStyles.getPropertyValue(name))) {
+              console.log(name, sourceComputedStyles.getPropertyValue(name));
               properties.push(name);
             }
           }
