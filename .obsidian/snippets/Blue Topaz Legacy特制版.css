@@ -3234,6 +3234,7 @@ body.admonition-bg-color-same .callout-title {
   border-left: 0;
   background-color: transparent;
   box-shadow: none !important;
+  border-style: none; /*border主题*/
 }
 .callout.callout[data-callout-metadata*="banner"] .callout-content{
   overflow: visible;
