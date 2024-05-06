@@ -17,7 +17,7 @@ padding-right: 10% !important;
     display: inline !important;
     width: 350px;
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
    }
 
 .book.is-live-preview .metadata-container,
