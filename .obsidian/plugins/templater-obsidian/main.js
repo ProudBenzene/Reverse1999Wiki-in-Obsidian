@@ -1845,7 +1845,7 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
     this.add_donating_setting();
   }
   add_general_setting_header() {
-    this.containerEl.createEl("h2", { text: "General Settings" });
+    this.containerEl.createEl("h2", { text: "General settings" });
   }
   add_template_folder_setting() {
     new import_obsidian6.Setting(this.containerEl).setName("Template folder location").setDesc("Files in this folder will be available as templates.").addSearch((cb) => {
@@ -1863,21 +1863,21 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
       href: "https://silentvoid13.github.io/Templater/",
       text: "documentation"
     }), " to get a list of all the available internal variables / functions.");
-    new import_obsidian6.Setting(this.containerEl).setName("Internal Variables and Functions").setDesc(desc);
+    new import_obsidian6.Setting(this.containerEl).setName("Internal variables and functions").setDesc(desc);
   }
   add_syntax_highlighting_settings() {
     const desktopDesc = document.createDocumentFragment();
     desktopDesc.append("Adds syntax highlighting for Templater commands in edit mode.");
     const mobileDesc = document.createDocumentFragment();
     mobileDesc.append("Adds syntax highlighting for Templater commands in edit mode on mobile. Use with caution: this may break live preview on mobile platforms.");
-    new import_obsidian6.Setting(this.containerEl).setName("Syntax Highlighting on Desktop").setDesc(desktopDesc).addToggle((toggle) => {
+    new import_obsidian6.Setting(this.containerEl).setName("Syntax highlighting on desktop").setDesc(desktopDesc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.syntax_highlighting).onChange((syntax_highlighting) => {
         this.plugin.settings.syntax_highlighting = syntax_highlighting;
         this.plugin.save_settings();
         this.plugin.event_handler.update_syntax_highlighting();
       });
     });
-    new import_obsidian6.Setting(this.containerEl).setName("Syntax Highlighting on Mobile").setDesc(mobileDesc).addToggle((toggle) => {
+    new import_obsidian6.Setting(this.containerEl).setName("Syntax highlighting on mobile").setDesc(mobileDesc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.syntax_highlighting_mobile).onChange((syntax_highlighting_mobile) => {
         this.plugin.settings.syntax_highlighting_mobile = syntax_highlighting_mobile;
         this.plugin.save_settings();
@@ -1927,9 +1927,9 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
     });
   }
   add_templates_hotkeys_setting() {
-    this.containerEl.createEl("h2", { text: "Template Hotkeys" });
+    this.containerEl.createEl("h2", { text: "Template hotkeys" });
     const desc = document.createDocumentFragment();
-    desc.append("Template Hotkeys allows you to bind a template to a hotkey.");
+    desc.append("Template hotkeys allows you to bind a template to a hotkey.");
     new import_obsidian6.Setting(this.containerEl).setDesc(desc);
     this.plugin.settings.enabled_templates_hotkeys.forEach((template, index) => {
       const s = new import_obsidian6.Setting(this.containerEl).addSearch((cb) => {
@@ -2050,9 +2050,9 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
     });
   }
   add_startup_templates_setting() {
-    this.containerEl.createEl("h2", { text: "Startup Templates" });
+    this.containerEl.createEl("h2", { text: "Startup templates" });
     const desc = document.createDocumentFragment();
-    desc.append("Startup Templates are templates that will get executed once when Templater starts.", desc.createEl("br"), "These templates won't output anything.", desc.createEl("br"), "This can be useful to set up templates adding hooks to obsidian events for example.");
+    desc.append("Startup templates are templates that will get executed once when Templater starts.", desc.createEl("br"), "These templates won't output anything.", desc.createEl("br"), "This can be useful to set up templates adding hooks to Obsidian events for example.");
     new import_obsidian6.Setting(this.containerEl).setDesc(desc);
     this.plugin.settings.startup_templates.forEach((template, index) => {
       const s = new import_obsidian6.Setting(this.containerEl).addSearch((cb) => {
@@ -2084,7 +2084,7 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
     });
   }
   add_user_script_functions_setting() {
-    this.containerEl.createEl("h2", { text: "User Script Functions" });
+    this.containerEl.createEl("h2", { text: "User script functions" });
     let desc = document.createDocumentFragment();
     desc.append("All JavaScript files in this folder will be loaded as CommonJS modules, to import custom user functions.", desc.createEl("br"), "The folder needs to be accessible from the vault.", desc.createEl("br"), "Check the ", desc.createEl("a", {
       href: "https://silentvoid13.github.io/Templater/",
@@ -2101,11 +2101,11 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
     desc = document.createDocumentFragment();
     let name;
     if (!this.plugin.settings.user_scripts_folder) {
-      name = "No User Scripts folder set";
+      name = "No user scripts folder set";
     } else {
-      const files = errorWrapperSync(() => get_tfiles_from_folder(this.plugin.settings.user_scripts_folder), `User Scripts folder doesn't exist`);
+      const files = errorWrapperSync(() => get_tfiles_from_folder(this.plugin.settings.user_scripts_folder), `User scripts folder doesn't exist`);
       if (!files || files.length === 0) {
-        name = "No User Scripts detected";
+        name = "No user scripts detected";
       } else {
         let count = 0;
         for (const file of files) {
@@ -2131,9 +2131,9 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
       text: "Warning: "
     }), "It can be dangerous to execute arbitrary system commands from untrusted sources. Only run system commands that you understand, from trusted sources.");
     this.containerEl.createEl("h2", {
-      text: "User System Command Functions"
+      text: "User system command functions"
     });
-    new import_obsidian6.Setting(this.containerEl).setName("Enable User System Command Functions").setDesc(desc).addToggle((toggle) => {
+    new import_obsidian6.Setting(this.containerEl).setName("Enable user system command functions").setDesc(desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.enable_system_commands).onChange((enable_system_commands) => {
         this.plugin.settings.enable_system_commands = enable_system_commands;
         this.plugin.save_settings();
@@ -3657,6 +3657,7 @@ var Templater = class {
     const doc = editor.getDoc();
     const oldSelections = doc.listSelections();
     doc.replaceSelection(output_content);
+    await app.vault.modify(active_editor.file, editor.getValue());
     app.workspace.trigger("templater:template-appended", {
       view: active_view,
       editor: active_editor,
