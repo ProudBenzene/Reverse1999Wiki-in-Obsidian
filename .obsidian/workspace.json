@@ -209,36 +209,6 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "afa8a366dad7d0ce",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9d5d85734983f4e5",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "776d85a498456fe5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -338,6 +308,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
+    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
     "000-箱的构造/主页.md",
     "000-箱的构造/常用工具.md",
@@ -351,7 +323,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 抑制握环2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 抑制握环3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 透体磁流3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets/神秘术 透体磁流2.png",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/埃里克｜Erick.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
@@ -375,7 +346,6 @@
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "测试.md",
     "anu主题配置.zip",
-    "300-以影像之/300-以影像之.md",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets",
     "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets",
