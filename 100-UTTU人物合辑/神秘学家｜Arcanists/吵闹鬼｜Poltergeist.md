@@ -60,40 +60,30 @@ banner_header: "{{filename}}"
 > [!skill]- 恶作剧
 > ![恶作剧 一阶|100](assets/吵闹鬼｜Poltergeist.assets/神秘术%20恶作剧1.png)
 > 
-> | 等级 |                             类型                             | 技能 | 文化 |
-> | :--: | :----------------------------------------------------------: | :--: | :--: |
-> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
-> | ✦✦✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
-> | ✦✦✦  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | 等级 |                             类型                             |                       技能                        |                 文化                 |
+> | :--: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------: |
+> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 单体攻击，造成160%精神创伤；本次攻击穿透率提升30% |            这里人迹罕至。            |
+> | ✦✦✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 单体攻击，造成240%精神创伤；本次攻击穿透率提升30% |           这里“人迹罕至”。           |
+> | ✦✦✦  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> | 单体攻击，造成400%精神创伤；本次攻击穿透率提升30% | 这里“人迹罕至”，偶尔有倾盆大雨落下。 |
 > 
 
 > [!skill]- 贴耳话
 > ![贴耳话 二阶|100](assets/吵闹鬼｜Poltergeist.assets/神秘术%20贴耳话2.png)
 > 
-> | 等级 |                             类型                             | 技能 | 文化 |
-> | :--: | :----------------------------------------------------------: | :--: | :--: |
-> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
-> | ✦✦✧  | ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> |      |      |
-> | ✦✦✦  | ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> |      |      |
+> | 等级 |                             类型                             |                             技能                             |               文化               |
+> | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------: |
+> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |                单体攻击，造成**200%**精神创伤                |            一份忠告。            |
+> | ✦✦✧  | ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成**200%**精神创伤；使其*精神防御*降低**25%**，持续**3**回合 |       一份忠告，别忽略她。       |
+> | ✦✦✦  | ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> | 单体攻击，造成350%精神创伤；使其*精神防御*降低35%，持续3回合 | 一份忠告，别忽略她，也别注意她。 |
 > 
 
 > [!skill]- 阳光并不温柔
 > ![阳光并不温柔|100](assets/吵闹鬼｜Poltergeist.assets/至终的仪式%20阳光并不温柔.png)
 > 
-> | 技能 | 文化 |
-> | :--: | :--: |
-> |      |      |
+> |                             技能                             |     文化     |
+> | :----------------------------------------------------------: | :----------: |
+> | 自我反制，进入**[嘲讽]**状态，受到伤害降低**20%**，受创回复提升**30%**，持续**3**回合；同时进入**[隐蔽]**状态1回合 | 不，不要——！ |
 > 
-
-
-
-> [!note]- 
-> ![增益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
-> ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
-> ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
-> ![反制](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
-> ![吟诵](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造
 
