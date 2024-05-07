@@ -57,28 +57,28 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
+> [!skill]- 恶作剧
+> ![恶作剧 一阶|100](assets/吵闹鬼｜Poltergeist.assets/神秘术%20恶作剧1.png)
 > 
-> 
-> | 等级  | 类型  | 技能  | 文化  |
-> | :-: | :-: | :-: | :-: |
-> | ✦✧✧ |     |     |     |
-> | ✦✦✧ |     |     |     |
-> | ✦✦✦ |     |     |     |
-> 
-
-> [!skill]- 
-> 
-> 
-> | 等级  | 类型  | 技能  | 文化  |
-> | :-: | :-: | :-: | :-: |
-> | ✦✧✧ |     |     |     |
-> | ✦✦✧ |     |     |     |
-> | ✦✦✦ |     |     |     |
+> | 等级 |                             类型                             | 技能 | 文化 |
+> | :--: | :----------------------------------------------------------: | :--: | :--: |
+> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | ✦✦✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | ✦✦✦  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
 > 
 
-> [!skill]- 
+> [!skill]- 贴耳话
+> ![贴耳话 二阶|100](assets/吵闹鬼｜Poltergeist.assets/神秘术%20贴耳话2.png)
 > 
+> | 等级 |                             类型                             | 技能 | 文化 |
+> | :--: | :----------------------------------------------------------: | :--: | :--: |
+> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | ✦✦✧  | ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> |      |      |
+> | ✦✦✦  | ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b> |      |      |
+> 
+
+> [!skill]- 阳光并不温柔
+> ![阳光并不温柔|100](assets/吵闹鬼｜Poltergeist.assets/至终的仪式%20阳光并不温柔.png)
 > 
 > | 技能 | 文化 |
 > | :--: | :--: |
