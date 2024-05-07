@@ -21,12 +21,10 @@
     "Callout-花边",
     "[Buttons]炫光样式",
     "[Buttons]bhomelist",
-    "Mac主题代码框",
     "[PKMer]表格优化",
     "buttons",
     "[PKMer]Timeline-Callouts",
     "[PKMer]sidenote-callout",
-    "[PKMer]Code Tab美化",
     "[PKMer]Callout-花边",
     "[PKMer]行内图片",
     "[Minimal]Cards",
@@ -41,6 +39,7 @@
     "custom-admonitions.c9c6cb",
     "[bon]书库小封面",
     "[PKMer]文件夹添加头像",
-    "[AnuPpuccin]custom-background"
+    "[AnuPpuccin]custom-background",
+    "[PKMer]Code Tab美化"
   ]
 }
