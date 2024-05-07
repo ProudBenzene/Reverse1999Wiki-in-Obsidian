@@ -29,7 +29,6 @@
     "[PKMer]Code Tab美化",
     "[PKMer]Callout-花边",
     "[PKMer]行内图片",
-    "[PKMer]文件夹添加头像",
     "[Minimal]Cards",
     "[Buttons]按钮样式",
     "[Bon]书库封面",
@@ -41,6 +40,7 @@
     "[Border]Colorful Frontmatter",
     "custom-admonitions.c9c6cb",
     "[AnuPpuccin]custom-background",
-    "[bon]书库小封面"
+    "[bon]书库小封面",
+    "[PKMer]文件夹添加头像"
   ]
 }
