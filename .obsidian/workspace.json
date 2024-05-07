@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,7 +325,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": true
                   }
                 }
@@ -343,8 +343,10 @@
       }
     ]
   },
-  "active": "b3a1d6a67504099c",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 恶作剧2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 恶作剧3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 恶作剧1.png",
@@ -355,11 +357,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/至终的仪式.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/立绘 吵闹鬼 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/一阶神秘术.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/二阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets",
     "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
