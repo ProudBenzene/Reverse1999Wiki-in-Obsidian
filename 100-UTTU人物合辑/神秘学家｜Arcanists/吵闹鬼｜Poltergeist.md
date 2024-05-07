@@ -97,9 +97,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
 ### 羞怯的夏日｜Summertime Shyness
 
@@ -107,32 +104,34 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 白色被单｜Bedspread
+> ![](assets/吵闹鬼｜Poltergeist.assets/单品%20吵闹鬼%2001.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**5**
 > ---
-> 
+> 一张廉价而可靠的白色被单。我们试图检测上面的灵感波动，但它的确只是平平无奇的白色床单，和每个家庭主妇在超市货架上买来的如出一辙。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 幽灵章鱼须｜Ghost Octopus
+> ![](assets/吵闹鬼｜Poltergeist.assets/单品%20吵闹鬼%2002.png)
+> **无估值**
 > ---
-> 
+> 一节苍白到透明的章鱼触须，属于某个不愿现身的海底朋友。至少，它们提供了陪伴。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 尼龙泳衣｜Nylon Swimsuit
+> ![](assets/吵闹鬼｜Poltergeist.assets/单品%20吵闹鬼%2003.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**6.5**
 > ---
-> 
+> 一件波点图案的尼龙泳衣。保守，大众，不易出错，商场售货员极力推荐的畅销款。剪裁平庸，但良好修饰了受访者的身形——如果她没有用那块被单把自己遮住的话。
 ````
 
 ## 文化
 
 ````tab
-tab: ｜
+tab: 女孩们在哪里？｜Where the Girls Are?
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
-tab: ｜
+
+
+tab: 布劳沃德骚灵事件｜Poltergeist in Broward
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 tab: ｜[UTTU×吵闹鬼]

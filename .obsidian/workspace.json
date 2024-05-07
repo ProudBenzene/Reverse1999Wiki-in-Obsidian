@@ -311,7 +311,7 @@
     "type": "floating",
     "children": [
       {
-        "id": "ffab1315bfb5c60c",
+        "id": "d13186708e13d612",
         "type": "window",
         "children": [
           {
@@ -319,13 +319,13 @@
             "type": "tabs",
             "children": [
               {
-                "id": "b3a1d6a67504099c",
+                "id": "075f205bfb726089",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": true
                   }
                 }
@@ -343,10 +343,14 @@
       }
     ]
   },
-  "active": "b3a1d6a67504099c",
+  "active": "075f205bfb726089",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/单品 吵闹鬼 03.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/单品 吵闹鬼 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/单品 吵闹鬼 01.png",
+    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 恶作剧2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 恶作剧3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 恶作剧1.png",
@@ -354,9 +358,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 贴耳话3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/神秘术 贴耳话2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/至终的仪式 阳光并不温柔.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/至终的仪式.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/立绘 吵闹鬼 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/一阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
