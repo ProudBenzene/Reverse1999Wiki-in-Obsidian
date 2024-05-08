@@ -3,6 +3,8 @@ aliases:
 tags: 
 cssclasses:
   - cards
+  - 无序-卡片化阅览
+  - 无序-四列
 ---
 ```dataview
 Table without id
@@ -23,3 +25,5 @@ CALENDAR
 生日
 Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UTTU人物合辑") AND !contains(file.name,"维尔汀")
 ```
+
+%% W
