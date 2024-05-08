@@ -6,7 +6,6 @@
       {
         "id": "a4e7ab8c564d67d7",
         "type": "tabs",
-        "dimension": 69.66019417475728,
         "children": [
           {
             "id": "f10e9b711a01aa93",
@@ -49,21 +48,6 @@
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "6c9d366b6a37f9d8",
-        "type": "tabs",
-        "dimension": 30.339805825242717,
-        "children": [
-          {
-            "id": "bdd470f16422c4ec",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
               "state": {}
             }
           }
@@ -197,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -300,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -326,8 +308,9 @@
   },
   "active": "f10e9b711a01aa93",
   "lastOpenFiles": [
-    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
+    "300-以影像之/301-主线/序幕 此即明日.md",
     "300-以影像之/300-以影像之.md",
+    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
@@ -364,7 +347,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/梅兰妮｜Melania.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets",
     "300-以影像之/304-轶事/304-轶事.md",
-    "300-以影像之/303-角色剧情/303-角色剧情.md",
     "anu主题配置.zip",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets",
