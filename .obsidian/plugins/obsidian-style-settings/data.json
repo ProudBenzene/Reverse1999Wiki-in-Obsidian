@@ -678,7 +678,7 @@
   "Editor@@h5-font": "霞鹜文楷 屏幕阅读版",
   "Editor@@h6-font": "霞鹜文楷 屏幕阅读版",
   "Appearance-dark@@background-mod-left-split-dark": "#272626",
-  "Appearance-dark@@card-shadow-dark": "5px 4px 4px 5px rgba(0, 0, 0, 0.2)",
+  "Appearance-dark@@card-shadow-dark": "0px 2px 4px 5px rgba(0, 0, 0, 0.2)",
   "Appearance-dark@@color-activated-tab-header-dark": "#EBAD15",
   "Appearance-dark@@color-to-tab-icon-dark": true,
   "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-accent-dark",
