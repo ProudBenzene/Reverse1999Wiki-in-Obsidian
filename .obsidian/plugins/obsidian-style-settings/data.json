@@ -697,8 +697,8 @@
   "Appearance-dark@@background-primary@@dark": "#312E2E",
   "Folder-Image@@folder-image-radius": 0.2,
   "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 3,
-  "wxlbMH@@wxlbMH-STMS": "wxlbMH-STMS-cssclasses",
-  "wxlbMH@@wxlbMH-STMS-CTH": "wxlbMH-STMS-CTH-PT",
+  "wxlbMH@@wxlbMH-STMS": "wxlbMH-STMS-CTH",
+  "wxlbMH@@wxlbMH-STMS-CTH": "wxlbMH-STMS-CTH-WP",
   "wxlbMH@@wxlbMH-list-1-BJ-color@@dark": "#574E46",
   "wxlbMH@@wxlbMH-list-2-BJ-color@@dark": "#6F6161",
   "wxlbMH@@wxlbMH-list-2-BK-color@@dark": "#A79696"
