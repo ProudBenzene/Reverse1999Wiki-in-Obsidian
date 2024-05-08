@@ -701,9 +701,9 @@
   "wxlbMH@@wxlbMH-list-2-BJ-color@@dark": "#6F6161",
   "wxlbMH@@wxlbMH-list-2-BK-color@@dark": "#A79696",
   "Editor@@ul-marker-restore": true,
-  "Appearance-dark@@color-accent-1-dark": "#DB7777",
+  "Appearance-dark@@color-accent-1-dark": "#EFB78D",
   "Appearance-dark@@color-accent-2-dark": "#82AEDD",
-  "Appearance-dark@@color-accent-3-dark": "#D79573",
+  "Appearance-dark@@color-accent-3-dark": "#DB7777",
   "Appearance-dark@@accent-dark": "#EFB68E",
   "Appearance-dark@@color-activated-tab-header-dark": "#EBDEA4",
   "Appearance-dark@@input-shadow-dark": "0px 2px 4px 5px rgba(0, 0, 0, 0.2)"
