@@ -696,5 +696,7 @@
   "Appearance-dark@@background-secondary@@dark": "#262626",
   "Appearance-dark@@background-primary@@dark": "#312E2E",
   "Folder-Image@@folder-image-radius": 0.2,
-  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 3
+  "anuppuccin-custom-background@@anp-custom-bg-blur-dark": 3,
+  "wxlbMH@@wxlbMH-STMS": "wxlbMH-STMS-cssclasses",
+  "wxlbMH@@wxlbMH-STMS-CTH": "wxlbMH-STMS-CTH-PT"
 }
