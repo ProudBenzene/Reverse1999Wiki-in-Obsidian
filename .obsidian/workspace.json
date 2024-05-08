@@ -8,15 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9aadaddd821e22fa",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "3b3892128d0de222",
+            "id": "f10e9b711a01aa93",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +171,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.0067806369281345,
+                  "scale": 0.5502343690384057,
                   "close": true
                 }
               }
@@ -303,7 +294,6 @@
       "workspaces:管理工作区布局": false,
       "cmdr:Projects": false,
       "canvas:新建白板": false,
-      "templater-obsidian:Templater": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "cmdr:Style Settings 悬浮面板": false,
@@ -312,11 +302,17 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "3b3892128d0de222",
+  "active": "f10e9b711a01aa93",
   "lastOpenFiles": [
+    "300-以影像之/301-主线/第五章 洞穴的囚徒.md",
+    "300-以影像之/300-以影像之.md",
+    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+    "300-以影像之/301-主线/第一章 在我们的时代里.md",
+    "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "000-箱的构造/主页.md",
     "测试.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
@@ -351,10 +347,6 @@
     "300-以影像之/303-角色剧情/303-角色剧情.md",
     "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
-    "test.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/五色月｜Satsuki.md",
     "anu主题配置.zip",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets",
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets",
