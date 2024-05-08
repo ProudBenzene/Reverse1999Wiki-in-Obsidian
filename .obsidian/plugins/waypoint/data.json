@@ -11,7 +11,7 @@
   "folderNoteType": "INSIDE_FOLDER",
   "ignorePaths": [
     "_attachments",
-    "==.*=="
+    ".*assets"
   ],
   "useSpaces": false,
   "numSpaces": 2
