@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path: 100-UTTU人物合辑/",
@@ -50,7 +50,7 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.70741373697917,
@@ -60,6 +60,6 @@
   "repelStrength": 10.6005859375,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1388497326064067,
-  "close": true
+  "scale": 0.6870458080481627,
+  "close": false
 }
