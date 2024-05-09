@@ -1,0 +1,241 @@
+/* @settings
+name: 【tabs】美化
+id: tabs-MH
+settings:
+  -
+    id: tabsMH-WXZ-BT-BJ-color
+    title: 未选中标题背景颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-WXZ-BT-ZT-color
+    title: 未选中标题字体颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-WXZ-BT-XCT-color
+    title: 未选中标题下方长条颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-XZ-BT-BJ-color
+    title: 选中标题背景颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-XZ-BT-ZT-color
+    title: 选中标题字体颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-XZ-BT-XCT-color
+    title: 选中标题下方长条颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-XZ-WBK-BJ-color
+    title: 文本框背景底色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-WXZ-cm-ZT-color
+    title: 触摸未选中标题字体颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-WXZ-cm-XCT-color
+    title: 触摸未选中标题下方长条颜色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-WXZ-cm-JH-BJ-color
+    title: 触摸加号背景底色
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: tabsMH-tmd
+    title: 【透明度设置】
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: tabsMH-WXZ-BT-BJ-color-tmd
+    title: 未选中标题背景颜色透明度
+    type: variable-number-slider
+    default: 30
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-WXZ-BT-ZT-color-tmd
+    title: 未选中标题字体颜色透明度
+    type: variable-number-slider
+    default: 50
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-WXZ-BT-XCT-color-tmd
+    title: 未选中标题下方长条颜色透明度
+    type: variable-number-slider
+    default: 20
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-XZ-BT-BJ-color-tmd
+    title: 选中标题背景颜色透明度
+    type: variable-number-slider
+    default: 60
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-XZ-BT-ZT-color-tmd
+    title: 选中标题字体颜色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-XZ-BT-XCT-color-tmd
+    title: 选中标题下方长条颜色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-XZ-WBK-BJ-color-tmd
+    title: 文本框背景底色透明度
+    type: variable-number-slider
+    default: 20
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-WXZ-cm-ZT-color-tmd
+    title: 触摸未选中标题字体颜色透明度
+    type: variable-number-slider
+    default: 70
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-WXZ-cm-XCT-color-tmd
+    title: 触摸未选中标题下方长条颜色透明度
+    type: variable-number-slider
+    default: 100
+    min: 0
+    max: 100
+    format: "%"
+  -
+    id: tabsMH-WXZ-cm-JH-BJ-color-tmd
+    title: 触摸加号背景底色透明度
+    type: variable-number-slider
+    default: 50
+    min: 0
+    max: 100
+    format: "%"
+  -
+*/
+
+/*tabs自定义属性*/
+/*浅色模式*/ 
+.theme-light {
+  --未选中标题背景颜色:rgba(var(--tabsMH-WXZ-BT-BJ-color,215,220,255),var(--tabsMH-WXZ-BT-BJ-color-tmd,0.3));
+  --未选中标题字体颜色:rgba(var(--tabsMH-WXZ-BT-ZT-color,10,10,10),var(--tabsMH-WXZ-BT-ZT-color-tmd,0.5));
+  --未选中标题下方长条颜色:rgba(var(--tabsMH-WXZ-BT-XCT-color,215,220,255),var(--tabsMH-WXZ-BT-XCT-color-tmd,0.2));
+
+  --选中标题背景颜色:rgba(var(--tabsMH-XZ-BT-BJ-color,215,220,255),var(--tabsMH-XZ-BT-BJ-color-tmd,0.6));
+  --选中标题字体颜色:rgba(var(--tabsMH-XZ-BT-ZT-color,10,10,10),var(--tabsMH-XZ-BT-ZT-color-tmd,1));
+  --选中标题下方长条颜色:rgba(var(--tabsMH-XZ-BT-XCT-color,135,165,199),var(--tabsMH-XZ-BT-XCT-color-tmd,1));
+
+  --文本框背景底色:rgba(var(--tabsMH-XZ-WBK-BJ-color,32,74,105),var(--tabsMH-XZ-WBK-BJ-color-tmd,0.2));
+
+  --触摸未选中标题字体颜色:rgba(var(--tabsMH-WXZ-cm-ZT-color,10,10,10),var(--tabsMH-WXZ-cm-ZT-color-tmd,0.7));
+  --触摸未选中标题下方长条颜色:rgba(var(--tabsMH-WXZ-cm-XCT-color,180,180,180),var(--tabsMH-WXZ-cm-XCT-color-tmd,1));
+
+  --触摸加号背景底色:rgba(var(--tabsMH-WXZ-cm-JH-BJ-color,215,220,255),var(--tabsMH-WXZ-cm-JH-BJ-color-tmd,0.5));
+}
+/*深色模式*/ 
+.theme-dark {
+  --未选中标题背景颜色:rgba(var(--tabsMH-WXZ-BT-BJ-color,31,55,166),var(--tabsMH-WXZ-BT-BJ-color-tmd,0.3));
+  --未选中标题字体颜色:rgba(var(--tabsMH-WXZ-BT-ZT-color,216,220,233),var(--tabsMH-WXZ-BT-ZT-color-tmd,0.5));
+  --未选中标题下方长条颜色:rgba(var(--tabsMH-WXZ-BT-XCT-color,215,220,255),var(--tabsMH-WXZ-BT-XCT-color-tmd,0.2));
+
+  --选中标题背景颜色:rgba(var(--tabsMH-XZ-BT-BJ-color,60,49,226),var(--tabsMH-XZ-BT-BJ-color-tmd,0.6));
+  --选中标题字体颜色:rgba(var(--tabsMH-XZ-BT-ZT-color,216,220,233),var(--tabsMH-XZ-BT-ZT-color-tmd,1));
+  --选中标题下方长条颜色:rgba(var(--tabsMH-XZ-BT-XCT-color,135,165,199),var(--tabsMH-XZ-BT-XCT-color-tmd,1));
+
+  --文本框背景底色:rgba(var(--tabsMH-XZ-WBK-BJ-color,109,115,218),var(--tabsMH-XZ-WBK-BJ-color-tmd,0.2));
+
+  --触摸未选中标题字体颜色:rgba(var(--tabsMH-WXZ-cm-ZT-color,216,220,233),var(--tabsMH-WXZ-cm-ZT-color-tmd,0.7));
+  --触摸未选中标题下方长条颜色:rgba(var(--tabsMH-WXZ-cm-XCT-color,180,180,180),var(--tabsMH-WXZ-cm-XCT-color-tmd,1));
+
+  --触摸加号背景底色:rgba(var(--tabsMH-WXZ-cm-JH-BJ-color,43, 56, 179),var(--tabsMH-WXZ-cm-JH-BJ-color-tmd,0.5));
+}
+
+/*tabs未选中标题框*/
+.tab-container .tab-nav .tab-nav-item {
+  color:var(--未选中标题字体颜色);
+  background-color: var(--未选中标题背景颜色);
+  border-radius:2px;
+  border-bottom: 3px solid var(--未选中标题下方长条颜色);
+}
+
+/*tabs选中标题框*/
+.tab-container .tab-nav .tab-nav-item.tab-nav-item-active {
+  color:var(--选中标题字体颜色);
+  background-color: var(--选中标题背景颜色);
+  border-radius:2px;
+  border-bottom: 3px solid var(--选中标题下方长条颜色);
+}
+
+/*tabs文本框*/
+.tab-container .tab-contents {
+  border: 0px solid var(--文本框背景底色);
+  background-color: var(--文本框背景底色);
+  border-radius:2px;
+}
+
+/*tabs标题框触摸动画*/
+.tab-container .tab-nav .tab-nav-item:hover:not(.tab-nav-item.tab-nav-item-active) {
+  border-bottom-color: var(--触摸未选中标题下方长条颜色);
+  color:var(--触摸未选中标题字体颜色);
+  transition: transform 250ms cubic-bezier(0, 0.5, 0.5, 1.1), border-bottom-color 250ms ease-out;
+}
+
+/*tabs加号触摸动画*/
+.svg-icon.lucide-plus:hover {
+  border: 1px solid var(--触摸加号背景底色);
+  background-color: var(--触摸加号背景底色);
+  transform: scale(1.2); 
+  transition:background-color 250ms ease-out;
+}
+
+/*无序-卡片化阅览兼容*/
+ol > li::marker, ul > li::marker {
+  color: transparent;
+}
