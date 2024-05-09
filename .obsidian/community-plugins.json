@@ -25,7 +25,6 @@
   "obsidian-tidy-footnotes",
   "obsidian-memos",
   "templater-obsidian",
-  "obsidian-code-tab",
   "obsidian-icon-folder",
   "obsidian-style-settings",
   "obsidian-linter",
@@ -38,5 +37,6 @@
   "obsidian-quiet-outline",
   "obsidian-sakana-widget",
   "obsidian-sortable",
-  "waypoint"
+  "waypoint",
+  "tabs"
 ]

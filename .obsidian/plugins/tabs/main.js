@@ -40,20 +40,67 @@ var TabsSettingsTab = class extends import_obsidian.PluginSettingTab {
   display() {
     let {containerEl} = this;
     containerEl.empty();
-    containerEl.createEl("h1", {text: "CodeTab Settings"});
     new import_obsidian.Setting(containerEl).setName("Separator").setDesc("The symbols to split each tab").addText((text) => text.setValue(this.plugin.settings.split).setPlaceholder("tab:").onChange((value) => {
       if (value == "") {
         value = "tab:";
       }
       this.plugin.settings.split = value;
       this.plugin.saveSettings();
-      console.log(this.plugin.settings.split);
     }));
   }
 };
 
 // src/main.ts
+var import_obsidian6 = __toModule(require("obsidian"));
+
+// src/components/tabs.ts
+var import_obsidian5 = __toModule(require("obsidian"));
+
+// src/components/tabcontent.ts
 var import_obsidian2 = __toModule(require("obsidian"));
+var TabContent = class {
+  constructor(index, title, content2, app, context) {
+    this.isActiveed = false;
+    this.index = index;
+    this.title = title;
+    this.content = content2;
+    this.contentEl = this.createTabContentEl(content2, app, context);
+  }
+  createTabContentEl(content2, app, context) {
+    const element = document.createElement("div");
+    element.className = "tab-content";
+    const tabComponent = new import_obsidian2.MarkdownRenderChild(this.contentEl);
+    import_obsidian2.MarkdownRenderer.render(app, content2, element, context.sourcePath, tabComponent);
+    return element;
+  }
+};
+
+// src/components/tabcontents.ts
+var TabContents = class {
+  constructor(plugin, tabcontents) {
+    this.currentTab = 0;
+    this.plugin = plugin;
+    this.tabcontents = tabcontents;
+    this.tabcontentsEl = this.createTabContentsEl();
+    this.tabcontents[0].isActiveed = true;
+    this.tabcontents[0].contentEl.classList.add("tab-content-active");
+  }
+  createTabContentsEl() {
+    const element = document.createElement("div");
+    element.className = "tab-contents";
+    this.tabcontents.forEach((tab) => {
+      element.appendChild(tab.contentEl);
+    });
+    return element;
+  }
+  refreshActiveTabContent(index) {
+    this.tabcontents[this.currentTab].isActiveed = false;
+    this.tabcontents[this.currentTab].contentEl.classList.remove("tab-content-active");
+    this.tabcontents[index].isActiveed = true;
+    this.tabcontents[index].contentEl.classList.add("tab-content-active");
+    this.currentTab = index;
+  }
+};
 
 // node_modules/@codemirror/state/dist/index.js
 var Text = class {
@@ -11922,6 +11969,9 @@ var activeLineGutterHighlighter = /* @__PURE__ */ gutterLineClass.compute(["sele
 function highlightActiveLineGutter() {
   return activeLineGutterHighlighter;
 }
+
+// src/components/tabeditor.ts
+var import_obsidian3 = __toModule(require("obsidian"));
 
 // node_modules/@lezer/common/dist/index.js
 var DefaultBufferLength = 1024;
@@ -25876,294 +25926,38 @@ function htmlTagCompletions() {
   return _tagCompletions = result ? result.options : [];
 }
 
-// src/main.ts
-var Tabs = class extends import_obsidian2.Plugin {
-  async onload() {
-    console.log("loading code-tab plugin");
-    await this.loadSettings();
-    this.addSettingTab(new TabsSettingsTab(this.app, this));
-    this.registerMarkdownCodeBlockProcessor("tab", (source, element, context) => {
-      let sectioninfo = context.getSectionInfo(element);
-      element.className = "tab-container";
-      let tabs = document.createElement("div");
-      tabs.className = "tab-wrapper";
-      let tabsTag = document.createElement("div");
-      tabsTag.className = "tabs";
-      let contentsTag = document.createElement("div");
-      contentsTag.className = "tab-contents";
-      element.appendChild(tabs);
-      tabs.appendChild(tabsTag);
-      element.appendChild(contentsTag);
-      let codeTagText = source;
-      let codeTagTextArray = codeTagText.split(this.settings.split);
-      let codeTagArray = [];
-      for (let i = 1; i < codeTagTextArray.length; i++) {
-        let language2 = codeTagTextArray[i].substring(0, codeTagTextArray[i].indexOf("\n"));
-        let tabItemTag = document.createElement("div");
-        codeTagArray.push(codeTagTextArray[i]);
-        tabItemTag.className = "tab-item";
-        tabItemTag.innerHTML = language2;
-        if (i === 1)
-          tabItemTag.addClass("tab-item--active");
-        tabItemTag.onclick = (e) => handler(e);
-        tabsTag.appendChild(tabItemTag);
-        let codeText = codeTagTextArray[i].substring(codeTagTextArray[i].indexOf("\n") + 1);
-        let tabContentTag = document.createElement("div");
-        tabContentTag.className = "tab-content";
-        let tabComponent = new import_obsidian2.MarkdownRenderChild(tabContentTag);
-        import_obsidian2.MarkdownRenderer.render(this.app, codeText, tabContentTag, context.sourcePath, tabComponent);
-        if (i === 1)
-          tabContentTag.addClass("tab-content--active");
-        contentsTag.appendChild(tabContentTag);
-      }
-      let editorWrapper = document.createElement("div");
-      editorWrapper.className = "editor-wrapper";
-      element.appendChild(editorWrapper);
-      const selectionExtension = EditorView.updateListener.of((update) => {
-        if (update.selectionSet) {
-          updateFloatingEditor(update.view);
-        }
-      });
-      this.registerDomEvent(tabs, "contextmenu", (e) => {
-        e.preventDefault();
-        const menu = new import_obsidian2.Menu();
-        let tabItemTags2 = element.getElementsByClassName("tab-item");
-        let currentIndex = this.getCurrentActiveTabIndex(tabItemTags2);
-        menu.addItem((item) => {
-          item.setTitle("Add New Tab");
-          item.setIcon("circle-plus");
-          item.onClick(() => {
-            if (!editorWrapper.classList.contains("editor-wrapper-hidden") && editor.state.doc.toString().trim().substring(this.settings.split.length).trim() !== codeTagTextArray[currentIndex].trim()) {
-              new import_obsidian2.Notice("\u{1F7E0} Please save the current tab before you adding a new tab.");
-              return;
-            }
-            let tabItemTag = document.createElement("div");
-            tabItemTag.className = "tab-item";
-            tabItemTag.innerHTML = "New Tab";
-            tabItemTag.onclick = (e2) => handler(e2);
-            const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-            const activeEditor = activeView.editor;
-            activeEditor.setLine(sectioninfo.lineEnd, this.settings.split + " new tab\nNew Tab Content\n" + activeEditor.getLine(sectioninfo.lineEnd));
-            tabItemTag.click();
-            this.focuOnTabByIndex(tabItemTags2, tabItemTags2.length - 1);
-          });
-        });
-        menu.addItem((item) => {
-          item.setTitle("Delete Tab");
-          item.setIcon("trash");
-          item.onClick(() => {
-            let deleteIndex = 0;
-            for (let i = 0; i < tabItemTags2.length; i++) {
-              if (tabItemTags2[i] == e.target) {
-                deleteIndex = i + 1;
-                break;
-              }
-            }
-            if (deleteIndex === 0) {
-              new import_obsidian2.Notice("\u{1F534} Not a valid tab.");
-              return;
-            }
-            let deleteTabTitle = e.target.innerHTML;
-            if (!editorWrapper.classList.contains("editor-wrapper-hidden") && editor.state.doc.toString().trim().substring(this.settings.split.length).trim() !== codeTagTextArray[currentIndex].trim()) {
-              new import_obsidian2.Notice("\u{1F7E0} Please save the current tab before deleting: " + deleteTabTitle);
-              return;
-            }
-            new import_obsidian2.Notice("\u{1F7E2} Delete " + deleteTabTitle + " successfully");
-            let newDoc = this.getNewDocByIndex(editor, codeTagArray, deleteIndex, "");
-            const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-            activeView.editor.replaceRange(newDoc, {line: sectioninfo.lineStart + 1, ch: 0}, {line: sectioninfo.lineEnd, ch: 0});
-          });
-        });
-        menu.addItem((item) => {
-          item.setTitle("Copy Tab");
-          item.setIcon("copy");
-          item.onClick(() => {
-            let index = 0;
-            let copyContent = "";
-            for (let i = 0; i < tabItemTags2.length; i++) {
-              if (tabItemTags2[i] == e.target) {
-                index = i + 1;
-                copyContent = this.settings.split + " " + codeTagArray[i];
-                break;
-              }
-            }
-            if (index === 0) {
-              new import_obsidian2.Notice("\u{1F534} Not a valid tab.");
-              return;
-            }
-            navigator.clipboard.writeText(copyContent).then(() => {
-              new import_obsidian2.Notice("\u{1F7E2} Copied to clipboard successfully.");
-            }).catch((err) => {
-              new import_obsidian2.Notice("\u{1F534} Failed to copy to clipboard");
-            });
-          });
-        });
-        menu.addItem((item) => {
-          item.setTitle("Paste Tab");
-          item.setIcon("paste");
-          item.onClick(() => {
-            navigator.clipboard.readText().then((text) => {
-              if (!text || text.trim() === "" || text.trim() == this.settings.split) {
-                new import_obsidian2.Notice("\u{1F7E0} No content in clipboard.");
-                return;
-              }
-              let tabItemTag = document.createElement("div");
-              tabItemTag.className = "tab-item";
-              let tag = this.settings.split + "New Tab\n";
-              let content2 = text.trim();
-              if (text.startsWith(this.settings.split)) {
-                tag = text.substring(0, text.indexOf("\n"));
-                content2 = content2.substring(text.indexOf("\n"));
-              }
-              tabItemTag.onclick = (e2) => handler(e2);
-              const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-              const activeEditor = activeView.editor;
-              activeEditor.setLine(sectioninfo.lineEnd, tag + content2 + "\n" + activeEditor.getLine(sectioninfo.lineEnd));
-            }).catch((err) => {
-              new import_obsidian2.Notice("\u{1F534} Failed to paste from clipboard");
-            });
-          });
-        });
-        menu.showAtMouseEvent(e);
-      });
-      const startState = EditorState.create({
-        doc: "",
-        extensions: [
-          basicSetup,
-          keymap.of([indentWithTab]),
-          keymap.of(standardKeymap),
-          markdown(),
-          selectionExtension,
-          EditorView.lineWrapping
-        ]
-      });
-      let editor = new EditorView({
-        state: startState,
-        parent: editorWrapper
-      });
-      editorWrapper.addClass("editor-wrapper-hidden");
-      let floatingEditor = this.initFloatingEditor(editorWrapper, editor);
-      let addButton = document.createElement("button");
-      let circleplus = `<svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>`;
-      (0, import_obsidian2.addIcon)("circle-plus", circleplus);
-      (0, import_obsidian2.setIcon)(addButton, "circle-plus");
-      addButton.className = "add-button";
-      addButton.onclick = () => {
-        let activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-        if (this.isPreviewMode(activeView.leaf)) {
-          return;
-        }
-        if (editorWrapper.classList.contains("editor-wrapper-hidden")) {
-          let tabItemTag = document.createElement("div");
-          tabItemTag.className = "tab-item";
-          tabItemTag.innerHTML = "New Tab";
-          tabItemTag.onclick = (e) => handler(e);
-          const activeView2 = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-          const activeEditor = activeView2.editor;
-          activeEditor.setLine(sectioninfo.lineEnd, this.settings.split + " new tab\nNew Tab Content\n" + activeEditor.getLine(sectioninfo.lineEnd));
-          let tabItemTags2 = element.getElementsByClassName("tab-item");
-          this.focuOnTabByIndex(tabItemTags2, tabItemTags2.length - 1);
-        } else {
-          let index = this.getCurrentActiveTabIndex(tabItemTags);
-          this.saveEditorData(editor, editorWrapper, contentsTag, codeTagArray, index, sectioninfo.lineStart, sectioninfo.lineEnd);
-          (0, import_obsidian2.setIcon)(addButton, "circle-plus");
-        }
-      };
-      tabs.appendChild(addButton);
-      let tabItemTags = element.getElementsByClassName("tab-item");
-      let tabContentTags = element.getElementsByClassName("tab-content");
-      this.registerDomEvent(contentsTag, "dblclick", (e) => {
-        e.preventDefault();
-        const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-        if (this.isPreviewMode(activeView.leaf)) {
-          return;
-        }
-        editorWrapper.removeClass("editor-wrapper-hidden");
-        contentsTag.style.display = "none";
-        (0, import_obsidian2.setIcon)(addButton, "save");
-        let index = this.getCurrentActiveTabIndex(tabItemTags);
-        const state = editor.state;
-        const transaction = editor.state.update({
-          changes: {from: 0, to: state.doc.length, insert: this.settings.split + " " + codeTagTextArray[index].trim()}
-        });
-        editor.dispatch(transaction);
-        editor.focus();
-      });
-      const handler = (e) => {
-        e.stopPropagation();
-        let index = this.getCurrentActiveTabIndex(tabItemTags);
-        if (!editorWrapper.classList.contains("editor-wrapper-hidden") && editor.state.doc.toString().trim().substring(this.settings.split.length).trim() !== codeTagTextArray[index].trim()) {
-          new import_obsidian2.Notice("\u{1F7E0} Please save the current tab before switching to another tab.");
-          return;
-        }
-        if (floatingEditor.style.display === "block") {
-          floatingEditor.style.display = "none";
-        }
-        for (let i = 0; i < tabItemTags.length; i++) {
-          if (tabItemTags[i] === e.srcElement) {
-            tabItemTags[i].classList.add("tab-item--active");
-            tabContentTags[i].classList.add("tab-content--active");
-            const state = editor.state;
-            const transaction = editor.state.update({
-              changes: {from: 0, to: state.doc.length, insert: this.settings.split + " " + codeTagTextArray[i + 1].trim()}
-            });
-            editor.dispatch(transaction);
-            editor.focus();
-          } else {
-            tabItemTags[i].classList.remove("tab-item--active");
-            tabContentTags[i].classList.remove("tab-content--active");
-          }
-        }
-      };
-      function updateFloatingEditor(view) {
-        const selection = view.state.selection.main;
-        if (!selection.empty) {
-          const p = view.coordsAtPos(0);
-          const pos = view.coordsAtPos(selection.from);
-          floatingEditor.style.display = "block";
-          floatingEditor.style.left = `${pos.left - p.left + 71}px`;
-          floatingEditor.style.top = `${pos.top - p.top + 76}px`;
-        } else {
-          floatingEditor.style.display = "none";
-        }
+// src/components/tabeditor.ts
+var TabEditor = class {
+  constructor(tabEditorWrapperEl) {
+    this.floatingMenuExtension = EditorView.updateListener.of((update) => {
+      if (update.selectionSet) {
+        this.updateFloatingEditor(update.view);
       }
     });
-  }
-  saveEditorData(editor, editorWrapper, contentsTag, codeTagArray, index, lineStart, lineEnd2) {
-    editorWrapper.addClass("editor-wrapper-hidden");
-    contentsTag.style.display = "block";
-    let newDoc = this.getNewDocByIndex(editor, codeTagArray, index);
-    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-    activeView.editor.replaceRange(newDoc, {line: lineStart + 1, ch: 0}, {line: lineEnd2, ch: 0});
-  }
-  getCurrentActiveTabIndex(tabItemTags) {
-    let index = 0;
-    for (let i = 0; i < tabItemTags.length; i++) {
-      if (tabItemTags[i].classList.contains("tab-item--active")) {
-        index = i + 1;
-      }
-    }
-    return index;
-  }
-  getNewDocByIndex(editor, codeTagArray, index, doc2) {
-    doc2 = doc2 == "" ? doc2 : editor.state.doc.toString();
-    let newDoc = "";
-    for (let i = 0; i < codeTagArray.length; i++) {
-      if (i !== index - 1) {
-        newDoc += "\n" + this.settings.split + " " + codeTagArray[i].trim() + "\n";
-      } else {
-        newDoc += "\n" + doc2 + "\n";
-      }
-    }
-    return newDoc;
+    this.state = EditorState.create({
+      doc: "",
+      extensions: [
+        basicSetup,
+        keymap.of([indentWithTab]),
+        keymap.of(standardKeymap),
+        markdown(),
+        this.floatingMenuExtension,
+        EditorView.lineWrapping
+      ]
+    });
+    this.view = new EditorView({
+      state: this.state,
+      parent: tabEditorWrapperEl
+    });
+    this.floatingEditor = this.initFloatingEditor(tabEditorWrapperEl, this.view);
   }
   initFloatingEditor(editorWrapper, editor) {
-    let floatingEditor = document.createElement("div");
+    const floatingEditor = document.createElement("div");
     floatingEditor.className = "toolbar";
     editorWrapper.appendChild(floatingEditor);
-    let boldButton = document.createElement("button");
+    const boldButton = document.createElement("button");
     boldButton.addClass("toolbar-button", "bold-button");
-    (0, import_obsidian2.setIcon)(boldButton, "bold");
+    (0, import_obsidian3.setIcon)(boldButton, "bold");
     boldButton.onclick = () => {
       editor.dispatch({
         changes: {
@@ -26174,9 +25968,9 @@ var Tabs = class extends import_obsidian2.Plugin {
       });
     };
     floatingEditor.appendChild(boldButton);
-    let italicButton = document.createElement("button");
+    const italicButton = document.createElement("button");
     italicButton.addClass("toolbar-button", "italic-button");
-    (0, import_obsidian2.setIcon)(italicButton, "italic");
+    (0, import_obsidian3.setIcon)(italicButton, "italic");
     italicButton.onclick = () => {
       editor.dispatch({
         changes: {
@@ -26187,9 +25981,9 @@ var Tabs = class extends import_obsidian2.Plugin {
       });
     };
     floatingEditor.appendChild(italicButton);
-    let underlineButton = document.createElement("button");
+    const underlineButton = document.createElement("button");
     underlineButton.addClass("toolbar-button", "underline-button");
-    (0, import_obsidian2.setIcon)(underlineButton, "underline");
+    (0, import_obsidian3.setIcon)(underlineButton, "underline");
     underlineButton.onclick = () => {
       editor.dispatch({
         changes: {
@@ -26200,10 +25994,9 @@ var Tabs = class extends import_obsidian2.Plugin {
       });
     };
     floatingEditor.appendChild(underlineButton);
-    let strikeButton = document.createElement("button");
+    const strikeButton = document.createElement("button");
     strikeButton.addClass("toolbar-button", "strike-button");
-    (0, import_obsidian2.addIcon)("strike", '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-strikethrough"><path d="M16 4H9a3 3 0 0 0-2.83 4"/><path d="M14 12a4 4 0 0 1 0 8H6"/><line x1="4" x2="20" y1="12" y2="12"/></svg>');
-    (0, import_obsidian2.setIcon)(strikeButton, "strike");
+    (0, import_obsidian3.setIcon)(strikeButton, "strikethrough");
     strikeButton.onclick = () => {
       editor.dispatch({
         changes: {
@@ -26226,17 +26019,346 @@ var Tabs = class extends import_obsidian2.Plugin {
     }
     return format + rowStr + tail;
   }
-  focuOnTabByIndex(tabItemTags, index) {
-    for (let i = 0; i < tabItemTags.length; i++) {
-      if (i === index) {
-        tabItemTags[i].classList.add("tab-item--active");
-      } else {
-        tabItemTags[i].classList.remove("tab-item--active");
-      }
+  updateFloatingEditor(view) {
+    const selection = view.state.selection.main;
+    if (!selection.empty) {
+      const p = view.coordsAtPos(0);
+      const pos = view.coordsAtPos(selection.from);
+      this.floatingEditor.setCssStyles({
+        top: `${pos.top - p.top + 76}px`,
+        left: `${pos.left - p.left + 71}px`
+      });
+      this.floatingEditor.classList.add("floating-editor-active");
+    } else {
+      this.floatingEditor.classList.remove("floating-editor-active");
     }
   }
-  isPreviewMode(activeLeaf) {
-    return activeLeaf.getViewState().state.mode === "preview";
+};
+
+// src/components/tabeditorwrapper.ts
+var TabEditorWrapper = class {
+  constructor() {
+    this.isEditing = false;
+    this.tabEditorWrapperEl = this.createTabEditorWrapperEl();
+    this.editor = new TabEditor(this.tabEditorWrapperEl);
+  }
+  createTabEditorWrapperEl() {
+    const element = document.createElement("div");
+    element.classList.add("tab-editor-wrapper", "tab-editor-wrapper-hidden");
+    return element;
+  }
+  refreshActiveTabEditor(index, doc2) {
+    if (!this.isEditing) {
+      return;
+    }
+    const state = this.editor.view.state;
+    const transaction = this.editor.view.state.update({
+      changes: {from: 0, to: state.doc.length, insert: doc2}
+    });
+    this.editor.view.dispatch(transaction);
+  }
+};
+
+// src/components/tabnavbutton.ts
+var import_obsidian4 = __toModule(require("obsidian"));
+var TabNavButton = class {
+  constructor(tabnav, type, split, sectioninfo) {
+    this.type = "add-new-tab";
+    this.tabnav = tabnav;
+    this.type = type;
+    this.split = split;
+    this.sectioninfo = sectioninfo;
+    this.buttonEl = this.createTabNavButtonEl();
+  }
+  createTabNavButtonEl() {
+    const addButton = document.createElement("div");
+    addButton.className = "tab-nav-button";
+    (0, import_obsidian4.setIcon)(addButton, "plus");
+    return addButton;
+  }
+};
+
+// src/components/tabnavitem.ts
+var TabNavItem = class {
+  constructor(tabnav, index, title) {
+    this.isActiveed = false;
+    this.index = index;
+    this.title = title.trim();
+    this.tabnav = tabnav;
+    this.tabitemEl = createEl("div", {text: this.title});
+    this.tabitemEl.className = "tab-nav-item";
+  }
+};
+
+// src/components/tabnav.ts
+var TabNav = class {
+  constructor(tabsNav, split, sectioninfo) {
+    this.currentTab = 0;
+    this.tabnavitems = new Array(tabsNav.length);
+    this.tabbutton = new TabNavButton(this, "add-new-tab", split, sectioninfo);
+    for (let i = 0; i < tabsNav.length; i++) {
+      this.tabnavitems[i] = new TabNavItem(this, i, tabsNav[i]);
+    }
+    this.tabnavitems[0].isActiveed = true;
+    this.tabnavitems[0].tabitemEl.classList.add("tab-nav-item-active");
+    this.tabnavEl = this.createTabNavEl();
+    this.currentTab = 0;
+  }
+  createTabNavEl() {
+    const element = document.createElement("div");
+    element.className = "tab-nav";
+    const wrapper = document.createElement("div");
+    wrapper.className = "tab-nav-item-wrapper";
+    element.appendChild(wrapper);
+    this.tabnavitems.forEach((tab) => {
+      wrapper.appendChild(tab.tabitemEl);
+    });
+    element.appendChild(this.tabbutton.buttonEl);
+    return element;
+  }
+  append(tab) {
+    this.tabnavitems.push(tab);
+    this.tabnavEl.appendChild(tab.tabitemEl);
+  }
+  refreshActiveTabNav(index) {
+    this.tabnavitems[this.currentTab].isActiveed = false;
+    this.tabnavitems[this.currentTab].tabitemEl.classList.remove("tab-nav-item-active");
+    this.tabnavitems[index].isActiveed = true;
+    this.tabnavitems[index].tabitemEl.classList.add("tab-nav-item-active");
+    this.currentTab = index;
+  }
+};
+
+// src/components/tabs.ts
+var Tabs = class {
+  constructor(source, element, context, app, plugin, settings) {
+    this.currentIndex = 0;
+    element.className = "tab-container";
+    this.plugin = plugin;
+    this.tabsEl = element;
+    this.split = settings.split;
+    this.app = app;
+    this.activeView = app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
+    this.sectioninfo = context.getSectionInfo(element);
+    const splitContent = source.split(this.split);
+    const tabnavitemtitle = [];
+    const tabcontent = [];
+    for (let i = 1; i < splitContent.length; i++) {
+      const j = splitContent[i].indexOf("\n");
+      tabnavitemtitle.push(splitContent[i].substring(0, j));
+      tabcontent.push(splitContent[i].substring(j + 1));
+    }
+    this.tabnav = new TabNav(tabnavitemtitle, this.split, this.sectioninfo);
+    this.tabContents = new TabContents(plugin, tabcontent.map((content2, index) => {
+      return new TabContent(index, tabnavitemtitle[index], content2, app, context);
+    }));
+    this.editorWrapper = new TabEditorWrapper();
+    element.appendChild(this.tabnav.tabnavEl);
+    element.appendChild(this.tabContents.tabcontentsEl);
+    element.appendChild(this.editorWrapper.tabEditorWrapperEl);
+    this.registerEventHandlers();
+  }
+  async registerEventHandlers() {
+    this.tabnav.tabnavitems.forEach((tab, index) => {
+      this.plugin.registerDomEvent(tab.tabitemEl, "click", (e) => {
+        if (this.currentIndex == index) {
+          return;
+        }
+        if (this.editorWrapper.isEditing) {
+          const content2 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
+          const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
+          if (content2.trim() !== editorContent.trim()) {
+            new import_obsidian5.Notice("\u{1F7E0} Please save the current tab.");
+            return;
+          }
+        }
+        this.tabnav.refreshActiveTabNav(index);
+        this.tabContents.refreshActiveTabContent(index);
+        this.editorWrapper.refreshActiveTabEditor(index, this.split + " " + this.tabnav.tabnavitems[index].title + "\n" + this.tabContents.tabcontents[index].content);
+        this.currentIndex = index;
+      });
+    });
+    this.plugin.registerDomEvent(this.tabContents.tabcontentsEl, "dblclick", (e) => {
+      e.preventDefault();
+      if (!this.activeView || this.isPreviewMode()) {
+        return;
+      }
+      this.enterEditingMode();
+      const editor = this.editorWrapper.editor;
+      const transaction = editor.state.update({
+        changes: {
+          from: 0,
+          to: editor.state.doc.length,
+          insert: this.split + " " + this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content.trim()
+        }
+      });
+      editor.view.dispatch(transaction);
+      editor.view.focus();
+    });
+    this.plugin.registerDomEvent(this.tabnav.tabbutton.buttonEl, "click", (e) => {
+      if (!this.activeView || this.isPreviewMode()) {
+        return;
+      }
+      if (this.tabnav.tabbutton.type == "add-new-tab") {
+        const newTabItem = new TabNavItem(this.tabnav, this.tabnav.tabnavitems.length, "New Tab");
+        this.tabnav.append(newTabItem);
+        const activeEditor = this.activeView?.editor;
+        activeEditor.setLine(this.sectioninfo.lineEnd, this.split + " new tab\nNew Tab Content\n" + activeEditor.getLine(this.sectioninfo.lineEnd));
+      } else {
+        this.saveEditorData();
+        this.exitEditingMode();
+      }
+    });
+    this.plugin.registerDomEvent(this.tabnav.tabnavEl, "contextmenu", (e) => {
+      e.preventDefault();
+      const menu = new import_obsidian5.Menu();
+      menu.addItem((item) => {
+        item.setTitle("Add New Tab");
+        item.setIcon("plus");
+        item.onClick(() => {
+          if (this.editorWrapper.isEditing) {
+            const content2 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
+            const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
+            if (content2.trim() !== editorContent.trim()) {
+              new import_obsidian5.Notice("\u{1F7E0} Please save the current tab before you adding a new tab.");
+              return;
+            }
+          }
+          const activeView = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
+          const activeEditor = activeView.editor;
+          activeEditor.setLine(this.sectioninfo.lineEnd, this.split + " new tab\nNew Tab Content\n" + activeEditor.getLine(this.sectioninfo.lineEnd));
+          new import_obsidian5.Notice("\u{1F7E2} Add new tab successfully");
+        });
+      });
+      menu.addItem((item) => {
+        item.setTitle("Delete Tab");
+        item.setIcon("trash");
+        item.onClick(() => {
+          let deleteIndex = -1;
+          for (let i = 0; i < this.tabnav.tabnavitems.length; i++) {
+            if (this.tabnav.tabnavitems[i].tabitemEl == e.target) {
+              deleteIndex = i;
+              break;
+            }
+          }
+          if (deleteIndex === -1) {
+            new import_obsidian5.Notice("\u{1F534} Not a valid tab.");
+            return;
+          }
+          const deleteTabTitle = this.tabnav.tabnavitems[deleteIndex].title;
+          if (this.editorWrapper.isEditing) {
+            const content2 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
+            const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
+            if (content2.trim() !== editorContent.trim()) {
+              new import_obsidian5.Notice("\u{1F7E0} Please save the current tab before deleting: " + deleteTabTitle);
+              return;
+            }
+          }
+          const newDoc = this.getNewDocByIndex(deleteIndex, "");
+          this.activeView?.editor.replaceRange(newDoc, {line: this.sectioninfo.lineStart + 1, ch: 0}, {line: this.sectioninfo.lineEnd, ch: 0});
+          new import_obsidian5.Notice("\u{1F7E2} Delete " + deleteTabTitle + " successfully");
+        });
+      });
+      menu.addItem((item) => {
+        item.setTitle("Copy Tab");
+        item.setIcon("copy");
+        item.onClick(() => {
+          let copyIndex = -1;
+          let copyContent = "";
+          for (let i = 0; i < this.tabnav.tabnavitems.length; i++) {
+            if (this.tabnav.tabnavitems[i].tabitemEl == e.target) {
+              copyIndex = i;
+              copyContent = this.split + " " + this.tabnav.tabnavitems[i].title + "\n" + this.tabContents.tabcontents[i].content;
+              break;
+            }
+          }
+          if (copyIndex === -1) {
+            new import_obsidian5.Notice("\u{1F534} Not a valid tab.");
+            return;
+          }
+          navigator.clipboard.writeText(copyContent).then(() => {
+            new import_obsidian5.Notice("\u{1F7E2} Copied to clipboard successfully.");
+          }).catch((err) => {
+            new import_obsidian5.Notice("\u{1F534} Failed to copy to clipboard");
+          });
+        });
+      });
+      menu.addItem((item) => {
+        item.setTitle("Paste Tab");
+        item.setIcon("paste");
+        item.onClick(() => {
+          navigator.clipboard.readText().then((text) => {
+            if (this.editorWrapper.isEditing) {
+              const content3 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
+              const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
+              if (content3.trim() !== editorContent.trim()) {
+                new import_obsidian5.Notice("\u{1F7E0} Please save the current tab.");
+                return;
+              }
+            }
+            if (!text || text.trim() === "" || text.trim() == this.split) {
+              new import_obsidian5.Notice("\u{1F7E0} No content in clipboard.");
+              return;
+            }
+            let title = "New Tab\n";
+            let content2 = text.trim();
+            if (text.startsWith(this.split)) {
+              title = text.substring(this.split.length, text.indexOf("\n"));
+              content2 = content2.substring(text.indexOf("\n"));
+            }
+            const activeEditor = this.activeView?.editor;
+            activeEditor.setLine(this.sectioninfo.lineEnd, this.split + " " + title.trim() + "\n" + content2.trim() + "\n" + activeEditor.getLine(this.sectioninfo.lineEnd));
+          }).catch((err) => {
+            new import_obsidian5.Notice("\u{1F534} Failed to paste from clipboard");
+          });
+        });
+      });
+      menu.showAtMouseEvent(e);
+    });
+  }
+  saveEditorData() {
+    const newDoc = this.getNewDocByIndex(this.currentIndex);
+    this.activeView?.editor.replaceRange(newDoc, {line: this.sectioninfo.lineStart + 1, ch: 0}, {line: this.sectioninfo.lineEnd, ch: 0});
+  }
+  getNewDocByIndex(index, doc2) {
+    doc2 = doc2 == "" ? doc2 : this.editorWrapper.editor.view.state.doc.toString();
+    let newDoc = "";
+    for (let i = 0; i < this.tabnav.tabnavitems.length; i++) {
+      if (i !== index) {
+        newDoc += "\n" + this.split + " " + this.tabnav.tabnavitems[i].title.trim() + "\n" + this.tabContents.tabcontents[i].content.trim() + "\n";
+      } else {
+        newDoc += "\n" + doc2 + "\n";
+      }
+    }
+    return newDoc;
+  }
+  enterEditingMode() {
+    this.editorWrapper.isEditing = true;
+    this.editorWrapper.tabEditorWrapperEl.classList.remove("tab-editor-wrapper-hidden");
+    this.tabContents.tabcontentsEl.addClass("tab-contents-hidden");
+    this.tabnav.tabbutton.type = "save";
+    (0, import_obsidian5.setIcon)(this.tabnav.tabbutton.buttonEl, "save");
+  }
+  exitEditingMode() {
+    this.editorWrapper.isEditing = false;
+    this.editorWrapper.tabEditorWrapperEl.classList.add("tab-editor-wrapper-hidden");
+    this.tabContents.tabcontentsEl.removeClass("tab-contents-hidden");
+    this.tabnav.tabbutton.type = "add-new-tab";
+    (0, import_obsidian5.setIcon)(this.tabnav.tabbutton.buttonEl, "plus");
+  }
+  isPreviewMode() {
+    return this.activeView?.leaf.getViewState().state.mode === "preview";
+  }
+};
+
+// src/main.ts
+var TabsPlugin = class extends import_obsidian6.Plugin {
+  async onload() {
+    await this.loadSettings();
+    this.addSettingTab(new TabsSettingsTab(this.app, this));
+    this.registerMarkdownCodeBlockProcessor("tabs", (source, el, ctx) => {
+      new Tabs(source, el, ctx, this.app, this, this.settings);
+    });
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
@@ -26245,4 +26367,4 @@ var Tabs = class extends import_obsidian2.Plugin {
     await this.saveData(this.settings);
   }
 };
-var main_default = Tabs;
+var main_default = TabsPlugin;
