@@ -325,7 +325,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "100-UTTU人物合辑/神秘学家｜Arcanists/莫桑女士｜Moissan.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   }
                 }
@@ -334,10 +334,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 401,
-        "y": 65,
-        "width": 710,
-        "height": 740,
+        "x": 1512,
+        "y": -23,
+        "width": 960,
+        "height": 1055,
         "maximize": false,
         "zoom": 0
       }
@@ -345,6 +345,8 @@
   },
   "active": "905b531d1c3e97f0",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets/立绘 莫桑女士 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/莫桑女士｜Moissan.md",
     "000-箱的构造/主页.md",
@@ -371,7 +373,6 @@
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "300-以影像之/301-主线/第五章 洞穴的囚徒.md",
     "300-以影像之/301-主线/第一章 在我们的时代里.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/吵闹鬼｜Poltergeist.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/单品 吵闹鬼 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/单品 吵闹鬼 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets/单品 吵闹鬼 01.png",
@@ -390,7 +391,6 @@
     "300-以影像之/304-轶事/assets/X·齿轮的意志.assets",
     "300-以影像之/304-轶事/assets/未锈铠·第九条美德.assets",
     "300-以影像之/304-轶事/assets/星之眼·庸碌喜剧.assets",
-    "300-以影像之/304-轶事/assets/埃里克·美梦后记.assets",
     "白板.canvas"
   ]
 }
