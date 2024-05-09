@@ -125,7 +125,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 女孩们在哪里？｜Where the Girls Are?
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

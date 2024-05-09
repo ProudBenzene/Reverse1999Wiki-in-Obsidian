@@ -126,7 +126,7 @@ color:
 ````
 ## 文化
 
-````tab
+````tabs
 tab: 今是何世|What Age Is This?
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

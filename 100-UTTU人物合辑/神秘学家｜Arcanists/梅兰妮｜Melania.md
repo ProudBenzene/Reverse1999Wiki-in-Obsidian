@@ -147,7 +147,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 
 tab: 拉米雷斯消亡史|Fall of Ramirez
 ![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)

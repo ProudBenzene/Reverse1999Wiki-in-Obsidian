@@ -126,7 +126,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 换生灵计划|Project Changeling
 ![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
