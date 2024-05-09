@@ -1,11 +1,12 @@
 /* @settings
-name: 【tabs】美化
+name: tabs插件美化
 id: tabs-MH
 settings:
   -
     id: tabsMH-WXZ-BT-BJ-color
     title: 未选中标题背景颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -13,6 +14,7 @@ settings:
     id: tabsMH-WXZ-BT-ZT-color
     title: 未选中标题字体颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -20,6 +22,7 @@ settings:
     id: tabsMH-WXZ-BT-XCT-color
     title: 未选中标题下方长条颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -27,6 +30,7 @@ settings:
     id: tabsMH-XZ-BT-BJ-color
     title: 选中标题背景颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -34,6 +38,7 @@ settings:
     id: tabsMH-XZ-BT-ZT-color
     title: 选中标题字体颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -41,6 +46,7 @@ settings:
     id: tabsMH-XZ-BT-XCT-color
     title: 选中标题下方长条颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -48,6 +54,7 @@ settings:
     id: tabsMH-XZ-WBK-BJ-color
     title: 文本框背景底色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -55,6 +62,7 @@ settings:
     id: tabsMH-WXZ-cm-ZT-color
     title: 触摸未选中标题字体颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -62,6 +70,7 @@ settings:
     id: tabsMH-WXZ-cm-XCT-color
     title: 触摸未选中标题下方长条颜色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
@@ -69,6 +78,7 @@ settings:
     id: tabsMH-WXZ-cm-JH-BJ-color
     title: 触摸加号背景底色
     type: variable-themed-color
+    opacity: true
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
