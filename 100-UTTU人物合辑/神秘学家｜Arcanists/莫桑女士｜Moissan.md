@@ -98,33 +98,29 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 另一种答案｜Another Answer
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 基金会制式高跟靴｜Boots
+> ![](assets/莫桑女士｜Moissan.assets/单品%20莫桑女士%2001.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**700**
 > ---
-> 
+> 基金会的制式高跟靴子。交叉的系带代表着服从——某种颇为常见的设计。在基金会接受训练时，她的表现极佳，是一名无可挑剔的好学生。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 蝴蝶结腰带｜Schleife
+> ![](assets/莫桑女士｜Moissan.assets/单品%20莫桑女士%2002.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**42**
 > ---
-> 
+> 在她的故乡颇受欢迎的一件小小装饰物。浅灰的配色能够很好地融入基金会的制式风格，也为她的服装增加了一分不一样的趣味。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 镀金耳饰｜Earrings
+> ![](assets/莫桑女士｜Moissan.assets/单品%20莫桑女士%2003.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**123**
 > ---
-> 
+> 镀金的耳饰，做工和来历都乏善可陈。在她担任苏芙比小姐的家庭教师后，它迅速地被一副由苏芙比小姐赠送的红宝石耳坠所替代。
 ````
 
 ### 教堂之外｜Outside the Church[^1]
@@ -133,23 +129,24 @@ color:
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ Ruby南洋白珠项链｜"Ruby" Pearl Necklace
+> ![](assets/莫桑女士｜Moissan.assets/单品%20莫桑女士%2004.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**9000**
 > ---
-> 
+> 来自佩戴者的学生。某位年轻的小姐非常诚恳地将这条项链作为“成人礼”赠予了自己的老师。  
+> 尽管其中误会颇多。但不可否认的是，这条项链完美地衬托出了佩戴者的优雅气质。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ “祈愿的时刻”｜"A Moment of Prayer"
+> ![](assets/莫桑女士｜Moissan.assets/单品%20莫桑女士%2005.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**500**
 > ---
-> 
+> 由内外两层丝绸制成的修女头巾，尽管已采用了比较轻便的布料，但由于其面积不小，戴久了仍会使人感到颈部酸痛。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ “悔过的泪水”｜"Repentant Tears"
+> ![](assets/莫桑女士｜Moissan.assets/单品%20莫桑女士%2006.png)
+> **无估值**
 > ---
-> 
+> 使用神秘术制作出来的小陶瓷贴片。这枚可爱的小东西被贴在了颧骨处，完美地契合了舞台的主题。
 ````
 
 ## 文化
@@ -199,6 +196,8 @@ tab: 蓝色与红色｜[UTTU×莫桑女士]
 ````
 
 ## 语音
+
+
 
 [^1]: 只为一朵可爱的小花。
 [^2]: ==反制== 赋予持续的反制状态，被攻击时触发效果
