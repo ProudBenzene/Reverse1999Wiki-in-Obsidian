@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,12 +343,12 @@
       }
     ]
   },
-  "active": "dc657913f5417ff0",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets/立绘 爱宠 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets",
     "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
     "000-箱的构造/主页.md",
     "游戏文件解包说明.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
@@ -363,7 +363,6 @@
     "123.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets/至终的仪式 与众不同的工具们.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets/神秘术 育人者1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets/神秘术 育人者2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
