@@ -164,16 +164,16 @@
                         }
                       ],
                       "collapse-display": false,
-                      "showArrow": false,
+                      "showArrow": true,
                       "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 0.589680989583333,
+                      "nodeSizeMultiplier": 1.50225016276042,
                       "lineSizeMultiplier": 1,
                       "collapse-forces": true,
                       "centerStrength": 0.518713248970312,
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1.0067806369281345,
+                      "scale": 0.6847167020791121,
                       "close": true
                     }
                   }
@@ -308,8 +308,45 @@
           "obsidian42-brat:BRAT": true
         }
       },
+      "floating": {
+        "id": "7734af10f54aaf9c",
+        "type": "floating",
+        "children": [
+          {
+            "id": "f2e2c906a19dedc3",
+            "type": "window",
+            "children": [
+              {
+                "id": "16451ba1e39ae653",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "dc657913f5417ff0",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
+                        "mode": "preview",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical",
+            "x": 1512,
+            "y": -23,
+            "width": 960,
+            "height": 1055,
+            "maximize": false,
+            "zoom": 0
+          }
+        ]
+      },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-05-10T20:07:34+08:00",
+      "mtime": "2024-05-10T22:34:48+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null

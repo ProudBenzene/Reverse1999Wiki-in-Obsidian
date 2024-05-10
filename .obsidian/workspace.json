@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "3a2c1c0b765f8fd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/301-主线/301-主线.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4382944d41c0207",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/300-以影像之.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -75,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,16 +162,16 @@
                     }
                   ],
                   "collapse-display": false,
-                  "showArrow": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 0.589680989583333,
+                  "nodeSizeMultiplier": 1.50225016276042,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.19887024926975475,
+                  "scale": 0.6847167020791121,
                   "close": true
                 }
               }
@@ -223,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/300-以影像之.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md"
               }
             }
           },
@@ -280,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -368,14 +343,14 @@
       }
     ]
   },
-  "active": "c4382944d41c0207",
+  "active": "dc657913f5417ff0",
   "lastOpenFiles": [
-    "300-以影像之/301-主线/301-主线.md",
+    "000-箱的构造/主页.md",
     "300-以影像之/300-以影像之.md",
+    "300-以影像之/301-主线/301-主线.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/200-相从心生.md",
     "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets/立绘 爱宠 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets",
