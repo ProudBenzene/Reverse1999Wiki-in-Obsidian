@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "41d2936500c87b78",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.0"
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -61,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,36 +209,6 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "60c4aff2a8813b03",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ec9b7151224cedf8",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "5d528fbf687122d8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -347,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "41d2936500c87b78",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "000-箱的构造/主页.md",

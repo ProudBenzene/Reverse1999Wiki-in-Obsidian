@@ -16,5 +16,6 @@
   "livePreview": true,
   "defaultViewMode": "source",
   "propertiesInDocument": "visible",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showRibbon": true
 }

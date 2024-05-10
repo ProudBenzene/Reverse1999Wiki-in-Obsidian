@@ -3533,7 +3533,7 @@ var Templater = class {
     this.parser = new Parser();
   }
   async setup() {
-    this.templater_task_counter = 0;
+    this.files_with_pending_templates = new Set();
     await this.parser.init();
     await this.functions_generator.init();
     this.plugin.registerMarkdownPostProcessor((el, ctx) => this.process_dynamic_templates(el, ctx));
@@ -3557,18 +3557,17 @@ var Templater = class {
     const content = await this.parser.parse_commands(template_content, functions_object);
     return content;
   }
-  start_templater_task() {
-    this.templater_task_counter++;
+  start_templater_task(path) {
+    this.files_with_pending_templates.add(path);
   }
-  async end_templater_task() {
-    this.templater_task_counter--;
-    if (this.templater_task_counter === 0) {
+  async end_templater_task(path) {
+    this.files_with_pending_templates.delete(path);
+    if (this.files_with_pending_templates.size === 0) {
       app.workspace.trigger("templater:all-templates-executed");
       await this.functions_generator.teardown();
     }
   }
   async create_new_note_from_template(template, folder, filename, open_new_note = true) {
-    this.start_templater_task();
     if (!folder) {
       const new_file_location = app.vault.getConfig("newFileLocation");
       switch (new_file_location) {
@@ -3592,17 +3591,18 @@ var Templater = class {
     const extension = template instanceof import_obsidian12.TFile ? template.extension || "md" : "md";
     const created_note = await errorWrapper(async () => {
       const folderPath = folder instanceof import_obsidian12.TFolder ? folder.path : folder;
-      const path = app.vault.getAvailablePath((0, import_obsidian12.normalizePath)(`${folderPath ?? ""}/${filename || "Untitled"}`), extension);
-      const folder_path = get_folder_path_from_file_path(path);
+      const path2 = app.vault.getAvailablePath((0, import_obsidian12.normalizePath)(`${folderPath ?? ""}/${filename || "Untitled"}`), extension);
+      const folder_path = get_folder_path_from_file_path(path2);
       if (folder_path && !app.vault.getAbstractFileByPathInsensitive(folder_path)) {
         await app.vault.createFolder(folder_path);
       }
-      return app.vault.create(path, "");
+      return app.vault.create(path2, "");
     }, `Couldn't create ${extension} file.`);
     if (created_note == null) {
-      await this.end_templater_task();
       return;
     }
+    const { path } = created_note;
+    this.start_templater_task(path);
     let running_config;
     let output_content;
     if (template instanceof import_obsidian12.TFile) {
@@ -3614,7 +3614,7 @@ var Templater = class {
     }
     if (output_content == null) {
       await app.vault.delete(created_note);
-      await this.end_templater_task();
+      await this.end_templater_task(path);
       return;
     }
     await app.vault.modify(created_note, output_content);
@@ -3636,22 +3636,22 @@ var Templater = class {
         rename: "all"
       });
     }
-    await this.end_templater_task();
+    await this.end_templater_task(path);
     return created_note;
   }
   async append_template_to_active_file(template_file) {
-    this.start_templater_task();
     const active_view = app.workspace.getActiveViewOfType(import_obsidian12.MarkdownView);
     const active_editor = app.workspace.activeEditor;
     if (!active_editor || !active_editor.file || !active_editor.editor) {
       log_error(new TemplaterError("No active editor, can't append templates."));
-      await this.end_templater_task();
       return;
     }
+    const { path } = active_editor.file;
+    this.start_templater_task(path);
     const running_config = this.create_running_config(template_file, active_editor.file, 1);
     const output_content = await errorWrapper(async () => this.read_and_parse_template(running_config), "Template parsing error, aborting.");
     if (output_content == null) {
-      await this.end_templater_task();
+      await this.end_templater_task(path);
       return;
     }
     const editor = active_editor.editor;
@@ -3669,15 +3669,17 @@ var Templater = class {
       newSelections: doc.listSelections()
     });
     await this.plugin.editor_handler.jump_to_next_cursor_location(active_editor.file, true);
-    await this.end_templater_task();
+    await this.end_templater_task(path);
   }
   async write_template_to_file(template_file, file) {
-    this.start_templater_task();
+    const { path } = file;
+    this.start_templater_task(path);
     const active_editor = app.workspace.activeEditor;
     const active_file = get_active_file(app);
     const running_config = this.create_running_config(template_file, file, 2);
     const output_content = await errorWrapper(async () => this.read_and_parse_template(running_config), "Template parsing error, aborting.");
     if (output_content == null) {
+      await this.end_templater_task(path);
       return;
     }
     await app.vault.modify(file, output_content);
@@ -3690,7 +3692,7 @@ var Templater = class {
       content: output_content
     });
     await this.plugin.editor_handler.jump_to_next_cursor_location(file, true);
-    await this.end_templater_task();
+    await this.end_templater_task(path);
   }
   overwrite_active_file_commands() {
     const active_editor = app.workspace.activeEditor;
@@ -3701,11 +3703,12 @@ var Templater = class {
     this.overwrite_file_commands(active_editor.file, true);
   }
   async overwrite_file_commands(file, active_file = false) {
-    this.start_templater_task();
+    const { path } = file;
+    this.start_templater_task(path);
     const running_config = this.create_running_config(file, file, active_file ? 3 : 2);
     const output_content = await errorWrapper(async () => this.read_and_parse_template(running_config), "Template parsing error, aborting.");
     if (output_content == null) {
-      await this.end_templater_task();
+      await this.end_templater_task(path);
       return;
     }
     await app.vault.modify(file, output_content);
@@ -3714,7 +3717,7 @@ var Templater = class {
       content: output_content
     });
     await this.plugin.editor_handler.jump_to_next_cursor_location(file, true);
-    await this.end_templater_task();
+    await this.end_templater_task(path);
   }
   async process_dynamic_templates(el, ctx) {
     const dynamic_command_regex = generate_dynamic_command_regex();
@@ -3774,6 +3777,9 @@ var Templater = class {
       return;
     }
     await delay(300);
+    if (templater.files_with_pending_templates.has(file.path)) {
+      return;
+    }
     if (file.stat.size == 0 && templater.plugin.settings.enable_folder_templates) {
       const folder_template_match = templater.get_new_file_template_for_folder(file.parent);
       if (!folder_template_match) {
@@ -3803,10 +3809,11 @@ var Templater = class {
       if (!file) {
         continue;
       }
-      this.start_templater_task();
+      const { path } = file;
+      this.start_templater_task(path);
       const running_config = this.create_running_config(file, file, 5);
       await errorWrapper(async () => this.read_and_parse_template(running_config), `Startup Template parsing error, aborting.`);
-      await this.end_templater_task();
+      await this.end_templater_task(path);
     }
   }
 };
