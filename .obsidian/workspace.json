@@ -334,10 +334,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 1512,
-        "y": -23,
+        "x": 0,
+        "y": 25,
         "width": 960,
-        "height": 1055,
+        "height": 993,
         "maximize": false,
         "zoom": 0
       }
