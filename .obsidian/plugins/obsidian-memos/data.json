@@ -43,7 +43,7 @@
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
   "MemoListView": "list",
-  "MemoSaveLocation": "DAILY",
+  "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "memos.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
@@ -122,7 +122,7 @@
   "WaitTemplaterToFinishParse": false,
   "NavbarButton": false,
   "AlwaysShowStatusText": false,
-  "FilterByMetadata": false,
+  "FilterByMetadata": true,
   "ShowSourcePath": true,
   "ShowUpdateMessage": true
 }
