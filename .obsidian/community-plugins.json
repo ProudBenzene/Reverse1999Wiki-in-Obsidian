@@ -3,7 +3,6 @@
   "Enhanced-editing",
   "obsidian-advanced-uri",
   "attachment-flow-plugin",
-  "better-fn",
   "better-word-count",
   "buttons",
   "cmdr",
@@ -38,5 +37,6 @@
   "obsidian-sakana-widget",
   "obsidian-sortable",
   "waypoint",
-  "tabs"
+  "tabs",
+  "better-fn"
 ]
