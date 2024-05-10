@@ -106,23 +106,24 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 稻草头套｜Straw Headgear
+> ![](assets/爱宠｜Rabies.assets/单品%20爱宠%2001.png)
+> **无估值**
 > ---
-> 
+> 一只带着笑意面容的稻草头套。不是村里大人们有意为之，也不是顽皮的孩子们的恶作剧，稻草们自然而然地就变成了这样的形状。  
+> 至少现在他看起来不这么可怕了。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 听诊器｜Stethoscope
+> ![](assets/爱宠｜Rabies.assets/单品%20爱宠%2002.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**1.2**
 > ---
-> 
+> 一副普通的听诊器，被随意挂在脖子上，有时则会被遗落在田野间。显然对如今的受访人而言，它并不算什么重要的物品，但它却能证明一些往事。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 一捆麻绳｜Hemp Rope
+> ![](assets/爱宠｜Rabies.assets/单品%20爱宠%2003.png)
+> **无估值**
 > ---
-> 
+> 农地里随处可见的麻绳。没有特定用途，也没有任何价值，甚至不会被路人捡拾。为什么这样的东西会挂在他手上？
 ````
 
 ### ｜
