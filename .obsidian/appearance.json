@@ -27,7 +27,6 @@
     "[PKMer]sidenote-callout",
     "[PKMer]Callout-花边",
     "[PKMer]行内图片",
-    "[Minimal]Cards",
     "[Buttons]按钮样式",
     "[Bon]书库封面",
     "[Blue Topaz]myhome 样式",
@@ -42,6 +41,7 @@
     "[PKMer]卡片化阅览",
     "关系图谱",
     "[PKMer]tabs插件美化 ",
-    "[AnuPpuccin]custom-background"
+    "[AnuPpuccin]custom-background",
+    "[Minimal]Cards"
   ]
 }

@@ -114,7 +114,6 @@
   "minimal-style@@link-color-hover@@light": "#FE8A2C",
   "minimal-style@@link-color-hover@@dark": "#FE8A2C",
   "minimal-style@@minimal-strike-lists": true,
-  "minimal-style@@sidebar-lines-off": true,
   "minimal-style@@sidebar-tabs-style": "sidebar-tabs-wide",
   "minimal-style@@row-lines": false,
   "minimal-style@@tabs-style": "tabs-modern",
