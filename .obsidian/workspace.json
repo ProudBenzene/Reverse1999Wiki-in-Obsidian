@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1d5a58256bfcc56d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/200-相从心生.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/200-相从心生.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "200-相从心生/200-相从心生.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/200-相从心生.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/200-相从心生.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,11 +319,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "1d5a58256bfcc56d",
   "lastOpenFiles": [
+    "200-相从心生/普通心相/绿毒｜Venomous.md",
+    "200-相从心生/200-相从心生.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/曲娘｜Jiu Niangzi.assets/立绘 曲娘 01.png",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/爱宠｜Rabies.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets/单品 爱宠 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets/单品 爱宠 02.png",
@@ -324,7 +339,6 @@
     "300-以影像之/300-以影像之.md",
     "300-以影像之/301-主线/301-主线.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
-    "200-相从心生/200-相从心生.md",
     "200-相从心生/印刻材料/启寤Ⅱ｜Enlighten.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets",
     "000-箱的构造/常用工具.md",
