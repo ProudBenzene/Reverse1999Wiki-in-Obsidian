@@ -166,15 +166,52 @@ tab: 麦田上的稻草人｜[UTTU×爱宠]
 白雪松：我知道，这只是循例的礼节性举动。我并不期望你能对我的问题做出恰当的回应。
 白雪松：有趣的是，我最近总是碰上无法沟通的采访对象。虽然他们都是十分有意思的人，真是遗憾。
 白雪松：就比如爱宠……先生，你拥有相当有趣的特质。我想，我们本能够写出一篇很有意思的访谈。
-爱宠：喔！喔！喔喔！
+**爱宠：喔！喔！喔喔！**
 白雪松：……嗯？听起来你有什么话想要倾诉。
-爱宠：嘎！嘎！
+**爱宠：嘎！嘎！**
 白雪松：我明白了。可以请你再次自我介绍吗？
-爱宠：爱……宠……我是……爱……宠！
+**爱宠：爱……宠……我是……爱……宠！**
 
 ````
 
 ## 语音
+
+|                      |                                                                                   |
+| :------------------: | :-------------------------------------------------------------------------------: |
+|          初遇          |             噜噜噜噜……爱……宠……爱宠……<br><br>Purrrrrrr … Ra … bies … Rabies …              |
+|         箱中气候         |              看不清……噜……噜……看不清……<br><br>Can brr … brr … barely … see …               |
+|  致未来  <br>信任达到10%解锁  |                    蓝天……还有……风……<br><br>Blue sky … and … wind …                     |
+|          孑立          |                        *低沉的，猫的呼噜声*<br><br>*cat's purring*                         |
+|          问候          |                      爱宠……说……你好……<br><br>Rabies … says … hi …                      |
+|          朝晨          |                         *麻雀的叫声*<br><br>*sparrow chirping*                         |
+| 信任-朝晨  <br>信任达到20%解锁 |                            汪——！汪——！<br><br>Woof! Woof!                            |
+|          夜暮          |            躺……爱宠……也会躺！<br><br>Lying down … Rabies … lying down … too!             |
+| 信任-夜暮  <br>信任达到30%解锁 |             夜晚……她……眼泪……呜呜……<br><br>At night … her … tears … boohoo …              |
+|        帽檐与发鬓         |                    呜……这不是洋……葱。<br><br>Oh … it's not on … ion.                     |
+|         袖与手          |                   手？递……手？呼噜噜噜……<br><br>Paw? Give … paw? Purr …                    |
+|        衣着与身形         |           稻草……被抱，爱宠……也懂。<br><br>Straws … be hugged. Rabies … feels it.            |
+|  嗜好  <br>信任达到40%解锁   |           声音……好多声音……大家，朋友！<br><br>Voices … many voices … Fri … friends!           |
+|  赞赏  <br>信任达到50%解锁   |                      好有趣！好有……趣！<br><br>Fun! Goo … good fun!                       |
+|  亲昵  <br>信任达到60%解锁   |                         *狗兴奋时的嘶哈声*<br><br>*dog's panting*                         |
+|         闲谈Ⅰ          |            爱宠，很厉害……害虫，不会靠近……<br><br>Rabies … top-notch … pests gone …             |
+|         闲谈Ⅱ          |      爱宠，会走路……稻草人，不该……走路？<br><br>Rabies, walk … Scarecrow, shouldn't … walk?       |
+|  独白  <br>信任达到70%解锁   |    艾莉……西亚……是谁？好……女人……艾莉……西亚？<br><br>Ali … cia … who? Good … lady … Ali … cia?     |
+|          入队          |                              噜噜噜噜……<br><br>Hrrrooo …                              |
+|          战前          |                             咳——汪！<br><br>Ar … rooff!                              |
+|        择选咒语Ⅰ         |                                  喵？<br><br>Meow?                                  |
+|        择选咒语Ⅱ         |                                呣～！<br><br>Houyhn!                                 |
+|        择选高阶咒语        |                                呜——！<br><br>Arrrgh!                                |
+|       择选至终的仪式        |                             乌鸦，走开！<br><br>Crow, away!                             |
+|        释放神秘术Ⅰ        |                                  跑！<br><br>Run!                                   |
+|        释放神秘术Ⅰ        |                                嘎哈！<br><br>Yurrra!                                 |
+|        释放神秘术Ⅱ        |                               喵——！！！<br><br>Meow!!!                               |
+|        释放神秘术Ⅱ        |                          守卫，田地！<br><br>Guard, the field!                          |
+|       召唤至终的仪式        |                             离开，离开！<br><br>Go, gooooo!                             |
+|         受敌Ⅰ          |                               阿呜——<br><br>Boohoo …                                |
+|         受敌Ⅱ          |                               嗷呜！<br><br>Ar rooff!                                |
+|         战斗胜利         |             嘎！嘎！嘎！嘎……！晚餐！晚餐！<br><br>Ah! Ah! Ah! Ah …! Dinner! Dinner!             |
+|    洞悉  <br>洞悉后解锁     |                    更多的……稻草，更多……<br><br>More … straws … more …                     |
+|  洞悉之底  <br>获得对应衣着解锁  | 这是……什么？显……微镜？显微……新玩具！<br><br>What … is … this? Micro … scope? Microsco … new toy! |
 
 [^1]: ==中毒== 状态异常 回合结束时，受到基于释放者攻击的本源创伤（可以叠加）
 [^2]: ==控制== 控制眩晕，石化，噩梦，冰冻，缴械，缄默，封印等限制角色行动的效果
