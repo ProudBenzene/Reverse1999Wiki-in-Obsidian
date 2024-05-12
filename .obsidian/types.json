@@ -15,6 +15,7 @@
     "dateCreated": "date",
     "dateModified": "date",
     "生日": "date",
-    "date": "date"
+    "date": "date",
+    "剧情主角": "multitext"
   }
 }
