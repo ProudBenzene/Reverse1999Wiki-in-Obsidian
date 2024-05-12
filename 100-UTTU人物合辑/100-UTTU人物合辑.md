@@ -82,6 +82,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[伊索尔德｜Isolde]]
 	- [[婴儿蓝｜Baby Blue]]
 	- [[鬃毛沙砾｜Shamane]]
+	- [[TTT｜TTT]]
 	- [[X｜X]]
 - **神秘学家感染种｜Infected**
 - **神秘学家混血种｜Mixed**
