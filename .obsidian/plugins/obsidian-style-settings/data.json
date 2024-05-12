@@ -704,5 +704,12 @@
   "Appearance-dark@@color-accent-2-dark": "#82AEDD",
   "Appearance-dark@@accent-dark": "#EFB68E",
   "Appearance-dark@@color-activated-tab-header-dark": "#EBDEA4",
-  "Appearance-dark@@input-shadow-dark": "0px 2px 4px 5px rgba(0, 0, 0, 0.2)"
+  "Appearance-dark@@input-shadow-dark": "0px 2px 4px 5px rgba(0, 0, 0, 0.2)",
+  "Editor@@h1-accent-color@@dark": "#E55C5A",
+  "Editor@@h2-accent-color@@dark": "#2287F2",
+  "Editor@@h2-color-select": "h2-color-default",
+  "Editor@@h3-accent-color@@dark": "#F9CE62",
+  "Editor@@h4-accent-color@@dark": "#1ECC4F",
+  "Editor@@h5-accent-color@@dark": "#A979E2",
+  "Editor@@h6-accent-color@@dark": "#7C2ED8"
 }
