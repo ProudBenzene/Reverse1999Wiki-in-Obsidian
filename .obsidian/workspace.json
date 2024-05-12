@@ -20,14 +20,26 @@
             }
           },
           {
+            "id": "571df75ff6a9722d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/302-支线/再见，来亚什基.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d7b1cd5d73192092",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -296,7 +309,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,9 +335,13 @@
   },
   "active": "d7b1cd5d73192092",
   "lastOpenFiles": [
-    "000-箱的构造/常用工具.md",
+    "300-以影像之/302-支线/再见，来亚什基.md",
     "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
+    "200-相从心生/角色心相/assets/故尝试证明｜For Rehabilitation.assets/心相 故尝试证明.png",
+    "300-以影像之/302-支线/assets/再见，来亚什基.assets/再见，来亚什基.jpg",
     "000-箱的构造/主页.md",
+    "200-相从心生/角色心相/assets/故尝试证明｜For Rehabilitation.assets",
+    "000-箱的构造/常用工具.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
@@ -337,7 +355,6 @@
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
     "300-以影像之/303-角色剧情/assets/马库斯·灯塔集.assets/马库斯·灯塔集.jpg",
-    "300-以影像之/302-支线/再见，来亚什基.md",
     "300-以影像之/301-主线/301-主线.md",
     "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md",
@@ -345,8 +362,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/单品 TTT 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/单品 TTT 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/至终的仪式 快，拔掉电源.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/神秘术 网络防范1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/神秘术 网络防范3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets",
     "200-相从心生/200-相从心生.md",
     "200-相从心生/普通心相/绿毒｜Venomous.md",
@@ -359,14 +374,12 @@
     "123.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
-    "测试.md",
     "未命名",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets",
     "anu主题配置.zip",
     "300-以影像之/304-轶事/assets/冬·重返人间.assets",
-    "300-以影像之/304-轶事/assets/X·齿轮的意志.assets",
     "白板.canvas"
   ]
 }
