@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -208,36 +208,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "cb8348b04602a91a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "cffacb7196619e5f",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "da38307113151664",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md"
-              }
             }
           }
         ],
@@ -285,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,45 +306,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "floating": {
-    "id": "d50d85acdd3fec65",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f260c865d6d3bebd",
-        "type": "window",
-        "children": [
-          {
-            "id": "3e37abf67498e514",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "46c66430d411348f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md",
-                    "mode": "preview",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 38,
-        "width": 756,
-        "height": 944,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "46c66430d411348f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/单品 TTT 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/单品 TTT 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/单品 TTT 03.png",
@@ -385,10 +319,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/神秘术 供电安全2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/神秘术 供电安全1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/神秘术 网络防范2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets/立绘 TTT 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets",
     "000-箱的构造/主页.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/TTT｜TTT.md",
     "000-箱的构造/常用工具.md",
     "200-相从心生/200-相从心生.md",
     "200-相从心生/普通心相/绿毒｜Venomous.md",
