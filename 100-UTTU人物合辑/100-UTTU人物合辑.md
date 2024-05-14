@@ -63,6 +63,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[帕米埃｜Dikke]]
 	- [[皮克勒斯｜Pickles]]
 	- [[气球派对｜Balloon Party]]
+	- [[铅玻璃｜Cristallo]]
 	- [[沙丝绒｜Desert Flannel]]
 	- [[十四行诗｜Sonetto]]
 	- [[斯奈德｜Schneider]]

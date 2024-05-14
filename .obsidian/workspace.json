@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "dc898efc241674d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/铅玻璃｜Cristallo.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/铅玻璃｜Cristallo.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -198,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/常用工具.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/铅玻璃｜Cristallo.md"
               }
             }
           },
@@ -255,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/铅玻璃｜Cristallo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/铅玻璃｜Cristallo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,8 +321,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "dc898efc241674d4",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/铅玻璃｜Cristallo.assets/立绘 铅玻璃 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/铅玻璃｜Cristallo.assets",
+    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/铅玻璃｜Cristallo.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/Thumbs.db",
     "MarginNote升级付费争议事件.md",
@@ -316,7 +335,6 @@
     "200-相从心生/角色心相/assets/故尝试证明｜For Rehabilitation.assets/心相 故尝试证明.png",
     "300-以影像之/302-支线/assets/再见，来亚什基.assets/再见，来亚什基.jpg",
     "200-相从心生/角色心相/assets/故尝试证明｜For Rehabilitation.assets",
-    "000-箱的构造/常用工具.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "300-以影像之/304-轶事/assets/芝诺·风吹乌哈拉.assets/头图 风吹乌哈拉.png",
@@ -346,13 +364,11 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets",
     "游戏文件解包说明.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/莫桑女士｜Moissan.md",
-    "123.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets",
     "未命名",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/吵闹鬼｜Poltergeist.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小梅斯梅尔｜Mesmer Jr..assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/埃里克｜Erick.assets",
-    "anu主题配置.zip",
     "白板.canvas"
   ]
 }
