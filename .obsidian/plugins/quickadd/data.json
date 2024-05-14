@@ -547,7 +547,7 @@
   "devMode": false,
   "templateFolderPath": "000-箱的构造/templates",
   "announceUpdates": true,
-  "version": "1.8.1",
+  "version": "1.9.0",
   "disableOnlineFeatures": false,
   "ai": {
     "defaultModel": "gpt-3.5-turbo-1106",
