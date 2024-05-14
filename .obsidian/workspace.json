@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarginNote升级付费争议事件.md",
-                "mode": "source",
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MarginNote升级付费争议事件.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "MarginNote升级付费争议事件.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -208,36 +208,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "74aab1f3e68a7d69",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "e17079eb1fccc92b",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "ca42e71c23fdbfa5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "MarginNote升级付费争议事件.md"
-              }
             }
           }
         ],
@@ -285,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MarginNote升级付费争议事件.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MarginNote升级付费争议事件.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,8 +308,8 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "MarginNote升级付费争议事件.md",
+    "000-箱的构造/主页.md",
     "200-相从心生/角色心相/故尝试证明｜For Rehabilitation.md",
     "300-以影像之/302-支线/再见，来亚什基.md",
     "200-相从心生/角色心相/assets/故尝试证明｜For Rehabilitation.assets/心相 故尝试证明.png",
