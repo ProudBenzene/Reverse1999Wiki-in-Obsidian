@@ -31,7 +31,7 @@ aliases:
   - Cristallo
 初始立绘: "[[立绘 铅玻璃 01.png]]"
 本色立绘: "[[立绘 铅玻璃 02.png]]"
-生日: 
+生日: 2024-12-30
 banner_header: "{{filename}}"
 出场章节:
 ---
