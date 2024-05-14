@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "769e03a867e0d139",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,7 +315,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "769e03a867e0d139",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家｜Arcanists/铅玻璃｜Cristallo.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/铅玻璃｜Cristallo.assets/立绘 铅玻璃 02.png",
