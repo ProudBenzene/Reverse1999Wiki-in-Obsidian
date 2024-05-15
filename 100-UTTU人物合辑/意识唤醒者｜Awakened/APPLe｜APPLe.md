@@ -105,23 +105,24 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 墨提斯的谦逊｜Metis's Humility
+> ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2001.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**70.5**
 > ---
-> 
+> 用料与做工似乎都与拥有者声称的价格并不相符。根据当事人口中反复强调的，诸如“动物纤维”、“合成材料”、“有机化合物”等相关用词分析，当事人似乎并不认同该饰物的珍贵。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 彩色尾焰｜Trail
+> ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2002.png)
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**999**
 > ---
-> 
+> “非常重要的研究成果，但目前尚未有成型的应用方向”，这是受访者本人对此的评价。  
+> 考虑到该效果对他人目光的吸引程度，我认为，它至少能作为苹果种类的重要区分标准。
 
-> [!culture]+ ｜
-> 
+> [!culture]+ 苹果｜Apple
+> ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2003.png)
 > 
 > ---
-> 
+> 为了收集受访者的相关资料，我们开放了“APPLe先生故事征集稿”特别栏目。遗憾的是，近乎所有稿件内容都只是来自读者个人的主观臆断。
 ````
 
 ### 胡士托的回声｜Echoing to Woodstock[^1]
@@ -130,20 +131,20 @@ color:
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
+> [!culture]+ 偏光太阳镜｜Sunglasses
+> ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2004.png)
 > 
 > ---
-> 
+> 与星锑的“超酷太阳镜”购置于同一商场的偏光墨镜，价格却大相径庭。嬉皮的圆框造型，加上身为店内现货中最小尺码的特性，是它被一眼相中的仅有原因。
 
-> [!culture]+ ｜
+> [!culture]+ 彩色丝带｜Ribbon
+> ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2005.png)
 > 
+> ---
+> 一根形状略显抽象的丝带，从经验上来说也可以被当作领带使用。季节性撞色搭配嚎叫的字母，如果丝带可以代替主人说话，那么这就是了。
+
+> [!culture]+ 柯蒂斯的创想｜Curtis's Imagination
+> ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2006.png)
 > 
 > ---
 > 
