@@ -28,6 +28,18 @@
             }
           },
           {
+            "id": "232c755f5e03da42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -60,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +220,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "游戏文件解包说明.md"
+                "file": "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md"
               }
             }
           },
@@ -265,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,8 +329,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "def3703465a32df8",
+  "active": "232c755f5e03da42",
   "lastOpenFiles": [
+    "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md",
+    "000-箱的构造/箱中memos/20240515-2aaab1e476a2b804.md",
     "000-箱的构造/箱中memos/20240515-828777e6fc21ac27.md",
     "000-箱的构造/箱中memos/20240515-2561991ea7e23758.md",
     "000-箱的构造/箱中memos/20240515-8f67fe14e0ae7907.md",
@@ -326,7 +341,6 @@
     "000-箱的构造/箱中memos/20240515-a5cdcbb5a932c170.md",
     "000-箱的构造/箱中memos/20240515-e8b432635dd77d2a.md",
     "000-箱的构造/主页.md",
-    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240515-0a84518e75725e1d.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/APPLe｜APPLe.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
@@ -358,8 +372,6 @@
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "300-以影像之/303-角色剧情/马库斯·灯塔集.md",
-    "300-以影像之/301-主线/301-主线.md",
-    "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets",
