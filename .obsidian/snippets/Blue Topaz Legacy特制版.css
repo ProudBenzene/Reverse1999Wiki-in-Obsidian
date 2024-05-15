@@ -1952,7 +1952,7 @@ body {
   --bg-color-settings-4: #2e2e2e9d;
   --bg-color-settings-5: #424242aa;
   --bg-color-settings-6: #191919c7;
-  --thino-memos-primary: #26282695;
+  --thino-memos-primary: #262826bd;
 
 
 }
@@ -8703,7 +8703,7 @@ body:is(.thino-default,.thino-frosted-style-default)  div[data-type=thino_view] 
   background-color: var(--thino-memos-primary);
 }
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memolist-wrapper>.memolist-container {
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memo-wrapper,
 body:is(.thino-default,.thino-frosted-style-default)    .thino-hover-popover .memo-wrapper, 
@@ -8711,7 +8711,7 @@ body:is(.thino-default,.thino-frosted-style-default)  .block-language-thino .thi
   background-color: var(--thino-memos-primary);
 }
 div[data-type=thino_view] .memo-editor-wrapper>.tip-text {
-padding-left:1.5em;
+  padding-left:1.5em;
 }
 .thino-editor-modal .common-editor-wrapper .common-editor-inputer {
   border: none;

@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "def3703465a32df8",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -208,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "游戏文件解包说明.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -265,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "def3703465a32df8",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "游戏文件解包说明.md",
     "000-箱的构造/常用工具.md",
