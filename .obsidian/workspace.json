@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -292,7 +293,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,11 +319,14 @@
   },
   "active": "214a05e753860049",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
+    "000-箱的构造/箱中memos/20240516-612cd7423b462a09.md",
+    "000-箱的构造/箱中memos/20240516-b1de48586fe4790d.md",
+    "000-箱的构造/箱中memos/20240516-aef224a90f8a35b2.md",
+    "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md",
     "游戏文件解包说明.md",
+    "000-箱的构造/主页.md",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/20240515-e813bb38ae37d8a1.md",
-    "000-箱的构造/箱中memos/20240515-1203f465c03d3dca.md",
     "000-箱的构造/箱中memos/20240515-2aaab1e476a2b804.md",
     "000-箱的构造/箱中memos/20240515-828777e6fc21ac27.md",
     "000-箱的构造/箱中memos/20240515-2561991ea7e23758.md",
@@ -355,9 +360,6 @@
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
     "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/红弩箭｜Lilya.md",
-    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
-    "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/爱宠｜Rabies.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莫桑女士｜Moissan.assets",
