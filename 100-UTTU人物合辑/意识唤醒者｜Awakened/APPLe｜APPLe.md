@@ -22,8 +22,8 @@ Udimo:
   - 花果香调
   - 苹果（蔷薇科）
   - 香豆素（C9H6O2）
-初始衣着: 
-洞悉本色: 
+初始衣着: 一颗苹果，一颗飘浮的苹果。一颗飘浮而充满智慧的苹果。
+洞悉本色: 他博学，睿智，富有香气——与内涵。
 aliases:
   - APPLe
   - APPLe
@@ -36,8 +36,8 @@ banner_header: "{{filename}}"
 ![cover](assets/APPLe｜APPLe.assets/立绘%20APPLe%2002.png)
 
 > [!overview]+ 概述
-> - 展出/活跃时代:: 
-> - 诞生:: 
+> - 展出/活跃时代:: 20 世纪 60 年代
+> - 诞生:: 1 月 4 日dong
 > - 参展时长:: 
 > - 展出/参展地点:: 
 
@@ -110,7 +110,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
+### 博学而多汁｜Erudite and Juicy
 
 ````ad-flex
 collapse: open
@@ -135,7 +135,7 @@ color:
 > 
 ````
 
-### ｜
+### 胡士托的回声｜Echoing to Woodstock[^1]
 
 ````ad-flex
 collapse: open
@@ -176,3 +176,4 @@ tab: ｜[UTTU×APPLe]
 
 ## 语音
 
+[^1]: 绅士的躁动，富含维生素C的靡靡之音。
