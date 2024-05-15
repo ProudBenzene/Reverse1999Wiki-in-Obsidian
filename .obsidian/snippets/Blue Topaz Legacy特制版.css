@@ -1583,15 +1583,6 @@ settings:
       default-light: '#ebf3ee'
       default-dark: '#1e1e1e'
     -
-      id: memos-text-faint
-      title: thino system word color
-      title.zh: thino 系统字体颜色
-      type: variable-themed-color
-      opacity: true
-      format: hsl-split
-      default-light: '#ebf3ee'
-      default-dark: '#1e1e1e'
-    -
       id: thino-view-background
       title: custom thino background
       title.zh: 自定义Thino背景
@@ -1963,7 +1954,6 @@ body {
   --bg-color-settings-6: #191919c7;
   
   --thino-memos-primary: #262826bd;
-  --memos-text-faint: #2f2b2b !important;
 
 
 }
