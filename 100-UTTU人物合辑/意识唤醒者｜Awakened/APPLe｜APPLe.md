@@ -32,6 +32,11 @@ aliases:
 生日: 2024-01-04
 banner_header: "{{filename}}"
 出场章节:
+  - 1.0｜此即明日
+  - 1.0｜在我们的时代里
+  - 1.0｜夜色温柔
+  - 1.0｜老虎的金黄
+  - 1.4｜洞穴的囚徒
 ---
 ![cover](assets/APPLe｜APPLe.assets/立绘%20APPLe%2002.png)
 
@@ -183,5 +188,41 @@ tab: 给葡萄酒研究协会的匿名建议｜[UTTU×APPLe]
 ````
 
 ## 语音
+
+|          情景          |                                                                                                                                       语音                                                                                                                                       |
+| :------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                                                                                ……你好，女士，我在这儿。<br>… Greetings, madam. I am here.                                                                                                                 |
+|         箱中气候         |                                                                              云朵对于天气预报有辅助作用，同时也会影响空气湿度……噢，我的酒！<br>Clouds help predict the weather, and also affect the air humidity … Oh, my wine!                                                                              |
+|  致未来  <br>信任达到10%解锁  |                                                人们迷恋时间，追求永生。自古至今，恒常不变……这是动力，亦是限制。<br>People are infatuated with time, chasing after immortality. That's the thing that never changes … It's the motivation, also the limitation.                                                |
+|          孑立          |                                            就像塞尚《厨房的桌子》，或是巴尔蒂斯的《静物》……好吧，我想卡拉瓦乔的《一篮水果》更合适些。<br>Just like Cézanne's _The Kitchen Table_, Balthus' _Still Life with a Figure_ … Well, I think Caravaggio's _Basket of Fruit_ is better.                                            |
+|          问候          |                                                                                          你来确认APPLe某的保质期吗？不必担心～<br>Are you here to confirm this APPLe's expiration date? Don't worry!                                                                                           |
+|          朝晨          |                                                                   每天一苹果，医生远离你。但别希望我为你赶走医生，好吗？我的朋友。<br>An apple a day keeps the doctor away. However, please do not count on this APPLe, will you? My friend.                                                                   |
+| 信任-朝晨  <br>信任达到20%解锁 |                                                           光微粒在两种介质界面处受到的力在平行方向上被……呃，嗨……早上好。<br>The light particles traveling from one medium to a different medium in a parallel direction … Um, hi … good morning.                                                            |
+|          夜暮          |                                             当地球背对太阳，人们将其称之为黑夜……可实际上一切都是最初的样子，什么也没有改变。<br>When the side of the earth turns away from the sun, people call it night … While in fact, everything stays the same and nothing changes.                                              |
+| 信任-夜暮  <br>信任达到30%解锁 |                                                  维尔汀小姐——们，你也领悟了光、光学的折射技巧么？……可是我没有见到、太阳呀？！<br>Hello, Ms. Vertin … sssssss … W-When did you, burp, master my … optical arcane skill? But I-I don't see … any sunlight in here?                                                   |
+|        帽檐与发鬓         |                                                                                           苹果成熟后会自然落……唔，我为什么要说这些？<br>Apples will drop when they're ripe … Umm, why am I saying these?                                                                                           |
+|         袖与手          |                                                                                               你在寻找什么？我想我……应该帮不上忙吧。<br>What are you looking for? I think I … may not be of help.                                                                                                |
+|        衣着与身形         |                                                                   我的体重并不重。——毕竟，我需要考虑树下人们的颅骨承受力。<br>I am not heavy … since I have to consider the force that the people sitting under the tree can withstand.                                                                   |
+|  嗜好  <br>信任达到40%解锁   |                                                                                  酒精能够杀菌、消毒，让神经亢奋……嗝，雪利酒就很不错。<br>Alcohol can sterilize, disinfect and innerve … I mean, Sherry is pretty good.                                                                                  |
+|  赞赏  <br>信任达到50%解锁   | 《炼金术的基础研究》已经通读了？《自然哲学的理论体系》呢？《行星的运动轨迹》？……或许你能与APPLe某讨论更多相关的东西了！<br>You've read through _The basic study of alchemy_? How about _Theoretical system of nature philosophy_? And _The trajectories of the planets_? … You may now be able to discuss more things with this APPLe! |
+|  亲昵  <br>信任达到60%解锁   |                                       关于“钨尘在金属置换反应中的裂变与集聚”的相关研究课题，APPLe某认为你是非常合适的协助对象。<br>About the study of fission and enrichment of the tungsten powder in displacement reaction, this APPLe considers you as the perfect assistant.                                        |
+|         闲谈Ⅰ          |                                       胡扯！呃，别误会，只是APPLe某对自己的小小训诫……这个论坛的文章难道没有经过审核么？！<br>Waffle! Ugh, please don't misunderstand me. It's just a little admonition for this APPLe himself … Haven't the posts on this forum been checked?!                                       |
+|         闲谈Ⅱ          |                                   听说有一名中世纪骑士在四处游荡，我能见见他的铠甲么？……也许我们能聊聊卢瓦尔河地区的葡萄酒。<br>I heard that there is a medieval knight wandering around. May I have a look at him … or his armor? … Maybe we can talk about wines in the Loire region.                                    |
+|  独白  <br>信任达到70%解锁   |                                       关于过去的零碎记忆时常扰乱着我……我总能看到那些遥远的运转着的天体，巨大的望远镜，一道道彩虹光……<br>The shattered memories from the past sometimes haunt me … I see the revoluting celestial bodies faraway, giant telescope and rainbow lights …                                       |
+|          入队          |                                                                                             唔……实践与理论存在着一定的偏差。<br>Hmm … there will be some differences between theory and practice.                                                                                             |
+|          战前          |                                                                                                               看不见我看不见我……<br>You can't see me, you can't see me …                                                                                                               |
+|        择选咒语Ⅰ         |                                                                                                                             想法一致。<br>Affirmative.                                                                                                                              |
+|        择选咒语Ⅱ         |                                                                                                                      噢，我十分同意。<br>Oh, I can't agree more.                                                                                                                       |
+|        择选高阶咒语        |                                                                                                                   理论与实践结合。<br>Combining theory and practice.                                                                                                                   |
+|       择选至终的仪式        |                                                                                                      别担心，失重只有短短的一瞬间。<br>Don't worry. Weightlessness only lasts a second.                                                                                                       |
+|        释放神秘术Ⅰ        |                                                                                                                   白色？亦或者是所有颜色？<br>White? Or say, all colors?                                                                                                                   |
+|        释放神秘术Ⅰ        |                                                                                                                        一道漂亮的彩虹。<br>A ravishing rainbow.                                                                                                                        |
+|        释放神秘术Ⅱ        |                                                                                                             每天一苹果，医生远离你。<br>An apple a day keeps the doctor away.                                                                                                              |
+|        释放神秘术Ⅱ        |                                                                                                                    提取一些彩虹的成分。<br>Extraction of the rainbow.                                                                                                                    |
+|       召唤至终的仪式        |                                                                                             星球坠向太阳，正如苹果从树枝落下。<br>The star falls towards the sun, as the apple drops to the ground.                                                                                             |
+|         受敌Ⅰ          |                                                                                                                       小心，年轻人。<br>Be careful, young man.                                                                                                                        |
+|         战斗胜利         |                                                                                                         智慧与力量，到底哪一个更重要？<br>Which matters more, knowledge or strength?                                                                                                          |
+|    洞悉  <br>洞悉后解锁     |                                              奇妙的感觉……如果方便的话，能再给APPLe某一份相同的原料么？APPLe某认为此配方仍有精进的空间。<br>Marvelous … If possible, may this APPLe have one more please? This APPLe thinks there is still room for formula improvement.                                               |
+|  洞悉之底  <br>获得对应衣着解锁  |                                                                                                 我能看得更远，因为我站在了桌子上……<br>If I have seen further, it is by standing on the table …                                                                                                 |
 
 [^1]: 绅士的躁动，富含维生素C的靡靡之音。
