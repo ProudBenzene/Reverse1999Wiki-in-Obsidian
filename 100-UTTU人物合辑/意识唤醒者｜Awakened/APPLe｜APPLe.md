@@ -95,10 +95,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 博学而多汁｜Erudite and Juicy
 
 ````ad-flex
@@ -120,7 +116,7 @@ color:
 
 > [!culture]+ 苹果｜Apple
 > ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2003.png)
-> 
+> **无估值**
 > ---
 > 为了收集受访者的相关资料，我们开放了“APPLe先生故事征集稿”特别栏目。遗憾的是，近乎所有稿件内容都只是来自读者个人的主观臆断。
 ````
@@ -133,21 +129,21 @@ title:
 color: 
 > [!culture]+ 偏光太阳镜｜Sunglasses
 > ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2004.png)
-> 
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**31**
 > ---
 > 与星锑的“超酷太阳镜”购置于同一商场的偏光墨镜，价格却大相径庭。嬉皮的圆框造型，加上身为店内现货中最小尺码的特性，是它被一眼相中的仅有原因。
 
 > [!culture]+ 彩色丝带｜Ribbon
 > ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2005.png)
-> 
+> **无估值**
 > ---
 > 一根形状略显抽象的丝带，从经验上来说也可以被当作领带使用。季节性撞色搭配嚎叫的字母，如果丝带可以代替主人说话，那么这就是了。
 
 > [!culture]+ 柯蒂斯的创想｜Curtis's Imagination
 > ![](assets/APPLe｜APPLe.assets/单品%20APPLe%2006.png)
-> 
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**10**
 > ---
-> 
+> 一顶定制的黑色假发，但对实际穿戴它的对象来说仍然稍显宽大。在略显寻常的质量和造型之外，所有者似乎更重视它在超脱物质的，象征意义上的价值。
 ````
 
 ## 文化
