@@ -6,7 +6,6 @@
       {
         "id": "a4e7ab8c564d67d7",
         "type": "tabs",
-        "dimension": 38.71866295264624,
         "children": [
           {
             "id": "9aadaddd821e22fa",
@@ -15,18 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "000-箱的构造/主页.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b548c15170ab3373",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,22 +48,6 @@
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "60d6d027bc30a360",
-        "type": "tabs",
-        "dimension": 61.28133704735376,
-        "children": [
-          {
-            "id": "2c9db7962fbafc94",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
               "state": {}
             }
           }
@@ -148,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -228,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -285,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -337,10 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b548c15170ab3373",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "游戏文件解包说明.md",
     "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
+    "游戏文件解包说明.md",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240516-4f77e3071c3cea9e.md",
