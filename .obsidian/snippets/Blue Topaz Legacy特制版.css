@@ -1575,8 +1575,17 @@ settings:
           value: thino-frosted-style-default
     -
       id: thino-memos-primary
-      title: thino  background color
+      title: thino box background color
       title.zh: thino框 背景色
+      type: variable-themed-color
+      opacity: true
+      format: hsl-split
+      default-light: '#ebf3ee'
+      default-dark: '#1e1e1e'
+    -
+      id: memos-text-faint
+      title: thino system word color
+      title.zh: thino 系统字体颜色
       type: variable-themed-color
       opacity: true
       format: hsl-split
@@ -9205,7 +9214,7 @@ body:is(.custom-thino-background,.thino-background-color) div[data-type='thino_v
 body.thino-frosted-style-default:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content ,
   body.thino-frosted-style:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content  {
   background: var(--bg-color-settings-2) ;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
   width: 95% ;
   height: 95% ;
   margin: auto;
