@@ -650,7 +650,7 @@
   "Blue-Topaz-Legacy@@memos-hide-header": false,
   "Blue-Topaz-Legacy@@thino-view-style": "thino-frosted-style-default",
   "Blue-Topaz-Legacy@@thino-view-background": "custom-thino-background",
-  "Blue-Topaz-Legacy@@thino-background-dark-custom": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405152320086.jpg\")",
+  "Blue-Topaz-Legacy@@thino-background-dark-custom": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405160013128.png\")",
   "Blue-Topaz-Legacy@@thino-background-light-custom": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404120135303.png\")",
   "Blue-Topaz-Legacy@@hide-share-thino-banner": false,
   "Blue-Topaz-Legacy@@share-thino-style": "share-thino-with-thino-background",
@@ -714,5 +714,7 @@
   "Editor@@h6-accent-color@@dark": "#7C2ED8",
   "tabs-MH@@tabsMH-XZ-WBK-BJ-color-tmd": 20,
   "Blue-Topaz-Legacy@@thino-memos-primary@@light": "#F9F0D79C",
-  "Blue-Topaz-Legacy@@thino-memos-primary@@dark": "#1E1E1EB3"
+  "Blue-Topaz-Legacy@@thino-memos-primary@@dark": "#1E1E1EB3",
+  "Blue-Topaz-Legacy@@thino-memos-moment-primary@@dark": "#332F2F70",
+  "Blue-Topaz-Legacy@@thino-memos-moment-primary@@light": "#EEE2BF5E"
 }
