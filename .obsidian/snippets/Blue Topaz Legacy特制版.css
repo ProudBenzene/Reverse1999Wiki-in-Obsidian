@@ -1579,8 +1579,8 @@ settings:
       title.zh: thino框 背景色
       type: variable-themed-color
       opacity: true
-      format: hsl-split
-      default-light: '#ebf3ee'
+      format: hex
+      default-light: '#EEE2BF'
       default-dark: '#1e1e1e'
     -
       id: thino-view-background
