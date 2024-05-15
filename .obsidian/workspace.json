@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/APPLe｜APPLe.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -194,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -327,8 +326,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
