@@ -42,7 +42,7 @@
   "FetchMemosFromNote": false,
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
-  "MemoListView": "list",
+  "MemoListView": "moments",
   "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "memos.thino.canvas",

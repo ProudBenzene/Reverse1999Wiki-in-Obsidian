@@ -1575,8 +1575,17 @@ settings:
           value: thino-frosted-style-default
     -
       id: thino-memos-primary
-      title: thino box background color
-      title.zh: thino框 背景色
+      title: thino note background color
+      title.zh: thino笔记 背景色
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#EEE2BF'
+      default-dark: '#1e1e1e'
+    -
+      id: thino-memos-moment-primary
+      title: thino moment note background color
+      title.zh: thino动态笔记 背景色
       type: variable-themed-color
       opacity: true
       format: hex
@@ -1954,6 +1963,7 @@ body {
   --bg-color-settings-6: #191919c7;
   
   --thino-memos-primary: #262826bd;
+  --thino-memos-moment-primary: #363836bd;
 
 
 }
@@ -8836,7 +8846,7 @@ body.thino-frosted-style-default  div[data-type=thino_view] .modern#page-wrapper
 }
 body.thino-frosted-style-default div[data-type=thino_view] .moments-view .thino-moment-wrapper {
   border-radius: var(--radius-m);
-  background-color: var(--bg-color-settings-2);
+  background-color: var(--thino-memos-moment-primary);
 }
 body.thino-frosted-style-default div[data-type=thino_view] .moments-view .thino-moment-wrapper:after
 {
