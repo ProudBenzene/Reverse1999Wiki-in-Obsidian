@@ -1952,7 +1952,7 @@ body {
   --bg-color-settings-4: #2e2e2e9d;
   --bg-color-settings-5: #424242aa;
   --bg-color-settings-6: #191919c7;
-  --thino-memos-primary: #2e322f;
+  --thino-memos-primary: #26282695;
 
 
 }
@@ -8700,10 +8700,10 @@ body:not(.thino-default) div[data-type='thino_view']
   --memos-text-blue:var(--interactive-accent);
 }
 body:is(.thino-default,.thino-frosted-style-default)  div[data-type=thino_view] .memo-editor-wrapper{
-  background-color: var(--background-primary-bg-4-bt, var(--background-primary));
+  background-color: var(--thino-memos-primary);
 }
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memolist-wrapper>.memolist-container {
-  background-color: transparent;
+  background-color: #FFFFFF;
 }
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memo-wrapper,
 body:is(.thino-default,.thino-frosted-style-default)    .thino-hover-popover .memo-wrapper, 
