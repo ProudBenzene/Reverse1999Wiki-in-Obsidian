@@ -1574,6 +1574,15 @@ settings:
           label: Frosted Style
           value: thino-frosted-style-default
     -
+      id: thino-memos-primary
+      title: thino  background color
+      title.zh: thino框 背景色
+      type: variable-themed-color
+      opacity: true
+      format: hsl-split
+      default-light: '#ebf3ee'
+      default-dark: '#1e1e1e'
+    -
       id: thino-view-background
       title: custom thino background
       title.zh: 自定义Thino背景
@@ -1943,6 +1952,7 @@ body {
   --bg-color-settings-4: #2e2e2e9d;
   --bg-color-settings-5: #424242aa;
   --bg-color-settings-6: #191919c7;
+  --thino-memos-primary: #2e322f;
 
 
 }
@@ -8698,7 +8708,7 @@ body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view]
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memo-wrapper,
 body:is(.thino-default,.thino-frosted-style-default)    .thino-hover-popover .memo-wrapper, 
 body:is(.thino-default,.thino-frosted-style-default)  .block-language-thino .thino-embed-container .memo-wrapper {
-  background-color: var(--background-primary-bg-4-bt, var(--background-primary));
+  background-color: var(--thino-memos-primary);
 }
 div[data-type=thino_view] .memo-editor-wrapper>.tip-text {
 padding-left:1.5em;
