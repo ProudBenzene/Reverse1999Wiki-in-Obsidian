@@ -1961,7 +1961,9 @@ body {
   --bg-color-settings-4: #2e2e2e9d;
   --bg-color-settings-5: #424242aa;
   --bg-color-settings-6: #191919c7;
+  
   --thino-memos-primary: #262826bd;
+  --memos-text-faint: #2f2b2b !important;
 
 
 }
