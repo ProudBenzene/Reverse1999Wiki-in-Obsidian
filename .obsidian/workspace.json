@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -292,7 +293,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,6 +319,7 @@
   },
   "active": "0f237a9cad18a170",
   "lastOpenFiles": [
+    "000-箱的构造/箱中memos/20240516-ccf634412d2d5fcd.md",
     "000-箱的构造/箱中memos/20240516-2651a3a45a227fdf.md",
     "000-箱的构造/箱中memos/20240516-d055c58a36b58483.md",
     "000-箱的构造/主页.md",
@@ -353,7 +356,6 @@
     "000-箱的构造/箱中memos/20240515-8f67fe14e0ae7907.md",
     "000-箱的构造/箱中memos/20240515-df1abdb9ac93bbe6.md",
     "000-箱的构造/箱中memos/20240515-a5cdcbb5a932c170.md",
-    "000-箱的构造/箱中memos/20240515-e8b432635dd77d2a.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/铅玻璃｜Cristallo.assets",
