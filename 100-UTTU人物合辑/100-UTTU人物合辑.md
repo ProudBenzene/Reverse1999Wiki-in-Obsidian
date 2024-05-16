@@ -46,6 +46,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[讣告人｜Necrologist]]
 	- [[葛天｜GeTian]]
 	- [[和平乌鲁｜Ulu]]
+	- [[红斗篷｜Mondlicht]]
 	- [[红弩箭｜Lilya]]
 	- [[槲寄生｜Druvis III]]
 	- [[伽菈波那｜Black Dwarf]]
