@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md"
               }
             }
           },
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md"
               }
             }
           }
@@ -285,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,10 +338,10 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
     "游戏文件解包说明.md",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240516-4f77e3071c3cea9e.md",
     "000-箱的构造/箱中memos/20240516-f717430961709cf7.md",
     "000-箱的构造/箱中memos/20240516-612cd7423b462a09.md",
