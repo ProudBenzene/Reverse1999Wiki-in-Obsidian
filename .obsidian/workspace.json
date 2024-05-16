@@ -128,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md"
               }
             }
           },
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +335,7 @@
                   "state": {
                     "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                     "mode": "source",
-                    "source": true
+                    "source": false
                   }
                 }
               }
@@ -352,8 +352,9 @@
       }
     ]
   },
-  "active": "3a122ea0d8e779ff",
+  "active": "65cb51fcc2d13f42",
   "lastOpenFiles": [
+    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 02.png",
@@ -364,7 +365,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一场挥舞1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一发银弹2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一发银弹3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一发银弹1.png",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240516-f2d741779e67bc90.md",
     "000-箱的构造/箱中memos/20240516-848b584e95cc9ff5.md",
