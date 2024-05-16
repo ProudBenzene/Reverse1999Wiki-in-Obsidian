@@ -1,3 +1,8 @@
-.note-card:nth-child(11n+1) {
-	
-}
+.note-card:nth-child(8n+1) {background-color: var(--color-red)}
+.note-card:nth-child(8n+2) {background-color: var(--color-orange)}
+.note-card:nth-child(8n+3) {background-color: var(--color-yellow)}
+.note-card:nth-child(8n+4) {background-color: var(--color-green)}
+.note-card:nth-child(8n+5) {background-color: var(--color-cyan)}
+.note-card:nth-child(8n+6) {background-color: var(--color-blue)}
+.note-card:nth-child(8n+7) {background-color: var(--color-purple)}
+.note-card:nth-child(8n) {background-color: var(--color-pink)}
