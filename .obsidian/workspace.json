@@ -128,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "游戏文件解包说明.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md"
               }
             }
           },
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +335,7 @@
                   "state": {
                     "file": "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
                     "mode": "preview",
-                    "source": false
+                    "source": true
                   }
                 }
               }
@@ -352,22 +352,30 @@
       }
     ]
   },
-  "active": "c37f08669934fade",
+  "active": "65cb51fcc2d13f42",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/至终的仪式 比大坏狼更可怕.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一场挥舞2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一场挥舞3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一场挥舞1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一发银弹2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一发银弹3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一发银弹1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/至终的仪式.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/一阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/二阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/三阶神秘术.png",
+    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240516-f2d741779e67bc90.md",
     "000-箱的构造/箱中memos/20240516-848b584e95cc9ff5.md",
     "000-箱的构造/箱中memos/20240516-ccf9a9844c5fe688.md",
     "000-箱的构造/箱中memos/20240516-5d08b41bd9c3f1c4.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/红斗篷｜Mondlicht.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/立绘 红斗篷 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/立绘 红斗篷 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets",
     "000-箱的构造/常用工具.md",
     "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
-    "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/头图 致温妮弗雷德.jpeg",
-    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240516-4f77e3071c3cea9e.md",
     "000-箱的构造/箱中memos/20240516-f717430961709cf7.md",
     "000-箱的构造/箱中memos/20240516-612cd7423b462a09.md",
@@ -383,14 +391,6 @@
     "000-箱的构造/箱中memos/20240515-a5cdcbb5a932c170.md",
     "000-箱的构造/箱中memos/20240515-e8b432635dd77d2a.md",
     "000-箱的构造/箱中memos/20240515-0a84518e75725e1d.md",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/APPLe｜APPLe.md",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets/单品 APPLe 06.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets/单品 APPLe 05.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets/单品 APPLe 04.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets/单品 APPLe 03.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets/单品 APPLe 02.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets/单品 APPLe 01.png",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/铅玻璃｜Cristallo.assets",
