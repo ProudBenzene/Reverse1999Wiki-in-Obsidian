@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -313,7 +314,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -336,7 +338,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "7c93d7d02d064f18",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "300-以影像之/303-角色剧情/北方哨歌·银线结.md",
