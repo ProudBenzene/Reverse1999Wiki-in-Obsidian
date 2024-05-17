@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "ec61be65b444d794",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "游戏文件解包说明.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,10 +306,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ec61be65b444d794",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20240517-ec8d1e4abbfec2ff.md",
+    "000-箱的构造/箱中memos/20240517-32e3b19cdc9dc2b9.md",
+    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240517-8bbb31fa6461f7d5.md",
     "000-箱的构造/箱中memos/20240517-6491edc49452c3a6.md",
     "000-箱的构造/箱中memos/20240517-72f5dfc53e83c5af.md",
@@ -341,8 +334,6 @@
     "000-箱的构造/箱中memos/20240516-7bbf98b0c2fb0509.md",
     "000-箱的构造/箱中memos/20240516-85748f9e19ac857f.md",
     "000-箱的构造/箱中memos/20240516-028e2969c79e10cf.md",
-    "000-箱的构造/箱中memos/20240516-00599af8ea590b0c.md",
-    "000-箱的构造/箱中memos/20240516-ccf634412d2d5fcd.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 02.png",
