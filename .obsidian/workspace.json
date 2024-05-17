@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1117bac42e0c50e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/301-主线/第六章 孤独之歌.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/第六章 孤独之歌.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "300-以影像之/301-主线/第六章 孤独之歌.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/第六章 孤独之歌.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/第六章 孤独之歌.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,8 +319,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "1117bac42e0c50e3",
   "lastOpenFiles": [
+    "000-箱的构造/常用工具.md",
+    "300-以影像之/301-主线/第六章 孤独之歌.md",
+    "000-箱的构造/主页.md",
+    "000-箱的构造/templates/剧情章节-主线.md",
+    "300-以影像之/301-主线/第四章 老虎的金黄.md",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240517-98c50d6df76c67c3.md",
     "000-箱的构造/箱中memos/20240517-69471ea4f3f1dff8.md",
@@ -321,7 +339,6 @@
     "000-箱的构造/箱中memos/20240517-4a61f0c4a98983aa.md",
     "000-箱的构造/箱中memos/20240517-ea8732208aa415b7.md",
     "000-箱的构造/箱中memos/20240517-fe0b24fe83114608.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/箱中memos/20240517-ec8d1e4abbfec2ff.md",
     "000-箱的构造/箱中memos/20240517-32e3b19cdc9dc2b9.md",
     "000-箱的构造/箱中memos/20240517-8bbb31fa6461f7d5.md",
@@ -330,10 +347,6 @@
     "000-箱的构造/箱中memos/20240517-1485d6071d3b2278.md",
     "000-箱的构造/箱中memos/20240517-e51d32d60eddc5a5.md",
     "000-箱的构造/箱中memos/20240517-62f6367463d1d625.md",
-    "000-箱的构造/箱中memos/20240517-8c95c84da02cb719.md",
-    "000-箱的构造/箱中memos/20240517-701403a153cca15b.md",
-    "000-箱的构造/箱中memos/20240517-3d5579b6d4d8c60f.md",
-    "000-箱的构造/箱中memos/20240517-a523a1f6a627da84.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 02.png",
