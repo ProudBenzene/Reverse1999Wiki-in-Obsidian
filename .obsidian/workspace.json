@@ -27,7 +27,7 @@
               "state": {
                 "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -296,7 +297,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,6 +323,7 @@
   },
   "active": "a05a723e5abc93bf",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/露西｜Lucy.assets/尤提姆 露西.png",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/露西｜Lucy.assets/立绘 露西 02.png",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/露西｜Lucy.assets",
     "000-箱的构造/常用工具.md",
@@ -361,7 +364,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/至终的仪式 比大坏狼更可怕.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一场挥舞2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets",
