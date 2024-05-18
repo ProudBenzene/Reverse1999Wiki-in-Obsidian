@@ -92,6 +92,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[五色月｜Satsuki]]
 - [[维尔汀｜Vertin]]
 - **意识唤醒者｜Awakened**
+	- [[露西｜Lucy]]
 	- [[APPLe｜APPLe]]
 
 %% End Waypoint %%
