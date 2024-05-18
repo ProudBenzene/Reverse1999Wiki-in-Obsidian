@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "1117bac42e0c50e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/301-主线/第七章 孤独之歌.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c911fb3422bfe364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -75,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/301-主线/第六章 今夜星光灿烂.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -233,36 +208,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "065e3a0d0b8c8505",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "b279063c7d2a29fb",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "fd384eb06ce457ff",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "300-以影像之/301-主线/第六章 今夜星光灿烂.md"
-              }
             }
           }
         ],
@@ -310,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,9 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c911fb3422bfe364",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "300-以影像之/301-主线/第七章 孤独之歌.md",
+    "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
     "300-以影像之/301-主线/第二章 夜色温柔.md",
     "300-以影像之/301-主线/301-主线.md",
     "300-以影像之/301-主线/assets/第七章 孤独之歌.assets/孤独之歌.jpg",
@@ -390,7 +336,6 @@
     "000-箱的构造/箱中memos/20240517-8bbb31fa6461f7d5.md",
     "000-箱的构造/箱中memos/20240517-6491edc49452c3a6.md",
     "000-箱的构造/箱中memos/20240517-72f5dfc53e83c5af.md",
-    "000-箱的构造/箱中memos/20240517-1485d6071d3b2278.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 02.png",
