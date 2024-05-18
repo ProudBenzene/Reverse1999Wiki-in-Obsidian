@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/1.9 孤独之歌.md",
                 "mode": "preview",
                 "source": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/1.9 孤独之歌.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "300-以影像之/301-主线/1.9 孤独之歌.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/1.9 孤独之歌.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/1.9 孤独之歌.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,19 +306,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
-    "300-以影像之/301-主线/第七章 孤独之歌.md",
+    "300-以影像之/301-主线/1.9 孤独之歌.md",
     "300-以影像之/300-以影像之.md",
     "游戏文件解包说明.md",
-    "300-以影像之/301-主线/assets/第七章 孤独之歌.assets/孤独之歌.png",
+    "300-以影像之/301-主线/assets/1.9 孤独之歌.assets/孤独之歌.png",
     "300-以影像之/301-主线/assets/第七章 孤独之歌.assets/pic_107.png",
     "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
-    "300-以影像之/301-主线/第二章 夜色温柔.md",
+    "300-以影像之/301-主线/1.0.2 夜色温柔.md",
     "300-以影像之/301-主线/301-主线.md",
     "300-以影像之/301-主线/assets/第七章 孤独之歌.assets/孤独之歌.jpg",
-    "300-以影像之/301-主线/assets/第七章 孤独之歌.assets",
+    "300-以影像之/301-主线/assets/1.9 孤独之歌.assets",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/templates/剧情章节-主线.md",
     "300-以影像之/301-主线/第四章 老虎的金黄.md",
