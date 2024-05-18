@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/301-主线/第七章 孤独之歌.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a83b26f0ce1679a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏文件解包说明.md",
                 "mode": "preview",
                 "source": false
               }
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "游戏文件解包说明.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,19 +319,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "6a83b26f0ce1679a",
   "lastOpenFiles": [
     "300-以影像之/301-主线/第七章 孤独之歌.md",
+    "游戏文件解包说明.md",
+    "000-箱的构造/主页.md",
     "300-以影像之/301-主线/第六章 今夜星光灿烂.md",
     "300-以影像之/301-主线/第二章 夜色温柔.md",
     "300-以影像之/301-主线/301-主线.md",
     "300-以影像之/301-主线/assets/第七章 孤独之歌.assets/孤独之歌.jpg",
     "300-以影像之/301-主线/assets/第七章 孤独之歌.assets",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/templates/剧情章节-主线.md",
     "300-以影像之/301-主线/第四章 老虎的金黄.md",
-    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240517-98c50d6df76c67c3.md",
     "000-箱的构造/箱中memos/20240517-69471ea4f3f1dff8.md",
     "000-箱的构造/箱中memos/20240517-244e6733aee2d44e.md",
