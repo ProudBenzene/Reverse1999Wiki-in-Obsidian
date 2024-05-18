@@ -19,9 +19,15 @@ Udimo: 机械类
   - 输出
   - 收割
   - 额外行动
-香调: 
-初始衣着: 
-洞悉本色: 
+香调:
+  - 皮革调
+  - 广藿香
+  - 铝合金
+  - 铁锈
+  - 干草
+  - 月桂叶
+初始衣着: 为效率，为明日。
+洞悉本色: 这是一条没有终点的道路。
 aliases:
   - 露西
   - Lucy
@@ -110,7 +116,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
+### 一个机器人的诞生｜A Robot Is Born
 
 ````ad-flex
 collapse: open
@@ -135,30 +141,6 @@ color:
 > 
 ````
 
-### ｜
-
-````ad-flex
-collapse: open
-title: 
-color: 
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-````
 
 ## 文化
 
