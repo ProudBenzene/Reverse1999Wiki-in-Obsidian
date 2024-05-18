@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "36d553cf7f00c794",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/301-主线/1.0 生者与余众/谢幕礼 去往新世界.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1839191f29f700d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/301-主线/1.0 生者与余众/特别篇 星.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "300-以影像之/301-主线/1.0 生者与余众/特别篇 星.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/常用工具.md"
+                "file": "300-以影像之/301-主线/1.0 生者与余众/特别篇 星.md"
               }
             }
           },
@@ -255,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "300-以影像之/301-主线/1.0 生者与余众/特别篇 星.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "300-以影像之/301-主线/1.0 生者与余众/特别篇 星.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,9 +331,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "1839191f29f700d4",
   "lastOpenFiles": [
+    "300-以影像之/301-主线/1.0 生者与余众/谢幕礼 去往新世界.md",
     "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/谢幕礼 去往新世界.assets/去往新世界.png",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/谢幕礼 去往新世界.assets",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "300-以影像之/301-主线/1.0 生者与余众/终章 孤独之歌.md",
@@ -323,7 +352,6 @@
     "300-以影像之/301-主线/assets/第七章 孤独之歌.assets/pic_107.png",
     "300-以影像之/301-主线/assets/第七章 孤独之歌.assets/孤独之歌.jpg",
     "300-以影像之/301-主线/1.0 生者与余众/assets/终章 孤独之歌.assets",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/templates/剧情章节-主线.md",
     "300-以影像之/301-主线/1.0 生者与余众/第四章 老虎的金黄.md",
     "000-箱的构造/箱中memos/20240517-98c50d6df76c67c3.md",
@@ -338,22 +366,18 @@
     "000-箱的构造/箱中memos/20240517-4a61f0c4a98983aa.md",
     "000-箱的构造/箱中memos/20240517-ea8732208aa415b7.md",
     "000-箱的构造/箱中memos/20240517-fe0b24fe83114608.md",
-    "000-箱的构造/箱中memos/20240517-ec8d1e4abbfec2ff.md",
-    "000-箱的构造/箱中memos/20240517-32e3b19cdc9dc2b9.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/单品 红斗篷 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/至终的仪式 比大坏狼更可怕.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一场挥舞2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets/神秘术 一场挥舞3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/铅玻璃｜Cristallo.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/Thumbs.db",
     "200-相从心生/角色心相/assets/故尝试证明｜For Rehabilitation.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/TTT｜TTT.assets",
     "白板.canvas"
   ]
 }
