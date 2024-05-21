@@ -87,6 +87,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[TTT｜TTT]]
 	- [[X｜X]]
 - **神秘学家感染种｜Infected**
+	- [[塞梅尔维斯｜Semmelweis]]
 - **神秘学家混血种｜Mixed**
 	- [[曲娘｜Jiu Niangzi]]
 	- [[五色月｜Satsuki]]
