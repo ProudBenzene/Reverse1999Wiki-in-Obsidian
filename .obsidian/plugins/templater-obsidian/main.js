@@ -1671,7 +1671,7 @@ var FolderSuggest = class extends TextInputSuggest {
         folders.push(folder);
       }
     });
-    return folders;
+    return folders.slice(0, 1e3);
   }
   renderSuggestion(file, el) {
     el.setText(file.path);
@@ -1791,7 +1791,7 @@ var FileSuggest = class extends TextInputSuggest {
         files.push(file);
       }
     });
-    return files;
+    return files.slice(0, 1e3);
   }
   renderSuggestion(file, el) {
     el.setText(file.path);
@@ -3659,7 +3659,7 @@ var Templater = class {
     const oldSelections = doc.listSelections();
     doc.replaceSelection(output_content);
     if (active_editor.file) {
-      await app.vault.append(active_editor.file, "");
+      await app.vault.modify(active_editor.file, editor.getValue());
     }
     app.workspace.trigger("templater:template-appended", {
       view: active_view,
