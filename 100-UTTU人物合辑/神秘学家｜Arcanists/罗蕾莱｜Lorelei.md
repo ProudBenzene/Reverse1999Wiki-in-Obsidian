@@ -57,8 +57,8 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
-> 
+> [!skill]- 在岸边
+> ![在岸边 一阶|100](assets/罗蕾莱｜Lorelei.assets/神秘术%20在岸边1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -67,7 +67,7 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
+> [!skill]- 越洋通话
 > 
 > 
 > | 等级  | 类型  | 技能  | 文化  |
