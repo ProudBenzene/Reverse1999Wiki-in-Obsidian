@@ -50,8 +50,8 @@
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/勇敢者赠言｜The Fighter's Best Wishes.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -345,6 +345,10 @@
   },
   "active": "ff198a262352c4e6",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/'.txt",
+    "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/未命名.txt",
+    "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/心相 勇敢者赠言.png",
+    "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets",
     "000-箱的构造/常用工具.md",
     "200-相从心生/角色心相/勇敢者赠言｜The Fighter's Best Wishes.md",
     "200-相从心生/角色心相/渐进的雨声｜Approaching Rain.md",
@@ -364,7 +368,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/立绘 罗蕾莱 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis~.md",
@@ -384,13 +387,10 @@
     "300-以影像之/301-主线/1.0 生者与余众/第六章 今夜星光灿烂.md",
     "300-以影像之/301-主线/1.0 生者与余众/第二章 夜色温柔.md",
     "300-以影像之/301-主线/1.0 生者与余众/assets",
-    "300-以影像之/301-主线/1.0 生者与余众",
     "300-以影像之/300-以影像之.md",
-    "300-以影像之/301-主线/1.0 生者与余众/assets/终章 孤独之歌.assets",
     "000-箱的构造/templates/剧情章节-主线.md",
     "300-以影像之/301-主线/1.0 生者与余众/第四章 老虎的金黄.md",
     "000-箱的构造/箱中memos/20240517-98c50d6df76c67c3.md",
-    "000-箱的构造/箱中memos/20240517-69471ea4f3f1dff8.md",
     "白板.canvas"
   ]
 }
