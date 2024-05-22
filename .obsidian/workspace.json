@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "07db2d42c397a32e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.1"
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,6 +220,36 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "7e671af8e7e62254",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8136ff67d8feb516",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "5254f55f3901df69",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -306,7 +347,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "07db2d42c397a32e",
   "lastOpenFiles": [
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets/心相 踽踽独行.png",
