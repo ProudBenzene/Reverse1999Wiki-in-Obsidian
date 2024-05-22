@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1318452be56bb42e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/行进的步音｜Steps Forward.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/行进的步音｜Steps Forward.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "200-相从心生/角色心相/行进的步音｜Steps Forward.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/行进的步音｜Steps Forward.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "200-相从心生/角色心相/行进的步音｜Steps Forward.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,8 +319,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "1318452be56bb42e",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/assets/行进的步音｜Steps Forward.assets/心相 行进的步音.png",
+    "200-相从心生/角色心相/行进的步音｜Steps Forward.md",
+    "200-相从心生/角色心相/assets/行进的步音｜Steps Forward.assets",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/单品 罗蕾莱 03.png",
@@ -320,9 +337,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 越洋通话3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 越洋通话2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis~.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/assets/塞梅尔维斯｜Semmelweis.assets",
@@ -350,9 +365,7 @@
     "000-箱的构造/箱中memos/20240517-69471ea4f3f1dff8.md",
     "000-箱的构造/箱中memos/20240517-244e6733aee2d44e.md",
     "000-箱的构造/箱中memos/20240517-fbc637f9774e8ef6.md",
-    "000-箱的构造/箱中memos/20240517-15cdcde5f4d80a15.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/APPLe｜APPLe.assets",
     "白板.canvas"
   ]
 }
