@@ -32,14 +32,14 @@
             }
           },
           {
-            "id": "305b7bdb23b5a450",
+            "id": "97bb17fc2b6000ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "200-相从心生/角色心相/渐进的雨声｜Approaching Rain.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -206,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -308,7 +309,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -331,12 +333,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "305b7bdb23b5a450",
+  "active": "97bb17fc2b6000ff",
   "lastOpenFiles": [
-    "000-箱的构造/常用工具.md",
-    "200-相从心生/角色心相/渐进的雨声｜Approaching Rain.md",
     "200-相从心生/角色心相/行进的步音｜Steps Forward.md",
     "200-相从心生/角色心相/assets/行进的步音｜Steps Forward.assets/心相 行进的步音.png",
+    "200-相从心生/角色心相/渐进的雨声｜Approaching Rain.md",
+    "200-相从心生/角色心相/assets/渐进的雨声｜Approaching Rain.assets/心相 渐进的雨声.png",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/APPLe｜APPLe.md",
+    "200-相从心生/角色心相/assets/渐进的雨声｜Approaching Rain.assets",
+    "000-箱的构造/常用工具.md",
     "200-相从心生/角色心相/assets/行进的步音｜Steps Forward.assets",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
@@ -349,7 +354,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 在岸边3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets/神秘术 越洋通话3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis~.md",
@@ -376,9 +380,6 @@
     "300-以影像之/301-主线/1.0 生者与余众/第四章 老虎的金黄.md",
     "000-箱的构造/箱中memos/20240517-98c50d6df76c67c3.md",
     "000-箱的构造/箱中memos/20240517-69471ea4f3f1dff8.md",
-    "000-箱的构造/箱中memos/20240517-244e6733aee2d44e.md",
-    "000-箱的构造/箱中memos/20240517-fbc637f9774e8ef6.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/红斗篷｜Mondlicht.assets",
     "白板.canvas"
   ]
 }
