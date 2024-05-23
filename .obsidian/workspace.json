@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "README.md"
               }
             }
           },
@@ -209,23 +209,23 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "b0b593fd1dbefec6",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "a0af558e737c8c63",
         "type": "tabs",
         "dimension": 64.85788113695091,
         "children": [
-          {
-            "id": "0ff60fab5f307ba0",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
           {
             "id": "ae0ee0175ee8627f",
             "type": "leaf",
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,14 +272,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -288,7 +287,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -303,13 +301,14 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "obsidian-memos:Thino": false
     }
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets/心相 踽踽独行.png",
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone~.md",
