@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "README.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,9 +308,9 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "000-箱的构造/插件/buttons.md",
     "README.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets/心相 踽踽独行.png",
