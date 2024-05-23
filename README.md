@@ -14,7 +14,9 @@
 
 在观看完《1.7 今夜星光灿烂》的剧情后，我再次感受到 1999主线剧情的伟大，并上头开始制作本 1999 Wiki。
 
-目前网络上已经有许多优秀的共享 Wiki，但本 Wiki 并非完全是“重复造轮子”。大部分 Wiki 限于是在线搭建，在无网络环境下不易查看。在线 Wiki 的资源基本都保存在云端，使得 Wiki 页面的加载速度（尤其是图片较多的情况下）
+目前网络上已经有许多优秀的共享 Wiki，但本 Wiki 并非完全是“重复造轮子”。大部分 Wiki 限于是在线搭建，在无网络环境下不易查看。在线 Wiki 的资源基本都保存在云端，使得 Wiki 页面的加载速度（尤其是图片较多的情况下）也会受到网络环境的影响。
+
+因此，本 Wiki 项目旨在打造一款离线 Wiki，所有内容、页面无需联网即可查看，让大家体验到，**「即使抽卡没有抽到心仪的角色，他/她/它也在我的电脑上，也在我的离线 Wiki 这个箱子里」**的感觉（手动滑稽）。
 
 ## 这也是一个 Obsidian 示例库
 
@@ -36,6 +38,7 @@
 		- [重返未来1999官方微博图](https://pan.baidu.com/s/1A4o9VM4kPa_vzWZEtHiZSA?pwd=1999#list/path=%2F)
 		- [Reverse: 1999 Base Game Enemies - Google Docs](https://docs.google.com/document/d/1HX-r1yrY82VKAkFtTo2HRI1M6DFT8bUdUxnEZLNoBB0/edit?pli=1)
 - Obsidian 方面：
+	- [Obsidian 官方](https://obsidian.md)，如今我使用 Obsidian 作为主力笔记软件已经有一年半之久
 	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet（`.obsidian/snippets` 文件夹中以 `[AnuPpuccin]` 开头的片段）
 	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte（`.obsidian/snippets` 文件夹中以 `[Blue Topaz]` 开头的片段）
 	- [Blue Topaz Example](https://github.com/PKM-er/Blue-topaz-example) by Cuman
