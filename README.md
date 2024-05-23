@@ -30,14 +30,14 @@
 - 1999 方面：
 	- [深蓝互动官方](https://www.bluepoch.com/)，感谢你们打造出这么一款兼具英伦文化与精美主线剧情的游戏！
 	- 各大在线 1999 Wiki 百科
-		-  [1999中文维基灰机Wiki](https://res1999.huijiwiki.com/wiki/%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8)
+		-  [1999中文维基灰机Wiki](https://res1999.huijiwiki.com/wiki/%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8)：很棒的 Wiki，更新及时且严谨，质量很高。本人在参考灰机 Wiki 时，也将发现的错漏在 QQ 群中向管理员汇报，以作为一些微薄贡献
 		- [1999哔哩哔哩游戏Wiki](https://wiki.biligame.com/reverse1999/%E9%A6%96%E9%A1%B5)
-		- [Reverse: 1999 Wiki | Fandom](https://reverse1999.fandom.com/wiki/Reverse:_1999_Wiki)
+		- [Reverse: 1999 Wiki | Fandom](https://reverse1999.fandom.com/wiki/Reverse:_1999_Wiki)：国际服的主流 Wiki
 	- 各大 1999 网络论坛
-		-  [NGA玩家社区](https://ngabbs.com/thread.php?fid=510389)
-		- [1999 官方 Discord](https://discord.gg/reverse1999)
-		- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)
-		- [Bilibili](https://www.bilibili.com/)
+		-  [NGA玩家社区](https://ngabbs.com/thread.php?fid=510389)：许多高质量的考证、剧情分析贴
+		- [1999 官方 Discord](https://discord.gg/reverse1999)：国际服 Wiki 频道
+		- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)：少量参考
+		- [Bilibili](https://www.bilibili.com/)：B 站评论区也有很多玩家的认真考证
 	- 各大 9 友用爱发电整理的其他资源：
 		- [重返未来1999官方微博图](https://pan.baidu.com/s/1A4o9VM4kPa_vzWZEtHiZSA?pwd=1999#list/path=%2F)
 		- [Reverse: 1999 Base Game Enemies - Google Docs](https://docs.google.com/document/d/1HX-r1yrY82VKAkFtTo2HRI1M6DFT8bUdUxnEZLNoBB0/edit?pli=1)
