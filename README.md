@@ -37,16 +37,17 @@
 		-  [NGA玩家社区](https://ngabbs.com/thread.php?fid=510389)：许多高质量的考证、剧情分析贴
 		- [1999 官方 Discord](https://discord.gg/reverse1999)：国际服 Wiki 频道
 		- [1999Reddit社区](https://www.reddit.com/r/Reverse1999)：少量参考
-		- [Bilibili](https://www.bilibili.com/)：B 站评论区也有很多玩家的认真考证
-	- 各大 9 友用爱发电整理的其他资源：
+		- [Bilibili](https://www.bilibili.com/)：B 站评论区也时常有玩家的认真考证
+	- 广大 9 友用爱发电整理的其他资源：
 		- [重返未来1999官方微博图](https://pan.baidu.com/s/1A4o9VM4kPa_vzWZEtHiZSA?pwd=1999#list/path=%2F)
 		- [Reverse: 1999 Base Game Enemies - Google Docs](https://docs.google.com/document/d/1HX-r1yrY82VKAkFtTo2HRI1M6DFT8bUdUxnEZLNoBB0/edit?pli=1)
 - Obsidian 方面：
 	- [Obsidian 官方](https://obsidian.md)，如今我使用 Obsidian 作为主力笔记软件已经有一年半之久
-	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet（`.obsidian/snippets` 文件夹中以 `[AnuPpuccin]` 开头的片段）
-	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte（`.obsidian/snippets` 文件夹中以 `[Blue Topaz]` 开头的片段）
-	- [Blue Topaz Example](https://github.com/PKM-er/Blue-topaz-example) by Cuman
-	- [Blue Topaz Legacy](https://github.com/ProudBenzene/Blue-Topaz-Legacy) sorted by Proudbenzene（我本人）
+	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet（`.obsidian/snippets` 文件夹中以 `[AnuPpuccin]` 开头的片段）：审美极佳的优秀主题，2022 年度最佳主题
+	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte（`.obsidian/snippets` 文件夹中以 `[Blue Topaz]` 开头的片段）：功能性极高的优秀主题，许多 Obsidian 初学者的入门主题
+	- [Blue Topaz Example](https://github.com/PKM-er/Blue-topaz-example) by Cuman：示例库集大成者
+	- [Blue Topaz Legacy](https://github.com/ProudBenzene/Blue-Topaz-Legacy) sorted by Proudbenzene（我本人）：一些从 Blue 
+	- [Border Theme](https://github.com/Akifyss/obsidian-border)：不逊于 AnuPpuccin 的美观，而且比 AnuPpuccin 流畅、更新活跃的优秀主题，2024 年度最佳主题
 	- [PKMer](https://pkmer.cn/)：知识管理社区（`.obsidian/snippets` 文件夹中以 `[PKMer]` 开头的片段）
 	- 插件及其他 CSS 的开发者、作者们（本库使用到的其他非原创 CSS Snippets 来源均在 CSS 文件中标明）
 
