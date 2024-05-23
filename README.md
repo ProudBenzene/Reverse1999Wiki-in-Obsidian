@@ -46,9 +46,9 @@
 	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet（`.obsidian/snippets` 文件夹中以 `[AnuPpuccin]` 开头的片段）：审美极佳的优秀主题，2022 年度最佳主题
 	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte（`.obsidian/snippets` 文件夹中以 `[Blue Topaz]` 开头的片段）：功能性极高的优秀主题，许多 Obsidian 初学者的入门主题
 	- [Blue Topaz Example](https://github.com/PKM-er/Blue-topaz-example) by Cuman：示例库集大成者
-	- [Blue Topaz Legacy](https://github.com/ProudBenzene/Blue-Topaz-Legacy) sorted by Proudbenzene（我本人）：一些从 Blue 
+	- [Blue Topaz Legacy](https://github.com/ProudBenzene/Blue-Topaz-Legacy) sorted by Proudbenzene（我本人）：一些从 Blue Topaz 主题中迁移而来的功能片段
 	- [Border Theme](https://github.com/Akifyss/obsidian-border)：不逊于 AnuPpuccin 的美观，而且比 AnuPpuccin 流畅、更新活跃的优秀主题，2024 年度最佳主题
-	- [PKMer](https://pkmer.cn/)：知识管理社区（`.obsidian/snippets` 文件夹中以 `[PKMer]` 开头的片段）
+	- [PKMer](https://pkmer.cn/)（`.obsidian/snippets` 文件夹中以 `[PKMer]` 开头的片段）：著名知识管理社区
 	- 插件及其他 CSS 的开发者、作者们（本库使用到的其他非原创 CSS Snippets 来源均在 CSS 文件中标明）
 
 
