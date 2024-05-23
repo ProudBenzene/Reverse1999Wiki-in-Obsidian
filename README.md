@@ -1,8 +1,12 @@
 # Reverse：时间的成像
 
-本库是借助本地知识库软件 [Obsidian](https://obsidian.md/) 制作的，关于游戏《重返未来：1999》的离线 Wiki。
+本库是借助本地知识库软件 [Obsidian](https://obsidian.md/) 制作的，关于游戏 [《重返未来：1999》](https://re.bluepoch.com/home/&wd=&eqid=fbb5beb400098f260000000464755c7c)的离线 Wiki。
 
-库中文档、图片等内容主要来自游戏设定，经一些在线 wiki 网站与我自己收集整理。
+库中文档、图片等内容主要来自游戏设定，经一些在线 wiki 网站与本人从游戏中收集整理，制成 Wiki。
+
+如无意外，我会一直
+
+下面让我们从游戏 Wiki 与 Obsidian 示例库两个角度，分别介绍一下本库。
 
 ![示例库主页](000-箱的构造/assets/README.assets/示例库主页.png)
 
@@ -20,7 +24,7 @@
 
 ## 这也是一个 Obsidian 示例库
 
-作为一个知识库应用，Obsidian 可以有许多应用范围。
+作为一个知识库应用软件，Obsidian 可以有许多应用范围。
 
 ## 鸣谢
 - 1999 方面：
