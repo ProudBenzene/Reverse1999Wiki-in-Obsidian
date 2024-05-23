@@ -33,11 +33,11 @@
 		- [Reverse: 1999 Base Game Enemies - Google Docs](https://docs.google.com/document/d/1HX-r1yrY82VKAkFtTo2HRI1M6DFT8bUdUxnEZLNoBB0/edit?pli=1)
 - Obsidian 方面：
 	- [AnuPpuccin Theme](https://github.com/AnubisNekhet/AnuPpuccin) and CSS snippets by AnubisNekhet（`.obsidian/snippets` 文件夹中以 `[AnuPpuccin]` 开头的片段）
-	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte
+	- [Blue Topaz Theme](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) by whyt-byte（`.obsidian/snippets` 文件夹中以 `[Blue Topaz]` 开头的片段）
 	- [Blue Topaz Example](https://github.com/PKM-er/Blue-topaz-example) by Cuman
 	- [Blue Topaz Legacy](https://github.com/ProudBenzene/Blue-Topaz-Legacy) sorted by Proudbenzene（我本人）
-	- [PKMer](https://pkmer.cn/)：知识管理社区
-		- 
+	- [PKMer](https://pkmer.cn/)：知识管理社区（`.obsidian/snippets` 文件夹中以 `[PKMer]` 开头的片段）
+	- 插件及其他 CSS 的开发者、作者们（本库使用到的其他非原创 CSS Snippets 来源均在 CSS 文件中标明）
 
 
 在排版与资料查找方面，我也参考了以上网站及其玩家的讨论内容。在此也向其他热爱1999游戏的开源者、讨论者表示我的敬意与感谢。
