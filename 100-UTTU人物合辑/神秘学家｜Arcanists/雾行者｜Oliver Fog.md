@@ -174,6 +174,7 @@ tab: 奥利弗·福葛｜Oliver Fog
 身为雾行者的父亲咳嗽不止，仿佛要将肺脏从身躯里呕出来。过往高大的影子，此刻佝偻着，与一根枯萎的干树枝已无不同。
 “这是我的责任，也是我们的责任……”
 放在奥利弗肩上的手轻轻离开，父亲重新戴上了礼帽。就在他推开门的那一瞬间，贪婪的浓雾立即吞噬了他，吞噬了这个曾经无比伟岸的身影。
+
 结束回忆的奥利弗拿起怀表，戴上礼帽，穿上外套，拄着雨伞——就像，那个伟岸的身影一样。
 现在，伦敦城有了新的雾行者。
 但再也不会有那样伟岸的身影了。
@@ -181,9 +182,58 @@ tab: 奥利弗·福葛｜Oliver Fog
 tab: ｜[UTTU×雾行者]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
+**雾行者**：在接受采访前，我有个问题想要问问您。
+白雪松：请说。
+**雾行者**：您所属的杂志销量如何？
+白雪松：客观评价，还不错。
+**雾行者**：那就好……（清了清喉咙）无良伦敦市政府压榨童工，违法加班！我要抗议！
+白雪松：……？
+**雾行者**：我代表全体工人，在此发出抗议！
+**雾行者**：我们要求八小时工作制，我们要求工伤赔偿，我们要求准时下班！每个人都应当准时下班！各位朋友，你额外加班的每一分钟，都是对自己生命的不尊重！
+**雾行者**：女士，这就是我想要说的内容了。您都记下来了吗？如果没有什么问题的话，我就要下班了。
+白雪松：接受采访也被算在工作时间当中的吗？
+**雾行者**：当然。
+
 ````
 
 ## 语音
+
+|          情景          |                                                                                                                                       语音                                                                                                                                        |
+| :------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                  雾行者，伦敦空气净化事务局的特派专员。距离下班还有三个小时……好的，让我们开始工作吧。<br>I'm Oliver Fog, special commissioner of the London Climate Management Agency. Three hours from getting off … Ok, let's start.                                                   |
+|         箱中气候         |                                                                  真是难得的好天气……我想出去散散步，在我居住的地方，是很难照到这样的太阳的。<br>What a lovely day … I want to go for a walk. We couldn't have asked for a better sun where I lived.                                                                  |
+|  致未来  <br>信任达到10%解锁  |                                                                   你是真心想要去到未来吗？……你猜那些烟雾工厂会不会把这个世界都毁了？<br>You really want to go to the future? … Do you think those smog factory will destroy the whole world?                                                                    |
+|          孑立          |                                                  休息时间也包含在工作时间之中。寻找下午茶时间是上班族和英国人都必须掌握的才能。<br>Rest time is also included in work time. Both office workers and British people should master the talent of looking for tea time.                                                   |
+|          问候          |                                                                                               你来了……嘿，或许你能辅导一下我的作业吗？<br>You're here … Hey, maybe you can help me with my homework?                                                                                               |
+|          朝晨          |                                                         上一次有闲情逸致在早上散步还是我只需要读书的时候。……那些日子历历在目。<br>The last time I was in the mood for a morning walk was when all I had to do was go to school…. Still vivid in my mind.                                                          |
+| 信任-朝晨  <br>信任达到20%解锁 |                                                                                      ……夏日就算了，到了冬天，谁又能轻易起得来床呢。<br>… Getting up is easier in the summer. In the winter, it's not easy work.                                                                                       |
+|          夜暮          |                                                                              下班，快乐的休息时间。好了，现在让我准备收拾书包吧……<br>Being off duty, such a wonderful resting time. Well, now let me prepare my book bag …                                                                               |
+| 信任-夜暮  <br>信任达到30%解锁 |                                 ……有时候我想，你也需要多休息一点。责任重的人总会沉迷在工作中，这会让你忽视很多其他的东西。<br>… Sometimes I think that you may need to have more rest. People with great responsibility are always absorbed by their work \| and neglect many other things.                                 |
+|        帽檐与发鬓         |                                                            雾行者的帽子并不适合我，它实在太重了……虽然父亲以此为荣，但这只是一份工作。<br>The Fogwalker's hat doesn't fit me, it's too heavy … Although my father honored it very much, it's just a job.                                                             |
+|         袖与手          |                                                   雾气是抓不住的……我们能够抓住的，只有能够抓住的东西……比如说，准时下班。<br>You can't catch the fog … The only thing you can catch are the things that can be caught … like catching the time to get off work.                                                   |
+|        衣着与身形         |            “个子很小，想得却很多”，许多人都这么说我，可我觉得他们麻木。热爱工作或许不是坏事，但热爱生活难道不是好事吗？<br>A small lad with a lot of thoughts. That's what many people think about me. But I think they're numb. It may not be a bad thing to love your job, but isn't it a good thing to love your life?            |
+|  嗜好  <br>信任达到40%解锁   |                                                                       黄水仙是最漂亮的花儿，看见它我就能想起圣戴维日假期的愉快。<br>The yellow daffodil is the prettiest flower. It reminds me of the glorious St David's Day holiday.                                                                       |
+|  赞赏  <br>信任达到50%解锁   |                                                                           据“能者多劳”的说法而言，你的工作效率会为你带来危险。<br>It is said that "Able men are always busy." Your high working efficiency may bring you harm.                                                                           |
+|  亲昵  <br>信任达到60%解锁   |                                                                             哎……我今天特别不想起床，拜托你告诉别人，今天没见到我。<br>Uh … I really don't want to get up today, please just tell others you haven't seen me.                                                                              |
+|         闲谈Ⅰ          |                                                                        我打算给女王写信，关于降低特殊工种的退休年龄标准。<br>I'm planning to write to the queen about lowering the retirement age of some special types of work.                                                                         |
+|         闲谈Ⅱ          | 有人拧螺丝，有人杂耍，有人在挑粪，也自然有人处理那些烟雾。有双手的人就都要工作，为了吃饭，为了自我价值……或者其他的什么。<br>There are people who do screw driving, juggling, dung picking, so of course there are people dealing with the fog. People who have hands should work, either for living, for self-achieving … or other things. |
+|  独白  <br>信任达到70%解锁   |                                        他们声称福葛家族对伦敦无比重要。既然如此，为何不趁早将减排计划提上议程呢？<br>They had claimed that the Fogs are incredibly essential to London. In that case, why didn't they put the emission reduction plan on the agenda earlier?                                         |
+|          入队          |                                                                                                 我很少和他人一起工作，不过这样也好。<br>I seldom work together with others, but this is not bad.                                                                                                  |
+|          战前          |                                                                                        很好，敌人似乎没有佩戴防毒面具的习惯。<br>Very well, the enemies don't seem to be in the habit of wearing gas masks.                                                                                        |
+|        择选咒语Ⅰ         |                                                                                                                             分秒不差。<br>Just in time.                                                                                                                              |
+|        择选咒语Ⅱ         |                                                                                                                           按计划进行吧。<br>Just as planned.                                                                                                                           |
+|        择选高阶咒语        |                                                                                                                         优秀的效率。<br>Brilliant efficiency.                                                                                                                         |
+|       择选至终的仪式        |                                                                                                                      请你暂时屏住呼吸。<br>Please hold your breath.                                                                                                                      |
+|        释放神秘术Ⅰ        |                                                                                                                       既是雨伞，也是法杖。<br>Umbrella, and a wand.                                                                                                                       |
+|        释放神秘术Ⅰ        |                                                                                                                           屏住呼吸。<br>Hold your breath.                                                                                                                            |
+|        释放神秘术Ⅱ        |                                                                                                                      再加把劲吧……各位。<br>Step it up … Everyone.                                                                                                                       |
+|        释放神秘术Ⅱ        |                                                                                                                               打起精神来。<br>Cheer up.                                                                                                                               |
+|       召唤至终的仪式        |                                                                                                              ……就当是在伦敦逛了一圈吧？<br>… Just take it as a trip to London.                                                                                                              |
+|         受敌Ⅰ          |                                                                                                                        呃——这不合法吧！<br>Ugh … it's illegal!                                                                                                                         |
+|         受敌Ⅱ          |                                                                                                                                  呃……<br>Ugh …                                                                                                                                   |
+|         战斗胜利         |                                                                                       还有三个小时十五分钟……不，没什么，让我们进行下一项工作吧。<br>3 hours 15 minutes left … No, nothing, let's move on to the next.                                                                                       |
+|    洞悉  <br>洞悉后解锁     |                             如果人人都能如此精进， \| 或许伦敦早就能从雾中解放。……当然，更快的方法是关掉那些工厂。<br>If everyone could make such an effort, perhaps London would have been freed from the fog a long time ago … Of course, the faster way is to shut down those factories.                             |
+|  洞悉之底  <br>获得对应衣着解锁  |                                                    如果伦敦的雾散去了，我就去当一名舞台或是电影的特效师。——专门制造烟雾的那种。<br>If the fog in London fades, I will be a special effects artist for stage or film … the kind that specializes in making smoke.                                                     |
 
 [^1]: ==状态增益== 被攻击时，*受创减免*+**25%**（生效后减少1层）
 [^2]: 必要的休憩，在必要的时间。
