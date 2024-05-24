@@ -20,25 +20,25 @@
             }
           },
           {
-            "id": "ab2af4904d969d7b",
+            "id": "74bd9e8d764f10d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           },
           {
-            "id": "077acb1060e38586",
+            "id": "c183b45e2644554d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "300-以影像之/304-轶事/冬·重返人间.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/冬·重返人间.md",
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/冬·重返人间.md"
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md"
               }
             }
           },
@@ -280,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/冬·重返人间.md",
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/冬·重返人间.md",
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,13 +331,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "077acb1060e38586",
+  "active": "74bd9e8d764f10d6",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/封面 小春雀儿.png",
+    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/头图 小春雀儿.png",
+    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/封面 小春雀.png",
+    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/小春雀.png",
+    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
+    "300-以影像之/304-轶事/冬·重返人间.md",
     "游戏文件解包说明.md",
     "300-以影像之/300-以影像之.md",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "000-箱的构造/插件/buttons.md",
     "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
     "000-箱的构造/箱中memos/20240525-9ff623778a736d02.md",
@@ -357,11 +363,7 @@
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets/单品 狼群 04.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets/单品 狼群 03.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets/单品 狼群 02.png",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets/单品 狼群 01.png",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/雾行者｜Oliver Fog.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets/至终的仪式 比我更吵的家伙们.png",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets/至终的仪式.png",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/狼群｜Pavia~.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/雾行者｜Oliver Fog.assets",
@@ -369,16 +371,13 @@
     "README.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
-    "200-相从心生/角色心相/踽踽独行｜Going Along Alone~.md",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets",
-    "200-相从心生/角色心相/形影相随｜In the Shadow.md",
     "200-相从心生/角色心相/assets/形影相随｜In the Shadow.assets",
     "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/'.txt",
     "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/未命名.txt",
     "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets",
     "200-相从心生/角色心相/assets/渐进的雨声｜Approaching Rain.assets",
     "200-相从心生/角色心相/assets/行进的步音｜Steps Forward.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets",
     "白板.canvas"
   ]
 }
