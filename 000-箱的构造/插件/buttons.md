@@ -33,9 +33,9 @@ customColor #f5a97f
 ^button-branch
 
 ```button
-name 😹角剧
+name 😹映像
 type command
-action QuickAdd: 😹 添加角色剧情
+action QuickAdd: 😹 添加映像
 class grad_tiny_button
 customColor #1e66f5
 ```
