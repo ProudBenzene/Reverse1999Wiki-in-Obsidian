@@ -13,18 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "mode": "preview",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "d3c40f7de29ae9fe",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
             }
           },
           {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "游戏文件解包说明.md"
+                "file": "000-箱的构造/插件/buttons.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/插件/buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,8 +306,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "d3c40f7de29ae9fe",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
+    "000-箱的构造/箱中memos/20240525-9ff623778a736d02.md",
     "000-箱的构造/箱中memos/20240524-4f2ddb8cadc6a73b.md",
     "000-箱的构造/箱中memos/20240524-0f054fb72e43978a.md",
     "000-箱的构造/箱中memos/20240524-e815c35b4eb84f53.md",
@@ -325,8 +320,6 @@
     "000-箱的构造/箱中memos/20240524-b5af0bb512612c8b.md",
     "000-箱的构造/箱中memos/20240524-f3d329db929ac673.md",
     "000-箱的构造/箱中memos/20240524-536b7c068e347358.md",
-    "游戏文件解包说明.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/狼群｜Pavia.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/123.md",
     "000-箱的构造/常用工具.md",
@@ -358,8 +351,6 @@
     "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/未命名.txt",
     "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets",
     "200-相从心生/角色心相/渐进的雨声｜Approaching Rain.md",
-    "200-相从心生/角色心相/行进的步音｜Steps Forward.md",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/APPLe｜APPLe.md",
     "200-相从心生/角色心相/assets/渐进的雨声｜Approaching Rain.assets",
     "200-相从心生/角色心相/assets/行进的步音｜Steps Forward.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/罗蕾莱｜Lorelei.assets",

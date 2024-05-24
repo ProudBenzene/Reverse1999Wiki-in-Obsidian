@@ -206,7 +206,7 @@
     },
     {
       "id": "fda9255c-34ca-478b-92d3-4367e522fbc8",
-      "name": "😹 添加角色剧情",
+      "name": "😹 添加映像",
       "type": "Template",
       "command": true,
       "templatePath": "000-箱的构造/templates/剧情章节-角色.md",
@@ -216,9 +216,7 @@
       },
       "folder": {
         "enabled": true,
-        "folders": [
-          "300-以影像之/303-角色剧情"
-        ],
+        "folders": [],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
