@@ -97,33 +97,29 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 我亲爱的好朋友们｜My Dear Good friends
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 赠品太阳镜｜Occhiali Da Sole
+> ![](assets/狼群｜Pavia.assets/单品%20狼群%2001.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**1**
 > ---
-> 
+> 十分普通的太阳镜，多被用作旅行社揽客的宣传手册赠品。无法分辨其制造厂商与出品方。造型方面借鉴了某意大利品牌的经典旧款，但没有任何人会傻到认为它们具有一样的价值。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 狼牙耳钉｜Spike
+> ![](assets/狼群｜Pavia.assets/单品%20狼群%2002.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**0.9**
 > ---
-> 
+> 手工制饰品。耳钉部分似乎是以铁丝与钉子改造而成的，做工粗糙，造型毫无创意。吊坠主体上有轻微打磨痕迹，预估花费了四分之一张打磨纸。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 戒指与大量金属制品｜Anello
+> ![](assets/狼群｜Pavia.assets/单品%20狼群%2003.png)
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**-2**
 > ---
-> 
+> 毫无章法的戒指们堆成一组的情况让人难以理解，其中还有一些带着破损与弯曲的痕迹。无论从哪个角度来看都不是合理的“装饰品”，只能算是垃圾收集艺术。如果有人愿意将它们带走，我愿意为其支付一笔酬劳。
 ````
 
 ### 狼之跃｜The Wolf's Leap
@@ -132,32 +128,35 @@ color:
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 热塑胶运动眼镜｜Thermoplastics Sport Glasses
+> ![](assets/狼群｜Pavia.assets/单品%20狼群%2004.png)
+> **无估值**
 > ---
-> 
+> 因运动员常沉浸于坠落而下的快感，忘记树杈与碎石的威胁，运动眼镜成为强制佩戴的护具之一。  
+> 但据说，他是为数不多的反对者。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 万全之备｜Backup Plan
+> ![](assets/狼群｜Pavia.assets/单品%20狼群%2005.png)
+> **无估值**
 > ---
-> 
+> 由乌卢鲁运动会后勤部门统一发放，为所有运动员提供同等的帮助与防护。  
+> 耐磨而简易的工业产品，若能忍耐乏味单调的色彩，这确实是最优选择。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 跃于足下｜The Leaper
+> ![](assets/狼群｜Pavia.assets/单品%20狼群%2006.png)
+> **无估值**
 > ---
-> 
+> 鞋口紧致，软钉遍布鞋底，脚掌与大地因此紧密贴近。  
+> 每任冠军的鞋子都能卖出高价格，而每一道留下的擦痕也能为此加码。
 ````
 
 ## 文化
 
 ````tabs
-tab: ｜
+tab: 去往威尼斯的旅行者｜Travelers to Venice
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
-tab: ｜
+tab: 黑暗中的朋友｜
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
 tab: ｜[UTTU×狼群]
