@@ -39,6 +39,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[阿夫西维｜Авксивий]]
 	- [[埃里克｜Erick]]
 	- [[爱宠｜Rabies]]
+	- [[芭妮芭妮｜Bunny Bunny]]
 	- [[百夫长｜Centurion]]
 	- [[柏林以东｜Bkornblume]]
 	- [[北方哨歌｜Windsong]]

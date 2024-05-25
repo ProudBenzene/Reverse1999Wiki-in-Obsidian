@@ -1,10 +1,10 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/小春雀儿·字母的研究.assets",
+  "attachmentFolderPath": "./assets/芭妮芭妮｜Bunny Bunny.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
-  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "A4",
