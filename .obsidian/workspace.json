@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "191a887d004b125f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b933ec9ea957996e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md"
               }
             }
           },
@@ -255,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,8 +331,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "b933ec9ea957996e",
   "lastOpenFiles": [
+    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/头图 字母的研究.png",
+    "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+    "300-以影像之/304-轶事/304-轶事.md",
+    "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
+    "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 02.png",
@@ -322,8 +353,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 定制酒瓶1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
-    "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
@@ -343,9 +372,6 @@
     "000-箱的构造/箱中memos/20240524-8418dfccf50a089d.md",
     "000-箱的构造/箱中memos/20240524-70e5c8ae4aced3cd.md",
     "000-箱的构造/箱中memos/20240524-b5af0bb512612c8b.md",
-    "000-箱的构造/箱中memos/20240524-f3d329db929ac673.md",
-    "000-箱的构造/箱中memos/20240524-536b7c068e347358.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/狼群｜Pavia.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/雾行者｜Oliver Fog.assets",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets",
