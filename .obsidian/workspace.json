@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "df6809d08ef4a2cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,10 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "df6809d08ef4a2cc",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+    "000-箱的构造/主页.md",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
     "300-以影像之/303-映像/北方哨歌·银线结.md",
