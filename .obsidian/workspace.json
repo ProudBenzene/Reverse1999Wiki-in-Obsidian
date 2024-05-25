@@ -20,10 +20,22 @@
             }
           },
           {
-            "id": "3f2e755b0df3b508",
+            "id": "ba178a720f723614",
             "type": "leaf",
             "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱中memos/memos.thino.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f07e399e675593f9",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
               "state": {}
             }
           },
@@ -60,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "游戏文件解包说明.md"
               }
             }
           },
@@ -218,38 +230,9 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "fa04d6fc82a4f459",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "29ce817fef6974fb",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "d5a844742ecd3470",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a0af558e737c8c63",
@@ -293,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,8 +327,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "3f2e755b0df3b508",
+  "active": "f07e399e675593f9",
   "lastOpenFiles": [
+    "000-箱的构造/箱中memos/20240526-c742807a50d2885e.md",
+    "000-箱的构造/箱中memos/memos.thino.md",
+    "300-以影像之/303-映像/北方哨歌·银线结.md",
+    "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/304-轶事.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
@@ -367,7 +354,6 @@
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/头图 字母的研究.png",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 02.png",
@@ -380,9 +366,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
-    "300-以影像之/303-映像/北方哨歌·银线结.md",
-    "000-箱的构造/箱中memos/20240515-a5cdcbb5a932c170.md",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets",
