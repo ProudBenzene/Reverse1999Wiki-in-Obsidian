@@ -39,6 +39,26 @@
               "state": {
                 "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3bd3407140675119",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "542017395653f7b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -76,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -144,7 +164,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +243,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md"
+                "file": "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md"
               }
             }
           },
@@ -280,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,10 +351,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b933ec9ea957996e",
+  "active": "542017395653f7b1",
   "lastOpenFiles": [
-    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/头图 字母的研究.png",
+    "游戏文件解包说明.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+    "000-箱的构造/箱中memos/20240524-536b7c068e347358.md",
+    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
+    "300-以影像之/304-轶事/assets/温妮弗雷德·致温妮弗雷德.assets/头图 致温妮弗雷德.jpeg",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
+    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/头图 字母的研究.png",
     "300-以影像之/304-轶事/304-轶事.md",
     "300-以影像之/304-轶事/芝诺·风吹乌哈拉.md",
     "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
@@ -349,12 +374,9 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/二阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 定制酒瓶2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 定制酒瓶1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
-    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
     "300-以影像之/303-映像/北方哨歌·银线结.md",
     "000-箱的构造/箱中memos/20240515-a5cdcbb5a932c170.md",
@@ -370,8 +392,6 @@
     "000-箱的构造/箱中memos/20240524-0f054fb72e43978a.md",
     "000-箱的构造/箱中memos/20240524-e815c35b4eb84f53.md",
     "000-箱的构造/箱中memos/20240524-8418dfccf50a089d.md",
-    "000-箱的构造/箱中memos/20240524-70e5c8ae4aced3cd.md",
-    "000-箱的构造/箱中memos/20240524-b5af0bb512612c8b.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/雾行者｜Oliver Fog.assets",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets",
