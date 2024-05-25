@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "ba178a720f723614",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/箱中memos/memos.thino.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f07e399e675593f9",
             "type": "leaf",
             "state": {
@@ -72,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,6 +218,36 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "fef7df886c6a397f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fa251b18e4bd425c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "bc6b136197c7a271",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "游戏文件解包说明.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -329,10 +347,13 @@
   },
   "active": "f07e399e675593f9",
   "lastOpenFiles": [
-    "000-箱的构造/箱中memos/20240526-c742807a50d2885e.md",
-    "000-箱的构造/箱中memos/memos.thino.md",
-    "300-以影像之/303-映像/北方哨歌·银线结.md",
     "000-箱的构造/主页.md",
+    "000-箱的构造/箱中memos/memos.thino.md",
+    "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20240516-ccf9a9844c5fe688.md",
+    "000-箱的构造/箱中memos/20240526-d9d5b2526573c9db.md",
+    "000-箱的构造/箱中memos/20240526-c742807a50d2885e.md",
+    "300-以影像之/303-映像/北方哨歌·银线结.md",
     "300-以影像之/304-轶事/304-轶事.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
@@ -345,7 +366,6 @@
     "000-箱的构造/箱中memos/20240516-f2d741779e67bc90.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
     "300-以影像之/300-以影像之.md",
-    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240525-e5dc60c7aaed6f02.md",
     "000-箱的构造/箱中memos/20240524-536b7c068e347358.md",
     "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
@@ -358,14 +378,12 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/至终的仪式 兔女郎勋章证明.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/二阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
-    "000-箱的构造/常用工具.md",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets",
