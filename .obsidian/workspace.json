@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "3f2e755b0df3b508",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,9 +218,38 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "fa04d6fc82a4f459",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "29ce817fef6974fb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "d5a844742ecd3470",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a0af558e737c8c63",
@@ -306,7 +344,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "3f2e755b0df3b508",
   "lastOpenFiles": [
     "300-以影像之/304-轶事/304-轶事.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
