@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "1c88d019f5693685",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,21 +306,20 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "1c88d019f5693685",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/单品 芭妮芭妮 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/至终的仪式 兔女郎勋章证明.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/芭妮芭妮｜Bunny Bunny.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/二阶神秘术.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 甜蜜手套1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 定制酒瓶2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 定制酒瓶1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets/神秘术 定制酒瓶3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
