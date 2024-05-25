@@ -25,7 +25,7 @@ Udimo:
   - 焦糖
   - 公丁香
 初始衣着: 她一直都很努力，且一直心怀期待。
-洞悉本色: 
+洞悉本色: 她做到了，她应得的，这漂亮的荣誉献给你，漂亮的姑娘。
 aliases:
   - 芭妮芭妮
   - Bunny Bunny
@@ -112,32 +112,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
-
-````ad-flex
-collapse: open
-title: 
-color: 
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-
-> [!culture]+ ｜
-> 
-> 
-> ---
-> 
-````
-
-### ｜
+### 最优兔女郎｜Bunny Girl of the Year
 
 ````ad-flex
 collapse: open
