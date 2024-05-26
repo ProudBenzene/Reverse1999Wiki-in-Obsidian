@@ -24,7 +24,6 @@
   "obsidian-tidy-footnotes",
   "obsidian-memos",
   "templater-obsidian",
-  "obsidian-icon-folder",
   "obsidian-style-settings",
   "obsidian-linter",
   "longform",
@@ -38,6 +37,5 @@
   "obsidian-sortable",
   "waypoint",
   "tabs",
-  "better-fn",
   "github-copilot"
 ]
