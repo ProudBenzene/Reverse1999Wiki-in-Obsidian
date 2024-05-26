@@ -6,6 +6,7 @@
       {
         "id": "e7964230d07b20b2",
         "type": "tabs",
+        "dimension": 51.74094707520891,
         "children": [
           {
             "id": "95f89cae69831722",
@@ -14,12 +15,36 @@
               "type": "obsidian-projects",
               "state": {}
             }
+          },
+          {
+            "id": "5a8f7d3785adaecc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66cb155c0a6ca88d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.1"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "a4e7ab8c564d67d7",
         "type": "tabs",
+        "dimension": 48.259052924791085,
         "children": [
           {
             "id": "9aadaddd821e22fa",
@@ -125,7 +150,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,9 +228,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md"
-              }
+              "state": {}
             }
           },
           {
@@ -242,9 +264,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -292,7 +312,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +328,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,16 +362,16 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "66cb155c0a6ca88d",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
+    "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
+    "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
     "000-箱的构造/主页.md",
     "400-箱外世界/暴雨时间线.md",
-    "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小春雀儿｜Eagle.md",
     "🙀你们9批玩游戏这么记笔记？.md",
-    "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
-    "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
     "300-以影像之/304-轶事/冬·重返人间.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/冬｜зима.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets/单品 小春雀儿 09.png",
