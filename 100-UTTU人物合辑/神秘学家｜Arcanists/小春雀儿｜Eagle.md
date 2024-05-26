@@ -125,7 +125,7 @@ color:
 > 军队授予军人荣誉徽章时配备的绶带。经历了多次水洗后，颜色趋于暗淡。上面挂着她从各处搜集到的徽章，搭配手工缝制的彩虹图案，共同为这条草绿色的绶带增添了几分活力。
 ````
 
-### 第六感｜Redrum
+### 第六感｜Redrum[^2]
 
 ````ad-flex
 collapse: open
@@ -151,7 +151,7 @@ color:
 > 因此，当玩偶偶尔渗出液体时，我们似乎很难解释它们的来源。
 ````
 
-### 周末探险小队｜Weekend Excursion
+### 周末探险小队｜Weekend Excursion[^3]
 
 
 ````ad-flex
@@ -186,8 +186,22 @@ color:
 tab: 童子军，集合！｜Gather, BSA!
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
+进步主义运动，于20世纪早期在美国进入高峰期。在青少年发展方面，这一运动表现为期望青少年拥有更高的道德水准，童子军计划应运而生。
+受到1907年在英格兰掀起的童军运动的影响，许多美国的小型童军计划开始在本土独立发展。很快，这些计划被合并到了美国童军当中。1910年，美国童子军成立。
+童子军运动的蓬勃发展，吸引了无数孩子的目光，他们积极参与其中，并为之自豪。男孩们穿着灰绿色的童子军服，在大街小巷间穿梭。
+1912年，茱丽叶·高登·罗于美国建立女童军。这一消息鼓舞了很多人。
+华盛顿特区的某座房子的门被敲响。
+“别敲了，她们好像去弗吉尼亚州探望亲人去了，没说什么时候回来。”
+
 tab: 另一条路｜Another Way
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
+
+她郑重地将手上的花束放在面前的墓碑上，随后闭起了双眼。她的双手合起，把照片夹在中间，口中喃喃低语。
+ “你和他很像。”她回过头去，看清了身后的来人，一身简洁的研究所制服，上面攀附着一只怪异的蝴蝶。
+她没说话，只是直勾勾地盯着对方。
+ “你很谨慎，就像你的父亲。”对方似乎并不在意她的提防，“我们曾是很要好的同事。”对方朝着墓碑的方向努了努嘴。
+ “你的父亲，不仅仅隶属于军队……”
+她竖起了耳朵，但对方并不打算继续刚才的话题。“如果还想当个小童子军的话，现在就可以回去了。”对方顿了顿，“或者试试另一条路？从这里到洛伦兹不算太远。”
 
 tab: 世界很大春雀很小｜[UTTU×小春雀儿]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
@@ -199,11 +213,50 @@ tab: 世界很大春雀很小｜[UTTU×小春雀儿]
 白雪松：有考虑过别的着装吗？比如蝴蝶制服。
 **小春雀儿**：谢谢您的建议，但我更喜欢现在这样。
 白雪松：加入洛伦兹以后，有什么新的计划吗？
-小春雀儿：我……想先做好现在的事。
+**小春雀儿**：我……想先做好现在的事。
 白雪松：……或许可以放松一点，像别的孩子那样。
 
 ````
 
 ## 语音
 
+|          情景          |                                                                                              语音                                                                                               |
+| :------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |             童子军编号？我、我很抱歉，我没有编号……但我会尽全力做到最好的，请您相信我。<br>The BSA number? I'm … I am so sorry, I don't have a number … But I will make every effort to do my best. Trust me, please!              |
+|         箱中气候         |                                                         又是阴天了，现在的阿灵顿，是什么样子呢？<br>It's cloudy again. What does Arlington look like now?                                                         |
+|  致未来  <br>信任达到10%解锁  |                                            我希望在未来，不论是男孩还是女孩，都可以自由地加入童子军。<br>In the future, I hope both boys and girls can join the scouts, freely.                                            |
+|          孑立          |                                                       长官不在的时候，我也会制定好自己的计划。<br>I will make my plan even when the commander is not here.                                                        |
+|          问候          |                                                                                ……嗯？您来了。<br>… Hmm? You're here.                                                                                |
+|          朝晨          |                                                         早上好，让我帮您把帐篷收起来吧。<br>Good morning. Let me help you put the tent away, please.                                                          |
+| 信任-朝晨  <br>信任达到20%解锁 |                                                 早上好，我会把您现在的样子如实地写进日记里面的。<br>Good morning. I will sketch the way you wake up now in my diary.                                                  |
+|          夜暮          |                                            晚安。请您早点休息，规律的作息总是没错的。<br>Good evening. Please rest early. It's always right to have a regular schedule.                                            |
+| 信任-夜暮  <br>信任达到30%解锁 |                        今晚的星空……真美啊，真想再多看一会儿……不，不行！我们都该休息了！祝您好梦！<br>The stars … They are so beautiful … If I stay longer … No! No, we should all go to bed! Good night!                         |
+|        帽檐与发鬓         |                                                                              我的帽子没歪吧？<br>Am I wearing it right?                                                                               |
+|         袖与手          | 如果你想和另外一名童子军友好相处。就伸出你的手，向对方做左握礼吧。这是我们童子军之间交流的暗号。<br>If you want to get along with another Boy Scout, extend your left hand and firmly grasp their left hand. This is how we greet each other. |
+|        衣着与身形         |                                            ……我的项链里放着父亲的军徽，它能带给我前进的力量。<br>… I have my father's military badge in my necklace. It will lead my way.                                             |
+|  嗜好  <br>信任达到40%解锁   |             士兵们都在收集徽章，父亲一定也一样吧？等我有了很多的徽章，就全部送给他。<br>All the soldiers were collecting badges, so was father, wasn't he? When I collect enough badges, I will give him all of them.             |
+|  赞赏  <br>信任达到50%解锁   |                                                         坚韧、勇敢、不轻言放弃。您做得非常好。<br>Tough. Brave. Never give up. You've done a great job.                                                          |
+|  亲昵  <br>信任达到60%解锁   |                                                                          请您夸奖我……可以吗？<br>Please praise me … Will you?                                                                          |
+|         闲谈Ⅰ          |                                                                    是的，我在。您需要我的帮助吗？<br>Yes, I'm here. Do you need my help?                                                                     |
+|         闲谈Ⅱ          |               我很喜欢相片，这是能够让人“永不褪色”的神秘术。希望我们以后有机会一起去拍照。<br>I like photos very much. It's the Arcane Skill that allows people to "never fade." Let's take pictures together later.               |
+|  独白  <br>信任达到70%解锁   |                        多亏了您，才让我如此确信……即使我没有成为一名童子军。我也依旧可以成为一名独当一面的人。<br>It is you who convinced me … that even if I don't join the Boy Scouts, I could stand on my own.                        |
+|          入队          |                                                                                    时刻准备着！<br>Be prepared!                                                                                     |
+|          战前          |                                                               我会帮您把控战局的。<br>I will assist you to keep the battle under control.                                                               |
+|        择选咒语Ⅰ         |                                                                                         明白！<br>Hooah!                                                                                         |
+|        择选咒语Ⅱ         |                                                                                       前进吧。<br>Forward!                                                                                        |
+|        择选高阶咒语        |                                                                                      收到指令！<br>Copy that!                                                                                      |
+|       择选至终的仪式        |                                                                           春雀发现目标位置！<br>This is Eagle. Target found!                                                                           |
+|        释放神秘术Ⅰ        |                                                                                          呵！<br>Hah!                                                                                           |
+|        释放神秘术Ⅰ        |                                                                            请别担心我。<br>Please don't worry about me!                                                                             |
+|        释放神秘术Ⅱ        |                                                                                   已锁定目标。<br>Target locked.                                                                                    |
+|        释放神秘术Ⅱ        |                                                                                  鹰的眼睛。<br>The eagle's eyes.                                                                                   |
+|       召唤至终的仪式        |                                                                           有破绽，请加强攻势！<br>Flaws! Take the offensive!                                                                            |
+|         受敌Ⅰ          |                                                                                         唔……<br>Uwh …                                                                                          |
+|         受敌Ⅱ          |                                                                                   ……加油。<br>… Hang in there.                                                                                   |
+|         战斗胜利         |                                                                          我有达到您的期许吗？<br>Did I meet your expectations?                                                                          |
+|    洞悉  <br>洞悉后解锁     |                                                                           ……这是给我的奖励么？<br>… Is this a reward for me?                                                                           |
+|  洞悉之底  <br>获得对应衣着解锁  |                                           感谢您的赏识，长官。……在此之后，我会继续努力的。<br>Thank you for your appreciation, commander … I will not stop making efforts.                                           |
+
 [^1]: ==状态异常== *现实防御*-**20%**，*暴击防御*-**20%**
+[^2]: 只工作，不玩闹，聪明雀儿也……
+[^3]: 搭棚、扎营、煎鸡蛋，童子军受到的训练当然包括它们。
