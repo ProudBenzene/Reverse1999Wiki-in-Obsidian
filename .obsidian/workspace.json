@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "🙀你们9批玩游戏这么记笔记？.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -319,7 +319,44 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b14e2dd5220c4171",
+  "floating": {
+    "id": "00c23cee260aa2b9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1ebe19acd1b4456d",
+        "type": "window",
+        "children": [
+          {
+            "id": "546dfeb54395b58e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1b76a8ca35b44891",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🙀你们9批玩游戏这么记笔记？.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 244,
+        "y": 38,
+        "width": 646,
+        "height": 759,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1b76a8ca35b44891",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
     "🙀你们9批玩游戏这么记笔记？.md",
