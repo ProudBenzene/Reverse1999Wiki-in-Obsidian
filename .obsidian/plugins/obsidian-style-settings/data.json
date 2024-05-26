@@ -552,7 +552,7 @@
   "Components@@setting-item-title-icon-remove": false,
   "Components@@restored-scrollbars": false,
   "Appearance-light@@card-layout-open-light": true,
-  "Appearance-light@@accent-light": "#94A291",
+  "Appearance-light@@accent-light": "#315A9A",
   "Appearance-light@@accent-color-override-light": true,
   "Appearance-light@@color-yellow-rgb@@light": "#F2CE3D",
   "Appearance-light@@color-green-rgb@@light": "#499C49",
@@ -599,7 +599,7 @@
   "Editor@@img-center-align": true,
   "Editor@@seamless-embeds": true,
   "Appearance-dark@@mod-root-split-background-select-dark": "mod-root-split-background-CSS-dark",
-  "Appearance-dark@@background-underlying-select-dark": "background-underlying-default-dark",
+  "Appearance-dark@@background-underlying-select-dark": "background-underlying-primary-dark",
   "Appearance-dark@@background-underlying-CSS-dark": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202403221522279.png\")",
   "timeline-callout@@node-automatic-coloring": true,
   "Blue-Topaz-Legacy@@bg-color-notebook@@dark": "#2A2A2A00",
@@ -717,5 +717,6 @@
   "Blue-Topaz-Legacy@@thino-memos-primary@@dark": "#1E1E1EB3",
   "Blue-Topaz-Legacy@@thino-memos-moment-primary@@dark": "#332F2F70",
   "Blue-Topaz-Legacy@@thino-memos-moment-primary@@light": "#EEE2BF5E",
-  "Appearance-light@@theme-light-style-select": "theme-light-background-old-default"
+  "Appearance-light@@theme-light-style-select": "theme-light-background-old-default",
+  "Appearance-light@@background-underlying-light": "#FDF9EF"
 }

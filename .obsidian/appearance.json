@@ -1,5 +1,5 @@
 {
-  "accentColor": "#fbecbb",
+  "accentColor": "#315a9a",
   "cssTheme": "Border",
   "textFontFamily": "杨任东竹石体,霞鹜文楷",
   "interfaceFontFamily": "Comic Sans MS,手札体-简,杨任东竹石体",
@@ -7,7 +7,7 @@
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 19,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "Timeline_Callouts",
     "[PKMer]Timeline_Callouts",
