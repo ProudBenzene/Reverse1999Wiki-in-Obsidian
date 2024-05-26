@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "b14e2dd5220c4171",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🙀你们9批玩游戏这么记笔记？.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🙀你们9批玩游戏这么记笔记？.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🙀你们9批玩游戏这么记笔记？.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🙀你们9批玩游戏这么记笔记？.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🙀你们9批玩游戏这么记笔记？.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,47 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "floating": {
-    "id": "00c23cee260aa2b9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "1ebe19acd1b4456d",
-        "type": "window",
-        "children": [
-          {
-            "id": "546dfeb54395b58e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1b76a8ca35b44891",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "🙀你们9批玩游戏这么记笔记？.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 244,
-        "y": 38,
-        "width": 646,
-        "height": 759,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "1b76a8ca35b44891",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "🙀你们9批玩游戏这么记笔记？.md",
+    "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小春雀儿｜Eagle.md",
