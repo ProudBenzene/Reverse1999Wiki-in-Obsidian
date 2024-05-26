@@ -1,5 +1,5 @@
 {
-  "accentColor": "#efb68e",
+  "accentColor": "#fbecbb",
   "cssTheme": "Border",
   "textFontFamily": "杨任东竹石体,霞鹜文楷",
   "interfaceFontFamily": "Comic Sans MS,手札体-简,杨任东竹石体",
@@ -7,7 +7,7 @@
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 19,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "Timeline_Callouts",
     "[PKMer]Timeline_Callouts",
@@ -42,7 +42,6 @@
     "[PKMer]tabs插件美化 ",
     "[AnuPpuccin]Colorful Frontmatter",
     "Blue Topaz Legacy特制版",
-    "[PKMer&Minimal]Cards",
-    "[AnuPpuccin]custom-background"
+    "[PKMer&Minimal]Cards"
   ]
 }
