@@ -17,6 +17,7 @@
     "生日": "date",
     "date": "date",
     "剧情主角": "multitext",
-    "人物": "multitext"
+    "人物": "multitext",
+    "介质": "text"
   }
 }
