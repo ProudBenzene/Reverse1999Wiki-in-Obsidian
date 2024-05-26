@@ -24,14 +24,14 @@ Udimo:
   - 小苍兰
   - 纸莎草
 初始衣着: 她是另一种标准。
-洞悉本色: 
+洞悉本色: 小雀终将成为雄鹰。
 aliases:
   - 小春雀儿
   - Eagle
   - 伊戈
 初始立绘: "[[立绘 小春雀儿 01.png]]"
 本色立绘: "[[立绘 小春雀儿 02.png]]"
-生日: 
+生日: 2024-07-21
 banner_header: "{{filename}}"
 出场章节:
 ---
@@ -49,51 +49,40 @@ banner_header: "{{filename}}"
 
 ## 传承：练习者
 
-|                                 洞悉等级                                  | 效果  |
-| :-------------------------------------------------------------------: | :-: |
-| ![洞悉一\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅰ.png)洞悉一 |     |
-| ![洞悉二\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅱ.png)洞悉二 |     |
-| ![洞悉三\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅲ.png)洞悉三 |     |
+|                           洞悉等级                           |                             效果                             |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![洞悉一\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅰ.png)洞悉一 | 进入战斗时，使攻击最高的敌方陷入[弱点感知]状态；退场时，净化[弱点感知]状态 |
+| ![洞悉二\|50](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/图标%20洞悉Ⅱ.png)洞悉二 |                 进入战斗时，暴击创伤提升15%                  |
 
 ## 神秘术
 
-> [!skill]- 
+> [!skill]- 往日怀表
+> ![往日怀表 一阶|100](assets/小春雀儿｜Eagle.assets/神秘术%20往日怀表1.png)
 > 
-> 
-> | 等级  | 类型  | 技能  | 文化  |
-> | :-: | :-: | :-: | :-: |
-> | ✦✧✧ |     |     |     |
-> | ✦✦✧ |     |     |     |
-> | ✦✦✦ |     |     |     |
-> 
-
-> [!skill]- 
-> 
-> 
-> | 等级  | 类型  | 技能  | 文化  |
-> | :-: | :-: | :-: | :-: |
-> | ✦✧✧ |     |     |     |
-> | ✦✦✧ |     |     |     |
-> | ✦✦✦ |     |     |     |
+> | 等级 |                             类型                             | 技能 | 文化 |
+> | :--: | :----------------------------------------------------------: | :--: | :--: |
+> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | ✦✦✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | ✦✦✦  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
 > 
 
-> [!skill]- 
+> [!skill]- 指间镜片
+> ![指间镜片 一阶|100](assets/小春雀儿｜Eagle.assets/神秘术%20指间镜片1.png)
 > 
+> | 等级 |                             类型                             | 技能 | 文化 |
+> | :--: | :----------------------------------------------------------: | :--: | :--: |
+> | ✦✧✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | ✦✦✧  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> | ✦✦✦  | ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b> |      |      |
+> 
+
+> [!skill]- 表象与真实之间
+> ![表象与真实之间|100](assets/小春雀儿｜Eagle.assets/至终的仪式%20表象与真实之间.png)
 > 
 > | 技能 | 文化 |
 > | :--: | :--: |
 > |      |      |
 > 
-
-
-
-> [!note]- 
-> ![增益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
-> ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
-> ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
-> ![反制](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
-> ![吟诵](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造
 
@@ -112,7 +101,7 @@ banner_header: "{{filename}}"
 
 ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
 
-### 洞二衣着
+### 另一条路｜The Other Path
 
 ````ad-flex
 collapse: open
@@ -137,7 +126,33 @@ color:
 > 
 ````
 
-### ｜
+### 第六感｜Redrum
+
+````ad-flex
+collapse: open
+title: 
+color: 
+> [!culture]+ ｜
+> 
+> 
+> ---
+> 
+
+> [!culture]+ ｜
+> 
+> 
+> ---
+> 
+
+> [!culture]+ ｜
+> 
+> 
+> ---
+> 
+````
+
+### 周末探险小队｜Weekend Excursion
+
 
 ````ad-flex
 collapse: open
