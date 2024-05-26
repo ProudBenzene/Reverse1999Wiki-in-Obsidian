@@ -1,10 +1,10 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "./assets/主页.assets",
+  "attachmentFolderPath": "./assets/冬｜зима.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
-  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "A4",
