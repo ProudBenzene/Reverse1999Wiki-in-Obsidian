@@ -576,7 +576,7 @@
   "Appearance-dark@@workspace-divider-transparent-dark": true,
   "Appearance-dark@@card-highlight-dark": true,
   "Editor@@border-focus-mode": false,
-  "Editor@@line-hover-indicator": false,
+  "Editor@@line-hover-indicator": true,
   "Editor@@hover-indicator-color@@dark": "#EFB68E",
   "Editor@@h1-divider-on": true,
   "Editor@@text-align-justify": false,
