@@ -80,6 +80,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[温妮弗雷德｜Eternity]]
 	- [[雾行者｜Oliver Fog]]
 	- [[夏利｜Charlie]]
+	- [[小春雀儿｜Eagle]]
 	- [[小梅斯梅尔｜Mesmer Jr.]]
 	- [[小叶尼塞｜Yenisei]]
 	- [[新巴别塔｜Ms. NewBabel]]
