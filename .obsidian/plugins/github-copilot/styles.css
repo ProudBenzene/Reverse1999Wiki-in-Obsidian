@@ -1,0 +1,42 @@
+.copilot-status-bar-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.copilot-inline-suggestion {
+  opacity: 0.4;
+}
+
+.copilot-modal-auth-box {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.copilot-settings-note {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.copilot-settings-hotkeys-container {
+  padding: 0.75em 0;
+  border-top: 1px solid var(--background-modifier-border);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.copilot-settings-hotkeys-container .setting-item {
+  border-top: none !important;
+}
+
+.copilot-settings-save-button {
+  width: fit-content;
+  align-self: flex-end;
+}
