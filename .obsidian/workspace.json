@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9aadaddd821e22fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/主页.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd0d551218a2fb72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -320,25 +295,25 @@
     }
   },
   "floating": {
-    "id": "dbc801502a6a9ff6",
+    "id": "61ff15ad68f3650d",
     "type": "floating",
     "children": [
       {
-        "id": "aaa19666aac323fd",
+        "id": "0ed0bc5692581da9",
         "type": "window",
         "children": [
           {
-            "id": "0b1704ef82fb1d51",
+            "id": "dafe0b779c5fc592",
             "type": "tabs",
             "children": [
               {
-                "id": "62a897f6bd99ae7f",
+                "id": "9aadaddd821e22fa",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -347,18 +322,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 244,
+        "x": 262,
         "y": 38,
-        "width": 713,
-        "height": 827,
+        "width": 634,
+        "height": 745,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "62a897f6bd99ae7f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小春雀儿｜Eagle.md",
     "🙀你们9批玩游戏这么记笔记？.md",
@@ -395,7 +371,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "300-以影像之/304-轶事/X·齿轮的意志.md",
     "000-箱的构造/箱中memos/20240524-0f054fb72e43978a.md",
-    "000-箱的构造/箱中memos/20240516-f2d741779e67bc90.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
