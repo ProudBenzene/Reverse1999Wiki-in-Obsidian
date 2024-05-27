@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "88ac63e517000ebe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,10 +319,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "88ac63e517000ebe",
   "lastOpenFiles": [
-    "🧳司辰与第一助手：游戏库小组件.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/立绘 尼克·波顿 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
+    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
     "000-箱的构造/主页.md",
+    "🧳司辰与第一助手：游戏库小组件.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets/头图 字母的研究.png",
@@ -331,7 +348,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets/单品 小春雀儿 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小春雀儿｜Eagle~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
     "300-以影像之/303-映像/北方哨歌·银线结.md",
     "游戏文件解包说明.md",
@@ -344,8 +360,6 @@
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "300-以影像之/304-轶事/埃里克·美梦后记.md",
     "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
-    "300-以影像之/304-轶事/未锈铠·第九条美德.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
@@ -353,7 +367,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/雾行者｜Oliver Fog.assets",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets",
     "200-相从心生/角色心相/assets/形影相随｜In the Shadow.assets",
-    "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/'.txt",
     "白板.canvas"
   ]
 }
