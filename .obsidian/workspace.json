@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "88ac63e517000ebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,8 +306,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "88ac63e517000ebe",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/单品 尼克·波顿 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/单品 尼克·波顿 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/单品 尼克·波顿 01.png",
@@ -332,10 +320,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/神秘术 野蔷薇2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/神秘术 野蔷薇3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/神秘术 野蔷薇1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/立绘 尼克·波顿 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
     "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
     "000-箱的构造/主页.md",
     "🧳司辰与第一助手：游戏库小组件.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
