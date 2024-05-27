@@ -17,8 +17,9 @@ Table without id
 	"<font color='#e1b343'>" + 银行彩色相片 + "</font>" AS 简介,
 	"<span style='display:flex; justify-content: center;'>" + "[[" + file.name + "]]" + "</span>" AS "双链"
 Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UTTU人物合辑") AND !contains(file.name,"维尔汀")
-so
+sort 星级 desc
 ```
+
 
 
 ```dataview

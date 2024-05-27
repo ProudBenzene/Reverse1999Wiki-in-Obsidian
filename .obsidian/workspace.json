@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "9d9f8019ffbf8f3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -212,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -269,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/100-UTTU人物合辑.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,8 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9d9f8019ffbf8f3b",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
+    "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/尼克·波顿｜Nick Bottom.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/单品 尼克·波顿 03.png",
@@ -360,7 +347,6 @@
     "300-以影像之/304-轶事/304-轶事.md",
     "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
     "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
-    "300-以影像之/304-轶事/埃里克·美梦后记.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
