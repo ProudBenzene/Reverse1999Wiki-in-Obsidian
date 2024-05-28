@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "82db0274a56bc1c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md"
               }
             }
           },
@@ -255,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,15 +319,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "82db0274a56bc1c4",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets/立绘 斯普特尼克 01.png",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
+    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
+    "000-箱的构造/主页.md",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
     "000-箱的构造/箱中memos/20240528-0606e349f57436a3.md",
     "000-箱的构造/箱中memos/20240528-f3840239a5b184b9.md",
     "000-箱的构造/箱中memos/20240528-64cc4abd4b2c6759.md",
     "000-箱的构造/箱中memos/20240528-c761786d4cecfb9c.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
@@ -333,7 +350,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/神秘术 野蔷薇3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets/神秘术 野蔷薇1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
-    "000-箱的构造/常用工具.md",
     "🧳司辰与第一助手：游戏库小组件.md",
     "400-箱外世界/暴雨时间线.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
@@ -345,15 +361,12 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
     "300-以影像之/303-映像/北方哨歌·银线结.md",
-    "000-箱的构造/箱中memos/memos.thino.md",
-    "000-箱的构造/箱中memos/20240516-ccf9a9844c5fe688.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/雾行者｜Oliver Fog.assets",
     "200-相从心生/角色心相/assets/踽踽独行｜Going Along Alone.assets",
-    "200-相从心生/角色心相/assets/形影相随｜In the Shadow.assets",
     "白板.canvas"
   ]
 }
