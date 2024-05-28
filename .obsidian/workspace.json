@@ -4,45 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "2698e387ad966869",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "95f89cae69831722",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "1f6d9a7eed02768f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ac6722fa7e1fc13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
         "id": "a4e7ab8c564d67d7",
         "type": "tabs",
         "children": [
@@ -52,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,6 +41,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -150,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -230,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -240,36 +208,6 @@
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "a4ce342ada64730a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a326363a6487162e",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "2773abe7bd670226",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md"
-              }
             }
           }
         ],
@@ -317,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -369,7 +306,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "7ac6722fa7e1fc13",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
