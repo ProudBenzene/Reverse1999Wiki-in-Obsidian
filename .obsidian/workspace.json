@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "512faa0e87851ba2",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "游戏文件解包说明.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -264,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "游戏文件解包说明.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,6 +288,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -311,12 +303,17 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-memos:Thino": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "512faa0e87851ba2",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
+    "000-箱的构造/箱中memos/20240528-0606e349f57436a3.md",
+    "000-箱的构造/箱中memos/20240528-f3840239a5b184b9.md",
+    "000-箱的构造/箱中memos/20240528-64cc4abd4b2c6759.md",
+    "000-箱的构造/箱中memos/20240528-c761786d4cecfb9c.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
@@ -348,14 +345,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
     "300-以影像之/303-映像/北方哨歌·银线结.md",
-    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱中memos/20240516-ccf9a9844c5fe688.md",
-    "000-箱的构造/箱中memos/20240526-d9d5b2526573c9db.md",
-    "000-箱的构造/箱中memos/20240526-c742807a50d2885e.md",
-    "300-以影像之/304-轶事/304-轶事.md",
-    "300-以影像之/304-轶事/雾行者·奥利弗的故事.md",
-    "300-以影像之/304-轶事/夏利·戏剧与戏剧.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
     "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
