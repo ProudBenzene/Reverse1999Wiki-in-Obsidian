@@ -209,6 +209,36 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "3280c9a878e03dd9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a887f954547d563",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "b54b57b1829be83f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
+            }
           }
         ],
         "currentTab": 1
