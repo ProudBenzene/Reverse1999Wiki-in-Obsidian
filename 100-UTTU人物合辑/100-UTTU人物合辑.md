@@ -89,6 +89,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[新巴别塔｜Ms. NewBabel]]
 	- [[星锑｜Regulus]]
 	- [[牙仙｜Tooth Fairy]]
+	- [[洋葱头｜ONiON]]
 	- [[伊索尔德｜Isolde]]
 	- [[婴儿蓝｜Baby Blue]]
 	- [[鬃毛沙砾｜Shamane]]
