@@ -32,6 +32,14 @@
             }
           },
           {
+            "id": "b852b1b2ed67af7d",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -64,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
+                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md"
+                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md"
               }
             }
           },
@@ -268,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
+                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
+                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,8 +327,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "13bced7097587d80",
+  "active": "b852b1b2ed67af7d",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/洋葱头｜ONiON.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets/单品 洋葱头 02 1.png",
