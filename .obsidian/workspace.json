@@ -32,14 +32,6 @@
             }
           },
           {
-            "id": "b852b1b2ed67af7d",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -72,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md"
               }
             }
           },
@@ -276,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,8 +319,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b852b1b2ed67af7d",
+  "active": "13bced7097587d80",
   "lastOpenFiles": [
+    "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
+    "000-箱的构造/箱中memos/20240529-36baafd4bc782743.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/洋葱头｜ONiON.md",
@@ -348,7 +342,6 @@
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
     "游戏文件解包说明.md",
-    "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
     "000-箱的构造/箱中memos/20240528-0606e349f57436a3.md",
     "000-箱的构造/箱中memos/20240528-f3840239a5b184b9.md",
     "000-箱的构造/箱中memos/20240528-64cc4abd4b2c6759.md",
@@ -367,7 +360,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/小春雀儿｜Eagle.md",
     "🙀你们9批玩游戏这么记笔记？.md",
     "300-以影像之/304-轶事/冬·重返人间.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/冬｜зима.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
