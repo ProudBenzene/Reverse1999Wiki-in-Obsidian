@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "000-箱的构造/常用工具.md"
               }
             }
           },
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "000-箱的构造/常用工具.md"
               }
             }
           }
@@ -285,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,8 +336,9 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets/单品 斯普特尼克 03.png",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets/单品 斯普特尼克 02.png",
@@ -352,7 +353,6 @@
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
     "000-箱的构造/箱中memos/20240528-0606e349f57436a3.md",
