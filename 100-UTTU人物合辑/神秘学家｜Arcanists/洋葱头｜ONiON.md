@@ -96,10 +96,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 洞二衣着
 
 ````ad-flex
@@ -107,19 +103,19 @@ collapse: open
 title: 
 color: 
 > [!culture]+ 话筒｜Hand-mic
-> 
-> 
+> ![](assets/洋葱头｜ONiON.assets/单品%20洋葱头%2001.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**85.7**
 > ---
 > 《Headonion》节目主持人的专属话筒，据说由某位知名脱口秀演员赠送，能精准地传递说话人的音色与声调。俏皮的标牌在严肃节目中独树一帜。
 
 > [!culture]+ 经裁剪的西装｜Trimmed Suit
-> 
-> 
+> ![](assets/洋葱头｜ONiON.assets/单品%20洋葱头%2002.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**34**
 > ---
 > 数据统计显示，在严肃新闻上，观众们更愿意相信“西装革履”的男士报道者，而非某位身材窈窕的淑女。因此对洋葱头来说，这是为了确保实现新闻报道效用而不可避免的装饰——职业装。
 
 > [!culture]+ 纸质“洋葱头”｜Paper-made Headgear
-> 
+> ![](assets/洋葱头｜ONiON.assets/单品%20洋葱头%2003.png)
 > **无估值**
 > ---
 > 层层报纸包裹而成的头套，最外层永远是昨日的新闻报。真相与谎言缝接，事实与虚造模糊不定——借由这只简陋、勤快、中性的头套，洋葱头得以抵达中立之地，在某种程度上触及新闻的本质。
@@ -128,13 +124,30 @@ color:
 ## 文化
 
 ````tabs
-tab: ｜
+tab: 新闻界的清流｜Contrarian in Journalism
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
-tab: ｜
+当太空漫步掀起科幻的狂潮，年轻的灵魂被嬉皮运动唤起反叛，两种涟漪相互碰撞，时代陷入怀疑主义的涡流之中。
+阴谋论开始甚嚣尘上，绯闻与流俗成为时代的底色。人们怀疑一切，人们相信一切。
+庸俗与劣质？——只要惊爆眼球。
+单调与贫乏？——只要挑逗感官。
+在这个八十年代，谎言与真相不分彼此，新闻记者、纪实摄影师渴望成为最伟大的小说家。
+
+但还有我们。
+坚守新闻高地，还原事实真相！
+——《Headonion》
+
+  
+
+“接下来，由记者ONiON为您现场报道‘UFO 绑架奶牛事件’。”
+“记者ONiON正赶赴第一现场，采访第三类接触当事人农夫杰瑞……”
+
+tab: 荒谬的报道｜An Absurd Report
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×洋葱头]
+
+
+tab: 同行之间｜[UTTU×洋葱头]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````
