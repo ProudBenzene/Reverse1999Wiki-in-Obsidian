@@ -107,53 +107,56 @@ collapse: open
 title: 
 color: 
 > [!culture]+ 哒哒车轮｜Clatter's Wheel
-> 
-> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+> ![](assets/哒哒达利｜Darley%20Clatter.assets/单品%20哒哒达利%2001.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**11**
 > ---
-> 
+> 混入陨石碎屑的金属制圆形车轮，由马场主人亲手打造，能够在一定时间内负担这匹小马的奔跑。它开心的时候，它的小主人便开心，这对于他们来说一切都值得了。
 
-> [!culture]+ ｜
-> 
-> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
+> [!culture]+ 芬芳涂漆｜Scented Paint
+> ![](assets/哒哒达利｜Darley%20Clatter.assets/单品%20哒哒达利%2002.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**25**
 > ---
-> 
+> 为受访者特殊定制的涂漆，其中不含任何对人体有害的物质，并散发着苹果木与焦糖的香气。它喜欢自己被打理得神采奕奕，也喜欢在短暂的玩闹后沾满尘土。
 
-> [!culture]+ ｜
-> 
+> [!culture]+ 胡萝卜色小马鞍｜Carrot-colour Saddle
+> ![](assets/哒哒达利｜Darley%20Clatter.assets/单品%20哒哒达利%2003.png)**4.5**
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
 > ---
-> 
+> 儿童玩具木马上常有的马鞍，配有胡萝卜色软垫、木质脚蹬与镶嵌着蕾丝边的坐凳，承载着小主人与小木马所有可歌可泣的伟大冒险。
 ````
 
-### ｜
+### 盛装舞步｜Elegant Dance Steps[^1]
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 花环礼赞｜Circlet of Flowers
+> ![](assets/哒哒达利｜Darley%20Clatter.assets/单品%20哒哒达利%2004.png)
+> **无估值**
 > ---
-> 
+> 一位小观众所赠予的花环，芬芳的气味令它兴奋异常。  
+> 据说，它特此垂下头，允许她揉搓三次自己的鬃毛。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 盛装马鞍｜Splendid Saddle
+> ![](assets/哒哒达利｜Darley%20Clatter.assets/单品%20哒哒达利%2005.png)
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**6**
 > ---
-> 
+> 以上等的貂油擦拭保养，价值不菲的马鞍。  
+> 由其主人从拍卖行购得，它曾在十年一次的赛马盛会中穿戴出现。
 
-> [!culture]+ ｜
-> 
-> 
+> [!culture]+ 奔向破晓｜Rolling to the Dawn
+> ![](assets/哒哒达利｜Darley%20Clatter.assets/单品%20哒哒达利%2006.png)
+> ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**913**
 > ---
-> 
+> 以五柱轮辐支撑的车轮，表面光滑并定时抛光。  
+> 由打造冷兵器的工人所作，据说是其跨界的第一次尝试。
 ````
 
 ## 文化
 
 ````tabs
-tab: ｜
+tab: 最好的生日礼物｜The Best Birthday Gift
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
 tab: ｜
@@ -166,3 +169,4 @@ tab: ｜[UTTU×哒哒达利]
 
 ## 语音
 
+[^1]: 速度与优雅当然可以得兼。
