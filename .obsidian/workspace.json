@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "a165f81e7d8ae639",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian游戏示例库实例：UTTU离线数据库.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Obsidian游戏示例库实例：UTTU离线数据库.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Obsidian游戏示例库实例：UTTU离线数据库.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian游戏示例库实例：UTTU离线数据库.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian游戏示例库实例：UTTU离线数据库.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,10 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "a165f81e7d8ae639",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "Obsidian游戏示例库实例：UTTU离线数据库.md",
+    "000-箱的构造/主页.md",
     "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/角色心相/形影相随｜In the Shadow.md",
