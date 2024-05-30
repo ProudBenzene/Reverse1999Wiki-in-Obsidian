@@ -1,7 +1,7 @@
 ---
 Name: 形影相随
 exonym: In the Shadow
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags: 
 cssclasses:
   - book

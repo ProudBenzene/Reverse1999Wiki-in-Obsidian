@@ -1,7 +1,7 @@
 ---
 Name: 踽踽独行
 exonym: Going Along Alone
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags:
   - 限定
 cssclasses:

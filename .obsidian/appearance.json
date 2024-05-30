@@ -6,7 +6,7 @@
   "monospaceFontFamily": "Fira Code",
   "translucency": false,
   "nativeMenus": false,
-  "baseFontSize": 19,
+  "baseFontSize": 18,
   "theme": "obsidian",
   "enabledCssSnippets": [
     "Timeline_Callouts",
