@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/常用工具.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/常用工具.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,10 +306,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ae0ee0175ee8627f",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "Obsidian游戏示例库实例：UTTU离线数据库.md",
+    "000-箱的构造/箱中memos/20240530-517a2ab4b39e9d64.md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
     "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/角色心相/形影相随｜In the Shadow.md",
@@ -329,7 +331,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets/神秘术 只是演出2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets/神秘术 只是演出3.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
@@ -346,7 +347,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
     "🧳司辰与第一助手：游戏库小组件.md",
     "400-箱外世界/暴雨时间线.md",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
