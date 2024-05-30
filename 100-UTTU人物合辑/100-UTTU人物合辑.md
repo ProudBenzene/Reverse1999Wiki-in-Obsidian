@@ -46,6 +46,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[柏林以东｜Bkornblume]]
 	- [[北方哨歌｜Windsong]]
 	- [[吵闹鬼｜Poltergeist]]
+	- [[哒哒达利｜Darley Clatter]]
 	- [[冬｜зима]]
 	- [[讣告人｜Necrologist]]
 	- [[葛天｜GeTian]]
