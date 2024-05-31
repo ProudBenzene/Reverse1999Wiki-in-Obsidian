@@ -119,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -252,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,8 +306,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "13eab36a72e3758c",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "Obsidian游戏示例库实例：UTTU离线数据库.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/单品 丽莎路易斯 03.png",
@@ -324,7 +330,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/哒哒达利｜Darley Clatter.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/哒哒达利｜Darley Clatter.assets",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
-    "Obsidian游戏示例库实例：UTTU离线数据库.md",
     "000-箱的构造/箱中memos/20240530-517a2ab4b39e9d64.md",
     "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
