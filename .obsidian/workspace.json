@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "07bf5a27bd139a69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md"
               }
             }
           },
@@ -236,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md"
               }
             }
           }
@@ -285,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,22 +349,25 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "07bf5a27bd139a69",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep~.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/神秘术 捉鬼游戏2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/神秘术 捉鬼游戏3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/神秘术 捉鬼游戏1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/神秘术 前后夹击1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/神秘术 前后夹击3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/神秘术 前后夹击2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/至终的仪式 好孩子们入梦乡.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/一阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/二阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/三阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets",
     "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/贝蒂｜Bette.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/单品 贝蒂 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/单品 贝蒂 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/单品 贝蒂 01.png",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/贝蒂｜Bette~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/至终的仪式 每一次的选角.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/神秘术 充足戏份2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/神秘术 充足戏份3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/神秘术 充足戏份1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/神秘术 经典镜头2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets/神秘术 经典镜头1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/哒哒达利｜Darley Clatter.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/哒哒达利｜Darley Clatter.assets",
@@ -376,13 +392,11 @@
     "000-箱的构造/箱中memos/20240528-64cc4abd4b2c6759.md",
     "000-箱的构造/箱中memos/20240528-c761786d4cecfb9c.md",
     "300-以影像之/304-轶事/小春雀儿·字母的研究.md",
-    "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "300-以影像之/304-轶事/assets/塞梅尔维斯•第三种苏醒.assets",
-    "300-以影像之/304-轶事/assets/小春雀儿·字母的研究.assets",
     "白板.canvas"
   ]
 }
