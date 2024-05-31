@@ -129,18 +129,97 @@ color:
 ## 文化
 
 ````tabs
-tab: ｜
+tab: 黑色星期一｜Black Monday
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
-tab: ｜
+她拥有着一个足够幸福的家庭——和睦，温馨，一只家养贵宾犬，每周例行的家庭出游，以及从股市中源源不断攫取的丰厚利润。
+所有人都笃信，在这个年代里，他们有着逐步复兴的金融业，有着恢复健康的纽约经济。尽管联邦保险缴纳条例对于中产家庭的税负不断提高，但这对于稳步增长的收入而言不过九牛一毛。
+
+但纽约道琼斯工业平均指数的坠落轻易地击溃了这份自信与平和。它带领着全球股市倾泻式地暴跌，经济衰退在普通人毫无防备的时刻迅速到来。
+在空瘪的钱包与沉重的赋税的作用下，家庭成员们的埋怨、争吵愈发频繁地发生着。
+孩子向来是家庭不幸的牺牲品，她在重重压力之下几乎崩溃，而某些隐藏已久的血脉挽救了她。
+
+像是一场让所有人安眠的梦。
+现在她们又重新拥有了一个幸福的家庭，尽管股市依然在下坠。
+但至少，孩子们能给予家庭更大的安慰。
+
+tab: 双胞胎的日记（节选）｜The Twins' Diaries
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×丽莎&路易斯]
+10月21日 星期三 晴天
+今天戴夫给我带了泥巴丸子！他变得好亲切！
+今天戴夫给我带了泥巴丸子！他变得好亲切！
+
+10月24日 星期六 晴天
+妈妈给我买了新的袜子，好可爱好可爱的。
+妈妈给我买了新的袜子，好可爱好可爱的。可是她少买了一双。
+
+10月26日 星期一 阴天
+不只戴夫，大家都成了我的好朋友，好奇怪呀。
+可是这样很好，丽莎。路易斯最喜欢朋友，最喜欢热闹了！
+
+10月31日 星期六/星期日 晴天
+周六爸爸要值班，但他答应周日一定会陪我玩。
+周六爸爸要值班，但他答应周日一定会陪我玩。
+
+tab: 孩子，们｜[UTTU×丽莎&路易斯]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+
+白雪松：人们对孩子总是缺乏戒心，以至于轻易地受其影响。
+**丽莎&路易斯**：你在说什么？丽莎听不懂，路易斯听不懂。
+白雪松：美式中产家庭的外部环境足够稳定，能最大限度地避免可能出现的外来者。
+白雪松：意志薄弱的人们对如此隐秘的行径更是难以觉察。
+**丽莎&路易斯**：你说的话……好可怕！
+白雪松：抱歉。
+**丽莎&路易斯**：呜，呜呜……
+白雪松：别哭了。
+**丽莎&路易斯**：你是坏人！呜哇——！
+白雪松：……
+白雪松：孩子们是上天赐予的最好礼物，值得被所有人呵护。
+**丽莎&路易斯**：嘻嘻。
+
+\- 漫长的休息时间 -
+白雪松：……唔……发生什么了吗？
 
 ````
 
 ## 语音
+
+|                      |                                                                                                                                                                                                       |
+| :------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                                             你好，我是丽莎/路易斯！<br>Hello, I'm Lisa (Louise)!                                                                             |
+|         箱中气候         |                                                                  想要和丽莎/路易斯一起出去玩躲避球吗？<br>Wanna play dodgeball with Lisa (Louise)?                                                                  |
+|  致未来  <br>信任达到10%解锁  |                                                                                 呃……我讨厌变化。<br>Um … I hate changes.                                                                                 |
+|          孑立          |                                                                 没关系，没关系，让我们一起来玩游戏。<br>It's okay, it's okay. Let's play together.                                                                  |
+|          问候          |                                                            你是来找丽莎/路易斯的，还是丽莎/路易斯？<br>Are you here for Lisa or Louise (Louise or Lisa)?                                                             |
+|          朝晨          |       妈咪的煎饼上有两片黄油，桌上的橙汁有两杯。妈咪是一个好妈咪，我爱我的妈咪。<br>There are two pats of butter on mommy's pancake. There are two glasses of orange juice on the table. Mommy is a good mommy. I love my mommy.       |
+| 信任-朝晨  <br>信任达到20%解锁 |                                                   你想让橙汁变成三杯吗？你可以永远和我们在一起。<br>Do you want some orange juice? Make it 3 and stay with us forever.                                                   |
+|          夜暮          | 爸爸已经到家了。他有时回来得晚，有时回来得早，许多时候，都会带来礼物。爸爸是一个好爸爸，我爱我的爸爸。<br>Daddy is home. Sometimes he's home early, sometimes late. Most of the time he will bring us gifts. Daddy is a good daddy. I love my daddy. |
+| 信任-夜暮  <br>信任达到30%解锁 |                                                                      不，不！我不喜欢刷牙！<br>No, no! I don't want to brush my teeth!                                                                       |
+|        帽檐与发鬓         |                                                发带，发卡，金头发，好女儿～可爱的女儿～哈哈哈～<br>Scrunchies, clips, golden hair, good daughters, cute daughter! Hahaha!                                                 |
+|         袖与手          |                                                             石头，剪刀，布！石头，剪刀，布！我赢啦！<br>Rock paper scissors! Rock paper scissors! I win!                                                              |
+|        衣着与身形         |                                                                                    我又长高了！<br>I get taller now!                                                                                    |
+|  嗜好  <br>信任达到40%解锁   |                                          好吧！我不喜欢的东西只有一点，但我也想不起那是什么了！<br>Alright! There is only one thing I don't like, but I can't remember what it is!                                           |
+|  赞赏  <br>信任达到50%解锁   |                                        这个小东西送给你。它还会动，也会发声。吱吱！唧唧！哈哈哈～<br>This little thing is for you. It can move and make noises. Squeak! Kiki! Hahahaha!                                        |
+|  亲昵  <br>信任达到60%解锁   |                                           当我想玩游戏的时候，大家自然会来到我身边。你也会这样吗？<br>How can people just show up whenever I want to play? Is it the same for you?                                            |
+|         闲谈Ⅰ          |                                                                   只工作，不玩耍，聪明孩子也变傻。<br>All work, no play, makes Jack a dull boy.                                                                   |
+|         闲谈Ⅱ          |       戴夫惹人讨厌！他力气大，声音响，粗鲁地欺负人。但，有一天他突然就长成了好男孩。现在，他是我们最好的朋友！<br>Dave used to be bad! He is strong, loud and he bullies others. But, one day he became a good boy. Now, he is our best friend!       |
+|  独白  <br>信任达到70%解锁   |                                                            我不想独自一个人。还好我从来都不是一个人。<br>I don't want to be alone. Luckily I'm never alone.                                                            |
+|          入队          |                                                                             我也要去，我也要去！<br>I wanna go, I wanna go too!                                                                             |
+|          战前          |                                                                                       新朋友们。<br>New friends.                                                                                       |
+|        择选咒语Ⅰ         |                                                                                抓起来抓起来～！<br>Catch them catch them!                                                                                 |
+|        择选咒语Ⅱ         |                                                                                           哈哈～<br>Haha!                                                                                            |
+|        择选高阶咒语        |                                                                                      闪亮闪亮的！<br>Shiny shiny!                                                                                       |
+|       择选至终的仪式        |                                                                               试试更好玩的东西吧！<br>Try something funnier!                                                                                |
+|        释放神秘术Ⅰ        |                                                                                            嘿～！<br>Hey!                                                                                            |
+|        释放神秘术Ⅰ        |                                                                                   你是坏家伙！<br>You are a bad guy!                                                                                    |
+|        释放神秘术Ⅱ        |                                                                                    1～2～3～！<br>One, two, three!                                                                                    |
+|        释放神秘术Ⅱ        |                                                                                  你藏好了吗～？<br>Where could you be?                                                                                   |
+|       召唤至终的仪式        |                                                                   现在你也有朋友陪你一起玩啦～<br>Now you have a friend to play with you too!                                                                   |
+|         受敌Ⅰ          |                                                                                           哎哟！<br>Ouch!                                                                                            |
+|         受敌Ⅱ          |                                                                                         哇——！<br>Whoaaa—!                                                                                          |
+|         战斗胜利         |                                                                             丽莎/路易斯，做得好。<br>Well done, Lisa (Louise)!                                                                              |
+|    洞悉  <br>洞悉后解锁     |                                                                                谢谢你的礼物～<br>Thank you for your gift!                                                                                |
 
 [^1]: ==特殊== 赋予的状态持续回合+1
 [^2]: ==状态异常== 攻击时，*创伤加成*-**25%**（生效后减少1层）
