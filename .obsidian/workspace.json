@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "94dffafce7bec80d",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "游戏文件解包说明.md"
               }
             }
           },
@@ -255,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "游戏文件解包说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,10 +315,14 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "94dffafce7bec80d",
   "lastOpenFiles": [
-    "Obsidian游戏示例库实例：UTTU离线数据库.md",
+    "000-箱的构造/箱中memos/20240601-43ba5f951588a039.md",
+    "000-箱的构造/箱中memos/20240601-3543f966c5699be5.md",
+    "000-箱的构造/箱中memos/20240530-517a2ab4b39e9d64.md",
+    "游戏文件解包说明.md",
     "000-箱的构造/主页.md",
+    "Obsidian游戏示例库实例：UTTU离线数据库.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/单品 丽莎路易斯 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/单品 丽莎路易斯 02.png",
@@ -330,7 +343,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/哒哒达利｜Darley Clatter.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/哒哒达利｜Darley Clatter.assets",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
-    "000-箱的构造/箱中memos/20240530-517a2ab4b39e9d64.md",
     "200-相从心生/200-相从心生.md",
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/角色心相/形影相随｜In the Shadow.md",
@@ -343,11 +355,9 @@
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
-    "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240528-0606e349f57436a3.md",
     "000-箱的构造/箱中memos/20240528-f3840239a5b184b9.md",
     "000-箱的构造/箱中memos/20240528-64cc4abd4b2c6759.md",
-    "000-箱的构造/箱中memos/20240528-c761786d4cecfb9c.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
