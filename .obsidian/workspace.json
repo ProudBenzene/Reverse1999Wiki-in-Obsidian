@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "94dffafce7bec80d",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {}
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -261,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,9 +306,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20240601-e96b5f3df7b13219.md",
+    "000-箱的构造/箱中memos/20240601-9809b39c9edae4b4.md",
+    "000-箱的构造/箱中memos/20240601-5318a1f18371365e.md",
+    "000-箱的构造/箱中memos/20240601-ed529f0dd5cd60dd.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/assets/塞梅尔维斯｜Semmelweis.assets/立绘 塞梅尔维斯 02.png",
     "000-箱的构造/箱中memos/20240601-43ba5f951588a039.md",
@@ -348,10 +348,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/洋葱头｜ONiON.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
-    "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
-    "000-箱的构造/箱中memos/20240528-0606e349f57436a3.md",
-    "000-箱的构造/箱中memos/20240528-f3840239a5b184b9.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
