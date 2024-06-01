@@ -157,17 +157,81 @@ color:
 ## 文化
 
 ````tabs
-tab: ｜
+tab: 迅捷如龟｜Fast Like Turtle
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
-tab: ｜
+芝诺军备学院，是全世界军人梦寐以求的进修之地。
+在这里，现代科技与神秘术并非互斥的两极，而是作为达成同一个目标的两种道路紧密依存着。
+来自世界各地的神秘学家与军人在此进修，组成了一支不容小觑的力量。
+归根结底，莉拉妮并不适合这里，她绝不是一个合格的军人——她甚至不是一个合格的学员。
+她散漫而天真，与军人应该有的品质完全绝缘。
+但那又如何呢？
+比起成为一名军人，她更想成为一名热爱生活的人。
+
+tab: 浪花｜A Spray
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×莉拉妮]
+她看见了一朵浪花
+那是来自于海洋的花朵
+她摘下了一朵木槿花
+那是来自于岛屿的花朵
+
+我们都是一朵花
+无人问津的小花
+我们将会盛开
+盛开在浪尖与未曾相见之中
+
+tab: 味道极佳｜[UTTU×莉拉妮]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+
+白雪松：你好，莉——
+**莉拉妮**：Aloha！早上好，女士！见到您真令我高兴！
+白雪松：我——
+**莉拉妮**：请问您吃早餐了吗？如果没有的话，要不要跟我一起吃个早餐呢？
+白雪松：谢谢，但是，嚼嚼……请不要擅自塞东西进——
+**莉拉妮**：这是我的早餐彩虹雪糕！不用谢！
+白雪松：很感谢你的盛情款待，但我是前来采访你的——
+**莉拉妮**：需要再来一份吗？
+白雪松：（叹气声）……谢谢。
 
 ````
 
 ## 语音
+
+|                      |                                                                                                                                                                                                                    |
+| :------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                                   Aloha！欢迎你……哦，欢迎我来到你家！<br><br>Aloha! Welcome to … Oh, welcome me to your place!                                                                   |
+|         箱中气候         |                                     噢噢噢！阳光！沙滩！海浪！虽然这里只有阳光，不过也很好！<br><br>Oh oh oh! The sun! The beach! The waves! There might only be the sun here, but it's still pretty nice!                                     |
+|  致未来  <br>信任达到10%解锁  |                                                                     你知道的，未来我一定能够顺利毕业！<br><br>You know it. I'm definitely graduating from here!                                                                     |
+|          孑立          |                                        Aloha！有人在吗？没人吗？真的没人吗？那我等会再来问一次喔！<br><br>Aloha! Is … anyone around? Nobody? Really? In that case, I'll come by and … ask again later!                                        |
+|          问候          |                                                    Aloha！Bonjour！你好！こんにちは！还有其他的吗？教教我！<br><br>Aloha! Bonjour! Nihao! Konnichiwa! Is there more? Please teach me!                                                    |
+|          朝晨          |                                                                   夏威夷人美好的一天就从椰奶沙司开始～<br><br>The Hawaiians start their day off well with Haupia!                                                                    |
+| 信任-朝晨  <br>信任达到20%解锁 |   你要不要和我一起出去玩？随便玩什么都行，哪怕只是晒晒太阳呢～我来帮你抹防晒霜吧！<br><br>Would you like to come out and have some fun together? We can do whatever you want, even if all you wanna do is get some sun! I'll rub some sunscreen on you!    |
+|          夜暮          |                                                  我总觉得有什么事情没做，是什么呢？<br><br>I keep having the feeling that there's something I haven't done yet. What could it be?                                                   |
+| 信任-夜暮  <br>信任达到30%解锁 |                       嘿，朋友！海滩散步三二一走起？海上冲浪，沙滩烧烤，你还想要什么？什么都可以！<br><br>Aloha ahiahi! Wanna have a nice walk on the beach? You can surf, have a barbecue, what else do you want? Anything goes!                        |
+|        帽檐与发鬓         |              我的头发好看又特别，对吧？不过我因此也成为了演习中的首要打击目标……但是没关系！<br><br>My hair looks good and it's quite unique, isn't it? But this is also the reason I'm … the prime target during exercises, but it's fine!               |
+|         袖与手          |                                            放轻松！噢！是要握手，还是击掌呢，我的朋友？我都可以！<br><br>Shaka brah! Ooh! Do you want a handshake or a high-five, my friend? I'm fine with either!                                            |
+|        衣着与身形         |                                  你对我的弓箭感兴趣吗？朋友你可真有眼光！这比枪炮可强多啦！<br><br>Are you interested in my bows and arrows? You've got great taste! This is much more powerful than firearms!                                  |
+|  嗜好  <br>信任达到40%解锁   |                           没有什么烦恼是冲一整天浪不能解决的～如果有，那我们就冲两天！<br><br>There are no troubles in the world that can't be solved with a day of surfing! If there are, we just surf for two days!                            |
+|  赞赏  <br>信任达到50%解锁   |                   哇！你一定会成为优秀毕业生的！哦，你已经算是圣洛夫基金会的优秀毕业生了。<br><br>Wow! You'll definitely become an outstanding graduate! Oh, you already are an outstanding graduate from the St. Pavlov Foundation.                   |
+|  亲昵  <br>信任达到60%解锁   |                                               啊哈哈～我又把事情给忘了，但下次我会记住的！真的！<br><br>Ahaha … I forgot about it again. But I'll make sure to remember next time! I mean it!                                               |
+|         闲谈Ⅰ          | 总有人询问我“累刃”的技巧，但他们却对传统武器嗤之以鼻！可笑的年轻人啊！<br><br>There are always people asking me about the technique for "Multi-blade," but they're the ones who turn up their noses at traditional weapons! Young people these days! |
+|         闲谈Ⅱ          |            芝诺军备学院的毕业生数不胜数，但很少有人能像红弩箭小姐那样传奇。所有人都听说过她的故事呢！<br><br>Zeno Military Academy has countless graduates, but few can reach the level of the legendary Miss Lilya. Everybody has heard about her!             |
+|  独白  <br>信任达到70%解锁   |        大家都有各种各样的伟大追求，但是我没有，我只想每天都轻轻松松地过日子！这可比你想象中的难多了！<br><br>Everyone has all sorts of great pursuits, but I don't. All I want is to live happily every day! It's a lot harder to achieve than you think!         |
+|          入队          |                                            大家好！你们是我的队友吧？哈哈……希望这次没走错……<br><br>Hey guys! Are you my teammates? Ha-ha … I hope I didn't get to the wrong place this time …                                            |
+|          战前          |                                                                                        呜哦哦哦！出发咯！<br><br>Whoaaa! Here we go!                                                                                        |
+|        择选咒语Ⅰ         |                                                                                     嗯，我完全明白了！<br><br>Oh, I get it completely!                                                                                      |
+|        择选咒语Ⅱ         |                                                                                         噢，对对，没错！<br><br>Oh, right, right!                                                                                          |
+|        择选高阶咒语        |                                                                                               哇哈～！<br><br>Whoo hoo!                                                                                                |
+|       择选至终的仪式        |                                                                                              准备准备！<br><br>Get ready!                                                                                               |
+|        释放神秘术Ⅰ        |                                                                                                 呜嘿！<br><br>Whoooa!                                                                                                 |
+|        释放神秘术Ⅰ        |                                                                                             百发百中！<br><br>Perfect shot!                                                                                             |
+|        释放神秘术Ⅱ        |                                                                                               乌拉拉！<br><br>Oh la la!                                                                                                |
+|        释放神秘术Ⅱ        |                                                                                             “累刃”！<br><br>Multi-blade!                                                                                              |
+|       召唤至终的仪式        |                                                                                         箭矢闪闪发光～<br><br>Shiny shiny arrows!                                                                                         |
+|         受敌Ⅰ          |                                                                                                  哇啊！<br><br>Whoa!                                                                                                  |
+|         受敌Ⅱ          |                                                                                     敌袭！敌袭！<br><br>Enemy attack! Enemy attack!                                                                                      |
+|         战斗胜利         |                                                          耶——！完美的演习！啊？这个……不是演习？<br><br>Yay! A perfectly executed exercise! Huh? This … wasn't an exercise?                                                          |
+|    洞悉  <br>洞悉后解锁     |                                                                                      嘘……它们在低吟。<br><br>Shh … they're humming.                                                                                       |
 
 [^1]: 错误的登山路线，正确的观赏落日时间。
