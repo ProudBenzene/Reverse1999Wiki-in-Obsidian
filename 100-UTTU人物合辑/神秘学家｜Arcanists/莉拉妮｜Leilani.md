@@ -110,47 +110,48 @@ collapse: open
 title: 
 color: 
 > [!culture]+ 长弓｜Longbow
-> 
+> ![](assets/莉拉妮｜Leilani.assets/单品%20莉拉妮%2001.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**13**
 > ---
 > 一把无论如何都能配得上“平淡无奇”这个评语的长弓。结构简单，造型朴素，但在她的手里却能发挥出意想不到的威力。神秘学家理应超脱于平凡，她做得不错。
 
 > [!culture]+ 单筒望远镜｜Monocular
-> 
+> ![](assets/莉拉妮｜Leilani.assets/单品%20莉拉妮%2002.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**38**
 > ---
 > 芝诺军备学院配发的单筒望远镜。它轻便易携，易于维护，能够适应多种复杂的作战环境，值得信赖。遗憾的是，莉拉妮并不怎么喜欢使用望远镜，因此它的装饰意义远大于实际意义。
 
 > [!culture]+ 木槿｜Hibiscus
-> 
+> ![](assets/莉拉妮｜Leilani.assets/单品%20莉拉妮%2003.png)
 > **无估值**
 > ---
 > 一朵木槿花。它仿佛带着来自于遥远岛屿的海风与阳光。这是她身上为数不多的装饰品——看得出来，她很喜欢这朵花。
 ````
 
-### 远峰的巡游｜The Adventure on The Mountains
+### 远峰的巡游｜The Adventure on The Mountains[^1]
 
 ````ad-flex
 collapse: open
 title: 
 color: 
 > [!culture]+ “轻松旅途”便携登山杖｜EasyGo Alpenstock
-> 
-> 
+> ![](assets/莉拉妮｜Leilani.assets/单品%20莉拉妮%2004.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**45**
 > ---
-> 
+> 一组轻便结实的四节登山杖，受访者登山用品储备中的一对。  
+> 受访者热情地介绍了它的性能，并邀请我欣赏她的登山鞋、冲浪板、弓箭……最终我不得不礼貌地要求暂停。
 
 > [!culture]+ “攀登之爪”10mm户外登山绳｜Clawbing 10mm Climbing Rope
-> 
-> 
+> ![](assets/莉拉妮｜Leilani.assets/单品%20莉拉妮%2005.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**15.3**
 > ---
-> 
+> 编入了跳跃豪猪鬃毛的畅销登山绳，价格平实，坚固耐用。每个攀登者都知道，绳索是自己的生命所系。检查登山绳时，受访者露出了难得的严肃神情。
 
 > [!culture]+ 扎染方巾｜Bandhani Kerchief
-> 
-> 
+> ![](assets/莉拉妮｜Leilani.assets/单品%20莉拉妮%2006.png)
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**3**
 > ---
-> 
+> 一条本地扎染方巾，由受访者在山脚下购置。准备登山之前，她曾在染布工坊花掉了整整一个下午，以期大显身手。最终，她选择购买成品，但依旧兴致不减。
 ````
 
 ## 文化
@@ -169,3 +170,4 @@ tab: ｜[UTTU×莉拉妮]
 
 ## 语音
 
+[^1]: 错误的登山路线，正确的观赏落日时间。
