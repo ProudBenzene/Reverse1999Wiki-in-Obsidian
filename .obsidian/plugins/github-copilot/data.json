@@ -3,7 +3,8 @@
   "enabled": true,
   "hotkeys": {
     "accept": "Tab",
-    "cancel": "Escape"
+    "cancel": "Escape",
+    "request": "Alt-Shift-"
   },
   "suggestionDelay": 500,
   "debug": false,
