@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "1156892e34f69861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自我鉴定.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "自我鉴定.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -268,7 +254,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自我鉴定.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +270,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自我鉴定.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +303,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "1156892e34f69861",
+  "active": "250c5f6efff2f242",
   "lastOpenFiles": [
     "400-箱外世界/暴雨时间线.md",
     "自我鉴定.md",
