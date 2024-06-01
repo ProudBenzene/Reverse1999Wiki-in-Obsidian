@@ -1,10 +1,12 @@
 {
   "nodePath": "/Users/benzene/.nvm/versions/node/v22.1.0/bin/node",
-  "enabled": false,
+  "enabled": true,
   "hotkeys": {
     "accept": "Tab",
     "cancel": "Escape"
   },
   "suggestionDelay": 500,
-  "debug": false
+  "debug": false,
+  "onlyOnHotkey": false,
+  "onlyInCodeBlock": false
 }
