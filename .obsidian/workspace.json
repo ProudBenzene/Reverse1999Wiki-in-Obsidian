@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "000-箱的构造/常用工具.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "000-箱的构造/常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,8 +306,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "ae0ee0175ee8627f",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240601-e96b5f3df7b13219.md",
     "000-箱的构造/箱中memos/20240601-9809b39c9edae4b4.md",
@@ -318,7 +319,6 @@
     "000-箱的构造/箱中memos/20240601-43ba5f951588a039.md",
     "000-箱的构造/箱中memos/20240601-3543f966c5699be5.md",
     "000-箱的构造/箱中memos/20240530-517a2ab4b39e9d64.md",
-    "000-箱的构造/主页.md",
     "Obsidian游戏示例库实例：UTTU离线数据库.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets/单品 丽莎路易斯 03.png",
