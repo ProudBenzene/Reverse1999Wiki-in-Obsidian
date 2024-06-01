@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "43def6b8a6e220c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md"
               }
             }
           },
@@ -236,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md"
               }
             }
           }
@@ -285,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,22 +349,26 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "43def6b8a6e220c9",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/神秘学家｜Arcanists/约翰·提托｜John Titor.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/单品 约翰·提托 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/单品 约翰·提托 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/单品 约翰·提托 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/神秘术 可是天才！.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/至终的仪式 六五五三六字节.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/神秘术 可是天才！2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/神秘术 可是天才！3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/神秘术 可是天才！1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/神秘术 不是摆设！3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets/神秘术 不是摆设！2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/神秘术 一句招呼3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/神秘术 一句招呼1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/神秘术 一句招呼2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/一阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/二阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/三阶神秘术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/三阶神秘术3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/二阶神秘术2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/一阶神秘术1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/至终的仪式.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets/立绘 莉拉妮 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets",
     "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
     "000-箱的构造/主页.md",
+    "未命名.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/约翰·提托｜John Titor.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets",
     "游戏文件解包说明.md",
     "000-箱的构造/箱中memos/20240601-e96b5f3df7b13219.md",
     "000-箱的构造/箱中memos/20240601-9809b39c9edae4b4.md",
@@ -375,14 +392,11 @@
     "200-相从心生/角色心相/形影相随｜In the Shadow.md",
     "200-相从心生/角色心相/踽踽独行｜Going Along Alone.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/罗蕾莱｜Lorelei.md",
-    "000-箱的构造/箱中memos/20240528-f90000573f307b54.md",
-    "000-箱的构造/箱中memos/20240529-36baafd4bc782743.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/冬｜зима.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/芭妮芭妮｜Bunny Bunny.assets",
     "白板.canvas"
   ]
 }
