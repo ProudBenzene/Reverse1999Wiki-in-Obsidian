@@ -111,42 +111,42 @@ title:
 color: 
 > [!culture]+ 长弓｜Longbow
 > 
-> 
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**13**
 > ---
-> 
+> 一把无论如何都能配得上“平淡无奇”这个评语的长弓。结构简单，造型朴素，但在她的手里却能发挥出意想不到的威力。神秘学家理应超脱于平凡，她做得不错。
 
-> [!culture]+ ｜
+> [!culture]+ 单筒望远镜｜Monocular
 > 
-> 
+> ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**38**
 > ---
-> 
+> 芝诺军备学院配发的单筒望远镜。它轻便易携，易于维护，能够适应多种复杂的作战环境，值得信赖。遗憾的是，莉拉妮并不怎么喜欢使用望远镜，因此它的装饰意义远大于实际意义。
 
-> [!culture]+ ｜
+> [!culture]+ 木槿｜Hibiscus
 > 
-> 
+> **无估值**
 > ---
-> 
+> 一朵木槿花。它仿佛带着来自于遥远岛屿的海风与阳光。这是她身上为数不多的装饰品——看得出来，她很喜欢这朵花。
 ````
 
-### ｜
+### 远峰的巡游｜The Adventure on The Mountains
 
 ````ad-flex
 collapse: open
 title: 
 color: 
-> [!culture]+ ｜
+> [!culture]+ “轻松旅途”便携登山杖｜EasyGo Alpenstock
 > 
 > 
 > ---
 > 
 
-> [!culture]+ ｜
+> [!culture]+ “攀登之爪”10mm户外登山绳｜Clawbing 10mm Climbing Rope
 > 
 > 
 > ---
 > 
 
-> [!culture]+ ｜
+> [!culture]+ 扎染方巾｜Bandhani Kerchief
 > 
 > 
 > ---
