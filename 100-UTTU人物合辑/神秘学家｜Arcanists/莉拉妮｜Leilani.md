@@ -81,30 +81,20 @@ banner_header: "{{filename}}"
 > [!skill]- 夏威夷弓箭艺术
 > ![夏威夷弓箭艺术|100](assets/莉拉妮｜Leilani.assets/至终的仪式%20夏威夷弓箭艺术.png)
 > 
-> | 技能 | 文化 |
-> | :--: | :--: |
-> |      |      |
+> |                          技能                           |                    文化                    |
+> | :-----------------------------------------------------: | :----------------------------------------: |
+> | 群体攻击，对敌方全体造成300％现实创伤；使其他友方激情+2 | 她矫捷取胜，似乎那仅仅是孩提间的冲浪游戏。 |
 > 
-
-
-
-> [!note]- 
-> ![增益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
-> ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
-> ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
-> ![反制](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
-> ![吟诵](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
 
 ## 塑造
 
 | 塑造等级 | 塑造效果 |
-| :--: | :--: |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
+| :------: | :------: |
+|   Lv.1   |          |
+|   Lv.2   |          |
+|   Lv.3   |          |
+|   Lv.4   |          |
+|   Lv.5   |          |
 
 
 ## 单品
