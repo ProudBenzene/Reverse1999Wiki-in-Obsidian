@@ -95,6 +95,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[洋葱头｜ONiON]]
 	- [[伊索尔德｜Isolde]]
 	- [[婴儿蓝｜Baby Blue]]
+	- [[约翰·提托｜John Titor]]
 	- [[鬃毛沙砾｜Shamane]]
 	- [[TTT｜TTT]]
 	- [[X｜X]]
