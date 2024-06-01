@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "adfcf945b9ae307b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b94dcb9d96b5f843",
@@ -133,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "未命名.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "未命名.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -269,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -320,10 +306,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "6fa8a46648d62218",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
     "未命名.md",
+    "000-箱的构造/主页.md",
     "未命名.canvas",
     "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",

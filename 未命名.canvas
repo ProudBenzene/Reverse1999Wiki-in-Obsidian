@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"d0a835eb20d19369","x":-155,"y":-55,"width":250,"height":60,"type":"text","text":"这是一句话"},
-		{"id":"c1d22ea57546780f","x":-60,"y":160,"width":250,"height":60,"type":"text","text":"#金句 这是一个金句 。"}
-	],
-	"edges":[]
-}
