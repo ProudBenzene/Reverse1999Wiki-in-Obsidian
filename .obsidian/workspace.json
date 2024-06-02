@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -255,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -308,6 +308,12 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "README.md",
+    "000-箱的构造/assets/README.assets/支持码.jpg",
+    "000-箱的构造/assets/README.assets/qq_pic_merged_1717319249113.jpg",
+    "assets/README.assets/qq_pic_merged_1717319249113.jpg",
+    "assets/README.assets",
+    "assets",
     "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "000-箱的构造/templates/相从心生.md",
@@ -323,9 +329,6 @@
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/至终的仪式 未来星际大战·序.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 无恶意者1.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 无恶意者2.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 无恶意者3.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 被捕获者2.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 被捕获者1.png",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/约翰·提托｜John Titor.md",
@@ -347,14 +350,11 @@
     "000-箱的构造/箱中memos/20240601-5318a1f18371365e.md",
     "000-箱的构造/箱中memos/20240601-ed529f0dd5cd60dd.md",
     "000-箱的构造/箱中memos/20240601-43ba5f951588a039.md",
-    "000-箱的构造/箱中memos/20240601-3543f966c5699be5.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/哒哒达利｜Darley Clatter.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小春雀儿｜Eagle.assets",
     "白板.canvas"
   ]
 }
