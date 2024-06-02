@@ -119,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "自我鉴定.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -254,6 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,6 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,11 +306,11 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "250c5f6efff2f242",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
     "400-箱外世界/暴雨时间线.md",
     "自我鉴定.md",
-    "000-箱的构造/主页.md",
     "未命名.canvas",
     "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
