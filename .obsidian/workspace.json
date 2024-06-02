@@ -13,21 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
                 "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "379fd4a4939ee91d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
-                "mode": "source",
-                "source": true
               }
             }
           },
@@ -54,9 +42,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
+                "file": "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md"
+                "file": "300-以影像之/304-轶事/星之眼·庸碌喜剧.md"
               }
             }
           },
@@ -260,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
+                "file": "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
+                "file": "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -311,13 +306,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "379fd4a4939ee91d",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
+    "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/单品 星之眼 03.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/单品 星之眼 02.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/单品 星之眼 01.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
     "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T~.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/至终的仪式 未来星际大战·序.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 无恶意者1.png",
@@ -325,7 +322,6 @@
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 无恶意者3.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 被捕获者2.png",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 被捕获者1.png",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets/神秘术 被捕获者3.png",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/约翰·提托｜John Titor.md",
@@ -336,7 +332,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "400-箱外世界/暴雨时间线.md",
     "自我鉴定.md",
     "未命名.canvas",
