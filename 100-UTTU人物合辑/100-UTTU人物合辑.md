@@ -62,6 +62,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[坎吉拉｜Kanjira]]
 	- [[可燃点｜Spathodea]]
 	- [[恐怖通｜Horropedia]]
+	- [[拉拉泉｜La Source]]
 	- [[丽莎&路易斯｜Twins Sleep]]
 	- [[莉拉妮｜Leilani]]
 	- [[罗蕾莱｜Lorelei]]
