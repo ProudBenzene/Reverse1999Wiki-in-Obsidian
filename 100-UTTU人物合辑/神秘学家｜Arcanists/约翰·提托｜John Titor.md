@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 智力商数
 星级: ✦✦✦
-灵感: 智｜Intellect
+属性: 智｜Intellect
 角色灵感: 智识的预告[智] 编程开发
 伤害类型: 现实创伤
 传承: 乱码笔记

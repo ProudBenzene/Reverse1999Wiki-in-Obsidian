@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 平衡
 星级: ✦✦✦✦✦✦
-灵感: 智｜Intellect
+属性: 智｜Intellect
 角色灵感: 洞穴的智者[智] 智慧传承
 伤害类型: 精神创伤
 传承: 知识的崇奉

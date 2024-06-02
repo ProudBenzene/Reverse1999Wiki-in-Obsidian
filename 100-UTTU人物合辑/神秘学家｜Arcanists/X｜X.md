@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 机械
 星级: ✦✦✦✦✦
-灵感: 智｜Intellect
+属性: 智｜Intellect
 角色灵感: 智者的巧思[智] 物品附魔
 伤害类型: 现实创伤
 传承: 副作用之用
