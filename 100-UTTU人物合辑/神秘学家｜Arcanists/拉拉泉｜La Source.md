@@ -56,8 +56,8 @@ banner_header: "{{filename}}"
 
 ## 神秘术
 
-> [!skill]- 
-> 
+> [!skill]- “春日精灵”
+> ![“春日精灵” 一阶|100](assets/拉拉泉｜La%20Source.assets/神秘术%20“春日精灵”1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
@@ -66,8 +66,8 @@ banner_header: "{{filename}}"
 > | ✦✦✦ |     |     |     |
 > 
 
-> [!skill]- 
-> 
+> [!skill]- “春日精灵”
+> ![](assets/拉拉泉｜La%20Source.assets/神秘术%20春日精灵1.png)
 > 
 > | 等级  | 类型  | 技能  | 文化  |
 > | :-: | :-: | :-: | :-: |
