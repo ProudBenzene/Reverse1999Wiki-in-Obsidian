@@ -85,25 +85,15 @@ banner_header: "{{filename}}"
 > | 群体攻击，对全体敌方造成230%现实创伤；使其陷入[缴械][缄默]状态1回合 | 每个藏有秘密的人都会梦呓，或是误以为自己尚在梦中。 |
 > 
 
-
-
-> [!note]- 
-> ![增益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Buff.png)<b><font color="#5c87b3">增益</font></b>
-> ![减益](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Debuff.png)<b><font color="#7B5E91">减益</font></b>
-> ![攻击](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Attack.png)<b><font color="#933334">攻击</font></b>
-> ![治疗](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
-> ![反制](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
-> ![吟诵](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
-
 ## 塑造
 
-| 塑造等级 | 塑造效果 |
-| :--: | :--: |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
+| 塑造等级 |                       塑造效果                        |
+| :------: | :---------------------------------------------------: |
+|   Lv.1   |      【未来星际大战·序】造成的现实创伤提升至230%      |
+|   Lv.2   | 【被捕获者】造成额外现实创伤的条件变为目标生命高于40% |
+|   Lv.3   |      【未来星际大战·序】造成的现实创伤提升至270%      |
+|   Lv.4   | 【被捕获者】造成额外现实创伤的条件变为目标生命高于30% |
+|   Lv.5   |      【未来星际大战·序】造成的现实创伤提升至300%      |
 
 
 ## 单品
