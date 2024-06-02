@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md"
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md"
               }
             }
           },
@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -311,8 +311,9 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "01a2c60378addfb9",
+  "active": "379fd4a4939ee91d",
   "lastOpenFiles": [
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/约翰·提托｜John Titor.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/洋葱头｜ONiON.md",
@@ -355,7 +356,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/哒哒达利｜Darley Clatter.assets",
     "200-相从心生/200-相从心生.md",
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洋葱头｜ONiON.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/斯普特尼克｜Sputnik.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/尼克·波顿｜Nick Bottom.assets",
