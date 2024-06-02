@@ -31,7 +31,7 @@ aliases:
   - 莉拉妮
   - Leilani
 初始立绘: "[[立绘 莉拉妮 01.png]]"
-本色立绘: "[[立绘 莉拉妮 02.png]]"
+本色立绘: 
 生日: 2024-09-23
 banner_header: "{{filename}}"
 出场章节:

@@ -122,7 +122,13 @@
             ]
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "星级",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
           },
           "id": "386246aa-0ea4-4356-916a-93620bab67ae",
           "name": "画册",

@@ -29,7 +29,7 @@ aliases:
   - 哒哒达利
   - Darley Clatter
 初始立绘: "[[立绘 哒哒达利 01.png]]"
-本色立绘: "[[立绘 哒哒达利 02.png]]"
+本色立绘: 
 生日: 2024-01-19
 banner_header: "{{filename}}"
 出场章节:

@@ -30,12 +30,12 @@ aliases:
   - 丽莎&路易斯
   - Twins Sleep
 初始立绘: "[[立绘 丽莎&路易斯 01.png]]"
-本色立绘: "[[立绘 丽莎&路易斯 02.png]]"
-生日: 
+本色立绘: 
+生日: 2024-04-27
 banner_header: "{{filename}}"
 出场章节:
 ---
-![cover](assets/丽莎&路易斯｜Twins%20Sleep.assets/立绘%20丽莎路易斯%2001.png)
+![cover](assets/丽莎&路易斯｜Twins%20Sleep.assets/立绘%20丽莎&路易斯%2001.png)
 
 > [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 80 年代
