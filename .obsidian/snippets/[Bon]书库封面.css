@@ -30,3 +30,12 @@ padding-right: 10% !important;
     max-height: 500px;
     overflow-y: scroll;
 }
+
+/* 防止banner冲突 */
+/*.book.is-live-preview .metadata-container:has(+ div.obsidian-banner-wrapper) {
+  top:var(--banner-height) !important;
+}
+
+.obsidian-banner-wrapper {
+    margin-top:unset;
+}*/
