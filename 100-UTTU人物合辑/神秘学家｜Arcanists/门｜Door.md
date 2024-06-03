@@ -27,7 +27,7 @@ aliases:
   - 门
   - Door
 初始立绘: "[[立绘 门 01.png]]"
-本色立绘: "[[立绘 门 02.png]]"
+本色立绘: 
 生日: 2024-08-02
 banner_header: "{{filename}}"
 出场章节:

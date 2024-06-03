@@ -29,7 +29,7 @@ aliases:
   - 弄臣
   - The Fool
 初始立绘: "[[立绘 弄臣 01.png]]"
-本色立绘: "[[立绘 弄臣 02.png]]"
+本色立绘: 
 生日: 
 banner_header: "{{filename}}"
 出场章节:
