@@ -20,14 +20,26 @@
             }
           },
           {
-            "id": "153cb248da5c1930",
+            "id": "818a915c29aeb14f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-UTTU人物合辑/意识唤醒者｜Awakened/无线电小姐｜Ms. Radio.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1929bad0bfab3443",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100-UTTU人物合辑/神秘学家｜Arcanists/门｜Door.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           },
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,36 +234,6 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "76414ec27974ad2d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "66d877a7721f67b6",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "6516b5261baee089",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/门｜Door.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -349,8 +331,15 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "153cb248da5c1930",
+  "active": "1929bad0bfab3443",
   "lastOpenFiles": [
+    "立绘 门 02.png.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/门｜Door.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/无线电小姐｜Ms. Radio.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/无线电小姐｜Ms. Radio.assets/立绘 无线电小姐 01.png",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/无线电小姐｜Ms. Radio.assets",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/单品 门 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/单品 门 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/单品 门 01.png",
@@ -361,12 +350,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/神秘术 聚光镜面1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/神秘术 深邃漩涡2.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/神秘术 深邃漩涡3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/神秘术 深邃漩涡1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets/三阶神秘术.png",
-    "000-箱的构造/主页.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/门｜Door.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/弄臣｜The Fool.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/弄臣｜The Fool.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/拉拉泉｜La Source.md",
@@ -392,12 +376,10 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/哒哒达利｜Darley Clatter.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/丽莎&路易斯｜Twins Sleep.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets",
-    "400-箱外世界/暴雨时间线.md",
     "未命名.canvas",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/约翰·提托｜John Titor.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/丽莎&路易斯｜Twins Sleep.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝蒂｜Bette.assets",
     "白板.canvas"
   ]
 }

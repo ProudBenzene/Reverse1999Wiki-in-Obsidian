@@ -114,6 +114,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 - **意识唤醒者｜Awakened**
 	- [[露西｜Lucy]]
 	- [[斯普特尼克｜Sputnik]]
+	- [[无线电小姐｜Ms. Radio]]
 	- [[APPLe｜APPLe]]
 
 %% End Waypoint %%
