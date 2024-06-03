@@ -96,10 +96,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 洞二衣着
 
 ````ad-flex
@@ -131,14 +127,78 @@ color:
 tab: 无线电的命运｜What Miss Radio Knows
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
-tab: 不知名频段｜
+20世纪以来，无线电收音机的发展愈发迅速，既得益于军事科技的发展，也因为面向民众的商业电台们陆续的出现，五花八门的收音机们出现在电器商店，出现在了普罗大众的家中。
+无线电小姐是某工厂第一批次的试用品产物，她本应有着与其他同批次收音机相似的使命，在完成测试使命后、堆积于某个无名仓库之内。
+但无线电小姐被赋予了某种重大的使命，在百日菊从她的头顶生出之后。她将要向世界传递更深奥的知识与更晦涩的理论，但遗憾的是，她的听众并不算太多，至少目前如此。
+或许仍有另一种可能，大概无线电小姐所言确有其事。
+
+tab: 不知名频段｜LEee·bUPd
 ![文化2|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×无线电小姐]
+一朵小花
+开放在另一个时空
+△□□□年○月◇日
+
+没有命名
+不属于某颗星球
+天文学家未曾发现
+存在她的想象中
+
+世界不知道她
+在下一秒到来前
+
+tab: 无线电小姐会梦到其他世界吗｜[UTTU×无线电小姐]
 ![文化3|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%203.png)
+
+白雪松：你好，无线电小姐。
+**无线电小姐**：你好，女士，要听点什么？
+**无线电小姐**：密密克罗亚岛的金枪鱼篝火节，还是盛产香猪殃草的斯土威特王国的霍巴巴山脉？
+白雪松：它们都很有趣……但我这次想了解的是别的故事。
+**无线电小姐**：为了揭露神秘学家们的一角，他们不为人知的一面？
+白雪松：应该称之为“神秘学家们真正的故事”。
+**无线电小姐**：这算是这个世界的设定么？类似于过去的英雄别传，或是……明星八卦之类的。
+白雪松：你似乎表达了一个特殊的观点。
+**无线电小姐**：……
+**无线电小姐**：这个世……这儿很好。
 
 ````
 
 ## 语音
+
+|          情景          |                                                                                                                                                                                                      语音                                                                                                                                                                                                      |
+| :------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          初遇          |                                                                                                                                                                                            嗨，世界。<br>Hello, world.                                                                                                                                                                                            |
+|         箱中气候         |                                                                                                                                                                         呼～光合作用的感觉还是那么好。<br>Ahh, photosynthesis feels good as always.                                                                                                                                                                         |
+|  致未来  <br>信任达到10%解锁  |                                                                                                                       我们背靠着“过去”，驻足于“现在”，引领众人奔赴“未来”。真是一个精彩的故事。<br>We have our backs to the "past," our feet in the "present," and lead people to the "future." What a wonderful story.                                                                                                                        |
+|          孑立          |                                                                                                                                                                        调频，调频，接下来为您播报最新的快讯……<br>FM, FM, the latest news for you next …                                                                                                                                                                        |
+|          问候          |                                                                                                                                                                                  欢迎你的到来。我的好朋友。<br>Welcome … My good friend.                                                                                                                                                                                  |
+|          朝晨          |                                                                                                                  我筛选了249个地区的晨间新闻内容……您想知道每天早晨摄入肉食最多的地区是哪儿吗？<br>I've selected some morning news from 249 regions … Would you like to know which region consumes the most meat every morning?                                                                                                                   |
+| 信任-朝晨  <br>信任达到20%解锁 |                                                                                                                        现在，我要清理电池盖后的灰尘了，请您帮我守住这扇门，不要让任何人靠近。<br>Now, I am going to clean the dust under the battery cover. Please guard the door for me and don't let anyone get close.                                                                                                                        |
+|          夜暮          |                                                                                                                                          在地球的某一端，总有人在工作……所以世界永远清醒。<br>Somewhere on Earth, there are always people working … That's why the world is forever awake.                                                                                                                                           |
+| 信任-夜暮  <br>信任达到30%解锁 |                                                                                                                                           不管世界如何变化，月亮都是一样的……请安心休息。<br>No matter how the world has changed, it looks up to one abiding moon … Please rest at ease.                                                                                                                                            |
+|        帽檐与发鬓         | 这样会令我混乱的，请不要……昨日快讯，放牧山顶召开最新经济焦点会议，牛儿们认为甜甜圈之洞与可怜的悲观者是近日寒流的根源所在，我们应当尽快筹集黄金与岩浆……<br>This will cause me to malfunction, please don't … News from yesterday: the latest economic focus meeting has been held on Grazing Hilltop. Cows attending the meeting believed donut holes and poor pessimists to be the causation of the recent cold wave. Gold-raising and lava-raising are therefore urgently required … |
+|         袖与手          |                                                                                                                                                                                     □■□△！禁止触碰*@%！<br>□■□△！No touching …!                                                                                                                                                                                     |
+|        衣着与身形         |                                                                                                                                                      多亏了您的悉心保养，令我保持这样漂亮的颜色。<br>Thanks to your careful maintenance, my color stays beautiful and fresh.                                                                                                                                                       |
+|  嗜好  <br>信任达到40%解锁   |                                                                                                      那些毛绒绒的四足兽历来如此，用富于欺诈性的外表做出一些危险行为……这儿应该没有吧？<br>Those fluffy quadrupeds have a long history of such behavior, using fraudulent appearances to commit some dangerous acts … They are not here, right?                                                                                                       |
+|  赞赏  <br>信任达到50%解锁   |                                                                                                                                                             真了不起，请让我为您播放一首赞美的乐曲。<br>It's amazing, please allow me to play a song to praise you.                                                                                                                                                              |
+|  亲昵  <br>信任达到60%解锁   |                                                                      能将我放进水中吗？能将我靠近火炉吗？我没有视觉，又担心危险，请您看护着我，让我感受它们，在必要时将我拿开。<br>Could you put me into the water? Could you leave me near the fireplace? I have no eyesight, which makes me on tenterhooks. Please look after me, guide me to feel them, and take me away when necessary.                                                                       |
+|         闲谈Ⅰ          |                                                                                                           曾经有人想要偷走我，他用耳塞堵住了自己的耳朵……后来，他大概明白了有些声音是阻挡不了的。<br>Someone once tried to steal me, and stuffed his own ears with earplugs … until he later understood that some "voices" cannot be blocked.                                                                                                           |
+|         闲谈Ⅱ          |                                                                                             请绝不要打开我的电池盖，这许诺重如千金。希望您不会是普绪克，我也不至成为飞越群山的仙鹤。<br>Please promise me NOT to open my battery cover, and honor your own word. I hope you will not be another Psyche, and I won't be the crane flying over the mountains.                                                                                              |
+|  独白  <br>信任达到70%解锁   |                                                                                                           ……每个问题都有答案，但不是每个问题都需要答案。园中的鲜花一无所知，但它们仍旧盛开。<br>… Every question has an answer, but not every question needs an answer. Flowers in the garden know nothing, but they still keep blooming.                                                                                                            |
+|          入队          |                                                                                                                                                                                 好吧！我们一起试试看。<br>Alright! Let's try together.                                                                                                                                                                                  |
+|          战前          |                                                                                                                                                                    或许我应该切换到更激昂的广播频道。<br>Maybe I should switch to a more exciting channel.                                                                                                                                                                    |
+|        择选咒语Ⅰ         |                                                                                                                                                                                            调频结束。<br>Tuning over.                                                                                                                                                                                             |
+|        择选咒语Ⅱ         |                                                                                                                                                                                              接收完毕。<br>Received.                                                                                                                                                                                              |
+|        择选高阶咒语        |                                                                                                                                                                             这是机体性能的极限。<br>Limitation of a machine's performance.                                                                                                                                                                             |
+|       择选至终的仪式        |                                                                                                                                                                                         我会尽我所能。<br>I'll do my best.                                                                                                                                                                                          |
+|        释放神秘术Ⅰ        |                                                                                                                                                                                     你听到了什么吗？<br>Did you hear something?                                                                                                                                                                                      |
+|        释放神秘术Ⅰ        |                                                                                                                                                                                         试着接受它。<br>Try to accept it.                                                                                                                                                                                          |
+|        释放神秘术Ⅱ        |                                                                                                                                                                                               滋滋——<br>Buzzz …                                                                                                                                                                                                |
+|        释放神秘术Ⅱ        |                                                                                                                                                                                现在，进行今日播报。<br>And now, for today's broadcast.                                                                                                                                                                                 |
+|       召唤至终的仪式        |                                                                                                                                                                              无知亦是幸福的一种。<br>Knowing nothing is also a blessing.                                                                                                                                                                               |
+|         受敌Ⅰ          |                                                                                                                                                                                                ……啊！<br>… Agh!                                                                                                                                                                                                |
+|         受敌Ⅱ          |                                                                                                                                                                                               滋啦啦——<br>Bzzzz …                                                                                                                                                                                               |
+|         战斗胜利         |                                                                                                                                                                           胜利的喜悦也是一种新的知识。<br>Joy of victory is also new knowledge.                                                                                                                                                                            |
+|    洞悉  <br>洞悉后解锁     |                                                                                                                                                     脏东西告别机体的时刻值得永远铭记。<br>The moment when dirt bids farewell to the machine is worth remembering forever.                                                                                                                                                     |
 
 [^1]: ==状态异常== 无法提升*激情*

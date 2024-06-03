@@ -94,10 +94,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 洞二衣着
 
 ````ad-flex
@@ -170,8 +166,8 @@ tab: 镜外人｜[UTTU×门]
 
 ## 语音
 
-|                      |                                                                                                                                                                                                                                                                                                                                                                 |
-| :------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          情景          |                                                                                                                                                                             语音                                                                                                                                                                              |
+| :------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |          初遇          |                                                                我是门，一片微不足道的碎片，来自一块镜面。从本质上来说，我与我其他三千五百八十七片兄弟姐妹们并无区别，而与你相识，使我同他们不再相同。<br>I'm Door, an insignificant piece of a mirror. By nature I'm of no difference to my other 3587 siblings; but knowing you has made me different to them.                                                                |
 |         箱中气候         |                                                                                                 阴郁、沉闷，但也别被乌云遮了心。瞧瞧这个，你会感到好一些的。<br>Today is gloomy and somber enough as it is, don't let the cloud hang over you. Take a look at this, it may cheer you up.                                                                                                  |
 |  致未来  <br>信任达到10%解锁  |                     我破碎，我散落在我所在的地方。我将穿越日夜寻求真实，回到我出生的地方。噢，不对。不存在真实的时代，没错，不存在真实的时代……<br>When the mirror was shattered, I broke off and lay scattered at where I am now. I shall travel through days and nights to seek the truth, to return to where I was born. Oh, wait. There is no such era of truth. That's right. No era is true …                      |
@@ -202,7 +198,7 @@ tab: 镜外人｜[UTTU×门]
 |        释放神秘术Ⅱ        |                                                                                                                                                              光的读者。<br>The reader of the light.                                                                                                                                                              |
 |       召唤至终的仪式        |                                                                                                                                                            我看到了——亿万个太阳！<br>I see—a million suns!                                                                                                                                                            |
 |         受敌Ⅰ          |                                                                                                                                                                     别担心。<br>Worry not.                                                                                                                                                                      |
-|         受敌Ⅱ          |                                                                                                                                                                      \*碎裂声\*<br>\*crack\*                                                                                                                                                                       |
+|         受敌Ⅱ          |                                                                                                                                                                    \*碎裂声\*<br>\*crack\*                                                                                                                                                                     |
 |         战斗胜利         |                                                                                                               他们“亲眼”见证了自己的失败……这并非我的本意。<br>They have witnessed their failure with their own eyes … though it was too cruel to be my intention.                                                                                                               |
 |    洞悉  <br>洞悉后解锁     |                                                                                                                                  镜中景象正成为现实……或许如此。<br>The view in the mirror has become the reality … or it seems that way.                                                                                                                                  |
 
