@@ -40,7 +40,6 @@ aliases:
   - 1.0｜老虎的金黄
   - 1.2｜绿湖噩梦
   - 1.6｜朔日手记
-banner: "[[../../000-箱的构造/assets/主页.assets/国际服开服.jpg]]"
 ---
 ![cover](assets/十四行诗｜Sonetto.assets/立绘%20十四行诗%2002.png)
 
