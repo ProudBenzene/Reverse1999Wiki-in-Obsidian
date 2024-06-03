@@ -73,6 +73,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[莫桑女士｜Moissan]]
 	- [[尼克·波顿｜Nick Bottom]]
 	- [[泥鯭的士｜An-an Lee]]
+	- [[弄臣｜The Fool]]
 	- [[帕米埃｜Dikke]]
 	- [[皮克勒斯｜Pickles]]
 	- [[气球派对｜Balloon Party]]
