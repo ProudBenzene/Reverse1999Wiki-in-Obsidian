@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-03.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-03.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "600-箱中日历/2024/2024-01-03.md"
               }
             }
           },
@@ -236,12 +236,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "600-箱中日历/2024/2024-01-03.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "a0af558e737c8c63",
@@ -285,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "600-箱中日历/2024/2024-01-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,8 +338,12 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "耗时一百天，我完成了1999笔记库的档案整理！.md",
+    "600-箱中日历/2024/2024-01-04.md",
+    "600-箱中日历/2024/2024-01-03.md",
+    "600-箱中日历/2024/2024-01-02.md",
+    "600-箱中日历/2024/2024-01-01.md",
     "000-箱的构造/主页.md",
+    "耗时一百天，我完成了1999笔记库的档案整理！.md",
     "README.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/十四行诗｜Sonetto.assets/立绘 十四行诗 01.png",
@@ -376,10 +380,6 @@
     "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
     "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T~.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/约翰·提托｜John Titor.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/洋葱头｜ONiON.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/莉拉妮｜Leilani.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets",
     "未命名.canvas",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets",
