@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9aadaddd821e22fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -119,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md"
+                "file": "400-箱外世界/暴雨时间线.md"
               }
             }
           },
@@ -236,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md"
+                "file": "400-箱外世界/暴雨时间线.md"
               }
             }
           }
@@ -285,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600-箱中日历/2024/2024-01-03.md",
+                "file": "400-箱外世界/暴雨时间线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,10 +324,12 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "3f6df53d6a9606bd",
   "lastOpenFiles": [
-    "600-箱中日历/2024/2024-01-04.md",
+    "400-箱外世界/assets/暴雨时间线.assets/举伞司辰.jpg",
+    "400-箱外世界/暴雨时间线.md",
     "600-箱中日历/2024/2024-01-03.md",
+    "600-箱中日历/2024/2024-01-04.md",
     "600-箱中日历/2024/2024-01-02.md",
     "600-箱中日历/2024/2024-01-01.md",
     "000-箱的构造/主页.md",
@@ -378,8 +368,6 @@
     "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "300-以影像之/304-轶事/星之眼·庸碌喜剧.md",
     "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
-    "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T~.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets",
     "未命名.canvas",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/莉拉妮｜Leilani.assets",
