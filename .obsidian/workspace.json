@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "09923de574c7ad10",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.2"
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -61,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -329,7 +318,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
@@ -344,10 +332,11 @@
       "cmdr:在文件列表中显示当前文件": false,
       "float-search:Search Obsidian In Modal": true,
       "obsidian-projects:Open projects": true,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "09923de574c7ad10",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "耗时一百天，我完成了1999笔记库的档案整理！.md",
     "000-箱的构造/主页.md",
