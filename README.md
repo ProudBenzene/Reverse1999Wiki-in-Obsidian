@@ -65,4 +65,4 @@
 
 如果您认可我的工作，觉得我的工作很有意义或对您有帮助，可以通过以下方式支持我一杯奶茶：
 
-![](000-箱的构造/assets/README.assets/支持码.jpg)
+<img src="000-箱的构造/assets/README.assets/支持码.jpg" alt="支持码" width="250">
