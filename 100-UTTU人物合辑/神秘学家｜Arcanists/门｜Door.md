@@ -6,7 +6,7 @@ cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
 介质: 他者
-星级: ✦✦✦
+星级: ✦✦
 属性: 智｜Intellect
 角色灵感: 镜中之镜[智] 自我映照
 伤害类型: 现实创伤

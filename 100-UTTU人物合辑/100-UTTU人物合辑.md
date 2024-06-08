@@ -59,6 +59,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[伽菈波那｜Black Dwarf]]
 	- [[金蜜儿｜Blonney]]
 	- [[喀嚓喀嚓｜Click]]
+	- [[卡卡尼亚｜Kakaniya]]
 	- [[坎吉拉｜Kanjira]]
 	- [[可燃点｜Spathodea]]
 	- [[恐怖通｜Horropedia]]
