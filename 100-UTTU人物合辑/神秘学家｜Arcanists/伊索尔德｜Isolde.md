@@ -1,7 +1,7 @@
 ---
 Name: 伊索尔德
 exonym: Isolde
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -30,6 +30,7 @@ Udimo: 夜莺类
 aliases:
   - 伊索尔德
   - Isolde
+  - 伊索尔德•冯•迪塔斯多夫
 初始立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png]]"
 本色立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png]]"
 生日: 2024-11-23

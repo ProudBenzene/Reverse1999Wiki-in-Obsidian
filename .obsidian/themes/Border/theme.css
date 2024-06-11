@@ -5032,7 +5032,8 @@ body:not(.hider-sidebar-buttons) .workspace-tab-header-tab-list:has(+.sidebar-to
     cursor: var(--cursor);
 }
 
-:is(.theme-dark.mod-left-split-background-transparent-dark, .theme-light.mod-left-split-background-transparent-light) .is-sidedock-collapsed .mod-top-left-space .workspace-tab-header-container {
+:is(.theme-dark.card-layout-open-dark.mod-root-split-background-transparent-dark, .theme-light.card-layout-open-light.mod-root-split-background-transparent-light) .is-sidedock-collapsed,
+:is(.theme-dark.card-layout-open-dark, .theme-light.card-layout-open-light) .is-sidedock-collapsed :is(.mod-top-left-space .workspace-tab-header-container, .workspace-sidedock-vault-profile) {
     visibility: hidden;
 }
 
@@ -7277,6 +7278,19 @@ body {
     --tag-radius: 2em;
 }
 
+@media (hover: hover) {
+
+    .cm-hashtag-end:hover,
+    .cm-hashtag-begin:has(+.cm-hashtag-end:hover),
+    .cm-hashtag-begin:hover,
+    .cm-hashtag-begin:hover+.cm-hashtag-end {
+        background-color: var(--tag-background-hover);
+        border: var(--tag-border-width) solid var(--tag-border-color-hover);
+        color: var(--tag-color-hover);
+        text-decoration: var(--tag-decoration-hover);
+    }
+}
+
 
 /* ====== line emphasis ====== */
 /* ====== highlight ====== */
@@ -8502,17 +8516,6 @@ svg.sidebar-left {
     --background-modifier-hover: rgba(var(--mono-rgb-100), 0.08);
     --interactive-normal: var(--background-modifier-border);
     --interactive-hover: var(--background-modifier-border-hover);
-}
-
-
-.workspace-drawer-ribbon.mod-left,
-.workspace-drawer.mod-left .view-header,
-.workspace-drawer.mod-left .view-content,
-.workspace-drawer.mod-left,
-.workspace-drawer.mod-left .workspace-drawer-inner,
-.workspace-drawer.mod-left .workspace-drawer-inner .workspace-drawer-tab-container,
-.workspace-drawer.mod-left .workspace-drawer-inner .workspace-drawer-tab-container .workspace-leaf-content {
-    background-color: var(--background-secondary);
 }
 
 .is-tablet.theme-dark .vertical-tab-content,
