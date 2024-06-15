@@ -3,7 +3,7 @@ Name: 卡卡尼亚
 exonym: Kakaniya
 tags: 
 cssclasses:
-  - role
+  - book
 人物合辑: 神秘学家｜Arcanists
 介质: 透镜
 星级: ✦✦✦✦✦✦
@@ -25,8 +25,8 @@ Udimo: 玻璃鹦鹉类
   - 肉豆蔻
   - 尤加利
   - 薄荷
-初始衣着: 
-洞悉本色: 
+初始衣着: 在忙碌的街头，最鲜亮的那一抹绿。
+洞悉本色: 她向镜中望去，镜面同样回望着她。
 aliases:
   - 卡卡尼亚
   - Kakaniya
@@ -34,7 +34,7 @@ aliases:
 初始立绘: "[[立绘 卡卡尼亚 01.png]]"
 本色立绘: "[[立绘 卡卡尼亚 02.png]]"
 生日: 2024-12-07
-banner_header: "{{filename}}"
+banner_header: 
 出场章节:
 ---
 ![cover](assets/卡卡尼亚｜Kakaniya.assets/立绘%20卡卡尼亚%2002.png)
@@ -102,11 +102,7 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
-### 洞二衣着
+### 映像之映像｜Reflections within Reflections
 
 ````ad-flex
 collapse: open

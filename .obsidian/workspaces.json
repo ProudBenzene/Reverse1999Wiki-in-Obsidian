@@ -211,6 +211,14 @@
                   "type": "graph",
                   "state": {}
                 }
+              },
+              {
+                "id": "99ac01e430c42d49",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 1
@@ -309,7 +317,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-05-11T12:01:16+08:00",
+      "mtime": "2024-06-12T00:25:10+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null

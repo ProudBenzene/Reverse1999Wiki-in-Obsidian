@@ -3,10 +3,10 @@ Name: <% tp.file.title.split("｜")[0] %>
 exonym: <% tp.file.title.split("｜")[1] %>
 tags: 
 cssclasses:
-  - role
+  - book
 人物合辑: <% tp.file.folder() %>
 介质: 
-星级: ✦✦✦
+星级: ✦✦✦✦✦✦
 属性: 
 角色灵感: 
 伤害类型: 

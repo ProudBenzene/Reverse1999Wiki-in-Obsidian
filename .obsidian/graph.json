@@ -4,8 +4,8 @@
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path: 100-UTTU人物合辑/",
@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 16111006
       }
+    },
+    {
+      "query": "path:600-箱中日历/ ",
+      "color": {
+        "a": 1,
+        "rgb": 5881308
+      }
     }
   ],
   "collapse-display": false,
@@ -60,6 +67,6 @@
   "repelStrength": 10.6005859375,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.11956362098281655,
+  "scale": 0.0982852358056756,
   "close": true
 }

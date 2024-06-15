@@ -107,17 +107,17 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!note]+ “有限之无限”|"The Infinity of the Finity"
+> [!culture]+ “有限之无限”|"The Infinity of the Finity"
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2001.png)
 > **无估值**
 > 无限个点构成的有限长度。从某种意义而言，它达成了对于空间间隔的切割，也隐含了对真理的诘问与自我告诫，受访者如此解释。尽管我始终认为，这只是一个臂环。
 
-> [!note]+ 阿派朗衣袍|Toga of Apeiron
+> [!culture]+ 阿派朗衣袍|Toga of Apeiron
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2002.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**66.6**
 > 双曲抛物面，以整块布料裁剪而成，最符合数学之几何学的衣袍，岛屿上的人们最为认可的服饰。它是完美的，只是……需要注意行走的方式，受访者如此笃定。
 
-> [!note]+ 普通饰物|Neck Accessories
+> [!culture]+ 普通饰物|Neck Accessories
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2003.png)
 > **无估值**
 > 一个为脖颈量身而制的饰物，造型简洁，颇具深意。尽管受访者不曾透露，但我们仍可揣测一二。它是直线、圆与三角形共同构成的标的物，制衡思想与行动的支点，象征着最早的几何学测量工具。
@@ -129,17 +129,17 @@ color:
 collapse: open
 title: 
 color: 
-> [!note]+ “斐波那契数列”|"Fibonacci Sequence"
+> [!culture]+ “斐波那契数列”|"Fibonacci Sequence"
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2004.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**55**
 > 由布、纱和丝绸等材料做成的花冠，精巧的做工让它们看起来像仍沾着晨间的露珠。上面的每种花都正好是花瓣数量符合斐波那契数列的品种，因此颇受佩戴者的青睐。
 
-> [!note]+ “点与线”|"Dots and Lines"
+> [!culture]+ “点与线”|"Dots and Lines"
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2005.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**120**
 > 佩戴者多次强调它是一桩“很好的证明”。但实际上，它仍然只是一条由塑料珍珠穿成的普通发饰。
 
-> [!note]+ “分形几何”|"Fractal Ceometry"
+> [!culture]+ “分形几何”|"Fractal Ceometry"
 > ![](assets/37｜Thirty-seven.assets/单品%2037%2006.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**20**
 > 一根由不明鸟类自然脱落的羽毛。佩戴者醉心于这美丽图形的规律，将它装饰在了小腿的黄金分割点处。

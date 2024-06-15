@@ -109,17 +109,17 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!note]+ 冠|The Crown
+> [!culture]+ 冠|The Crown
 > ![](assets/6｜Six.assets/单品%206%2001.png)
 > 无估值
 > 一顶友人们所赠予的头冠， 金属锻造，简洁，光亮如新，显然受到了特殊的优待。据受访者所称，其作为饰品的显著"意义"是令他的额头卷入锐角与皮肉的纷争。为免于此，它一般被用于压书。
 
-> [!note]+ 经|The Scripture
+> [!culture]+ 经|The Scripture
 > ![](assets/6｜Six.assets/单品%206%2002.png)
 > 无估值
 > 数个陈旧的卷轴，构造遵循古制，纸张粗糙，推测为早期造纸工艺所作，不便写作。它的整洁令我们对其中内容相当好奇。遗憾的是，当我们试图探究其中的手绘涂画时，受访者出乎意料地发动了神秘术。
 
-> [!note]+ 形式|The Form
+> [!culture]+ 形式|The Form
 > ![](assets/6｜Six.assets/单品%206%2003.png)
 > ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**32**
 > 数个相互联结的六边形，结构与排列十分独特，似乎隐含着某种不言自明的秩序。“理论上这象征着完满，"受访者如是说，“不过它被海鸥叼走了太多次，连接处已经严重磨损了。”
