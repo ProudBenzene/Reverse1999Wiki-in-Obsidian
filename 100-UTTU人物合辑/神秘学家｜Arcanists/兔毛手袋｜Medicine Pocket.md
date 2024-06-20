@@ -1,7 +1,7 @@
 ---
 Name: 兔毛手袋
 exonym: Medicine Pocket
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -37,6 +37,7 @@ banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
   - 1.7｜今夜星光灿烂
+已邀请: true
 ---
 ![cover](assets/兔毛手袋｜Medicine%20Pocket.assets/立绘%20兔毛手袋%2002.png)
 

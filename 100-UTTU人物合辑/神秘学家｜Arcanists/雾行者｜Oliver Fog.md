@@ -1,7 +1,7 @@
 ---
 Name: 雾行者
 exonym: Oliver Fog
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 雾的归处
 造像: 伦敦的雾气似乎永无止境，责任似乎也永无止境。那沉甸甸的帽子依然高高在上，今天的工作一如既往。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 辅助
   - 防御
@@ -33,6 +33,7 @@ aliases:
 生日: 2024-12-26
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/雾行者｜Oliver%20Fog.assets/立绘%20雾行者%2002.png)
 

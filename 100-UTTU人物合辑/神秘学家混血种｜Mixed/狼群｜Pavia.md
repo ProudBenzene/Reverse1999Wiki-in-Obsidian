@@ -1,7 +1,7 @@
 ---
 Name: 狼群
 exonym: Pavia
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家混血种｜Mixed
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 一件大好事
 造像: 这是他的最贴心的朋友，他最亲近的家人，他的血液，他的诅咒与生命。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 输出
   - 自愈
@@ -31,9 +31,10 @@ aliases:
   - Pavia
 初始立绘: "[[立绘 狼群 01.png]]"
 本色立绘: "[[立绘 狼群 02.png]]"
-生日: 
+生日:
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/狼群｜Pavia.assets/立绘%20狼群%2002.png)
 

@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
+已邀请: 
 ---
 ![cover](assets/恐怖通｜Horropedia.assets/立绘%20恐怖通%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 贝蒂
 exonym: Bette
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 励志故事
 造像: 镜头记录了她第一百二十五次跌倒，以及第一百二十六次爬起。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 辅助
   - 护盾
@@ -26,15 +26,16 @@ Udimo:
   - 琥珀
   - 妥鲁香脂
 初始衣着: 她与她尘埃中的伟大梦想。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 贝蒂
   - Bette
 初始立绘: "[[立绘 贝蒂 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-06-22
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/贝蒂｜Bette.assets/立绘%20贝蒂%2001.png)
 

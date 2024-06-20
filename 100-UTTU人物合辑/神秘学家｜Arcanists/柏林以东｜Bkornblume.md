@@ -1,7 +1,7 @@
 ---
 Name: 柏林以东
 exonym: Bkornblume
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 逆流
 造像: 她倾听着秘密，像一个卑劣小人。她倾听着美好，像一个希冀着明日的梦想家。
 银行彩色相片: 并不沉默的监听员，深爱生活的理想主义者，你最擅长倾听的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 削弱
   - 爆发
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-02-09
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/柏林以东｜Bkornblume.assets/立绘%20柏林以东%2002.png)
 

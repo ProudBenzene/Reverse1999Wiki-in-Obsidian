@@ -1,7 +1,7 @@
 ---
 Name: 葛天
 exonym: GeTian
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 相骨之学
 造像: 遮天蔽日的不仅有树木，还有鸟的羽翼——可惜它们的主人不爱飞翔，也鲜少展开翅膀。
 银行彩色相片: 观望人世的的灭蒙鸟，经历漫长岁月的识骨者，你最自得其乐的朋友之一。
-Udimo: 
+Udimo:
 征集: 善哉行｜Over the New Leaf
 定位标签:
   - 辅助
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记
+已邀请: true
 ---
 ![cover](assets/葛天｜GeTian.assets/立绘%20葛天%2002.png)
 

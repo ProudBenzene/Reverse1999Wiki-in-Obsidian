@@ -35,6 +35,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.1｜雷米特杯失窃案
+已邀请: 
 ---
 ![cover](assets/梅兰妮｜Melania.assets/立绘%20梅兰妮%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 红斗篷
 exonym: Mondlicht
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 猎手本能
 造像: 血债必须血偿。往日的月亮在兽爪之下破碎，母亲们的泪水如同河流。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 输出
 香调:
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-01-01
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/红斗篷｜Mondlicht.assets/立绘%20红斗篷%2002.png)
 

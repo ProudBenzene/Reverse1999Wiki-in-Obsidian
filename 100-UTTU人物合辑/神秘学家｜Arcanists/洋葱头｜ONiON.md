@@ -1,7 +1,7 @@
 ---
 Name: 洋葱头
 exonym: ONiON
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 清醒者
 造像: 人们总会注目于那个头套，如同他们总是瞧着真相之上的荒谬。她总有一天会揭开它的——二者都会。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 输出
   - 辅助
@@ -24,15 +24,16 @@ Udimo:
   - 奥勒冈
   - 罗勒
 初始衣着: 她明白，真相总需要抽丝剥茧。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 洋葱头
   - ONiON
 初始立绘: "[[立绘 洋葱头 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-02-05
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/洋葱头｜ONiON.assets/立绘%20洋葱头%2001.png)
 

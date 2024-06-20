@@ -1,7 +1,7 @@
 ---
 Name: 未锈铠
 exonym: A Knight
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,7 +13,7 @@ cssclasses:
 传承: 怜悯
 造像: 公正、怜悯、荣耀——这些法则对于他来说无需重复。
 银行彩色相片: 彬彬有礼的流浪骑士，知名骑士笑话爱好者，你最忠诚的朋友之一。
-Udimo: 
+Udimo:
 征集: 剑与盔的嘶鸣｜CLANG OF SWORD & ARMOR
 定位标签:
   - 输出
@@ -34,6 +34,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 未锈铠 · 第九条美德
+已邀请: true
 ---
 ![cover](assets/未锈铠｜A%20Knight.assets/立绘%20未锈铠%2002.png)
 

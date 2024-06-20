@@ -1,7 +1,7 @@
 ---
 Name: 约翰·提托
 exonym: John Titor
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 乱码笔记
 造像: 她来自未来，她很清楚自己的未来如何。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 辅助
   - 驱散
@@ -26,15 +26,16 @@ Udimo:
   - 薰衣草
   - 香根草
 初始衣着: 她能同时举起二十五公斤全速疾跑。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 约翰·提托
   - John Titor
 初始立绘: "[[立绘 约翰·提托 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-11-02
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/约翰·提托｜John%20Titor.assets/立绘%20约翰·提托%2001.png)
 

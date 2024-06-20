@@ -35,6 +35,7 @@ aliases:
 生日: 2024-04-15
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/苏芙比｜Sotheby.assets/立绘%20苏芙比%2002.png)
 

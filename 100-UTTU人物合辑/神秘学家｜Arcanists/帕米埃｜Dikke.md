@@ -1,7 +1,7 @@
 ---
 Name: 帕米埃
 exonym: Dikke
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 公允
 造像: 所有不公者都将面临公平的裁决。
 银行彩色相片: 执剑的特别裁判所法官，永无偏移的制裁者，你最威严的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 输出
   - 治疗
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-10-10
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/帕米埃｜Dikke.assets/立绘%20帕米埃%2002.png)
 

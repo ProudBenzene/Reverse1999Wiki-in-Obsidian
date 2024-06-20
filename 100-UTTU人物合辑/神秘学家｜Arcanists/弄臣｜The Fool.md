@@ -1,7 +1,7 @@
 ---
 Name: 弄臣
 exonym: The Fool
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 谢幕之前
 造像: 舞台之上的愚者很清楚，这个时代不需要小丑。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 防御
 香调:
@@ -24,15 +24,16 @@ Udimo:
   - 顿加豆
   - 香根草
 初始衣着: 一朵小花，一副面具，以及一个并非来自宫廷的弄臣。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 弄臣
   - The Fool
 初始立绘: "[[立绘 弄臣 01.png]]"
-本色立绘: 
-生日: 
+本色立绘:
+生日:
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/弄臣｜The%20Fool.assets/立绘%20弄臣%2001.png)
 

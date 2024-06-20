@@ -1,7 +1,7 @@
 ---
 Name: 芭妮芭妮
 exonym: Bunny Bunny
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 最佳员工
 造像: 离开家乡并不容易，告别父母与兄弟并不容易，记住143种酒品的价格与口感并不容易，可她总是全力以赴。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 治疗
   - 重伤
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-11-06
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/芭妮芭妮｜Bunny%20Bunny.assets/立绘%20芭妮芭妮%2002.png)
 

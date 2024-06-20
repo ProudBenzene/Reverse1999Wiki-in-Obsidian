@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.4｜洞穴的囚徒
+已邀请: true
 ---
 ![cover](assets/37｜Thirty-seven.assets/立绘%2037%2002.png)
 

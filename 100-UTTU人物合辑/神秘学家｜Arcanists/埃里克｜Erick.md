@@ -1,7 +1,7 @@
 ---
 Name: 埃里克
 exonym: Erick
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 凯旋儿歌
 造像: 她踏上英灵殿的阶梯。在故事中，在梦境中，在将到来的某日。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 输出
   - 驱散
@@ -33,6 +33,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 埃里克·美梦后记
+已邀请: true
 ---
 ![cover](assets/埃里克｜Erick.assets/立绘%20埃里克%2002.png)
 

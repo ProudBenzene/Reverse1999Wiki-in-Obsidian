@@ -1,7 +1,7 @@
 ---
 Name: 鬃毛沙砾
 exonym: Shamane
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.3｜行至摩卢旁卡
+已邀请: true
 ---
 ![cover](assets/鬃毛沙砾｜Shamane.assets/立绘%20鬃毛沙砾%2002.png)
 

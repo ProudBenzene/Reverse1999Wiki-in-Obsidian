@@ -1,7 +1,7 @@
 ---
 Name: 无线电小姐
 exonym: Ms. Radio
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 意识唤醒者｜Awakened
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 至暗时刻
 造像: 欢迎收听新闻！一切你想知道的，都在这儿了！
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 削弱
 香调:
@@ -24,15 +24,16 @@ Udimo:
   - 茉莉
   - 水
 初始衣着: 每个姑娘都有属于她的那朵花儿。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 无线电小姐
   - Ms. Radio
 初始立绘: "[[立绘 无线电小姐 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-04-01
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/无线电小姐｜Ms.%20Radio.assets/立绘%20无线电小姐%2001.png)
 

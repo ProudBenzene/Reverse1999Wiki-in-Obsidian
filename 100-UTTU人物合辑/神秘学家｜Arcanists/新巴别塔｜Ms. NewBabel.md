@@ -1,11 +1,11 @@
 ---
 Name: 新巴别塔
 exonym: Ms. NewBabel
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
-介质: 
+介质:
 星级: ✦✦✦✦✦✦
 属性: 岩｜Mineral
 角色灵感: 岩岫的走兽[岩] 魔精售卖
@@ -13,7 +13,7 @@ cssclasses:
 传承: 卓识远见
 造像: 时代终将变焕新生，在她足下温顺如幼犬。
 银行彩色相片: 优雅而精明的魔精驯养商人，新时代的引领者，你最雄心勃勃的朋友之一。
-Udimo: 
+Udimo:
 征集: 大讲演时代｜The Era of Great Speech
 定位标签:
   - 防御
@@ -35,6 +35,7 @@ aliases:
 生日: 2024-11-16
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/新巴别塔｜Ms.%20NewBabel.assets/立绘%20新巴别塔%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 尼克·波顿
 exonym: Nick Bottom
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 在尘埃中
 造像: 总有人甘心情愿地被愚弄，戴上一只可笑的驴脑袋。可歌亦可泣，这爱意比蜜更浓。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 辅助
 香调:
@@ -32,6 +32,7 @@ aliases:
 生日: 2024-04-30
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/尼克·波顿｜Nick%20Bottom.assets/立绘%20尼克·波顿%2002.png)
 

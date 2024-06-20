@@ -1,7 +1,7 @@
 ---
 Name: 气球派对
 exonym: Balloon Party
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 嘭嘭气球们
 造像: 她分发气球，她参加派对。她说，你好！你好！你好啊！
 银行彩色相片: 孩子们的好朋友，带来气球与健康的派对来客，你最古怪的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 治疗
   - 防御
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-04-14
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/气球派对｜Balloon%20Party.assets/立绘%20气球派对%2002.png)
 

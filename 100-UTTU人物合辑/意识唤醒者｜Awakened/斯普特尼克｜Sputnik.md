@@ -1,7 +1,7 @@
 ---
 Name: 斯普特尼克
 exonym: Sputnik
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 意识唤醒者｜Awakened
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 重返归宿
 造像: 遥远的旅途——她称之为“归乡”。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 防御
   - 控制
@@ -25,15 +25,16 @@ Udimo:
   - 焚香
   - 灼烧金属
 初始衣着: 已陨落者，正在等待重返的时刻。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 斯普特尼克
   - Sputnik
 初始立绘: "[[立绘 斯普特尼克 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-10-04
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/斯普特尼克｜Sputnik.assets/立绘%20斯普特尼克%2001.png)
 

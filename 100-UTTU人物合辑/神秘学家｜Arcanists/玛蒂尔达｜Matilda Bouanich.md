@@ -1,7 +1,7 @@
 ---
 Name: 玛蒂尔达
 exonym: Matilda Bouanich
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 骄傲之星
 造像: 立于世界的高处，骄傲的，显眼的，俯瞰一切！
-银行彩色相片: 
+银行彩色相片:
 Udimo: 家鸭类
-征集: 
+征集:
 定位标签:
   - 削弱
   - 输出
@@ -37,6 +37,7 @@ banner_header: "{{filename}}"
 出场章节:
   - 1.0｜故事一无所有
   - 特别篇｜星
+已邀请: true
 ---
 ![cover](assets/玛蒂尔达｜Matilda%20Bouanich.assets/立绘%20玛蒂尔达%2002.png)
 

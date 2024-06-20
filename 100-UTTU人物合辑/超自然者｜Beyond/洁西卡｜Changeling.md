@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
+已邀请: 
 ---
 ![cover](assets/洁西卡｜Changeling.assets/立绘%20洁西卡%2002.png)
 

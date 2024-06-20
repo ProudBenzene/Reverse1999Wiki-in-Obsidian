@@ -1,7 +1,7 @@
 ---
 Name: 卡卡尼亚
 exonym: Kakaniya
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -34,8 +34,9 @@ aliases:
 初始立绘: "[[立绘 卡卡尼亚 01.png]]"
 本色立绘: "[[立绘 卡卡尼亚 02.png]]"
 生日: 2024-12-07
-banner_header: 
+banner_header:
 出场章节:
+已邀请: true
 ---
 ![cover](assets/卡卡尼亚｜Kakaniya.assets/立绘%20卡卡尼亚%2002.png)
 

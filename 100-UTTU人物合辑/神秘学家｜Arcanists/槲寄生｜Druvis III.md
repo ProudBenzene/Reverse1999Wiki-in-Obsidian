@@ -40,6 +40,7 @@ banner_header: "{{filename}}"
   - 1.0｜故事一无所有
   - 1.0｜老虎的金黄
 衣着: 闹蛾儿｜Lady With Nao'E
+已邀请: true
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
 

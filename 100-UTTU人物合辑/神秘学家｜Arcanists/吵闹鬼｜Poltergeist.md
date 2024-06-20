@@ -1,7 +1,7 @@
 ---
 Name: 吵闹鬼
 exonym: Poltergeist
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 好孩子
 造像: 别看着她，别无视她，别记得她，别忘了她。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 防御
   - 削弱
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-07-12
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/吵闹鬼｜Poltergeist.assets/立绘%20吵闹鬼%2002.png)
 

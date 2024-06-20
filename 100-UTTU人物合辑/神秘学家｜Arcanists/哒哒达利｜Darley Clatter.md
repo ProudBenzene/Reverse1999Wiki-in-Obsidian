@@ -1,7 +1,7 @@
 ---
 Name: 哒哒达利
 exonym: Darley Clatter
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 重铸荣光
 造像: 伟大、崇高、吱呀作响，他身后的风有胡萝卜的香味。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 辅助
 香调:
@@ -24,15 +24,16 @@ Udimo:
   - 胡萝卜籽
   - 金箔
 初始衣着: 它是那样一等一的娇贵，连蹄子边儿都留有亚麻籽油的芬香。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 哒哒达利
   - Darley Clatter
 初始立绘: "[[立绘 哒哒达利 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-01-19
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/哒哒达利｜Darley%20Clatter.assets/立绘%20哒哒达利%2001.png)
 

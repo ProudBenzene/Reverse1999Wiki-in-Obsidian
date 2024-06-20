@@ -1,7 +1,7 @@
 ---
 Name: 丽莎&路易斯
 exonym: Twins Sleep
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 双生催眠
 造像: 嘿！嘿！你好！你好！再见！再见！
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 削弱
   - 控制
@@ -25,15 +25,16 @@ Udimo:
   - 茉莉
   - 桦木
 初始衣着: 她不再害怕孤单了，她们会一直彼此陪伴。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 丽莎&路易斯
   - Twins Sleep
 初始立绘: "[[立绘 丽莎&路易斯 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-04-27
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/丽莎&路易斯｜Twins%20Sleep.assets/立绘%20丽莎&路易斯%2001.png)
 

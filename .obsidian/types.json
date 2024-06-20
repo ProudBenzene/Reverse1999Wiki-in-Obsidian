@@ -18,6 +18,7 @@
     "date": "date",
     "剧情主角": "multitext",
     "人物": "multitext",
-    "介质": "text"
+    "介质": "text",
+    "已邀请": "checkbox"
   }
 }

@@ -1,7 +1,7 @@
 ---
 Name: 玛丽莲
 exonym: Sweet heart
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 一声低吟
 造像: 这是一个微不足道的小小秘密，嘘，仔细听。
 银行彩色相片: 万众瞩目的“美国甜心”，辉光四溢的荧幕焦点，你最惹人注目的明星朋友。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 输出
   - 控制
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-06-01
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/玛丽莲｜Sweet%20heart.assets/立绘%20玛丽莲%2002%201.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 莫桑女士
 exonym: Moissan
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 职责所在
 造像: 她深知人比釉色更多样。她愿为引导者，非塑形者。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 控制
   - 护盾
@@ -32,9 +32,10 @@ aliases:
   - 汉娜·盖耶尔
 初始立绘: "[[立绘 莫桑女士 01.png]]"
 本色立绘: "[[立绘 莫桑女士 02.png]]"
-生日: 
+生日:
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/莫桑女士｜Moissan.assets/立绘%20莫桑女士%2002.png)
 

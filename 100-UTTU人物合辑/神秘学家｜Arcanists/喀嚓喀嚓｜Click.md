@@ -1,7 +1,7 @@
 ---
 Name: 喀嚓喀嚓
 exonym: Click
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 新摄影论
 造像: 他留存下事物最接近真实的一侧。藉由镜头，藉由不容置疑的勇敢。
 银行彩色相片: 锲而不舍的战地摄影师，箱中经典影集的创造者，你最敬业的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 输出
   - 削弱
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-06-28
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/喀嚓喀嚓｜Click.assets/立绘%20喀嚓喀嚓%2002.png)
 

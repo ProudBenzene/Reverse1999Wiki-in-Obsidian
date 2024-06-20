@@ -1,7 +1,7 @@
 ---
 Name: 小春雀儿
 exonym: Eagle
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 练习者
 造像: 总有一天她会意识到，她作为她自己就已足够展翅翱翔。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 爆发
   - 输出
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-07-21
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/小春雀儿｜Eagle.assets/立绘%20小春雀儿%2002.png)
 

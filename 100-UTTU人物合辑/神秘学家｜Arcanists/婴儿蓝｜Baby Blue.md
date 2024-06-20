@@ -1,7 +1,7 @@
 ---
 Name: 婴儿蓝
 exonym: Baby Blue
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 别碰她
 造像: 贝丝离开了，安洁莉娜离开了，汤米离开了，甚至连那位爱丽丝也离去了。但别担心，她会在这儿的。
 银行彩色相片: 徜徉于美梦的少女，仙境所爱的爱丽丝，你最悠闲的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 削弱
   - 控制
@@ -33,6 +33,7 @@ aliases:
 生日: 2024-03-14
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/婴儿蓝｜Baby%20Blue.assets/立绘%20婴儿蓝%2002.png)
 

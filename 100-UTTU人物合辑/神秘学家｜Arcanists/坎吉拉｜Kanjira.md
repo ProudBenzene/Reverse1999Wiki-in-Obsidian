@@ -1,7 +1,7 @@
 ---
 Name: 坎吉拉
 exonym: Kanjira
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -14,7 +14,7 @@ cssclasses:
 造像: 一片熄灭的黑，一架破篷车。她掏口袋磨出茧子的小手，舒展着皱巴巴的书页，一遍，再来一遍——
 银行彩色相片: 街头生活智慧的集大成者，大篷车中的可靠伙伴，你最灵巧的朋友之一。
 Udimo: 蛇类
-征集: 
+征集:
 定位标签:
   - 输出
   - 中毒
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.3｜行至摩卢旁卡
+已邀请: true
 ---
 ![cover](assets/坎吉拉｜Kanjira.assets/立绘%20坎吉拉%2002.png)
 

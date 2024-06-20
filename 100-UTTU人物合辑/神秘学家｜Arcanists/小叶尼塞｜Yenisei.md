@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记
+已邀请: true
 ---
 ![cover](assets/小叶尼塞｜Yenisei.assets/立绘%20小叶尼塞%2002.png)
 

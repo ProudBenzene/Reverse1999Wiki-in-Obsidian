@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.1｜雷米特杯失窃案
+已邀请: 
 ---
 ![cover](assets/皮克勒斯｜Pickles.assets/立绘%20皮克勒斯%2002.png)
 

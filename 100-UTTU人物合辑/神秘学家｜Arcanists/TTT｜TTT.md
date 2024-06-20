@@ -1,7 +1,7 @@
 ---
 Name: TTT
 exonym: TTT
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 隐私保护
 造像: 无躯体者与魂灵尚且有一段距离，不过她显然更想谈论些其他的。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 防御
   - 驱散
@@ -31,9 +31,10 @@ aliases:
   - TTT
 初始立绘: "[[立绘 TTT 01.png]]"
 本色立绘: "[[立绘 TTT 02.png]]"
-生日: 
+生日:
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/TTT｜TTT.assets/立绘%20TTT%2002.png)
 

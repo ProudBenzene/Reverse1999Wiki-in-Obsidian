@@ -1,7 +1,7 @@
 ---
 Name: 挖掘艺术
 exonym: Diggers
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -14,7 +14,7 @@ cssclasses:
 造像: 对于与他类似的叛逆艺术家而言，前路总是多舛的——人们对新潮艺术啧啧称赞，却对真正的先驱者嗤之以鼻。
 银行彩色相片: 反叛传统的艺术家，爱、灵感与泡泡的传播者，你最有艺术气质的朋友之一。
 Udimo: 蛙类
-征集: 
+征集:
 定位标签:
   - 削弱
   - 控制
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.1｜雷米特杯失窃案
+已邀请: true
 ---
 ![cover](assets/挖掘艺术｜Diggers.assets/立绘%20挖掘艺术%2002.png)
 

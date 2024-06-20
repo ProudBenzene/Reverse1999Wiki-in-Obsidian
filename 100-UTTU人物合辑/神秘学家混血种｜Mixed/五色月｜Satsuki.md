@@ -1,7 +1,7 @@
 ---
 Name: 五色月
 exonym: Satsuki
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家混血种｜Mixed
@@ -13,8 +13,8 @@ cssclasses:
 传承: 大正侍仆
 造像: 一瓣自卑坚韧的樱，一颗已得归处的心。
 银行彩色相片: 温柔的茶室招待姑娘，经风历雨重新绽放之花，你最惹人怜爱的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 输出
   - 控制
@@ -35,6 +35,7 @@ aliases:
 生日: 2024-05-01
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/五色月｜Satsuki.assets/立绘%20五色月%2002.png)
 

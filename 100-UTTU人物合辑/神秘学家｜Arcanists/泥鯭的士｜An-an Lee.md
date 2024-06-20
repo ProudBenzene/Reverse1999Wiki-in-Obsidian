@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 未锈铠 · 第九条美德
+已邀请: true
 ---
 ![cover](assets/泥鯭的士｜An-an%20Lee.assets/立绘%20泥鯭的士%2002.png)
 ![[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png|inlR|200]]

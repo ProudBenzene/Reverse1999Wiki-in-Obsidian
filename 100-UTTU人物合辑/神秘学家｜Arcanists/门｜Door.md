@@ -1,7 +1,7 @@
 ---
 Name: 门
 exonym: Door
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 谦逊品格
 造像: 小心，别让锋利的现实伤了手。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 辅助
 香调:
@@ -22,15 +22,16 @@ Udimo:
   - 高莎草
   - 茴香
 初始衣着: 它通往你。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 门
   - Door
 初始立绘: "[[立绘 门 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-08-02
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/门｜Door.assets/立绘%20门%2001.png)
 

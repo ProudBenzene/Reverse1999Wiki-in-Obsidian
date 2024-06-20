@@ -1,7 +1,7 @@
 ---
 Name: 沙丝绒
 exonym: Desert Flannel
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -14,7 +14,7 @@ cssclasses:
 造像: 奔跑，再奔跑，跃过账簿、日程表与终点线，抵达她与它温暖的家。
 银行彩色相片: 十项全能的生活专家，街头奔走的八比特牧人，你最能干的朋友之一。
 Udimo: 像素鸸鹋类
-征集: 
+征集:
 定位标签:
   - 辅助
   - 输出
@@ -34,6 +34,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
+已邀请: true
 ---
 ![cover](assets/沙丝绒｜Desert%20Flannel.assets/立绘%20沙丝绒%2002.png)
 

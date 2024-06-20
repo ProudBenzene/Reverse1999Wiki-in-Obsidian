@@ -1,7 +1,7 @@
 ---
 Name: 曲娘
 exonym: Jiu Niangzi
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家混血种｜Mixed
@@ -35,6 +35,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记
+已邀请: true
 ---
 ![cover](assets/曲娘｜Jiu%20Niangzi.assets/立绘%20曲娘%2002.png)
 

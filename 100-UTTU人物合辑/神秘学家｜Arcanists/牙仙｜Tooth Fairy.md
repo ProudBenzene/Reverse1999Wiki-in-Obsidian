@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
+已邀请: true
 ---
 ![cover](assets/牙仙｜Tooth%20Fairy.assets/立绘%20牙仙%2002.png)
 

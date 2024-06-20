@@ -1,7 +1,7 @@
 ---
 Name: 北方哨歌
 exonym: Windsong
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.8｜再见，来亚什基
+已邀请: true
 ---
 ![cover](assets/北方哨歌｜Windsong.assets/立绘%20北方哨歌%2002.png)
 

@@ -35,7 +35,8 @@ aliases:
 本色立绘: "[[立绘 露西 02.png]]"
 生日: 
 banner_header: "{{filename}}"
-出场章节:
+出场章节: 
+已邀请: true
 ---
 ![cover](assets/露西｜Lucy.assets/立绘%20露西%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 铅玻璃
 exonym: Cristallo
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 祈福页
 造像: 这样的好孩子不应该如此多苦。这太不公平了。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 重伤
   - 辅助
@@ -35,6 +35,7 @@ aliases:
 生日: 2024-12-30
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/铅玻璃｜Cristallo.assets/立绘%20铅玻璃%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 红弩箭
 exonym: Lilya
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -41,6 +41,7 @@ banner_header: "{{filename}}"
   - 1.0｜故事一无所有
   - 1.0｜老虎的金黄
   - 1.4｜洞穴的囚徒
+已邀请: true
 ---
 ![cover](assets/红弩箭｜Lilya.assets/立绘%20红弩箭%2002.png)
 

@@ -1,7 +1,7 @@
 ---
 Name: 爱兹拉
 exonym: Ezra Theodore
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 人类｜Human
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
+已邀请: true
 ---
 ![cover](assets/爱兹拉｜Ezra%20Theodore.assets/立绘%20爱兹拉%2002.png)
 

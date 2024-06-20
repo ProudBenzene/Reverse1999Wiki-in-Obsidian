@@ -40,6 +40,7 @@ banner_header: "{{filename}}"
   - 1.0｜老虎的金黄
   - 1.1｜雷米特杯失窃案
   - 1.4｜洞穴的囚徒
+已邀请: true
 ---
 
 ![cover](assets/星锑｜Regulus.assets/立绘%20星锑%2002.png)

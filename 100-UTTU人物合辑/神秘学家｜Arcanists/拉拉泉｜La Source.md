@@ -1,7 +1,7 @@
 ---
 Name: 拉拉泉
 exonym: La Source
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 后悔药
 造像: 大可继续许愿，反正也不会灵验。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 治疗
 香调:
@@ -24,15 +24,16 @@ Udimo:
   - 无花果叶
   - 清泉
 初始衣着: 森林的传闻并不总是美好的。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 拉拉泉
   - La Source
 初始立绘: "[[立绘 拉拉泉 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-01-29
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/拉拉泉｜La%20Source.assets/立绘%20拉拉泉%2001.png)
 

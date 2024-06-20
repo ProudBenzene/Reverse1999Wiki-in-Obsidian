@@ -1,7 +1,7 @@
 ---
 Name: APPLe
 exonym: APPLe
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 意识唤醒者｜Awakened
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 葡萄酒
 造像: 他坚定地认为，光是一种粒子。他的理论无数次被验证为正确，这次也不全错。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 输出
   - 治疗
@@ -37,6 +37,7 @@ banner_header: "{{filename}}"
   - 1.0｜夜色温柔
   - 1.0｜老虎的金黄
   - 1.4｜洞穴的囚徒
+已邀请: true
 ---
 ![cover](assets/APPLe｜APPLe.assets/立绘%20APPLe%2002.png)
 

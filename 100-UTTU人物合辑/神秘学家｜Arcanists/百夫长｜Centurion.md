@@ -35,6 +35,7 @@ aliases:
 生日: 2024-08-13
 banner_header: "{{filename}}"
 出场章节:
+已邀请: 
 ---
 ![cover](assets/百夫长｜Centurion.assets/立绘%20百夫长%2002.png)
 

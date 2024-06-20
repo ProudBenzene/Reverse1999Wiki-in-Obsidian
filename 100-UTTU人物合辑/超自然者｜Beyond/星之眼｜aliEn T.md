@@ -1,7 +1,7 @@
 ---
 Name: 星之眼
 exonym: aliEn T
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 超自然者｜Beyond
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 不要理睬！
 造像: DUU-DUU-BELL-BOO，跟着重复一遍，DUU-DUU-BELL-BOO。
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 防御
   - 控制
@@ -26,16 +26,17 @@ Udimo:
   - 工业胶水
   - 黄胶带
 初始衣着: 远离故土的旅行者。一点吵闹，和更多力所不能及。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 星之眼
   - aliEn T
   - E-0991.31
 初始立绘: "[[立绘 星之眼 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-07-10
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/星之眼｜aliEn%20T.assets/立绘%20星之眼%2001.png)
 

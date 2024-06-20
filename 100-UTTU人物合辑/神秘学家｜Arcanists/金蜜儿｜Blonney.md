@@ -1,7 +1,7 @@
 ---
 Name: 金蜜儿
 exonym: Blonney
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -14,7 +14,7 @@ cssclasses:
 造像: 迪斯科、派对、时兴发圈与指甲油，秘密笔记本，她的蜡笔、故事与心。
 银行彩色相片: 花花世界中的金发女郎，恐怖电影界的造梦新星，你最尖锐的朋友之一。
 Udimo: 小怪兽类
-征集: 
+征集:
 定位标签:
   - 输出
   - 爆发
@@ -35,6 +35,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
+已邀请: true
 ---
 ![cover](assets/金蜜儿｜Blonney.assets/立绘%20金蜜儿%2002.png)
 

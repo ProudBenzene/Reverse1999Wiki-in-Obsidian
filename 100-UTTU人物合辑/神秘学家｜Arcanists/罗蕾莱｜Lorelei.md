@@ -1,7 +1,7 @@
 ---
 Name: 罗蕾莱
 exonym: Lorelei
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 随心颂
 造像: 看啊，那小船承载你来此，那湍急的流水将带你去往。
 银行彩色相片: 心地善良的传道者，身着拘束衣的小女儿，你最擅于歌唱的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 辅助
   - 输出
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-04-16
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/罗蕾莱｜Lorelei.assets/立绘%20罗蕾莱%2002.png)
 

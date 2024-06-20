@@ -1,7 +1,7 @@
 ---
 Name: 坦南特
 exonym: Tennant
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -13,8 +13,8 @@ cssclasses:
 传承: 美好骗局
 造像: ‌那些话语比砂糖更甜，那些“钻石”比繁星耀眼，它们都将属于你——只要你不介意谎言。
 银行彩色相片: 编织美梦的钻石商，游走于欲望之间的巧诈师，你最狡猾又迷人的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 护盾
   - 削弱
@@ -35,6 +35,7 @@ aliases:
 生日: 2024-09-08
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/坦南特｜Tennant.assets/立绘%20坦南特%2002.png)
 

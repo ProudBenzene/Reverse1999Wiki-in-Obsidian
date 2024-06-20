@@ -1,7 +1,7 @@
 ---
 Name: 和平乌鲁
 exonym: Ulu
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -14,7 +14,7 @@ cssclasses:
 造像: 亘古永燃——和平与竞技之火不会熄灭。
 银行彩色相片: 资历显赫的神圣火焰，红色大地的守望者，你最炽热的朋友之一。
 Udimo: 火炬类
-征集: 
+征集:
 定位标签:
   - 辅助
   - 输出
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
+已邀请: true
 ---
 ![cover](assets/和平乌鲁｜Ulu.assets/立绘%20和平乌鲁%2002.png)
 

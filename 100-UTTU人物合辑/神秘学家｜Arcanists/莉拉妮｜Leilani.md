@@ -1,7 +1,7 @@
 ---
 Name: 莉拉妮
 exonym: Leilani
-tags: 
+tags:
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 现实创伤
 传承: 迅速熟络
 造像: 不管发生了什么，她永远都会热情地喊着：“Aloha！”
-银行彩色相片: 
-Udimo: 
-征集: 
+银行彩色相片:
+Udimo:
+征集:
 定位标签:
   - 辅助
   - 输出
@@ -26,16 +26,17 @@ Udimo:
   - 柠檬
   - 绿叶
 初始衣着: 一颗热烈的小太阳，一支锐利的弓箭。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 莉拉妮
   - Leilani
 初始立绘: "[[立绘 莉拉妮 01.png]]"
-本色立绘: 
+本色立绘:
 生日: 2024-09-23
 banner_header: "{{filename}}"
 出场章节:
   - 1.0｜老虎的金黄
+已邀请: true
 ---
 ![cover](assets/莉拉妮｜Leilani.assets/立绘%20莉拉妮%2001.png)
 

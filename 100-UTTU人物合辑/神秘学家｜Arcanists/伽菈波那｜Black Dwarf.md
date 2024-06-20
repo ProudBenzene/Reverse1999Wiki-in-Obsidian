@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.3｜行至摩卢旁卡
+已邀请: true
 ---
 ![cover](assets/伽菈波那｜Black%20Dwarf.assets/立绘%20伽菈波那%2002.png)
 
