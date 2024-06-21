@@ -1,20 +1,20 @@
 ---
 Name: 玛丽莲
 exonym: Sweet heart
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 爱慕之心
 星级: ✦✦✦✦✦
-灵感: 兽｜Beast
+属性: 兽｜Beast
 角色灵感: 怪鹈的柔羽[兽] 瞩目吸睛
 伤害类型: 现实创伤
 传承: 一声低吟
 造像: 这是一个微不足道的小小秘密，嘘，仔细听。
 银行彩色相片: 万众瞩目的“美国甜心”，辉光四溢的荧幕焦点，你最惹人注目的明星朋友。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 输出
   - 控制
@@ -34,8 +34,9 @@ aliases:
 生日: 2024-06-01
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
-![cover](assets/玛丽莲｜Sweet%20heart.assets/立绘%20玛丽莲%2002%201.png)
+![cover](assets/玛丽莲｜Sweet%20heart.assets/立绘%20玛丽莲%2002.png)
 
 > [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 30 年代
@@ -153,7 +154,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 牛奶河｜Milk River
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

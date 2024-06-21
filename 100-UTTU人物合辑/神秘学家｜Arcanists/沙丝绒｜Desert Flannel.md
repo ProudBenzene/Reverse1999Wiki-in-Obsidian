@@ -1,20 +1,20 @@
 ---
 Name: 沙丝绒
 exonym: Desert Flannel
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 丝绒花
 星级: ✦✦✦✦✦
-灵感: 兽｜Beast
+属性: 兽｜Beast
 角色灵感: 奔行的猛禽[兽] 零工牧人
 伤害类型: 现实创伤
 传承: 牧人之人
 造像: 奔跑，再奔跑，跃过账簿、日程表与终点线，抵达她与它温暖的家。
 银行彩色相片: 十项全能的生活专家，街头奔走的八比特牧人，你最能干的朋友之一。
 Udimo: 像素鸸鹋类
-征集: 
+征集:
 定位标签:
   - 辅助
   - 输出
@@ -34,6 +34,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
+已邀请: true
 ---
 ![cover](assets/沙丝绒｜Desert%20Flannel.assets/立绘%20沙丝绒%2002.png)
 
@@ -100,10 +101,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 红沙特卖｜Red Desert Special Offer
 
 ````ad-flex
@@ -132,7 +129,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 涌入南半球｜To the Southern Hemisphere
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

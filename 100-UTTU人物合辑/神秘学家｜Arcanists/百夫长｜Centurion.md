@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 镀金
 星级: ✦✦✦✦✦✦
-灵感: 兽｜Beast
+属性: 兽｜Beast
 角色灵感: 雌兽的金煌[兽] 强运傍身
 伤害类型: 现实创伤
 传承: 辣酱专家
@@ -35,6 +35,7 @@ aliases:
 生日: 2024-08-13
 banner_header: "{{filename}}"
 出场章节:
+已邀请: 
 ---
 ![cover](assets/百夫长｜Centurion.assets/立绘%20百夫长%2002.png)
 
@@ -153,7 +154,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 拉斯维加斯之梦｜Las Vegas Dream
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

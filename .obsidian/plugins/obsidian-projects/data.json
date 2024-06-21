@@ -43,7 +43,10 @@
               "灵感",
               "Udimo",
               "星级",
-              "洞悉二衣着"
+              "洞悉二衣着",
+              "exonym",
+              "介质",
+              "已邀请"
             ],
             "cardWidth": 200
           },
@@ -68,7 +71,7 @@
               {
                 "color": "#2f4058",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "星｜Star"
@@ -77,7 +80,7 @@
               {
                 "color": "#5b4627",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "岩｜Mineral"
@@ -86,7 +89,7 @@
               {
                 "color": "#3a653a",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "木｜Plant"
@@ -95,7 +98,7 @@
               {
                 "color": "#773d3a",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "兽｜Beast"
@@ -104,7 +107,7 @@
               {
                 "color": "#653e6e",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "灵｜Spirit"
@@ -113,7 +116,7 @@
               {
                 "color": "#847a43",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "智｜Intellect"
@@ -122,7 +125,13 @@
             ]
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "星级",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
           },
           "id": "386246aa-0ea4-4356-916a-93620bab67ae",
           "name": "画册",
@@ -135,7 +144,11 @@
             "includeFields": [
               "English Name",
               "稀有度",
-              "灵感"
+              "灵感",
+              "介质",
+              "角色灵感",
+              "exonym",
+              "已邀请"
             ],
             "cardWidth": 250
           },
@@ -153,7 +166,7 @@
               {
                 "color": "#2f4058",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "星｜Star"
@@ -162,7 +175,7 @@
               {
                 "color": "#5b4627",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "岩｜Mineral"
@@ -171,7 +184,7 @@
               {
                 "color": "#3a653a",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "木｜Plant"
@@ -180,7 +193,7 @@
               {
                 "color": "#773d3a",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "兽｜Beast"
@@ -189,7 +202,7 @@
               {
                 "color": "#653e6e",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "灵｜Spirit"
@@ -198,7 +211,7 @@
               {
                 "color": "#847a43",
                 "condition": {
-                  "field": "灵感",
+                  "field": "属性",
                   "operator": "is",
                   "enabled": true,
                   "value": "智｜Intellect"
@@ -207,7 +220,13 @@
             ]
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "星级",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
           },
           "id": "4cfc5df5-6d49-4f7c-8422-74b4749e4044",
           "name": "洞悉立绘",
@@ -235,6 +254,9 @@
               },
               "介质": {
                 "hide": true
+              },
+              "Name": {
+                "pinned": true
               }
             },
             "orderFields": [

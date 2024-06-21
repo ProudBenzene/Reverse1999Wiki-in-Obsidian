@@ -1,14 +1,14 @@
 ---
 Name: 十四行诗
 exonym: Sonetto
-tags: 
+tags:
 cssclasses:
   - book
   - img-grid
 人物合辑: 神秘学家｜Arcanists
 介质: 好奇
 星级: ✦✦✦✦✦
-灵感: 岩｜Mineral
+属性: 岩｜Mineral
 角色灵感: 忠犬的砥磨[岩] 外务处理
 伤害类型: 现实创伤
 传承: 往诗中找寻
@@ -25,7 +25,7 @@ Udimo: 西西里灵缇类
   - 粉红胡椒
   - 辛香料
 初始衣着: 她扶正了墙上的画框，将其认作为一扇窗。
-洞悉本色: 
+洞悉本色:
 aliases:
   - 十四行诗
   - Sonetto
@@ -40,6 +40,7 @@ aliases:
   - 1.0｜老虎的金黄
   - 1.2｜绿湖噩梦
   - 1.6｜朔日手记
+已邀请: true
 ---
 ![cover](assets/十四行诗｜Sonetto.assets/立绘%20十四行诗%2002.png)
 
@@ -118,17 +119,17 @@ aliases:
 collapse: open
 title: 
 color: 
-> [!note]+ 第八期优秀成员证明|Medal
+> [!culture]+ 第八期优秀成员证明|Medal
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2001.png)
 > **无估值**
 > 经过统一的收编与训练后，圣洛夫基金会遴选出当期最为优秀的几名孩子，并为他们颁发奖章。这一枚绣有基金会纹章的图样，被她认真地别在了衣服上，始终保持着一开始的光亮。
 
-> [!note]+ 菱格发带|Grant
+> [!culture]+ 菱格发带|Grant
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2002.png)
 > ![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)**3.25**
 > 它被夹在一封寄给基金会的感谢信里。那封信与其他千万封一样，没有邮戳，也未曾署名。十四行诗收下了那封信，也收下了它，并且小心地保存至今。
 
-> [!note]+ 玻璃笔|Glass
+> [!culture]+ 玻璃笔|Glass
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2003.png)
 > **无估值**
 > 一支能描绘出诗歌中种种意象的玻璃笔，但对于那些诗歌未及之物，它也无能为力。 在所有目睹过的人看来，十四行诗所画出的场景都无限接近于外面的世界。
@@ -140,17 +141,17 @@ color:
 collapse: open
 title: 
 color: 
-> [!note]+ 巡礼制服帽|Parade Uniform Beret
+> [!culture]+ 巡礼制服帽|Parade Uniform Beret
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2004.png)
 > **无估值**
 > 第一防线学校为巡礼日特制的礼帽，在贝雷帽的基础上改制。铜管记录了关于传统、荣耀、理性、责任的赞美诗篇。 一个人性化的神秘术，让它兼备了提词器的功能——尽管受访者并不需要这点。
 
-> [!note]+ 巡礼长缎手套|Parade Satin Gloves
+> [!culture]+ 巡礼长缎手套|Parade Satin Gloves
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2005.png)
 > **无估值**
 > 第一防线学校为巡礼日特制的手套。经过了细心的漂染和浆洗，每个褶皱都被十四行诗仔细熨平。为了仪式的完美无瑕，她需要付出这样的时间代价。
 
-> [!note]+ 仪典手杖|Ceremony Stick
+> [!culture]+ 仪典手杖|Ceremony Stick
 > ![](assets/十四行诗｜Sonetto.assets/单品%20十四行诗%2006.png)
 > **无估值**
 > 第一防线学校单独授予十四行诗的巡礼手杖，作为给最优秀毕业生的荣耀勋章。她将持它立于队列之首，一如既往。
@@ -158,7 +159,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 
 tab: 基金会的孩子们|The Children of SF
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)

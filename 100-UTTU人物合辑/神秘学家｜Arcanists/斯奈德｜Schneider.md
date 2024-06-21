@@ -3,11 +3,11 @@ Name: 斯奈德
 exonym: Schneider
 tags: 
 cssclasses:
-  - book
+  - role
 人物合辑: 神秘学家｜Arcanists
 介质: 羽毛
 星级: ✦✦✦✦✦
-灵感: 兽｜Beast
+属性: 兽｜Beast
 角色灵感: 黄蛉的苟且[兽] 帮派管理
 伤害类型: 精神创伤
 传承: 以生存之名
@@ -36,8 +36,9 @@ banner_header: "{{filename}}"
 出场章节:
   - 1.0｜在我们的时代里
   - 1.0｜夜色温柔
+已邀请: false
 ---
-![cover](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2002.png)
+![cover](assets/斯奈德｜Schneider.assets/立绘%20斯奈德%2001.png)
 
 > [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 20 年代
@@ -134,7 +135,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 芝加哥的新人|Newcomer in Chicago
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)第一次世界大战后，欧洲移民潮向大西洋的另一岸汹涌而来。大量的意大利移民涌进了芝加哥，他们带来了根植于意大利的“特色”——黑帮，如雨后的青苔，在芝加哥的土壤开得漫山遍野。
 

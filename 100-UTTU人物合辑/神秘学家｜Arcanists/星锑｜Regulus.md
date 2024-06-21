@@ -6,7 +6,7 @@ cssclasses:
   - book
 介质: 神秘学家｜Arcanist
 星级: ✦✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 远星的闪灼[星] 唱片骑师
 伤害类型: 精神创伤
 传承: 听听新玩意
@@ -40,6 +40,7 @@ banner_header: "{{filename}}"
   - 1.0｜老虎的金黄
   - 1.1｜雷米特杯失窃案
   - 1.4｜洞穴的囚徒
+已邀请: true
 ---
 
 ![cover](assets/星锑｜Regulus.assets/立绘%20星锑%2002.png)
@@ -157,7 +158,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 海盗、DJ 以及灵魂|Pirate, DJ, Souls
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

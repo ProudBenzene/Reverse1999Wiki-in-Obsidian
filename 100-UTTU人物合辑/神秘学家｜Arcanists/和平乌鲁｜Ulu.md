@@ -1,20 +1,20 @@
 ---
 Name: 和平乌鲁
 exonym: Ulu
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 黑曜石
 星级: ✦✦✦✦✦
-灵感: 岩｜Mineral
+属性: 岩｜Mineral
 角色灵感: 红岩的心脏[岩] 原初圣火
 伤害类型: 精神创伤
 传承: 火崇拜
 造像: 亘古永燃——和平与竞技之火不会熄灭。
 银行彩色相片: 资历显赫的神圣火焰，红色大地的守望者，你最炽热的朋友之一。
 Udimo: 火炬类
-征集: 
+征集:
 定位标签:
   - 辅助
   - 输出
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
+已邀请: true
 ---
 ![cover](assets/和平乌鲁｜Ulu.assets/立绘%20和平乌鲁%2002.png)
 
@@ -128,7 +129,7 @@ color:
 ````
 ## 文化
 
-````tab
+````tabs
 tab: 描绘泉水的壁画｜Murals of Springs
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

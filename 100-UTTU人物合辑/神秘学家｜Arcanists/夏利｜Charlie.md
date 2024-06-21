@@ -1,20 +1,20 @@
 ---
 Name: 夏利
 exonym: Charlie
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 戏剧
 星级: ✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 虚星的演绎[星] 虚影制造
 伤害类型: 精神创伤
 传承: 剧团长
 造像: 对抗权威，对抗命运。尽管长于表演暴君，但她的所作所为更像是一位贤王。
 银行彩色相片: 民众剧团的团长，舞台上的暴君，你最富理想的“乡下朋友”。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 输出
   - 驱散
@@ -34,6 +34,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 夏利·戏剧与戏剧
+已邀请: true
 ---
 ![cover](assets/夏利｜Charlie.assets/立绘%20夏利%2002.png)
 
@@ -98,10 +99,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 幻影中的国王｜The Tyrant in Illusion
 
 ````ad-flex
@@ -156,7 +153,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 巡回演出｜Troupe
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

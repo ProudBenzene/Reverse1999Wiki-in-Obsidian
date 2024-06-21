@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 生命之源
 星级: ✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 粼粼的星点 [星] 饲水者
 伤害类型: 精神创伤
 传承: 过保护欲
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记
+已邀请: true
 ---
 ![cover](assets/小叶尼塞｜Yenisei.assets/立绘%20小叶尼塞%2002.png)
 
@@ -124,7 +125,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 水光引路|Soothsayer
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

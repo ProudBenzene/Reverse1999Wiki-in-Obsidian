@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 超自然者｜Beyond
 介质: 菌毯
 星级: ✦✦✦✦✦✦
-灵感: 木｜Plant
+属性: 木｜Plant
 角色灵感: 湖底的柔枝[木] 绿湖仙灵
 伤害类型: 现实创伤
 传承: 换生灵
@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
+已邀请: 
 ---
 ![cover](assets/洁西卡｜Changeling.assets/立绘%20洁西卡%2002.png)
 
@@ -126,7 +127,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 换生灵计划|Project Changeling
 ![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

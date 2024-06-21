@@ -8,7 +8,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 祖母绿
 星级: ✦✦✦✦✦✦
-灵感: 木｜Plant
+属性: 木｜Plant
 角色灵感: 惜木的协奏[木] 魔药炼制
 伤害类型: 现实创伤
 传承: 天才淑女～
@@ -35,6 +35,7 @@ aliases:
 生日: 2024-04-15
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/苏芙比｜Sotheby.assets/立绘%20苏芙比%2002.png)
 
@@ -102,10 +103,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 另一侧的世界|World on the Other Side
 
 ````ad-flex
@@ -159,7 +156,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 钢筋城市的崛起｜The Rise of Cities
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

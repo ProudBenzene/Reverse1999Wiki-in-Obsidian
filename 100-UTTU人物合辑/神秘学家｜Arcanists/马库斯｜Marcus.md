@@ -8,7 +8,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 博览
 星级: ✦✦✦✦✦✦
-灵感: 木｜Plant
+属性: 木｜Plant
 角色灵感: 守望的荚果[木] 守塔人
 伤害类型: 精神创伤
 传承: 翻阅此页
@@ -35,8 +35,9 @@ aliases:
 生日: 2024-01-12
 banner_header: "{{filename}}"
 出场章节:
-  - "[[第六章 今夜星光灿烂]]"
-  - "[[马库斯·灯塔集]]"
+  - "[[../../300-以影像之/301-主线/1.0 生者与余众/第六章 今夜星光灿烂]]"
+  - "[[../../300-以影像之/303-映像/马库斯·灯塔集]]"
+已邀请: true
 ---
 ![cover](assets/马库斯｜Marcus.assets/立绘%20马库斯%2002.png)
 
@@ -130,7 +131,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 四处涌动的觉醒暗潮|The Undercurrent of Awakening
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 人类｜Human
 介质: 
 星级: ✦✦✦✦✦✦
-灵感: 
+属性: 
 角色灵感: 
 伤害类型: 
 传承: 
@@ -152,7 +152,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: |
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": 4,
+    "migrated": 5,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "emojiStyle": "twemoji",
@@ -58,7 +58,8 @@
     "iconsInLinksEnabled": true,
     "debugMode": false,
     "iconInFrontmatterFieldName": "icon",
-    "iconColorInFrontmatterFieldName": "iconColor"
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconInTitlePosition": "above"
   },
   "插件": "FasCode",
   "插件/彩色时钟.md": "FasClock",

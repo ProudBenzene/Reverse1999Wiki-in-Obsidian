@@ -1,20 +1,20 @@
 ---
 Name: 婴儿蓝
 exonym: Baby Blue
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 方糖
 星级: ✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 星夜的梦呓[星] 仙境漫游
 伤害类型: 精神创伤
 传承: 别碰她
 造像: 贝丝离开了，安洁莉娜离开了，汤米离开了，甚至连那位爱丽丝也离去了。但别担心，她会在这儿的。
 银行彩色相片: 徜徉于美梦的少女，仙境所爱的爱丽丝，你最悠闲的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 削弱
   - 控制
@@ -33,6 +33,7 @@ aliases:
 生日: 2024-03-14
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/婴儿蓝｜Baby%20Blue.assets/立绘%20婴儿蓝%2002.png)
 
@@ -152,7 +153,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 幻想风靡｜Fantasy Is in Vogue
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

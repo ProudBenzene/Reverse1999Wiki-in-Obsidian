@@ -43,7 +43,7 @@
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
   "MemoListView": "list",
-  "MemoSaveLocation": "DAILY",
+  "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "memos.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
@@ -61,6 +61,14 @@
       "value": "DAILY",
       "target": "ProcessEntriesBelow",
       "insert": "InsertAfter"
+    },
+    {
+      "value": "MULTI",
+      "target": "MemoDefaultMultiFilePath"
+    },
+    {
+      "value": "FILE",
+      "target": "MemoDefaultSingleFilePath"
     }
   ],
   "DeleteThinoDirectly": false,
@@ -83,11 +91,11 @@
   "addTagPosition": "Beginning",
   "addTagWithNewline": false,
   "chatViewStyle": "fluent",
-  "MomentsBackgroundImage": "https://gamecms-res.sl916.com/official_website_resource/50001/4/PICTURE/20240205/156%202560x1440_979ed4831fab45b98366f2c8f0b0a15b.jpg",
-  "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202404061622490.png",
+  "MomentsBackgroundImage": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405160013128.png",
+  "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405132046286.jpg",
   "MomentsQuote": "The Storm is coming...",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.36",
+  "LastUpdatedVersion": "2.4.47",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -114,6 +122,7 @@
   "WaitTemplaterToFinishParse": false,
   "NavbarButton": false,
   "AlwaysShowStatusText": false,
-  "FilterByMetadata": false,
-  "ShowSourcePath": false
+  "FilterByMetadata": true,
+  "ShowSourcePath": true,
+  "ShowUpdateMessage": true
 }

@@ -1,13 +1,13 @@
 ---
 Name: 北方哨歌
 exonym: Windsong
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 图纸
 星级: ✦✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 孤星的盼望[星] 地脉研究
 伤害类型: 精神创伤
 传承: 融合主义
@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.8｜再见，来亚什基
+已邀请: true
 ---
 ![cover](assets/北方哨歌｜Windsong.assets/立绘%20北方哨歌%2002.png)
 
@@ -132,7 +133,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 伟大的世纪｜The Great Century
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

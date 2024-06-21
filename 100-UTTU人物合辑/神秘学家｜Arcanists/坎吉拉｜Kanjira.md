@@ -1,20 +1,20 @@
 ---
 Name: 坎吉拉
 exonym: Kanjira
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 蛇蜕
 星级: ✦✦✦✦✦
-灵感: 木｜Plant
+属性: 木｜Plant
 角色灵感: 浮萍的游痕[木] 蛇语者
 伤害类型: 精神创伤
 传承: 流浪的学问
 造像: 一片熄灭的黑，一架破篷车。她掏口袋磨出茧子的小手，舒展着皱巴巴的书页，一遍，再来一遍——
 银行彩色相片: 街头生活智慧的集大成者，大篷车中的可靠伙伴，你最灵巧的朋友之一。
 Udimo: 蛇类
-征集: 
+征集:
 定位标签:
   - 输出
   - 中毒
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.3｜行至摩卢旁卡
+已邀请: true
 ---
 ![cover](assets/坎吉拉｜Kanjira.assets/立绘%20坎吉拉%2002.png)
 
@@ -129,7 +130,7 @@ color:
 ````
 ## 文化
 
-````tab
+````tabs
 tab: 流浪者的家｜Home for the Homeless
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

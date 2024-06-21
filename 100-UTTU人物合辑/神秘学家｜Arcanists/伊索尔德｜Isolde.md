@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 呈现
 星级: ✦✦✦✦✦✦
-灵感: 灵｜Spirit
+属性: 灵｜Spirit
 角色灵感: 虚灵的容器 [灵]歌剧演员
 伤害类型: 现实创伤
 传承: 七重纱
@@ -30,12 +30,14 @@ Udimo: 夜莺类
 aliases:
   - 伊索尔德
   - Isolde
+  - 伊索尔德•冯•迪塔斯多夫
 初始立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 01.png]]"
 本色立绘: "[[assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png]]"
 生日: 2024-11-23
 banner_header: "{{filename}}"
 出场章节:
   - 1.7｜今夜星光灿烂
+已邀请: true
 ---
 ![cover](assets/伊索尔德｜Isolde.assets/立绘%20伊索尔德%2002.png)
 
@@ -107,17 +109,17 @@ banner_header: "{{filename}}"
 collapse: open
 title: 
 color: 
-> [!note]+ “欲望与泪”|"Desires and Tears"
+> [!culture]+ “欲望与泪”|"Desires and Tears"
 > ![](assets/伊索尔德｜Isolde.assets/单品%20伊索尔德%2001.png)
 > ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**1200**
 > 以“七重纱之舞”为灵感，时下大热的卡尔洛姐妹亲自操刀为伊索尔德量身定制了高级礼服“月光之纱”。 头部装饰“欲望与泪”为该礼服的点睛之笔，纯白的蕾丝为帽体增添了层次感和精致感，代表“泪”的珍珠链则凸显了穿着者的柔美与华贵。
 
-> [!note]+ 镶金珐琅天堂凤蝶胸针|Enamel Butterfly Broach
+> [!culture]+ 镶金珐琅天堂凤蝶胸针|Enamel Butterfly Broach
 > ![](assets/伊索尔德｜Isolde.assets/单品%20伊索尔德%2002.png)
 > ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**800**
 > 优雅，静谧，用并不昂贵的材料诠释了珠宝艺术的极致。据传曾为波旁王朝某位皇后的饰品。本是一只胸针，但被挪用得恰到好处。
 
-> [!note]+ 维也纳之星|Star of Vienna
+> [!culture]+ 维也纳之星|Star of Vienna
 > ![](assets/伊索尔德｜Isolde.assets/单品%20伊索尔德%2003.png)
 > ![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)**39000**
 > 一颗切割后重达326.37克拉的天然蓝宝石，因其内部有针状的细微杂质而造成了被称为星芒的光学效应，得名“维也纳之星”，它的美丽无需多言。
@@ -125,7 +127,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 艺术：至真、至美|Art: Truth and Beauty
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

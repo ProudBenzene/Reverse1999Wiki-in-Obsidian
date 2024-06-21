@@ -1,20 +1,20 @@
 ---
 Name: 金蜜儿
 exonym: Blonney
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 设计手稿
 星级: ✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 金星的亲眷[星] 怪物设计
 伤害类型: 现实创伤
 传承: 怪物设计师
 造像: 迪斯科、派对、时兴发圈与指甲油，秘密笔记本，她的蜡笔、故事与心。
 银行彩色相片: 花花世界中的金发女郎，恐怖电影界的造梦新星，你最尖锐的朋友之一。
 Udimo: 小怪兽类
-征集: 
+征集:
 定位标签:
   - 输出
   - 爆发
@@ -35,6 +35,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
+已邀请: true
 ---
 ![cover](assets/金蜜儿｜Blonney.assets/立绘%20金蜜儿%2002.png)
 
@@ -129,7 +130,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 斑斓之中｜Blurred Among Time
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

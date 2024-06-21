@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 勾拳
 星级: ✦✦✦✦✦✦
-灵感: 兽｜Beast
+属性: 兽｜Beast
 角色灵感: 巧雀的振翅[兽] 轮回之人
 伤害类型: 现实创伤
 传承: 火焰花儿
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
+已邀请: true
 ---
 ![cover](assets/可燃点｜Spathodea.assets/立绘%20可燃点%2002.png)
 
@@ -124,7 +125,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 孩子们的运动赛|Games for Children
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

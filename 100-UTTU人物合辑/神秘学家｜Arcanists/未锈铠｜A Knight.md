@@ -1,19 +1,19 @@
 ---
 Name: 未锈铠
 exonym: A Knight
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 无名之血
 星级: ✦✦✦✦✦✦
-灵感: 灵｜Spirit
+属性: 灵｜Spirit
 角色灵感: 骑士的魂灵[灵] 骑士技艺
 伤害类型: 现实创伤
 传承: 怜悯
 造像: 公正、怜悯、荣耀——这些法则对于他来说无需重复。
 银行彩色相片: 彬彬有礼的流浪骑士，知名骑士笑话爱好者，你最忠诚的朋友之一。
-Udimo: 
+Udimo:
 征集: 剑与盔的嘶鸣｜CLANG OF SWORD & ARMOR
 定位标签:
   - 输出
@@ -34,6 +34,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 未锈铠 · 第九条美德
+已邀请: true
 ---
 ![cover](assets/未锈铠｜A%20Knight.assets/立绘%20未锈铠%2002.png)
 
@@ -152,7 +153,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 武功歌｜Les Chansons de Geste
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

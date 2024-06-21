@@ -1480,13 +1480,6 @@ settings:
       type: class-toggle
       default: false
     -
-      id: callout-color-toggle
-      title: Callout Color Toggle
-      title.zh: callout颜色自定义
-      description.zh: 自选Callout颜色
-      type: class-toggle
-      default: false
-    -
       id: style-options-for-admonition-plugin
       title: Admonition special style support
       title.zh: 是否开启Admonition特别样式支持
@@ -1580,6 +1573,24 @@ settings:
         -
           label: Frosted Style
           value: thino-frosted-style-default
+    -
+      id: thino-memos-primary
+      title: thino note background color
+      title.zh: thino笔记 背景色
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#EEE2BF'
+      default-dark: '#1e1e1e'
+    -
+      id: thino-memos-moment-primary
+      title: thino moment note background color
+      title.zh: thino动态笔记 背景色
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#EEE2BF'
+      default-dark: '#1e1e1e'
     -
       id: thino-view-background
       title: custom thino background
@@ -1950,6 +1961,9 @@ body {
   --bg-color-settings-4: #2e2e2e9d;
   --bg-color-settings-5: #424242aa;
   --bg-color-settings-6: #191919c7;
+  
+  --thino-memos-primary: #262826bd;
+  --thino-memos-moment-primary: #363836bd;
 
 
 }
@@ -3241,6 +3255,7 @@ body.admonition-bg-color-same .callout-title {
   border-left: 0;
   background-color: transparent;
   box-shadow: none !important;
+  border-style: none; /*border主题*/
 }
 .callout.callout[data-callout-metadata*="banner"] .callout-content{
   overflow: visible;
@@ -8696,7 +8711,7 @@ body:not(.thino-default) div[data-type='thino_view']
   --memos-text-blue:var(--interactive-accent);
 }
 body:is(.thino-default,.thino-frosted-style-default)  div[data-type=thino_view] .memo-editor-wrapper{
-  background-color: var(--background-primary-bg-4-bt, var(--background-primary));
+  background-color: var(--thino-memos-primary);
 }
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memolist-wrapper>.memolist-container {
   background-color: transparent;
@@ -8704,10 +8719,10 @@ body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view]
 body:is(.thino-default,.thino-frosted-style-default)   div[data-type=thino_view] .memo-wrapper,
 body:is(.thino-default,.thino-frosted-style-default)    .thino-hover-popover .memo-wrapper, 
 body:is(.thino-default,.thino-frosted-style-default)  .block-language-thino .thino-embed-container .memo-wrapper {
-  background-color: var(--background-primary-bg-4-bt, var(--background-primary));
+  background-color: var(--thino-memos-primary);
 }
 div[data-type=thino_view] .memo-editor-wrapper>.tip-text {
-padding-left:1.5em;
+  padding-left:1.5em;
 }
 .thino-editor-modal .common-editor-wrapper .common-editor-inputer {
   border: none;
@@ -8831,7 +8846,7 @@ body.thino-frosted-style-default  div[data-type=thino_view] .modern#page-wrapper
 }
 body.thino-frosted-style-default div[data-type=thino_view] .moments-view .thino-moment-wrapper {
   border-radius: var(--radius-m);
-  background-color: var(--bg-color-settings-2);
+  background-color: var(--thino-memos-moment-primary);
 }
 body.thino-frosted-style-default div[data-type=thino_view] .moments-view .thino-moment-wrapper:after
 {
@@ -9201,7 +9216,7 @@ body:is(.custom-thino-background,.thino-background-color) div[data-type='thino_v
 body.thino-frosted-style-default:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content ,
   body.thino-frosted-style:not(.is-mobile) div[data-type='thino_view']:not(.mobile-view) .view-content  {
   background: var(--bg-color-settings-2) ;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
   width: 95% ;
   height: 95% ;
   margin: auto;
@@ -9244,38 +9259,4 @@ body.memos-inputbox div[data-type=thino_view] .common-editor-wrapper .common-edi
 .memo-context-menu{
   background-color:var(--bg-color-settings-0-1);
   backdrop-filter: blur(10px);
-}
-
-/*****Callout颜色自定义*****/
-/*---------------CALLOUT COLORS----------------*/
-/*.callout-color-toggle .callout[data-callout=note] {
-  --callout-color: var(--color-blue-rgb);
-}
-.callout-color-toggle .callout[data-callout=abstract], .anp-callout-color-toggle .callout[data-callout=summary], .anp-callout-color-toggle .callout[data-callout=tldr], .anp-callout-color-toggle .callout[data-callout=seealso] {
-  --callout-color: var(--color-blue-rgb);
-}
-.callout-color-toggle .callout[data-callout=info], .anp-callout-color-toggle .callout[data-callout=todo], .anp-callout-color-toggle .callout[data-callout=tip], .anp-callout-color-toggle .callout[data-callout=hint], .anp-callout-color-toggle .callout[data-callout=important] {
-  --callout-color: var(--color-teal-rgb);
-}
-.callout-color-toggle .callout[data-callout=success], .anp-callout-color-toggle .callout[data-callout=check], .anp-callout-color-toggle .callout[data-callout=done], .anp-callout-color-toggle .callout[data-callout=question], .anp-callout-color-toggle .callout[data-callout=help], .anp-callout-color-toggle .callout[data-callout=faq] {
-  --callout-color: var(--color-green-rgb);
-}
-.callout-color-toggle .callout[data-callout=warning], .anp-callout-color-toggle .callout[data-callout=caution], .anp-callout-color-toggle .callout[data-callout=attention] {
-  --callout-color: var(--color-yellow-rgb);
-}
-.callout-color-toggle .callout[data-callout=failure], .anp-callout-color-toggle .callout[data-callout=fail], .anp-callout-color-toggle .callout[data-callout=missing] {
-  --callout-color: var(--color-maroon-rgb);
-}
-.callout-color-toggle .callout[data-callout=danger], .anp-callout-color-toggle .callout[data-callout=error], .anp-callout-color-toggle .callout[data-callout=bug] {
-  --callout-color: var(--color-red-rgb);
-}
-.callout-color-toggle .callout[data-callout=example] {
-  --callout-color: var(--color-mauve-rgb);
-}
-.callout-color-toggle .callout[data-callout=quote], .anp-callout-color-toggle .callout[data-callout=cite] {
-  --callout-color: var(--color-surface2-rgb);
-}*/
-body.callout-color-toggle .callout[data-callout=note] {
-  callout-color: var(--color-accent-dark);
-  color: var(--callout-color);
 }

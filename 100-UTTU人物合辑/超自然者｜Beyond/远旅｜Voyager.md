@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 超自然者｜Beyond
 介质: 熵
 星级: ✦✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 星间的旅者[星] 乐器演奏
 伤害类型: 精神创伤
 传承: 叠奏组曲
@@ -34,7 +34,8 @@ aliases:
 本色立绘: "[[立绘 远旅 02.png]]"
 生日: 2024-11-12
 banner_header: "{{filename}}"
-出场章节:
+出场章节: 
+已邀请: true
 ---
 ![cover](assets/远旅｜Voyager.assets/立绘%20远旅%2002.png)
 
@@ -128,7 +129,7 @@ color:
 ````
 ## 文化
 
-````tab
+````tabs
 tab: 京兆分之一的奇迹｜A One-in-a-quadrillion Miracle
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

@@ -1,0 +1,33 @@
+/*来自 Discord 社区用户 @reaty 的样式分享*/
+.role .cm-scroller {
+padding-left: 10% !important;
+padding-right: 10% !important;
+} 
+
+.role .cm-sizer,
+.role .markdown-preview-sizer {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.role .inline-title {
+    display: none;
+}
+
+.role img[alt="cover"] {
+    display: inline !important;
+    width: 350px;
+    height: 500px;
+    object-fit: contain;
+   }
+
+.role.is-live-preview .metadata-container,
+.role.markdown-preview-view .metadata-container,
+.export-image-preview-container.markdown-preview-view .metadata-container {
+    position: absolute;
+    display: block;
+    width: calc(80% - 330px);
+    left: calc(10% + 330px);
+    max-height: 500px;
+    overflow-y: scroll;
+}

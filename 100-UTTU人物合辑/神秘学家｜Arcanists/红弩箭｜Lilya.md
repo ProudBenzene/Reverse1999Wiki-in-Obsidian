@@ -1,13 +1,13 @@
 ---
 Name: 红弩箭
 exonym: Lilya
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 伏特加
 星级: ✦✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 星芒的尾迹[星] 骑帚翱翔
 伤害类型: 现实创伤
 传承: 载具控制
@@ -41,6 +41,7 @@ banner_header: "{{filename}}"
   - 1.0｜故事一无所有
   - 1.0｜老虎的金黄
   - 1.4｜洞穴的囚徒
+已邀请: true
 ---
 ![cover](assets/红弩箭｜Lilya.assets/立绘%20红弩箭%2002.png)
 
@@ -149,7 +150,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 恶作剧战争|Prank War
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

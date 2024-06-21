@@ -1,13 +1,13 @@
 ---
 Name: 鬃毛沙砾
 exonym: Shamane
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 菩提树
 星级: ✦✦✦✦✦✦
-灵感: 兽｜Beast
+属性: 兽｜Beast
 角色灵感: 残兽的冥思[兽] 萨满祭司
 伤害类型: 现实创伤
 传承: 古老的智慧
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.3｜行至摩卢旁卡
+已邀请: true
 ---
 ![cover](assets/鬃毛沙砾｜Shamane.assets/立绘%20鬃毛沙砾%2002.png)
 
@@ -100,10 +101,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 山麓以南｜South of the Mountain
 
 ````ad-flex
@@ -131,7 +128,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 失而复得｜What Was Lost and Retrieved
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

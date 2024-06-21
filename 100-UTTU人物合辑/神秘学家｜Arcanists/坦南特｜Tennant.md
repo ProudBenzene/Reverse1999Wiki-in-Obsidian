@@ -1,20 +1,20 @@
 ---
 Name: 坦南特
 exonym: Tennant
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 谎言
 星级: ✦✦✦✦✦
-灵感: 兽｜Beast
+属性: 兽｜Beast
 角色灵感: 欺诈的兽性[兽] 钻石合成
 伤害类型: 现实创伤
 传承: 美好骗局
 造像: ‌那些话语比砂糖更甜，那些“钻石”比繁星耀眼，它们都将属于你——只要你不介意谎言。
 银行彩色相片: 编织美梦的钻石商，游走于欲望之间的巧诈师，你最狡猾又迷人的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 护盾
   - 削弱
@@ -35,6 +35,7 @@ aliases:
 生日: 2024-09-08
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/坦南特｜Tennant.assets/立绘%20坦南特%2002.png)
 
@@ -125,7 +126,7 @@ color:
 ````
 ## 文化
 
-````tab
+````tabs
 tab: 1937年的数则新闻｜Several News in 1937
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

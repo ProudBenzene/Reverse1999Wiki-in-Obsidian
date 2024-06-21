@@ -125,14 +125,14 @@
     },
     {
       "id": "1e5ebfca-1b35-4ec9-872d-1f27b8a2568c",
-      "name": "角色面板",
+      "name": "🥸角色面板",
       "type": "Macro",
       "command": true,
       "macroId": "9c6fc846-2ae1-4511-b1f9-8e34201325ee"
     },
     {
       "id": "d4519377-e245-4542-b058-669186cfc69f",
-      "name": "心相面板",
+      "name": "♥️心相面板",
       "type": "Macro",
       "command": true,
       "macroId": "9d2c6e0f-a0ef-4915-8a30-8cdfbcf5d915"
@@ -206,10 +206,10 @@
     },
     {
       "id": "fda9255c-34ca-478b-92d3-4367e522fbc8",
-      "name": "😹 添加角色剧情",
+      "name": "😹 添加映像",
       "type": "Template",
       "command": true,
-      "templatePath": "000-箱的构造/templates/剧情章节-角色.md",
+      "templatePath": "000-箱的构造/templates/剧情章节-映像.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -217,7 +217,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "300-以影像之/303-角色剧情"
+          "300-以影像之/303-映像"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -472,10 +472,10 @@
       "id": "9c6fc846-2ae1-4511-b1f9-8e34201325ee",
       "commands": [
         {
-          "name": "Editing Toolbar: workplace-Fullscreen ",
+          "name": "Commander: 专注模式",
           "type": "Obsidian",
-          "id": "cd8eaec3-c7a7-4123-b178-511a64316ed3",
-          "commandId": "editing-toolbar:workplace-fullscreen-focus"
+          "id": "f08b76dd-6a9c-462f-93e4-e2801e35ae66",
+          "commandId": "cmdr:macro-0"
         },
         {
           "name": "Wait",
@@ -497,10 +497,10 @@
       "id": "9d2c6e0f-a0ef-4915-8a30-8cdfbcf5d915",
       "commands": [
         {
-          "name": "Editing Toolbar: workplace-Fullscreen ",
+          "name": "Commander: 专注模式",
           "type": "Obsidian",
-          "id": "057b4bfc-aaeb-46c3-8893-2261f5ca4bc6",
-          "commandId": "editing-toolbar:workplace-fullscreen-focus"
+          "id": "33bac4d3-caf5-4000-8069-7e96597eef62",
+          "commandId": "cmdr:macro-0"
         },
         {
           "name": "Wait",
@@ -522,10 +522,10 @@
       "id": "d9e1d506-e46d-4dff-a3b4-15fc1af71765",
       "commands": [
         {
-          "name": "Editing Toolbar: workplace-Fullscreen ",
+          "name": "Commander: 专注模式",
           "type": "Obsidian",
-          "id": "eded4224-af53-4b8d-a76f-ba2f3f38346a",
-          "commandId": "editing-toolbar:workplace-fullscreen-focus"
+          "id": "d8689bee-a960-48c5-afb2-d94b84bcd6cc",
+          "commandId": "cmdr:macro-0"
         },
         {
           "name": "Wait",
@@ -547,7 +547,7 @@
   "devMode": false,
   "templateFolderPath": "000-箱的构造/templates",
   "announceUpdates": true,
-  "version": "1.8.1",
+  "version": "1.9.0",
   "disableOnlineFeatures": false,
   "ai": {
     "defaultModel": "gpt-3.5-turbo-1106",

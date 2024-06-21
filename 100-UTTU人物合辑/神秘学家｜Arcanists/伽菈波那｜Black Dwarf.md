@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 仰望
 星级: ✦✦✦✦✦✦
-灵感: 岩｜Mineral
+属性: 岩｜Mineral
 角色灵感: 陨石的决心[岩] 天文观测
 伤害类型: 精神创伤
 传承: 移星之学
@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.3｜行至摩卢旁卡
+已邀请: true
 ---
 ![cover](assets/伽菈波那｜Black%20Dwarf.assets/立绘%20伽菈波那%2002.png)
 
@@ -125,7 +126,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 说明手册|Nabyak of Life
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

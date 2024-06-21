@@ -1,5 +1,8 @@
 ---
-剧情主角: "[[X｜X|X]]"
+剧情主角:
+  - "[[X｜X|X]]"
+  - "[[十四行诗｜Sonetto|十四行诗]]"
+  - "[[维尔汀｜Vertin|维尔汀]]"
 角色剧情: 齿轮的意志
 English: The Will of Gears
 tags: 

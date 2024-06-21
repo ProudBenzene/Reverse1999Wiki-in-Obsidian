@@ -1,13 +1,13 @@
 ---
 Name: 曲娘
 exonym: Jiu Niangzi
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家混血种｜Mixed
 介质: 颓玉
 星级: ✦✦✦✦✦✦
-灵感: 岩｜Mineral
+属性: 岩｜Mineral
 角色灵感: 石子的顽然[岩] 酿酒匠人
 伤害类型: 现实创伤
 传承: 存想
@@ -35,6 +35,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.6｜朔日手记
+已邀请: true
 ---
 ![cover](assets/曲娘｜Jiu%20Niangzi.assets/立绘%20曲娘%2002.png)
 
@@ -122,7 +123,8 @@ color:
 
 ## 文化
 
-````tab
+````tabs
+
 tab: 适彼乐土|A City at Its Best
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
@@ -168,7 +170,6 @@ tab: 一次“重逢”|[UTTU×曲娘]
 **曲娘：呼，那就好……**
 **曲娘：答案的话，我不知道。但是，能再见到你，我觉得很好。**
 **曲娘：离开之后还能再见，这就够了。**
-
 ````
 
 ## 语音

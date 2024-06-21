@@ -1,20 +1,20 @@
 ---
 Name: 喀嚓喀嚓
 exonym: Click
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 硝烟
 星级: ✦✦✦✦✦
-灵感: 灵｜Spirit
+属性: 灵｜Spirit
 角色灵感: 笃志的魂灵[灵] 战地摄影
 伤害类型: 精神创伤
 传承: 新摄影论
 造像: 他留存下事物最接近真实的一侧。藉由镜头，藉由不容置疑的勇敢。
 银行彩色相片: 锲而不舍的战地摄影师，箱中经典影集的创造者，你最敬业的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 输出
   - 削弱
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-06-28
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/喀嚓喀嚓｜Click.assets/立绘%20喀嚓喀嚓%2002.png)
 
@@ -97,10 +98,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 绝妙的角度｜The Best Angle
 
 ````ad-flex
@@ -128,7 +125,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 冰冷现实｜The Cold Reality
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

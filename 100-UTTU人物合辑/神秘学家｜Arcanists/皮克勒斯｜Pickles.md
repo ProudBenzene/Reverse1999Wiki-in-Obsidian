@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 哲思
 星级: ✦✦✦✦✦✦
-灵感: 岩｜Mineral
+属性: 岩｜Mineral
 角色灵感: 靛色的石犬[岩] 犬哲主义
 伤害类型: 精神创伤
 传承: 命题阐述
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.1｜雷米特杯失窃案
+已邀请: 
 ---
 ![cover](assets/皮克勒斯｜Pickles.assets/立绘%20皮克勒斯%2002.png)
 
@@ -155,7 +156,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 靛色的小狗｜An Ingido Dog
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

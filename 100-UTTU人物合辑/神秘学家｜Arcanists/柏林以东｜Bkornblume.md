@@ -1,20 +1,20 @@
 ---
 Name: 柏林以东
 exonym: Bkornblume
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 矢车菊
 星级: ✦✦✦✦✦
-灵感: 木｜Plant
+属性: 木｜Plant
 角色灵感: 野菊的低语[木] 声音捕获
 伤害类型: 现实创伤
 传承: 逆流
 造像: 她倾听着秘密，像一个卑劣小人。她倾听着美好，像一个希冀着明日的梦想家。
 银行彩色相片: 并不沉默的监听员，深爱生活的理想主义者，你最擅长倾听的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 削弱
   - 爆发
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-02-09
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/柏林以东｜Bkornblume.assets/立绘%20柏林以东%2002.png)
 
@@ -98,10 +99,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 不合时宜者｜The Misfit
 
 ````ad-flex
@@ -157,7 +154,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 无处不在｜WIR SIND ÜBERALL
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

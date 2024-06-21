@@ -1,13 +1,13 @@
 ---
 Name: 爱兹拉
 exonym: Ezra Theodore
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 人类｜Human
 介质: 松针温床
 星级: ✦✦✦✦✦✦
-灵感: 星｜Star
+属性: 星｜Star
 角色灵感: 星点的菌种[星] 菌菇研究
 伤害类型: 精神创伤
 传承: 真菌循环机
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.5｜复兴！乌卢鲁运动会
+已邀请: true
 ---
 ![cover](assets/爱兹拉｜Ezra%20Theodore.assets/立绘%20爱兹拉%2002.png)
 
@@ -129,7 +130,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 论蘑菇与神秘学家的相似性|The Similarities Between Mushrooms and Arcanists
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

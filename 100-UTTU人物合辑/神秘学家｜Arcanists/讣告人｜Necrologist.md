@@ -1,20 +1,20 @@
 ---
 Name: 讣告人
 exonym: Necrologist
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
 介质: 遗愿
 星级: ✦✦✦✦✦
-灵感: 岩｜Mineral
+属性: 岩｜Mineral
 角色灵感: 碑石的安息[岩] 遗物委托
 伤害类型: 精神创伤
 传承: 黑鸢尾
 造像: 她俯身倾听已逝之物的叹息，为其赋予生的意义。
 银行彩色相片: 墓碑博物馆的负责人，人们最后一个愿望的记录者，你最温柔的朋友之一。
-Udimo: 
-征集: 
+Udimo:
+征集:
 定位标签:
   - 辅助
   - 输出
@@ -34,6 +34,7 @@ aliases:
 生日: 2024-11-02
 banner_header: "{{filename}}"
 出场章节:
+已邀请: true
 ---
 ![cover](assets/讣告人｜Necrologist.assets/立绘%20讣告人%2002.png)
 
@@ -98,10 +99,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 最后的诉说｜Last Words
 
 ````ad-flex
@@ -130,7 +127,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 战争之后｜After the War
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

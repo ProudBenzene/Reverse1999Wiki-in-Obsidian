@@ -8,7 +8,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质:
 星级: ✦✦✦✦✦✦
-灵感: 木｜Plant
+属性: 木｜Plant
 角色灵感: 白花的灵影[木] 科学除灵
 伤害类型: 现实创伤
 传承: 够钟返工
@@ -37,6 +37,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 未锈铠 · 第九条美德
+已邀请: true
 ---
 ![cover](assets/泥鯭的士｜An-an%20Lee.assets/立绘%20泥鯭的士%2002.png)
 ![[assets/泥鯭的士｜An-an Lee.assets/立绘 泥鯭的士 01.png|inlR|200]]
@@ -149,7 +150,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 九龙新贵|Kowloon Upstart
 ![文化1|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 树木
 星级: ✦✦✦✦✦✦
-灵感: 木｜Plant
+属性: 木｜Plant
 角色灵感: 林间的渴慕[木] 术杖制作
 伤害类型: 精神创伤
 传承: 木秀于林
@@ -40,6 +40,7 @@ banner_header: "{{filename}}"
   - 1.0｜故事一无所有
   - 1.0｜老虎的金黄
 衣着: 闹蛾儿｜Lady With Nao'E
+已邀请: true
 ---
 ![cover](assets/槲寄生｜Druvis%20III.assets/立绘%20槲寄生%2002.png)
 
@@ -157,7 +158,7 @@ color:
 
 ## 文化
 
-````tab
+````tabs
 tab: 咆哮的1920年代|Roaring Twenties
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 

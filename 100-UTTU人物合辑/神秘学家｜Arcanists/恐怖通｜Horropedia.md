@@ -7,7 +7,7 @@ cssclasses:
 人物合辑: 神秘学家｜Arcanists
 介质: 逻辑
 星级: ✦✦✦✦✦
-灵感: 岩｜Mineral
+属性: 岩｜Mineral
 角色灵感: 磐石的意志[岩] 逻辑推导
 伤害类型: 精神创伤
 传承: 跳跃式惊吓
@@ -36,6 +36,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.2｜绿湖噩梦
+已邀请: 
 ---
 ![cover](assets/恐怖通｜Horropedia.assets/立绘%20恐怖通%2002.png)
 
@@ -127,7 +128,7 @@ color:
 ````
 ## 文化
 
-````tab
+````tabs
 tab: 永不入眠｜Never Sleep Again
 ![文化1|inlR|200](../../000-箱的构造/templates/assets/UTTU人物合辑.assets/文化%201.png)
 
