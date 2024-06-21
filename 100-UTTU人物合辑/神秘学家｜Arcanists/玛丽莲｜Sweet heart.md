@@ -36,7 +36,7 @@ banner_header: "{{filename}}"
 出场章节:
 已邀请: true
 ---
-![cover](assets/玛丽莲｜Sweet%20heart.assets/立绘%20玛丽莲%2002%201.png)
+![cover](assets/玛丽莲｜Sweet%20heart.assets/立绘%20玛丽莲%2002.png)
 
 > [!overview]+ 概述
 > - 展出/活跃时代:: 20 世纪 30 年代

@@ -43,9 +43,12 @@
               "灵感",
               "Udimo",
               "星级",
-              "洞悉二衣着"
+              "洞悉二衣着",
+              "exonym",
+              "介质",
+              "已邀请"
             ],
-            "cardWidth": 150
+            "cardWidth": 200
           },
           "filter": {
             "conditions": [
