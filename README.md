@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian">
-    <img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406222038654.png" alt="Logo" width="" height="">
+    <img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406222049857.png" alt="Logo" width="1920" height="1280">
   </a>
 
   <h3 align="center">Reverse：时间的成像</h3>
