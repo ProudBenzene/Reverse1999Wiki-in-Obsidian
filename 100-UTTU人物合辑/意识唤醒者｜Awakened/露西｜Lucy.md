@@ -33,7 +33,7 @@ aliases:
   - Lucy
 初始立绘: "[[立绘 露西 01.png]]"
 本色立绘: "[[立绘 露西 02.png]]"
-生日: 
+生日: 2024-12-30
 banner_header: "{{filename}}"
 出场章节: 
 已邀请: true
