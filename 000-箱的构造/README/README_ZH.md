@@ -14,7 +14,7 @@
 
 ## 小白入门使用方法
 
-详见<a href="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/Introduction_ZH.md">GUIDE_ZH</a>。
+详见<a href="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md">GUIDE_ZH</a>。
 
 ## 这是一个1999 Wiki
 
