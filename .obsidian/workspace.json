@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "c3f3b94b82e3179d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/README/README.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/README/README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,7 +171,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6443135025749406,
+                  "scale": 0.6847167020791121,
                   "close": true
                 }
               }
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/README/README.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -276,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/README/README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/README/README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,9 +314,19 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c3f3b94b82e3179d",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "README.md",
+    "000-箱的构造/README/README_EN.md",
+    "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "000-箱的构造/README/README_ZH.md",
+    "000-箱的构造/README/assests",
+    "000-箱的构造/README/assests/README.assets/Logo.png",
+    "assets/README.assets/249shots_so.png",
+    "assets/README.assets/Logo 1.png",
+    "assets/README.assets",
+    "assets",
     "000-箱的构造/README",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/露西｜Lucy.assets/立绘 露西 02.png",
@@ -348,7 +345,6 @@
     "100-UTTU人物合辑/人类｜Human/爱兹拉｜Ezra Theodore.md",
     "100-UTTU人物合辑/超自然者｜Beyond/远旅｜Voyager.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
-    "000-箱的构造/常用工具.md",
     "600-箱中日历/2024/2024-06-21.md",
     "600-箱中日历/2024/2024-06-20.md",
     "600-箱中日历/2024/2024-06-19.md",
@@ -356,24 +352,16 @@
     "600-箱中日历/2024/2024-06-17.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
     "200-相从心生/角色心相/乖孩子晚安｜Sleep tight good kid 1.md",
-    "000-箱的构造/README/README.md",
     "600-箱中日历/2024/2024-06-16.md",
     "600-箱中日历/2024/2024-01-10.md",
-    "600-箱中日历/2023/2023-07-28.md",
     "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/心相 勇敢者赠言.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/卡卡尼亚｜Kakaniya.assets/立绘 卡卡尼亚 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/卡卡尼亚｜Kakaniya.assets/立绘 卡卡尼亚 02.png",
     "000-箱的构造/definitions",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/伊索尔德｜Isolde.assets/立绘 伊索尔德 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/卡卡尼亚｜Kakaniya.assets/单品 卡卡尼亚 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/卡卡尼亚｜Kakaniya.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/无线电小姐｜Ms. Radio.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/门｜Door.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/弄臣｜The Fool.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/拉拉泉｜La Source.assets",
-    "assets/README.assets",
-    "assets",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/星之眼｜aliEn T.assets",
     "未命名.canvas",
     "白板.canvas"
   ]
