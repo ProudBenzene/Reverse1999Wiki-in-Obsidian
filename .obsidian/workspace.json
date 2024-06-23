@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5f80dc85380ff9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/README/README_EN.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": false
               }
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/README/README_EN.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/README/README_EN.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -229,28 +216,6 @@
             "state": {
               "type": "calendar",
               "state": {}
-            }
-          },
-          {
-            "id": "5dc42e434e76000e",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "fd84d1f7f733c8a2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/README/README_EN.md"
-              }
             }
           }
         ],
@@ -298,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/README/README_EN.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/README/README_EN.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -349,10 +314,10 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "f5f80dc85380ff9b",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/README/README_ZH.md",
     "000-箱的构造/README/README_EN.md",
+    "000-箱的构造/README/README_ZH.md",
     "000-箱的构造/README/GUIDE_ZH.md",
     "000-箱的构造/README/assets/README.assets/支付宝支持码.jpg",
     "000-箱的构造/README/assets/README.assets/支付宝捐款码.jpg",
