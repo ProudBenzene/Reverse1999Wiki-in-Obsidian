@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/README/README_ZH.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ac015ef505597738",
+            "id": "f5f80dc85380ff9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/README/README_ZH.md",
+                "file": "000-箱的构造/README/README_EN.md",
                 "mode": "preview",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/README/README_ZH.md",
+                "file": "000-箱的构造/README/README_EN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +211,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/README/README_ZH.md"
+                "file": "000-箱的构造/README/README_EN.md"
               }
             }
           },
@@ -229,6 +229,28 @@
             "state": {
               "type": "calendar",
               "state": {}
+            }
+          },
+          {
+            "id": "5dc42e434e76000e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "fd84d1f7f733c8a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/README/README_EN.md"
+              }
             }
           }
         ],
@@ -276,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/README/README_ZH.md",
+                "file": "000-箱的构造/README/README_EN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/README/README_ZH.md",
+                "file": "000-箱的构造/README/README_EN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,19 +349,21 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "ac015ef505597738",
+  "active": "f5f80dc85380ff9b",
   "lastOpenFiles": [
+    "000-箱的构造/README/README_ZH.md",
     "000-箱的构造/README/README_EN.md",
     "000-箱的构造/README/GUIDE_ZH.md",
+    "000-箱的构造/README/assets/README.assets/支付宝支持码.jpg",
+    "000-箱的构造/README/assets/README.assets/支付宝捐款码.jpg",
     "000-箱的构造/README/GUIDE_EN.md",
-    "000-箱的构造/README/assets/GUIDE_EN.assets",
-    "000-箱的构造/README/assets",
-    "000-箱的构造/README/README_ZH.md",
+    "000-箱的构造/常用工具.md",
     "README.md",
     "000-箱的构造/主页.md",
-    "000-箱的构造/常用工具.md",
-    "000-箱的构造/README/assests",
-    "000-箱的构造/README/assests/README.assets/Logo.png",
+    "000-箱的构造/README/assets/GUIDE_EN.assets",
+    "000-箱的构造/README/assets",
+    "000-箱的构造/README/assets",
+    "000-箱的构造/README/assets/README.assets/Logo.png",
     "assets/README.assets/249shots_so.png",
     "assets/README.assets/Logo 1.png",
     "assets/README.assets",
@@ -368,8 +392,6 @@
     "600-箱中日历/2024/2024-06-18.md",
     "600-箱中日历/2024/2024-06-17.md",
     "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
-    "200-相从心生/角色心相/assets/勇敢者赠言｜The Fighter's Best Wishes.assets/心相 勇敢者赠言.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/卡卡尼亚｜Kakaniya.assets/立绘 卡卡尼亚 01.png",
     "000-箱的构造/definitions",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/卡卡尼亚｜Kakaniya.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/无线电小姐｜Ms. Radio.assets",

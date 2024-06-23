@@ -8,9 +8,9 @@
 
 下面让我们从游戏 Wiki 与 Obsidian 示例库两个角度，分别介绍一下本库。
 
-![示例库主页](assests/README.assets/示例库主页.png)
+![示例库主页](assets/README.assets/示例库主页.png)
 
-![角色档案](assests/README.assets/角色档案.png)
+![角色档案](assets/README.assets/角色档案.png)
 
 ## 小白入门使用方法
 
@@ -28,7 +28,12 @@
 
 ## 这也是一个 Obsidian 示例库
 
-作为一个知识库应用软件，Obsidian 可以有许多应用范围。
+作为一个知识库应用软件，Obsidian 可以有许多应用范围。游戏 Wiki 笔记库仅仅是其应用中细小的一支。
+
+从软件的出新初心来说，Obsidian 的主要功能用途是创建知识库，用于辅助知识管理。知识库可以被简单地理解为“笔记”，借助庞大丰富的插件社区，Obsidian 可以实现许多普通笔记软件不易或无法实现的功能，例如双向链接视频、视频笔记、同类型笔记聚合等功能。
+
+ 但与强大的功能相对应，Obsidian 在使用上的学习成本，相对普通笔记软件会更高一些。因此，本库在试图制作一个完整的 Wiki 的同时，也会尝试融入一些更加自然且高级的 Obsidian 使用案例及资源，以此作为初学者的学校参考，从而起到示例库的作用。
+
 
 ## 鸣谢
 - 1999 方面：
@@ -69,4 +74,4 @@
 
 如果您认可我的工作，觉得我的工作很有意义或对您有帮助，可以通过以下方式支持我一杯奶茶：
 
-<img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406080244833.jpg" alt="支持码" width="250">
+<center><img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406231057963.jpg" alt="支持码" width="250"><img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406080244833.jpg" alt="支持码" width="250"></center>

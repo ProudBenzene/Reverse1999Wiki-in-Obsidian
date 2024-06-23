@@ -2,6 +2,8 @@
 
 The following section describes how to install the Obsidian software, download the valut file locally, and import it into Obsidian. You can also refer to [PKMer's Getting Started with Obsidian tutorial](https://www.bilibili.com/video/BV1fp4y137vg/) for more information on how to download, install and import Obsidian libraries.
 
+<img width="1186" alt="image" src="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/assets/93238080/f59933a7-899b-4ddc-8cc1-d6983c9e3472">
+
 ## Install Obsidian
 
 1. Click to download [Obsidian](https://obsidian.md)
