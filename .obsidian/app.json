@@ -3,8 +3,8 @@
   "attachmentFolderPath": "./assets/游戏文件解包说明.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
-  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "A4",

@@ -1983,8 +1983,8 @@ var require_lib = __commonJS({
       if (typeof cb !== "function") {
         opts = cb;
         cb = null;
-        deferred2 = new this.Promise(function(resolve, reject) {
-          deferredResolve = resolve;
+        deferred2 = new this.Promise(function(resolve2, reject) {
+          deferredResolve = resolve2;
           deferredReject = reject;
         });
       }
@@ -2132,17 +2132,17 @@ var require_lib = __commonJS({
       if (typeof cb === "function") {
         fnx(cb);
       } else {
-        return new this.Promise(function(resolve, reject) {
+        return new this.Promise(function(resolve2, reject) {
           if (fnx.length === 1) {
             fnx(function(err, ret) {
               if (err) {
                 reject(err);
               } else {
-                resolve(ret);
+                resolve2(ret);
               }
             });
           } else {
-            resolve(fnx());
+            resolve2(fnx());
           }
         });
       }
@@ -6742,7 +6742,7 @@ var require_pify = __commonJS({
     init_polyfill_buffer();
     var processFn = (fn, options) => function(...args) {
       const P = options.promiseModule;
-      return new P((resolve, reject) => {
+      return new P((resolve2, reject) => {
         if (options.multiArgs) {
           args.push((...result) => {
             if (options.errorFirst) {
@@ -6750,10 +6750,10 @@ var require_pify = __commonJS({
                 reject(result);
               } else {
                 result.shift();
-                resolve(result);
+                resolve2(result);
               }
             } else {
-              resolve(result);
+              resolve2(result);
             }
           });
         } else if (options.errorFirst) {
@@ -6761,11 +6761,11 @@ var require_pify = __commonJS({
             if (error) {
               reject(error);
             } else {
-              resolve(result);
+              resolve2(result);
             }
           });
         } else {
-          args.push(resolve);
+          args.push(resolve2);
         }
         fn.apply(this, args);
       });
@@ -21451,9 +21451,9 @@ var FIFO = class {
       throw Error("You cannot write to a FIFO that has already been ended!");
     }
     if (this._waiting) {
-      const resolve = this._waiting;
+      const resolve2 = this._waiting;
       this._waiting = null;
-      resolve({ value: chunk });
+      resolve2({ value: chunk });
     } else {
       this._queue.push(chunk);
     }
@@ -21461,9 +21461,9 @@ var FIFO = class {
   end() {
     this._ended = true;
     if (this._waiting) {
-      const resolve = this._waiting;
+      const resolve2 = this._waiting;
       this._waiting = null;
-      resolve({ done: true });
+      resolve2({ done: true });
     }
   }
   destroy(err) {
@@ -21482,8 +21482,8 @@ var FIFO = class {
         "You cannot call read until the previous call to read has returned!"
       );
     }
-    return new Promise((resolve) => {
-      this._waiting = resolve;
+    return new Promise((resolve2) => {
+      this._waiting = resolve2;
     });
   }
 };
@@ -21643,7 +21643,7 @@ async function parseUploadPackResponse(stream) {
   const acks = [];
   let nak = false;
   let done = false;
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve2, reject) => {
     forAwait(packetlines, (data) => {
       const line = data.toString("utf8").trim();
       if (line.startsWith("shallow")) {
@@ -21671,11 +21671,11 @@ async function parseUploadPackResponse(stream) {
         nak = true;
       }
       if (done) {
-        stream.error ? reject(stream.error) : resolve({ shallows, unshallows, acks, nak, packfile, progress });
+        stream.error ? reject(stream.error) : resolve2({ shallows, unshallows, acks, nak, packfile, progress });
       }
     }).finally(() => {
       if (!done) {
-        stream.error ? reject(stream.error) : resolve({ shallows, unshallows, acks, nak, packfile, progress });
+        stream.error ? reject(stream.error) : resolve2({ shallows, unshallows, acks, nak, packfile, progress });
       }
     });
   });
@@ -25792,7 +25792,7 @@ var __toCommonJS2 = /* @__PURE__ */ ((cache) => {
   };
 })(typeof WeakMap !== "undefined" ? /* @__PURE__ */ new WeakMap() : 0);
 var __async = (__this, __arguments, generator) => {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve2, reject) => {
     var fulfilled = (value) => {
       try {
         step(generator.next(value));
@@ -25807,7 +25807,7 @@ var __async = (__this, __arguments, generator) => {
         reject(e);
       }
     };
-    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    var step = (x) => x.done ? resolve2(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
@@ -29766,13 +29766,15 @@ var GitManager = class {
   // Constructs a path relative to the git repository from a path relative to the vault
   //
   // @param doConversion - If false, the path is returned as is. This is added because that parameter is often passed on to functions where this method is called.
-  getRelativeRepoPath(path2, doConversion = true) {
+  getRelativeRepoPath(filePath, doConversion = true) {
     if (doConversion) {
       if (this.plugin.settings.basePath.length > 0) {
-        return path2.substring(this.plugin.settings.basePath.length + 1);
+        return filePath.substring(
+          this.plugin.settings.basePath.length + 1
+        );
       }
     }
-    return path2;
+    return filePath;
   }
   _getTreeStructure(children2, beginLength = 0) {
     const list = [];
@@ -29870,18 +29872,23 @@ var GitManager = class {
     if (template.includes("{{files}}")) {
       status2 = status2 != null ? status2 : await this.status();
       const changeset = {};
-      status2.staged.forEach((value) => {
-        if (value.index in changeset) {
-          changeset[value.index].push(value.path);
-        } else {
-          changeset[value.index] = [value.path];
+      let files = "";
+      if (status2.staged.length < 100) {
+        status2.staged.forEach((value) => {
+          if (value.index in changeset) {
+            changeset[value.index].push(value.path);
+          } else {
+            changeset[value.index] = [value.path];
+          }
+        });
+        const chunks = [];
+        for (const [action, files2] of Object.entries(changeset)) {
+          chunks.push(action + " " + files2.join(" "));
         }
-      });
-      const chunks = [];
-      for (const [action, files2] of Object.entries(changeset)) {
-        chunks.push(action + " " + files2.join(" "));
+        files = chunks.join(", ");
+      } else {
+        files = "Too many files to list";
       }
-      const files = chunks.join(", ");
       template = template.replace("{{files}}", files);
     }
     const moment6 = window.moment;
@@ -29890,7 +29897,14 @@ var GitManager = class {
       moment6().format(this.plugin.settings.commitDateFormat)
     );
     if (this.plugin.settings.listChangedFilesInMessageBody) {
-      template = template + "\n\nAffected files:\n" + (status2 != null ? status2 : await this.status()).staged.map((e) => e.path).join("\n");
+      const status22 = status2 != null ? status2 : await this.status();
+      let files = "";
+      if (status22.staged.length < 100) {
+        files = status22.staged.map((e) => e.path).join("\n");
+      } else {
+        files = "Too many files to list";
+      }
+      template = template + "\n\nAffected files:\n" + files;
     }
     return template;
   }
@@ -29904,18 +29918,22 @@ var SimpleGit = class extends GitManager {
   async setGitInstance(ignoreError = false) {
     if (this.isGitInstalled()) {
       const adapter = this.app.vault.adapter;
-      const path2 = adapter.getBasePath();
-      let basePath = path2;
+      const vaultBasePath = adapter.getBasePath();
+      let basePath = vaultBasePath;
       if (this.plugin.settings.basePath) {
         const exists2 = await adapter.exists(
           (0, import_obsidian4.normalizePath)(this.plugin.settings.basePath)
         );
         if (exists2) {
-          basePath = path2 + import_path.sep + this.plugin.settings.basePath;
+          basePath = path.join(
+            vaultBasePath,
+            this.plugin.settings.basePath
+          );
         } else if (!ignoreError) {
           new import_obsidian4.Notice("ObsidianGit: Base path does not exist");
         }
       }
+      this.absoluteRepoPath = basePath;
       this.git = esm_default({
         baseDir: basePath,
         binary: this.plugin.localStorage.getGitPath() || void 0,
@@ -29925,8 +29943,8 @@ var SimpleGit = class extends GitManager {
       const envVars = this.plugin.localStorage.getEnvVars();
       const gitDir = this.plugin.settings.gitDir;
       if (pathPaths.length > 0) {
-        const path3 = process.env["PATH"] + ":" + pathPaths.join(":");
-        process.env["PATH"] = path3;
+        const path2 = process.env["PATH"] + ":" + pathPaths.join(":");
+        process.env["PATH"] = path2;
       }
       if (gitDir) {
         process.env["GIT_DIR"] = gitDir;
@@ -29937,9 +29955,40 @@ var SimpleGit = class extends GitManager {
       }
       import_debug2.default.enable("simple-git");
       if (await this.git.checkIsRepo()) {
-        await this.git.cwd(await this.git.revparse("--show-toplevel"));
+        const relativeRoot = await this.git.revparse("--show-cdup");
+        const absoluteRoot = (0, import_path.resolve)(basePath + import_path.sep + relativeRoot);
+        this.absoluteRepoPath = absoluteRoot;
+        await this.git.cwd(absoluteRoot);
       }
     }
+  }
+  // Constructs a path relative to the vault from a path relative to the git repository
+  getRelativeVaultPath(filePath) {
+    const adapter = this.app.vault.adapter;
+    const from = adapter.getBasePath();
+    const to = path.join(this.absoluteRepoPath, filePath);
+    let res = path.relative(from, to);
+    if (import_obsidian4.Platform.isWin) {
+      res = res.replace(/\\/g, "/");
+    }
+    return res;
+  }
+  // Constructs a path relative to the git repository from a path relative to the vault
+  //
+  // @param doConversion - If false, the path is returned as is. This is added because that parameter is often passed on to functions where this method is called.
+  getRelativeRepoPath(filePath, doConversion = true) {
+    if (doConversion) {
+      const adapter = this.plugin.app.vault.adapter;
+      const vaultPath = adapter.getBasePath();
+      const from = this.absoluteRepoPath;
+      const to = path.join(vaultPath, filePath);
+      let res = path.relative(from, to);
+      if (import_obsidian4.Platform.isWin) {
+        res = res.replace(/\\/g, "/");
+      }
+      return res;
+    }
+    return filePath;
   }
   async status() {
     this.plugin.setState(1 /* status */);
@@ -29977,7 +30026,7 @@ var SimpleGit = class extends GitManager {
     return result;
   }
   async getSubmodulePaths() {
-    return new Promise(async (resolve) => {
+    return new Promise(async (resolve2) => {
       this.git.outputHandler(async (cmd, stdout, stderr, args) => {
         if (!(args.contains("submodule") && args.contains("foreach"))) {
           return;
@@ -29996,7 +30045,7 @@ var SimpleGit = class extends GitManager {
             }
           }).filter((i) => !!i);
           strippedSubmods.reverse();
-          resolve(strippedSubmods);
+          resolve2(strippedSubmods);
         });
       });
       await this.git.subModule(["foreach", "--recursive", ""]);
@@ -30472,10 +30521,10 @@ var SimpleGit = class extends GitManager {
       }
     }
   }
-  updateGitPath(gitPath) {
+  updateGitPath(_) {
     this.setGitInstance();
   }
-  updateBasePath(basePath) {
+  updateBasePath(_) {
     this.setGitInstance(true);
   }
   async getDiffString(filePath, stagedChanges = false, hash2) {
@@ -31282,8 +31331,8 @@ var GeneralModal = class extends import_obsidian5.SuggestModal {
       this.inputEl.value = this.config.initialValue;
       this.inputEl.dispatchEvent(new Event("input"));
     }
-    return new Promise((resolve) => {
-      this.resolve = resolve;
+    return new Promise((resolve2) => {
+      this.resolve = resolve2;
     });
   }
   selectSuggestion(value, evt) {
@@ -34575,8 +34624,8 @@ var CustomMessageModal = class extends import_obsidian15.SuggestModal {
   }
   open() {
     super.open();
-    return new Promise((resolve) => {
-      this.resolve = resolve;
+    return new Promise((resolve2) => {
+      this.resolve = resolve2;
     });
   }
   onClose() {
@@ -37709,11 +37758,11 @@ if (typeof window !== "undefined")
 init_polyfill_buffer();
 function __awaiter(thisArg, _arguments, P, generator) {
   function adopt(value) {
-    return value instanceof P ? value : new P(function(resolve) {
-      resolve(value);
+    return value instanceof P ? value : new P(function(resolve2) {
+      resolve2(value);
     });
   }
-  return new (P || (P = Promise))(function(resolve, reject) {
+  return new (P || (P = Promise))(function(resolve2, reject) {
     function fulfilled(value) {
       try {
         step(generator.next(value));
@@ -37729,7 +37778,7 @@ function __awaiter(thisArg, _arguments, P, generator) {
       }
     }
     function step(result) {
-      result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
+      result.done ? resolve2(result.value) : adopt(result.value).then(fulfilled, rejected);
     }
     step((generator = generator.apply(thisArg, _arguments || [])).next());
   });
@@ -39780,12 +39829,12 @@ var BranchModal = class extends import_obsidian22.FuzzySuggestModal {
   }
   open() {
     super.open();
-    return new Promise((resolve) => {
-      this.resolve = resolve;
+    return new Promise((resolve2) => {
+      this.resolve = resolve2;
     });
   }
   async onClose() {
-    await new Promise((resolve) => setTimeout(resolve, 10));
+    await new Promise((resolve2) => setTimeout(resolve2, 10));
     if (this.resolve)
       this.resolve(void 0);
   }
@@ -39802,8 +39851,8 @@ var IgnoreModal = class extends import_obsidian23.Modal {
   }
   open() {
     super.open();
-    return new Promise((resolve) => {
-      this.resolve = resolve;
+    return new Promise((resolve2) => {
+      this.resolve = resolve2;
     });
   }
   onOpen() {
@@ -39850,8 +39899,8 @@ var DiscardModal = class extends import_obsidian24.Modal {
   }
   myOpen() {
     this.open();
-    return new Promise((resolve) => {
-      this.resolve = resolve;
+    return new Promise((resolve2) => {
+      this.resolve = resolve2;
     });
   }
   onOpen() {
