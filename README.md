@@ -23,5 +23,5 @@
 </div>
 
 
-> [!info] 
-> 
+> [!tip]
+> If you are new to Obsidian app, you can check a installation guide here: [English Guide](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_EN.md) | [中文指南](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md)
