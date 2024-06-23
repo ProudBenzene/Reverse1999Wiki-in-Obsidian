@@ -10,7 +10,7 @@
   <h3 align="center">Reverse：时间的成像</h3>
 
   <p align="center">
-    An offline Wiki about the game <a href="https://re.bluepoch.com/home/&wd=&eqid=fbb5beb400098f260000000464755c7c">"Reverse: 1999"</a> made with the local knowledge valut software <a href="obsidian.md">Obsidian</a>.
+    An offline Wiki about the game <a href="https://re.bluepoch.com/home/&wd=&eqid=fbb5beb400098f260000000464755c7c">"Reverse: 1999"</a> made with the local knowledge base software <a href="obsidian.md">Obsidian</a>.
     <br />
     <br />
     本库是借助本地知识库软件 <a href="obsidian.md">Obsidian</a> 制作的，关于游戏 <a href="https://re.bluepoch.com/home/&wd=&eqid=fbb5beb400098f260000000464755c7c">《重返未来：1999》</a>的离线 Wiki。

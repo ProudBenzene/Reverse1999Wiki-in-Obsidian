@@ -2,7 +2,7 @@
 
 以下主要讲述如何安装 Obsidian 软件，以及将本库文件下载到本地，并导入到 Obsidian 中。关于 Obsidian 的下载安装与导入库，也可以参考 [PKMer 制作的 Obsidian 入门教程进行学习](https://www.bilibili.com/video/BV1fp4y137vg/)。
 
-<img width="1186" alt="image" src="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/assets/93238080/f59933a7-899b-4ddc-8cc1-d6983c9e3472">
+<img width="1186" alt="image" src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406231332403.png">
 
 ## 安装 Obsidian 软件
 

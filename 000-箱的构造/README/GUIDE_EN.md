@@ -2,7 +2,7 @@
 
 The following section describes how to install the Obsidian software, download the valut file locally, and import it into Obsidian. You can also refer to [PKMer's Getting Started with Obsidian tutorial](https://www.bilibili.com/video/BV1fp4y137vg/) for more information on how to download, install and import Obsidian libraries.
 
-<img width="1186" alt="image" src="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/assets/93238080/f59933a7-899b-4ddc-8cc1-d6983c9e3472">
+<img width="1186" alt="image" src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406231332403.png">
 
 ## Install Obsidian
 
@@ -13,9 +13,9 @@ The following section describes how to install the Obsidian software, download t
 
 Some special fonts are used in this vault. To ensure the best reading experience, it is recommended to install the relevant fonts on your computer first.
 
-Skipping this step will only affect the presentation style of **the text content in the vault** and will NOT change the content of the vault itself. Therefore installing these fonts will not affect the use of the vault.
+Skipping this step will only affect the presentation style of **the text content in the vault** and will NOT change the content of the vault itself. Therefore whether installing these fonts will not affect the use of the vault.
 
-Suggested prerequisite fonts to be installed:
+Here are the suggested prerequisite fonts to be installed:
 
 - Comic Sans MS
 - 手札体-简
@@ -31,7 +31,7 @@ There are two ways to download this vault:
 
 ## Import This Vault Into Obsidian
 
-After opening Obsidian, click the "**Open Local Vault**" button, and in the system file browser that pops up, select the library folder that you just finished decompressing to import this library into Obsidian.
+After opening Obsidian, click the "**Open Local Vault**" button, and in the system file browser that pops up, select the vault folder that you just finished decompressing to import this vault into Obsidian.
 
 During the import process, Obsidian will prompt you with a window asking "Whether to trust the repository". Click Trust and turn on all plugins.
 
