@@ -64,8 +64,6 @@
 在排版与资料查找方面，我也参考了以上网站及其玩家的讨论内容。在此也向其他热爱1999游戏的开源者、讨论者表示我的敬意与感谢。
 
 > [!warning]
-> Unless otherwise noted, the contents of this library are licensed under a [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license and may be reproduced with a link to the source.
-> 
 > 除非另有说明，否则本库内容依据 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证进行授权，转载请附上出处链接。
 
 ## 支持
