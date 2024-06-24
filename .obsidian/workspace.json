@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "e6b44611013ae251",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -276,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,8 +314,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "e6b44611013ae251",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
+    "300-以影像之/304-轶事/冬·重返人间.md",
+    "300-以影像之/304-轶事/assets/塞梅尔维斯·第三种苏醒.assets/封面 第三种苏醒.png",
+    "300-以影像之/304-轶事/assets/塞梅尔维斯·第三种苏醒.assets/头图 第三种苏醒.png",
+    "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒~.md",
     "000-箱的构造/主页.md",
     "README.md",
@@ -344,8 +336,6 @@
     "000-箱的构造/箱中memos/20240624-b8c87020073fe699.md",
     "000-箱的构造/箱中memos/20240624-89261c36a3d3d0e8.md",
     "000-箱的构造/箱中memos/20240624-fd03606d67471df8.md",
-    "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
-    "100-UTTU人物合辑/神秘学家感染种｜Infected/塞梅尔维斯｜Semmelweis.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/狼群｜Pavia.md",
     "000-箱的构造/箱中memos/memos.thino.md",
     "000-箱的构造/箱中memos/20240624-32702f5aa8d2f550.md",
@@ -355,7 +345,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/兔毛手袋｜Medicine Pocket.md",
     "000-箱的构造/箱中memos/20240624-b5481343762714c0.md",
     "000-箱的构造/箱中memos/20240624-b07db3bb76e3e21d.md",
-    "300-以影像之/301-主线/1.0 生者与余众/终章 孤独之歌.md",
     "000-箱的构造/README/assets/README.assets/支付宝支持码.jpg",
     "000-箱的构造/README/assets/README.assets/支付宝捐款码.jpg",
     "000-箱的构造/README/assets/GUIDE_EN.assets",
@@ -369,8 +358,6 @@
     "000-箱的构造/README",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/露西｜Lucy.assets/立绘 露西 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets/立绘 斯奈德 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/斯奈德｜Schneider.assets/Portrait-302901.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛丽莲｜Sweet heart.assets/立绘 玛丽莲 02.png",
     "000-箱的构造/definitions",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/卡卡尼亚｜Kakaniya.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/无线电小姐｜Ms. Radio.assets",
