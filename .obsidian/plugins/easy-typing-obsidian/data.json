@@ -4,6 +4,7 @@
   "IntrinsicSymbolPairs": true,
   "BaseObEditEnhance": true,
   "FW2HWEnhance": true,
+  "BetterCodeEdit": true,
   "AutoFormat": true,
   "ExcludeFiles": "插件/主页.md, 攻略/1-小红书笔记稿/, ",
   "ChineseEnglishSpace": true,
@@ -62,5 +63,6 @@
   "EnterTwice": false,
   "TryFixChineseIM": true,
   "PuncRectify": false,
-  "FixMacOSContextMenu": false
+  "FixMacOSContextMenu": false,
+  "TryFixMSIME": false
 }

@@ -94,7 +94,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[夏利｜Charlie]]
 	- [[小春雀儿｜Eagle]]
 	- [[小梅斯梅尔｜Mesmer Jr.]]
-	- [[小叶尼塞｜Yenisei]]
+	- [[小叶尼塞｜Енисей]]
 	- [[新巴别塔｜Ms. NewBabel]]
 	- [[星锑｜Regulus]]
 	- [[牙仙｜Tooth Fairy]]
