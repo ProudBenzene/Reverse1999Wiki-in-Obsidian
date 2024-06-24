@@ -36,7 +36,7 @@ In terms of the software's original intent, Obsidian's main functionality is to 
 
 ## Acknowledgments
 - Perspective of 1999：
-	- [BLUEPOCH Official](https://www.bluepoch.com/)，Thank you for creating a game that combines British culture with a wonderful main storyline!
+	- [Bluepoch Official](https://www.bluepoch.com/)，Thank you for creating a game that combines British culture with a wonderful main storyline!
 	- Major online 1999 Wiki Encyclopedia:
 		-  [1999中文维基灰机Wiki](https://res1999.huijiwiki.com/wiki/%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8)：Great Wiki, timely and rigorous When I refer Huiji Wiki, I also report the errors and omissions found in the QQ group to the administrator as a small contribution.
 		- [1999哔哩哔哩游戏Wiki](https://wiki.biligame.com/reverse1999/%E9%A6%96%E9%A1%B5)

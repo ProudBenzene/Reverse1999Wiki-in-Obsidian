@@ -705,7 +705,7 @@
   "Appearance-dark@@input-shadow-dark": "0px 2px 4px 5px rgba(0, 0, 0, 0.2)",
   "Editor@@h1-accent-color@@dark": "#E55C5A",
   "Editor@@h2-accent-color@@dark": "#2287F2",
-  "Editor@@h2-color-select": "h2-color-default",
+  "Editor@@h2-color-select": "h2-color-designated",
   "Editor@@h3-accent-color@@dark": "#F9CE62",
   "Editor@@h4-accent-color@@dark": "#1ECC4F",
   "Editor@@h5-accent-color@@dark": "#A979E2",
@@ -716,5 +716,10 @@
   "Blue-Topaz-Legacy@@thino-memos-moment-primary@@dark": "#332F2F70",
   "Blue-Topaz-Legacy@@thino-memos-moment-primary@@light": "#EEE2BF5E",
   "Appearance-light@@theme-light-style-select": "theme-light-background-old-default",
-  "Appearance-light@@background-underlying-light": "#FDF9EF"
+  "Appearance-light@@background-underlying-light": "#FDF9EF",
+  "Editor@@h1-color-select": "h1-color-designated",
+  "Editor@@h3-color-select": "h3-color-designated",
+  "Editor@@h4-color-select": "h4-color-designated",
+  "Editor@@h5-color-select": "h5-color-designated",
+  "Editor@@h6-color-select": "h6-color-designated"
 }
