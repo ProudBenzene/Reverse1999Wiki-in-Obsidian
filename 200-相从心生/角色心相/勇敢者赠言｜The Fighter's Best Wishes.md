@@ -13,7 +13,7 @@ cssclasses:
 人物:
   - "[[卡卡尼亚｜Kakaniya|卡卡尼亚]]"
 轶事: 
-实装版本: 1.9 孤独之歌
+实装版本: 1.9｜孤独之歌
 aliases:
   - 勇敢者赠言
   - The Fighter's Best Wishes

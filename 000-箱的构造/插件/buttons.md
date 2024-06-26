@@ -54,7 +54,7 @@ customColor #179299
 ```button
 name 😼 角色
 type command
-action QuickAdd: 角色面板
+action QuickAdd: 🥸角色面板
 class grad_button g_purple tiny
 ```
 ^button-role
@@ -62,7 +62,7 @@ class grad_button g_purple tiny
 ```button
 name ♥️ 心相
 type command
-action QuickAdd: 心相面板
+action QuickAdd: ♥️心相面板
 class grad_button g_green tiny
 ```
 ^button-psychube
@@ -71,7 +71,7 @@ class grad_button g_green tiny
 ```button
 name 🔖 故事
 type command
-action QuickAdd: 故事面板
+action QuickAdd: 📖故事面板
 class grad_button g_blue tiny
 ```
 ^button-story

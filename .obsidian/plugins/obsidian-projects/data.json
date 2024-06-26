@@ -41,7 +41,6 @@
               "English Name",
               "稀有度",
               "灵感",
-              "Udimo",
               "星级",
               "洞悉二衣着",
               "exonym",
@@ -156,6 +155,11 @@
             "conditions": [
               {
                 "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "本色立绘",
                 "operator": "is-not-empty",
                 "enabled": true
               }
@@ -391,7 +395,13 @@
             "cardWidth": 100
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "Serial",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
           },
           "colors": {
             "conditions": []

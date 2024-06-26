@@ -15,31 +15,17 @@
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
-        "icon": "RiTv2Line",
-        "rule": "英语 for Lifespan/英文标题党\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "rule": "100-UTTU人物合辑\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "icon": "FarAddressCard",
         "for": "files",
         "order": 0,
         "useFilePath": true
       },
       {
-        "icon": "FasNoteSticky",
-        "rule": "生词本\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "rule": "200-相从心生\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "icon": "TiHeartStar",
         "for": "files",
         "order": 1,
-        "useFilePath": true
-      },
-      {
-        "icon": "FasChartColumn",
-        "rule": "数据统计/Dataview 年月统计.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
-        "for": "files",
-        "order": 2,
-        "useFilePath": true
-      },
-      {
-        "icon": "FasMagnifyingGlass",
-        "rule": "笔记检索/Dataview 卡片笔记.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
-        "for": "files",
-        "order": 3,
         "useFilePath": true
       }
     ],
@@ -52,14 +38,14 @@
     "iconInTabsEnabled": true,
     "iconsBackgroundCheckEnabled": true,
     "iconInTitleEnabled": false,
-    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterEnabled": true,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
     "iconsInLinksEnabled": true,
     "debugMode": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
-    "iconInTitlePosition": "above"
+    "iconInTitlePosition": "inline"
   },
   "插件": "FasCode",
   "插件/彩色时钟.md": "FasClock",
