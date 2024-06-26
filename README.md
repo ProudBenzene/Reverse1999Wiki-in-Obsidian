@@ -24,9 +24,9 @@
 
 
 > [!tip]
-> If you are new to Obsidian app, you can check the installation guide here: [English Guide](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_EN.md) | [中文指南](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md)
+> If you are new to Obsidian app, you can check the installation guide here: [English Guide](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_EN.md)
 >
-> 如果你是一个Obsidian新手，可以参考我撰写的指南，先在电脑上安装好Obsidian软件：[English Guide](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_EN.md) | [中文指南](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md)
+> 如果你是一个Obsidian新手，可以参考我撰写的指南，先在电脑上安装好Obsidian软件：[中文指南](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md)
 
 ## Support Me｜支持
 
