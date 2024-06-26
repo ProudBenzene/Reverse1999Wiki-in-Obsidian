@@ -68,8 +68,11 @@
 
 ## 支持
 
-出于对重返未来 1999 与 Obsidian 的喜爱，我花费大量时间与精力制作整理了这个 Wiki 库，并将其免费共享。
+出于对《重返未来1999》与 Obsidian 的喜爱，我花费大量时间与精力制作整理了这个 Wiki 库，并将其免费开源共享。
 
-如果您认可我的工作，觉得我的工作很有意义或对您有帮助，可以通过以下方式支持我一杯奶茶（更推荐微信）：
+如果您认可我的工作，觉得我的工作有意义及价值，或者对您有所帮助，您可以通过以下方式支持我一杯奶茶（更推荐微信），我也会获得更强的动力以持续更新维护：🥰
 
-<center><img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406231057963.jpg" alt="支持码" width="250"><img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406080244833.jpg" alt="支持码" width="250"></center>
+<div style="display: flex;">
+    <img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406231057963.jpg" alt="支持码" style="width: 250px; margin-right: 20px;">
+    <img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406080244833.jpg" alt="支持码" style="width: 245px;">
+</div>
