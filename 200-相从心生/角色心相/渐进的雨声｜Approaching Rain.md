@@ -13,9 +13,9 @@ cssclasses:
   - "[[../../100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto|十四行诗]]"
   - "[[../../100-UTTU人物合辑/神秘学家｜Arcanists/星锑｜Regulus|星锑]]"
   - "[[../../100-UTTU人物合辑/意识唤醒者｜Awakened/APPLe｜APPLe|APPLe]]"
-  - "[[收音机小姐]]"
+  - "[[../../100-UTTU人物合辑/意识唤醒者｜Awakened/无线电小姐｜Ms. Radio|无线电小姐]]"
 轶事: 
-实装版本: 1.9 孤独之歌
+实装版本: 1.9｜孤独之歌
 aliases:
   - 渐进的雨声
   - Approaching Rain

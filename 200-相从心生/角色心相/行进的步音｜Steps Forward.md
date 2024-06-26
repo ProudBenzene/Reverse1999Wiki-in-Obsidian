@@ -14,7 +14,7 @@ cssclasses:
 人物:
   - "[[../../100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy|露西]]"
 轶事: 
-实装版本: 1.9 孤独之歌
+实装版本: 1.9｜孤独之歌
 aliases:
   - 行进的步音
   - Steps Forward
