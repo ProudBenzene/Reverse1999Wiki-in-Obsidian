@@ -1,5 +1,8 @@
 # Reverse：时间的成像
 
+> [!important]
+> **Starting Guide for Beginners**：see <a href="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_EN.md">GUIDE_EN</a>。
+
 This vault is made with the help of Obsidian (obsidian. md/) and is an offline Wiki about the game [《Reverse: 1999》](https://re.bluepoch.com/home/&wd=&eqid=fbb5beb400098f260000000464755c7c).
 
 The content in this repository, including documents and images, is mainly from the game settings. 
@@ -11,10 +14,6 @@ Let's now introduce this vault from two perspectives: the game Wiki and the Obsi
 ![示例库主页](assets/README.assets/示例库主页.png)
 
 ![角色档案](assets/README.assets/角色档案.png)
-
-## Starting Guide for Beginners
-
-详见<a href="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_EN.md">GUIDE_EN</a>。
 
 ## A 1999 Wiki Vault
 
