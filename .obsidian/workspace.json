@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,6 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -198,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           },
           {
@@ -215,6 +216,28 @@
             "state": {
               "type": "calendar",
               "state": {}
+            }
+          },
+          {
+            "id": "fe37023bd511294f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "d553c87e752f3fbe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
             }
           }
         ],
@@ -262,6 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,6 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,8 +313,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -312,10 +336,13 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "95f89cae69831722",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "400-箱外世界/暴雨时间线.md",
+    "游戏文件解包说明.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "000-箱的构造/插件/buttons.md",
     "README.md",
     "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
@@ -339,9 +366,6 @@
     "000-箱的构造/箱中memos/20240624-aeee49b025695049.md",
     "000-箱的构造/箱中memos/20240624-6928f5cc9ce61045.md",
     "000-箱的构造/箱中memos/20240624-d986c9a3530d5f51.md",
-    "000-箱的构造/箱中memos/20240624-b8c87020073fe699.md",
-    "000-箱的构造/箱中memos/20240624-89261c36a3d3d0e8.md",
-    "000-箱的构造/箱中memos/20240624-fd03606d67471df8.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/狼群｜Pavia.assets/立绘 狼群 01.png",
     "000-箱的构造/README/assets/README.assets/支付宝支持码.jpg",
     "000-箱的构造/README/assets/README.assets/支付宝捐款码.jpg",
