@@ -1,5 +1,8 @@
 # Reverse：时间的成像
 
+> [!important]
+> **小白入门使用方法**：详见<a href="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md">GUIDE_ZH</a>。
+
 本库是借助本地知识库软件 [Obsidian](https://obsidian.md/) 制作的，关于游戏 [《重返未来：1999》](https://re.bluepoch.com/home/&wd=&eqid=fbb5beb400098f260000000464755c7c)的离线 Wiki。
 
 库中文档、图片等内容主要来自游戏设定，经一些在线 wiki 网站与本人从游戏中收集整理，制成 Wiki。
@@ -11,10 +14,6 @@
 ![示例库主页](assets/README.assets/示例库主页.png)
 
 ![角色档案](assets/README.assets/角色档案.png)
-
-## 小白入门使用方法
-
-详见<a href="https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md">GUIDE_ZH</a>。
 
 ## 这是一个1999 Wiki
 
