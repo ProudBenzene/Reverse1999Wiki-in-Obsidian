@@ -656,7 +656,7 @@
   "Blue-Topaz-Legacy@@thino-modern-primary@@dark": "#312E2E",
   "Components@@new-tab-image": "url(\"https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405042326336.gif\")",
   "Appearance-dark@@background-mod-root-split-dark": "#2A2825",
-  "Editor@@codeblock-style-select": "codeblock-style-customize",
+  "Editor@@codeblock-style-select": "codeblock-style-one-dark",
   "Editor@@callout-style-select": "callout-style-2",
   "Editor@@callout-content-radius": "2px",
   "Appearance-dark@@color-accent-dark": "#EFB78D",
