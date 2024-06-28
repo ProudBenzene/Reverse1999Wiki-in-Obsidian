@@ -1,10 +1,1 @@
-{
-  "id": "tabs",
-  "name": "Tabs",
-  "version": "1.0.4",
-  "minAppVersion": "1.0.0",
-  "description": "Create tabs in your notes.",
-  "author": "Huajin",
-  "authorUrl": "https://github.com/xhuajin",
-  "isDesktopOnly": false
-}
+{"id":"tabs","name":"Tabs","version":"1.0.5","minAppVersion":"1.0.0","description":"Create tabs in your notes.","author":"Huajin","authorUrl":"https://github.com/xhuajin","isDesktopOnly":false}

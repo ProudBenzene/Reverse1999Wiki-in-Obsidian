@@ -1,0 +1,23 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorSelect": false,
+  "rememberDeletedItems": false,
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "100-UTTU人物合辑": {
+      "icon": "lucide-person-standing"
+    }
+  },
+  "groupIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {}
+}
