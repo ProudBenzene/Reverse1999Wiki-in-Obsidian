@@ -1,0 +1,36 @@
+// 常规
+.git
+.trash
+.pandoc
+_remotely-save-metadata-on-remote.json
+.reference-map
+.DS_Store
+
+// .obsidian
+.obsidian-git-data
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/obsidian-git/data2.json
+.obsidian/appearance.json
+.obsidian/community-plugins.json
+.obsidian/plugins/obsidian-style-settings/data.json
+
+//.obsidian第二批
+.obsidian/app.json
+.obsidian/command-palette.json
+.obsidian/core-plugins-migration.json
+.obsidian/core-plugins.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+.obsidian/templates.json
+.obsidian/text-generator.json
+.obsidian/vault-stats.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json
+.obsidian/plugins/zotlit/data.json
+// 脚本
+openSelectedImage.js
+OpenSelectImage.md
+openExternalEditor.js
+// Longform
+.obsidian/plugins/longform/sessions.json
+Index.md

@@ -209,28 +209,6 @@
               "type": "calendar-view",
               "state": {}
             }
-          },
-          {
-            "id": "203b1ecd6653309a",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "2263d9e06bec28a9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -330,6 +308,10 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/单品 小叶尼塞 02.png.tmp",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/神秘术 实干家1.png.tmp",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/立绘 小叶尼塞 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/立绘 小叶尼塞 01.png.tmp",
     "README.md",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
@@ -367,14 +349,11 @@
     "000-箱的构造/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
     "000-箱的构造/assets/UTTU人物合辑.assets/文化 3.png",
     "000-箱的构造/assets/UTTU人物合辑.assets/文化 2.png",
-    "000-箱的构造/assets/UTTU人物合辑.assets/文化 1.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets",
     "000-箱的构造/assets/UTTU人物合辑.assets",
     "000-箱的构造/templates/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
     "000-箱的构造/assets/UTTU人物合辑.assets",
-    "000-箱的构造/assets/UTTU人物合辑.assets",
-    "000-箱的构造/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
     "未命名.canvas",
     "白板.canvas"
   ]
