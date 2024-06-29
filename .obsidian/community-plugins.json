@@ -14,7 +14,6 @@
   "obsidian-hover-editor",
   "obsidian-banners",
   "obsidian-admonition",
-  "calendar",
   "obsidian42-brat",
   "folder-notes",
   "workspaces-plus",
@@ -38,5 +37,6 @@
   "better-fn",
   "github-copilot",
   "iconic",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "dust-calendar"
 ]

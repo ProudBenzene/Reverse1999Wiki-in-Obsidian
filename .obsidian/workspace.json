@@ -211,10 +211,10 @@
             }
           },
           {
-            "id": "99ac01e430c42d49",
+            "id": "98db33289fda3d43",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "calendar-view",
               "state": {}
             }
           }
@@ -316,9 +316,15 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "README.md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
+    "600-箱中日历/2024-06-27.md",
+    "600-箱中日历/2024-06-19.md",
+    "600-箱中日历/2024-06-21.md",
+    "000-箱的构造/templates/箱中日历.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/J｜Joe.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/先驱者｜Pioneer.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Енисей.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
@@ -349,19 +355,13 @@
     "300-以影像之/301-主线/1.0 生者与余众/第六章 今夜星光灿烂.md",
     "300-以影像之/303-映像/马库斯·灯塔集.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/洋葱头｜ONiON.md",
-    "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
     "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
     "200-相从心生/普通心相/怅然｜LOSS.md",
-    "600-箱中日历/2024-06-27.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/卡卡尼亚｜Kakaniya.md",
-    "README.md",
     "测试.md",
     "300-以影像之/303-映像/露西·飞渡往日.md",
-    "300-以影像之/303-映像/卡卡尼亚·犹在镜中.md",
-    "600-箱中日历/2024-06-26.md",
-    "600-箱中日历/2024-06-25.md",
     "未命名.canvas",
     "白板.canvas"
   ]
