@@ -97,14 +97,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "83914567a165aaad",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
-            }
           }
         ]
       },
@@ -217,6 +209,28 @@
               "type": "calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "203b1ecd6653309a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "2263d9e06bec28a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -316,6 +330,7 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "README.md",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
     "200-相从心生/角色心相/漫行如泉流｜Starlight Wellspring.md",
@@ -337,7 +352,6 @@
     "600-箱中日历/2023-06-11.md",
     "300-以影像之/303-映像/卡卡尼亚·犹在镜中.md",
     "300-以影像之/303-映像/assets/卡卡尼亚·犹在镜中.assets/卡卡尼亚·犹在镜中.png",
-    "README.md",
     "🔪输入法界的瑞士军刀，新秀小企鹅卷轴模式闪亮登场.md",
     "600-箱中日历/2024-06-27.md",
     "600-箱中日历/2024-06-19.md",

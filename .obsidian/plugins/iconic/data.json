@@ -17,6 +17,9 @@
     }
   },
   "fileIcons": {
+    "000-箱的构造/主页.md": {
+      "icon": "lucide-home"
+    },
     "100-UTTU人物合辑": {
       "icon": "lucide-person-standing"
     }

@@ -17,7 +17,7 @@
                   "state": {
                     "file": "000-箱的构造/主页.md",
                     "mode": "preview",
-                    "source": false
+                    "source": true
                   }
                 }
               },
@@ -97,14 +97,6 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "83914567a165aaad",
-                "type": "leaf",
-                "state": {
-                  "type": "VIEW_TYPE_LONGFORM_EXPLORER",
                   "state": {}
                 }
               }
@@ -317,7 +309,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-06-29T20:23:34+08:00",
+      "mtime": "2024-06-30T01:47:15+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null
@@ -329,11 +321,11 @@
         "type": "split",
         "children": [
           {
-            "id": "a4e7ab8c564d67d7",
+            "id": "9bac08eb635c9f92",
             "type": "tabs",
             "children": [
               {
-                "id": "9aadaddd821e22fa",
+                "id": "2078255e8b4643da",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -388,14 +380,6 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "83914567a165aaad",
-                "type": "leaf",
-                "state": {
-                  "type": "VIEW_TYPE_LONGFORM_EXPLORER",
                   "state": {}
                 }
               }
@@ -607,8 +591,8 @@
           "obsidian42-brat:BRAT": true
         }
       },
-      "active": "9aadaddd821e22fa",
-      "mtime": "2024-06-29T20:23:49+08:00",
+      "active": "2078255e8b4643da",
+      "mtime": "2024-06-30T01:47:53+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }

@@ -33,4 +33,16 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### Obsidian Things ###
+# Syncthing配置文件
+.stfolder
+# 重要插件
+.obsidian/plugins/github-copilot
+# 根路径文件
+游戏文件解包说明.md
+葛天.json
+爵士时代.json
+anu主题配置.zip
+
+
 # End of https://www.toptal.com/developers/gitignore/api/macos
