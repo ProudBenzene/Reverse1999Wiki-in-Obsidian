@@ -3,7 +3,7 @@
   "attachmentFolderPath": "./assets/主页.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
