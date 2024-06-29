@@ -36,6 +36,7 @@ Temporary Items
 ### Obsidian Things ###
 # Syncthing配置文件
 .stfolder
+.stignore
 # 重要插件
 .obsidian/plugins/github-copilot
 # 根路径文件
