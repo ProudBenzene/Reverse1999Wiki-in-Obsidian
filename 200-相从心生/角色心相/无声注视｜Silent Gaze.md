@@ -1,8 +1,8 @@
 ---
 Name: 无声注视
 exonym: Silent Gaze
-星级: ✦✦✦✦✦✦
-tags: 
+星级: ✦✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 攻击

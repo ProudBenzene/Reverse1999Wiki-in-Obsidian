@@ -11,7 +11,11 @@
   "uncolorSelect": false,
   "rememberDeletedItems": false,
   "appIcons": {},
-  "tabIcons": {},
+  "tabIcons": {
+    "quiet-outline": {
+      "icon": "lucide-list-tree"
+    }
+  },
   "fileIcons": {
     "100-UTTU人物合辑": {
       "icon": "lucide-person-standing"

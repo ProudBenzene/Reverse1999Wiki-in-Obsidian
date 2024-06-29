@@ -1,8 +1,8 @@
 ---
 Name: 夜夜亦然
 exonym: Night After Night
-星级: ✦✦✦✦✦✦
-tags: 
+星级: ✦✦✦✦✦
+tags:
 cssclasses:
   - book
 强化属性: 仪式威力
