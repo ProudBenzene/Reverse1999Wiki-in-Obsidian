@@ -217,28 +217,6 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "dd4f0d82295ca0b3",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "cc336bcc16e64c94",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -338,9 +316,11 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/J｜Joe.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/先驱者｜Pioneer.md",
+    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小叶尼塞｜Енисей.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/鬃毛沙砾｜Shamane.md",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets/单品 可燃点 01.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
@@ -357,7 +337,6 @@
     "000-箱的构造/assets/UTTU人物合辑.assets",
     "000-箱的构造/templates/assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/可燃点｜Spathodea.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/J｜Joe.md",
     "400-箱外世界/暴雨时间线.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "000-箱的构造/assets/UTTU人物合辑.assets",
@@ -373,7 +352,6 @@
     "000-箱的构造/常用工具.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/斯奈德｜Schneider.md",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/先驱者｜Pioneer.md",
     "100-UTTU人物合辑/超自然者｜Beyond/星之眼｜aliEn T.md",
     "200-相从心生/普通心相/怅然｜LOSS.md",
     "600-箱中日历/2024-06-27.md",
