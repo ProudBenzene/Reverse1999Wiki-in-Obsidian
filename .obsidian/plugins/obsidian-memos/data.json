@@ -61,6 +61,14 @@
       "value": "DAILY",
       "target": "ProcessEntriesBelow",
       "insert": "InsertAfter"
+    },
+    {
+      "value": "MULTI",
+      "target": "MemoDefaultMultiFilePath"
+    },
+    {
+      "value": "FILE",
+      "target": "MemoDefaultSingleFilePath"
     }
   ],
   "DeleteThinoDirectly": false,
@@ -71,7 +79,8 @@
   },
   "startSync": false,
   "tokenForVerify": {
-    "b9b61423165153adc5cd9849ba01180bf98063f6431bd5059080bdda3c2ab09c": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjI3MSwiYXBwSWQiOiJiOWI2MTQyMzE2NTE1M2FkYzVjZDk4NDliYTAxMTgwYmY5ODA2M2Y2NDMxYmQ1MDU5MDgwYmRkYTNjMmFiMDljIn0.aXJpfI0psnxKc-oSXikQJvN2mF7MkLeWeMG6oRZ9iy4h7ANxhkqtBS4_JqbhBW6UZ6EO0vOezhIdIMdJncWoJoeRVwCfIc9jgFU3SjksfmZzPHCuElOg_FsZoto8mRP2kFFu4PzTZ8UEwSphDG3DwbaV8fuECnLm4o7yG6SfwPhcWzFtl7UO3jfgXn8WN-6anPkYz0oGfifQgyBnesjPzMOV-a40TdJ5pLNXX7F6Hy_pDycCZvdlSXpXZEHfqAIS8q9MHUBM4lKLm6tbFVsML3CkpNAHRJpRvMQZYh0GLryVLg_s303nUJDqI6eYrIER-m-LZLw7L73TllXNExoosQ"
+    "b9b61423165153adc5cd9849ba01180bf98063f6431bd5059080bdda3c2ab09c": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjI3MSwiYXBwSWQiOiJiOWI2MTQyMzE2NTE1M2FkYzVjZDk4NDliYTAxMTgwYmY5ODA2M2Y2NDMxYmQ1MDU5MDgwYmRkYTNjMmFiMDljIn0.aXJpfI0psnxKc-oSXikQJvN2mF7MkLeWeMG6oRZ9iy4h7ANxhkqtBS4_JqbhBW6UZ6EO0vOezhIdIMdJncWoJoeRVwCfIc9jgFU3SjksfmZzPHCuElOg_FsZoto8mRP2kFFu4PzTZ8UEwSphDG3DwbaV8fuECnLm4o7yG6SfwPhcWzFtl7UO3jfgXn8WN-6anPkYz0oGfifQgyBnesjPzMOV-a40TdJ5pLNXX7F6Hy_pDycCZvdlSXpXZEHfqAIS8q9MHUBM4lKLm6tbFVsML3CkpNAHRJpRvMQZYh0GLryVLg_s303nUJDqI6eYrIER-m-LZLw7L73TllXNExoosQ",
+    "f7d30163861a99175c9ce7a7e266577498a4037bafddab059d28f5bae477fdaa": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjc3MywiYXBwSWQiOiJmN2QzMDE2Mzg2MWE5OTE3NWM5Y2U3YTdlMjY2NTc3NDk4YTQwMzdiYWZkZGFiMDU5ZDI4ZjViYWU0NzdmZGFhIn0.iIJcG07Dkgu9Fs4YalWjxLbdvUtdhJbhGobypNLIlXIk-LJoTQzn4ZsHJdZKFmPlXUnnHq0Z5BfRQWxehw4el2rDZHxDxolWmMySpbCDX8DLjJr-UFE_4yKlXf6abGvaPiKBdUNx9pMzRT1rxs9dP1ArihfiU-IUkZlR2dQd2pe495Vsl4EQr2mjlnNG2u-quOWXPhER6nXzxRKaJqanNTzoqM97_yuGhnfFB8T4MIDC3ghVr-fbc12QhsEkRJQjoAWyPBLLAxm8kHbazZLpDIeMkLZrvxsVCr4WbGyvUnNoUYR_ODsbuo1JWmRQB3ce_w7fJYMhxJCeheIdSOQAqQ"
   },
   "saveThinoType": "FILE",
   "showDayMark": true,

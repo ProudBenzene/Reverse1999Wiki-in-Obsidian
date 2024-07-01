@@ -29,6 +29,8 @@ Udimo:
 aliases:
   - 斯普特尼克
   - Sputnik
+  - 灯球女士
+  - Ms. Discoball
 初始立绘: "[[立绘 斯普特尼克 01.png]]"
 本色立绘: 
 生日: 2024-10-04
