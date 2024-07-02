@@ -1,0 +1,197 @@
+body{
+    --MNO-filetitle-background: var(--background-secondary);
+    --MNO-filetitle-background-hover: var(--color-base-30);
+}
+
+
+
+/*日付表示  date range */
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-date-range,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-date-range{
+    display: inline-block;
+    text-align:center;
+    font-size: var(--nav-item-size);
+    padding: var(--size-2-1) var(--size-2-3);
+}
+
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-header,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-header{
+    text-align:center;
+}
+
+
+/*viewの書式指定*/
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .view-content,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .view-content{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0 0 16px 0;
+}
+
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-files-container,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-files-container{
+    box-sizing: border-box;
+    height: calc(100% - 42px);
+}
+/* 100%からUI部分の高さを引いた。 DNO63px、MNO42px*/
+
+
+/*デイリーノートファイル名  filename of multiple notes*/
+/*要素を中央揃え  align center*/
+/*sticky にしてスクロールアウトを抑止*/
+/*背景色に、デフォルトテーマのworkspaceの色を流用して指定（そうしないと透明になって奥の文字が透けるため）*/
+
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder-title,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder-title{
+    background-color: var(--MNO-filetitle-background);
+}
+
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder-title,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder-title{
+
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/*folder viewのターゲットフォルダの名前は固定*/
+/* .workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder-title.is-targetfolder{
+
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+} */
+
+/* ホバー時 */
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .tree-item-self.is-clickable.nav-folder-title:hover,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .tree-item-self.is-clickable.nav-folder-title:hover{
+    background-color: var(--MNO-filetitle-background-hover);
+}
+
+
+/*2階層目はstickyの固定位置を1階層分下げる*/
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder-title.is-subfolder,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder-title.is-subfolder {
+    top: calc( (var(--nav-item-size) * var(--line-height-tight)) + 4px);
+    z-index: 1;
+}
+
+/*ノート横に情報を表示 display file information */
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder-title::after,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder-title::after{
+    content: attr(data-subinfo);
+    font-size: 80%;
+    display: inline-block;
+    position: relative;
+    margin-right: 2px;
+    padding: 2px 0;
+}
+
+/* ノート/フォルダタイトル  note/folder title */
+/* If you want to wrap lines, change `nowrap` to `normal`. */
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder-title-content,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder-title-content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    flex-grow: 1;
+}
+
+
+/* アウトライン要素 outline elements*/
+/* If you want to wrap lines, change `nowrap` to `normal`. */
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-file-title-content,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-file-title-content{
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+
+    display: inline-block;
+    flex-shrink: 1;
+}
+
+/* wrap-lineクラスがついていたらwhite-space設定をnormalに */
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-file-title-content.wrap-line,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-file-title-content.wrap-line{
+    white-space: normal;
+}
+
+
+/* icon */
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder .svg-icon,
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder .svg-icon{
+    height: 1.2em;
+    flex-shrink: 0;
+}
+
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-folder-collapse-indicator .is-open,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder-collapse-indicator .is-open{
+    transform: rotate(90deg);
+}
+
+
+/* 折りたたみアイコンの範囲 */
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .tree-item-icon.collapse-icon,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .tree-item-icon.collapse-icon{
+    padding: 4px;
+}
+
+/* obsidian ver1.2で項目にhover時、色が変わらなくなった事への暫定対応*/
+/* .workspace-leaf-content[data-type="multiple-notes-outline"] .nav-file-title:hover,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-folder-title:hover { */
+    /* background-color: var(--nav-item-background-hover); */
+    /* background-color: var(--color-base-30);
+    color:var(--nav-item-color-hover);
+} */
+
+
+
+/*インラインプレビュー inline preview */
+/*アウトライン要素行の各項目を中央揃えで同じ高さに表示 align center*/
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-file-title,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-file-title{
+    align-items: normal;
+}
+/*インラインプレビューのフォント inline preview font*/
+.workspace-leaf-content[data-type="multiple-notes-outline-folder-view"] .nav-file-title-preview,
+.workspace-leaf-content[data-type="multiple-notes-outline"] .nav-file-title-preview{
+    display: inline-block;
+    font-size: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    padding-left: 16px;
+    /*margin-left:auto;  右寄せ*/
+    color: var(--color-base-50);
+    flex-shrink: 10000;
+    align-self: center;
+}
+
+/* ツールチッププレビュー */
+.MNO-preview{
+    text-align: left;
+    animation: unset !important;
+    max-width: 600px;
+}
+
+/*設定画面 settings*/
+/*インデント用*/
+.setting-indent{
+    padding-left: 2em;
+}
+
+.setting-indent-2{
+    padding-left: 3em;
+}
+/*カテゴリ名の下のスペースを減らす*/
+.setting-category{
+    margin-block-end: 0em;
+}
+
+
+
+/* folder view用 */

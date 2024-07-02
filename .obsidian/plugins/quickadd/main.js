@@ -11615,15 +11615,25 @@ var QuickAddApi = class {
             plugin,
             choiceExecutor
           ).format;
-          const modelProvider = getModelProvider(model.name);
+          let _model;
+          if (typeof model === "string") {
+            const foundModel = getModelByName(model);
+            if (!foundModel) {
+              throw new Error(`Model '${model}' not found.`);
+            }
+            _model = foundModel;
+          } else {
+            _model = model;
+          }
+          const modelProvider = getModelProvider(_model.name);
           if (!modelProvider) {
             throw new Error(
-              `Model '${model.name}' not found in any provider`
+              `Model '${_model.name}' not found in any provider`
             );
           }
           const assistantRes = await Prompt(
             {
-              model,
+              model: _model,
               prompt,
               apiKey: modelProvider.apiKey,
               modelOptions: settings?.modelOptions ?? {},
@@ -11657,11 +11667,17 @@ var QuickAddApi = class {
             plugin,
             choiceExecutor
           ).format;
-          const _model = getModelByName(model);
-          if (!_model) {
-            throw new Error(`Model ${model} not found.`);
+          let _model;
+          if (typeof model === "string") {
+            const foundModel = getModelByName(model);
+            if (!foundModel) {
+              throw new Error(`Model ${model} not found.`);
+            }
+            _model = foundModel;
+          } else {
+            _model = model;
           }
-          const modelProvider = getModelProvider(model);
+          const modelProvider = getModelProvider(_model.name);
           if (!modelProvider) {
             throw new Error(
               `Model '${_model.name}' not found in any provider`

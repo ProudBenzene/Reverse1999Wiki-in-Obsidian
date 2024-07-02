@@ -47,3 +47,9 @@ anu主题配置.zip
 
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
+
+
+
+
+# Ignore Smart Connections folder
+.smart-connections

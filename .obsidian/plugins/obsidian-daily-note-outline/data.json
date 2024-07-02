@@ -1,0 +1,218 @@
+{
+  "offset": 7,
+  "onset": "2020-03-30",
+  "duration": {
+    "day": 28,
+    "week": 12,
+    "month": 12,
+    "quarter": 8,
+    "year": 3
+  },
+  "showElements": {
+    "heading": true,
+    "link": true,
+    "tag": true,
+    "listItems": true,
+    "task": true
+  },
+  "headingLevel": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false
+  ],
+  "allRootItems": false,
+  "allTasks": true,
+  "taskOnly": false,
+  "hideCompletedTasks": false,
+  "displayFileInfo": "lines",
+  "displayFileInfoDaily": "lines",
+  "displayFileInfoPeriodic": "lines",
+  "viewPosition": "right",
+  "markdownOnly": true,
+  "exactMatchOnly": false,
+  "wordsToIgnore": {
+    "heading": [],
+    "link": [],
+    "tag": [],
+    "listItems": []
+  },
+  "inlinePreview": true,
+  "tooltipPreview": true,
+  "tooltipPreviewDirection": "left",
+  "includeOnly": "none",
+  "wordsToInclude": [],
+  "includeBeginning": true,
+  "primeElement": "none",
+  "wordsToExclude": {
+    "heading": [],
+    "link": [],
+    "tag": [],
+    "listItems": []
+  },
+  "wordsToExtract": "",
+  "icon": {
+    "heading": "none",
+    "link": "link",
+    "tag": "tag",
+    "listItems": "list",
+    "note": "file",
+    "task": "square",
+    "taskDone": "check-square",
+    "backlink": "links-coming-in",
+    "time": "clock"
+  },
+  "customIcon": {
+    "heading": "hash",
+    "link": "link",
+    "tag": "tag",
+    "listItems": "list",
+    "note": "file",
+    "task": "square",
+    "taskDone": "check-square",
+    "backlink": "links-coming-in",
+    "time": "clock"
+  },
+  "indent": {
+    "heading": true,
+    "link": true,
+    "listItems": true
+  },
+  "indentFollowHeading": 0,
+  "prefix": {
+    "heading": "",
+    "link": "",
+    "tag": "",
+    "listItems": "",
+    "task": "",
+    "taskDone": "",
+    "backlink": "",
+    "time": ""
+  },
+  "repeatHeadingPrefix": "none",
+  "addCheckboxText": false,
+  "periodicNotesEnabled": false,
+  "calendarSetsEnabled": false,
+  "attachWeeklyNotesName": true,
+  "showDebugInfo": false,
+  "noteTitleBackgroundColor": "none",
+  "customNoteTitleBackgroundColor": {
+    "accent": {
+      "light": "#E3E3E3",
+      "dark": "#363636"
+    },
+    "custom": {
+      "light": "#BEBEBE",
+      "dark": "#4E4E4E"
+    }
+  },
+  "customNoteTitleBackgroundColorHover": {
+    "accent": {
+      "light": "#D3D3D3",
+      "dark": "#464646"
+    },
+    "custom": {
+      "light": "#AEAEAE",
+      "dark": "#5E5E5E"
+    }
+  },
+  "fileFlag": {},
+  "taskIcon": {
+    "incomplete": {
+      "symbol": "/",
+      "icon": "columns"
+    },
+    "canceled": {
+      "symbol": "-",
+      "icon": "minus-square"
+    },
+    "fowarded": {
+      "symbol": ">",
+      "icon": "send"
+    },
+    "scheduling": {
+      "symbol": "<",
+      "icon": "calendar"
+    },
+    "question": {
+      "symbol": "?",
+      "icon": "help-circle"
+    },
+    "important": {
+      "symbol": "!",
+      "icon": "alert-triangle"
+    },
+    "star": {
+      "symbol": "*",
+      "icon": "star"
+    },
+    "quote": {
+      "symbol": "\"",
+      "icon": "quote"
+    },
+    "location": {
+      "symbol": "l",
+      "icon": "map-pin"
+    },
+    "bookmark": {
+      "symbol": "b",
+      "icon": "bookmark"
+    },
+    "information": {
+      "symbol": "i",
+      "icon": "info"
+    },
+    "savings": {
+      "symbol": "S",
+      "icon": "dollar-sign"
+    },
+    "idea": {
+      "symbol": "I",
+      "icon": "siren"
+    },
+    "pros": {
+      "symbol": "p",
+      "icon": "thumbs-up"
+    },
+    "cons": {
+      "symbol": "c",
+      "icon": "thumbs-down"
+    },
+    "fire": {
+      "symbol": "f",
+      "icon": "flame"
+    },
+    "key": {
+      "symbol": "k",
+      "icon": "key"
+    },
+    "win": {
+      "symbol": "w",
+      "icon": "cake"
+    },
+    "up": {
+      "symbol": "u",
+      "icon": "trending-up"
+    },
+    "down": {
+      "symbol": "d",
+      "icon": "trending-down"
+    }
+  },
+  "collapseAllAtStartup": false,
+  "showBacklinks": false,
+  "showPropertyLinks": true,
+  "popoutSize": {
+    "width": 600,
+    "height": 800
+  },
+  "popoutAlwaysOnTop": false,
+  "showListCallouts": true,
+  "showTimeList": true,
+  "setBaseDateAsHome": false,
+  "checkUnresolvedLinksAtStartup": false,
+  "wrapLine": true,
+  "bootDelayTime": 300
+}

@@ -12,6 +12,9 @@
   "rememberDeletedItems": false,
   "appIcons": {},
   "tabIcons": {
+    "multiple-notes-outline-folder-view": {
+      "icon": "lucide-folders"
+    },
     "quiet-outline": {
       "icon": "lucide-list-tree"
     }
