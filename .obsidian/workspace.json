@@ -4,51 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a4e7ab8c564d67d7",
+        "id": "9bac08eb635c9f92",
         "type": "tabs",
         "children": [
           {
-            "id": "9aadaddd821e22fa",
+            "id": "7490017cf5d2b219",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3f6df53d6a9606bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400-箱外世界/暴雨时间线.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "01a2c60378addfb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-                "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "95f89cae69831722",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
             }
           }
         ]
@@ -111,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "README.md"
               }
             }
           },
@@ -203,7 +171,7 @@
             }
           },
           {
-            "id": "98db33289fda3d43",
+            "id": "d014f00b7d794f44",
             "type": "leaf",
             "state": {
               "type": "calendar-view",
@@ -255,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,18 +240,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "a76dc179d6a67bd7",
-            "type": "leaf",
-            "state": {
-              "type": "multiple-notes-outline-folder-view",
-              "state": {}
             }
           }
         ],
@@ -314,11 +274,29 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "7490017cf5d2b219",
   "lastOpenFiles": [
+    "000-箱的构造/README/README_ZH.md",
     "README.md",
+    "000-箱的构造/README/README_EN.md",
+    "000-箱的构造/README/assets/README.assets/角色档案.png",
+    "000-箱的构造/README/assets/README.assets/iShot_2024-07-04_16.58.16.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
+    "000-箱的构造/README/assets/README.assets/示例库主页.png",
+    "000-箱的构造/README/assets/README.assets/一百天.png",
+    "000-箱的构造/README/GUIDE_EN.md",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
+    "000-箱的构造/箱中memos/20240703-c4b9626513fe4cab.md",
+    "000-箱的构造/箱中memos/20240702-0644b34dc416d30c.md",
+    "000-箱的构造/箱中memos/20240702-a2ed297b21bc1c3b.md",
+    "000-箱的构造/箱中memos/20240702-b573dafc13084690.md",
+    "000-箱的构造/箱中memos/20240702-b3ab6d71c1f2a2aa.md",
+    "000-箱的构造/箱中memos/20240702-1c4660916f96ba51.md",
+    "000-箱的构造/箱中memos/20240702-4b0ec794842bb041.md",
+    "000-箱的构造/箱中memos/20240702-f2f26bce5762464b.md",
+    "000-箱的构造/箱中memos/20240702-e176d48d7ece3109.md",
     "600-箱中日历/2024-06-25.md",
     "600-箱中日历/2024-06-26.md",
     "600-箱中日历/2024-06-28.md",
@@ -327,22 +305,7 @@
     "600-箱中日历/2024-06-30.md",
     "600-箱中日历/2024-07-02.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
-    "000-箱的构造/箱中memos/20240702-e176d48d7ece3109.md",
-    "000-箱的构造/箱中memos/20240702-aa3021df69881141.md",
-    "000-箱的构造/箱中memos/20240702-f99363b9c21dd4a9.md",
-    "000-箱的构造/箱中memos/20240702-28c6785b356780f6.md",
-    "000-箱的构造/箱中memos/20240702-4d586fb854cc3b6d.md",
-    "000-箱的构造/箱中memos/20240702-68d53cf3b6cbbf42.md",
-    "000-箱的构造/箱中memos/20240702-690d9ae4c123e974.md",
-    "000-箱的构造/箱中memos/20240702-22a99acdcc1fb2b7.md",
     "smart-chats",
-    "000-箱的构造/箱中memos/20240701-adcca5859624930a.md",
-    "000-箱的构造/箱中memos/20240701-5cfa132fcc907eb7.md",
-    "000-箱的构造/箱中memos/20240701-a72ff9cc73be4de7.md",
-    "000-箱的构造/箱中memos/20240701-27cbc50513a57afd.md",
-    "000-箱的构造/箱中memos/20240701-32e99889041c6633.md",
-    "000-箱的构造/箱中memos/20240701-6bdb8bb7b4f83cd5.md",
-    "000-箱的构造/箱中memos/20240701-97142cb2220a1f03.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/单品 小叶尼塞 02.png.tmp",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/神秘术 实干家1.png.tmp",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/立绘 小叶尼塞 01.png",
@@ -356,10 +319,6 @@
     "300-以影像之/303-映像/assets/卡卡尼亚·犹在镜中.assets/卡卡尼亚·犹在镜中.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets/单品 可燃点 01.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
-    "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
-    "000-箱的构造/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
-    "000-箱的构造/assets/UTTU人物合辑.assets/文化 3.png",
-    "000-箱的构造/assets/UTTU人物合辑.assets/文化 2.png",
     "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets",
     "000-箱的构造/assets/UTTU人物合辑.assets",
     "未命名.canvas",

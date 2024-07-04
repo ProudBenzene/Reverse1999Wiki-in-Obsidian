@@ -279,6 +279,14 @@
                     "unlinkedCollapsed": true
                   }
                 }
+              },
+              {
+                "id": "a76dc179d6a67bd7",
+                "type": "leaf",
+                "state": {
+                  "type": "multiple-notes-outline-folder-view",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 1
@@ -309,7 +317,7 @@
         }
       },
       "active": "9aadaddd821e22fa",
-      "mtime": "2024-06-30T01:47:15+08:00",
+      "mtime": "2024-07-02T12:02:49+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [],
         "mode": null
@@ -562,6 +570,14 @@
                     "unlinkedCollapsed": true
                   }
                 }
+              },
+              {
+                "id": "97d8115586b70523",
+                "type": "leaf",
+                "state": {
+                  "type": "multiple-notes-outline-folder-view",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 1
@@ -592,11 +608,11 @@
         }
       },
       "active": "2078255e8b4643da",
-      "mtime": "2024-06-30T01:47:53+08:00",
+      "mtime": "2024-07-02T12:03:15+08:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": []
       }
     }
   },
-  "active": "README"
+  "active": "HomePage"
 }

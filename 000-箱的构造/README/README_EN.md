@@ -70,5 +70,6 @@ Out of my love to the game 'Reverse 1999' and Obsidian, I have spent a lot of ti
 
 If you appreciate my work and find it meaningful or helpful to you, you can support me with a cup of milk tea through the following ways, and I will also gain more motivation to keep updating and maintaining the vault!🦾
 
-<center><img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406231057963.jpg" alt="支持码" width="250"><img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406080244833.jpg" alt="支持码" width="250"></center>
+
+<img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202407041651060.PNG" alt="支持码" style="width: 200px;">
 
