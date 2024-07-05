@@ -4,19 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "9bac08eb635c9f92",
+        "id": "a4e7ab8c564d67d7",
         "type": "tabs",
         "children": [
           {
-            "id": "7490017cf5d2b219",
+            "id": "9aadaddd821e22fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3f6df53d6a9606bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -79,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -158,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -171,7 +203,7 @@
             }
           },
           {
-            "id": "d014f00b7d794f44",
+            "id": "98db33289fda3d43",
             "type": "leaf",
             "state": {
               "type": "calendar-view",
@@ -223,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,9 +306,12 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "7490017cf5d2b219",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "000-箱的构造/README/README_ZH.md",
+    "000-箱的构造/主页.md",
+    "400-箱外世界/暴雨时间线.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/卡卡尼亚｜Kakaniya.md",
     "README.md",
     "000-箱的构造/README/README_EN.md",
     "000-箱的构造/README/assets/README.assets/角色档案.png",
@@ -286,7 +321,6 @@
     "000-箱的构造/README/assets/README.assets/一百天.png",
     "000-箱的构造/README/GUIDE_EN.md",
     "000-箱的构造/常用工具.md",
-    "000-箱的构造/主页.md",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "000-箱的构造/箱中memos/20240703-c4b9626513fe4cab.md",
     "000-箱的构造/箱中memos/20240702-0644b34dc416d30c.md",
@@ -304,7 +338,6 @@
     "600-箱中日历/2024-07-01.md",
     "600-箱中日历/2024-06-30.md",
     "600-箱中日历/2024-07-02.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/温妮弗雷德｜Eternity.md",
     "smart-chats",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/单品 小叶尼塞 02.png.tmp",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/神秘术 实干家1.png.tmp",

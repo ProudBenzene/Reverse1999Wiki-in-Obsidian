@@ -34,7 +34,7 @@ aliases:
 初始立绘: "[[立绘 卡卡尼亚 01.png]]"
 本色立绘: "[[立绘 卡卡尼亚 02.png]]"
 生日: 2024-12-07
-banner_header: "{{filename}}"
+banner_header: 
 出场章节: 
 已邀请: true
 ---
