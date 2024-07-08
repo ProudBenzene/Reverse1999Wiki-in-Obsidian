@@ -1,9 +1,7 @@
 [
   "obsidian-export-image",
-  "Enhanced-editing",
   "obsidian-advanced-uri",
   "attachment-flow-plugin",
-  "better-word-count",
   "buttons",
   "cmdr",
   "obsidian-custom-attachment-location",
@@ -35,9 +33,9 @@
   "editing-toolbar",
   "obsidian-linter",
   "github-copilot",
-  "obsidian-icon-folder",
   "dust-calendar",
   "iconic",
   "multiple-notes-outline",
-  "better-fn"
+  "better-fn",
+  "better-word-count"
 ]

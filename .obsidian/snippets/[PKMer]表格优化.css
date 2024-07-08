@@ -674,27 +674,27 @@ body.tbMH-zhi-SXB.theme-light :is(.markdown-rendered thead):not(.dataview) {
 body.tbMH-zhi-SXB {
   --表格边框粗细:0px;
 }
-body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) tr:hover {
   height: 40px;
 }
-body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr {
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) tr {
   transition: height 0.35s ease-in-out;
 }
-body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) .table-cell-wrapper:hover {
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) .table-cell-wrapper:hover {
   background-color: var(--表格触摸显示颜色-浅色模式);
 }
-body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+body.theme-light.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) tr:hover {
   background-color: var(--表格触摸显示颜色-浅色模式);
 }
-body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) tr:hover {
   height: 40px;
 }
-body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr {
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) tr {
   transition: height 0.35s ease-in-out;
 }
-body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) .table-cell-wrapper:hover {
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) .table-cell-wrapper:hover {
   background-color: var(--表格触摸显示颜色-深色模式);
 }
-body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tr:hover {
+body.theme-dark.tbMH-MCXS-MS :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view):not(.cards) tr:hover {
   background-color: var(--表格触摸显示颜色-深色模式);
 }

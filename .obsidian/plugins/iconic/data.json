@@ -15,6 +15,9 @@
     "multiple-notes-outline-folder-view": {
       "icon": "lucide-folders"
     },
+    "obsidian-projects": {
+      "icon": "lucide-tablet-smartphone"
+    },
     "quiet-outline": {
       "icon": "lucide-list-tree"
     }
