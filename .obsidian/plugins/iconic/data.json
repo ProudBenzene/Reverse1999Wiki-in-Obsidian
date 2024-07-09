@@ -20,6 +20,9 @@
     },
     "quiet-outline": {
       "icon": "lucide-list-tree"
+    },
+    "thino_view": {
+      "icon": "lucide-lightbulb"
     }
   },
   "fileIcons": {
