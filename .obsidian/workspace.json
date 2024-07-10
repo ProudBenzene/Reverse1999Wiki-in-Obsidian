@@ -209,28 +209,6 @@
               "type": "calendar-view",
               "state": {}
             }
-          },
-          {
-            "id": "bbc649425d23cf67",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "6aa59309f101cd9f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -330,22 +308,29 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/黯然失色｜Her Mournful Face.md",
     "300-以影像之/304-轶事/苏芙比·淑女的守则.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/苏芙比｜Sotheby.md",
+    "200-相从心生/角色心相/assets/黯然失色｜Her Mournful Face.assets/心相 黯然失色.png",
+    "200-相从心生/角色心相/assets/黯然失色｜Her Mournful Face.assets",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/人类｜Human/assets 2",
+    "000-箱的构造/README/assets 2",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets 2",
+    "000-箱的构造/script/tp",
     "300-以影像之/304-轶事/assets/苏芙比·淑女的守则.assets/头图 淑女的守则.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/苏芙比｜Sotheby.assets/立绘 苏芙比 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/苏芙比｜Sotheby.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/维尔汀｜Vertin.md",
     "400-箱外世界/暴雨时间线.md",
     "300-以影像之/304-轶事/assets/苏芙比·淑女的守则.assets",
-    "000-箱的构造/主页.md",
     "README.md",
     "000-箱的构造/箱中memos/20240708-eef46b44bcee5298.md",
     "000-箱的构造/箱中memos/20240708-1e5b1cd6c5f09577.md",
     "000-箱的构造/箱中memos/20240708-af94f1a02955cc3b.md",
     "000-箱的构造/箱中memos/20240708-93bc19c0ada8dbd6.md",
     "000-箱的构造/箱中memos/20240708-6fd40e99b1a55166.md",
-    "000-箱的构造/常用工具.md",
     "000-箱的构造/箱中memos/20240708-ccc97c4368af34d0.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/300-以影像之.sync-conflict-20240708-121536-H3HADK3.md",
@@ -357,7 +342,6 @@
     "600-箱中日历/2023-12-26.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/帕米埃｜Dikke.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/弄臣｜The Fool.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/夏利｜Charlie.md",
     "000-箱的构造/README/assets/README.assets/角色档案.png",
     "000-箱的构造/README/assets/README.assets/iShot_2024-07-04_16.58.16.png",
     "000-箱的构造/README/assets/README.assets/示例库主页.png",
@@ -368,13 +352,7 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/立绘 小叶尼塞 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/立绘 小叶尼塞 01.png.tmp",
     "200-相从心生/角色心相/assets/漫行如泉流｜Starlight Wellspring.assets/心相 漫行如泉流.png",
-    "200-相从心生/角色心相/assets/漫行如泉流｜Starlight Wellspring.assets",
     "200-相从心生/角色心相/assets/不可诉之轻｜The Unbearable Lightness.assets/心相 不可诉之轻.png",
-    "200-相从心生/角色心相/assets/不可诉之轻｜The Unbearable Lightness.assets",
-    "200-相从心生/角色心相/assets/来自最深处｜From the Depths.assets/心相 来自最深处.png",
-    "200-相从心生/角色心相/assets/来自最深处｜From the Depths.assets",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets",
-    "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets",
     "未命名.canvas",
     "白板.canvas"
   ]
