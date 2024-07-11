@@ -1577,7 +1577,7 @@ var IconManager = class {
     return observer;
   }
   /**
-   * Stop all mutation observers set by this {@link IconManager}.
+   * Stop mutation observer of the given element.
    */
   stopMutationObserver(element) {
     this.mutationObservers.get(element)?.disconnect();
@@ -1821,12 +1821,10 @@ var IconPicker = class extends import_obsidian3.Modal {
     this.searchResultsSetting = new import_obsidian3.Setting(this.contentEl);
     this.searchResultsSetting.settingEl.addClass("iconic-search-results");
     this.manager.setEventListener(this.searchResultsSetting.settingEl, "wheel", (event) => {
-      if (event.deltaY === 0)
-        return;
       if (activeDocument.body.hasClass("mod-rtl")) {
-        this.searchResultsSetting.settingEl.scrollBy({ left: event.deltaX - event.deltaY });
+        this.searchResultsSetting.settingEl.scrollLeft -= event.deltaY;
       } else {
-        this.searchResultsSetting.settingEl.scrollBy({ left: event.deltaX + event.deltaY });
+        this.searchResultsSetting.settingEl.scrollLeft += event.deltaY;
       }
     }, { passive: true });
     const buttonContainerEl = this.modalEl.createDiv({ cls: "modal-button-container" });
@@ -5156,7 +5154,10 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
     (0, import_obsidian9.getIconIds)().map((id) => [id, id.replace(/^lucide-/, "").replace(/-/g, " ")]).sort(([, aName], [, bName]) => aName.localeCompare(bName)).forEach(([id, name]) => ICONS.set(id, name));
     this.startIconManagers();
     this.refreshBodyClasses();
-    this.registerEvent(this.app.workspace.on("css-change", () => this.refreshIconManagers()));
+    this.registerEvent(this.app.workspace.on("css-change", () => {
+      this.refreshIconManagers();
+      this.refreshBodyClasses();
+    }));
     this.registerEvent(this.app.vault.on("rename", ({ path }, oldPath) => {
       const fileIcon = this.settings.fileIcons[oldPath];
       if (fileIcon) {
@@ -5268,6 +5269,14 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
     }));
   }
   /**
+   * @override
+   */
+  async onExternalSettingsChange() {
+    await this.loadSettings();
+    this.refreshIconManagers();
+    this.refreshBodyClasses();
+  }
+  /**
    * Initialize all icon managers.
    */
   startIconManagers() {
@@ -5294,13 +5303,15 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
   }
   /**
    * Refresh any global classes on document body.
+   * @param unloading Remove all classes if true
    */
-  refreshBodyClasses() {
-    activeDocument.body.toggleClass("iconic-bigger-icons", this.isSettingEnabled("biggerIcons"));
-    activeDocument.body.toggleClass("iconic-clickable-icons", this.isSettingEnabled("clickableIcons"));
-    activeDocument.body.toggleClass("iconic-bigger-search-results", this.isSettingEnabled("biggerSearchResults"));
-    activeDocument.body.toggleClass("iconic-uncolor-hover", this.settings.uncolorHover);
-    activeDocument.body.toggleClass("iconic-uncolor-select", this.settings.uncolorSelect);
+  refreshBodyClasses(unloading) {
+    activeDocument.body.toggleClass("iconic-bigger-icons", unloading ? false : this.isSettingEnabled("biggerIcons"));
+    activeDocument.body.toggleClass("iconic-clickable-icons", unloading ? false : this.isSettingEnabled("clickableIcons"));
+    activeDocument.body.toggleClass("iconic-bigger-search-results", unloading ? false : this.isSettingEnabled("biggerSearchResults"));
+    activeDocument.body.toggleClass("iconic-uncolor-hover", unloading ? false : this.settings.uncolorHover);
+    activeDocument.body.toggleClass("iconic-uncolor-select", unloading ? false : this.settings.uncolorSelect);
+    activeDocument.body.toggleClass("iconic-its-theme", unloading ? false : this.app.customCss?.theme === "ITS Theme");
   }
   /**
    * Check whether setting is enabled for the current platform.
@@ -5625,7 +5636,7 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
       id: itemBase.id,
       name: itemBase.title ?? null,
       category: "ribbon",
-      iconDefault: itemBase.icon ?? null,
+      iconDefault: itemBase.hidden ? null : itemBase.icon ?? null,
       icon: unloading ? null : itemIcon.icon ?? null,
       color: unloading ? null : itemIcon.color ?? null,
       iconEl: itemBase.buttonEl ?? null
@@ -5735,8 +5746,12 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
         settings[itemId] = {};
       if (icon)
         settings[itemId].icon = icon;
+      else
+        delete settings[itemId].icon;
       if (color)
         settings[itemId].color = color;
+      else
+        delete settings[itemId].color;
     } else {
       delete settings[itemId];
     }
@@ -5823,7 +5838,7 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
         for (const bmarkBase of bmarkBases) {
           if (bmarkBase.type === "group" && bmarkBase.items) {
             flatArray.push(bmarkBase.ctime.toString());
-            flatArray.concat(flattenGroupIds(bmarkBase.items));
+            flatArray.push(...flattenGroupIds(bmarkBase.items));
           }
         }
         return flatArray;
@@ -5864,14 +5879,6 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
   /**
    * @override
    */
-  async onExternalSettingsChange() {
-    await this.loadSettings();
-    this.refreshIconManagers();
-    this.refreshBodyClasses();
-  }
-  /**
-   * @override
-   */
   onunload() {
     this.appIconManager?.unload();
     this.tabIconManager?.unload();
@@ -5880,5 +5887,6 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
     this.propertyIconManager?.unload();
     this.editorIconManager?.unload();
     this.ribbonIconManager?.unload();
+    this.refreshBodyClasses(true);
   }
 };

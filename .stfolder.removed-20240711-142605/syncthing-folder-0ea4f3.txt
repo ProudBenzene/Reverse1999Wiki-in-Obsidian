@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: Reverse：时间的成像
+created: 2024-06-30T04:07:22+08:00
