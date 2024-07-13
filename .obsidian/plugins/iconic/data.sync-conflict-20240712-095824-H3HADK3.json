@@ -1,0 +1,36 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorSelect": false,
+  "rememberDeletedItems": false,
+  "appIcons": {},
+  "tabIcons": {
+    "multiple-notes-outline-folder-view": {
+      "icon": "lucide-folders"
+    },
+    "obsidian-projects": {
+      "icon": "lucide-tablet-smartphone"
+    },
+    "quiet-outline": {
+      "icon": "lucide-list-tree"
+    },
+    "thino_view": {
+      "icon": "lucide-lightbulb"
+    }
+  },
+  "fileIcons": {
+    "100-UTTU人物合辑": {
+      "icon": "lucide-person-standing"
+    }
+  },
+  "groupIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {}
+}

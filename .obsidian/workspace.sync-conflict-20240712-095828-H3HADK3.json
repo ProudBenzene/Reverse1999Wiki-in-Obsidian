@@ -1,0 +1,353 @@
+{
+  "main": {
+    "id": "7fa45a73674a7b32",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4e7ab8c564d67d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9aadaddd821e22fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f6df53d6a9606bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c28cfae046d28b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb7552c6126461e8",
+        "type": "tabs",
+        "dimension": 73.83292383292384,
+        "children": [
+          {
+            "id": "250c5f6efff2f242",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fa8a46648d62218",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4862ed181d29f3fe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "b94dcb9d96b5f843",
+        "type": "tabs",
+        "dimension": 26.167076167076164,
+        "children": [
+          {
+            "id": "e94c2006ca70689a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "path:100-UTTU人物合辑/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "path:200-相从心生/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "path:300-以影像之/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2790132
+                      }
+                    },
+                    {
+                      "query": "path:000-箱的构成/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15636512
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.50225016276042,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6847167020791121,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "3690d4dad9b484cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3b59b964d45b39b",
+        "type": "tabs",
+        "dimension": 35.14211886304909,
+        "children": [
+          {
+            "id": "fcfeade928c29023",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
+          },
+          {
+            "id": "13eab36a72e3758c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "98db33289fda3d43",
+            "type": "leaf",
+            "state": {
+              "type": "calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "891a375bdd1730c6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "55edc0c1b6ae6be7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a0af558e737c8c63",
+        "type": "tabs",
+        "dimension": 64.85788113695091,
+        "children": [
+          {
+            "id": "0ff60fab5f307ba0",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae0ee0175ee8627f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e05dbb992a38c77c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "381f1e4757e8cce8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e38c54133e209543",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 325.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": false,
+      "workspaces:管理工作区布局": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "random-note:开始漫游笔记": false
+    }
+  },
+  "active": "13eab36a72e3758c",
+  "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "300-以影像之/~syncthing~300-以影像之.md.tmp",
+    "300-以影像之/300-以影像之.sync-conflict-20240708-121536-H3HADK3.md",
+    "300-以影像之/300-以影像之.md",
+    "README.md",
+    "000-箱的构造/箱中memos/20240703-c4b9626513fe4cab.md",
+    "000-箱的构造/箱中memos/20240702-b573dafc13084690.md",
+    "000-箱的构造/箱中memos/20240702-0644b34dc416d30c.md",
+    "000-箱的构造/箱中memos/20240702-1c4660916f96ba51.md",
+    "000-箱的构造/箱中memos/20240702-a2ed297b21bc1c3b.md",
+    "000-箱的构造/箱中memos/20240702-b3ab6d71c1f2a2aa.md",
+    "000-箱的构造/箱中memos/~syncthing~20240702-b573dafc13084690.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20240702-f2f26bce5762464b.md.tmp",
+    "600-箱中日历/~syncthing~2024-07-02.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20240702-1c4660916f96ba51.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20240702-b3ab6d71c1f2a2aa.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20240702-0644b34dc416d30c.md.tmp",
+    "600-箱中日历/~syncthing~2024-06-29.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20240702-4b0ec794842bb041.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~memos.thino.md.tmp",
+    "600-箱中日历/2024-07-01.md",
+    "600-箱中日历/2024-06-30.md",
+    "600-箱中日历/2024-06-29.md",
+    "600-箱中日历/2024-06-28.md",
+    "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20240701-a72ff9cc73be4de7.md",
+    "000-箱的构造/箱中memos/20240701-27cbc50513a57afd.md",
+    "000-箱的构造/箱中memos/20240701-32e99889041c6633.md",
+    "000-箱的构造/箱中memos/20240701-6bdb8bb7b4f83cd5.md",
+    "000-箱的构造/箱中memos/20240701-97142cb2220a1f03.md",
+    "000-箱的构造/箱中memos/20240701-4cd732f95036d637.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/斯普特尼克｜Sputnik.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/小叶尼塞｜Енисей.assets/立绘 小叶尼塞 01.png",
+    "000-箱的构造/常用工具.md",
+    "200-相从心生/角色心相/漫行如泉流｜Starlight Wellspring.md",
+    "200-相从心生/角色心相/assets/漫行如泉流｜Starlight Wellspring.assets/心相 漫行如泉流.png",
+    "200-相从心生/角色心相/不可诉之轻｜The Unbearable Lightness.md",
+    "200-相从心生/角色心相/assets/不可诉之轻｜The Unbearable Lightness.assets/心相 不可诉之轻.png",
+    "200-相从心生/角色心相/assets/来自最深处｜From the Depths.assets/心相 来自最深处.png",
+    "300-以影像之/303-映像/assets/卡卡尼亚·犹在镜中.assets/卡卡尼亚·犹在镜中.png",
+    "000-箱的构造/templates/assets/UTTU人物合辑.assets/assets/可燃点｜Spathodea.assets/单品 可燃点 01.png",
+    "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
+    "000-箱的构造/assets/UTTU人物合辑.assets/货币 利齿子儿.png",
+    "000-箱的构造/assets/UTTU人物合辑.assets/文化 3.png",
+    "000-箱的构造/assets/UTTU人物合辑.assets/文化 2.png",
+    "未命名.canvas",
+    "白板.canvas"
+  ]
+}
