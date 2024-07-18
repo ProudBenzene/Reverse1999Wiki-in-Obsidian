@@ -56,6 +56,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[红斗篷｜Mondlicht]]
 	- [[红弩箭｜Lilya]]
 	- [[槲寄生｜Druvis III]]
+	- [[环状水星｜Mercuria]]
 	- [[伽菈波那｜Black Dwarf]]
 	- [[金蜜儿｜Blonney]]
 	- [[喀嚓喀嚓｜Click]]
