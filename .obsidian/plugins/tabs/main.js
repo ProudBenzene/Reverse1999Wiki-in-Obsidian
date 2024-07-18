@@ -30,7 +30,10 @@ __export(exports, {
 // src/settings.ts
 var import_obsidian = __toModule(require("obsidian"));
 var DEFAULT_SETTINGS = {
-  split: "tab:"
+  split: "tab: ",
+  defaultTabNavItem: "New tab",
+  defaultTabContent: "New tab content",
+  ignoreNotice: false
 };
 var TabsSettingsTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
@@ -47,14 +50,32 @@ var TabsSettingsTab = class extends import_obsidian.PluginSettingTab {
       this.plugin.settings.split = value;
       this.plugin.saveSettings();
     }));
+    new import_obsidian.Setting(containerEl).setName("Default tab nav item").setDesc("The default tab nav item").addText((text) => text.setValue(this.plugin.settings.defaultTabNavItem).setPlaceholder("New tab").onChange((value) => {
+      if (value == "") {
+        value = "New tab";
+      }
+      this.plugin.settings.defaultTabNavItem = value;
+      this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("Default tab content").setDesc("The default tab content").addTextArea((text) => text.setValue(this.plugin.settings.defaultTabContent).setPlaceholder("New tab content").onChange((value) => {
+      if (value == "") {
+        value = "New tab content";
+      }
+      this.plugin.settings.defaultTabContent = value;
+      this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("Ignore notice").setDesc("Ignore notice when adding, deleting tabs and so on.").addToggle((toggle) => toggle.setValue(this.plugin.settings.ignoreNotice).onChange((value) => {
+      this.plugin.settings.ignoreNotice = value;
+      this.plugin.saveSettings();
+    }));
   }
 };
 
 // src/main.ts
-var import_obsidian6 = __toModule(require("obsidian"));
+var import_obsidian7 = __toModule(require("obsidian"));
 
 // src/components/tabs.ts
-var import_obsidian5 = __toModule(require("obsidian"));
+var import_obsidian6 = __toModule(require("obsidian"));
 
 // src/components/tabcontent.ts
 var import_obsidian2 = __toModule(require("obsidian"));
@@ -26059,8 +26080,119 @@ var TabEditorWrapper = class {
   }
 };
 
-// src/components/tabnavbutton.ts
+// src/components/tabmenu.ts
 var import_obsidian4 = __toModule(require("obsidian"));
+var TabMenu = class extends import_obsidian4.Menu {
+  constructor(tabs, e) {
+    super();
+    this.addItem((item) => {
+      item.setTitle("Add new tab");
+      item.setIcon("plus");
+      item.onClick(() => {
+        if (tabs.editorWrapper.isEditing) {
+          const content2 = tabs.tabnav.tabnavitems[tabs.currentIndex].title + "\n" + tabs.tabContents.tabcontents[tabs.currentIndex].content;
+          const editorContent = tabs.editorWrapper.editor.view.state.doc.toString().trim().substring(tabs.split.length);
+          if (content2.trim() !== editorContent.trim()) {
+            !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F7E0} Please save the current tab before you adding a new tab.");
+            return;
+          }
+        }
+        const activeView = tabs.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
+        const activeEditor = activeView.editor;
+        activeEditor.setLine(tabs.sectioninfo.lineEnd, tabs.split + tabs.plugin.settings.defaultTabNavItem + "\n" + tabs.plugin.settings.defaultTabContent + "\n" + activeEditor.getLine(tabs.sectioninfo.lineEnd));
+        !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F7E2} Add new tab successfully");
+      });
+    });
+    this.addItem((item) => {
+      item.setTitle("Delete tab");
+      item.setIcon("trash");
+      item.onClick(() => {
+        let deleteIndex = -1;
+        for (let i = 0; i < tabs.tabnav.tabnavitems.length; i++) {
+          if (tabs.tabnav.tabnavitems[i].tabitemEl === e.target) {
+            deleteIndex = i;
+            break;
+          }
+        }
+        if (deleteIndex === -1) {
+          !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F534} Not a valid tab.");
+          return;
+        }
+        const deleteTabTitle = tabs.tabnav.tabnavitems[deleteIndex].title;
+        if (tabs.editorWrapper.isEditing) {
+          const content2 = tabs.tabnav.tabnavitems[tabs.currentIndex].title + "\n" + tabs.tabContents.tabcontents[tabs.currentIndex].content;
+          const editorContent = tabs.editorWrapper.editor.view.state.doc.toString().trim().substring(tabs.split.length);
+          if (content2.trim() !== editorContent.trim()) {
+            !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F7E0} Please save the current tab before deleting: " + deleteTabTitle);
+            return;
+          }
+        }
+        const newDoc = tabs.getNewDocByIndex(deleteIndex, "");
+        tabs.activeView?.editor.replaceRange(newDoc, {line: tabs.sectioninfo.lineStart, ch: 0}, {line: tabs.sectioninfo.lineEnd, ch: tabs.activeView?.editor.getLine(tabs.sectioninfo.lineEnd).length});
+        !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F7E2} Delete " + deleteTabTitle + " successfully");
+      });
+    });
+    this.addItem((item) => {
+      item.setTitle("Copy tab");
+      item.setIcon("copy");
+      item.onClick(() => {
+        let copyIndex = -1;
+        let copyContent = "";
+        for (let i = 0; i < tabs.tabnav.tabnavitems.length; i++) {
+          if (tabs.tabnav.tabnavitems[i].tabitemEl == e.target) {
+            copyIndex = i;
+            copyContent = tabs.split + tabs.tabnav.tabnavitems[i].title + "\n" + tabs.tabContents.tabcontents[i].content;
+            break;
+          }
+        }
+        if (copyIndex === -1) {
+          !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F534} Not a valid tab.");
+          return;
+        }
+        navigator.clipboard.writeText(copyContent).then(() => {
+          !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F7E2} Copied to clipboard successfully.");
+        }).catch((err) => {
+          !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F534} Failed to copy to clipboard");
+          console.error(err);
+        });
+      });
+    });
+    this.addItem((item) => {
+      item.setTitle("Paste tab");
+      item.setIcon("paste");
+      item.onClick(() => {
+        navigator.clipboard.readText().then((text) => {
+          if (tabs.editorWrapper.isEditing) {
+            const content3 = tabs.tabnav.tabnavitems[tabs.currentIndex].title + "\n" + tabs.tabContents.tabcontents[tabs.currentIndex].content;
+            const editorContent = tabs.editorWrapper.editor.view.state.doc.toString().trim().substring(tabs.split.length);
+            if (content3.trim() !== editorContent.trim()) {
+              !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F7E0} Please save the current tab.");
+              return;
+            }
+          }
+          if (!text || text.trim() === "" || text.trim() == tabs.split) {
+            !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F7E0} No content in clipboard.");
+            return;
+          }
+          let title = tabs.plugin.settings.defaultTabNavItem + "\n";
+          let content2 = text.trim();
+          if (text.startsWith(tabs.split)) {
+            title = text.substring(tabs.split.length, text.indexOf("\n"));
+            content2 = content2.substring(text.indexOf("\n"));
+          }
+          const activeEditor = tabs.activeView?.editor;
+          activeEditor.setLine(tabs.sectioninfo.lineEnd, tabs.split + title.trim() + "\n" + content2.trim() + "\n" + activeEditor.getLine(tabs.sectioninfo.lineEnd));
+        }).catch((err) => {
+          !tabs.plugin.settings.ignoreNotice && new import_obsidian4.Notice("\u{1F534} Failed to paste from clipboard");
+          console.error(err);
+        });
+      });
+    });
+  }
+};
+
+// src/components/tabnavbutton.ts
+var import_obsidian5 = __toModule(require("obsidian"));
 var TabNavButton = class {
   constructor(tabnav, type, split, sectioninfo) {
     this.type = "add-new-tab";
@@ -26072,8 +26204,8 @@ var TabNavButton = class {
   }
   createTabNavButtonEl() {
     const addButton = document.createElement("div");
-    addButton.className = "tab-nav-button";
-    (0, import_obsidian4.setIcon)(addButton, "plus");
+    addButton.className = "tab-nav-button tab-nav-button-add";
+    (0, import_obsidian5.setIcon)(addButton, "plus");
     return addButton;
   }
 };
@@ -26094,15 +26226,18 @@ var TabNavItem = class {
 var TabNav = class {
   constructor(tabsNav, split, sectioninfo) {
     this.currentTab = 0;
-    this.tabnavitems = new Array(tabsNav.length);
-    this.tabbutton = new TabNavButton(this, "add-new-tab", split, sectioninfo);
-    for (let i = 0; i < tabsNav.length; i++) {
-      this.tabnavitems[i] = new TabNavItem(this, i, tabsNav[i]);
+    this.tabnavitems = new Array();
+    if (tabsNav.length > 0) {
+      this.tabnavitems = new Array(tabsNav.length);
+      this.tabbutton = new TabNavButton(this, "add-new-tab", split, sectioninfo);
+      for (let i = 0; i < tabsNav.length; i++) {
+        this.tabnavitems[i] = new TabNavItem(this, i, tabsNav[i]);
+      }
+      this.tabnavitems[0].isActiveed = true;
+      this.tabnavitems[0].tabitemEl.classList.add("tab-nav-item-active");
+      this.tabnavEl = this.createTabNavEl();
+      this.currentTab = 0;
     }
-    this.tabnavitems[0].isActiveed = true;
-    this.tabnavitems[0].tabitemEl.classList.add("tab-nav-item-active");
-    this.tabnavEl = this.createTabNavEl();
-    this.currentTab = 0;
   }
   createTabNavEl() {
     const element = document.createElement("div");
@@ -26110,7 +26245,7 @@ var TabNav = class {
     const wrapper = document.createElement("div");
     wrapper.className = "tab-nav-item-wrapper";
     element.appendChild(wrapper);
-    this.tabnavitems.forEach((tab) => {
+    this.tabnavitems.length > 0 && this.tabnavitems.forEach((tab) => {
       wrapper.appendChild(tab.tabitemEl);
     });
     element.appendChild(this.tabbutton.buttonEl);
@@ -26130,69 +26265,117 @@ var TabNav = class {
 };
 
 // src/components/tabs.ts
+var lastActiveTabIndex = 0;
+var hasInnerTabs = false;
 var Tabs = class {
   constructor(source, element, context, app, plugin, settings) {
     this.currentIndex = 0;
+    this.isInnerTabs = false;
+    this.backquote = "`";
+    this.backquoteCount = 3;
     element.className = "tab-container";
     this.plugin = plugin;
     this.tabsEl = element;
     this.split = settings.split;
     this.app = app;
-    this.activeView = app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
+    this.activeView = app.workspace.getActiveViewOfType(import_obsidian6.MarkdownView);
     this.sectioninfo = context.getSectionInfo(element);
-    const splitContent = source.split(this.split);
-    const tabnavitemtitle = [];
-    const tabcontent = [];
-    for (let i = 1; i < splitContent.length; i++) {
-      const j = splitContent[i].indexOf("\n");
-      tabnavitemtitle.push(splitContent[i].substring(0, j));
-      tabcontent.push(splitContent[i].substring(j + 1));
+    this.context = context;
+    this.updateBackquote(source);
+    if (hasInnerTabs) {
+      this.isInnerTabs = true;
     }
-    this.tabnav = new TabNav(tabnavitemtitle, this.split, this.sectioninfo);
+    const [tabnavitemtitle, tabcontent] = this.parseTabs(source, settings.defaultTabNavItem, settings.defaultTabContent);
+    this.tabnav = new TabNav(tabnavitemtitle.slice(1), this.split, this.sectioninfo);
     this.tabContents = new TabContents(plugin, tabcontent.map((content2, index) => {
       return new TabContent(index, tabnavitemtitle[index], content2, app, context);
-    }));
+    }).slice(1));
     this.editorWrapper = new TabEditorWrapper();
     element.appendChild(this.tabnav.tabnavEl);
     element.appendChild(this.tabContents.tabcontentsEl);
     element.appendChild(this.editorWrapper.tabEditorWrapperEl);
     this.registerEventHandlers();
+    lastActiveTabIndex = lastActiveTabIndex >= this.tabnav.tabnavitems.length ? 0 : lastActiveTabIndex;
+    this.currentIndex = lastActiveTabIndex;
+    this.tabnav.refreshActiveTabNav(lastActiveTabIndex);
+    this.tabContents.refreshActiveTabContent(lastActiveTabIndex);
+  }
+  parseTabs(source, defaultTabNavItem, defaultTabContent) {
+    const tabnavitemtitle = [];
+    const tabcontent = [];
+    let title = "";
+    let content2 = "";
+    if (!source.contains(this.split)) {
+      tabnavitemtitle.push("");
+      tabcontent.push("");
+      tabnavitemtitle.push(defaultTabNavItem);
+      tabcontent.push(source.trim() === "" ? defaultTabContent : source);
+    } else {
+      let lines = source.split("\n");
+      let temp_hasInnerTabs = false;
+      for (let i = 0, innerTabs = 0; i < lines.length; i++) {
+        if (!innerTabs && lines[i].startsWith(this.split)) {
+          tabnavitemtitle.push(title);
+          tabcontent.push(content2);
+          title = lines[i].substring(this.split.length);
+          content2 = "";
+        } else {
+          content2 += lines[i] + "\n";
+          if (lines[i].trim().startsWith("```")) {
+            if (!innerTabs && lines[i].trim().endsWith("tabs")) {
+              innerTabs = lines[i].trim().length - 4;
+              temp_hasInnerTabs = true;
+            } else if (innerTabs && lines[i].trim().endsWith("`".repeat(innerTabs))) {
+              innerTabs = 0;
+            }
+          } else if (lines[i].trim().startsWith("~~~")) {
+            if (!innerTabs && lines[i].trim().endsWith("tabs")) {
+              innerTabs = lines[i].trim().length - 4;
+              temp_hasInnerTabs = true;
+            } else if (innerTabs && lines[i].trim().endsWith("~".repeat(innerTabs))) {
+              innerTabs = 0;
+            }
+          }
+        }
+      }
+      hasInnerTabs = temp_hasInnerTabs;
+      tabnavitemtitle.push(title);
+      tabcontent.push(content2);
+    }
+    return [tabnavitemtitle, tabcontent];
   }
   async registerEventHandlers() {
     this.tabnav.tabnavitems.forEach((tab, index) => {
       this.plugin.registerDomEvent(tab.tabitemEl, "click", (e) => {
-        if (this.currentIndex == index) {
-          return;
-        }
         if (this.editorWrapper.isEditing) {
           const content2 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
           const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
           if (content2.trim() !== editorContent.trim()) {
-            new import_obsidian5.Notice("\u{1F7E0} Please save the current tab.");
+            !this.plugin.settings.ignoreNotice && new import_obsidian6.Notice("\u{1F7E0} Please save the current tab.");
             return;
           }
         }
         this.tabnav.refreshActiveTabNav(index);
         this.tabContents.refreshActiveTabContent(index);
-        this.editorWrapper.refreshActiveTabEditor(index, this.split + " " + this.tabnav.tabnavitems[index].title + "\n" + this.tabContents.tabcontents[index].content);
+        this.editorWrapper.refreshActiveTabEditor(index, this.split + this.tabnav.tabnavitems[index].title + "\n" + this.tabContents.tabcontents[index].content);
         this.currentIndex = index;
+        lastActiveTabIndex = index;
       });
     });
     this.plugin.registerDomEvent(this.tabContents.tabcontentsEl, "dblclick", (e) => {
       e.preventDefault();
-      if (!this.activeView || this.isPreviewMode()) {
+      if (!this.activeView || this.isPreviewMode() || this.isInnerTabs) {
         return;
       }
       this.enterEditingMode();
       const editor = this.editorWrapper.editor;
-      const transaction = editor.state.update({
+      editor.view.dispatch({
         changes: {
           from: 0,
-          to: editor.state.doc.length,
-          insert: this.split + " " + this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content.trim()
+          to: editor.view.state.doc.length,
+          insert: this.split + this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content.trim()
         }
       });
-      editor.view.dispatch(transaction);
       editor.view.focus();
     });
     this.plugin.registerDomEvent(this.tabnav.tabbutton.buttonEl, "click", (e) => {
@@ -26200,10 +26383,9 @@ var Tabs = class {
         return;
       }
       if (this.tabnav.tabbutton.type == "add-new-tab") {
-        const newTabItem = new TabNavItem(this.tabnav, this.tabnav.tabnavitems.length, "New Tab");
-        this.tabnav.append(newTabItem);
+        lastActiveTabIndex = this.tabnav.tabnavitems.length;
         const activeEditor = this.activeView?.editor;
-        activeEditor.setLine(this.sectioninfo.lineEnd, this.split + " new tab\nNew Tab Content\n" + activeEditor.getLine(this.sectioninfo.lineEnd));
+        activeEditor.setLine(this.sectioninfo.lineEnd, this.split + this.plugin.settings.defaultTabNavItem + "\n" + this.plugin.settings.defaultTabContent + "\n" + activeEditor.getLine(this.sectioninfo.lineEnd));
       } else {
         this.saveEditorData();
         this.exitEditingMode();
@@ -26211,125 +26393,29 @@ var Tabs = class {
     });
     this.plugin.registerDomEvent(this.tabnav.tabnavEl, "contextmenu", (e) => {
       e.preventDefault();
-      const menu = new import_obsidian5.Menu();
-      menu.addItem((item) => {
-        item.setTitle("Add New Tab");
-        item.setIcon("plus");
-        item.onClick(() => {
-          if (this.editorWrapper.isEditing) {
-            const content2 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
-            const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
-            if (content2.trim() !== editorContent.trim()) {
-              new import_obsidian5.Notice("\u{1F7E0} Please save the current tab before you adding a new tab.");
-              return;
-            }
-          }
-          const activeView = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
-          const activeEditor = activeView.editor;
-          activeEditor.setLine(this.sectioninfo.lineEnd, this.split + " new tab\nNew Tab Content\n" + activeEditor.getLine(this.sectioninfo.lineEnd));
-          new import_obsidian5.Notice("\u{1F7E2} Add new tab successfully");
-        });
-      });
-      menu.addItem((item) => {
-        item.setTitle("Delete Tab");
-        item.setIcon("trash");
-        item.onClick(() => {
-          let deleteIndex = -1;
-          for (let i = 0; i < this.tabnav.tabnavitems.length; i++) {
-            if (this.tabnav.tabnavitems[i].tabitemEl == e.target) {
-              deleteIndex = i;
-              break;
-            }
-          }
-          if (deleteIndex === -1) {
-            new import_obsidian5.Notice("\u{1F534} Not a valid tab.");
-            return;
-          }
-          const deleteTabTitle = this.tabnav.tabnavitems[deleteIndex].title;
-          if (this.editorWrapper.isEditing) {
-            const content2 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
-            const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
-            if (content2.trim() !== editorContent.trim()) {
-              new import_obsidian5.Notice("\u{1F7E0} Please save the current tab before deleting: " + deleteTabTitle);
-              return;
-            }
-          }
-          const newDoc = this.getNewDocByIndex(deleteIndex, "");
-          this.activeView?.editor.replaceRange(newDoc, {line: this.sectioninfo.lineStart + 1, ch: 0}, {line: this.sectioninfo.lineEnd, ch: 0});
-          new import_obsidian5.Notice("\u{1F7E2} Delete " + deleteTabTitle + " successfully");
-        });
-      });
-      menu.addItem((item) => {
-        item.setTitle("Copy Tab");
-        item.setIcon("copy");
-        item.onClick(() => {
-          let copyIndex = -1;
-          let copyContent = "";
-          for (let i = 0; i < this.tabnav.tabnavitems.length; i++) {
-            if (this.tabnav.tabnavitems[i].tabitemEl == e.target) {
-              copyIndex = i;
-              copyContent = this.split + " " + this.tabnav.tabnavitems[i].title + "\n" + this.tabContents.tabcontents[i].content;
-              break;
-            }
-          }
-          if (copyIndex === -1) {
-            new import_obsidian5.Notice("\u{1F534} Not a valid tab.");
-            return;
-          }
-          navigator.clipboard.writeText(copyContent).then(() => {
-            new import_obsidian5.Notice("\u{1F7E2} Copied to clipboard successfully.");
-          }).catch((err) => {
-            new import_obsidian5.Notice("\u{1F534} Failed to copy to clipboard");
-          });
-        });
-      });
-      menu.addItem((item) => {
-        item.setTitle("Paste Tab");
-        item.setIcon("paste");
-        item.onClick(() => {
-          navigator.clipboard.readText().then((text) => {
-            if (this.editorWrapper.isEditing) {
-              const content3 = this.tabnav.tabnavitems[this.currentIndex].title + "\n" + this.tabContents.tabcontents[this.currentIndex].content;
-              const editorContent = this.editorWrapper.editor.view.state.doc.toString().trim().substring(this.split.length);
-              if (content3.trim() !== editorContent.trim()) {
-                new import_obsidian5.Notice("\u{1F7E0} Please save the current tab.");
-                return;
-              }
-            }
-            if (!text || text.trim() === "" || text.trim() == this.split) {
-              new import_obsidian5.Notice("\u{1F7E0} No content in clipboard.");
-              return;
-            }
-            let title = "New Tab\n";
-            let content2 = text.trim();
-            if (text.startsWith(this.split)) {
-              title = text.substring(this.split.length, text.indexOf("\n"));
-              content2 = content2.substring(text.indexOf("\n"));
-            }
-            const activeEditor = this.activeView?.editor;
-            activeEditor.setLine(this.sectioninfo.lineEnd, this.split + " " + title.trim() + "\n" + content2.trim() + "\n" + activeEditor.getLine(this.sectioninfo.lineEnd));
-          }).catch((err) => {
-            new import_obsidian5.Notice("\u{1F534} Failed to paste from clipboard");
-          });
-        });
-      });
-      menu.showAtMouseEvent(e);
+      const tabmenu = new TabMenu(this, e);
+      tabmenu.showAtMouseEvent(e);
     });
   }
   saveEditorData() {
     const newDoc = this.getNewDocByIndex(this.currentIndex);
-    this.activeView?.editor.replaceRange(newDoc, {line: this.sectioninfo.lineStart + 1, ch: 0}, {line: this.sectioninfo.lineEnd, ch: 0});
+    console.log(newDoc);
+    this.activeView?.editor.replaceRange(newDoc, {line: this.sectioninfo.lineStart, ch: 0}, {line: this.sectioninfo.lineEnd, ch: this.activeView?.editor.getLine(this.sectioninfo.lineEnd).length});
   }
   getNewDocByIndex(index, doc2) {
     doc2 = doc2 == "" ? doc2 : this.editorWrapper.editor.view.state.doc.toString();
     let newDoc = "";
     for (let i = 0; i < this.tabnav.tabnavitems.length; i++) {
       if (i !== index) {
-        newDoc += "\n" + this.split + " " + this.tabnav.tabnavitems[i].title.trim() + "\n" + this.tabContents.tabcontents[i].content.trim() + "\n";
+        newDoc += this.split + this.tabnav.tabnavitems[i].title.trim() + "\n" + this.tabContents.tabcontents[i].content.trim() + "\n";
       } else {
-        newDoc += "\n" + doc2 + "\n";
+        newDoc += doc2 + "\n";
+        if (doc2.includes("```") || doc2.includes("~~~")) {
+          this.updateBackquote(doc2);
+        }
       }
     }
+    newDoc = this.backquote.repeat(this.backquoteCount) + "tabs\n" + newDoc + this.backquote.repeat(this.backquoteCount);
     return newDoc;
   }
   enterEditingMode() {
@@ -26337,34 +26423,96 @@ var Tabs = class {
     this.editorWrapper.tabEditorWrapperEl.classList.remove("tab-editor-wrapper-hidden");
     this.tabContents.tabcontentsEl.addClass("tab-contents-hidden");
     this.tabnav.tabbutton.type = "save";
-    (0, import_obsidian5.setIcon)(this.tabnav.tabbutton.buttonEl, "save");
+    (0, import_obsidian6.setIcon)(this.tabnav.tabbutton.buttonEl, "save");
+    this.tabnav.tabbutton.buttonEl.classList.remove("tab-nav-button-add");
+    this.tabnav.tabbutton.buttonEl.classList.add("tab-nav-button-save");
   }
   exitEditingMode() {
     this.editorWrapper.isEditing = false;
     this.editorWrapper.tabEditorWrapperEl.classList.add("tab-editor-wrapper-hidden");
     this.tabContents.tabcontentsEl.removeClass("tab-contents-hidden");
     this.tabnav.tabbutton.type = "add-new-tab";
-    (0, import_obsidian5.setIcon)(this.tabnav.tabbutton.buttonEl, "plus");
+    (0, import_obsidian6.setIcon)(this.tabnav.tabbutton.buttonEl, "plus");
+    this.tabnav.tabbutton.buttonEl.classList.add("tab-nav-button-add");
+    this.tabnav.tabbutton.buttonEl.classList.remove("tab-nav-button-save");
   }
   isPreviewMode() {
     return this.activeView?.leaf.getViewState().state.mode === "preview";
   }
+  updateBackquote(doc2) {
+    if (this.activeView && this.sectioninfo) {
+      const startLine = this.activeView?.editor.getLine(this.sectioninfo?.lineStart).trim();
+      if (startLine.contains("```tabs")) {
+        this.backquote = "`";
+      } else if (startLine.contains("~~~tabs")) {
+        this.backquote = "~";
+      }
+    }
+    let count2 = this.sectioninfo ? this.activeView?.editor.getLine(this.sectioninfo?.lineStart).trim().replace("tabs", "")?.length : 0;
+    this.backquoteCount = Math.max(this.backquoteCount, count2);
+    if (doc2.contains("```") || doc2.contains("~~~")) {
+      count2 = 0;
+      for (let i = 0; i < doc2.length; i++) {
+        if ((doc2[i] === "`" || doc2[i] === "~") && (doc2[i + 1] === doc2[i] || doc2[i - 1] === doc2[i])) {
+          count2++;
+          this.backquoteCount = Math.max(this.backquoteCount, count2 + 1);
+        } else {
+          count2 = 0;
+        }
+      }
+      this.backquoteCount = Math.max(this.backquoteCount, count2 + 1);
+    }
+  }
 };
 
 // src/main.ts
-var TabsPlugin = class extends import_obsidian6.Plugin {
+var TabsPlugin = class extends import_obsidian7.Plugin {
   async onload() {
     await this.loadSettings();
     this.addSettingTab(new TabsSettingsTab(this.app, this));
     this.registerMarkdownCodeBlockProcessor("tabs", (source, el, ctx) => {
       new Tabs(source, el, ctx, this.app, this, this.settings);
     });
+    this.registerCommands();
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
   }
   async saveSettings() {
     await this.saveData(this.settings);
+  }
+  async registerCommands() {
+    this.addCommand({
+      id: "convert-to-tabs",
+      name: "Convert selected text to tabs",
+      editorCallback: (editor, view) => {
+        const selectedText = editor.getSelection();
+        if (selectedText.trim() === "") {
+          editor.replaceSelection("```tabs\n" + this.settings.split + this.settings.defaultTabNavItem + "\n" + this.settings.defaultTabContent + "\n```");
+        } else if (selectedText.includes("```")) {
+          let maxCount = 0;
+          for (let i = 0, count2 = 0; i < selectedText.length; i++) {
+            if (selectedText[i] === "`") {
+              count2++;
+              maxCount = Math.max(maxCount, count2);
+            } else {
+              count2 = 0;
+            }
+          }
+          if (selectedText.startsWith(this.settings.split)) {
+            editor.replaceSelection("`".repeat(maxCount + 1) + "tabs\n" + selectedText + "\n" + "`".repeat(maxCount + 1));
+          } else {
+            editor.replaceSelection("`".repeat(maxCount + 1) + "tabs\n" + this.settings.split + this.settings.defaultTabNavItem + "\n" + selectedText + "\n" + "`".repeat(maxCount + 1));
+          }
+        } else {
+          if (selectedText.startsWith(this.settings.split)) {
+            editor.replaceSelection("```tabs\n" + selectedText + "\n```");
+          } else {
+            editor.replaceSelection("```tabs\n" + this.settings.split + this.settings.defaultTabNavItem + "\n" + selectedText + "\n```");
+          }
+        }
+      }
+    });
   }
 };
 var main_default = TabsPlugin;

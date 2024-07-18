@@ -30,10 +30,13 @@
       "icon": "lucide-home"
     },
     "100-UTTU人物合辑": {
-      "icon": "lucide-person-standing"
+      "icon": "lucide-person-standing",
+      "unsynced": [
+        "37ea80a122ea145d"
+      ]
     }
   },
-  "groupIcons": {},
+  "bookmarkIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {}
 }
