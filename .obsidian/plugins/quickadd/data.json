@@ -547,7 +547,7 @@
   "devMode": false,
   "templateFolderPath": "000-箱的构造/templates",
   "announceUpdates": true,
-  "version": "1.10.0",
+  "version": "1.11.0",
   "disableOnlineFeatures": false,
   "enableRibbonIcon": false,
   "ai": {
