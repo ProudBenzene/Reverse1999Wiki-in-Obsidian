@@ -29,7 +29,6 @@
     "[bon]书库小封面",
     "关系图谱",
     "[Minimal]Cards",
-    "[PKMer&Minimal]Cards",
     "[Project] 画廊图片显示上半部分",
     "[Discord]Bullet Threading",
     "[PKMer] 内外链标志",
@@ -45,8 +44,8 @@
     "[PKMer]行内图片",
     "[PKMer]文件夹添加头像",
     "[PKMer]卡片化阅览",
-    "[PKMer]表格优化",
     "[Discord]书库封面",
-    "[Discord]书库小封面"
+    "[Discord]书库小封面",
+    "[Discord]Cards"
   ]
 }

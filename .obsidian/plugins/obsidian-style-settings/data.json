@@ -721,5 +721,13 @@
   "Editor@@h3-color-select": "h3-color-designated",
   "Editor@@h4-color-select": "h4-color-designated",
   "Editor@@h5-color-select": "h5-color-designated",
-  "Editor@@h6-color-select": "h6-color-designated"
+  "Editor@@h6-color-select": "h6-color-designated",
+  "a-unique-id@@cards-rows-height": 30,
+  "a-unique-id@@cards-columns-gap": 5,
+  "a-unique-id@@cards-row-gap": 5,
+  "a-unique-id@@cards-border-width": 2,
+  "a-unique-id@@cards-image-height": 300,
+  "a-unique-id@@cards-image-fit": "cover",
+  "a-unique-id@@cards-image-zoom": 100,
+  "a-unique-id@@cards-image-radius": 0
 }
