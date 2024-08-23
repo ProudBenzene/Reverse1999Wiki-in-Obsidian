@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "e6586db7d51ab9c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家混血种｜Mixed/数羊羔｜Barbara.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -62,21 +50,8 @@
               "type": "obsidian-projects",
               "state": {}
             }
-          },
-          {
-            "id": "c99adb22c51621f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -280,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -332,28 +307,29 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "c99adb22c51621f3",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/数羊羔｜Barbara.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/蓝手帕｜Tuesday.md",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/单品 数羊羔 02.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/单品 数羊羔 01.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/单品 数羊羔 03.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/神秘术 跳绵羊.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/神秘术1.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/至终的仪式 向此处、向此处.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/神秘术 草坪对谈1.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/神秘术 草坪对谈3.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/神秘术 草坪对谈2.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets/神秘术 好梦难成2.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/数羊羔｜Barbara.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/维拉｜Вила.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/维拉｜Вила.assets/神秘术 鼓舞之歌.png",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/主页.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/蓝手帕｜Tuesday.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/单品 蓝手帕 03.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/单品 蓝手帕 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/单品 蓝手帕 01.png",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/槲寄生｜Druvis III.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/蓝手帕｜Tuesday~.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/至终的仪式 请进、请进 1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/神秘术 累日的拍抚1 1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/神秘术 “怯”与“喜”1 1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/至终的仪式 请进、请进.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/神秘术 累日的拍抚3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets/神秘术 累日的拍抚1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/蓝手帕｜Tuesday.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/环状水星｜Mercuria.md",
     "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
@@ -370,7 +346,6 @@
     "000-箱的构造/箱中memos/20240809-478b01b006164b45.md",
     "000-箱的构造/箱中memos/20240809-e64db0a072b5a79d.md",
     "000-箱的构造/箱中memos/20240809-901b5cf309a8417e.md",
-    "300-以影像之/302-支线/再见，来亚什基.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/环状水星｜Mercuria.assets",
     "anu主题配置.zip",
     "葛天.json",
@@ -379,7 +354,6 @@
     "100-UTTU人物合辑/人类｜Human/assets 2",
     "000-箱的构造/README/assets 2",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets 2",
-    "000-箱的构造/script/tp",
     "未命名.canvas",
     "白板.canvas"
   ]
