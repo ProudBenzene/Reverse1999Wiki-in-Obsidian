@@ -1,59 +1,4 @@
 {
-  "easy-typing-obsidian:easy-typing-format-switch": [],
-  "editor:toggle-source": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "R"
-    }
-  ],
-  "workspace:next-tab": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Tab"
-    },
-    {
-      "modifiers": [
-        "Meta",
-        "Shift"
-      ],
-      "key": "]"
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "="
-    }
-  ],
-  "workspace:previous-tab": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "Tab"
-    },
-    {
-      "modifiers": [
-        "Meta",
-        "Shift"
-      ],
-      "key": "["
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "-"
-    }
-  ],
-  "workspace:undo-close-pane": [],
   "editor:insert-table": [
     {
       "modifiers": [
@@ -61,6 +6,23 @@
         "Mod"
       ],
       "key": "T"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
     }
   ],
   "obsidian-footnotes:insert-autonumbered-footnote": [
@@ -79,49 +41,6 @@
         "Shift"
       ],
       "key": "-"
-    }
-  ],
-  "workspaces-plus:open-workspaces-plus": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Enter"
-    }
-  ],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
-  "float-search:open-search-view-window": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
-  "Enhanced-editing:mouse-end": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
-  "Enhanced-editing:mouse-start": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowLeft"
     }
   ]
 }

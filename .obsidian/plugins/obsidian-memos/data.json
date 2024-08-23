@@ -22,6 +22,7 @@
   "AppendDateWhenTaskDone": false,
   "MobileAndDesktop": "Mobile",
   "OpenMemosAutomatically": false,
+  "ShowScrollbar": false,
   "ShowTime": true,
   "ShowDate": true,
   "AddBlankLineWhenDate": false,
@@ -96,7 +97,7 @@
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405132046286.jpg",
   "MomentsQuote": "The Storm is coming...",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.49",
+  "LastUpdatedVersion": "2.4.51",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -125,5 +126,6 @@
   "AlwaysShowStatusText": false,
   "FilterByMetadata": true,
   "ShowSourcePath": true,
-  "ShowUpdateMessage": true
+  "ShowUpdateMessage": true,
+  "SyncManually": false
 }

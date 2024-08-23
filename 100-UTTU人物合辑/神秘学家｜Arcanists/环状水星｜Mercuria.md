@@ -13,7 +13,7 @@ cssclasses:
 传承: 漫长行迹
 造像: 如河水般流淌，如琴弦般震颤，于不可见之处黯淡再明亮。
 银行彩色相片: 随心启程的流浪者，应时而停的疗愈师，你最自由的朋友之一。
-Udimo: 
+Udimo: 独角兽类
 征集: 热夜的冷色｜Calming Hues in Frenzied Nights
 定位标签:
   - 辅助
@@ -34,7 +34,7 @@ aliases:
 初始立绘: "[[立绘 环状水星 01.png]]"
 本色立绘: "[[立绘 环状水星 02.png]]"
 生日: 2024-02-18
-banner_header: "{{filename}}"
+banner_header: 
 出场章节:
   - 2.0｜飞驰明日之城
 ---

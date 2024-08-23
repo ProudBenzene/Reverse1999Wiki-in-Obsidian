@@ -1,0 +1,11 @@
+{
+  "id": "dataview-publisher",
+  "name": "Dataview Publisher",
+  "version": "0.3.9",
+  "minAppVersion": "1.6.3",
+  "description": "Output markdown from your Dataview queries and keep them up to date. You can also publish them.",
+  "author": "UD",
+  "authorUrl": "https://notes.udus.dev",
+  "fundingUrl": "https://www.buymeacoffee.com/udus",
+  "isDesktopOnly": false
+}

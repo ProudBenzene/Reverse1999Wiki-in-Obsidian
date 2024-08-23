@@ -92,8 +92,14 @@ var require_ar = __commonJS({
         files: "\u0645\u0644\u0641\u0627\u062A",
         folder: "\u0645\u062C\u0644\u062F",
         folders: "\u0645\u062C\u0644\u062F\u0627\u062A",
-        group: "\u0645\u062C\u0645\u0648\u0639\u0629 \u0625\u0634\u0627\u0631\u0627\u062A \u0645\u0631\u062C\u0639\u064A\u0629",
-        groups: "\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0627\u0644\u0645\u0631\u062C\u0639\u064A\u0629",
+        group: "\u0645\u062C\u0645\u0648\u0639\u0629",
+        groups: "\u0645\u062C\u0645\u0648\u0639\u0627\u062A",
+        search: "\u0627\u0633\u062A\u0639\u0644\u0627\u0645",
+        searches: "\u0627\u0633\u062A\u0639\u0644\u0627\u0645\u0627\u062A",
+        graph: "\u0627\u0644\u0639\u0631\u0636 \u0627\u0644\u0628\u064A\u0627\u0646\u064A",
+        graphs: "\u0627\u0644\u0639\u0631\u0648\u0636 \u0627\u0644\u0628\u064A\u0627\u0646\u064A\u0629",
+        url: "\u0631\u0627\u0628\u0637",
+        urls: "\u0631\u0648\u0627\u0628\u0637",
         property: "\u062E\u0627\u0635\u064A\u0629",
         properties: "\u062E\u0627\u0635\u064A\u0627\u062A ",
         ribbonItem: "\u0623\u0645\u0631 \u0627\u0644\u0634\u0631\u064A\u0637 \u0627\u0644\u062C\u0627\u0646\u0628\u064A",
@@ -230,8 +236,14 @@ var require_de = __commonJS({
         files: "Dateien",
         folder: "Ordner",
         folders: "Ordner",
-        group: "Gruppe von Lesezeichen",
-        groups: "Gruppen von Lesezeichen",
+        group: "Gruppe",
+        groups: "Gruppen",
+        search: "Abfrage",
+        searches: "Abfragen",
+        graph: "Graph",
+        graphs: "Graphen",
+        url: "URL",
+        urls: "URLs",
         property: "Property",
         properties: "Properties",
         ribbonItem: "Sidebar-Befehl",
@@ -368,8 +380,14 @@ var require_es = __commonJS({
         files: "Archivos",
         folder: "Carpeta",
         folders: "Carpetas",
-        group: "Grupo de marcadores",
-        groups: "Grupos de marcadores",
+        group: "Grupo",
+        groups: "Grupos",
+        search: "Consulta",
+        searches: "Consultas",
+        graph: "Gr\xE1fica",
+        graphs: "Gr\xE1ficos",
+        url: "URL",
+        urls: "URL",
         property: "Propiedad",
         properties: "Propiedades",
         ribbonItem: "Comando de cinta",
@@ -506,8 +524,14 @@ var require_fr = __commonJS({
         files: "Fichiers",
         folder: "Dossier",
         folders: "Dossiers",
-        group: "Groupe de signets",
-        groups: "Groupes de signets",
+        group: "Groupe",
+        groups: "Groupes",
+        search: "Requ\xEAte",
+        searches: "Requ\xEAtes",
+        graph: "Graphique",
+        graphs: "Graphiques",
+        url: "URL",
+        urls: "URL",
         property: "Propri\xE9t\xE9",
         properties: "Propri\xE9t\xE9s",
         ribbonItem: "Commande du ruban",
@@ -644,8 +668,14 @@ var require_id = __commonJS({
         files: "Berkas",
         folder: "Folder",
         folders: "Folder",
-        group: "Grup penanda buku",
-        groups: "Grup penanda buku",
+        group: "Grup",
+        groups: "Grup",
+        search: "Kueri",
+        searches: "Kueri",
+        graph: "Grafik",
+        graphs: "Grafik",
+        url: "URL",
+        urls: "URL",
         property: "Properti",
         properties: "Properti",
         ribbonItem: "Perintah ribbon",
@@ -782,8 +812,14 @@ var require_ja = __commonJS({
         files: "\u30D5\u30A1\u30A4\u30EB",
         folder: "\u30D5\u30A9\u30EB\u30C0",
         folders: "\u30D5\u30A9\u30EB\u30C0",
-        group: "\u30D6\u30C3\u30AF\u30DE\u30FC\u30AF\u30B0\u30EB\u30FC\u30D7",
-        groups: "\u30D6\u30C3\u30AF\u30DE\u30FC\u30AF\u30B0\u30EB\u30FC\u30D7",
+        group: "\u30B0\u30EB\u30FC\u30D7",
+        groups: "\u30B0\u30EB\u30FC\u30D7",
+        search: "\u30AF\u30A8\u30EA",
+        searches: "\u30AF\u30A8\u30EA",
+        graph: "\u30B0\u30E9\u30D5",
+        graphs: "\u30B0\u30E9\u30D5",
+        url: "URL",
+        urls: "URL",
         property: "\u30D7\u30ED\u30D1\u30C6\u30A3",
         properties: "\u30D7\u30ED\u30D1\u30C6\u30A3",
         ribbonItem: "\u30EA\u30DC\u30F3\u30B3\u30DE\u30F3\u30C9",
@@ -920,8 +956,14 @@ var require_ru = __commonJS({
         files: "\u0424\u0430\u0439\u043B\u044B",
         folder: "\u041F\u0430\u043F\u043A\u0430",
         folders: "\u041F\u0430\u043F\u043A\u0438",
-        group: "\u0413\u0440\u0443\u043F\u043F\u0430 \u0437\u0430\u043A\u043B\u0430\u0434\u043E\u043A",
-        groups: "\u0413\u0440\u0443\u043F\u043F\u044B \u0437\u0430\u043A\u043B\u0430\u0434\u043E\u043A",
+        group: "\u0413\u0440\u0443\u043F\u043F\u0430",
+        groups: "\u0413\u0440\u0443\u043F\u043F\u044B",
+        search: "\u0417\u0430\u043F\u0440\u043E\u0441",
+        searches: "\u0417\u0430\u043F\u0440\u043E\u0441\u044B",
+        graph: "\u0413\u0440\u0430\u0444",
+        graphs: "\u0413\u0440\u0430\u0444\u043E\u0432",
+        url: "URL",
+        urls: "URL",
         property: "\u0421\u0432\u043E\u0439\u0441\u0442\u0432\u043E",
         properties: "\u0421\u0432\u043E\u0439\u0441\u0442\u0432",
         ribbonItem: "\u041B\u0435\u043D\u0442\u043E\u0447\u043D\u0430\u044F \u043A\u043E\u043C\u0430\u043D\u0434\u0430",
@@ -1060,6 +1102,12 @@ var require_zh = __commonJS({
         folders: "\u6587\u4EF6\u5939",
         group: "\u4E66\u7B7E\u7EC4",
         groups: "\u4E66\u7B7E\u7EC4",
+        search: "\u67E5\u8BE2",
+        searches: "\u67E5\u8BE2",
+        graph: "\u5173\u7CFB\u56FE\u8C31",
+        graphs: "\u5173\u7CFB\u56FE\u8C31",
+        url: "URL",
+        urls: "URL",
         property: "\u6587\u6863\u5C5E\u6027",
         properties: "\u6587\u6863\u5C5E\u6027",
         ribbonItem: "\u5DE5\u5177\u680F\u547D\u4EE4",
@@ -1377,10 +1425,10 @@ var ColorUtils = class {
     if (REGEX_HEX_COLOR.test(cssValue)) {
       return cssValue;
     } else if (REGEX_RGB_COLOR.test(cssValue)) {
-      const [r, g, b] = cssValue.replace(" ", "").slice(4, -1).split(",").map((str) => parseInt(str).toString(16).padStart(2, "0"));
+      const [r, g, b] = cssValue.replaceAll(/\s/g, "").slice(4, -1).split(",").map((str) => parseInt(str).toString(16).padStart(2, "0"));
       return "#" + r + g + b;
     } else if (REGEX_HSL_COLOR.test(cssValue)) {
-      let [h, s, l] = cssValue.replace(" ", "").replace("%", "").slice(4, -1).split(",").map((str) => parseInt(str));
+      const [h, s, l] = cssValue.replaceAll(/[\s%]/g, "").slice(4, -1).split(",").map((str) => parseInt(str));
       const [r, g, b] = this.hslToRgb(h, s, l).map((int) => int.toString(16).padStart(2, "0"));
       return "#" + r + g + b;
     } else {
@@ -1399,10 +1447,10 @@ var ColorUtils = class {
       const b = parseInt(rgb.slice(4, 6), 16);
       return [r, g, b];
     } else if (REGEX_RGB_COLOR.test(cssValue)) {
-      const [r, g, b] = cssValue.replace(" ", "").slice(4, -1).split(",").map((str) => parseInt(str));
+      const [r, g, b] = cssValue.replaceAll(/\s/g, "").slice(4, -1).split(",").map((str) => parseInt(str));
       return [r, g, b];
     } else if (REGEX_HSL_COLOR.test(cssValue)) {
-      let [h, s, l] = cssValue.replace(" ", "").replace("%", "").slice(4, -1).split(",").map((str) => parseInt(str));
+      const [h, s, l] = cssValue.replaceAll(/[\s%]/g, "").slice(4, -1).split(",").map((str) => parseInt(str));
       return this.hslToRgb(h, s, l);
     } else {
       return [0, 0, 0];
@@ -1507,11 +1555,11 @@ var IconManager = class {
     const svgEl = iconEl.find(".svg-icon");
     if (svgEl) {
       if (ColorUtils.isNamedColor(item.color)) {
-        svgEl.setAttr("stroke", ColorUtils.getColorHex(item.color));
+        svgEl.style.setProperty("color", ColorUtils.getColorHex(item.color));
       } else if (ColorUtils.isHexColor(item.color)) {
-        svgEl.setAttr("stroke", item.color);
+        svgEl.style.setProperty("color", item.color);
       } else {
-        svgEl.setAttr("stroke", "currentColor");
+        svgEl.style.removeProperty("color");
       }
     }
     if (onClick) {
@@ -1634,7 +1682,7 @@ var IconPickerManager = class extends IconManager {
   }
 };
 var IconPicker = class extends import_obsidian3.Modal {
-  constructor(plugin, titleLabel, categoryLabel, idLabel, icon, color, callback, multiCallback) {
+  constructor(plugin, titleText, categoryText, nameText, icon, color, callback, multiCallback) {
     super(plugin.app);
     // State
     this.emojiMode = false;
@@ -1642,9 +1690,9 @@ var IconPicker = class extends import_obsidian3.Modal {
     this.searchResults = [];
     this.plugin = plugin;
     this.manager = new IconPickerManager(plugin);
-    this.titleLabel = titleLabel;
-    this.categoryLabel = categoryLabel;
-    this.idLabel = idLabel;
+    this.titleText = titleText;
+    this.categoryText = categoryText;
+    this.nameText = nameText;
     this.icon = icon;
     this.color = color;
     this.callback = callback;
@@ -1662,74 +1710,92 @@ var IconPicker = class extends import_obsidian3.Modal {
    * Open a dialog to change a single icon.
    */
   static openSingle(plugin, item, callback) {
-    const titleLabel = Strings.iconPicker.changeIcon;
-    const idLabel = item.name;
-    let categoryLabel;
+    const title = Strings.iconPicker.changeIcon;
+    const nameText = item.name;
+    let categoryText;
     switch (item.category) {
       case "app":
-        categoryLabel = Strings.categories.appItem;
+        categoryText = Strings.categories.appItem;
         break;
       case "tab":
-        categoryLabel = Strings.categories.tab;
+        categoryText = Strings.categories.tab;
         break;
       case "file":
-        categoryLabel = Strings.categories.file;
+        categoryText = Strings.categories.file;
         break;
       case "folder":
-        categoryLabel = Strings.categories.folder;
+        categoryText = Strings.categories.folder;
         break;
       case "group":
-        categoryLabel = Strings.categories.group;
+        categoryText = Strings.categories.group;
+        break;
+      case "search":
+        categoryText = Strings.categories.search;
+        break;
+      case "graph":
+        categoryText = Strings.categories.graph;
+        break;
+      case "url":
+        categoryText = Strings.categories.url;
         break;
       case "property":
-        categoryLabel = Strings.categories.property;
+        categoryText = Strings.categories.property;
         break;
       case "ribbon":
-        categoryLabel = Strings.categories.ribbonItem;
+        categoryText = Strings.categories.ribbonItem;
         break;
       default:
-        categoryLabel = Strings.categories.item;
+        categoryText = Strings.categories.item;
         break;
     }
-    new IconPicker(plugin, titleLabel, categoryLabel, idLabel, item.icon, item.color, callback, null).open();
+    new IconPicker(plugin, title, categoryText, nameText, item.icon, item.color, callback, null).open();
   }
   /**
    * Open a dialog to change multiple icons at once.
    */
   static openMulti(plugin, items, multiCallback) {
-    const titleLabel = Strings.iconPicker.changeIcons.replace("{#}", items.length.toString());
-    const idLabel = items.map((item) => item.name).join(", ");
+    const title = Strings.iconPicker.changeIcons.replace("{#}", items.length.toString());
+    const nameText = items.map((item) => item.name).join(", ");
     const everyCategory = items.every((item) => item.category === items[0].category) ? items[0].category : void 0;
     const everyIcon = items.every((item) => item.icon === items[0].icon) ? items[0].icon : void 0;
     const everyColor = items.every((item) => item.color === items[0].color) ? items[0].color : void 0;
-    let categoryLabel;
+    let categoryText;
     switch (everyCategory) {
       case "app":
-        categoryLabel = Strings.categories.appItems;
+        categoryText = Strings.categories.appItems;
         break;
       case "tab":
-        categoryLabel = Strings.categories.tabs;
+        categoryText = Strings.categories.tabs;
         break;
       case "file":
-        categoryLabel = Strings.categories.files;
+        categoryText = Strings.categories.files;
         break;
       case "folder":
-        categoryLabel = Strings.categories.folders;
+        categoryText = Strings.categories.folders;
         break;
       case "group":
-        categoryLabel = Strings.categories.groups;
+        categoryText = Strings.categories.groups;
+        break;
+      case "search":
+        categoryText = Strings.categories.searches;
+        break;
+      case "graph":
+        categoryText = Strings.categories.graphs;
+        break;
+      case "url":
+        categoryText = Strings.categories.urls;
         break;
       case "property":
-        categoryLabel = Strings.categories.properties;
+        categoryText = Strings.categories.properties;
         break;
       case "ribbon":
-        categoryLabel = Strings.categories.ribbonItems;
+        categoryText = Strings.categories.ribbonItems;
         break;
       default:
-        categoryLabel = Strings.categories.items;
+        categoryText = Strings.categories.items;
         break;
     }
-    new IconPicker(plugin, titleLabel, categoryLabel, idLabel, everyIcon, everyColor, null, multiCallback).open();
+    new IconPicker(plugin, title, categoryText, nameText, everyIcon, everyColor, null, multiCallback).open();
   }
   /**
    * @override
@@ -1737,14 +1803,16 @@ var IconPicker = class extends import_obsidian3.Modal {
   onOpen() {
     this.containerEl.addClass("mod-confirmation");
     this.modalEl.addClass("iconic-modal");
-    this.setTitle(this.titleLabel);
+    this.setTitle(this.titleText);
     const showItemName = this.plugin.settings.showItemName === "on" || import_obsidian3.Platform.isDesktop && this.plugin.settings.showItemName === "desktop" || import_obsidian3.Platform.isMobile && this.plugin.settings.showItemName === "mobile";
     if (showItemName) {
-      new import_obsidian3.Setting(this.contentEl).setName(this.categoryLabel).addText((itemNameField) => itemNameField.setValue(this.idLabel)).setDisabled(true);
+      new import_obsidian3.Setting(this.contentEl).setName(this.categoryText).addText((itemNameField) => itemNameField.setValue(this.nameText)).setDisabled(true);
     }
     this.searchSetting = new import_obsidian3.Setting(this.contentEl).addExtraButton((colorResetButton) => {
       colorResetButton.setIcon("lucide-rotate-ccw").setTooltip(Strings.iconPicker.resetColor).onClick(() => this.resetColor());
       colorResetButton.extraSettingsEl.tabIndex = 0;
+      colorResetButton.extraSettingsEl.addClass("iconic-reset-color");
+      colorResetButton.extraSettingsEl.toggleClass("iconic-invisible", this.color === null);
       this.manager.setEventListener(colorResetButton.extraSettingsEl, "pointerdown", (event) => {
         event.preventDefault();
       });
@@ -1753,8 +1821,6 @@ var IconPicker = class extends import_obsidian3.Modal {
           this.resetColor();
         }
       });
-      if (this.color === null)
-        colorResetButton.extraSettingsEl.hide();
       this.colorResetButton = colorResetButton;
     }).addColorPicker((colorPicker) => {
       colorPicker.setValue(ColorUtils.getColorHex(this.color)).onChange((value) => {
@@ -1764,7 +1830,7 @@ var IconPicker = class extends import_obsidian3.Modal {
         }
         this.color = value;
         this.colorPickerEl.ariaLabel = this.color;
-        this.colorResetButton.extraSettingsEl.show();
+        this.colorResetButton.extraSettingsEl.removeClass("iconic-invisible");
         this.updateSearchResults();
       });
       this.colorPicker = colorPicker;
@@ -1863,10 +1929,10 @@ var IconPicker = class extends import_obsidian3.Modal {
     });
     if (this.icon) {
       if (ICONS.has(this.icon)) {
-        this.searchField.setValue(ICONS.get(this.icon));
+        this.searchField.setValue(ICONS.get(this.icon) ?? "");
       } else if (Emojis_default.has(this.icon)) {
         this.toggleEmojiMode();
-        this.searchField.setValue(Emojis_default.get(this.icon));
+        this.searchField.setValue(Emojis_default.get(this.icon) ?? "");
       }
     }
     if (!import_obsidian3.Platform.isPhone) {
@@ -1888,13 +1954,13 @@ var IconPicker = class extends import_obsidian3.Modal {
     const menu = new import_obsidian3.Menu();
     for (const color of COLORS) {
       menu.addItem((menuItem) => {
-        menuItem.setTitle(Strings.iconPicker.colors[color]).setIcon("lucide-paint-bucket").setSection("color").onClick(() => {
+        menuItem.setTitle(Strings.iconPicker.colors[color]).setSection("color").onClick(() => {
           this.color = color;
-          this.colorResetButton.extraSettingsEl.show();
+          this.colorResetButton.extraSettingsEl.removeClass("iconic-invisible");
           this.updateColorPicker();
           this.updateSearchResults();
         });
-        menuItem.iconEl?.find(".svg-icon")?.setAttr("stroke", ColorUtils.getColorHex(color));
+        this.manager.refreshIcon({ icon: "lucide-paint-bucket", color }, menuItem.iconEl);
       });
     }
     menu.showAtPosition({ x, y });
@@ -1908,7 +1974,7 @@ var IconPicker = class extends import_obsidian3.Modal {
       index = COLORS.indexOf(this.color) - 1;
     }
     this.color = COLORS[index];
-    this.colorResetButton.extraSettingsEl.show();
+    this.colorResetButton.extraSettingsEl.removeClass("iconic-invisible");
     this.updateColorPicker();
     this.updateSearchResults();
   }
@@ -1921,7 +1987,7 @@ var IconPicker = class extends import_obsidian3.Modal {
       index = COLORS.indexOf(this.color) + 1;
     }
     this.color = COLORS[index];
-    this.colorResetButton.extraSettingsEl.show();
+    this.colorResetButton.extraSettingsEl.removeClass("iconic-invisible");
     this.updateColorPicker();
     this.updateSearchResults();
   }
@@ -1930,7 +1996,7 @@ var IconPicker = class extends import_obsidian3.Modal {
    */
   resetColor() {
     this.color = null;
-    this.colorResetButton.extraSettingsEl.hide();
+    this.colorResetButton.extraSettingsEl.addClass("iconic-invisible");
     this.updateColorPicker();
     this.updateSearchResults();
   }
@@ -1995,7 +2061,7 @@ var IconPicker = class extends import_obsidian3.Modal {
         }
       }
     matches.sort(([scoreA], [scoreB]) => scoreA > scoreB ? -1 : 1);
-    for (const [score, iconEntry] of matches) {
+    for (const [, iconEntry] of matches) {
       this.searchResults.push(iconEntry);
       if (this.searchResults.length === this.plugin.settings.maxSearchResults)
         break;
@@ -2137,6 +2203,18 @@ var TabIconManager = class extends IconManager {
     if (this.app.plugins?.plugins?.["obsidian-icon-folder"]) {
       this.plugin.registerEvent(this.app.workspace.on("active-leaf-change", () => this.refreshIcons()));
     }
+    const tabListEl = activeDocument.body.find(".mod-root .workspace-tab-header-tab-list > .clickable-icon");
+    if (tabListEl)
+      this.setEventListener(tabListEl, "click", () => {
+        const tabs = this.plugin.getTabItems().filter((tab) => tab.isRoot);
+        this.plugin.menuManager.forSection("tablist", (item, i) => {
+          const tab = tabs[i];
+          if (tab) {
+            tab.iconDefault = tab.iconDefault ?? "lucide-file";
+            this.refreshIcon(tab, item.iconEl);
+          }
+        });
+      });
     this.refreshIcons();
   }
   /**
@@ -2173,6 +2251,14 @@ var TabIconManager = class extends IconManager {
       } else {
         this.refreshIcon(tab, iconEl);
       }
+      this.setEventListener(tabEl, "dragstart", () => {
+        if (tab.icon || tab.iconDefault) {
+          const ghostEl = activeDocument.body.find(":scope > .drag-ghost > .drag-ghost-icon");
+          if (ghostEl) {
+            this.refreshIcon({ icon: tab.icon ?? tab.iconDefault, color: tab.color }, ghostEl);
+          }
+        }
+      });
       if (!tab.isFile || !tabEl.hasClass("is-active")) {
         this.setEventListener(tabEl, "contextmenu", () => this.onContextMenu(tab.id, tab.isFile));
       }
@@ -2358,6 +2444,17 @@ var FileIconManager = class extends IconManager {
       } else {
         this.refreshIcon(file, iconEl);
       }
+      this.setEventListener(selfEl, "dragstart", () => {
+        if (file.icon || file.iconDefault || file.color) {
+          const ghostEl = activeDocument.body.find(":scope > .drag-ghost > .drag-ghost-self");
+          if (ghostEl) {
+            const spanEl = ghostEl.find("span");
+            const ghostIcon = file.category === "folder" && file.icon === null ? "lucide-folder-open" : file.icon || file.iconDefault;
+            this.refreshIcon({ icon: ghostIcon, color: file.color }, ghostEl);
+            ghostEl.appendChild(spanEl);
+          }
+        }
+      });
     }
   }
   /**
@@ -2530,6 +2627,17 @@ var BookmarkIconManager = class extends IconManager {
           }
         }, { capture: true });
       }
+      this.setEventListener(selfEl, "dragstart", () => {
+        if (bmark.icon || bmark.iconDefault) {
+          const ghostEl = activeDocument.body.find(":scope > .drag-ghost > .drag-ghost-self");
+          if (ghostEl) {
+            const spanEl = ghostEl.find("span");
+            const ghostIcon = bmark.category === "group" && bmark.icon === null ? "lucide-bookmark" : bmark.icon || bmark.iconDefault;
+            this.refreshIcon({ icon: ghostIcon, color: bmark.color }, ghostEl);
+            ghostEl.appendChild(spanEl);
+          }
+        }
+      });
     }
   }
   /**
@@ -2883,6 +2991,30 @@ var RibbonIconManager = class extends IconManager {
     const containerEl = this.app.workspace.leftRibbon.ribbonItemsEl;
     this.setEventListener(containerEl, "auxclick", (event) => event.stopPropagation(), { capture: true });
     this.setMutationObserver(containerEl, { childList: true }, () => this.refreshIcons());
+    const ribbonEl = activeDocument.body.find(
+      import_obsidian7.Platform.isDesktop ? ".side-dock-ribbon.mod-left.workspace-ribbon" : ".side-dock-ribbon.mod-left.workspace-drawer-ribbon"
+    );
+    if (ribbonEl)
+      this.setEventListener(ribbonEl, "contextmenu", () => {
+        const ribbonItems = this.plugin.getRibbonItems();
+        this.plugin.menuManager.forSection("order", (item) => {
+          const ribbonItem = ribbonItems[0];
+          if (ribbonItem) {
+            item.setIcon(ribbonItem.icon);
+            this.refreshIcon(ribbonItem, item.iconEl);
+            ribbonItems.shift();
+          }
+        });
+      });
+    this.setMutationObserver(activeDocument.body, { childList: true }, (mutations) => {
+      for (const mutation of mutations) {
+        for (const addedNode of mutation.addedNodes) {
+          if (addedNode instanceof HTMLElement && addedNode.hasClass("modal-container") && addedNode.find(".modal-content > div > .mobile-option-setting-item") && addedNode.find(".modal-content > .modal-button-container")) {
+            this.refreshConfigIcons(addedNode);
+          }
+        }
+      }
+    });
   }
   /**
    * Refresh all ribbon icons.
@@ -2893,8 +3025,42 @@ var RibbonIconManager = class extends IconManager {
       const iconEl = ribbonItem.iconEl;
       if (!iconEl)
         continue;
+      if (ribbonItem.isHidden) {
+        ribbonItem.icon = null;
+        ribbonItem.iconDefault = null;
+      }
       this.refreshIcon(ribbonItem, iconEl);
       this.setEventListener(iconEl, "contextmenu", (event) => this.onContextMenu(ribbonItem.id, event));
+    }
+  }
+  /**
+   * Refresh all icons in the ribbon configuration dialog.
+   */
+  refreshConfigIcons(containerEl) {
+    const iconEls = containerEl.findAll(".mobile-option-setting-item-option-icon:not(.mobile-option-setting-drag-icon)");
+    if (iconEls.length === 0)
+      return;
+    const ribbonItems = this.plugin.getRibbonItems();
+    const visibleItems = ribbonItems.filter((item) => !item.isHidden);
+    const hiddenItems = ribbonItems.filter((item) => item.isHidden);
+    const visibleEls = containerEl.findAll(".mobile-option-setting-item:has(.mobile-option-setting-item-remove-icon)");
+    const hiddenEls = containerEl.findAll(".mobile-option-setting-item:has(.mobile-option-setting-item-add-icon)");
+    const configItems = [
+      ...visibleItems.map((item, i) => [item, visibleEls[i], "mobile-option-setting-item-remove-icon"]),
+      ...hiddenItems.map((item, i) => [item, hiddenEls[i], "mobile-option-setting-item-add-icon"])
+    ];
+    for (const [item, itemEl, buttonClass] of configItems) {
+      const iconEl = itemEl.find(":scope > .mobile-option-setting-item-option-icon");
+      const buttonEl = itemEl.find(":scope > ." + buttonClass);
+      this.refreshIcon(item, iconEl, (event) => {
+        IconPicker.openSingle(this.plugin, item, (newIcon, newColor) => {
+          this.plugin.saveRibbonIcon(item, newIcon, newColor);
+          this.refreshIcons();
+          this.refreshConfigIcons(containerEl);
+        });
+        event.stopPropagation();
+      });
+      this.setEventListener(buttonEl, "click", () => this.refreshConfigIcons(containerEl));
     }
   }
   /**
@@ -2964,23 +3130,22 @@ var MenuManager = class {
    */
   addItemAfter(preSections, callback) {
     if (this.menu) {
-      let item;
-      this.menu.addItem((addedItem) => {
-        item = addedItem, callback(addedItem);
-      });
-      const section = item.section;
-      const sections = this.menu.sections ?? [];
-      let index = 0;
       if (typeof preSections === "string")
         preSections = [preSections];
-      for (const preSection of preSections) {
-        if (sections.includes(preSection)) {
-          index = sections.lastIndexOf(preSection) + 1;
-          break;
+      this.menu.addItem((item) => {
+        callback(item);
+        const section = item.section;
+        const sections = this.menu?.sections ?? [];
+        let index = 0;
+        for (const preSection of preSections) {
+          if (sections.includes(preSection)) {
+            index = sections.lastIndexOf(preSection) + 1;
+            break;
+          }
         }
-      }
-      sections.remove(section);
-      sections.splice(index, 0, section);
+        sections.remove(section);
+        sections.splice(index, 0, section);
+      });
     } else {
       this.queuedActions.push(() => this.addItemAfter(preSections, callback));
     }
@@ -2994,6 +3159,20 @@ var MenuManager = class {
       this.menu.addSeparator();
     } else {
       this.queuedActions.push(() => this.addSeparator());
+    }
+    return this;
+  }
+  /**
+   * Iterate menu items of a given section.
+   */
+  forSection(section, callback) {
+    if (this.menu) {
+      const items = this.menu.items.filter((item) => item.section === section);
+      for (let i = 0; i < items.length; i++) {
+        callback(items[i], i);
+      }
+    } else {
+      this.queuedActions.push(() => this.forSection(section, callback));
     }
     return this;
   }
@@ -5035,8 +5214,14 @@ Strings.categories = {
   files: "Files",
   folder: "Folder",
   folders: "Folders",
-  group: "Bookmark group",
-  groups: "Bookmark groups",
+  group: "Group",
+  groups: "Groups",
+  search: "Query",
+  searches: "Queries",
+  graph: "Graph",
+  graphs: "Graphs",
+  url: "URL",
+  urls: "URLs",
   property: "Property",
   properties: "Properties",
   ribbonItem: "Ribbon command",
@@ -5153,9 +5338,11 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
   async onload() {
     await this.loadSettings();
     this.addSettingTab(new IconicSettingTab(this));
-    (0, import_obsidian9.getIconIds)().map((id) => [id, id.replace(/^lucide-/, "").replace(/-/g, " ")]).sort(([, aName], [, bName]) => aName.localeCompare(bName)).forEach(([id, name]) => ICONS.set(id, name));
-    this.startIconManagers();
-    this.refreshBodyClasses();
+    this.app.workspace.onLayoutReady(() => {
+      (0, import_obsidian9.getIconIds)().map((id) => [id, id.replace(/^lucide-/, "").replace(/-/g, " ")]).sort(([, aName], [, bName]) => aName.localeCompare(bName)).forEach(([id, name]) => ICONS.set(id, name));
+      this.startIconManagers();
+      this.refreshBodyClasses();
+    });
     this.registerEvent(this.app.workspace.on("css-change", () => {
       this.refreshIconManagers();
       this.refreshBodyClasses();
@@ -5399,7 +5586,6 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
         iconEl = this.app.workspace.rightSplit.activeTabIconEl;
       }
     }
-    let iconDefault = leaf.view.icon;
     const isStacked = leaf.parent?.isStacked === true;
     if (leaf.view instanceof import_obsidian9.FileView && leaf.view.file && leaf.view.allowNoFile === false) {
       const fileId = leaf.view.file.path;
@@ -5410,7 +5596,7 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
         id: fileId,
         name: leaf.getDisplayText(),
         category: "file",
-        iconDefault: isRoot && isMarkdown && !isStacked && !this.settings.showAllFileIcons ? null : iconDefault,
+        iconDefault: isRoot && isMarkdown && !isStacked && !fileIcon.color && !this.settings.showAllFileIcons ? null : leaf.view.getIcon(),
         icon: unloading ? null : fileIcon.icon ?? null,
         color: unloading ? null : fileIcon.color ?? null,
         isFile: true,
@@ -5422,23 +5608,23 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
     } else {
       const tabId = leaf.view.getViewType();
       const tabIcon = this.settings.tabIcons[tabId] ?? {};
-      let iconDefault2;
+      let iconDefault;
       switch (tabId) {
         case "empty":
-          iconDefault2 = isStacked ? leaf.view.icon : null;
+          iconDefault = isStacked ? leaf.view.getIcon() : null;
           break;
         case "release-notes":
-          iconDefault2 = unloading ? leaf.view.icon : "lucide-sparkle";
+          iconDefault = unloading ? leaf.view.getIcon() : "lucide-sparkle";
           break;
         default:
-          iconDefault2 = leaf.view.icon;
+          iconDefault = leaf.view.getIcon();
           break;
       }
       return {
         id: tabId,
         name: leaf.getDisplayText(),
         category: "tab",
-        iconDefault: iconDefault2,
+        iconDefault,
         icon: unloading ? null : tabIcon.icon ?? null,
         color: unloading ? null : tabIcon.color ?? null,
         isFile: false,
@@ -5464,32 +5650,33 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
    * Get file definition.
    */
   getFileItem(fileId, unloading) {
-    const tFile = this.app.vault.getAbstractFileByPath(fileId);
+    const { path } = this.splitFilePath(fileId);
+    const tFile = this.app.vault.getAbstractFileByPath(path);
     return this.defineFileItem(tFile, fileId, unloading);
   }
   /**
    * Create file definition.
-   * If file is null, the file ID is used as a reasonable fallback.
    */
   defineFileItem(tFile, fileId, unloading) {
-    const fileIcon = (tFile ? this.settings.fileIcons[tFile.path] : this.settings.fileIcons[fileId]) ?? {};
+    const { filename, basename, extension } = this.splitFilePath(fileId);
+    const fileIcon = this.settings.fileIcons[fileId] ?? {};
     let iconDefault = null;
     if (tFile instanceof import_obsidian9.TFile && (fileIcon.color || this.settings.showAllFileIcons)) {
-      if (tFile.extension === "canvas") {
+      if (extension === "canvas") {
         iconDefault = "lucide-layout-dashboard";
-      } else if (tFile.extension === "pdf") {
+      } else if (extension === "pdf") {
         iconDefault = "lucide-file-text";
-      } else if (IMAGE_EXTENSIONS.some((ext) => tFile.extension === ext)) {
+      } else if (IMAGE_EXTENSIONS.includes(extension)) {
         iconDefault = "lucide-image";
-      } else if (AUDIO_EXTENSIONS.some((ext) => tFile.extension === ext)) {
+      } else if (AUDIO_EXTENSIONS.includes(extension)) {
         iconDefault = "lucide-file-audio";
       } else {
         iconDefault = "lucide-file";
       }
     }
     return {
-      id: tFile ? tFile.path : fileId,
-      name: (tFile ? tFile.path : fileId).replace(/\.md$/, ""),
+      id: fileId,
+      name: extension === "md" ? basename : filename,
       category: tFile instanceof import_obsidian9.TFolder ? "folder" : "file",
       iconDefault: unloading ? null : iconDefault,
       icon: unloading ? null : fileIcon.icon ?? null,
@@ -5498,94 +5685,106 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
     };
   }
   /**
+   * Split a filepath into its hierarchical components.
+   */
+  splitFilePath(fileId = "") {
+    const subpathExts = ["md", "pdf"];
+    const subpathStart = Math.max(...subpathExts.map((ext) => {
+      const index = fileId.lastIndexOf(`.${ext}#`);
+      return index > -1 ? index + ext.length + 1 : -1;
+    }));
+    const subpath = subpathStart > -1 ? fileId.substring(subpathStart, fileId.length) : "";
+    const path = subpathStart > -1 ? fileId.substring(0, subpathStart) : fileId;
+    const [, tree = "", filename] = path.match(/^(.*\/)?(.*)$/) ?? [];
+    const extensionStart = filename.lastIndexOf(".");
+    const extension = filename.substring(extensionStart > -1 ? extensionStart + 1 : filename.length) || "";
+    const basename = filename.substring(0, extensionStart > -1 ? extensionStart : filename.length - 1) || "";
+    return { path, tree, filename, basename, extension, subpath };
+  }
+  /**
    * Get array of bookmark definitions.
    */
   getBookmarkItems(unloading) {
-    function flattenBookmarks(bmarkBases2) {
-      const flatArray = [];
-      for (const bmarkBase of bmarkBases2) {
-        flatArray.push(bmarkBase);
-        if (bmarkBase.items)
-          flatArray.concat(flattenBookmarks(bmarkBase.items));
-      }
-      return flatArray;
-    }
-    const bmarkBases = flattenBookmarks(this.app.internalPlugins?.plugins?.bookmarks?.instance?.items ?? []);
-    return bmarkBases.map((bmark) => this.defineBookmarkItem(bmark, unloading));
+    const bmarkBases = this.app.internalPlugins?.plugins?.bookmarks?.instance?.items ?? [];
+    return bmarkBases.map((bmarkBase) => this.defineBookmarkItem(bmarkBase, unloading));
   }
   /**
    * Get bookmark definition.
    */
   getBookmarkItem(bmarkId, isFile, unloading) {
-    function findBookmark(bmarkBases) {
-      for (const bmarkBase2 of bmarkBases) {
-        if (isFile) {
-          if (bmarkBase2.path === bmarkId)
-            return bmarkBase2;
-        } else {
-          if (bmarkBase2.type === "group" && bmarkBase2.ctime === bmarkId)
-            return bmarkBase2;
-        }
-        if (bmarkBase2.items) {
-          const childBase = findBookmark(bmarkBase2.items);
-          if (childBase)
-            return childBase;
-        }
-      }
-    }
-    const bmarkBase = findBookmark(this.app.internalPlugins?.plugins?.bookmarks?.instance?.items ?? []) ?? {};
+    const bmarkBases = this.flattenBookmarks(this.app.internalPlugins?.plugins?.bookmarks?.instance?.items ?? []);
+    const bmarkBase = bmarkBases.find((bmarkBase2) => {
+      return isFile && bmarkBase2.path + (bmarkBase2.subpath ?? "") === bmarkId || bmarkBase2.ctime === bmarkId;
+    }) ?? {};
     return this.defineBookmarkItem(bmarkBase, unloading);
   }
   /**
    * Create bookmark definition.
    */
   defineBookmarkItem(bmarkBase, unloading) {
-    let id, name, bmarkIcon;
-    if (bmarkBase.type === "file" || bmarkBase.type === "folder") {
-      id = bmarkBase.path;
-      name = bmarkBase.path?.replace(/\.md$/, "");
-      bmarkIcon = this.settings.fileIcons[id] ?? {};
-    } else if (bmarkBase.type === "group") {
-      id = bmarkBase.ctime;
-      name = bmarkBase.title;
-      bmarkIcon = this.settings.bookmarkIcons[id] ?? {};
-    }
-    let iconDefault = "lucide-file";
+    const { path, filename, basename, extension } = this.splitFilePath(bmarkBase.path);
+    const subpath = bmarkBase.subpath ?? "";
+    let id, name, bmarkIcon, iconDefault = "lucide-file";
     switch (bmarkBase.type) {
       case "file": {
-        if (bmarkBase.path?.endsWith(".canvas")) {
+        id = path + subpath;
+        name = (extension === "md" ? basename : filename) + subpath;
+        if (extension === "canvas") {
           iconDefault = "lucide-layout-dashboard";
-        } else if (bmarkBase.subpath?.startsWith("#^")) {
+        } else if (subpath.startsWith("#^")) {
           iconDefault = "lucide-toy-brick";
-        } else if (bmarkBase.subpath?.startsWith("#")) {
+        } else if (subpath.startsWith("#")) {
           iconDefault = "lucide-heading";
         } else if (!unloading) {
-          if (bmarkBase.path?.endsWith(".pdf")) {
+          if (extension === "pdf") {
             iconDefault = "lucide-file-text";
-          } else if (IMAGE_EXTENSIONS.some((ext) => bmarkBase.path?.endsWith("." + ext))) {
+          } else if (IMAGE_EXTENSIONS.includes(extension)) {
             iconDefault = "lucide-image";
-          } else if (AUDIO_EXTENSIONS.some((ext) => bmarkBase.path?.endsWith("." + ext))) {
+          } else if (AUDIO_EXTENSIONS.includes(extension)) {
             iconDefault = "lucide-file-audio";
           }
         }
+        bmarkIcon = this.settings.fileIcons[id] ?? {};
         break;
       }
-      case "folder":
+      case "folder": {
+        id = path;
+        name = basename;
+        bmarkIcon = this.settings.fileIcons[id] ?? {};
         iconDefault = "lucide-folder";
         break;
-      case "search":
+      }
+      case "group": {
+        id = bmarkBase.ctime;
+        name = bmarkBase.title;
+        bmarkIcon = this.settings.bookmarkIcons[id] ?? {};
+        break;
+      }
+      case "search": {
+        id = bmarkBase.ctime;
+        name = bmarkBase.query;
+        bmarkIcon = this.settings.bookmarkIcons[id] ?? {};
         iconDefault = "lucide-search";
         break;
-      case "graph":
+      }
+      case "graph": {
+        id = bmarkBase.ctime;
+        name = bmarkBase.title;
+        bmarkIcon = this.settings.bookmarkIcons[id] ?? {};
         iconDefault = "lucide-git-fork";
         break;
-      case "url":
+      }
+      case "url": {
+        id = bmarkBase.ctime;
+        name = bmarkBase.url;
+        bmarkIcon = this.settings.bookmarkIcons[id] ?? {};
         iconDefault = "lucide-globe-2";
         break;
+      }
     }
     return {
       id,
-      name: name ?? null,
+      name,
       category: bmarkBase.type ?? "file",
       iconDefault,
       icon: unloading ? null : bmarkIcon?.icon ?? null,
@@ -5593,6 +5792,18 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
       isFile: bmarkBase.type === "file" || bmarkBase.type === "folder",
       items: bmarkBase.items?.map((bmark) => this.defineBookmarkItem(bmark, unloading)) ?? null
     };
+  }
+  /**
+   * Flatten an array of bookmark bases to include all children.
+   */
+  flattenBookmarks(bmarkBases) {
+    const flatArray = [];
+    for (const bmarkBase of bmarkBases) {
+      flatArray.push(bmarkBase);
+      if (bmarkBase.items)
+        flatArray.push(...this.flattenBookmarks(bmarkBase.items));
+    }
+    return flatArray;
   }
   /**
    * Get array of property definitions.
@@ -5676,9 +5887,10 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
       id: itemBase.id,
       name: itemBase.title ?? null,
       category: "ribbon",
-      iconDefault: itemBase.hidden ? null : itemBase.icon ?? null,
+      iconDefault: itemBase.icon ?? null,
       icon: unloading ? null : itemIcon.icon ?? null,
       color: unloading ? null : itemIcon.color ?? null,
+      isHidden: itemBase.hidden ?? false,
       iconEl: itemBase.buttonEl ?? null
     };
   }
@@ -5724,7 +5936,7 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
   saveBookmarkIcon(bmark, icon, color) {
     if (bmark.category === "file" || bmark.category === "folder") {
       this.updateIconSetting(this.settings.fileIcons, bmark.id, icon, color);
-    } else if (bmark.category === "group") {
+    } else {
       this.updateIconSetting(this.settings.bookmarkIcons, bmark.id, icon, color);
     }
     this.saveSettings();
@@ -5742,7 +5954,7 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
         bmark.color = color;
       if (bmark.category === "file" || bmark.category === "folder") {
         this.updateIconSetting(this.settings.fileIcons, bmark.id, bmark.icon, bmark.color);
-      } else if (bmark.category === "group") {
+      } else {
         this.updateIconSetting(this.settings.bookmarkIcons, bmark.id, bmark.icon, bmark.color);
       }
     }
@@ -5809,6 +6021,64 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
     }
   }
   /**
+   * Save settings to storage.
+   */
+  async saveSettings() {
+    this.pruneSettings();
+    this.settings.appIcons = Object.fromEntries(Object.entries(this.settings.appIcons).sort());
+    this.settings.tabIcons = Object.fromEntries(Object.entries(this.settings.tabIcons).sort());
+    this.settings.fileIcons = Object.fromEntries(Object.entries(this.settings.fileIcons).sort());
+    this.settings.bookmarkIcons = Object.fromEntries(Object.entries(this.settings.bookmarkIcons).sort());
+    this.settings.propertyIcons = Object.fromEntries(Object.entries(this.settings.propertyIcons).sort());
+    this.settings.ribbonIcons = Object.fromEntries(Object.entries(this.settings.ribbonIcons).sort());
+    await this.saveData(this.settings);
+  }
+  /**
+   * Check for any deleted items and prune their icons.
+   */
+  pruneSettings() {
+    this.updateUnsyncedFiles();
+    const isSyncing = this.app.internalPlugins?.plugins?.sync?.instance?.syncing === true;
+    const isPaused = this.app.internalPlugins?.plugins?.sync?.instance?.pause === true;
+    if (isSyncing || isPaused || this.settings.rememberDeletedItems) {
+      return;
+    }
+    const thisAppId = this.app.appId;
+    const bmarkBases = this.flattenBookmarks(this.app.internalPlugins?.plugins?.bookmarks?.instance?.items ?? []);
+    const propBases = this.app.metadataTypeManager?.properties ?? [];
+    const fileIcons = Object.entries(this.settings.fileIcons).filter(
+      ([fileId, fileIcon]) => (
+        // Never prune files that are unsynced on another device
+        fileIcon.unsynced?.every((appId) => appId === thisAppId) ?? true
+      )
+    );
+    for (const [fileId] of fileIcons) {
+      const { path, subpath } = this.splitFilePath(fileId);
+      const bmarkSubpath = subpath.replaceAll(/(?<!^)#|(?<!^#)\^|\s\s/g, " ");
+      if (!this.app.vault.getAbstractFileByPath(path)) {
+        delete this.settings.fileIcons[fileId];
+      } else if (subpath && !bmarkBases.some((bmarkBase) => bmarkBase.path === path && bmarkBase.subpath === bmarkSubpath)) {
+        delete this.settings.fileIcons[fileId];
+      }
+    }
+    if (bmarkBases.length > 0) {
+      const bmarkIds = bmarkBases.filter((bmarkBase) => bmarkBase.type !== "file" && bmarkBase.type !== "folder").map((bmarkBase) => bmarkBase.ctime.toString());
+      for (const bmarkId in this.settings.bookmarkIcons) {
+        if (!bmarkIds.includes(bmarkId)) {
+          delete this.settings.bookmarkIcons[bmarkId];
+        }
+      }
+    }
+    if (propBases.length > 0) {
+      const propIds = Object.keys(propBases);
+      for (const propId in this.settings.propertyIcons) {
+        if (!propIds.includes(propId)) {
+          delete this.settings.propertyIcons[propId];
+        }
+      }
+    }
+  }
+  /**
    * Flag any files excluded from Sync on this device.
    */
   updateUnsyncedFiles() {
@@ -5819,8 +6089,8 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
       if (!Array.isArray(fileIcon.unsynced)) {
         delete fileIcon.unsynced;
       }
-      const fileExt = fileId.match(/\.([^.]*)$/)?.[1] ?? "";
-      const unsynced = unsyncedFolders.some((folder) => folder === fileId || fileId.startsWith(folder + "/")) || unsyncedTypes.includes("unsupported") && !KNOWN_EXTENSIONS.includes(fileExt) || unsyncedTypes.includes("image") && IMAGE_EXTENSIONS.includes(fileExt) || unsyncedTypes.includes("audio") && AUDIO_EXTENSIONS.includes(fileExt) || unsyncedTypes.includes("video") && VIDEO_EXTENSIONS.includes(fileExt) || unsyncedTypes.includes("pdf") && fileExt === "pdf";
+      const { extension } = this.splitFilePath(fileId);
+      const unsynced = unsyncedFolders.some((folder) => folder === fileId || fileId.startsWith(folder + "/")) || unsyncedTypes.includes("unsupported") && !KNOWN_EXTENSIONS.includes(extension) || unsyncedTypes.includes("image") && IMAGE_EXTENSIONS.includes(extension) || unsyncedTypes.includes("audio") && AUDIO_EXTENSIONS.includes(extension) || unsyncedTypes.includes("video") && VIDEO_EXTENSIONS.includes(extension) || unsyncedTypes.includes("pdf") && extension === "pdf";
       if (unsynced) {
         fileIcon.unsynced = fileIcon.unsynced ?? [];
         if (!fileIcon.unsynced.includes(appId))
@@ -5832,57 +6102,6 @@ var IconicPlugin11 = class extends import_obsidian9.Plugin {
           delete fileIcon.unsynced;
       }
     }
-  }
-  /**
-   * Save settings to storage.
-   */
-  async saveSettings() {
-    this.updateUnsyncedFiles();
-    const isNotSyncing = this.app.internalPlugins?.plugins?.sync?.instance?.syncing !== true;
-    const isNotPaused = this.app.internalPlugins?.plugins?.sync?.instance?.pause !== true;
-    if (isNotSyncing && isNotPaused && !this.settings.rememberDeletedItems) {
-      let getGroupIds = function(bmarkBases) {
-        const flatArray = [];
-        for (const bmarkBase of bmarkBases) {
-          if (bmarkBase.type === "group" && bmarkBase.items) {
-            flatArray.push(bmarkBase.ctime.toString());
-            flatArray.push(...getGroupIds(bmarkBase.items));
-          }
-        }
-        return flatArray;
-      };
-      const thisAppId = this.app.appId;
-      for (const [fileId, fileIcon] of Object.entries(this.settings.fileIcons)) {
-        if (fileIcon.unsynced?.some((appId) => appId !== thisAppId)) {
-          continue;
-        } else if (!this.app.vault.getAbstractFileByPath(fileId)) {
-          delete this.settings.fileIcons[fileId];
-        }
-      }
-      if (this.app.internalPlugins?.plugins?.bookmarks?.instance?.items) {
-        const groupIds = getGroupIds(this.app.internalPlugins?.plugins?.bookmarks?.instance?.items);
-        for (const groupId in this.settings.bookmarkIcons) {
-          if (!groupIds.includes(groupId)) {
-            delete this.settings.bookmarkIcons[groupId];
-          }
-        }
-      }
-      if (this.app.metadataTypeManager?.properties) {
-        const propIds = Object.keys(this.app.metadataTypeManager?.properties);
-        for (const propId in this.settings.propertyIcons) {
-          if (!propIds.includes(propId)) {
-            delete this.settings.propertyIcons[propId];
-          }
-        }
-      }
-    }
-    this.settings.appIcons = Object.fromEntries(Object.entries(this.settings.appIcons).sort());
-    this.settings.tabIcons = Object.fromEntries(Object.entries(this.settings.tabIcons).sort());
-    this.settings.fileIcons = Object.fromEntries(Object.entries(this.settings.fileIcons).sort());
-    this.settings.bookmarkIcons = Object.fromEntries(Object.entries(this.settings.bookmarkIcons).sort());
-    this.settings.propertyIcons = Object.fromEntries(Object.entries(this.settings.propertyIcons).sort());
-    this.settings.ribbonIcons = Object.fromEntries(Object.entries(this.settings.ribbonIcons).sort());
-    await this.saveData(this.settings);
   }
   /**
    * @override

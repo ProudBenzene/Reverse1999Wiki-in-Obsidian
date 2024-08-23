@@ -1,0 +1,26 @@
+{
+  "linkerActivated": true,
+  "matchOnlyWholeWords": true,
+  "suppressSuffixForSubWords": false,
+  "includeAllFiles": true,
+  "linkerDirectories": [
+    "Glossary"
+  ],
+  "excludedDirectories": [],
+  "excludedDirectoriesForLinking": [],
+  "glossarySuffix": "🔗",
+  "useMarkdownLinks": false,
+  "applyDefaultLinkStyling": true,
+  "includeHeaders": true,
+  "matchCaseSensitive": false,
+  "tagToIgnoreCase": "linker-ignore-case",
+  "tagToMatchCase": "linker-match-case",
+  "tagToExcludeFile": "linker-exclude",
+  "tagToIncludeFile": "linker-include",
+  "excludeLinksToOwnNote": true,
+  "fixIMEProblem": true,
+  "excludeLinksInCurrentLine": false,
+  "onlyLinkOnce": true,
+  "excludeLinksToRealLinkedFiles": true,
+  "includeAliases": true
+}

@@ -65,6 +65,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 	- [[可燃点｜Spathodea]]
 	- [[恐怖通｜Horropedia]]
 	- [[拉拉泉｜La Source]]
+	- [[蓝手帕｜Tuesday]]
 	- [[丽莎&路易斯｜Twins Sleep]]
 	- [[莉拉妮｜Leilani]]
 	- [[罗蕾莱｜Lorelei]]
@@ -111,6 +112,7 @@ Where contains(file.path,"100-UTTU人物合辑") AND !contains(file.name,"100-UT
 - **神秘学家混血种｜Mixed**
 	- [[狼群｜Pavia]]
 	- [[曲娘｜Jiu Niangzi]]
+	- [[数羊羔｜Barbara]]
 	- [[五色月｜Satsuki]]
 	- [[J｜Joe]]
 - [[维尔汀｜Vertin]]

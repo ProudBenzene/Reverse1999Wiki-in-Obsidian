@@ -45,7 +45,8 @@
     "debugMode": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
-    "iconInTitlePosition": "inline"
+    "iconInTitlePosition": "inline",
+    "lucideIconPackType": "native"
   },
   "插件": "FasCode",
   "插件/彩色时钟.md": "FasClock",
