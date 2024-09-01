@@ -726,8 +726,15 @@
   "a-unique-id@@cards-columns-gap": 5,
   "a-unique-id@@cards-row-gap": 5,
   "a-unique-id@@cards-border-width": 2,
-  "a-unique-id@@cards-image-height": 300,
-  "a-unique-id@@cards-image-fit": "cover",
+  "a-unique-id@@cards-image-fit": "contain",
+  "a-unique-id@@cards-image-radius": 8,
+  "a-unique-id@@cards-border-color": "#756351",
+  "a-unique-id@@cards-min-width": 175,
+  "a-unique-id@@cards-border-radius": 8,
+  "a-unique-id@@cards-hover-zoom": 102,
+  "a-unique-id@@cards-image-height": 250,
+  "a-unique-id@@cards-image-padding": 0,
   "a-unique-id@@cards-image-zoom": 100,
-  "a-unique-id@@cards-image-radius": 0
+  "a-unique-id@@cards-title-link-rows-before-clip": 2,
+  "a-unique-id@@cards-title-link-font-size": 18
 }

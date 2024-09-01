@@ -17230,7 +17230,7 @@ var require_purify = __commonJS({
         var DOMPurify = function DOMPurify2(root2) {
           return createDOMPurify(root2);
         };
-        DOMPurify.version = "2.5.2";
+        DOMPurify.version = "2.5.6";
         DOMPurify.removed = [];
         if (!window2 || !window2.document || window2.document.nodeType !== 9) {
           DOMPurify.isSupported = false;
@@ -17325,7 +17325,6 @@ var require_purify = __commonJS({
         var DEFAULT_PARSER_MEDIA_TYPE = "text/html";
         var transformCaseFunc;
         var CONFIG = null;
-        var MAX_NESTING_DEPTH = 255;
         var formElement = document2.createElement("form");
         var isRegexOrFunction = function isRegexOrFunction2(testValue) {
           return testValue instanceof RegExp || testValue instanceof Function;
@@ -17596,7 +17595,7 @@ var require_purify = __commonJS({
           );
         };
         var _isClobbered = function _isClobbered2(elm) {
-          return elm instanceof HTMLFormElement && (typeof elm.__depth !== "undefined" && typeof elm.__depth !== "number" || typeof elm.__removalCount !== "undefined" && typeof elm.__removalCount !== "number" || typeof elm.nodeName !== "string" || typeof elm.textContent !== "string" || typeof elm.removeChild !== "function" || !(elm.attributes instanceof NamedNodeMap) || typeof elm.removeAttribute !== "function" || typeof elm.setAttribute !== "function" || typeof elm.namespaceURI !== "string" || typeof elm.insertBefore !== "function" || typeof elm.hasChildNodes !== "function");
+          return elm instanceof HTMLFormElement && (typeof elm.nodeName !== "string" || typeof elm.textContent !== "string" || typeof elm.removeChild !== "function" || !(elm.attributes instanceof NamedNodeMap) || typeof elm.removeAttribute !== "function" || typeof elm.setAttribute !== "function" || typeof elm.namespaceURI !== "string" || typeof elm.insertBefore !== "function" || typeof elm.hasChildNodes !== "function");
         };
         var _isNode = function _isNode2(object) {
           return _typeof3(Node2) === "object" ? object instanceof Node2 : object && _typeof3(object) === "object" && typeof object.nodeType === "number" && typeof object.nodeName === "string";
@@ -17752,6 +17751,10 @@ var require_purify = __commonJS({
             hookEvent.forceKeepAttr = void 0;
             _executeHook("uponSanitizeAttribute", currentNode, hookEvent);
             value = hookEvent.attrValue;
+            if (SAFE_FOR_XML && regExpTest(/((--!?|])>)|<\/(style|title)/i, value)) {
+              _removeAttribute(name, currentNode);
+              continue;
+            }
             if (hookEvent.forceKeepAttr) {
               continue;
             }
@@ -17798,7 +17801,11 @@ var require_purify = __commonJS({
               } else {
                 currentNode.setAttribute(name, value);
               }
-              arrayPop(DOMPurify.removed);
+              if (_isClobbered(currentNode)) {
+                _forceRemove(currentNode);
+              } else {
+                arrayPop(DOMPurify.removed);
+              }
             } catch (_3) {
             }
           }
@@ -17813,19 +17820,7 @@ var require_purify = __commonJS({
             if (_sanitizeElements(shadowNode)) {
               continue;
             }
-            var parentNode = getParentNode(shadowNode);
-            if (shadowNode.nodeType === 1) {
-              if (parentNode && parentNode.__depth) {
-                shadowNode.__depth = (shadowNode.__removalCount || 0) + parentNode.__depth + 1;
-              } else {
-                shadowNode.__depth = 1;
-              }
-            }
-            if (shadowNode.__depth >= MAX_NESTING_DEPTH) {
-              _forceRemove(shadowNode);
-            }
             if (shadowNode.content instanceof DocumentFragment) {
-              shadowNode.content.__depth = shadowNode.__depth;
               _sanitizeShadowDOM2(shadowNode.content);
             }
             _sanitizeAttributes(shadowNode);
@@ -17909,19 +17904,7 @@ var require_purify = __commonJS({
             if (_sanitizeElements(currentNode)) {
               continue;
             }
-            var parentNode = getParentNode(currentNode);
-            if (currentNode.nodeType === 1) {
-              if (parentNode && parentNode.__depth) {
-                currentNode.__depth = (currentNode.__removalCount || 0) + parentNode.__depth + 1;
-              } else {
-                currentNode.__depth = 1;
-              }
-            }
-            if (currentNode.__depth >= MAX_NESTING_DEPTH) {
-              _forceRemove(currentNode);
-            }
             if (currentNode.content instanceof DocumentFragment) {
-              currentNode.content.__depth = currentNode.__depth;
               _sanitizeShadowDOM(currentNode.content);
             }
             _sanitizeAttributes(currentNode);
@@ -18000,9 +17983,9 @@ var require_purify = __commonJS({
   }
 });
 
-// node_modules/core-js/internals/global.js
-var require_global = __commonJS({
-  "node_modules/core-js/internals/global.js"(exports, module2) {
+// node_modules/core-js/internals/global-this.js
+var require_global_this = __commonJS({
+  "node_modules/core-js/internals/global-this.js"(exports, module2) {
     "use strict";
     var check = function(it2) {
       return it2 && it2.Math === Math && it2;
@@ -18207,13 +18190,13 @@ var require_is_object = __commonJS({
 var require_get_built_in = __commonJS({
   "node_modules/core-js/internals/get-built-in.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var isCallable = require_is_callable();
     var aFunction = function(argument) {
       return isCallable(argument) ? argument : void 0;
     };
     module2.exports = function(namespace, method) {
-      return arguments.length < 2 ? aFunction(global2[namespace]) : global2[namespace] && global2[namespace][method];
+      return arguments.length < 2 ? aFunction(globalThis2[namespace]) : globalThis2[namespace] && globalThis2[namespace][method];
     };
   }
 });
@@ -18227,22 +18210,25 @@ var require_object_is_prototype_of = __commonJS({
   }
 });
 
-// node_modules/core-js/internals/engine-user-agent.js
-var require_engine_user_agent = __commonJS({
-  "node_modules/core-js/internals/engine-user-agent.js"(exports, module2) {
+// node_modules/core-js/internals/environment-user-agent.js
+var require_environment_user_agent = __commonJS({
+  "node_modules/core-js/internals/environment-user-agent.js"(exports, module2) {
     "use strict";
-    module2.exports = typeof navigator != "undefined" && String(navigator.userAgent) || "";
+    var globalThis2 = require_global_this();
+    var navigator2 = globalThis2.navigator;
+    var userAgent = navigator2 && navigator2.userAgent;
+    module2.exports = userAgent ? String(userAgent) : "";
   }
 });
 
-// node_modules/core-js/internals/engine-v8-version.js
-var require_engine_v8_version = __commonJS({
-  "node_modules/core-js/internals/engine-v8-version.js"(exports, module2) {
+// node_modules/core-js/internals/environment-v8-version.js
+var require_environment_v8_version = __commonJS({
+  "node_modules/core-js/internals/environment-v8-version.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
-    var userAgent = require_engine_user_agent();
-    var process2 = global2.process;
-    var Deno2 = global2.Deno;
+    var globalThis2 = require_global_this();
+    var userAgent = require_environment_user_agent();
+    var process2 = globalThis2.process;
+    var Deno2 = globalThis2.Deno;
     var versions = process2 && process2.versions || Deno2 && Deno2.version;
     var v8 = versions && versions.v8;
     var match;
@@ -18267,10 +18253,10 @@ var require_engine_v8_version = __commonJS({
 var require_symbol_constructor_detection = __commonJS({
   "node_modules/core-js/internals/symbol-constructor-detection.js"(exports, module2) {
     "use strict";
-    var V8_VERSION = require_engine_v8_version();
+    var V8_VERSION = require_environment_v8_version();
     var fails = require_fails();
-    var global2 = require_global();
-    var $String = global2.String;
+    var globalThis2 = require_global_this();
+    var $String = globalThis2.String;
     module2.exports = !!Object.getOwnPropertySymbols && !fails(function() {
       var symbol = Symbol("symbol detection");
       return !$String(symbol) || !(Object(symbol) instanceof Symbol) || // Chrome 38-40 symbols are not inherited from DOM collections prototypes to instances
@@ -18382,13 +18368,13 @@ var require_is_pure = __commonJS({
 var require_define_global_property = __commonJS({
   "node_modules/core-js/internals/define-global-property.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var defineProperty = Object.defineProperty;
     module2.exports = function(key, value) {
       try {
-        defineProperty(global2, key, { value, configurable: true, writable: true });
+        defineProperty(globalThis2, key, { value, configurable: true, writable: true });
       } catch (error) {
-        global2[key] = value;
+        globalThis2[key] = value;
       }
       return value;
     };
@@ -18400,15 +18386,15 @@ var require_shared_store = __commonJS({
   "node_modules/core-js/internals/shared-store.js"(exports, module2) {
     "use strict";
     var IS_PURE = require_is_pure();
-    var globalThis2 = require_global();
+    var globalThis2 = require_global_this();
     var defineGlobalProperty = require_define_global_property();
     var SHARED = "__core-js_shared__";
     var store = module2.exports = globalThis2[SHARED] || defineGlobalProperty(SHARED, {});
     (store.versions || (store.versions = [])).push({
-      version: "3.37.0",
+      version: "3.38.1",
       mode: IS_PURE ? "pure" : "global",
       copyright: "\xA9 2014-2024 Denis Pushkarev (zloirock.ru)",
-      license: "https://github.com/zloirock/core-js/blob/v3.37.0/LICENSE",
+      license: "https://github.com/zloirock/core-js/blob/v3.38.1/LICENSE",
       source: "https://github.com/zloirock/core-js"
     });
   }
@@ -18468,13 +18454,13 @@ var require_uid = __commonJS({
 var require_well_known_symbol = __commonJS({
   "node_modules/core-js/internals/well-known-symbol.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var shared = require_shared();
     var hasOwn = require_has_own_property();
     var uid = require_uid();
     var NATIVE_SYMBOL = require_symbol_constructor_detection();
     var USE_SYMBOL_AS_UID = require_use_symbol_as_uid();
-    var Symbol2 = global2.Symbol;
+    var Symbol2 = globalThis2.Symbol;
     var WellKnownSymbolsStore = shared("wks");
     var createWellKnownSymbol = USE_SYMBOL_AS_UID ? Symbol2["for"] || Symbol2 : Symbol2 && Symbol2.withoutSetter || uid;
     module2.exports = function(name) {
@@ -18535,9 +18521,9 @@ var require_to_property_key = __commonJS({
 var require_document_create_element = __commonJS({
   "node_modules/core-js/internals/document-create-element.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var isObject = require_is_object();
-    var document2 = global2.document;
+    var document2 = globalThis2.document;
     var EXISTS = isObject(document2) && isObject(document2.createElement);
     module2.exports = function(it2) {
       return EXISTS ? document2.createElement(it2) : {};
@@ -18726,9 +18712,9 @@ var require_inspect_source = __commonJS({
 var require_weak_map_basic_detection = __commonJS({
   "node_modules/core-js/internals/weak-map-basic-detection.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var isCallable = require_is_callable();
-    var WeakMap2 = global2.WeakMap;
+    var WeakMap2 = globalThis2.WeakMap;
     module2.exports = isCallable(WeakMap2) && /native code/.test(String(WeakMap2));
   }
 });
@@ -18759,7 +18745,7 @@ var require_internal_state = __commonJS({
   "node_modules/core-js/internals/internal-state.js"(exports, module2) {
     "use strict";
     var NATIVE_WEAK_MAP = require_weak_map_basic_detection();
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var isObject = require_is_object();
     var createNonEnumerableProperty = require_create_non_enumerable_property();
     var hasOwn = require_has_own_property();
@@ -18767,8 +18753,8 @@ var require_internal_state = __commonJS({
     var sharedKey = require_shared_key();
     var hiddenKeys = require_hidden_keys();
     var OBJECT_ALREADY_INITIALIZED = "Object already initialized";
-    var TypeError2 = global2.TypeError;
-    var WeakMap2 = global2.WeakMap;
+    var TypeError2 = globalThis2.TypeError;
+    var WeakMap2 = globalThis2.WeakMap;
     var set2;
     var get3;
     var has;
@@ -19166,7 +19152,7 @@ var require_is_forced = __commonJS({
 var require_export = __commonJS({
   "node_modules/core-js/internals/export.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var getOwnPropertyDescriptor = require_object_get_own_property_descriptor().f;
     var createNonEnumerableProperty = require_create_non_enumerable_property();
     var defineBuiltIn = require_define_built_in();
@@ -19179,11 +19165,11 @@ var require_export = __commonJS({
       var STATIC = options.stat;
       var FORCED, target, key, targetProperty, sourceProperty, descriptor;
       if (GLOBAL) {
-        target = global2;
+        target = globalThis2;
       } else if (STATIC) {
-        target = global2[TARGET] || defineGlobalProperty(TARGET, {});
+        target = globalThis2[TARGET] || defineGlobalProperty(TARGET, {});
       } else {
-        target = global2[TARGET] && global2[TARGET].prototype;
+        target = globalThis2[TARGET] && globalThis2[TARGET].prototype;
       }
       if (target)
         for (key in source) {
@@ -19208,13 +19194,44 @@ var require_export = __commonJS({
   }
 });
 
-// node_modules/core-js/internals/engine-is-node.js
-var require_engine_is_node = __commonJS({
-  "node_modules/core-js/internals/engine-is-node.js"(exports, module2) {
+// node_modules/core-js/internals/environment.js
+var require_environment = __commonJS({
+  "node_modules/core-js/internals/environment.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
+    var userAgent = require_environment_user_agent();
     var classof = require_classof_raw();
-    module2.exports = classof(global2.process) === "process";
+    var userAgentStartsWith = function(string) {
+      return userAgent.slice(0, string.length) === string;
+    };
+    module2.exports = function() {
+      if (userAgentStartsWith("Bun/"))
+        return "BUN";
+      if (userAgentStartsWith("Cloudflare-Workers"))
+        return "CLOUDFLARE";
+      if (userAgentStartsWith("Deno/"))
+        return "DENO";
+      if (userAgentStartsWith("Node.js/"))
+        return "NODE";
+      if (globalThis2.Bun && typeof Bun.version == "string")
+        return "BUN";
+      if (globalThis2.Deno && typeof Deno.version == "object")
+        return "DENO";
+      if (classof(globalThis2.process) === "process")
+        return "NODE";
+      if (globalThis2.window && globalThis2.document)
+        return "BROWSER";
+      return "REST";
+    }();
+  }
+});
+
+// node_modules/core-js/internals/environment-is-node.js
+var require_environment_is_node = __commonJS({
+  "node_modules/core-js/internals/environment-is-node.js"(exports, module2) {
+    "use strict";
+    var ENVIRONMENT = require_environment();
+    module2.exports = ENVIRONMENT === "NODE";
   }
 });
 
@@ -19559,11 +19576,11 @@ var require_validate_arguments_length = __commonJS({
   }
 });
 
-// node_modules/core-js/internals/engine-is-ios.js
-var require_engine_is_ios = __commonJS({
-  "node_modules/core-js/internals/engine-is-ios.js"(exports, module2) {
+// node_modules/core-js/internals/environment-is-ios.js
+var require_environment_is_ios = __commonJS({
+  "node_modules/core-js/internals/environment-is-ios.js"(exports, module2) {
     "use strict";
-    var userAgent = require_engine_user_agent();
+    var userAgent = require_environment_user_agent();
     module2.exports = /(?:ipad|iphone|ipod).*applewebkit/i.test(userAgent);
   }
 });
@@ -19572,7 +19589,7 @@ var require_engine_is_ios = __commonJS({
 var require_task = __commonJS({
   "node_modules/core-js/internals/task.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var apply = require_function_apply();
     var bind = require_function_bind_context();
     var isCallable = require_is_callable();
@@ -19582,15 +19599,15 @@ var require_task = __commonJS({
     var arraySlice = require_array_slice();
     var createElement = require_document_create_element();
     var validateArgumentsLength = require_validate_arguments_length();
-    var IS_IOS = require_engine_is_ios();
-    var IS_NODE = require_engine_is_node();
-    var set2 = global2.setImmediate;
-    var clear = global2.clearImmediate;
-    var process2 = global2.process;
-    var Dispatch = global2.Dispatch;
-    var Function2 = global2.Function;
-    var MessageChannel2 = global2.MessageChannel;
-    var String2 = global2.String;
+    var IS_IOS = require_environment_is_ios();
+    var IS_NODE = require_environment_is_node();
+    var set2 = globalThis2.setImmediate;
+    var clear = globalThis2.clearImmediate;
+    var process2 = globalThis2.process;
+    var Dispatch = globalThis2.Dispatch;
+    var Function2 = globalThis2.Function;
+    var MessageChannel2 = globalThis2.MessageChannel;
+    var String2 = globalThis2.String;
     var counter = 0;
     var queue = {};
     var ONREADYSTATECHANGE = "onreadystatechange";
@@ -19599,7 +19616,7 @@ var require_task = __commonJS({
     var channel;
     var port;
     fails(function() {
-      $location = global2.location;
+      $location = globalThis2.location;
     });
     var run = function(id2) {
       if (hasOwn(queue, id2)) {
@@ -19617,7 +19634,7 @@ var require_task = __commonJS({
       run(event.data);
     };
     var globalPostMessageDefer = function(id2) {
-      global2.postMessage(String2(id2), $location.protocol + "//" + $location.host);
+      globalThis2.postMessage(String2(id2), $location.protocol + "//" + $location.host);
     };
     if (!set2 || !clear) {
       set2 = function setImmediate2(handler) {
@@ -19646,9 +19663,9 @@ var require_task = __commonJS({
         port = channel.port2;
         channel.port1.onmessage = eventListener;
         defer = bind(port.postMessage, port);
-      } else if (global2.addEventListener && isCallable(global2.postMessage) && !global2.importScripts && $location && $location.protocol !== "file:" && !fails(globalPostMessageDefer)) {
+      } else if (globalThis2.addEventListener && isCallable(globalThis2.postMessage) && !globalThis2.importScripts && $location && $location.protocol !== "file:" && !fails(globalPostMessageDefer)) {
         defer = globalPostMessageDefer;
-        global2.addEventListener("message", eventListener, false);
+        globalThis2.addEventListener("message", eventListener, false);
       } else if (ONREADYSTATECHANGE in createElement("script")) {
         defer = function(id2) {
           html.appendChild(createElement("script"))[ONREADYSTATECHANGE] = function() {
@@ -19673,13 +19690,13 @@ var require_task = __commonJS({
 var require_safe_get_built_in = __commonJS({
   "node_modules/core-js/internals/safe-get-built-in.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var DESCRIPTORS = require_descriptors();
     var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
     module2.exports = function(name) {
       if (!DESCRIPTORS)
-        return global2[name];
-      var descriptor = getOwnPropertyDescriptor(global2, name);
+        return globalThis2[name];
+      var descriptor = getOwnPropertyDescriptor(globalThis2, name);
       return descriptor && descriptor.value;
     };
   }
@@ -19717,20 +19734,20 @@ var require_queue = __commonJS({
   }
 });
 
-// node_modules/core-js/internals/engine-is-ios-pebble.js
-var require_engine_is_ios_pebble = __commonJS({
-  "node_modules/core-js/internals/engine-is-ios-pebble.js"(exports, module2) {
+// node_modules/core-js/internals/environment-is-ios-pebble.js
+var require_environment_is_ios_pebble = __commonJS({
+  "node_modules/core-js/internals/environment-is-ios-pebble.js"(exports, module2) {
     "use strict";
-    var userAgent = require_engine_user_agent();
+    var userAgent = require_environment_user_agent();
     module2.exports = /ipad|iphone|ipod/i.test(userAgent) && typeof Pebble != "undefined";
   }
 });
 
-// node_modules/core-js/internals/engine-is-webos-webkit.js
-var require_engine_is_webos_webkit = __commonJS({
-  "node_modules/core-js/internals/engine-is-webos-webkit.js"(exports, module2) {
+// node_modules/core-js/internals/environment-is-webos-webkit.js
+var require_environment_is_webos_webkit = __commonJS({
+  "node_modules/core-js/internals/environment-is-webos-webkit.js"(exports, module2) {
     "use strict";
-    var userAgent = require_engine_user_agent();
+    var userAgent = require_environment_user_agent();
     module2.exports = /web0s(?!.*chrome)/i.test(userAgent);
   }
 });
@@ -19739,19 +19756,19 @@ var require_engine_is_webos_webkit = __commonJS({
 var require_microtask = __commonJS({
   "node_modules/core-js/internals/microtask.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var safeGetBuiltIn = require_safe_get_built_in();
     var bind = require_function_bind_context();
     var macrotask = require_task().set;
     var Queue = require_queue();
-    var IS_IOS = require_engine_is_ios();
-    var IS_IOS_PEBBLE = require_engine_is_ios_pebble();
-    var IS_WEBOS_WEBKIT = require_engine_is_webos_webkit();
-    var IS_NODE = require_engine_is_node();
-    var MutationObserver2 = global2.MutationObserver || global2.WebKitMutationObserver;
-    var document2 = global2.document;
-    var process2 = global2.process;
-    var Promise2 = global2.Promise;
+    var IS_IOS = require_environment_is_ios();
+    var IS_IOS_PEBBLE = require_environment_is_ios_pebble();
+    var IS_WEBOS_WEBKIT = require_environment_is_webos_webkit();
+    var IS_NODE = require_environment_is_node();
+    var MutationObserver2 = globalThis2.MutationObserver || globalThis2.WebKitMutationObserver;
+    var document2 = globalThis2.document;
+    var process2 = globalThis2.process;
+    var Promise2 = globalThis2.Promise;
     var microtask = safeGetBuiltIn("queueMicrotask");
     var notify;
     var toggle;
@@ -19794,7 +19811,7 @@ var require_microtask = __commonJS({
           process2.nextTick(flush);
         };
       } else {
-        macrotask = bind(macrotask, global2);
+        macrotask = bind(macrotask, globalThis2);
         notify = function() {
           macrotask(flush);
         };
@@ -19842,26 +19859,8 @@ var require_perform = __commonJS({
 var require_promise_native_constructor = __commonJS({
   "node_modules/core-js/internals/promise-native-constructor.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
-    module2.exports = global2.Promise;
-  }
-});
-
-// node_modules/core-js/internals/engine-is-deno.js
-var require_engine_is_deno = __commonJS({
-  "node_modules/core-js/internals/engine-is-deno.js"(exports, module2) {
-    "use strict";
-    module2.exports = typeof Deno == "object" && Deno && typeof Deno.version == "object";
-  }
-});
-
-// node_modules/core-js/internals/engine-is-browser.js
-var require_engine_is_browser = __commonJS({
-  "node_modules/core-js/internals/engine-is-browser.js"(exports, module2) {
-    "use strict";
-    var IS_DENO = require_engine_is_deno();
-    var IS_NODE = require_engine_is_node();
-    module2.exports = !IS_DENO && !IS_NODE && typeof window == "object" && typeof document == "object";
+    var globalThis2 = require_global_this();
+    module2.exports = globalThis2.Promise;
   }
 });
 
@@ -19869,20 +19868,19 @@ var require_engine_is_browser = __commonJS({
 var require_promise_constructor_detection = __commonJS({
   "node_modules/core-js/internals/promise-constructor-detection.js"(exports, module2) {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var NativePromiseConstructor = require_promise_native_constructor();
     var isCallable = require_is_callable();
     var isForced = require_is_forced();
     var inspectSource = require_inspect_source();
     var wellKnownSymbol = require_well_known_symbol();
-    var IS_BROWSER = require_engine_is_browser();
-    var IS_DENO = require_engine_is_deno();
+    var ENVIRONMENT = require_environment();
     var IS_PURE = require_is_pure();
-    var V8_VERSION = require_engine_v8_version();
+    var V8_VERSION = require_environment_v8_version();
     var NativePromisePrototype = NativePromiseConstructor && NativePromiseConstructor.prototype;
     var SPECIES = wellKnownSymbol("species");
     var SUBCLASSING = false;
-    var NATIVE_PROMISE_REJECTION_EVENT = isCallable(global2.PromiseRejectionEvent);
+    var NATIVE_PROMISE_REJECTION_EVENT = isCallable(globalThis2.PromiseRejectionEvent);
     var FORCED_PROMISE_CONSTRUCTOR = isForced("Promise", function() {
       var PROMISE_CONSTRUCTOR_SOURCE = inspectSource(NativePromiseConstructor);
       var GLOBAL_CORE_JS_PROMISE = PROMISE_CONSTRUCTOR_SOURCE !== String(NativePromiseConstructor);
@@ -19906,7 +19904,7 @@ var require_promise_constructor_detection = __commonJS({
         if (!SUBCLASSING)
           return true;
       }
-      return !GLOBAL_CORE_JS_PROMISE && (IS_BROWSER || IS_DENO) && !NATIVE_PROMISE_REJECTION_EVENT;
+      return !GLOBAL_CORE_JS_PROMISE && (ENVIRONMENT === "BROWSER" || ENVIRONMENT === "DENO") && !NATIVE_PROMISE_REJECTION_EVENT;
     });
     module2.exports = {
       CONSTRUCTOR: FORCED_PROMISE_CONSTRUCTOR,
@@ -19945,8 +19943,8 @@ var require_es_promise_constructor = __commonJS({
     "use strict";
     var $2 = require_export();
     var IS_PURE = require_is_pure();
-    var IS_NODE = require_engine_is_node();
-    var global2 = require_global();
+    var IS_NODE = require_environment_is_node();
+    var globalThis2 = require_global_this();
     var call = require_function_call();
     var defineBuiltIn = require_define_built_in();
     var setPrototypeOf = require_object_set_prototype_of();
@@ -19975,12 +19973,12 @@ var require_es_promise_constructor = __commonJS({
     var NativePromisePrototype = NativePromiseConstructor && NativePromiseConstructor.prototype;
     var PromiseConstructor = NativePromiseConstructor;
     var PromisePrototype = NativePromisePrototype;
-    var TypeError2 = global2.TypeError;
-    var document2 = global2.document;
-    var process2 = global2.process;
+    var TypeError2 = globalThis2.TypeError;
+    var document2 = globalThis2.document;
+    var process2 = globalThis2.process;
     var newPromiseCapability = newPromiseCapabilityModule.f;
     var newGenericPromiseCapability = newPromiseCapability;
-    var DISPATCH_EVENT = !!(document2 && document2.createEvent && global2.dispatchEvent);
+    var DISPATCH_EVENT = !!(document2 && document2.createEvent && globalThis2.dispatchEvent);
     var UNHANDLED_REJECTION = "unhandledrejection";
     var REJECTION_HANDLED = "rejectionhandled";
     var PENDING = 0;
@@ -20058,16 +20056,16 @@ var require_es_promise_constructor = __commonJS({
         event.promise = promise;
         event.reason = reason;
         event.initEvent(name, false, true);
-        global2.dispatchEvent(event);
+        globalThis2.dispatchEvent(event);
       } else
         event = { promise, reason };
-      if (!NATIVE_PROMISE_REJECTION_EVENT && (handler = global2["on" + name]))
+      if (!NATIVE_PROMISE_REJECTION_EVENT && (handler = globalThis2["on" + name]))
         handler(event);
       else if (name === UNHANDLED_REJECTION)
         hostReportErrors("Unhandled promise rejection", reason);
     };
     var onUnhandled = function(state) {
-      call(task, global2, function() {
+      call(task, globalThis2, function() {
         var promise = state.facade;
         var value = state.value;
         var IS_UNHANDLED = isUnhandled(state);
@@ -20089,7 +20087,7 @@ var require_es_promise_constructor = __commonJS({
       return state.rejection !== HANDLED && !state.parent;
     };
     var onHandleUnhandled = function(state) {
-      call(task, global2, function() {
+      call(task, globalThis2, function() {
         var promise = state.facade;
         if (IS_NODE) {
           process2.emit("rejectionHandled", promise);
@@ -20167,7 +20165,7 @@ var require_es_promise_constructor = __commonJS({
           reactions: new Queue(),
           rejection: false,
           state: PENDING,
-          value: void 0
+          value: null
         });
       };
       Internal.prototype = defineBuiltIn(PromisePrototype, "then", function then(onFulfilled, onRejected) {
@@ -20623,30 +20621,24 @@ var require_es_promise = __commonJS({
 });
 
 // node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+function asyncGeneratorStep(n4, t5, e4, r5, o4, a3, c5) {
   try {
-    var info = gen[key](arg);
-    var value = info.value;
-  } catch (error) {
-    reject(error);
-    return;
+    var i4 = n4[a3](c5), u3 = i4.value;
+  } catch (n5) {
+    return void e4(n5);
   }
-  if (info.done) {
-    resolve(value);
-  } else {
-    Promise.resolve(value).then(_next, _throw);
-  }
+  i4.done ? t5(u3) : Promise.resolve(u3).then(r5, o4);
 }
-function _asyncToGenerator(fn) {
+function _asyncToGenerator(n4) {
   return function() {
-    var self2 = this, args = arguments;
-    return new Promise(function(resolve, reject) {
-      var gen = fn.apply(self2, args);
-      function _next(value) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+    var t5 = this, e4 = arguments;
+    return new Promise(function(r5, o4) {
+      var a3 = n4.apply(t5, e4);
+      function _next(n5) {
+        asyncGeneratorStep(a3, r5, o4, _next, _throw, "next", n5);
       }
-      function _throw(err) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      function _throw(n5) {
+        asyncGeneratorStep(a3, r5, o4, _next, _throw, "throw", n5);
       }
       _next(void 0);
     });
@@ -20705,8 +20697,8 @@ var require_regexp_sticky_helpers = __commonJS({
   "node_modules/core-js/internals/regexp-sticky-helpers.js"(exports, module2) {
     "use strict";
     var fails = require_fails();
-    var global2 = require_global();
-    var $RegExp = global2.RegExp;
+    var globalThis2 = require_global_this();
+    var $RegExp = globalThis2.RegExp;
     var UNSUPPORTED_Y = fails(function() {
       var re2 = $RegExp("a", "y");
       re2.lastIndex = 2;
@@ -20837,8 +20829,8 @@ var require_regexp_unsupported_dot_all = __commonJS({
   "node_modules/core-js/internals/regexp-unsupported-dot-all.js"(exports, module2) {
     "use strict";
     var fails = require_fails();
-    var global2 = require_global();
-    var $RegExp = global2.RegExp;
+    var globalThis2 = require_global_this();
+    var $RegExp = globalThis2.RegExp;
     module2.exports = fails(function() {
       var re2 = $RegExp(".", "s");
       return !(re2.dotAll && re2.test("\n") && re2.flags === "s");
@@ -20851,8 +20843,8 @@ var require_regexp_unsupported_ncg = __commonJS({
   "node_modules/core-js/internals/regexp-unsupported-ncg.js"(exports, module2) {
     "use strict";
     var fails = require_fails();
-    var global2 = require_global();
-    var $RegExp = global2.RegExp;
+    var globalThis2 = require_global_this();
+    var $RegExp = globalThis2.RegExp;
     module2.exports = fails(function() {
       var re2 = $RegExp("(?<a>b)", "g");
       return re2.exec("b").groups.a !== "b" || "b".replace(re2, "$<a>c") !== "bc";
@@ -21698,7 +21690,7 @@ var require_es_array_iterator = __commonJS({
       var target = state.target;
       var index2 = state.index++;
       if (!target || index2 >= target.length) {
-        state.target = void 0;
+        state.target = null;
         return createIterResultObject(void 0, true);
       }
       switch (state.kind) {
@@ -21776,7 +21768,7 @@ var require_dom_token_list_prototype = __commonJS({
 var require_web_dom_collections_iterator = __commonJS({
   "node_modules/core-js/modules/web.dom-collections.iterator.js"() {
     "use strict";
-    var global2 = require_global();
+    var globalThis2 = require_global_this();
     var DOMIterables = require_dom_iterables();
     var DOMTokenListPrototype = require_dom_token_list_prototype();
     var ArrayIteratorMethods = require_es_array_iterator();
@@ -21806,7 +21798,7 @@ var require_web_dom_collections_iterator = __commonJS({
       }
     };
     for (COLLECTION_NAME in DOMIterables) {
-      handlePrototype(global2[COLLECTION_NAME] && global2[COLLECTION_NAME].prototype, COLLECTION_NAME);
+      handlePrototype(globalThis2[COLLECTION_NAME] && globalThis2[COLLECTION_NAME].prototype, COLLECTION_NAME);
     }
     var COLLECTION_NAME;
     handlePrototype(DOMTokenListPrototype, "DOMTokenList");
@@ -21845,19 +21837,13 @@ var init_toPropertyKey = __esm({
 });
 
 // node_modules/@babel/runtime/helpers/esm/defineProperty.js
-function _defineProperty(obj, key, value) {
-  key = toPropertyKey(key);
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-  return obj;
+function _defineProperty(e4, r5, t5) {
+  return (r5 = toPropertyKey(r5)) in e4 ? Object.defineProperty(e4, r5, {
+    value: t5,
+    enumerable: true,
+    configurable: true,
+    writable: true
+  }) : e4[r5] = t5, e4;
 }
 var init_defineProperty = __esm({
   "node_modules/@babel/runtime/helpers/esm/defineProperty.js"() {
@@ -21938,8 +21924,8 @@ var require_es_array_reduce = __commonJS({
     var $2 = require_export();
     var $reduce = require_array_reduce().left;
     var arrayMethodIsStrict = require_array_method_is_strict();
-    var CHROME_VERSION = require_engine_v8_version();
-    var IS_NODE = require_engine_is_node();
+    var CHROME_VERSION = require_environment_v8_version();
+    var IS_NODE = require_environment_is_node();
     var CHROME_BUG = !IS_NODE && CHROME_VERSION > 79 && CHROME_VERSION < 83;
     var FORCED = CHROME_BUG || !arrayMethodIsStrict("reduce");
     $2({ target: "Array", proto: true, forced: FORCED }, {
@@ -33183,6 +33169,10 @@ var initialSetup = {
     equalToMove: true
   }
 };
+var baseClasses = {
+  wrapperClass: "react-transform-wrapper",
+  contentClass: "react-transform-component"
+};
 var createState = function(props) {
   var _a2, _b2, _c, _d;
   return {
@@ -33424,9 +33414,10 @@ function makePassiveEventOption() {
     return passiveSupported;
   }
 }
+var matchPrefix = ".".concat(baseClasses.wrapperClass);
 var isExcludedNode = function(node2, excluded) {
   return excluded.some(function(exclude) {
-    return node2.matches("".concat(exclude, ", .").concat(exclude, ", ").concat(exclude, " *, .").concat(exclude, " *"));
+    return node2.matches("".concat(matchPrefix, " ").concat(exclude, ", ").concat(matchPrefix, " .").concat(exclude, ", ").concat(matchPrefix, " ").concat(exclude, " *, ").concat(matchPrefix, " .").concat(exclude, " *"));
   });
 };
 var cancelTimeout = function(timeout) {
@@ -33645,18 +33636,32 @@ var handleWheelStop = function(contextInstance, event) {
     }, wheelStopEventTime);
   }
 };
+var getTouchCenter = function(event) {
+  var totalX = 0;
+  var totalY = 0;
+  for (var i4 = 0; i4 < 2; i4 += 1) {
+    totalX += event.touches[i4].clientX;
+    totalY += event.touches[i4].clientY;
+  }
+  var x2 = totalX / 2;
+  var y3 = totalY / 2;
+  return { x: x2, y: y3 };
+};
 var handlePinchStart = function(contextInstance, event) {
   var distance = getTouchDistance(event);
   contextInstance.pinchStartDistance = distance;
   contextInstance.lastDistance = distance;
   contextInstance.pinchStartScale = contextInstance.transformState.scale;
   contextInstance.isPanning = false;
+  var center = getTouchCenter(event);
+  contextInstance.pinchLastCenterX = center.x;
+  contextInstance.pinchLastCenterY = center.y;
   handleCancelAnimation(contextInstance);
 };
 var handlePinchZoom = function(contextInstance, event) {
-  var contentComponent = contextInstance.contentComponent, pinchStartDistance = contextInstance.pinchStartDistance;
+  var contentComponent = contextInstance.contentComponent, pinchStartDistance = contextInstance.pinchStartDistance, wrapperComponent = contextInstance.wrapperComponent;
   var scale = contextInstance.transformState.scale;
-  var _a2 = contextInstance.setup, limitToBounds = _a2.limitToBounds, centerZoomedOut = _a2.centerZoomedOut, zoomAnimation = _a2.zoomAnimation;
+  var _a2 = contextInstance.setup, limitToBounds = _a2.limitToBounds, centerZoomedOut = _a2.centerZoomedOut, zoomAnimation = _a2.zoomAnimation, alignmentAnimation = _a2.alignmentAnimation;
   var disabled = zoomAnimation.disabled, size = zoomAnimation.size;
   if (pinchStartDistance === null || !contentComponent)
     return;
@@ -33665,15 +33670,26 @@ var handlePinchZoom = function(contextInstance, event) {
     return;
   var currentDistance = getTouchDistance(event);
   var newScale = calculatePinchZoom(contextInstance, currentDistance);
-  if (newScale === scale)
+  var center = getTouchCenter(event);
+  var panX = center.x - (contextInstance.pinchLastCenterX || 0);
+  var panY = center.y - (contextInstance.pinchLastCenterY || 0);
+  if (newScale === scale && panX === 0 && panY === 0)
     return;
+  contextInstance.pinchLastCenterX = center.x;
+  contextInstance.pinchLastCenterY = center.y;
   var bounds = handleCalculateBounds(contextInstance, newScale);
   var isPaddingDisabled = disabled || size === 0 || centerZoomedOut;
   var isLimitedToBounds = limitToBounds && isPaddingDisabled;
   var _b2 = handleCalculateZoomPositions(contextInstance, midPoint.x, midPoint.y, newScale, bounds, isLimitedToBounds), x2 = _b2.x, y3 = _b2.y;
   contextInstance.pinchMidpoint = midPoint;
   contextInstance.lastDistance = currentDistance;
-  contextInstance.setTransformState(newScale, x2, y3);
+  var sizeX = alignmentAnimation.sizeX, sizeY = alignmentAnimation.sizeY;
+  var paddingValueX = getPaddingValue(contextInstance, sizeX);
+  var paddingValueY = getPaddingValue(contextInstance, sizeY);
+  var newPositionX = x2 + panX;
+  var newPositionY = y3 + panY;
+  var _c = getMouseBoundedPosition(newPositionX, newPositionY, bounds, limitToBounds, paddingValueX, paddingValueY, wrapperComponent), finalX = _c.x, finalY = _c.y;
+  contextInstance.setTransformState(newScale, finalX, finalY);
 };
 var handlePinchStop = function(contextInstance) {
   var pinchMidpoint = contextInstance.pinchMidpoint;
@@ -33755,6 +33771,8 @@ var ZoomPanPinch = (
     function ZoomPanPinch2(props) {
       var _this = this;
       this.mounted = true;
+      this.pinchLastCenterX = null;
+      this.pinchLastCenterY = null;
       this.onChangeCallbacks = /* @__PURE__ */ new Set();
       this.onInitCallbacks = /* @__PURE__ */ new Set();
       this.wrapperComponent = null;
@@ -33978,9 +33996,7 @@ var ZoomPanPinch = (
         if (!isAllowed)
           return;
         var isDoubleTap = _this.lastTouch && +/* @__PURE__ */ new Date() - _this.lastTouch < 200;
-        if (isDoubleTap && event.touches.length === 1) {
-          _this.onDoubleClick(event);
-        } else {
+        if (!isDoubleTap) {
           _this.lastTouch = +/* @__PURE__ */ new Date();
           handleCancelAnimation(_this);
           var touches = event.touches;
@@ -34199,8 +34215,8 @@ var TransformComponent = function(_a2) {
   }, []);
   return import_react3.default.createElement(
     "div",
-    __assign({}, wrapperProps, { ref: wrapperRef, className: "react-transform-wrapper ".concat(styles.wrapper, " ").concat(wrapperClass), style: wrapperStyle }),
-    import_react3.default.createElement("div", __assign({}, contentProps, { ref: contentRef, className: "react-transform-component ".concat(styles.content, " ").concat(contentClass), style: contentStyle }), children)
+    __assign({}, wrapperProps, { ref: wrapperRef, className: "".concat(baseClasses.wrapperClass, " ").concat(styles.wrapper, " ").concat(wrapperClass), style: wrapperStyle }),
+    import_react3.default.createElement("div", __assign({}, contentProps, { ref: contentRef, className: "".concat(baseClasses.contentClass, " ").concat(styles.content, " ").concat(contentClass), style: contentStyle }), children)
   );
 };
 
@@ -44251,12 +44267,20 @@ var ModalContent = ({ markdownEl, settings, app, frontmatter, title, metadataMap
 };
 var ModalContent_default = ModalContent;
 
+// src/utils/preprocessMarkdown.ts
+function preprocessMarkdown(markdown, frontmatter) {
+  if (frontmatter?.["excalidraw-plugin"]) {
+    return markdown.replace(/[ ]*excalidraw-plugin:.+[\n\r]*/, "");
+  }
+  return markdown;
+}
+
 // src/components/file/exportImage.tsx
 async function exportImage_default(app, settings, markdown, file, frontmatter) {
   const el = document.createElement("div");
   await import_obsidian7.MarkdownRenderer.render(
     app,
-    markdown,
+    preprocessMarkdown(markdown, frontmatter),
     el.createDiv(),
     file.path,
     app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView) || app.workspace.activeLeaf?.view || new import_obsidian7.MarkdownRenderChild(el)

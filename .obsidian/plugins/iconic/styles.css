@@ -1,3 +1,7 @@
+body {
+	--ltr-icons: .lucide-check, .lucide-help-circle, .sidebar-left, .sidebar-right;
+}
+
 .iconic-icon > .iconic-emoji {
 	display: flex;
 	flex-wrap: wrap;
@@ -28,30 +32,42 @@
 }
 
 /* List items */
-.tree-item-icon.iconic-icon > .iconic-emoji {
+.tree-item-self > .iconic-icon > .iconic-emoji {
 	--icon-size: var(--icon-xs);
 }
-.tree-item-icon.collapse-icon.iconic-icon > .svg-icon {
+.tree-item-self > .tree-item-icon.collapse-icon.iconic-icon > .svg-icon {
 	width: var(--icon-size);
 	height: var(--icon-size);
 	stroke-width: var(--icon-stroke);
 	color: unset;
 	transform: unset;
 }
-.iconic-bigger-icons .tree-item-icon.iconic-icon > .svg-icon {
+.mod-rtl .tree-item-self > .tree-item-icon.collapse-icon.iconic-icon > .svg-icon:not(var(--ltr-icons)) {
+	transform: scale(-1, 1);
+}
+.tree-item-self > .iconic-sidekick {
+	display: flex;
+	align-self: center;
+	width: var(--size-4-4);
+	margin-inline-end: var(--size-4-1);
+	opacity: var(--icon-opacity);
+	--icon-size: var(--icon-xs);
+	--icon-stroke: var(--icon-s-stroke-width);
+}
+.iconic-bigger-icons .tree-item-self > .iconic-icon > .svg-icon {
 	--icon-size: var(--icon-s);
 	--icon-stroke: var(--icon-s-stroke-width);
 }
-.iconic-bigger-icons .tree-item-icon.iconic-icon > .iconic-emoji {
+.iconic-bigger-icons .tree-item-self > .iconic-icon > .iconic-emoji {
 	--icon-size: var(--icon-s);
 }
-.iconic-bigger-icons .tree-item.iconic-item > .tree-item-self > .tree-item-inner {
+.iconic-bigger-icons .iconic-item > .tree-item-self > .tree-item-inner {
 	margin-inline-start: 1.5px;
 }
 .is-mobile .iconic-bigger-icons .tree-item.iconic-item > .tree-item-self > .tree-item-inner {
 	margin-inline-start: 3px;
 }
-.iconic-clickable-icons .tree-item-icon.iconic-icon:hover {
+.iconic-clickable-icons .tree-item-self > .iconic-icon:hover {
 	cursor: pointer;
 	filter: contrast(200%);
 }
@@ -74,6 +90,11 @@
 .iconic-modal .setting-item-control input[type="color"] { width: auto; }
 .iconic-modal .setting-item-control input[type="text"] { width: 100%; }
 .iconic-modal .setting-item-control .search-input-container { width: 100%; }
+.is-tablet .iconic-button-row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
 
 /* Search results container */
 .iconic-search-results { overflow-x: scroll; }
@@ -85,12 +106,20 @@
 /* Search result */
 .iconic-search-result > * {
 	height: var(--icon-size);
-	--icon-size: var(--icon-l);
-	--icon-stroke: var(--icon-l-stroke-width);
+	--icon-size: calc(var(--icon-l) * 1.25);
+	--icon-stroke: calc(var(--icon-l-stroke-width) * 6/7);
 }
 .iconic-bigger-search-results .iconic-search-result > * {
 	--icon-size: var(--icon-xl);
 	--icon-stroke: var(--icon-xl-stroke-width);
+}
+.is-mobile .iconic-search-result > * {
+	--icon-size: var(--icon-l);
+	--icon-stroke: var(--icon-l-stroke-width);
+}
+.is-mobile.iconic-bigger-search-results .iconic-search-result > * {
+	--icon-size: var(--icon-xl);
+	--icon-stroke: var(--icon-l-stroke-width);
 }
 
 /* Indicators */
@@ -100,27 +129,190 @@
 .iconic-invisible { visibility: hidden; }
 .is-phone .iconic-reset-color.iconic-invisible { display: none; }
 
-/* Uncolored hover */
-.iconic-uncolor-hover .workspace-tab-header:hover .iconic-icon > .svg-icon { stroke: currentColor; }
-.iconic-uncolor-hover .tree-item-self:hover > .tree-item-icon.iconic-icon > .svg-icon { stroke: currentColor; }
-.iconic-uncolor-hover .side-dock-ribbon-action.iconic-icon:hover > .svg-icon { stroke: currentColor; }
-.iconic-uncolor-hover .iconic-search-result:hover > .svg-icon { stroke: currentColor; }
+/* Colorless settings */
+.iconic-uncolor-hover .workspace-tab-header:hover .iconic-icon > .svg-icon,
+.iconic-uncolor-hover .tree-item-self:hover > .tree-item-icon.iconic-icon > .svg-icon,
+.iconic-uncolor-hover .side-dock-ribbon-action.iconic-icon:hover > .svg-icon,
+.iconic-uncolor-hover .iconic-search-result:hover > .svg-icon {
+	color: currentColor !important;
+}
+.iconic-uncolor-drag > .drag-ghost .svg-icon {
+	color: currentColor !important;
+}
+.iconic-uncolor-select .workspace-tab-header.is-active .iconic-icon > .svg-icon,
+.iconic-uncolor-select .tree-item-self.is-active > .tree-item-icon.iconic-icon > .svg-icon {
+	color: currentColor !important;
+}
 
-/* Uncolored selection */
-.iconic-uncolor-select .workspace-tab-header.is-active .iconic-icon > .svg-icon { stroke: currentColor; }
-.iconic-uncolor-select .tree-item-self.is-active > .tree-item-icon.iconic-icon > .svg-icon { stroke: currentColor; }
+/* Theme: Blue Topaz */
+.iconic-theme-btopaz .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon:not(.collapse-icon) {
+	margin-inline-start: 0;
+}
+.iconic-theme-btopaz .workspace-leaf-content[data-type="file-explorer"] .nav-file-title-content {
+	margin-inline-start: var(--size-4-5);
+}
+.iconic-theme-btopaz .workspace-leaf-content[data-type="file-explorer"] .nav-file-title .nav-file-title-content:not(.mk-tree-text)::before {
+	display: none;
+}
+.iconic-theme-btopaz .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:has(.collapse-icon.iconic-icon) > .collapse-icon::before {
+	display: none;
+}
+.iconic-theme-btopaz .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:has(.collapse-icon.iconic-icon) > .collapse-icon > svg {
+	display: flex;
+}
 
-/* Community themes */
-.iconic-its-theme .tree-item-self > .tree-item-icon {
+/* Theme: Border */
+.iconic-theme-border .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .nav-file-title::before {
+	display: none;
+}
+.iconic-theme-border .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .tree-item > .tree-item-self.mod-collapsible > .collapse-icon {
+	-webkit-mask-image: none;
+	background-color: transparent;
+}
+.iconic-theme-border .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .tree-item-self.mod-collapsible > .collapse-icon > .svg-icon {
+	color: unset;
+}
+.iconic-theme-border .workspace-leaf-content[data-type="file-explorer"] .tree-item > .tree-item-self:is(.nav-file-title, .nav-folder.mod-root > .nav-folder-title)::before {
+	display: none;
+}
+
+/* Theme: Catppuccin */
+.iconic-theme-cat .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title-content::before {
+	display: none;
+}
+
+/* Theme: Cyber Glow */
+.iconic-theme-cglow .workspace-leaf-content[data-type="file-explorer"] .tree-item-self > .tree-item-inner::before {
+	display: none;
+}
+.iconic-theme-cglow .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon.collapse-icon.nav-folder-collapse-indicator {
+	display: flex;
+}
+
+/* Theme: Discordian */
+.iconic-theme-discord .workspace-leaf-content[data-type="file-explorer"] .nav-file-title > .tree-item-icon {
+	margin-inline-start: 0;
+}
+.iconic-theme-discord .workspace-leaf-content[data-type="file-explorer"] .nav-file-title-content {
+	margin-inline-start: var(--size-4-5);
+}
+
+/* Theme: ITS Theme */
+.iconic-theme-its .tree-item-self > .tree-item-icon {
 	margin-right: 6px;
 }
-.iconic-its-theme .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon {
-	display: flex;
+.iconic-theme-its .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon {
 	position: absolute;
 }
-.iconic-its-theme .workspace-leaf-content[data-type="file-explorer"] .tree-item-inner::before {
-	visibility: hidden;
+.iconic-theme-its .workspace-leaf-content[data-type="file-explorer"] .nav-file-title-content {
+	margin-inline-start: var(--size-4-5);
 }
-.iconic-its-theme.hide-file-explorer-icons .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon {
+.iconic-theme-its .workspace-leaf-content[data-type="file-explorer"] .nav-file-title-content::before,
+.iconic-theme-its .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title-content::before {
 	display: none;
+}
+.iconic-theme-its .workspace-leaf-content[data-type="file-explorer"] .nav-folder-collapse-indicator {
+	display: flex;
+}
+.iconic-theme-its .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:not(:has(.iconic-sidekick)) > .nav-folder-title-content {
+	margin-inline-start: var(--size-4-5);
+}
+.iconic-theme-its .workspace-leaf-content[data-type="file-explorer"] .iconic-sidekick {
+	margin-inline-start: var(--size-4-5);
+}
+
+/* Theme: LYT Mode */
+.iconic-theme-lyt .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .tree-item-inner {
+	padding-inline-start: var(--size-4-2);
+}
+.iconic-theme-lyt .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .iconic-sidekick {
+	margin-inline-start: var(--size-4-2);
+	margin-inline-end: 0;
+}
+.iconic-theme-lyt .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .tree-item-icon:not(.collapse-icon) {
+	margin-inline-start: calc(-0.5 * var(--size-4-5));
+}
+.iconic-theme-lyt .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .mod-collapsible:not(:has(.iconic-sidekick)) > .tree-item-inner {
+	padding-inline-start: var(--size-4-2);
+	margin-inline-start: var(--size-4-2);
+}
+.iconic-theme-lyt .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) :not(.mod-collapsible) > .tree-item-inner {
+	margin-inline-start: var(--size-4-2);
+}
+.iconic-theme-lyt .workspace-leaf-content > :is(.nav-files-container, .view-content).node-insert-event {
+	padding: var(--size-4-1) var(--size-4-3) var(--size-4-6) var(--size-4-3);
+}
+
+/* Theme: Mado Miniflow */
+.iconic-theme-mflow .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .tree-item:not(.mod-collapsible) {
+	margin-inline-start: var(--size-4-2);
+}
+.iconic-theme-mflow .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title > .collapse-icon {
+	display: flex;
+}
+
+/* Theme: Sanctum */
+.iconic-theme-sanctum .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:has(.iconic-sidekick) > .nav-folder-title-content::before {
+	display: none;
+}
+
+/* Theme: Shiba Inu */
+.iconic-theme-shiba.theme-light:not(.default-light-theme, .lily-light, .ivory-light, .sky-light, .stone-light) {
+	--color-red: rgb(240, 68, 114);
+	--color-orange: rgb(249, 102, 50);
+	--color-yellow: rgb(228, 147, 32);
+	--color-green: rgb(64, 155, 40);
+	--color-cyan: rgb(23, 146, 153);
+	--color-blue: rgb(71, 143, 238);
+	--color-purple: rgb(176, 110, 201);
+	--color-pink: rgb(215, 125, 146);
+}
+.iconic-theme-shiba.theme-dark:not(.default-dark-theme, .Lilac-dark, .pure-dark, .warm-dark) {
+	--color-red: rgb(255, 98, 107);
+	--color-orange: rgb(247, 157, 124);
+	--color-yellow: rgb(249, 226, 175);
+	--color-green: rgb(56, 198, 141);
+	--color-cyan: rgb(104, 188, 204);
+	--color-blue: rgb(147, 183, 245);
+	--color-purple: rgb(196, 167, 231);
+	--color-pink: rgb(243, 137, 143);
+}
+.iconic-theme-shiba .workspace-leaf-content[data-type="file-explorer"] .nav-file-title-content::before {
+	display: none;
+}
+
+/* Theme: Shimmering Focus */
+.iconic-theme-shimmer :is(.style-settings-collapse-indicator, .collapse-icon) > .svg-icon.svg-icon.svg-icon.svg-icon {
+	width: var(--icon-xs);
+	stroke-width: var(--icon-xs-stroke-width);
+	height: unset;
+	margin-left: unset;
+}
+.iconic-theme-shimmer.iconic-bigger-icons :is(.style-settings-collapse-indicator, .collapse-icon) > .svg-icon.svg-icon.svg-icon.svg-icon {
+	width: var(--icon-s);
+	stroke-width: var(--icon-s-stroke-width);
+}
+
+/* Theme: Sodalite */
+.iconic-theme-sodalite .workspace-leaf-content[data-type="file-explorer"] .nav-files-container {
+	padding-inline-start: var(--size-4-3);
+	padding-inline-end: var(--size-4-3);
+}
+.iconic-theme-sodalite .workspace-leaf-content[data-type="file-explorer"] .tree-item-inner::before {
+	display: none;
+}
+
+/* Theme: Spectrum */
+.iconic-theme-spectrum .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title > .nav-folder-title-content::before {
+	display: none;
+}
+
+/* Theme: Terminal */
+.iconic-theme-terminal .workspace-leaf-content:is([data-type="file-explorer"], [data-type="bookmarks"]) .collapse-icon.iconic-icon::before {
+	display: none;
+}
+
+/* Theme: Ukiyo */
+.iconic-theme-ukiyo .workspace-leaf > .workspace-leaf-content[data-type="file-explorer"] > .nav-files-container.node-insert-event {
+	padding: var(--size-4-1) var(--size-4-3) var(--size-4-6) var(--size-4-3);
 }

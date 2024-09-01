@@ -19,6 +19,9 @@
     "剧情主角": "multitext",
     "人物": "multitext",
     "介质": "text",
-    "已邀请": "checkbox"
+    "已邀请": "checkbox",
+    "新角色": "multitext",
+    "新心相": "multitext",
+    "国际服上线时间": "date"
   }
 }

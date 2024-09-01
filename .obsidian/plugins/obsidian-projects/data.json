@@ -514,7 +514,14 @@
             "fitStyle": "cover"
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "实装版本",
+                "operator": "contains",
+                "enabled": true,
+                "value": "1.6"
+              }
+            ]
           },
           "colors": {
             "conditions": []
