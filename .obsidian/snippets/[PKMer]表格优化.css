@@ -251,30 +251,30 @@ body.theme-dark {
 .markdown-source-view.mod-cm6 .cm-table-widget .table-row-btn, .markdown-source-view.mod-cm6 .cm-table-widget .table-col-btn {
   transition-duration:400ms
 }
-body.theme-light.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-light.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color: var(--表格标题列层底色-浅色模式)
 }
-body.theme-light.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n) td {
+body.theme-light.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
   background-color:var(--表格间隔2层底色-浅色模式)
 }
-body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n-1) td {
+body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
   background-color:var(--表格间隔1层底色-浅色模式)
 }
 
-body.theme-dark.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-dark.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color:var(--表格标题列层底色-深色模式)
 }
-body.theme-dark.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n) td {
+body.theme-dark.tbMH-ds-cg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
   background-color:var(--表格间隔2层底色-深色模式)
 }
-body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n-1) td {
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
   background-color:var(--表格间隔1层底色-深色模式)
 }
-body.tbMH-qk :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview) {
+body.tbMH-qk :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)  {
   --table-white-space: break-all;
   width: 100%;
 }
-body.tbMH-zdykd-jz :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview)  {
+body.tbMH-zdykd-jz :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
   --table-white-space: break-all;
   width: var(--表格自定义宽度);
   margin-left: calc(50% - var(--表格自定义宽度) / 2);
@@ -293,79 +293,79 @@ body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper
 body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) th:last-child:not(:has(.table-col-drag-handle:hover)) {
   border-top-right-radius: var(--table-radius);
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(.table-col-btn:hover) :not(.dataview) th:last-child {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(.table-col-btn:hover) th:last-child {
   border-top-right-radius: 0;
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview) tr:last-child td:first-child {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) tr:last-child td:first-child {
   border-bottom-left-radius: var(--table-radius);
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(.table-row-btn:hover) :not(.dataview) tr:last-child td:first-child {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(.table-row-btn:hover) tr:last-child td:first-child {
   border-bottom-left-radius: 0;
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview) tr:last-child td:last-child {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) tr:last-child td:last-child {
   border-bottom-right-radius: var(--table-radius);
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(:is(.table-col-btn, .table-row-btn):hover) :not(.dataview) tr:last-child td:last-child {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(:is(.table-col-btn, .table-row-btn):hover) tr:last-child td:last-child {
   border-bottom-right-radius: 0;
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview) .table-col-btn {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-col-btn {
   border-top-right-radius: var(--table-radius);
   border-bottom-right-radius: var(--table-radius);
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview) .table-row-btn {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-row-btn {
   border-bottom-left-radius: var(--table-radius);
   border-bottom-right-radius: var(--table-radius);
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview) :is(th, td):not(:first-child) {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :is(th, td):not(:first-child) {
   border-left: 0;
 }
-body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :not(.dataview) tbody td {
+body.tbMH-yuan :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) tbody td {
   border-top: 0;
 }
-body.theme-light :not(.dataview) .markdown-source-view.mod-cm6 .cm-table-widget th.is-selected::after,body.theme-light .markdown-source-view.mod-cm6 .cm-table-widget td.is-selected::after {
+body.theme-light .markdown-source-view.mod-cm6 .cm-table-widget th.is-selected::after,body.theme-light .markdown-source-view.mod-cm6 .cm-table-widget td.is-selected::after {
   background-color:var(--框选多单元格底色-浅色模式)
 }
-body.theme-dark :not(.dataview) .markdown-source-view.mod-cm6 .cm-table-widget th.is-selected::after,body.theme-dark .markdown-source-view.mod-cm6 .cm-table-widget td.is-selected::after {
+body.theme-dark .markdown-source-view.mod-cm6 .cm-table-widget th.is-selected::after,body.theme-dark .markdown-source-view.mod-cm6 .cm-table-widget td.is-selected::after {
   background-color:var(--框选多单元格底色-深色模式)
 }
-body.tbMH-kd-ncc :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) :not(.dataview) {
+body.tbMH-kd-ncc :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
   word-break: break-all;
 }
-body.tbMH-kd-ncc-jy :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) :not(.dataview) {
+body.tbMH-kd-ncc-jy :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
   word-break: break-all;
   table-layout: fixed; 
 }
-body.theme-light.tbMH-ds-bt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-light.tbMH-ds-bt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color: var(--表格标题列层底色-浅色模式)
 }
-body.theme-dark.tbMH-ds-bt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-dark.tbMH-ds-bt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color:var(--表格标题列层底色-深色模式)
 }
-body.tbMH-ds-bt tr:nth-child(2n) :not(.dataview) td {
+body.tbMH-ds-bt tr:nth-child(2n) td {
   background-color:transparent;
 }
-body.tbMH-ds-tm :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.tbMH-ds-tm :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color:transparent;
 }
-body.tbMH-ds-tm tr:nth-child(2n) :not(.dataview) td {
+body.tbMH-ds-tm tr:nth-child(2n) td {
   background-color:transparent;
 }
-body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th:first-child {
+body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
   background-color:var(--表格标题头底色-浅色模式)
 }
-body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th:first-child {
+body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
   background-color:var(--表格标题头底色-深色模式)
 }
-body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color: var(--表格标题列层底色-浅色模式)
 }
-body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color:var(--表格标题列层底色-深色模式)
 }
-body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) td:first-child {
+body.theme-light.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
   background-color:var(--表格标题行层底色-浅色模式)
 }
-body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) td:first-child {
+body.theme-dark.tbMH-ds-hlbt :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
   background-color:var(--表格标题行层底色-深色模式)
 }
 body.tbMH-ds-hlbt .markdown-rendered td:first-child {
@@ -375,186 +375,186 @@ body.tbMH-ds-hlbt .markdown-rendered td:first-child {
   font-family: var(--table-header-font);
   line-height: var(--line-height-tight);
 }
-body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th:first-child {
+body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
   background-color:var(--表格标题头底色-浅色模式)
 }
-body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th:first-child {
+body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th:first-child {
   background-color:var(--表格标题头底色-深色模式)
 }
-body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color: var(--表格标题列层底色-浅色模式)
 }
-body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color:var(--表格标题列层底色-深色模式)
 }
-body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) td:first-child {
+body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
   background-color:var(--表格标题行层底色-浅色模式)
 }
-body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) td:first-child {
+body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) td:first-child {
   background-color:var(--表格标题行层底色-深色模式)
 }
 
-body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n) td:not(:first-child) {
+body.theme-light.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td:not(:first-child) {
   background-color:var(--表格间隔2层底色-浅色模式,)
 }
-body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n) td:not(:first-child) {
+body.theme-dark.tbMH-ds-hlbt-jg :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td:not(:first-child) {
   background-color:var(--表格间隔2层底色-深色模式)
 }
-body.tbMH-ds-hlbt-jg :not(.dataview) .markdown-rendered td:first-child {
+body.tbMH-ds-hlbt-jg .markdown-rendered td:first-child {
   font-size: var(--table-header-size);
   font-weight: var(--table-header-weight);
   color: var(--table-header-color);
   font-family: var(--table-header-font);
   line-height: var(--line-height-tight);
 }
-body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color: var(--表格标题列层底色-浅色模式)
 }
-body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n) td {
+body.theme-light.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
   background-color:var(--表格间隔2层底色-浅色模式)
 }
-body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n-1) td {
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
   background-color:var(--表格间隔1层底色-浅色模式)
 }
 
-body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) th {
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) th {
   background-color:var(--表格标题列层底色-深色模式)
 }
-body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n) td {
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n) td {
   background-color:var(--表格间隔2层底色-深色模式)
 }
-body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) :not(.dataview) tr:nth-child(2n-1) td {
+body.theme-dark.tbMH-qds :is(.markdown-preview-view,.markdown-source-view.mod-cm6 .cm-table-widget) tr:nth-child(2n-1) td {
   background-color:var(--表格间隔1层底色-深色模式)
 }
 
 /*class的页面选择器*/
-  body.theme-light .常规底色模式 :not(.dataview) th:first-child {
+  body.theme-light .常规底色模式 th:first-child {
     background-color:var(--表格标题列层底色-浅色模式)!important
   }
-  body.theme-dark .常规底色模式 :not(.dataview) th:first-child {
+  body.theme-dark .常规底色模式 th:first-child {
     background-color:var(--表格标题列层底色-深色模式)!important
   }
-  body.theme-light.常规底色模式 :not(.dataview) th {
+  body.theme-light.常规底色模式 th {
     background-color: var(--表格标题列层底色-深色模式)!important
   }
-  body.theme-light.常规底色模式 :not(.dataview) tr:nth-child(2n) td {
+  body.theme-light.常规底色模式 tr:nth-child(2n) td {
     background-color:var(--表格间隔2层底色-浅色模式)!important
   }
-  body.theme-dark .常规底色模式 :not(.dataview) th {
+  body.theme-dark .常规底色模式 th {
     background-color:var(--表格标题列层底色-深色模式)!important
   }
-  body.theme-dark .常规底色模式 :not(.dataview) tr:nth-child(2n) td {
+  body.theme-dark .常规底色模式 tr:nth-child(2n) td {
     background-color:var(--表格间隔2层底色-深色模式)!important
   }
-  .常规底色模式 :not(.dataview) tr:nth-child(2n-1) td {
+  .常规底色模式 tr:nth-child(2n-1) td {
     background-color:transparent !important;
   }
-  .常规底色模式 :not(.dataview) td:first-child {
+  .常规底色模式 td:first-child {
     font-weight: var(--anp-font-preview-wt, normal)!important;
   }
-  body.theme-light .标题底色模式 :not(.dataview) th:first-child {
+  body.theme-light .标题底色模式 th:first-child {
     background-color:var(--表格标题列层底色-浅色模式)!important
   }
-  body.theme-dark .标题底色模式 :not(.dataview) th:first-child {
+  body.theme-dark .标题底色模式 th:first-child {
     background-color:var(--表格标题列层底色-深色模式)!important
   }
-  body.theme-light .标题底色模式 :not(.dataview) th {
+  body.theme-light .标题底色模式 th {
     background-color: var(--表格标题列层底色-深色模式)!important
   }
-  body.theme-dark .标题底色模式 :not(.dataview) th {
+  body.theme-dark .标题底色模式 th {
     background-color:var(--表格标题列层底色-深色模式)!important
   }
-  .标题底色模式 tr:nth-child(2n-1) :not(.dataview) td {
+  .标题底色模式 tr:nth-child(2n-1) td {
     background-color:transparent !important;
   }
-  .标题底色模式 tr:nth-child(2n) :not(.dataview) td {
+  .标题底色模式 tr:nth-child(2n) td {
     background-color:transparent !important;
   }
-  .标题底色模式 :not(.dataview) td:first-child {
+  .标题底色模式 td:first-child {
     font-weight: var(--anp-font-preview-wt, normal)!important;
   }
-  body.theme-light .行列标题底色模式 :not(.dataview) th:first-child {
+  body.theme-light .行列标题底色模式 th:first-child {
     background-color:var(--表格标题头底色-浅色模式)!important
   }
-  body.theme-dark .行列标题底色模式  :not(.dataview) th:first-child {
+  body.theme-dark .行列标题底色模式 th:first-child {
     background-color:var(--表格标题头底色-深色模式)!important
   }
-  body.theme-light .行列标题底色模式 :not(.dataview) th {
+  body.theme-light .行列标题底色模式 th {
     background-color: var(--表格标题列层底色-浅色模式)!important
   }
-  body.theme-dark .行列标题底色模式 :not(.dataview) th {
+  body.theme-dark .行列标题底色模式 th {
     background-color:var(--表格标题列层底色-深色模式)!important
   }
-  body.theme-light .行列标题底色模式 :not(.dataview) td:first-child {
+  body.theme-light .行列标题底色模式 td:first-child {
     background-color:var(--表格标题行层底色-浅色模式)!important
   }
-  body.theme-dark .行列标题底色模式 :not(.dataview) td:first-child {
+  body.theme-dark .行列标题底色模式 td:first-child {
     background-color:var(--表格标题行层底色-深色模式)!important
   }
-  .行列标题底色模式 :not(.dataview) td:first-child {
+  .行列标题底色模式 td:first-child {
     font-size: var(--table-header-size)!important;
     font-weight: var(--table-header-weight)!important;
     color: var(--table-header-color)!important;
     font-family: var(--table-header-font)!important;
     line-height: var(--line-height-tight)!important;
   }
-  body.theme-light .行列标题底色模式 :not(.dataview) tr:nth-child(2n) td:not(:first-child) {
+  body.theme-light .行列标题底色模式 tr:nth-child(2n) td:not(:first-child) {
     background-color:transparent !important
   }
-  body.theme-dark .行列标题底色模式 :not(.dataview) tr:nth-child(2n) td:not(:first-child) {
+  body.theme-dark .行列标题底色模式 tr:nth-child(2n) td:not(:first-child) {
     background-color:transparent !important
   }
-  body.theme-light .行列标题间隔层模式 :not(.dataview) th:first-child {
+  body.theme-light .行列标题间隔层模式 th:first-child {
     background-color:var(--表格标题头底色-浅色模式)!important
   }
-  body.theme-dark .行列标题间隔层模式 :not(.dataview) th:first-child {
+  body.theme-dark .行列标题间隔层模式 th:first-child {
     background-color:var(--表格标题头底色-深色模式)!important
   }
   
-  body.theme-light .行列标题间隔层模式 :not(.dataview) th {
+  body.theme-light .行列标题间隔层模式 th {
     background-color: var(--表格标题列层底色-浅色模式)!important
   }
-  body.theme-dark .行列标题间隔层模式 :not(.dataview) th {
+  body.theme-dark .行列标题间隔层模式 th {
     background-color:var(--表格标题列层底色-深色模式)!important
   }
-  body.theme-light .行列标题间隔层模式 :not(.dataview) td:first-child {
+  body.theme-light .行列标题间隔层模式 td:first-child {
     background-color:var(--表格标题行层底色-浅色模式)!important
   }
-  body.theme-dark .行列标题间隔层模式 :not(.dataview) td:first-child {
+  body.theme-dark .行列标题间隔层模式 td:first-child {
     background-color:var(--表格标题行层底色-深色模式)!important
   }
-  body.theme-light .行列标题间隔层模式 :not(.dataview) tr:nth-child(2n) td:not(:first-child) {
+  body.theme-light .行列标题间隔层模式 tr:nth-child(2n) td:not(:first-child) {
     background-color:var(--表格间隔2层底色-浅色模式)!important
   }
-  body.theme-dark .行列标题间隔层模式 :not(.dataview) tr:nth-child(2n) td:not(:first-child) {
+  body.theme-dark .行列标题间隔层模式 tr:nth-child(2n) td:not(:first-child) {
     background-color:var(--表格间隔2层底色-深色模式)!important
   }
-  .行列标题间隔层模式 :not(.dataview) td:first-child {
+  .行列标题间隔层模式 td:first-child {
     font-size: var(--table-header-size)!important;
     font-weight: var(--table-header-weight)!important;
     color: var(--table-header-color)!important;
     font-family: var(--table-header-font)!important;
     line-height: var(--line-height-tight)!important;
   }
-  .全透明底色模式 :not(.dataview) th {
+  .全透明底色模式 th {
     background-color:transparent !important;
   }
-  .全透明底色模式 :not(.dataview) tr:nth-child(2n) td {
+  .全透明底色模式 tr:nth-child(2n) td {
     background-color:transparent !important;
   }
-  .全透明底色模式 :not(.dataview) td:first-child {
+  .全透明底色模式 td:first-child {
     background-color:transparent !important;
   }
-  .全透明底色模式 :not(.dataview) td:first-child {
+  .全透明底色模式 td:first-child {
     font-weight: var(--anp-font-preview-wt, normal)!important;
   }
-  body.tbMH-kd-ncc .均匀模式 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) :not(.dataview) {
+  body.tbMH-kd-ncc .均匀模式 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
     table-layout: fixed!important; 
   }
-  body.tbMH-kd-ncc-jy .非均匀模式 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) :not(.dataview) {
+  body.tbMH-kd-ncc-jy .非均匀模式 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper .cm-active, .markdown-rendered table) {
     table-layout: auto!important; 
   }
-  .表格宽度-第一档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)   {
+  .表格宽度-第一档位 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):not(.dataview)  {
   table-layout: fixed!important; 
   width:200px !important;
   margin-left: calc(50% - 200px / 2)!important;
