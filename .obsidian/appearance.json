@@ -46,8 +46,8 @@
     "[PKMer]卡片化阅览",
     "[Discord]书库封面",
     "[Discord]书库小封面",
-    "[Discord]Cards",
-    "[PKMer]表格优化",
-    "[PKMer&Minimal]Cards"
+    "Cards",
+    "[Discord]Cards (Not Dataview)",
+    "[Discord]Cards"
   ]
 }

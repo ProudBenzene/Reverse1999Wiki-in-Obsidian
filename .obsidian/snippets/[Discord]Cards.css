@@ -329,7 +329,7 @@ body .cards-readline-off {
 .cards.markdown-rendered progress,
 .cards.markdown-source-view.is-live-preview progress {
     display: block;
-    width: var(--cards-progressbar-width);
+    /* width: var(--cards-progressbar-width); */
     height: var(--cards-progressbar-height);
     border-radius: var(--cards-progressbar-border-radius);
     

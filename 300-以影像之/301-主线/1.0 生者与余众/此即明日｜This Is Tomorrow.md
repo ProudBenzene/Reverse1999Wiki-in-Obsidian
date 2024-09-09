@@ -9,10 +9,11 @@ cssclasses:
 aliases:
   - 此即明日
   - This Is Tomorrow
-Cover: "[[assets/序幕 此即明日.assets/此即明日.png]]"
+  - 序章
+Cover: "[[此即明日.png]]"
 海报寄语: The Storm is coming.
 上线版本: "1.0"
 上线时间: 2023-05-31
-Serial: "0"
+Serial: 0
 ---
-![cover](assets/序幕%20此即明日.assets/此即明日.png)
+![cover](assets/此即明日｜This%20Is%20Tomorrow.assets/此即明日.png)

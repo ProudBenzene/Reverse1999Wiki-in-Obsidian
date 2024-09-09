@@ -11,12 +11,12 @@ aliases:
   - 星
   - Star
   - 特别篇
-Cover: "[[assets/特别篇 星.assets/特别篇 星.png]]"
+Cover: "[[星.png]]"
 海报寄语: Who led us to the exile in this cave.
 上线版本: 1.4｜洞穴的囚徒
 上线时间: 2023-10-19
 章节起点: 1914-01-04T08:00:00
 章节终点: 1914-01-04T15:00:00
-Serial: 6 (Inter Chapter)
+Serial: 1.41
 ---
-![cover](assets/特别篇%20星.assets/特别篇%20星.png)
+![cover](assets/星｜Star.assets/星.png)

@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "734aee6eaa7efc7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/300-以影像之.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -63,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/300-以影像之.md"
+                "file": "000-箱的构造/主页.md"
               }
             }
           },
@@ -268,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/300-以影像之.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,6 +289,7 @@
     "hiddenItems": {
       "obsidian-projects:打开项目": false,
       "obsidian-kanban:创建新看板": false,
+      "obsidian-git:Open Git source control": false,
       "daily-notes:打开/创建今天的日记": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
@@ -320,54 +308,53 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "734aee6eaa7efc7a",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/主页.md",
-    "300-以影像之/300-以影像之.md",
-    "300-以影像之/301-主线/1.0 生者与余众/第一章 在我们的时代里.md",
-    "300-以影像之/302-支线/302-支线.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/蓝手帕｜Tuesday.md",
-    "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
-    "300-以影像之/302-支线/飞驰！明日之城｜Floor It! To the Golden City.md",
-    "000-箱的构造/箱中memos/20240702-b573dafc13084690.md",
-    "1999 Wiki&Note Obsidian Vault.md",
-    "300-以影像之/301-主线/301-主线.md",
+    "300-以影像之/301-主线/1.0 生者与余众/今夜星光灿烂｜E lucevan le stelle.md",
+    "000-箱的构造/templates/剧情章节-主线.md",
+    "300-以影像之/301-主线/1.0 生者与余众/洞穴的囚徒｜The Prisoner in the Cave.md",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/洞穴的囚徒｜The Prisoner In The Cave.assets/洞穴的囚徒.png",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/洞穴的囚徒｜The Prisoner in the Cave.assets/1.4版本海报.jpg",
+    "300-以影像之/301-主线/1.0 生者与余众/孤独之歌｜Vereinsamt.md",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/今夜星光灿烂｜E lucevan le stelle.assets/1.7版本海报.jpg",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/今夜星光灿烂｜E lucevan le stelle.assets/1.7版本海报｜国际服.jpg",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/孤独之歌｜Vereinsamt.assets/1.9版本海报｜国际服.jpg",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/孤独之歌｜Vereinsamt.assets/1.9版本海报.jpg",
     "300-以影像之/302-支线/雷米特杯失窃案｜The Theft of the Rimet Cup.md",
-    "300-以影像之/302-支线/雷米特杯失窃案｜The Theft of the Rimet Cup~.md",
-    "300-以影像之/302-支线/绿湖噩梦｜A Nightmare at Green Lake.md",
-    "300-以影像之/302-支线/绿湖噩梦｜A Nightmare at Green Lake~.md",
-    "300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway.md",
-    "300-以影像之/302-支线/assets/77号往事｜Route 77：The Haunted Highway.assets/2.1版本海报.jpg",
-    "300-以影像之/302-支线/再见，来亚什基｜Farewell, Rayashki.md",
-    "300-以影像之/302-支线/朔日手记｜Notes on Shuori.md",
-    "300-以影像之/302-支线/复兴！乌卢鲁运动会｜Revival! The Uluru Games.md",
-    "300-以影像之/302-支线/行至摩卢旁卡｜Journey to Mor Pankh.md",
-    "300-以影像之/302-支线/assets/行至摩卢旁卡｜Journey to Mor Pankh.assets/1.3版本海报｜国际服.jpg",
-    "300-以影像之/302-支线/assets/行至摩卢旁卡｜Journey to Mor Pankh.assets/1.3版本海报.jpg",
-    "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/1.1版本海报｜国际服.jpg",
-    "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/雷米特杯失窃案｜国际服.jpg",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/洞穴的囚徒｜The Prisoner In The Cave.assets/1.4版本海报｜国际服.jpg",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/洞穴的囚徒｜The Prisoner in the Cave.assets/1.4版本海报｜国际服.jpg",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/洞穴的囚徒｜The Prisoner In The Cave.assets/1.4版本海报.jpg",
     "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/雷米特杯失窃案.jpg",
-    "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/1.1版本海报.jpg",
-    "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets",
+    "000-箱的构造/主页.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "400-箱外世界/暴雨时间线.md",
+    "300-以影像之/302-支线/再见，来亚什基｜Farewell, Rayashki.md",
+    "300-以影像之/301-主线/2.0 旅行归来/忧郁的热带｜Tristes Tropiques.md",
+    "300-以影像之/301-主线/2.0 旅行归来/assets/忧郁的热带｜Tristes Tropiques.assets",
+    "300-以影像之/301-主线/2.0 旅行归来/assets",
     "000-箱的构造/常用工具.md",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/1.2版本海报.jpg",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/1.2版本海报｜国际服.jpg",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/绿湖噩梦｜国际服.jpg",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets",
-    "300-以影像之/302-支线/assets/行至摩卢旁卡｜Journey to Mor Pankh.assets",
-    "300-以影像之/302-支线/assets/复兴！乌卢鲁运动会｜Revival! The Uluru Games.assets",
+    "300-以影像之/302-支线/飞驰！明日之城｜Floor It! To the Golden City.md",
     "000-箱的构造/templates/剧情章节-支线.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/葛天｜GeTian.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
-    "300-以影像之/302-支线/assets/朔日手记｜Notes on Shuori.assets",
-    "300-以影像之/301-主线/1.0 生者与余众/第六章 今夜星光灿烂.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/阿夫西维｜Авксивий.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/北方哨歌｜Windsong.md",
-    "300-以影像之/302-支线/assets/再见，来亚什基｜Farewell, Rayashki.assets",
-    "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets",
-    "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It！To the Golden City.assets",
-    "300-以影像之/302-支线/assets/77号往事｜Route 77：The Haunted Highway.assets",
-    "300-以影像之/304-轶事/assets/77号往事｜Route 77：The Haunted Highway.assets",
+    "300-以影像之/302-支线/302-支线.md",
+    "000-箱的构造/templates/UTTU人物合辑.md",
+    "300-以影像之/301-主线/1.0 生者与余众/在我们的时代里｜In Our Times.md",
+    "300-以影像之/300-以影像之.md",
+    "300-以影像之/301-主线/1.0 生者与余众/夜色温柔｜Tender Is the Night.md",
+    "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
+    "300-以影像之/301-主线/1.0 生者与余众/去往新世界｜To The New World.md",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/去往新世界｜To The New World.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/此即明日｜This Is Tomorrow.md",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/此即明日｜This Is Tomorrow.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/孤独之歌｜Vereinsamt.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/孤独之歌｜.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/今夜星光灿烂｜E lucevan le stelle.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/星｜Star.md",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/星｜Star.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/洞穴的囚徒｜The Prisoner In The Cave.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/老虎的金黄｜El Oro de los Tigres.md",
+    "300-以影像之/301-主线/1.0 生者与余众/assets/老虎的金黄｜El Oro de los Tigres.assets",
+    "300-以影像之/301-主线/1.0 生者与余众/故事一无所有｜Nouvelles et Textes pour Rien.md",
+    "300-以影像之/302-支线/绿湖噩梦｜A Nightmare at Green Lake.md",
     "未命名.canvas",
     "白板.canvas"
   ]

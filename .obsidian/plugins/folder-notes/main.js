@@ -1931,7 +1931,7 @@ var TextInputSuggest = class {
     }
   }
   open(container, inputEl) {
-    app.keymap.pushScope(this.scope);
+    this.plugin.app.keymap.pushScope(this.scope);
     container.appendChild(this.suggestEl);
     this.popper = createPopper(inputEl, this.suggestEl, {
       placement: "bottom-start",
@@ -1954,7 +1954,7 @@ var TextInputSuggest = class {
     });
   }
   close() {
-    app.keymap.popScope(this.scope);
+    this.plugin.app.keymap.popScope(this.scope);
     this.suggest.setSuggestions([]);
     if (this.popper)
       this.popper.destroy();
@@ -1967,7 +1967,6 @@ var FolderSuggest = class extends TextInputSuggest {
   constructor(inputEl, plugin, folder) {
     super(inputEl);
     this.inputEl = inputEl;
-    this.plugin = plugin;
     this.folder = folder;
   }
   get_error_msg(mode) {
@@ -2669,7 +2668,6 @@ async function deleteFolderNote(plugin, file, displayModal) {
       await plugin.app.vault.trash(file, true);
       break;
     case "obsidianTrash":
-      console.log("obsidianTrash");
       await plugin.app.vault.trash(file, false);
       break;
     case "delete":
@@ -3009,7 +3007,6 @@ var TemplateSuggest = class extends TextInputSuggest {
   constructor(inputEl, plugin) {
     super(inputEl);
     this.inputEl = inputEl;
-    this.plugin = plugin;
   }
   get_error_msg(mode) {
     switch (mode) {
@@ -5665,11 +5662,6 @@ var FolderNotesPlugin = class extends import_obsidian33.Plugin {
       });
       this.hoverLinkTriggered = true;
     });
-    this.registerEvent(this.app.workspace.on("layout-change", () => {
-      var _a;
-      loadFileClasses(void 0, this);
-      (_a = this.tabManager) == null ? void 0 : _a.updateTabs();
-    }));
     this.registerEvent(this.app.vault.on("create", (file) => {
       handleCreate(file, this);
     }));
@@ -5707,8 +5699,20 @@ var FolderNotesPlugin = class extends import_obsidian33.Plugin {
     });
     if (this.app.workspace.layoutReady) {
       loadFileClasses(void 0, this);
+      this.registerEvent(this.app.workspace.on("layout-change", () => {
+        var _a;
+        loadFileClasses(void 0, this);
+        (_a = this.tabManager) == null ? void 0 : _a.updateTabs();
+      }));
     } else {
-      this.app.workspace.onLayoutReady(async () => loadFileClasses(void 0, this));
+      this.app.workspace.onLayoutReady(async () => {
+        loadFileClasses(void 0, this);
+        this.registerEvent(this.app.workspace.on("layout-change", () => {
+          var _a;
+          loadFileClasses(void 0, this);
+          (_a = this.tabManager) == null ? void 0 : _a.updateTabs();
+        }));
+      });
     }
   }
   handleOverviewBlock(source, el, ctx) {

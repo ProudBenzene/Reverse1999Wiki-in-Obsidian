@@ -38,7 +38,7 @@
     "showEmptyFolders": false,
     "onlyIncludeSubfolders": false,
     "storeFolderCondition": true,
-    "showFolderNotes": false,
+    "showFolderNotes": true,
     "disableCollapseIcon": true
   },
   "useSubmenus": true,
@@ -48,7 +48,7 @@
     "explorer": true,
     "path": false
   },
-  "settingsTab": "general",
+  "settingsTab": "folder_overview",
   "supportedFileTypes": [
     "md",
     "canvas"

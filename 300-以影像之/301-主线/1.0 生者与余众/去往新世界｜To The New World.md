@@ -17,6 +17,6 @@ Cover: "[[去往新世界.png]]"
 上线时间: 2024-05-16
 章节起点: 
 章节终点: 
-Serial: 9 (Inter Chapter)
+Serial: 1.91
 ---
-![cover](assets/谢幕礼%20去往新世界.assets/去往新世界.png)
+![cover](assets/去往新世界｜To%20The%20New%20World.assets/去往新世界.png)

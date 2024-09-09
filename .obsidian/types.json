@@ -22,6 +22,7 @@
     "已邀请": "checkbox",
     "新角色": "multitext",
     "新心相": "multitext",
-    "国际服上线时间": "date"
+    "国际服上线时间": "date",
+    "Serial": "number"
   }
 }

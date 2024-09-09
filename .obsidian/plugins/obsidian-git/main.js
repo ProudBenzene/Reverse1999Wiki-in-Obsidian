@@ -32834,23 +32834,46 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
         );
       })
     );
+    new import_obsidian8.Setting(containerEl).setName("Support").setHeading();
     new import_obsidian8.Setting(containerEl).setName("Donate").setDesc(
       "If you like this Plugin, consider donating to support continued development."
     ).addButton((bt) => {
       bt.buttonEl.outerHTML = "<a href='https://ko-fi.com/F1F195IQ5' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>";
     });
-    const info = containerEl.createDiv();
-    info.setAttr("align", "center");
-    info.setText(
-      "Debugging and logging:\nYou can always see the logs of this and every other plugin by opening the console with"
-    );
-    const keys = containerEl.createDiv();
-    keys.setAttr("align", "center");
-    keys.addClass("obsidian-git-shortcuts");
-    if (import_obsidian8.Platform.isMacOS === true) {
-      keys.createEl("kbd", { text: "CMD (\u2318) + OPTION (\u2325) + I" });
-    } else {
-      keys.createEl("kbd", { text: "CTRL + SHIFT + I" });
+    const debugDiv = containerEl.createDiv();
+    debugDiv.setAttr("align", "center");
+    debugDiv.setAttr("style", "margin: var(--size-4-2)");
+    const debugButton = debugDiv.createEl("button");
+    debugButton.setText("Copy Debug Information");
+    debugButton.onclick = () => {
+      window.navigator.clipboard.writeText(
+        JSON.stringify(
+          {
+            settings: this.plugin.settings,
+            pluginVersion: this.plugin.manifest.version
+          },
+          null,
+          4
+        )
+      );
+      new import_obsidian8.Notice(
+        "Debug information copied to clipboard. May contain sensitive information!"
+      );
+    };
+    if (import_obsidian8.Platform.isDesktopApp) {
+      const info = containerEl.createDiv();
+      info.setAttr("align", "center");
+      info.setText(
+        "Debugging and logging:\nYou can always see the logs of this and every other plugin by opening the console with"
+      );
+      const keys = containerEl.createDiv();
+      keys.setAttr("align", "center");
+      keys.addClass("obsidian-git-shortcuts");
+      if (import_obsidian8.Platform.isMacOS === true) {
+        keys.createEl("kbd", { text: "CMD (\u2318) + OPTION (\u2325) + I" });
+      } else {
+        keys.createEl("kbd", { text: "CTRL + SHIFT + I" });
+      }
     }
   }
   configureLineAuthorShowStatus(show) {
@@ -37866,7 +37889,10 @@ function instance($$self, $$props, $$invalidate) {
       $$invalidate(2, buttons);
     });
   }
-  const auxclick_handler = (event) => mayTriggerFileMenu(view.app, event, diff3.vault_path, view.leaf, "git-history");
+  const auxclick_handler = (event) => {
+    if (event.button == 2) mayTriggerFileMenu(view.app, event, diff3.vault_path, view.leaf, "git-history");
+    else showDiff(event);
+  };
   $$self.$$set = ($$props2) => {
     if ("diff" in $$props2) $$invalidate(0, diff3 = $$props2.diff);
     if ("view" in $$props2) $$invalidate(1, view = $$props2.view);
@@ -39125,8 +39151,7 @@ function get_each_context3(ctx, list, i) {
   return child_ctx;
 }
 function create_if_block4(ctx) {
-  let div1;
-  let div0;
+  let div;
   let current;
   let each_value = ensure_array_like(
     /*logs*/
@@ -39141,20 +39166,17 @@ function create_if_block4(ctx) {
   });
   return {
     c() {
-      div1 = element("div");
-      div0 = element("div");
+      div = element("div");
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(div0, "class", "tree-item-children nav-folder-children");
-      attr(div1, "class", "tree-item nav-folder mod-root");
+      attr(div, "class", "tree-item nav-folder mod-root");
     },
     m(target, anchor) {
-      insert(target, div1, anchor);
-      append2(div1, div0);
+      insert(target, div, anchor);
       for (let i = 0; i < each_blocks.length; i += 1) {
         if (each_blocks[i]) {
-          each_blocks[i].m(div0, null);
+          each_blocks[i].m(div, null);
         }
       }
       current = true;
@@ -39176,7 +39198,7 @@ function create_if_block4(ctx) {
             each_blocks[i] = create_each_block3(child_ctx);
             each_blocks[i].c();
             transition_in(each_blocks[i], 1);
-            each_blocks[i].m(div0, null);
+            each_blocks[i].m(div, null);
           }
         }
         group_outros();
@@ -39202,7 +39224,7 @@ function create_if_block4(ctx) {
     },
     d(detaching) {
       if (detaching) {
-        detach(div1);
+        detach(div);
       }
       destroy_each(each_blocks, detaching);
     }
@@ -39724,7 +39746,7 @@ function create_fragment5(ctx) {
     ctx[1].app.vault.getAbstractFileByPath(
       /*change*/
       ctx[0].vault_path
-    )
+    ) instanceof import_obsidian26.TFile
   );
   let t2;
   let div1;
@@ -39859,7 +39881,7 @@ function create_fragment5(ctx) {
       ctx2[1].app.vault.getAbstractFileByPath(
         /*change*/
         ctx2[0].vault_path
-      );
+      ) instanceof import_obsidian26.TFile;
       if (show_if) {
         if (if_block) {
           if_block.p(ctx2, dirty);
@@ -39995,7 +40017,10 @@ function instance5($$self, $$props, $$invalidate) {
       $$invalidate(2, buttons);
     });
   }
-  const auxclick_handler = (event) => mayTriggerFileMenu(view.app, event, change.vault_path, view.leaf, "git-source-control");
+  const auxclick_handler = (event) => {
+    if (event.button == 2) mayTriggerFileMenu(view.app, event, change.vault_path, view.leaf, "git-source-control");
+    else showDiff(event);
+  };
   $$self.$$set = ($$props2) => {
     if ("change" in $$props2) $$invalidate(0, change = $$props2.change);
     if ("view" in $$props2) $$invalidate(1, view = $$props2.view);
@@ -40188,7 +40213,10 @@ function instance6($$self, $$props, $$invalidate) {
   function focus_handler(event) {
     bubble.call(this, $$self, event);
   }
-  const auxclick_handler = (event) => mayTriggerFileMenu(view.app, event, change.vault_path, view.leaf, "git-source-control");
+  const auxclick_handler = (event) => {
+    if (event.button == 2) mayTriggerFileMenu(view.app, event, change.vault_path, view.leaf, "git-source-control");
+    else open(event);
+  };
   $$self.$$set = ($$props2) => {
     if ("change" in $$props2) $$invalidate(0, change = $$props2.change);
     if ("view" in $$props2) $$invalidate(1, view = $$props2.view);
@@ -40265,7 +40293,7 @@ function create_fragment7(ctx) {
     ctx[1].app.vault.getAbstractFileByPath(
       /*change*/
       ctx[0].vault_path
-    )
+    ) instanceof import_obsidian28.TFile
   );
   let t2;
   let div1;
@@ -40386,7 +40414,7 @@ function create_fragment7(ctx) {
       ctx2[1].app.vault.getAbstractFileByPath(
         /*change*/
         ctx2[0].vault_path
-      );
+      ) instanceof import_obsidian28.TFile;
       if (show_if) {
         if (if_block) {
           if_block.p(ctx2, dirty);
@@ -40460,7 +40488,7 @@ function instance7($$self, $$props, $$invalidate) {
   let buttons = [];
   window.setTimeout(() => buttons.forEach((b) => (0, import_obsidian28.setIcon)(b, b.getAttr("data-icon"))), 0);
   function hover(event) {
-    if (app.vault.getAbstractFileByPath(change.vault_path)) {
+    if (view.app.vault.getFileByPath(change.vault_path)) {
       hoverPreview(event, view, change.vault_path);
     }
   }
@@ -40499,7 +40527,10 @@ function instance7($$self, $$props, $$invalidate) {
       $$invalidate(2, buttons);
     });
   }
-  const auxclick_handler = (event) => mayTriggerFileMenu(view.app, event, change.vault_path, view.leaf, "git-source-control");
+  const auxclick_handler = (event) => {
+    if (event.button == 2) mayTriggerFileMenu(view.app, event, change.vault_path, view.leaf, "git-source-control");
+    else showDiff(event);
+  };
   $$self.$$set = ($$props2) => {
     if ("change" in $$props2) $$invalidate(0, change = $$props2.change);
     if ("view" in $$props2) $$invalidate(1, view = $$props2.view);
@@ -41518,7 +41549,6 @@ function create_if_block_8(ctx) {
   };
 }
 function create_if_block8(ctx) {
-  let div18;
   let div17;
   let div7;
   let div6;
@@ -41575,7 +41605,6 @@ function create_if_block8(ctx) {
   );
   return {
     c() {
-      div18 = element("div");
       div17 = element("div");
       div7 = element("div");
       div6 = element("div");
@@ -41648,12 +41677,10 @@ function create_if_block8(ctx) {
       attr(div16, "class", "changes tree-item nav-folder");
       toggle_class(div16, "is-collapsed", !/*changesOpen*/
       ctx[12]);
-      attr(div17, "class", "tree-item-children nav-folder-children");
-      attr(div18, "class", "tree-item nav-folder mod-root");
+      attr(div17, "class", "tree-item nav-folder mod-root");
     },
     m(target, anchor) {
-      insert(target, div18, anchor);
-      append2(div18, div17);
+      insert(target, div17, anchor);
       append2(div17, div7);
       append2(div7, div6);
       append2(div6, div0);
@@ -41832,7 +41859,7 @@ function create_if_block8(ctx) {
     },
     d(detaching) {
       if (detaching) {
-        detach(div18);
+        detach(div17);
       }
       ctx[34](null);
       if (if_block0) if_block0.d();
@@ -43461,7 +43488,9 @@ var ObsidianGit = class extends import_obsidian31.Plugin {
     this.lineAuthoringFeature.refreshLineAuthorViews();
   }
   async onload() {
-    console.log("loading " + this.manifest.name + " plugin");
+    console.log(
+      "loading " + this.manifest.name + " plugin: v" + this.manifest.version
+    );
     pluginRef.plugin = this;
     this.localStorage = new LocalStorageSettings(this);
     this.localStorage.migrate();
@@ -43485,6 +43514,27 @@ var ObsidianGit = class extends import_obsidian31.Plugin {
     this.registerView(DIFF_VIEW_CONFIG.type, (leaf) => {
       return new DiffView(leaf, this);
     });
+    this.addRibbonIcon(
+      "git-pull-request",
+      "Open Git source control",
+      async () => {
+        var _a2;
+        const leafs = this.app.workspace.getLeavesOfType(
+          SOURCE_CONTROL_VIEW_CONFIG.type
+        );
+        let leaf;
+        if (leafs.length === 0) {
+          leaf = (_a2 = this.app.workspace.getRightLeaf(false)) != null ? _a2 : this.app.workspace.getLeaf();
+          await leaf.setViewState({
+            type: SOURCE_CONTROL_VIEW_CONFIG.type
+          });
+        } else {
+          leaf = leafs.first();
+        }
+        this.app.workspace.revealLeaf(leaf);
+        dispatchEvent(new CustomEvent("git-refresh"));
+      }
+    );
     this.lineAuthoringFeature.onLoadPlugin();
     this.app.workspace.registerHoverLinkSource(
       SOURCE_CONTROL_VIEW_CONFIG.type,

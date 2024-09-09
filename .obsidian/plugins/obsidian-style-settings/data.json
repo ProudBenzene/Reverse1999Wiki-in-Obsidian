@@ -735,6 +735,9 @@
   "a-unique-id@@cards-image-height": 250,
   "a-unique-id@@cards-image-padding": 0,
   "a-unique-id@@cards-image-zoom": 100,
+  "a-unique-id@@cards-title-link-font-size": 18,
+  "a-unique-id@@cards-progressbar-horizontal-alignment": "left",
   "a-unique-id@@cards-title-link-rows-before-clip": 2,
-  "a-unique-id@@cards-title-link-font-size": 18
+  "a-unique-id@@cards-rows-horizontal-padding": 5,
+  "a-unique-id@@cards-rows-vertical-padding": 5
 }

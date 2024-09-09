@@ -9,12 +9,12 @@ cssclasses:
 aliases:
   - 故事一无所有
   - Nouvelles et Textes pour Rien
-Cover: "[[assets/第三章 故事一无所有.assets/故事一无所有.png]]"
+Cover: "[[故事一无所有.png]]"
 海报寄语: Have a nice dream.
 上线版本: "1.0"
 上线时间: 2023-05-31
 章节起点: 
 章节终点: 
-Serial: "3"
+Serial: 0.3
 ---
-![cover](assets/第三章%20故事一无所有.assets/故事一无所有.png)
+![cover](assets/故事一无所有｜Nouvelles%20et%20Textes%20pour%20Rien.assets/故事一无所有.png)

@@ -35,10 +35,20 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettings.cjs
-var require_PluginSettings = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettings.cjs"(exports2, module2) {
-    "use strict";
+// node_modules/obsidian-typings/dist/implementations.cjs
+var require_implementations = __commonJS({
+  "node_modules/obsidian-typings/dist/implementations.cjs"(exports2, module2) {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
     var __getOwnPropNames2 = Object.getOwnPropertyNames;
@@ -56,433 +66,134 @@ var require_PluginSettings = __commonJS({
       return to;
     };
     var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var PluginSettings_exports = {};
-    __export2(PluginSettings_exports, {
-      clonePluginSettings: () => clonePluginSettings,
-      loadPluginSettings: () => loadPluginSettings2
+    var implementations_exports = {};
+    __export2(implementations_exports, {
+      CustomArrayDictImpl: () => CustomArrayDictImpl,
+      InternalPluginName: () => InternalPluginName,
+      createTFileInstance: () => createTFileInstance2,
+      createTFolderInstance: () => createTFolderInstance,
+      parentFolderPath: () => parentFolderPath
     });
-    module2.exports = __toCommonJS2(PluginSettings_exports);
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function loadPluginSettings2(defaultPluginSettingsFactory, data) {
-      const defaultPluginSettings = defaultPluginSettingsFactory();
-      if (data && typeof data === "object") {
-        const record = data;
-        for (const [key, value] of Object.entries(record)) {
-          if (key in defaultPluginSettings) {
-            defaultPluginSettings[key] = value;
+    module2.exports = __toCommonJS2(implementations_exports);
+    var CustomArrayDictImpl = class {
+      data = {};
+      add(key, value) {
+        if (!this.data.hasOwnProperty(key)) {
+          this.data[key] = [];
+        }
+        const values = this.data[key];
+        if (!values.includes(value)) {
+          values.push(value);
+        }
+      }
+      remove(key, value) {
+        const values = this.data[key];
+        if (!values) {
+          return;
+        }
+        values.remove(value);
+        if (values.length === 0) {
+          delete this.data[key];
+        }
+      }
+      removeKey(key) {
+        delete this.data[key];
+      }
+      get(key) {
+        return this.data.hasOwnProperty(key) ? this.data[key] : null;
+      }
+      keys() {
+        return Object.keys(this.data);
+      }
+      clear(key) {
+        delete this.data[key];
+      }
+      clearAll() {
+        this.data = {};
+      }
+      contains(key, value) {
+        const values = this.data[key];
+        return values && values.contains(value) || false;
+      }
+      count() {
+        let ans = 0;
+        for (const key in this.data) {
+          if (this.data.hasOwnProperty(key)) {
+            ans += this.data[key].length;
           }
         }
+        return ans;
       }
-      return defaultPluginSettings;
+    };
+    var import_obsidian5 = require("obsidian");
+    function parentFolderPath(path) {
+      return path.replace(/\/?[^\/]*$/, "") || "/";
     }
-    function clonePluginSettings(defaultPluginSettingsFactory, settings) {
-      return loadPluginSettings2(defaultPluginSettingsFactory, settings);
+    function createTFolderInstance(vault, path) {
+      let folder = vault.getFolderByPath(path);
+      if (folder) {
+        return folder;
+      }
+      folder = new import_obsidian5.TFolder(vault, path);
+      folder.parent = createTFolderInstance(vault, parentFolderPath(path));
+      folder.deleted = true;
+      return folder;
     }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/Error.cjs
-var require_Error = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/Error.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+    var import_obsidian22 = require("obsidian");
+    function createTFileInstance2(vault, path) {
+      let file = vault.getFileByPath(path);
+      if (file) {
+        return file;
       }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var Error_exports = {};
-    __export2(Error_exports, {
-      emitAsyncErrorEvent: () => emitAsyncErrorEvent,
-      errorToString: () => errorToString,
-      printError: () => printError,
-      registerAsyncErrorEventHandler: () => registerAsyncErrorEventHandler
-    });
-    module2.exports = __toCommonJS2(Error_exports);
-    var import_node_events = require("node:events");
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    var ASYNC_ERROR_EVENT = "asyncError";
-    var asyncErrorEventEmitter = new import_node_events.EventEmitter();
-    asyncErrorEventEmitter.on(ASYNC_ERROR_EVENT, handleAsyncError);
-    function handleAsyncError(asyncError) {
-      printError(new Error("An unhandled error occurred executing async operation", { cause: asyncError }));
+      file = new import_obsidian22.TFile(vault, path);
+      file.parent = createTFolderInstance(vault, parentFolderPath(path));
+      file.deleted = true;
+      return file;
     }
-    function emitAsyncErrorEvent(asyncError) {
-      asyncErrorEventEmitter.emit(ASYNC_ERROR_EVENT, asyncError);
-    }
-    function registerAsyncErrorEventHandler(handler) {
-      asyncErrorEventEmitter.on(ASYNC_ERROR_EVENT, handler);
-      return () => asyncErrorEventEmitter.off(ASYNC_ERROR_EVENT, handler);
-    }
-    function printError(error) {
-      const entries = parseErrorEntries(error);
-      for (const entry of entries) {
-        if (entry.shouldClearAnsiSequence) {
-          console.error(`\x1B[0m${entry.message}\x1B[0m`);
-        } else {
-          console.error(entry.message);
-        }
-      }
-    }
-    function errorToString(error) {
-      return parseErrorEntries(error).map((entry) => "  ".repeat(entry.level) + entry.message).join("\n");
-    }
-    function parseErrorEntries(error, level = 0, entries = []) {
-      if (error === void 0) {
-        return entries;
-      }
-      if (!(error instanceof Error)) {
-        let str = "";
-        if (error === null) {
-          str = "(null)";
-        } else if (typeof error === "string") {
-          str = error;
-        } else {
-          str = JSON.stringify(error);
-        }
-        entries.push({ level, message: str });
-        return entries;
-      }
-      const title = `${error.name}: ${error.message}`;
-      entries.push({ level, message: title, shouldClearAnsiSequence: true });
-      if (error.stack) {
-        const restStack = error.stack.startsWith(title) ? error.stack.substring(title.length + 1) : error.stack;
-        entries.push({ level, message: `Error stack:
-${restStack}` });
-      }
-      if (error.cause !== void 0) {
-        entries.push({ level, message: "Caused by:" });
-        parseErrorEntries(error.cause, level + 1, entries);
-      }
-      return entries;
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginBase.cjs
-var require_PluginBase = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginBase.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
+    var InternalPluginName = {
+      AudioRecorder: "audio-recorder",
+      Backlink: "backlink",
+      Bookmarks: "bookmarks",
+      Canvas: "canvas",
+      CommandPalette: "command-palette",
+      DailyNotes: "daily-notes",
+      EditorStatus: "editor-status",
+      FileExplorer: "file-explorer",
+      FileRecovery: "file-recovery",
+      GlobalSearch: "global-search",
+      Graph: "graph",
+      MarkdownImporter: "markdown-importer",
+      NoteComposer: "note-composer",
+      OutgoingLink: "outgoing-link",
+      Outline: "outline",
+      PagePreview: "page-preview",
+      Properties: "properties",
+      Publish: "publish",
+      RandomNote: "random-note",
+      SlashCommand: "slash-command",
+      Slides: "slides",
+      Starred: "starred",
+      Switcher: "switcher",
+      Sync: "sync",
+      TagPane: "tag-pane",
+      Templates: "templates",
+      WordCount: "word-count",
+      Workspaces: "workspaces",
+      ZkPrefixer: "zk-prefixer"
     };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var PluginBase_exports = {};
-    __export2(PluginBase_exports, {
-      PluginBase: () => PluginBase2
-    });
-    module2.exports = __toCommonJS2(PluginBase_exports);
-    var import_obsidian6 = require("obsidian");
-    var import_Error = require_Error();
-    var import_PluginSettings2 = require_PluginSettings();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    var PluginBase2 = class extends import_obsidian6.Plugin {
-      _settings;
-      notice;
-      _abortSignal;
-      /**
-       * Gets the AbortSignal used for aborting asynchronous operations.
-       *
-       * @returns The abort signal.
-       */
-      get abortSignal() {
-        return this._abortSignal;
-      }
-      /**
-       * Gets a copy of the current plugin settings.
-       *
-       * @returns A copy of the plugin settings.
-       */
-      get settingsCopy() {
-        return (0, import_PluginSettings2.clonePluginSettings)(this.createDefaultPluginSettings, this.settings);
-      }
-      /**
-       * Gets the plugin settings.
-       *
-       * @returns The plugin settings.
-       */
-      get settings() {
-        return this._settings;
-      }
-      /**
-       * Called when the plugin is loaded. Handles loading settings, adding a settings tab, registering error handlers,
-       * and initializing the plugin.
-       *
-       * @returns A promise that resolves when the plugin is fully loaded.
-       */
-      async onload() {
-        await this.loadSettings();
-        const pluginSettingsTab = this.createPluginSettingsTab();
-        if (pluginSettingsTab) {
-          this.addSettingTab(pluginSettingsTab);
-        }
-        this.register((0, import_Error.registerAsyncErrorEventHandler)(() => {
-          this.showNotice("An unhandled error occurred. Please check the console for more information.");
-        }));
-        const abortController = new AbortController();
-        this._abortSignal = abortController.signal;
-        this.register(() => abortController.abort());
-        await this.onloadComplete();
-        this.app.workspace.onLayoutReady(() => this.onLayoutReady());
-      }
-      /**
-       * Called when the layout is ready. This method can be overridden by subclasses to perform actions once
-       * the layout is ready.
-       */
-      onLayoutReady() {
-      }
-      /**
-       * Loads the plugin settings from the saved data.
-       *
-       * @returns A promise that resolves when the settings are loaded.
-       */
-      async loadSettings() {
-        const data = await this.loadData();
-        this._settings = await this.parseSettings(data);
-      }
-      /**
-       * Parses the provided settings data and returns the parsed `PluginSettings`.
-       *
-       * @param data - The raw data to be parsed into `PluginSettings`.
-       * @returns A promise that resolves to `PluginSettings` or the settings directly.
-       */
-      parseSettings(data) {
-        return (0, import_PluginSettings2.loadPluginSettings)(this.createDefaultPluginSettings, data);
-      }
-      /**
-       * Saves the new plugin settings.
-       *
-       * @param newSettings - The new settings to save.
-       * @returns A promise that resolves when the settings are saved.
-       */
-      async saveSettings(newSettings) {
-        this._settings = (0, import_PluginSettings2.clonePluginSettings)(this.createDefaultPluginSettings, newSettings);
-        await this.saveData(this.settings);
-      }
-      /**
-       * Displays a notice message to the user.
-       *
-       * @param message - The message to display.
-       */
-      showNotice(message) {
-        if (this.notice) {
-          this.notice.hide();
-        }
-        this.notice = new import_obsidian6.Notice(`${this.manifest.name}
-${message}`);
-      }
-    };
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettingsTabBase.cjs
-var require_PluginSettingsTabBase = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettingsTabBase.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var PluginSettingsTabBase_exports = {};
-    __export2(PluginSettingsTabBase_exports, {
-      PluginSettingsTabBase: () => PluginSettingsTabBase2
-    });
-    module2.exports = __toCommonJS2(PluginSettingsTabBase_exports);
-    var import_obsidian6 = require("obsidian");
-    var import_PluginBase2 = require_PluginBase();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    var PluginSettingsTabBase2 = class extends import_obsidian6.PluginSettingTab {
-      constructor(plugin) {
-        super(plugin.app, plugin);
-        this.plugin = plugin;
-      }
-    };
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/DocumentFragment.cjs
-var require_DocumentFragment = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/DocumentFragment.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var DocumentFragment_exports = {};
-    __export2(DocumentFragment_exports, {
-      appendCodeBlock: () => appendCodeBlock2
-    });
-    module2.exports = __toCommonJS2(DocumentFragment_exports);
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function appendCodeBlock2(fragment, code) {
-      fragment.appendChild(createSpan({ cls: "markdown-rendered code" }, (span) => {
-        span.style.fontWeight = "bold";
-        span.appendChild(createEl("code", { text: code }));
-      }));
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/UIComponent.cjs
-var require_UIComponent = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/UIComponent.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var UIComponent_exports = {};
-    __export2(UIComponent_exports, {
-      bindUiComponent: () => bindUiComponent2
-    });
-    module2.exports = __toCommonJS2(UIComponent_exports);
-    var import_obsidian6 = require("obsidian");
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function bindUiComponent2(plugin, uiComponent, property, options) {
-      const DEFAULT_OPTIONS = {
-        autoSave: true,
-        settingToUIValueConverter: (value) => value,
-        uiToSettingValueConverter: (value) => value
-      };
-      const optionsExt = Object.assign({}, options, DEFAULT_OPTIONS);
-      const pluginExt = plugin;
-      const uiComponentExt = uiComponent;
-      const pluginSettings = optionsExt.pluginSettings ?? pluginExt.settingsCopy;
-      uiComponentExt.setValue(optionsExt.settingToUIValueConverter(pluginSettings[property])).onChange(async (uiValue) => {
-        if (optionsExt.uiValueValidator) {
-          const errorMessage = optionsExt.uiValueValidator(uiValue);
-          const validatorElement = getValidatorElement(uiComponent);
-          if (validatorElement) {
-            validatorElement.setCustomValidity(errorMessage ?? "");
-            validatorElement.reportValidity();
-          }
-          if (errorMessage) {
-            return;
-          }
-        }
-        pluginSettings[property] = optionsExt.uiToSettingValueConverter(uiValue);
-        if (optionsExt.autoSave) {
-          await pluginExt.saveSettings(pluginSettings);
-        }
-      });
-      return uiComponent;
-    }
-    function getValidatorElement(uiComponent) {
-      if (uiComponent instanceof import_obsidian6.DropdownComponent) {
-        return uiComponent.selectEl;
-      }
-      if (uiComponent instanceof import_obsidian6.SliderComponent) {
-        return uiComponent.sliderEl;
-      }
-      if (uiComponent instanceof import_obsidian6.TextAreaComponent) {
-        return uiComponent.inputEl;
-      }
-      if (uiComponent instanceof import_obsidian6.TextComponent) {
-        return uiComponent.inputEl;
-      }
-      return null;
-    }
   }
 });
 
 // node_modules/path-browserify/index.js
 var require_path_browserify = __commonJS({
   "node_modules/path-browserify/index.js"(exports2, module2) {
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -578,7 +289,7 @@ var require_path_browserify = __commonJS({
             path = arguments[i];
           else {
             if (cwd === void 0)
-              cwd = __process13.cwd();
+              cwd = __process12.cwd();
             path = cwd;
           }
           assertPath(path);
@@ -615,7 +326,7 @@ var require_path_browserify = __commonJS({
         assertPath(path);
         return path.length > 0 && path.charCodeAt(0) === 47;
       },
-      join: function join6() {
+      join: function join5() {
         if (arguments.length === 0)
           return ".";
         var joined;
@@ -633,7 +344,7 @@ var require_path_browserify = __commonJS({
           return ".";
         return posix.normalize(joined);
       },
-      relative: function relative2(from, to) {
+      relative: function relative(from, to) {
         assertPath(from);
         assertPath(to);
         if (from === to) return "";
@@ -702,7 +413,7 @@ var require_path_browserify = __commonJS({
       _makeLong: function _makeLong(path) {
         return path;
       },
-      dirname: function dirname4(path) {
+      dirname: function dirname3(path) {
         assertPath(path);
         if (path.length === 0) return ".";
         var code = path.charCodeAt(0);
@@ -724,7 +435,7 @@ var require_path_browserify = __commonJS({
         if (hasRoot && end === 1) return "//";
         return path.slice(0, end);
       },
-      basename: function basename5(path, ext) {
+      basename: function basename4(path, ext) {
         if (ext !== void 0 && typeof ext !== "string") throw new TypeError('"ext" argument must be a string');
         assertPath(path);
         var start = 0;
@@ -778,7 +489,7 @@ var require_path_browserify = __commonJS({
           return path.slice(start, end);
         }
       },
-      extname: function extname5(path) {
+      extname: function extname4(path) {
         assertPath(path);
         var startDot = -1;
         var startPart = 0;
@@ -890,6 +601,281 @@ var require_path_browserify = __commonJS({
   }
 });
 
+// node_modules/eventemitter3/index.js
+var require_eventemitter3 = __commonJS({
+  "node_modules/eventemitter3/index.js"(exports2, module2) {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    var has = Object.prototype.hasOwnProperty;
+    var prefix = "~";
+    function Events() {
+    }
+    if (Object.create) {
+      Events.prototype = /* @__PURE__ */ Object.create(null);
+      if (!new Events().__proto__) prefix = false;
+    }
+    function EE(fn, context, once) {
+      this.fn = fn;
+      this.context = context;
+      this.once = once || false;
+    }
+    function addListener(emitter, event, fn, context, once) {
+      if (typeof fn !== "function") {
+        throw new TypeError("The listener must be a function");
+      }
+      var listener = new EE(fn, context || emitter, once), evt = prefix ? prefix + event : event;
+      if (!emitter._events[evt]) emitter._events[evt] = listener, emitter._eventsCount++;
+      else if (!emitter._events[evt].fn) emitter._events[evt].push(listener);
+      else emitter._events[evt] = [emitter._events[evt], listener];
+      return emitter;
+    }
+    function clearEvent(emitter, evt) {
+      if (--emitter._eventsCount === 0) emitter._events = new Events();
+      else delete emitter._events[evt];
+    }
+    function EventEmitter() {
+      this._events = new Events();
+      this._eventsCount = 0;
+    }
+    EventEmitter.prototype.eventNames = function eventNames() {
+      var names = [], events, name;
+      if (this._eventsCount === 0) return names;
+      for (name in events = this._events) {
+        if (has.call(events, name)) names.push(prefix ? name.slice(1) : name);
+      }
+      if (Object.getOwnPropertySymbols) {
+        return names.concat(Object.getOwnPropertySymbols(events));
+      }
+      return names;
+    };
+    EventEmitter.prototype.listeners = function listeners(event) {
+      var evt = prefix ? prefix + event : event, handlers = this._events[evt];
+      if (!handlers) return [];
+      if (handlers.fn) return [handlers.fn];
+      for (var i = 0, l = handlers.length, ee = new Array(l); i < l; i++) {
+        ee[i] = handlers[i].fn;
+      }
+      return ee;
+    };
+    EventEmitter.prototype.listenerCount = function listenerCount(event) {
+      var evt = prefix ? prefix + event : event, listeners = this._events[evt];
+      if (!listeners) return 0;
+      if (listeners.fn) return 1;
+      return listeners.length;
+    };
+    EventEmitter.prototype.emit = function emit(event, a1, a2, a3, a4, a5) {
+      var evt = prefix ? prefix + event : event;
+      if (!this._events[evt]) return false;
+      var listeners = this._events[evt], len = arguments.length, args, i;
+      if (listeners.fn) {
+        if (listeners.once) this.removeListener(event, listeners.fn, void 0, true);
+        switch (len) {
+          case 1:
+            return listeners.fn.call(listeners.context), true;
+          case 2:
+            return listeners.fn.call(listeners.context, a1), true;
+          case 3:
+            return listeners.fn.call(listeners.context, a1, a2), true;
+          case 4:
+            return listeners.fn.call(listeners.context, a1, a2, a3), true;
+          case 5:
+            return listeners.fn.call(listeners.context, a1, a2, a3, a4), true;
+          case 6:
+            return listeners.fn.call(listeners.context, a1, a2, a3, a4, a5), true;
+        }
+        for (i = 1, args = new Array(len - 1); i < len; i++) {
+          args[i - 1] = arguments[i];
+        }
+        listeners.fn.apply(listeners.context, args);
+      } else {
+        var length = listeners.length, j;
+        for (i = 0; i < length; i++) {
+          if (listeners[i].once) this.removeListener(event, listeners[i].fn, void 0, true);
+          switch (len) {
+            case 1:
+              listeners[i].fn.call(listeners[i].context);
+              break;
+            case 2:
+              listeners[i].fn.call(listeners[i].context, a1);
+              break;
+            case 3:
+              listeners[i].fn.call(listeners[i].context, a1, a2);
+              break;
+            case 4:
+              listeners[i].fn.call(listeners[i].context, a1, a2, a3);
+              break;
+            default:
+              if (!args) for (j = 1, args = new Array(len - 1); j < len; j++) {
+                args[j - 1] = arguments[j];
+              }
+              listeners[i].fn.apply(listeners[i].context, args);
+          }
+        }
+      }
+      return true;
+    };
+    EventEmitter.prototype.on = function on(event, fn, context) {
+      return addListener(this, event, fn, context, false);
+    };
+    EventEmitter.prototype.once = function once(event, fn, context) {
+      return addListener(this, event, fn, context, true);
+    };
+    EventEmitter.prototype.removeListener = function removeListener(event, fn, context, once) {
+      var evt = prefix ? prefix + event : event;
+      if (!this._events[evt]) return this;
+      if (!fn) {
+        clearEvent(this, evt);
+        return this;
+      }
+      var listeners = this._events[evt];
+      if (listeners.fn) {
+        if (listeners.fn === fn && (!once || listeners.once) && (!context || listeners.context === context)) {
+          clearEvent(this, evt);
+        }
+      } else {
+        for (var i = 0, events = [], length = listeners.length; i < length; i++) {
+          if (listeners[i].fn !== fn || once && !listeners[i].once || context && listeners[i].context !== context) {
+            events.push(listeners[i]);
+          }
+        }
+        if (events.length) this._events[evt] = events.length === 1 ? events[0] : events;
+        else clearEvent(this, evt);
+      }
+      return this;
+    };
+    EventEmitter.prototype.removeAllListeners = function removeAllListeners(event) {
+      var evt;
+      if (event) {
+        evt = prefix ? prefix + event : event;
+        if (this._events[evt]) clearEvent(this, evt);
+      } else {
+        this._events = new Events();
+        this._eventsCount = 0;
+      }
+      return this;
+    };
+    EventEmitter.prototype.off = EventEmitter.prototype.removeListener;
+    EventEmitter.prototype.addListener = EventEmitter.prototype.on;
+    EventEmitter.prefixed = prefix;
+    EventEmitter.EventEmitter = EventEmitter;
+    if ("undefined" !== typeof module2) {
+      module2.exports = EventEmitter;
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/Error.cjs
+var require_Error = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/Error.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var Error_exports = {};
+    __export2(Error_exports, {
+      emitAsyncErrorEvent: () => emitAsyncErrorEvent,
+      errorToString: () => errorToString,
+      printError: () => printError,
+      registerAsyncErrorEventHandler: () => registerAsyncErrorEventHandler,
+      throwExpression: () => throwExpression3
+    });
+    module2.exports = __toCommonJS2(Error_exports);
+    var import_eventemitter3 = require_eventemitter3();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    var ASYNC_ERROR_EVENT = "asyncError";
+    var asyncErrorEventEmitter = new import_eventemitter3.EventEmitter();
+    asyncErrorEventEmitter.on(ASYNC_ERROR_EVENT, handleAsyncError);
+    function handleAsyncError(asyncError) {
+      printError(new Error("An unhandled error occurred executing async operation", { cause: asyncError }));
+    }
+    function emitAsyncErrorEvent(asyncError) {
+      asyncErrorEventEmitter.emit(ASYNC_ERROR_EVENT, asyncError);
+    }
+    function registerAsyncErrorEventHandler(handler) {
+      asyncErrorEventEmitter.on(ASYNC_ERROR_EVENT, handler);
+      return () => asyncErrorEventEmitter.off(ASYNC_ERROR_EVENT, handler);
+    }
+    function printError(error) {
+      const entries = parseErrorEntries(error);
+      for (const entry of entries) {
+        if (entry.shouldClearAnsiSequence) {
+          console.error(`\x1B[0m${entry.message}\x1B[0m`);
+        } else {
+          console.error(entry.message);
+        }
+      }
+    }
+    function errorToString(error) {
+      return parseErrorEntries(error).map((entry) => "  ".repeat(entry.level) + entry.message).join("\n");
+    }
+    function parseErrorEntries(error, level = 0, entries = []) {
+      if (error === void 0) {
+        return entries;
+      }
+      if (!(error instanceof Error)) {
+        let str = "";
+        if (error === null) {
+          str = "(null)";
+        } else if (typeof error === "string") {
+          str = error;
+        } else {
+          str = JSON.stringify(error);
+        }
+        entries.push({ level, message: str });
+        return entries;
+      }
+      const title = `${error.name}: ${error.message}`;
+      entries.push({ level, message: title, shouldClearAnsiSequence: true });
+      if (error.stack) {
+        const restStack = error.stack.startsWith(title) ? error.stack.substring(title.length + 1) : error.stack;
+        entries.push({ level, message: `Error stack:
+${restStack}` });
+      }
+      if (error.cause !== void 0) {
+        entries.push({ level, message: "Caused by:" });
+        parseErrorEntries(error.cause, level + 1, entries);
+      }
+      return entries;
+    }
+    function throwExpression3(error) {
+      throw error;
+    }
+  }
+});
+
 // node_modules/obsidian-dev-utils/dist/lib/RegExp.cjs
 var require_RegExp = __commonJS({
   "node_modules/obsidian-dev-utils/dist/lib/RegExp.cjs"(exports2, module2) {
@@ -916,8 +902,13 @@ var require_RegExp = __commonJS({
       escapeRegExp: () => escapeRegExp2
     });
     module2.exports = __toCommonJS2(RegExp_exports);
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -954,8 +945,13 @@ var require_ValueProvider = __commonJS({
       resolveValue: () => resolveValue
     });
     module2.exports = __toCommonJS2(ValueProvider_exports);
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -1008,10 +1004,16 @@ var require_String = __commonJS({
       unescape: () => unescape
     });
     module2.exports = __toCommonJS2(String_exports);
+    var import_Error3 = require_Error();
     var import_RegExp2 = require_RegExp();
     var import_ValueProvider = require_ValueProvider();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -1049,7 +1051,7 @@ var require_String = __commonJS({
       return str;
     }
     function normalize(str) {
-      return str.replace(/\u00A0/g, " ").normalize("NFC");
+      return str.replace(/\u00A0|\u202F/g, " ").normalize("NFC");
     }
     async function replaceAllAsync(str, searchValue, replacer) {
       const replacementPromises = [];
@@ -1058,7 +1060,7 @@ var require_String = __commonJS({
         return substring;
       });
       const replacements = await Promise.all(replacementPromises);
-      return str.replaceAll(searchValue, () => replacements.shift());
+      return str.replaceAll(searchValue, () => replacements.shift() ?? (0, import_Error3.throwExpression)(new Error("Unexpected empty replacement")));
     }
     function makeValidVariableName(str) {
       return str.replace(/[^a-zA-Z0-9_]/g, "_");
@@ -1077,7 +1079,7 @@ var require_String = __commonJS({
     }
     function replace(str, replacementsMap) {
       const regExp = new RegExp(Object.keys(replacementsMap).map((source) => (0, import_RegExp2.escapeRegExp)(source)).join("|"), "g");
-      return str.replaceAll(regExp, (source) => replacementsMap[source]);
+      return str.replaceAll(regExp, (source) => replacementsMap[source] ?? (0, import_Error3.throwExpression)(new Error(`Unexpected replacement source: ${source}`)));
     }
   }
 });
@@ -1115,20 +1117,20 @@ var require_Path = __commonJS({
     var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
     var Path_exports = {};
     __export2(Path_exports, {
-      basename: () => basename5,
+      basename: () => basename4,
       delimiter: () => delimiter,
-      dirname: () => dirname4,
-      extname: () => extname5,
+      dirname: () => dirname3,
+      extname: () => extname4,
       format: () => format,
       getDirname: () => getDirname,
       getFilename: () => getFilename,
       isAbsolute: () => isAbsolute,
-      join: () => join6,
+      join: () => join5,
       normalize: () => normalize,
       normalizeIfRelative: () => normalizeIfRelative,
       parse: () => parse,
       posix: () => posix,
-      relative: () => relative2,
+      relative: () => relative,
       resolve: () => resolve,
       sep: () => sep,
       toPosixBuffer: () => toPosixBuffer,
@@ -1136,10 +1138,14 @@ var require_Path = __commonJS({
     });
     module2.exports = __toCommonJS2(Path_exports);
     var import_path_browserify = __toESM2(require_path_browserify(), 1);
-    var import_node_url = require("node:url");
     var import_String = require_String();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -1147,19 +1153,19 @@ var require_Path = __commonJS({
     var posix = import_path_browserify.default.posix;
     var delimiter = posix.delimiter;
     var sep = import_path_browserify.default.posix.sep;
-    var basename5 = posix.basename;
-    var dirname4 = posix.dirname;
-    var extname5 = posix.extname;
+    var basename4 = posix.basename;
+    var dirname3 = posix.dirname;
+    var extname4 = posix.extname;
     var format = posix.format;
     var isAbsolute = posix.isAbsolute;
-    var join6 = posix.join;
+    var join5 = posix.join;
     var normalize = posix.normalize;
     var parse = posix.parse;
-    var relative2 = posix.relative;
+    var relative = posix.relative;
     function resolve(...pathSegments) {
       let path2 = posix.resolve(...pathSegments);
       path2 = toPosixPath(path2);
-      const match = path2.match(/.:[^:]*$/);
+      const match = /.:[^:]*$/.exec(path2);
       return match?.[0] ?? path2;
     }
     function toPosixPath(path2) {
@@ -1169,16 +1175,203 @@ var require_Path = __commonJS({
       return Buffer.from(toPosixPath(buffer.toString()));
     }
     function getFilename(importMetaUrl) {
-      return toPosixPath((0, import_node_url.fileURLToPath)(importMetaUrl));
+      return resolve(new URL(importMetaUrl).pathname);
     }
     function getDirname(importMetaUrl) {
-      return dirname4(getFilename(importMetaUrl));
+      return dirname3(getFilename(importMetaUrl));
     }
     function normalizeIfRelative(path2) {
-      if (path2[0] === "/" || path2.includes(":")) {
+      if (path2.startsWith("/") || path2.includes(":")) {
         return path2;
       }
       return (0, import_String.ensureStartsWith)(path2, "./");
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/TAbstractFile.cjs
+var require_TAbstractFile = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/TAbstractFile.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var TAbstractFile_exports = {};
+    __export2(TAbstractFile_exports, {
+      CANVAS_FILE_EXTENSION: () => CANVAS_FILE_EXTENSION,
+      MARKDOWN_FILE_EXTENSION: () => MARKDOWN_FILE_EXTENSION,
+      checkExtension: () => checkExtension,
+      getAbstractFile: () => getAbstractFile,
+      getAbstractFileOrNull: () => getAbstractFileOrNull,
+      getPath: () => getPath,
+      isCanvasFile: () => isCanvasFile,
+      isFile: () => isFile,
+      isFolder: () => isFolder,
+      isMarkdownFile: () => isMarkdownFile,
+      isNote: () => isNote4,
+      trimMarkdownExtension: () => trimMarkdownExtension
+    });
+    module2.exports = __toCommonJS2(TAbstractFile_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_Path7 = require_Path();
+    var import_String = require_String();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    var MARKDOWN_FILE_EXTENSION = "md";
+    var CANVAS_FILE_EXTENSION = "canvas";
+    function getAbstractFile(app, pathOrFile) {
+      const file = getAbstractFileOrNull(app, pathOrFile);
+      if (!file) {
+        throw new Error(`Abstract file not found: ${pathOrFile}`);
+      }
+      return file;
+    }
+    function getAbstractFileOrNull(app, pathOrFile) {
+      return pathOrFile instanceof import_obsidian5.TAbstractFile ? pathOrFile : app.vault.getAbstractFileByPath(pathOrFile);
+    }
+    function isNote4(file) {
+      return isMarkdownFile(file) || isCanvasFile(file);
+    }
+    function isMarkdownFile(pathOrFile) {
+      return checkExtension(pathOrFile, MARKDOWN_FILE_EXTENSION);
+    }
+    function isCanvasFile(pathOrFile) {
+      return checkExtension(pathOrFile, CANVAS_FILE_EXTENSION);
+    }
+    function checkExtension(pathOrFile, extension) {
+      if (pathOrFile === null) {
+        return false;
+      }
+      return (0, import_Path7.extname)(getPath(pathOrFile)).toLowerCase().slice(1) === extension.toLowerCase();
+    }
+    function trimMarkdownExtension(file) {
+      if (!isMarkdownFile(file)) {
+        return file.path;
+      }
+      return (0, import_String.trimEnd)(file.path, "." + MARKDOWN_FILE_EXTENSION);
+    }
+    function isFile(file) {
+      return file instanceof import_obsidian5.TFile;
+    }
+    function isFolder(file) {
+      return file instanceof import_obsidian5.TFolder;
+    }
+    function getPath(pathOrFile) {
+      return pathOrFile instanceof import_obsidian5.TAbstractFile ? pathOrFile.path : pathOrFile;
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/AttachmentPath.cjs
+var require_AttachmentPath = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/AttachmentPath.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var AttachmentPath_exports = {};
+    __export2(AttachmentPath_exports, {
+      getAttachmentFilePath: () => getAttachmentFilePath,
+      getAttachmentFolderPath: () => getAttachmentFolderPath2,
+      getAvailablePathForAttachments: () => getAvailablePathForAttachments2
+    });
+    module2.exports = __toCommonJS2(AttachmentPath_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_implementations2 = require_implementations();
+    var import_Path7 = require_Path();
+    var import_String = require_String();
+    var import_TAbstractFile4 = require_TAbstractFile();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    async function getAttachmentFolderPath2(app, notePathOrFile) {
+      return (0, import_Path7.dirname)(await getAttachmentFilePath(app, "DUMMY_FILE.pdf", notePathOrFile));
+    }
+    async function getAttachmentFilePath(app, attachmentPathOrFile, notePathOrFile) {
+      const attachmentPath = (0, import_TAbstractFile4.getPath)(attachmentPathOrFile);
+      const notePath = (0, import_TAbstractFile4.getPath)(notePathOrFile);
+      const note = (0, import_implementations2.createTFileInstance)(app.vault, notePath);
+      const ext = (0, import_Path7.extname)(attachmentPath);
+      const fileName = (0, import_Path7.basename)(attachmentPath, ext);
+      const internalFn = app.vault.getAvailablePathForAttachments.bind(app.vault);
+      if (internalFn.isExtended) {
+        return internalFn(fileName, ext.slice(1), note, true);
+      }
+      return await getAvailablePathForAttachments2(app, fileName, ext.slice(1), note, true);
+    }
+    async function getAvailablePathForAttachments2(app, filename, extension, file, skipFolderCreation) {
+      let attachmentFolderPath = app.vault.getConfig("attachmentFolderPath");
+      const isCurrentFolder = attachmentFolderPath === "." || attachmentFolderPath === "./";
+      let relativePath = null;
+      if (attachmentFolderPath.startsWith("./")) {
+        relativePath = (0, import_String.trimStart)(attachmentFolderPath, "./");
+      }
+      if (isCurrentFolder) {
+        attachmentFolderPath = file ? file.parent?.path ?? "" : "";
+      } else if (relativePath) {
+        attachmentFolderPath = (file ? file.parent?.getParentPrefix() ?? "" : "") + relativePath;
+      }
+      attachmentFolderPath = (0, import_String.normalize)(normalizeSlashes(attachmentFolderPath));
+      filename = (0, import_String.normalize)(normalizeSlashes(filename));
+      let folder = app.vault.getAbstractFileByPathInsensitive(attachmentFolderPath);
+      if (!folder && relativePath && !skipFolderCreation) {
+        folder = await app.vault.createFolder(attachmentFolderPath);
+      }
+      if (folder instanceof import_obsidian5.TFolder) {
+        return app.vault.getAvailablePath(folder.getParentPrefix() + filename, extension);
+      } else {
+        return app.vault.getAvailablePath(filename, extension);
+      }
+    }
+    function normalizeSlashes(path) {
+      path = path.replace(/([\\/])+/g, "/");
+      path = path.replace(/(^\/+|\/+$)/g, "");
+      return path || "/";
     }
   }
 });
@@ -1211,7 +1404,7 @@ var require_Async = __commonJS({
       asyncMap: () => asyncMap,
       convertAsyncToSync: () => convertAsyncToSync2,
       convertSyncToAsync: () => convertSyncToAsync,
-      invokeAsyncSafely: () => invokeAsyncSafely3,
+      invokeAsyncSafely: () => invokeAsyncSafely2,
       retryWithTimeout: () => retryWithTimeout,
       runWithTimeout: () => runWithTimeout,
       sleep: () => sleep,
@@ -1219,9 +1412,14 @@ var require_Async = __commonJS({
       toArray: () => toArray
     });
     module2.exports = __toCommonJS2(Async_exports);
-    var import_Error = require_Error();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var import_Error3 = require_Error();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -1234,16 +1432,17 @@ var require_Async = __commonJS({
       const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
       await runWithTimeout(overriddenOptions.timeoutInMilliseconds, async () => {
         let attempt = 0;
-        while (true) {
+        for (; ; ) {
           attempt++;
           if (await asyncFn()) {
             if (attempt > 1) {
-              console.debug(`Retry completed successfully after ${attempt} attempts`);
+              console.debug(`Retry completed successfully after ${attempt.toString()} attempts`);
             }
             return;
           }
-          console.debug(`Retry attempt ${attempt} completed unsuccessfully. Trying again in ${overriddenOptions.retryDelayInMilliseconds} milliseconds`);
-          console.debug(asyncFn);
+          console.debug(`Retry attempt ${attempt.toString()} completed unsuccessfully. Trying again in ${overriddenOptions.retryDelayInMilliseconds.toString()} milliseconds`, {
+            asyncFn
+          });
           await sleep(overriddenOptions.retryDelayInMilliseconds);
         }
       });
@@ -1256,13 +1455,15 @@ var require_Async = __commonJS({
     }
     async function timeout(timeoutInMilliseconds) {
       await sleep(timeoutInMilliseconds);
-      throw new Error(`Timed out in ${timeoutInMilliseconds} milliseconds`);
+      throw new Error(`Timed out in ${timeoutInMilliseconds.toString()} milliseconds`);
     }
-    function invokeAsyncSafely3(promise) {
-      promise.catch(import_Error.emitAsyncErrorEvent);
+    function invokeAsyncSafely2(promise) {
+      promise.catch(import_Error3.emitAsyncErrorEvent);
     }
     function convertAsyncToSync2(asyncFunc) {
-      return (...args) => invokeAsyncSafely3(asyncFunc(...args));
+      return (...args) => {
+        invokeAsyncSafely2(asyncFunc(...args));
+      };
     }
     function convertSyncToAsync(syncFn) {
       return async (...args) => {
@@ -1293,11 +1494,1591 @@ var require_Async = __commonJS({
   }
 });
 
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettings.cjs
+var require_PluginSettings = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettings.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var PluginSettings_exports = {};
+    __export2(PluginSettings_exports, {
+      clonePluginSettings: () => clonePluginSettings,
+      loadPluginSettings: () => loadPluginSettings2
+    });
+    module2.exports = __toCommonJS2(PluginSettings_exports);
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function loadPluginSettings2(defaultPluginSettingsFactory, data) {
+      const defaultPluginSettings = defaultPluginSettingsFactory();
+      if (data && typeof data === "object") {
+        const record = data;
+        for (const [key, value] of Object.entries(record)) {
+          if (key in defaultPluginSettings) {
+            defaultPluginSettings[key] = value;
+          }
+        }
+      }
+      return defaultPluginSettings;
+    }
+    function clonePluginSettings(defaultPluginSettingsFactory, settings) {
+      return loadPluginSettings2(defaultPluginSettingsFactory, settings);
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginBase.cjs
+var require_PluginBase = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginBase.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var PluginBase_exports = {};
+    __export2(PluginBase_exports, {
+      PluginBase: () => PluginBase2
+    });
+    module2.exports = __toCommonJS2(PluginBase_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_Async3 = require_Async();
+    var import_Error3 = require_Error();
+    var import_PluginSettings2 = require_PluginSettings();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    var PluginBase2 = class extends import_obsidian5.Plugin {
+      _settings;
+      notice;
+      _abortSignal;
+      /**
+       * Gets the AbortSignal used for aborting asynchronous operations.
+       *
+       * @returns The abort signal.
+       */
+      get abortSignal() {
+        return this._abortSignal;
+      }
+      /**
+       * Gets a copy of the current plugin settings.
+       *
+       * @returns A copy of the plugin settings.
+       */
+      get settingsCopy() {
+        return (0, import_PluginSettings2.clonePluginSettings)(this.createDefaultPluginSettings.bind(this), this.settings);
+      }
+      /**
+       * Gets the plugin settings.
+       *
+       * @returns The plugin settings.
+       */
+      get settings() {
+        return this._settings;
+      }
+      /**
+       * Called when the plugin is loaded
+       */
+      onload() {
+        (0, import_Async3.invokeAsyncSafely)((async () => {
+          await this.loadSettings();
+          const pluginSettingsTab = this.createPluginSettingsTab();
+          if (pluginSettingsTab) {
+            this.addSettingTab(pluginSettingsTab);
+          }
+          this.register((0, import_Error3.registerAsyncErrorEventHandler)(() => {
+            this.showNotice("An unhandled error occurred. Please check the console for more information.");
+          }));
+          const abortController = new AbortController();
+          this._abortSignal = abortController.signal;
+          this.register(() => {
+            abortController.abort();
+          });
+          await this.onloadComplete();
+          this.app.workspace.onLayoutReady(this.onLayoutReady.bind(this));
+        })());
+      }
+      /**
+       * Called when the layout is ready. This method can be overridden by subclasses to perform actions once
+       * the layout is ready.
+       *
+       * @returns A promise or void indicating the completion of the layout setup.
+       */
+      // eslint-disable-next-line @typescript-eslint/no-empty-function
+      onLayoutReady() {
+      }
+      /**
+       * Loads the plugin settings from the saved data.
+       *
+       * @returns A promise that resolves when the settings are loaded.
+       */
+      async loadSettings() {
+        const data = await this.loadData();
+        this._settings = await this.parseSettings(data);
+      }
+      /**
+       * Parses the provided settings data and returns the parsed `PluginSettings`.
+       *
+       * @param data - The raw data to be parsed into `PluginSettings`.
+       * @returns A promise that resolves to `PluginSettings` or the settings directly.
+       */
+      parseSettings(data) {
+        return (0, import_PluginSettings2.loadPluginSettings)(this.createDefaultPluginSettings.bind(this), data);
+      }
+      /**
+       * Saves the new plugin settings.
+       *
+       * @param newSettings - The new settings to save.
+       * @returns A promise that resolves when the settings are saved.
+       */
+      async saveSettings(newSettings) {
+        this._settings = (0, import_PluginSettings2.clonePluginSettings)(this.createDefaultPluginSettings.bind(this), newSettings);
+        await this.saveData(this.settings);
+      }
+      /**
+       * Displays a notice message to the user.
+       *
+       * @param message - The message to display.
+       */
+      showNotice(message) {
+        if (this.notice) {
+          this.notice.hide();
+        }
+        this.notice = new import_obsidian5.Notice(`${this.manifest.name}
+${message}`);
+      }
+    };
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/Object.cjs
+var require_Object = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/Object.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var Object_exports = {};
+    __export2(Object_exports, {
+      deepEqual: () => deepEqual,
+      getPrototypeOf: () => getPrototypeOf,
+      nameof: () => nameof,
+      toJson: () => toJson2
+    });
+    module2.exports = __toCommonJS2(Object_exports);
+    var import_Error3 = require_Error();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function deepEqual(a, b) {
+      if (a === b) {
+        return true;
+      }
+      if (typeof a !== "object" || typeof b !== "object" || a === null || b === null) {
+        return false;
+      }
+      const keysA = Object.keys(a);
+      const keysB = Object.keys(b);
+      if (keysA.length !== keysB.length) {
+        return false;
+      }
+      const aRecord = a;
+      const bRecord = b;
+      for (const key of keysA) {
+        if (!keysB.includes(key) || !deepEqual(aRecord[key], bRecord[key])) {
+          return false;
+        }
+      }
+      return true;
+    }
+    function nameof(name) {
+      return name;
+    }
+    function getPrototypeOf(instance) {
+      return Object.getPrototypeOf(instance);
+    }
+    function toJson2(value, options = {}) {
+      const {
+        shouldHandleFunctions = false,
+        space = 2
+      } = options;
+      if (!shouldHandleFunctions) {
+        return JSON.stringify(value, null, space);
+      }
+      const functionTexts = [];
+      const replacer = (_, value2) => {
+        if (typeof value2 === "function") {
+          const index = functionTexts.length;
+          functionTexts.push(value2.toString());
+          return `__FUNCTION_${index.toString()}`;
+        }
+        return value2;
+      };
+      let json = JSON.stringify(value, replacer, space);
+      json = json.replaceAll(/"__FUNCTION_(\d+)"/g, (_, indexStr) => functionTexts[parseInt(indexStr)] ?? (0, import_Error3.throwExpression)(new Error(`Function with index ${indexStr} not found`)));
+      return json;
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/TFile.cjs
+var require_TFile = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/TFile.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var TFile_exports = {};
+    __export2(TFile_exports, {
+      getFile: () => getFile,
+      getFileOrNull: () => getFileOrNull
+    });
+    module2.exports = __toCommonJS2(TFile_exports);
+    var import_obsidian5 = require("obsidian");
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function getFile(app, pathOrFile) {
+      const file = getFileOrNull(app, pathOrFile);
+      if (!file) {
+        throw new Error(`File not found: ${pathOrFile}`);
+      }
+      return file;
+    }
+    function getFileOrNull(app, pathOrFile) {
+      return pathOrFile instanceof import_obsidian5.TFile ? pathOrFile : app.vault.getFileByPath(pathOrFile);
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/MetadataCache.cjs
+var require_MetadataCache = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/MetadataCache.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var MetadataCache_exports = {};
+    __export2(MetadataCache_exports, {
+      ensureMetadataCacheReady: () => ensureMetadataCacheReady,
+      getAllLinks: () => getAllLinks2,
+      getBacklinksForFileSafe: () => getBacklinksForFileSafe2,
+      getCacheSafe: () => getCacheSafe2,
+      getFrontMatterSafe: () => getFrontMatterSafe,
+      registerFile: () => registerFile,
+      tempRegisterFileAndRun: () => tempRegisterFileAndRun2
+    });
+    module2.exports = __toCommonJS2(MetadataCache_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_implementations2 = require_implementations();
+    var import_Async3 = require_Async();
+    var import_Error3 = require_Error();
+    var import_TAbstractFile4 = require_TAbstractFile();
+    var import_TFile = require_TFile();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    async function getCacheSafe2(app, fileOrPath, retryOptions = {}) {
+      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
+      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
+      let cache = null;
+      await (0, import_Async3.retryWithTimeout)(async () => {
+        const file = (0, import_TFile.getFileOrNull)(app, fileOrPath);
+        if (!file || file.deleted) {
+          cache = null;
+          return true;
+        }
+        await saveNote(app, file);
+        const fileInfo = app.metadataCache.getFileInfo(file.path);
+        const stat = await app.vault.adapter.stat(file.path);
+        if (!fileInfo) {
+          console.debug(`File cache info for ${file.path} is missing`);
+          return false;
+        } else if (!stat) {
+          console.debug(`File stat for ${file.path} is missing`);
+          return false;
+        } else if (fileInfo.mtime < stat.mtime) {
+          console.debug(`File cache info for ${file.path} is from ${new Date(fileInfo.mtime).toString()} which is older than the file modification timestamp ${new Date(stat.mtime).toString()}`);
+          return false;
+        } else {
+          cache = app.metadataCache.getFileCache(file);
+          if (!cache) {
+            console.debug(`File cache for ${file.path} is missing`);
+            return false;
+          } else {
+            return true;
+          }
+        }
+      }, overriddenOptions);
+      return cache;
+    }
+    function getAllLinks2(cache) {
+      let links = [];
+      if (cache.links) {
+        links.push(...cache.links);
+      }
+      if (cache.embeds) {
+        links.push(...cache.embeds);
+      }
+      links.sort((a, b) => a.position.start.offset - b.position.start.offset);
+      links = links.filter((link, index) => {
+        if (index === 0) {
+          return true;
+        }
+        const previousLink = links[index - 1] ?? (0, import_Error3.throwExpression)(new Error("Previous link not found"));
+        return link.position.start.offset !== previousLink.position.start.offset;
+      });
+      return links;
+    }
+    async function getBacklinksForFileSafe2(app, pathOrFile, retryOptions = {}) {
+      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
+      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
+      let backlinks = null;
+      await (0, import_Async3.retryWithTimeout)(async () => {
+        const file = (0, import_TFile.getFile)(app, pathOrFile);
+        await ensureMetadataCacheReady(app);
+        backlinks = tempRegisterFileAndRun2(app, file, () => app.metadataCache.getBacklinksForFile(file));
+        for (const notePath of backlinks.keys()) {
+          const note = app.vault.getFileByPath(notePath);
+          if (!note) {
+            return false;
+          }
+          await saveNote(app, note);
+          const content = await app.vault.read(note);
+          const links = backlinks.get(notePath) ?? (0, import_Error3.throwExpression)(new Error("Backlinks not found"));
+          for (const link of links) {
+            const actualLink = content.slice(link.position.start.offset, link.position.end.offset);
+            if (actualLink !== link.original) {
+              return false;
+            }
+          }
+        }
+        return true;
+      }, overriddenOptions);
+      return backlinks;
+    }
+    async function saveNote(app, pathOrFile) {
+      if (!(0, import_TAbstractFile4.isMarkdownFile)(pathOrFile)) {
+        return;
+      }
+      const path = (0, import_TAbstractFile4.getPath)(pathOrFile);
+      for (const leaf of app.workspace.getLeavesOfType("markdown")) {
+        const view = leaf.view;
+        if (view.file?.path === path) {
+          await view.save();
+        }
+      }
+    }
+    async function getFrontMatterSafe(app, pathOrFile) {
+      const cache = await getCacheSafe2(app, pathOrFile);
+      return cache?.frontmatter ?? {};
+    }
+    function tempRegisterFileAndRun2(app, file, fn) {
+      const unregister = registerFile(app, file);
+      try {
+        return fn();
+      } finally {
+        unregister();
+      }
+    }
+    function registerFile(app, file) {
+      if (!file.deleted) {
+        return () => {
+        };
+      }
+      const deletedPaths = [];
+      let deletedFile = file;
+      while (deletedFile.deleted) {
+        deletedPaths.push(deletedFile.path);
+        app.vault.fileMap[deletedFile.path] = deletedFile;
+        deletedFile = deletedFile.parent ?? (0, import_implementations2.createTFolderInstance)(app.vault, (0, import_implementations2.parentFolderPath)(deletedFile.path));
+      }
+      if (file instanceof import_obsidian5.TFile) {
+        app.metadataCache.uniqueFileLookup.add(file.name.toLowerCase(), file);
+      }
+      return () => {
+        for (const path of deletedPaths) {
+          delete app.vault.fileMap[path];
+        }
+        if (file instanceof import_obsidian5.TFile) {
+          app.metadataCache.uniqueFileLookup.remove(file.name.toLowerCase(), file);
+        }
+      };
+    }
+    async function ensureMetadataCacheReady(app) {
+      for (const [path, cache] of Object.entries(app.metadataCache.fileCache)) {
+        if (!cache.hash) {
+          continue;
+        }
+        if (app.metadataCache.metadataCache[cache.hash]) {
+          continue;
+        }
+        await getCacheSafe2(app, path);
+      }
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/ObsidianSettings.cjs
+var require_ObsidianSettings = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/ObsidianSettings.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var ObsidianSettings_exports = {};
+    __export2(ObsidianSettings_exports, {
+      shouldUseRelativeLinks: () => shouldUseRelativeLinks,
+      shouldUseWikilinks: () => shouldUseWikilinks
+    });
+    module2.exports = __toCommonJS2(ObsidianSettings_exports);
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function shouldUseWikilinks(app) {
+      return !app.vault.getConfig("useMarkdownLinks");
+    }
+    function shouldUseRelativeLinks(app) {
+      return app.vault.getConfig("newLinkFormat") === "relative";
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/TFolder.cjs
+var require_TFolder = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/TFolder.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var TFolder_exports = {};
+    __export2(TFolder_exports, {
+      getFolder: () => getFolder,
+      getFolderOrNull: () => getFolderOrNull,
+      getMarkdownFiles: () => getMarkdownFiles
+    });
+    module2.exports = __toCommonJS2(TFolder_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_TAbstractFile4 = require_TAbstractFile();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function getFolder(app, pathOrFolder) {
+      const folder = getFolderOrNull(app, pathOrFolder);
+      if (!folder) {
+        throw new Error(`Folder not found: ${pathOrFolder}`);
+      }
+      return folder;
+    }
+    function getFolderOrNull(app, pathOrFolder) {
+      if (pathOrFolder === null) {
+        return null;
+      }
+      return pathOrFolder instanceof import_obsidian5.TFolder ? pathOrFolder : app.vault.getFolderByPath(pathOrFolder);
+    }
+    function getMarkdownFiles(app, pathOrFolder, isRecursive) {
+      const folder = getFolder(app, pathOrFolder);
+      let markdownFiles = [];
+      if (!isRecursive) {
+        markdownFiles = folder.children.filter((file) => (0, import_TAbstractFile4.isMarkdownFile)(file));
+      } else {
+        import_obsidian5.Vault.recurseChildren(folder, (abstractFile) => {
+          if ((0, import_TAbstractFile4.isMarkdownFile)(abstractFile)) {
+            markdownFiles.push(abstractFile);
+          }
+        });
+      }
+      markdownFiles = markdownFiles.sort((a, b) => a.path.localeCompare(b.path));
+      return markdownFiles;
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Vault.cjs
+var require_Vault = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Vault.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var Vault_exports = {};
+    __export2(Vault_exports, {
+      applyFileChanges: () => applyFileChanges2,
+      createFolderSafe: () => createFolderSafe3,
+      createTempFile: () => createTempFile,
+      createTempFolder: () => createTempFolder,
+      getMarkdownFilesSorted: () => getMarkdownFilesSorted,
+      processWithRetry: () => processWithRetry2,
+      removeEmptyFolderHierarchy: () => removeEmptyFolderHierarchy2,
+      removeFolderSafe: () => removeFolderSafe,
+      safeList: () => safeList
+    });
+    module2.exports = __toCommonJS2(Vault_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_Async3 = require_Async();
+    var import_Error3 = require_Error();
+    var import_Object2 = require_Object();
+    var import_Path7 = require_Path();
+    var import_ValueProvider = require_ValueProvider();
+    var import_MetadataCache2 = require_MetadataCache();
+    var import_TAbstractFile4 = require_TAbstractFile();
+    var import_TFile = require_TFile();
+    var import_TFolder = require_TFolder();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function getMarkdownFilesSorted(app) {
+      return app.vault.getMarkdownFiles().sort((a, b) => a.path.localeCompare(b.path));
+    }
+    async function processWithRetry2(app, pathOrFile, newContentProvider, retryOptions = {}) {
+      const file = (0, import_TFile.getFile)(app, pathOrFile);
+      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
+      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
+      await (0, import_Async3.retryWithTimeout)(async () => {
+        const oldContent = await app.vault.adapter.read(file.path);
+        const newContent = await (0, import_ValueProvider.resolveValue)(newContentProvider, oldContent);
+        if (newContent === null) {
+          return false;
+        }
+        let success = true;
+        await app.vault.process(file, (content) => {
+          if (content !== oldContent) {
+            console.warn("Content has changed since it was read. Retrying...", {
+              path: file.path,
+              expectedContent: oldContent,
+              actualContent: content
+            });
+            success = false;
+            return content;
+          }
+          return newContent;
+        });
+        return success;
+      }, overriddenOptions);
+    }
+    async function applyFileChanges2(app, pathOrFile, changesProvider, retryOptions = {}) {
+      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
+      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
+      await processWithRetry2(app, pathOrFile, async (content) => {
+        let changes = await (0, import_ValueProvider.resolveValue)(changesProvider);
+        for (const change of changes) {
+          const actualContent = content.slice(change.startIndex, change.endIndex);
+          if (actualContent !== change.oldContent) {
+            console.warn("Content mismatch", {
+              startIndex: change.startIndex,
+              endIndex: change.endIndex,
+              path: (0, import_TAbstractFile4.getPath)(pathOrFile),
+              expectedContent: change.oldContent,
+              actualContent
+            });
+            return null;
+          }
+        }
+        changes.sort((a, b) => a.startIndex - b.startIndex);
+        changes = changes.filter((change, index) => {
+          if (index === 0) {
+            return true;
+          }
+          return !(0, import_Object2.deepEqual)(change, changes[index - 1]);
+        });
+        for (let i = 1; i < changes.length; i++) {
+          const change = changes[i] ?? (0, import_Error3.throwExpression)(new Error("Change not found"));
+          const previousChange = changes[i - 1] ?? (0, import_Error3.throwExpression)(new Error("Previous change not found"));
+          if (previousChange.endIndex > change.startIndex) {
+            console.warn("Overlapping changes", {
+              previousChange,
+              change
+            });
+            return null;
+          }
+        }
+        let newContent = "";
+        let lastIndex = 0;
+        for (const change of changes) {
+          newContent += content.slice(lastIndex, change.startIndex);
+          newContent += change.newContent;
+          lastIndex = change.endIndex;
+        }
+        newContent += content.slice(lastIndex);
+        return newContent;
+      }, overriddenOptions);
+    }
+    async function removeFolderSafe(app, folderPath, removedNotePath, shouldReportUsedAttachments) {
+      const folder = app.vault.getFolderByPath(folderPath);
+      if (!folder) {
+        return false;
+      }
+      let canRemove = true;
+      for (const child of folder.children) {
+        if (child instanceof import_obsidian5.TFile) {
+          const backlinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(app, child);
+          if (removedNotePath) {
+            backlinks.removeKey(removedNotePath);
+          }
+          if (backlinks.count() !== 0) {
+            if (shouldReportUsedAttachments) {
+              new import_obsidian5.Notice(`Attachment ${child.path} is still used by other notes. It will not be deleted.`);
+            }
+            canRemove = false;
+          } else {
+            try {
+              await app.vault.delete(child);
+            } catch (e) {
+              if (await app.vault.adapter.exists(child.path)) {
+                (0, import_Error3.printError)(new Error(`Failed to delete ${child.path}`, { cause: e }));
+                canRemove = false;
+              }
+            }
+          }
+        } else if (child instanceof import_obsidian5.TFolder) {
+          canRemove &&= await removeFolderSafe(app, child.path, removedNotePath, shouldReportUsedAttachments);
+        }
+      }
+      if (canRemove) {
+        try {
+          await app.vault.delete(folder, true);
+        } catch (e) {
+          if (await app.vault.adapter.exists(folder.path)) {
+            (0, import_Error3.printError)(new Error(`Failed to delete ${folder.path}`, { cause: e }));
+            canRemove = false;
+          }
+        }
+      }
+      return canRemove;
+    }
+    async function createFolderSafe3(app, path) {
+      if (await app.vault.adapter.exists(path)) {
+        return false;
+      }
+      try {
+        await app.vault.adapter.mkdir(path);
+        return true;
+      } catch (e) {
+        if (!await app.vault.adapter.exists(path)) {
+          throw e;
+        }
+        return true;
+      }
+    }
+    async function safeList(app, path) {
+      const EMPTY = { files: [], folders: [] };
+      if (!await app.vault.exists(path)) {
+        return EMPTY;
+      }
+      try {
+        return await app.vault.adapter.list(path);
+      } catch (e) {
+        if (await app.vault.adapter.exists(path)) {
+          throw e;
+        }
+        return EMPTY;
+      }
+    }
+    async function removeEmptyFolderHierarchy2(app, pathOrFolder) {
+      let folder = (0, import_TFolder.getFolderOrNull)(app, pathOrFolder);
+      while (folder) {
+        if (folder.children.length > 0) {
+          return;
+        }
+        const parent = folder.parent;
+        await removeFolderSafe(app, folder.path);
+        folder = parent;
+      }
+    }
+    async function createTempFile(app, path) {
+      let file = app.vault.getFileByPath(path);
+      if (file) {
+        return async () => {
+        };
+      }
+      const folderCleanup = await createTempFolder(app, (0, import_Path7.dirname)(path));
+      try {
+        await app.vault.create(path, "");
+      } catch (e) {
+        if (!await app.vault.exists(path)) {
+          throw e;
+        }
+      }
+      file = app.vault.getFileByPath(path) ?? (0, import_Error3.throwExpression)(new Error("File not found"));
+      return async () => {
+        if (!file.deleted) {
+          await app.vault.delete(file, true);
+        }
+        await folderCleanup();
+      };
+    }
+    async function createTempFolder(app, path) {
+      let folder = app.vault.getFolderByPath(path);
+      if (folder) {
+        return async () => {
+        };
+      }
+      const dirPath = (0, import_Path7.dirname)(path);
+      await createTempFolder(app, dirPath);
+      const folderCleanup = await createTempFolder(app, (0, import_Path7.dirname)(path));
+      await createFolderSafe3(app, path);
+      folder = app.vault.getFolderByPath(path) ?? (0, import_Error3.throwExpression)(new Error("Folder not found"));
+      return async () => {
+        if (!folder.deleted) {
+          await app.vault.delete(folder, true);
+        }
+        await folderCleanup();
+      };
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Link.cjs
+var require_Link = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Link.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var Link_exports = {};
+    __export2(Link_exports, {
+      editLinks: () => editLinks,
+      extractLinkFile: () => extractLinkFile,
+      generateMarkdownLink: () => generateMarkdownLink2,
+      getAlias: () => getAlias2,
+      splitSubpath: () => splitSubpath2,
+      updateLink: () => updateLink,
+      updateLinksInFile: () => updateLinksInFile
+    });
+    module2.exports = __toCommonJS2(Link_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_implementations2 = require_implementations();
+    var import_Error3 = require_Error();
+    var import_Path7 = require_Path();
+    var import_String = require_String();
+    var import_MetadataCache2 = require_MetadataCache();
+    var import_ObsidianSettings = require_ObsidianSettings();
+    var import_TAbstractFile4 = require_TAbstractFile();
+    var import_TFile = require_TFile();
+    var import_Vault6 = require_Vault();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    var SPECIAL_LINK_SYMBOLS_REGEXP = /[\\\x00\x08\x0B\x0C\x0E-\x1F ]/g;
+    function splitSubpath2(link) {
+      const SUBPATH_SEPARATOR = "#";
+      const [linkPath = "", subpath] = (0, import_String.normalize)(link).split(SUBPATH_SEPARATOR);
+      return {
+        linkPath,
+        subpath: subpath ? SUBPATH_SEPARATOR + subpath : void 0
+      };
+    }
+    async function updateLinksInFile(options) {
+      const {
+        app,
+        pathOrFile,
+        oldPathOrFile,
+        renameMap,
+        forceMarkdownLinks,
+        embedOnlyLinks
+      } = options;
+      await editLinks(app, pathOrFile, (link) => {
+        const isEmbedLink = link.original.startsWith("!");
+        if (embedOnlyLinks !== void 0 && embedOnlyLinks !== isEmbedLink) {
+          return;
+        }
+        return convertLink(app, link, pathOrFile, oldPathOrFile, renameMap, forceMarkdownLinks);
+      });
+    }
+    function convertLink(app, link, source, oldPathOrFile, renameMap, forceMarkdownLinks) {
+      oldPathOrFile ||= (0, import_TAbstractFile4.getPath)(source);
+      return updateLink({
+        app,
+        link,
+        pathOrFile: extractLinkFile(app, link, oldPathOrFile),
+        oldPathOrFile,
+        sourcePathOrFile: source,
+        renameMap,
+        forceMarkdownLinks
+      });
+    }
+    function extractLinkFile(app, link, oldPathOrFile) {
+      const { linkPath } = splitSubpath2(link.link);
+      return app.metadataCache.getFirstLinkpathDest(linkPath, (0, import_TAbstractFile4.getPath)(oldPathOrFile));
+    }
+    function updateLink(options) {
+      const {
+        app,
+        link,
+        pathOrFile,
+        oldPathOrFile,
+        sourcePathOrFile: source,
+        renameMap,
+        forceMarkdownLinks
+      } = options;
+      if (!pathOrFile) {
+        return link.original;
+      }
+      let file = (0, import_TFile.getFile)(app, pathOrFile);
+      const sourcePath = (0, import_TAbstractFile4.getPath)(source);
+      const oldPath = (0, import_TAbstractFile4.getPath)(oldPathOrFile);
+      const isEmbed = link.original.startsWith("!");
+      const isWikilink = link.original.includes("[[") && forceMarkdownLinks !== true;
+      const { subpath } = splitSubpath2(link.link);
+      const newPath = renameMap.get(file.path);
+      const alias = getAlias2({
+        app,
+        displayText: link.displayText,
+        file: pathOrFile,
+        otherPaths: [oldPath, newPath],
+        sourcePath,
+        isWikilink
+      });
+      if (newPath) {
+        file = (0, import_implementations2.createTFileInstance)(app.vault, newPath);
+      }
+      const newLink = generateMarkdownLink2({
+        app,
+        pathOrFile: file,
+        sourcePathOrFile: sourcePath,
+        subpath,
+        alias,
+        isEmbed,
+        isWikilink
+      });
+      return newLink;
+    }
+    function getAlias2(options) {
+      const {
+        app,
+        displayText,
+        file: pathOrFile,
+        otherPaths,
+        sourcePath,
+        isWikilink
+      } = options;
+      if (isWikilink === false) {
+        return displayText;
+      }
+      const file = (0, import_TFile.getFile)(app, pathOrFile);
+      if (!displayText) {
+        return void 0;
+      }
+      const cleanDisplayText = (0, import_obsidian5.normalizePath)(displayText.split(" > ")[0] ?? (0, import_Error3.throwExpression)(new Error("Invalid display text"))).replace(/\.\//g, "");
+      for (const path of [file.path, ...otherPaths]) {
+        if (!path) {
+          continue;
+        }
+        const extension = (0, import_Path7.extname)(path);
+        const fileNameWithExtension = (0, import_Path7.basename)(path);
+        const fileNameWithoutExtension = (0, import_Path7.basename)(path, extension);
+        if (cleanDisplayText === path || cleanDisplayText === fileNameWithExtension || cleanDisplayText === fileNameWithoutExtension) {
+          return void 0;
+        }
+      }
+      for (const omitMdExtension of [true, false]) {
+        const linkText = app.metadataCache.fileToLinktext(file, sourcePath, omitMdExtension);
+        if (cleanDisplayText === linkText) {
+          return void 0;
+        }
+      }
+      return displayText;
+    }
+    function generateMarkdownLink2(options) {
+      const { app } = options;
+      const defaultOptionsFn = app.fileManager.generateMarkdownLink.defaultOptionsFn ?? (() => ({}));
+      const defaultOptions = defaultOptionsFn();
+      options = { ...defaultOptions, ...options };
+      const file = (0, import_TFile.getFile)(app, options.pathOrFile);
+      return (0, import_MetadataCache2.tempRegisterFileAndRun)(app, file, () => {
+        const sourcePath = (0, import_TAbstractFile4.getPath)(options.sourcePathOrFile);
+        const subpath = options.subpath ?? "";
+        let alias = options.alias ?? "";
+        const isEmbed = options.isEmbed ?? !(0, import_TAbstractFile4.isMarkdownFile)(file);
+        const isWikilink = options.isWikilink ?? (0, import_ObsidianSettings.shouldUseWikilinks)(app);
+        const forceRelativePath = options.forceRelativePath ?? (0, import_ObsidianSettings.shouldUseRelativeLinks)(app);
+        let linkText = file.path === sourcePath && subpath ? subpath : forceRelativePath ? (0, import_Path7.relative)((0, import_Path7.dirname)(sourcePath), isWikilink ? (0, import_TAbstractFile4.trimMarkdownExtension)(file) : file.path) + subpath : app.metadataCache.fileToLinktext(file, sourcePath, isWikilink) + subpath;
+        if (forceRelativePath && options.useLeadingDot && !linkText.startsWith(".") && !linkText.startsWith("#")) {
+          linkText = "./" + linkText;
+        }
+        if (!isWikilink) {
+          if (options.useAngleBrackets) {
+            linkText = `<${linkText}>`;
+          } else {
+            linkText = linkText.replace(SPECIAL_LINK_SYMBOLS_REGEXP, function(specialLinkSymbol) {
+              return encodeURIComponent(specialLinkSymbol);
+            });
+          }
+          if (!isEmbed) {
+            return `[${alias || file.basename}](${linkText})`;
+          } else {
+            return `![${alias}](${linkText})`;
+          }
+        } else {
+          if (alias && alias.toLowerCase() === linkText.toLowerCase()) {
+            linkText = alias;
+            alias = "";
+          }
+          return (isEmbed ? "!" : "") + (alias ? `[[${linkText}|${alias}]]` : `[[${linkText}]]`);
+        }
+      });
+    }
+    async function editLinks(app, pathOrFile, linkConverter, retryOptions = {}) {
+      await (0, import_Vault6.applyFileChanges)(app, pathOrFile, async () => {
+        const cache = await (0, import_MetadataCache2.getCacheSafe)(app, pathOrFile);
+        if (!cache) {
+          return [];
+        }
+        const changes = [];
+        for (const link of (0, import_MetadataCache2.getAllLinks)(cache)) {
+          const newContent = await linkConverter(link);
+          if (newContent === void 0) {
+            continue;
+          }
+          changes.push({
+            startIndex: link.position.start.offset,
+            endIndex: link.position.end.offset,
+            oldContent: link.original,
+            newContent
+          });
+        }
+        return changes;
+      }, retryOptions);
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/RenameDeleteHandler.cjs
+var require_RenameDeleteHandler = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/RenameDeleteHandler.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var RenameDeleteHandler_exports = {};
+    __export2(RenameDeleteHandler_exports, {
+      registerRenameDeleteHandlers: () => registerRenameDeleteHandlers2
+    });
+    module2.exports = __toCommonJS2(RenameDeleteHandler_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_implementations2 = require_implementations();
+    var import_Async3 = require_Async();
+    var import_Object2 = require_Object();
+    var import_Path7 = require_Path();
+    var import_AttachmentPath5 = require_AttachmentPath();
+    var import_Link2 = require_Link();
+    var import_MetadataCache2 = require_MetadataCache();
+    var import_TAbstractFile4 = require_TAbstractFile();
+    var import_Vault6 = require_Vault();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function registerRenameDeleteHandlers2(plugin, settingsBuilder) {
+      const app = plugin.app;
+      const renameDeleteHandler = new RenameDeleteHandler(app, settingsBuilder);
+      plugin.registerEvent(
+        app.vault.on("delete", (file) => {
+          (0, import_Async3.invokeAsyncSafely)(renameDeleteHandler.handleDelete(file));
+        })
+      );
+      plugin.registerEvent(
+        app.vault.on("rename", (file, oldPath) => {
+          (0, import_Async3.invokeAsyncSafely)(renameDeleteHandler.handleRename(file, oldPath));
+        })
+      );
+    }
+    var RenameDeleteHandler = class {
+      constructor(app, settingsBuilder) {
+        this.app = app;
+        this.settingsBuilder = settingsBuilder;
+      }
+      renamingPaths = /* @__PURE__ */ new Set();
+      specialRenames = [];
+      async handleRename(file, oldPath) {
+        console.debug(`Handle Rename ${oldPath} -> ${file.path}`);
+        if (this.renamingPaths.has(oldPath)) {
+          return;
+        }
+        if (!(file instanceof import_obsidian5.TFile)) {
+          return;
+        }
+        const specialRename = this.specialRenames.find((x) => x.oldPath === file.path);
+        if (specialRename) {
+          await this.app.vault.rename(file, specialRename.tempPath);
+          return;
+        }
+        if (this.app.vault.adapter.insensitive && oldPath.toLowerCase() === file.path.toLowerCase() && (0, import_Path7.dirname)(oldPath) === (0, import_Path7.dirname)(file.path)) {
+          this.specialRenames.push({
+            oldPath,
+            newPath: file.path,
+            tempPath: (0, import_Path7.join)(file.parent?.path ?? "", "__temp__" + file.name)
+          });
+          await this.app.vault.rename(file, oldPath);
+          return;
+        }
+        const updateAllLinks = this.app.fileManager.updateAllLinks;
+        try {
+          this.app.fileManager.updateAllLinks = async () => {
+          };
+          const renameMap = /* @__PURE__ */ new Map();
+          await this.fillRenameMap(file, oldPath, renameMap);
+          for (const oldPath2 of renameMap.keys()) {
+            this.renamingPaths.add(oldPath2);
+          }
+          for (const [oldPath2, newPath2] of renameMap.entries()) {
+            await this.processRename(oldPath2, newPath2, renameMap);
+          }
+          await this.processRename(oldPath, file.path, renameMap);
+        } finally {
+          this.renamingPaths.delete(oldPath);
+          this.app.fileManager.updateAllLinks = updateAllLinks;
+          const specialRename2 = this.specialRenames.find((x) => x.tempPath === file.path);
+          if (specialRename2) {
+            await this.app.vault.rename(file, specialRename2.newPath);
+            this.specialRenames.remove(specialRename2);
+          }
+        }
+      }
+      async handleDelete(file) {
+        console.debug(`Handle Delete ${file.path}`);
+        if (!(0, import_TAbstractFile4.isNote)(file)) {
+          return;
+        }
+        if (this.renamingPaths.has(file.path)) {
+          return;
+        }
+        const attachmentFolder = await (0, import_AttachmentPath5.getAttachmentFolderPath)(this.app, file.path);
+        await (0, import_Vault6.removeFolderSafe)(this.app, attachmentFolder, file.path);
+      }
+      async fillRenameMap(file, oldPath, renameMap) {
+        renameMap.set(oldPath, file.path);
+        if (!(0, import_TAbstractFile4.isNote)(file)) {
+          return;
+        }
+        const oldAttachmentFolderPath = await (0, import_AttachmentPath5.getAttachmentFolderPath)(this.app, oldPath);
+        const newAttachmentFolderPath = await (0, import_AttachmentPath5.getAttachmentFolderPath)(this.app, file.path);
+        const dummyOldAttachmentFolderPath = await (0, import_AttachmentPath5.getAttachmentFolderPath)(this.app, (0, import_Path7.join)((0, import_Path7.dirname)(oldPath), "DUMMY_FILE.md"));
+        const oldAttachmentFolder = this.app.vault.getFolderByPath(oldAttachmentFolderPath);
+        if (!oldAttachmentFolder) {
+          return;
+        }
+        if (oldAttachmentFolderPath === newAttachmentFolderPath) {
+          return;
+        }
+        const children = [];
+        if (oldAttachmentFolderPath === dummyOldAttachmentFolderPath) {
+          const cache = await (0, import_MetadataCache2.getCacheSafe)(this.app, file);
+          if (!cache) {
+            return;
+          }
+          for (const link of (0, import_MetadataCache2.getAllLinks)(cache)) {
+            const attachmentFile = (0, import_Link2.extractLinkFile)(this.app, link, oldPath);
+            if (!attachmentFile) {
+              continue;
+            }
+            if (attachmentFile.path.startsWith(oldAttachmentFolderPath)) {
+              const backlinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(this.app, attachmentFile);
+              if (backlinks.keys().length === 1) {
+                children.push(attachmentFile);
+              }
+            }
+          }
+        } else {
+          import_obsidian5.Vault.recurseChildren(oldAttachmentFolder, (child) => {
+            if (child instanceof import_obsidian5.TFile) {
+              children.push(child);
+            }
+          });
+        }
+        for (const child of children) {
+          if ((0, import_TAbstractFile4.isNote)(child)) {
+            continue;
+          }
+          const relativePath = (0, import_Path7.relative)(oldAttachmentFolderPath, child.path);
+          const newDir = (0, import_Path7.join)(newAttachmentFolderPath, (0, import_Path7.dirname)(relativePath));
+          let newChildPath = (0, import_Path7.join)(newDir, child.name);
+          if (child.path !== newChildPath) {
+            newChildPath = this.app.vault.getAvailablePath((0, import_Path7.join)(newDir, child.basename), child.extension);
+            renameMap.set(child.path, newChildPath);
+          }
+        }
+      }
+      async processRename(oldPath, newPath, renameMap) {
+        let oldFile = null;
+        try {
+          oldFile = this.app.vault.getFileByPath(oldPath);
+          let newFile = this.app.vault.getFileByPath(newPath);
+          if (oldFile) {
+            await (0, import_Vault6.createFolderSafe)(this.app, (0, import_Path7.dirname)(newPath));
+            const oldFolder = oldFile.parent;
+            try {
+              if (newFile) {
+                try {
+                  await this.app.vault.delete(newFile);
+                } catch (e) {
+                  if (this.app.vault.getAbstractFileByPath(newPath)) {
+                    throw e;
+                  }
+                }
+              }
+              await this.app.vault.rename(oldFile, newPath);
+            } catch (e) {
+              if (!this.app.vault.getAbstractFileByPath(newPath) || this.app.vault.getAbstractFileByPath(oldPath)) {
+                throw e;
+              }
+            }
+            if (this.settingsBuilder().shouldDeleteEmptyFolders) {
+              await (0, import_Vault6.removeEmptyFolderHierarchy)(this.app, oldFolder);
+            }
+          }
+          oldFile = (0, import_implementations2.createTFileInstance)(this.app.vault, oldPath);
+          newFile = this.app.vault.getFileByPath(newPath);
+          if (!oldFile.deleted || !newFile) {
+            throw new Error(`Could not rename ${oldPath} to ${newPath}`);
+          }
+          const backlinks = await this.getBacklinks(oldFile, newFile);
+          for (const parentNotePath of backlinks.keys()) {
+            let parentNote = this.app.vault.getFileByPath(parentNotePath);
+            if (!parentNote) {
+              const newParentNotePath = renameMap.get(parentNotePath);
+              if (newParentNotePath) {
+                parentNote = this.app.vault.getFileByPath(newParentNotePath);
+              }
+            }
+            if (!parentNote) {
+              console.warn(`Parent note not found: ${parentNotePath}`);
+              continue;
+            }
+            await (0, import_Vault6.applyFileChanges)(this.app, parentNote, async () => {
+              if (!oldFile) {
+                return [];
+              }
+              const links = (await this.getBacklinks(oldFile, newFile)).get(parentNotePath) ?? [];
+              const changes = [];
+              for (const link of links) {
+                changes.push({
+                  startIndex: link.position.start.offset,
+                  endIndex: link.position.end.offset,
+                  oldContent: link.original,
+                  newContent: (0, import_Link2.updateLink)({
+                    app: this.app,
+                    link,
+                    pathOrFile: newFile,
+                    oldPathOrFile: oldPath,
+                    sourcePathOrFile: parentNote,
+                    renameMap
+                  })
+                });
+              }
+              return changes;
+            });
+          }
+          if ((0, import_TAbstractFile4.isCanvasFile)(newFile)) {
+            await (0, import_Vault6.processWithRetry)(this.app, newFile, (content) => {
+              const canvasData = JSON.parse(content);
+              for (const node of canvasData.nodes) {
+                if (node.type !== "file") {
+                  continue;
+                }
+                const newPath2 = renameMap.get(node.file);
+                if (!newPath2) {
+                  continue;
+                }
+                node.file = newPath2;
+              }
+              return (0, import_Object2.toJson)(canvasData);
+            });
+          } else if ((0, import_TAbstractFile4.isMarkdownFile)(newFile)) {
+            await (0, import_Link2.updateLinksInFile)({
+              app: this.app,
+              pathOrFile: newFile,
+              oldPathOrFile: oldPath,
+              renameMap
+            });
+          }
+        } finally {
+          this.renamingPaths.delete(oldPath);
+        }
+      }
+      async getBacklinks(oldFile, newFile) {
+        const backlinks = /* @__PURE__ */ new Map();
+        const oldLinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(this.app, oldFile);
+        for (const path of oldLinks.keys()) {
+          backlinks.set(path, oldLinks.get(path) ?? []);
+        }
+        if (!newFile) {
+          return backlinks;
+        }
+        const newLinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(this.app, newFile);
+        for (const path of newLinks.keys()) {
+          const links = backlinks.get(path) ?? [];
+          links.push(...newLinks.get(path) ?? []);
+          backlinks.set(path, links);
+        }
+        return backlinks;
+      }
+    };
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/DocumentFragment.cjs
+var require_DocumentFragment = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/DocumentFragment.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var DocumentFragment_exports = {};
+    __export2(DocumentFragment_exports, {
+      appendCodeBlock: () => appendCodeBlock3
+    });
+    module2.exports = __toCommonJS2(DocumentFragment_exports);
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function appendCodeBlock3(fragment, code) {
+      fragment.appendChild(createSpan({ cls: "markdown-rendered code" }, (span) => {
+        span.style.fontWeight = "bold";
+        span.appendChild(createEl("code", { text: code }));
+      }));
+    }
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Modal/Confirm.cjs
+var require_Confirm = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Modal/Confirm.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var Confirm_exports = {};
+    __export2(Confirm_exports, {
+      confirm: () => confirm2
+    });
+    module2.exports = __toCommonJS2(Confirm_exports);
+    var import_obsidian5 = require("obsidian");
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    async function confirm2(options) {
+      return new Promise((resolve) => {
+        const modal = new ConfirmModal(options, resolve);
+        modal.open();
+      });
+    }
+    var ConfirmModal = class extends import_obsidian5.Modal {
+      constructor(options, resolve) {
+        super(options.app);
+        this.resolve = resolve;
+        const DEFAULT_OPTIONS = {
+          app: options.app,
+          title: "",
+          message: "",
+          okButtonText: "OK",
+          cancelButtonText: "Cancel",
+          okButtonStyles: {
+            marginTop: "20px",
+            marginRight: "10px"
+          },
+          cancelButtonStyles: {}
+        };
+        this.options = { ...DEFAULT_OPTIONS, ...options };
+      }
+      options;
+      isConfirmed = false;
+      onOpen() {
+        this.titleEl.setText(this.options.title);
+        const paragraph = this.contentEl.createEl("p");
+        paragraph.setText(this.options.message);
+        const okButton = new import_obsidian5.ButtonComponent(this.contentEl);
+        okButton.setButtonText(this.options.okButtonText);
+        okButton.setCta();
+        okButton.onClick(() => {
+          this.isConfirmed = true;
+          this.close();
+        });
+        Object.assign(okButton.buttonEl.style, this.options.okButtonStyles);
+        const cancelButton = new import_obsidian5.ButtonComponent(this.contentEl);
+        cancelButton.setButtonText(this.options.cancelButtonText);
+        cancelButton.onClick(this.close.bind(this));
+        Object.assign(okButton.buttonEl.style, this.options.okButtonStyles);
+      }
+      onClose() {
+        this.resolve(this.isConfirmed);
+      }
+    };
+  }
+});
+
 // node_modules/moment/moment.js
 var require_moment = __commonJS({
   "node_modules/moment/moment.js"(exports2, module2) {
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -1409,18 +3190,21 @@ var require_moment = __commonJS({
         };
       }
       function isValid(m) {
-        if (m._isValid == null) {
-          var flags = getParsingFlags(m), parsedParts = some.call(flags.parsedDateParts, function(i) {
+        var flags = null, parsedParts = false, isNowValid = m._d && !isNaN(m._d.getTime());
+        if (isNowValid) {
+          flags = getParsingFlags(m);
+          parsedParts = some.call(flags.parsedDateParts, function(i) {
             return i != null;
-          }), isNowValid = !isNaN(m._d.getTime()) && flags.overflow < 0 && !flags.empty && !flags.invalidEra && !flags.invalidMonth && !flags.invalidWeekday && !flags.weekdayMismatch && !flags.nullInput && !flags.invalidFormat && !flags.userInvalidated && (!flags.meridiem || flags.meridiem && parsedParts);
+          });
+          isNowValid = flags.overflow < 0 && !flags.empty && !flags.invalidEra && !flags.invalidMonth && !flags.invalidWeekday && !flags.weekdayMismatch && !flags.nullInput && !flags.invalidFormat && !flags.userInvalidated && (!flags.meridiem || flags.meridiem && parsedParts);
           if (m._strict) {
             isNowValid = isNowValid && flags.charsLeftOver === 0 && flags.unusedTokens.length === 0 && flags.bigHour === void 0;
           }
-          if (Object.isFrozen == null || !Object.isFrozen(m)) {
-            m._isValid = isNowValid;
-          } else {
-            return isNowValid;
-          }
+        }
+        if (Object.isFrozen == null || !Object.isFrozen(m)) {
+          m._isValid = isNowValid;
+        } else {
+          return isNowValid;
         }
         return m._isValid;
       }
@@ -1744,11 +3528,56 @@ var require_moment = __commonJS({
         var format2 = this._relativeTime[diff2 > 0 ? "future" : "past"];
         return isFunction(format2) ? format2(output) : format2.replace(/%s/i, output);
       }
-      var aliases = {};
-      function addUnitAlias(unit, shorthand) {
-        var lowerCase = unit.toLowerCase();
-        aliases[lowerCase] = aliases[lowerCase + "s"] = aliases[shorthand] = unit;
-      }
+      var aliases = {
+        D: "date",
+        dates: "date",
+        date: "date",
+        d: "day",
+        days: "day",
+        day: "day",
+        e: "weekday",
+        weekdays: "weekday",
+        weekday: "weekday",
+        E: "isoWeekday",
+        isoweekdays: "isoWeekday",
+        isoweekday: "isoWeekday",
+        DDD: "dayOfYear",
+        dayofyears: "dayOfYear",
+        dayofyear: "dayOfYear",
+        h: "hour",
+        hours: "hour",
+        hour: "hour",
+        ms: "millisecond",
+        milliseconds: "millisecond",
+        millisecond: "millisecond",
+        m: "minute",
+        minutes: "minute",
+        minute: "minute",
+        M: "month",
+        months: "month",
+        month: "month",
+        Q: "quarter",
+        quarters: "quarter",
+        quarter: "quarter",
+        s: "second",
+        seconds: "second",
+        second: "second",
+        gg: "weekYear",
+        weekyears: "weekYear",
+        weekyear: "weekYear",
+        GG: "isoWeekYear",
+        isoweekyears: "isoWeekYear",
+        isoweekyear: "isoWeekYear",
+        w: "week",
+        weeks: "week",
+        week: "week",
+        W: "isoWeek",
+        isoweeks: "isoWeek",
+        isoweek: "isoWeek",
+        y: "year",
+        years: "year",
+        year: "year"
+      };
       function normalizeUnits(units) {
         return typeof units === "string" ? aliases[units] || aliases[units.toLowerCase()] : void 0;
       }
@@ -1764,10 +3593,24 @@ var require_moment = __commonJS({
         }
         return normalizedInput;
       }
-      var priorities = {};
-      function addUnitPriority(unit, priority) {
-        priorities[unit] = priority;
-      }
+      var priorities = {
+        date: 9,
+        day: 11,
+        weekday: 11,
+        isoWeekday: 11,
+        dayOfYear: 4,
+        hour: 13,
+        millisecond: 16,
+        minute: 14,
+        month: 8,
+        quarter: 7,
+        second: 15,
+        weekYear: 1,
+        isoWeekYear: 1,
+        week: 5,
+        isoWeek: 5,
+        year: 1
+      };
       function getPrioritizedUnits(unitsObj) {
         var units = [], u;
         for (u in unitsObj) {
@@ -1780,74 +3623,7 @@ var require_moment = __commonJS({
         });
         return units;
       }
-      function isLeapYear(year) {
-        return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
-      }
-      function absFloor(number) {
-        if (number < 0) {
-          return Math.ceil(number) || 0;
-        } else {
-          return Math.floor(number);
-        }
-      }
-      function toInt(argumentForCoercion) {
-        var coercedNumber = +argumentForCoercion, value = 0;
-        if (coercedNumber !== 0 && isFinite(coercedNumber)) {
-          value = absFloor(coercedNumber);
-        }
-        return value;
-      }
-      function makeGetSet(unit, keepTime) {
-        return function(value) {
-          if (value != null) {
-            set$1(this, unit, value);
-            hooks.updateOffset(this, keepTime);
-            return this;
-          } else {
-            return get(this, unit);
-          }
-        };
-      }
-      function get(mom, unit) {
-        return mom.isValid() ? mom._d["get" + (mom._isUTC ? "UTC" : "") + unit]() : NaN;
-      }
-      function set$1(mom, unit, value) {
-        if (mom.isValid() && !isNaN(value)) {
-          if (unit === "FullYear" && isLeapYear(mom.year()) && mom.month() === 1 && mom.date() === 29) {
-            value = toInt(value);
-            mom._d["set" + (mom._isUTC ? "UTC" : "") + unit](
-              value,
-              mom.month(),
-              daysInMonth(value, mom.month())
-            );
-          } else {
-            mom._d["set" + (mom._isUTC ? "UTC" : "") + unit](value);
-          }
-        }
-      }
-      function stringGet(units) {
-        units = normalizeUnits(units);
-        if (isFunction(this[units])) {
-          return this[units]();
-        }
-        return this;
-      }
-      function stringSet(units, value) {
-        if (typeof units === "object") {
-          units = normalizeObjectUnits(units);
-          var prioritized = getPrioritizedUnits(units), i, prioritizedLen = prioritized.length;
-          for (i = 0; i < prioritizedLen; i++) {
-            this[prioritized[i].unit](units[prioritized[i].unit]);
-          }
-        } else {
-          units = normalizeUnits(units);
-          if (isFunction(this[units])) {
-            return this[units](value);
-          }
-        }
-        return this;
-      }
-      var match1 = /\d/, match2 = /\d\d/, match3 = /\d{3}/, match4 = /\d{4}/, match6 = /[+-]?\d{6}/, match1to2 = /\d\d?/, match3to4 = /\d\d\d\d?/, match5to6 = /\d\d\d\d\d\d?/, match1to3 = /\d{1,3}/, match1to4 = /\d{1,4}/, match1to6 = /[+-]?\d{1,6}/, matchUnsigned = /\d+/, matchSigned = /[+-]?\d+/, matchOffset = /Z|[+-]\d\d:?\d\d/gi, matchShortOffset = /Z|[+-]\d\d(?::?\d\d)?/gi, matchTimestamp = /[+-]?\d+(\.\d{1,3})?/, matchWord = /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i, regexes;
+      var match1 = /\d/, match2 = /\d\d/, match3 = /\d{3}/, match4 = /\d{4}/, match6 = /[+-]?\d{6}/, match1to2 = /\d\d?/, match3to4 = /\d\d\d\d?/, match5to6 = /\d\d\d\d\d\d?/, match1to3 = /\d{1,3}/, match1to4 = /\d{1,4}/, match1to6 = /[+-]?\d{1,6}/, matchUnsigned = /\d+/, matchSigned = /[+-]?\d+/, matchOffset = /Z|[+-]\d\d:?\d\d/gi, matchShortOffset = /Z|[+-]\d\d(?::?\d\d)?/gi, matchTimestamp = /[+-]?\d+(\.\d{1,3})?/, matchWord = /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i, match1to2NoLeadingZero = /^[1-9]\d?/, match1to2HasZero = /^([1-9]\d|\d)/, regexes;
       regexes = {};
       function addRegexToken(token2, regex, strictRegex) {
         regexes[token2] = isFunction(regex) ? regex : function(isStrict, localeData2) {
@@ -1872,6 +3648,20 @@ var require_moment = __commonJS({
       }
       function regexEscape(s) {
         return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+      }
+      function absFloor(number) {
+        if (number < 0) {
+          return Math.ceil(number) || 0;
+        } else {
+          return Math.floor(number);
+        }
+      }
+      function toInt(argumentForCoercion) {
+        var coercedNumber = +argumentForCoercion, value = 0;
+        if (coercedNumber !== 0 && isFinite(coercedNumber)) {
+          value = absFloor(coercedNumber);
+        }
+        return value;
       }
       var tokens = {};
       function addParseToken(token2, callback) {
@@ -1900,7 +3690,138 @@ var require_moment = __commonJS({
           tokens[token2](input, config._a, config, token2);
         }
       }
+      function isLeapYear(year) {
+        return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
+      }
       var YEAR = 0, MONTH = 1, DATE = 2, HOUR = 3, MINUTE = 4, SECOND = 5, MILLISECOND = 6, WEEK = 7, WEEKDAY = 8;
+      addFormatToken("Y", 0, 0, function() {
+        var y = this.year();
+        return y <= 9999 ? zeroFill(y, 4) : "+" + y;
+      });
+      addFormatToken(0, ["YY", 2], 0, function() {
+        return this.year() % 100;
+      });
+      addFormatToken(0, ["YYYY", 4], 0, "year");
+      addFormatToken(0, ["YYYYY", 5], 0, "year");
+      addFormatToken(0, ["YYYYYY", 6, true], 0, "year");
+      addRegexToken("Y", matchSigned);
+      addRegexToken("YY", match1to2, match2);
+      addRegexToken("YYYY", match1to4, match4);
+      addRegexToken("YYYYY", match1to6, match6);
+      addRegexToken("YYYYYY", match1to6, match6);
+      addParseToken(["YYYYY", "YYYYYY"], YEAR);
+      addParseToken("YYYY", function(input, array) {
+        array[YEAR] = input.length === 2 ? hooks.parseTwoDigitYear(input) : toInt(input);
+      });
+      addParseToken("YY", function(input, array) {
+        array[YEAR] = hooks.parseTwoDigitYear(input);
+      });
+      addParseToken("Y", function(input, array) {
+        array[YEAR] = parseInt(input, 10);
+      });
+      function daysInYear(year) {
+        return isLeapYear(year) ? 366 : 365;
+      }
+      hooks.parseTwoDigitYear = function(input) {
+        return toInt(input) + (toInt(input) > 68 ? 1900 : 2e3);
+      };
+      var getSetYear = makeGetSet("FullYear", true);
+      function getIsLeapYear() {
+        return isLeapYear(this.year());
+      }
+      function makeGetSet(unit, keepTime) {
+        return function(value) {
+          if (value != null) {
+            set$1(this, unit, value);
+            hooks.updateOffset(this, keepTime);
+            return this;
+          } else {
+            return get(this, unit);
+          }
+        };
+      }
+      function get(mom, unit) {
+        if (!mom.isValid()) {
+          return NaN;
+        }
+        var d = mom._d, isUTC = mom._isUTC;
+        switch (unit) {
+          case "Milliseconds":
+            return isUTC ? d.getUTCMilliseconds() : d.getMilliseconds();
+          case "Seconds":
+            return isUTC ? d.getUTCSeconds() : d.getSeconds();
+          case "Minutes":
+            return isUTC ? d.getUTCMinutes() : d.getMinutes();
+          case "Hours":
+            return isUTC ? d.getUTCHours() : d.getHours();
+          case "Date":
+            return isUTC ? d.getUTCDate() : d.getDate();
+          case "Day":
+            return isUTC ? d.getUTCDay() : d.getDay();
+          case "Month":
+            return isUTC ? d.getUTCMonth() : d.getMonth();
+          case "FullYear":
+            return isUTC ? d.getUTCFullYear() : d.getFullYear();
+          default:
+            return NaN;
+        }
+      }
+      function set$1(mom, unit, value) {
+        var d, isUTC, year, month, date;
+        if (!mom.isValid() || isNaN(value)) {
+          return;
+        }
+        d = mom._d;
+        isUTC = mom._isUTC;
+        switch (unit) {
+          case "Milliseconds":
+            return void (isUTC ? d.setUTCMilliseconds(value) : d.setMilliseconds(value));
+          case "Seconds":
+            return void (isUTC ? d.setUTCSeconds(value) : d.setSeconds(value));
+          case "Minutes":
+            return void (isUTC ? d.setUTCMinutes(value) : d.setMinutes(value));
+          case "Hours":
+            return void (isUTC ? d.setUTCHours(value) : d.setHours(value));
+          case "Date":
+            return void (isUTC ? d.setUTCDate(value) : d.setDate(value));
+          // case 'Day': // Not real
+          //    return void (isUTC ? d.setUTCDay(value) : d.setDay(value));
+          // case 'Month': // Not used because we need to pass two variables
+          //     return void (isUTC ? d.setUTCMonth(value) : d.setMonth(value));
+          case "FullYear":
+            break;
+          // See below ...
+          default:
+            return;
+        }
+        year = value;
+        month = mom.month();
+        date = mom.date();
+        date = date === 29 && month === 1 && !isLeapYear(year) ? 28 : date;
+        void (isUTC ? d.setUTCFullYear(year, month, date) : d.setFullYear(year, month, date));
+      }
+      function stringGet(units) {
+        units = normalizeUnits(units);
+        if (isFunction(this[units])) {
+          return this[units]();
+        }
+        return this;
+      }
+      function stringSet(units, value) {
+        if (typeof units === "object") {
+          units = normalizeObjectUnits(units);
+          var prioritized = getPrioritizedUnits(units), i, prioritizedLen = prioritized.length;
+          for (i = 0; i < prioritizedLen; i++) {
+            this[prioritized[i].unit](units[prioritized[i].unit]);
+          }
+        } else {
+          units = normalizeUnits(units);
+          if (isFunction(this[units])) {
+            return this[units](value);
+          }
+        }
+        return this;
+      }
       function mod(n, x) {
         return (n % x + x) % x;
       }
@@ -1935,9 +3856,7 @@ var require_moment = __commonJS({
       addFormatToken("MMMM", 0, 0, function(format2) {
         return this.localeData().months(this, format2);
       });
-      addUnitAlias("month", "M");
-      addUnitPriority("month", 8);
-      addRegexToken("M", match1to2);
+      addRegexToken("M", match1to2, match1to2NoLeadingZero);
       addRegexToken("MM", match1to2, match2);
       addRegexToken("MMM", function(isStrict, locale2) {
         return locale2.monthsShortRegex(isStrict);
@@ -2048,7 +3967,6 @@ var require_moment = __commonJS({
         }
       }
       function setMonth(mom, value) {
-        var dayOfMonth;
         if (!mom.isValid()) {
           return mom;
         }
@@ -2062,8 +3980,9 @@ var require_moment = __commonJS({
             }
           }
         }
-        dayOfMonth = Math.min(mom.date(), daysInMonth(mom.year(), value));
-        mom._d["set" + (mom._isUTC ? "UTC" : "") + "Month"](value, dayOfMonth);
+        var month = value, date = mom.date();
+        date = date < 29 ? date : Math.min(date, daysInMonth(mom.year(), month));
+        void (mom._isUTC ? mom._d.setUTCMonth(month, date) : mom._d.setMonth(month, date));
         return mom;
       }
       function getSetMonth(value) {
@@ -2116,24 +4035,19 @@ var require_moment = __commonJS({
         function cmpLenRev(a, b) {
           return b.length - a.length;
         }
-        var shortPieces = [], longPieces = [], mixedPieces = [], i, mom;
+        var shortPieces = [], longPieces = [], mixedPieces = [], i, mom, shortP, longP;
         for (i = 0; i < 12; i++) {
           mom = createUTC([2e3, i]);
-          shortPieces.push(this.monthsShort(mom, ""));
-          longPieces.push(this.months(mom, ""));
-          mixedPieces.push(this.months(mom, ""));
-          mixedPieces.push(this.monthsShort(mom, ""));
+          shortP = regexEscape(this.monthsShort(mom, ""));
+          longP = regexEscape(this.months(mom, ""));
+          shortPieces.push(shortP);
+          longPieces.push(longP);
+          mixedPieces.push(longP);
+          mixedPieces.push(shortP);
         }
         shortPieces.sort(cmpLenRev);
         longPieces.sort(cmpLenRev);
         mixedPieces.sort(cmpLenRev);
-        for (i = 0; i < 12; i++) {
-          shortPieces[i] = regexEscape(shortPieces[i]);
-          longPieces[i] = regexEscape(longPieces[i]);
-        }
-        for (i = 0; i < 24; i++) {
-          mixedPieces[i] = regexEscape(mixedPieces[i]);
-        }
         this._monthsRegex = new RegExp("^(" + mixedPieces.join("|") + ")", "i");
         this._monthsShortRegex = this._monthsRegex;
         this._monthsStrictRegex = new RegExp(
@@ -2144,43 +4058,6 @@ var require_moment = __commonJS({
           "^(" + shortPieces.join("|") + ")",
           "i"
         );
-      }
-      addFormatToken("Y", 0, 0, function() {
-        var y = this.year();
-        return y <= 9999 ? zeroFill(y, 4) : "+" + y;
-      });
-      addFormatToken(0, ["YY", 2], 0, function() {
-        return this.year() % 100;
-      });
-      addFormatToken(0, ["YYYY", 4], 0, "year");
-      addFormatToken(0, ["YYYYY", 5], 0, "year");
-      addFormatToken(0, ["YYYYYY", 6, true], 0, "year");
-      addUnitAlias("year", "y");
-      addUnitPriority("year", 1);
-      addRegexToken("Y", matchSigned);
-      addRegexToken("YY", match1to2, match2);
-      addRegexToken("YYYY", match1to4, match4);
-      addRegexToken("YYYYY", match1to6, match6);
-      addRegexToken("YYYYYY", match1to6, match6);
-      addParseToken(["YYYYY", "YYYYYY"], YEAR);
-      addParseToken("YYYY", function(input, array) {
-        array[YEAR] = input.length === 2 ? hooks.parseTwoDigitYear(input) : toInt(input);
-      });
-      addParseToken("YY", function(input, array) {
-        array[YEAR] = hooks.parseTwoDigitYear(input);
-      });
-      addParseToken("Y", function(input, array) {
-        array[YEAR] = parseInt(input, 10);
-      });
-      function daysInYear(year) {
-        return isLeapYear(year) ? 366 : 365;
-      }
-      hooks.parseTwoDigitYear = function(input) {
-        return toInt(input) + (toInt(input) > 68 ? 1900 : 2e3);
-      };
-      var getSetYear = makeGetSet("FullYear", true);
-      function getIsLeapYear() {
-        return isLeapYear(this.year());
       }
       function createDate(y, m, d, h, M, s, ms) {
         var date;
@@ -2252,13 +4129,9 @@ var require_moment = __commonJS({
       }
       addFormatToken("w", ["ww", 2], "wo", "week");
       addFormatToken("W", ["WW", 2], "Wo", "isoWeek");
-      addUnitAlias("week", "w");
-      addUnitAlias("isoWeek", "W");
-      addUnitPriority("week", 5);
-      addUnitPriority("isoWeek", 5);
-      addRegexToken("w", match1to2);
+      addRegexToken("w", match1to2, match1to2NoLeadingZero);
       addRegexToken("ww", match1to2, match2);
-      addRegexToken("W", match1to2);
+      addRegexToken("W", match1to2, match1to2NoLeadingZero);
       addRegexToken("WW", match1to2, match2);
       addWeekParseToken(
         ["w", "ww", "W", "WW"],
@@ -2301,12 +4174,6 @@ var require_moment = __commonJS({
       });
       addFormatToken("e", 0, 0, "weekday");
       addFormatToken("E", 0, 0, "isoWeekday");
-      addUnitAlias("day", "d");
-      addUnitAlias("weekday", "e");
-      addUnitAlias("isoWeekday", "E");
-      addUnitPriority("day", 11);
-      addUnitPriority("weekday", 11);
-      addUnitPriority("isoWeekday", 11);
       addRegexToken("d", match1to2);
       addRegexToken("e", match1to2);
       addRegexToken("E", match1to2);
@@ -2476,7 +4343,7 @@ var require_moment = __commonJS({
         if (!this.isValid()) {
           return input != null ? this : NaN;
         }
-        var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
+        var day = get(this, "Day");
         if (input != null) {
           input = parseWeekday(input, this.localeData());
           return this.add(input - day, "d");
@@ -2622,16 +4489,14 @@ var require_moment = __commonJS({
       }
       meridiem("a", true);
       meridiem("A", false);
-      addUnitAlias("hour", "h");
-      addUnitPriority("hour", 13);
       function matchMeridiem(isStrict, locale2) {
         return locale2._meridiemParse;
       }
       addRegexToken("a", matchMeridiem);
       addRegexToken("A", matchMeridiem);
-      addRegexToken("H", match1to2);
-      addRegexToken("h", match1to2);
-      addRegexToken("k", match1to2);
+      addRegexToken("H", match1to2, match1to2HasZero);
+      addRegexToken("h", match1to2, match1to2NoLeadingZero);
+      addRegexToken("k", match1to2, match1to2NoLeadingZero);
       addRegexToken("HH", match1to2, match2);
       addRegexToken("hh", match1to2, match2);
       addRegexToken("kk", match1to2, match2);
@@ -2737,7 +4602,7 @@ var require_moment = __commonJS({
         return globalLocale;
       }
       function isLocaleNameSane(name) {
-        return name.match("^[^/\\\\]*$") != null;
+        return !!(name && name.match("^[^/\\\\]*$"));
       }
       function loadLocale(name) {
         var oldLocale = null, aliasedRequire;
@@ -3952,18 +5817,23 @@ var require_moment = __commonJS({
           case "second":
             output = (this - that) / 1e3;
             break;
+          // 1000
           case "minute":
             output = (this - that) / 6e4;
             break;
+          // 1000 * 60
           case "hour":
             output = (this - that) / 36e5;
             break;
+          // 1000 * 60 * 60
           case "day":
             output = (this - that - zoneDelta) / 864e5;
             break;
+          // 1000 * 60 * 60 * 24, negate dst
           case "week":
             output = (this - that - zoneDelta) / 6048e5;
             break;
+          // 1000 * 60 * 60 * 24 * 7, negate dst
           default:
             output = this - that;
         }
@@ -4452,14 +6322,17 @@ var require_moment = __commonJS({
         return locale2._eraYearOrdinalRegex || matchUnsigned;
       }
       function computeErasParse() {
-        var abbrPieces = [], namePieces = [], narrowPieces = [], mixedPieces = [], i, l, eras = this.eras();
+        var abbrPieces = [], namePieces = [], narrowPieces = [], mixedPieces = [], i, l, erasName, erasAbbr, erasNarrow, eras = this.eras();
         for (i = 0, l = eras.length; i < l; ++i) {
-          namePieces.push(regexEscape(eras[i].name));
-          abbrPieces.push(regexEscape(eras[i].abbr));
-          narrowPieces.push(regexEscape(eras[i].narrow));
-          mixedPieces.push(regexEscape(eras[i].name));
-          mixedPieces.push(regexEscape(eras[i].abbr));
-          mixedPieces.push(regexEscape(eras[i].narrow));
+          erasName = regexEscape(eras[i].name);
+          erasAbbr = regexEscape(eras[i].abbr);
+          erasNarrow = regexEscape(eras[i].narrow);
+          namePieces.push(erasName);
+          abbrPieces.push(erasAbbr);
+          narrowPieces.push(erasNarrow);
+          mixedPieces.push(erasName);
+          mixedPieces.push(erasAbbr);
+          mixedPieces.push(erasNarrow);
         }
         this._erasRegex = new RegExp("^(" + mixedPieces.join("|") + ")", "i");
         this._erasNameRegex = new RegExp("^(" + namePieces.join("|") + ")", "i");
@@ -4482,10 +6355,6 @@ var require_moment = __commonJS({
       addWeekYearFormatToken("ggggg", "weekYear");
       addWeekYearFormatToken("GGGG", "isoWeekYear");
       addWeekYearFormatToken("GGGGG", "isoWeekYear");
-      addUnitAlias("weekYear", "gg");
-      addUnitAlias("isoWeekYear", "GG");
-      addUnitPriority("weekYear", 1);
-      addUnitPriority("isoWeekYear", 1);
       addRegexToken("G", matchSigned);
       addRegexToken("g", matchSigned);
       addRegexToken("GG", match1to2, match2);
@@ -4508,7 +6377,7 @@ var require_moment = __commonJS({
           this,
           input,
           this.week(),
-          this.weekday(),
+          this.weekday() + this.localeData()._week.dow,
           this.localeData()._week.dow,
           this.localeData()._week.doy
         );
@@ -4557,8 +6426,6 @@ var require_moment = __commonJS({
         return this;
       }
       addFormatToken("Q", 0, "Qo", "quarter");
-      addUnitAlias("quarter", "Q");
-      addUnitPriority("quarter", 7);
       addRegexToken("Q", match1);
       addParseToken("Q", function(input, array) {
         array[MONTH] = (toInt(input) - 1) * 3;
@@ -4567,9 +6434,7 @@ var require_moment = __commonJS({
         return input == null ? Math.ceil((this.month() + 1) / 3) : this.month((input - 1) * 3 + this.month() % 3);
       }
       addFormatToken("D", ["DD", 2], "Do", "date");
-      addUnitAlias("date", "D");
-      addUnitPriority("date", 9);
-      addRegexToken("D", match1to2);
+      addRegexToken("D", match1to2, match1to2NoLeadingZero);
       addRegexToken("DD", match1to2, match2);
       addRegexToken("Do", function(isStrict, locale2) {
         return isStrict ? locale2._dayOfMonthOrdinalParse || locale2._ordinalParse : locale2._dayOfMonthOrdinalParseLenient;
@@ -4580,8 +6445,6 @@ var require_moment = __commonJS({
       });
       var getSetDayOfMonth = makeGetSet("Date", true);
       addFormatToken("DDD", ["DDDD", 3], "DDDo", "dayOfYear");
-      addUnitAlias("dayOfYear", "DDD");
-      addUnitPriority("dayOfYear", 4);
       addRegexToken("DDD", match1to3);
       addRegexToken("DDDD", match3);
       addParseToken(["DDD", "DDDD"], function(input, array, config) {
@@ -4594,16 +6457,12 @@ var require_moment = __commonJS({
         return input == null ? dayOfYear : this.add(input - dayOfYear, "d");
       }
       addFormatToken("m", ["mm", 2], 0, "minute");
-      addUnitAlias("minute", "m");
-      addUnitPriority("minute", 14);
-      addRegexToken("m", match1to2);
+      addRegexToken("m", match1to2, match1to2HasZero);
       addRegexToken("mm", match1to2, match2);
       addParseToken(["m", "mm"], MINUTE);
       var getSetMinute = makeGetSet("Minutes", false);
       addFormatToken("s", ["ss", 2], 0, "second");
-      addUnitAlias("second", "s");
-      addUnitPriority("second", 15);
-      addRegexToken("s", match1to2);
+      addRegexToken("s", match1to2, match1to2HasZero);
       addRegexToken("ss", match1to2, match2);
       addParseToken(["s", "ss"], SECOND);
       var getSetSecond = makeGetSet("Seconds", false);
@@ -4632,8 +6491,6 @@ var require_moment = __commonJS({
       addFormatToken(0, ["SSSSSSSSS", 9], 0, function() {
         return this.millisecond() * 1e6;
       });
-      addUnitAlias("millisecond", "ms");
-      addUnitPriority("millisecond", 16);
       addRegexToken("S", match1to3, match1);
       addRegexToken("SS", match1to3, match2);
       addRegexToken("SSS", match1to3, match3);
@@ -4988,6 +6845,7 @@ var require_moment = __commonJS({
               return days2 * 1440 + milliseconds2 / 6e4;
             case "second":
               return days2 * 86400 + milliseconds2 / 1e3;
+            // Math.floor prevents floating point math errors here
             case "millisecond":
               return Math.floor(days2 * 864e5) + milliseconds2;
             default:
@@ -4995,18 +6853,12 @@ var require_moment = __commonJS({
           }
         }
       }
-      function valueOf$1() {
-        if (!this.isValid()) {
-          return NaN;
-        }
-        return this._milliseconds + this._days * 864e5 + this._months % 12 * 2592e6 + toInt(this._months / 12) * 31536e6;
-      }
       function makeAs(alias) {
         return function() {
           return this.as(alias);
         };
       }
-      var asMilliseconds = makeAs("ms"), asSeconds = makeAs("s"), asMinutes = makeAs("m"), asHours = makeAs("h"), asDays = makeAs("d"), asWeeks = makeAs("w"), asMonths = makeAs("M"), asQuarters = makeAs("Q"), asYears = makeAs("y");
+      var asMilliseconds = makeAs("ms"), asSeconds = makeAs("s"), asMinutes = makeAs("m"), asHours = makeAs("h"), asDays = makeAs("d"), asWeeks = makeAs("w"), asMonths = makeAs("M"), asQuarters = makeAs("Q"), asYears = makeAs("y"), valueOf$1 = asMilliseconds;
       function clone$1() {
         return createDuration(this);
       }
@@ -5174,7 +7026,7 @@ var require_moment = __commonJS({
       addParseToken("x", function(input, array, config) {
         config._d = new Date(toInt(input));
       });
-      hooks.version = "2.29.4";
+      hooks.version = "2.30.1";
       setHookCallback(createLocal);
       hooks.fn = proto;
       hooks.min = min;
@@ -5254,427 +7106,100 @@ var require_Prompt = __commonJS({
       prompt: () => prompt2
     });
     module2.exports = __toCommonJS2(Prompt_exports);
-    var import_obsidian6 = require("obsidian");
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var import_obsidian5 = require("obsidian");
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
     };
     async function prompt2(options) {
-      const {
-        app,
-        title,
-        defaultValue,
-        valueValidator
-      } = options;
       return new Promise((resolve) => {
-        class PromptModal extends import_obsidian6.Modal {
-          value = "";
-          isCancelled = true;
-          constructor() {
-            super(app);
-          }
-          onOpen() {
-            this.value = defaultValue ?? "";
-            this.titleEl.setText(title ?? "");
-            const textComponent = new import_obsidian6.TextComponent(this.contentEl);
-            textComponent.setValue(this.value);
-            textComponent.setPlaceholder(this.value);
-            textComponent.inputEl.style.width = "100%";
-            textComponent.onChange((value) => this.value = value);
-            textComponent.inputEl.addEventListener("keydown", (event) => {
-              if (event.key === "Enter") {
-                this.handleOk(event, textComponent);
-              } else if (event.key === "Escape") {
-                this.close();
-              }
-            });
-            if (valueValidator) {
-              textComponent.inputEl.addEventListener("input", () => {
-                const errorMessage = valueValidator(textComponent.inputEl.value);
-                textComponent.inputEl.setCustomValidity(errorMessage ?? "");
-                textComponent.inputEl.reportValidity();
-              });
-            }
-            const okButton = new import_obsidian6.ButtonComponent(this.contentEl);
-            okButton.setButtonText("OK");
-            okButton.setClass("mod-cta");
-            okButton.onClick((event) => this.handleOk(event, textComponent));
-            okButton.buttonEl.style.marginTop = "20px";
-            okButton.buttonEl.style.marginRight = "10px";
-            const cancelButton = new import_obsidian6.ButtonComponent(this.contentEl);
-            cancelButton.setButtonText("Cancel");
-            cancelButton.onClick(this.close.bind(this));
-          }
-          onClose() {
-            resolve(this.isCancelled ? null : this.value);
-          }
-          handleOk(event, textComponent) {
-            event.preventDefault();
-            if (!textComponent.inputEl.checkValidity()) {
-              return;
-            }
-            this.isCancelled = false;
-            this.close();
-          }
-        }
-        const modal = new PromptModal();
+        const modal = new PromptModal(options, resolve);
         modal.open();
       });
     }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/Object.cjs
-var require_Object = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/Object.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+    var PromptModal = class extends import_obsidian5.Modal {
+      constructor(options, resolve) {
+        super(options.app);
+        this.resolve = resolve;
+        const DEFAULT_OPTIONS = {
+          app: options.app,
+          title: "",
+          defaultValue: "",
+          valueValidator: () => null,
+          okButtonText: "OK",
+          cancelButtonText: "Cancel",
+          textBoxStyles: {
+            width: "100%"
+          },
+          okButtonStyles: {
+            marginTop: "20px",
+            marginRight: "10px"
+          },
+          cancelButtonStyles: {},
+          placeholder: ""
+        };
+        this.options = { ...DEFAULT_OPTIONS, ...options };
+        this.value = options.defaultValue ?? "";
       }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var Object_exports = {};
-    __export2(Object_exports, {
-      deepEqual: () => deepEqual,
-      getPrototypeOf: () => getPrototypeOf,
-      nameof: () => nameof
-    });
-    module2.exports = __toCommonJS2(Object_exports);
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function deepEqual(a, b) {
-      if (a === b) {
-        return true;
+      value;
+      isOkClicked = false;
+      options;
+      onOpen() {
+        this.titleEl.setText(this.options.title);
+        const textComponent = new import_obsidian5.TextComponent(this.contentEl);
+        textComponent.setValue(this.value);
+        textComponent.setPlaceholder(this.options.placeholder);
+        Object.assign(textComponent.inputEl.style, this.options.textBoxStyles);
+        textComponent.onChange((newValue) => this.value = newValue);
+        textComponent.inputEl.addEventListener("keydown", (event) => {
+          if (event.key === "Enter") {
+            this.handleOk(event, textComponent);
+          } else if (event.key === "Escape") {
+            this.close();
+          }
+        });
+        textComponent.inputEl.addEventListener("input", () => {
+          const errorMessage = this.options.valueValidator(textComponent.inputEl.value);
+          textComponent.inputEl.setCustomValidity(errorMessage ?? "");
+          textComponent.inputEl.reportValidity();
+        });
+        const okButton = new import_obsidian5.ButtonComponent(this.contentEl);
+        okButton.setButtonText(this.options.okButtonText);
+        okButton.setCta();
+        okButton.onClick((event) => {
+          this.handleOk(event, textComponent);
+        });
+        Object.assign(okButton.buttonEl.style, this.options.okButtonStyles);
+        const cancelButton = new import_obsidian5.ButtonComponent(this.contentEl);
+        cancelButton.setButtonText(this.options.cancelButtonText);
+        cancelButton.onClick(this.close.bind(this));
+        Object.assign(cancelButton.buttonEl.style, this.options.cancelButtonStyles);
       }
-      if (typeof a !== "object" || typeof b !== "object" || a === null || b === null || a === void 0 || b === void 0) {
-        return false;
+      onClose() {
+        this.resolve(this.isOkClicked ? this.value : null);
       }
-      const keysA = Object.keys(a);
-      const keysB = Object.keys(b);
-      if (keysA.length !== keysB.length) {
-        return false;
-      }
-      const aRecord = a;
-      const bRecord = b;
-      for (const key of keysA) {
-        if (!keysB.includes(key) || !deepEqual(aRecord[key], bRecord[key])) {
-          return false;
-        }
-      }
-      return true;
-    }
-    function nameof(name) {
-      return name;
-    }
-    function getPrototypeOf(instance) {
-      return Object.getPrototypeOf(instance);
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/TAbstractFile.cjs
-var require_TAbstractFile = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/TAbstractFile.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var TAbstractFile_exports = {};
-    __export2(TAbstractFile_exports, {
-      CANVAS_FILE_EXTENSION: () => CANVAS_FILE_EXTENSION,
-      MARKDOWN_FILE_EXTENSION: () => MARKDOWN_FILE_EXTENSION,
-      checkExtension: () => checkExtension,
-      getAbstractFile: () => getAbstractFile,
-      getAbstractFileOrNull: () => getAbstractFileOrNull,
-      getPath: () => getPath,
-      isCanvasFile: () => isCanvasFile2,
-      isFile: () => isFile,
-      isFolder: () => isFolder,
-      isMarkdownFile: () => isMarkdownFile2,
-      isNote: () => isNote5,
-      trimMarkdownExtension: () => trimMarkdownExtension
-    });
-    module2.exports = __toCommonJS2(TAbstractFile_exports);
-    var import_obsidian6 = require("obsidian");
-    var import_String = require_String();
-    var import_Path8 = require_Path();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    var MARKDOWN_FILE_EXTENSION = "md";
-    var CANVAS_FILE_EXTENSION = "canvas";
-    function getAbstractFile(app, pathOrFile) {
-      const file = getAbstractFileOrNull(app, pathOrFile);
-      if (!file) {
-        throw new Error(`Abstract file not found: ${pathOrFile}`);
-      }
-      return file;
-    }
-    function getAbstractFileOrNull(app, pathOrFile) {
-      return pathOrFile instanceof import_obsidian6.TAbstractFile ? pathOrFile : app.vault.getAbstractFileByPath(pathOrFile);
-    }
-    function isNote5(file) {
-      return isMarkdownFile2(file) || isCanvasFile2(file);
-    }
-    function isMarkdownFile2(pathOrFile) {
-      return checkExtension(pathOrFile, MARKDOWN_FILE_EXTENSION);
-    }
-    function isCanvasFile2(pathOrFile) {
-      return checkExtension(pathOrFile, CANVAS_FILE_EXTENSION);
-    }
-    function checkExtension(pathOrFile, extension) {
-      if (pathOrFile === null) {
-        return false;
-      }
-      return (0, import_Path8.extname)(getPath(pathOrFile)).toLowerCase().slice(1) === extension.toLowerCase();
-    }
-    function trimMarkdownExtension(file) {
-      if (!isMarkdownFile2(file)) {
-        return file.path;
-      }
-      return (0, import_String.trimEnd)(file.path, "." + MARKDOWN_FILE_EXTENSION);
-    }
-    function isFile(file) {
-      return file instanceof import_obsidian6.TFile;
-    }
-    function isFolder(file) {
-      return file instanceof import_obsidian6.TFolder;
-    }
-    function getPath(pathOrFile) {
-      return pathOrFile instanceof import_obsidian6.TAbstractFile ? pathOrFile.path : pathOrFile;
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/TFile.cjs
-var require_TFile = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/TFile.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var TFile_exports = {};
-    __export2(TFile_exports, {
-      getFile: () => getFile,
-      getFileOrNull: () => getFileOrNull
-    });
-    module2.exports = __toCommonJS2(TFile_exports);
-    var import_obsidian6 = require("obsidian");
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function getFile(app, pathOrFile) {
-      const file = getFileOrNull(app, pathOrFile);
-      if (!file) {
-        throw new Error(`File not found: ${pathOrFile}`);
-      }
-      return file;
-    }
-    function getFileOrNull(app, pathOrFile) {
-      return pathOrFile instanceof import_obsidian6.TFile ? pathOrFile : app.vault.getFileByPath(pathOrFile);
-    }
-  }
-});
-
-// node_modules/obsidian-typings/dist/implementations.cjs
-var require_implementations = __commonJS({
-  "node_modules/obsidian-typings/dist/implementations.cjs"(exports2, module2) {
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var implementations_exports = {};
-    __export2(implementations_exports, {
-      CustomArrayDictImpl: () => CustomArrayDictImpl,
-      InternalPluginName: () => InternalPluginName,
-      createTFileInstance: () => createTFileInstance2,
-      createTFolderInstance: () => createTFolderInstance,
-      parentFolderPath: () => parentFolderPath
-    });
-    module2.exports = __toCommonJS2(implementations_exports);
-    function parentFolderPath(path) {
-      return path.replace(/\/?[^\/]*$/, "") || "/";
-    }
-    var import_obsidian6 = require("obsidian");
-    function createTFolderInstance(vault, path) {
-      let folder = vault.getFolderByPath(path);
-      if (folder) {
-        return folder;
-      }
-      folder = new import_obsidian6.TFolder(vault, path);
-      folder.parent = createTFolderInstance(vault, parentFolderPath(path));
-      folder.deleted = true;
-      return folder;
-    }
-    var import_obsidian22 = require("obsidian");
-    function createTFileInstance2(vault, path) {
-      let file = vault.getFileByPath(path);
-      if (file) {
-        return file;
-      }
-      file = new import_obsidian22.TFile(vault, path);
-      file.parent = createTFolderInstance(vault, parentFolderPath(path));
-      file.deleted = true;
-      return file;
-    }
-    var CustomArrayDictImpl = class {
-      data = {};
-      add(key, value) {
-        if (!this.data.hasOwnProperty(key)) {
-          this.data[key] = [];
-        }
-        const values = this.data[key];
-        if (!values.includes(value)) {
-          values.push(value);
-        }
-      }
-      remove(key, value) {
-        const values = this.data[key];
-        if (!values) {
+      handleOk(event, textComponent) {
+        event.preventDefault();
+        if (!textComponent.inputEl.checkValidity()) {
           return;
         }
-        values.remove(value);
-        if (values.length === 0) {
-          delete this.data[key];
-        }
+        this.isOkClicked = true;
+        this.close();
       }
-      removeKey(key) {
-        delete this.data[key];
-      }
-      get(key) {
-        return this.data.hasOwnProperty(key) ? this.data[key] : null;
-      }
-      keys() {
-        return Object.keys(this.data);
-      }
-      clear(key) {
-        delete this.data[key];
-      }
-      clearAll() {
-        this.data = {};
-      }
-      contains(key, value) {
-        const values = this.data[key];
-        return values && values.contains(value) || false;
-      }
-      count() {
-        let ans = 0;
-        for (const key in this.data) {
-          if (this.data.hasOwnProperty(key)) {
-            ans += this.data[key].length;
-          }
-        }
-        return ans;
-      }
-    };
-    var InternalPluginName = {
-      AudioRecorder: "audio-recorder",
-      Backlink: "backlink",
-      Bookmarks: "bookmarks",
-      Canvas: "canvas",
-      CommandPalette: "command-palette",
-      DailyNotes: "daily-notes",
-      EditorStatus: "editor-status",
-      FileExplorer: "file-explorer",
-      FileRecovery: "file-recovery",
-      GlobalSearch: "global-search",
-      Graph: "graph",
-      MarkdownImporter: "markdown-importer",
-      NoteComposer: "note-composer",
-      OutgoingLink: "outgoing-link",
-      Outline: "outline",
-      PagePreview: "page-preview",
-      Properties: "properties",
-      Publish: "publish",
-      RandomNote: "random-note",
-      SlashCommand: "slash-command",
-      Slides: "slides",
-      Starred: "starred",
-      Switcher: "switcher",
-      Sync: "sync",
-      TagPane: "tag-pane",
-      Templates: "templates",
-      WordCount: "word-count",
-      Workspaces: "workspaces",
-      ZkPrefixer: "zk-prefixer"
     };
   }
 });
 
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/MetadataCache.cjs
-var require_MetadataCache = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/MetadataCache.cjs"(exports2, module2) {
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettingsTabBase.cjs
+var require_PluginSettingsTabBase = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/PluginSettingsTabBase.cjs"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -5693,539 +7218,115 @@ var require_MetadataCache = __commonJS({
       return to;
     };
     var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var MetadataCache_exports = {};
-    __export2(MetadataCache_exports, {
-      getAllLinks: () => getAllLinks3,
-      getBacklinksForFileSafe: () => getBacklinksForFileSafe3,
-      getCacheSafe: () => getCacheSafe3,
-      getFrontMatterSafe: () => getFrontMatterSafe,
-      registerFile: () => registerFile,
-      tempRegisterFileAndRun: () => tempRegisterFileAndRun
+    var PluginSettingsTabBase_exports = {};
+    __export2(PluginSettingsTabBase_exports, {
+      PluginSettingsTabBase: () => PluginSettingsTabBase2
     });
-    module2.exports = __toCommonJS2(MetadataCache_exports);
-    var import_obsidian6 = require("obsidian");
-    var import_Async4 = require_Async();
-    var import_TAbstractFile5 = require_TAbstractFile();
-    var import_TFile = require_TFile();
-    var import_implementations2 = require_implementations();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    module2.exports = __toCommonJS2(PluginSettingsTabBase_exports);
+    var import_obsidian5 = require("obsidian");
+    var import_PluginBase2 = require_PluginBase();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
     };
-    async function getCacheSafe3(app, fileOrPath, retryOptions = {}) {
-      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
-      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
-      let cache = null;
-      await (0, import_Async4.retryWithTimeout)(async () => {
-        const file = (0, import_TFile.getFileOrNull)(app, fileOrPath);
-        if (!file || file.deleted) {
-          cache = null;
-          return true;
-        }
-        await saveNote(app, file);
-        const fileInfo = app.metadataCache.getFileInfo(file.path);
-        const stat = await app.vault.adapter.stat(file.path);
-        if (!fileInfo) {
-          console.debug(`File cache info for ${file.path} is missing`);
-          return false;
-        } else if (!stat) {
-          console.debug(`File stat for ${file.path} is missing`);
-          return false;
-        } else if (fileInfo.mtime < stat.mtime) {
-          console.debug(`File cache info for ${file.path} is from ${new Date(fileInfo.mtime).toString()} which is older than the file modification timestamp ${new Date(stat.mtime).toString()}`);
-          return false;
-        } else {
-          cache = app.metadataCache.getFileCache(file);
-          if (!cache) {
-            console.debug(`File cache for ${file.path} is missing`);
-            return false;
-          } else {
-            return true;
+    var PluginSettingsTabBase2 = class extends import_obsidian5.PluginSettingTab {
+      constructor(plugin) {
+        super(plugin.app, plugin);
+        this.plugin = plugin;
+      }
+    };
+  }
+});
+
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/UIComponent.cjs
+var require_UIComponent = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Plugin/UIComponent.cjs"(exports2, module2) {
+    "use strict";
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var UIComponent_exports = {};
+    __export2(UIComponent_exports, {
+      bindUiComponent: () => bindUiComponent2
+    });
+    module2.exports = __toCommonJS2(UIComponent_exports);
+    var import_obsidian5 = require("obsidian");
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
+      "cwd": () => "/",
+      "env": {},
+      "platform": "android"
+    };
+    function bindUiComponent2(plugin, uiComponent, property, options) {
+      const DEFAULT_OPTIONS = {
+        autoSave: true,
+        settingToUIValueConverter: (value) => value,
+        uiToSettingValueConverter: (value) => value
+      };
+      const optionsExt = { ...DEFAULT_OPTIONS, ...options };
+      const pluginExt = plugin;
+      const uiComponentExt = uiComponent;
+      const pluginSettingsFn = () => optionsExt.pluginSettings ?? pluginExt.settingsCopy;
+      uiComponentExt.setValue(optionsExt.settingToUIValueConverter(pluginSettingsFn()[property])).onChange(async (uiValue) => {
+        if (optionsExt.uiValueValidator) {
+          const errorMessage = optionsExt.uiValueValidator(uiValue);
+          const validatorElement = getValidatorElement(uiComponent);
+          if (validatorElement) {
+            validatorElement.setCustomValidity(errorMessage ?? "");
+            validatorElement.reportValidity();
+          }
+          if (errorMessage) {
+            return;
           }
         }
-      }, overriddenOptions);
-      return cache;
-    }
-    function getAllLinks3(cache) {
-      let links = [];
-      if (cache.links) {
-        links.push(...cache.links);
-      }
-      if (cache.embeds) {
-        links.push(...cache.embeds);
-      }
-      links.sort((a, b) => a.position.start.offset - b.position.start.offset);
-      links = links.filter((link, index) => {
-        if (index === 0) {
-          return true;
+        const pluginSettings = pluginSettingsFn();
+        pluginSettings[property] = optionsExt.uiToSettingValueConverter(uiValue);
+        if (optionsExt.autoSave) {
+          await pluginExt.saveSettings(pluginSettings);
         }
-        return link.position.start.offset !== links[index - 1].position.start.offset;
       });
-      return links;
+      return uiComponent;
     }
-    async function getBacklinksForFileSafe3(app, pathOrFile, retryOptions = {}) {
-      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
-      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
-      let backlinks = null;
-      await (0, import_Async4.retryWithTimeout)(async () => {
-        const file = (0, import_TFile.getFile)(app, pathOrFile);
-        backlinks = tempRegisterFileAndRun(app, file, () => app.metadataCache.getBacklinksForFile(file));
-        for (const notePath of backlinks.keys()) {
-          const note = app.vault.getFileByPath(notePath);
-          if (!note) {
-            return false;
-          }
-          await saveNote(app, note);
-          const content = await app.vault.read(note);
-          const links = backlinks.get(notePath);
-          for (const link of links) {
-            const actualLink = content.slice(link.position.start.offset, link.position.end.offset);
-            if (actualLink !== link.original) {
-              return false;
-            }
-          }
-        }
-        return true;
-      }, overriddenOptions);
-      return backlinks;
-    }
-    async function saveNote(app, pathOrFile) {
-      if (!(0, import_TAbstractFile5.isMarkdownFile)(pathOrFile)) {
-        return;
+    function getValidatorElement(uiComponent) {
+      if (uiComponent instanceof import_obsidian5.DropdownComponent) {
+        return uiComponent.selectEl;
       }
-      const path = (0, import_TAbstractFile5.getPath)(pathOrFile);
-      for (const leaf of app.workspace.getLeavesOfType("markdown")) {
-        const view = leaf.view;
-        if (view.file?.path === path) {
-          await view.save();
-        }
+      if (uiComponent instanceof import_obsidian5.SliderComponent) {
+        return uiComponent.sliderEl;
       }
-    }
-    async function getFrontMatterSafe(app, pathOrFile) {
-      const cache = await getCacheSafe3(app, pathOrFile);
-      return cache?.frontmatter ?? {};
-    }
-    function tempRegisterFileAndRun(app, file, fn) {
-      const unregister = registerFile(app, file);
-      try {
-        return fn();
-      } finally {
-        unregister();
+      if (uiComponent instanceof import_obsidian5.TextAreaComponent) {
+        return uiComponent.inputEl;
       }
-    }
-    function registerFile(app, file) {
-      if (!file.deleted) {
-        return () => {
-        };
+      if (uiComponent instanceof import_obsidian5.TextComponent) {
+        return uiComponent.inputEl;
       }
-      const deletedPaths = [];
-      let deletedFile = file;
-      while (deletedFile.deleted) {
-        deletedPaths.push(deletedFile.path);
-        app.vault.fileMap[deletedFile.path] = deletedFile;
-        deletedFile = deletedFile.parent ?? (0, import_implementations2.createTFolderInstance)(app.vault, (0, import_implementations2.parentFolderPath)(deletedFile.path));
-      }
-      if (file instanceof import_obsidian6.TFile) {
-        app.metadataCache.uniqueFileLookup.add(file.name.toLowerCase(), file);
-      }
-      return () => {
-        for (const path of deletedPaths) {
-          delete app.vault.fileMap[path];
-        }
-        if (file instanceof import_obsidian6.TFile) {
-          app.metadataCache.uniqueFileLookup.remove(file.name.toLowerCase(), file);
-        }
-      };
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/JSON.cjs
-var require_JSON = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/JSON.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var JSON_exports = {};
-    __export2(JSON_exports, {
-      editJson: () => editJson,
-      readJson: () => readJson,
-      toJson: () => toJson3,
-      writeJson: () => writeJson
-    });
-    module2.exports = __toCommonJS2(JSON_exports);
-    var import_promises = require("node:fs/promises");
-    var import_node_fs = require("node:fs");
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    async function readJson(path) {
-      return JSON.parse(await (0, import_promises.readFile)(path, "utf-8"));
-    }
-    async function writeJson(path, data) {
-      await (0, import_promises.writeFile)(path, toJson3(data) + "\n");
-    }
-    async function editJson(path, editFn, options = {}) {
-      const {
-        skipIfMissing
-      } = options;
-      if (skipIfMissing && !(0, import_node_fs.existsSync)(path)) {
-        return;
-      }
-      const data = await readJson(path);
-      await editFn(data);
-      await writeJson(path, data);
-    }
-    function toJson3(value, options = {}) {
-      const {
-        shouldHandleFunctions = false,
-        space = 2
-      } = options;
-      if (!shouldHandleFunctions) {
-        return JSON.stringify(value, null, space);
-      }
-      const functionTexts = [];
-      const replacer = (_, value2) => {
-        if (typeof value2 === "function") {
-          const index = functionTexts.length;
-          functionTexts.push(value2.toString());
-          return `__FUNCTION_${index}`;
-        }
-        return value2;
-      };
-      let json = JSON.stringify(value, replacer, space);
-      json = json.replaceAll(/"__FUNCTION_(\d+)"/g, (_, indexStr) => functionTexts[parseInt(indexStr)]);
-      return json;
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/TFolder.cjs
-var require_TFolder = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/TFolder.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var TFolder_exports = {};
-    __export2(TFolder_exports, {
-      getFolder: () => getFolder,
-      getFolderOrNull: () => getFolderOrNull,
-      getMarkdownFiles: () => getMarkdownFiles
-    });
-    module2.exports = __toCommonJS2(TFolder_exports);
-    var import_obsidian6 = require("obsidian");
-    var import_TAbstractFile5 = require_TAbstractFile();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function getFolder(app, pathOrFolder) {
-      const folder = getFolderOrNull(app, pathOrFolder);
-      if (!folder) {
-        throw new Error(`Folder not found: ${pathOrFolder}`);
-      }
-      return folder;
-    }
-    function getFolderOrNull(app, pathOrFolder) {
-      if (pathOrFolder === null) {
-        return null;
-      }
-      return pathOrFolder instanceof import_obsidian6.TFolder ? pathOrFolder : app.vault.getFolderByPath(pathOrFolder);
-    }
-    function getMarkdownFiles(app, pathOrFolder, isRecursive) {
-      const folder = getFolder(app, pathOrFolder);
-      let markdownFiles = [];
-      if (!isRecursive) {
-        markdownFiles = folder.children.filter((file) => (0, import_TAbstractFile5.isMarkdownFile)(file));
-      } else {
-        import_obsidian6.Vault.recurseChildren(folder, (abstractFile) => {
-          if ((0, import_TAbstractFile5.isMarkdownFile)(abstractFile)) {
-            markdownFiles.push(abstractFile);
-          }
-        });
-      }
-      markdownFiles = markdownFiles.sort((a, b) => a.path.localeCompare(b.path));
-      return markdownFiles;
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/Vault.cjs
-var require_Vault = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Vault.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var Vault_exports = {};
-    __export2(Vault_exports, {
-      applyFileChanges: () => applyFileChanges3,
-      createFolderSafe: () => createFolderSafe4,
-      createTempFile: () => createTempFile,
-      createTempFolder: () => createTempFolder,
-      getMarkdownFilesSorted: () => getMarkdownFilesSorted,
-      processWithRetry: () => processWithRetry3,
-      removeEmptyFolderHierarchy: () => removeEmptyFolderHierarchy3,
-      removeFolderSafe: () => removeFolderSafe3,
-      safeList: () => safeList
-    });
-    module2.exports = __toCommonJS2(Vault_exports);
-    var import_obsidian6 = require("obsidian");
-    var import_Object = require_Object();
-    var import_Async4 = require_Async();
-    var import_MetadataCache3 = require_MetadataCache();
-    var import_Error = require_Error();
-    var import_JSON3 = require_JSON();
-    var import_TFile = require_TFile();
-    var import_TAbstractFile5 = require_TAbstractFile();
-    var import_TFolder = require_TFolder();
-    var import_ValueProvider = require_ValueProvider();
-    var import_Path8 = require_Path();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function getMarkdownFilesSorted(app) {
-      return app.vault.getMarkdownFiles().sort((a, b) => a.path.localeCompare(b.path));
-    }
-    async function processWithRetry3(app, pathOrFile, newContentProvider, retryOptions = {}) {
-      const file = (0, import_TFile.getFile)(app, pathOrFile);
-      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
-      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
-      await (0, import_Async4.retryWithTimeout)(async () => {
-        const oldContent = await app.vault.adapter.read(file.path);
-        const newContent = await (0, import_ValueProvider.resolveValue)(newContentProvider, oldContent);
-        if (newContent === null) {
-          return false;
-        }
-        let success = true;
-        await app.vault.process(file, (content) => {
-          if (content !== oldContent) {
-            console.warn(`Content of ${file.path} has changed since it was read. Retrying...`);
-            success = false;
-            return content;
-          }
-          return newContent;
-        });
-        return success;
-      }, overriddenOptions);
-    }
-    async function applyFileChanges3(app, pathOrFile, changesProvider, retryOptions = {}) {
-      const DEFAULT_RETRY_OPTIONS = { timeoutInMilliseconds: 6e4 };
-      const overriddenOptions = { ...DEFAULT_RETRY_OPTIONS, ...retryOptions };
-      await processWithRetry3(app, pathOrFile, async (content) => {
-        let changes = await (0, import_ValueProvider.resolveValue)(changesProvider);
-        for (const change of changes) {
-          const actualContent = content.slice(change.startIndex, change.endIndex);
-          if (actualContent !== change.oldContent) {
-            console.warn(`Content mismatch at ${change.startIndex}-${change.endIndex} in ${(0, import_TAbstractFile5.getPath)(pathOrFile)}:
-Expected: ${change.oldContent}
-Actual: ${actualContent}`);
-            return null;
-          }
-        }
-        changes.sort((a, b) => a.startIndex - b.startIndex);
-        changes = changes.filter((change, index) => {
-          if (index === 0) {
-            return true;
-          }
-          return !(0, import_Object.deepEqual)(change, changes[index - 1]);
-        });
-        for (let i = 1; i < changes.length; i++) {
-          const change = changes[i];
-          const previousChange = changes[i - 1];
-          if (previousChange.endIndex > change.startIndex) {
-            console.warn(`Overlapping changes:
-${(0, import_JSON3.toJson)(previousChange)}
-${(0, import_JSON3.toJson)(change)}`);
-            return null;
-          }
-        }
-        let newContent = "";
-        let lastIndex = 0;
-        for (const change of changes) {
-          newContent += content.slice(lastIndex, change.startIndex);
-          newContent += change.newContent;
-          lastIndex = change.endIndex;
-        }
-        newContent += content.slice(lastIndex);
-        return newContent;
-      }, overriddenOptions);
-    }
-    async function removeFolderSafe3(app, folderPath, removedNotePath, shouldReportUsedAttachments) {
-      const folder = app.vault.getFolderByPath(folderPath);
-      if (!folder) {
-        return false;
-      }
-      let canRemove = true;
-      for (const child of folder.children) {
-        if (child instanceof import_obsidian6.TFile) {
-          const backlinks = await (0, import_MetadataCache3.getBacklinksForFileSafe)(app, child);
-          if (removedNotePath) {
-            backlinks.removeKey(removedNotePath);
-          }
-          if (backlinks.count() !== 0) {
-            if (shouldReportUsedAttachments) {
-              new import_obsidian6.Notice(`Attachment ${child.path} is still used by other notes. It will not be deleted.`);
-            }
-            canRemove = false;
-          } else {
-            try {
-              await app.vault.delete(child);
-            } catch (e) {
-              if (await app.vault.adapter.exists(child.path)) {
-                (0, import_Error.printError)(new Error(`Failed to delete ${child.path}`, { cause: e }));
-                canRemove = false;
-              }
-            }
-          }
-        } else if (child instanceof import_obsidian6.TFolder) {
-          canRemove &&= await removeFolderSafe3(app, child.path, removedNotePath, shouldReportUsedAttachments);
-        }
-      }
-      if (canRemove) {
-        try {
-          await app.vault.delete(folder, true);
-        } catch (e) {
-          if (await app.vault.adapter.exists(folder.path)) {
-            (0, import_Error.printError)(new Error(`Failed to delete ${folder.path}`, { cause: e }));
-            canRemove = false;
-          }
-        }
-      }
-      return canRemove;
-    }
-    async function createFolderSafe4(app, path) {
-      if (await app.vault.adapter.exists(path)) {
-        return false;
-      }
-      try {
-        await app.vault.adapter.mkdir(path);
-        return true;
-      } catch (e) {
-        if (!await app.vault.adapter.exists(path)) {
-          throw e;
-        }
-        return true;
-      }
-    }
-    async function safeList(app, path) {
-      const EMPTY = { files: [], folders: [] };
-      if (!await app.vault.exists(path)) {
-        return EMPTY;
-      }
-      try {
-        return await app.vault.adapter.list(path);
-      } catch (e) {
-        if (await app.vault.adapter.exists(path)) {
-          throw e;
-        }
-        return EMPTY;
-      }
-    }
-    async function removeEmptyFolderHierarchy3(app, pathOrFolder) {
-      let folder = (0, import_TFolder.getFolderOrNull)(app, pathOrFolder);
-      while (folder) {
-        if (folder.children.length > 0) {
-          return;
-        }
-        const parent = folder.parent;
-        await removeFolderSafe3(app, folder.path);
-        folder = parent;
-      }
-    }
-    async function createTempFile(app, path) {
-      let file = app.vault.getFileByPath(path);
-      if (file) {
-        return async () => {
-        };
-      }
-      const folderCleanup = await createTempFolder(app, (0, import_Path8.dirname)(path));
-      try {
-        await app.vault.create(path, "");
-      } catch (e) {
-        if (!await app.vault.exists(path)) {
-          throw e;
-        }
-      }
-      file = app.vault.getFileByPath(path);
-      return async () => {
-        if (!file.deleted) {
-          await app.vault.delete(file, true);
-        }
-        await folderCleanup();
-      };
-    }
-    async function createTempFolder(app, path) {
-      let folder = app.vault.getFolderByPath(path);
-      if (folder) {
-        return async () => {
-        };
-      }
-      const dirPath = (0, import_Path8.dirname)(path);
-      await createTempFolder(app, dirPath);
-      const folderCleanup = await createTempFolder(app, (0, import_Path8.dirname)(path));
-      await createFolderSafe4(app, path);
-      folder = app.vault.getFolderByPath(path);
-      return async () => {
-        if (!folder.deleted) {
-          await app.vault.delete(folder, true);
-        }
-        await folderCleanup();
-      };
+      return null;
     }
   }
 });
@@ -6259,8 +7360,14 @@ var require_Blob = __commonJS({
       isImageFile: () => isImageFile2
     });
     module2.exports = __toCommonJS2(Blob_exports);
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
+    var import_Error3 = require_Error();
+    var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => {
+      if (typeof __filename !== "string") {
+        return new URL(window.location.href);
+      }
+      return require("node:url").pathToFileURL(__filename);
+    })();
+    var __process12 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
       "platform": "android"
@@ -6268,18 +7375,23 @@ var require_Blob = __commonJS({
     async function blobToArrayBuffer2(blob) {
       return await new Promise((resolve) => {
         const reader = new FileReader();
-        reader.onloadend = () => resolve(reader.result);
+        reader.onloadend = () => {
+          resolve(reader.result);
+        };
         reader.readAsArrayBuffer(blob);
       });
     }
     async function blobToJpegArrayBuffer2(blob, jpegQuality) {
       return new Promise((resolve) => {
         const reader = new FileReader();
-        reader.onloadend = (e) => {
+        reader.onloadend = () => {
           const image = new Image();
           image.onload = () => {
             const canvas = document.createElement("canvas");
             const context = canvas.getContext("2d");
+            if (!context) {
+              throw new Error("Could not get 2D context.");
+            }
             const imageWidth = image.width;
             const imageHeight = image.height;
             let data = "";
@@ -6295,14 +7407,14 @@ var require_Blob = __commonJS({
             const arrayBuffer = base64ToArrayBuffer(data);
             resolve(arrayBuffer);
           };
-          image.src = e.target.result;
+          image.src = reader.result;
         };
         reader.readAsDataURL(blob);
       });
     }
     function base64ToArrayBuffer(code) {
       const parts = code.split(";base64,");
-      const raw = window.atob(parts[1]);
+      const raw = window.atob(parts[1] ?? (0, import_Error3.throwExpression)(new Error("Invalid base64 string")));
       const rawLength = raw.length;
       const uInt8Array = new Uint8Array(rawLength);
       for (let i = 0; i < rawLength; ++i) {
@@ -6316,270 +7428,6 @@ var require_Blob = __commonJS({
   }
 });
 
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/ObsidianSettings.cjs
-var require_ObsidianSettings = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/ObsidianSettings.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var ObsidianSettings_exports = {};
-    __export2(ObsidianSettings_exports, {
-      shouldUseRelativeLinks: () => shouldUseRelativeLinks,
-      shouldUseWikilinks: () => shouldUseWikilinks
-    });
-    module2.exports = __toCommonJS2(ObsidianSettings_exports);
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    function shouldUseWikilinks(app) {
-      return !app.vault.getConfig("useMarkdownLinks");
-    }
-    function shouldUseRelativeLinks(app) {
-      return app.vault.getConfig("newLinkFormat") === "relative";
-    }
-  }
-});
-
-// node_modules/obsidian-dev-utils/dist/lib/obsidian/Link.cjs
-var require_Link = __commonJS({
-  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Link.cjs"(exports2, module2) {
-    "use strict";
-    var __defProp2 = Object.defineProperty;
-    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
-    var __getOwnPropNames2 = Object.getOwnPropertyNames;
-    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
-    var __export2 = (target, all) => {
-      for (var name in all)
-        __defProp2(target, name, { get: all[name], enumerable: true });
-    };
-    var __copyProps2 = (to, from, except, desc) => {
-      if (from && typeof from === "object" || typeof from === "function") {
-        for (let key of __getOwnPropNames2(from))
-          if (!__hasOwnProp2.call(to, key) && key !== except)
-            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
-      }
-      return to;
-    };
-    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
-    var Link_exports = {};
-    __export2(Link_exports, {
-      editLinks: () => editLinks,
-      extractLinkFile: () => extractLinkFile2,
-      generateMarkdownLink: () => generateMarkdownLink2,
-      getAlias: () => getAlias2,
-      splitSubpath: () => splitSubpath2,
-      updateLink: () => updateLink2,
-      updateLinksInFile: () => updateLinksInFile2
-    });
-    module2.exports = __toCommonJS2(Link_exports);
-    var import_obsidian6 = require("obsidian");
-    var import_MetadataCache3 = require_MetadataCache();
-    var import_Vault7 = require_Vault();
-    var import_implementations2 = require_implementations();
-    var import_Path8 = require_Path();
-    var import_String = require_String();
-    var import_TFile = require_TFile();
-    var import_TAbstractFile5 = require_TAbstractFile();
-    var import_Async4 = require_Async();
-    var import_ObsidianSettings = require_ObsidianSettings();
-    var __import_meta_url13 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-    var __process13 = globalThis["process"] ?? {
-      "cwd": () => "/",
-      "env": {},
-      "platform": "android"
-    };
-    var SPECIAL_LINK_SYMBOLS_REGEXP = /[\\\x00\x08\x0B\x0C\x0E-\x1F ]/g;
-    function splitSubpath2(link) {
-      const SUBPATH_SEPARATOR = "#";
-      const [linkPath = "", subpath] = (0, import_String.normalize)(link).split(SUBPATH_SEPARATOR);
-      return {
-        linkPath,
-        subpath: subpath ? SUBPATH_SEPARATOR + subpath : void 0
-      };
-    }
-    async function updateLinksInFile2(options) {
-      const {
-        app,
-        pathOrFile,
-        oldPathOrFile,
-        renameMap,
-        forceMarkdownLinks,
-        embedOnlyLinks
-      } = options;
-      await editLinks(app, pathOrFile, (link) => {
-        const isEmbedLink = link.original.startsWith("!");
-        if (embedOnlyLinks !== void 0 && embedOnlyLinks !== isEmbedLink) {
-          return;
-        }
-        return convertLink(app, link, pathOrFile, oldPathOrFile, renameMap, forceMarkdownLinks);
-      });
-    }
-    function convertLink(app, link, source, oldPathOrFile, renameMap, forceMarkdownLinks) {
-      oldPathOrFile ??= (0, import_TAbstractFile5.getPath)(source);
-      return updateLink2({
-        app,
-        link,
-        pathOrFile: extractLinkFile2(app, link, oldPathOrFile),
-        oldPathOrFile,
-        sourcePathOrFile: source,
-        renameMap,
-        forceMarkdownLinks
-      });
-    }
-    function extractLinkFile2(app, link, oldPathOrFile) {
-      const { linkPath } = splitSubpath2(link.link);
-      return app.metadataCache.getFirstLinkpathDest(linkPath, (0, import_TAbstractFile5.getPath)(oldPathOrFile));
-    }
-    function updateLink2(options) {
-      const {
-        app,
-        link,
-        pathOrFile,
-        oldPathOrFile,
-        sourcePathOrFile: source,
-        renameMap,
-        forceMarkdownLinks
-      } = options;
-      if (!pathOrFile) {
-        return link.original;
-      }
-      let file = (0, import_TFile.getFile)(app, pathOrFile);
-      const sourcePath = (0, import_TAbstractFile5.getPath)(source);
-      const oldPath = (0, import_TAbstractFile5.getPath)(oldPathOrFile);
-      const isEmbed = link.original.startsWith("!");
-      const isWikilink = link.original.includes("[[") && forceMarkdownLinks !== true;
-      const { subpath } = splitSubpath2(link.link);
-      const newPath = renameMap.get(file.path);
-      const alias = getAlias2({
-        app,
-        displayText: link.displayText,
-        file: pathOrFile,
-        otherPaths: [oldPath, newPath],
-        sourcePath
-      });
-      if (newPath) {
-        file = (0, import_implementations2.createTFileInstance)(app.vault, newPath);
-      }
-      const newLink = generateMarkdownLink2({
-        app,
-        pathOrFile: file,
-        sourcePathOrFile: sourcePath,
-        subpath,
-        alias,
-        isEmbed,
-        isWikilink
-      });
-      return newLink;
-    }
-    function getAlias2(options) {
-      const {
-        app,
-        displayText,
-        file: pathOrFile,
-        otherPaths,
-        sourcePath
-      } = options;
-      const file = (0, import_TFile.getFile)(app, pathOrFile);
-      if (!displayText) {
-        return void 0;
-      }
-      const cleanDisplayText = (0, import_obsidian6.normalizePath)(displayText.split(" > ")[0]).replace(/\.\//g, "");
-      for (const path of [file.path, ...otherPaths]) {
-        if (!path) {
-          continue;
-        }
-        const extension = (0, import_Path8.extname)(path);
-        const fileNameWithExtension = (0, import_Path8.basename)(path);
-        const fileNameWithoutExtension = (0, import_Path8.basename)(path, extension);
-        if (cleanDisplayText === path || cleanDisplayText === fileNameWithExtension || cleanDisplayText === fileNameWithoutExtension) {
-          return void 0;
-        }
-      }
-      for (const omitMdExtension of [true, false]) {
-        const linkText = app.metadataCache.fileToLinktext(file, sourcePath, omitMdExtension);
-        if (cleanDisplayText === linkText) {
-          return void 0;
-        }
-      }
-      return displayText;
-    }
-    function generateMarkdownLink2(options) {
-      const { app } = options;
-      const file = (0, import_TFile.getFile)(app, options.pathOrFile);
-      const sourcePath = (0, import_TAbstractFile5.getPath)(options.sourcePathOrFile);
-      const subpath = options.subpath ?? "";
-      let alias = options.alias ?? "";
-      const isEmbed = options.isEmbed ?? !(0, import_TAbstractFile5.isMarkdownFile)(file);
-      const isWikilink = options.isWikilink ?? (0, import_ObsidianSettings.shouldUseWikilinks)(app);
-      const forceRelativePath = options.forceRelativePath ?? (0, import_ObsidianSettings.shouldUseRelativeLinks)(app);
-      let linkText = file.path === sourcePath && subpath ? subpath : forceRelativePath ? (0, import_Path8.relative)((0, import_Path8.dirname)(sourcePath), isWikilink ? (0, import_TAbstractFile5.trimMarkdownExtension)(file) : file.path) + subpath : app.metadataCache.fileToLinktext(file, sourcePath, isWikilink) + subpath;
-      if (forceRelativePath && options.useLeadingDot && !linkText.startsWith(".") && !linkText.startsWith("#")) {
-        linkText = "./" + linkText;
-      }
-      if (!isWikilink) {
-        if (options.useAngleBrackets) {
-          linkText = `<${linkText}>`;
-        } else {
-          linkText = linkText.replace(SPECIAL_LINK_SYMBOLS_REGEXP, function(specialLinkSymbol) {
-            return encodeURIComponent(specialLinkSymbol);
-          });
-        }
-        if (!isEmbed) {
-          return `[${alias || file.basename}](${linkText})`;
-        } else {
-          return `![${alias}](${linkText})`;
-        }
-      } else {
-        if (alias && alias.toLowerCase() === linkText.toLowerCase()) {
-          linkText = alias;
-          alias = "";
-        }
-        return (isEmbed ? "!" : "") + (alias ? `[[${linkText}|${alias}]]` : `[[${linkText}]]`);
-      }
-    }
-    async function editLinks(app, pathOrFile, linkConverter, retryOptions = {}) {
-      return await (0, import_Vault7.applyFileChanges)(app, pathOrFile, async () => {
-        const cache = await (0, import_MetadataCache3.getCacheSafe)(app, pathOrFile);
-        if (!cache) {
-          return [];
-        }
-        const changes = [];
-        for (const link of (0, import_MetadataCache3.getAllLinks)(cache)) {
-          const newContent = await linkConverter(link);
-          if (newContent === void 0) {
-            continue;
-          }
-          changes.push({
-            startIndex: link.position.start.offset,
-            endIndex: link.position.end.offset,
-            oldContent: link.original,
-            newContent
-          });
-        }
-        return changes;
-      }, retryOptions);
-    }
-  }
-});
-
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
@@ -6587,352 +7435,14 @@ __export(main_exports, {
 });
 module.exports = __toCommonJS(main_exports);
 
-// src/CustomAttachmentLocationPlugin.ts
-var import_obsidian5 = require("obsidian");
-
-// src/CustomAttachmentLocationPluginSettings.ts
-var import_PluginSettings = __toESM(require_PluginSettings(), 1);
-var __import_meta_url = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process = globalThis["process"] ?? {
-  "cwd": () => "/",
-  "env": {},
-  "platform": "android"
-};
-var CustomAttachmentLocationPluginSettings = class _CustomAttachmentLocationPluginSettings {
-  attachmentFolderPath = "./assets/${filename}";
-  autoRenameFiles = false;
-  autoRenameFolder = true;
-  convertImagesToJpeg = false;
-  convertImagesOnDragAndDrop = false;
-  duplicateNameSeparator = " ";
-  jpegQuality = 0.8;
-  keepEmptyAttachmentFolders = false;
-  pastedFileName = "file-${date:YYYYMMDDHHmmssSSS}";
-  renameOnlyImages = true;
-  renamePastedFilesWithKnownNames = false;
-  renameAttachmentsOnDragAndDrop = false;
-  replaceWhitespace = false;
-  toLowerCase = false;
-  static load(data) {
-    const legacySettings = (0, import_PluginSettings.loadPluginSettings)(() => new LegacySettings(), data);
-    let shouldSave = false;
-    if (legacySettings.dateTimeFormat || legacySettings.pastedImageFileName) {
-      const dateTimeFormat = legacySettings.dateTimeFormat || "YYYYMMDDHHmmssSSS";
-      legacySettings.attachmentFolderPath = addDateTimeFormat(legacySettings.attachmentFolderPath, dateTimeFormat);
-      legacySettings.pastedFileName = addDateTimeFormat(legacySettings.pastedFileName || legacySettings.pastedImageFileName || "file-${date}", dateTimeFormat);
-      legacySettings.dateTimeFormat = "";
-      legacySettings.pastedImageFileName = "";
-      shouldSave = true;
-    }
-    const settings = (0, import_PluginSettings.loadPluginSettings)(() => new _CustomAttachmentLocationPluginSettings(), legacySettings);
-    return { settings, shouldSave };
-  }
-};
-function addDateTimeFormat(str, dateTimeFormat) {
-  return str.replaceAll("${date}", `\${date:${dateTimeFormat}}`);
-}
-var LegacySettings = class extends CustomAttachmentLocationPluginSettings {
-  dateTimeFormat = "";
-  pastedImageFileName = "";
-};
-
-// src/CustomAttachmentLocationPluginSettingsTab.ts
-var import_obsidian = require("obsidian");
-
-// src/PathValidator.ts
-var __import_meta_url2 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process2 = globalThis["process"] ?? {
-  "cwd": () => "/",
-  "env": {},
-  "platform": "android"
-};
-var INVALID_FILENAME_PATH_CHARS_REG_EXP = /[\\/:*?"<>|]/;
-var ONLY_DOTS_REG_EXP = /^\.+$/;
-function validateFilename(filename) {
-  filename = removeDateFormatting(filename);
-  if (!filename) {
-    return "File name is empty";
-  }
-  if (INVALID_FILENAME_PATH_CHARS_REG_EXP.test(filename)) {
-    return `File name "${filename}" contains invalid symbols`;
-  }
-  if (ONLY_DOTS_REG_EXP.test(filename)) {
-    return `File name "${filename}" contains only dots`;
-  }
-  if (filename[0] === ".") {
-    return `Dot-files like "${filename}" are not allowed`;
-  }
-  return "";
-}
-function validatePath(path) {
-  path = removeDateFormatting(path);
-  if (path.startsWith("/")) {
-    return "Path can't start with /";
-  }
-  if (path.endsWith("/")) {
-    return "Path can't end with /";
-  }
-  const parts = path.split("/");
-  for (const part of parts) {
-    if (part === ".") {
-      continue;
-    }
-    const partValidationError = validateFilename(part);
-    if (partValidationError) {
-      return partValidationError;
-    }
-  }
-  return "";
-}
-function removeDateFormatting(str) {
-  return str.replaceAll(/\$\{date:.+?\}/g, "${date}");
-}
-
-// src/CustomAttachmentLocationPluginSettingsTab.ts
-var import_PluginSettingsTabBase = __toESM(require_PluginSettingsTabBase(), 1);
-var import_DocumentFragment = __toESM(require_DocumentFragment(), 1);
-var import_UIComponent = __toESM(require_UIComponent(), 1);
-var __import_meta_url3 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process3 = globalThis["process"] ?? {
-  "cwd": () => "/",
-  "env": {},
-  "platform": "android"
-};
-var CustomAttachmentLocationPluginSettingsTab = class extends import_PluginSettingsTabBase.PluginSettingsTabBase {
-  display() {
-    this.containerEl.empty();
-    new import_obsidian.Setting(this.containerEl).setName("Location for New Attachments").setDesc(createFragment((f) => {
-      f.appendText("Start with ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, ".");
-      f.appendText(" to use relative path. Available variables: ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${filename}");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${foldername}");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${folderPath}");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${date:format}");
-      f.appendText(".");
-      f.appendChild(createEl("br"));
-      f.appendText("Don't use dot-folders like ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, ".attachments");
-      f.appendText(", because Obsidian doesn't track them");
-    })).addText(
-      (text) => (0, import_UIComponent.bindUiComponent)(this.plugin, text, "attachmentFolderPath", {
-        uiValueValidator(uiValue) {
-          return validatePath(uiValue);
-        },
-        settingToUIValueConverter(pluginValue) {
-          return pluginValue;
-        },
-        uiToSettingValueConverter(uiValue) {
-          return (0, import_obsidian.normalizePath)(uiValue);
-        }
-      }).setPlaceholder("./assets/${filename}")
-    );
-    new import_obsidian.Setting(this.containerEl).setName("Pasted File Name").setDesc(createFragment((f) => {
-      f.appendText("Available variables: ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${filename}");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${foldername}");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${date:format}");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${originalCopiedFilename}");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${prompt}");
-      f.appendText(".");
-    })).addText(
-      (text) => (0, import_UIComponent.bindUiComponent)(this.plugin, text, "pastedFileName", {
-        uiValueValidator(uiValue) {
-          return validatePath(uiValue);
-        }
-      }).setPlaceholder("file-${date:YYYYMMDDHHmmssSSS}")
-    );
-    new import_obsidian.Setting(this.containerEl).setName("Automatically rename attachment folder").setDesc(createFragment((f) => {
-      f.appendText("When renaming md files, automatically rename attachment folder if folder name contains ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${filename}");
-      f.appendText(".");
-    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "autoRenameFolder"));
-    new import_obsidian.Setting(this.containerEl).setName("Automatically rename attachment files").setDesc(createFragment((f) => {
-      f.appendText("When renaming md files, automatically rename attachment files if file name contains ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "${filename}");
-      f.appendText(".");
-    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "autoRenameFiles"));
-    new import_obsidian.Setting(this.containerEl).setName("Replace whitespace with hyphen").setDesc("Automatically replace whitespace in attachment folder and file name with hyphens.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "replaceWhitespace"));
-    new import_obsidian.Setting(this.containerEl).setName("All lowercase names").setDesc("Automatically set all characters in folder name and pasted image name to be lowercase.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "toLowerCase"));
-    new import_obsidian.Setting(this.containerEl).setName("Convert pasted images to JPEG").setDesc("Paste images from clipboard converting them to JPEG.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "convertImagesToJpeg"));
-    new import_obsidian.Setting(this.containerEl).setName("JPEG Quality").setDesc("The smaller the quality, the greater the compression ratio.").addDropdown((dropDown) => (0, import_UIComponent.bindUiComponent)(this.plugin, dropDown, "jpegQuality", {
-      settingToUIValueConverter: (value) => value.toString(),
-      uiToSettingValueConverter: (value) => Number(value)
-    }).addOptions(generateJpegQualityOptions()));
-    new import_obsidian.Setting(this.containerEl).setName("Convert images on drag&drop").setDesc(createFragment((f) => {
-      f.appendText("If enabled and ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "Convert pasted images to JPEG");
-      f.appendText(" setting is enabled, images drag&dropped into the editor will be converted to JPEG.");
-    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "convertImagesOnDragAndDrop"));
-    new import_obsidian.Setting(this.containerEl).setName("Rename only images").setDesc(createFragment((f) => {
-      f.appendText("If enabled, only image files will be renamed.");
-      f.appendChild(createEl("br"));
-      f.appendText("If disabled, all attachment files will be renamed.");
-    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "renameOnlyImages"));
-    new import_obsidian.Setting(this.containerEl).setName("Rename pasted files with known names").setDesc(createFragment((f) => {
-      f.appendText("If enabled, pasted copied files with known names will be renamed.");
-      f.appendChild(createEl("br"));
-      f.appendText("If disabled, only clipboard image objects (e.g., screenshots) will be renamed.");
-    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "renamePastedFilesWithKnownNames"));
-    new import_obsidian.Setting(this.containerEl).setName("Rename attachments on drag&drop").setDesc(createFragment((f) => {
-      f.appendText("If enabled, attachments dragged and dropped into the editor will be renamed according to the ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "Pasted File Name");
-      f.appendText(" setting.");
-    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "renameAttachmentsOnDragAndDrop"));
-    new import_obsidian.Setting(this.containerEl).setName("Duplicate name separator").setDesc(createFragment((f) => {
-      f.appendText("When you are pasting/dragging a file with the same name as an existing file, this separator will be added to the file name.");
-      f.appendChild(createEl("br"));
-      f.appendText("E.g., when you are dragging file ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "existingFile.pdf");
-      f.appendText(", it will be renamed to ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "existingFile 1.pdf");
-      f.appendText(", ");
-      (0, import_DocumentFragment.appendCodeBlock)(f, "existingFile 2.pdf");
-      f.appendText(", etc, getting the first name available.");
-    })).addText(
-      (text) => (0, import_UIComponent.bindUiComponent)(this.plugin, text, "duplicateNameSeparator", {
-        uiValueValidator(uiValue) {
-          return uiValue === "" ? null : validateFilename(uiValue);
-        }
-      }).setPlaceholder(" ")
-    );
-    new import_obsidian.Setting(this.containerEl).setName("Keep empty attachment folders").setDesc("If enabled, empty attachment folders will be preserved, useful for source control purposes.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "keepEmptyAttachmentFolders"));
-  }
-};
-function generateJpegQualityOptions() {
-  const ans = {};
-  for (let i = 1; i <= 10; i++) {
-    const valueStr = (i / 10).toFixed(1);
-    ans[valueStr] = valueStr;
-  }
-  return ans;
-}
-
-// src/CustomAttachmentLocationPlugin.ts
-var import_Path7 = __toESM(require_Path(), 1);
-var import_Async3 = __toESM(require_Async(), 1);
-
-// src/AttachmentPath.ts
-var import_moment = __toESM(require_moment(), 1);
-var import_RegExp = __toESM(require_RegExp(), 1);
-var import_obsidian2 = require("obsidian");
-var import_Path2 = __toESM(require_Path(), 1);
-var import_Prompt = __toESM(require_Prompt(), 1);
-
-// src/Substitutions.ts
-var import_Path = __toESM(require_Path(), 1);
-var __import_meta_url4 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process4 = globalThis["process"] ?? {
-  "cwd": () => "/",
-  "env": {},
-  "platform": "android"
-};
-function createSubstitutionsFromPath(path, originalCopiedFilename) {
-  const folderPath = (0, import_Path.dirname)(path);
-  return {
-    filename: (0, import_Path.basename)(path, (0, import_Path.extname)(path)),
-    foldername: (0, import_Path.basename)(folderPath),
-    folderPath,
-    originalCopiedFilename: originalCopiedFilename ?? ""
-  };
-}
-
-// src/AttachmentPath.ts
-var __import_meta_url5 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process5 = globalThis["process"] ?? {
-  "cwd": () => "/",
-  "env": {},
-  "platform": "android"
-};
-function interpolateToDigitRegex(template, substitutions) {
-  const dateRegExp = /\$\{date:(.*?)\}/g;
-  let regExpString = template.replaceAll(dateRegExp, (_, p1) => {
-    return `\\d{${p1.length}}`;
-  });
-  for (const [key, value] of Object.entries(substitutions)) {
-    regExpString = regExpString.replaceAll(`\${${key}}`, (0, import_RegExp.escapeRegExp)(value));
-  }
-  return new RegExp(`^${regExpString}$`);
-}
-async function interpolateDateToString(plugin, template, substitutions) {
-  const dateRegExp = /\$\{date:(.*?)\}/g;
-  let newPath = template.replaceAll(dateRegExp, (_, dateFormat) => (0, import_moment.default)().format(dateFormat));
-  for (const [key, value] of Object.entries(substitutions)) {
-    newPath = newPath.replaceAll(`\${${key}}`, value);
-  }
-  if (substitutions.originalCopiedFilename) {
-    if (newPath.includes("${prompt}")) {
-      const newFileName = await (0, import_Prompt.prompt)({
-        app: plugin.app,
-        title: "Rename attachment file",
-        defaultValue: substitutions.originalCopiedFilename,
-        valueValidator: (value) => {
-          return validateFilename(value);
-        }
-      }) ?? substitutions.originalCopiedFilename;
-      newPath = newPath.replaceAll("${prompt}", newFileName);
-    }
-  }
-  if (plugin.settingsCopy.toLowerCase) {
-    newPath = newPath.toLowerCase();
-  }
-  if (plugin.settingsCopy.replaceWhitespace) {
-    newPath = newPath.replace(/\s/g, "-");
-    newPath = newPath.replace(/-{2,}/g, "-");
-  }
-  return newPath;
-}
-async function getEarliestAttachmentFolder(plugin, attachmentFolderTemplate, substitutions) {
-  const app = plugin.app;
-  const targetRegex = interpolateToDigitRegex(attachmentFolderTemplate, substitutions);
-  const folders = app.vault.getAllLoadedFiles().filter((f) => f instanceof import_obsidian2.TFolder).filter((f) => targetRegex.test(f.path));
-  const folderStats = [];
-  for (const folder of folders) {
-    const stat = await app.vault.adapter.stat((0, import_Path2.join)(app.vault.adapter.getBasePath(), folder.path));
-    folderStats.push({
-      path: folder.path,
-      ctime: stat?.ctime ?? 0
-    });
-  }
-  if (folderStats.length > 0) {
-    return folderStats.sort((a, b) => a.ctime - b.ctime).map((f) => f.path)[0];
-  } else {
-    return interpolateDateToString(plugin, attachmentFolderTemplate, substitutions);
-  }
-}
-async function getAttachmentFolderPath(plugin, substitutions) {
-  return await getEarliestAttachmentFolder(plugin, plugin.settingsCopy.attachmentFolderPath, substitutions);
-}
-async function getAttachmentFolderFullPathForSubstitutions(plugin, substitutions) {
-  let attachmentFolder = "";
-  const useRelativePath = plugin.settingsCopy.attachmentFolderPath.startsWith("./");
-  if (useRelativePath) {
-    attachmentFolder = (0, import_Path2.join)(substitutions.folderPath, await getAttachmentFolderPath(plugin, substitutions));
-  } else {
-    attachmentFolder = await getAttachmentFolderPath(plugin, substitutions);
-  }
-  return (0, import_obsidian2.normalizePath)(attachmentFolder);
-}
-async function getAttachmentFolderFullPathForPath(plugin, path) {
-  return await getAttachmentFolderFullPathForSubstitutions(plugin, createSubstitutionsFromPath(path));
-}
-async function getPastedFileName(plugin, substitutions) {
-  return await interpolateDateToString(plugin, plugin.settingsCopy.pastedFileName, substitutions);
-}
-function makeFileName(fileName, extension) {
-  return extension ? `${fileName}.${extension}` : fileName;
-}
-
 // node_modules/monkey-around/dist/index.mjs
-var __import_meta_url6 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process6 = globalThis["process"] ?? {
+var __import_meta_url = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process = globalThis["process"] ?? {
   "cwd": () => "/",
   "env": {},
   "platform": "android"
@@ -6973,20 +7483,211 @@ function around1(obj, method, createWrapper) {
 }
 
 // src/CustomAttachmentLocationPlugin.ts
-var import_Vault6 = __toESM(require_Vault(), 1);
-var import_TAbstractFile4 = __toESM(require_TAbstractFile(), 1);
+var import_obsidian4 = require("obsidian");
+var import_AttachmentPath3 = __toESM(require_AttachmentPath(), 1);
+var import_PluginBase = __toESM(require_PluginBase(), 1);
+var import_RenameDeleteHandler = __toESM(require_RenameDeleteHandler(), 1);
+var import_TAbstractFile3 = __toESM(require_TAbstractFile(), 1);
+var import_Vault5 = __toESM(require_Vault(), 1);
+var import_Path6 = __toESM(require_Path(), 1);
 
-// src/PasteDropEvent.ts
-var import_Path4 = __toESM(require_Path(), 1);
-var import_Blob = __toESM(require_Blob(), 1);
-var import_TAbstractFile = __toESM(require_TAbstractFile(), 1);
+// src/AttachmentCollector.ts
+var import_obsidian2 = require("obsidian");
 var import_Async = __toESM(require_Async(), 1);
+var import_DocumentFragment = __toESM(require_DocumentFragment(), 1);
+var import_Error2 = __toESM(require_Error(), 1);
+var import_Object = __toESM(require_Object(), 1);
+var import_Link = __toESM(require_Link(), 1);
+var import_MetadataCache = __toESM(require_MetadataCache(), 1);
+var import_Confirm = __toESM(require_Confirm(), 1);
+var import_TAbstractFile = __toESM(require_TAbstractFile(), 1);
+var import_Vault2 = __toESM(require_Vault(), 1);
+var import_Path4 = __toESM(require_Path(), 1);
+var import_implementations = __toESM(require_implementations(), 1);
+
+// src/AttachmentPath.ts
+var import_moment = __toESM(require_moment(), 1);
+var import_obsidian = require("obsidian");
+var import_Error = __toESM(require_Error(), 1);
+var import_Prompt = __toESM(require_Prompt(), 1);
+var import_Path2 = __toESM(require_Path(), 1);
+var import_RegExp = __toESM(require_RegExp(), 1);
+
+// src/PathValidator.ts
+var __import_meta_url2 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process2 = globalThis["process"] ?? {
+  "cwd": () => "/",
+  "env": {},
+  "platform": "android"
+};
+var INVALID_FILENAME_PATH_CHARS_REG_EXP = /[\\/:*?"<>|]/;
+var ONLY_DOTS_REG_EXP = /^\.+$/;
+function validateFilename(filename) {
+  filename = removeDateFormatting(filename);
+  if (!filename) {
+    return "File name is empty";
+  }
+  if (INVALID_FILENAME_PATH_CHARS_REG_EXP.test(filename)) {
+    return `File name "${filename}" contains invalid symbols`;
+  }
+  if (ONLY_DOTS_REG_EXP.test(filename)) {
+    return `File name "${filename}" contains only dots`;
+  }
+  return "";
+}
+function validatePath(path) {
+  path = removeDateFormatting(path);
+  if (path.startsWith("/")) {
+    return "Path can't start with /";
+  }
+  if (path.endsWith("/")) {
+    return "Path can't end with /";
+  }
+  const parts = path.split("/");
+  for (const part of parts) {
+    if (part === ".") {
+      continue;
+    }
+    const partValidationError = validateFilename(part);
+    if (partValidationError) {
+      return partValidationError;
+    }
+  }
+  return "";
+}
+function removeDateFormatting(str) {
+  return str.replaceAll(/\$\{date:.+?\}/g, "${date}");
+}
+
+// src/Substitutions.ts
+var import_Path = __toESM(require_Path(), 1);
+var __import_meta_url3 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process3 = globalThis["process"] ?? {
+  "cwd": () => "/",
+  "env": {},
+  "platform": "android"
+};
+function createSubstitutionsFromPath(path, originalCopiedFilename) {
+  const folderPath = (0, import_Path.dirname)(path);
+  return {
+    filename: (0, import_Path.basename)(path, (0, import_Path.extname)(path)),
+    foldername: (0, import_Path.basename)(folderPath),
+    folderPath,
+    originalCopiedFilename: originalCopiedFilename ?? ""
+  };
+}
+
+// src/AttachmentPath.ts
+var __import_meta_url4 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process4 = globalThis["process"] ?? {
+  "cwd": () => "/",
+  "env": {},
+  "platform": "android"
+};
+function interpolateToDigitRegex(template, substitutions) {
+  const dateRegExp = /\$\{date:(.*?)\}/g;
+  let regExpString = template.replaceAll(dateRegExp, (_, p1) => {
+    return `\\d{${p1.length.toString()}}`;
+  });
+  for (const [key, value] of Object.entries(substitutions)) {
+    regExpString = regExpString.replaceAll(`\${${key}}`, (0, import_RegExp.escapeRegExp)(value));
+  }
+  return new RegExp(`^${regExpString}$`);
+}
+async function interpolateDateToString(plugin, template, substitutions) {
+  const dateRegExp = /\$\{date:(.*?)\}/g;
+  let newPath = template.replaceAll(dateRegExp, (_, dateFormat) => (0, import_moment.default)().format(dateFormat));
+  for (const [key, value] of Object.entries(substitutions)) {
+    newPath = newPath.replaceAll(`\${${key}}`, value);
+  }
+  if (substitutions.originalCopiedFilename) {
+    if (newPath.includes("${prompt}")) {
+      const newFileName = await (0, import_Prompt.prompt)({
+        app: plugin.app,
+        title: "Rename attachment file",
+        defaultValue: substitutions.originalCopiedFilename,
+        valueValidator: (value) => {
+          return validateFilename(value);
+        }
+      }) ?? substitutions.originalCopiedFilename;
+      newPath = newPath.replaceAll("${prompt}", newFileName);
+    }
+  }
+  if (plugin.settingsCopy.toLowerCase) {
+    newPath = newPath.toLowerCase();
+  }
+  if (plugin.settingsCopy.replaceWhitespace) {
+    newPath = newPath.replace(/\s/g, "-");
+    newPath = newPath.replace(/-{2,}/g, "-");
+  }
+  return newPath;
+}
+async function getEarliestAttachmentFolder(plugin, attachmentFolderTemplate, substitutions) {
+  const app = plugin.app;
+  const targetRegex = interpolateToDigitRegex(attachmentFolderTemplate, substitutions);
+  const folders = app.vault.getAllLoadedFiles().filter((f) => f instanceof import_obsidian.TFolder).filter((f) => targetRegex.test(f.path));
+  const folderStats = [];
+  for (const folder of folders) {
+    const stat = await app.vault.adapter.stat((0, import_Path2.join)(app.vault.adapter.getBasePath(), folder.path));
+    folderStats.push({
+      path: folder.path,
+      ctime: stat?.ctime ?? 0
+    });
+  }
+  if (folderStats.length > 0) {
+    return folderStats.sort((a, b) => a.ctime - b.ctime).map((f) => f.path)[0] ?? (0, import_Error.throwExpression)(new Error("No folder stat"));
+  } else {
+    return interpolateDateToString(plugin, attachmentFolderTemplate, substitutions);
+  }
+}
+async function getAttachmentFolderPath(plugin, substitutions) {
+  return await getEarliestAttachmentFolder(plugin, plugin.settingsCopy.attachmentFolderPath, substitutions);
+}
+async function getAttachmentFolderFullPathForSubstitutions(plugin, substitutions) {
+  let attachmentFolder = "";
+  const useRelativePath = plugin.settingsCopy.attachmentFolderPath.startsWith("./");
+  if (useRelativePath) {
+    attachmentFolder = (0, import_Path2.join)(substitutions.folderPath, await getAttachmentFolderPath(plugin, substitutions));
+  } else {
+    attachmentFolder = await getAttachmentFolderPath(plugin, substitutions);
+  }
+  return (0, import_obsidian.normalizePath)(attachmentFolder);
+}
+async function getAttachmentFolderFullPathForPath(plugin, path) {
+  return await getAttachmentFolderFullPathForSubstitutions(plugin, createSubstitutionsFromPath(path));
+}
+async function getPastedFileName(plugin, substitutions) {
+  return await interpolateDateToString(plugin, plugin.settingsCopy.pastedFileName, substitutions);
+}
+function makeFileName(fileName, extension) {
+  return extension ? `${fileName}.${extension}` : fileName;
+}
 
 // src/Vault.ts
-var import_Path3 = __toESM(require_Path(), 1);
 var import_Vault = __toESM(require_Vault(), 1);
-var __import_meta_url7 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process7 = globalThis["process"] ?? {
+var import_Path3 = __toESM(require_Path(), 1);
+var __import_meta_url5 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process5 = globalThis["process"] ?? {
   "cwd": () => "/",
   "env": {},
   "platform": "android"
@@ -7002,15 +7703,433 @@ async function createFolderSafeEx(plugin, path) {
   return result;
 }
 
-// src/PasteDropEvent.ts
-var __import_meta_url8 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
+// src/AttachmentCollector.ts
+var __import_meta_url6 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process6 = globalThis["process"] ?? {
+  "cwd": () => "/",
+  "env": {},
+  "platform": "android"
+};
+function collectAttachmentsCurrentNote(plugin, checking) {
+  const note = plugin.app.workspace.getActiveFile();
+  if (!note || !(0, import_TAbstractFile.isNote)(note)) {
+    return false;
+  }
+  if (!checking) {
+    (0, import_Async.invokeAsyncSafely)(collectAttachments(plugin, note));
+  }
+  return true;
+}
+function collectAttachmentsCurrentFolder(plugin, checking) {
+  const note = plugin.app.workspace.getActiveFile();
+  if (!(0, import_TAbstractFile.isNote)(note)) {
+    return false;
+  }
+  if (!checking) {
+    (0, import_Async.invokeAsyncSafely)(collectAttachmentsInFolder(plugin, note?.parent ?? (0, import_Error2.throwExpression)(new Error("Parent folder not found"))));
+  }
+  return true;
+}
+function collectAttachmentsEntireVault(plugin) {
+  (0, import_Async.invokeAsyncSafely)(collectAttachmentsInFolder(plugin, plugin.app.vault.getRoot()));
+}
+async function collectAttachments(plugin, note, oldPath, attachmentFilter) {
+  const app = plugin.app;
+  oldPath ??= note.path;
+  attachmentFilter ??= () => true;
+  console.debug(`Collect attachments in note: ${note.path}`);
+  const attachmentsMap = /* @__PURE__ */ new Map();
+  const isCanvas = note.extension.toLowerCase() === "canvas";
+  await (0, import_Vault2.applyFileChanges)(app, note, async () => {
+    const cache = await (0, import_MetadataCache.getCacheSafe)(app, note);
+    if (!cache) {
+      return [];
+    }
+    const links = isCanvas ? await getCanvasLinks(app, note) : (0, import_MetadataCache.getAllLinks)(cache);
+    const changes = [];
+    for (const link of links) {
+      const attachmentMoveResult = await prepareAttachmentToMove(plugin, link, note.path, oldPath);
+      if (!attachmentMoveResult) {
+        continue;
+      }
+      if (!attachmentFilter(attachmentMoveResult.oldAttachmentPath)) {
+        continue;
+      }
+      attachmentsMap.set(attachmentMoveResult.oldAttachmentPath, attachmentMoveResult.newAttachmentPath);
+      if (!isCanvas) {
+        changes.push({
+          startIndex: link.position.start.offset,
+          endIndex: link.position.end.offset,
+          oldContent: link.original,
+          newContent: attachmentMoveResult.newAttachmentLink
+        });
+      }
+    }
+    return changes;
+  });
+  if (isCanvas) {
+    await (0, import_Vault2.processWithRetry)(app, note, (content) => {
+      const canvasData = JSON.parse(content);
+      for (const node of canvasData.nodes) {
+        if (node.type !== "file") {
+          continue;
+        }
+        const newPath = attachmentsMap.get(node.file);
+        if (!newPath) {
+          continue;
+        }
+        node.file = newPath;
+      }
+      return (0, import_Object.toJson)(canvasData);
+    });
+  }
+  const notice = new import_obsidian2.Notice(`Collecting ${attachmentsMap.size.toString()} attachments for ${note.path}`);
+  await (0, import_MetadataCache.getCacheSafe)(app, note);
+  for (const [oldPath2, newPath] of attachmentsMap.entries()) {
+    const oldAttachmentFile = app.vault.getFileByPath(oldPath2);
+    if (!oldAttachmentFile) {
+      continue;
+    }
+    const oldAttachmentFolder = oldAttachmentFile.parent;
+    const backlinks = await (0, import_MetadataCache.getBacklinksForFileSafe)(app, oldAttachmentFile);
+    await createFolderSafeEx(plugin, (0, import_Path4.dirname)(newPath));
+    if (backlinks.count() === 0) {
+      await app.vault.rename(oldAttachmentFile, newPath);
+      await (0, import_Vault2.removeEmptyFolderHierarchy)(app, oldAttachmentFolder);
+    } else {
+      await app.vault.copy(oldAttachmentFile, newPath);
+    }
+  }
+  notice.hide();
+}
+async function prepareAttachmentToMove(plugin, link, newNotePath, oldNotePath) {
+  const app = plugin.app;
+  const { linkPath, subpath } = splitSubpath(link.link);
+  const oldAttachmentFile = app.metadataCache.getFirstLinkpathDest(linkPath, oldNotePath);
+  if (!oldAttachmentFile) {
+    return null;
+  }
+  if ((0, import_TAbstractFile.isNote)(oldAttachmentFile)) {
+    return null;
+  }
+  const oldAttachmentPath = oldAttachmentFile.path;
+  const oldAttachmentName = oldAttachmentFile.name;
+  const oldNoteBaseName = (0, import_Path4.basename)(oldNotePath, (0, import_Path4.extname)(oldNotePath));
+  const newNoteBaseName = (0, import_Path4.basename)(newNotePath, (0, import_Path4.extname)(newNotePath));
+  let newAttachmentName;
+  if (plugin.settingsCopy.renameCollectedFiles) {
+    newAttachmentName = makeFileName(await getPastedFileName(plugin, createSubstitutionsFromPath(newNotePath, oldAttachmentFile.basename)), oldAttachmentFile.extension);
+  } else if (plugin.settingsCopy.autoRenameFiles) {
+    newAttachmentName = oldAttachmentName.replaceAll(oldNoteBaseName, newNoteBaseName);
+  } else {
+    newAttachmentName = oldAttachmentName;
+  }
+  const newAttachmentFolderPath = await getAttachmentFolderFullPathForPath(plugin, newNotePath);
+  const newAttachmentPath = (0, import_Path4.join)(newAttachmentFolderPath, newAttachmentName);
+  if (oldAttachmentPath === newAttachmentPath) {
+    return null;
+  }
+  const newAttachmentFile = (0, import_implementations.createTFileInstance)(app.vault, newAttachmentPath);
+  let newAttachmentLink = "";
+  (0, import_MetadataCache.tempRegisterFileAndRun)(app, newAttachmentFile, () => {
+    newAttachmentLink = (0, import_Link.generateMarkdownLink)({
+      app,
+      pathOrFile: newAttachmentFile,
+      sourcePathOrFile: newNotePath,
+      subpath,
+      alias: (0, import_Link.getAlias)({
+        app,
+        displayText: link.displayText,
+        file: newAttachmentFile,
+        otherPaths: [oldAttachmentPath],
+        sourcePath: newNotePath
+      }),
+      isEmbed: link.original.startsWith("!"),
+      isWikilink: link.original.includes("[[")
+    });
+  });
+  return {
+    oldAttachmentPath,
+    newAttachmentPath,
+    newAttachmentLink
+  };
+}
+async function collectAttachmentsInFolder(plugin, folder) {
+  if (!await (0, import_Confirm.confirm)({
+    app: plugin.app,
+    title: createFragment((f) => {
+      (0, import_obsidian2.setIcon)(f.createSpan(), "lucide-alert-triangle");
+      f.appendText(" Collect attachments in folder");
+    }),
+    message: createFragment((f) => {
+      f.appendText("Do you want to collect attachments for all notes in folder: ");
+      (0, import_DocumentFragment.appendCodeBlock)(f, folder.path);
+      f.appendText(" and all its subfolders?");
+      f.createEl("br");
+      f.appendText("This operation cannot be undone.");
+    })
+  })) {
+    return;
+  }
+  console.debug(`Collect attachments in folder: ${folder.path}`);
+  const files = [];
+  import_obsidian2.Vault.recurseChildren(folder, (child) => {
+    if ((0, import_TAbstractFile.isNote)(child)) {
+      files.push(child);
+    }
+  });
+  files.sort((a, b) => a.path.localeCompare(b.path));
+  const notice = new import_obsidian2.Notice("", 0);
+  let i = 0;
+  for (const file of files) {
+    i++;
+    const message = `Collecting attachments # ${i.toString()} / ${files.length.toString()} - ${file.path}`;
+    notice.setMessage(message);
+    await collectAttachments(plugin, file);
+  }
+  notice.hide();
+}
+function splitSubpath(link) {
+  const SUBPATH_SEPARATOR = "#";
+  const [linkPath = "", subpath] = link.split(SUBPATH_SEPARATOR);
+  return {
+    linkPath,
+    subpath: subpath ? SUBPATH_SEPARATOR + subpath : void 0
+  };
+}
+async function getCanvasLinks(app, file) {
+  const canvasData = await app.vault.readJson(file.path);
+  const files = canvasData.nodes.filter((node) => node.type === "file").map((node) => node.file);
+  return files.map((file2) => ({
+    link: file2,
+    original: file2,
+    position: {
+      start: { col: 0, line: 0, loc: 0, offset: 0 },
+      end: { col: 0, line: 0, loc: 0, offset: 0 }
+    }
+  }));
+}
+
+// src/CustomAttachmentLocationPluginSettings.ts
+var import_PluginSettings = __toESM(require_PluginSettings(), 1);
+var __import_meta_url7 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process7 = globalThis["process"] ?? {
+  "cwd": () => "/",
+  "env": {},
+  "platform": "android"
+};
+var CustomAttachmentLocationPluginSettings = class _CustomAttachmentLocationPluginSettings {
+  attachmentFolderPath = "./assets/${filename}";
+  autoRenameFiles = false;
+  autoRenameFolder = true;
+  convertImagesToJpeg = false;
+  convertImagesOnDragAndDrop = false;
+  duplicateNameSeparator = " ";
+  jpegQuality = 0.8;
+  keepEmptyAttachmentFolders = false;
+  pastedFileName = "file-${date:YYYYMMDDHHmmssSSS}";
+  renameCollectedFiles = false;
+  renameOnlyImages = true;
+  renamePastedFilesWithKnownNames = false;
+  renameAttachmentsOnDragAndDrop = false;
+  replaceWhitespace = false;
+  toLowerCase = false;
+  static load(data) {
+    const legacySettings = (0, import_PluginSettings.loadPluginSettings)(() => new LegacySettings(), data);
+    let shouldSave = false;
+    if (legacySettings.dateTimeFormat || legacySettings.pastedImageFileName) {
+      const dateTimeFormat = legacySettings.dateTimeFormat || "YYYYMMDDHHmmssSSS";
+      legacySettings.attachmentFolderPath = addDateTimeFormat(legacySettings.attachmentFolderPath, dateTimeFormat);
+      legacySettings.pastedFileName = addDateTimeFormat(legacySettings.pastedFileName || legacySettings.pastedImageFileName || "file-${date}", dateTimeFormat);
+      legacySettings.dateTimeFormat = "";
+      legacySettings.pastedImageFileName = "";
+      shouldSave = true;
+    }
+    const settings = (0, import_PluginSettings.loadPluginSettings)(() => new _CustomAttachmentLocationPluginSettings(), legacySettings);
+    return { settings, shouldSave };
+  }
+};
+function addDateTimeFormat(str, dateTimeFormat) {
+  return str.replaceAll("${date}", `\${date:${dateTimeFormat}}`);
+}
+var LegacySettings = class extends CustomAttachmentLocationPluginSettings {
+  dateTimeFormat = "";
+  pastedImageFileName = "";
+};
+
+// src/CustomAttachmentLocationPluginSettingsTab.ts
+var import_obsidian3 = require("obsidian");
+var import_DocumentFragment2 = __toESM(require_DocumentFragment(), 1);
+var import_PluginSettingsTabBase = __toESM(require_PluginSettingsTabBase(), 1);
+var import_UIComponent = __toESM(require_UIComponent(), 1);
+var __import_meta_url8 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
 var __process8 = globalThis["process"] ?? {
   "cwd": () => "/",
   "env": {},
   "platform": "android"
 };
+var CustomAttachmentLocationPluginSettingsTab = class extends import_PluginSettingsTabBase.PluginSettingsTabBase {
+  display() {
+    this.containerEl.empty();
+    new import_obsidian3.Setting(this.containerEl).setName("Location for New Attachments").setDesc(createFragment((f) => {
+      f.appendText("Start with ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, ".");
+      f.appendText(" to use relative path. Available variables: ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${filename}");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${foldername}");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${folderPath}");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${date:format}");
+      f.appendText(".");
+      f.appendChild(createEl("br"));
+      f.appendText("Dot-folders like ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, ".attachments");
+      f.appendText(" are not recommended, because Obsidian doesn't track them. You might need to use ");
+      f.createEl("a", { href: "https://github.com/polyipseity/obsidian-show-hidden-files/", text: "Show Hidden Files" });
+      f.appendText(" Plugin to manage them.");
+    })).addText(
+      (text) => (0, import_UIComponent.bindUiComponent)(this.plugin, text, "attachmentFolderPath", {
+        uiValueValidator(uiValue) {
+          return validatePath(uiValue);
+        },
+        settingToUIValueConverter(pluginValue) {
+          return pluginValue;
+        },
+        uiToSettingValueConverter(uiValue) {
+          return (0, import_obsidian3.normalizePath)(uiValue);
+        }
+      }).setPlaceholder("./assets/${filename}")
+    );
+    new import_obsidian3.Setting(this.containerEl).setName("Pasted File Name").setDesc(createFragment((f) => {
+      f.appendText("Available variables: ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${filename}");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${foldername}");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${date:format}");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${originalCopiedFilename}");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${prompt}");
+      f.appendText(".");
+    })).addText(
+      (text) => (0, import_UIComponent.bindUiComponent)(this.plugin, text, "pastedFileName", {
+        uiValueValidator(uiValue) {
+          return validatePath(uiValue);
+        }
+      }).setPlaceholder("file-${date:YYYYMMDDHHmmssSSS}")
+    );
+    new import_obsidian3.Setting(this.containerEl).setName("Automatically rename attachment folder").setDesc(createFragment((f) => {
+      f.appendText("When renaming md files, automatically rename attachment folder if folder name contains ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${filename}");
+      f.appendText(".");
+    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "autoRenameFolder"));
+    new import_obsidian3.Setting(this.containerEl).setName("Automatically rename attachment files").setDesc(createFragment((f) => {
+      f.appendText("When renaming md files, automatically rename attachment files if file name contains ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "${filename}");
+      f.appendText(".");
+    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "autoRenameFiles"));
+    new import_obsidian3.Setting(this.containerEl).setName("Replace whitespace with hyphen").setDesc("Automatically replace whitespace in attachment folder and file name with hyphens.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "replaceWhitespace"));
+    new import_obsidian3.Setting(this.containerEl).setName("All lowercase names").setDesc("Automatically set all characters in folder name and pasted image name to be lowercase.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "toLowerCase"));
+    new import_obsidian3.Setting(this.containerEl).setName("Convert pasted images to JPEG").setDesc("Paste images from clipboard converting them to JPEG.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "convertImagesToJpeg"));
+    new import_obsidian3.Setting(this.containerEl).setName("JPEG Quality").setDesc("The smaller the quality, the greater the compression ratio.").addDropdown((dropDown) => {
+      dropDown.addOptions(generateJpegQualityOptions());
+      (0, import_UIComponent.bindUiComponent)(this.plugin, dropDown, "jpegQuality", {
+        settingToUIValueConverter: (value) => value.toString(),
+        uiToSettingValueConverter: (value) => Number(value)
+      });
+    });
+    new import_obsidian3.Setting(this.containerEl).setName("Convert images on drag&drop").setDesc(createFragment((f) => {
+      f.appendText("If enabled and ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "Convert pasted images to JPEG");
+      f.appendText(" setting is enabled, images drag&dropped into the editor will be converted to JPEG.");
+    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "convertImagesOnDragAndDrop"));
+    new import_obsidian3.Setting(this.containerEl).setName("Rename only images").setDesc(createFragment((f) => {
+      f.appendText("If enabled, only image files will be renamed.");
+      f.appendChild(createEl("br"));
+      f.appendText("If disabled, all attachment files will be renamed.");
+    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "renameOnlyImages"));
+    new import_obsidian3.Setting(this.containerEl).setName("Rename pasted files with known names").setDesc(createFragment((f) => {
+      f.appendText("If enabled, pasted copied files with known names will be renamed.");
+      f.appendChild(createEl("br"));
+      f.appendText("If disabled, only clipboard image objects (e.g., screenshots) will be renamed.");
+    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "renamePastedFilesWithKnownNames"));
+    new import_obsidian3.Setting(this.containerEl).setName("Rename attachments on drag&drop").setDesc(createFragment((f) => {
+      f.appendText("If enabled, attachments dragged and dropped into the editor will be renamed according to the ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "Pasted File Name");
+      f.appendText(" setting.");
+    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "renameAttachmentsOnDragAndDrop"));
+    new import_obsidian3.Setting(this.containerEl).setName("Rename attachments on collecting").setDesc(createFragment((f) => {
+      f.appendText("If enabled, attachments processed via ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "Collect attachments");
+      f.appendText(" commands will be renamed according to the ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "Pasted File Name");
+      f.appendText(" setting.");
+    })).addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "renameCollectedFiles"));
+    new import_obsidian3.Setting(this.containerEl).setName("Duplicate name separator").setDesc(createFragment((f) => {
+      f.appendText("When you are pasting/dragging a file with the same name as an existing file, this separator will be added to the file name.");
+      f.appendChild(createEl("br"));
+      f.appendText("E.g., when you are dragging file ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "existingFile.pdf");
+      f.appendText(", it will be renamed to ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "existingFile 1.pdf");
+      f.appendText(", ");
+      (0, import_DocumentFragment2.appendCodeBlock)(f, "existingFile 2.pdf");
+      f.appendText(", etc, getting the first name available.");
+    })).addText(
+      (text) => (0, import_UIComponent.bindUiComponent)(this.plugin, text, "duplicateNameSeparator", {
+        uiValueValidator(uiValue) {
+          return uiValue === "" ? null : validateFilename(uiValue);
+        }
+      }).setPlaceholder(" ")
+    );
+    new import_obsidian3.Setting(this.containerEl).setName("Keep empty attachment folders").setDesc("If enabled, empty attachment folders will be preserved, useful for source control purposes.").addToggle((toggle) => (0, import_UIComponent.bindUiComponent)(this.plugin, toggle, "keepEmptyAttachmentFolders"));
+  }
+};
+function generateJpegQualityOptions() {
+  const ans = {};
+  for (let i = 1; i <= 10; i++) {
+    const valueStr = (i / 10).toFixed(1);
+    ans[valueStr] = valueStr;
+  }
+  return ans;
+}
+
+// src/PasteDropEvent.ts
+var import_Async2 = __toESM(require_Async(), 1);
+var import_Blob = __toESM(require_Blob(), 1);
+var import_TAbstractFile2 = __toESM(require_TAbstractFile(), 1);
+var import_Path5 = __toESM(require_Path(), 1);
+var __import_meta_url9 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process9 = globalThis["process"] ?? {
+  "cwd": () => "/",
+  "env": {},
+  "platform": "android"
+};
 function registerPasteDropEventHandlers(plugin) {
-  const listener = (0, import_Async.convertAsyncToSync)(async (event) => handlePasteAndDrop(plugin, event));
+  const listener = (0, import_Async2.convertAsyncToSync)(async (event) => handlePasteAndDrop(plugin, event));
   plugin.registerDomEvent(document, "paste", listener, { capture: true });
   plugin.registerDomEvent(document, "drop", listener, { capture: true });
 }
@@ -7036,7 +8155,7 @@ var EventWrapper = class {
     }
     console.debug(`Handle ${targetType} ${this.eventType}`);
     const noteFile = this.plugin.app.workspace.getActiveFile();
-    if (!(0, import_TAbstractFile.isNote)(noteFile)) {
+    if (!noteFile || !(0, import_TAbstractFile2.isNote)(noteFile)) {
       return;
     }
     const dataTransfer = this.getDataTransfer();
@@ -7060,7 +8179,11 @@ var EventWrapper = class {
           type
         };
       } else if (item.kind === "string") {
-        const textPromise = new Promise((resolve) => item.getAsString((text) => resolve(text)));
+        const textPromise = new Promise((resolve) => {
+          item.getAsString((text) => {
+            resolve(text);
+          });
+        });
         return {
           textPromise,
           type
@@ -7075,8 +8198,8 @@ var EventWrapper = class {
       if (entry.textPromise) {
         newDataTransfer.items.add(await entry.textPromise, entry.type);
       } else if (entry.file) {
-        let extension = (0, import_Path4.extname)(entry.file.name).slice(1);
-        const originalCopiedFileName = (0, import_Path4.basename)(entry.file.name, "." + extension);
+        let extension = (0, import_Path5.extname)(entry.file.name).slice(1);
+        const originalCopiedFileName = (0, import_Path5.basename)(entry.file.name, "." + extension);
         let fileArrayBuffer;
         if (this.shouldConvertImages() && (0, import_Blob.isImageFile)(entry.file)) {
           fileArrayBuffer = await (0, import_Blob.blobToJpegArrayBuffer)(entry.file, this.plugin.settingsCopy.jpegQuality);
@@ -7182,427 +8305,14 @@ var DropEventWrapper = class extends EventWrapper {
   }
 };
 
-// src/AttachmentCollector.ts
-var import_obsidian3 = require("obsidian");
-var import_MetadataCache = __toESM(require_MetadataCache(), 1);
-var import_Vault3 = __toESM(require_Vault(), 1);
-var import_TAbstractFile2 = __toESM(require_TAbstractFile(), 1);
-var import_Async2 = __toESM(require_Async(), 1);
-var import_JSON = __toESM(require_JSON(), 1);
-var import_Link = __toESM(require_Link(), 1);
-var import_Path5 = __toESM(require_Path(), 1);
-var __import_meta_url9 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process9 = globalThis["process"] ?? {
-  "cwd": () => "/",
-  "env": {},
-  "platform": "android"
-};
-function collectAttachmentsCurrentNote(plugin, checking) {
-  const note = plugin.app.workspace.getActiveFile();
-  if (!(0, import_TAbstractFile2.isNote)(note)) {
-    return false;
-  }
-  if (!checking) {
-    (0, import_Async2.invokeAsyncSafely)(collectAttachments(plugin, note));
-  }
-  return true;
-}
-function collectAttachmentsCurrentFolder(plugin, checking) {
-  const note = plugin.app.workspace.getActiveFile();
-  if (!(0, import_TAbstractFile2.isNote)(note)) {
-    return false;
-  }
-  if (!checking) {
-    (0, import_Async2.invokeAsyncSafely)(collectAttachmentsInFolder(plugin, note.parent));
-  }
-  return true;
-}
-function collectAttachmentsEntireVault(plugin) {
-  (0, import_Async2.invokeAsyncSafely)(collectAttachmentsInFolder(plugin, plugin.app.vault.getRoot()));
-}
-async function collectAttachments(plugin, note, oldPath, attachmentFilter) {
-  const app = plugin.app;
-  oldPath ??= note.path;
-  attachmentFilter ??= () => true;
-  console.debug(`Collect attachments in note: ${note.path}`);
-  const attachmentsMap = /* @__PURE__ */ new Map();
-  const isCanvas = note.extension.toLowerCase() === "canvas";
-  await (0, import_Vault3.applyFileChanges)(app, note, async () => {
-    const cache = await (0, import_MetadataCache.getCacheSafe)(app, note);
-    if (!cache) {
-      return [];
-    }
-    const links = isCanvas ? await getCanvasLinks(app, note) : (0, import_MetadataCache.getAllLinks)(cache);
-    const changes = [];
-    for (const link of links) {
-      const attachmentMoveResult = await prepareAttachmentToMove(plugin, link, note.path, oldPath);
-      if (!attachmentMoveResult) {
-        continue;
-      }
-      if (!attachmentFilter(attachmentMoveResult.oldAttachmentPath)) {
-        continue;
-      }
-      attachmentsMap.set(attachmentMoveResult.oldAttachmentPath, attachmentMoveResult.newAttachmentPath);
-      if (!isCanvas) {
-        changes.push({
-          startIndex: link.position.start.offset,
-          endIndex: link.position.end.offset,
-          oldContent: link.original,
-          newContent: attachmentMoveResult.newAttachmentLink
-        });
-      }
-    }
-    return changes;
-  });
-  if (isCanvas) {
-    await (0, import_Vault3.processWithRetry)(app, note, (content) => {
-      const canvasData = JSON.parse(content);
-      for (const node of canvasData.nodes) {
-        if (node.type !== "file") {
-          continue;
-        }
-        const newPath = attachmentsMap.get(node.file);
-        if (!newPath) {
-          continue;
-        }
-        node.file = newPath;
-      }
-      return (0, import_JSON.toJson)(canvasData);
-    });
-  }
-  const notice = new import_obsidian3.Notice(`Collecting ${attachmentsMap.size} attachments for ${note.path}`);
-  await (0, import_MetadataCache.getCacheSafe)(app, note);
-  for (const [oldPath2, newPath] of attachmentsMap.entries()) {
-    const oldAttachmentFile = app.vault.getFileByPath(oldPath2);
-    if (!oldAttachmentFile) {
-      continue;
-    }
-    const oldAttachmentFolder = oldAttachmentFile.parent;
-    const backlinks = await (0, import_MetadataCache.getBacklinksForFileSafe)(app, oldAttachmentFile);
-    await createFolderSafeEx(plugin, (0, import_Path5.dirname)(newPath));
-    if (backlinks.count() === 0) {
-      await app.vault.rename(oldAttachmentFile, newPath);
-      await (0, import_Vault3.removeEmptyFolderHierarchy)(app, oldAttachmentFolder);
-    } else {
-      await app.vault.copy(oldAttachmentFile, newPath);
-    }
-  }
-  notice.hide();
-}
-async function prepareAttachmentToMove(plugin, link, newNotePath, oldNotePath) {
-  const app = plugin.app;
-  const { linkPath, subpath } = splitSubpath(link.link);
-  let oldAttachmentFile = app.metadataCache.getFirstLinkpathDest(linkPath, oldNotePath);
-  if (!oldAttachmentFile) {
-    return null;
-  }
-  if ((0, import_TAbstractFile2.isNote)(oldAttachmentFile)) {
-    return null;
-  }
-  oldAttachmentFile = oldAttachmentFile;
-  const oldAttachmentPath = oldAttachmentFile.path;
-  const oldAttachmentName = oldAttachmentFile.name;
-  const oldNoteBaseName = (0, import_Path5.basename)(oldNotePath, (0, import_Path5.extname)(oldNotePath));
-  const newNoteBaseName = (0, import_Path5.basename)(newNotePath, (0, import_Path5.extname)(newNotePath));
-  const newAttachmentName = plugin.settingsCopy.autoRenameFiles ? oldAttachmentName.replaceAll(oldNoteBaseName, newNoteBaseName) : oldAttachmentName;
-  const newAttachmentFolderPath = await getAttachmentFolderFullPathForPath(plugin, newNotePath);
-  const newAttachmentPath = (0, import_Path5.join)(newAttachmentFolderPath, newAttachmentName);
-  if (oldAttachmentPath === newAttachmentPath) {
-    return null;
-  }
-  const shouldRemoveNewAttachmentFolder = await createFolderSafeEx(plugin, (0, import_Path5.dirname)(newAttachmentPath));
-  const newAttachmentFile = await app.vault.create(newAttachmentPath, "");
-  const newAttachmentLink = (0, import_Link.generateMarkdownLink)({
-    app,
-    pathOrFile: newAttachmentFile,
-    sourcePathOrFile: newNotePath,
-    subpath,
-    alias: (0, import_Link.getAlias)({
-      app,
-      displayText: link.displayText,
-      file: newAttachmentFile,
-      otherPaths: [oldAttachmentPath],
-      sourcePath: newNotePath
-    }),
-    isEmbed: link.original.startsWith("!"),
-    isWikilink: link.original.includes("[[")
-  });
-  await app.vault.delete(newAttachmentFile);
-  if (shouldRemoveNewAttachmentFolder) {
-    await (0, import_Vault3.removeFolderSafe)(app, (0, import_Path5.dirname)(newAttachmentPath));
-  }
-  return {
-    oldAttachmentPath,
-    newAttachmentPath,
-    newAttachmentLink
-  };
-}
-async function collectAttachmentsInFolder(plugin, folder) {
-  console.debug(`Collect attachments in folder: ${folder.path}`);
-  const files = [];
-  import_obsidian3.Vault.recurseChildren(folder, (child) => {
-    if ((0, import_TAbstractFile2.isNote)(child)) {
-      files.push(child);
-    }
-  });
-  files.sort((a, b) => a.path.localeCompare(b.path));
-  const notice = new import_obsidian3.Notice("", 0);
-  let i = 0;
-  for (const file of files) {
-    i++;
-    const message = `Collecting attachments # ${i} / ${files.length} - ${file.path}`;
-    notice.setMessage(message);
-    await collectAttachments(plugin, file);
-  }
-  notice.hide();
-}
-function splitSubpath(link) {
-  const SUBPATH_SEPARATOR = "#";
-  const [linkPath = "", subpath] = link.split(SUBPATH_SEPARATOR);
-  return {
-    linkPath,
-    subpath: subpath ? SUBPATH_SEPARATOR + subpath : void 0
-  };
-}
-async function getCanvasLinks(app, file) {
-  const canvasData = await app.vault.readJson(file.path);
-  const files = canvasData.nodes.filter((node) => node.type === "file").map((node) => node.file);
-  return files.map((file2) => ({
-    link: file2,
-    original: file2,
-    position: {
-      start: { col: 0, line: 0, loc: 0, offset: 0 },
-      end: { col: 0, line: 0, loc: 0, offset: 0 }
-    }
-  }));
-}
-
-// src/RenameDeleteHandler.ts
-var import_obsidian4 = require("obsidian");
-var import_Path6 = __toESM(require_Path(), 1);
-var import_Vault5 = __toESM(require_Vault(), 1);
-var import_TAbstractFile3 = __toESM(require_TAbstractFile(), 1);
-var import_MetadataCache2 = __toESM(require_MetadataCache(), 1);
-var import_JSON2 = __toESM(require_JSON(), 1);
-var import_Link2 = __toESM(require_Link(), 1);
-var import_implementations = __toESM(require_implementations(), 1);
-var __import_meta_url10 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process10 = globalThis["process"] ?? {
-  "cwd": () => "/",
-  "env": {},
-  "platform": "android"
-};
-var renamingPaths = /* @__PURE__ */ new Set();
-async function handleRename(plugin, file, oldPath) {
-  if (renamingPaths.has(oldPath)) {
-    return;
-  }
-  console.debug("Handle Rename");
-  if (!(file instanceof import_obsidian4.TFile)) {
-    return;
-  }
-  const app = plugin.app;
-  const updateAllLinks = app.fileManager.updateAllLinks;
-  try {
-    plugin.app.fileManager.updateAllLinks = async () => {
-    };
-    const renameMap = /* @__PURE__ */ new Map();
-    await fillRenameMap(plugin, file, oldPath, renameMap);
-    for (const oldPath2 of renameMap.keys()) {
-      renamingPaths.add(oldPath2);
-    }
-    for (const [oldPath2, newPath2] of renameMap.entries()) {
-      await processRename(plugin, oldPath2, newPath2, renameMap);
-    }
-  } finally {
-    renamingPaths.delete(oldPath);
-    plugin.app.fileManager.updateAllLinks = updateAllLinks;
-  }
-}
-async function handleDelete(plugin, file) {
-  console.debug("Handle Delete");
-  if (!(0, import_TAbstractFile3.isNote)(file)) {
-    return;
-  }
-  if (renamingPaths.has(file.path)) {
-    return;
-  }
-  const attachmentsFolderPath = await getAttachmentFolderFullPathForPath(plugin, file.path);
-  await (0, import_Vault5.removeFolderSafe)(plugin.app, attachmentsFolderPath, file.path);
-}
-async function fillRenameMap(plugin, file, oldPath, renameMap) {
-  const app = plugin.app;
-  renameMap.set(oldPath, file.path);
-  if (!(0, import_TAbstractFile3.isNote)(file)) {
-    return;
-  }
-  const oldAttachmentFolderPath = await getAttachmentFolderFullPathForPath(plugin, oldPath);
-  const newAttachmentFolderPath = await getAttachmentFolderFullPathForPath(plugin, file.path);
-  const dummyOldAttachmentFolderPath = await getAttachmentFolderFullPathForPath(plugin, (0, import_Path6.join)((0, import_Path6.dirname)(oldPath), "DUMMY_FILE.md"));
-  const oldAttachmentFolder = plugin.app.vault.getFolderByPath(oldAttachmentFolderPath);
-  if (!oldAttachmentFolder) {
-    return;
-  }
-  if (oldAttachmentFolderPath === newAttachmentFolderPath) {
-    return;
-  }
-  const children = [];
-  if (oldAttachmentFolderPath === dummyOldAttachmentFolderPath) {
-    const cache = await (0, import_MetadataCache2.getCacheSafe)(app, file);
-    if (!cache) {
-      return;
-    }
-    for (const link of (0, import_MetadataCache2.getAllLinks)(cache)) {
-      const attachmentFile = (0, import_Link2.extractLinkFile)(app, link, oldPath);
-      if (!attachmentFile) {
-        continue;
-      }
-      if (attachmentFile.path.startsWith(oldAttachmentFolderPath)) {
-        const backlinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(app, attachmentFile);
-        if (backlinks.keys().length === 1) {
-          children.push(attachmentFile);
-        }
-      }
-    }
-  } else {
-    import_obsidian4.Vault.recurseChildren(oldAttachmentFolder, (child) => {
-      if (child instanceof import_obsidian4.TFile) {
-        children.push(child);
-      }
-    });
-  }
-  const newNoteName = file.basename;
-  const oldNoteName = (0, import_Path6.basename)(oldPath, (0, import_Path6.extname)(oldPath));
-  for (let child of children) {
-    if ((0, import_TAbstractFile3.isNote)(child)) {
-      continue;
-    }
-    child = child;
-    const relativePath = (0, import_Path6.relative)(oldAttachmentFolderPath, child.path);
-    const newChildName = plugin.settingsCopy.autoRenameFiles ? child.basename.replaceAll(oldNoteName, newNoteName) : child.basename;
-    const newDir = (0, import_Path6.join)(newAttachmentFolderPath, (0, import_Path6.dirname)(relativePath));
-    let newChildPath = (0, import_Path6.join)(newDir, newChildName + "." + child.extension);
-    if (child.path !== newChildPath) {
-      newChildPath = plugin.app.vault.getAvailablePath((0, import_Path6.join)(newDir, newChildName), child.extension);
-      renameMap.set(child.path, newChildPath);
-    }
-  }
-}
-async function processRename(plugin, oldPath, newPath, renameMap) {
-  const app = plugin.app;
-  let oldFile = null;
-  try {
-    oldFile = app.vault.getFileByPath(oldPath);
-    let newFile = app.vault.getFileByPath(newPath);
-    if (oldFile) {
-      await (0, import_Vault5.createFolderSafe)(app, (0, import_Path6.dirname)(newPath));
-      const oldFolder = oldFile.parent;
-      try {
-        if (newFile) {
-          try {
-            await app.vault.delete(newFile);
-          } catch (e) {
-            if (app.vault.getAbstractFileByPath(newPath)) {
-              throw e;
-            }
-          }
-        }
-        await app.vault.rename(oldFile, newPath);
-      } catch (e) {
-        if (!app.vault.getAbstractFileByPath(newPath) || app.vault.getAbstractFileByPath(oldPath)) {
-          throw e;
-        }
-      }
-      await (0, import_Vault5.removeEmptyFolderHierarchy)(app, oldFolder);
-    }
-    oldFile = (0, import_implementations.createTFileInstance)(app.vault, oldPath);
-    newFile = app.vault.getFileByPath(newPath);
-    if (!oldFile.deleted || !newFile) {
-      throw new Error(`Could not rename ${oldPath} to ${newPath}`);
-    }
-    const backlinks = await getBacklinks(plugin.app, oldFile, newFile);
-    for (const parentNotePath of backlinks.keys()) {
-      let parentNote = app.vault.getFileByPath(parentNotePath);
-      if (!parentNote) {
-        const newParentNotePath = renameMap.get(parentNotePath);
-        if (newParentNotePath) {
-          parentNote = app.vault.getFileByPath(newParentNotePath);
-        }
-      }
-      if (!parentNote) {
-        console.warn(`Parent note not found: ${parentNotePath}`);
-        continue;
-      }
-      await (0, import_Vault5.applyFileChanges)(app, parentNote, async () => {
-        const links = (await getBacklinks(plugin.app, oldFile, newFile)).get(parentNotePath) ?? [];
-        const changes = [];
-        for (const link of links) {
-          changes.push({
-            startIndex: link.position.start.offset,
-            endIndex: link.position.end.offset,
-            oldContent: link.original,
-            newContent: (0, import_Link2.updateLink)({
-              app,
-              link,
-              pathOrFile: newFile,
-              oldPathOrFile: oldPath,
-              sourcePathOrFile: parentNote,
-              renameMap
-            })
-          });
-        }
-        return changes;
-      });
-    }
-    if ((0, import_TAbstractFile3.isCanvasFile)(newFile)) {
-      await (0, import_Vault5.processWithRetry)(app, newFile, (content) => {
-        const canvasData = JSON.parse(content);
-        for (const node of canvasData.nodes) {
-          if (node.type !== "file") {
-            continue;
-          }
-          const newPath2 = renameMap.get(node.file);
-          if (!newPath2) {
-            continue;
-          }
-          node.file = newPath2;
-        }
-        return (0, import_JSON2.toJson)(canvasData);
-      });
-    } else if ((0, import_TAbstractFile3.isMarkdownFile)(newFile)) {
-      await (0, import_Link2.updateLinksInFile)({
-        app,
-        pathOrFile: newFile,
-        oldPathOrFile: oldPath,
-        renameMap
-      });
-    }
-  } finally {
-    renamingPaths.delete(oldPath);
-  }
-}
-async function getBacklinks(app, oldFile, newFile) {
-  const backlinks = /* @__PURE__ */ new Map();
-  const oldLinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(app, oldFile);
-  for (const path of oldLinks.keys()) {
-    backlinks.set(path, oldLinks.get(path));
-  }
-  if (!newFile) {
-    return backlinks;
-  }
-  const newLinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(app, newFile);
-  for (const path of newLinks.keys()) {
-    const links = backlinks.get(path) ?? [];
-    links.push(...newLinks.get(path));
-    backlinks.set(path, links);
-  }
-  return backlinks;
-}
-
 // src/CustomAttachmentLocationPlugin.ts
-var import_PluginBase = __toESM(require_PluginBase(), 1);
-var __import_meta_url11 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process11 = globalThis["process"] ?? {
+var __import_meta_url10 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process10 = globalThis["process"] ?? {
   "cwd": () => "/",
   "env": {},
   "platform": "android"
@@ -7615,8 +8325,9 @@ var CustomAttachmentLocationPlugin = class extends import_PluginBase.PluginBase 
     return new CustomAttachmentLocationPluginSettingsTab(this);
   }
   onloadComplete() {
-    this.registerEvent(this.app.vault.on("delete", (file) => (0, import_Async3.invokeAsyncSafely)(handleDelete(this, file))));
-    this.registerEvent(this.app.vault.on("rename", (file, oldPath) => (0, import_Async3.invokeAsyncSafely)(handleRename(this, file, oldPath))));
+    (0, import_RenameDeleteHandler.registerRenameDeleteHandlers)(this, () => ({
+      shouldDeleteEmptyFolders: !this.settings.keepEmptyAttachmentFolders
+    }));
     registerPasteDropEventHandlers(this);
     this.addCommand({
       id: "collect-attachments-current-note",
@@ -7631,13 +8342,17 @@ var CustomAttachmentLocationPlugin = class extends import_PluginBase.PluginBase 
     this.addCommand({
       id: "collect-attachments-entire-vault",
       name: "Collect attachments in entire vault",
-      callback: () => collectAttachmentsEntireVault(this)
+      callback: () => {
+        collectAttachmentsEntireVault(this);
+      }
     });
     this.registerEvent(this.app.workspace.on("file-menu", this.handleFileMenu.bind(this)));
   }
   onLayoutReady() {
     this.register(around(this.app.vault, {
-      getAvailablePathForAttachments: (originalFn) => async (filename, extension, file) => this.getAvailablePathForAttachments(filename, extension, file, originalFn),
+      getAvailablePathForAttachments: () => Object.assign(async (filename, extension, file, skipFolderCreation) => this.getAvailablePathForAttachments(filename, extension, file, skipFolderCreation), {
+        isExtended: true
+      }),
       getAvailablePath: () => (filename, extension) => this.getAvailablePath(filename, extension)
     }));
   }
@@ -7648,21 +8363,23 @@ var CustomAttachmentLocationPlugin = class extends import_PluginBase.PluginBase 
     }
     return settings;
   }
-  async getAvailablePathForAttachments(filename, extension, file, originalFn) {
-    if (!(file instanceof import_obsidian5.TFile)) {
-      return await originalFn.call(this.app.vault, filename, extension, file);
+  async getAvailablePathForAttachments(filename, extension, file, skipFolderCreation) {
+    if (!(file instanceof import_obsidian4.TFile)) {
+      return (0, import_AttachmentPath3.getAvailablePathForAttachments)(this.app, filename, extension, file, skipFolderCreation ?? false);
     }
-    if (!(0, import_TAbstractFile4.isNote)(file)) {
-      return await originalFn.call(this.app.vault, filename, extension, file);
+    if (!(0, import_TAbstractFile3.isNote)(file)) {
+      return (0, import_AttachmentPath3.getAvailablePathForAttachments)(this.app, filename, extension, file, skipFolderCreation ?? false);
     }
     const attachmentFolderFullPath = await getAttachmentFolderFullPathForPath(this, file.path);
-    await (0, import_Vault6.createFolderSafe)(this.app, attachmentFolderFullPath);
-    return this.app.vault.getAvailablePath((0, import_Path7.join)(attachmentFolderFullPath, filename), extension);
+    if (!skipFolderCreation) {
+      await (0, import_Vault5.createFolderSafe)(this.app, attachmentFolderFullPath);
+    }
+    return this.app.vault.getAvailablePath((0, import_Path6.join)(attachmentFolderFullPath, filename), extension);
   }
   getAvailablePath(filename, extension) {
     let suffixNum = 0;
-    while (true) {
-      const path = makeFileName(suffixNum == 0 ? filename : `${filename}${this.settings.duplicateNameSeparator}${suffixNum}`, extension);
+    for (; ; ) {
+      const path = makeFileName(suffixNum == 0 ? filename : `${filename}${this.settings.duplicateNameSeparator}${suffixNum.toString()}`, extension);
       if (!this.app.vault.getAbstractFileByPathInsensitive(path)) {
         return path;
       }
@@ -7670,7 +8387,7 @@ var CustomAttachmentLocationPlugin = class extends import_PluginBase.PluginBase 
     }
   }
   handleFileMenu(menu, file) {
-    if (!(file instanceof import_obsidian5.TFolder)) {
+    if (!(file instanceof import_obsidian4.TFolder)) {
       return;
     }
     menu.addItem((item) => {
@@ -7680,8 +8397,13 @@ var CustomAttachmentLocationPlugin = class extends import_PluginBase.PluginBase 
 };
 
 // src/main.ts
-var __import_meta_url12 = globalThis["import.meta.url"] ?? (() => require("node:url").pathToFileURL(__filename))();
-var __process12 = globalThis["process"] ?? {
+var __import_meta_url11 = globalThis["import.meta.url"] ?? (() => {
+  if (typeof __filename !== "string") {
+    return new URL(window.location.href);
+  }
+  return require("node:url").pathToFileURL(__filename);
+})();
+var __process11 = globalThis["process"] ?? {
   "cwd": () => "/",
   "env": {},
   "platform": "android"
@@ -7690,7 +8412,7 @@ var __process12 = globalThis["process"] ?? {
 
 moment/moment.js:
   (*! moment.js *)
-  (*! version : 2.29.4 *)
+  (*! version : 2.30.1 *)
   (*! authors : Tim Wood, Iskren Chernev, Moment.js contributors *)
   (*! license : MIT *)
   (*! momentjs.com *)

@@ -1,7 +1,7 @@
 ---
 Chapter: 绿湖噩梦
 English: A Nightmare at Green Lake
-Era: 
+Era: 1990年9月
 tags: 
 cssclasses: 
 aliases:
@@ -9,12 +9,13 @@ aliases:
   - A Nightmare at Green Lake
   - 1.2｜绿湖噩梦
 banner: "[[绿湖噩梦.jpg]]"
-海报: "[[1.2版本海报.jpg]]"
+cover: "[[1.2版本海报.jpg]]"
 国际服海报: "[[1.2版本海报｜国际服.jpg]]"
 海报预告: 开始总是轻松平常的。影迷探访传说之地，牙医寻觅新的收藏，古怪的朋友们经历一些坎坷，但最终所愿皆能得偿。故事本该如此，只是……结局难料。不要踏入森林，不要惊动森林，不要离开森林。
 上线版本: "[[绿湖噩梦｜A Nightmare at Green Lake|1.2｜绿湖噩梦]]"
 上线时间: 2023-07-27
 国际服上线时间: 
+Serial: 1.2
 章节起点: 
 章节终点:
 ---
