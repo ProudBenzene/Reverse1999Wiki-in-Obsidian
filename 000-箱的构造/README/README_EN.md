@@ -68,8 +68,7 @@ In terms of layout and information finding, I have also referred to the above we
 
 Out of my love to the game 'Reverse 1999' and Obsidian, I have spent a lot of time and devotion creating and organizing this Wiki library, and I am sharing it for free.
 
-If you appreciate my work and find it meaningful or helpful to you, you can support me with a cup of milk tea through the following ways, and I will also gain more motivation to keep updating and maintaining the vault!🦾
+If you appreciate my work and find it meaningful or helpful to you, you can support me with a cup of milk tea through the following ways (Please note your nicknames and I will show them on the README page as a thank you.), and I will also gain more motivation to keep updating and maintaining the vault!🦾
 
 
-<img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202407041651060.PNG" alt="支持码" style="width: 200px;">
-
+<img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202407041708711.PNG" alt="支持码" style="width: 200px;">
