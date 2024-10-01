@@ -11,6 +11,8 @@ aliases:
   - This Is Tomorrow
   - 序章
 Cover: "[[此即明日.png]]"
+国服海报: "[[此即明日.png]]"
+国际服海报: "[[此即明日.png]]"
 海报寄语: The Storm is coming.
 上线版本: "1.0"
 上线时间: 2023-05-31

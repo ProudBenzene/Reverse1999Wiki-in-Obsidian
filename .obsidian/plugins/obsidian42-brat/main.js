@@ -2374,27 +2374,30 @@ var ThePlugin = class extends import_obsidian11.Plugin {
       }
     };
   }
-  async onload() {
+  onload() {
     console.log("loading " + this.APP_NAME);
-    await this.loadSettings();
-    this.addSettingTab(new BratSettingsTab(this.app, this));
-    addIcons();
-    this.showRibbonButton();
-    this.registerObsidianProtocolHandler("brat", this.obsidianProtocolHandler);
-    this.app.workspace.onLayoutReady(() => {
-      if (this.settings.updateAtStartup) {
+    this.loadSettings().then(() => {
+      this.addSettingTab(new BratSettingsTab(this.app, this));
+      addIcons();
+      this.showRibbonButton();
+      this.registerObsidianProtocolHandler("brat", this.obsidianProtocolHandler);
+      this.app.workspace.onLayoutReady(() => {
+        if (this.settings.updateAtStartup) {
+          setTimeout(() => {
+            void this.betaPlugins.checkForPluginUpdatesAndInstallUpdates(false);
+          }, 6e4);
+        }
+        if (this.settings.updateThemesAtStartup) {
+          setTimeout(() => {
+            void themesCheckAndUpdates(this, false);
+          }, 12e4);
+        }
         setTimeout(() => {
-          void this.betaPlugins.checkForPluginUpdatesAndInstallUpdates(false);
-        }, 6e4);
-      }
-      if (this.settings.updateThemesAtStartup) {
-        setTimeout(() => {
-          void themesCheckAndUpdates(this, false);
-        }, 12e4);
-      }
-      setTimeout(() => {
-        window.bratAPI = this.bratApi;
-      }, 500);
+          window.bratAPI = this.bratApi;
+        }, 500);
+      });
+    }).catch((error) => {
+      console.error("Failed to load settings:", error);
     });
   }
   showRibbonButton() {

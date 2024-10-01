@@ -1902,8 +1902,9 @@ var Suggest = class {
   }
 };
 var TextInputSuggest = class {
-  constructor(inputEl) {
+  constructor(inputEl, plugin) {
     this.inputEl = inputEl;
+    this.plugin = plugin;
     this.scope = new import_obsidian4.Scope();
     this.suggestEl = createDiv("suggestion-container");
     const suggestion = this.suggestEl.createDiv("suggestion");
@@ -1965,7 +1966,7 @@ var TextInputSuggest = class {
 // src/suggesters/FolderSuggester.ts
 var FolderSuggest = class extends TextInputSuggest {
   constructor(inputEl, plugin, folder) {
-    super(inputEl);
+    super(inputEl, plugin);
     this.inputEl = inputEl;
     this.folder = folder;
   }
@@ -2447,12 +2448,42 @@ function loadFileClasses(forceReload = false, plugin) {
     }
   });
 }
+function applyCSSClassesToFolder(folderPath, plugin) {
+  const folder = plugin.app.vault.getAbstractFileByPath(folderPath);
+  if (!folder || !(folder instanceof import_obsidian11.TFolder)) {
+    return;
+  }
+  const excludedFolder = getExcludedFolder(plugin, folder.path);
+  if (excludedFolder == null ? void 0 : excludedFolder.disableFolderNote) {
+    return;
+  }
+  const folderNote = getFolderNote(plugin, folder.path);
+  if (!folderNote) {
+    return;
+  }
+  addCSSClassesToBothFolderAndNote(folderNote, folder, plugin);
+}
+function addCSSClassesToBothFolderAndNote(file, folder, plugin) {
+  addCSSClassToFolderNote(file);
+  addCSSClassesToFolder(folder, plugin);
+}
+function addCSSClassesToFolder(folder, plugin) {
+  addCSSClassToTitleEL(folder.path, "has-folder-note");
+  if (plugin.isEmptyFolderNoteFolder(folder)) {
+    addCSSClassToTitleEL(folder.path, "only-has-folder-note");
+  } else {
+    removeCSSClassFromEL(folder.path, "only-has-folder-note");
+  }
+}
+function addCSSClassToFolderNote(file) {
+  addCSSClassToTitleEL(file.path, "is-folder-note");
+}
 async function addCSSClassToTitleEL(path, cssClass, waitForCreate = false, count = 0) {
   const fileExplorerItem = getEl(path);
   if (!fileExplorerItem) {
     if (waitForCreate && count < 5) {
       await new Promise((r) => setTimeout(r, 500));
-      this.addCSSClassToTitleEL(path, cssClass, waitForCreate, count + 1);
+      addCSSClassToTitleEL(path, cssClass, waitForCreate, count + 1);
       return;
     }
     return;
@@ -3005,7 +3036,7 @@ var ConfirmationModal = class extends import_obsidian15.Modal {
 var import_obsidian16 = require("obsidian");
 var TemplateSuggest = class extends TextInputSuggest {
   constructor(inputEl, plugin) {
-    super(inputEl);
+    super(inputEl, plugin);
     this.inputEl = inputEl;
   }
   get_error_msg(mode) {
@@ -5068,10 +5099,13 @@ async function addObserver(plugin) {
     mutations.forEach((rec) => {
       if (rec.type === "childList") {
         rec.target.querySelectorAll("div.nav-folder-title-content").forEach((element) => {
+          var _a;
           if (element.onclick)
             return;
           if (import_obsidian27.Platform.isMobile && plugin.settings.disableOpenFolderNoteOnClick)
             return;
+          const folderPath = ((_a = element.parentElement) == null ? void 0 : _a.getAttribute("data-path")) || "";
+          const apply = applyCSSClassesToFolder(folderPath, plugin);
           element.addEventListener("auxclick", (event) => {
             if (event.button == 1) {
               handleFolderClick(event, plugin);
@@ -5079,15 +5113,15 @@ async function addObserver(plugin) {
           }, { capture: true });
           element.onclick = (event) => handleFolderClick(event, plugin);
           plugin.registerDomEvent(element, "pointerover", (event) => {
-            var _a, _b;
+            var _a2, _b;
             plugin.hoveredElement = element;
             plugin.mouseEvent = event;
             if (!import_obsidian27.Keymap.isModEvent(event))
               return;
             if (!(event.target instanceof HTMLElement))
               return;
-            const folderPath = ((_b = (_a = event == null ? void 0 : event.target) == null ? void 0 : _a.parentElement) == null ? void 0 : _b.getAttribute("data-path")) || "";
-            const folderNote = getFolderNote(plugin, folderPath);
+            const folderPath2 = ((_b = (_a2 = event == null ? void 0 : event.target) == null ? void 0 : _a2.parentElement) == null ? void 0 : _b.getAttribute("data-path")) || "";
+            const folderNote = getFolderNote(plugin, folderPath2);
             if (!folderNote)
               return;
             plugin.app.workspace.trigger("hover-link", {

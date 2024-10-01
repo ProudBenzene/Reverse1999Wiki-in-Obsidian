@@ -10,6 +10,8 @@ aliases:
   - 故事一无所有
   - Nouvelles et Textes pour Rien
 Cover: "[[故事一无所有.png]]"
+国服海报: "[[故事一无所有.png]]"
+国际服海报: "[[故事一无所有.png]]"
 海报寄语: Have a nice dream.
 上线版本: "1.0"
 上线时间: 2023-05-31

@@ -8,6 +8,7 @@ kanban-plugin: list
 
 - [ ] 更完善的时间轴
 - [ ] 剧情填补
+- [ ] 种族标签
 
 
 ## Done

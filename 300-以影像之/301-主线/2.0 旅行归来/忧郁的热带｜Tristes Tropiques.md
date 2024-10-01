@@ -1,7 +1,7 @@
 ---
 Chapter: 忧郁的热带
 English: Tristes Tropiques
-Era: 
+Era: "1990"
 tags:
   - 主线
 cssclasses:
@@ -9,12 +9,16 @@ cssclasses:
 aliases:
   - 忧郁的热带
   - Tristes Tropiques
-Cover: '[[忧郁的热带.png]]'
+Cover: "[[忧郁的热带.png]]"
 海报寄语: 
-上线版本: 
+国服海报: "[[2.2版本海报.jpg]]"
+国际服海报: 
+上线版本: "[[忧郁的热带｜Tristes Tropiques]]"
 上线时间: ""
 章节起点: 
 章节终点: 
-Serial:
+Serial: 2.2
 ---
-![cover](assets/忧郁的热带｜Tristes%20Tropiques.assets/2.2版本海报.jpg)
+![cover](assets/忧郁的热带｜Tristes%20Tropiques.assets/忧郁的热带.png)
+
+![](assets/忧郁的热带｜Tristes%20Tropiques.assets/2.2版本海报.jpg)

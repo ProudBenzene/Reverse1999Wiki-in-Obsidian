@@ -11,6 +11,8 @@ aliases:
   - El Oro de los Tigres
 Cover: "[[老虎的金黄.png]]"
 海报寄语: Happy birthday to you.
+国服海报: "[[老虎的金黄.png]]"
+国际服海报: "[[老虎的金黄.png]]"
 上线版本: "1.0"
 上线时间: 2023-05-31
 章节起点: 1913-08-26T06:11:00

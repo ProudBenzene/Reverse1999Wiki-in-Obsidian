@@ -101,10 +101,6 @@ banner_header: "{{filename}}"
 
 ## 单品
 
-![利齿子儿|inlL](../../000-箱的构造/assets/UTTU人物合辑.assets/货币%20利齿子儿.png)
-
-![纯雨滴|inlL](../../000-箱的构造/assets/UTTU人物合辑.assets/货币%20纯雨滴.png)
-
 ### 洞二衣着
 
 ````ad-flex
