@@ -43,20 +43,25 @@
       "enabled": true,
       "date-created": true,
       "date-created-key": "dateCreated",
-      "force-retention-of-create-value": false,
       "date-modified": true,
       "date-modified-key": "dateModified",
-      "format": "YYYY-MM-DD"
+      "format": "YYYY-MM-DD",
+      "date-created-source-of-truth": "file system",
+      "date-modified-source-of-truth": "file system",
+      "convert-to-utc": false,
+      "update-on-file-contents-updated": "never"
     },
     "yaml-title": {
       "enabled": false,
-      "title-key": "title"
+      "title-key": "title",
+      "mode": "first-h1-or-filename-if-h1-missing"
     },
     "yaml-title-alias": {
       "enabled": true,
       "preserve-existing-alias-section-style": true,
       "keep-alias-that-matches-the-filename": false,
-      "use-yaml-key-to-keep-track-of-old-filename-or-heading": false
+      "use-yaml-key-to-keep-track-of-old-filename-or-heading": false,
+      "alias-helper-key": "linter-yaml-title-alias"
     },
     "capitalize-headings": {
       "enabled": true,
@@ -90,7 +95,9 @@
     },
     "auto-correct-common-misspellings": {
       "enabled": true,
-      "ignore-words": ""
+      "ignore-words": "",
+      "skip-words-with-multiple-capitals": false,
+      "extra-auto-correct-files": []
     },
     "convert-bullet-list-markers": {
       "enabled": true
@@ -100,7 +107,8 @@
       "style": "consistent"
     },
     "no-bare-urls": {
-      "enabled": false
+      "enabled": false,
+      "no-bare-uris": false
     },
     "ordered-list-style": {
       "enabled": true,
@@ -127,7 +135,8 @@
       "style": "consistent"
     },
     "two-spaces-between-lines-with-content": {
-      "enabled": false
+      "enabled": false,
+      "line-break-indicator": "  "
     },
     "unordered-list-style": {
       "enabled": true,
@@ -187,7 +196,9 @@
       "enabled": true
     },
     "space-between-chinese-japanese-or-korean-and-english-or-numbers": {
-      "enabled": true
+      "enabled": true,
+      "english-symbols-punctuation-before": "-+;:'\"°%$)]",
+      "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
       "enabled": true,
@@ -254,6 +265,9 @@
       "sort-array-keys": true,
       "ignore-keys": "",
       "sort-order": "Ascending Alphabetical"
+    },
+    "empty-line-around-horizontal-rules": {
+      "enabled": false
     }
   },
   "lintOnSave": true,
@@ -265,6 +279,7 @@
   "foldersToIgnore": [
     "插件/"
   ],
+  "filesToIgnore": [],
   "linterLocale": "en",
   "logLevel": "ERROR",
   "lintCommands": [],

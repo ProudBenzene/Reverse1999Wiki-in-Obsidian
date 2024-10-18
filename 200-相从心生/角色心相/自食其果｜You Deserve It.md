@@ -1,7 +1,7 @@
 ---
 Name: 自食其果
 exonym: You Deserve It
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags:
   - 限定
 cssclasses:
@@ -14,7 +14,7 @@ cssclasses:
 人物:
   - "[[../../100-UTTU人物合辑/神秘学家｜Arcanists/拉拉泉｜La Source|拉拉泉]]"
 轶事: "[[../../300-以影像之/304-轶事/拉拉泉·只有泉水知道|拉拉泉·只有泉水知道]]"
-实装版本: 
+实装版本:
 aliases:
   - 自食其果
   - You Deserve It

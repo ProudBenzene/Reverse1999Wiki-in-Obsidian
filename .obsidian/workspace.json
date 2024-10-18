@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "主页"
+              "title": "天使娜娜｜Anjo Nala"
             }
           },
           {
@@ -125,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,7 +182,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "主页 的关系图"
+              "title": "天使娜娜｜Anjo Nala 的关系图"
             }
           }
         ]
@@ -206,10 +206,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "000-箱的构造/主页.md"
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala.md"
               },
               "icon": "lucide-info",
-              "title": "主页的笔记属性"
+              "title": "天使娜娜｜Anjo Nala的笔记属性"
             }
           },
           {
@@ -283,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "主页 的反向链接列表"
+              "title": "天使娜娜｜Anjo Nala 的反向链接列表"
             }
           },
           {
@@ -302,12 +302,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "主页 的出链列表"
+              "title": "天使娜娜｜Anjo Nala 的出链列表"
             }
           }
         ],
@@ -319,9 +319,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "obsidian-projects:打开项目": false,
       "obsidian-kanban:创建新看板": false,
+      "obsidian-git:Open Git source control": false,
       "daily-notes:打开/创建今天的日记": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
@@ -342,52 +342,52 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "300-以影像之/304-轶事/37·乘法轴上的一天.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "000-箱的构造/主页.md",
+    "测试.md",
+    "100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala.md",
+    "400-箱外世界/暴雨时间线.md",
     "游戏文件解包说明.md",
-    "000-箱的构造/箱中memos/20241001-ec8a71dc56419b82.md",
-    "000-箱的构造/箱中memos/20241001-bfff6987b5e6979d.md",
-    "000-箱的构造/箱中memos/20241001-3c3097e17d178b60.md",
-    "000-箱的构造/箱中memos/20241001-249b26822cc0a7aa.md",
-    "000-箱的构造/箱中memos/20241001-c0d7142b275402e9.md",
-    "000-箱的构造/箱中memos/20241001-202abe8d974c9921.md",
-    "000-箱的构造/箱中memos/20241001-649ec7a0dd6ec999.md",
-    "000-箱的构造/箱中memos/20241001-8238a5a296c4d23a.md",
-    "000-箱的构造/箱中memos/20241001-fa2eca9de2a3ec8a.md",
-    "000-箱的构造/箱中memos/20241001-56dc41904805fcbe.md",
-    "000-箱的构造/箱中memos/20241001-c6434ddc648ea117.md",
-    "000-箱的构造/箱中memos/20241001-dfb43cfeb1bc43f2.md",
-    "000-箱的构造/箱中memos/20241001-ca7e13d1b58a4f0b.md",
-    "000-箱的构造/箱中memos/20241001-f847ae336f602cd7.md",
-    "000-箱的构造/箱中memos/20241001-9137d5417cd4c4bc.md",
-    "000-箱的构造/箱中memos/20241001-389c78d0721b47af.md",
-    "000-箱的构造/箱中memos/20241001-4a0ae662abcd0891.md",
-    "000-箱的构造/箱中memos/20241001-02a215853aa32058.md",
-    "000-箱的构造/箱中memos/20241001-08cb114a98845c6d.md",
-    "000-箱的构造/箱中memos/20241001-288152101d5036e8.md",
-    "000-箱的构造/箱中memos/20241001-864a481567638e3f.md",
-    "000-箱的构造/箱中memos/20241001-ca1ae5895d7f047c.md",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/至终的仪式 驶向大海？驶向天空！.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/神秘术 左舷开火3.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/神秘术 左舷开火1.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/神秘术 左舷开火2.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/神秘术 跳帮预备3.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/神秘术 跳帮预备2.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/神秘术 跳帮预备1.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/一阶神秘术.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/二阶神秘术.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets/三阶神秘术.png",
+    "000-箱的构造/箱中memos/20241017-8e60a6c08ae585af.md",
+    "200-相从心生/角色心相/留置心底｜The Severed and the Rest.md",
+    "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets/心相 留置心底.png",
+    "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets",
+    "000-箱的构造/常用工具.md",
+    "200-相从心生/角色心相/落于现象｜Falling for a Sweet Phenomenon.md",
+    "200-相从心生/角色心相/assets/落于现象｜Falling for a Sweet Phenomenon.assets/心相 落于现象.png",
+    "200-相从心生/角色心相/assets/落于现象｜Falling for a Sweet Phenomenon.assets",
+    "200-相从心生/角色心相/第三次信任｜The Third Commitment.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/洛佩拉｜Lopera.md",
+    "200-相从心生/角色心相/assets/第三次信任｜The Third Commitment.assets/心相 第三次信任.png",
+    "200-相从心生/角色心相/assets/第三次信任｜The Third Commitment.assets",
+    "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 03.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/至终的仪式 杂学炼金术.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/神秘术 致胜筹码1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/神秘术 致胜筹码2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets",
+    "1999 Wiki&Note Obsidian Vault.md",
+    "000-箱的构造/箱中memos/20241003-fb5a0ab35be412f4.md",
+    "000-箱的构造/箱中memos/20241003-43ede8c6e9541983.md",
+    "000-箱的构造/箱中memos/20241003-ebcdce295c0e5dc9.md",
+    "000-箱的构造/箱中memos/20241003-b7c20d81118ab174.md",
+    "000-箱的构造/箱中memos/20241003-bd2b4f11e4f3dfaf.md",
+    "000-箱的构造/箱中memos/20241003-aaf87b794ecf5d8a.md",
+    "000-箱的构造/箱中memos/20241003-9f8f08bc2eef00d2.md",
+    "000-箱的构造/箱中memos/20241003-24c48b2d196b3dd0.md",
+    "000-箱的构造/箱中memos/20241003-909ee6a56809b31c.md",
+    "000-箱的构造/箱中memos/20241003-6268eca5ebce0d6d.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
+    "300-以影像之/304-轶事/拉拉泉·只有泉水知道.md",
+    "300-以影像之/304-轶事/assets/37·乘法轴上的一天.assets",
+    "300-以影像之/304-轶事/assets/拉拉泉·只有泉水知道.assets",
+    "300-以影像之/304-轶事/assets/挖掘艺术·当和平盛放.assets",
+    "300-以影像之/304-轶事/assets/金蜜儿·起火点.assets",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets",
     "100-UTTU人物合辑/人类｜Human/assets/邓肯先生｜Mr. Duncan.assets",
-    "100-UTTU人物合辑/超自然者｜Beyond/assets/天使娜娜｜Anjo Nala.assets",
-    "200-相从心生/角色心相/assets/非物质真情｜Transcendent Love.assets",
-    "200-相从心生/角色心相/assets/寻入夜深处｜Stray Off the Path.assets",
-    "200-相从心生/角色心相/assets/女佣看见了｜And the Maid Says.assets",
-    "200-相从心生/角色心相/assets/无人问津｜The Unknown Artist.assets",
-    "200-相从心生/角色心相/assets/绘声绘色｜Spinning Yarns.assets",
-    "200-相从心生/角色心相/assets/自食其果｜You Deserve It.assets",
-    "300-以影像之/301-主线/2.0 旅行归来/assets/忧郁的热带｜Tristes Tropiques1.assets",
     "未命名.canvas",
     "白板.canvas"
   ]

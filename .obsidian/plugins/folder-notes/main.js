@@ -5658,6 +5658,9 @@ var FolderNotesPlugin = class extends import_obsidian33.Plugin {
     if (this.settings.hideCollapsingIcon) {
       document.body.classList.add("fn-hide-collapse-icon");
     }
+    if ((0, import_obsidian33.requireApiVersion)("1.7.2")) {
+      document.body.classList.add("version-1-7-2");
+    }
     new Commands(this.app, this).registerCommands();
     this.app.workspace.onLayoutReady(() => {
       if (this.settings.frontMatterTitle.enabled) {
