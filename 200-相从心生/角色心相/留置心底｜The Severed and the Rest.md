@@ -12,8 +12,8 @@ cssclasses:
 心相: "[[心相 留置心底.png]]"
 人物:
   - "[[小梅斯梅尔｜Mesmer Jr.|小梅斯梅尔]]"
-轶事: 
-实装版本: 
+轶事: "[[小梅斯梅尔｜Mesmer Jr.|小梅斯梅尔]]"
+实装版本: "[[忧郁的热带｜Tristes Tropiques|2.2｜忧郁的热带]]"
 aliases:
   - 留置心底
   - The Severed and the Rest

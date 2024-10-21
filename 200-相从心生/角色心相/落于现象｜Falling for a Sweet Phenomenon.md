@@ -13,8 +13,8 @@ cssclasses:
 心相: "[[心相 落于现象.png]]"
 人物:
   - "[[37｜Thirty-seven|37]]"
-轶事: 
-实装版本: 
+轶事: "[[37·乘法轴上的一天]]"
+实装版本: "[[忧郁的热带｜Tristes Tropiques|2.2｜忧郁的热带]]"
 aliases:
   - 落于现象
   - Falling for a Sweet Phenomenon

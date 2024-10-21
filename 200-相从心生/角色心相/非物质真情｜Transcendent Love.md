@@ -13,7 +13,7 @@ cssclasses:
 人物:
   - "[[../../100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala|天使娜娜]]"
 轶事: 
-实装版本: 
+实装版本: "[[忧郁的热带｜Tristes Tropiques|2.2｜忧郁的热带]]"
 aliases:
   - 非物质真情
   - Transcendent Love

@@ -16,7 +16,37 @@
                 "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "主页"
+            }
+          },
+          {
+            "id": "917bb8ea6a214e86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/304-轶事/37·乘法轴上的一天.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "37·乘法轴上的一天"
+            }
+          },
+          {
+            "id": "fc66be7060ba16b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/301-主线/2.0 旅行归来/忧郁的热带｜Tristes Tropiques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "忧郁的热带｜Tristes Tropiques"
             }
           },
           {
@@ -28,7 +58,9 @@
                 "file": "400-箱外世界/暴雨时间线.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "暴雨时间线"
             }
           },
           {
@@ -40,7 +72,9 @@
                 "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "自动化创建角色档案"
             }
           },
           {
@@ -48,10 +82,13 @@
             "type": "leaf",
             "state": {
               "type": "obsidian-projects",
-              "state": {}
+              "state": {},
+              "icon": "projects-icon",
+              "title": "Projects"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +109,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -87,7 +126,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -95,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -111,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/304-轶事/37·乘法轴上的一天.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,7 +209,9 @@
                   "scale": 0.6847167020791121,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "37·乘法轴上的一天 的关系图"
             }
           }
         ]
@@ -191,7 +236,9 @@
               "type": "file-properties",
               "state": {
                 "file": "000-箱的构造/主页.md"
-              }
+              },
+              "icon": "lucide-info",
+              "title": "主页的笔记属性"
             }
           },
           {
@@ -199,7 +246,9 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           },
           {
@@ -207,11 +256,13 @@
             "type": "leaf",
             "state": {
               "type": "calendar-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-calendar-check",
+              "title": "日历"
             }
           },
           {
-            "id": "7e19e0d538392144",
+            "id": "358cd352ed547cb3",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -219,17 +270,21 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
-            "id": "a0e70681917373d5",
+            "id": "cc86d662b3ed3233",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
                 "file": "000-箱的构造/主页.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "主页 的大纲"
             }
           }
         ],
@@ -245,7 +300,9 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
-              "state": {}
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           },
           {
@@ -257,7 +314,9 @@
                 "file": "000-箱的构造/常用工具.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "常用工具"
             }
           },
           {
@@ -268,7 +327,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -285,7 +346,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "主页 的反向链接列表"
             }
           },
           {
@@ -297,7 +360,9 @@
                 "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "主页 的出链列表"
             }
           }
         ],
@@ -309,9 +374,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "obsidian-projects:打开项目": false,
       "obsidian-kanban:创建新看板": false,
+      "obsidian-git:Open Git source control": false,
       "daily-notes:打开/创建今天的日记": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
@@ -330,54 +395,53 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "917bb8ea6a214e86",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/超自然者｜Beyond/天使娜娜｜Anjo Nala.md",
+    "300-以影像之/304-轶事/~syncthing~小梅斯梅尔·长夜未逝.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20241020-161590ac30d51b30.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20241020-97080d8d8f55e32b.md.tmp",
+    "000-箱的构造/箱中memos/~syncthing~20241020-4fcee446c003a9c2.md.tmp",
+    "000-箱的构造/箱中memos/20241020-6829d7b16f62e048.md",
+    "000-箱的构造/箱中memos/~syncthing~20241020-6829d7b16f62e048.md.tmp",
+    "000-箱的构造/箱中memos/20241020-97080d8d8f55e32b.md",
+    "000-箱的构造/箱中memos/20241020-4fcee446c003a9c2.md",
+    "000-箱的构造/箱中memos/20241020-161590ac30d51b30.md",
+    "000-箱的构造/箱中memos/~syncthing~20241020-05d9b7c259f7434d.md.tmp",
+    "000-箱的构造/箱中memos/20241020-05d9b7c259f7434d.md",
+    "300-以影像之/304-轶事/小梅斯梅尔·长夜未逝.md",
+    "300-以影像之/301-主线/2.0 旅行归来/忧郁的热带｜Tristes Tropiques.md",
     "000-箱的构造/主页.md",
+    "300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway.md",
+    "300-以影像之/304-轶事/assets/小梅斯梅尔·长夜未逝.assets/头图 长夜未逝.png",
+    "300-以影像之/304-轶事/assets/小梅斯梅尔·长夜未逝.assets/封面 长夜未逝.png",
+    "300-以影像之/304-轶事/assets/小梅斯梅尔·长夜未逝.assets",
     "游戏文件解包说明.md",
-    "000-箱的构造/箱中memos/20241017-8e60a6c08ae585af.md",
-    "200-相从心生/角色心相/留置心底｜The Severed and the Rest.md",
+    "000-箱的构造/箱中memos/20241020-1f898585add81b9f.md",
+    "000-箱的构造/箱中memos/20241020-acb86c0838679eb0.md",
+    "000-箱的构造/箱中memos/20241020-22dce88015ad9c02.md",
+    "000-箱的构造/箱中memos/20241020-1f339b89f8ef89b2.md",
+    "000-箱的构造/箱中memos/20241020-f2e3ba3f408bcda7.md",
+    "000-箱的构造/箱中memos/20241020-856d0ba6ed320704.md",
+    "000-箱的构造/箱中memos/20241020-b3245cc51fe6e9d1.md",
+    "000-箱的构造/箱中memos/20241020-38b9c80025ea7888.md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/箱中memos/20241020-3fdf56ebb8d636be.md",
+    "000-箱的构造/箱中memos/20241020-fda77990096c51ae.md",
+    "000-箱的构造/箱中memos/20241020-0337b7d326f8017e.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/洛佩拉｜Lopera.md",
+    "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
+    "300-以影像之/302-支线/302-支线.md",
+    "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets/2.0版本海报｜国际服.jpg",
+    "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets/2.0版本海报国际服.jpg",
     "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets/心相 留置心底.png",
     "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets",
-    "000-箱的构造/常用工具.md",
-    "200-相从心生/角色心相/落于现象｜Falling for a Sweet Phenomenon.md",
     "200-相从心生/角色心相/assets/落于现象｜Falling for a Sweet Phenomenon.assets/心相 落于现象.png",
     "200-相从心生/角色心相/assets/落于现象｜Falling for a Sweet Phenomenon.assets",
-    "200-相从心生/角色心相/第三次信任｜The Third Commitment.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/洛佩拉｜Lopera.md",
     "200-相从心生/角色心相/assets/第三次信任｜The Third Commitment.assets/心相 第三次信任.png",
     "200-相从心生/角色心相/assets/第三次信任｜The Third Commitment.assets",
     "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/至终的仪式 杂学炼金术.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/神秘术 致胜筹码1.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/神秘术 致胜筹码2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets",
-    "1999 Wiki&Note Obsidian Vault.md",
-    "300-以影像之/304-轶事/37·乘法轴上的一天.md",
-    "000-箱的构造/箱中memos/20241003-fb5a0ab35be412f4.md",
-    "000-箱的构造/箱中memos/20241003-43ede8c6e9541983.md",
-    "000-箱的构造/箱中memos/20241003-ebcdce295c0e5dc9.md",
-    "000-箱的构造/箱中memos/20241003-b7c20d81118ab174.md",
-    "000-箱的构造/箱中memos/20241003-bd2b4f11e4f3dfaf.md",
-    "000-箱的构造/箱中memos/20241003-aaf87b794ecf5d8a.md",
-    "000-箱的构造/箱中memos/20241003-9f8f08bc2eef00d2.md",
-    "000-箱的构造/箱中memos/20241003-24c48b2d196b3dd0.md",
-    "000-箱的构造/箱中memos/20241003-909ee6a56809b31c.md",
-    "000-箱的构造/箱中memos/20241003-6268eca5ebce0d6d.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
-    "300-以影像之/304-轶事/拉拉泉·只有泉水知道.md",
-    "300-以影像之/304-轶事/assets/37·乘法轴上的一天.assets",
-    "300-以影像之/304-轶事/挖掘艺术·当和平盛放.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/挖掘艺术｜Diggers.md",
-    "300-以影像之/304-轶事/塞梅尔维斯·第三种苏醒.md",
-    "300-以影像之/304-轶事/assets/拉拉泉·只有泉水知道.assets",
-    "300-以影像之/304-轶事/assets/挖掘艺术·当和平盛放.assets",
-    "300-以影像之/304-轶事/assets/金蜜儿·起火点.assets",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/白朗姆｜White Rum.assets",
-    "100-UTTU人物合辑/人类｜Human/assets/邓肯先生｜Mr. Duncan.assets",
     "未命名.canvas",
     "白板.canvas"
   ]

@@ -231,32 +231,6 @@
               "icon": "lucide-calendar-check",
               "title": "日历"
             }
-          },
-          {
-            "id": "76c0ebf84795a51a",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "6dd3e76ba29b15ef",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md"
-              },
-              "icon": "lucide-list",
-              "title": "主页 的大纲"
-            }
           }
         ],
         "currentTab": 1
@@ -368,7 +342,6 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/~syncthing~留置心底｜The Severed and the Rest.md.tmp",
     "200-相从心生/角色心相/~syncthing~落于现象｜Falling for a Sweet Phenomenon.md.tmp",
     "200-相从心生/角色心相/~syncthing~第三次信任｜The Third Commitment.md.tmp",
     "200-相从心生/角色心相/~syncthing~非物质真情｜Transcendent Love.md.tmp",
@@ -409,6 +382,7 @@
     "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets/2.0版本海报｜国际服.jpg",
     "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets/2.0版本海报国际服.jpg",
     "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets/心相 留置心底.png",
+    "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets",
     "200-相从心生/角色心相/assets/落于现象｜Falling for a Sweet Phenomenon.assets/心相 落于现象.png",
     "200-相从心生/角色心相/assets/第三次信任｜The Third Commitment.assets/心相 第三次信任.png",
     "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",

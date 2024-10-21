@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "917bb8ea6a214e86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/304-轶事/37·乘法轴上的一天.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "37·乘法轴上的一天"
+            }
+          },
+          {
+            "id": "fc66be7060ba16b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/301-主线/2.0 旅行归来/忧郁的热带｜Tristes Tropiques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "忧郁的热带｜Tristes Tropiques"
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,7 +87,8 @@
               "title": "Projects"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "300-以影像之/304-轶事/37·乘法轴上的一天.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,7 +211,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "主页 的关系图"
+              "title": "37·乘法轴上的一天 的关系图"
             }
           }
         ]
@@ -233,7 +262,7 @@
             }
           },
           {
-            "id": "76c0ebf84795a51a",
+            "id": "358cd352ed547cb3",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -247,7 +276,7 @@
             }
           },
           {
-            "id": "6dd3e76ba29b15ef",
+            "id": "cc86d662b3ed3233",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -366,13 +395,8 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "917bb8ea6a214e86",
   "lastOpenFiles": [
-    "200-相从心生/角色心相/~syncthing~留置心底｜The Severed and the Rest.md.tmp",
-    "200-相从心生/角色心相/~syncthing~落于现象｜Falling for a Sweet Phenomenon.md.tmp",
-    "200-相从心生/角色心相/~syncthing~第三次信任｜The Third Commitment.md.tmp",
-    "200-相从心生/角色心相/~syncthing~非物质真情｜Transcendent Love.md.tmp",
-    "300-以影像之/304-轶事/37·乘法轴上的一天.md",
     "300-以影像之/304-轶事/~syncthing~小梅斯梅尔·长夜未逝.md.tmp",
     "000-箱的构造/箱中memos/~syncthing~20241020-161590ac30d51b30.md.tmp",
     "000-箱的构造/箱中memos/~syncthing~20241020-97080d8d8f55e32b.md.tmp",
@@ -406,11 +430,15 @@
     "000-箱的构造/箱中memos/20241020-0337b7d326f8017e.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/洛佩拉｜Lopera.md",
     "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
+    "300-以影像之/302-支线/302-支线.md",
     "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets/2.0版本海报｜国际服.jpg",
     "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets/2.0版本海报国际服.jpg",
     "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets/心相 留置心底.png",
+    "200-相从心生/角色心相/assets/留置心底｜The Severed and the Rest.assets",
     "200-相从心生/角色心相/assets/落于现象｜Falling for a Sweet Phenomenon.assets/心相 落于现象.png",
+    "200-相从心生/角色心相/assets/落于现象｜Falling for a Sweet Phenomenon.assets",
     "200-相从心生/角色心相/assets/第三次信任｜The Third Commitment.assets/心相 第三次信任.png",
+    "200-相从心生/角色心相/assets/第三次信任｜The Third Commitment.assets",
     "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛佩拉｜Lopera.assets/单品 洛佩拉 02.png",

@@ -14,7 +14,7 @@ cssclasses:
 人物:
   - "[[洛佩拉｜Lopera|洛佩拉]]"
 轶事: 
-实装版本: 
+实装版本: "[[忧郁的热带｜Tristes Tropiques|2.2｜忧郁的热带]]"
 aliases:
   - 第三次信任
   - The Third Commitment

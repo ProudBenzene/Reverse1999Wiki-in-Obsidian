@@ -9,6 +9,7 @@ cssclasses:
 aliases:
   - 忧郁的热带
   - Tristes Tropiques
+  - 2.2｜忧郁的热带
 Cover: "[[忧郁的热带.png]]"
 海报寄语: 
 国服海报: "[[2.2版本海报.jpg]]"
