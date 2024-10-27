@@ -10,8 +10,9 @@ cssclasses:
 心相标签:
   - 攻击
 心相: "[[心相 沉默与向往.png]]"
-人物: "[[柏林以东]]"
-实装版本: 1.4｜洞穴的囚徒
+人物:
+  - "[[柏林以东｜Bkornblume|柏林以东]]"
+实装版本: "[[洞穴的囚徒｜The Prisoner in the Cave|1.4｜洞穴的囚徒]]"
 aliases:
   - 沉默与向往
   - Silent and Adoring

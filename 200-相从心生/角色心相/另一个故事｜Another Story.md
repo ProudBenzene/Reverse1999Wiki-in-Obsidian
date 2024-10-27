@@ -10,8 +10,9 @@ cssclasses:
 心相标签:
   - 攻击
 心相: "[[心相 另一个故事.png]]"
-人物: "[[马库斯｜Marcus|马库斯]]"
-实装版本: 1.7｜今夜星光灿烂
+人物:
+  - "[[马库斯｜Marcus|马库斯]]"
+实装版本: "[[今夜星光灿烂｜E lucevan le stelle|1.7｜今夜星光灿烂]]"
 aliases:
   - 另一个故事
   - Another Story

@@ -11,8 +11,8 @@
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
-        "Ctrl",
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "T"
     }
@@ -51,5 +51,6 @@
       ],
       "key": "I"
     }
-  ]
+  ],
+  "workspace:undo-close-pane": []
 }

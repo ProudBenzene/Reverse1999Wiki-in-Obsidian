@@ -726,7 +726,7 @@
   "a-unique-id@@cards-columns-gap": 5,
   "a-unique-id@@cards-row-gap": 5,
   "a-unique-id@@cards-border-width": 2,
-  "a-unique-id@@cards-image-fit": "contain",
+  "a-unique-id@@cards-image-fit": "cover",
   "a-unique-id@@cards-image-radius": 8,
   "a-unique-id@@cards-border-color": "#756351",
   "a-unique-id@@cards-min-width": 175,

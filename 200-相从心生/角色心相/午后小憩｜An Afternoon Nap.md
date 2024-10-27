@@ -10,7 +10,8 @@ cssclasses:
   - 攻击
   - 暴击
 心相: "[[心相 午后小憩.png]]"
-人物: "[[AppLe]]"
+人物:
+  - "[[APPLe｜APPLe|APPLe]]"
 实装版本: "1.0"
 aliases:
   - 午后小憩

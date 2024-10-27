@@ -14,7 +14,7 @@ cssclasses:
 人物:
   - "[[星之眼｜aliEn T|星之眼]]"
 轶事: 星之眼 · 庸碌喜剧
-实装版本: 1.6｜朔日手记
+实装版本: "[[朔日手记｜Notes on Shuori|1.6｜朔日手记]]"
 aliases:
   - 茶歇时间
   - Tea Break

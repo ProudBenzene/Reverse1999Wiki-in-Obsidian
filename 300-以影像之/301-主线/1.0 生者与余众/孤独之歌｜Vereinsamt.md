@@ -11,6 +11,7 @@ aliases:
   - 孤独之歌
   - Vereinsamt
   - 终章
+  - 1.9｜孤独之歌
 Cover: "[[孤独之歌.png]]"
 海报寄语: We are all lonely.
 国服海报: "[[1.9版本海报.jpg]]"

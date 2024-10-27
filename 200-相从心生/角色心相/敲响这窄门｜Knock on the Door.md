@@ -10,8 +10,9 @@ cssclasses:
 心相标签:
   - 暴击
 心相: "[[心相 敲响这窄门.png]]"
-人物: "[[伊索尔德｜Isolde|伊索尔德]]"
-实装版本: 1.7｜今夜星光灿烂
+人物:
+  - "[[伊索尔德｜Isolde|伊索尔德]]"
+实装版本: "[[今夜星光灿烂｜E lucevan le stelle|1.7｜今夜星光灿烂]]"
 aliases:
   - 敲响这窄门
   - Knock on the Door

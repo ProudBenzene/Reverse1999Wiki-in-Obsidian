@@ -2,16 +2,17 @@
 Name: 夜夜亦然
 exonym: Night After Night
 星级: ✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 仪式威力
 心相标签:
   - 攻击
 心相: "[[心相 夜夜亦然.png]]"
-人物: "[[温妮弗雷德｜Eternity|温妮弗雷德]]"
+人物:
+  - "[[温妮弗雷德｜Eternity|温妮弗雷德]]"
 轶事: "[[温妮弗雷德·致温妮弗雷德|温妮弗雷德·致温妮弗雷德]]"
-实装版本: 1.8｜再见，来亚什基
+实装版本: "[[再见，来亚什基｜Farewell, Rayashki|1.8｜再见，来亚什基]]"
 aliases:
   - 夜夜亦然
   - Night After Night

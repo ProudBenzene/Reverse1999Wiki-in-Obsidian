@@ -9,6 +9,7 @@ cssclasses:
 aliases:
   - 洞穴的囚徒
   - The Prisoner in the Cave
+  - 1.4｜洞穴的囚徒
 Cover: "[[洞穴的囚徒.png]]"
 海报寄语: Who led us to the exile in this cave.
 国服海报: "[[1.4版本海报.jpg]]"

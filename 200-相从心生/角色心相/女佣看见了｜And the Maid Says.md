@@ -11,7 +11,7 @@ cssclasses:
   - 暴击
 心相: "[[心相 女佣看见了.png]]"
 人物:
-  - "[[../../100-UTTU人物合辑/神秘学家｜Arcanists/蓝手帕｜Tuesday|蓝手帕]]"
+  - "[[蓝手帕｜Tuesday|蓝手帕]]"
 轶事: 
 实装版本: "[[../../300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
 aliases:

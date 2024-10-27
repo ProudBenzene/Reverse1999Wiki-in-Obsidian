@@ -10,8 +10,9 @@ cssclasses:
 心相标签:
   - 攻击
 心相: "[[心相 漫长悄悄话.png]]"
-人物: "[[可燃点｜Spathodea|可燃点]]"
-实装版本: 1.5｜复兴！乌卢鲁运动会
+人物:
+  - "[[可燃点｜Spathodea|可燃点]]"
+实装版本: "[[复兴！乌卢鲁运动会｜Revival! The Uluru Games|1.5｜复兴！乌卢鲁运动会]]"
 aliases:
   - 漫长悄悄话
   - Her Second Life

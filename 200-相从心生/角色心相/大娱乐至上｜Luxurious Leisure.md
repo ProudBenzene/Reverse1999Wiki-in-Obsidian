@@ -10,8 +10,9 @@ cssclasses:
 心相标签:
   - 攻击
 心相: "[[心相 大娱乐至上.png]]"
-人物: "[[玛丽莲]]"
-实装版本: 1.1｜雷米特杯失窃案
+人物:
+  - "[[玛丽莲｜Sweet heart|玛丽莲]]"
+实装版本: "[[雷米特杯失窃案｜The Theft of the Rimet Cup|1.1｜雷米特杯失窃案]]"
 aliases:
   - 大娱乐至上
   - Luxurious Leisure

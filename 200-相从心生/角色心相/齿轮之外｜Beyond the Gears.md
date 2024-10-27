@@ -11,9 +11,10 @@ cssclasses:
 心相标签:
   - 暴击
 心相: "[[心相 齿轮之外.png]]"
-人物: "[[X]]"
+人物:
+  - "[[X｜X|X]]"
 轶事: X · 齿轮的意志
-实装版本: 1.7｜今夜星光灿烂
+实装版本: "[[今夜星光灿烂｜E lucevan le stelle|1.7｜今夜星光灿烂]]"
 aliases:
   - 齿轮之外
   - Beyond the Gears

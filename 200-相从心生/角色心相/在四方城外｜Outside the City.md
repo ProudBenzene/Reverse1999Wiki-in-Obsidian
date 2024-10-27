@@ -10,8 +10,9 @@ cssclasses:
 心相标签:
   - 暴击
 心相: "[[心相 在四方城外.png]]"
-人物: "[[曲娘｜Jiu Niangzi|曲娘]]"
-实装版本: 1.6｜朔日手记
+人物:
+  - "[[曲娘｜Jiu Niangzi|曲娘]]"
+实装版本: "[[朔日手记｜Notes on Shuori|1.6｜朔日手记]]"
 aliases:
   - 在四方城外
   - Outside the City

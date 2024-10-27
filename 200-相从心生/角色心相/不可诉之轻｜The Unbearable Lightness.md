@@ -12,7 +12,7 @@ cssclasses:
 人物:
   - "[[J｜Joe|J]]"
 轶事: 
-实装版本: 2.0｜飞驰！明日之城
+实装版本: "[[飞驰！明日之城｜Floor It! To the Golden City|2.0｜飞驰！明日之城]]"
 aliases:
   - 不可诉之轻
   - The Unbearable Lightness

@@ -62,6 +62,12 @@
                 "operator": "is",
                 "enabled": false,
                 "value": "✦✦✦✦✦"
+              },
+              {
+                "field": "角色灵感",
+                "operator": "contains",
+                "enabled": true,
+                "value": "灵"
               }
             ]
           },
@@ -514,7 +520,13 @@
             "fitStyle": "cover"
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
           },
           "colors": {
             "conditions": []

@@ -9,6 +9,7 @@ cssclasses:
 aliases:
   - 今夜星光灿烂
   - E lucevan le stelle
+  - 1.7｜今夜星光灿烂
 Cover: "[[今夜星光灿烂.png]]"
 海报寄语: 
 国服海报: "[[1.7版本海报.jpg]]"

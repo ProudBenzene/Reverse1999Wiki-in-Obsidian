@@ -12,8 +12,9 @@ cssclasses:
   - 暴击
   - 治疗
 心相: "[[心相 在仙境之外.png]]"
-人物: "[[婴儿蓝]]"
-实装版本: 1.2｜绿湖噩梦
+人物:
+  - "[[婴儿蓝｜Baby Blue|婴儿蓝]]"
+实装版本: "[[绿湖噩梦｜A Nightmare at Green Lake|1.2｜绿湖噩梦]]"
 aliases:
   - 在仙境之外
   - Beyond Wonderland

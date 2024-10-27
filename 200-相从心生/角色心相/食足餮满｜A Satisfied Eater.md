@@ -11,9 +11,10 @@ cssclasses:
 心相标签:
   - 攻击
 心相: "[[心相 食足餮满.png]]"
-人物: "[[狼群]]"
+人物:
+  - "[[狼群｜Pavia|狼群]]"
 轶事: 夏利·戏剧与戏剧
-实装版本: 1.4｜洞穴的囚徒
+实装版本: "[[洞穴的囚徒｜The Prisoner in the Cave|1.4｜洞穴的囚徒]]"
 aliases:
   - 食足餮满
   - A Satisfied Eater

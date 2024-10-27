@@ -13,7 +13,7 @@ cssclasses:
 人物:
   - "[[塞梅尔维斯｜Semmelweis|塞梅尔维斯]]"
 轶事: "[[塞梅尔维斯·第三种苏醒]]"
-实装版本: 2.0｜飞驰！明日之城
+实装版本: "[[飞驰！明日之城｜Floor It! To the Golden City|2.0｜飞驰！明日之城]]"
 aliases:
   - 来自最深处
   - From the Depths

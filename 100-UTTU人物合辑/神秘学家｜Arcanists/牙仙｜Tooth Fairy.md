@@ -1,7 +1,7 @@
 ---
 Name: 牙仙
 exonym: Tooth Fairy
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -30,6 +30,7 @@ Udimo: 牙签鸟类
 aliases:
   - 牙仙
   - Tooth Fairy
+  - 坎贝尔
 初始立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 01.png]]"
 本色立绘: "[[assets/牙仙｜Tooth Fairy.assets/立绘 牙仙 02.png]]"
 生日: 2024-11-27

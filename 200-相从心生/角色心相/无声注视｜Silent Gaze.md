@@ -2,16 +2,17 @@
 Name: 无声注视
 exonym: Silent Gaze
 星级: ✦✦✦✦✦
-tags:
+tags: 
 cssclasses:
   - book
 强化属性: 攻击
 心相标签:
   - 攻击
 心相: "[[心相 无声注视.png]]"
-人物: 芝诺
+人物:
+  - 芝诺
 轶事: 芝诺 · 风吹乌哈拉
-实装版本: 1.8｜再见，来亚什基
+实装版本: "[[再见，来亚什基｜Farewell, Rayashki|1.8｜再见，来亚什基]]"
 aliases:
   - 无声注视
   - Silent Gaze

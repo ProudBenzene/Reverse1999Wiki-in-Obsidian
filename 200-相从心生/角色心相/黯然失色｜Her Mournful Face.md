@@ -13,7 +13,7 @@ cssclasses:
 人物:
   - "[[苏芙比｜Sotheby|苏芙比]]"
 轶事: "[[苏芙比·淑女的守则]]"
-实装版本: 2.0｜飞驰！明日之城
+实装版本: "[[飞驰！明日之城｜Floor It! To the Golden City|2.0｜飞驰！明日之城]]"
 aliases:
   - 黯然失色
   - Her Mournful Face

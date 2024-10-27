@@ -11,8 +11,9 @@ cssclasses:
   - 攻击
   - 暴击
 心相: "[[心相 可度量之心.png]]"
-人物: "[[坦南特]]"
-实装版本: 1.3｜行至摩卢旁卡
+人物:
+  - "[[坦南特｜Tennant|坦南特]]"
+实装版本: "[[行至摩卢旁卡｜Journey to Mor Pankh|1.3｜行至摩卢旁卡]]"
 aliases:
   - 可度量之心
   - The Carat of A Heart

@@ -10,8 +10,9 @@ cssclasses:
 心相标签:
   - 攻击
 心相: "[[心相 请保持平衡.png]]"
-人物: "[[X]]"
-实装版本: 1.4｜洞穴的囚徒
+人物:
+  - "[[X｜X|X]]"
+实装版本: "[[洞穴的囚徒｜The Prisoner in the Cave|1.4｜洞穴的囚徒]]"
 aliases:
   - 请保持平衡
   - Balance, Please
