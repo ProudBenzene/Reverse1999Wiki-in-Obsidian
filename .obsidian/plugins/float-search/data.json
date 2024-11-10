@@ -1,11 +1,13 @@
 {
   "searchViewState": {
-    "query": "",
-    "matchingCase": false,
-    "explainSearch": false,
     "collapseAll": false,
+    "explainSearch": false,
     "extraContext": false,
+    "matchingCase": false,
+    "query": "",
     "sortOrder": "alphabetical"
   },
-  "showFilePath": false
+  "showFilePath": false,
+  "showInstructions": true,
+  "defaultViewType": "modal"
 }

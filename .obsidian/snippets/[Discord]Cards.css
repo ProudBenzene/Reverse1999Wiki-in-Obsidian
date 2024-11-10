@@ -271,6 +271,11 @@ body {
     border-radius: var(--cards-image-radius);
 }
 
+.cards-contain table.dataview tbody>tr>td:has(img) img {
+    object-fit: contain !important;
+}
+
+
 
 /*#endregion*/
 

@@ -68,9 +68,9 @@ var require_implementations = __commonJS({
       createTFileInstance: () => createTFileInstance,
       createTFolderInstance: () => createTFolderInstance,
       isEmbedCache: () => isEmbedCache,
-      isFrontmatterLinkCache: () => isFrontmatterLinkCache2,
+      isFrontmatterLinkCache: () => isFrontmatterLinkCache,
       isLinkCache: () => isLinkCache,
-      isReferenceCache: () => isReferenceCache2,
+      isReferenceCache: () => isReferenceCache,
       parentFolderPath: () => parentFolderPath2
     });
     module2.exports = __toCommonJS2(implementations_exports);
@@ -110,11 +110,8 @@ var require_implementations = __commonJS({
         }
         values.remove(value);
         if (values.length === 0) {
-          this.removeKey(key);
+          this.clear(key);
         }
-      }
-      removeKey(key) {
-        this.data.delete(key);
       }
       get(key) {
         return this.data.get(key) || null;
@@ -123,7 +120,7 @@ var require_implementations = __commonJS({
         return Array.from(this.data.keys());
       }
       clear(key) {
-        this.removeKey(key);
+        this.data.delete(key);
       }
       clearAll() {
         this.data.clear();
@@ -183,17 +180,17 @@ var require_implementations = __commonJS({
       file.deleted = true;
       return file;
     }
-    function isReferenceCache2(reference) {
+    function isReferenceCache(reference) {
       return !!reference.position;
     }
     function isEmbedCache(reference) {
-      return isReferenceCache2(reference) && reference.original[0] === "!";
+      return isReferenceCache(reference) && reference.original[0] === "!";
     }
-    function isFrontmatterLinkCache2(reference) {
+    function isFrontmatterLinkCache(reference) {
       return !!reference.key;
     }
     function isLinkCache(reference) {
-      return isReferenceCache2(reference) && reference.original[0] !== "!";
+      return isReferenceCache(reference) && reference.original[0] !== "!";
     }
     function constructInternalPlugins(app) {
       return new app.internalPlugins.constructor(app);
@@ -1241,7 +1238,7 @@ var require_FileSystem = __commonJS({
     });
     module2.exports = __toCommonJS2(FileSystem_exports);
     var import_obsidian5 = require("obsidian");
-    var import_implementations3 = require_implementations();
+    var import_implementations2 = require_implementations();
     var import_Path5 = require_Path();
     var import_String = require_String();
     var MARKDOWN_FILE_EXTENSION = "md";
@@ -1272,7 +1269,7 @@ var require_FileSystem = __commonJS({
       let file = getFileOrNull(app, pathOrFile, insensitive);
       if (!file) {
         if (allowNonExisting) {
-          file = (0, import_implementations3.createTFileInstance)(app.vault, pathOrFile);
+          file = (0, import_implementations2.createTFileInstance)(app.vault, pathOrFile);
         } else {
           throw new Error(`File not found: ${pathOrFile}`);
         }
@@ -1290,7 +1287,7 @@ var require_FileSystem = __commonJS({
       let folder = getFolderOrNull(app, pathOrFolder, insensitive);
       if (!folder) {
         if (allowNonExisting) {
-          folder = (0, import_implementations3.createTFolderInstance)(app.vault, pathOrFolder);
+          folder = (0, import_implementations2.createTFolderInstance)(app.vault, pathOrFolder);
         } else {
           throw new Error(`Folder not found: ${pathOrFolder}`);
         }
@@ -1357,7 +1354,7 @@ var require_FileSystem = __commonJS({
       if (file) {
         return file;
       }
-      const folderPath = (0, import_implementations3.parentFolderPath)(path);
+      const folderPath = (0, import_implementations2.parentFolderPath)(path);
       await getOrCreateFolder(app, folderPath);
       return await app.vault.create(path, "");
     }
@@ -1402,15 +1399,16 @@ var require_AttachmentPath = __commonJS({
     __export2(AttachmentPath_exports, {
       getAttachmentFilePath: () => getAttachmentFilePath,
       getAttachmentFolderPath: () => getAttachmentFolderPath2,
-      getAvailablePathForAttachments: () => getAvailablePathForAttachments2
+      getAvailablePathForAttachments: () => getAvailablePathForAttachments2,
+      hasOwnAttachmentFolder: () => hasOwnAttachmentFolder
     });
     module2.exports = __toCommonJS2(AttachmentPath_exports);
-    var import_implementations3 = require_implementations();
+    var import_implementations2 = require_implementations();
     var import_Path5 = require_Path();
     var import_String = require_String();
     var import_FileSystem4 = require_FileSystem();
     async function getAttachmentFolderPath2(app, notePathOrFile) {
-      return (0, import_implementations3.parentFolderPath)(await getAttachmentFilePath(app, "DUMMY_FILE.pdf", notePathOrFile));
+      return (0, import_implementations2.parentFolderPath)(await getAttachmentFilePath(app, "DUMMY_FILE.pdf", notePathOrFile));
     }
     async function getAttachmentFilePath(app, attachmentPathOrFile, notePathOrFile) {
       const attachmentPath = (0, import_FileSystem4.getPath)(attachmentPathOrFile);
@@ -1453,6 +1451,11 @@ var require_AttachmentPath = __commonJS({
       path = path.replace(/([\\/])+/g, "/");
       path = path.replace(/(^\/+|\/+$)/g, "");
       return path || "/";
+    }
+    async function hasOwnAttachmentFolder(app, path) {
+      const attachmentFolderPath = await getAttachmentFolderPath2(app, path);
+      const dummyAttachmentFolderPath = await getAttachmentFolderPath2(app, (0, import_Path5.join)((0, import_Path5.dirname)(path), "DUMMY_FILE.md"));
+      return attachmentFolderPath !== dummyAttachmentFolderPath;
     }
   }
 });
@@ -2022,7 +2025,14 @@ var require_Async = __commonJS({
         let attempt = 0;
         for (; ; ) {
           attempt++;
-          if (await fn()) {
+          let isSuccess;
+          try {
+            isSuccess = await fn();
+          } catch (error) {
+            (0, import_Error3.printError)(error);
+            isSuccess = false;
+          }
+          if (isSuccess) {
             if (attempt > 1) {
               console.debug(`Retry completed successfully after ${attempt.toString()} attempts`);
             }
@@ -2250,6 +2260,71 @@ var require_FrontMatter = __commonJS({
   }
 });
 
+// node_modules/obsidian-dev-utils/dist/lib/obsidian/Reference.cjs
+var require_Reference = __commonJS({
+  "node_modules/obsidian-dev-utils/dist/lib/obsidian/Reference.cjs"(exports2, module2) {
+    (function patchRequireEsmDefault() {
+      const __require = require;
+      require = Object.assign((id) => {
+        const module3 = __require(id);
+        return module3.__esModule && module3.default ? module3.default : module3;
+      }, __require);
+    })();
+    var __defProp2 = Object.defineProperty;
+    var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+    var __getOwnPropNames2 = Object.getOwnPropertyNames;
+    var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+    var __export2 = (target, all) => {
+      for (var name in all)
+        __defProp2(target, name, { get: all[name], enumerable: true });
+    };
+    var __copyProps2 = (to, from, except, desc) => {
+      if (from && typeof from === "object" || typeof from === "function") {
+        for (let key of __getOwnPropNames2(from))
+          if (!__hasOwnProp2.call(to, key) && key !== except)
+            __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+      }
+      return to;
+    };
+    var __toCommonJS2 = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+    var Reference_exports = {};
+    __export2(Reference_exports, {
+      referenceToFileChange: () => referenceToFileChange2,
+      sortReferences: () => sortReferences
+    });
+    module2.exports = __toCommonJS2(Reference_exports);
+    var import_implementations2 = require_implementations();
+    function sortReferences(references) {
+      return references.sort((a, b) => {
+        if ((0, import_implementations2.isFrontmatterLinkCache)(a) && (0, import_implementations2.isFrontmatterLinkCache)(b)) {
+          return a.key.localeCompare(b.key);
+        }
+        if ((0, import_implementations2.isReferenceCache)(a) && (0, import_implementations2.isReferenceCache)(b)) {
+          return a.position.start.offset - b.position.start.offset;
+        }
+        return (0, import_implementations2.isFrontmatterLinkCache)(a) ? 1 : -1;
+      });
+    }
+    function referenceToFileChange2(reference, newContent) {
+      if ((0, import_implementations2.isReferenceCache)(reference)) {
+        return {
+          startIndex: reference.position.start.offset,
+          endIndex: reference.position.end.offset,
+          oldContent: reference.original,
+          newContent
+        };
+      } else if ((0, import_implementations2.isFrontmatterLinkCache)(reference)) {
+        return {
+          oldContent: reference.original,
+          newContent,
+          frontMatterKey: reference.key
+        };
+      }
+      throw new Error("Unknown link type");
+    }
+  }
+});
+
 // node_modules/obsidian-dev-utils/dist/lib/obsidian/MetadataCache.cjs
 var require_MetadataCache = __commonJS({
   "node_modules/obsidian-dev-utils/dist/lib/obsidian/MetadataCache.cjs"(exports2, module2) {
@@ -2290,12 +2365,14 @@ var require_MetadataCache = __commonJS({
       tempRegisterFileAndRun: () => tempRegisterFileAndRun
     });
     module2.exports = __toCommonJS2(MetadataCache_exports);
-    var import_implementations3 = require_implementations();
+    var import_obsidian5 = require("obsidian");
+    var import_implementations2 = require_implementations();
     var import_Async2 = require_Async();
     var import_Function = require_Function();
     var import_Object2 = require_Object();
     var import_FileSystem4 = require_FileSystem();
     var import_FrontMatter = require_FrontMatter();
+    var import_Reference2 = require_Reference();
     var __process3 = globalThis["process"] ?? {
       "cwd": () => "/",
       "env": {},
@@ -2350,15 +2427,7 @@ var require_MetadataCache = __commonJS({
       if (cache.frontmatterLinks) {
         links.push(...cache.frontmatterLinks);
       }
-      links.sort((a, b) => {
-        if ((0, import_implementations3.isFrontmatterLinkCache)(a) && (0, import_implementations3.isFrontmatterLinkCache)(b)) {
-          return a.key.localeCompare(b.key);
-        }
-        if ((0, import_implementations3.isReferenceCache)(a) && (0, import_implementations3.isReferenceCache)(b)) {
-          return a.position.start.offset - b.position.start.offset;
-        }
-        return (0, import_implementations3.isFrontmatterLinkCache)(a) ? 1 : -1;
-      });
+      (0, import_Reference2.sortReferences)(links);
       links = links.filter((link, index) => {
         if (index === 0) {
           return true;
@@ -2367,10 +2436,10 @@ var require_MetadataCache = __commonJS({
         if (!previousLink) {
           return true;
         }
-        if ((0, import_implementations3.isReferenceCache)(link) && (0, import_implementations3.isReferenceCache)(previousLink)) {
+        if ((0, import_implementations2.isReferenceCache)(link) && (0, import_implementations2.isReferenceCache)(previousLink)) {
           return link.position.start.offset !== previousLink.position.start.offset;
         }
-        if ((0, import_implementations3.isFrontmatterLinkCache)(link) && (0, import_implementations3.isFrontmatterLinkCache)(previousLink)) {
+        if ((0, import_implementations2.isFrontmatterLinkCache)(link) && (0, import_implementations2.isFrontmatterLinkCache)(previousLink)) {
           return link.key !== previousLink.key;
         }
         return true;
@@ -2407,9 +2476,9 @@ var require_MetadataCache = __commonJS({
           }
           for (const link of links) {
             let actualLink;
-            if ((0, import_implementations3.isReferenceCache)(link)) {
+            if ((0, import_implementations2.isReferenceCache)(link)) {
               actualLink = content.slice(link.position.start.offset, link.position.end.offset);
-            } else if ((0, import_implementations3.isFrontmatterLinkCache)(link)) {
+            } else if ((0, import_implementations2.isFrontmatterLinkCache)(link)) {
               const linkValue = (0, import_Object2.getNestedPropertyValue)(frontMatter, link.key);
               if (typeof linkValue !== "string") {
                 return false;
@@ -2446,9 +2515,8 @@ var require_MetadataCache = __commonJS({
       }
       const path = (0, import_FileSystem4.getPath)(pathOrFile);
       for (const leaf of app.workspace.getLeavesOfType("markdown")) {
-        const view = leaf.view;
-        if (view.file?.path === path) {
-          await view.save();
+        if (leaf.view instanceof import_obsidian5.MarkdownView && leaf.view.file?.path === path) {
+          await leaf.view.save();
         }
       }
     }
@@ -2473,7 +2541,7 @@ var require_MetadataCache = __commonJS({
       while (deletedFile.deleted) {
         deletedPaths.push(deletedFile.path);
         app.vault.fileMap[deletedFile.path] = deletedFile;
-        deletedFile = deletedFile.parent ?? (0, import_FileSystem4.getFolder)(app, (0, import_implementations3.parentFolderPath)(deletedFile.path), true);
+        deletedFile = deletedFile.parent ?? (0, import_FileSystem4.getFolder)(app, (0, import_implementations2.parentFolderPath)(deletedFile.path), true);
       }
       if ((0, import_FileSystem4.isFile)(file)) {
         app.metadataCache.uniqueFileLookup.add(file.name.toLowerCase(), file);
@@ -2547,7 +2615,7 @@ var require_Vault = __commonJS({
     });
     module2.exports = __toCommonJS2(Vault_exports);
     var import_obsidian5 = require("obsidian");
-    var import_implementations3 = require_implementations();
+    var import_implementations2 = require_implementations();
     var import_Async2 = require_Async();
     var import_Error3 = require_Error();
     var import_Function = require_Function();
@@ -2601,7 +2669,7 @@ var require_Vault = __commonJS({
       if ((0, import_FileSystem4.isFile)(file)) {
         const backlinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(app, file);
         if (deletedNotePath) {
-          backlinks.removeKey(deletedNotePath);
+          backlinks.clear(deletedNotePath);
         }
         if (backlinks.count() !== 0) {
           if (shouldReportUsedAttachments) {
@@ -2673,7 +2741,7 @@ var require_Vault = __commonJS({
       if (file) {
         return import_Function.noopAsync;
       }
-      const folderCleanup = await createTempFolder(app, (0, import_implementations3.parentFolderPath)(path));
+      const folderCleanup = await createTempFolder(app, (0, import_implementations2.parentFolderPath)(path));
       try {
         await app.vault.create(path, "");
       } catch (e) {
@@ -2694,9 +2762,9 @@ var require_Vault = __commonJS({
       if (folder) {
         return import_Function.noopAsync;
       }
-      const dirPath = (0, import_implementations3.parentFolderPath)(path);
+      const dirPath = (0, import_implementations2.parentFolderPath)(path);
       await createTempFolder(app, dirPath);
-      const folderCleanup = await createTempFolder(app, (0, import_implementations3.parentFolderPath)(path));
+      const folderCleanup = await createTempFolder(app, (0, import_implementations2.parentFolderPath)(path));
       await createFolderSafe2(app, path);
       folder = (0, import_FileSystem4.getFolder)(app, path);
       return async () => {
@@ -2740,7 +2808,7 @@ var require_Vault = __commonJS({
         }
         return newAvailablePath;
       }
-      const newFolderPath = (0, import_implementations3.parentFolderPath)(newAvailablePath);
+      const newFolderPath = (0, import_implementations2.parentFolderPath)(newAvailablePath);
       await createFolderSafe2(app, newFolderPath);
       try {
         await app.vault.rename(oldFile, newAvailablePath);
@@ -2753,7 +2821,7 @@ var require_Vault = __commonJS({
     }
     async function copySafe2(app, oldPathOrFile, newPath) {
       const file = (0, import_FileSystem4.getFile)(app, oldPathOrFile);
-      const newFolderPath = (0, import_implementations3.parentFolderPath)(newPath);
+      const newFolderPath = (0, import_implementations2.parentFolderPath)(newPath);
       await createFolderSafe2(app, newFolderPath);
       const newAvailablePath = getAvailablePath(app, newPath);
       try {
@@ -2998,13 +3066,13 @@ var require_Link = __commonJS({
     });
     module2.exports = __toCommonJS2(Link_exports);
     var import_obsidian5 = require("obsidian");
-    var import_implementations3 = require_implementations();
     var import_Path5 = require_Path();
     var import_String = require_String();
     var import_FileChange2 = require_FileChange();
     var import_FileSystem4 = require_FileSystem();
     var import_MetadataCache2 = require_MetadataCache();
     var import_ObsidianSettings = require_ObsidianSettings();
+    var import_Reference2 = require_Reference();
     var SPECIAL_LINK_SYMBOLS_REGEXP = /[\\\x00\x08\x0B\x0C\x0E-\x1F ]/g;
     var SPECIAL_MARKDOWN_LINK_SYMBOLS_REGEX = /[\\[\]<>_*~=`$]/g;
     function splitSubpath(link) {
@@ -3204,20 +3272,7 @@ var require_Link = __commonJS({
           if (newContent === void 0) {
             continue;
           }
-          if ((0, import_implementations3.isReferenceCache)(link)) {
-            changes.push({
-              startIndex: link.position.start.offset,
-              endIndex: link.position.end.offset,
-              oldContent: link.original,
-              newContent
-            });
-          } else if ((0, import_implementations3.isFrontmatterLinkCache)(link)) {
-            changes.push({
-              oldContent: link.original,
-              newContent,
-              frontMatterKey: link.key
-            });
-          }
+          changes.push((0, import_Reference2.referenceToFileChange)(link, newContent));
         }
         return changes;
       }, retryOptions);
@@ -3311,6 +3366,9 @@ var require_RenameDeleteHandler = __commonJS({
       plugin.registerEvent(
         app.vault.on("rename", (file, oldPath) => {
           if (!shouldInvokeHandler(app, pluginId)) {
+            return;
+          }
+          if (!(0, import_FileSystem4.isFile)(file)) {
             return;
           }
           const newPath = file.path;
@@ -3486,6 +3544,9 @@ var require_RenameDeleteHandler = __commonJS({
       if (!attachmentFolder) {
         return;
       }
+      if (!await (0, import_AttachmentPath5.hasOwnAttachmentFolder)(app, path)) {
+        return;
+      }
       await (0, import_Vault3.deleteSafe)(app, attachmentFolder, path, false, settings.shouldDeleteEmptyFolders);
     }
     async function fillRenameMap(app, oldPath, newPath, renameMap) {
@@ -3496,7 +3557,6 @@ var require_RenameDeleteHandler = __commonJS({
       const settings = getSettings(app);
       const oldAttachmentFolderPath = await (0, import_AttachmentPath5.getAttachmentFolderPath)(app, oldPath);
       const newAttachmentFolderPath = settings.shouldRenameAttachmentFolder ? await (0, import_AttachmentPath5.getAttachmentFolderPath)(app, newPath) : oldAttachmentFolderPath;
-      const dummyOldAttachmentFolderPath = await (0, import_AttachmentPath5.getAttachmentFolderPath)(app, (0, import_Path5.join)((0, import_Path5.dirname)(oldPath), "DUMMY_FILE.md"));
       const oldAttachmentFolder = (0, import_FileSystem4.getFolderOrNull)(app, oldAttachmentFolderPath);
       if (!oldAttachmentFolder) {
         return;
@@ -3505,7 +3565,7 @@ var require_RenameDeleteHandler = __commonJS({
         return;
       }
       const oldAttachmentFiles = [];
-      if (oldAttachmentFolderPath === dummyOldAttachmentFolderPath) {
+      if (!await (0, import_AttachmentPath5.hasOwnAttachmentFolder)(app, oldPath)) {
         const oldCache = await (0, import_MetadataCache2.getCacheSafe)(app, oldPath);
         if (!oldCache) {
           return;
@@ -8098,7 +8158,7 @@ var import_PluginBase = __toESM(require_PluginBase(), 1);
 var import_RenameDeleteHandler = __toESM(require_RenameDeleteHandler(), 1);
 var import_Vault2 = __toESM(require_Vault(), 1);
 var import_Path4 = __toESM(require_Path(), 1);
-var import_implementations2 = __toESM(require_implementations(), 1);
+var import_implementations = __toESM(require_implementations(), 1);
 
 // src/AttachmentCollector.ts
 var import_obsidian2 = require("obsidian");
@@ -8111,9 +8171,9 @@ var import_FileSystem = __toESM(require_FileSystem(), 1);
 var import_Link = __toESM(require_Link(), 1);
 var import_MetadataCache = __toESM(require_MetadataCache(), 1);
 var import_Confirm = __toESM(require_Confirm(), 1);
+var import_Reference = __toESM(require_Reference(), 1);
 var import_Vault = __toESM(require_Vault(), 1);
 var import_Path2 = __toESM(require_Path(), 1);
-var import_implementations = __toESM(require_implementations(), 1);
 
 // src/AttachmentPath.ts
 var import_moment = __toESM(require_moment(), 1);
@@ -8313,20 +8373,7 @@ async function collectAttachments(plugin, note, oldPath, attachmentFilter) {
           oldPathOrFile: attachmentMoveResult.oldAttachmentPath,
           sourcePathOrFile: note
         });
-        if ((0, import_implementations.isReferenceCache)(link)) {
-          changes.push({
-            startIndex: link.position.start.offset,
-            endIndex: link.position.end.offset,
-            oldContent: link.original,
-            newContent
-          });
-        } else if ((0, import_implementations.isFrontmatterLinkCache)(link)) {
-          changes.push({
-            oldContent: link.original,
-            newContent,
-            frontMatterKey: link.key
-          });
-        }
+        changes.push((0, import_Reference.referenceToFileChange)(link, newContent));
       }
     }
     return changes;
@@ -8729,6 +8776,9 @@ var EventWrapper = class {
       return "Note" /* Note */;
     }
     if (this.event.target.closest(".canvas-wrapper")) {
+      if (this.event.target.isContentEditable) {
+        return "Unsupported" /* Unsupported */;
+      }
       return "Canvas" /* Canvas */;
     }
     const canvasView = this.plugin.app.workspace.getActiveFileView();
@@ -8860,7 +8910,7 @@ var CustomAttachmentLocationPlugin = class extends import_PluginBase.PluginBase 
       attachmentPath = this.app.vault.getAvailablePath((0, import_Path4.join)(attachmentFolderFullPath, filename), extension);
     }
     if (!skipFolderCreation) {
-      const folderPath = (0, import_implementations2.parentFolderPath)(attachmentPath);
+      const folderPath = (0, import_implementations.parentFolderPath)(attachmentPath);
       if (!await this.app.vault.exists(folderPath)) {
         await (0, import_Vault2.createFolderSafe)(this.app, folderPath);
         if (this.settings.keepEmptyAttachmentFolders) {
