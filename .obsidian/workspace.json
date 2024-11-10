@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "1ea07a8e1bd1d3c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000-箱的构造/README/README_ZH.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README_ZH"
+              "title": "主页"
             }
           },
           {
@@ -139,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +182,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "README 的关系图"
+              "title": "主页 的关系图"
             }
           }
         ]
@@ -220,10 +206,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "000-箱的构造/主页.md"
               },
               "icon": "lucide-info",
-              "title": "README的笔记属性"
+              "title": "主页的笔记属性"
             }
           },
           {
@@ -297,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +293,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "主页 的反向链接列表"
             }
           },
           {
@@ -316,12 +302,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "主页 的出链列表"
             }
           }
         ],
@@ -356,13 +342,17 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/README/README_ZH.md",
-    "README.md",
-    "游戏文件解包说明.md",
+    "300-以影像之/302-支线/302-支线.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
+    "200-相从心生/200-相从心生.md",
+    "200-相从心生/角色心相/可度量之心｜The Carat of A Heart.md",
     "000-箱的构造/主页.md",
-    "爵士时代.json",
     "anu主题配置.zip",
+    "游戏文件解包说明.md",
+    "爵士时代.json",
     "葛天.json",
+    "README.md",
+    "000-箱的构造/README/README_ZH.md",
     "600-箱中日历/2024-10-15.sync-conflict-20241027-152133-I5P6S3K.md",
     "600-箱中日历/2024-10-12.sync-conflict-20241027-152103-I5P6S3K.md",
     "600-箱中日历/2024-10-07.sync-conflict-20241027-151852-VN6MWMM.md",
@@ -381,10 +371,6 @@
     "000-箱的构造/箱中memos/20241109-793b4ebfd2796aca.md",
     "000-箱的构造/箱中memos/20241109-9a901fef4255433e.md",
     "000-箱的构造/箱中memos/20241109-1d0e79c32e412ac6.md",
-    "000-箱的构造/箱中memos/20241109-7f9107b226652557.md",
-    "000-箱的构造/箱中memos/20241109-6e60c51aa6df8169.md",
-    "600-箱中日历/2024-10-18.md",
-    "000-箱的构造/箱中memos/20241108-d3e8bebacb6791dc.md",
     "300-以影像之/301-主线/2.0 旅行归来/assets/忧郁的热带｜Tristes Tropiques.assets/2.2版本海报.jpg",
     "300-以影像之/301-主线/2.0 旅行归来/assets/忧郁的热带｜Tristes Tropiques.assets/忧郁的热带.png",
     "000-箱的构造/assets/以影像之/在我们的时代里.png",
