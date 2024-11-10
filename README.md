@@ -28,6 +28,9 @@
 >
 > 如果你是一个Obsidian新手，可以参考我撰写的指南，先在电脑上安装好Obsidian软件：[中文指南](https://github.com/ProudBenzene/Reverse1999Wiki-in-Obsidian/blob/main/000-%E7%AE%B1%E7%9A%84%E6%9E%84%E9%80%A0/README/GUIDE_ZH.md)
 
+> [!warning]
+> 除非另有说明，否则本库内容依据 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证进行授权，转载请附上出处链接。
+
 ## Support Me｜支持
 
 Out of my love to the game 'Reverse 1999' and Obsidian, I have spent a lot of time and devotion creating and organizing this Wiki library, and I am sharing it for free.
@@ -44,4 +47,12 @@ If you appreciate my work and find it meaningful or helpful to you, you can supp
     <img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406231057963.jpg" alt="支持码" style="width: 250px; margin-right: 20px;">
     <img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406080244833.jpg" alt="支持码" style="width: 245px;">
 </div>
+
+## 感谢榜
+
+非常感谢以下朋友们对我的捐款支持：
+
+- **「＂上善若水〃」** 大佬
+- **「且徐行」** 大佬
+- **「看见我耳机了吗？」** 大佬
 
