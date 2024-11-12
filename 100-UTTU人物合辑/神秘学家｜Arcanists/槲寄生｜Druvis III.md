@@ -1,7 +1,7 @@
 ---
 Name: 槲寄生
 exonym: Druvis III
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -29,6 +29,7 @@ Udimo: 猫类
 aliases:
   - 槲寄生
   - Druvis III
+  - 德鲁伊
 初始立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 01.png]]"
 本色立绘: "[[assets/槲寄生｜Druvis III.assets/立绘 槲寄生 02.png]]"
 生日: 2024-10-23
