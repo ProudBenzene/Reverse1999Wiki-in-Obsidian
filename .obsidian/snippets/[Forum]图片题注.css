@@ -1,0 +1,8 @@
+/* https://forum-zh.obsidian.md/t/topic/42579 */
+.internal-embed.media-embed.image-embed.is-loaded[alt]:not([alt^="cover"]):not([alt^="利齿子儿"]):not([alt^="纯雨滴"]):not([alt^="心相"]):not([alt^="文化"]):not([alt^="增益"]):not([alt^="减益"]):not([alt^="攻击"]):not([alt^="治疗"]):not([alt^="反制"]):not([alt^="吟诵"])::after {
+    content: attr(alt);
+    text-align: center;
+    color: var(--text-accent);
+    display: block;
+    margin-bottom: 1.5em;
+}
