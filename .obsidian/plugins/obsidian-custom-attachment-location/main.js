@@ -8857,7 +8857,7 @@ var EventWrapper = class {
         }
         const renamedFile = new File([new Blob([fileArrayBuffer])], (0, import_Path3.makeFileName)(filename, extension), filePropertyBag);
         if (!shouldRename) {
-          Object.defineProperty(renamedFile, "path", { value: entry.file.path || import_electron.webUtils.getPathForFile(entry.file) });
+          Object.defineProperty(renamedFile, "path", { value: entry.file.path || (import_electron.webUtils?.getPathForFile(entry.file) ?? "") });
         }
         newDataTransfer.items.add(renamedFile);
       }
@@ -8941,9 +8941,11 @@ var CustomAttachmentLocationPlugin = class extends import_PluginBase.PluginBase 
         return Object.assign(this.getAvailablePathForAttachments.bind(this), extendedWrapper);
       }
     }));
-    this.register(around(import_electron2.webUtils, {
-      getPathForFile: (next) => (file) => this.getPathForFile(file, next)
-    }));
+    if (import_electron2.webUtils) {
+      this.register(around(import_electron2.webUtils, {
+        getPathForFile: (next) => (file) => this.getPathForFile(file, next)
+      }));
+    }
   }
   onloadComplete() {
     (0, import_RenameDeleteHandler.registerRenameDeleteHandlers)(this, () => {

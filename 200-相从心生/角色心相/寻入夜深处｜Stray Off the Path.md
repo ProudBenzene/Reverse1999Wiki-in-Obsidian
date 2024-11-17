@@ -14,7 +14,7 @@ cssclasses:
 人物:
   - "[[阿尔古斯｜Argus|阿尔古斯]]"
 轶事: 
-实装版本: "[[../../300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
+实装版本: "[[77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
 aliases:
   - 寻入夜深处
   - Stray Off the Path

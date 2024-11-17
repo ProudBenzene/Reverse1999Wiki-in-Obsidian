@@ -7126,8 +7126,8 @@ var require_lib = __commonJS({
         return { type: "folder", folder: prefix };
       }
       Sources2.folder = folder;
-      function link(file, incoming) {
-        return { type: "link", file, direction: incoming ? "incoming" : "outgoing" };
+      function link(file2, incoming) {
+        return { type: "link", file: file2, direction: incoming ? "incoming" : "outgoing" };
       }
       Sources2.link = link;
       function binaryOp(left, op, right) {
@@ -7623,14 +7623,15 @@ async function updateBlock(block2, dv2, tfile2) {
 }
 async function executeBlock(block, dv, tfile) {
   if (["dataviewjs", "javascript", "js"].some((x) => block.language.startsWith(x))) {
+    const file = tfile;
     const evalResult = eval(block.query);
     return evalResult.trim();
   }
-  const result = await executeQueryMarkdown(block.query, dv, tfile == null ? void 0 : tfile.path);
+  const result = await executeQueryMarkdown(block.query, dv, tfile);
   return result.trim();
 }
 async function executeQueryMarkdown(query, dv2, originFile) {
-  const result2 = await dv2.tryQueryMarkdown(query, originFile);
+  const result2 = await dv2.tryQueryMarkdown(query, originFile == null ? void 0 : originFile.path);
   const snitizedResult = result2.replaceAll("\\\\|", "\\|");
   return snitizedResult;
 }
@@ -7640,14 +7641,14 @@ function extractBlock(content) {
   const blocks = (_a = content.match(regex)) != null ? _a : [];
   return blocks.map((block2) => block2.trim());
 }
-function extractBlocks(file) {
-  const blocks = extractBlock(file);
+function extractBlocks(file2) {
+  const blocks = extractBlock(file2);
   return blocks.map((block2) => parseBlock(block2));
 }
 function parseBlock(block2) {
   const startBlock = extractStartBlock(block2);
   const { language, query } = extractMarkdownCodeBlock(startBlock);
-  const output = extractoutput(block2);
+  const output = extractOutput(block2);
   return {
     content: block2,
     startBlock,
@@ -7684,7 +7685,7 @@ function extractMarkdownCodeBlock(text) {
   const query = (_f = (_e = (_d = match.groups) == null ? void 0 : _d.query) == null ? void 0 : _e.trim()) != null ? _f : "";
   return { language, query };
 }
-function extractoutput(text) {
+function extractOutput(text) {
   const regex = new RegExp(BLOCK_REGEX.source);
   const match = text.match(regex);
   if (!match || !match.groups) {
@@ -7730,7 +7731,7 @@ var Operator = class {
     if (replacer.length === 0) {
       return;
     }
-    const updatedContent = this.updateContnet(content, replacer);
+    const updatedContent = this.updateContent(content, replacer);
     editor.setValue(updatedContent);
     editor.setCursor(cursor);
   }
@@ -7753,10 +7754,10 @@ var Operator = class {
   async updateDataviewPublisherOutput(tfile2) {
     const content = await this.app.vault.cachedRead(tfile2);
     const replacer = await createReplacerFromContent(content, this.dv, tfile2);
-    const updatedContent = this.updateContnet(content, replacer);
+    const updatedContent = this.updateContent(content, replacer);
     this.app.vault.process(tfile2, () => updatedContent);
   }
-  updateContnet(content, replacer) {
+  updateContent(content, replacer) {
     return replacer.reduce(
       (c, {
         searchValue,

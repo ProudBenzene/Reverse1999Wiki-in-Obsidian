@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "fb1722bef596021a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/304-轶事/环状水星·“黄金”与悲喜剧.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "环状水星·“黄金”与悲喜剧"
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -73,8 +59,7 @@
               "title": "Projects"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/304-轶事/环状水星·“黄金”与悲喜剧.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,7 +182,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "环状水星·“黄金”与悲喜剧 的关系图"
+              "title": "主页 的关系图"
             }
           }
         ]
@@ -245,32 +230,6 @@
               "state": {},
               "icon": "lucide-calendar-check",
               "title": "日历"
-            }
-          },
-          {
-            "id": "8fe23b3e7eea2aef",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "76e5e53f47cb6248",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "300-以影像之/304-轶事/环状水星·“黄金”与悲喜剧.md"
-              },
-              "icon": "lucide-list",
-              "title": "环状水星·“黄金”与悲喜剧 的大纲"
             }
           }
         ],
@@ -378,16 +337,43 @@
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "fb1722bef596021a",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
+    "200-相从心生/角色心相/微渺的愿景｜Tiny Wish.md",
+    "200-相从心生/角色心相/迷途以外｜One with the Flow.md",
+    "000-箱的构造/主页.md",
+    "200-相从心生/角色心相/assets/微渺的愿景｜Tiny Wish.assets/心相 微渺的愿景.png",
+    "200-相从心生/角色心相/assets/微渺的愿景｜Tiny Wish.assets",
+    "000-箱的构造/常用工具.md",
+    "200-相从心生/角色心相/迷途以外｜One with the Flow~.md",
+    "200-相从心生/角色心相/assets/迷途以外｜One with the Flow.assets/心相 迷途以外.png",
+    "200-相从心生/角色心相/assets/迷途以外｜One with the Flow.assets",
+    "200-相从心生/角色心相/秒针栖息地｜On the Hand of Time.md",
+    "200-相从心生/角色心相/assets/秒针栖息地｜On the Hand of Time.assets/心相 秒针栖息地.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/纸信圈儿｜Flutterpage.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/纸信圈儿｜Flutterpage.assets/立绘 纸信圈儿 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/纸信圈儿｜Flutterpage.assets/立绘 纸信圈儿 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/纸信圈儿｜Flutterpage.assets",
+    "200-相从心生/角色心相/assets/秒针栖息地｜On the Hand of Time.assets",
+    "200-相从心生/角色心相/绘声绘色｜Spinning Yarns.md",
+    "300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "200-相从心生/角色心相/无人问津｜The Unknown Artist.md",
+    "200-相从心生/角色心相/无韵律跳步｜Offbeat Strides.md",
+    "200-相从心生/角色心相/assets/无韵律跳步｜Offbeat Strides.assets/心相 无韵律跳步.png",
+    "200-相从心生/角色心相/assets/无人问津｜The Unknown Artist.assets/心相 无人问津.png",
+    "200-相从心生/角色心相/女佣看见了｜And the Maid Says.md",
+    "200-相从心生/角色心相/寻入夜深处｜Stray Off the Path.md",
+    "200-相从心生/角色心相/assets/无韵律跳步｜Offbeat Strides.assets",
+    "400-箱外世界/暴雨时间线.md",
+    "300-以影像之/302-支线/圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning.md",
     "300-以影像之/302-支线/assets/圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning.assets/2.3版本海报.jpg",
     "300-以影像之/304-轶事/环状水星·“黄金”与悲喜剧.md",
     "300-以影像之/304-轶事/assets/环状水星·“黄金”与悲喜剧.assets/头图 “黄金”与悲喜剧.png",
     "300-以影像之/304-轶事/assets/环状水星·“黄金”与悲喜剧.assets/封面 “黄金”与悲喜剧.png",
-    "000-箱的构造/主页.md",
     "300-以影像之/302-支线/再见，来亚什基｜Farewell, Rayashki.md",
     "300-以影像之/302-支线/302-支线.md",
     "游戏文件解包说明.md",
@@ -396,38 +382,11 @@
     "000-箱的构造/箱中memos/20241113-63690af2281e9005.md",
     "000-箱的构造/箱中memos/20241113-2e86a28b1d6ec90f.md",
     "000-箱的构造/箱中memos/20241113-94973bf8c8e62a42.md",
-    "000-箱的构造/箱中memos/20241113-d47716ac752f24c4.md",
-    "000-箱的构造/箱中memos/20241113-69cf6992ded3d01a.md",
-    "000-箱的构造/箱中memos/20241113-2bc17f590dcbf955.md",
-    "000-箱的构造/箱中memos/20241113-ee536077d3f4076a.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/环状水星｜Mercuria.md",
-    "000-箱的构造/箱中memos/20241113-d586366a0a35788d.md",
-    "000-箱的构造/箱中memos/20241113-46e025c071b4670f.md",
-    "000-箱的构造/箱中memos/20241113-d28170edad1fd3d8.md",
-    "000-箱的构造/箱中memos/20241113-543760629694814f.md",
-    "000-箱的构造/箱中memos/20241113-47c1293faca2391a.md",
-    "000-箱的构造/箱中memos/20241113-2abc59ced15b6e77.md",
-    "000-箱的构造/箱中memos/20241113-932a3a6408cb5abd.md",
-    "000-箱的构造/箱中memos/20241113-b3801d7ba6fde2a5.md",
-    "000-箱的构造/templates/UTTU人物合辑.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/笃笃骨｜Willow.md",
-    "300-以影像之/302-支线/assets/77号往事｜Route 77：The Haunted Highway.assets/2.1版本海报.jpg",
-    "300-以影像之/302-支线/assets/圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning.assets/圣火纪行：东区黎明.jpg",
-    "300-以影像之/302-支线/assets/圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning.assets/版本海报.jpg",
     "300-以影像之/302-支线/assets/圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/笃笃骨｜Willow.assets/立绘 笃笃骨 01.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/笃笃骨｜Willow.assets/立绘 笃笃骨 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/笃笃骨｜Willow.assets/神秘术 鬼婆谏言3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/笃笃骨｜Willow.assets/神秘术 鬼婆谏言2.png",
     "300-以影像之/304-轶事/assets/环状水星·“黄金”与悲喜剧.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/笃笃骨｜Willow.assets",
     "anu主题配置.zip",
     "爵士时代.json",
-    "葛天.json",
-    "000-箱的构造/assets/以影像之",
-    "500-箱外阵营/芝诺",
-    "500-箱外阵营/阿派朗学派",
-    "500-箱外阵营/重塑之手｜Manus Vindictae",
     "未命名.canvas",
     "白板.canvas"
   ]

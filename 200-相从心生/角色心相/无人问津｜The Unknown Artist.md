@@ -1,7 +1,7 @@
 ---
 Name: 无人问津
 exonym: The Unknown Artist
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags: 
 cssclasses:
   - book
@@ -12,7 +12,7 @@ cssclasses:
 人物:
   - "[[挖掘艺术｜Diggers|挖掘艺术]]"
 轶事: "[[挖掘艺术·当和平盛放|挖掘艺术·当和平盛放]]"
-实装版本: "[[../../300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
+实装版本: "[[77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
 aliases:
   - 无人问津
   - The Unknown Artist

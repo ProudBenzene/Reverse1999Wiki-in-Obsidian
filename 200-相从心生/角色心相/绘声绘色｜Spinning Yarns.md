@@ -1,7 +1,7 @@
 ---
 Name: 绘声绘色
 exonym: Spinning Yarns
-星级: ✦✦✦✦✦✦
+星级: ✦✦✦✦✦
 tags:
   - 限定
 cssclasses:
@@ -14,7 +14,7 @@ cssclasses:
 人物:
   - "[[金蜜儿｜Blonney|金蜜儿]]"
 轶事: "[[金蜜儿·起火点|金蜜儿·起火点]]"
-实装版本: "[[../../300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
+实装版本: "[[77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
 aliases:
   - 绘声绘色
   - Spinning Yarns
