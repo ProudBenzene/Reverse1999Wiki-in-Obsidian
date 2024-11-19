@@ -50,9 +50,9 @@ If you appreciate my work and find it meaningful or helpful to you, you can supp
 
 ## 感谢榜
 
-非常感谢以下朋友们对我的捐款支持：
+非常感谢以下朋友们对我的捐款支持（排序为时间顺序）：
 
 - **「＂上善若水〃」** 大佬
-- **「且徐行」** 大佬
+- **[「且徐行」](https://github.com/vran-dev)** 大佬
 - **「看见我耳机了吗？」** 大佬
-
+- **[「宋爽」](https://github.com/SongshGeo)** 大佬

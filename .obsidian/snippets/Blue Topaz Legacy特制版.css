@@ -5150,7 +5150,6 @@ div.math.math-block mjx-math{
 }
 
 :is(.markdown-preview-view,.markdown-rendered) pre code {
-  background-color: transparent !important;
   color:var(--code-normal);
 }
 

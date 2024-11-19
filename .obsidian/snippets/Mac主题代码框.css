@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/*
+https://forum-zh.obsidian.md/t/topic/14829, made by @subframe7536, Style Settings added by @ProudBenzene
+*/
+/*
+@settings
+name: Mac Style Code Block
+id: Mac-Style-Code_block
+settings:
+    -
+      id: color-opacity
+      title: Traffic Light Opacity
+      title.zh: 红绿灯透明度
+      type: variable-number-slider
+      default: 1
+      min: 0
+      max: 1
+      step: 0.1
+    -
+      id: code-background
+      title: Color of Background
+      title.zh: 代码块背景颜色
+      description: --code-background
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#eee'
+      default-dark: '#eee'
+    -
+      id: code-mac-style-header-bg
+      title: Color of Mac Style Header
+      title.zh: Mac标题栏背景色
+      description: --code-mac-style-header-bg
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#F1E5D2'
+      default-dark: '#191919'
+    -
+      id: code-language-color
+      title: Color of Language Color
+      title.zh: 代码语法名称颜色
+      description: --code-language-color
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#515F65'
+      default-dark: '#ddd'    
+    -
+      id: copy-button-color
+      title: Color of Copy Button
+      title.zh: 代码复制按钮颜色
+      description: --copy-button-color
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#515F65'
+      default-dark: '#aaa'
+    -
+      id: copy-button-hover-color
+      title: Color of Button Hovering
+      title.zh: 代码复制按钮选中颜色
+      description: --copy-button-hover-color
+      type: variable-themed-color
+      opacity: true
+      format: hex
+      default-light: '#292923'
+      default-dark: 'var(--code-language-color)'
+*/
+
+body {
+  --animation: 200ms ease-in;
+  
+  /*行内代码颜色*/
+  --inline-code: var(--color-red);
+  
+  /*mac标题栏灯的透明度*/
+  --color-opacity: 1;
+  
+  /*代码块背景颜色*/
+  --code-background: #eee;
+  
+  /*代码块外部背景图片*/
+  --code-block-outer-image: linear-gradient(-30deg, #6dc6d6, #67c2dc, #67bde2, #6bb7e6, #75b1e8, #7eade9, #89a8e9, #95a3e7, #a09fe6, #ac9be3, #b897df, #c392da);  /*渐变背景图 消耗性能*/
+}
+
+
+.theme-light {
+  --code-mac-style-header-bg: #F1E5D2; /*mac标题栏背景颜色*/
+  --code-language-color: #515F65; /*代码块语言表示颜色*/
+  --copy-button-color: #515F65; /*代码块复制按钮颜色*/
+  --copy-button-hover-color: #292923; /*代码块复制按钮选中颜色*/
+}
+.theme-dark {
+  --code-mac-style-header-bg: #191919;
+  --code-language-color: #ddd;
+  --copy-button-color: #aaa;
+  --copy-button-hover-color: var(--code-language-color);
+}
+
+body .markdown-rendered pre {
+  padding: 2rem 1rem;
+  position: relative;
+}
+body .markdown-rendered pre[class*=language-]::before {
+  content: "未知语言";
+  font-family: var(--font-text);
+  color: var(--inline-code);
+  font-weight: bold;
+  font-size: 0.9rem;
+  position: absolute;
+  letter-spacing: 0.05rem;
+  text-align: right;
+  right: calc(1.3rem + 2 * var(--size-4-1));
+  top: 0.1333333333rem;
+  line-height: var(--line-height-normal);
+  z-index: 9;
+}
+body .markdown-rendered pre[class~=language-c]::before {
+  content: "C";
+}
+body .markdown-rendered pre[class~=language-properties]::before {
+  content: "Properties";
+}
+body .markdown-rendered pre[class~=language-python]::before {
+  content: "Python";
+}
+body .markdown-rendered pre[class~=language-nginx]::before {
+  content: "Nginx";
+}
+body .markdown-rendered pre[class~=language-css]::before {
+  content: "CSS";
+}
+body .markdown-rendered pre[class~=language-javascript]::before {
+  content: "Javascript";
+}
+body .markdown-rendered pre[class~=language-js]::before {
+  content: "JS";
+}
+body .markdown-rendered pre[class~=language-typescript]::before {
+  content: "Typescript";
+}
+body .markdown-rendered pre[class~=language-ts]::before {
+  content: "TS";
+}
+body .markdown-rendered pre[class~=language-jsp]::before {
+  content: "JSP";
+}
+body .markdown-rendered pre[class~=language-php]::before {
+  content: "PHP";
+}
+body .markdown-rendered pre[class~=language-lua]::before {
+  content: "Lua";
+}
+body .markdown-rendered pre[class~=language-shell]::before {
+  content: "Shell";
+}
+body .markdown-rendered pre[class~=language-powershell]::before {
+  content: "PowerShell";
+}
+body .markdown-rendered pre[class~=language-flow]::before {
+  content: "Flow";
+}
+body .markdown-rendered pre[class~=language-sequence]::before {
+  content: "Sequence";
+}
+body .markdown-rendered pre[class~=language-sql]::before {
+  content: "SQL";
+}
+body .markdown-rendered pre[class~=language-yaml]::before {
+  content: "YAML";
+}
+body .markdown-rendered pre[class~=language-yml]::before {
+  content: "YML";
+}
+body .markdown-rendered pre[class~=language-ini]::before {
+  content: "ini";
+}
+body .markdown-rendered pre[class~=language-xml]::before {
+  content: "XML";
+}
+body .markdown-rendered pre[class~=language-cs]::before {
+  content: "CS";
+}
+body .markdown-rendered pre[class~=language-cpp]::before {
+  content: "CPP";
+}
+body .markdown-rendered pre[class~=language-java]::before {
+  content: "Java";
+}
+body .markdown-rendered pre[class~=language-html]::before {
+  content: "HTML";
+}
+body .markdown-rendered pre[class~=language-txt]::before {
+  content: "TXT";
+}
+body .markdown-rendered pre[class~=language-md]::before {
+  content: "MD";
+}
+body .markdown-rendered pre[class~=language-markdown]::before {
+  content: "Markdown";
+}
+body .markdown-rendered pre[class~=language-bat]::before {
+  content: "Bat";
+}
+body .markdown-rendered pre[class~=language-json]::before {
+  content: "Json";
+}
+body .markdown-rendered pre[class~=language-groovy]::before {
+  content: "Groovy";
+}
+body .markdown-rendered pre[class~=language-scss]::before {
+  content: "SCSS";
+}
+body .markdown-rendered pre[class~=language-bash]::before {
+  content: "Bash";
+}
+body .markdown-rendered pre[class~=language-cmd]::before {
+  content: "Cmd";
+}
+body .markdown-rendered pre[class~=language-latex]::before {
+  content: "Latex";
+}
+body .markdown-rendered pre[class~=language-zig]::before {
+  content: "Zig";
+}
+body .markdown-rendered pre[class~=language-ssml]::before {
+  content: "SSML";
+}
+body .markdown-rendered pre[class~=language-jsx]::before {
+  content: "JSX";
+}
+body .markdown-rendered pre[class~=language-tsx]::before {
+  content: "TSX";
+}
+body .markdown-rendered pre[class~=language-tsconfig]::before {
+  content: "tsconfig";
+}
+body .markdown-rendered pre[class~=language-git]::before {
+  content: "Git";
+}
+body .markdown-rendered pre[class~=language-csharp]::before {
+  content: "CSharp";
+}
+body .markdown-rendered pre[class~=language-csv]::before {
+  content: "CSV";
+}
+body .markdown-rendered pre[class~=language-cue]::before {
+  content: "cue";
+}
+body .markdown-rendered pre[class~=language-toml]::before {
+  content: "TOML";
+}
+body .markdown-rendered pre[class~=language-kt]::before {
+  content: "kt";
+}
+body .markdown-rendered pre[class~=language-kotlin]::before {
+  content: "Kotlin";
+}
+body .markdown-rendered pre[class~=language-go]::before {
+  content: "Go";
+}
+body .markdown-rendered pre[class~=language-rust]::before {
+  content: "Rust";
+}
+body .markdown-rendered pre[class~=language-regex]::before {
+  content: "Regex";
+}
+
+.markdown-source-view.mod-cm6 .code-block-flair {
+  padding-block: 0;
+  color: var(--color-red);
+  transition: var(--animation);
+}
+.markdown-source-view.mod-cm6 .code-block-flair:hover {
+  background-color: var(--nav-item-background-hover);
+}
+
+body:not(:has(.print)) .markdown-rendered pre {
+  --line-height-normal: 2;
+  border: none;
+  padding-top: calc(var(--code-size) * var(--line-height-normal) * 1.5);
+  padding-bottom: calc(var(--code-size) * var(--line-height-normal) * 0.5);
+  border-radius: var(--radius-m);
+}
+body:not(:has(.print)) .markdown-rendered pre:hover .copy-code-button {
+  opacity: 1;
+}
+body:not(:has(.print)) .markdown-rendered pre .copy-code-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  opacity: 0;
+  color: transparent;
+  background-color: var(--copy-button-color);
+  transition: var(--animation);
+  margin: 0;
+  display: block !important;
+  top: var(--size-4-1);
+  right: var(--size-4-1);
+  z-index: 9;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" /><rect width="6" height="4" x="9" y="3" rx="2" /><path d="M9 12h6m-6 4h6" /></g></svg>');
+}
+body:not(:has(.print)) .markdown-rendered pre .copy-code-button:hover {
+  opacity: 1;
+  background-color: var(--copy-button-hover-color);
+}
+body:not(:has(.print)) .markdown-rendered pre[class*=language-]::before {
+  color: var(--code-language-color);
+}
+body:not(:has(.print)) .markdown-rendered pre::after {
+  content: "";
+  width: 100%;
+  height: calc(var(--code-size) * var(--line-height-normal) * 1.1);
+  background-color: var(--code-mac-style-header-bg);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+body:not(:has(.print)) .markdown-rendered pre code::before {
+  content: "";
+  width: calc(var(--code-size) - var(--size-2-1));
+  height: calc(var(--code-size) - var(--size-2-1));
+  position: absolute;
+  left: var(--size-4-4);
+  top: calc((var(--code-size) - var(--size-2-1)) * var(--line-height-normal) * 0.7 - var(--code-size) / 3);
+  border-radius: 50%;
+  z-index: 9;
+  background-color: rgba(255, 94, 92, var(--color-opacity));
+  box-shadow: var(--size-4-5) 0 0 0 rgba(255, 187, 78, var(--color-opacity)), calc(var(--size-4-5) * 2) 0 0 0 rgba(81, 188, 0, var(--color-opacity)); /*阴影效果 消耗性能*/
+}
+
+@supports selector(:has(pre)) {
+  body.code-preview-bg .markdown-preview-view .markdown-preview-section div:has(>pre:not([class*=frontmatter])) {
+    padding: var(--size-4-4) var(--size-4-8);
+    margin-block: var(--size-4-4);
+    border-radius: var(--radius-l);
+    background-image: var(--code-block-outer-image);
+  }
+  body.code-preview-bg .markdown-preview-view .markdown-preview-section pre:not([class*=frontmatter]) {
+    border-width: 0;
+  }
+}

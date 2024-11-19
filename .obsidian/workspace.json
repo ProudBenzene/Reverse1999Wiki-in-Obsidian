@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "36434a3a80a23dd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,7 +73,8 @@
               "title": "Projects"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000-箱的构造/主页.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,7 +197,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "主页 的关系图"
+              "title": "README 的关系图"
             }
           }
         ]
@@ -230,6 +245,32 @@
               "state": {},
               "icon": "lucide-calendar-check",
               "title": "日历"
+            }
+          },
+          {
+            "id": "92f66d1ce94c55d8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "33b8489e69f73a00",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
             }
           }
         ],
@@ -337,14 +378,16 @@
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "36434a3a80a23dd4",
   "lastOpenFiles": [
+    "000-箱的构造/主页.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/笃笃骨｜Willow.md",
     "200-相从心生/角色心相/微渺的愿景｜Tiny Wish.md",
     "200-相从心生/角色心相/迷途以外｜One with the Flow.md",
-    "000-箱的构造/主页.md",
     "200-相从心生/角色心相/assets/微渺的愿景｜Tiny Wish.assets/心相 微渺的愿景.png",
     "200-相从心生/角色心相/assets/微渺的愿景｜Tiny Wish.assets",
     "000-箱的构造/常用工具.md",
@@ -360,7 +403,6 @@
     "200-相从心生/角色心相/assets/秒针栖息地｜On the Hand of Time.assets",
     "200-相从心生/角色心相/绘声绘色｜Spinning Yarns.md",
     "300-以影像之/302-支线/77号往事｜Route 77：The Haunted Highway.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "200-相从心生/角色心相/无人问津｜The Unknown Artist.md",
     "200-相从心生/角色心相/无韵律跳步｜Offbeat Strides.md",
     "200-相从心生/角色心相/assets/无韵律跳步｜Offbeat Strides.assets/心相 无韵律跳步.png",
