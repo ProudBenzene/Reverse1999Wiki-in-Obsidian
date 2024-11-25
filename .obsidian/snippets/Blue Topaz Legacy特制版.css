@@ -558,6 +558,12 @@ settings:
       level: 2
       collapsed: true
     -
+      id: seamless-embed
+      title: Seamless Embed
+      title.zh: 无缝嵌入
+      type: class-toggle
+      default: false
+    -
       id: adjustable-embed-content-height
       title: To Fix Height of Embedded Content
       title.zh: 固定嵌入页面高度
@@ -5507,7 +5513,7 @@ body.naked-embed.theme-dark,
 body.naked-embed.theme-light {
   --embed-color: transparent !important;
 }
-body.naked-embed .markdown-source-view.mod-cm6 .markdown-embed {
+body.seamless-embed .markdown-source-view.mod-cm6 .markdown-embed {
   border: none;
 }
 body.hide-embed-title .markdown-embed-title{
@@ -5552,8 +5558,8 @@ body.hover-scrollbars .popover.hover-popover .markdown-embed .markdown-embed
 {
   padding:  0 0 0 1em;
 }
-.markdown-embed:not(.canvas-node-content),
-.popover.hover-popover .markdown-embed .markdown-embed {
+body.seamless-embed .markdown-embed:not(.canvas-node-content),
+body.seamless-embed .popover.hover-popover .markdown-embed .markdown-embed {
   background-color: var(--embed-color);
   border: 1px solid var(--embed-color);
   border-radius: var(--radius-xs);
@@ -5583,7 +5589,7 @@ body.hover-scrollbars .popover.hover-popover .markdown-embed .markdown-embed
   opacity: 1;
 }
 
-.markdown-source-view .markdown-embed {
+body.seamless-embed.markdown-source-view .markdown-embed {
   border-color: transparent;
   border-radius: var(--radius-xs);
 }

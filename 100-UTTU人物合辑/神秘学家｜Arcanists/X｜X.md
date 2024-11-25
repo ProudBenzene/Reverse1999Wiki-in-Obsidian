@@ -1,7 +1,7 @@
 ---
 Name: X
 exonym: X
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -14,7 +14,7 @@ cssclasses:
 造像: 有时候，为了别人，他不得不沾染一点儿鲜血，还好有机器为之代劳。
 银行彩色相片: 精于机械附魔的“双面”天才，福利院孩子们的好榜样，你最难以捉摸的朋友之一。
 Udimo: 鼠类
-征集:
+征集: 
 定位标签:
   - 驱散
   - 输出
@@ -34,7 +34,7 @@ aliases:
 生日: 2024-05-30
 banner_header: "{{filename}}"
 出场章节:
-  - "[[X · 齿轮的意志]]"
+  - "[[X·齿轮的意志]]"
 已邀请: true
 ---
 ![cover](assets/X｜X.assets/立绘%20X%2002.png)

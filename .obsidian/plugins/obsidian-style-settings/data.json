@@ -739,5 +739,8 @@
   "a-unique-id@@cards-progressbar-horizontal-alignment": "left",
   "a-unique-id@@cards-title-link-rows-before-clip": 2,
   "a-unique-id@@cards-rows-horizontal-padding": 5,
-  "a-unique-id@@cards-rows-vertical-padding": 5
+  "a-unique-id@@cards-rows-vertical-padding": 5,
+  "Editor@@code-background-light": "\"\"",
+  "Editor@@code-background-dark": "background-color: black",
+  "Editor@@code-border-dark": "solid 5px"
 }

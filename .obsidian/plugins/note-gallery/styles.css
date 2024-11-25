@@ -85,9 +85,9 @@
 
 /* Styling of external elements */
 
-/* .view-content:has(div):has(.block-language-note-gallery) {
+.view-content:has(div):has(.block-language-note-gallery) {
   background-color: var(--background-secondary) !important;
-} */
+}
 
 .cm-embed-block:has(> div.block-language-note-gallery):hover {
   box-shadow: unset !important;

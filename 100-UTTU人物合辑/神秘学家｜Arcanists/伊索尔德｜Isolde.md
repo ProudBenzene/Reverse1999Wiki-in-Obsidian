@@ -1,7 +1,7 @@
 ---
 Name: 伊索尔德
 exonym: Isolde
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -36,7 +36,7 @@ aliases:
 生日: 2024-11-23
 banner_header: "{{filename}}"
 出场章节:
-  - 1.7｜今夜星光灿烂
+  - "[[今夜星光灿烂｜E lucevan le stelle|1.7｜今夜星光灿烂]]"
 已邀请: true
 ---
 ![cover](assets/伊索尔德｜Isolde.assets/立绘%20伊索尔德%2002.png)
