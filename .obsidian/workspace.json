@@ -231,6 +231,32 @@
               "icon": "lucide-calendar-check",
               "title": "日历"
             }
+          },
+          {
+            "id": "79396362a188159a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7478053f0c8073bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md"
+              },
+              "icon": "lucide-list",
+              "title": "主页 的大纲"
+            }
           }
         ],
         "currentTab": 1
@@ -337,27 +363,28 @@
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
       "cmdr:在文件列表中显示当前文件": false,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "300-以影像之/302-支线/302-支线.md",
+    "300-以影像之/302-支线/assets/再见，来亚什基｜Farewell, Rayashki.assets/再见，来亚什基｜国服.jpg",
+    "300-以影像之/302-支线/assets/行至摩卢旁卡｜Journey to Mor Pankh.assets/行至摩卢旁卡｜国服.jpg",
+    "300-以影像之/302-支线/assets/朔日手记｜Notes on Shuori.assets/朔日手记｜国服.jpg",
+    "300-以影像之/302-支线/assets/圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning.assets/圣火纪行：东区黎明｜国服.jpg",
+    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/绿湖噩梦｜国服.jpg",
+    "300-以影像之/302-支线/assets/复兴！乌卢鲁运动会｜Revival! The Uluru Games.assets/复兴！乌卢鲁运动会｜国服.jpg",
+    "300-以影像之/302-支线/assets/飞驰！明日之城｜Floor It! To the Golden City.assets/飞驰！明日之城｜国服.jpg",
+    "300-以影像之/302-支线/assets/77号往事｜Route 77：The Haunted Highway.assets/77号往事｜国服.jpg",
     "000-箱的构造/主页.md",
+    "300-以影像之/302-支线/302-支线.md",
     "300-以影像之/302-支线/雷米特杯失窃案｜The Theft of the Rimet Cup.md",
     "400-箱外世界/暴雨时间线.md",
     "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/雷米特杯失窃案｜国服.jpg",
     "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/雷米特杯失窃案.jpg",
     "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/雷米特杯失窃案国服.jpg",
-    "300-以影像之/302-支线/assets/雷米特杯失窃案｜The Theft of the Rimet Cup.assets/19 2560x1440_5a2ab004551449c9825a11c2b84ece34.jpg",
     "300-以影像之/302-支线/绿湖噩梦｜A Nightmare at Green Lake.md",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/1.2版本海报.jpg",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/绿湖噩梦_竖.jpg",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/绿湖噩梦.jpg",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/44 1125x2436_81010d47acb948a9a3c64bf5e370e73c.jpg",
-    "300-以影像之/302-支线/assets/绿湖噩梦｜A Nightmare at Green Lake.assets/43 2560x1440_50a4181f27e4405fa969bed5d15d9591.jpg",
     "300-以影像之/302-支线/行至摩卢旁卡｜Journey to Mor Pankh.md",
-    "300-以影像之/302-支线/assets/行至摩卢旁卡｜Journey to Mor Pankh.assets/行至摩卢旁卡_竖.jpg",
     "300-以影像之/302-支线/复兴！乌卢鲁运动会｜Revival! The Uluru Games.md",
     "300-以影像之/302-支线/朔日手记｜Notes on Shuori.md",
     "300-以影像之/302-支线/再见，来亚什基｜Farewell, Rayashki.md",
@@ -379,7 +406,6 @@
     "200-相从心生/角色心相/微渺的愿景｜Tiny Wish.md",
     "200-相从心生/角色心相/迷途以外｜One with the Flow.md",
     "200-相从心生/角色心相/assets/微渺的愿景｜Tiny Wish.assets",
-    "200-相从心生/角色心相/迷途以外｜One with the Flow~.md",
     "200-相从心生/角色心相/assets/迷途以外｜One with the Flow.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/纸信圈儿｜Flutterpage.assets",
     "200-相从心生/角色心相/assets/秒针栖息地｜On the Hand of Time.assets",
