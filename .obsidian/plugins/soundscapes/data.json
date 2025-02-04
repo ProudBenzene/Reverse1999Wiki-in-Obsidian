@@ -543,7 +543,7 @@
     }
   ],
   "myMusicFolderPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机",
-  "reindexFrequency": "5",
+  "reindexFrequency": "never",
   "myMusicShuffle": false,
   "currentTrackIndex": 3
 }

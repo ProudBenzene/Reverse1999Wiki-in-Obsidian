@@ -44,7 +44,7 @@
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
   "MemoListView": "list",
-  "MemoSaveLocation": "MULTI",
+  "MemoSaveLocation": "DAILY",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "memos.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
@@ -62,6 +62,14 @@
       "value": "DAILY",
       "target": "ProcessEntriesBelow",
       "insert": "InsertAfter"
+    },
+    {
+      "value": "FILE",
+      "target": "MemoDefaultSingleFilePath"
+    },
+    {
+      "value": "MULTI",
+      "target": "MemoDefaultMultiFilePath"
     }
   ],
   "DeleteThinoDirectly": false,
