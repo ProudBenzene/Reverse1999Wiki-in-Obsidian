@@ -1,0 +1,549 @@
+{
+  "soundscape": "MY_MUSIC",
+  "volume": 25,
+  "autoplay": false,
+  "scrollSongTitle": true,
+  "customSoundscapes": [],
+  "myMusicIndex": [
+    {
+      "fileName": "绿湖噩梦 A Nightmare at Green Lake.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.2/绿湖噩梦 A Nightmare at Green Lake.mp3",
+      "title": "绿湖噩梦 A Nightmare at Green Lake",
+      "artist": "The 1999",
+      "album": "绿湖噩梦OST",
+      "duration": 79.93469387755103
+    },
+    {
+      "fileName": "寻宝专家 The Treasure Hunters.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.3/寻宝专家 The Treasure Hunters.mp3",
+      "title": "寻宝专家 The Treasure Hunters",
+      "artist": "The 1999",
+      "album": "行至摩卢旁卡OST",
+      "duration": 96.02612244897959
+    },
+    {
+      "fileName": "恒常的墓茔 Her Eternal Grave.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.3/恒常的墓茔 Her Eternal Grave.mp3",
+      "title": "恒常的墓茔 Her Eternal Grave",
+      "artist": "The 1999",
+      "album": "行至摩卢旁卡OST",
+      "duration": 82.31183673469388
+    },
+    {
+      "fileName": "洞穴的囚徒 The Prisoner in the Cave.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.4/洞穴的囚徒 The Prisoner in the Cave.mp3",
+      "title": "洞穴的囚徒 The Prisoner in the Cave",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 117.08081632653061
+    },
+    {
+      "fileName": "躁动的浮点 The Restless Floating Points.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.4/躁动的浮点 The Restless Floating Points.mp3",
+      "title": "躁动的浮点 The Restless Floating Points",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 117.1069387755102
+    },
+    {
+      "fileName": "与火同行 Go Together (instrumental).mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.5/与火同行 Go Together (instrumental).mp3",
+      "title": "与火同行 Go Together (instrumental)",
+      "artist": "Chrissi Poland",
+      "album": "复兴！乌卢鲁运动会OST (The Uluru Games)",
+      "duration": 215.27510204081634
+    },
+    {
+      "fileName": "与火同行 Go Together.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.5/与火同行 Go Together.mp3",
+      "title": "与火同行 Go Together",
+      "artist": "Chrissi Poland",
+      "album": "复兴！乌卢鲁运动会OST (The Uluru Games)",
+      "duration": 215.6930612244898
+    },
+    {
+      "fileName": "倾杯乐 Joy of Drinking.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.6/倾杯乐 Joy of Drinking.mp3",
+      "title": "倾杯乐 Joy of Drinking",
+      "artist": "The 1999",
+      "album": "朔日手记OST",
+      "duration": 97.67183673469388
+    },
+    {
+      "fileName": "朔日手记 Notes on Shuòrì.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.6/朔日手记 Notes on Shuòrì.mp3",
+      "title": "朔日手记 Notes on Shuòrì",
+      "artist": "The 1999",
+      "album": "朔日手记OST",
+      "duration": 181.23755102040818
+    },
+    {
+      "fileName": "葛天氏 The Getians.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.6/葛天氏 The Getians.mp3",
+      "title": "葛天氏 The Getians",
+      "artist": "The 1999",
+      "album": "朔日手记OST",
+      "duration": 121.83510204081632
+    },
+    {
+      "fileName": "1.7 - 环形之外 Beyond the Ring.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.7/1.7 - 环形之外 Beyond the Ring.mp3",
+      "title": "环形之外 Beyond the Ring",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 77.58367346938776
+    },
+    {
+      "fileName": "今夜星光灿烂 E lucevan le stelle.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.7/今夜星光灿烂 E lucevan le stelle.mp3",
+      "title": "今夜星光灿烂 E lucevan le stelle",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 141.60979591836735
+    },
+    {
+      "fileName": "镜中回忆 Memories in the Mirror.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.7/镜中回忆 Memories in the Mirror.mp3",
+      "title": "镜中回忆 Memories in the Mirror",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 133.38122448979593
+    },
+    {
+      "fileName": "再见，来亚什基 Farewell,Rayashki.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.8/再见，来亚什基 Farewell,Rayashki.mp3",
+      "title": "再见，来亚什基 Farewell,Rayashki",
+      "artist": "The 1999",
+      "album": "再见，来亚什基OST",
+      "duration": 163.91836734693877
+    },
+    {
+      "fileName": "海燕 Sea Swallow.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.8/海燕 Sea Swallow.mp3",
+      "title": "海燕 Sea Swallow",
+      "artist": "The 1999",
+      "album": "再见，来亚什基OST",
+      "duration": 95.92163265306122
+    },
+    {
+      "fileName": "技术性调整 Cutting-edge Technology.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.9/技术性调整 Cutting-edge Technology.mp3",
+      "title": "技术性调整 Cutting-edge Technology",
+      "artist": "The 1999",
+      "album": "孤独之歌OST",
+      "duration": 73.5869387755102
+    },
+    {
+      "fileName": "瓶中我 Me inside the Bottle.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.9/瓶中我 Me inside the Bottle.mp3",
+      "title": "瓶中我 Me inside the Bottle",
+      "artist": "The 1999",
+      "album": "孤独之歌OST",
+      "duration": 97.04489795918367
+    },
+    {
+      "fileName": "盗火者们 Fire Thieves.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/1.9/盗火者们 Fire Thieves.mp3",
+      "title": "盗火者们 Fire Thieves",
+      "artist": "The 1999",
+      "album": "孤独之歌OST",
+      "duration": 111.15102040816326
+    },
+    {
+      "fileName": "甩尾行动 Drifting.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.0/甩尾行动 Drifting.mp3",
+      "title": "甩尾行动 Drifting",
+      "artist": "The 1999",
+      "album": "飞驰！明日之城OST",
+      "duration": 156.68244897959184
+    },
+    {
+      "fileName": "飞驰！明日之城 Floor it! To the Golden City.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.0/飞驰！明日之城 Floor it! To the Golden City.mp3",
+      "title": "飞驰！明日之城 Floor it! To the Golden City",
+      "artist": "The 1999",
+      "album": "飞驰！明日之城OST",
+      "duration": 162.06367346938777
+    },
+    {
+      "fileName": "77号往事 Route 77 The Haunted Highway.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.1/77号往事 Route 77 The Haunted Highway.mp3",
+      "title": "77号往事 Route 77 The Haunted Highway",
+      "artist": "The 1999",
+      "album": "77号往事OST",
+      "duration": 130.2465306122449
+    },
+    {
+      "fileName": "东区黎明 London Dawning.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.3/东区黎明 London Dawning.mp3",
+      "title": "东区黎明 London Dawning",
+      "artist": "The 1999",
+      "album": "东区黎明OST",
+      "duration": 115.17387755102041
+    },
+    {
+      "fileName": "欢庆集市 Uluru Fair.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.3/欢庆集市 Uluru Fair.mp3",
+      "title": "欢庆集市 Uluru Fair",
+      "artist": "The 1999",
+      "album": "东区黎明OST",
+      "duration": 135.68
+    },
+    {
+      "fileName": "洄游的帆 (Sailing on the Hearthwind).mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.4/洄游的帆 (Sailing on the Hearthwind).mp3",
+      "title": "洄游的帆 (Sailing on the Hearthwind)",
+      "artist": "The 1999",
+      "album": "地球上最后的夜晚OST (Last Evenings on Earth)",
+      "duration": 120.9730612244898
+    },
+    {
+      "fileName": "拍硬档 (Rock Solid).mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.5/拍硬档 (Rock Solid).mp3",
+      "title": "拍硬档 (Rock Solid)",
+      "artist": "The 1999&钟明秋",
+      "album": "拍硬档 (Rock Solid)",
+      "duration": 202.37061224489796
+    },
+    {
+      "fileName": "拍硬档 (Rock Solid)1.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/2.5/拍硬档 (Rock Solid)1.mp3",
+      "title": "拍硬档 (Rock Solid)",
+      "artist": "The 1999&钟明秋",
+      "album": "拍硬档 (Rock Solid)",
+      "duration": 202.37061224489796
+    },
+    {
+      "fileName": "1.4 - 海岸漫步 Wandering on the Shore.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/UTTU/1.4 - 海岸漫步 Wandering on the Shore.mp3",
+      "title": "海岸漫步 Wandering on the Shore",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 113.03183673469388
+    },
+    {
+      "fileName": "1.5 - 跑者史诗 The Epic of Runners.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/UTTU/1.5 - 跑者史诗 The Epic of Runners.mp3",
+      "title": "跑者史诗 The Epic of Runners",
+      "artist": "The 1999",
+      "album": "复兴！乌卢鲁运动会OST (The Uluru Games)",
+      "duration": 111.0465306122449
+    },
+    {
+      "fileName": "2.0 - 午夜驰行 Midnight Mayhem.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/UTTU/2.0 - 午夜驰行 Midnight Mayhem.mp3",
+      "title": "午夜驰行 Midnight Mayhem",
+      "artist": "The 1999",
+      "album": "飞驰！明日之城OST",
+      "duration": 127.19020408163266
+    },
+    {
+      "fileName": "2.1 - 沿路逸话 Stories on the Route.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/UTTU/2.1 - 沿路逸话 Stories on the Route.mp3",
+      "title": "沿路逸话 Stories on the Route",
+      "artist": "The 1999",
+      "album": "77号往事OST",
+      "duration": 142.08
+    },
+    {
+      "fileName": "2.3 - 雾中盛会 Tourney in the Fog.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/UTTU/2.3 - 雾中盛会 Tourney in the Fog.mp3",
+      "title": "雾中盛会 Tourney in the Fog",
+      "artist": "The 1999",
+      "album": "东区黎明OST",
+      "duration": 131.2391836734694
+    },
+    {
+      "fileName": "帕格尼尼：柔美如歌.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/帕格尼尼：柔美如歌.mp3",
+      "title": "帕格尼尼：柔美如歌",
+      "artist": "The 1999",
+      "album": "帕格尼尼：柔美如歌",
+      "duration": 216.24163265306123
+    },
+    {
+      "fileName": "1.1 - 头条新闻 Headline.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.1 - 头条新闻 Headline.mp3",
+      "title": "头条新闻 Headline",
+      "artist": "The 1999",
+      "album": "雷米特杯失窃案OST",
+      "duration": 153.12979591836734
+    },
+    {
+      "fileName": "1.1 - 新人类 New Humans.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.1 - 新人类 New Humans.mp3",
+      "title": "新人类 New Humans",
+      "artist": "The 1999",
+      "album": "雷米特杯失窃案OST",
+      "duration": 207.49061224489796
+    },
+    {
+      "fileName": "1.2 - 营地惊魂 Panic at the Campsite.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.2 - 营地惊魂 Panic at the Campsite.mp3",
+      "title": "营地惊魂 Panic at the Campsite",
+      "artist": "The 1999",
+      "album": "绿湖噩梦OST",
+      "duration": 96.02612244897959
+    },
+    {
+      "fileName": "1.2 - 营地惊魂 · 序 Panic at the Campsite： Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.2 - 营地惊魂 · 序 Panic at the Campsite： Prelude.mp3",
+      "title": "营地惊魂 · 序 Panic at the Campsite: Prelude",
+      "artist": "The 1999",
+      "album": "绿湖噩梦OST",
+      "duration": 61.7534693877551
+    },
+    {
+      "fileName": "1.2 - 请留下来 · 一 Please Stay I.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.2 - 请留下来 · 一 Please Stay I.mp3",
+      "title": "请留下来 · 一 Please Stay I",
+      "artist": "The 1999",
+      "album": "绿湖噩梦OST",
+      "duration": 109.76653061224489
+    },
+    {
+      "fileName": "1.2 - 请留下来 · 二 Please Stay II.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.2 - 请留下来 · 二 Please Stay II.mp3",
+      "title": "请留下来 · 二 Please Stay II",
+      "artist": "The 1999",
+      "album": "绿湖噩梦OST",
+      "duration": 90.90612244897959
+    },
+    {
+      "fileName": "1.2 - 请留下来 · 序 Please Stay： Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.2 - 请留下来 · 序 Please Stay： Prelude.mp3",
+      "title": "请留下来 · 序 Please Stay: Prelude",
+      "artist": "The 1999",
+      "album": "绿湖噩梦OST",
+      "duration": 59.1934693877551
+    },
+    {
+      "fileName": "1.4 - 以崇高的意志 · 一 Follow the Noble Will I.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.4 - 以崇高的意志 · 一 Follow the Noble Will I.mp3",
+      "title": "以崇高的意志 · 一 Follow the Noble Will I",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 87.53632653061224
+    },
+    {
+      "fileName": "1.4 - 以崇高的意志 · 二 Follow the Noble Will II.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.4 - 以崇高的意志 · 二 Follow the Noble Will II.mp3",
+      "title": "以崇高的意志 · 二 Follow the Noble Will II",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 93.51836734693877
+    },
+    {
+      "fileName": "1.4 - 以崇高的意志 · 序 Follow the Noble Will Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.4 - 以崇高的意志 · 序 Follow the Noble Will Prelude.mp3",
+      "title": "以崇高的意志 · 序 Follow the Noble Will Prelude",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 62.87673469387755
+    },
+    {
+      "fileName": "1.4 - 卵石论战 Debate Battle.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.4 - 卵石论战 Debate Battle.mp3",
+      "title": "卵石论战 Debate Battle",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 109.81877551020408
+    },
+    {
+      "fileName": "1.4 - 卵石论战 · 序 Debate Battle Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.4 - 卵石论战 · 序 Debate Battle Prelude.mp3",
+      "title": "卵石论战 · 序 Debate Battle Prelude",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 56.372244897959185
+    },
+    {
+      "fileName": "1.4 - 数字王国 Kingdom of Numbers.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.4 - 数字王国 Kingdom of Numbers.mp3",
+      "title": "数字王国 Kingdom of Numbers",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 98.37714285714286
+    },
+    {
+      "fileName": "1.4 - 数字王国 · 序 Kingdom of Numbers Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.4 - 数字王国 · 序 Kingdom of Numbers Prelude.mp3",
+      "title": "数字王国 · 序 Kingdom of Numbers Prelude",
+      "artist": "The 1999",
+      "album": "洞穴的囚徒OST",
+      "duration": 59.5330612244898
+    },
+    {
+      "fileName": "1.7 - 欢迎入席 Welcome to the Theater.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.7 - 欢迎入席 Welcome to the Theater.mp3",
+      "title": "欢迎入席 Welcome to the Theater",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 82.70367346938775
+    },
+    {
+      "fileName": "1.7 - 欢迎入席 · 序 Welcome to the Theater： Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.7 - 欢迎入席 · 序 Welcome to the Theater： Prelude.mp3",
+      "title": "欢迎入席 · 序 Welcome to the Theater: Prelude",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 57.391020408163264
+    },
+    {
+      "fileName": "1.7 - 该望向何处 · 一 My Eyes I.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.7 - 该望向何处 · 一 My Eyes I.mp3",
+      "title": "该望向何处 · 一 My Eyes I",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 97.14938775510204
+    },
+    {
+      "fileName": "1.7 - 该望向何处 · 三 My Eyes Ⅲ.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.7 - 该望向何处 · 三 My Eyes Ⅲ.mp3",
+      "title": "该望向何处 · 三 My Eyes Ⅲ",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 103.65387755102041
+    },
+    {
+      "fileName": "1.7 - 该望向何处 · 二 My Eyes II.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.7 - 该望向何处 · 二 My Eyes II.mp3",
+      "title": "该望向何处 · 二 My Eyes II",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 83.14775510204082
+    },
+    {
+      "fileName": "1.7 - 该望向何处 · 序 My Eyes：Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/1.7 - 该望向何处 · 序 My Eyes：Prelude.mp3",
+      "title": "该望向何处 · 序 My Eyes:Prelude",
+      "artist": "The 1999",
+      "album": "今夜星光灿烂OST",
+      "duration": 66.8995918367347
+    },
+    {
+      "fileName": "2.0 - 俏色舞厅 · 序 Glittering Dance Club： Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/2.0 - 俏色舞厅 · 序 Glittering Dance Club： Prelude.mp3",
+      "title": "俏色舞厅 · 序 Glittering Dance Club: Prelude",
+      "artist": "The 1999",
+      "album": "飞驰！明日之城OST",
+      "duration": 60.99591836734694
+    },
+    {
+      "fileName": "2.0 - 理想将逝 The Fading Belief.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/2.0 - 理想将逝 The Fading Belief.mp3",
+      "title": "理想将逝 The Fading Belief",
+      "artist": "The 1999",
+      "album": "孤独之歌OST",
+      "duration": 100.4669387755102
+    },
+    {
+      "fileName": "2.0 - 理想将逝 · 序 The Fading Belief Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/2.0 - 理想将逝 · 序 The Fading Belief Prelude.mp3",
+      "title": "理想将逝 · 序 The Fading Belief Prelude",
+      "artist": "The 1999",
+      "album": "孤独之歌OST",
+      "duration": 66.19428571428571
+    },
+    {
+      "fileName": "2.0 - 造物主的陨落 · 序 Fall of the Creator Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/2.0 - 造物主的陨落 · 序 Fall of the Creator Prelude.mp3",
+      "title": "造物主的陨落 · 序 Fall of the Creator Prelude",
+      "artist": "The 1999",
+      "album": "孤独之歌OST",
+      "duration": 70.87020408163265
+    },
+    {
+      "fileName": "2.3 - 一出滑稽戏 A Comedic Farce.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/2.3 - 一出滑稽戏 A Comedic Farce.mp3",
+      "title": "一出滑稽戏 A Comedic Farce",
+      "artist": "The 1999",
+      "album": "东区黎明OST",
+      "duration": 92.60408163265306
+    },
+    {
+      "fileName": "2.3 - 一出滑稽戏 · 序 A Comedic Farce Prelude.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/战斗音乐/2.3 - 一出滑稽戏 · 序 A Comedic Farce Prelude.mp3",
+      "title": "一出滑稽戏 · 序 A Comedic Farce Prelude",
+      "artist": "The 1999",
+      "album": "东区黎明OST",
+      "duration": 41.19510204081632
+    },
+    {
+      "fileName": "人工梦游.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/人工梦游.mp3",
+      "title": "人工梦游",
+      "artist": "The 1999",
+      "album": "行过的路 Journey in the rain",
+      "duration": 118.0734693877551
+    },
+    {
+      "fileName": "共生.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/共生.mp3",
+      "title": "共生",
+      "artist": "boy solo",
+      "album": "行过的路 Journey in the rain",
+      "duration": 171.46775510204083
+    },
+    {
+      "fileName": "叠子对望.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/叠子对望.mp3",
+      "title": "叠子对望",
+      "artist": "The 1999",
+      "album": "行过的路 Journey in the rain",
+      "duration": 110.02775510204081
+    },
+    {
+      "fileName": "另一片天空.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/另一片天空.mp3",
+      "title": "另一片天空",
+      "artist": "Bach Children's Chorus",
+      "album": "行过的路 Journey in the rain",
+      "duration": 247.48408163265307
+    },
+    {
+      "fileName": "她未曾见过的.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/她未曾见过的.mp3",
+      "title": "她未曾见过的",
+      "artist": "The 1999",
+      "album": "行过的路 Journey in the rain",
+      "duration": 147.1738775510204
+    },
+    {
+      "fileName": "梦境之主.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/梦境之主.mp3",
+      "title": "梦境之主",
+      "artist": "The 1999",
+      "album": "行过的路 Journey in the rain",
+      "duration": 111.83020408163266
+    },
+    {
+      "fileName": "瑞尼尔雪山的丧钟.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/瑞尼尔雪山的丧钟.mp3",
+      "title": "瑞尼尔雪山的丧钟",
+      "artist": "The 1999",
+      "album": "行过的路 Journey in the rain",
+      "duration": 256.0261224489796
+    },
+    {
+      "fileName": "贝希摩斯.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/贝希摩斯.mp3",
+      "title": "贝希摩斯",
+      "artist": "The 1999",
+      "album": "行过的路 Journey in the rain",
+      "duration": 110.68081632653062
+    },
+    {
+      "fileName": "青柑橘.mp3",
+      "fullPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机/行过的路 Journey in the rain/青柑橘.mp3",
+      "title": "青柑橘",
+      "artist": "The 1999",
+      "album": "行过的路 Journey in the rain",
+      "duration": 84.87183673469387
+    }
+  ],
+  "myMusicFolderPath": "/Users/benzene/Library/Mobile Documents/iCloud~md~obsidian/Documents/Reverse：时间的成像/000-箱的构造/氛围制造机",
+  "reindexFrequency": "5",
+  "myMusicShuffle": false,
+  "currentTrackIndex": 3
+}

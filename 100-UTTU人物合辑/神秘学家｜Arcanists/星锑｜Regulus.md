@@ -1,7 +1,7 @@
 ---
 Name: 星锑
 exonym: Regulus
-tags:
+tags: 
 cssclasses:
   - book
 介质: 神秘学家｜Arcanist
@@ -33,13 +33,14 @@ aliases:
 生日: 2024-08-15
 banner_header: "{{filename}}"
 出场章节:
-  - 1.0｜此即明日
-  - 1.0｜在我们的时代里
-  - 1.0｜夜色温柔
-  - 1.0｜故事一无所有
-  - 1.0｜老虎的金黄
-  - 1.1｜雷米特杯失窃案
-  - 1.4｜洞穴的囚徒
+  - "[[此即明日｜This Is Tomorrow|此即明日]]"
+  - "[[在我们的时代里｜In Our Times|在我们的时代里]]"
+  - "[[夜色温柔｜Tender Is the Night|夜色温柔]]"
+  - "[[老虎的金黄｜El Oro de los Tigres|老虎的金黄]]"
+  - "[[雷米特杯失窃案｜The Theft of the Rimet Cup|1.1｜雷米特杯失窃案]]"
+  - "[[洞穴的囚徒｜The Prisoner in the Cave|1.4｜洞穴的囚徒]]"
+  - "[[孤独之歌｜Vereinsamt|1.9｜孤独之歌]]"
+  - "[[地球上最后的夜晚｜Last Evening On Earth|2.4｜地球上最后的夜晚]]"
 已邀请: true
 ---
 

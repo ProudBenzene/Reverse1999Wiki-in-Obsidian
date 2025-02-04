@@ -1,7 +1,7 @@
 ---
 Name: 爱兹拉
 exonym: Ezra Theodore
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 人类｜Human
@@ -35,7 +35,8 @@ aliases:
 生日: 2024-06-01
 banner_header: "{{filename}}"
 出场章节:
-  - 1.5｜复兴！乌卢鲁运动会
+  - "[[复兴！乌卢鲁运动会｜Revival! The Uluru Games|1.5｜复兴！乌卢鲁运动会]]"
+  - "[[地球上最后的夜晚｜Last Evening On Earth|2.4｜地球上最后的夜晚]]"
 已邀请: true
 ---
 ![cover](assets/爱兹拉｜Ezra%20Theodore.assets/立绘%20爱兹拉%2002.png)

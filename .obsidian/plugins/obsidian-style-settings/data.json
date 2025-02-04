@@ -408,7 +408,7 @@
   "blue-topaz-theme@@list-ul-marker-color@@dark": "#C23429",
   "blue-topaz-theme@@list-ul-marker-color@@light": "#B12020C4",
   "blue-topaz-theme@@list-ul-marker-size": "1em",
-  "Blue-Topaz-Legacy@@ordered-list-style-options": "ordered-list-style-1",
+  "Blue-Topaz-Legacy@@ordered-list-style-options": "default-ol-list-marker",
   "img-dark@@img-dark-dsfsd": 0.8,
   "Blue-Topaz-Legacy@@link-underline-external": false,
   "Blue-Topaz-Legacy@@grid-notebook-line-color-1@@light": "#D1D0D0",

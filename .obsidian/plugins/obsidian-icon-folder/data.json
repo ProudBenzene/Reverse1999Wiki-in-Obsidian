@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbMusic",
       "TiTools",
       "TiCalendar",
       "TiFileSpreadsheet",
-      "TiMovie",
-      "IbHouse"
+      "TiMovie"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -46,7 +46,8 @@
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconInTitlePosition": "inline",
-    "lucideIconPackType": "native"
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "插件": "FasCode",
   "插件/彩色时钟.md": "FasClock",
@@ -108,5 +109,6 @@
   "000-箱的构造": "TiBriefcase",
   "600-箱中日历": "TiCalendar",
   "000-箱的构造/箱的构造教程": "TiFileSpreadsheet",
-  "README.md": "TiFileSpreadsheet"
+  "README.md": "TiFileSpreadsheet",
+  "000-箱的构造/氛围制造机": "IbMusic"
 }

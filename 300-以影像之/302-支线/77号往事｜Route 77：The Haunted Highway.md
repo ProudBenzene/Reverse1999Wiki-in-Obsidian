@@ -11,8 +11,9 @@ aliases:
 banner: "[[77号往事.jpg]]"
 cover: "[[77号往事_竖.jpg]]"
 海报预告: 当雾气在77号公路翻涌，悬置的灯牌将点亮旅人的前路。需要暂时歇歇脚吗？推开这扇门吧，蓝手帕旅馆欢迎您的到来。
+Poster Trailer: Looking for a place to rest? Step through the door. Tuesday's Motel welcomes your arrival.
 国服海报: "[[2.1版本海报.jpg]]"
-国际服海报: "[[2.1版本海报.jpg｜国际服]]"
+国际服海报: "[[2.1版本海报｜国际服.jpg]]"
 上线版本: "[[77号往事｜Route 77：The Haunted Highway|2.1｜77号往事]]"
 上线时间: 2024-08-08
 国际服上线时间: 

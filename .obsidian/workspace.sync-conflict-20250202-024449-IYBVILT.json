@@ -1,0 +1,426 @@
+{
+  "main": {
+    "id": "7fa45a73674a7b32",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4e7ab8c564d67d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9aadaddd821e22fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/主页.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "主页"
+            }
+          },
+          {
+            "id": "beff5a8f45570199",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/302-支线/唐人街影画｜Showdown in Chinatown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "唐人街影画｜Showdown in Chinatown"
+            }
+          },
+          {
+            "id": "e52173ad10509def",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/302-支线/地球上最后的夜晚｜Last Evening On Earth.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "地球上最后的夜晚｜Last Evening On Earth"
+            }
+          },
+          {
+            "id": "3f6df53d6a9606bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400-箱外世界/暴雨时间线.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "暴雨时间线"
+            }
+          },
+          {
+            "id": "01a2c60378addfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "自动化创建角色档案"
+            }
+          },
+          {
+            "id": "95f89cae69831722",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "icon": "projects-icon",
+              "title": "Projects"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c28cfae046d28b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb7552c6126461e8",
+        "type": "tabs",
+        "dimension": 73.83292383292384,
+        "children": [
+          {
+            "id": "250c5f6efff2f242",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6fa8a46648d62218",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4862ed181d29f3fe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b94dcb9d96b5f843",
+        "type": "tabs",
+        "dimension": 26.167076167076164,
+        "children": [
+          {
+            "id": "e94c2006ca70689a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "300-以影像之/302-支线/assets/地球上最后的夜晚｜Last Evening On Earth.assets/2.4版本海报.jpg",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "path:100-UTTU人物合辑/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "path:200-相从心生/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "path:300-以影像之/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2790132
+                      }
+                    },
+                    {
+                      "query": "path:000-箱的构成/ ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15636512
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.50225016276042,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6847167020791121,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "2.4版本海报 的关系图"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "3690d4dad9b484cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3b59b964d45b39b",
+        "type": "tabs",
+        "dimension": 35.14211886304909,
+        "children": [
+          {
+            "id": "fcfeade928c29023",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "300-以影像之/302-支线/assets/地球上最后的夜晚｜Last Evening On Earth.assets/2.4版本海报.jpg"
+              },
+              "icon": "lucide-info",
+              "title": "2.4版本海报的笔记属性"
+            }
+          },
+          {
+            "id": "13eab36a72e3758c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "98db33289fda3d43",
+            "type": "leaf",
+            "state": {
+              "type": "calendar-view",
+              "state": {},
+              "icon": "lucide-calendar-check",
+              "title": "日历"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a0af558e737c8c63",
+        "type": "tabs",
+        "dimension": 64.85788113695091,
+        "children": [
+          {
+            "id": "0ff60fab5f307ba0",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "ae0ee0175ee8627f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-箱的构造/常用工具.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "常用工具"
+            }
+          },
+          {
+            "id": "e05dbb992a38c77c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "381f1e4757e8cce8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "300-以影像之/302-支线/assets/地球上最后的夜晚｜Last Evening On Earth.assets/2.4版本海报.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2.4版本海报 的反向链接列表"
+            }
+          },
+          {
+            "id": "e38c54133e209543",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "300-以影像之/302-支线/assets/地球上最后的夜晚｜Last Evening On Earth.assets/2.4版本海报.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2.4版本海报 的出链列表"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 325.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-projects:打开项目": false,
+      "obsidian-kanban:创建新看板": false,
+      "float-search:Search obsidian in modal view": false,
+      "obsidian-git:Open Git source control": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": false,
+      "workspaces:管理工作区布局": false,
+      "cmdr:Projects": false,
+      "canvas:新建白板": false,
+      "templater-obsidian:Templater": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "cmdr:Style Settings 悬浮面板": false,
+      "random-note:开始漫游笔记": false,
+      "cmdr:切换明暗主题": false,
+      "cmdr:在文件列表中显示当前文件": false,
+      "obsidian42-brat:BRAT": true
+    }
+  },
+  "active": "3a2ef431943d1e32",
+  "lastOpenFiles": [
+    "300-以影像之/302-支线/assets/圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning.assets/唐人街影画.png",
+    "300-以影像之/302-支线/地球上最后的夜晚｜Last Evening On Earth.md",
+    "300-以影像之/302-支线/唐人街影画｜Showdown in Chinatown.md",
+    "000-箱的构造/常用工具.md",
+    "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/梁月｜Liang.md",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/曲娘｜Jiu Niangzi.md",
+    "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/单品 梁月 03.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/单品 梁月 02.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/单品 梁月 01.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/图图石子｜Fatutu.md",
+    "000-箱的构造/assets/UTTU人物合辑.assets/图标 洞悉Ⅱ.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/至终的仪式 雷电急call-0305.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/神秘术 守福于内3.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/神秘术 守福于内1.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/神秘术 守福于内2.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets/神秘术 驱祟在外2.png",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/梁月｜Liang.assets",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/纸信圈儿｜Flutterpage.md",
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/纸信圈儿｜Flutterpage.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/图图石子｜Fatutu.sync-conflict-20250201-231723-IYBVILT.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/芭卡洛儿｜Barcarola.md",
+    "图图石子 Fatutu - 重返未来1999中文维基 - 灰机wiki.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/图图石子｜Fatutu.assets",
+    "assets/图图石子｜Fatutu.assets",
+    "assets",
+    "600-箱中日历/2024-10-08.md",
+    "游戏文件解包说明.md",
+    "000-箱的构造/箱中memos/20250126-feb20684cdd17814.md",
+    "000-箱的构造/箱中memos/20250125-e8eb6d6ed4fd246b.md",
+    "000-箱的构造/箱中memos/20250125-8129e76b3fdd6351.md",
+    "000-箱的构造/箱中memos/20250125-3615c3e2b0848463.md",
+    "000-箱的构造/箱中memos/20250125-a24590bbf2ecdea2.md",
+    "000-箱的构造/箱中memos/20250125-5c0e4d21bbd0e6dc.md",
+    "000-箱的构造/箱中memos/20250125-d31f454107ddec86.md",
+    "000-箱的构造/箱中memos/20250125-33369793c9753f46.md",
+    "000-箱的构造/箱中memos/20250125-53f34cae99c82c07.md",
+    "000-箱的构造/箱中memos/20250125-17f51b7a57e80c6f.md",
+    "000-箱的构造/箱中memos/20250125-2475f1576d97b445.md",
+    "000-箱的构造/箱中memos/20250125-d93d26e9647916b7.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/宽檐帽｜Brimley.assets",
+    "200-相从心生/角色心相/assets/微渺的愿景｜Tiny Wish.assets",
+    "200-相从心生/角色心相/assets/迷途以外｜One with the Flow.assets",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/纸信圈儿｜Flutterpage.assets",
+    "200-相从心生/角色心相/assets/秒针栖息地｜On the Hand of Time.assets",
+    "未命名.canvas",
+    "白板.canvas"
+  ]
+}

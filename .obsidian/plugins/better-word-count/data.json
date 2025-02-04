@@ -1,14 +1,6 @@
 {
   "statusBar": [
     {
-      "prefix": "今天一共码了 ",
-      "suffix": " 字 ",
-      "metric": {
-        "type": 1,
-        "counter": 0
-      }
-    },
-    {
       "prefix": "",
       "suffix": " words ",
       "metric": {
@@ -42,14 +34,6 @@
     }
   ],
   "altBar": [
-    {
-      "prefix": "今天一共码了 ",
-      "suffix": " 字 ",
-      "metric": {
-        "type": 1,
-        "counter": 0
-      }
-    },
     {
       "prefix": "",
       "suffix": " words ",
@@ -86,5 +70,6 @@
   "countComments": true,
   "collectStats": true,
   "displaySectionCounts": true,
-  "pageWords": 300
+  "pageWords": 300,
+  "statsPath": ".obsidian/vault-stats.json"
 }

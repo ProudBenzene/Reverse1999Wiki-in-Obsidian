@@ -3,8 +3,8 @@
   "attachmentFolderPath": "./assets/主页.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
-  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "A4",
@@ -16,6 +16,5 @@
   "livePreview": true,
   "defaultViewMode": "source",
   "propertiesInDocument": "visible",
-  "showLineNumber": true,
-  "showRibbon": true
+  "showLineNumber": true
 }

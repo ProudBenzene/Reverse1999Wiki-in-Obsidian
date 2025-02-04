@@ -362,6 +362,43 @@
           "id": "5a2f1ae3-204b-4612-a64a-c10c95920e4a",
           "name": "表格",
           "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "76dd14fe-5b7e-4e5e-97fc-8aa2421ca7fb",
+          "name": "日历",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "checkField": "已邀请",
+            "groupByField": "征集"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9ec658df-d4a8-4779-a318-9dbc0d2b89ae",
+          "name": "看板",
+          "type": "board"
         }
       ],
       "id": "9ff693de-6abc-4520-b70c-e2c25b385535",

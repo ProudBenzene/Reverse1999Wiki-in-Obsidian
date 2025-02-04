@@ -62,14 +62,6 @@
       "value": "DAILY",
       "target": "ProcessEntriesBelow",
       "insert": "InsertAfter"
-    },
-    {
-      "value": "MULTI",
-      "target": "MemoDefaultMultiFilePath"
-    },
-    {
-      "value": "FILE",
-      "target": "MemoDefaultSingleFilePath"
     }
   ],
   "DeleteThinoDirectly": false,

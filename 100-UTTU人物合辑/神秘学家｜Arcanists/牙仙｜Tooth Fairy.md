@@ -36,7 +36,8 @@ aliases:
 生日: 2024-11-27
 banner_header: "{{filename}}"
 出场章节:
-  - 1.2｜绿湖噩梦
+  - "[[绿湖噩梦｜A Nightmare at Green Lake|1.2｜绿湖噩梦]]"
+  - "[[圣火纪行：东区黎明｜Chronicles of Uluru：London Dawning|2.3｜圣火纪行：东区黎明]]"
 已邀请: true
 ---
 ![cover](assets/牙仙｜Tooth%20Fairy.assets/立绘%20牙仙%2002.png)

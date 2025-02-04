@@ -1,7 +1,8 @@
 ---
 Name: 曲娘
 exonym: Jiu Niangzi
-tags: 
+tags:
+  - 限定/新春限定
 cssclasses:
   - book
 人物合辑: 神秘学家混血种｜Mixed
@@ -41,7 +42,7 @@ banner_header: "{{filename}}"
 
 > [!overview]+ 概述
 > - 展出/活跃时代:: 不详
-> - 诞生:: 据称诞生于早春
+> - 诞生:: 据称诞生于早春（正月初一，立春）
 > - 参展时长:: 未知
 > - 展出/参展地点:: 中国沛城，后于中亚草原巡展，现保藏于圣洛夫基金会。
 

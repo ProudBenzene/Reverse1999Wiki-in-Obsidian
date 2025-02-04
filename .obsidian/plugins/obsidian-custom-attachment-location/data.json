@@ -1,16 +1,16 @@
 {
   "attachmentFolderPath": "./assets/${filename}.assets",
-  "autoRenameFiles": false,
-  "autoRenameFolder": true,
-  "convertImagesToJpeg": false,
-  "convertImagesOnDragAndDrop": false,
+  "attachmentRenameMode": "Only pasted images",
   "duplicateNameSeparator": " ",
+  "generatedAttachmentFilename": "image-${date:YYYYMMDDHHmmssSSS}",
   "jpegQuality": 0.8,
-  "keepEmptyAttachmentFolders": false,
-  "pastedFileName": "image-${date:YYYYMMDDHHmmssSSS}",
-  "renameOnlyImages": true,
-  "renamePastedFilesWithKnownNames": false,
-  "renameAttachmentsOnDragAndDrop": false,
-  "replaceWhitespace": false,
-  "toLowerCase": false
+  "shouldConvertPastedImagesToJpeg": false,
+  "shouldDeleteOrphanAttachments": false,
+  "shouldKeepEmptyAttachmentFolders": false,
+  "shouldRenameAttachmentFiles": false,
+  "shouldRenameAttachmentFolder": true,
+  "shouldRenameAttachmentsToLowerCase": false,
+  "shouldRenameCollectedAttachments": false,
+  "whitespaceReplacement": "",
+  "customTokensStr": ""
 }

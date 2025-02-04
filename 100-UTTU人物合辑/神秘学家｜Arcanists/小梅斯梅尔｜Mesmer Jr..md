@@ -1,7 +1,7 @@
 ---
 Name: 小梅斯梅尔
 exonym: Mesmer Jr.
-tags:
+tags: 
 cssclasses:
   - role
 人物合辑: 神秘学家｜Arcanists
@@ -12,9 +12,9 @@ cssclasses:
 伤害类型: 精神创伤
 传承: 阻断药
 造像: 请尽可能地保持一切都井然有序……拜托你了。
-银行彩色相片:
-Udimo:
-征集:
+银行彩色相片: 
+Udimo: 
+征集: 
 定位标签:
   - 辅助
 香调:
@@ -35,7 +35,7 @@ aliases:
 banner_header: "{{filename}}"
 出场章节:
   - 1.0｜故事一无所有
-  - "[[../../300-以影像之/304-轶事/X·齿轮的意志|X·齿轮的意志]]"
+  - "[[X·齿轮的意志]]"
 已邀请: true
 ---
 ![cover](assets/小梅斯梅尔｜Mesmer%20Jr..assets/立绘%20小梅斯梅尔%2002.png)

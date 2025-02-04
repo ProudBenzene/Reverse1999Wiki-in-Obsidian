@@ -1,0 +1,122 @@
+{
+  "autoRename": true,
+  "showRenameNotice": false,
+  "useCustomRenaming": false,
+  "customRenameTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
+  "customRenameDefaultTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
+  "convertToWEBP": true,
+  "convertToJPG": false,
+  "convertToPNG": false,
+  "convertTo": "disabled",
+  "quality": 1,
+  "skipPatterns": "*.gif,*.avif",
+  "allowLargerFiles": false,
+  "baseTimeout": 20000,
+  "timeoutPerMB": 1000,
+  "showProgress": true,
+  "showSummary": true,
+  "ProcessAllVaultconvertTo": "webp",
+  "ProcessAllVaultquality": 0.75,
+  "ProcessAllVaultResizeModalresizeMode": "None",
+  "ProcessAllVaultResizeModaldesiredWidth": 600,
+  "ProcessAllVaultResizeModaldesiredHeight": 800,
+  "ProcessAllVaultResizeModaldesiredLength": 800,
+  "ProcessAllVaultskipImagesInTargetFormat": false,
+  "ProcessAllVaultEnlargeOrReduce": "Always",
+  "ProcessAllVaultSkipFormats": "tif,tiff,heic",
+  "ProcessCurrentNoteconvertTo": "webp",
+  "ProcessCurrentNotequality": 0.75,
+  "ProcessCurrentNoteResizeModalresizeMode": "None",
+  "ProcessCurrentNoteresizeModaldesiredWidth": 600,
+  "ProcessCurrentNoteresizeModaldesiredHeight": 800,
+  "ProcessCurrentNoteresizeModaldesiredLength": 800,
+  "ProcessCurrentNoteskipImagesInTargetFormat": false,
+  "ProcessCurrentNoteEnlargeOrReduce": "Always",
+  "ProcessCurrentNoteSkipFormats": "tif,tiff,heic",
+  "attachmentLocation": "customOutput",
+  "attachmentSubfolderName": "",
+  "customOutputPath": "assets/{notename}.assets",
+  "previewPath": "",
+  "manage_duplicate_filename": "disabled",
+  "destructive_resizeMode": "None",
+  "destructive_desiredWidth": 600,
+  "destructive_desiredHeight": 800,
+  "destructive_desiredLongestEdge": 800,
+  "destructive_enlarge_or_reduce": "Always",
+  "nondestructive_resizeMode": "disabled",
+  "nondestructive_resizeMode_customSize": "",
+  "nondestructive_resizeMode_fitImage": "",
+  "nondestructive_enlarge_or_reduce": "Always",
+  "resizeByDragging": true,
+  "resizeWithScrollwheel": true,
+  "scrollwheelModifier": "Shift",
+  "allowResizeInReadingMode": false,
+  "rightClickContextMenu": true,
+  "rememberScrollPosition": true,
+  "cursorPosition": "back",
+  "useMdLinks": true,
+  "useRelativePath": false,
+  "imageAlignment_cacheCleanupInterval": 3600000,
+  "annotationPresets": {
+    "drawing": [
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 2
+      },
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 2
+      },
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 2
+      }
+    ],
+    "arrow": [
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 8
+      },
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 8
+      },
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 8
+      }
+    ],
+    "text": [
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 24
+      },
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 24
+      },
+      {
+        "color": "#000000",
+        "opacity": 1,
+        "blendMode": "source-over",
+        "size": 24
+      }
+    ]
+  }
+}

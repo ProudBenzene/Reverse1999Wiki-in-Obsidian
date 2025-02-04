@@ -6031,12 +6031,12 @@ body:not(.default-loading-page).loading-page-style-default .progress-bar-message
   will-change: transform;
 }
 
-body:not(.default-loading-page).theme-light .progress-bar {
+/*body:not(.default-loading-page).theme-light .progress-bar {
   background-color: white;
 }
 body:not(.default-loading-page).theme-dark .progress-bar {
   background-color: #222222;
-}
+}*/
 
 
 body:not(.loading-custom-text) .setting-item[data-id="loading-custom-text-folder"],

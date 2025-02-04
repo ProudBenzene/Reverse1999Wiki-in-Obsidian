@@ -477,21 +477,21 @@ var VirtualMatch = class {
     if (!this.settings.alwaysShowMultipleReferences) {
       spanReferences.classList.add("multiple-files-references");
     }
-    const takenFiles = files || this.files;
-    takenFiles.forEach((file, index) => {
+    files = files != null ? files : this.files;
+    files.forEach((file, index) => {
       if (index === 0) {
         const bracket = document.createElement("span");
         bracket.textContent = this.isSubWord ? "[" : " [";
         spanReferences.appendChild(bracket);
       }
       let linkText = ` ${index + 1} `;
-      if (index < takenFiles.length - 1) {
+      if (index < files.length - 1) {
         linkText += "|";
       }
       let linkHref = file.path;
       const link = this.getLinkAnchorElement(linkText, linkHref);
       spanReferences.appendChild(link);
-      if (index == takenFiles.length - 1) {
+      if (index == files.length - 1) {
         const bracket = document.createElement("span");
         bracket.textContent = "]";
         spanReferences.appendChild(bracket);
@@ -1505,6 +1505,86 @@ var LinkerPlugin = class extends import_obsidian5.Plugin {
         return false;
       }
     });
+    this.addCommand({
+      id: "convert-selected-virtual-links",
+      name: "Convert All Virtual Links in Selection to Real Links",
+      checkCallback: (checking) => {
+        var _a;
+        const view = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
+        const editor = view == null ? void 0 : view.editor;
+        if (!editor || !editor.somethingSelected()) {
+          return false;
+        }
+        if (checking)
+          return true;
+        const from = editor.getCursor("from");
+        const to = editor.getCursor("to");
+        const cmEditor = editor.cm;
+        if (!cmEditor)
+          return false;
+        const selectionRange = cmEditor.dom.querySelector(".cm-content");
+        if (!selectionRange)
+          return false;
+        const virtualLinks = Array.from(selectionRange.querySelectorAll(".virtual-link-a")).filter((link) => link instanceof HTMLElement).map((link) => ({
+          element: link,
+          from: parseInt(link.getAttribute("from") || "-1"),
+          to: parseInt(link.getAttribute("to") || "-1"),
+          text: link.getAttribute("origin-text") || "",
+          href: link.getAttribute("href") || ""
+        })).filter((link) => {
+          const linkFrom = editor.offsetToPos(link.from);
+          const linkTo = editor.offsetToPos(link.to);
+          return this.isPosWithinRange(linkFrom, linkTo, from, to);
+        }).sort((a, b) => a.from - b.from);
+        if (virtualLinks.length === 0)
+          return;
+        const replacements = [];
+        for (const link of virtualLinks) {
+          const targetFile = this.app.vault.getAbstractFileByPath(link.href);
+          if (!(targetFile instanceof import_obsidian5.TFile))
+            continue;
+          const activeFile = this.app.workspace.getActiveFile();
+          const activeFilePath = (_a = activeFile == null ? void 0 : activeFile.path) != null ? _a : "";
+          let absolutePath = targetFile.path;
+          let relativePath = path.relative(path.dirname(activeFilePath), path.dirname(absolutePath)) + "/" + path.basename(absolutePath);
+          relativePath = relativePath.replace(/\\/g, "/");
+          const replacementPath = this.app.metadataCache.fileToLinktext(targetFile, activeFilePath);
+          const lastPart = replacementPath.split("/").pop();
+          const shortestFile = this.app.metadataCache.getFirstLinkpathDest(lastPart, "");
+          let shortestPath = (shortestFile == null ? void 0 : shortestFile.path) === targetFile.path ? lastPart : absolutePath;
+          if (!replacementPath.endsWith(".md")) {
+            if (absolutePath.endsWith(".md"))
+              absolutePath = absolutePath.slice(0, -3);
+            if (shortestPath.endsWith(".md"))
+              shortestPath = shortestPath.slice(0, -3);
+            if (relativePath.endsWith(".md"))
+              relativePath = relativePath.slice(0, -3);
+          }
+          const useMarkdownLinks = this.settings.useDefaultLinkStyleForConversion ? this.settings.defaultUseMarkdownLinks : this.settings.useMarkdownLinks;
+          const linkFormat = this.settings.useDefaultLinkStyleForConversion ? this.settings.defaultLinkFormat : this.settings.linkFormat;
+          let replacement = "";
+          if (replacementPath === link.text && linkFormat === "shortest") {
+            replacement = `[[${replacementPath}]]`;
+          } else {
+            const path2 = linkFormat === "shortest" ? shortestPath : linkFormat === "relative" ? relativePath : absolutePath;
+            replacement = useMarkdownLinks ? `[${link.text}](${path2})` : `[[${path2}|${link.text}]]`;
+          }
+          replacements.push({
+            from: link.from,
+            to: link.to,
+            text: replacement
+          });
+        }
+        for (const replacement of replacements.reverse()) {
+          const fromPos = editor.offsetToPos(replacement.from);
+          const toPos = editor.offsetToPos(replacement.to);
+          editor.replaceRange(replacement.text, fromPos, toPos);
+        }
+      }
+    });
+  }
+  isPosWithinRange(linkFrom, linkTo, selectionFrom, selectionTo) {
+    return (linkFrom.line > selectionFrom.line || linkFrom.line === selectionFrom.line && linkFrom.ch >= selectionFrom.ch) && (linkTo.line < selectionTo.line || linkTo.line === selectionTo.line && linkTo.ch <= selectionTo.ch);
   }
   addContextMenuItem(menu, file, source) {
     if (!file) {

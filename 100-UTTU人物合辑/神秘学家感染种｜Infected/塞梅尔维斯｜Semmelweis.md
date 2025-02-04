@@ -1,7 +1,7 @@
 ---
 Name: 塞梅尔维斯
 exonym: Semmelweis
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家感染种｜Infected
@@ -14,7 +14,7 @@ cssclasses:
 造像: 她的影像消失了，接着真实与本质开始浮现。
 银行彩色相片: 温和亲切的人类专家，拒人千里的漠视规则者，你最忠于自我的朋友之一。
 Udimo: 豹类
-征集:
+征集: 
 定位标签:
   - 辅助
   - 输出

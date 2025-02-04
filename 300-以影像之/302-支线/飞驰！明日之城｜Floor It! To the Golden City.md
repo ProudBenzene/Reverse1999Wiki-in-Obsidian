@@ -11,6 +11,7 @@ aliases:
 banner: "[[飞驰！明日之城.jpg]]"
 cover: "[[飞驰！明日之城_竖.jpg]]"
 海报预告: 往前，往前！当新纪元熠熠升起，复古浪潮已席卷西海岸；摇摆，摇摆！再来一曲，把昨日抛却脑后，敬今夜的狂欢！
+Poster Trailer: Onward! Onward!As the New Age dawns, a wave of retro nostalgia is sweeping the West Coast.Dance! Swing!Just one more song ... Forget about yesterday—let's celebrate tonight!
 国服海报: "[[2.0版本海报.jpg]]"
 国际服海报: "[[2.0版本海报｜国际服.jpg]]"
 上线版本: "[[飞驰！明日之城｜Floor It! To the Golden City|2.0｜飞驰！明日之城]]"
