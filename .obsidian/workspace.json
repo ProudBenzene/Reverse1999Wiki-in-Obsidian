@@ -232,35 +232,6 @@
               "icon": "lucide-calendar-check",
               "title": "日历"
             }
-          },
-          {
-            "id": "26e9afd122a64f3e",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "5885b6a7acd72060",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "主页 的大纲"
-            }
           }
         ],
         "currentTab": 1
@@ -356,6 +327,7 @@
       "float-search:Search obsidian in modal view": false,
       "obsidian-git:Open Git source control": false,
       "soundscapes:Soundscapes: My Music": false,
+      "templify:Templify 市场": false,
       "daily-notes:打开/创建今天的日记": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
@@ -375,11 +347,25 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "游戏文件解包说明.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/菲林士多｜Noire.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/单品 菲林士多 03.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/单品 菲林士多 02.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/单品 菲林士多 01.png",
     "000-箱的构造/主页.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/至终的仪式 戏剧性时刻.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/神秘术 特技镜头1.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/神秘术 特技镜头2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/特技镜头2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/神秘术 特技镜头3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/神秘术 剪切视线2.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets/神秘术 剪切视线3.png",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/菲林士多｜Noire.assets",
+    "000-箱的构造/常用工具.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/空脑袋｜Loggerhead.md",
+    "200-相从心生/200-相从心生.md",
+    "游戏文件解包说明.md",
     "1999 Wiki&Note Obsidian Vault.md",
     "000-箱的构造/氛围制造机/1.8/海燕 Sea Swallow.mp3",
-    "000-箱的构造/氛围制造机/行过的路 Journey in the rain/行过的路 Journey in the rain.jpg",
     "000-箱的构造/氛围制造机/战斗音乐/2.0 - 理想将逝 · 序 The Fading Belief Prelude.mp3",
     "000-箱的构造/氛围制造机/战斗音乐/1.7 - 该望向何处 · 一 My Eyes I.mp3",
     "000-箱的构造/氛围制造机/1.9/瓶中我 Me inside the Bottle.mp3",
@@ -388,23 +374,11 @@
     "000-箱的构造/氛围制造机/行过的路 Journey in the rain/青柑橘.mp3",
     "000-箱的构造/氛围制造机/1.5/与火同行 Go Together (instrumental).mp3",
     "000-箱的构造/氛围制造机/2.0/甩尾行动 Drifting.mp3",
-    "000-箱的构造/氛围制造机/帕格尼尼：柔美如歌.mp3",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/空脑袋｜Loggerhead.md",
-    "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/单品 空脑袋 03.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/单品 空脑袋 02.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/单品 空脑袋 01.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/神秘术 你也尝尝！1.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/神秘术 你也尝尝！2.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/神秘术 你也尝尝！3.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/一阶神秘术.png",
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/assets/空脑袋｜Loggerhead.assets/二阶神秘术.png",
     "100-UTTU人物合辑/意识唤醒者｜Awakened/空脑袋｜Loggerhead~.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/小梅斯梅尔｜Mesmer Jr..md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/十四行诗｜Sonetto.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/X｜X.md",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/纸信圈儿｜Flutterpage.md",
-    "000-箱的构造/常用工具.md",
     "300-以影像之/300-以影像之.md",
     "300-以影像之/301-主线/2.0 旅行归来/2.0 旅行归来.md",
     "300-以影像之/301-主线/2.0 旅行归来/忧郁的热带｜Tristes Tropiques.md",
@@ -418,9 +392,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/图图石子｜Fatutu.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/图图石子｜Fatutu.sync-conflict-20250201-231723-IYBVILT.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/芭卡洛儿｜Barcarola.md",
-    "图图石子 Fatutu - 重返未来1999中文维基 - 灰机wiki.md",
-    "600-箱中日历/2024-10-08.md",
-    "000-箱的构造/箱中memos/20250126-feb20684cdd17814.md",
     "未命名.canvas",
     "白板.canvas"
   ]
