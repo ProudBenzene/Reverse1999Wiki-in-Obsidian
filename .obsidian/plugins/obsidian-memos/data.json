@@ -44,7 +44,7 @@
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
   "MemoListView": "list",
-  "MemoSaveLocation": "DAILY",
+  "MemoSaveLocation": "MULTI",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "memos.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
@@ -59,9 +59,8 @@
   "EditorType": "obsidian",
   "EnabledLocationList": [
     {
-      "value": "DAILY",
-      "target": "ProcessEntriesBelow",
-      "insert": "InsertAfter"
+      "value": "MULTI",
+      "target": "MemoDefaultMultiFilePath"
     }
   ],
   "DeleteThinoDirectly": false,
@@ -73,7 +72,8 @@
   "startSync": false,
   "tokenForVerify": {
     "b9b61423165153adc5cd9849ba01180bf98063f6431bd5059080bdda3c2ab09c": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjI3MSwiYXBwSWQiOiJiOWI2MTQyMzE2NTE1M2FkYzVjZDk4NDliYTAxMTgwYmY5ODA2M2Y2NDMxYmQ1MDU5MDgwYmRkYTNjMmFiMDljIn0.aXJpfI0psnxKc-oSXikQJvN2mF7MkLeWeMG6oRZ9iy4h7ANxhkqtBS4_JqbhBW6UZ6EO0vOezhIdIMdJncWoJoeRVwCfIc9jgFU3SjksfmZzPHCuElOg_FsZoto8mRP2kFFu4PzTZ8UEwSphDG3DwbaV8fuECnLm4o7yG6SfwPhcWzFtl7UO3jfgXn8WN-6anPkYz0oGfifQgyBnesjPzMOV-a40TdJ5pLNXX7F6Hy_pDycCZvdlSXpXZEHfqAIS8q9MHUBM4lKLm6tbFVsML3CkpNAHRJpRvMQZYh0GLryVLg_s303nUJDqI6eYrIER-m-LZLw7L73TllXNExoosQ",
-    "f7d30163861a99175c9ce7a7e266577498a4037bafddab059d28f5bae477fdaa": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjc3MywiYXBwSWQiOiJmN2QzMDE2Mzg2MWE5OTE3NWM5Y2U3YTdlMjY2NTc3NDk4YTQwMzdiYWZkZGFiMDU5ZDI4ZjViYWU0NzdmZGFhIn0.iIJcG07Dkgu9Fs4YalWjxLbdvUtdhJbhGobypNLIlXIk-LJoTQzn4ZsHJdZKFmPlXUnnHq0Z5BfRQWxehw4el2rDZHxDxolWmMySpbCDX8DLjJr-UFE_4yKlXf6abGvaPiKBdUNx9pMzRT1rxs9dP1ArihfiU-IUkZlR2dQd2pe495Vsl4EQr2mjlnNG2u-quOWXPhER6nXzxRKaJqanNTzoqM97_yuGhnfFB8T4MIDC3ghVr-fbc12QhsEkRJQjoAWyPBLLAxm8kHbazZLpDIeMkLZrvxsVCr4WbGyvUnNoUYR_ODsbuo1JWmRQB3ce_w7fJYMhxJCeheIdSOQAqQ"
+    "f7d30163861a99175c9ce7a7e266577498a4037bafddab059d28f5bae477fdaa": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjc3MywiYXBwSWQiOiJmN2QzMDE2Mzg2MWE5OTE3NWM5Y2U3YTdlMjY2NTc3NDk4YTQwMzdiYWZkZGFiMDU5ZDI4ZjViYWU0NzdmZGFhIn0.iIJcG07Dkgu9Fs4YalWjxLbdvUtdhJbhGobypNLIlXIk-LJoTQzn4ZsHJdZKFmPlXUnnHq0Z5BfRQWxehw4el2rDZHxDxolWmMySpbCDX8DLjJr-UFE_4yKlXf6abGvaPiKBdUNx9pMzRT1rxs9dP1ArihfiU-IUkZlR2dQd2pe495Vsl4EQr2mjlnNG2u-quOWXPhER6nXzxRKaJqanNTzoqM97_yuGhnfFB8T4MIDC3ghVr-fbc12QhsEkRJQjoAWyPBLLAxm8kHbazZLpDIeMkLZrvxsVCr4WbGyvUnNoUYR_ODsbuo1JWmRQB3ce_w7fJYMhxJCeheIdSOQAqQ",
+    "f7f33d351d28c195de5e4ae5b3f0969123043efafa8aee079637a2418133c459": "eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoidGhpbm8iLCJpc3MiOiJwa21lciIsInVzZXJJZCI6IjU2YmQwZDlmLTk4YTAtNDQ4Ny1hYTk2LWZhODk2ZGFjNWQxOCIsImkiOjM3MywiYXBwSWQiOiJmN2YzM2QzNTFkMjhjMTk1ZGU1ZTRhZTViM2YwOTY5MTIzMDQzZWZhZmE4YWVlMDc5NjM3YTI0MTgxMzNjNDU5In0.BJNU07Zgqew5ODD6GwWClb17kxcW1zt2livCbsvjipylQo-jWPOi0F3ugB4LsYRoS9fNFbKS7HfYqu2s5zjk7Ho5o0hUZKWxjXdeQ6ntLqsx2n8jyuxyhyKRDyO8W4PUQmBr-O8xC8YkN7o2gA29HQuo97A_CD3QADLR6nKwdnKxRF42NY67zwMcen2mtBwXRQz0kxF0aGl587DqCmpaoKAm6Khvq3Q1RPGtACyWFFb7DyIDxGcnXY3WvXDoBdmidLSYUyWu0no-CEFQMFAY_VpJGFAvWEZZYp3WY4uW213aUwFKgoLFuGUtm8NA7sDdjIRsFyTgDsOJKBZqXQv5Ig"
   },
   "saveThinoType": "FILE",
   "showDayMark": true,

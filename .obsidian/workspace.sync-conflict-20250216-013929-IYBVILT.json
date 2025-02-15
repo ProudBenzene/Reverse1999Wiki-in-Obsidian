@@ -22,6 +22,30 @@
             }
           },
           {
+            "id": "a15270a353e9842b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "300-以影像之/304-轶事/304-轶事.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "304-轶事"
+            }
+          },
+          {
+            "id": "ea4e698f367fb5cf",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -59,7 +83,8 @@
               "title": "Projects"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "3690d4dad9b484cc",
@@ -318,7 +344,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 325.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -344,15 +371,8 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "9aadaddd821e22fa",
+  "active": "ea4e698f367fb5cf",
   "lastOpenFiles": [
-    "300-以影像之/304-轶事/泥鯭的士·鬼马探灵记.md",
-    "300-以影像之/304-轶事/assets/泥鯭的士·鬼马探灵记.assets/头图 鬼马探灵记.png",
-    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
-    "300-以影像之/304-轶事/304-轶事.md",
-    "000-箱的构造/主页.md",
-    "000-箱的构造/箱中memos/20250216-e666c8bd06e1e570.md",
-    "000-箱的构造/箱中memos/20250216-e4c295f935f0d6e1.md",
     "000-箱的构造/箱中memos/20250216-726d4d4816e55098.md",
     "000-箱的构造/箱中memos/20250216-a6aefa0fb06cfcdb.md",
     "000-箱的构造/箱中memos/20250216-ad567d278e32334b.md",
@@ -365,14 +385,19 @@
     "000-箱的构造/箱中memos/20250216-8a8e5c5f9caf2eb9.md",
     "000-箱的构造/箱中memos/20250216-e6b3f1eacfdd2df3.md",
     "000-箱的构造/箱中memos/20250216-97a3a676f3324105.md",
+    "300-以影像之/304-轶事/304-轶事.md",
     "300-以影像之/301-主线/1.0 生者与余众/洞穴的囚徒｜The Prisoner in the Cave.md",
+    "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/assets/环状水星·“黄金”与悲喜剧.assets/封面 “黄金”与悲喜剧 1.png",
     "300-以影像之/304-轶事/assets/星锑·最佳乐队.assets/封面 最佳乐队.png",
     "300-以影像之/304-轶事/assets/泥鯭的士·鬼马探灵记.assets/封面 鬼马探灵记.png",
+    "300-以影像之/304-轶事/泥鯭的士·鬼马探灵记.md",
+    "300-以影像之/304-轶事/assets/泥鯭的士·鬼马探灵记.assets/头图 鬼马探灵记.png",
     "300-以影像之/304-轶事/星锑·最佳乐队.md",
     "300-以影像之/304-轶事/assets/泥鯭的士·鬼马探灵记.assets",
     "300-以影像之/304-轶事/assets/星锑·最佳乐队.assets/头图 最佳乐队.png",
     "300-以影像之/304-轶事/assets/星锑·最佳乐队.assets",
+    "300-以影像之/304-轶事/温妮弗雷德·致温妮弗雷德.md",
     "200-相从心生/角色心相/惊魂拍档｜Your Friendly Exorcist.md",
     "200-相从心生/角色心相/assets/惊魂拍档｜Your Friendly Exorcist.assets/心相 惊魂拍档.png",
     "200-相从心生/角色心相/assets/惊魂拍档｜Your Friendly Exorcist.assets/Your Friendly Exorcist.png",
@@ -384,8 +409,11 @@
     "200-相从心生/角色心相/assets/纵情一曲｜Belt It Out.assets/心相 纵情一曲-1.png",
     "200-相从心生/角色心相/assets/纵情一曲｜Belt It Out.assets",
     "200-相从心生/角色心相/造梦的预演｜Rehearsal of Dreams.md",
+    "100-UTTU人物合辑/神秘学家｜Arcanists/菲林士多｜Noire.md",
+    "100-UTTU人物合辑/100-UTTU人物合辑.md",
     "200-相从心生/角色心相/assets/造梦的预演｜Rehearsal of Dreams.assets/心相 造梦的预演.png",
     "200-相从心生/角色心相/assets/造梦的预演｜Rehearsal of Dreams.assets",
+    "200-相从心生/角色心相/收到请回答｜Ready on Call.md",
     "200-相从心生/角色心相/assets/收到请回答｜Ready on Call.assets",
     "200-相从心生/角色心相/assets/惶然的贝壳｜Cracks in the Shell.assets",
     "200-相从心生/角色心相/assets/离别变奏曲｜Addio Coda.assets",
