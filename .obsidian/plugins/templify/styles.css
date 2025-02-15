@@ -587,15 +587,15 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .\!tpfy-h-5,.tpfy-dialog .\!tpfy-h-5,.tpfy-toaster .\!tpfy-h-5,.\!tpfy-h-5:where(.tpfy-dialog,.tpfy-toaster) {
   height: 1.25rem !important;
 }
+.tpfy-view .\!tpfy-h-8,.tpfy-dialog .\!tpfy-h-8,.tpfy-toaster .\!tpfy-h-8,.\!tpfy-h-8:where(.tpfy-dialog,.tpfy-toaster) {
+  height: 2rem !important;
+}
 .tpfy-view .\!tpfy-h-fit,.tpfy-dialog .\!tpfy-h-fit,.tpfy-toaster .\!tpfy-h-fit,.\!tpfy-h-fit:where(.tpfy-dialog,.tpfy-toaster) {
   height: -moz-fit-content !important;
   height: fit-content !important;
 }
 .tpfy-view .\!tpfy-h-full,.tpfy-dialog .\!tpfy-h-full,.tpfy-toaster .\!tpfy-h-full,.\!tpfy-h-full:where(.tpfy-dialog,.tpfy-toaster) {
   height: 100% !important;
-}
-.tpfy-view .tpfy-h-1\/2,.tpfy-dialog .tpfy-h-1\/2,.tpfy-toaster .tpfy-h-1\/2,.tpfy-h-1\/2:where(.tpfy-dialog,.tpfy-toaster) {
-  height: 50%;
 }
 .tpfy-view .tpfy-h-1\/3,.tpfy-dialog .tpfy-h-1\/3,.tpfy-toaster .tpfy-h-1\/3,.tpfy-h-1\/3:where(.tpfy-dialog,.tpfy-toaster) {
   height: 33.333333%;
@@ -651,9 +651,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .tpfy-h-48,.tpfy-dialog .tpfy-h-48,.tpfy-toaster .tpfy-h-48,.tpfy-h-48:where(.tpfy-dialog,.tpfy-toaster) {
   height: 12rem;
 }
-.tpfy-view .tpfy-h-5,.tpfy-dialog .tpfy-h-5,.tpfy-toaster .tpfy-h-5,.tpfy-h-5:where(.tpfy-dialog,.tpfy-toaster) {
-  height: 1.25rem;
-}
 .tpfy-view .tpfy-h-6,.tpfy-dialog .tpfy-h-6,.tpfy-toaster .tpfy-h-6,.tpfy-h-6:where(.tpfy-dialog,.tpfy-toaster) {
   height: 1.5rem;
 }
@@ -688,8 +685,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .tpfy-max-h-96,.tpfy-dialog .tpfy-max-h-96,.tpfy-toaster .tpfy-max-h-96,.tpfy-max-h-96:where(.tpfy-dialog,.tpfy-toaster) {
   max-height: 24rem;
 }
-.tpfy-view .tpfy-max-h-\[1\/2\],.tpfy-dialog .tpfy-max-h-\[1\/2\],.tpfy-toaster .tpfy-max-h-\[1\/2\],.tpfy-max-h-\[1\/2\]:where(.tpfy-dialog,.tpfy-toaster) {
-  max-height: 1/2;
+.tpfy-view .tpfy-max-h-\[1\/3\],.tpfy-dialog .tpfy-max-h-\[1\/3\],.tpfy-toaster .tpfy-max-h-\[1\/3\],.tpfy-max-h-\[1\/3\]:where(.tpfy-dialog,.tpfy-toaster) {
+  max-height: 1/3;
 }
 .tpfy-view .tpfy-max-h-\[300px\],.tpfy-dialog .tpfy-max-h-\[300px\],.tpfy-toaster .tpfy-max-h-\[300px\],.tpfy-max-h-\[300px\]:where(.tpfy-dialog,.tpfy-toaster) {
   max-height: 300px;
@@ -717,6 +714,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .\!tpfy-w-48,.tpfy-dialog .\!tpfy-w-48,.tpfy-toaster .\!tpfy-w-48,.\!tpfy-w-48:where(.tpfy-dialog,.tpfy-toaster) {
   width: 12rem !important;
+}
+.tpfy-view .\!tpfy-w-8,.tpfy-dialog .\!tpfy-w-8,.tpfy-toaster .\!tpfy-w-8,.\!tpfy-w-8:where(.tpfy-dialog,.tpfy-toaster) {
+  width: 2rem !important;
 }
 .tpfy-view .\!tpfy-w-\[400px\],.tpfy-dialog .\!tpfy-w-\[400px\],.tpfy-toaster .\!tpfy-w-\[400px\],.\!tpfy-w-\[400px\]:where(.tpfy-dialog,.tpfy-toaster) {
   width: 400px !important;
@@ -768,6 +768,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-w-4,.tpfy-dialog .tpfy-w-4,.tpfy-toaster .tpfy-w-4,.tpfy-w-4:where(.tpfy-dialog,.tpfy-toaster) {
   width: 1rem;
+}
+.tpfy-view .tpfy-w-48,.tpfy-dialog .tpfy-w-48,.tpfy-toaster .tpfy-w-48,.tpfy-w-48:where(.tpfy-dialog,.tpfy-toaster) {
+  width: 12rem;
 }
 .tpfy-view .tpfy-w-5,.tpfy-dialog .tpfy-w-5,.tpfy-toaster .tpfy-w-5,.tpfy-w-5:where(.tpfy-dialog,.tpfy-toaster) {
   width: 1.25rem;
@@ -823,6 +826,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-max-w-56,.tpfy-dialog .tpfy-max-w-56,.tpfy-toaster .tpfy-max-w-56,.tpfy-max-w-56:where(.tpfy-dialog,.tpfy-toaster) {
   max-width: 14rem;
+}
+.tpfy-view .tpfy-max-w-\[200px\],.tpfy-dialog .tpfy-max-w-\[200px\],.tpfy-toaster .tpfy-max-w-\[200px\],.tpfy-max-w-\[200px\]:where(.tpfy-dialog,.tpfy-toaster) {
+  max-width: 200px;
 }
 .tpfy-view .tpfy-max-w-full,.tpfy-dialog .tpfy-max-w-full,.tpfy-toaster .tpfy-max-w-full,.tpfy-max-w-full:where(.tpfy-dialog,.tpfy-toaster) {
   max-width: 100%;
@@ -1206,9 +1212,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .\!tpfy-p-0,.tpfy-dialog .\!tpfy-p-0,.tpfy-toaster .\!tpfy-p-0,.\!tpfy-p-0:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 0px !important;
 }
-.tpfy-view .\!tpfy-p-0\.5,.tpfy-dialog .\!tpfy-p-0\.5,.tpfy-toaster .\!tpfy-p-0\.5,.\!tpfy-p-0\.5:where(.tpfy-dialog,.tpfy-toaster) {
-  padding: 0.125rem !important;
-}
 .tpfy-view .tpfy-p-0,.tpfy-dialog .tpfy-p-0,.tpfy-toaster .tpfy-p-0,.tpfy-p-0:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 0px;
 }
@@ -1223,6 +1226,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-p-4,.tpfy-dialog .tpfy-p-4,.tpfy-toaster .tpfy-p-4,.tpfy-p-4:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 1rem;
+}
+.tpfy-view .tpfy-p-5,.tpfy-dialog .tpfy-p-5,.tpfy-toaster .tpfy-p-5,.tpfy-p-5:where(.tpfy-dialog,.tpfy-toaster) {
+  padding: 1.25rem;
 }
 .tpfy-view .tpfy-p-6,.tpfy-dialog .tpfy-p-6,.tpfy-toaster .tpfy-p-6,.tpfy-p-6:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 1.5rem;
@@ -1705,7 +1711,12 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .block-language-templify .tpfy-content .workspace-leaf {
   height: 50vh;
 }
-.block-language-templify .hide-header .view-header {
+.block-language-templify .hide-header .view-header,
+.tpfy-view .react-grid-item .hide-header .view-header,
+.tpfy-dialog .react-grid-item .hide-header .view-header,
+.tpfy-toaster .react-grid-item .hide-header .view-header,
+.react-grid-item .hide-header .view-header:where(.tpfy-dialog,.tpfy-toaster),
+.templify .hide-header .view-header {
   display: none;
 }
 .tpfy-view .react-grid-layout .tpfy-content .cm-scroller,.tpfy-dialog .react-grid-layout .tpfy-content .cm-scroller,.tpfy-toaster .react-grid-layout .tpfy-content .cm-scroller,.react-grid-layout .tpfy-content .cm-scroller:where(.tpfy-dialog,.tpfy-toaster),.block-language-templify .tpfy-content .cm-scroller {
@@ -2962,15 +2973,15 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .\!tpfy-h-5,.tpfy-dialog .\!tpfy-h-5,.tpfy-toaster .\!tpfy-h-5,.\!tpfy-h-5:where(.tpfy-dialog,.tpfy-toaster) {
   height: 1.25rem !important;
 }
+.tpfy-view .\!tpfy-h-8,.tpfy-dialog .\!tpfy-h-8,.tpfy-toaster .\!tpfy-h-8,.\!tpfy-h-8:where(.tpfy-dialog,.tpfy-toaster) {
+  height: 2rem !important;
+}
 .tpfy-view .\!tpfy-h-fit,.tpfy-dialog .\!tpfy-h-fit,.tpfy-toaster .\!tpfy-h-fit,.\!tpfy-h-fit:where(.tpfy-dialog,.tpfy-toaster) {
   height: -moz-fit-content !important;
   height: fit-content !important;
 }
 .tpfy-view .\!tpfy-h-full,.tpfy-dialog .\!tpfy-h-full,.tpfy-toaster .\!tpfy-h-full,.\!tpfy-h-full:where(.tpfy-dialog,.tpfy-toaster) {
   height: 100% !important;
-}
-.tpfy-view .tpfy-h-1\/2,.tpfy-dialog .tpfy-h-1\/2,.tpfy-toaster .tpfy-h-1\/2,.tpfy-h-1\/2:where(.tpfy-dialog,.tpfy-toaster) {
-  height: 50%;
 }
 .tpfy-view .tpfy-h-1\/3,.tpfy-dialog .tpfy-h-1\/3,.tpfy-toaster .tpfy-h-1\/3,.tpfy-h-1\/3:where(.tpfy-dialog,.tpfy-toaster) {
   height: 33.333333%;
@@ -3026,9 +3037,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .tpfy-h-48,.tpfy-dialog .tpfy-h-48,.tpfy-toaster .tpfy-h-48,.tpfy-h-48:where(.tpfy-dialog,.tpfy-toaster) {
   height: 12rem;
 }
-.tpfy-view .tpfy-h-5,.tpfy-dialog .tpfy-h-5,.tpfy-toaster .tpfy-h-5,.tpfy-h-5:where(.tpfy-dialog,.tpfy-toaster) {
-  height: 1.25rem;
-}
 .tpfy-view .tpfy-h-6,.tpfy-dialog .tpfy-h-6,.tpfy-toaster .tpfy-h-6,.tpfy-h-6:where(.tpfy-dialog,.tpfy-toaster) {
   height: 1.5rem;
 }
@@ -3063,8 +3071,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .tpfy-max-h-96,.tpfy-dialog .tpfy-max-h-96,.tpfy-toaster .tpfy-max-h-96,.tpfy-max-h-96:where(.tpfy-dialog,.tpfy-toaster) {
   max-height: 24rem;
 }
-.tpfy-view .tpfy-max-h-\[1\/2\],.tpfy-dialog .tpfy-max-h-\[1\/2\],.tpfy-toaster .tpfy-max-h-\[1\/2\],.tpfy-max-h-\[1\/2\]:where(.tpfy-dialog,.tpfy-toaster) {
-  max-height: 1/2;
+.tpfy-view .tpfy-max-h-\[1\/3\],.tpfy-dialog .tpfy-max-h-\[1\/3\],.tpfy-toaster .tpfy-max-h-\[1\/3\],.tpfy-max-h-\[1\/3\]:where(.tpfy-dialog,.tpfy-toaster) {
+  max-height: 1/3;
 }
 .tpfy-view .tpfy-max-h-\[300px\],.tpfy-dialog .tpfy-max-h-\[300px\],.tpfy-toaster .tpfy-max-h-\[300px\],.tpfy-max-h-\[300px\]:where(.tpfy-dialog,.tpfy-toaster) {
   max-height: 300px;
@@ -3092,6 +3100,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .\!tpfy-w-48,.tpfy-dialog .\!tpfy-w-48,.tpfy-toaster .\!tpfy-w-48,.\!tpfy-w-48:where(.tpfy-dialog,.tpfy-toaster) {
   width: 12rem !important;
+}
+.tpfy-view .\!tpfy-w-8,.tpfy-dialog .\!tpfy-w-8,.tpfy-toaster .\!tpfy-w-8,.\!tpfy-w-8:where(.tpfy-dialog,.tpfy-toaster) {
+  width: 2rem !important;
 }
 .tpfy-view .\!tpfy-w-\[400px\],.tpfy-dialog .\!tpfy-w-\[400px\],.tpfy-toaster .\!tpfy-w-\[400px\],.\!tpfy-w-\[400px\]:where(.tpfy-dialog,.tpfy-toaster) {
   width: 400px !important;
@@ -3143,6 +3154,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-w-4,.tpfy-dialog .tpfy-w-4,.tpfy-toaster .tpfy-w-4,.tpfy-w-4:where(.tpfy-dialog,.tpfy-toaster) {
   width: 1rem;
+}
+.tpfy-view .tpfy-w-48,.tpfy-dialog .tpfy-w-48,.tpfy-toaster .tpfy-w-48,.tpfy-w-48:where(.tpfy-dialog,.tpfy-toaster) {
+  width: 12rem;
 }
 .tpfy-view .tpfy-w-5,.tpfy-dialog .tpfy-w-5,.tpfy-toaster .tpfy-w-5,.tpfy-w-5:where(.tpfy-dialog,.tpfy-toaster) {
   width: 1.25rem;
@@ -3198,6 +3212,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-max-w-56,.tpfy-dialog .tpfy-max-w-56,.tpfy-toaster .tpfy-max-w-56,.tpfy-max-w-56:where(.tpfy-dialog,.tpfy-toaster) {
   max-width: 14rem;
+}
+.tpfy-view .tpfy-max-w-\[200px\],.tpfy-dialog .tpfy-max-w-\[200px\],.tpfy-toaster .tpfy-max-w-\[200px\],.tpfy-max-w-\[200px\]:where(.tpfy-dialog,.tpfy-toaster) {
+  max-width: 200px;
 }
 .tpfy-view .tpfy-max-w-full,.tpfy-dialog .tpfy-max-w-full,.tpfy-toaster .tpfy-max-w-full,.tpfy-max-w-full:where(.tpfy-dialog,.tpfy-toaster) {
   max-width: 100%;
@@ -3581,9 +3598,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .\!tpfy-p-0,.tpfy-dialog .\!tpfy-p-0,.tpfy-toaster .\!tpfy-p-0,.\!tpfy-p-0:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 0px !important;
 }
-.tpfy-view .\!tpfy-p-0\.5,.tpfy-dialog .\!tpfy-p-0\.5,.tpfy-toaster .\!tpfy-p-0\.5,.\!tpfy-p-0\.5:where(.tpfy-dialog,.tpfy-toaster) {
-  padding: 0.125rem !important;
-}
 .tpfy-view .tpfy-p-0,.tpfy-dialog .tpfy-p-0,.tpfy-toaster .tpfy-p-0,.tpfy-p-0:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 0px;
 }
@@ -3598,6 +3612,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-p-4,.tpfy-dialog .tpfy-p-4,.tpfy-toaster .tpfy-p-4,.tpfy-p-4:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 1rem;
+}
+.tpfy-view .tpfy-p-5,.tpfy-dialog .tpfy-p-5,.tpfy-toaster .tpfy-p-5,.tpfy-p-5:where(.tpfy-dialog,.tpfy-toaster) {
+  padding: 1.25rem;
 }
 .tpfy-view .tpfy-p-6,.tpfy-dialog .tpfy-p-6,.tpfy-toaster .tpfy-p-6,.tpfy-p-6:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 1.5rem;
@@ -5158,15 +5175,15 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .\!tpfy-h-5,.tpfy-dialog .\!tpfy-h-5,.tpfy-toaster .\!tpfy-h-5,.\!tpfy-h-5:where(.tpfy-dialog,.tpfy-toaster) {
   height: 1.25rem !important;
 }
+.tpfy-view .\!tpfy-h-8,.tpfy-dialog .\!tpfy-h-8,.tpfy-toaster .\!tpfy-h-8,.\!tpfy-h-8:where(.tpfy-dialog,.tpfy-toaster) {
+  height: 2rem !important;
+}
 .tpfy-view .\!tpfy-h-fit,.tpfy-dialog .\!tpfy-h-fit,.tpfy-toaster .\!tpfy-h-fit,.\!tpfy-h-fit:where(.tpfy-dialog,.tpfy-toaster) {
   height: -moz-fit-content !important;
   height: fit-content !important;
 }
 .tpfy-view .\!tpfy-h-full,.tpfy-dialog .\!tpfy-h-full,.tpfy-toaster .\!tpfy-h-full,.\!tpfy-h-full:where(.tpfy-dialog,.tpfy-toaster) {
   height: 100% !important;
-}
-.tpfy-view .tpfy-h-1\/2,.tpfy-dialog .tpfy-h-1\/2,.tpfy-toaster .tpfy-h-1\/2,.tpfy-h-1\/2:where(.tpfy-dialog,.tpfy-toaster) {
-  height: 50%;
 }
 .tpfy-view .tpfy-h-1\/3,.tpfy-dialog .tpfy-h-1\/3,.tpfy-toaster .tpfy-h-1\/3,.tpfy-h-1\/3:where(.tpfy-dialog,.tpfy-toaster) {
   height: 33.333333%;
@@ -5222,9 +5239,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .tpfy-h-48,.tpfy-dialog .tpfy-h-48,.tpfy-toaster .tpfy-h-48,.tpfy-h-48:where(.tpfy-dialog,.tpfy-toaster) {
   height: 12rem;
 }
-.tpfy-view .tpfy-h-5,.tpfy-dialog .tpfy-h-5,.tpfy-toaster .tpfy-h-5,.tpfy-h-5:where(.tpfy-dialog,.tpfy-toaster) {
-  height: 1.25rem;
-}
 .tpfy-view .tpfy-h-6,.tpfy-dialog .tpfy-h-6,.tpfy-toaster .tpfy-h-6,.tpfy-h-6:where(.tpfy-dialog,.tpfy-toaster) {
   height: 1.5rem;
 }
@@ -5259,8 +5273,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .tpfy-max-h-96,.tpfy-dialog .tpfy-max-h-96,.tpfy-toaster .tpfy-max-h-96,.tpfy-max-h-96:where(.tpfy-dialog,.tpfy-toaster) {
   max-height: 24rem;
 }
-.tpfy-view .tpfy-max-h-\[1\/2\],.tpfy-dialog .tpfy-max-h-\[1\/2\],.tpfy-toaster .tpfy-max-h-\[1\/2\],.tpfy-max-h-\[1\/2\]:where(.tpfy-dialog,.tpfy-toaster) {
-  max-height: 1/2;
+.tpfy-view .tpfy-max-h-\[1\/3\],.tpfy-dialog .tpfy-max-h-\[1\/3\],.tpfy-toaster .tpfy-max-h-\[1\/3\],.tpfy-max-h-\[1\/3\]:where(.tpfy-dialog,.tpfy-toaster) {
+  max-height: 1/3;
 }
 .tpfy-view .tpfy-max-h-\[300px\],.tpfy-dialog .tpfy-max-h-\[300px\],.tpfy-toaster .tpfy-max-h-\[300px\],.tpfy-max-h-\[300px\]:where(.tpfy-dialog,.tpfy-toaster) {
   max-height: 300px;
@@ -5288,6 +5302,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .\!tpfy-w-48,.tpfy-dialog .\!tpfy-w-48,.tpfy-toaster .\!tpfy-w-48,.\!tpfy-w-48:where(.tpfy-dialog,.tpfy-toaster) {
   width: 12rem !important;
+}
+.tpfy-view .\!tpfy-w-8,.tpfy-dialog .\!tpfy-w-8,.tpfy-toaster .\!tpfy-w-8,.\!tpfy-w-8:where(.tpfy-dialog,.tpfy-toaster) {
+  width: 2rem !important;
 }
 .tpfy-view .\!tpfy-w-\[400px\],.tpfy-dialog .\!tpfy-w-\[400px\],.tpfy-toaster .\!tpfy-w-\[400px\],.\!tpfy-w-\[400px\]:where(.tpfy-dialog,.tpfy-toaster) {
   width: 400px !important;
@@ -5339,6 +5356,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-w-4,.tpfy-dialog .tpfy-w-4,.tpfy-toaster .tpfy-w-4,.tpfy-w-4:where(.tpfy-dialog,.tpfy-toaster) {
   width: 1rem;
+}
+.tpfy-view .tpfy-w-48,.tpfy-dialog .tpfy-w-48,.tpfy-toaster .tpfy-w-48,.tpfy-w-48:where(.tpfy-dialog,.tpfy-toaster) {
+  width: 12rem;
 }
 .tpfy-view .tpfy-w-5,.tpfy-dialog .tpfy-w-5,.tpfy-toaster .tpfy-w-5,.tpfy-w-5:where(.tpfy-dialog,.tpfy-toaster) {
   width: 1.25rem;
@@ -5394,6 +5414,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-max-w-56,.tpfy-dialog .tpfy-max-w-56,.tpfy-toaster .tpfy-max-w-56,.tpfy-max-w-56:where(.tpfy-dialog,.tpfy-toaster) {
   max-width: 14rem;
+}
+.tpfy-view .tpfy-max-w-\[200px\],.tpfy-dialog .tpfy-max-w-\[200px\],.tpfy-toaster .tpfy-max-w-\[200px\],.tpfy-max-w-\[200px\]:where(.tpfy-dialog,.tpfy-toaster) {
+  max-width: 200px;
 }
 .tpfy-view .tpfy-max-w-full,.tpfy-dialog .tpfy-max-w-full,.tpfy-toaster .tpfy-max-w-full,.tpfy-max-w-full:where(.tpfy-dialog,.tpfy-toaster) {
   max-width: 100%;
@@ -5777,9 +5800,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .tpfy-view .\!tpfy-p-0,.tpfy-dialog .\!tpfy-p-0,.tpfy-toaster .\!tpfy-p-0,.\!tpfy-p-0:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 0px !important;
 }
-.tpfy-view .\!tpfy-p-0\.5,.tpfy-dialog .\!tpfy-p-0\.5,.tpfy-toaster .\!tpfy-p-0\.5,.\!tpfy-p-0\.5:where(.tpfy-dialog,.tpfy-toaster) {
-  padding: 0.125rem !important;
-}
 .tpfy-view .tpfy-p-0,.tpfy-dialog .tpfy-p-0,.tpfy-toaster .tpfy-p-0,.tpfy-p-0:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 0px;
 }
@@ -5794,6 +5814,9 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 .tpfy-view .tpfy-p-4,.tpfy-dialog .tpfy-p-4,.tpfy-toaster .tpfy-p-4,.tpfy-p-4:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 1rem;
+}
+.tpfy-view .tpfy-p-5,.tpfy-dialog .tpfy-p-5,.tpfy-toaster .tpfy-p-5,.tpfy-p-5:where(.tpfy-dialog,.tpfy-toaster) {
+  padding: 1.25rem;
 }
 .tpfy-view .tpfy-p-6,.tpfy-dialog .tpfy-p-6,.tpfy-toaster .tpfy-p-6,.tpfy-p-6:where(.tpfy-dialog,.tpfy-toaster) {
   padding: 1.5rem;

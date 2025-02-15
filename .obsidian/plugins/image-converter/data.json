@@ -1,29 +1,197 @@
 {
-  "autoRename": true,
-  "showRenameNotice": false,
-  "useCustomRenaming": false,
-  "customRenameTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
-  "customRenameDefaultTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
-  "convertToWEBP": true,
-  "convertToJPG": false,
-  "convertToPNG": false,
-  "convertTo": "disabled",
+  "folderPresets": [
+    {
+      "type": "DEFAULT",
+      "name": "Default (Obsidian setting)"
+    },
+    {
+      "type": "ROOT",
+      "name": "Root folder"
+    },
+    {
+      "type": "CURRENT",
+      "name": "Same folder as current note"
+    },
+    {
+      "name": "Typora Like",
+      "type": "SUBFOLDER"
+    }
+  ],
+  "selectedFolderPreset": "Typora Like",
+  "filenamePresets": [
+    {
+      "name": "Keep original name",
+      "customTemplate": "{imagename}",
+      "skipRenamePatterns": "",
+      "conflictResolution": "increment"
+    },
+    {
+      "name": "NoteName-Timestamp",
+      "customTemplate": "{notename}-{timestamp}",
+      "skipRenamePatterns": "",
+      "conflictResolution": "increment"
+    }
+  ],
+  "selectedFilenamePreset": "Keep original name",
+  "outputFormat": "NONE",
   "quality": 1,
-  "skipPatterns": "*.gif,*.avif",
+  "colorDepth": 1,
+  "resizeMode": "None",
+  "desiredWidth": 800,
+  "desiredHeight": 600,
+  "desiredLongestEdge": 1000,
+  "enlargeOrReduce": "Auto",
   "allowLargerFiles": false,
-  "baseTimeout": 20000,
-  "timeoutPerMB": 1000,
-  "showProgress": true,
-  "showSummary": true,
-  "ProcessAllVaultconvertTo": "webp",
-  "ProcessAllVaultquality": 0.75,
-  "ProcessAllVaultResizeModalresizeMode": "None",
-  "ProcessAllVaultResizeModaldesiredWidth": 600,
-  "ProcessAllVaultResizeModaldesiredHeight": 800,
-  "ProcessAllVaultResizeModaldesiredLength": 800,
-  "ProcessAllVaultskipImagesInTargetFormat": false,
-  "ProcessAllVaultEnlargeOrReduce": "Always",
-  "ProcessAllVaultSkipFormats": "tif,tiff,heic",
+  "showPresetModal": {
+    "folder": false,
+    "filename": false
+  },
+  "subfolderTemplate": "assets/{notename}.assets",
+  "conversionPresets": [
+    {
+      "name": "None",
+      "outputFormat": "NONE",
+      "quality": 100,
+      "colorDepth": 1,
+      "resizeMode": "None",
+      "desiredWidth": 800,
+      "desiredHeight": 600,
+      "desiredLongestEdge": 1000,
+      "enlargeOrReduce": "Auto",
+      "allowLargerFiles": false,
+      "skipConversionPatterns": ""
+    },
+    {
+      "name": "WEBP (75, no resizing)",
+      "outputFormat": "WEBP",
+      "quality": 75,
+      "colorDepth": 1,
+      "resizeMode": "None",
+      "desiredWidth": 800,
+      "desiredHeight": 600,
+      "desiredLongestEdge": 1000,
+      "enlargeOrReduce": "Auto",
+      "allowLargerFiles": false,
+      "skipConversionPatterns": ""
+    }
+  ],
+  "selectedConversionPreset": "None",
+  "globalPresets": [
+    {
+      "name": "WebP 75",
+      "folderPreset": "Default (Obsidian setting)",
+      "filenamePreset": "NoteName-Timestamp",
+      "conversionPreset": "WEBP (75, no resizing)",
+      "linkFormatPreset": "Default (Wikilink, Shortest)",
+      "resizePreset": "Default (No Resize)"
+    },
+    {
+      "name": "Typora Like",
+      "folderPreset": "Typora Like",
+      "filenamePreset": "Keep original name",
+      "conversionPreset": "None",
+      "linkFormatPreset": "Typora Like",
+      "resizePreset": "Default (No Resize)"
+    }
+  ],
+  "selectedGlobalPreset": "Typora Like",
+  "linkFormatSettings": {
+    "linkFormatPresets": [
+      {
+        "name": "Default (Wikilink, Shortest)",
+        "linkFormat": "wikilink",
+        "pathFormat": "shortest",
+        "prependCurrentDir": false,
+        "hideFolders": false
+      },
+      {
+        "name": "Markdown, Relative",
+        "linkFormat": "markdown",
+        "pathFormat": "relative",
+        "prependCurrentDir": true,
+        "hideFolders": false
+      }
+    ],
+    "selectedLinkFormatPreset": "Markdown, Relative"
+  },
+  "nonDestructiveResizeSettings": {
+    "resizePresets": [
+      {
+        "name": "Default (No Resize)",
+        "resizeDimension": "none",
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": true,
+        "maintainAspectRatio": true,
+        "resizeUnits": "pixels"
+      },
+      {
+        "name": "Width 500px",
+        "resizeDimension": "width",
+        "width": 500,
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": true,
+        "maintainAspectRatio": true,
+        "resizeUnits": "pixels"
+      },
+      {
+        "name": "Height 800px",
+        "resizeDimension": "height",
+        "height": 800,
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": true,
+        "maintainAspectRatio": true,
+        "resizeUnits": "pixels"
+      },
+      {
+        "name": "50% Width",
+        "resizeDimension": "width",
+        "width": 50,
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": true,
+        "maintainAspectRatio": true,
+        "resizeUnits": "percentage"
+      },
+      {
+        "name": "Longest Edge 1000px",
+        "resizeDimension": "longest-edge",
+        "longestEdge": 1000,
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": true,
+        "maintainAspectRatio": true,
+        "resizeUnits": "pixels"
+      },
+      {
+        "name": "Fit Editor",
+        "resizeDimension": "editor-max-width",
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": true,
+        "maintainAspectRatio": true,
+        "resizeUnits": "pixels"
+      },
+      {
+        "name": "Original Width",
+        "resizeDimension": "original-width",
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": false,
+        "maintainAspectRatio": true,
+        "resizeUnits": "pixels"
+      },
+      {
+        "name": "Custom (Distort)",
+        "resizeDimension": "both",
+        "customValue": "300x100",
+        "resizeScaleMode": "auto",
+        "respectEditorMaxWidth": false,
+        "maintainAspectRatio": false,
+        "resizeUnits": "pixels"
+      }
+    ],
+    "selectedResizePreset": "Default (No Resize)"
+  },
+  "resizeCursorLocation": "none",
+  "dropPasteCursorLocation": "back",
+  "neverProcessFilenames": "",
+  "modalBehavior": "never",
   "ProcessCurrentNoteconvertTo": "webp",
   "ProcessCurrentNotequality": 0.75,
   "ProcessCurrentNoteResizeModalresizeMode": "None",
@@ -33,30 +201,15 @@
   "ProcessCurrentNoteskipImagesInTargetFormat": false,
   "ProcessCurrentNoteEnlargeOrReduce": "Always",
   "ProcessCurrentNoteSkipFormats": "tif,tiff,heic",
-  "attachmentLocation": "customOutput",
-  "attachmentSubfolderName": "",
-  "customOutputPath": "assets/{notename}.assets",
-  "previewPath": "",
-  "manage_duplicate_filename": "disabled",
-  "destructive_resizeMode": "None",
-  "destructive_desiredWidth": 600,
-  "destructive_desiredHeight": 800,
-  "destructive_desiredLongestEdge": 800,
-  "destructive_enlarge_or_reduce": "Always",
-  "nondestructive_resizeMode": "disabled",
-  "nondestructive_resizeMode_customSize": "",
-  "nondestructive_resizeMode_fitImage": "",
-  "nondestructive_enlarge_or_reduce": "Always",
-  "resizeByDragging": true,
-  "resizeWithScrollwheel": true,
-  "scrollwheelModifier": "Shift",
-  "allowResizeInReadingMode": false,
-  "rightClickContextMenu": true,
-  "rememberScrollPosition": true,
-  "cursorPosition": "back",
-  "useMdLinks": true,
-  "useRelativePath": false,
-  "imageAlignment_cacheCleanupInterval": 3600000,
+  "ProcessAllVaultconvertTo": "webp",
+  "ProcessAllVaultquality": 0.75,
+  "ProcessAllVaultResizeModalresizeMode": "None",
+  "ProcessAllVaultResizeModaldesiredWidth": 600,
+  "ProcessAllVaultResizeModaldesiredHeight": 800,
+  "ProcessAllVaultResizeModaldesiredLength": 800,
+  "ProcessAllVaultEnlargeOrReduce": "Always",
+  "ProcessAllVaultSkipFormats": "tif,tiff,heic",
+  "ProcessAllVaultskipImagesInTargetFormat": false,
   "annotationPresets": {
     "drawing": [
       {
@@ -118,5 +271,57 @@
         "size": 24
       }
     ]
-  }
+  },
+  "isImageAlignmentEnabled": true,
+  "imageAlignment_cacheCleanupInterval": 3600000,
+  "imageAlignment_cacheLocation": "plugin",
+  "isDragResizeEnabled": true,
+  "isScrollResizeEnabled": true,
+  "isResizeInReadingModeEnabled": false,
+  "resizeSensitivity": 0.1,
+  "scrollwheelModifier": "Shift",
+  "isImageResizeEnbaled": true,
+  "resizeState": {
+    "isResizing": false
+  },
+  "enableContextMenu": true,
+  "showSpaceSavedNotification": true,
+  "revertToOriginalIfLarger": false,
+  "cursorLocation": "back",
+  "autoRename": true,
+  "showRenameNotice": false,
+  "useCustomRenaming": false,
+  "customRenameTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
+  "customRenameDefaultTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
+  "convertToWEBP": true,
+  "convertToJPG": false,
+  "convertToPNG": false,
+  "convertTo": "disabled",
+  "skipPatterns": "*.gif,*.avif",
+  "baseTimeout": 20000,
+  "timeoutPerMB": 1000,
+  "showProgress": true,
+  "showSummary": true,
+  "attachmentLocation": "customOutput",
+  "attachmentSubfolderName": "",
+  "customOutputPath": "assets/{notename}.assets",
+  "previewPath": "",
+  "manage_duplicate_filename": "disabled",
+  "destructive_resizeMode": "None",
+  "destructive_desiredWidth": 600,
+  "destructive_desiredHeight": 800,
+  "destructive_desiredLongestEdge": 800,
+  "destructive_enlarge_or_reduce": "Always",
+  "nondestructive_resizeMode": "disabled",
+  "nondestructive_resizeMode_customSize": "",
+  "nondestructive_resizeMode_fitImage": "",
+  "nondestructive_enlarge_or_reduce": "Always",
+  "resizeByDragging": true,
+  "resizeWithScrollwheel": true,
+  "allowResizeInReadingMode": false,
+  "rightClickContextMenu": true,
+  "rememberScrollPosition": true,
+  "cursorPosition": "back",
+  "useMdLinks": true,
+  "useRelativePath": false
 }

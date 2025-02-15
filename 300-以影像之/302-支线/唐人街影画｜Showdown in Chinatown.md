@@ -19,7 +19,7 @@ Poster Trailer:
 国际服上线时间: 
 章节起点: 
 章节终点: 
-Serial:
+Serial: 2.5
 ---
 > [!bookinfo]- 唐人街影画
 > 
