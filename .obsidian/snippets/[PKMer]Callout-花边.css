@@ -65,6 +65,14 @@
  --border-width: 5px;
 }
 
+/* 内容容器增强 */
+.callout-content {
+ position: relative;
+ z-index: 3; 
+ background: transparent !important; /* 强制透明 */
+ margin: -2px; /* 抵消边框偏移 */
+}
+
 /*******隐藏题头******/
 
 .callout.callout[data-callout="dictum"] .callout-title {
