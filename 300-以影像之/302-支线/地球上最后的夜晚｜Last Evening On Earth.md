@@ -8,10 +8,10 @@ aliases:
   - 地球上最后的夜晚
   - Last Evening On Earth
   - 2.4｜地球上最后的夜晚
-banner: "[[assets/地球上最后的夜晚｜Last Evening On Earth.assets/地球上最后的夜晚.jpg]]"
+banner: "[[地球上最后的夜晚.jpg]]"
 cover: "[[2.4版本海报.jpg]]"
 国服海报: "[[2.4版本海报.jpg]]"
-国际服海报: "[[版本海报｜国际服.jpg]]"
+国际服海报: "[[2.4版本海报｜国际服.jpg]]"
 海报预告: 当汽笛鸣响，船徐徐驶入最深处。你在海风中听见潮涨潮落，它编织着无名曲调，以谎言，以哀愁。
 Poster Trailer: 
 上线版本: "[[地球上最后的夜晚｜Last Evening On Earth|2.4｜地球上最后的夜晚]]"

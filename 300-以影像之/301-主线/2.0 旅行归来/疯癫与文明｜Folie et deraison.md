@@ -20,4 +20,6 @@ Cover: "[[疯癫与文明.png]]"
 章节终点: 
 Serial:
 ---
-![cover](./assets/疯癫与文明｜Folie%20et%20deraison.assets/2.6版本海报.jpg)
+![cover](./assets/疯癫与文明｜Folie%20et%20deraison.assets/疯癫与文明.png)
+
+![](./assets/疯癫与文明｜Folie%20et%20deraison.assets/2.6版本海报.jpg)

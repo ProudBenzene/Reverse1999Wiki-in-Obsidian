@@ -34,7 +34,8 @@ aliases:
 本色立绘: "[[立绘 远旅 02.png]]"
 生日: 2024-11-12
 banner_header: "{{filename}}"
-出场章节: 
+出场章节:
+  - "[[1987宇宙组曲｜1987 Cosmic Overture|2.7｜1987宇宙组曲]]"
 已邀请: true
 ---
 ![cover](assets/远旅｜Voyager.assets/立绘%20远旅%2002.png)

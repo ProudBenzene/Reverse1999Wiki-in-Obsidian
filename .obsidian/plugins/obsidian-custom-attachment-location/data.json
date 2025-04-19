@@ -1,8 +1,11 @@
 {
   "attachmentFolderPath": "./assets/${filename}.assets",
   "attachmentRenameMode": "Only pasted images",
+  "customTokensStr": "",
   "duplicateNameSeparator": " ",
+  "excludePaths": [],
   "generatedAttachmentFilename": "image-${date:YYYYMMDDHHmmssSSS}",
+  "includePaths": [],
   "jpegQuality": 0.8,
   "shouldConvertPastedImagesToJpeg": false,
   "shouldDeleteOrphanAttachments": false,
@@ -11,9 +14,7 @@
   "shouldRenameAttachmentFolder": true,
   "shouldRenameAttachmentsToLowerCase": false,
   "shouldRenameCollectedAttachments": false,
-  "warningVersion": "7.0.0",
-  "whitespaceReplacement": "",
-  "customTokensStr": "",
-  "excludePaths": [],
-  "includePaths": []
+  "specialCharacters": "#^[]|*\\<>:?",
+  "specialCharactersReplacement": "-",
+  "warningVersion": "7.0.0"
 }

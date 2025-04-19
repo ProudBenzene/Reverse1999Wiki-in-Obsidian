@@ -1,13 +1,13 @@
 {
   "accentColor": "#e6b993",
-  "cssTheme": "Primary",
+  "cssTheme": "Border",
   "textFontFamily": "杨任东竹石体,霞鹜文楷",
-  "interfaceFontFamily": "Comic Sans MS,手札体-简",
+  "interfaceFontFamily": "Comic Sans MS,Maple UI",
   "monospaceFontFamily": "Fira Code",
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 18,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "Timeline_Callouts",
     "[PKMer]Timeline_Callouts",
@@ -46,8 +46,7 @@
     "[Discord]书库小封面",
     "[PKMer]Timeline-Callouts",
     "[Forum]图片题注",
-    "Blue Topaz Legacy特制版",
-    "字体大全-1999"
+    "Blue Topaz Legacy特制版"
   ],
   "showRibbon": true
 }

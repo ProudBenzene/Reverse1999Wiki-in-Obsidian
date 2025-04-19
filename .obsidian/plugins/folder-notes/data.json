@@ -48,7 +48,7 @@
     "explorer": true,
     "path": false
   },
-  "settingsTab": "folder_overview",
+  "settingsTab": "path",
   "supportedFileTypes": [
     "md",
     "canvas"

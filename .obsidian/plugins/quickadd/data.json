@@ -263,6 +263,13 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "fb8d1a27-8dc8-45ee-a0d3-7db781990d18",
+      "name": "🔍高级检索",
+      "type": "Macro",
+      "command": true,
+      "macroId": "3a25aabe-b442-47dc-94e2-0e5887849707"
     }
   ],
   "macros": [
@@ -541,13 +548,27 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "🔍高级检索",
+      "id": "3a25aabe-b442-47dc-94e2-0e5887849707",
+      "commands": [
+        {
+          "name": "advancedSearch",
+          "type": "UserScript",
+          "id": "d8ec5aad-8aee-4e4e-bdfa-ece7f6d8f9a3",
+          "path": "000-箱的构造/script/advancedSearch.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "000-箱的构造/templates",
   "announceUpdates": true,
-  "version": "1.11.5",
+  "version": "1.13.2",
   "disableOnlineFeatures": false,
   "enableRibbonIcon": false,
   "ai": {

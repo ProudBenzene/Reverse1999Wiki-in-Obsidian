@@ -62,12 +62,6 @@
                 "operator": "is",
                 "enabled": false,
                 "value": "✦✦✦✦✦"
-              },
-              {
-                "field": "角色灵感",
-                "operator": "contains",
-                "enabled": true,
-                "value": "灵"
               }
             ]
           },

@@ -1,7 +1,7 @@
 ---
 Name: 北方哨歌
 exonym: Windsong
-tags:
+tags: 
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists
@@ -36,7 +36,8 @@ aliases:
 生日: 2024-10-13
 banner_header: "{{filename}}"
 出场章节:
-  - 1.8｜再见，来亚什基
+  - "[[再见，来亚什基｜Farewell, Rayashki|1.8｜再见，来亚什基]]"
+  - "[[1987宇宙组曲｜1987 Cosmic Overture|2.7｜1987宇宙组曲]]"
 已邀请: true
 ---
 ![cover](assets/北方哨歌｜Windsong.assets/立绘%20北方哨歌%2002.png)

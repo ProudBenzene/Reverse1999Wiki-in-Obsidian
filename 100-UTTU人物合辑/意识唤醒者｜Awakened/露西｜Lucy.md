@@ -1,7 +1,8 @@
 ---
 Name: 露西
 exonym: Lucy
-tags: 
+tags:
+  - 限定
 cssclasses:
   - book
 人物合辑: 意识唤醒者｜Awakened

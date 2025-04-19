@@ -20712,6 +20712,10 @@ const sessions = writable([]);
  * in the case of single-scene drafts, the word count.
  */
 const draftWordCounts = writable({});
+/**
+ * Writeable store of whether the plugin is waiting for sync.
+ */
+const waitingForSync = writable(false);
 // DERIVED STORES
 /**
  * Derived store of all projects—drafts grouped by title.
@@ -20770,15 +20774,17 @@ function draftTitle(draft) {
     var _a;
     return (_a = draft.draftTitle) !== null && _a !== void 0 ? _a : draft.vaultPath;
 }
-function createScene(app, path, draft) {
+function createScene(app, path, draft, open) {
     var _a;
     return __awaiter(this, void 0, void 0, function* () {
         const template = (_a = draft.sceneTemplate) !== null && _a !== void 0 ? _a : get_store_value(pluginSettings).sceneTemplate;
         createNoteWithPotentialTemplate(app, path, template);
-        app.workspace.openLinkText(path, "/", false);
+        if (open) {
+            app.workspace.openLinkText(path, "/", false);
+        }
     });
 }
-function insertScene(app, draftsStore, draft, sceneName, vault, location) {
+function insertScene(app, draftsStore, draft, sceneName, vault, location, open) {
     return __awaiter(this, void 0, void 0, function* () {
         const newScenePath = scenePath(sceneName, draft, vault);
         if (!newScenePath || !draft || draft.format !== "scenes") {
@@ -20804,7 +20810,7 @@ function insertScene(app, draftsStore, draft, sceneName, vault, location) {
                 return d;
             });
         });
-        yield createScene(app, newScenePath, draft);
+        yield createScene(app, newScenePath, draft, open);
     });
 }
 function setDraftOnFrontmatterObject(obj, draft) {
@@ -20961,6 +20967,8 @@ var CompileStepOptionType;
     CompileStepOptionType[CompileStepOptionType["Boolean"] = 0] = "Boolean";
     /** A single-line freeform text entry. */
     CompileStepOptionType[CompileStepOptionType["Text"] = 1] = "Text";
+    /** Key-value text */
+    CompileStepOptionType[CompileStepOptionType["MultilineText"] = 2] = "MultilineText";
 })(CompileStepOptionType || (CompileStepOptionType = {}));
 function makeBuiltinStep(v, isScript = false) {
     return Object.assign(Object.assign({}, v), { description: Object.assign(Object.assign({}, v.description), { canonicalID: v.id, isScript: isScript }), optionValues: v.description.options.reduce((agg, opt) => {
@@ -21180,7 +21188,7 @@ function compile(app, draft, workflow, kinds, statusCallback) {
                     const result = yield step.compile({
                         contents: currentInput[0].contents,
                     }, context);
-                    currentInput[0].contents = result;
+                    currentInput[0] = result;
                 }
                 else {
                     currentInput = yield step.compile(currentInput, context);
@@ -21431,7 +21439,7 @@ function replaceWikiLinks(contents) {
                 if (startOfAlias >= 0) {
                     additionalAlias = true;
                 }
-                startOfAlias = i + 1; // update to ealiest instance of the character
+                startOfAlias = i + 1; // update to earliest instance of the character
                 continue;
             }
             if (char === "[") {
@@ -21627,8 +21635,8 @@ function writeToFile(app, filePath, contents) {
 }
 function ensureContainingFolderExists(app, filePath) {
     return __awaiter(this, void 0, void 0, function* () {
-        const conatiningFolderParts = filePath.split("/");
-        const containingFolderPath = conatiningFolderParts.slice(0, -1).join("/");
+        const containingFolderParts = filePath.split("/");
+        const containingFolderPath = containingFolderParts.slice(0, -1).join("/");
         try {
             yield app.vault.createFolder(containingFolderPath);
         }
@@ -21705,7 +21713,40 @@ function resolveRelativeFilePath(projectPathComponents, filePathComponents, atSt
     }
 }
 
+const AddFrontmatterStep = makeBuiltinStep({
+    id: "add-frontmatter",
+    description: {
+        name: "Add Frontmatter",
+        description: "Add YAML frontmatter to your manuscript",
+        availableKinds: [CompileStepKind.Manuscript],
+        options: [
+            {
+                id: "frontmatter",
+                name: "Frontmatter",
+                description: "YAML to be added to your manuscript's frontmatter.",
+                type: CompileStepOptionType.MultilineText,
+                default: "",
+            }
+        ]
+    },
+    compile(input, context) {
+        if (context.kind !== CompileStepKind.Manuscript) {
+            throw new Error("Cannot add frontmatter to non-manuscript.");
+        }
+        const contents = [
+            "---",
+            context.optionValues["frontmatter"],
+            "---",
+            input.contents,
+        ].join("\n");
+        return {
+            contents,
+        };
+    }
+});
+
 const BUILTIN_STEPS = [
+    AddFrontmatterStep,
     ConcatenateTextStep,
     PrependTitleStep,
     RemoveCommentsStep,
@@ -21873,7 +21914,7 @@ function create_each_block_2(ctx) {
 }
 
 // (41:2) {#if $userScriptSteps}
-function create_if_block$b(ctx) {
+function create_if_block$c(ctx) {
 	let h2;
 	let t1;
 	let div;
@@ -22090,7 +22131,7 @@ function create_fragment$f(ctx) {
 		each_blocks[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
 	}
 
-	let if_block = /*$userScriptSteps*/ ctx[0] && create_if_block$b(ctx);
+	let if_block = /*$userScriptSteps*/ ctx[0] && create_if_block$c(ctx);
 
 	return {
 		c() {
@@ -22155,7 +22196,7 @@ function create_fragment$f(ctx) {
 				if (if_block) {
 					if_block.p(ctx, dirty);
 				} else {
-					if_block = create_if_block$b(ctx);
+					if_block = create_if_block$c(ctx);
 					if_block.c();
 					if_block.m(div1, null);
 				}
@@ -22245,7 +22286,7 @@ class AddStepModalContainer extends obsidian.Modal {
     }
     onOpen() {
         const { contentEl } = this;
-        contentEl.createEl("h1", { text: "Add Compile Step to Workfow" });
+        contentEl.createEl("h1", { text: "Add Compile Step to Workflow" });
         const entrypoint = contentEl.createDiv("longform-add-step-root");
         const context = appContext(this);
         context.set("close", () => this.close());
@@ -22297,14 +22338,14 @@ const ICON_SVG = '<svg width="100" height="100" viewBox="0 0 100 100" fill="none
 /* src/view/compile/CompileStepView.svelte generated by Svelte v3.49.0 */
 
 function add_css$d(target) {
-	append_styles(target, "svelte-jtvens", ".longform-compile-step.svelte-jtvens.svelte-jtvens{background-color:var(--background-modifier-form-field);border-radius:var(--radius-s);padding:var(--size-4-1) var(--size-4-1) var(--size-4-3) var(--size-4-1);margin-bottom:var(--size-4-4)}.longform-compile-step-title-outer.svelte-jtvens.svelte-jtvens{display:flex;flex-direction:row;justify-content:space-between;align-items:flex-start}.longform-compile-step-title-container.svelte-jtvens.svelte-jtvens{display:flex;flex-direction:row;align-items:center;flex-wrap:wrap}.longform-compile-step-title-container.svelte-jtvens h4.svelte-jtvens{display:inline-block;margin:0 var(--size-4-2) 0 0;padding:0}.longform-compile-step-title-container.svelte-jtvens .longform-step-kind-pill.svelte-jtvens{display:flex;justify-content:center;align-items:center;background-color:var(--text-accent);color:var(--text-on-accent);border-radius:var(--radius-l);font-size:var(--font-smallest);font-weight:bold;padding:var(--size-4-1);margin-right:var(--size-4-1);height:var(--h1-line-height)}.longform-remove-step-button.svelte-jtvens.svelte-jtvens{display:flex;width:var(--size-4-5);margin:0;align-items:center;justify-content:center;font-weight:bold}.longform-compile-step.svelte-jtvens p.svelte-jtvens{margin:0;padding:0}.longform-compile-step-description.svelte-jtvens.svelte-jtvens{font-size:var(--font-smallest);color:var(--text-muted);margin-top:var(--size-2-1)}.longform-compile-step-options.svelte-jtvens.svelte-jtvens{padding:var(--size-4-2) 0}.longform-compile-step-options.svelte-jtvens>div.svelte-jtvens{border-left:var(--border-width) solid var(--interactive-accent);padding:0 var(--size-4-2)}.longform-compile-step-option.svelte-jtvens.svelte-jtvens{margin-top:var(--size-4-2)}.longform-compile-step-option.svelte-jtvens label.svelte-jtvens{display:block;font-weight:600;font-size:var(--font-smallest)}.longform-compile-step-option.svelte-jtvens input.svelte-jtvens{color:var(--text-accent)}.longform-compile-step-checkbox-container.svelte-jtvens.svelte-jtvens{display:flex;flex-direction:row;align-items:center;justify-content:flex-start}.longform-compile-step-option.svelte-jtvens input[type=\"text\"].svelte-jtvens{color:var(--text-accent);margin:0 0 var(--size-4-1) 0;width:100%}.longform-compile-step-option.svelte-jtvens input[type=\"checkbox\"].svelte-jtvens{color:var(--text-accent);margin:0 var(--size-4-2) var(--size-2-1) 0}.longform-compile-step-option.svelte-jtvens input.svelte-jtvens:focus{color:var(--text-accent-hover)}.longform-compile-step-option-description.svelte-jtvens.svelte-jtvens{font-size:var(--font-smallest);line-height:90%;color:var(--text-faint)}.longform-compile-step-error-container.svelte-jtvens.svelte-jtvens{margin-top:var(--size-4-2)}.longform-compile-step-error.svelte-jtvens.svelte-jtvens{color:var(--text-error);font-size:var(--font-smallest);line-height:90%}");
+	append_styles(target, "svelte-yprjpc", ".longform-compile-step.svelte-yprjpc.svelte-yprjpc{background-color:var(--background-modifier-border);border:1px solid var(--background-modifier-border);border-radius:var(--radius-s);padding:0;margin:var(--size-4-4) 0}.longform-compile-step-title-outer.svelte-yprjpc.svelte-yprjpc{display:flex;flex-direction:row;justify-content:space-between;align-items:flex-start}.longform-compile-step-title-container.svelte-yprjpc.svelte-yprjpc{display:flex;flex-direction:row;align-items:center;flex-wrap:wrap;font-size:var(--font-ui-smaller)}.longform-compile-step-title-container.svelte-yprjpc h4.svelte-yprjpc{display:inline-block;margin:var(--size-4-1) var(--size-4-2) var(--size-4-1) 0;padding:0}.longform-compile-step-title-container.svelte-yprjpc .longform-step-kind-pill.svelte-yprjpc{display:flex;justify-content:center;align-items:center;background-color:color-mix(in srgb, var(--text-accent) 50%, var(--background-modifier-border) 50%);color:var(--text-on-accent);border-radius:var(--radius-l);font-size:var(--font-smallest);font-weight:bold;padding:var(--size-4-1) var(--size-4-2);margin-right:var(--size-4-1);height:var(--h1-line-height)}.longform-compile-step-number.svelte-yprjpc.svelte-yprjpc{color:var(--text-faint);display:inline-block;width:var(--size-4-6);padding-left:var(--size-4-1)}.longform-remove-step-button.svelte-yprjpc.svelte-yprjpc{display:flex;width:var(--size-4-5);height:100%;margin:1px;align-items:center;justify-content:center;font-weight:bold;background:var(--background-modifier-error)}.longform-compile-step.svelte-yprjpc p.svelte-yprjpc{margin:0;background:var(--background-primary)}.longform-compile-step-description.svelte-yprjpc.svelte-yprjpc{font-size:var(--font-smallest);color:var(--text-muted);padding:var(--size-4-2) var(--size-4-1) var(--size-4-2) var(--size-4-6)}.longform-compile-step-options.svelte-yprjpc.svelte-yprjpc{padding:var(--size-4-2) 0;background:var(--background-primary)}.longform-compile-step-options.svelte-yprjpc>div.svelte-yprjpc{margin:0 var(--size-4-2) 0 var(--size-4-6)\n  }.longform-compile-step-option.svelte-yprjpc.svelte-yprjpc{margin:0 var(--size-4-4) var(--size-4-4) 0}.longform-compile-step-option.svelte-yprjpc label.svelte-yprjpc{display:block;font-weight:600;font-size:var(--font-smallest)}.longform-compile-step-checkbox-container.svelte-yprjpc.svelte-yprjpc{display:flex;flex-direction:row;align-items:center;justify-content:flex-start}.longform-compile-step-option.svelte-yprjpc input[type=\"text\"].svelte-yprjpc{margin:0 0 var(--size-4-1) 0;width:100%}.longform-compile-step-option.svelte-yprjpc textarea.svelte-yprjpc{color:var(--text-accent);margin:0 0 var(--size-4-1) 0;width:100%;resize:vertical}.longform-compile-step-option.svelte-yprjpc input[type=\"checkbox\"].svelte-yprjpc{margin:0 var(--size-4-2) var(--size-2-1) 0}.longform-compile-step-option.svelte-yprjpc input.svelte-yprjpc:focus{color:var(--text-accent-hover)}.longform-compile-step-option-description.svelte-yprjpc.svelte-yprjpc{font-size:var(--font-smallest);line-height:1em;color:var(--text-faint)}.longform-compile-step-error-container.svelte-yprjpc.svelte-yprjpc{margin-top:var(--size-4-2)}.longform-compile-step-error.svelte-yprjpc.svelte-yprjpc{color:var(--text-error);font-size:var(--font-smallest);line-height:1em}");
 }
 
 function get_each_context$5(ctx, list, i) {
 	const child_ctx = ctx.slice();
-	child_ctx[8] = list[i];
-	child_ctx[9] = list;
-	child_ctx[10] = i;
+	child_ctx[9] = list[i];
+	child_ctx[10] = list;
+	child_ctx[11] = i;
 	return child_ctx;
 }
 
@@ -22313,70 +22354,71 @@ function create_else_block$4(ctx) {
 	let div1;
 	let div0;
 	let h4;
+	let span;
 	let t0;
+	let t1_value = /*step*/ ctx[0].description.name + "";
 	let t1;
-	let t2_value = /*step*/ ctx[0].description.name + "";
 	let t2;
 	let t3;
-	let t4;
 	let button;
-	let t6;
+	let t5;
 	let p;
-	let t7_value = /*step*/ ctx[0].description.description + "";
+	let t6_value = /*step*/ ctx[0].description.description + "";
+	let t6;
 	let t7;
 	let t8;
-	let t9;
 	let if_block2_anchor;
 	let mounted;
 	let dispose;
-	let if_block0 = /*calculatedKind*/ ctx[2] !== null && create_if_block_4$3(ctx);
-	let if_block1 = /*step*/ ctx[0].description.options.length > 0 && create_if_block_2$5(ctx);
-	let if_block2 = /*error*/ ctx[3] && create_if_block_1$7(ctx);
+	let if_block0 = /*calculatedKind*/ ctx[2] !== null && create_if_block_5$3(ctx);
+	let if_block1 = /*step*/ ctx[0].description.options.length > 0 && create_if_block_2$6(ctx);
+	let if_block2 = /*error*/ ctx[3] && create_if_block_1$8(ctx);
 
 	return {
 		c() {
 			div1 = element("div");
 			div0 = element("div");
 			h4 = element("h4");
+			span = element("span");
 			t0 = text(/*ordinal*/ ctx[1]);
-			t1 = text(". ");
-			t2 = text(t2_value);
-			t3 = space();
+			t1 = text(t1_value);
+			t2 = space();
 			if (if_block0) if_block0.c();
-			t4 = space();
+			t3 = space();
 			button = element("button");
 			button.textContent = "X";
-			t6 = space();
+			t5 = space();
 			p = element("p");
-			t7 = text(t7_value);
-			t8 = space();
+			t6 = text(t6_value);
+			t7 = space();
 			if (if_block1) if_block1.c();
-			t9 = space();
+			t8 = space();
 			if (if_block2) if_block2.c();
 			if_block2_anchor = empty();
-			attr(h4, "class", "svelte-jtvens");
-			attr(div0, "class", "longform-compile-step-title-container svelte-jtvens");
-			attr(button, "class", "longform-remove-step-button svelte-jtvens");
-			attr(div1, "class", "longform-compile-step-title-outer svelte-jtvens");
-			attr(p, "class", "longform-compile-step-description svelte-jtvens");
+			attr(span, "class", "longform-compile-step-number svelte-yprjpc");
+			attr(h4, "class", "svelte-yprjpc");
+			attr(div0, "class", "longform-compile-step-title-container svelte-yprjpc");
+			attr(button, "class", "longform-remove-step-button svelte-yprjpc");
+			attr(div1, "class", "longform-compile-step-title-outer svelte-yprjpc");
+			attr(p, "class", "longform-compile-step-description svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, div1, anchor);
 			append(div1, div0);
 			append(div0, h4);
-			append(h4, t0);
+			append(h4, span);
+			append(span, t0);
 			append(h4, t1);
-			append(h4, t2);
-			append(div0, t3);
+			append(div0, t2);
 			if (if_block0) if_block0.m(div0, null);
-			append(div1, t4);
+			append(div1, t3);
 			append(div1, button);
-			insert(target, t6, anchor);
+			insert(target, t5, anchor);
 			insert(target, p, anchor);
-			append(p, t7);
-			insert(target, t8, anchor);
+			append(p, t6);
+			insert(target, t7, anchor);
 			if (if_block1) if_block1.m(target, anchor);
-			insert(target, t9, anchor);
+			insert(target, t8, anchor);
 			if (if_block2) if_block2.m(target, anchor);
 			insert(target, if_block2_anchor, anchor);
 
@@ -22387,13 +22429,13 @@ function create_else_block$4(ctx) {
 		},
 		p(ctx, dirty) {
 			if (dirty & /*ordinal*/ 2) set_data(t0, /*ordinal*/ ctx[1]);
-			if (dirty & /*step*/ 1 && t2_value !== (t2_value = /*step*/ ctx[0].description.name + "")) set_data(t2, t2_value);
+			if (dirty & /*step*/ 1 && t1_value !== (t1_value = /*step*/ ctx[0].description.name + "")) set_data(t1, t1_value);
 
 			if (/*calculatedKind*/ ctx[2] !== null) {
 				if (if_block0) {
 					if_block0.p(ctx, dirty);
 				} else {
-					if_block0 = create_if_block_4$3(ctx);
+					if_block0 = create_if_block_5$3(ctx);
 					if_block0.c();
 					if_block0.m(div0, null);
 				}
@@ -22402,15 +22444,15 @@ function create_else_block$4(ctx) {
 				if_block0 = null;
 			}
 
-			if (dirty & /*step*/ 1 && t7_value !== (t7_value = /*step*/ ctx[0].description.description + "")) set_data(t7, t7_value);
+			if (dirty & /*step*/ 1 && t6_value !== (t6_value = /*step*/ ctx[0].description.description + "")) set_data(t6, t6_value);
 
 			if (/*step*/ ctx[0].description.options.length > 0) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
-					if_block1 = create_if_block_2$5(ctx);
+					if_block1 = create_if_block_2$6(ctx);
 					if_block1.c();
-					if_block1.m(t9.parentNode, t9);
+					if_block1.m(t8.parentNode, t8);
 				}
 			} else if (if_block1) {
 				if_block1.d(1);
@@ -22421,7 +22463,7 @@ function create_else_block$4(ctx) {
 				if (if_block2) {
 					if_block2.p(ctx, dirty);
 				} else {
-					if_block2 = create_if_block_1$7(ctx);
+					if_block2 = create_if_block_1$8(ctx);
 					if_block2.c();
 					if_block2.m(if_block2_anchor.parentNode, if_block2_anchor);
 				}
@@ -22433,11 +22475,11 @@ function create_else_block$4(ctx) {
 		d(detaching) {
 			if (detaching) detach(div1);
 			if (if_block0) if_block0.d();
-			if (detaching) detach(t6);
+			if (detaching) detach(t5);
 			if (detaching) detach(p);
-			if (detaching) detach(t8);
+			if (detaching) detach(t7);
 			if (if_block1) if_block1.d(detaching);
-			if (detaching) detach(t9);
+			if (detaching) detach(t8);
 			if (if_block2) if_block2.d(detaching);
 			if (detaching) detach(if_block2_anchor);
 			mounted = false;
@@ -22447,7 +22489,7 @@ function create_else_block$4(ctx) {
 }
 
 // (15:2) {#if step.description.canonicalID === PLACEHOLDER_MISSING_STEP.description.canonicalID}
-function create_if_block$a(ctx) {
+function create_if_block$b(ctx) {
 	let div1;
 	let div0;
 	let t1;
@@ -22461,21 +22503,21 @@ function create_if_block$a(ctx) {
 		c() {
 			div1 = element("div");
 			div0 = element("div");
-			div0.innerHTML = `<h4 class="svelte-jtvens">Invalid Step</h4>`;
+			div0.innerHTML = `<h4 class="svelte-yprjpc">Invalid Step</h4>`;
 			t1 = space();
 			button = element("button");
 			button.textContent = "X";
 			t3 = space();
 			div2 = element("div");
 
-			div2.innerHTML = `<p class="longform-compile-step-error svelte-jtvens">This workflow contains a step that could not be loaded. Please delete
+			div2.innerHTML = `<p class="longform-compile-step-error svelte-yprjpc">This workflow contains a step that could not be loaded. Please delete
         the step to be able to run this workflow. If you’re on mobile, this may
         be a user script step that did not load.</p>`;
 
-			attr(div0, "class", "longform-compile-step-title-container svelte-jtvens");
-			attr(button, "class", "longform-remove-step-button svelte-jtvens");
-			attr(div1, "class", "longform-compile-step-title-outer svelte-jtvens");
-			attr(div2, "class", "longform-compile-step-error-container svelte-jtvens");
+			attr(div0, "class", "longform-compile-step-title-container svelte-yprjpc");
+			attr(button, "class", "longform-remove-step-button svelte-yprjpc");
+			attr(div1, "class", "longform-compile-step-title-outer svelte-yprjpc");
+			attr(div2, "class", "longform-compile-step-error-container svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, div1, anchor);
@@ -22502,7 +22544,7 @@ function create_if_block$a(ctx) {
 }
 
 // (35:8) {#if calculatedKind !== null}
-function create_if_block_4$3(ctx) {
+function create_if_block_5$3(ctx) {
 	let div;
 	let t_value = formatStepKind(/*calculatedKind*/ ctx[2]) + "";
 	let t;
@@ -22512,7 +22554,7 @@ function create_if_block_4$3(ctx) {
 		c() {
 			div = element("div");
 			t = text(t_value);
-			attr(div, "class", "longform-step-kind-pill svelte-jtvens");
+			attr(div, "class", "longform-step-kind-pill svelte-yprjpc");
 			attr(div, "title", div_title_value = explainStepKind(/*calculatedKind*/ ctx[2]));
 		},
 		m(target, anchor) {
@@ -22533,7 +22575,7 @@ function create_if_block_4$3(ctx) {
 }
 
 // (51:4) {#if step.description.options.length > 0}
-function create_if_block_2$5(ctx) {
+function create_if_block_2$6(ctx) {
 	let div1;
 	let div0;
 	let each_value = /*step*/ ctx[0].description.options;
@@ -22552,8 +22594,8 @@ function create_if_block_2$5(ctx) {
 				each_blocks[i].c();
 			}
 
-			attr(div0, "class", "svelte-jtvens");
-			attr(div1, "class", "longform-compile-step-options svelte-jtvens");
+			attr(div0, "class", "svelte-yprjpc");
+			attr(div1, "class", "longform-compile-step-options svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, div1, anchor);
@@ -22594,21 +22636,21 @@ function create_if_block_2$5(ctx) {
 	};
 }
 
-// (64:14) {:else}
+// (71:14) {:else}
 function create_else_block_1$2(ctx) {
 	let div;
 	let input;
 	let input_id_value;
 	let t0;
 	let label;
-	let t1_value = /*option*/ ctx[8].name + "";
+	let t1_value = /*option*/ ctx[9].name + "";
 	let t1;
 	let label_for_value;
 	let mounted;
 	let dispose;
 
 	function input_change_handler() {
-		/*input_change_handler*/ ctx[6].call(input, /*option*/ ctx[8]);
+		/*input_change_handler*/ ctx[7].call(input, /*option*/ ctx[9]);
 	}
 
 	return {
@@ -22618,17 +22660,17 @@ function create_else_block_1$2(ctx) {
 			t0 = space();
 			label = element("label");
 			t1 = text(t1_value);
-			attr(input, "id", input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id);
+			attr(input, "id", input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id);
 			attr(input, "type", "checkbox");
-			attr(input, "class", "svelte-jtvens");
-			attr(label, "for", label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id);
-			attr(label, "class", "svelte-jtvens");
-			attr(div, "class", "longform-compile-step-checkbox-container svelte-jtvens");
+			attr(input, "class", "svelte-yprjpc");
+			attr(label, "for", label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id);
+			attr(label, "class", "svelte-yprjpc");
+			attr(div, "class", "longform-compile-step-checkbox-container svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
 			append(div, input);
-			input.checked = /*step*/ ctx[0].optionValues[/*option*/ ctx[8].id];
+			input.checked = /*step*/ ctx[0].optionValues[/*option*/ ctx[9].id];
 			append(div, t0);
 			append(div, label);
 			append(label, t1);
@@ -22641,17 +22683,17 @@ function create_else_block_1$2(ctx) {
 		p(new_ctx, dirty) {
 			ctx = new_ctx;
 
-			if (dirty & /*step*/ 1 && input_id_value !== (input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id)) {
+			if (dirty & /*step*/ 1 && input_id_value !== (input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id)) {
 				attr(input, "id", input_id_value);
 			}
 
 			if (dirty & /*step*/ 1) {
-				input.checked = /*step*/ ctx[0].optionValues[/*option*/ ctx[8].id];
+				input.checked = /*step*/ ctx[0].optionValues[/*option*/ ctx[9].id];
 			}
 
-			if (dirty & /*step*/ 1 && t1_value !== (t1_value = /*option*/ ctx[8].name + "")) set_data(t1, t1_value);
+			if (dirty & /*step*/ 1 && t1_value !== (t1_value = /*option*/ ctx[9].name + "")) set_data(t1, t1_value);
 
-			if (dirty & /*step*/ 1 && label_for_value !== (label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id)) {
+			if (dirty & /*step*/ 1 && label_for_value !== (label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id)) {
 				attr(label, "for", label_for_value);
 			}
 		},
@@ -22663,10 +22705,76 @@ function create_else_block_1$2(ctx) {
 	};
 }
 
+// (64:76) 
+function create_if_block_4$3(ctx) {
+	let label;
+	let t0_value = /*option*/ ctx[9].name + "";
+	let t0;
+	let label_for_value;
+	let t1;
+	let textarea;
+	let textarea_id_value;
+	let mounted;
+	let dispose;
+
+	function textarea_input_handler() {
+		/*textarea_input_handler*/ ctx[6].call(textarea, /*option*/ ctx[9]);
+	}
+
+	return {
+		c() {
+			label = element("label");
+			t0 = text(t0_value);
+			t1 = space();
+			textarea = element("textarea");
+			attr(label, "for", label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id);
+			attr(label, "class", "svelte-yprjpc");
+			attr(textarea, "id", textarea_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id);
+			attr(textarea, "placeholder", "key: value");
+			attr(textarea, "class", "svelte-yprjpc");
+		},
+		m(target, anchor) {
+			insert(target, label, anchor);
+			append(label, t0);
+			insert(target, t1, anchor);
+			insert(target, textarea, anchor);
+			set_input_value(textarea, /*step*/ ctx[0].optionValues[/*option*/ ctx[9].id]);
+
+			if (!mounted) {
+				dispose = listen(textarea, "input", textarea_input_handler);
+				mounted = true;
+			}
+		},
+		p(new_ctx, dirty) {
+			ctx = new_ctx;
+			if (dirty & /*step*/ 1 && t0_value !== (t0_value = /*option*/ ctx[9].name + "")) set_data(t0, t0_value);
+
+			if (dirty & /*step*/ 1 && label_for_value !== (label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id)) {
+				attr(label, "for", label_for_value);
+			}
+
+			if (dirty & /*step*/ 1 && textarea_id_value !== (textarea_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id)) {
+				attr(textarea, "id", textarea_id_value);
+			}
+
+			if (dirty & /*step*/ 1) {
+				set_input_value(textarea, /*step*/ ctx[0].optionValues[/*option*/ ctx[9].id]);
+			}
+		},
+		d(detaching) {
+			if (detaching) detach(label);
+			if (detaching) detach(t1);
+			if (detaching) detach(textarea);
+			mounted = false;
+			dispose();
+		}
+	};
+}
+
 // (56:14) {#if option.type === CompileStepOptionType.Text}
 function create_if_block_3$3(ctx) {
 	let label;
-	let t0_value = /*option*/ ctx[8].name + "";
+	let t0_value = /*option*/ ctx[9].name + "";
 	let t0;
 	let label_for_value;
 	let t1;
@@ -22677,7 +22785,7 @@ function create_if_block_3$3(ctx) {
 	let dispose;
 
 	function input_input_handler() {
-		/*input_input_handler*/ ctx[5].call(input, /*option*/ ctx[8]);
+		/*input_input_handler*/ ctx[5].call(input, /*option*/ ctx[9]);
 	}
 
 	return {
@@ -22686,19 +22794,19 @@ function create_if_block_3$3(ctx) {
 			t0 = text(t0_value);
 			t1 = space();
 			input = element("input");
-			attr(label, "for", label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id);
-			attr(label, "class", "svelte-jtvens");
-			attr(input, "id", input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id);
+			attr(label, "for", label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id);
+			attr(label, "class", "svelte-yprjpc");
+			attr(input, "id", input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id);
 			attr(input, "type", "text");
-			attr(input, "placeholder", input_placeholder_value = /*option*/ ctx[8].default.replace(/\n/g, "\\n"));
-			attr(input, "class", "svelte-jtvens");
+			attr(input, "placeholder", input_placeholder_value = /*option*/ ctx[9].default.replace(/\n/g, "\\n"));
+			attr(input, "class", "svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, label, anchor);
 			append(label, t0);
 			insert(target, t1, anchor);
 			insert(target, input, anchor);
-			set_input_value(input, /*step*/ ctx[0].optionValues[/*option*/ ctx[8].id]);
+			set_input_value(input, /*step*/ ctx[0].optionValues[/*option*/ ctx[9].id]);
 
 			if (!mounted) {
 				dispose = listen(input, "input", input_input_handler);
@@ -22707,22 +22815,22 @@ function create_if_block_3$3(ctx) {
 		},
 		p(new_ctx, dirty) {
 			ctx = new_ctx;
-			if (dirty & /*step*/ 1 && t0_value !== (t0_value = /*option*/ ctx[8].name + "")) set_data(t0, t0_value);
+			if (dirty & /*step*/ 1 && t0_value !== (t0_value = /*option*/ ctx[9].name + "")) set_data(t0, t0_value);
 
-			if (dirty & /*step*/ 1 && label_for_value !== (label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id)) {
+			if (dirty & /*step*/ 1 && label_for_value !== (label_for_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id)) {
 				attr(label, "for", label_for_value);
 			}
 
-			if (dirty & /*step*/ 1 && input_id_value !== (input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[8].id)) {
+			if (dirty & /*step*/ 1 && input_id_value !== (input_id_value = /*step*/ ctx[0].id + "-" + /*option*/ ctx[9].id)) {
 				attr(input, "id", input_id_value);
 			}
 
-			if (dirty & /*step*/ 1 && input_placeholder_value !== (input_placeholder_value = /*option*/ ctx[8].default.replace(/\n/g, "\\n"))) {
+			if (dirty & /*step*/ 1 && input_placeholder_value !== (input_placeholder_value = /*option*/ ctx[9].default.replace(/\n/g, "\\n"))) {
 				attr(input, "placeholder", input_placeholder_value);
 			}
 
-			if (dirty & /*step*/ 1 && input.value !== /*step*/ ctx[0].optionValues[/*option*/ ctx[8].id]) {
-				set_input_value(input, /*step*/ ctx[0].optionValues[/*option*/ ctx[8].id]);
+			if (dirty & /*step*/ 1 && input.value !== /*step*/ ctx[0].optionValues[/*option*/ ctx[9].id]) {
+				set_input_value(input, /*step*/ ctx[0].optionValues[/*option*/ ctx[9].id]);
 			}
 		},
 		d(detaching) {
@@ -22740,12 +22848,13 @@ function create_each_block$5(ctx) {
 	let div;
 	let t0;
 	let p;
-	let t1_value = /*option*/ ctx[8].description + "";
+	let t1_value = /*option*/ ctx[9].description + "";
 	let t1;
 	let t2;
 
 	function select_block_type_1(ctx, dirty) {
-		if (/*option*/ ctx[8].type === CompileStepOptionType.Text) return create_if_block_3$3;
+		if (/*option*/ ctx[9].type === CompileStepOptionType.Text) return create_if_block_3$3;
+		if (/*option*/ ctx[9].type === CompileStepOptionType.MultilineText) return create_if_block_4$3;
 		return create_else_block_1$2;
 	}
 
@@ -22760,8 +22869,8 @@ function create_each_block$5(ctx) {
 			p = element("p");
 			t1 = text(t1_value);
 			t2 = space();
-			attr(p, "class", "longform-compile-step-option-description svelte-jtvens");
-			attr(div, "class", "longform-compile-step-option svelte-jtvens");
+			attr(p, "class", "longform-compile-step-option-description svelte-yprjpc");
+			attr(div, "class", "longform-compile-step-option svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -22784,7 +22893,7 @@ function create_each_block$5(ctx) {
 				}
 			}
 
-			if (dirty & /*step*/ 1 && t1_value !== (t1_value = /*option*/ ctx[8].description + "")) set_data(t1, t1_value);
+			if (dirty & /*step*/ 1 && t1_value !== (t1_value = /*option*/ ctx[9].description + "")) set_data(t1, t1_value);
 		},
 		d(detaching) {
 			if (detaching) detach(div);
@@ -22793,8 +22902,8 @@ function create_each_block$5(ctx) {
 	};
 }
 
-// (82:4) {#if error}
-function create_if_block_1$7(ctx) {
+// (89:4) {#if error}
+function create_if_block_1$8(ctx) {
 	let div;
 	let p;
 	let t;
@@ -22804,8 +22913,8 @@ function create_if_block_1$7(ctx) {
 			div = element("div");
 			p = element("p");
 			t = text(/*error*/ ctx[3]);
-			attr(p, "class", "longform-compile-step-error svelte-jtvens");
-			attr(div, "class", "longform-compile-step-error-container svelte-jtvens");
+			attr(p, "class", "longform-compile-step-error svelte-yprjpc");
+			attr(div, "class", "longform-compile-step-error-container svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -22825,7 +22934,7 @@ function create_fragment$e(ctx) {
 	let div;
 
 	function select_block_type(ctx, dirty) {
-		if (/*step*/ ctx[0].description.canonicalID === PLACEHOLDER_MISSING_STEP.description.canonicalID) return create_if_block$a;
+		if (/*step*/ ctx[0].description.canonicalID === PLACEHOLDER_MISSING_STEP.description.canonicalID) return create_if_block$b;
 		return create_else_block$4;
 	}
 
@@ -22836,7 +22945,7 @@ function create_fragment$e(ctx) {
 		c() {
 			div = element("div");
 			if_block.c();
-			attr(div, "class", "longform-compile-step svelte-jtvens");
+			attr(div, "class", "longform-compile-step svelte-yprjpc");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -22880,6 +22989,11 @@ function instance$e($$self, $$props, $$invalidate) {
 		$$invalidate(0, step);
 	}
 
+	function textarea_input_handler(option) {
+		step.optionValues[option.id] = this.value;
+		$$invalidate(0, step);
+	}
+
 	function input_change_handler(option) {
 		step.optionValues[option.id] = this.checked;
 		$$invalidate(0, step);
@@ -22899,6 +23013,7 @@ function instance$e($$self, $$props, $$invalidate) {
 		error,
 		removeStep,
 		input_input_handler,
+		textarea_input_handler,
 		input_change_handler
 	];
 }
@@ -27980,7 +28095,7 @@ class AutoTextArea extends SvelteComponent {
 /* src/view/compile/CompileView.svelte generated by Svelte v3.49.0 */
 
 function add_css$b(target) {
-	append_styles(target, "svelte-b8b33m", ".longform-workflow-picker-container.svelte-b8b33m.svelte-b8b33m{margin-bottom:var(--size-4-8);padding:var(--size-4-2) 0;border-bottom:var(--border-width) solid var(--background-modifier-border);display:flex;flex-direction:column}.longform-workflow-picker.svelte-b8b33m.svelte-b8b33m{display:flex;flex-direction:row;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-bottom:var(--size-4-2)}.longform-workflow-picker.svelte-b8b33m .longform-hint.svelte-b8b33m{font-size:1em}select.svelte-b8b33m.svelte-b8b33m{background-color:transparent;border:none;padding:var(--size-4-1) 0;margin:0;font-family:inherit;font-size:inherit;cursor:inherit;line-height:inherit;outline:none;box-shadow:none}.select.svelte-b8b33m.svelte-b8b33m{cursor:pointer}.select.svelte-b8b33m>select.svelte-b8b33m{color:var(--text-accent)}.select.svelte-b8b33m>select.svelte-b8b33m:hover{text-decoration:underline;color:var(--text-accent-hover)}.longform-compile-container.svelte-b8b33m .longform-sortable-step-list{list-style-type:none;padding:0;margin:0}.options-button.svelte-b8b33m.svelte-b8b33m{background-color:var(--background-secondary-alt);color:var(--text-accent)}.options-button.svelte-b8b33m.svelte-b8b33m:hover{background-color:var(--background-primary);color:var(--text-accent-hover)}.add-step-container.svelte-b8b33m.svelte-b8b33m{display:flex;flex-direction:row;align-items:center;justify-content:center}.add-step-container.svelte-b8b33m button.svelte-b8b33m{font-weight:bold;color:var(--text-accent)}.add-step-container.svelte-b8b33m button.svelte-b8b33m:hover{text-decoration:underline;color:var(--text-accent-hover)}.compile-button.svelte-b8b33m.svelte-b8b33m{font-weight:bold;background-color:var(--interactive-accent);color:var(--text-on-accent)}.compile-button.svelte-b8b33m.svelte-b8b33m:hover{background-color:var(--interactive-accent-hover);color:var(--text-on-accent)}.compile-button.svelte-b8b33m.svelte-b8b33m:disabled{background-color:var(--text-muted);color:var(--text-faint)}.longform-compile-run-container.svelte-b8b33m.svelte-b8b33m{display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin-top:var(--size-4-8)}.longform-compile-run-container.svelte-b8b33m .compile-status.svelte-b8b33m{color:var(--text-muted)}.compile-status-error{color:var(--text-error) !important}.compile-status-success{color:var(--interactive-success) !important}.step-ghost{background-color:var(--interactive-accent-hover);color:var(--text-on-accent)}");
+	append_styles(target, "svelte-1hf1yah", ".longform-workflow-picker-container.svelte-1hf1yah.svelte-1hf1yah{padding:var(--size-4-2);background:var(--background-primary);display:flex;flex-direction:column}#longform-workflows.svelte-1hf1yah.svelte-1hf1yah{color:var(--color-accent-2)}.longform-workflow-picker.svelte-1hf1yah.svelte-1hf1yah{display:flex;flex-direction:row;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-bottom:var(--size-4-2)}.longform-workflow-picker.svelte-1hf1yah .longform-hint.svelte-1hf1yah{font-size:1em}select.svelte-1hf1yah.svelte-1hf1yah{background-color:transparent;border:none;padding:var(--size-4-1) 0;margin:0;font-family:inherit;font-size:inherit;cursor:inherit;line-height:inherit;outline:none;box-shadow:none}.select.svelte-1hf1yah.svelte-1hf1yah{cursor:pointer}.select.svelte-1hf1yah>select.svelte-1hf1yah{color:var(--text-accent)}.select.svelte-1hf1yah>select.svelte-1hf1yah:hover{text-decoration:underline;color:var(--text-accent-hover)}.longform-compile-container.svelte-1hf1yah .longform-sortable-step-list{list-style-type:none;padding:0;margin:0}.options-button.svelte-1hf1yah.svelte-1hf1yah{background-color:var(--background-secondary-alt);color:var(--text-accent)}.options-button.svelte-1hf1yah.svelte-1hf1yah:hover{background-color:var(--background-primary);color:var(--text-accent-hover)}.add-step-container.svelte-1hf1yah.svelte-1hf1yah{display:flex;flex-direction:row;align-items:center;justify-content:center}.add-step-container.svelte-1hf1yah button.svelte-1hf1yah{font-weight:bold;color:var(--text-accent)}.add-step-container.svelte-1hf1yah button.svelte-1hf1yah:hover{text-decoration:underline;color:var(--text-accent-hover)}.longform-compile-instructions.svelte-1hf1yah.svelte-1hf1yah{font-size:var(--font-smallest);padding:var(--size-4-4) var(--size-4-4) var(--size-4-1) var(--size-4-8);color:var(--text-muted)}.longform-compile-instructions.svelte-1hf1yah li.svelte-1hf1yah{margin-bottom:var(--size-4-1)\n    }.longform-compile-instructions.svelte-1hf1yah strong.svelte-1hf1yah{color:var(--color-accent-2)}.compile-button.svelte-1hf1yah.svelte-1hf1yah{font-weight:bold;background-color:var(--interactive-accent);color:var(--text-on-accent)}.compile-button.svelte-1hf1yah.svelte-1hf1yah:hover{background-color:var(--interactive-accent-hover);color:var(--text-on-accent)}.compile-button.svelte-1hf1yah.svelte-1hf1yah:disabled{background-color:var(--text-muted);color:var(--text-faint)}.longform-compile-run-container.svelte-1hf1yah.svelte-1hf1yah{display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin-top:var(--size-4-8)}.longform-compile-run-container.svelte-1hf1yah .compile-status.svelte-1hf1yah{color:var(--text-muted)}.compile-status-error{color:var(--text-error) !important}.compile-status-success{color:var(--interactive-success) !important}.step-ghost{background-color:var(--interactive-accent-hover);color:var(--text-on-accent)}");
 }
 
 function get_each_context$3(ctx, list, i) {
@@ -27990,28 +28105,28 @@ function get_each_context$3(ctx, list, i) {
 }
 
 // (177:0) {#if $selectedDraft}
-function create_if_block$9(ctx) {
+function create_if_block$a(ctx) {
 	let div3;
 	let div1;
 	let div0;
 	let t0;
 	let t1;
 	let t2;
-	let p;
-	let t12;
+	let ul;
+	let t16;
 	let div2;
 	let current;
 
 	function select_block_type(ctx, dirty) {
-		if (/*workflowInputState*/ ctx[6] !== "hidden") return create_if_block_5$1;
+		if (/*workflowInputState*/ ctx[6] !== "hidden") return create_if_block_5$2;
 		return create_else_block$3;
 	}
 
 	let current_block_type = select_block_type(ctx);
 	let if_block0 = current_block_type(ctx);
 	let if_block1 = /*$workflows*/ ctx[4][/*currentWorkflowName*/ ctx[1]] && create_if_block_4$2(ctx);
-	let if_block2 = /*$workflows*/ ctx[4][/*currentWorkflowName*/ ctx[1]] && create_if_block_2$4(ctx);
-	let if_block3 = /*$currentWorkflow*/ ctx[2] && /*$currentWorkflow*/ ctx[2].steps.length > 0 && create_if_block_1$6(ctx);
+	let if_block2 = /*$workflows*/ ctx[4][/*currentWorkflowName*/ ctx[1]] && create_if_block_2$5(ctx);
+	let if_block3 = /*$currentWorkflow*/ ctx[2] && /*$currentWorkflow*/ ctx[2].steps.length > 0 && create_if_block_1$7(ctx);
 
 	return {
 		c() {
@@ -28024,21 +28139,22 @@ function create_if_block$9(ctx) {
 			t1 = space();
 			if (if_block2) if_block2.c();
 			t2 = space();
-			p = element("p");
+			ul = element("ul");
 
-			p.innerHTML = `Compile workflows run their steps in order.<br/><b>Scene</b> workflows
-      run once per scene.<br/><b>Join</b> workflows run once and combine the
-      rest of your scene steps into a single manuscript.<br/><b>Manuscript</b>
-      steps run once on the joined manuscript.<br/>Drag to rearrange.
-      <a href="https://github.com/kevboh/longform/blob/main/docs/COMPILE.md">Documentation here.</a>`;
+			ul.innerHTML = `<li class="svelte-1hf1yah">Compile workflows run their steps in order.</li> 
+      <li class="svelte-1hf1yah"><strong class="svelte-1hf1yah">Scene</strong> workflows run once per scene.</li> 
+      <li class="svelte-1hf1yah"><strong class="svelte-1hf1yah">Join</strong> workflows run once and combine the rest of your scene steps into a single manuscript.</li> 
+      <li class="svelte-1hf1yah"><strong class="svelte-1hf1yah">Manuscript</strong> steps run once on the joined manuscript.</li> 
+      <li class="svelte-1hf1yah">Drag to rearrange. <a href="https://github.com/kevboh/longform/blob/main/docs/COMPILE.md">Documentation here.</a></li>`;
 
-			t12 = space();
+			t16 = space();
 			div2 = element("div");
 			if (if_block3) if_block3.c();
-			attr(div0, "class", "longform-workflow-picker svelte-b8b33m");
-			attr(div1, "class", "longform-workflow-picker-container svelte-b8b33m");
-			attr(div2, "class", "longform-compile-run-container svelte-b8b33m");
-			attr(div3, "class", "longform-compile-container svelte-b8b33m");
+			attr(div0, "class", "longform-workflow-picker svelte-1hf1yah");
+			attr(div1, "class", "longform-workflow-picker-container svelte-1hf1yah");
+			attr(ul, "class", "longform-compile-instructions svelte-1hf1yah");
+			attr(div2, "class", "longform-compile-run-container svelte-1hf1yah");
+			attr(div3, "class", "longform-compile-container svelte-1hf1yah");
 		},
 		m(target, anchor) {
 			insert(target, div3, anchor);
@@ -28050,8 +28166,8 @@ function create_if_block$9(ctx) {
 			append(div3, t1);
 			if (if_block2) if_block2.m(div3, null);
 			append(div3, t2);
-			append(div3, p);
-			append(div3, t12);
+			append(div3, ul);
+			append(div3, t16);
 			append(div3, div2);
 			if (if_block3) if_block3.m(div2, null);
 			current = true;
@@ -28100,7 +28216,7 @@ function create_if_block$9(ctx) {
 						transition_in(if_block2, 1);
 					}
 				} else {
-					if_block2 = create_if_block_2$4(ctx);
+					if_block2 = create_if_block_2$5(ctx);
 					if_block2.c();
 					transition_in(if_block2, 1);
 					if_block2.m(div3, t2);
@@ -28119,7 +28235,7 @@ function create_if_block$9(ctx) {
 				if (if_block3) {
 					if_block3.p(ctx, dirty);
 				} else {
-					if_block3 = create_if_block_1$6(ctx);
+					if_block3 = create_if_block_1$7(ctx);
 					if_block3.c();
 					if_block3.m(div2, null);
 				}
@@ -28170,7 +28286,7 @@ function create_else_block$3(ctx) {
 			t0 = space();
 			button = element("button");
 			button.textContent = "▼";
-			attr(button, "class", "options-button svelte-b8b33m");
+			attr(button, "class", "options-button svelte-1hf1yah");
 			attr(button, "title", "Workflow Actions");
 		},
 		m(target, anchor) {
@@ -28209,7 +28325,7 @@ function create_else_block$3(ctx) {
 }
 
 // (181:8) {#if workflowInputState !== "hidden"}
-function create_if_block_5$1(ctx) {
+function create_if_block_5$2(ctx) {
 	let input;
 	let input_placeholder_value;
 	let mounted;
@@ -28283,8 +28399,8 @@ function create_else_block_1$1(ctx) {
 			}
 
 			attr(select, "id", "longform-workflows");
-			attr(select, "class", "svelte-b8b33m");
-			attr(div, "class", "select svelte-b8b33m");
+			attr(select, "class", "svelte-1hf1yah");
+			attr(div, "class", "select svelte-1hf1yah");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -28346,7 +28462,7 @@ function create_if_block_6$1(ctx) {
 		c() {
 			span = element("span");
 			span.textContent = "Create a new workflow to begin →";
-			attr(span, "class", "longform-hint svelte-b8b33m");
+			attr(span, "class", "longform-hint svelte-1hf1yah");
 		},
 		m(target, anchor) {
 			insert(target, span, anchor);
@@ -28448,7 +28564,7 @@ function create_if_block_4$2(ctx) {
 }
 
 // (241:4) {#if $workflows[currentWorkflowName]}
-function create_if_block_2$4(ctx) {
+function create_if_block_2$5(ctx) {
 	let sortablelist;
 	let updating_items;
 	let t;
@@ -28488,7 +28604,7 @@ function create_if_block_2$4(ctx) {
 			t = space();
 			div = element("div");
 			if (if_block) if_block.c();
-			attr(div, "class", "add-step-container svelte-b8b33m");
+			attr(div, "class", "add-step-container svelte-1hf1yah");
 		},
 		m(target, anchor) {
 			mount_component(sortablelist, target, anchor);
@@ -28606,7 +28722,7 @@ function create_if_block_3$2(ctx) {
 		c() {
 			button = element("button");
 			button.textContent = "+ Add Step";
-			attr(button, "class", "svelte-b8b33m");
+			attr(button, "class", "svelte-1hf1yah");
 		},
 		m(target, anchor) {
 			insert(target, button, anchor);
@@ -28625,8 +28741,8 @@ function create_if_block_3$2(ctx) {
 	};
 }
 
-// (283:6) {#if $currentWorkflow && $currentWorkflow.steps.length > 0}
-function create_if_block_1$6(ctx) {
+// (292:6) {#if $currentWorkflow && $currentWorkflow.steps.length > 0}
+function create_if_block_1$7(ctx) {
 	let button;
 	let t0;
 	let button_disabled_value;
@@ -28649,10 +28765,10 @@ function create_if_block_1$6(ctx) {
 			t1 = space();
 			span = element("span");
 			t2 = text(t2_value);
-			attr(button, "class", "compile-button svelte-b8b33m");
+			attr(button, "class", "compile-button svelte-1hf1yah");
 			button.disabled = button_disabled_value = /*validation*/ ctx[11].error !== WorkflowError.Valid;
 			attr(button, "aria-label", button_aria_label_value = /*validation*/ ctx[11].error);
-			attr(span, "class", "compile-status svelte-b8b33m");
+			attr(span, "class", "compile-status svelte-1hf1yah");
 		},
 		m(target, anchor) {
 			insert(target, button, anchor);
@@ -28694,7 +28810,7 @@ function create_if_block_1$6(ctx) {
 function create_fragment$b(ctx) {
 	let if_block_anchor;
 	let current;
-	let if_block = /*$selectedDraft*/ ctx[3] && create_if_block$9(ctx);
+	let if_block = /*$selectedDraft*/ ctx[3] && create_if_block$a(ctx);
 
 	return {
 		c() {
@@ -28715,7 +28831,7 @@ function create_fragment$b(ctx) {
 						transition_in(if_block, 1);
 					}
 				} else {
-					if_block = create_if_block$9(ctx);
+					if_block = create_if_block$a(ctx);
 					if_block.c();
 					transition_in(if_block, 1);
 					if_block.m(if_block_anchor.parentNode, if_block_anchor);
@@ -29131,11 +29247,11 @@ const goalProgress = derived([selectedDraft, sessions, pluginSettings, activeFil
 /* src/view/explorer/NewSceneField.svelte generated by Svelte v3.49.0 */
 
 function add_css$a(target) {
-	append_styles(target, "svelte-12joxhx", ".new-scene-container.svelte-12joxhx{margin:0;border-top:var(--border-width) solid var(--text-muted);padding:var(--size-4-1) 0}#new-scene.svelte-12joxhx{padding:0;border:0;background:inherit;font-size:1em;line-height:var(--h3-line-height);width:100%}#new-scene.invalid.svelte-12joxhx{color:var(--text-error)}#new-scene.svelte-12joxhx::placeholder{font-style:italic}");
+	append_styles(target, "svelte-e1ncqi", ".new-scene-container.svelte-e1ncqi{margin:0;padding:var(--size-4-2) 0}#new-scene.svelte-e1ncqi{width:100%;background:var(--background-modifier-form-field);border:var(--input-border-width) solid var(--background-modifier-border);border-radius:var(--input-radius);font-size:var(--font-ui-small);padding:var(--size-4-1) var(--size-4-2)}#new-scene.invalid.svelte-e1ncqi{color:var(--text-error)}");
 }
 
 // (50:2) {#if error}
-function create_if_block$8(ctx) {
+function create_if_block$9(ctx) {
 	let p;
 	let t;
 
@@ -29163,7 +29279,7 @@ function create_fragment$a(ctx) {
 	let t;
 	let mounted;
 	let dispose;
-	let if_block = /*error*/ ctx[2] && create_if_block$8(ctx);
+	let if_block = /*error*/ ctx[2] && create_if_block$9(ctx);
 
 	return {
 		c() {
@@ -29173,10 +29289,10 @@ function create_fragment$a(ctx) {
 			if (if_block) if_block.c();
 			attr(input, "id", "new-scene");
 			attr(input, "type", "text");
-			attr(input, "placeholder", "New Scene…");
-			attr(input, "class", "svelte-12joxhx");
+			attr(input, "placeholder", "New Scene");
+			attr(input, "class", "svelte-e1ncqi");
 			toggle_class(input, "invalid", !!/*error*/ ctx[2]);
-			attr(div, "class", "new-scene-container svelte-12joxhx");
+			attr(div, "class", "new-scene-container svelte-e1ncqi");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -29208,7 +29324,7 @@ function create_fragment$a(ctx) {
 				if (if_block) {
 					if_block.p(ctx, dirty);
 				} else {
-					if_block = create_if_block$8(ctx);
+					if_block = create_if_block$9(ctx);
 					if_block.c();
 					if_block.m(div, null);
 				}
@@ -29242,9 +29358,9 @@ function instance$a($$self, $$props, $$invalidate) {
 	let error = null;
 	const onNewScene = getContext("onNewScene");
 
-	function onNewSceneEnter() {
+	function onNewSceneEnter(open) {
 		if (newSceneName.length > 0 && !error) {
-			onNewScene(newSceneName);
+			onNewScene(newSceneName, open);
 			$$invalidate(0, newSceneName = "");
 		}
 	}
@@ -29263,7 +29379,7 @@ function instance$a($$self, $$props, $$invalidate) {
 
 	const keydown_handler = e => {
 		if (e.key === "Enter") {
-			onNewSceneEnter();
+			onNewSceneEnter(!e.shiftKey);
 		} else if (e.key === "Escape") {
 			$$invalidate(0, newSceneName = "");
 			newSceneInput.blur();
@@ -29307,7 +29423,7 @@ class NewSceneField extends SvelteComponent {
 /* src/view/explorer/ProjectPicker.svelte generated by Svelte v3.49.0 */
 
 function add_css$9(target) {
-	append_styles(target, "svelte-1e113mw", "#project-picker-container.svelte-1e113mw.svelte-1e113mw{margin-bottom:var(--size-4-2)}select.svelte-1e113mw.svelte-1e113mw{background-color:transparent;border:none;padding:0;margin:0;width:100%;font-family:inherit;font-size:1em;cursor:inherit;line-height:inherit;outline:none;box-shadow:none}.select.svelte-1e113mw.svelte-1e113mw{cursor:pointer}.select.svelte-1e113mw>select.svelte-1e113mw{color:var(--text-accent)}.select.svelte-1e113mw>select.svelte-1e113mw:hover{text-decoration:underline;color:var(--text-accent-hover)}#project-picker.svelte-1e113mw.svelte-1e113mw{display:flex;flex-direction:row;align-items:center;flex-wrap:wrap}.right-arrow.svelte-1e113mw.svelte-1e113mw{display:grid}.right-arrow.svelte-1e113mw.svelte-1e113mw::after{content:\"\";width:var(--font-smallest);height:var(--size-4-2);background-color:var(--text-muted);clip-path:polygon(50% 0%, 50% 100%, 100% 50%)}.current-draft-path.svelte-1e113mw.svelte-1e113mw{color:var(--text-muted);font-size:var(--font-smallest);padding:0 0 var(--size-4-1) 0}.current-draft-path.svelte-1e113mw.svelte-1e113mw:hover{color:var(--text-accent);cursor:pointer}");
+	append_styles(target, "svelte-1hf8c86", "#project-picker-container.svelte-1hf8c86.svelte-1hf8c86{margin-bottom:var(--size-4-2)}select.svelte-1hf8c86.svelte-1hf8c86{background-color:transparent;border:var(--input-border-width) solid var(--background-modifier-border);border-radius:var(--input-radius);padding:var(--size-4-2) var(--size-4-3);width:100%;height:100%;font-family:inherit;font-size:var(--font-ui-large);cursor:inherit;line-height:inherit;outline:none;box-shadow:none}.select.svelte-1hf8c86>select.svelte-1hf8c86:hover{color:var(--text-normal);background-color:var(--background-modifier-hover);box-shadow:0 0 0 2px var(--background-modifier-border-focus);border-color:var(--background-modifier-border-focus);transition:box-shadow 0.15s ease-in-out,\n      border 0.15s ease-in-out}.current-draft-path.svelte-1hf8c86.svelte-1hf8c86{color:var(--text-faint);font-size:var(--font-smallest);padding:0 0 var(--size-4-1) var(--size-4-3)}.current-draft-path.svelte-1hf8c86.svelte-1hf8c86:hover{color:var(--text-accent);cursor:pointer}#select-drafts.svelte-1hf8c86.svelte-1hf8c86{margin-top:var(--size-4-1)}");
 }
 
 function get_each_context$2(ctx, list, i) {
@@ -29330,8 +29446,8 @@ function create_else_block$2(ctx) {
 		c() {
 			p = element("p");
 
-			p.innerHTML = `To begin, find or create a folder somewhere in your vault in which 
-      you would like to create your novel. Right-click it and select 
+			p.innerHTML = `To begin, find or create a folder somewhere in your vault in which you
+      would like to create your novel. Right-click it and select
       <code>Create Longform Project.</code>`;
 		},
 		m(target, anchor) {
@@ -29345,7 +29461,7 @@ function create_else_block$2(ctx) {
 }
 
 // (49:2) {#if projectOptions.length > 0}
-function create_if_block$7(ctx) {
+function create_if_block$8(ctx) {
 	let div1;
 	let div0;
 	let select;
@@ -29362,8 +29478,8 @@ function create_if_block$7(ctx) {
 		each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
 	}
 
-	let if_block0 = /*$selectedProjectHasMultipleDrafts*/ ctx[4] && create_if_block_2$3(ctx);
-	let if_block1 = /*$selectedDraft*/ ctx[2] && create_if_block_1$5(ctx);
+	let if_block0 = /*$selectedProjectHasMultipleDrafts*/ ctx[4] && create_if_block_2$4(ctx);
+	let if_block1 = /*$selectedDraft*/ ctx[2] && create_if_block_1$6(ctx);
 
 	return {
 		c() {
@@ -29381,11 +29497,10 @@ function create_if_block$7(ctx) {
 			if (if_block1) if_block1.c();
 			if_block1_anchor = empty();
 			attr(select, "name", "projects");
-			attr(select, "class", "svelte-1e113mw");
-			attr(div0, "class", "select svelte-1e113mw");
+			attr(select, "class", "dropdown svelte-1hf8c86");
+			attr(div0, "class", "select svelte-1hf8c86");
 			attr(div0, "id", "select-projects");
 			attr(div1, "id", "project-picker");
-			attr(div1, "class", "svelte-1e113mw");
 		},
 		m(target, anchor) {
 			insert(target, div1, anchor);
@@ -29447,7 +29562,7 @@ function create_if_block$7(ctx) {
 				if (if_block0) {
 					if_block0.p(ctx, dirty);
 				} else {
-					if_block0 = create_if_block_2$3(ctx);
+					if_block0 = create_if_block_2$4(ctx);
 					if_block0.c();
 					if_block0.m(div1, null);
 				}
@@ -29460,7 +29575,7 @@ function create_if_block$7(ctx) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
-					if_block1 = create_if_block_1$5(ctx);
+					if_block1 = create_if_block_1$6(ctx);
 					if_block1.c();
 					if_block1.m(if_block1_anchor.parentNode, if_block1_anchor);
 				}
@@ -29482,7 +29597,7 @@ function create_if_block$7(ctx) {
 	};
 }
 
-// (57:10) {#each projectOptions as projectOption}
+// (58:10) {#each projectOptions as projectOption}
 function create_each_block_1(ctx) {
 	let option;
 	let t_value = /*projectOption*/ ctx[15] + "";
@@ -29515,10 +29630,8 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (64:6) {#if $selectedProjectHasMultipleDrafts}
-function create_if_block_2$3(ctx) {
-	let span;
-	let t;
+// (65:6) {#if $selectedProjectHasMultipleDrafts}
+function create_if_block_2$4(ctx) {
 	let div;
 	let select;
 	let mounted;
@@ -29532,8 +29645,6 @@ function create_if_block_2$3(ctx) {
 
 	return {
 		c() {
-			span = element("span");
-			t = space();
 			div = element("div");
 			select = element("select");
 
@@ -29541,16 +29652,13 @@ function create_if_block_2$3(ctx) {
 				each_blocks[i].c();
 			}
 
-			attr(span, "class", "right-arrow svelte-1e113mw");
 			attr(select, "name", "drafts");
-			attr(select, "class", "svelte-1e113mw");
+			attr(select, "class", "svelte-1hf8c86");
 			if (/*$selectedDraftVaultPath*/ ctx[3] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[9].call(select));
-			attr(div, "class", "select svelte-1e113mw");
+			attr(div, "class", "select svelte-1hf8c86");
 			attr(div, "id", "select-drafts");
 		},
 		m(target, anchor) {
-			insert(target, span, anchor);
-			insert(target, t, anchor);
 			insert(target, div, anchor);
 			append(div, select);
 
@@ -29594,8 +29702,6 @@ function create_if_block_2$3(ctx) {
 			}
 		},
 		d(detaching) {
-			if (detaching) detach(span);
-			if (detaching) detach(t);
 			if (detaching) detach(div);
 			destroy_each(each_blocks, detaching);
 			mounted = false;
@@ -29637,7 +29743,7 @@ function create_each_block$2(ctx) {
 }
 
 // (75:4) {#if $selectedDraft}
-function create_if_block_1$5(ctx) {
+function create_if_block_1$6(ctx) {
 	let div;
 	let t_value = /*$selectedDraft*/ ctx[2].vaultPath + "";
 	let t;
@@ -29648,7 +29754,7 @@ function create_if_block_1$5(ctx) {
 		c() {
 			div = element("div");
 			t = text(t_value);
-			attr(div, "class", "current-draft-path svelte-1e113mw");
+			attr(div, "class", "current-draft-path svelte-1hf8c86");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -29674,7 +29780,7 @@ function create_fragment$9(ctx) {
 	let div;
 
 	function select_block_type(ctx, dirty) {
-		if (/*projectOptions*/ ctx[0].length > 0) return create_if_block$7;
+		if (/*projectOptions*/ ctx[0].length > 0) return create_if_block$8;
 		return create_else_block$2;
 	}
 
@@ -29686,7 +29792,7 @@ function create_fragment$9(ctx) {
 			div = element("div");
 			if_block.c();
 			attr(div, "id", "project-picker-container");
-			attr(div, "class", "svelte-1e113mw");
+			attr(div, "class", "svelte-1hf8c86");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -29812,7 +29918,7 @@ class ProjectPicker extends SvelteComponent {
 /* src/view/components/Disclosure.svelte generated by Svelte v3.49.0 */
 
 function add_css$8(target) {
-	append_styles(target, "svelte-nfpqzd", ".right-triangle.svelte-nfpqzd.svelte-nfpqzd{transition:transform 0.3s;display:flex;align-items:center;justify-content:center}.collapsed.svelte-nfpqzd .right-triangle.svelte-nfpqzd{transform:rotate(-90deg)}");
+	append_styles(target, "svelte-ff880f", ".right-triangle.svelte-ff880f.svelte-ff880f{transition:transform 0.3s;display:flex;align-items:center;justify-content:center;width:var(--size-4-3);color:var(--icon-color);margin-left:calc(var(--size-4-1) * -1);margin-top:calc(var(--size-4-1) * -.25)}.collapsed.svelte-ff880f .right-triangle.svelte-ff880f{transform:rotate(-90deg)}");
 }
 
 function create_fragment$8(ctx) {
@@ -29828,14 +29934,18 @@ function create_fragment$8(ctx) {
 			span = element("span");
 			svg = svg_element("svg");
 			path = svg_element("path");
-			attr(path, "fill", "currentColor");
-			attr(path, "stroke", "currentColor");
-			attr(path, "d", "M94.9,20.8c-1.4-2.5-4.1-4.1-7.1-4.1H12.2c-3,0-5.7,1.6-7.1,4.1c-1.3,2.4-1.2,5.2,0.2,7.6L43.1,88c1.5,2.3,4,3.7,6.9,3.7 s5.4-1.4,6.9-3.7l37.8-59.6C96.1,26,96.2,23.2,94.9,20.8L94.9,20.8z");
-			attr(svg, "viewBox", "0 0 100 100");
-			attr(svg, "class", "right-triangle svelte-nfpqzd");
-			attr(svg, "width", "8");
-			attr(svg, "height", "8");
-			attr(span, "class", span_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-nfpqzd"));
+			attr(path, "d", "M3 8L12 17L21 8");
+			attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+			attr(svg, "width", "24");
+			attr(svg, "height", "24");
+			attr(svg, "viewBox", "0 0 24 24");
+			attr(svg, "fill", "none");
+			attr(svg, "stroke", "currentColor");
+			attr(svg, "stroke-width", "2");
+			attr(svg, "stroke-linecap", "round");
+			attr(svg, "stroke-linejoin", "round");
+			attr(svg, "class", "svg-icon right-triangle svelte-ff880f");
+			attr(span, "class", span_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-ff880f"));
 			toggle_class(span, "collapsed", /*collapsed*/ ctx[0]);
 		},
 		m(target, anchor) {
@@ -29849,7 +29959,7 @@ function create_fragment$8(ctx) {
 			}
 		},
 		p(ctx, [dirty]) {
-			if (dirty & /*className*/ 2 && span_class_value !== (span_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-nfpqzd"))) {
+			if (dirty & /*className*/ 2 && span_class_value !== (span_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-ff880f"))) {
 				attr(span, "class", span_class_value);
 			}
 
@@ -29924,7 +30034,7 @@ const ignoreScene = (fileName) => {
     if (index >= 0 && draft.format === "scenes") {
         drafts.update((d) => {
             const targetDraft = d[index];
-            d[index].scenes = targetDraft.scenes.filter(it => it.title != fileName);
+            d[index].scenes = targetDraft.scenes.filter((it) => it.title != fileName);
             d[index].ignoredFiles = [
                 ...targetDraft.ignoredFiles,
                 fileName,
@@ -29973,7 +30083,7 @@ const ignoreAll = () => {
 /* src/view/explorer/SceneList.svelte generated by Svelte v3.49.0 */
 
 function add_css$7(target) {
-	append_styles(target, "svelte-1d9o1n3", ".group{margin-left:var(--size-4-2)}#scene-list.svelte-1d9o1n3.svelte-1d9o1n3{margin:var(--size-4-1) 0}#scene-list.svelte-1d9o1n3 .sortable-scene-list{list-style-type:none;padding:0;margin:0}.scene-container.svelte-1d9o1n3.svelte-1d9o1n3{display:flex;flex-direction:row;align-items:center;border:var(--border-width) solid transparent;border-radius:var(--radius-s);cursor:pointer;color:var(--text-muted);font-size:1em;line-height:1.1em;white-space:nowrap;padding:var(--size-2-1) 0}.scene-container.hidden.svelte-1d9o1n3.svelte-1d9o1n3{display:none}.scene-container.svelte-1d9o1n3 .svelte-1d9o1n3:nth-child(2){margin-left:var(--size-4-2)}.selected.svelte-1d9o1n3.svelte-1d9o1n3,.svelte-1d9o1n3:not(.dragging) .scene-container.svelte-1d9o1n3:hover{background-color:var(--background-secondary-alt);color:var(--text-normal)}.scene-container.svelte-1d9o1n3.svelte-1d9o1n3:active{background-color:inherit;color:var(--text-muted)}.longform-scene-number.svelte-1d9o1n3.svelte-1d9o1n3{color:var(--text-muted);margin-right:var(--size-4-1);font-weight:bold}.longform-scene-number.svelte-1d9o1n3.svelte-1d9o1n3::after{content:\":\"}#longform-unknown-files-wizard.svelte-1d9o1n3.svelte-1d9o1n3{border-top:var(--border-width) solid var(--text-muted);padding:var(--size-4-2) 0}.longform-unknown-inner.svelte-1d9o1n3.svelte-1d9o1n3{border-left:var(--size-2-1) solid var(--text-accent);padding:0 0 0 var(--size-4-1)}.longform-unknown-explanation.svelte-1d9o1n3.svelte-1d9o1n3{color:var(--text-muted);font-size:1em}#longform-unknown-files-wizard.svelte-1d9o1n3 ul.svelte-1d9o1n3{list-style-type:none;padding:0 0 0 var(--size-4-2)}.longform-unknown-file.svelte-1d9o1n3.svelte-1d9o1n3{display:flex;flex-direction:row;justify-content:space-between}.longform-unknown-add.svelte-1d9o1n3.svelte-1d9o1n3{color:var(--text-accent);font-weight:bold}.longform-unknown-ignore.svelte-1d9o1n3.svelte-1d9o1n3{color:var(--text-muted);font-weight:bold}.scene-drag-ghost{background-color:var(--interactive-accent-hover);color:var(--text-on-accent);margin-left:var(--ghost-indent)}");
+	append_styles(target, "svelte-u6nqd", ".group{margin-left:var(--size-4-2)}#scene-list.svelte-u6nqd.svelte-u6nqd{margin:var(--size-4-1) 0}#scene-list.svelte-u6nqd .sortable-scene-list{list-style-type:none;padding:0;margin:0}.scene-container.svelte-u6nqd.svelte-u6nqd{display:flex;flex-direction:row;align-items:center;border:var(--border-width) solid transparent;border-radius:var(--radius-s);cursor:pointer;color:var(--nav-item-color);font-size:var(--nav-item-size);font-weight:var(--nav-item-weight);line-height:var(--line-height-tight);padding:var(--size-4-1) var(--size-4-2);white-space:normal}.scene-container.collapsible.svelte-u6nqd.svelte-u6nqd{display:flex;flex-direction:row;align-items:center;border:var(--border-width) solid transparent;border-radius:var(--radius-s);cursor:pointer;color:var(--nav-item-color);font-size:var(--nav-item-size);font-weight:var(--nav-item-weight);line-height:var(--line-height-tight);padding:var(--size-4-1) var(--size-4-2);white-space:normal}.scene-container.hidden.svelte-u6nqd.svelte-u6nqd{display:none}.scene-container.svelte-u6nqd .svelte-u6nqd:nth-child(2){margin-left:var(--size-4-2)}.selected.svelte-u6nqd.svelte-u6nqd,.svelte-u6nqd:not(.dragging) .scene-container.svelte-u6nqd:hover{background-color:var(--background-secondary-alt);color:var(--text-normal)}.scene-container.svelte-u6nqd.svelte-u6nqd:active{background-color:inherit;color:var(--text-muted)}.longform-scene-number.svelte-u6nqd.svelte-u6nqd{color:var(--text-muted);margin-right:var(--size-4-1);font-weight:bold}.longform-scene-number.svelte-u6nqd.svelte-u6nqd::after{content:\".\"}#longform-unknown-files-wizard.svelte-u6nqd.svelte-u6nqd{border-top:var(--border-width) solid var(--text-muted);padding:var(--size-4-2) 0}.longform-unknown-inner.svelte-u6nqd.svelte-u6nqd{border-left:var(--size-2-1) solid var(--text-accent);padding:0 0 0 var(--size-4-1)}.longform-unknown-explanation.svelte-u6nqd.svelte-u6nqd{color:var(--text-muted);font-size:1em}#longform-unknown-files-wizard.svelte-u6nqd ul.svelte-u6nqd{list-style-type:none;padding:0 0 0 var(--size-4-2)}.longform-unknown-file.svelte-u6nqd.svelte-u6nqd{display:flex;flex-direction:row;justify-content:space-between}.longform-unknown-add.svelte-u6nqd.svelte-u6nqd{color:var(--text-accent);font-weight:bold}.longform-unknown-ignore.svelte-u6nqd.svelte-u6nqd{color:var(--text-muted);font-weight:bold}.scene-drag-ghost{background-color:var(--interactive-accent-hover);color:var(--text-on-accent);margin-left:var(--ghost-indent)}");
 }
 
 function get_each_context$1(ctx, list, i) {
@@ -29983,7 +30093,7 @@ function get_each_context$1(ctx, list, i) {
 }
 
 // (294:8) {#if item.collapsible}
-function create_if_block_2$2(ctx) {
+function create_if_block_2$3(ctx) {
 	let disclosure;
 	let current;
 
@@ -30029,7 +30139,7 @@ function create_if_block_2$2(ctx) {
 }
 
 // (309:10) {#if $pluginSettings.numberScenes}
-function create_if_block_1$4(ctx) {
+function create_if_block_1$5(ctx) {
 	let span;
 	let t_value = /*numberLabel*/ ctx[18](/*item*/ ctx[43]) + "";
 	let t;
@@ -30038,7 +30148,7 @@ function create_if_block_1$4(ctx) {
 		c() {
 			span = element("span");
 			t = text(t_value);
-			attr(span, "class", "longform-scene-number svelte-1d9o1n3");
+			attr(span, "class", "longform-scene-number svelte-u6nqd");
 		},
 		m(target, anchor) {
 			insert(target, span, anchor);
@@ -30075,8 +30185,8 @@ function create_default_slot(ctx) {
 	let current;
 	let mounted;
 	let dispose;
-	let if_block0 = /*item*/ ctx[43].collapsible && create_if_block_2$2(ctx);
-	let if_block1 = /*$pluginSettings*/ ctx[7].numberScenes && create_if_block_1$4(ctx);
+	let if_block0 = /*item*/ ctx[43].collapsible && create_if_block_2$3(ctx);
+	let if_block1 = /*$pluginSettings*/ ctx[7].numberScenes && create_if_block_1$5(ctx);
 
 	function click_handler_1(...args) {
 		return /*click_handler_1*/ ctx[21](/*item*/ ctx[43], ...args);
@@ -30097,12 +30207,12 @@ function create_default_slot(ctx) {
 			attr(div0, "data-item-name", div0_data_item_name_value = /*item*/ ctx[43].name);
 			set_style(div0, "display", "inline");
 			attr(div0, "contenteditable", div0_contenteditable_value = /*item*/ ctx[43].path === /*editingPath*/ ctx[5]);
-			attr(div0, "class", "svelte-1d9o1n3");
+			attr(div0, "class", "svelte-u6nqd");
 			set_style(div1, "width", "100%");
 			attr(div1, "data-scene-path", div1_data_scene_path_value = /*item*/ ctx[43].path);
-			attr(div1, "class", "svelte-1d9o1n3");
-			attr(div2, "class", div2_class_value = "scene-container" + (/*item*/ ctx[43].hidden ? ' hidden' : '') + " svelte-1d9o1n3");
-			set_style(div2, "margin-left", /*item*/ ctx[43].indent * 32 + "px");
+			attr(div1, "class", "svelte-u6nqd");
+			attr(div2, "class", div2_class_value = "scene-container" + (/*item*/ ctx[43].hidden ? ' hidden' : '') + (/*item*/ ctx[43].collapsible ? ' collapsible' : '') + " svelte-u6nqd");
+			set_style(div2, "padding-left", "calc((" + /*item*/ ctx[43].indent + " * var(--longform-explorer-indent-size)) + 6px " + (/*item*/ ctx[43].collapsible ? '' : '+ var(--size-4-4)') + ")");
 			attr(div2, "data-scene-path", div2_data_scene_path_value = /*item*/ ctx[43].path);
 			attr(div2, "data-scene-indent", div2_data_scene_indent_value = /*item*/ ctx[43].indent);
 			attr(div2, "data-scene-name", div2_data_scene_name_value = /*item*/ ctx[43].name);
@@ -30154,7 +30264,7 @@ function create_default_slot(ctx) {
 						transition_in(if_block0, 1);
 					}
 				} else {
-					if_block0 = create_if_block_2$2(ctx);
+					if_block0 = create_if_block_2$3(ctx);
 					if_block0.c();
 					transition_in(if_block0, 1);
 					if_block0.m(div2, t0);
@@ -30173,7 +30283,7 @@ function create_default_slot(ctx) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
-					if_block1 = create_if_block_1$4(ctx);
+					if_block1 = create_if_block_1$5(ctx);
 					if_block1.c();
 					if_block1.m(div1, t1);
 				}
@@ -30204,12 +30314,12 @@ function create_default_slot(ctx) {
 				attr(div1, "data-scene-path", div1_data_scene_path_value);
 			}
 
-			if (!current || dirty[1] & /*item*/ 4096 && div2_class_value !== (div2_class_value = "scene-container" + (/*item*/ ctx[43].hidden ? ' hidden' : '') + " svelte-1d9o1n3")) {
+			if (!current || dirty[1] & /*item*/ 4096 && div2_class_value !== (div2_class_value = "scene-container" + (/*item*/ ctx[43].hidden ? ' hidden' : '') + (/*item*/ ctx[43].collapsible ? ' collapsible' : '') + " svelte-u6nqd")) {
 				attr(div2, "class", div2_class_value);
 			}
 
 			if (!current || dirty[1] & /*item*/ 4096) {
-				set_style(div2, "margin-left", /*item*/ ctx[43].indent * 32 + "px");
+				set_style(div2, "padding-left", "calc((" + /*item*/ ctx[43].indent + " * var(--longform-explorer-indent-size)) + 6px " + (/*item*/ ctx[43].collapsible ? '' : '+ var(--size-4-4)') + ")");
 			}
 
 			if (!current || dirty[1] & /*item*/ 4096 && div2_data_scene_path_value !== (div2_data_scene_path_value = /*item*/ ctx[43].path)) {
@@ -30252,7 +30362,7 @@ function create_default_slot(ctx) {
 }
 
 // (327:2) {#if $selectedDraft && $selectedDraft.format === "scenes" && $selectedDraft.unknownFiles.length > 0}
-function create_if_block$6(ctx) {
+function create_if_block$7(ctx) {
 	let div2;
 	let div1;
 	let p;
@@ -30307,13 +30417,13 @@ function create_if_block$6(ctx) {
 				each_blocks[i].c();
 			}
 
-			attr(p, "class", "longform-unknown-explanation svelte-1d9o1n3");
-			attr(button0, "class", "longform-unknown-add svelte-1d9o1n3");
-			attr(button1, "class", "longform-unknown-ignore svelte-1d9o1n3");
-			attr(ul, "class", "svelte-1d9o1n3");
-			attr(div1, "class", "longform-unknown-inner svelte-1d9o1n3");
+			attr(p, "class", "longform-unknown-explanation svelte-u6nqd");
+			attr(button0, "class", "longform-unknown-add svelte-u6nqd");
+			attr(button1, "class", "longform-unknown-ignore svelte-u6nqd");
+			attr(ul, "class", "svelte-u6nqd");
+			attr(div1, "class", "longform-unknown-inner svelte-u6nqd");
 			attr(div2, "id", "longform-unknown-files-wizard");
-			attr(div2, "class", "svelte-1d9o1n3");
+			attr(div2, "class", "svelte-u6nqd");
 		},
 		m(target, anchor) {
 			insert(target, div2, anchor);
@@ -30422,9 +30532,9 @@ function create_each_block$1(ctx) {
 			button1 = element("button");
 			button1.textContent = "Ignore";
 			t5 = space();
-			attr(button0, "class", "longform-unknown-add svelte-1d9o1n3");
-			attr(button1, "class", "longform-unknown-ignore svelte-1d9o1n3");
-			attr(div1, "class", "longform-unknown-file svelte-1d9o1n3");
+			attr(button0, "class", "longform-unknown-add svelte-u6nqd");
+			attr(button1, "class", "longform-unknown-ignore svelte-u6nqd");
+			attr(div1, "class", "longform-unknown-file svelte-u6nqd");
 		},
 		m(target, anchor) {
 			insert(target, li, anchor);
@@ -30493,7 +30603,7 @@ function create_fragment$7(ctx) {
 	binding_callbacks.push(() => bind(sortablelist, 'items', sortablelist_items_binding));
 	sortablelist.$on("orderChanged", /*itemOrderChanged*/ ctx[9]);
 	sortablelist.$on("indentChanged", /*itemIndentChanged*/ ctx[10]);
-	let if_block = /*$selectedDraft*/ ctx[1] && /*$selectedDraft*/ ctx[1].format === "scenes" && /*$selectedDraft*/ ctx[1].unknownFiles.length > 0 && create_if_block$6(ctx);
+	let if_block = /*$selectedDraft*/ ctx[1] && /*$selectedDraft*/ ctx[1].format === "scenes" && /*$selectedDraft*/ ctx[1].unknownFiles.length > 0 && create_if_block$7(ctx);
 
 	return {
 		c() {
@@ -30504,9 +30614,9 @@ function create_fragment$7(ctx) {
 			if (if_block) if_block.c();
 			attr(div0, "id", "scene-list");
 			set_style(div0, "--ghost-indent", /*ghostIndent*/ ctx[3] + "px");
-			attr(div0, "class", "svelte-1d9o1n3");
+			attr(div0, "class", "svelte-u6nqd");
 			toggle_class(div0, "dragging", /*isSorting*/ ctx[4]);
-			attr(div1, "class", "svelte-1d9o1n3");
+			attr(div1, "class", "svelte-u6nqd");
 		},
 		m(target, anchor) {
 			insert(target, div1, anchor);
@@ -30543,7 +30653,7 @@ function create_fragment$7(ctx) {
 				if (if_block) {
 					if_block.p(ctx, dirty);
 				} else {
-					if_block = create_if_block$6(ctx);
+					if_block = create_if_block$7(ctx);
 					if_block.c();
 					if_block.m(div1, null);
 				}
@@ -30947,7 +31057,7 @@ function add_css$6(target) {
 }
 
 // (9:0) {#if iconName.length > 0}
-function create_if_block$5(ctx) {
+function create_if_block$6(ctx) {
 	let span;
 	let icon_action;
 	let mounted;
@@ -30979,7 +31089,7 @@ function create_if_block$5(ctx) {
 
 function create_fragment$6(ctx) {
 	let if_block_anchor;
-	let if_block = /*iconName*/ ctx[0].length > 0 && create_if_block$5(ctx);
+	let if_block = /*iconName*/ ctx[0].length > 0 && create_if_block$6(ctx);
 
 	return {
 		c() {
@@ -30995,7 +31105,7 @@ function create_fragment$6(ctx) {
 				if (if_block) {
 					if_block.p(ctx, dirty);
 				} else {
-					if_block = create_if_block$5(ctx);
+					if_block = create_if_block$6(ctx);
 					if_block.c();
 					if_block.m(if_block_anchor.parentNode, if_block_anchor);
 				}
@@ -33214,7 +33324,7 @@ function get_each_context(ctx, list, i) {
 }
 
 // (52:2) {#if $selectedProject}
-function create_if_block$4(ctx) {
+function create_if_block$5(ctx) {
 	let ol;
 	let each_value = /*$selectedProject*/ ctx[1];
 	let each_blocks = [];
@@ -33353,7 +33463,7 @@ function create_each_block(ctx) {
 
 function create_fragment$5(ctx) {
 	let div;
-	let if_block = /*$selectedProject*/ ctx[1] && create_if_block$4(ctx);
+	let if_block = /*$selectedProject*/ ctx[1] && create_if_block$5(ctx);
 
 	return {
 		c() {
@@ -33371,7 +33481,7 @@ function create_fragment$5(ctx) {
 				if (if_block) {
 					if_block.p(ctx, dirty);
 				} else {
-					if_block = create_if_block$4(ctx);
+					if_block = create_if_block$5(ctx);
 					if_block.c();
 					if_block.m(div, null);
 				}
@@ -33477,16 +33587,16 @@ class DraftList extends SvelteComponent {
 /* src/view/explorer/ProjectDetails.svelte generated by Svelte v3.49.0 */
 
 function add_css$4(target) {
-	append_styles(target, "svelte-l8mjpj", ".longform-project-section.svelte-l8mjpj.svelte-l8mjpj{margin-top:var(--size-4-4);padding-bottom:var(--size-4-4);border-bottom:var(--border-width) solid var(--background-modifier-border)}.longform-project-details-section-header.svelte-l8mjpj.svelte-l8mjpj{display:flex;flex-direction:row;justify-content:start;align-items:center;cursor:pointer}h4.svelte-l8mjpj.svelte-l8mjpj{font-weight:bold;margin:0;padding:0;font-size:1em;margin-right:var(--size-4-1)}input.svelte-l8mjpj.svelte-l8mjpj{width:100%;color:var(--text-accent)}label.svelte-l8mjpj.svelte-l8mjpj{font-weight:bold;font-size:var(--font-smaller);color:var(--text-muted);margin-top:var(--size-4-2)}p.longform-project-warning.svelte-l8mjpj.svelte-l8mjpj{color:var(--text-muted);font-size:var(--font-smallest);margin:var(--size-2-1) 0 0 0;line-height:normal}.word-counts.svelte-l8mjpj p.svelte-l8mjpj{margin:var(--size-4-2) 0}.progress.svelte-l8mjpj.svelte-l8mjpj{height:var(--size-4-6);width:100%;background-color:var(--background-secondary-alt);border-radius:var(--radius-s);position:relative;overflow:hidden}.progress.svelte-l8mjpj.svelte-l8mjpj:before{content:attr(data-label);font-size:var(--font-smallest);color:var(--progress-text-color);font-weight:bold;position:absolute;text-align:center;top:0;left:0;right:0;display:flex;justify-content:center;align-items:center;align-self:center;height:100%}.progress.svelte-l8mjpj .value.svelte-l8mjpj{height:100%;background-color:var(--text-accent)}.drafts-title-container.svelte-l8mjpj.svelte-l8mjpj{display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin-bottom:var(--size-4-2)}.drafts-title-container.svelte-l8mjpj h4.svelte-l8mjpj{margin-right:var(--size-4-2)}.drafts-title-container.svelte-l8mjpj button.svelte-l8mjpj{margin:0;padding:var(--size-4-2);color:var(--interactive-accent);background-color:inherit}");
+	append_styles(target, "svelte-db2avi", ".longform-project-section.svelte-db2avi.svelte-db2avi{margin-top:var(--size-4-4);padding-bottom:var(--size-4-2);padding-left:var(--size-4-8)}.longform-project-section.svelte-db2avi+.longform-project-section.svelte-db2avi{border-top:var(--border-width) solid var(--background-modifier-border);padding-top:var(--size-4-4)}.longform-project-details-section-header.svelte-db2avi.svelte-db2avi{display:flex;flex-direction:row;justify-content:start;align-items:center;cursor:pointer;margin-left:calc(var(--size-4-6) * -1)}h4.svelte-db2avi.svelte-db2avi{font-size:var(--font-ui-medium);color:var(--text-normal);user-select:none;font-weight:inherit;margin:0 0 0 var(--size-4-4)}input.svelte-db2avi.svelte-db2avi{width:100%}label.svelte-db2avi.svelte-db2avi{display:block;font-size:var(--font-ui-smaller);color:var(--text-muted);margin-top:var(--size-4-4);line-height:var(--line-height-tight)}p.longform-project-warning.svelte-db2avi.svelte-db2avi{color:var(--text-faint);font-size:var(--font-smallest);margin:var(--size-2-1) 0 0 var(--size-2-1);line-height:normal}.word-counts.svelte-db2avi p.svelte-db2avi{margin:var(--size-4-2) 0;font-size:var(--font-smallest);color:var(--text-muted)}.word-counts.svelte-db2avi p strong.svelte-db2avi{color:var(--text-normal)}.progress.svelte-db2avi.svelte-db2avi{height:var(--size-4-6);width:100%;background-color:var(--background-secondary-alt);border-radius:var(--radius-s);position:relative;overflow:hidden;margin-top:var(--size-4-4)}.progress.svelte-db2avi.svelte-db2avi:before{content:attr(data-label);font-size:var(--font-smallest);color:var(--progress-text-color);font-weight:bold;position:absolute;text-align:center;top:0;left:0;right:0;display:flex;justify-content:center;align-items:center;align-self:center;height:100%}.progress.svelte-db2avi .value.svelte-db2avi{height:100%;background-color:var(--text-accent)}.drafts-title-container.svelte-db2avi.svelte-db2avi{display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin-bottom:var(--size-4-2)}.drafts-title-container.svelte-db2avi h4.svelte-db2avi{margin-right:var(--size-4-2)}.drafts-title-container.svelte-db2avi button.svelte-db2avi{margin:0;padding:var(--size-4-2);color:var(--interactive-accent);background-color:inherit}");
 }
 
 // (145:2) {#if $selectedDraft}
-function create_if_block_5(ctx) {
+function create_if_block_5$1(ctx) {
 	let div1;
 	let div0;
-	let h4;
-	let t1;
 	let disclosure;
+	let t0;
+	let h4;
 	let t2;
 	let current;
 	let mounted;
@@ -33502,22 +33612,22 @@ function create_if_block_5(ctx) {
 		c() {
 			div1 = element("div");
 			div0 = element("div");
+			create_component(disclosure.$$.fragment);
+			t0 = space();
 			h4 = element("h4");
 			h4.textContent = "Project Metadata";
-			t1 = space();
-			create_component(disclosure.$$.fragment);
 			t2 = space();
 			if (if_block) if_block.c();
-			attr(h4, "class", "svelte-l8mjpj");
-			attr(div0, "class", "longform-project-details-section-header svelte-l8mjpj");
-			attr(div1, "class", "longform-project-section svelte-l8mjpj");
+			attr(h4, "class", "svelte-db2avi");
+			attr(div0, "class", "longform-project-details-section-header svelte-db2avi");
+			attr(div1, "class", "longform-project-section svelte-db2avi");
 		},
 		m(target, anchor) {
 			insert(target, div1, anchor);
 			append(div1, div0);
-			append(div0, h4);
-			append(div0, t1);
 			mount_component(disclosure, div0, null);
+			append(div0, t0);
+			append(div0, h4);
 			append(div1, t2);
 			if (if_block) if_block.m(div1, null);
 			current = true;
@@ -33586,11 +33696,11 @@ function create_if_block_6(ctx) {
 			t2 = space();
 			if (if_block) if_block.c();
 			attr(label, "for", "longform-project-title");
-			attr(label, "class", "svelte-l8mjpj");
+			attr(label, "class", "svelte-db2avi");
 			attr(input, "id", "longform-project-title");
 			attr(input, "type", "text");
 			input.value = input_value_value = /*$selectedDraft*/ ctx[0].title;
-			attr(input, "class", "svelte-l8mjpj");
+			attr(input, "class", "svelte-db2avi");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -33634,7 +33744,6 @@ function create_if_block_6(ctx) {
 
 // (165:10) {#if $selectedDraft.format === "scenes"}
 function create_if_block_7(ctx) {
-	let div0;
 	let label0;
 	let t1;
 	let input0;
@@ -33642,7 +33751,6 @@ function create_if_block_7(ctx) {
 	let t2;
 	let p0;
 	let t4;
-	let div1;
 	let label1;
 	let t6;
 	let input1;
@@ -33654,56 +33762,50 @@ function create_if_block_7(ctx) {
 
 	return {
 		c() {
-			div0 = element("div");
 			label0 = element("label");
 			label0.textContent = "Scene Folder";
 			t1 = space();
 			input0 = element("input");
 			t2 = space();
 			p0 = element("p");
-			p0.textContent = "Changing scene folder does not move scenes. If you’re moving\n                scenes to a new folder, move them in your vault first, then\n                change this setting.";
+			p0.textContent = "Changing scene folder does not move scenes. If you’re moving\n              scenes to a new folder, move them in your vault first, then\n              change this setting.";
 			t4 = space();
-			div1 = element("div");
 			label1 = element("label");
 			label1.textContent = "Scene Template";
 			t6 = space();
 			input1 = element("input");
 			t7 = space();
 			p1 = element("p");
-			p1.textContent = "This file will be used as a template when creating new scenes\n                via the New Scene… field. If you use a templating plugin\n                (Templater or the core plugin) it will be used to process this\n                template.";
+			p1.textContent = "This file will be used as a template when creating new scenes\n              via the New Scene… field. If you use a templating plugin\n              (Templater or the core plugin) it will be used to process this\n              template.";
 			attr(label0, "for", "longform-project-scene-folder");
-			attr(label0, "class", "svelte-l8mjpj");
+			attr(label0, "class", "svelte-db2avi");
 			attr(input0, "id", "longform-project-scene-folder");
 			attr(input0, "type", "text");
 			input0.value = input0_value_value = /*$selectedDraft*/ ctx[0].sceneFolder;
-			attr(input0, "class", "svelte-l8mjpj");
-			attr(p0, "class", "longform-project-warning svelte-l8mjpj");
-			set_style(div0, "margin-top", "var(--size-4-2)");
+			attr(input0, "class", "svelte-db2avi");
+			attr(p0, "class", "longform-project-warning svelte-db2avi");
 			attr(label1, "for", "longform-project-scene-template");
-			attr(label1, "class", "svelte-l8mjpj");
+			attr(label1, "class", "svelte-db2avi");
 			attr(input1, "id", "longform-project-scene-template");
 			attr(input1, "type", "text");
 			input1.value = input1_value_value = /*$selectedDraft*/ ctx[0].sceneTemplate;
-			attr(input1, "class", "svelte-l8mjpj");
-			attr(p1, "class", "longform-project-warning svelte-l8mjpj");
-			set_style(div1, "margin-top", "var(--size-4-2)");
+			attr(input1, "class", "svelte-db2avi");
+			attr(p1, "class", "longform-project-warning svelte-db2avi");
 		},
 		m(target, anchor) {
-			insert(target, div0, anchor);
-			append(div0, label0);
-			append(div0, t1);
-			append(div0, input0);
+			insert(target, label0, anchor);
+			insert(target, t1, anchor);
+			insert(target, input0, anchor);
 			/*input0_binding*/ ctx[23](input0);
-			append(div0, t2);
-			append(div0, p0);
+			insert(target, t2, anchor);
+			insert(target, p0, anchor);
 			insert(target, t4, anchor);
-			insert(target, div1, anchor);
-			append(div1, label1);
-			append(div1, t6);
-			append(div1, input1);
+			insert(target, label1, anchor);
+			insert(target, t6, anchor);
+			insert(target, input1, anchor);
 			/*input1_binding*/ ctx[24](input1);
-			append(div1, t7);
-			append(div1, p1);
+			insert(target, t7, anchor);
+			insert(target, p1, anchor);
 
 			if (!mounted) {
 				dispose = [
@@ -33724,19 +33826,27 @@ function create_if_block_7(ctx) {
 			}
 		},
 		d(detaching) {
-			if (detaching) detach(div0);
+			if (detaching) detach(label0);
+			if (detaching) detach(t1);
+			if (detaching) detach(input0);
 			/*input0_binding*/ ctx[23](null);
+			if (detaching) detach(t2);
+			if (detaching) detach(p0);
 			if (detaching) detach(t4);
-			if (detaching) detach(div1);
+			if (detaching) detach(label1);
+			if (detaching) detach(t6);
+			if (detaching) detach(input1);
 			/*input1_binding*/ ctx[24](null);
+			if (detaching) detach(t7);
+			if (detaching) detach(p1);
 			mounted = false;
 			run_all(dispose);
 		}
 	};
 }
 
-// (218:4) {#if showWordCount}
-function create_if_block_1$3(ctx) {
+// (214:4) {#if showWordCount}
+function create_if_block_1$4(ctx) {
 	let div;
 	let t0;
 	let t1;
@@ -33748,7 +33858,7 @@ function create_if_block_1$3(ctx) {
 	let t5;
 	let if_block0 = /*showProgress*/ ctx[9] && create_if_block_4$1(ctx);
 	let if_block1 = /*sceneCount*/ ctx[8] && create_if_block_3$1(ctx);
-	let if_block2 = /*draftCount*/ ctx[7] && create_if_block_2$1(ctx);
+	let if_block2 = /*draftCount*/ ctx[7] && create_if_block_2$2(ctx);
 
 	return {
 		c() {
@@ -33764,8 +33874,9 @@ function create_if_block_1$3(ctx) {
 			strong.textContent = "Project:";
 			t4 = space();
 			t5 = text(t5_value);
+			attr(strong, "class", "svelte-db2avi");
 			attr(p, "title", "Word count across all drafts of this project.");
-			attr(p, "class", "svelte-l8mjpj");
+			attr(p, "class", "svelte-db2avi");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -33811,7 +33922,7 @@ function create_if_block_1$3(ctx) {
 				if (if_block2) {
 					if_block2.p(ctx, dirty);
 				} else {
-					if_block2 = create_if_block_2$1(ctx);
+					if_block2 = create_if_block_2$2(ctx);
 					if_block2.c();
 					if_block2.m(div, t2);
 				}
@@ -33831,7 +33942,7 @@ function create_if_block_1$3(ctx) {
 	};
 }
 
-// (220:8) {#if showProgress}
+// (216:8) {#if showProgress}
 function create_if_block_4$1(ctx) {
 	let div1;
 	let div0;
@@ -33841,9 +33952,9 @@ function create_if_block_4$1(ctx) {
 		c() {
 			div1 = element("div");
 			div0 = element("div");
-			attr(div0, "class", "value svelte-l8mjpj");
+			attr(div0, "class", "value svelte-db2avi");
 			attr(div0, "style", div0_style_value = `width:${/*goalPercentage*/ ctx[10]}%;`);
-			attr(div1, "class", "progress svelte-l8mjpj");
+			attr(div1, "class", "progress svelte-db2avi");
 			attr(div1, "data-label", /*goalDescription*/ ctx[11]);
 			attr(div1, "title", /*goalDescription*/ ctx[11]);
 		},
@@ -33870,7 +33981,7 @@ function create_if_block_4$1(ctx) {
 	};
 }
 
-// (229:8) {#if sceneCount}
+// (225:8) {#if sceneCount}
 function create_if_block_3$1(ctx) {
 	let p;
 	let strong;
@@ -33885,8 +33996,9 @@ function create_if_block_3$1(ctx) {
 			strong.textContent = "Scene:";
 			t1 = space();
 			t2 = text(t2_value);
+			attr(strong, "class", "svelte-db2avi");
 			attr(p, "title", "Word count in this scene of this project.");
-			attr(p, "class", "svelte-l8mjpj");
+			attr(p, "class", "svelte-db2avi");
 		},
 		m(target, anchor) {
 			insert(target, p, anchor);
@@ -33903,8 +34015,8 @@ function create_if_block_3$1(ctx) {
 	};
 }
 
-// (235:8) {#if draftCount}
-function create_if_block_2$1(ctx) {
+// (231:8) {#if draftCount}
+function create_if_block_2$2(ctx) {
 	let p;
 	let strong;
 	let t1;
@@ -33918,8 +34030,9 @@ function create_if_block_2$1(ctx) {
 			strong.textContent = "Draft:";
 			t1 = space();
 			t2 = text(t2_value);
+			attr(strong, "class", "svelte-db2avi");
 			attr(p, "title", "Word count in just this draft of this project.");
-			attr(p, "class", "svelte-l8mjpj");
+			attr(p, "class", "svelte-db2avi");
 		},
 		m(target, anchor) {
 			insert(target, p, anchor);
@@ -33936,8 +34049,8 @@ function create_if_block_2$1(ctx) {
 	};
 }
 
-// (263:4) {#if showDrafts}
-function create_if_block$3(ctx) {
+// (259:4) {#if showDrafts}
+function create_if_block$4(ctx) {
 	let draftlist;
 	let current;
 	draftlist = new DraftList({});
@@ -33970,18 +34083,18 @@ function create_fragment$4(ctx) {
 	let t0;
 	let div1;
 	let div0;
-	let h40;
-	let t2;
 	let disclosure0;
+	let t1;
+	let h40;
 	let t3;
 	let div1_style_value;
 	let t4;
 	let div4;
 	let div3;
 	let div2;
-	let h41;
-	let t6;
 	let disclosure1;
+	let t5;
+	let h41;
 	let t7;
 	let button;
 	let icon;
@@ -33989,20 +34102,20 @@ function create_fragment$4(ctx) {
 	let current;
 	let mounted;
 	let dispose;
-	let if_block0 = /*$selectedDraft*/ ctx[0] && create_if_block_5(ctx);
+	let if_block0 = /*$selectedDraft*/ ctx[0] && create_if_block_5$1(ctx);
 
 	disclosure0 = new Disclosure({
 			props: { collapsed: !/*showWordCount*/ ctx[2] }
 		});
 
-	let if_block1 = /*showWordCount*/ ctx[2] && create_if_block_1$3(ctx);
+	let if_block1 = /*showWordCount*/ ctx[2] && create_if_block_1$4(ctx);
 
 	disclosure1 = new Disclosure({
 			props: { collapsed: !/*showDrafts*/ ctx[3] }
 		});
 
 	icon = new Icon({ props: { iconName: "plus-with-circle" } });
-	let if_block2 = /*showDrafts*/ ctx[3] && create_if_block$3();
+	let if_block2 = /*showDrafts*/ ctx[3] && create_if_block$4();
 
 	return {
 		c() {
@@ -34011,39 +34124,39 @@ function create_fragment$4(ctx) {
 			t0 = space();
 			div1 = element("div");
 			div0 = element("div");
+			create_component(disclosure0.$$.fragment);
+			t1 = space();
 			h40 = element("h4");
 			h40.textContent = "Word Count";
-			t2 = space();
-			create_component(disclosure0.$$.fragment);
 			t3 = space();
 			if (if_block1) if_block1.c();
 			t4 = space();
 			div4 = element("div");
 			div3 = element("div");
 			div2 = element("div");
+			create_component(disclosure1.$$.fragment);
+			t5 = space();
 			h41 = element("h4");
 			h41.textContent = "Drafts";
-			t6 = space();
-			create_component(disclosure1.$$.fragment);
 			t7 = space();
 			button = element("button");
 			create_component(icon.$$.fragment);
 			t8 = space();
 			if (if_block2) if_block2.c();
-			attr(h40, "class", "svelte-l8mjpj");
-			attr(div0, "class", "longform-project-details-section-header svelte-l8mjpj");
-			attr(div1, "class", "longform-project-section word-counts svelte-l8mjpj");
+			attr(h40, "class", "svelte-db2avi");
+			attr(div0, "class", "longform-project-details-section-header svelte-db2avi");
+			attr(div1, "class", "longform-project-section word-counts svelte-db2avi");
 
 			attr(div1, "style", div1_style_value = `--progress-text-color:${/*goalPercentage*/ ctx[10] >= 43
 			? "var(--text-on-accent)"
 			: "var(--text-accent)"}`);
 
-			attr(h41, "class", "svelte-l8mjpj");
-			attr(div2, "class", "longform-project-details-section-header svelte-l8mjpj");
+			attr(h41, "class", "svelte-db2avi");
+			attr(div2, "class", "longform-project-details-section-header svelte-db2avi");
 			attr(button, "type", "button");
-			attr(button, "class", "svelte-l8mjpj");
-			attr(div3, "class", "drafts-title-container svelte-l8mjpj");
-			attr(div4, "class", "longform-project-section svelte-l8mjpj");
+			attr(button, "class", "svelte-db2avi");
+			attr(div3, "class", "drafts-title-container svelte-db2avi");
+			attr(div4, "class", "longform-project-section svelte-db2avi");
 		},
 		m(target, anchor) {
 			insert(target, div5, anchor);
@@ -34051,18 +34164,18 @@ function create_fragment$4(ctx) {
 			append(div5, t0);
 			append(div5, div1);
 			append(div1, div0);
-			append(div0, h40);
-			append(div0, t2);
 			mount_component(disclosure0, div0, null);
+			append(div0, t1);
+			append(div0, h40);
 			append(div1, t3);
 			if (if_block1) if_block1.m(div1, null);
 			append(div5, t4);
 			append(div5, div4);
 			append(div4, div3);
 			append(div3, div2);
-			append(div2, h41);
-			append(div2, t6);
 			mount_component(disclosure1, div2, null);
+			append(div2, t5);
+			append(div2, h41);
 			append(div3, t7);
 			append(div3, button);
 			mount_component(icon, button, null);
@@ -34089,7 +34202,7 @@ function create_fragment$4(ctx) {
 						transition_in(if_block0, 1);
 					}
 				} else {
-					if_block0 = create_if_block_5(ctx);
+					if_block0 = create_if_block_5$1(ctx);
 					if_block0.c();
 					transition_in(if_block0, 1);
 					if_block0.m(div5, t0);
@@ -34112,7 +34225,7 @@ function create_fragment$4(ctx) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
-					if_block1 = create_if_block_1$3(ctx);
+					if_block1 = create_if_block_1$4(ctx);
 					if_block1.c();
 					if_block1.m(div1, null);
 				}
@@ -34137,7 +34250,7 @@ function create_fragment$4(ctx) {
 						transition_in(if_block2, 1);
 					}
 				} else {
-					if_block2 = create_if_block$3();
+					if_block2 = create_if_block$4();
 					if_block2.c();
 					transition_in(if_block2, 1);
 					if_block2.m(div4, null);
@@ -34447,6 +34560,9 @@ const DEFAULT_SETTINGS = {
     numberScenes: false,
     sceneTemplate: null,
     projects: {},
+    waitForSync: false,
+    fallbackWaitEnabled: true,
+    fallbackWaitTime: 5,
 };
 const TRACKED_SETTINGS_PATHS = [
     "version",
@@ -34465,6 +34581,9 @@ const TRACKED_SETTINGS_PATHS = [
     "sessionFile",
     "numberScenes",
     "sceneTemplate",
+    "waitForSync",
+    "fallbackWaitEnabled",
+    "fallbackWaitTime",
 ];
 const PASSTHROUGH_SAVE_SETTINGS_PATHS = [
     "sessionStorage",
@@ -34479,6 +34598,9 @@ const PASSTHROUGH_SAVE_SETTINGS_PATHS = [
     "sessionFile",
     "numberScenes",
     "sceneTemplate",
+    "waitForSync",
+    "fallbackWaitEnabled",
+    "fallbackWaitTime",
 ];
 
 const INDEX_MIGRATION_NOTICE = "\n\nThis is a Longform 1.0 Index File, and the project it corresponded to has since been migrated. It has been marked as to-be-ignored in the new project and can be safely deleted.";
@@ -34600,25 +34722,164 @@ function migrate(settings, app) {
 /* src/view/explorer/Tab.svelte generated by Svelte v3.49.0 */
 
 function add_css$3(target) {
-	append_styles(target, "svelte-q9aj3o", ".tab-button.svelte-q9aj3o{background:none;border:none;border-bottom:none;border-radius:0;box-shadow:none;margin:0;color:var(--interactive-accent);font-size:1em}.tab-button.selected.svelte-q9aj3o{border-bottom:var(--size-2-1) solid var(--text-muted);color:var(--text-accent)}");
+	append_styles(target, "svelte-1ohhb9z", ".tab-button.svelte-1ohhb9z{background:none;border:none;border-bottom:none;border-radius:var(--tab-radius-active);padding:0 1em 0 0.4em;box-shadow:none;margin:0;color:var(--tab-text-color-focused);font-size:var(--tab-font-size);font-weight:var(--tab-font-weight);white-space:nowrap;border-right:1px solid var(--tab-outline-color)}.tab-button.svelte-1ohhb9z:hover{color:var(--tab-text-color-focused);background-color:var(--background-modifier-hover)}.tab-button.selected.svelte-1ohhb9z{background-color:var(--tab-background-active);color:var(--tab-text-color-focused-active)}");
+}
+
+// (10:2) {#if tab == "Scenes"}
+function create_if_block_2$1(ctx) {
+	let svg;
+	let path0;
+	let path1;
+	let rect;
+
+	return {
+		c() {
+			svg = svg_element("svg");
+			path0 = svg_element("path");
+			path1 = svg_element("path");
+			rect = svg_element("rect");
+			attr(path0, "d", "M2 7v10");
+			attr(path1, "d", "M6 5v14");
+			attr(rect, "width", "12");
+			attr(rect, "height", "18");
+			attr(rect, "x", "10");
+			attr(rect, "y", "3");
+			attr(rect, "rx", "2");
+			attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+			attr(svg, "width", "24");
+			attr(svg, "height", "24");
+			attr(svg, "viewBox", "0 0 24 24");
+			attr(svg, "fill", "none");
+			attr(svg, "stroke", "currentColor");
+			attr(svg, "stroke-width", "2");
+			attr(svg, "stroke-linecap", "round");
+			attr(svg, "stroke-linejoin", "round");
+			attr(svg, "class", "clickable-icon lucide lucide-gallery-horizontal-end");
+		},
+		m(target, anchor) {
+			insert(target, svg, anchor);
+			append(svg, path0);
+			append(svg, path1);
+			append(svg, rect);
+		},
+		d(detaching) {
+			if (detaching) detach(svg);
+		}
+	};
+}
+
+// (31:2) {#if tab == "Project"}
+function create_if_block_1$3(ctx) {
+	let svg;
+	let path0;
+	let path1;
+	let path2;
+
+	return {
+		c() {
+			svg = svg_element("svg");
+			path0 = svg_element("path");
+			path1 = svg_element("path");
+			path2 = svg_element("path");
+			attr(path0, "d", "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20");
+			attr(path1, "d", "M8 11h8");
+			attr(path2, "d", "M8 7h6");
+			attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+			attr(svg, "width", "24");
+			attr(svg, "height", "24");
+			attr(svg, "viewBox", "0 0 24 24");
+			attr(svg, "fill", "none");
+			attr(svg, "stroke", "currentColor");
+			attr(svg, "stroke-width", "2");
+			attr(svg, "stroke-linecap", "round");
+			attr(svg, "stroke-linejoin", "round");
+			attr(svg, "class", "clickable-icon lucide lucide-book-text");
+		},
+		m(target, anchor) {
+			insert(target, svg, anchor);
+			append(svg, path0);
+			append(svg, path1);
+			append(svg, path2);
+		},
+		d(detaching) {
+			if (detaching) detach(svg);
+		}
+	};
+}
+
+// (48:2) {#if tab == "Compile"}
+function create_if_block$3(ctx) {
+	let svg;
+	let rect;
+	let path;
+
+	return {
+		c() {
+			svg = svg_element("svg");
+			rect = svg_element("rect");
+			path = svg_element("path");
+			attr(rect, "width", "7");
+			attr(rect, "height", "7");
+			attr(rect, "x", "14");
+			attr(rect, "y", "3");
+			attr(rect, "rx", "1");
+			attr(path, "d", "M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3");
+			attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+			attr(svg, "width", "24");
+			attr(svg, "height", "24");
+			attr(svg, "viewBox", "0 0 24 24");
+			attr(svg, "fill", "none");
+			attr(svg, "stroke", "currentColor");
+			attr(svg, "stroke-width", "2");
+			attr(svg, "stroke-linecap", "round");
+			attr(svg, "stroke-linejoin", "round");
+			attr(svg, "class", "clickable-icon lucide lucide-blocks");
+		},
+		m(target, anchor) {
+			insert(target, svg, anchor);
+			append(svg, rect);
+			append(svg, path);
+		},
+		d(detaching) {
+			if (detaching) detach(svg);
+		}
+	};
 }
 
 function create_fragment$3(ctx) {
 	let button;
-	let t;
+	let t0;
+	let t1;
+	let t2;
+	let t3;
 	let mounted;
 	let dispose;
+	let if_block0 = /*tab*/ ctx[0] == "Scenes" && create_if_block_2$1();
+	let if_block1 = /*tab*/ ctx[0] == "Project" && create_if_block_1$3();
+	let if_block2 = /*tab*/ ctx[0] == "Compile" && create_if_block$3();
 
 	return {
 		c() {
 			button = element("button");
-			t = text(/*tab*/ ctx[0]);
-			attr(button, "class", "tab-button svelte-q9aj3o");
+			if (if_block0) if_block0.c();
+			t0 = space();
+			if (if_block1) if_block1.c();
+			t1 = space();
+			if (if_block2) if_block2.c();
+			t2 = space();
+			t3 = text(/*tab*/ ctx[0]);
+			attr(button, "class", "tab-button svelte-1ohhb9z");
 			toggle_class(button, "selected", /*$selectedTab*/ ctx[1] === /*tab*/ ctx[0]);
 		},
 		m(target, anchor) {
 			insert(target, button, anchor);
-			append(button, t);
+			if (if_block0) if_block0.m(button, null);
+			append(button, t0);
+			if (if_block1) if_block1.m(button, null);
+			append(button, t1);
+			if (if_block2) if_block2.m(button, null);
+			append(button, t2);
+			append(button, t3);
 
 			if (!mounted) {
 				dispose = listen(button, "click", /*click_handler*/ ctx[2]);
@@ -34626,7 +34887,40 @@ function create_fragment$3(ctx) {
 			}
 		},
 		p(ctx, [dirty]) {
-			if (dirty & /*tab*/ 1) set_data(t, /*tab*/ ctx[0]);
+			if (/*tab*/ ctx[0] == "Scenes") {
+				if (if_block0) ; else {
+					if_block0 = create_if_block_2$1();
+					if_block0.c();
+					if_block0.m(button, t0);
+				}
+			} else if (if_block0) {
+				if_block0.d(1);
+				if_block0 = null;
+			}
+
+			if (/*tab*/ ctx[0] == "Project") {
+				if (if_block1) ; else {
+					if_block1 = create_if_block_1$3();
+					if_block1.c();
+					if_block1.m(button, t1);
+				}
+			} else if (if_block1) {
+				if_block1.d(1);
+				if_block1 = null;
+			}
+
+			if (/*tab*/ ctx[0] == "Compile") {
+				if (if_block2) ; else {
+					if_block2 = create_if_block$3();
+					if_block2.c();
+					if_block2.m(button, t2);
+				}
+			} else if (if_block2) {
+				if_block2.d(1);
+				if_block2 = null;
+			}
+
+			if (dirty & /*tab*/ 1) set_data(t3, /*tab*/ ctx[0]);
 
 			if (dirty & /*$selectedTab, tab*/ 3) {
 				toggle_class(button, "selected", /*$selectedTab*/ ctx[1] === /*tab*/ ctx[0]);
@@ -34636,6 +34930,9 @@ function create_fragment$3(ctx) {
 		o: noop,
 		d(detaching) {
 			if (detaching) detach(button);
+			if (if_block0) if_block0.d();
+			if (if_block1) if_block1.d();
+			if (if_block2) if_block2.d();
 			mounted = false;
 			dispose();
 		}
@@ -34665,10 +34962,10 @@ class Tab extends SvelteComponent {
 /* src/view/explorer/ExplorerView.svelte generated by Svelte v3.49.0 */
 
 function add_css$2(target) {
-	append_styles(target, "svelte-xieqd7", ".longform-explorer.svelte-xieqd7{font-size:var(--longform-explorer-font-size)}.longform-migrate-button.svelte-xieqd7{background-color:var(--interactive-accent);color:var(--text-on-accent)}.longform-migrate-button.svelte-xieqd7:hover{background-color:var(--interactive-accent-hover)}.tab-list.svelte-xieqd7{margin:var(--size-4-1) 0;border-bottom:var(--border-width) solid var(--text-muted)}.tab-panel-container.svelte-xieqd7{padding:0}");
+	append_styles(target, "svelte-1v1mbat", ".longform-explorer.svelte-1v1mbat{font-size:var(--longform-explorer-font-size)}.longform-migrate-button.svelte-1v1mbat{background-color:var(--interactive-accent);color:var(--text-on-accent)}.longform-migrate-button.svelte-1v1mbat:hover{background-color:var(--interactive-accent-hover)}.tab-list.svelte-1v1mbat{margin:0;font-size:0}.tab-panel-container.svelte-1v1mbat{background:var(--background-primary);padding:var(--size-4-1) var(--size-4-2)}.tab-panel-container.disconnected.svelte-1v1mbat{background:none;padding:0}.longform-sync-wait.svelte-1v1mbat{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:2rem;gap:1rem}.longform-spinner.svelte-1v1mbat{border:3px solid var(--background-modifier-border);border-top:3px solid var(--text-accent);border-radius:50%;width:24px;height:24px;animation:svelte-1v1mbat-spin 1s linear infinite}.longform-sync-message.svelte-1v1mbat{color:var(--text-muted);font-size:0.8em;text-align:center}@keyframes svelte-1v1mbat-spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}");
 }
 
-// (41:0) {:else}
+// (49:0) {:else}
 function create_else_block$1(ctx) {
 	let div;
 	let projectpicker;
@@ -34677,7 +34974,7 @@ function create_else_block$1(ctx) {
 	let if_block;
 	let current;
 	projectpicker = new ProjectPicker({});
-	const if_block_creators = [create_if_block_1$2, create_else_block_2];
+	const if_block_creators = [create_if_block_2, create_else_block_2];
 	const if_blocks = [];
 
 	function select_block_type_1(ctx, dirty) {
@@ -34694,7 +34991,7 @@ function create_else_block$1(ctx) {
 			create_component(projectpicker.$$.fragment);
 			t = space();
 			if_block.c();
-			attr(div, "class", "longform-explorer svelte-xieqd7");
+			attr(div, "class", "longform-explorer svelte-1v1mbat");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -34749,7 +35046,32 @@ function create_else_block$1(ctx) {
 	};
 }
 
-// (24:0) {#if $needsMigration}
+// (42:26) 
+function create_if_block_1$2(ctx) {
+	let div2;
+
+	return {
+		c() {
+			div2 = element("div");
+
+			div2.innerHTML = `<div class="longform-spinner svelte-1v1mbat"></div> 
+    <div class="longform-sync-message svelte-1v1mbat">Waiting for Obsidian Sync to complete...</div>`;
+
+			attr(div2, "class", "longform-sync-wait svelte-1v1mbat");
+		},
+		m(target, anchor) {
+			insert(target, div2, anchor);
+		},
+		p: noop,
+		i: noop,
+		o: noop,
+		d(detaching) {
+			if (detaching) detach(div2);
+		}
+	};
+}
+
+// (25:0) {#if $needsMigration}
 function create_if_block$2(ctx) {
 	let div;
 	let p0;
@@ -34771,9 +35093,9 @@ function create_if_block$2(ctx) {
 			t5 = space();
 			button = element("button");
 			button.textContent = "Migrate";
-			attr(button, "class", "longform-migrate-button svelte-xieqd7");
+			attr(button, "class", "longform-migrate-button svelte-1v1mbat");
 			attr(button, "type", "button");
-			attr(div, "class", "longform-explorer svelte-xieqd7");
+			attr(div, "class", "longform-explorer svelte-1v1mbat");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -34784,7 +35106,7 @@ function create_if_block$2(ctx) {
 			append(div, button);
 
 			if (!mounted) {
-				dispose = listen(button, "click", /*doMigration*/ ctx[3]);
+				dispose = listen(button, "click", /*doMigration*/ ctx[4]);
 				mounted = true;
 			}
 		},
@@ -34799,7 +35121,7 @@ function create_if_block$2(ctx) {
 	};
 }
 
-// (68:4) {:else}
+// (76:4) {:else}
 function create_else_block_2(ctx) {
 	let div2;
 	let div1;
@@ -34813,7 +35135,7 @@ function create_else_block_2(ctx) {
 	let current;
 	tab0 = new Tab({ props: { tab: "Project" } });
 	tab1 = new Tab({ props: { tab: "Compile" } });
-	const if_block_creators = [create_if_block_4, create_else_block_3];
+	const if_block_creators = [create_if_block_5, create_else_block_3];
 	const if_blocks = [];
 
 	function select_block_type_3(ctx, dirty) {
@@ -34834,7 +35156,7 @@ function create_else_block_2(ctx) {
 			create_component(tab1.$$.fragment);
 			t1 = space();
 			if_block.c();
-			attr(div0, "class", "tab-list svelte-xieqd7");
+			attr(div0, "class", "tab-list svelte-1v1mbat");
 			attr(div1, "class", "tabs");
 		},
 		m(target, anchor) {
@@ -34893,8 +35215,8 @@ function create_else_block_2(ctx) {
 	};
 }
 
-// (44:4) {#if $selectedDraft && $selectedDraft.format === "scenes"}
-function create_if_block_1$2(ctx) {
+// (52:4) {#if $selectedDraft && $selectedDraft.format === "scenes"}
+function create_if_block_2(ctx) {
 	let div2;
 	let div1;
 	let div0;
@@ -34910,7 +35232,7 @@ function create_if_block_1$2(ctx) {
 	tab0 = new Tab({ props: { tab: "Scenes" } });
 	tab1 = new Tab({ props: { tab: "Project" } });
 	tab2 = new Tab({ props: { tab: "Compile" } });
-	const if_block_creators = [create_if_block_2, create_if_block_3, create_else_block_1];
+	const if_block_creators = [create_if_block_3, create_if_block_4, create_else_block_1];
 	const if_blocks = [];
 
 	function select_block_type_2(ctx, dirty) {
@@ -34934,7 +35256,7 @@ function create_if_block_1$2(ctx) {
 			create_component(tab2.$$.fragment);
 			t2 = space();
 			if_block.c();
-			attr(div0, "class", "tab-list svelte-xieqd7");
+			attr(div0, "class", "tab-list svelte-1v1mbat");
 			attr(div1, "class", "tabs");
 		},
 		m(target, anchor) {
@@ -34998,7 +35320,7 @@ function create_if_block_1$2(ctx) {
 	};
 }
 
-// (80:8) {:else}
+// (88:8) {:else}
 function create_else_block_3(ctx) {
 	let div;
 	let compileview;
@@ -35009,7 +35331,7 @@ function create_else_block_3(ctx) {
 		c() {
 			div = element("div");
 			create_component(compileview.$$.fragment);
-			attr(div, "class", "tab-panel-container svelte-xieqd7");
+			attr(div, "class", "tab-panel-container svelte-1v1mbat");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -35032,8 +35354,8 @@ function create_else_block_3(ctx) {
 	};
 }
 
-// (76:8) {#if $selectedTab === "Project"}
-function create_if_block_4(ctx) {
+// (84:8) {#if $selectedTab === "Project"}
+function create_if_block_5(ctx) {
 	let div;
 	let projectdetails;
 	let current;
@@ -35043,7 +35365,7 @@ function create_if_block_4(ctx) {
 		c() {
 			div = element("div");
 			create_component(projectdetails.$$.fragment);
-			attr(div, "class", "tab-panel-container svelte-xieqd7");
+			attr(div, "class", "tab-panel-container svelte-1v1mbat");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -35066,7 +35388,7 @@ function create_if_block_4(ctx) {
 	};
 }
 
-// (62:8) {:else}
+// (70:8) {:else}
 function create_else_block_1(ctx) {
 	let div;
 	let compileview;
@@ -35077,7 +35399,7 @@ function create_else_block_1(ctx) {
 		c() {
 			div = element("div");
 			create_component(compileview.$$.fragment);
-			attr(div, "class", "tab-panel-container svelte-xieqd7");
+			attr(div, "class", "tab-panel-container disconnected svelte-1v1mbat");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -35100,8 +35422,8 @@ function create_else_block_1(ctx) {
 	};
 }
 
-// (58:45) 
-function create_if_block_3(ctx) {
+// (66:45) 
+function create_if_block_4(ctx) {
 	let div;
 	let projectdetails;
 	let current;
@@ -35111,7 +35433,7 @@ function create_if_block_3(ctx) {
 		c() {
 			div = element("div");
 			create_component(projectdetails.$$.fragment);
-			attr(div, "class", "tab-panel-container svelte-xieqd7");
+			attr(div, "class", "tab-panel-container svelte-1v1mbat");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -35134,8 +35456,8 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (53:8) {#if $selectedTab === "Scenes"}
-function create_if_block_2(ctx) {
+// (61:8) {#if $selectedTab === "Scenes"}
+function create_if_block_3(ctx) {
 	let div;
 	let scenelist;
 	let t;
@@ -35150,7 +35472,7 @@ function create_if_block_2(ctx) {
 			create_component(scenelist.$$.fragment);
 			t = space();
 			create_component(newscenefield.$$.fragment);
-			attr(div, "class", "tab-panel-container svelte-xieqd7");
+			attr(div, "class", "tab-panel-container svelte-1v1mbat");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -35183,12 +35505,13 @@ function create_fragment$2(ctx) {
 	let if_block;
 	let if_block_anchor;
 	let current;
-	const if_block_creators = [create_if_block$2, create_else_block$1];
+	const if_block_creators = [create_if_block$2, create_if_block_1$2, create_else_block$1];
 	const if_blocks = [];
 
 	function select_block_type(ctx, dirty) {
 		if (/*$needsMigration*/ ctx[2]) return 0;
-		return 1;
+		if (/*$waitingForSync*/ ctx[3]) return 1;
+		return 2;
 	}
 
 	current_block_type_index = select_block_type(ctx);
@@ -35251,9 +35574,11 @@ function instance$2($$self, $$props, $$invalidate) {
 	let $selectedTab;
 	let $selectedDraft;
 	let $needsMigration;
+	let $waitingForSync;
 	component_subscribe($$self, selectedTab, $$value => $$invalidate(0, $selectedTab = $$value));
 	component_subscribe($$self, selectedDraft, $$value => $$invalidate(1, $selectedDraft = $$value));
 	component_subscribe($$self, needsMigration, $$value => $$invalidate(2, $needsMigration = $$value));
+	component_subscribe($$self, waitingForSync, $$value => $$invalidate(3, $waitingForSync = $$value));
 	const _migrate = getContext("migrate");
 
 	function doMigration() {
@@ -35270,7 +35595,7 @@ function instance$2($$self, $$props, $$invalidate) {
 		}
 	};
 
-	return [$selectedTab, $selectedDraft, $needsMigration, doMigration];
+	return [$selectedTab, $selectedDraft, $needsMigration, $waitingForSync, doMigration];
 }
 
 class ExplorerView extends SvelteComponent {
@@ -35698,8 +36023,8 @@ class ExplorerPane extends obsidian.ItemView {
                 this.app.workspace.openLinkText(path, "/", paneType);
             });
             // Context function for creating new scene notes given a path
-            context.set("onNewScene", (name) => __awaiter(this, void 0, void 0, function* () {
-                yield insertScene(this.app, drafts, get_store_value(selectedDraft), name, this.app.vault, { at: "end", relativeTo: null });
+            context.set("onNewScene", (name, open) => __awaiter(this, void 0, void 0, function* () {
+                yield insertScene(this.app, drafts, get_store_value(selectedDraft), name, this.app.vault, { at: "end", relativeTo: null }, open);
             }));
             // Context function for creating new draft folders given a path
             context.set("onNewDraft", (path, copying) => __awaiter(this, void 0, void 0, function* () {
@@ -35730,7 +36055,7 @@ class ExplorerPane extends obsidian.ItemView {
                     insertScene(this.app, drafts, draft, sceneName, this.app.vault, {
                         at,
                         relativeTo,
-                    });
+                    }, true);
                 }
             };
             // Context function for showing a right-click menu
@@ -36024,6 +36349,37 @@ class LongformSettingsTab extends obsidian.PluginSettingTab {
             sessionFileStorageSettings.settingEl.style.display =
                 settings.sessionStorage === "file" ? "flex" : "none";
         });
+        new obsidian.Setting(containerEl).setName("Troubleshooting").setHeading();
+        new obsidian.Setting(containerEl)
+            .setName("Wait for Obsidian Sync")
+            .setDesc("Prevent Longform from running until Obsidian Sync completes its first sync. If you are using Sync, you may want to enable this if you experience issues with scenes disappearing or falsely being shown as new.")
+            .addToggle((cb) => {
+            cb.setValue(settings.waitForSync);
+            cb.onChange((value) => {
+                pluginSettings.update((s) => (Object.assign(Object.assign({}, s), { waitForSync: value })));
+            });
+        });
+        new obsidian.Setting(containerEl)
+            .setName("Enable fallback wait")
+            .setDesc("If sync status cannot be detected, wait for the time specified below before looking for scenes.")
+            .addToggle((cb) => {
+            cb.setValue(settings.fallbackWaitEnabled);
+            cb.onChange((value) => {
+                pluginSettings.update((s) => (Object.assign(Object.assign({}, s), { fallbackWaitEnabled: value })));
+            });
+        });
+        new obsidian.Setting(containerEl)
+            .setName("Fallback wait time")
+            .setDesc("Time to wait in seconds if sync status cannot be detected.")
+            .addText((cb) => {
+            cb.setValue(settings.fallbackWaitTime.toString());
+            cb.onChange((value) => {
+                const numberValue = parseInt(value);
+                if (!isNaN(numberValue) && numberValue > 0) {
+                    pluginSettings.update((s) => (Object.assign(Object.assign({}, s), { fallbackWaitTime: numberValue })));
+                }
+            });
+        });
         new obsidian.Setting(containerEl).setName("Credits").setHeading();
         containerEl.createEl("p", {}, (el) => {
             el.innerHTML =
@@ -36202,7 +36558,9 @@ class UserScriptObserver {
                 console.error(`[Longform] Failed to load user script ${path}. No exports detected.`);
                 throw new Error(`Failed to load user script ${path}. No exports detected.`);
             }
-            const step = makeBuiltinStep(Object.assign(Object.assign({}, loadedStep), { id: path, description: Object.assign(Object.assign({}, loadedStep.description), { availableKinds: loadedStep.description.availableKinds.map((v) => CompileStepKind[v]), options: loadedStep.description.options.map((o) => (Object.assign(Object.assign({}, o), { type: CompileStepOptionType[o.type] }))) }) }), true);
+            const step = makeBuiltinStep(Object.assign(Object.assign({}, loadedStep), { id: path, description: Object.assign(Object.assign({}, loadedStep.description), { availableKinds: loadedStep.description.availableKinds.map((v) => CompileStepKind[v]), options: loadedStep.description.options
+                        ? loadedStep.description.options.map((o) => (Object.assign(Object.assign({}, o), { type: CompileStepOptionType[o.type] })))
+                        : [] }) }), true);
             return Object.assign(Object.assign({}, step), { id: path, description: Object.assign(Object.assign({}, step.description), { canonicalID: path, isScript: true }) });
         });
     }
@@ -36234,6 +36592,8 @@ function resolveIfLongformFile(metadataCache, file) {
  */
 class StoreVaultSync {
     constructor(app) {
+        this.isInitializing = true;
+        this.settlingTime = 30000; // fallback settling time
         this.lastKnownDraftsByPath = {};
         this.pathsToIgnoreNextChange = new Set();
         this.app = app;
@@ -36242,6 +36602,87 @@ class StoreVaultSync {
     }
     destroy() {
         this.unsubscribeDraftsStore();
+    }
+    isSyncEnabled() {
+        var _a, _b;
+        try {
+            // @ts-ignore - accessing private API
+            const syncPlugin = (_b = (_a = this.app.internalPlugins) === null || _a === void 0 ? void 0 : _a.plugins) === null || _b === void 0 ? void 0 : _b.sync;
+            return (syncPlugin === null || syncPlugin === void 0 ? void 0 : syncPlugin.enabled) === true;
+        }
+        catch (_c) {
+            return false;
+        }
+    }
+    waitForSync() {
+        return __awaiter(this, void 0, void 0, function* () {
+            const settings = get_store_value(pluginSettings);
+            // First check if "wait for sync" in setting or the Sync plugin itself is enabled
+            if (!settings.waitForSync || !this.isSyncEnabled()) {
+                return Promise.resolve();
+            }
+            try {
+                // @ts-ignore - accessing private API
+                const sync = this.app.internalPlugins.plugins.sync.instance;
+                // Set waitingForSync to disable watchers and enable loading spinner
+                waitingForSync.set(true);
+                // Check if we can't access the sync status (possibly due to Sync plugin API changes), use fallback wait if not
+                if (!(sync === null || sync === void 0 ? void 0 : sync.syncing)) {
+                    return this.fallbackWait();
+                }
+                return new Promise((resolve) => {
+                    if (!sync.syncing) {
+                        waitingForSync.set(false);
+                        resolve();
+                        return;
+                    }
+                    console.log("[Longform] Waiting for active sync to complete...");
+                    // Poll sync status every second
+                    const interval = setInterval(() => {
+                        if (!sync.syncing) {
+                            clearInterval(interval);
+                            clearTimeout(timeout); // Clear the timeout when sync completes
+                            console.log("[Longform] Sync complete.");
+                            waitingForSync.set(false);
+                            resolve();
+                        }
+                        console.log("[Longform] Sync status:", sync.syncStatus);
+                    }, 1000);
+                    // Add a timeout just in case sync never completes
+                    const timeout = setTimeout(() => {
+                        clearInterval(interval);
+                        console.log("[Longform] Sync wait timed out");
+                        waitingForSync.set(false);
+                        resolve();
+                    }, this.settlingTime);
+                });
+            }
+            catch (error) {
+                waitingForSync.set(false);
+                return this.fallbackWait();
+            }
+        });
+    }
+    fallbackWait() {
+        return __awaiter(this, void 0, void 0, function* () {
+            const settings = get_store_value(pluginSettings);
+            if (!settings.fallbackWaitEnabled) {
+                return Promise.resolve();
+            }
+            return new Promise(resolve => setTimeout(resolve, settings.fallbackWaitTime * 1000));
+        });
+    }
+    initialize() {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                yield this.waitForSync();
+                yield this.discoverDrafts();
+                this.isInitializing = false;
+            }
+            catch (error) {
+                this.isInitializing = false;
+            }
+        });
     }
     discoverDrafts() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -36270,6 +36711,8 @@ class StoreVaultSync {
     }
     fileMetadataChanged(file, _data, cache) {
         return __awaiter(this, void 0, void 0, function* () {
+            if (this.isInitializing)
+                return;
             if (this.pathsToIgnoreNextChange.delete(file.path)) {
                 return;
             }
@@ -36304,6 +36747,8 @@ class StoreVaultSync {
     }
     fileCreated(file) {
         return __awaiter(this, void 0, void 0, function* () {
+            if (this.isInitializing)
+                return;
             const drafts$1 = get_store_value(drafts);
             // check if a new scene has been moved into this folder
             const scenePath = file.parent.path;
@@ -36336,6 +36781,8 @@ class StoreVaultSync {
     }
     fileDeleted(file) {
         return __awaiter(this, void 0, void 0, function* () {
+            if (this.isInitializing)
+                return;
             const drafts$1 = get_store_value(drafts);
             const draftIndex = drafts$1.findIndex((d) => d.vaultPath === file.path);
             if (draftIndex >= 0) {
@@ -36386,6 +36833,8 @@ class StoreVaultSync {
     }
     fileRenamed(file, oldPath) {
         return __awaiter(this, void 0, void 0, function* () {
+            if (this.isInitializing)
+                return;
             const drafts$1 = get_store_value(drafts);
             const draftIndex = drafts$1.findIndex((d) => d.vaultPath === oldPath);
             if (draftIndex >= 0) {
@@ -36540,7 +36989,7 @@ class StoreVaultSync {
                 const sceneTitles = new Set(scenes.map((s) => s.title));
                 const newScenes = filenamesInSceneFolder.filter((s) => !sceneTitles.has(s));
                 // ignore all new scenes that are known-to-ignore per ignoredFiles
-                const ignoredRegexes = ignoredFiles.map((p) => ignoredPatternToRegex(p));
+                const ignoredRegexes = ignoredFiles.filter(n => n).map((p) => ignoredPatternToRegex(p));
                 const unknownFiles = newScenes.filter((s) => ignoredRegexes.find((r) => r.test(s)) === undefined);
                 return {
                     draft: {
@@ -36625,6 +37074,20 @@ class JumpModal extends obsidian.FuzzySuggestModal {
             this.close();
             return false;
         });
+        // navigate up/down with Tab and Shift+Tab
+        this.scope.register([], "Tab", () => {
+            document.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown" }));
+        });
+        this.scope.register(["Shift"], "Tab", () => {
+            document.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowUp" }));
+        });
+        instructions.concat([{
+                command: "↹ ",
+                purpose: "Down",
+            }, {
+                command: "↹ ",
+                purpose: "Down",
+            }]);
         this.setInstructions(instructions);
     }
     getItems() {
@@ -36961,9 +37424,9 @@ const focusNewSceneField = (plugin) => ({
     checkCallback(checking) {
         const draft = get_store_value(selectedDraft);
         if (checking) {
-            return draft.format === "scenes";
+            return draft && draft.format === "scenes";
         }
-        if (draft.format !== "scenes") {
+        if (!draft || draft.format !== "scenes") {
             return;
         }
         showLeaf(plugin);
@@ -37843,7 +38306,7 @@ class LongformAPI {
     /**
      * Converts a YAML-compatible potentially-nested array of strings into a single-dimension array of `{title: string; indent: number}` objects.
      *
-     * Longform uses the YAML format to store scenes with indentation information; this function is useful if you want to read that YAML yourself and convert it into data you can reason about. For examle, the YAML:
+     * Longform uses the YAML format to store scenes with indentation information; this function is useful if you want to read that YAML yourself and convert it into data you can reason about. For example, the YAML:
      *
      * ```yaml
      * - My First Scene
@@ -38037,107 +38500,112 @@ class LongformPlugin extends obsidian.Plugin {
         });
     }
     postLayoutInit() {
-        this.userScriptObserver.beginObserving();
-        this.watchProjects();
-        const defaultToScenes = once_1(function (d) {
-            if (d && d.format === "scenes") {
-                selectedTab.set("Scenes");
-            }
-        });
-        this.unsubscribeSelectedDraft = selectedDraft.subscribe((d) => __awaiter(this, void 0, void 0, function* () {
-            if (!get_store_value(initialized) || !d) {
-                return;
-            }
-            // On initial load, default to Scenes tab for multi-scene projects.
-            defaultToScenes(d);
-            pluginSettings.update((s) => (Object.assign(Object.assign({}, s), { selectedDraftVaultPath: d.vaultPath })));
-            this.cachedSettings = get_store_value(pluginSettings);
-            yield this.saveSettings();
-        }));
-        // Workflows
-        const saveWorkflows = debounce_1(() => {
-            this.saveSettings();
-        }, 3000);
-        this.unsubscribeWorkflows = workflows.subscribe(() => {
-            if (!get_store_value(initialized)) {
-                return;
-            }
-            saveWorkflows();
-        });
-        // Sessions
-        const saveSessions = debounce_1((toSave) => __awaiter(this, void 0, void 0, function* () {
-            if (this.cachedSettings.sessionStorage === "data") {
-                pluginSettings.update((s) => {
-                    const toReturn = Object.assign(Object.assign({}, s), { sessions: toSave });
-                    this.cachedSettings = toReturn;
-                    return toReturn;
-                });
-                yield this.saveSettings();
-            }
-            else {
-                // Save to either plugin or vault
-                let file = null;
-                if (this.cachedSettings.sessionStorage === "plugin-folder") {
-                    if (!this.manifest.dir) {
-                        console.error(`[Longform] No manifest.dir for saving sessions.`);
-                        return;
-                    }
-                    file = obsidian.normalizePath(`${this.manifest.dir}/sessions.json`);
+        return __awaiter(this, void 0, void 0, function* () {
+            this.userScriptObserver.beginObserving();
+            // Initialize StoreVaultSync with sync awareness
+            yield this.storeVaultSync.initialize();
+            // Continue with the rest of initialization only after sync is complete
+            this.watchProjects();
+            const defaultToScenes = once_1(function (d) {
+                if (d && d.format === "scenes") {
+                    selectedTab.set("Scenes");
                 }
-                else {
-                    file = this.cachedSettings.sessionFile;
-                }
-                if (!file) {
+            });
+            this.unsubscribeSelectedDraft = selectedDraft.subscribe((d) => __awaiter(this, void 0, void 0, function* () {
+                if (!get_store_value(initialized) || !d) {
                     return;
                 }
-                const data = JSON.stringify(toSave);
-                yield this.app.vault.adapter.write(file, data);
-                // If we have lingering session data in settings, clear it
-                if (this.cachedSettings.sessions.length !== 0) {
-                    const emptySessions = [];
+                // On initial load, default to Scenes tab for multi-scene projects.
+                defaultToScenes(d);
+                pluginSettings.update((s) => (Object.assign(Object.assign({}, s), { selectedDraftVaultPath: d.vaultPath })));
+                this.cachedSettings = get_store_value(pluginSettings);
+                yield this.saveSettings();
+            }));
+            // Workflows
+            const saveWorkflows = debounce_1(() => {
+                this.saveSettings();
+            }, 3000);
+            this.unsubscribeWorkflows = workflows.subscribe(() => {
+                if (!get_store_value(initialized)) {
+                    return;
+                }
+                saveWorkflows();
+            });
+            // Sessions
+            const saveSessions = debounce_1((toSave) => __awaiter(this, void 0, void 0, function* () {
+                if (this.cachedSettings.sessionStorage === "data") {
                     pluginSettings.update((s) => {
-                        const toReturn = Object.assign(Object.assign({}, s), { sessions: emptySessions });
+                        const toReturn = Object.assign(Object.assign({}, s), { sessions: toSave });
                         this.cachedSettings = toReturn;
                         return toReturn;
                     });
                     yield this.saveSettings();
                 }
-            }
-        }), 3000);
-        this.unsubscribeSessions = sessions.subscribe((s) => {
-            if (!get_store_value(initialized)) {
-                return;
-            }
-            saveSessions(s);
-        });
-        this.unsubscribeGoalNotification = derived([goalProgress, pluginSettings, selectedDraft, activeFile], (stores) => stores).subscribe(([$goalProgress, $pluginSettings, $selectedDraft, $activeFile]) => {
-            if ($goalProgress >= 1 && $pluginSettings.notifyOnGoal) {
-                let target;
-                if ($pluginSettings.applyGoalTo === "all") {
-                    target = "all";
-                }
-                else if ($pluginSettings.applyGoalTo === "project") {
-                    target = `draft::${$selectedDraft.vaultPath}`;
-                }
-                else if ($pluginSettings.applyGoalTo === "note") {
-                    if ($selectedDraft && $selectedDraft.format === "single") {
-                        target = `note::${$selectedDraft.vaultPath}`;
+                else {
+                    // Save to either plugin or vault
+                    let file = null;
+                    if (this.cachedSettings.sessionStorage === "plugin-folder") {
+                        if (!this.manifest.dir) {
+                            console.error(`[Longform] No manifest.dir for saving sessions.`);
+                            return;
+                        }
+                        file = obsidian.normalizePath(`${this.manifest.dir}/sessions.json`);
                     }
-                    else if ($selectedDraft &&
-                        $selectedDraft.format === "scenes" &&
-                        $activeFile) {
-                        target = `note::${$activeFile.path}`;
+                    else {
+                        file = this.cachedSettings.sessionFile;
+                    }
+                    if (!file) {
+                        return;
+                    }
+                    const data = JSON.stringify(toSave);
+                    yield this.app.vault.adapter.write(file, data);
+                    // If we have lingering session data in settings, clear it
+                    if (this.cachedSettings.sessions.length !== 0) {
+                        const emptySessions = [];
+                        pluginSettings.update((s) => {
+                            const toReturn = Object.assign(Object.assign({}, s), { sessions: emptySessions });
+                            this.cachedSettings = toReturn;
+                            return toReturn;
+                        });
+                        yield this.saveSettings();
                     }
                 }
-                if (target &&
-                    !this.writingSessionTracker.goalsNotifiedFor.has(target)) {
-                    this.writingSessionTracker.goalsNotifiedFor.add(target);
-                    new obsidian.Notice("Writing goal met!");
+            }), 3000);
+            this.unsubscribeSessions = sessions.subscribe((s) => {
+                if (!get_store_value(initialized)) {
+                    return;
                 }
-            }
+                saveSessions(s);
+            });
+            this.unsubscribeGoalNotification = derived([goalProgress, pluginSettings, selectedDraft, activeFile], (stores) => stores).subscribe(([$goalProgress, $pluginSettings, $selectedDraft, $activeFile]) => {
+                if ($goalProgress >= 1 && $pluginSettings.notifyOnGoal) {
+                    let target;
+                    if ($pluginSettings.applyGoalTo === "all") {
+                        target = "all";
+                    }
+                    else if ($pluginSettings.applyGoalTo === "project") {
+                        target = `draft::${$selectedDraft.vaultPath}`;
+                    }
+                    else if ($pluginSettings.applyGoalTo === "note") {
+                        if ($selectedDraft && $selectedDraft.format === "single") {
+                            target = `note::${$selectedDraft.vaultPath}`;
+                        }
+                        else if ($selectedDraft &&
+                            $selectedDraft.format === "scenes" &&
+                            $activeFile) {
+                            target = `note::${$activeFile.path}`;
+                        }
+                    }
+                    if (target &&
+                        !this.writingSessionTracker.goalsNotifiedFor.has(target)) {
+                        this.writingSessionTracker.goalsNotifiedFor.add(target);
+                        new obsidian.Notice("Writing goal met!");
+                    }
+                }
+            });
+            this.initLeaf();
+            initialized.set(true);
         });
-        this.initLeaf();
-        initialized.set(true);
     }
     initLeaf() {
         if (this.app.workspace.getLeavesOfType(VIEW_TYPE_LONGFORM_EXPLORER).length) {
@@ -38198,3 +38666,5 @@ class LongformPlugin extends obsidian.Plugin {
 }
 
 module.exports = LongformPlugin;
+
+/* nosourcemap */

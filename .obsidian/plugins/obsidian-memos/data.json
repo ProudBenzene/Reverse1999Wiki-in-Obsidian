@@ -59,6 +59,14 @@
   "EditorType": "obsidian",
   "EnabledLocationList": [
     {
+      "value": "FILE",
+      "target": "MemoDefaultSingleFilePath"
+    },
+    {
+      "value": "MULTI",
+      "target": "MemoDefaultMultiFilePath"
+    },
+    {
       "value": "MULTI",
       "target": "MemoDefaultMultiFilePath"
     }
@@ -89,7 +97,7 @@
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405132046286.jpg",
   "MomentsQuote": "The Storm is coming...",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.59",
+  "LastUpdatedVersion": "2.7.9",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -119,5 +127,19 @@
   "FilterByMetadata": true,
   "ShowSourcePath": true,
   "ShowUpdateMessage": true,
-  "SyncManually": false
+  "SyncManually": false,
+  "MemoFixedPrefix": "",
+  "MemoFixedSuffix": "",
+  "UseMemoFixedStrings": false,
+  "enableWordCount": false,
+  "maxWordCount": 0,
+  "enableReferenceLinksGroup": false,
+  "doubleClickBehavior": "edit-thino",
+  "useMobileViewDefaultHeader": false,
+  "IgnoreFolderForMultiType": [],
+  "UseBlockLinkWhenDragging": false,
+  "ShowScrollToTopButton": true,
+  "ZoomImageWhenViewing": false,
+  "ViewArchiveInRandomReview": false,
+  "DraggingBehavior": "block-link"
 }
