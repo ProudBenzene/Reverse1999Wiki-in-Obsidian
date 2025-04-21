@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/命名日｜Name Day.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "命名日｜Name Day"
+              "title": "主页"
             }
           },
           {
@@ -126,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/命名日｜Name Day.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,7 +183,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "命名日｜Name Day 的关系图"
+              "title": "主页 的关系图"
             }
           }
         ]
@@ -207,10 +207,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/命名日｜Name Day.md"
+                "file": "000-箱的构造/主页.md"
               },
               "icon": "lucide-info",
-              "title": "命名日｜Name Day的笔记属性"
+              "title": "主页的笔记属性"
             }
           },
           {
@@ -286,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/命名日｜Name Day.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +296,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "命名日｜Name Day 的反向链接列表"
+              "title": "主页 的反向链接列表"
             }
           },
           {
@@ -305,12 +305,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/命名日｜Name Day.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "命名日｜Name Day 的出链列表"
+              "title": "主页 的出链列表"
             }
           }
         ],
@@ -346,8 +346,11 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
+    "000-箱的构造/箱中memos/20250227-0aad2a6e1b84948f 2.md",
+    "000-箱的构造/script/advancedSearch 2.js",
+    "000-箱的构造/assets/UTTU人物合辑.assets/Versatile.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/命名日｜Name Day.md",
+    "000-箱的构造/assets/UTTU人物合辑.assets/货币 纯雨滴.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets/单品 命名日 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets/单品 命名日 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets/单品 命名日 01.png",
@@ -359,8 +362,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/冷周六｜Hissabeth.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets/至终的仪式 镌刻于雪上的.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets/神秘术 如您所愿2.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets/神秘术 如您所愿3.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets/神秘术 如您所愿1.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/命名日｜Name Day.assets",
     "000-箱的构造/常用工具.md",
     "000-箱的构造/templates/UTTU人物合辑.md",
@@ -384,7 +385,6 @@
     "000-箱的构造/箱中memos/20250415-b3c99d3d829eed13 2.md",
     "000-箱的构造/箱中memos/20250301-fd8e51c238e17ea5 2.md",
     "000-箱的构造/箱中memos/20250227-c785c1aded96a90b 2.md",
-    "000-箱的构造/script/advancedSearch 2.js",
     "000-箱的构造/script/advancedSearch.js",
     "000-箱的构造/氛围制造机/2.5/拍硬档 (Rock Solid).mp3",
     "000-箱的构造/氛围制造机/2.5/拍硬档 (Rock Solid)1.mp3",
