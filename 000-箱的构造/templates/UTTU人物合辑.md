@@ -87,6 +87,7 @@ banner_header: "{{filename}}"
 > ![治疗](../../000-箱的构造/assets/UTTU人物合辑.assets/Health.png)<b><font color="#6F967A">治疗</font></b>
 > ![反制](../../000-箱的构造/assets/UTTU人物合辑.assets/Counter.png)<b><font color="#78652F">反制</font></b>
 > ![吟诵](../../000-箱的构造/assets/UTTU人物合辑.assets/Channel.png)<b><font color="#895C39">吟诵</font></b>
+> ![特殊](../../000-箱的构造/assets/UTTU人物合辑.assets/Versatile.png)<b><font color="#B4B4B4">特殊</font></b>
 
 ## 塑造
 

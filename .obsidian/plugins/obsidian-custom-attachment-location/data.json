@@ -16,5 +16,8 @@
   "shouldRenameCollectedAttachments": false,
   "specialCharacters": "#^[]|*\\<>:?",
   "specialCharactersReplacement": "-",
+  "treatAsAttachmentExtensions": [
+    ".excalidraw.md"
+  ],
   "warningVersion": "7.0.0"
 }
