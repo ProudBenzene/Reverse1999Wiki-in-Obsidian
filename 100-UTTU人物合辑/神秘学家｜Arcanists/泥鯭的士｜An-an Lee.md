@@ -4,7 +4,6 @@ exonym: An-an Lee
 tags: 
 cssclasses:
   - book
-  - img-grid
 人物合辑: 神秘学家｜Arcanists
 介质: 
 星级: ✦✦✦✦✦✦

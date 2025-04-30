@@ -3,8 +3,8 @@
   "attachmentFolderPath": "./assets/主页.assets",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
-  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
   "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "A4",
