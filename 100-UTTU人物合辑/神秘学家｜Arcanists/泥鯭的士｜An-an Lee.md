@@ -100,7 +100,7 @@ banner_header: "{{filename}}"
 
 ## 狂想
 
-> [!bookinfo]+ 科学地处理不科学
+> [!rhapsody]+ 科学地处理不科学
 > ![](./assets/泥鯭的士｜An-an%20Lee.assets/狂想%20科学地处理不科学.png)
 > 
 > | 狂想等级 |                           狂想效果                           |

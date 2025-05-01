@@ -1,7 +1,7 @@
 ---
 Chapter: 1987宇宙组曲
 English: 1987 Cosmic Overture
-Era: 
+Era: "1987"
 tags: 
 cssclasses: 
 aliases:

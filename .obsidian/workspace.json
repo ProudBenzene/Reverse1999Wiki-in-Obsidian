@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "000-箱的构造/主页.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "泥鯭的士｜An-an Lee"
+              "title": "主页"
             }
           },
           {
@@ -126,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,7 +183,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "泥鯭的士｜An-an Lee 的关系图"
+              "title": "主页 的关系图"
             }
           }
         ]
@@ -207,10 +207,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md"
+                "file": "000-箱的构造/主页.md"
               },
               "icon": "lucide-info",
-              "title": "泥鯭的士｜An-an Lee的笔记属性"
+              "title": "主页的笔记属性"
             }
           },
           {
@@ -286,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +296,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "泥鯭的士｜An-an Lee 的反向链接列表"
+              "title": "主页 的反向链接列表"
             }
           },
           {
@@ -305,12 +305,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "泥鯭的士｜An-an Lee 的出链列表"
+              "title": "主页 的出链列表"
             }
           }
         ],
@@ -346,8 +346,13 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/泥鯭的士｜An-an Lee.md",
+    "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md",
+    "300-以影像之/302-支线/assets/1987宇宙组曲｜1987 Cosmic Overture.assets/1987宇宙组曲.png",
+    "300-以影像之/302-支线/assets/1987宇宙组曲｜1987 Cosmic Overture.assets/1987宇宙组曲..jpg",
+    "300-以影像之/302-支线/assets/1987宇宙组曲｜1987 Cosmic Overture.assets/1987宇宙组曲.jpg",
+    "300-以影像之/301-主线/2.0 旅行归来/疯癫与文明｜Folie et deraison.md",
+    "100-UTTU人物合辑/意识唤醒者｜Awakened/露西｜Lucy.md",
     "000-箱的构造/主页.md",
     "300-以影像之/304-轶事/图图石子·海风的往事.md",
     "400-箱外世界/暴雨时间线.md",
@@ -372,13 +377,10 @@
     "200-相从心生/角色心相/脑室即囚室｜Mental Cage.md",
     "200-相从心生/角色心相/assets/最后的投掷｜The Final Roll.assets/心相 最后的投掷.png",
     "200-相从心生/角色心相/assets/春日轻步至｜Aurora After Winter.assets/心相 春日轻步至.png",
-    "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md",
-    "300-以影像之/301-主线/2.0 旅行归来/疯癫与文明｜Folie et deraison.md",
     "200-相从心生/角色心相/assets/最后的投掷｜The Final Roll.assets",
     "200-相从心生/角色心相/assets/脑室即囚室｜Mental Cage.assets/心相 脑室即囚室.png",
     "200-相从心生/角色心相/assets/脑室即囚室｜Mental Cage.assets",
     "200-相从心生/角色心相/造梦的预演｜Rehearsal of Dreams.md",
-    "200-相从心生/角色心相/assets/双焦点问答｜Never-Ending Q&A.assets/心相 双焦点问答.png",
     "200-相从心生/角色心相/assets/双焦点问答｜Never-Ending Q&A.assets",
     "100-UTTU人物合辑/神秘学家混血种｜Mixed/梁月｜Liang.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/环状水星｜Mercuria.md",
@@ -386,11 +388,8 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/库珀花环｜Kiperina.md",
     "200-相从心生/角色心相/assets/春日轻步至｜Aurora After Winter.assets",
     "300-以影像之/304-轶事/图图石子·海风的往事1.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/库珀花环｜Kiperina.assets/单品 库珀花环 02.png",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/库珀花环｜Kiperina.assets/单品 库珀花环 01.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/库珀花环｜Kiperina.assets",
     "000-箱的构造/箱中memos/20250227-ebe448cb9bab0cc8 2.md",
-    "000-箱的构造/箱中memos/20250227-e7f8a4b2d6fc45f3 2.md",
     "000-箱的构造/script/advancedSearch 2.js"
   ]
 }

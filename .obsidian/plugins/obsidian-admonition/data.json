@@ -260,6 +260,19 @@
       "injectColor": false,
       "noTitle": false,
       "copy": true
+    },
+    "rhapsody": {
+      "type": "rhapsody",
+      "color": "166, 85, 41",
+      "icon": {
+        "name": "star-of-david",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Rhapsody",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": true,
