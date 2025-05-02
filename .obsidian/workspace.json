@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "85b2d9fb8e394ad9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1987宇宙组曲｜1987 Cosmic Overture"
-            }
-          },
-          {
             "id": "3f6df53d6a9606bd",
             "type": "leaf",
             "state": {
@@ -73,8 +59,7 @@
               "title": "Projects"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -141,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md",
+                "file": "000-箱的构造/主页.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,7 +183,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "1987宇宙组曲｜1987 Cosmic Overture 的关系图"
+              "title": "主页 的关系图"
             }
           }
         ]
@@ -222,10 +207,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md"
+                "file": "000-箱的构造/主页.md"
               },
               "icon": "lucide-info",
-              "title": "1987宇宙组曲｜1987 Cosmic Overture的笔记属性"
+              "title": "主页的笔记属性"
             }
           },
           {
@@ -249,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "a0af558e737c8c63",
@@ -301,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md",
+                "file": "000-箱的构造/主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -311,7 +296,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1987宇宙组曲｜1987 Cosmic Overture 的反向链接列表"
+              "title": "主页 的反向链接列表"
             }
           },
           {
@@ -320,12 +305,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md",
+                "file": "000-箱的构造/主页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "1987宇宙组曲｜1987 Cosmic Overture 的出链列表"
+              "title": "主页 的出链列表"
             }
           }
         ],
@@ -359,7 +344,7 @@
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "85b2d9fb8e394ad9",
+  "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
     "300-以影像之/302-支线/1987宇宙组曲｜1987 Cosmic Overture.md",
     "游戏文件解包说明.md",

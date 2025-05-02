@@ -1,9 +1,0 @@
-{
-    "id": "note-to-red",
-    "name": "Note to RED",
-    "version": "1.0.14",
-    "minAppVersion": "0.15.0",
-    "description": "Convert Markdown notes to RED (Xiaohongshu) style images",
-    "author": "Yeban",
-    "isDesktopOnly": true
-}
