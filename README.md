@@ -33,6 +33,19 @@
 
 ## Support Me｜支持
 
+### 感谢榜｜Thank-You List
+
+非常感谢以下朋友们对我的捐款支持（排序为时间顺序）：
+
+- **「＂上善若水〃」** 大佬
+- **[「且徐行」](https://github.com/vran-dev)** 大佬
+- **「看见我耳机了吗？」** 大佬
+- **[「宋爽」](https://github.com/SongshGeo)** 大佬
+- **「Reina」** 大佬（来自越南的同好大佬~）
+- **「什么啊」** 大佬
+
+### Support Channels
+
 Out of my love to the game 'Reverse 1999' and Obsidian, I have spent a lot of time and devotion creating and organizing this Wiki library, and I am sharing it for free.
 
 If you appreciate my work and find it meaningful or helpful to you, you can support me with a cup of milk tea through the following ways (Please note your nicknames and I will show them on the README page as a thank you.), and I will also gain more motivation to keep updating and maintaining the vault!🦾
@@ -48,11 +61,3 @@ If you appreciate my work and find it meaningful or helpful to you, you can supp
     <img src="https://figure-bed123.oss-cn-beijing.aliyuncs.com/202406080244833.jpg" alt="支持码" style="width: 245px;">
 </div>
 
-## 感谢榜
-
-非常感谢以下朋友们对我的捐款支持（排序为时间顺序）：
-
-- **「＂上善若水〃」** 大佬
-- **[「且徐行」](https://github.com/vran-dev)** 大佬
-- **「看见我耳机了吗？」** 大佬
-- **[「宋爽」](https://github.com/SongshGeo)** 大佬
