@@ -1,5 +1,5 @@
 {
-  "lastVersion": "3.1.13",
+  "lastVersion": "3.1.18",
   "aestheticStyle": "default",
   "positionStyle": "top",
   "menuCommands": [
@@ -400,6 +400,7 @@
   "cMenuFontColor": "#e1b343",
   "cMenuBackgroundColor": "rgba(160, 204, 246, 0.55)",
   "autohide": false,
+  "Iscentered": false,
   "custom_bg1": "#FFB78B8C",
   "custom_bg2": "#CDF4698C",
   "custom_bg3": "#A0CCF68C",

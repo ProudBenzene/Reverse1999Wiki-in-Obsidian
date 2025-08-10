@@ -5,49 +5,187 @@
       "name": "刷新面板",
       "type": "Macro",
       "command": true,
-      "macroId": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215"
+      "macro": {
+        "id": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215",
+        "name": "刷新页面",
+        "commands": [
+          {
+            "name": "关闭当前面板",
+            "type": "Obsidian",
+            "id": "5e6b09dd-794b-443e-bcaf-ecf27ce1f7e0",
+            "commandId": "workspace:close"
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "da696b89-59a8-4c64-833b-561e34d86203",
+            "time": 500
+          },
+          {
+            "name": "重新打开上一个关闭的面板",
+            "type": "Obsidian",
+            "id": "3fd5ed39-ef42-4d18-9a9b-06d18d87f35b",
+            "commandId": "workspace:undo-close-pane"
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "deec549a-d2dd-4e1d-b87e-c5abdfdc2802",
       "name": "切换明暗",
       "type": "Macro",
       "command": true,
-      "macroId": "ebf7a10a-351e-489f-b393-2c46b39a4cee"
+      "macro": {
+        "id": "ebf7a10a-351e-489f-b393-2c46b39a4cee",
+        "name": "切换明暗模式",
+        "commands": [
+          {
+            "name": "SwitchLightdark",
+            "type": "UserScript",
+            "id": "e3b749a4-0fb8-4816-998f-79170d1a4228",
+            "path": "000-箱的构造/script/SwitchLightdark.js",
+            "settings": {}
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "ac510f4b-5e30-4b80-8591-320d92252404",
       "name": "Style Settings 悬浮面板",
       "type": "Macro",
       "command": true,
-      "macroId": "38d71847-84ac-413d-813a-0fd50afc1577"
+      "macro": {
+        "id": "38d71847-84ac-413d-813a-0fd50afc1577",
+        "name": "Style Settings",
+        "commands": [
+          {
+            "name": "Style Settings: Show style settings view",
+            "type": "Obsidian",
+            "id": "db2f148a-1e7b-47e3-ae5a-dade0f5c37ec",
+            "commandId": "obsidian-style-settings:show-style-settings-leaf"
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "27fbbc21-630a-4d80-9774-c930b69d328d",
+            "time": 10
+          },
+          {
+            "name": "Hover Editor: Convert active pane to Hover Editor",
+            "type": "Obsidian",
+            "id": "7f518915-fc9f-42d8-8571-bc734339b555",
+            "commandId": "obsidian-hover-editor:convert-active-pane-to-popover"
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "89cefecf-617a-4eae-ab1e-fc3d16117391",
       "name": "切换代码片段",
       "type": "Macro",
       "command": true,
-      "macroId": "d3e67052-efbb-4c08-8880-9ecfc6eb5c77"
+      "macro": {
+        "id": "d3e67052-efbb-4c08-8880-9ecfc6eb5c77",
+        "name": "开关代码片段",
+        "commands": [
+          {
+            "name": "ToggleCSSSnippets",
+            "type": "UserScript",
+            "id": "79ccb1e8-b0da-48b8-bd20-54238a78d90c",
+            "path": "000-箱的构造/script/ToggleCSSSnippets.js",
+            "settings": {}
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "6dc3db54-27fd-48cc-beb0-66f4f40e3ff9",
       "name": "重新获取主页数据",
       "type": "Macro",
       "command": false,
-      "macroId": "ffb32b42-d2fe-42ed-9331-22a317f4a28a"
+      "macro": {
+        "id": "ffb32b42-d2fe-42ed-9331-22a317f4a28a",
+        "name": "重新获取主页数据",
+        "commands": [
+          {
+            "name": "refreshhomepage",
+            "type": "UserScript",
+            "id": "2a2068da-8360-4887-9558-32f2ab39192c",
+            "path": "000-箱的构造/script/refreshhomepage.js",
+            "settings": {}
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "a14b86d3-9c29-4c1e-901e-bacf423ca37b",
+            "time": 100
+          },
+          {
+            "name": "fetchhomepage",
+            "type": "UserScript",
+            "id": "e69e401c-5958-4818-b218-cd6c639efab6",
+            "path": "000-箱的构造/script/fetchhomepage.js",
+            "settings": {}
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "ade09cba-c1ca-4213-a355-16bd30db0ecc",
+            "time": 100
+          },
+          {
+            "name": "Workspaces Plus: Load: HomePage",
+            "type": "Obsidian",
+            "id": "cda0ce29-6bf1-4a4c-8009-3c4b90661677",
+            "commandId": "workspaces-plus:HomePage"
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "f6a246d4-985b-4054-a9ce-265391080166",
       "name": "Open with",
       "type": "Macro",
       "command": true,
-      "macroId": "063262c4-5ab9-4b17-a130-4bd25b080c9c"
+      "macro": {
+        "id": "063262c4-5ab9-4b17-a130-4bd25b080c9c",
+        "name": "Open With",
+        "commands": [
+          {
+            "name": "openExternalEditor",
+            "type": "UserScript",
+            "id": "bf5ec043-6cd5-47b7-a884-301bb2a36be4",
+            "path": "000-箱的构造/script/openExternalEditor.js",
+            "settings": {}
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "d2d1d2ba-d670-4f9a-b998-f41b03202c54",
       "name": "编辑图片",
       "type": "Macro",
       "command": true,
-      "macroId": "db7fc7dd-0f62-4f74-a9a5-b8d1b27a43c9"
+      "macro": {
+        "id": "db7fc7dd-0f62-4f74-a9a5-b8d1b27a43c9",
+        "name": "编辑图片",
+        "commands": [
+          {
+            "name": "openSelectedImage",
+            "type": "UserScript",
+            "id": "8349ed52-362b-4282-a608-62023bf31fbf",
+            "path": "000-箱的构造/script/openSelectedImage.js",
+            "settings": {}
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "5fd13276-aeac-4467-be6b-a9d15dc2a5ba",
@@ -82,7 +220,13 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
+      "setFileExistsBehavior": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "5d3186ca-1834-4b73-8256-59d12aa6999e",
@@ -114,35 +258,126 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
+      "setFileExistsBehavior": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "2e6ec4a7-2119-429e-825c-81753143010c",
       "name": "图片题注",
       "type": "Macro",
       "command": true,
-      "macroId": "b01a30e3-00b4-48a8-948e-d1df0afef3ef"
+      "macro": {
+        "id": "b01a30e3-00b4-48a8-948e-d1df0afef3ef",
+        "name": "图片题注",
+        "commands": [
+          {
+            "name": "autoImageCaption",
+            "type": "UserScript",
+            "id": "460f3243-bf5b-47a0-a4fd-932b56bec918",
+            "path": "000-箱的构造/script/autoImageCaption.js",
+            "settings": {}
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "1e5ebfca-1b35-4ec9-872d-1f27b8a2568c",
       "name": "🥸角色面板",
       "type": "Macro",
       "command": true,
-      "macroId": "9c6fc846-2ae1-4511-b1f9-8e34201325ee"
+      "macro": {
+        "id": "9c6fc846-2ae1-4511-b1f9-8e34201325ee",
+        "name": "角色面板",
+        "commands": [
+          {
+            "name": "Commander: 专注模式",
+            "type": "Obsidian",
+            "id": "f08b76dd-6a9c-462f-93e4-e2801e35ae66",
+            "commandId": "cmdr:macro-0"
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "7e77bf32-1a39-4626-9da7-742a11f6c7f8",
+            "time": 100
+          },
+          {
+            "name": "Projects: Show UTTU人物合揖",
+            "type": "Obsidian",
+            "id": "b7ad2ee5-53f4-4f00-9a16-0fa44fadf96e",
+            "commandId": "obsidian-projects:show:9ff693de-6abc-4520-b70c-e2c25b385535"
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "d4519377-e245-4542-b058-669186cfc69f",
       "name": "♥️心相面板",
       "type": "Macro",
       "command": true,
-      "macroId": "9d2c6e0f-a0ef-4915-8a30-8cdfbcf5d915"
+      "macro": {
+        "id": "9d2c6e0f-a0ef-4915-8a30-8cdfbcf5d915",
+        "name": "心相面板",
+        "commands": [
+          {
+            "name": "Commander: 专注模式",
+            "type": "Obsidian",
+            "id": "33bac4d3-caf5-4000-8069-7e96597eef62",
+            "commandId": "cmdr:macro-0"
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "ebfda749-ee21-4e82-a184-6a3c3e8e3c0d",
+            "time": 100
+          },
+          {
+            "name": "Projects: Show 相从心生",
+            "type": "Obsidian",
+            "id": "d243979c-afa5-4c55-a248-678a2b5096b4",
+            "commandId": "obsidian-projects:show:43ddfc09-1831-4a77-a516-9caa0008068f"
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "60868bc5-08b0-4302-855f-956096b6e2e7",
       "name": "📖故事面板",
       "type": "Macro",
       "command": true,
-      "macroId": "d9e1d506-e46d-4dff-a3b4-15fc1af71765"
+      "macro": {
+        "id": "d9e1d506-e46d-4dff-a3b4-15fc1af71765",
+        "name": "故事面板",
+        "commands": [
+          {
+            "name": "Commander: 专注模式",
+            "type": "Obsidian",
+            "id": "d8689bee-a960-48c5-afb2-d94b84bcd6cc",
+            "commandId": "cmdr:macro-0"
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "11157dd8-e856-4bb4-b5d5-92aeee129dfc",
+            "time": 100
+          },
+          {
+            "name": "Projects: Show 以影像之",
+            "type": "Obsidian",
+            "id": "7d936843-d55c-4c0e-995e-c625806d6dce",
+            "commandId": "obsidian-projects:show:3b6e745d-c3f1-4477-9213-1e9b60975541"
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "8e1942c6-e7c0-4f76-9a5d-f0a1839dc4e7",
@@ -172,7 +407,13 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "setFileExistsBehavior": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "029dbb1f-daa3-40b1-823e-ca7c31684dde",
@@ -202,7 +443,13 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "setFileExistsBehavior": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "fda9255c-34ca-478b-92d3-4367e522fbc8",
@@ -232,7 +479,13 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "setFileExistsBehavior": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "24cd61bb-5172-4c7b-b374-9a3e95693066",
@@ -262,315 +515,91 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "setFileExistsBehavior": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "fb8d1a27-8dc8-45ee-a0d3-7db781990d18",
       "name": "🔍高级检索",
       "type": "Macro",
       "command": true,
-      "macroId": "3a25aabe-b442-47dc-94e2-0e5887849707"
-    }
-  ],
-  "macros": [
-    {
-      "name": "重新获取主页数据",
-      "id": "ffb32b42-d2fe-42ed-9331-22a317f4a28a",
-      "commands": [
-        {
-          "name": "refreshhomepage",
-          "type": "UserScript",
-          "id": "2a2068da-8360-4887-9558-32f2ab39192c",
-          "path": "000-箱的构造/script/refreshhomepage.js",
-          "settings": {}
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "a14b86d3-9c29-4c1e-901e-bacf423ca37b",
-          "time": 100
-        },
-        {
-          "name": "fetchhomepage",
-          "type": "UserScript",
-          "id": "e69e401c-5958-4818-b218-cd6c639efab6",
-          "path": "000-箱的构造/script/fetchhomepage.js",
-          "settings": {}
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "ade09cba-c1ca-4213-a355-16bd30db0ecc",
-          "time": 100
-        },
-        {
-          "name": "Workspaces Plus: Load: HomePage",
-          "type": "Obsidian",
-          "id": "cda0ce29-6bf1-4a4c-8009-3c4b90661677",
-          "commandId": "workspaces-plus:HomePage"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "刷新页面",
-      "id": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215",
-      "commands": [
-        {
-          "name": "关闭当前面板",
-          "type": "Obsidian",
-          "id": "5e6b09dd-794b-443e-bcaf-ecf27ce1f7e0",
-          "commandId": "workspace:close"
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "da696b89-59a8-4c64-833b-561e34d86203",
-          "time": 500
-        },
-        {
-          "name": "重新打开上一个关闭的面板",
-          "type": "Obsidian",
-          "id": "3fd5ed39-ef42-4d18-9a9b-06d18d87f35b",
-          "commandId": "workspace:undo-close-pane"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "切换明暗模式",
-      "id": "ebf7a10a-351e-489f-b393-2c46b39a4cee",
-      "commands": [
-        {
-          "name": "SwitchLightdark",
-          "type": "UserScript",
-          "id": "e3b749a4-0fb8-4816-998f-79170d1a4228",
-          "path": "000-箱的构造/script/SwitchLightdark.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Style Settings",
-      "id": "38d71847-84ac-413d-813a-0fd50afc1577",
-      "commands": [
-        {
-          "name": "Style Settings: Show style settings view",
-          "type": "Obsidian",
-          "id": "db2f148a-1e7b-47e3-ae5a-dade0f5c37ec",
-          "commandId": "obsidian-style-settings:show-style-settings-leaf"
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "27fbbc21-630a-4d80-9774-c930b69d328d",
-          "time": 10
-        },
-        {
-          "name": "Hover Editor: Convert active pane to Hover Editor",
-          "type": "Obsidian",
-          "id": "7f518915-fc9f-42d8-8571-bc734339b555",
-          "commandId": "obsidian-hover-editor:convert-active-pane-to-popover"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "开关代码片段",
-      "id": "d3e67052-efbb-4c08-8880-9ecfc6eb5c77",
-      "commands": [
-        {
-          "name": "ToggleCSSSnippets",
-          "type": "UserScript",
-          "id": "79ccb1e8-b0da-48b8-bd20-54238a78d90c",
-          "path": "000-箱的构造/script/ToggleCSSSnippets.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "编辑图片",
-      "id": "db7fc7dd-0f62-4f74-a9a5-b8d1b27a43c9",
-      "commands": [
-        {
-          "name": "openSelectedImage",
-          "type": "UserScript",
-          "id": "8349ed52-362b-4282-a608-62023bf31fbf",
-          "path": "000-箱的构造/script/openSelectedImage.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "添加角色",
-      "id": "938bdf6f-bc60-4e3d-82b1-d174f35003a8",
-      "commands": [
-        {
-          "name": "UTTU人物合辑",
-          "type": "NestedChoice",
-          "id": "2090ac16-a06a-4f53-8ac8-94ec25614b2f",
-          "choice": {
-            "id": "446d5d03-0c2d-438e-9ab4-1d3aba258173",
-            "name": "UTTU人物合辑",
-            "type": "Template",
-            "command": false,
-            "templatePath": "000-箱的构造/templates/UTTU人物合辑.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "{{name}}：{{value}}"
-            },
-            "folder": {
-              "enabled": true,
-              "folders": [
-                "100-UTTU人物合辑"
-              ],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": true
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": true
+      "macro": {
+        "id": "3a25aabe-b442-47dc-94e2-0e5887849707",
+        "name": "🔍高级检索",
+        "commands": [
+          {
+            "name": "advancedSearch",
+            "type": "UserScript",
+            "id": "d8ec5aad-8aee-4e4e-bdfa-ece7f6d8f9a3",
+            "path": "000-箱的构造/script/advancedSearch.js",
+            "settings": {}
           }
-        }
-      ],
+        ]
+      },
       "runOnStartup": false
     },
     {
-      "name": "图片题注",
-      "id": "b01a30e3-00b4-48a8-948e-d1df0afef3ef",
-      "commands": [
-        {
-          "name": "autoImageCaption",
-          "type": "UserScript",
-          "id": "460f3243-bf5b-47a0-a4fd-932b56bec918",
-          "path": "000-箱的构造/script/autoImageCaption.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Open With",
-      "id": "063262c4-5ab9-4b17-a130-4bd25b080c9c",
-      "commands": [
-        {
-          "name": "openExternalEditor",
-          "type": "UserScript",
-          "id": "bf5ec043-6cd5-47b7-a884-301bb2a36be4",
-          "path": "000-箱的构造/script/openExternalEditor.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "角色面板",
-      "id": "9c6fc846-2ae1-4511-b1f9-8e34201325ee",
-      "commands": [
-        {
-          "name": "Commander: 专注模式",
-          "type": "Obsidian",
-          "id": "f08b76dd-6a9c-462f-93e4-e2801e35ae66",
-          "commandId": "cmdr:macro-0"
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "7e77bf32-1a39-4626-9da7-742a11f6c7f8",
-          "time": 100
-        },
-        {
-          "name": "Projects: Show UTTU人物合揖",
-          "type": "Obsidian",
-          "id": "b7ad2ee5-53f4-4f00-9a16-0fa44fadf96e",
-          "commandId": "obsidian-projects:show:9ff693de-6abc-4520-b70c-e2c25b385535"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "心相面板",
-      "id": "9d2c6e0f-a0ef-4915-8a30-8cdfbcf5d915",
-      "commands": [
-        {
-          "name": "Commander: 专注模式",
-          "type": "Obsidian",
-          "id": "33bac4d3-caf5-4000-8069-7e96597eef62",
-          "commandId": "cmdr:macro-0"
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "ebfda749-ee21-4e82-a184-6a3c3e8e3c0d",
-          "time": 100
-        },
-        {
-          "name": "Projects: Show 相从心生",
-          "type": "Obsidian",
-          "id": "d243979c-afa5-4c55-a248-678a2b5096b4",
-          "commandId": "obsidian-projects:show:43ddfc09-1831-4a77-a516-9caa0008068f"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "故事面板",
-      "id": "d9e1d506-e46d-4dff-a3b4-15fc1af71765",
-      "commands": [
-        {
-          "name": "Commander: 专注模式",
-          "type": "Obsidian",
-          "id": "d8689bee-a960-48c5-afb2-d94b84bcd6cc",
-          "commandId": "cmdr:macro-0"
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "11157dd8-e856-4bb4-b5d5-92aeee129dfc",
-          "time": 100
-        },
-        {
-          "name": "Projects: Show 以影像之",
-          "type": "Obsidian",
-          "id": "7d936843-d55c-4c0e-995e-c625806d6dce",
-          "commandId": "obsidian-projects:show:3b6e745d-c3f1-4477-9213-1e9b60975541"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "🔍高级检索",
-      "id": "3a25aabe-b442-47dc-94e2-0e5887849707",
-      "commands": [
-        {
-          "name": "advancedSearch",
-          "type": "UserScript",
-          "id": "d8ec5aad-8aee-4e4e-bdfa-ece7f6d8f9a3",
-          "path": "000-箱的构造/script/advancedSearch.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
+      "id": "88de795e-0300-47f5-a449-304762e11d9b",
+      "name": "添加角色",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "938bdf6f-bc60-4e3d-82b1-d174f35003a8",
+        "name": "添加角色",
+        "commands": [
+          {
+            "name": "UTTU人物合辑",
+            "type": "NestedChoice",
+            "id": "2090ac16-a06a-4f53-8ac8-94ec25614b2f",
+            "choice": {
+              "id": "446d5d03-0c2d-438e-9ab4-1d3aba258173",
+              "name": "UTTU人物合辑",
+              "type": "Template",
+              "command": false,
+              "templatePath": "000-箱的构造/templates/UTTU人物合辑.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{name}}：{{value}}"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "100-UTTU人物合辑"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": true
+              },
+              "appendLink": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": true,
+              "openFileInMode": "default",
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": true
+            }
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "000-箱的构造/templates",
   "announceUpdates": true,
-  "version": "1.13.2",
+  "version": "2.1.0",
   "disableOnlineFeatures": false,
   "enableRibbonIcon": false,
+  "showCaptureNotification": true,
   "ai": {
     "defaultModel": "gpt-3.5-turbo-1106",
     "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
@@ -620,6 +649,8 @@
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
     "setVersionAfterUpdateModalRelease": true,
-    "addDefaultAIProviders": true
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true
   }
 }

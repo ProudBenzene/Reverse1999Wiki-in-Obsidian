@@ -1,0 +1,29 @@
+formulas:
+  Untitled: ""
+  灵感: ""
+  Untitled 2: ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - contains(file.folder, "100")
+        - file.ext == "md"
+    order:
+      - file.name
+      - formula.Untitled 2
+    sort:
+      - column: file.folder
+        direction: ASC
+  - type: table
+    name: View
+    filters:
+      and:
+        - contains(file.folder, "100")
+        - contains(file.ext, "md")
+    order:
+      - file.name
+      - file.ctime
+      - file.size
+    columnSize:
+      file.ctime: 195

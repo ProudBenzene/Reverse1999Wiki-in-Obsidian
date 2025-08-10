@@ -20,6 +20,6 @@ Cover: "[[忧郁的热带.png]]"
 章节终点: 
 Serial: 2.2
 ---
-![cover](assets/忧郁的热带｜Tristes%20Tropiques.assets/忧郁的热带.png)
+![cover](忧郁的热带.png)
 
-![](assets/忧郁的热带｜Tristes%20Tropiques.assets/2.2版本海报.jpg)
+![](2.2版本海报.jpg)

@@ -1,13 +1,16 @@
 {
-  "attachmentFolderPath": "./assets/${filename}.assets",
+  "attachmentFolderPath": "./assets/${noteFileName}.assets",
   "attachmentRenameMode": "Only pasted images",
+  "collectAttachmentUsedByMultipleNotesMode": "Skip",
   "customTokensStr": "",
   "duplicateNameSeparator": " ",
   "emptyAttachmentFolderBehavior": "DeleteWithEmptyParents",
   "excludePaths": [],
-  "generatedAttachmentFilename": "image-${date:YYYYMMDDHHmmssSSS}",
+  "excludePathsFromAttachmentCollecting": [],
+  "generatedAttachmentFileName": "image-${date:YYYYMMDDHHmmssSSS}",
   "includePaths": [],
   "jpegQuality": 0.8,
+  "markdownUrlFormat": "",
   "shouldConvertPastedImagesToJpeg": false,
   "shouldDeleteOrphanAttachments": false,
   "shouldRenameAttachmentFiles": false,
@@ -19,5 +22,5 @@
   "treatAsAttachmentExtensions": [
     ".excalidraw.md"
   ],
-  "warningVersion": "7.0.0"
+  "warningVersion": "8.8.2"
 }
