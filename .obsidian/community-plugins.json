@@ -18,7 +18,6 @@
   "easy-typing-obsidian",
   "obsidian-custom-attachment-location",
   "obsidian-export-image",
-  "obsidian-footnotes",
   "float-search",
   "editing-toolbar",
   "folder-notes",
@@ -38,5 +37,8 @@
   "obsidian-quiet-outline",
   "obsidian-banners",
   "obsidian-icon-folder",
-  "obsidian42-brat"
+  "obsidian42-brat",
+  "animated-cursor",
+  "obsidian-footnotes",
+  "virtual-linker"
 ]

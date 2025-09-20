@@ -42,6 +42,26 @@
       "pluginRepoPath": "shabegom/buttons",
       "dismissedVersions": [
         {
+          "versionNumber": "0.9.13",
+          "versionName": "0.9.13",
+          "publishedAt": "2025-08-26T19:27:10Z"
+        },
+        {
+          "versionNumber": "0.9.10",
+          "versionName": "0.9.10",
+          "publishedAt": "2025-08-20T17:10:17Z"
+        },
+        {
+          "versionNumber": "0.9.11",
+          "versionName": "0.9.11",
+          "publishedAt": "2025-08-21T19:08:16Z"
+        },
+        {
+          "versionNumber": "0.9.12",
+          "versionName": "0.9.12",
+          "publishedAt": "2025-08-24T19:18:08Z"
+        },
+        {
           "versionNumber": "0.9.0",
           "versionName": "0.9.0 - Relative Line Numbers",
           "publishedAt": "2025-07-21T18:32:10Z"

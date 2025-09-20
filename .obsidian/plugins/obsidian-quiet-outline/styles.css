@@ -33,6 +33,9 @@
   overflow: hidden;
   flex: 1;
 }
+.quiet-outline .n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled).n-tree-node--pending {
+  background-color: unset;
+}
 .quiet-outline .n-tree.n-tree--block-line .n-tree-node:not(.n-tree-node--disabled):hover {
   color: var(--nav-item-color-active);
   background-color: var(--nav-item-background-active);

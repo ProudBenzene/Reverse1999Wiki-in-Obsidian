@@ -51,7 +51,9 @@
     "hideLinkList": true,
     "hideFolderOverview": false,
     "useActualLinks": false,
-    "fmtpIntegration": false
+    "fmtpIntegration": false,
+    "titleSize": 1,
+    "isInCallout": false
   },
   "useSubmenus": true,
   "syncMove": true,
@@ -111,5 +113,8 @@
     "afterRestart": true,
     "afterChangingTab": true
   },
-  "firstTimeInsertOverview": true
+  "firstTimeInsertOverview": true,
+  "fvGlobalSettings": {
+    "autoUpdateLinks": false
+  }
 }

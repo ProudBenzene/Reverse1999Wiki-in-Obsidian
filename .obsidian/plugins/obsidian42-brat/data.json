@@ -9,7 +9,7 @@
   "themesList": [
     {
       "repo": "CreArts-Community/CreArts-Obsidian",
-      "lastUpdate": "9071453"
+      "lastUpdate": "87934538"
     }
   ],
   "updateAtStartup": true,
@@ -20,5 +20,6 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
-  "personalAccessToken": ""
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false
 }

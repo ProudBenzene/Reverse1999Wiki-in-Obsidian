@@ -15,12 +15,12 @@
   "shouldDeleteOrphanAttachments": false,
   "shouldRenameAttachmentFiles": false,
   "shouldRenameAttachmentFolder": true,
-  "shouldRenameAttachmentsToLowerCase": false,
   "shouldRenameCollectedAttachments": false,
-  "specialCharacters": "#^[]|*\\<>:?",
+  "specialCharacters": "#^[]|*\\<>:?/",
   "specialCharactersReplacement": "-",
+  "timeoutInSeconds": 5,
   "treatAsAttachmentExtensions": [
     ".excalidraw.md"
   ],
-  "warningVersion": "8.8.2"
+  "version": "9.16.5"
 }
