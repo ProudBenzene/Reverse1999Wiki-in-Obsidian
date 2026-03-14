@@ -1,0 +1,25 @@
+---
+Chapter: 忧郁的热带
+English: Tristes Tropiques
+Era: "1990"
+tags:
+  - 主线
+cssclasses:
+  - book
+aliases:
+  - 忧郁的热带
+  - Tristes Tropiques
+  - 2.2｜忧郁的热带
+Cover: "[[忧郁的热带.png]]"
+海报寄语: 
+国服海报: "[[2.2版本海报.jpg]]"
+国际服海报: "[[2.2版本海报｜国际服.jpg]]"
+上线版本: "[[忧郁的热带｜Tristes Tropiques]]"
+上线时间: ""
+章节起点: 
+章节终点: 
+Serial: 2.2
+---
+![cover](忧郁的热带.png)
+
+![](2.2版本海报.jpg)

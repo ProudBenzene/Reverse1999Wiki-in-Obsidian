@@ -1,0 +1,425 @@
+
+.quiet-outline .n-tree {
+    padding-top: 5px;
+}
+
+/* RTL language support */
+.quiet-outline .n-tree .n-tree-node-content :is(p, h1, h2, h3, h4, h5) {
+    unicode-bidi: var(--f4d4e7c4);
+}
+
+/* ============ */
+/*  彩虹大纲线   */
+/* rainbow line */
+/* ============ */
+.quiet-outline .n-tree .n-tree-node-indent {
+    content: "";
+    height: unset;
+    align-self: stretch;
+}
+.quiet-outline .n-tree-node-indent {
+    position: relative;
+}
+.quiet-outline .n-tree-node-indent::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    right: 8px;
+}
+:is(
+    .quiet-outline .level-2 .n-tree-node-indent:first-child,
+    .quiet-outline .level-3 .n-tree-node-indent:first-child,
+    .quiet-outline .level-4 .n-tree-node-indent:first-child,
+    .quiet-outline .level-5 .n-tree-node-indent:first-child,
+    .quiet-outline .level-6 .n-tree-node-indent:first-child
+)::after {
+    border-right: var(--nav-indentation-guide-width) solid var(--v04832a3a);
+    /* border-right: 2px solid rgb(253, 139, 31, 0.6); */
+}
+:is(
+    .quiet-outline .level-3 .n-tree-node-indent:nth-child(2),
+    .quiet-outline .level-4 .n-tree-node-indent:nth-child(2),
+    .quiet-outline .level-5 .n-tree-node-indent:nth-child(2),
+    .quiet-outline .level-6 .n-tree-node-indent:nth-child(2)
+)::after {
+    border-right: var(--nav-indentation-guide-width) solid var(--v04832a38);
+    /* border-right: 2px solid rgb(255, 223, 0, 0.6); */
+}
+:is(
+    .quiet-outline .level-4 .n-tree-node-indent:nth-child(3),
+    .quiet-outline .level-5 .n-tree-node-indent:nth-child(3),
+    .quiet-outline .level-6 .n-tree-node-indent:nth-child(3)
+)::after {
+    border-right: var(--nav-indentation-guide-width) solid var(--v04832a36);
+    /* border-right: 2px solid rgb(7, 235, 35, 0.6); */
+}
+:is(
+    .quiet-outline .level-5 .n-tree-node-indent:nth-child(4),
+    .quiet-outline .level-6 .n-tree-node-indent:nth-child(4)
+)::after {
+    border-right: var(--nav-indentation-guide-width) solid var(--v04832a34);
+    /* border-right: 2px solid rgb(45, 143, 240, 0.6); */
+}
+.quiet-outline .level-6 .n-tree-node-indent:nth-child(5)::after {
+    border-right: var(--nav-indentation-guide-width) solid var(--v04832a32);
+    /* border-right: 2px solid rgb(188, 1, 226, 0.6); */
+}
+
+/* located heading*/
+.n-tree-node.located p {
+    color: var(--v1c14051a);
+}
+
+/* adjust indent */
+
+/* .quiet-outline .n-tree .n-tree-node .n-tree-node-content {
+    padding-left: 0;
+} */
+.quiet-outline .n-tree .n-tree-node .n-tree-node-content .n-tree-node-content__prefix {
+    margin-right: 0;
+}
+.quiet-outline .n-tree .n-tree-node .n-tree-node-content .n-tree-node-content__prefix > *:last-child {
+    margin-right: 8px;
+}
+.n-tree-node-switcher__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Tab Styles */
+/* Custom Style Variables */
+.quiet-outline {
+    --custom-font-size: var(--nav-item-size);
+    --custom-font-family: inherit;
+    --custom-font-weight: inherit;
+    --custom-line-height: 1.6em;
+    --custom-line-gap: 0px;
+    --h1-color: inherit;
+    --h2-color: inherit;
+    --h3-color: inherit;
+    --h4-color: inherit;
+    --h5-color: inherit;
+    --h6-color: inherit;
+}
+
+/* ConfirmModal: improve spacing/typography for a cleaner layout */
+.quiet-outline-confirm-modal {
+    /* Slightly increase line-height for multi-line warnings */
+    line-height: 1.5;
+}
+
+/* Title spacing */
+.quiet-outline-confirm-modal .modal-title {
+    margin-bottom: 8px;
+}
+
+/* Paragraph spacing (supports multi-paragraph messages) */
+.quiet-outline-confirm-modal p {
+    margin: 0;
+}
+
+/* Spacing between paragraphs */
+.quiet-outline-confirm-modal p + p {
+    margin-top: 10px;
+}
+
+/* ConfirmModal: right-aligned buttons with spacing + vertically centered icons */
+.quiet-outline-confirm-modal .quiet-outline-confirm-modal__buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+/* Make buttons feel consistent and aligned */
+.quiet-outline-confirm-modal .quiet-outline-confirm-modal__buttons button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+}
+
+/* Add spacing between icon and label, and keep the icon vertically centered */
+.quiet-outline-confirm-modal .quiet-outline-confirm-modal__btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+/* Fix SVG baseline alignment so it appears visually centered inside the button */
+.quiet-outline-confirm-modal .quiet-outline-confirm-modal__btn-icon svg {
+    display: block;
+}
+
+.quiet-outline-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--background-modifier-border);
+    margin-bottom: 16px;
+}
+
+.quiet-outline-tabs button {
+    background: none;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: var(--text-muted);
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    font-size: var(--font-ui-medium);
+}
+
+.quiet-outline-tabs button:hover {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+.quiet-outline-tabs button.active {
+    color: var(--text-accent);
+    border-bottom-color: var(--text-accent);
+    font-weight: var(--font-semibold);
+}
+
+.quiet-outline-tab-content {
+    min-height: 400px;
+}
+
+.quiet-outline .n-tree {
+    font-size: var(--custom-font-size);
+    font-family: var(--custom-font-family);
+    font-weight: var(--custom-font-weight);
+}
+
+.quiet-outline .n-tree-node-wrapper {
+    padding: 0px;
+}
+
+.quiet-outline .n-tree-node.n-tree-node--selectable {
+    align-items: center;
+}
+
+/* heading的间距，通过行高来设置 */
+/*  heading line spacing */
+.quiet-outline .n-tree-node .n-tree-node-content {
+    line-height: var(--custom-line-height);
+    min-height: 10px;
+    margin-bottom: var(--custom-line-gap);
+}
+
+.quiet-outline .n-tree-node-content__text p {
+    margin: 0;
+}
+
+/* ellipsis */
+.quiet-outline .n-tree.ellipsis {
+    overflow-x: hidden;
+}
+
+.quiet-outline .n-tree.ellipsis .n-tree-node .n-tree-node-content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.quiet-outline .n-tree.ellipsis .n-tree-node-content__text {
+    overflow: hidden;
+}
+
+.quiet-outline .n-tree.ellipsis .n-tree-node-content {
+    overflow: hidden;
+    flex: 1;
+}
+
+.quiet-outline
+    .n-tree.n-tree--block-line
+    .n-tree-node:not(.n-tree-node--disabled).n-tree-node--pending {
+    background-color: unset;
+}
+
+/* 悬浮时的背景颜色 */
+.quiet-outline
+    .n-tree.n-tree--block-line
+    .n-tree-node:not(.n-tree-node--disabled):hover {
+    color: var(--nav-item-color-active);
+    background-color: var(--nav-item-background-active);
+    font-weight: var(--nav-item-weight-active);
+}
+
+/* 功能栏 */
+.quiet-outline .function-bar {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.quiet-outline .function-bar .n-button {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.quiet-outline .function-bar .n-input {
+    flex: 1;
+    min-width: 10px;
+}
+
+/* avoid <input> style overriding by theme */
+.quiet-outline .function-bar input[type="text"] {
+    &:hover,
+    &:focus {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* 图标大小 */
+.quiet-outline .n-button__icon {
+    --n-icon-size: 22px;
+    font-size: 22px;
+}
+
+.quiet-outline .n-tree-node-content .n-input {
+    .n-input-wrapper {
+        padding: 0px;
+        /*padding-left: 4px;
+        padding-right: 4px;*/
+    }
+    .n-input__input-el {
+        line-height: var(--custom-line-height);
+        font-size: var(--custom-font-size);
+        height: var(--custom-line-height);
+    }
+}
+
+.quiet-outline code {
+    /* color:var(--text-color-code, var(--code-normal)); */
+    font-weight: bold;
+    /* font-size: var(--font-size-code, var(--code-size)); */
+    font-family: var(--font-monospace);
+    background-color: var(--code-background);
+    border-radius: var(--radius-s);
+}
+
+.quiet-outline a.tag {
+    white-space: nowrap;
+    padding: 0.2em 0.6em;
+}
+.quiet-outline a:not(.tag) {
+    color: var(--link-external-color);
+}
+.quiet-outline span.internal-link {
+    color: var(--link-color);
+}
+
+.quiet-outline mark {
+    background-color: var(--text-highlight-bg);
+    color: var(--text-normal);
+}
+
+/* ===================== */
+/* 对不同级别标题进行设置 */
+/* ===================== */
+.n-tree .n-tree-node-switcher {
+    height: 0px;
+}
+
+/* 设置除一级标题之外的所有标题 */
+/* setting h2-h6 */
+.quiet-outline [class*="level-"]:not(.level-1) .n-tree-node-content {
+    /*
+    color: red;
+    font-weight:bold;
+    */
+    font-size: 1em;
+}
+
+/* Custom font colors for different heading levels */
+.quiet-outline .level-1 .n-tree-node-content {
+    color: var(--h1-color);
+}
+
+.quiet-outline .level-2 .n-tree-node-content {
+    color: var(--h2-color);
+}
+
+.quiet-outline .level-3 .n-tree-node-content {
+    color: var(--h3-color);
+}
+
+.quiet-outline .level-4 .n-tree-node-content {
+    color: var(--h4-color);
+}
+
+.quiet-outline .level-5 .n-tree-node-content {
+    color: var(--h5-color);
+}
+
+.quiet-outline .level-6 .n-tree-node-content {
+    color: var(--h6-color);
+}
+
+/* location */
+.n-tree-node.located {
+    font-weight: bold !important;
+    :is(a) {
+        font-weight: bold !important;
+    }
+}
+/* .n-tree-node code {
+    font-weight: 500 !important;
+  } */
+.n-tree-node.located code {
+    font-weight: 1000 !important;
+}
+.n-tree-node.located mjx-math {
+    font-weight: bold !important;
+}
+
+.n-tree.n-tree--block-line
+    .n-tree-node:not(.n-tree-node--disabled).n-tree-node--selected {
+    background-color: transparent !important;
+}
+
+.n-tree.n-tree--block-line:focus
+    .n-tree-node:not(.n-tree-node--disabled).n-tree-node--selected {
+    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}
+
+.view-content:has(.quiet-outline) {
+    padding-bottom: 0px;
+}
+
+.quiet-outline .n-tree.n-tree--block-node.n-tree--block-line {
+    padding-bottom: var(--size-4-8);
+}
+
+/* 固定功能栏 */
+.quiet-outline {
+    height: 100%;
+}
+
+.quiet-outline .n-config-provider {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.quiet-outline .n-tree {
+    overflow: auto;
+    padding-inline: 2px;
+}
+
+/*remove 'no data'*/
+.n-tree__empty {
+    display: none;
+}
+
+/*fix content blur in canvas embed markdown*/
+.canvas-node .markdown-embed-content .is-flashing {
+    mix-blend-mode: normal;
+}
+
+/* experimental */
+/*$vite$:1*/

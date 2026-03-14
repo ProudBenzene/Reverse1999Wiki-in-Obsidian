@@ -1,0 +1,150 @@
+/* ! Export Image */
+/* Modified from https://github.com/zhouhua/obsidian-export-image/issues/82 by ProudBenzene */
+
+/* 外层背景 */
+.export-image-root.markdown-reading-view {
+    /* 好看的渐变背景色 */
+    /* background-color: var(--background-primary) !important; */
+
+    /* background-image: url("https://figure-bed123.oss-cn-beijing.aliyuncs.com/20250729133809916.png"); */
+    background: linear-gradient(45deg, #6f2cf6, #f80248);
+    
+    /* 相对定位，为红绿灯元素提供定位基准 */
+    position: relative;
+    
+    /* 增加上边距，为红绿灯预留空间 */
+    padding-top: 30px;
+}
+
+/* macOS 红绿灯按钮容器 - 在整张卡片左上角 */
+.export-image-root.markdown-reading-view::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 72px;
+    height: 16px;
+    background: 
+        /* 红色按钮 */
+        radial-gradient(circle at 8px 8px, #ff5f57 0%, #ff5f57 6px, transparent 6px),
+        /* 黄色按钮 */
+        radial-gradient(circle at 28px 8px, #ffbd2e 0%, #ffbd2e 6px, transparent 6px),
+        /* 绿色按钮 */
+        radial-gradient(circle at 48px 8px, #28ca42 0%, #28ca42 6px, transparent 6px);
+    z-index: 100;
+    /* 整体阴影效果 */
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+/* 移除原来的阴影层 */
+.export-image-root.markdown-reading-view::after {
+    display: none;
+}
+
+/* 把 inline title 显示出来 */
+.export-image-root .inline-title:not([data-level]) {
+    display: block !important;
+}
+
+.export-image-root.markdown-reading-view > div:first-child {
+    background-color: var(--background-secondary) !important;
+
+    border-radius: 16px;
+    margin: 2em;
+    
+    /* 多层半透明边框效果 - 玻璃质感 */
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    
+    /* 多层阴影效果 - 增强立体感和质感 */
+    box-shadow: 
+        /* 主要外阴影 - 投在背景上 */
+        0 12px 48px rgba(0, 0, 0, 0.5),
+        /* 次要外阴影 - 增加深度 */
+        0 4px 24px rgba(0, 0, 0, 0.4),
+        /* 内发光 - 边框内侧光泽 */
+        0 0 0 1px rgba(255, 255, 255, 0.6) inset,
+        /* 内阴影 - 增加凹陷感 */
+        0 2px 4px rgba(0, 0, 0, 0.2) inset;
+    
+    /* 背景模糊效果 - 毛玻璃质感 */
+    backdrop-filter: blur(10px);
+}
+
+.export-image-root.markdown-reading-view > div.user-info-container {
+    /* 透明背景 */
+    background-color: transparent !important;
+    border: none !important;
+
+    border-radius: 6px;
+    margin-top: 0;
+    margin-bottom: 0px;
+
+    /* box-shadow: 0 0px 6px #00000055; */
+}
+
+.user-info-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #ECE3D8;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+
+.export-image-root .user-info-name {
+    font-family: "杨任东竹石体", Rainbow Party;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fbf3ea;
+}
+
+.export-image-root .user-info-remark {
+    font-family: "方正手迹-如懿体 简", Rainbow Party;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* macOS 红绿灯按钮容器 */
+/*
+.export-image-root.markdown-reading-view > div:first-child::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 72px;
+    height: 16px;
+    background: 
+        /* 红色按钮 */
+/*
+        radial-gradient(circle at 8px 8px, #ff5f57 0%, #ff5f57 6px, transparent 6px),
+        /* 黄色按钮 */
+/*
+        radial-gradient(circle at 28px 8px, #ffbd2e 0%, #ffbd2e 6px, transparent 6px),
+        /* 绿色按钮 */
+/*
+        radial-gradient(circle at 48px 8px, #28ca42 0%, #28ca42 6px, transparent 6px);
+    z-index: 10;
+}
+
+/* 红绿灯按钮的微妙阴影 */
+/*
+.export-image-root.markdown-reading-view > div:first-child::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 72px;
+    height: 16px;
+    background: 
+        /* 红色按钮阴影 */
+/*
+        radial-gradient(circle at 8px 8px, rgba(255, 95, 87, 0.3) 0%, rgba(255, 95, 87, 0.3) 6px, transparent 6px),
+        /* 黄色按钮阴影 */
+/*
+        radial-gradient(circle at 28px 8px, rgba(255, 189, 46, 0.3) 0%, rgba(255, 189, 46, 0.3) 6px, transparent 6px),
+        /* 绿色按钮阴影 */
+/*
+        radial-gradient(circle at 48px 8px, rgba(40, 202, 66, 0.3) 0%, rgba(40, 202, 66, 0.3) 6px, transparent 6px);
+    z-index: 9;
+}

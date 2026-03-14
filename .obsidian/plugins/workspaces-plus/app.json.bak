@@ -1,0 +1,19 @@
+{
+  "showInlineTitle": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "defaultViewMode": "source",
+  "livePreview": true,
+  "attachmentFolderPath": "./assets/主页.assets",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": true,
+  "readableLineLength": false
+}

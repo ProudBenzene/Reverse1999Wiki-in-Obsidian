@@ -1,0 +1,19 @@
+{
+  "attachmentFolderPath": "./assets/主页.assets",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "showFrontmatter": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "vimMode": false,
+  "legacyEditor": false,
+  "livePreview": true
+}

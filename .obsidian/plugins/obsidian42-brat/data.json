@@ -1,0 +1,25 @@
+{
+  "pluginList": [
+    "yan42685/obsidian-clever-search",
+    "obsidian-canzi/Enhanced-editing",
+    "Yaozhuwa/AttachFlow",
+    "noatpad/obsidian-banners"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [
+    {
+      "repo": "CreArts-Community/CreArts-Obsidian",
+      "lastUpdate": "87934538"
+    }
+  ],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false
+}

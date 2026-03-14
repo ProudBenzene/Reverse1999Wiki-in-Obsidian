@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-export-image",
+	"name": "Export Image plugin",
+	"version": "2.4.4",
+	"minAppVersion": "1.4.0",
+	"description": "Easily convert your article to image.",
+	"author": "Zhou Hua",
+	"authorUrl": "",
+	"isDesktopOnly": false,
+	"sponsor": "https://ko-fi.com/zhouhua"
+}

@@ -1,0 +1,106 @@
+{
+  "config": {
+    "year": 2024,
+    "layout": "2x6",
+    "viewType": "list",
+    "showWeekdays": true,
+    "highlightToday": true,
+    "highlightWeekends": true,
+    "showLegend": true,
+    "limitListHeight": false,
+    "hideEmptyDates": true,
+    "eventFontSize": "medium",
+    "showHolidays": true,
+    "showBirthdays": true,
+    "showCustomEvents": true,
+    "showBasesEvents": true,
+    "mondayFirst": true,
+    "title": "",
+    "showEmojiBeforeTabName": "emoji",
+    "showTooltips": false,
+    "colorful": false,
+    "showLunarDay": false,
+    "showDebugInfo": false,
+    "presetColors": [
+      {
+        "label": "红色",
+        "value": "#FF2D55",
+        "enable": true,
+        "id": "red"
+      },
+      {
+        "label": "橙色",
+        "value": "#FF9500",
+        "enable": true,
+        "id": "orange"
+      },
+      {
+        "label": "黄色",
+        "value": "#FFCC00",
+        "enable": true,
+        "id": "yellow"
+      },
+      {
+        "label": "绿色",
+        "value": "#65DB39",
+        "enable": true,
+        "id": "green"
+      },
+      {
+        "label": "蓝色",
+        "value": "#34AADC",
+        "enable": true,
+        "id": "blue"
+      },
+      {
+        "label": "紫色",
+        "value": "#CC73E1",
+        "enable": true,
+        "id": "purple"
+      },
+      {
+        "label": "棕色",
+        "value": "#A2845E",
+        "enable": true,
+        "id": "brown"
+      }
+    ],
+    "emojiOnTop": false,
+    "wrapEventText": false,
+    "gregorianDisplayFormat": "YYYY-MM-DD",
+    "defaultBasesEventPath": "",
+    "basesEventTitleProp": "title",
+    "basesEventDateProp": "生日",
+    "basesEventDurationProp": "",
+    "basesEventIconProp": "icon",
+    "basesEventColorProp": "color",
+    "basesEventDescriptionProp": "description",
+    "dataVersion": 1773491512954
+  },
+  "data": {
+    "holidays": [],
+    "birthdays": [],
+    "customEvents": [
+      {
+        "id": "event-11bcb83b",
+        "text": "安装 YG 插件",
+        "eventDate": {
+          "isoDate": "2026-01-12",
+          "calendar": "GREGORIAN",
+          "userInput": {
+            "input": "2026-01-12",
+            "calendar": "GREGORIAN"
+          }
+        },
+        "emoji": "🎉",
+        "color": "#73d13d",
+        "isRepeat": false,
+        "remark": "欢迎使用 Yearly Glance 插件！这是一个示例事件。请根据需要隐藏或删除。",
+        "eventSource": "config",
+        "dateArr": [
+          "2026-01-12"
+        ]
+      }
+    ]
+  }
+}

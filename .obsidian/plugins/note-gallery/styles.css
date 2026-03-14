@@ -1,0 +1,147 @@
+/* ========================================================================= */
+/* customized styles react-masonry-css                                       */
+/* ========================================================================= */
+
+:root {
+  --gutter-size: 12px;
+  /* --note-card-font-size: 4pt; configured in react/index.tsx */
+}
+
+.masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: calc(var(--gutter-size) * -1); /* gutter size offset */
+  width: auto;
+}
+
+.masonry-grid_column {
+  padding-left: var(--gutter-size); /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.masonry-grid_column > div {
+  margin-bottom: var(--gutter-size);
+}
+
+.masonry-grid_column > div > img {
+  border-radius: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.note-card {
+  line-height: normal;
+  max-height: 330px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.note-card:hover {
+  border: 1px solid var(--interactive-accent);
+}
+
+.note-card hr {
+  border-top: 1px solid var(--background-secondary);
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.note-card .inline-title {
+  display: block !important;
+  font-size: 12pt;
+  font-weight: 600;
+  color: var(--h3-color);
+}
+
+.note-card .card-content {
+  position: relative;
+  min-height: 20px;
+  font-size: var(--note-card-font-size);
+}
+
+.note-card .card-content img {
+  max-width: 100%;
+}
+
+.note-card .card-content-wall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.note-card > img {
+  border-radius: 5px !important;
+}
+
+/* Styling of external elements */
+
+.view-content:has(div):has(.block-language-note-gallery) {
+  background-color: var(--background-secondary) !important;
+}
+
+.cm-embed-block:has(> div.block-language-note-gallery):hover {
+  box-shadow: unset !important;
+}
+
+.note-card li input[type="checkbox"] {
+  height: 8px;
+  width: 8px;
+  margin-inline-end: 3px;
+  margin-inline-start: -12px !important;
+}
+
+.note-card li input[type="checkbox"]:checked:after {
+  height: 8px;
+  width: 8px;
+}
+
+.note-card .markdown-preview-view {
+  font-size: var(--note-card-font-size);
+}
+
+.note-card .callout {
+  min-height: unset;
+  padding: 0;
+}
+
+.note-card .callout-title {
+  min-height: unset !important;
+}
+
+.note-card .callout-title-inner {
+  padding: var(--size-2-1) 0;
+}
+
+.note-card .callout-content {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+
+.note-card svg.svg-icon {
+  height: 8px;
+  width: 8px;
+}
+
+.note-card li img {
+  max-width: 100% !important;
+}
+
+.note-card .video-wrapper {
+  min-width: unset;
+  min-height: unset;
+}
+
+.note-card .embed-container {
+  min-width: unset;
+  min-height: unset;
+}

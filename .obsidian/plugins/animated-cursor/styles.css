@@ -1,0 +1,90 @@
+/* @settings
+
+name: Animated Cursor
+id: kotaindah55-animated-cursor
+settings:
+
+	-
+		id: cursor-move-speed
+		title: Cursor speed
+		description: The speed of each cursor movement in miliseconds.
+		type: variable-number
+		format: ms
+		default: 80
+	-
+		id: cursor-blink-rate
+		title: Blink rate
+		description: The length of a full cursor blink cycle in miliseconds.
+		type: variable-number
+		format: ms
+		default: 1000
+	-
+		id: cursor-blink-count
+		title: Blink count
+		description: The limit of blink counts in a sequence. Resetted each time it's moving. Stop blinking when it sets to 0.
+		type: variable-number
+		default: 10
+	-
+		id: cursor-blink-infinity
+		title: Infinity blinking
+		description: Whether the blinking is infinity. When turned on, "Blink count" setting doesn't have any effect.
+		type: class-toggle
+
+*/
+
+:root {
+	--cursor-move-speed: 80ms;
+	--cursor-move-easing: ease;
+	--cursor-blink-rate: 1000ms;
+	--cursor-blink-count: 10;
+	--cursor-blink-easing: ease-in-out;
+}
+
+@keyframes cm-cursor-blink {
+	0%, 40% {
+		opacity: 0;
+	}
+	80%, 100% {
+		opacity: 1;
+	}
+}
+
+.markdown-source-view.mod-cm6 .cm-content {
+	caret-color: transparent;
+}
+
+.cm-editor.cm-focused>.cm-scroller>.cm-cursorLayer.cm-blinkLayer,
+.cm-editor>.cm-scroller>.cm-cursorLayer.cm-overTableCell.cm-blinkLayer {
+	animation-name: cm-cursor-blink !important;
+	animation-duration: calc(var(--cursor-blink-rate) / 2) !important;
+	animation-timing-function: var(--cursor-blink-easing);
+	animation-direction: alternate-reverse;
+	animation-iteration-count: calc(var(--cursor-blink-count) * 2);
+}
+
+.cursor-blink-infinity .cm-editor.cm-focused>.cm-scroller>.cm-cursorLayer.cm-blinkLayer,
+.cursor-blink-infinity .cm-editor>.cm-scroller>.cm-cursorLayer.cm-overTableCell.cm-blinkLayer {
+	animation-iteration-count: infinite;
+}
+
+.cm-editor.cm-focused>.cm-scroller>.cm-cursorLayer:not(.cm-blinkLayer) {
+	animation-name: none !important;
+	animation-duration: 0 !important;
+	animation: none !important;
+}
+
+.table-cell-wrapper .cm-cursorLayer {
+	display: none;
+}
+
+.cm-editor .cm-cursor {
+	transition-property: transform, top, left;
+	transition-duration: var(--cursor-move-speed);
+	transition-timing-function: var(--cursor-move-easing);
+	border-left-width: 2px;
+}
+
+.cm-cursorLayer.cm-overTableCell .cm-cursor,
+.cm-hasTablePointed .cm-cursorLayer .cm-cursor {
+	display: block;
+}

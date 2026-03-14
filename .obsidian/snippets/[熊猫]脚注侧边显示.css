@@ -1,0 +1,117 @@
+/* @settings
+name: 【Footnote-熊猫】Sidebar Footnote 
+id: sidebar-footnote
+settings:
+  - id: sidebar-footnote-status
+    title: 侧边栏脚注的显示状态(Y/N)
+    type: class-toggle
+    default: true
+    addCommand: true
+  - id: sidebar-footnote-backref
+    title: 全局化脚注的跳转链接
+    description: 不显示跳转链接，而是点击脚注即跳转
+    type: class-toggle
+    default: true
+  - id: footnote-sidebar-position
+    title: 修改侧边栏脚注(footnote)的位置
+    type: class-select
+    default: footnote-sidebar-position-left
+    options:
+    - 
+        label: 居左
+        value: footnote-sidebar-position-left
+    - 
+        label: 居右
+        value: footnote-sidebar-position-right
+*/
+
+
+.sidebar-footnote-status.footnote-sidebar-position-left div:has(>section.footnotes) {
+  left: 20px;
+}
+
+.sidebar-footnote-status.footnote-sidebar-position-right div:has(>section.footnotes) {
+  right: 20px;
+}
+
+.sidebar-footnote-status.sidebar-footnote-backref {
+  .footnote-backref {
+    /*! 全局化 */
+    width: 90%;
+    height: 90%;
+    opacity: 0;
+  }
+}
+
+sup.footnote-ref {
+  font-size: medium;
+
+  &.is-flashing {
+    background-color: yellow !important;
+  }
+}
+
+.sidebar-footnote-status {
+
+  div:has(>section.footnotes) {
+    display: block;
+    position: fixed !important;
+    overflow: auto;
+    width: 450px;
+    /* height: 70vb; */
+    top: 20vb;
+    bottom: 20px;
+    background-color: var(--background-secondary);
+    border-radius: 10px;
+    counter-reset: footnote-counter;
+
+    .footnotes {
+      hr {
+        display: none;
+      }
+
+      /* 隐藏 */
+      ol {
+        list-style-type: none;
+        margin: 0px;
+
+        span:has(img) {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      li+li {
+        border-top: 2mm ridge var(--background-secondary);
+        ;
+      }
+
+      li::before {
+        counter-increment: footnote-counter;
+        content: "["counter(footnote-counter)"]：";
+        float: left;
+        color: var(--interactive-accent);
+        display: block;
+        width: fit-content;
+        height: fit-content;
+      }
+
+      li {
+        margin-left: 0px;
+        position: relative;
+
+        .footnote-backref {
+          display: block;
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          /*! 全局化 */
+          width: 90%;
+          height: 90%;
+          opacity: 0;
+        }
+      }
+
+    }
+  }
+}

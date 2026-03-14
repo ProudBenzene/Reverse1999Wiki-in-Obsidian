@@ -1,0 +1,8 @@
+.projects--gallery--card__media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top;
+	border-top-left-radius: var(--radius-s);
+	border-top-right-radius: var(--radius-s);
+}

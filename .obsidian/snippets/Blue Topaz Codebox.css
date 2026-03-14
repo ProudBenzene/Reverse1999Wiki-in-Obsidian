@@ -1,0 +1,795 @@
+/*
+/* @settings
+name: Blue Topaz Codebox Settings
+id: Blue-Topaz-Codebox-Highlight
+settings:
+  -
+    id: code-header-theme
+    title: Codebox Highlighting Theme
+    title.zh: 代码框高亮语法设置
+    type: heading
+    level: 1
+    collapsed: false
+  -
+    id: code-theme-selection
+    title: Codebox  highlighting  Theme
+    title.zh: 代码高亮主题
+    type: class-select
+    allowEmpty: false
+    default: code-theme-bt-default
+    options:
+      -
+        label: bt-default
+        value: code-theme-bt-default
+      -
+        label: Solarized Light
+        value: code-theme-solarized-light
+      -
+        label: Material Palenight
+        value: code-theme-material-palenight
+      -
+        label: Dracula
+        value: code-theme-dracula
+      -
+        label: Gruvbox Dark
+        value: code-theme-Gruvbox-dark
+      -
+        label: monokai
+        value: code-theme-monokai
+      -
+        label: sublime
+        value: code-theme-sublime
+      -
+        label: Custom
+        value: code-theme-custom
+  -
+    id: code-style-settings
+    title: Codebox style settings
+    title.zh: 代码框样式设置
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: mute-code-indent-line
+    title: Mute Codebox indent Line
+    title.zh: 取消代码块缩进参考线
+    type: class-toggle
+    default: false
+  -
+    id: code-line-number
+    title: Code box showing line numbers (Editing Mode)
+    title.zh: 代码显示行号 （编辑模式）
+    description: csslass declares code-line-number to be available for the current document
+    description.zh:  csslass 声明code-line-number 可对单篇note生效
+    type: class-toggle
+    default: false
+  -
+    id: whole-code-wrap
+    title: Code Wrap (Reading Mode)
+    title.zh: 代码换行 （阅读模式）
+    type: class-toggle
+    default: true
+  -
+    id: remove-language-type
+    title: Toggle showing types of code languages
+    title.zh: 移除阅读模式下代码名称
+    type: class-toggle
+    default: false
+  -
+    id: nowrap-edit-codebox
+    title: Non-wrap Codebox (Live Preview)
+    title.zh: 代码不换行 （Live Preview）
+    type: class-toggle
+    default: false
+  -
+    id: letter-space-code
+    title: Letter Spacing for Code
+    title.zh: 代码字间距
+    type: variable-number-slider
+    default: 0
+    min: 0
+    max: 2
+    step: 0.1
+  -
+    id: code-box-style-option
+    title: Codebox Style
+    type: class-select
+    allowEmpty: false
+    default: codebox-default-style
+    options:
+      -
+        label: Default
+        value: codebox-default-style
+      -
+        label: Frosted Glass
+        value: codebox-frosted-glass
+  -
+    id: blur-codebox-frosted-glass
+    title: Blur Radius (For Frosted Glass Style)
+    title.zh: 模糊程度 (毛玻璃效果)
+    type: variable-number-slider
+    default: 2
+    min: 0
+    max: 8
+    step: 1
+  -
+    id: code-background-colors
+    title: Codebox Highlighting background Colors
+    title.zh: 代码框高亮背景色设置
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: background-code
+    title: Codebox  Background Color
+    title.zh: 代码块背景色
+    type: variable-themed-color
+    format: hex
+    opacity: true
+    default-light: '#292d3e'
+    default-dark: '#292d3e'
+  -
+    id: muted-code-activeline-bg
+    title: Mute Codebox Active Line
+    title.zh: 取消代码块当前行高亮
+    type: class-toggle
+    default: false
+  -
+    id: code-active-line-background-color
+    title: Codebox Active Line Background-Color
+    title.zh: 代码块当前行背景色
+    type: variable-themed-color
+    format: hex
+    opacity: true
+    default-light: '#353a50'
+    default-dark: '#353a50'
+  -
+    id: code-selection-background
+    title: Codebox  Selection Line Background-Color
+    title.zh: 代码块选中背景色
+    type: variable-themed-color
+    format: hex
+    opacity: true
+    default-light: '#353a50'
+    default-dark: '#353a50'
+  -
+    id: code-block-colors
+    title: Custom Codebox Syntax Highlighting  Colors
+    title.zh: 自定义语法高亮颜色
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: code-normal
+    title: Code Block normal Color
+    description: Code Normal Font Color
+    description.zh: 代码框普通字体颜色
+    type: variable-themed-color
+    format: hex
+    opacity: true
+    default-light: '#d4d4d4'
+    default-dark: '#d4d4d4'
+  -
+    id: code-keyword
+    title: Code Block Keyword Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#c792ea'
+    default-dark: '#c792ea'
+  -
+    id: code-value
+    title: Code Block Number Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#ff5370'
+    default-dark: '#ff5370'
+  -
+    id: code-type
+    title: Code Block Type Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#decb6b'
+    default-dark: '#decb6b'
+  -
+    id: code-property
+    title: Code Block Property Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#c792ea'
+    default-dark: '#c792ea'
+  -
+    id: code-variable
+    title: Code Block Variable Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#f07178'
+    default-dark: '#f07178'
+  -
+    id: code-variable-2
+    title: Code Block Variable-2 Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#eeffff'
+    default-dark: '#eeffff'
+  -
+    id: code-variable-3
+    title: Code Block Variable-3 Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#f07178'
+    default-dark: '#f07178'
+  -
+    id: code-qualifier
+    title: Code Block Qualifier Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#decb6b'
+    default-dark: '#decb6b'
+  -
+    id: code-operator
+    title: Code Block Operator Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#89ddff'
+    default-dark: '#89ddff'
+  -
+    id: code-hr
+    title: Code Block HR Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#98e342'
+    default-dark: '#98e342'
+  -
+    id: code-builtin
+    title: Code Block Builtin Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#ffcb6b'
+    default-dark: '#ffcb6b'
+  -
+    id: code-tag
+    title: Code Block Tag Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#ff5370'
+    default-dark: '#ff5370'
+  -
+    id: code-string-2
+    title: Code Block String-2 Color
+    description: class-name
+    type: variable-themed-color
+    format: hex
+    default-light: '#f07178'
+    default-dark: '#f07178'
+  -
+    id: code-punctuation
+    title: Code Block punctuation Color
+    description: code punctuation,bracket color
+    type: variable-themed-color
+    format: hex
+    default-light: '#ff5370'
+    default-dark: '#ff5370'
+  -
+    id: code-comment
+    title: Code Block Comment Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#676e95'
+    default-dark: '#676e95'
+  -
+    id: code-string
+    title: Code Block String Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#c3e88d'
+    default-dark: '#c3e88d'
+  -
+    id: code-attribute
+    title: Code Block Attribute Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#c792ea'
+    default-dark: '#c792ea'
+  -
+    id: code-function
+    title: Code Block function Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#c792ea'
+    default-dark: '#c792ea'
+  -
+    id: code-important
+    title: Code Block important Color
+    type: variable-themed-color
+    format: hex
+    default-light: '#c792ea'
+    default-dark: '#c792ea'
+  -
+    id: cm-atom
+    title: Code Block Atom Color
+    description: Frontmatter keys color
+    type: variable-themed-color
+    format: hex
+    default-light: '#f78c6c'
+    default-dark: '#f78c6c'
+  -
+    id: code-meta
+    title: Code Block Meta Color
+    description: Frontmatter punctuation color
+    type: variable-themed-color
+    format: hex
+    default-light: '#ffcb6b'
+    default-dark: '#ffcb6b'
+  -
+    id: code-language
+    title: Code Block language Color
+    description: code block language color
+    type: variable-themed-color
+    format: hex
+    default-light: '#ff5370'
+    default-dark: '#ff5370'
+  -
+*/
+
+/*******codebox settings*******/
+/* ================================== */
+/* ===== editor syntax highlight ==== */
+/* ================================== */
+body.theme-dark {
+--code-tag: var(--red);
+}
+body {
+--code-selection-background: var(--text-selection);
+--code-selection-color: var(--code-normal);
+--code-type: var(--code-function);
+--code-qualifier: var(--aqua);
+--code-property: var(--blue);
+--code-value: var(--green);
+--code-tag: var( --purple);
+--code-operator: var(--code-property);
+--code-hr: var(--code-punctuation);
+--code-string-2: var(--code-string);
+--code-language: var(--text-muted);
+--code-attribute: var(--code-function);
+--code-atom: var(--orange-1);
+--code-comment: var(--darkgreen);
+}
+
+
+:root,
+.code-theme-custom {
+/* material: palenight theme */
+--code-keyword: #c792ea;
+--code-atom: #f78c6c;
+--code-number: #ff5370;
+--code-type: #decb6b;
+--code-def: #82aaff;
+--code-property: #c792ea;
+--code-variable: #f07178;
+--code-variable-2: #53ada3;
+--code-variable-3: #e7852fe7;
+--code-definition: #82aaff;
+--code-callee: #89ddff;
+--code-qualifier: #decb6b;
+--code-operator: #89ddff;
+--code-hr: #98e342;
+--code-link: #696d70;
+--code-error-bg: #ff5370;
+--code-header: #da7dae;
+--code-builtin: #ffcb6b;
+--code-meta: #ffcb6b;
+--code-matching-bracket: #ffffff;
+--code-tag: #ff5370;
+--code-tag-in-comment: #ff5370;
+--code-string-2: #f07178;
+--code-bracket: #ff5370;
+--code-comment: #676e95;
+--code-string: #c3e88d;
+--code-attribute: #c792ea;
+--code-attribute-in-comment: #c792ea;
+--background-code: #292d3e;
+--code-normal: #d4d4d4;
+}
+.theme-light,
+.theme-dark {
+--code-active-line-background-color: var(--activeline-background);
+}
+
+.code-theme-custom {
+--code-active-line-background-color: #353a50c2;
+}
+
+body.theme-light.code-theme-material-palenight,
+body.theme-dark.code-theme-material-palenight {
+/* material: palenight theme */
+--code-keyword: #c792ea;
+--code-atom: #f78c6c;
+--code-number: #ff5370;
+--code-type: #decb6b;
+--code-def: #82aaff;
+--code-property: #c792ea;
+--code-variable: #f07178;
+--code-variable-2: #eeffff;
+--code-variable-3: #f07178;
+--code-definition: #82aaff;
+--code-callee: #89ddff;
+--code-qualifier: #decb6b;
+--code-operator: #89ddff;
+--code-hr: #98e342;
+--code-link: #696d70;
+--code-error-bg: #ff5370;
+--code-header: #da7dae;
+--code-builtin: #ffcb6b;
+--code-meta: #ffcb6b;
+--code-matching-bracket: #ffffff;
+--code-tag: #ff5370;
+--code-tag-in-comment: #ff5370;
+--code-string-2: #f07178;
+--code-bracket: #ff5370;
+--code-comment: #676e95;
+--code-string: #c3e88d;
+--code-attribute: #c792ea;
+--code-attribute-in-comment: #c792ea;
+--background-code: #292d3eba;
+--code-active-line-background-color: #353a50;
+--code-normal: #d4d4d4;
+}
+
+body.theme-light.code-theme-solarized-light,
+body.theme-dark.code-theme-solarized-light {
+/* solarized */
+--code-keyword: #cb4b16;
+--code-atom: #d33682;
+--code-number: #d33682;
+--code-type: #6c71c4;
+--code-def: #2aa198;
+--code-property: #2aa198;
+--code-variable: #839496;
+--code-variable-2: #b58900;
+--code-variable-3: #6c71c4;
+--code-function: var(--code-def) ;
+--code-definition: #82aaff;
+--code-callee: #89ddff;
+--code-qualifier: #b58900;
+--code-operator: #6c71c4;
+--code-hr: #98e342;
+--code-link: #93a1a1;
+--code-error-bg: #ff5370;
+--code-header: #586e75;
+--code-builtin: #d33682;
+--code-meta: #859900;
+--code-matching-bracket: #859900;
+--code-tag: #93a1a1;
+--code-tag-in-comment: #ff5370;
+--code-string-2: #b58900;
+--code-bracket: #cb4b16;
+--code-comment: #586e75;
+--code-string: #859900;
+--code-attribute: #2aa198;
+--code-attribute-in-comment: #c792ea;
+--background-code: #fdf6e3e1;
+--code-active-line-background-color: #fffcf4;
+--code-normal: #657b83;
+}
+
+body.theme-dark.code-theme-bt-default {
+--background-code: #1111118c;
+--code-variable: var(--red) ;
+--code-normal: #ebdbb2;
+--code-comment: var(--darkgreen) ;
+--code-function: var(--light-yellow) ;
+--code-important:  var(--darkblue);
+--code-keyword: var(--darkblue);;
+--code-operator: #a89984;
+--code-property: var(--blue) ;
+--code-punctuation: var(--gray-2) ;
+--code-string: var(--green) ;
+--code-tag: var(--red) ;
+--code-value:  var(--green) ;
+--code-string-2:var(--yellow) ;
+--code-active-line-background-color: #111111eb;
+}
+body.theme-light.code-theme-bt-default {
+--code-keyword:var(--blue-green);
+--code-tag: var(--purple);
+--code-function: var(--red);
+--code-important:  var(--blue-green);
+--code-active-line-background-color: var(--activeline-background);
+--code-string-2: var(--orange-1);
+--code-variable-2: var(--light-purple);
+--code-meta: var(--text-faint);
+}
+
+body.code-theme-Gruvbox-dark {
+--code-selection-color: #fbf1c7;
+--code-selection-background: #7c6f6456;
+--code-active-line-background-color: #533c3cee;
+--background-code: #1d2021c6;
+--code-variable:  var(--code-property);
+--code-normal: #ebdbb2;
+--code-comment: #a89984;
+--code-function: #fabd2f;
+--code-important:  #fb4934;
+--code-keyword: #fb4934;
+--code-operator: #a89984;
+--code-property: #fb4934;
+--code-punctuation: #a89984;
+--code-string: #b8bb26;
+--code-tag: #fabd2f;
+--code-value:  #d3869b;
+--code-meta:var(--code-comment);
+}
+
+body.theme-light.code-theme-dracula {
+--background-code: #e6e6e671;
+--code-normal: var(--tex-normal);
+--code-string: var(--orange) ;
+--code-string-2: var(--orange-1) ;
+--code-variable: var(--blue-green);
+--code-variable-2: var(--light-purple) ;
+--code-meta: var(--text-faint);
+--code-active-line-background-color:#dee1b9a5;
+}
+body.code-theme-dracula {
+--background-code: #282a36c0;
+--code-normal: #f8f8f2;
+--code-comment: #6272a4;
+--code-string: #f1fa8c;
+--code-string-2: #ffb86c;;
+--code-number: #bd93f9;
+--code-variable: #50fa7b;
+--code-variable-2: #ffffff;
+--code-def: #50fa7b;
+--code-operator: #8be9fd;
+--code-keyword: #ff79c6;
+--code-atom: #bd93f9;
+--code-meta: #f8f8f2;
+--code-tag: #ff79c6;
+--code-attribute: #50fa7b;
+--code-qualifier: #50fa7b;
+--code-property: #66d9ef;
+--code-builtin: #50fa7b;
+--code-variable-3: #dc8e3b;
+--code-type: #ffb86c;
+--code-active-line-background-color: #414458;
+--code-matchingbracket: #fffff;
+}
+body.theme-light.code-theme-monokai
+{
+--code-comment: #aca47a;
+
+}
+body.code-theme-monokai {
+--background-code: #272822d9;
+--code-normal: #F8F8F2;
+--code-keyword:#F92772;
+--code-value: #AE81FF;
+--code-string-2:#E6DB74;
+--code-comment: #75715E;
+--code-active-line-background-color: #17013f9f;
+}
+body.code-theme-sublime
+{
+--code-operator: #9a6e3a;
+--code-variable: #5180de;
+--code-keyword: #EA5E66;
+--code-string: #40bf31;
+--code-function: #F9AE58;
+--code-string-2: #F9AE58;
+--code-type: #F9AE58;
+--code-def: #F9AE58;
+}
+
+
+.cm-s-obsidian span.cm-variable {
+color: var(--code-variable);
+}
+.cm-s-obsidian span.cm-variable-2 {
+color: var(--code-variable-2);
+}
+
+.cm-s-obsidian span.cm-variable-3 {
+color: var(---code-variable-3);
+}
+.token.class,
+.token.class-name {
+color: var(--code-string-2) ;
+}
+
+span.cm-variable + .cm-hmd-codeblock + span.cm-variable
+{
+color: var(--code-variable-2);
+}
+
+span.cm-variable + .cm-hmd-codeblock + span.cm-variable + .cm-hmd-codeblock + span.cm-variable
+{
+color: var(--code-variable-3);
+}
+span.cm-type {
+color: var(--code-keyword);
+}
+span.cm-def
+{
+color:var(--code-function);
+}
+.cm-type {
+color: var(--code-type);
+}
+.token.atrule,
+.token.attr-value,
+.cm-property,
+.cm-attribute {
+color: var(--code-attribute);
+}
+
+.cm-qualifier
+{
+color: var(--code-qualifier);
+}
+
+.cm-operator
+{
+color:var(--code-operator);
+}
+
+.cm-hr {
+color: var(--code-hr);
+}
+.cm-string-2 {
+color: var(--code-string-2);
+}
+
+.cm-s-obsidian .cm-hmd-frontmatter.cm-atom,
+.cm-s-obsidian .cm-templater-command.cm-atom,
+.cm-s-obsidian .cm-math.cm-atom,
+.cm-s-obsidian .HyperMD-codeblock .cm-atom,
+.markdown-preview-view pre.cm-s-obsidian .cm-atom {
+color: var(--code-atom);
+}
+
+
+.cm-s-obsidian .cm-hmd-frontmatter.cm-meta,
+.cm-s-obsidian .cm-templater-command.cm-meta,
+.cm-s-obsidian .cm-math.cm-meta,
+.cm-s-obsidian .HyperMD-codeblock .cm-meta,
+.markdown-preview-view pre.cm-s-obsidian .cm-meta {
+color: var(--code-meta);
+}
+
+.cm-s-obsidian .cm-hmd-frontmatter.cm-builtin,
+.cm-s-obsidian .cm-templater-command.cm-builtin,
+.cm-s-obsidian .cm-math.cm-builtin,
+.cm-s-obsidian .HyperMD-codeblock .cm-builtin,
+.markdown-preview-view pre.cm-s-obsidian .cm-builtin,
+.markdown-preview-view pre code span.builtin  {
+color: var(--code-builtin);
+}
+
+
+.markdown-preview-view pre code span.class {
+color: var(--code-qualifier);
+}
+
+.markdown-preview-view pre code span.function {
+color: var(--code-function);
+}
+
+.markdown-preview-view pre code span.punctuation {
+color: var(--code-punctuation);
+}
+
+.markdown-preview-view pre code span.operator {
+color: var(--code-operator);
+background: transparent;
+}
+
+.markdown-preview-view pre code span.entity {
+color: var(--code-attribute);
+}
+
+.markdown-preview-view pre code span.parameter {
+color: var(--code-property);
+}
+
+.markdown-preview-view pre code span.property {
+color: var(--code-property);
+}
+
+.markdown-preview-view pre code span.important {
+color: var(--code-important);
+}
+
+.markdown-preview-view pre code span.attr-name {
+color: var(--code-tag);
+}
+
+.markdown-preview-view pre code span.attr-value {
+color: var(--code-string);
+}
+
+.markdown-preview-view pre code span.builtin {
+color: var(--code-builtin);
+}
+
+.markdown-preview-view pre code span.unit {
+color: var(--code-value);
+}
+
+.markdown-preview-view  span.token.macro-name {
+color: var(--code-important);
+}
+
+span.token.directive-hash {
+color: var(--code-tag);
+}
+.cm-s-obsidian span.cm-comment {
+color: var(--code-comment);
+}
+
+.muted-code-activeline-bg .markdown-source-view.cm-s-obsidian.mod-cm6 .cm-active.cm-line.HyperMD-codeblock-bg  {
+background-color: var(--background-code) !important;
+}
+.muted-code-activeline-bg .markdown-source-view.cm-s-obsidian.mod-cm6 .cm-active.cm-line.HyperMD-codeblock-bg::before  {
+background-color: unset !important;
+}
+.markdown-source-view.cm-s-obsidian.mod-cm6 .cm-active.cm-line.HyperMD-codeblock-bg::before {
+display: none;
+}
+.markdown-source-view.cm-s-obsidian.mod-cm6 .cm-active.cm-line.HyperMD-codeblock-bg {
+background-color: var(--code-active-line-background-color);
+--text-selection:var(--code-selection-background);
+z-index: -1;
+}
+
+
+pre code[class*="language-"] {
+padding: 1em 0.5em;
+}
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+color: var(--code-selection-color);
+background: var(--code-active-line-background-color);
+}
+
+/*Advanced Codeblock */
+.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line span.live-preview-codeblock-line-nums {
+margin-left: -1.5em;
+}
+
+
+.code-line-number .HyperMD-codeblock-begin {
+counter-reset: line-numbers;
+}
+
+.code-line-number .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end) {
+padding-left: 3em;
+position: relative;
+}
+
+.code-line-number .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
+align-items: flex-start;
+color: var(--text-faint);
+content: counter(line-numbers);
+counter-increment: line-numbers;
+display: flex;
+font-size: 0.8em;
+height: 100%;
+justify-content: flex-end;
+left: 0;
+position: absolute;
+text-align: right;
+width: 2em;
+padding-right: 0.5em;
+bottom: -2px;
+border-right: 1px solid var(--scrollbar-thumb-bg);
+}
+
+.code-line-number .HyperMD-codeblock.cm-line.cm-active:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
+color: var(--color-accent);
+}
+
+.code-line-number .HyperMD-codeblock .cm-foldPlaceholder::before {
+display: none;
+}
