@@ -8,8 +8,8 @@ Partial style(s) is(are) sourced or adapted from Blue Topaz (https://github.com/
 
 */
 
-/*蓝色托帕石，适合Obsidian v1.5.0。uid [20241106] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
-/*Blue Topaz for Obsidian v1.5.0, uid [20241106] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+/*蓝色托帕石，适合Obsidian v1.5.0。uid [2026011401] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v1.5.0, uid [2026011401] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
 
 /*
 MIT License
@@ -925,16 +925,6 @@ settings:
     default-light: '#'
     default-dark: '#'
   -
-    id: mjx-inline-math-color
-    title: Color of mathematical expressions (inline $x=0$)
-    title.zh: 数学表达式颜色(行内 $x=0$)
-    description: --mjx-inline-math-color
-    type: variable-themed-color
-    opacity: true
-    format: hex
-    default-light: '#'
-    default-dark: '#'
-  -
     id: search-result-file-matched-bg
     title: File search result highlight color
     title.zh: 文件搜索结果高亮
@@ -1251,7 +1241,7 @@ settings:
     title: Codeblock
     title.zh: 代码框字体大小
     type: variable-text
-    default: 1em
+    default: 0.825em
   -
     id: font-size-latex
     title: Mathematical expressions
@@ -5384,7 +5374,7 @@ body {
   --font-size-preview-blockquote: 1em;
   --font-size-edit-blockquote: 1em;
   --font-size-outline:var(--nav-item-size);
-  --font-size-code: 1em;
+  --font-size-code: 0.825em;
   --font-size-latex: 1em;
   --font-size-cloze: 0.9375em;
   --font-size-better-footnote: 1.3em;
@@ -5403,7 +5393,7 @@ body {
   --h3-font: var(--font-text),var(--font-default);
   --h4-font: var(--font-text),var(--font-default);
   --font-family-title: ;/*文件抬头标题*/
-  --font-family-folder-file-title: Arlrdbd, "Source Han Sans", "Noto Sans CJK", "Source Sans Pro", "Segoe UI Emoji", sans-serif;/*左侧边栏文件、文件夹字体*/
+  --font-family-folder-file-title: var(--font-text-override),Arlrdbd, "Source Han Sans", "Noto Sans CJK", "Source Sans Pro", "Segoe UI Emoji", sans-serif;/*左侧边栏文件、文件夹字体*/
   --font-monospace-theme: 'JetBrains Mono', Consolas, Monaco, "等距更纱黑体 SC", "Source Han Mono", "Microsoft Yahei Mono", "Segoe UI Emoji", "Microsoft YaHei", "Source Code Pro", monospace;
   --font-family-inline-code: var(--font-monospace-override), var(--font-monospace-theme);
   --font-family-tag: Bookerly, 'Inter', "Segoe UI", "Microsoft YaHei", STzhongsong, STSong, "Segoe UI Emoji", Serif;
@@ -5624,6 +5614,10 @@ body {
   --thino-background-dark-custom:url("https://");
  
   --share-card-background-opacity-cp:0.6;
+
+
+   --table-text-size: calc(var(--font-text-size) * 0.9375);
+
 }
 
 
@@ -5765,6 +5759,7 @@ body.all-dark-pdf .print,
   --h5-color: var(--print-h5-color,hsl(258, 79%, 77%));
   --h6-color: var(--print-h6-color,hsl(290, 85%, 81%));
 
+   --hr-color:var(--color-base-10);
   --graph-text-color: #B5B5B5;
   --graph-tag: #88d842bb;
   --graph-attach: #b2cfe0bb;
@@ -7754,7 +7749,6 @@ body.color-scheme-options-flamingo.theme-light .admonition {
 
 body.color-scheme-options-flamingo.theme-light {
   --font-family-vault: Arlrdbd, 'Source Han Sans', 'Noto Sans CJK', 'Source Sans Pro' !important; /*左侧库名字体*/
-  --font-family-folder-file-title: Arlrdbd, 'Source Han Sans', 'Noto Sans CJK', 'Source Sans Pro' !important;/*左侧边栏文件、文件夹字体*/
 }
 
 body.color-scheme-options-flamingo.theme-light .tag[href^="#DailyNote"] {
@@ -11636,8 +11630,9 @@ span.search-result-file-matched-text {
   padding-left: 15px;
 }
 
-span.obsidian-search-match-highlight {
+.cm-s-obsidian span.obsidian-search-match-highlight {
   background-color: var(--text-search-highlight-bg) !important;
+  mix-blend-mode:unset;
 }
 
 .search-result-file-match:after {
@@ -13121,6 +13116,7 @@ code[class*="language-"] ::selection {
   padding-right: 0.5em;
   bottom: -2px;
   border-right: 1px solid var(--scrollbar-thumb-bg);
+  text-indent: 0;
 }
 
 .code-line-number .HyperMD-codeblock.cm-line.cm-active:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
@@ -13254,7 +13250,7 @@ code[class*="language-"] ::selection {
   white-space: pre-wrap;
 }
 
-.markdown-source-view.mod-cm6 .HyperMD-list-line.cm-line {
+.markdown-source-view.mod-cm6 .HyperMD-list-line.cm-line:not(.HyperMD-codeblock) {
   font-family: var(--font-family-list);
 }
 
@@ -14104,17 +14100,19 @@ body.table-style-three .markdown-source-view table tbody>tr {
 .markdown-source-view.mod-cm6.fullwidth .cm-contentContainer > div,
 .markdown-source-view.mod-cm6.fullwidth .cm-contentContainer > div.cm-content {
   max-width: 100%;
-  
 }
- 
-
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)   .markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer .inline-title,
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)   .markdown-source-view.mod-cm6.is-readable-line-width .metadata-container
+{
+  margin-left: calc((100% - var(--file-line-width)) / 2);
+}
 
 :is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer,
 :is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl) .cm-contentContainer,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer > div,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer > div.cm-content,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer > div.cm-content .cm-table-widge
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer,
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div,
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div.cm-content,
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div.cm-content .cm-table-widge
 {
   max-width: 100%;
  
@@ -14127,22 +14125,22 @@ body.table-style-three .markdown-source-view table tbody>tr {
 }
 
 /*	Editing View -- set all divs back to normal width (ensuring specificity rule over some theme), then	expand to full-width for each selected css class */
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) div.markdown-source-view.mod-cm6 .cm-contentContainer > div > div,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)  div.markdown-source-view.mod-cm6 .cm-contentContainer > div > .cm-line {
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) div.markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div,
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)  div.markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > .cm-line {
   max-width: var(--file-line-width);
   margin-inline: auto !important;
 } /* important for margin needed because app.css:2842 use it */
 
-body.full-width-dvtable .markdown-source-view.mod-cm6 .cm-contentContainer > div > div.cm-preview-code-block:not(.admonition-parent),
-body.full-width-dvtable .markdown-source-view.mod-cm6 .cm-contentContainer > div > div.cm-preview-code-block>.block-language-dataviewjs ,
-body.full-width-dvtable .markdown-source-view.mod-cm6 .cm-contentContainer > div > div.cm-preview-code-block>.block-language-dataview ,
-body.full-width-table .markdown-source-view.mod-cm6 .cm-contentContainer > div > div:is(.HyperMD-table-row, .cm-table-widget),
-body.full-width-callout .markdown-source-view.mod-cm6 .cm-contentContainer > div > div:is(.cm-callout,.admonition-parent),
-body.full-width-backlinks .markdown-source-view.mod-cm6 .cm-contentContainer > div:is(.embedded-backlinks) > div {
+body.full-width-dvtable .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div.cm-preview-code-block:not(.admonition-parent),
+body.full-width-dvtable .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div.cm-preview-code-block>.block-language-dataviewjs ,
+body.full-width-dvtable .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div.cm-preview-code-block>.block-language-dataview ,
+body.full-width-table .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div:is(.HyperMD-table-row, .cm-table-widget),
+body.full-width-callout .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div:is(.cm-callout,.admonition-parent),
+body.full-width-backlinks .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div:is(.embedded-backlinks) > div {
   max-width: 100%;
 }
 
-body.full-width-dvtable .markdown-source-view.mod-cm6 .cm-contentContainer > div > div.cm-preview-code-block>div[class^="block-language"]:not([class^="block-language-dataview"])
+body.full-width-dvtable .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div.cm-preview-code-block>div[class^="block-language"]:not([class^="block-language-dataview"])
 {
   max-width: var(--file-line-width);
   margin-inline: auto;
@@ -14168,10 +14166,10 @@ body.full-width-backlinks .markdown-preview-view .markdown-preview-sizer.markdow
 /*modified from https://github.com/efemkay */
 
 /*	Editing View -- set Readable Line Length (RLL) to wide (100%) for any css class with "wide" word in it. / "width:100%" added for Blue Topaz / div.cm-content added to override Mado 11 */
-div[class*="wide-"].markdown-source-view.mod-cm6 .cm-contentContainer,
-div[class*="wide-"].markdown-source-view.mod-cm6 .cm-contentContainer > div,
-div[class*="wide-"].markdown-source-view.mod-cm6 .cm-contentContainer > div.cm-content,
-div[class*="wide-"].markdown-source-view.mod-cm6 .cm-contentContainer > div.cm-content .cm-table-widget {
+div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer,
+div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div,
+div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div.cm-content,
+div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div.cm-content .cm-table-widget {
   max-width: 100%;
   /* width: 100%;  ob1.0*/
 }
@@ -14186,19 +14184,19 @@ div[class*="wide-"].markdown-preview-view .markdown-preview-sizer.markdown-previ
 
 /* === Wide Dataview, Table & Backlink === */
 /*	Editing View -- set all divs back to normal width (ensuring specificity rule over some theme), then expand to full-width for each selected css class (i.e. wide-dataview, wide-table and wide-backlinks) */
-div.markdown-source-view.mod-cm6:is(.wide-dataview,.wide-table,.wide-backlinks,.wide-callout) .cm-contentContainer > div > div,
-div.markdown-source-view.mod-cm6:is(.wide-dataview,.wide-table,.wide-backlinks,.wide-callout) .cm-contentContainer > div > .cm-line {
+div.markdown-source-view.mod-cm6.is-readable-line-width:is(.wide-dataview,.wide-table,.wide-backlinks,.wide-callout) .cm-contentContainer > div > div,
+div.markdown-source-view.mod-cm6.is-readable-line-width:is(.wide-dataview,.wide-table,.wide-backlinks,.wide-callout) .cm-contentContainer > div > .cm-line {
   max-width: var(--file-line-width);
   margin-inline: auto !important;
 } /* important for margin needed because app.css:2842 use it */
-div[class*="-dataview"].markdown-source-view.mod-cm6 .cm-contentContainer > div > div.cm-preview-code-block:not(.admonition-parent),
-div[class*="-table"].markdown-source-view.mod-cm6 .cm-contentContainer > div > div:is(.HyperMD-table-row, .cm-table-widget),
-div[class*="-callout"].markdown-source-view.mod-cm6 .cm-contentContainer > div > div:is(.cm-callout,.admonition-parent),
-div[class*="-backlinks"].markdown-source-view.mod-cm6 .cm-contentContainer > div:is(.embedded-backlinks) > div {
+div[class*="-dataview"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div.cm-preview-code-block:not(.admonition-parent),
+div[class*="-table"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div:is(.HyperMD-table-row, .cm-table-widget),
+div[class*="-callout"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div:is(.cm-callout,.admonition-parent),
+div[class*="-backlinks"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div:is(.embedded-backlinks) > div {
   max-width: 100%;
 }
 
-div[class*="-dataview"].markdown-source-view.mod-cm6 .cm-contentContainer > div > div.cm-preview-code-block>div[class^="block-language"]:not(.block-language-dataview) {
+div[class*="-dataview"].markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer > div > div.cm-preview-code-block>div[class^="block-language"]:not(.block-language-dataview) {
   max-width: var(--file-line-width);
   margin-inline: auto;
 }
@@ -14650,6 +14648,20 @@ body.naked-embed .markdown-source-view.mod-cm6 .markdown-embed {
 body.hide-embed-title .markdown-embed-title{
   display: none;
 }
+
+body.hide-embed-title.hover-popover .inline-title, .inline-embed .inline-title {
+  display: none;
+}
+
+body.hide-embed-title .hover-popover .markdown-embed[data-type="heading"] .inline-title {
+  display: none;
+}
+
+.markdown-preview-view .markdown-embed .markdown-preview-view,.markdown-embed .markdown-preview-view 
+  {
+  padding-top: 1em;
+}
+
 body.embed-hd .markdown-embed :is(.markdown-preview-view,.markdown-rendered) :is(h1,h2,h3,h4,h5,h6) {
   display: none;
 }
@@ -14778,6 +14790,12 @@ body.adjustable-embed-content-height :is(.markdown-preview-view,.markdown-render
   line-height: 1.5em;
   font-size: var(--font-size-embed-file);
 }
+
+.popover.hover-popover > .markdown-embed > .markdown-embed-content > .markdown-source-view.mod-cm6 > .cm-editor > .cm-scroller,
+ .popover.hover-popover > .markdown-embed > .markdown-embed-content .markdown-preview-view {
+  padding: 1em 0 1em 0.5em;
+}
+
 
 /* Source: https://github.com/AGMStudio/prism-theme-one-dark */
 body:not(.whole-code-wrap) code[class*='language-'],
@@ -14953,7 +14971,10 @@ body:not(.image-zoom) .markdown-reading-view button img,
 body:not(.image-zoom) .markdown-reading-view .callout-title-inner img {
   pointer-events: none;
 }
-
+body:not(.image-zoom).theme-dark .markdown-reading-view img:not([class*="emoji"]):active,
+body.theme-dark .workspace-leaf-content[data-type="image"] img:active {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"><g fill="none" fill-rule="evenodd"><rect width="80" height="80" fill="%231A1A1A"/><g fill="%23333333"><rect width="2" height="79" x="78"/><rect width="1" height="19" x="19"/><rect width="1" height="19" x="39"/><rect width="1" height="19" x="59"/><rect width="1" height="19" x="19" y="20"/><rect width="1" height="19" x="39" y="20"/><rect width="1" height="19" x="59" y="20"/><rect width="1" height="19" x="19" y="40"/><rect width="1" height="19" x="39" y="40"/><rect width="1" height="19" x="59" y="40"/><rect width="1" height="19" x="19" y="60"/><rect width="1" height="19" x="39" y="60"/><rect width="1" height="19" x="59" y="60"/><rect width="79" height="1" y="19"/><rect width="79" height="1" y="39"/><rect width="79" height="1" y="59"/></g><rect width="80" height="2" y="78" fill="%23333333"/></g></svg>');
+}
 body:not(.image-zoom) .markdown-reading-view img:not([class*="emoji"]):active,
 .workspace-leaf-content[data-type="image"] img:active {
   cursor: zoom-out !important;
@@ -15225,12 +15246,12 @@ body:not(.default-icons) :is(h1,h2,h3,h4,h5,h6):hover .heading-collapse-indicato
   opacity: 1;
 }
 
-body:not(.default-icons) .outline .tree-item .collapse-icon {
+body:not(.default-icons) .workspace-leaf-content[data-type=outline]  .tree-item .collapse-icon {
   padding: 0;
   transition: transform 20ms linear 0s;
 }
 
-body:not(.default-icons) .outline .tree-item .collapse-icon::before {
+body:not(.default-icons) .workspace-leaf-content[data-type=outline]  .tree-item .collapse-icon::before {
   content: "↓";
   font-size: 1em;
   font-weight: bold;
@@ -15239,31 +15260,31 @@ body:not(.default-icons) .outline .tree-item .collapse-icon::before {
   transition: transform 10ms linear 0s;
 }
 
-body:not(.default-icons) .outline .tree-item .collapse-icon svg {
+body:not(.default-icons) .workspace-leaf-content[data-type=outline]  .tree-item .collapse-icon svg {
   display: none;
   color: var(--accent-strong);
   height: 7px;
   width: 7px;
 }
 
-body:not(.default-icons) .outline .tree-item.is-collapsed .collapse-icon::before {
+body:not(.default-icons) .workspace-leaf-content[data-type=outline]  .tree-item.is-collapsed .collapse-icon::before {
   transform: rotate(-90deg);
   opacity: 0.5;
 }
 
 /*vertical lines in outline page*/
-.outline .tree-item-children {
+.workspace-leaf-content[data-type=outline]  .tree-item-children {
   margin-left: 14px;
   border-left: 1px solid #94949433;
   border-radius: 0;
   transition: all 400ms ease-in-out;
 }
 
-body.default-icons .outline .tree-item-children {
+body.default-icons .workspace-leaf-content[data-type=outline]  .tree-item-children {
   margin-left: 12.5px;
 }
 
-.outline .tree-item-children:hover {
+.workspace-leaf-content[data-type=outline]  .tree-item-children:hover {
   border-left-color: var(--theme-color-translucent-04);
 }
 
@@ -15273,34 +15294,34 @@ body.default-icons .outline .tree-item-children {
   height: 1.45rem;
 }
 
-body.nowrap-outline .outline .tree-item-inner {
+body.nowrap-outline .workspace-leaf-content[data-type=outline]  .tree-item-inner {
   white-space: nowrap;
 }
 /*****from https://www.yuque.com/fanmofeng/obsidian/ioifq0 *******/
 
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .collapse-icon {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .collapse-icon {
   padding-inline-end: var(--size-2-3);
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .collapse-icon::before {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .collapse-icon::before {
   content: "" !important;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item {
   position: relative;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-self {
   position: relative;
   margin-bottom: 0;
   white-space: nowrap;
   margin-top: -1px; /* fix item gap */
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-self .tree-item-inner {
   padding-left: 4px;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: calc(var(--nav-item-size) * 1.8);
-  line-height: calc(var(--nav-item-size) * 1.8);
+  height: calc(var(--nav-item-size) * 1.5);
+  line-height: calc(var(--nav-item-size) * 1.5);
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner::before {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-self .tree-item-inner::before {
   content: "";
   width: var(--size-4-1);
   height: var(--size-4-1);
@@ -15311,29 +15332,29 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   top: 50%;
   transform: translateY(-50%);
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-icon ~ .tree-item-inner {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-self .tree-item-icon ~ .tree-item-inner {
   padding-left: 4px;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-icon ~ .tree-item-inner::before {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-self .tree-item-icon ~ .tree-item-inner::before {
   content: none;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item.is-collapsed .tree-item-icon::before {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item.is-collapsed .tree-item-icon::before {
   box-shadow: 0 0 0 4px var(--background-modifier-hover);
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item::after {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item::after {
   content: "";
   width: 1.5px;
   position: absolute;
   background-color: transparent;
-  top: calc(calc(var(--nav-item-size) * 1.8) / 2 * -1);
+  top: calc(calc(var(--nav-item-size) * 1.5) / 2 * -1);
   left: -10px;
-  height: calc(100% - calc(var(--nav-item-size) * 1.8) + var(--size-4-8));
+  height: calc(100% - calc(var(--nav-item-size) * 1.5) + var(--size-4-8));
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-icon {
   cursor: pointer;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon::before {
-  margin-top: 50%;
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-icon::before {
+
   width: var(--size-4-2);
   height: var(--size-4-2);
   background-color: hsla(var(--color-accent-hsl), 0.9);
@@ -15343,33 +15364,33 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   top: 50%;
   transform: translateY(-50%);
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon svg {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-icon svg {
   display: block;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon svg path {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item-icon svg path {
   display: none;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item::after {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item:hover > .tree-item-children > .tree-item::after {
   background-color: hsla(var(--color-accent-hsl), 0.9);
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-self:hover + .tree-item-children .tree-item::after {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item:hover > .tree-item-self:hover + .tree-item-children .tree-item::after {
   background-color: transparent;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item:hover::after, body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item:hover ~ .tree-item::after {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item:hover > .tree-item-children > .tree-item:hover::after, body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item:hover > .tree-item-children > .tree-item:hover ~ .tree-item::after {
   background-color: transparent;
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item:hover::before {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .tree-item:hover > .tree-item-children > .tree-item:hover::before {
   content: "";
   position: absolute;
-  top: calc(calc(var(--nav-item-size) * 1.8) / 2 * -1);
+  top: calc(calc(var(--nav-item-size) * 1.5) / 2 * -1);
   left: -10px;
-  bottom: calc(100% - (calc(var(--nav-item-size) * 1.8) + var(--size-4-2)) / 2 - 1px);
+  bottom: calc(100% - (calc(var(--nav-item-size) * 1.5) + var(--size-4-2)) / 2 - 1px);
   width: 16px;
   border-bottom-left-radius: var(--radius-m);
   border-bottom: 1.5px solid hsla(var(--color-accent-hsl), 0.9);
   border-left: 2px solid hsla(var(--color-accent-hsl), 0.9);
 }
-body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline :is(.tree-item-children, .tree-item-self .tree-item-self) {
+body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content :is(.tree-item-children, .tree-item-self .tree-item-self) {
   padding-left: 0;
   margin-left: var(--size-4-5);
   border-left: none;
@@ -15443,9 +15464,7 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   height: auto;
 }
 
-.vertical-tab-content .setting-item {
-  padding: 8px 0;
-}
+ 
 
 .is-phone .setting-item-heading {
   margin-top: 0px;
@@ -15889,7 +15908,7 @@ pre.language-note-cloze::before {
   color: transparent;
 }
 
-
+ 
 /*======== optionnal mermaid style below ========*/
 .markdown-source-view.mod-cm6 .cm-content > [contenteditable=false] {
   overflow: auto;
@@ -15913,21 +15932,10 @@ body.resizable-mermaid .mermaid {
 
 .mermaid .label {
   font-family: var(--mermaid-font-family) !important;
-  color: var(--text-normal) !important;
 }
 
-.mermaid .label text {
-  fill: var(--background-primary-alt) !important;
-}
-
-.mermaid .node:not([class*="id"]) rect:not([style*="fill"]):not([style*="stroke"]),
-.mermaid .node:not([class$="id"]) circle:not([style*="fill"]):not([style*="stroke"]),
-.mermaid .node:not([class$="id"]) ellipse:not([style*="fill"]):not([style*="stroke"]),
-.mermaid .node:not([class$="id"]) polygon:not([style*="fill"]):not([style*="stroke"]),
-.mermaid .node:not([class$="id"]) path:not([style*="fill"]):not([style*="stroke"]) {
-  fill: var(--background-primary) !important;
-}
-
+ 
+ 
 .mermaid .node .label {
   text-align: center !important;
 }
@@ -15936,17 +15944,9 @@ body.resizable-mermaid .mermaid {
   cursor: pointer !important;
 }
 
-.mermaid .arrowheadPath {
-  fill: var(--text-faint) !important;
-}
-
-.mermaid .edgePath .path,
-.mermaid .flowchart-link {
-  stroke: var(--text-faint) !important;
-}
-
+ 
+ 
 .mermaid .edgeLabel {
-  background-color: var(--background-primary) !important;
   text-align: center !important;
 }
 
@@ -15954,14 +15954,7 @@ body.resizable-mermaid .mermaid {
   opacity: 0 !important;
 }
 
-.mermaid .cluster rect {
-  fill: var(--background-primary-alt) !important;
-  stroke: var(--text-faint) !important;
-}
-
-.mermaid .cluster text {
-  fill: var(--background-primary) !important;
-}
+ 
 
 /* Sequence Diagram variables */
 .mermaid .actor {
@@ -15988,9 +15981,6 @@ body.resizable-mermaid .mermaid {
   stroke: var(--text-muted) !important;
 }
 
-.mermaid .sequenceNumber {
-  fill: var(--background-primary) !important;
-}
 
 .mermaid #sequencenumber,
 .mermaid .messageText {
@@ -16017,13 +16007,11 @@ body.resizable-mermaid .mermaid {
 }
 
 .mermaid .note {
-  stroke: var(--text-normal) !important;
   fill: var(--mermaid-seq-dia-color) !important;
 }
 
 .mermaid .noteText,
 .mermaid .noteText>tspan {
-  fill: var(--text-normal) !important;
   stroke: none !important;
 }
 
@@ -16045,9 +16033,7 @@ body.resizable-mermaid .mermaid {
   opacity: 0.3 !important;
 }
 
-.mermaid .section0 {
-  fill: var(--text-faint) !important;
-}
+ 
 
 .mermaid .section2 {
   fill: var(--text-accent) !important;
@@ -16059,12 +16045,7 @@ body.resizable-mermaid .mermaid {
   opacity: 0.15 !important;
 }
 
-.mermaid .sectionTitle0,
-.mermaid .sectionTitle1,
-.mermaid .sectionTitle2,
-.mermaid .sectionTitle3 {
-  fill: var(--text-normal) !important;
-}
+
 
 .mermaid .sectionTitle {
   text-anchor: start !important;
@@ -16109,14 +16090,14 @@ body.resizable-mermaid .mermaid {
 }
 
 .taskTextOutsideRight {
-  fill: var(--text-normal) !important;
+
   text-anchor: start !important;
   font-size: 12px !important;
   font-family: var(--mermaid-font-family) !important;
 }
 
 .taskTextOutsideLeft {
-  fill: var(--text-normal) !important;
+
   text-anchor: end !important;
   font-size: 9px !important;
 }
@@ -16149,7 +16130,7 @@ body.resizable-mermaid .mermaid {
 .taskText1,
 .taskText2,
 .taskText3 {
-  fill: var(--text-normal) !important;
+
   font-size: 13px;
 }
 
@@ -16177,12 +16158,7 @@ body.resizable-mermaid .mermaid {
   stroke: var(--text-muted) !important;
 }
 
-.activeText0,
-.activeText1,
-.activeText2,
-.activeText3 {
-  fill: var(--text-normal) !important;
-}
+
 
 /* Completed task */
 .done0,
@@ -16193,12 +16169,7 @@ body.resizable-mermaid .mermaid {
   fill: var(--background-secondary) !important;
 }
 
-.doneText0,
-.doneText1,
-.doneText2,
-.doneText3 {
-  fill: var(--text-normal) !important;
-}
+
 
 /* Tasks on the critical line */
 .crit0,
@@ -16235,26 +16206,15 @@ body.resizable-mermaid .mermaid {
   font-style: italic !important;
 }
 
-.doneCritText0,
-.doneCritText1,
-.doneCritText2,
-.doneCritText3,
-.activeCritText0,
-.activeCritText1,
-.activeCritText2,
-.activeCritText3 {
-  fill: var(--text-normal) !important;
-}
+
 
 .titleText {
   text-anchor: middle !important;
   font-size: 20px !important;
-  fill: var(--text-normal) !important;
   font-family: var(--mermaid-font-family) !important;
 }
 
 g.classGroup text {
-  fill: var(--text-normal) !important;
   stroke: none !important;
   font-size: 8px !important;
 }
@@ -16325,7 +16285,6 @@ g.classGroup line {
 .pieTitleText {
   text-anchor: middle !important;
   font-size: 18px !important;
-  fill: var(--text-normal) !important;
   font-family: var(--mermaid-font-family) !important;
 }
 
@@ -16348,7 +16307,6 @@ g.stateGroup text {
 
 g.stateGroup .state-title {
   font-weight: bolder !important;
-  fill: var(--text-normal) !important;
 }
 
 g.stateGroup rect {
@@ -16367,12 +16325,11 @@ g.stateGroup line,
 }
 
 .stateGroup .alt-composit {
-  fill: var(--background-primary) !important;
   border-bottom: 1px !important;
 }
 
 .state-note {
-  stroke: var(--text-faint) !important;
+ 
   fill: var(--text-accent) !important;
 }
 
@@ -16397,12 +16354,11 @@ g.stateGroup line,
 }
 
 .node circle.state-start {
-  fill: var(--text-normal) !important;
   stroke: var(--text-normal) !important;
 }
 
 .node circle.state-end {
-  fill: var(--text-normal) !important;
+
   stroke: var(--text-normal) !important;
   stroke-width: 1.5 !important;
 }
@@ -16411,9 +16367,7 @@ g.stateGroup line,
   fill: var(--text-accent) !important;
 }
 
-.statediagram-cluster rect {
-  fill: var(--background-secondary-alt) !important;
-}
+ 
 
 .statediagram-cluster rect.outer,
 .statediagram-state .title-state,
@@ -16422,7 +16376,13 @@ g.stateGroup line,
   ry: 5px !important;
 }
 
-.statediagram-state .divider {
+.statediagram-state .divider,
+.statediagram-cluster rect,
+.node rect,
+.node path,
+.node ellipse,
+.node circle,
+.node polygon  {
   stroke: var(--text-accent) !important;
 }
 
@@ -16504,6 +16464,7 @@ g.stateGroup line,
 .mermaid line.task-line {
   stroke: #6e6e6e !important;
 }
+
 
 /* scrollbar*/
 body:not(.native-scrollbars) ::-webkit-scrollbar-thumb {
@@ -25923,7 +25884,11 @@ body.border-callout-style .callout .callout-title {
   background-color: rgba(var(--callout-color), 0.4);
 }
 body.border-callout-style .callout .callout-content {
+  margin-bottom: 0px;
   background-color: rgba(var(--callout-color), 0.1);
+}
+body.border-callout-style .callout .callout-content p{
+  margin: 16px 0px; /*Fix the top margin is omitted, causing reading mode and live-preview is different. by LeCheena*/
 }
 .callout-title {
   background-color: rgba(var(--callout-color), 0.15);
@@ -28805,7 +28770,13 @@ body.transparent-tab-style.theme-dark .workspace-split.mod-root .workspace-tab-h
 .is-mobile .horizontal-main-container {
   background-color: var(--background-secondary);
 }
+ 
 
+.is-phone .workspace-tabs .view-header
+{
+    margin: var(--safe-area-inset-top) auto 0;
+}
+ 
 .is-mobile.theme-light .mobile-toolbar {
   background-color: var(--background-primary-alt);
 }
@@ -29698,5 +29669,3 @@ body.enable-alternative-checkboxes li[data-task=U] > p > input:checked {
 
 /****end checkbox****/
 
-
- 

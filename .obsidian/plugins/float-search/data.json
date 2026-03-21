@@ -9,5 +9,7 @@
   },
   "showFilePath": false,
   "showInstructions": true,
-  "defaultViewType": "modal"
+  "defaultViewType": "modal",
+  "cmdkTriggerKey": "Shift",
+  "cmdkDoubleTapInterval": 300
 }

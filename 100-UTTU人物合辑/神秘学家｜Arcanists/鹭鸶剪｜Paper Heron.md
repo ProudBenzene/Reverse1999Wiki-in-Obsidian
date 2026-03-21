@@ -1,10 +1,10 @@
 ---
-Name: <% tp.file.title.split("｜")[0] %>
-exonym: <% tp.file.title.split("｜")[1] %>
+Name: 鹭鸶剪
+exonym: Paper Heron
 tags: 
 cssclasses:
   - book
-人物合辑: <% tp.file.folder() %>
+人物合辑: 神秘学家｜Arcanists
 介质: 
 星级: ✦✦✦✦✦✦
 属性: 
@@ -20,10 +20,10 @@ Udimo:
 初始衣着: 
 洞悉本色: 
 aliases:
-  - <% tp.file.title.split("｜")[0] %>
-  - <% tp.file.title.split("｜")[1] %>
-初始立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 01.png]]'
-本色立绘: '[[立绘 <% tp.file.title.split("｜")[0] %> 02.png]]'
+  - 鹭鸶剪
+  - Paper Heron
+初始立绘: '[[立绘 鹭鸶剪 01.png]]'
+本色立绘: '[[立绘 鹭鸶剪 02.png]]'
 生日: 
 banner_header: "{{filename}}"
 出场章节:
@@ -168,7 +168,7 @@ tab: ｜
 tab: ｜
 ![文化2|inlR|200](../../000-箱的构造/assets/UTTU人物合辑.assets/文化%202.png)
 
-tab: ｜[UTTU×<% tp.file.title.split("｜")[0] %>]
+tab: ｜[UTTU×鹭鸶剪]
 ![文化3|inlR|200](../../000-箱的构造/assets/UTTU人物合辑.assets/文化%203.png)
 
 ````

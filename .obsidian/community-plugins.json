@@ -15,7 +15,6 @@
   "dataview",
   "dataview-publisher",
   "dust-calendar",
-  "easy-typing-obsidian",
   "obsidian-custom-attachment-location",
   "obsidian-export-image",
   "float-search",
@@ -40,6 +39,7 @@
   "animated-cursor",
   "obsidian-footnotes",
   "virtual-linker",
-  "image-converter",
-  "yearly-glance"
+  "yearly-glance",
+  "easy-typing-obsidian",
+  "image-converter"
 ]
