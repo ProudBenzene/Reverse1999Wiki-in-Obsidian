@@ -128,6 +128,14 @@ body.blockquote-style-quotation-mark.is-mobile
   font-size: 2em;
   margin: 0 0.2em 0 0;
 }
+.myhome .block-language-datacorejsx .datacore.callout[data-callout-metadata*="banner"] > .callout-content > p {
+  text-indent: 2em !important;
+}
+.myhome .block-language-datacorejsx .datacore.callout[data-callout-metadata*="banner"] > .callout-content > p::first-letter {
+  color: var(--text-accent);
+  font-size: 2em;
+  margin: 0 0.2em 0 0;
+}
 .myhome .admonition-blank .admonition-content {
   -webkit-mask-image: linear-gradient(
     90deg,
