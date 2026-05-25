@@ -833,6 +833,24 @@ html[data-theme="dark"] {
 	padding: 0 6px;
 }
 
+.image-converter-setting-info-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.35em;
+	color: var(--text-muted);
+	vertical-align: text-bottom;
+	line-height: 1;
+	flex: none;
+	cursor: help;
+}
+
+.image-converter-setting-info-icon svg {
+	width: 0.9em;
+	height: 0.9em;
+	stroke-width: 2;
+}
+
 /* --- Encoder detection success styling (green state) --- */
 button.image-converter-encoder-detected,
 .image-converter-encoder-detected.button,

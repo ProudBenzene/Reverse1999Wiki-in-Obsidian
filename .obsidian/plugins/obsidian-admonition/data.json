@@ -277,19 +277,13 @@
   },
   "syntaxHighlight": true,
   "copyButton": false,
-  "version": "10.3.2",
+  "version": "11.0.4",
   "autoCollapse": false,
   "defaultCollapseType": "open",
   "injectColor": true,
   "parseTitles": true,
   "dropShadow": true,
   "hideEmpty": false,
-  "open": {
-    "admonitions": true,
-    "icons": true,
-    "other": true,
-    "advanced": true
-  },
   "icons": [
     "octicons"
   ],
@@ -298,6 +292,12 @@
   "msDocConverted": false,
   "useSnippet": true,
   "snippetPath": "custom-admonitions.c9c6cb",
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
   "syncLinks": false,
   "allowMSSyntax": true,
   "msSyntaxIndented": true,

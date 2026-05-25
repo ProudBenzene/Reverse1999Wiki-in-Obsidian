@@ -16,6 +16,7 @@
   "DefaultEditorLocation": "Top",
   "UseButtonToShowEditor": false,
   "FocusOnEditor": true,
+  "ShowClipboardOnFocus": true,
   "OpenDailyMemosWithMemos": true,
   "HideDoneTasks": false,
   "ShowTaskLabel": true,
@@ -49,6 +50,31 @@
     "MemoDefaultCanvasPath": "memos.thino.canvas",
     "MemoDefaultMultiFilePath": "000-箱的构造/箱中memos",
     "MemoDefaultSingleFilePath": "000-箱的构造/箱中memos/memos.thino.md"
+  },
+  "JournalSettings": {
+    "granularity": "day",
+    "useIndependentSettings": false,
+    "headingDateFormat": "YYYY-MM-DD",
+    "daily": {
+      "folder": "",
+      "format": "YYYY-MM-DD",
+      "template": ""
+    },
+    "weekly": {
+      "folder": "",
+      "format": "gggg-[W]ww",
+      "template": ""
+    },
+    "monthly": {
+      "folder": "",
+      "format": "YYYY-MM",
+      "template": ""
+    },
+    "yearly": {
+      "folder": "",
+      "format": "YYYY",
+      "template": ""
+    }
   },
   "MemoDailyTarget": 5,
   "HeatmapColorScheme": "grass",
@@ -97,7 +123,7 @@
   "MomentsIcon": "https://figure-bed123.oss-cn-beijing.aliyuncs.com/202405132046286.jpg",
   "MomentsQuote": "The Storm is coming...",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.8.21",
+  "LastUpdatedVersion": "3.0.12",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -141,5 +167,52 @@
   "ShowScrollToTopButton": true,
   "ZoomImageWhenViewing": false,
   "ViewArchiveInRandomReview": false,
-  "DraggingBehavior": "block-link"
+  "DraggingBehavior": "block-link",
+  "superEnabled": false,
+  "enableSecretMasking": false,
+  "secretContentRegex": "",
+  "secretMaskingStyle": "blur",
+  "fsrsRequestRetention": 0.9,
+  "fsrsMaximumInterval": 36500,
+  "fsrsEnableFuzz": true,
+  "fsrsEnableShortTerm": true,
+  "fsrsWeights": [],
+  "fsrsDailyLimit": 100,
+  "wechat": {
+    "enabled": false,
+    "autoStart": false,
+    "defaultReply": "",
+    "voiceSaveMode": "both",
+    "agentRouting": {
+      "enabled": false,
+      "defaultAgent": "claude",
+      "agents": {
+        "claude": {
+          "type": "cli",
+          "command": "claude",
+          "aliases": [
+            "cc"
+          ]
+        },
+        "codex": {
+          "type": "cli",
+          "command": "codex",
+          "aliases": [
+            "cx"
+          ]
+        },
+        "gemini": {
+          "type": "cli",
+          "command": "gemini",
+          "aliases": [
+            "gm"
+          ]
+        }
+      }
+    }
+  },
+  "general": {
+    "tokenExpiresAt": 0,
+    "userInfo": null
+  }
 }
