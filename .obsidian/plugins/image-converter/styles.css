@@ -13,6 +13,66 @@
 } */
 
 /* --- Image Converter Settings --- */
+
+/* Failsafe: when native image selection is disabled, keep Obsidian's default
+ * Live Preview image focus affordances hidden even if focus slips through for a frame.
+ */
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.image-embed:focus-within,
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.internal-embed.image-embed:focus-within {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.image-embed:focus-within
+	.edit-block-button,
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.internal-embed.image-embed:focus-within
+	.edit-block-button {
+	opacity: 0 !important;
+	pointer-events: none !important;
+}
+
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.image-embed
+	.image-wrapper::after,
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.internal-embed.image-embed
+	.image-wrapper::after {
+	content: none !important;
+	box-shadow: none !important;
+}
+
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.image-embed
+	.image-resize-corner,
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.internal-embed.image-embed
+	.image-resize-corner {
+	opacity: 0 !important;
+	pointer-events: none !important;
+}
+
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.image-embed:focus-within
+	.image-resize-corner::after,
+body.image-converter-disable-native-image-selection:not(.is-mobile)
+	.markdown-source-view
+	.internal-embed.image-embed:focus-within
+	.image-resize-corner::after {
+	opacity: 0 !important;
+}
 /* Remove X icon and get use all available space*/
 .image-converter-settings-tab {
 	padding: 20px;
@@ -2917,6 +2977,24 @@ button.image-converter-encoder-detected:hover,
 	padding: 1em;
 	border: 1px solid var(--background-modifier-border);
 	border-radius: 4px;
+}
+
+.image-convert-modal .image-converter-ignore-folders-help {
+	margin: -0.35rem 0 0.75rem;
+}
+
+.image-convert-modal .image-converter-ignore-folders-help-summary {
+	cursor: pointer;
+	color: var(--text-muted);
+	font-size: 0.9em;
+}
+
+.image-convert-modal .image-converter-ignore-folders-help-content {
+	margin-top: 8px;
+	padding-left: 12px;
+	border-left: 2px solid var(--background-modifier-border);
+	color: var(--text-muted);
+	font-size: 0.9em;
 }
 
 /* ============================================ */
