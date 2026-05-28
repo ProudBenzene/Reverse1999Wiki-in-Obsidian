@@ -48,16 +48,6 @@
               "icon": "lucide-file",
               "title": "自动化创建角色档案"
             }
-          },
-          {
-            "id": "95f89cae69831722",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "icon": "projects-icon",
-              "title": "Projects"
-            }
           }
         ]
       }
@@ -318,7 +308,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 314.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -326,10 +316,10 @@
       "float-search:Search obsidian in modal view": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-projects:打开项目": false,
       "soundscapes:Soundscapes: My Music": false,
       "yearly-glance:打开年度概览": false,
       "obsidian-memos:Thino Super": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
       "daily-notes:打开/创建今天的日记": false,
       "obsidian-memos:Thino": false,
       "switcher:打开快速切换": true,
@@ -343,27 +333,33 @@
       "cmdr:Style Settings 悬浮面板": false,
       "random-note:开始漫游笔记": false,
       "cmdr:切换明暗主题": false,
-      "cmdr:在文件列表中显示当前文件": false,
-      "obsidian42-brat:BRAT": true
+      "cmdr:在文件列表中显示当前文件": false
     }
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/Archives/国服海报墙.md",
     "000-箱的构造/主页.md",
-    "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-    "200-相从心生/200-相从心生.md",
-    "300-以影像之/301-主线/1.0 生者与余众/1.0 生者与余众.md",
-    "300-以影像之/303-映像/303-映像.md",
-    "300-以影像之/304-轶事/304-轶事.md",
-    "300-以影像之/国际服海报墙.md",
-    "AGENTS.md",
-    "GEMINI.md",
-    "100-UTTU人物合辑/100-UTTU人物合辑.md",
-    "300-以影像之/302-支线/302-支线.md",
-    "300-以影像之/国服海报墙.md",
+    "000-箱的构造/Archives/304-轶事.md",
+    "000-箱的构造/Archives/303-映像.md",
+    "000-箱的构造/Archives/302-支线.md",
+    "400-箱外世界/暴雨时间线.md",
+    "000-箱的构造/Archives/1.0 生者与余众.md",
+    "300-以影像之/301-主线/2.0 旅行归来｜The Journey Back/2.0 旅行归来｜The Journey Back.md",
+    "000-箱的构造/Archives/300-以影像之.md",
+    "000-箱的构造/Archives/200-相从心生.md",
+    "000-箱的构造/Archives/100-UTTU人物合辑.md",
+    "000-箱的构造/Archives",
+    "000-箱的构造/Archives/国际服海报墙.md",
     "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/圣洛夫基金会｜St. PavlovFoundation.md",
+    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
+    "GEMINI.md",
+    "AGENTS.md",
+    "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
+    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/Z女士｜Madam Z.md",
+    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/哑谜｜Enigma.md",
+    "200-相从心生/普通心相/领航｜Navigating.md",
+    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/芭卡洛儿｜Barcarola.md",
     "500-箱外阵营/重塑之手｜Manus Vindictae/苏菲亚｜Sophia.md",
     "300-以影像之/300-以影像之.base",
@@ -373,12 +369,6 @@
     "100-UTTU人物合辑/100-UTTU人物合辑.base",
     "100-UTTU人物合辑/神秘学家｜Arcanists/程和光｜Cheng Heguang.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
-    "000-箱的构造/常用工具.md",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/伊戈尔｜Igor.md",
-    "游戏文件解包说明.md",
-    "000-箱的构造/箱中memos/20260501-adf0158441e38cba.md",
-    "100-UTTU人物合辑/人类｜Human/卡珊德拉｜Kassandra.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/灰调蓝｜Brume.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛尔纱｜Marsha.assets/单品 玛尔纱 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛尔纱｜Marsha.assets/单品 玛尔纱 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛尔纱｜Marsha.assets/单品 玛尔纱 01.png",
@@ -393,7 +383,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/程和光｜Cheng Heguang.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/灰调蓝｜Brume.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鹭鸶剪｜Paper Heron.assets",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/伊戈尔｜Igor.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛尔纱｜Marsha.assets"
+    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/伊戈尔｜Igor.assets"
   ]
 }

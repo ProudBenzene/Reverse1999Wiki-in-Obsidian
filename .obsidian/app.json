@@ -16,5 +16,8 @@
   "livePreview": true,
   "defaultViewMode": "source",
   "propertiesInDocument": "visible",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "userIgnoreFilters": [
+    "000-箱的构造/Archives/"
+  ]
 }
