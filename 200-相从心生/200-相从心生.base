@@ -1,0 +1,19 @@
+views:
+  - type: cards
+    name: 相从心生
+    filters:
+      and:
+        - file.inFolder("200-相从心生")
+        - file.ext == "md"
+        - file.name != "200-相从心生"
+    order:
+      - Name
+      - exonym
+      - 人物
+      - 强化属性
+      - 星级
+    sort:
+      - property: 星级
+        direction: DESC
+    image: note.心相
+    cardSize: 150

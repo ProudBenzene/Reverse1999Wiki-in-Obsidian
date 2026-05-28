@@ -1,8 +1,6 @@
 {
   "pluginList": [
     "yan42685/obsidian-clever-search",
-    "obsidian-canzi/Enhanced-editing",
-    "Yaozhuwa/AttachFlow",
     "noatpad/obsidian-banners"
   ],
   "pluginSubListFrozenVersion": [],
@@ -20,6 +18,8 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
+  "globalTokenName": "",
   "personalAccessToken": "",
-  "selectLatestPluginVersionByDefault": false
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
 }

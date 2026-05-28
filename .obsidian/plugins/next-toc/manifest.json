@@ -1,0 +1,14 @@
+{
+	"id": "next-toc",
+	"name": "Next TOC",
+	"version": "2.0.1",
+	"minAppVersion": "1.11.0",
+	"description": "Floating panel displaying the current document's reading progress, table of contents, and navigation aids.",
+	"author": "RavenHogWarts",
+	"authorUrl": "https://github.com/Raven-Pensieve",
+	"fundingUrl": {
+		"ko-fi": "https://ko-fi.com/ravenhogwarts",
+		"afdian": "https://afdian.com/a/ravenhogwarts"
+	},
+	"isDesktopOnly": false
+}

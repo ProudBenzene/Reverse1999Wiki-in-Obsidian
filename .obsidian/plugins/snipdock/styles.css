@@ -1,0 +1,225 @@
+/* ----------------------------------------------------------------
+   SnipDock: status-bar plus menu styling
+   Uses Obsidian theme variables so community themes restyle the
+   menu without further work. No !important; no hard-coded sizes
+   when an Obsidian variable exists.
+   ---------------------------------------------------------------- */
+
+.snipdock-status-button {
+	cursor: var(--cursor);
+	display: flex;
+	align-items: center;
+	line-height: 1;
+}
+
+.menu.snipdock-menu {
+	width: var(--snipdock-menu-width, 300px);
+	max-height: var(--snipdock-menu-max-height, 70vh);
+}
+
+/* `.menu` is flex-column; let `.menu-scroll` flex-fill the space left by the
+   pinned master/action rows. `min-height: 0` is required for it to shrink
+   below its content size in a flex parent. `overflow-y: auto` re-enables the
+   normal scrollbar (Obsidian's default is `hidden` + JS mousemove scroll,
+   which is suppressed in snippetMenu.ts). */
+.menu.snipdock-menu .menu-scroll {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.menu.snipdock-menu .menu-item-icon {
+	display: none;
+}
+
+.menu.snipdock-menu .menu-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--size-4-2);
+}
+
+.menu.snipdock-menu .menu-item-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+/* Master row sits above `.menu-scroll`, action row below. Both are pinned
+   flex siblings of `.menu`. A thin border replaces the removed separators. */
+.menu.snipdock-menu .snipdock-row-master {
+	border-bottom: 1px solid var(--background-modifier-border);
+	margin-bottom: var(--size-2-2);
+}
+
+.menu.snipdock-menu .snipdock-row-action {
+	border-top: 1px solid var(--background-modifier-border);
+	margin-top: var(--size-2-2);
+}
+
+/* master "all snippets" toggle row */
+.snipdock-row-master .menu-item-title {
+	font-weight: var(--font-semibold);
+}
+
+/* Paused state: master toggle is off but rememberedEnabled has entries — the
+   user can tap to restore. Italic + muted color signals "temporary", not
+   "everything is off". */
+.snipdock-row-master.snipdock-paused .menu-item-title {
+	font-style: italic;
+	font-weight: var(--font-normal);
+	color: var(--text-muted);
+}
+
+.snipdock-row-btn-master {
+	padding: var(--size-2-1) var(--size-2-3);
+}
+
+.snipdock-row-btn-master svg {
+	width: var(--icon-s);
+	height: var(--icon-s);
+}
+
+/* search row sits above master, pinned out of the scroll area */
+.menu.snipdock-menu .snipdock-row-search {
+	padding-top: var(--size-2-2);
+	padding-bottom: var(--size-4-2);
+	border-bottom: 1px solid var(--background-modifier-border);
+	margin-bottom: var(--size-2-2);
+}
+
+.menu.snipdock-menu .snipdock-row-search .menu-item-title {
+	display: none;
+}
+
+/* Inherit Obsidian's `input[type=text]` base styling (border, focus ring,
+   hover transition). We only override width and font size so the field
+   fills the row and matches surrounding menu text. */
+.snipdock-search-input {
+	width: 100%;
+	font-size: var(--font-ui-small);
+}
+
+.menu.snipdock-menu .snipdock-hidden {
+	display: none;
+}
+
+/* multi-column layout: rows dealt round-robin into flex columns */
+.menu.snipdock-menu .snipdock-columns {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: var(--size-4-2);
+	width: 100%;
+}
+
+.menu.snipdock-menu .snipdock-column {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 0;
+	min-width: 0;
+}
+
+/* snippet rows: toggle | title | rename | open */
+.snipdock-row-snippet {
+	flex-wrap: nowrap;
+}
+
+.snipdock-row-btn {
+	padding: var(--size-2-1) var(--size-4-2);
+	margin-left: var(--size-2-2);
+	border-radius: var(--clickable-icon-radius, var(--radius-s));
+	display: flex;
+	align-items: center;
+	background-color: var(--background-modifier-hover);
+	color: var(--text-normal);
+}
+
+.snipdock-row-btn:hover {
+	background-color: var(--background-modifier-active-hover);
+}
+
+.snipdock-row-btn-open {
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.snipdock-row-btn-open:hover {
+	background-color: var(--interactive-accent-hover);
+}
+
+.snipdock-row-btn svg {
+	width: var(--icon-s);
+	height: var(--icon-s);
+}
+
+/* action row: reload | folder | create */
+.snipdock-row-action {
+	justify-content: center;
+}
+
+.snipdock-row-action .menu-item-title {
+	display: none;
+}
+
+.snipdock-action-btn {
+	padding: var(--size-2-3) var(--size-4-3);
+	margin: var(--size-2-1) var(--size-2-1);
+	border-radius: var(--button-radius, var(--radius-s));
+	display: flex;
+	align-items: center;
+	background-color: var(--background-modifier-hover);
+	color: var(--text-normal);
+}
+
+.snipdock-action-btn:hover {
+	background-color: var(--background-modifier-active-hover);
+}
+
+.snipdock-action-btn-primary {
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.snipdock-action-btn-primary:hover {
+	background-color: var(--interactive-accent-hover);
+}
+
+.snipdock-action-btn svg {
+	width: var(--icon-m);
+	height: var(--icon-m);
+}
+
+/* modal layouts */
+.snipdock-stacked-setting {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.snipdock-css-editor {
+	width: 100%;
+	height: 32vh;
+	margin-top: var(--size-4-3);
+	padding: var(--size-2-3) var(--size-4-2);
+	border-radius: var(--input-radius);
+	font-family: var(--font-monospace);
+	font-size: var(--font-smaller);
+	color: var(--text-normal);
+	background-color: var(--background-modifier-form-field);
+	border: var(--input-border-width) solid var(--background-modifier-border);
+	white-space: pre-wrap;
+	word-wrap: normal;
+	overflow-x: auto;
+	resize: vertical;
+}
+
+.snipdock-modal-buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: var(--size-4-2);
+	margin-top: var(--size-4-4);
+}

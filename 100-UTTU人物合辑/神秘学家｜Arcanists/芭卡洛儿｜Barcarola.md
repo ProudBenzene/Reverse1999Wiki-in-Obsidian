@@ -1,7 +1,7 @@
 ---
 Name: 芭卡洛儿
 exonym: Barcarola
-tags: 
+tags:
 cssclasses:
   - book
 人物合辑: 神秘学家｜Arcanists

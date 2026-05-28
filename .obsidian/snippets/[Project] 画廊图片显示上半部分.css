@@ -6,3 +6,10 @@
 	border-top-left-radius: var(--radius-s);
 	border-top-right-radius: var(--radius-s);
 }
+
+.workspace-leaf-content[data-type="bases"]:has(.view-header-breadcrumb[data-path="100-UTTU人物合辑"])
+	.bases-cards-cover {
+	background-size: auto 150% !important;
+	background-position: center top !important;
+	background-repeat: no-repeat !important;
+}

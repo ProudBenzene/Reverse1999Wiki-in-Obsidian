@@ -1,0 +1,54 @@
+formulas:
+  灵感: |-
+    html(
+        "<span style=\"display:inline-block;padding:2px 8px;border-radius:999px;color:white;background:rgb(" +
+        if(note.属性 == "星｜Star", "47,64,88",
+        if(note.属性 == "灵｜Spirit", "101,62,110",
+        if(note.属性 == "木｜Plant", "58,101,58",
+        if(note.属性 == "兽｜Beast", "119,61,58",
+        if(note.属性 == "岩｜Mineral", "91,70,39",
+        if(note.属性 == "智｜Intellect", "132,122,67", "")))))) +
+        ");\">" + note.属性 + "</span>"
+      )
+views:
+  - type: cards
+    name: 人物合辑
+    filters:
+      and:
+        - file.inFolder("100-UTTU人物合辑")
+        - file.ext == "md"
+        - file.name != "100-UTTU人物合辑"
+    order:
+      - Name
+      - exonym
+      - 人物合辑
+      - formula.灵感
+      - 洞悉本色
+      - 香调
+    image: note.初始立绘
+    imageFit: contain
+    imageAspectRatio: 1.4
+    cardSize: 180
+  - type: cards
+    name: 人物合辑-洞悉
+    filters:
+      and:
+        - file.inFolder("100-UTTU人物合辑")
+        - file.ext == "md"
+        - file.name != "100-UTTU人物合辑"
+    order:
+      - Name
+      - exonym
+      - 人物合辑
+      - formula.灵感
+      - 洞悉本色
+      - 香调
+      - 星级
+    sort:
+      - property: 星级
+        direction: DESC
+      - property: 实装版本
+        direction: DESC
+    image: note.本色立绘
+    imageAspectRatio: 1.4
+    cardSize: 180

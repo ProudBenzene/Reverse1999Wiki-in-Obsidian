@@ -25,7 +25,6 @@
   "obsidian-kanban",
   "obsidian-linter",
   "note-gallery",
-  "mysnippets-plugin",
   "obsidian-plugin-update-tracker",
   "obsidian-sortable",
   "obsidian-projects",
@@ -33,7 +32,6 @@
   "obsidian-sakana-widget",
   "soundscapes",
   "obsidian-quiet-outline",
-  "obsidian-banners",
   "obsidian-icon-folder",
   "obsidian42-brat",
   "animated-cursor",
@@ -42,5 +40,8 @@
   "yearly-glance",
   "easy-typing-obsidian",
   "image-converter",
-  "datacore"
+  "datacore",
+  "snipdock",
+  "next-toc",
+  "obsidian-banners"
 ]

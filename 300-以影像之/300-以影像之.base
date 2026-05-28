@@ -1,0 +1,14 @@
+views:
+  - type: cards
+    name: 以影像之
+    filters:
+      and:
+        - file.inFolder("300-以影像之")
+        - file.ext == "md"
+        - file.name != "300-以影像之"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    image: note.Cover
+    cardSize: 150
+    imageAspectRatio: 1.7

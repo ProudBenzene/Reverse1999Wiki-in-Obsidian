@@ -29,7 +29,6 @@
     "[bon]书库小封面",
     "关系图谱",
     "[Minimal]Cards",
-    "[Project] 画廊图片显示上半部分",
     "[Discord]Bullet Threading",
     "[PKMer] 内外链标志",
     "[Border]Colorful Metadata",
@@ -48,7 +47,9 @@
     "Blue Topaz Legacy特制版",
     "狂想Callout",
     "[AnuPpuccin]custom-background",
-    "[ExportImage]分享卡片"
+    "[ExportImage]分享卡片",
+    "[bases]字段与值同行",
+    "[Bases] 列表项胶囊"
   ],
   "showRibbon": true
 }

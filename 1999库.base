@@ -1,9 +1,0 @@
-filters:
-  and:
-    - file.ext == "md"
-views:
-  - type: table
-    name: 表格
-    sort:
-      - property: file.ctime
-        direction: DESC

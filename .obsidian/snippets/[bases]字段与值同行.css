@@ -1,0 +1,31 @@
+/* https://discord.com/channels/686053708261228577/1408533544179073084/1408533544179073084 */
+
+div.bases-cards-property:not(div.bases-cards-property.mod-title) {
+    padding-right: var(--size-4-2);
+    display: grid;
+
+    /* Change the 5em to however much space you want the label to take up.*/
+    grid-template-columns: 5em 1fr;
+    gap: var(--input-padding);
+}
+div.bases-cards-label {
+    align-content: center;
+    text-align: left;
+    padding-right: 0;
+}
+div.bases-cards-property:not(div.bases-cards-property.mod-title) .bases-cards-line {
+    padding-left: 0;
+    padding-right: 0;
+    align-content: center;
+    text-align: left;
+}
+
+    /*=====Less Wasted Space=====*/
+.bases-cards-item {
+    gap: var(--size-2-1);
+}
+
+/*标题居中*/
+/*.bases-cards-property.mod-title {
+    text-align: center;
+}*/
