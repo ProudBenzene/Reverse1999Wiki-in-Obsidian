@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading "res1999.huijiwiki.com" [level=1] [ref=e5]
+      - heading "正在进行安全验证" [level=2] [ref=e6]
+      - paragraph [ref=e7]: 本网站使用安全服务防护恶意自动程序。在验证您不是自动程序期间，将显示此页面。
+  - contentinfo [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e15]:
+        - text: "Ray ID:"
+        - code [ref=e16]: a035766ea936d908
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - text: 由
+          - link "Cloudflare" [ref=e19] [cursor=pointer]:
+            - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+          - text: 提供的性能和安全服务
+        - link "隐私" [ref=e21] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/zh-cn/privacypolicy/

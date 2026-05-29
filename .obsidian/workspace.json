@@ -224,35 +224,6 @@
               "icon": "lucide-calendar-check",
               "title": "日历"
             }
-          },
-          {
-            "id": "d13459b6a1892859",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "7debb3cb11287092",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "000-箱的构造/主页.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
           }
         ],
         "currentTab": 1
@@ -369,16 +340,6 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "Drafts/codex-virtual-linker-probe.md",
-    "000-箱的构造/主页.md",
-    "Drafts",
-    "600-箱中日历/2025-05-02.md",
-    "600-箱中日历/2025-03-14.md",
-    "600-箱中日历/2025-03-12.md",
-    "600-箱中日历/2024-10-17.md",
-    "600-箱中日历/2024-10-18.md",
-    "600-箱中日历/2024-10-16.md",
-    "600-箱中日历/2026-02-15.md",
     "600-箱中日历/2026-05-29.md",
     "600-箱中日历/2026-05-28.md",
     "600-箱中日历/2026-05-27.md",
@@ -396,6 +357,16 @@
     "600-箱中日历/2026-05-15.md",
     "600-箱中日历/2026-05-14.md",
     "600-箱中日历/2026-05-13.md",
+    "600-箱中日历/2026-05-12.md",
+    "600-箱中日历/2026-05-11.md",
+    "600-箱中日历/2026-05-10.md",
+    "600-箱中日历/2026-05-09.md",
+    "600-箱中日历/2026-05-08.md",
+    "600-箱中日历/2026-05-07.md",
+    "600-箱中日历/2026-05-06.md",
+    "600-箱中日历/2026-05-05.md",
+    "600-箱中日历/2026-05-04.md",
+    "Drafts",
     "000-箱的构造/script/fetchHuijiSigninCalendar.js",
     "000-箱的构造/Archives",
     "300-以影像之/300-以影像之.base",
