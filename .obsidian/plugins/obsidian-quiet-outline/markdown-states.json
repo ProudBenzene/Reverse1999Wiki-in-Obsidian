@@ -1,6 +1,6 @@
 {
   "000-箱的构造/主页.md": {
-    "scroll": 6.688356164383562,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 14,
@@ -1215,6 +1215,20 @@
       },
       "to": {
         "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Drafts/codex-virtual-linker-probe.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
         "ch": 0
       }
     },

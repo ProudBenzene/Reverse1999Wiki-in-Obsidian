@@ -70,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -173,7 +175,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "主页 的关系图"
+              "title": "局部关系图谱"
             }
           }
         ]
@@ -221,6 +223,35 @@
               "state": {},
               "icon": "lucide-calendar-check",
               "title": "日历"
+            }
+          },
+          {
+            "id": "d13459b6a1892859",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7debb3cb11287092",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000-箱的构造/主页.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           }
         ],
@@ -338,37 +369,39 @@
   },
   "active": "9aadaddd821e22fa",
   "lastOpenFiles": [
-    "000-箱的构造/Archives/国服海报墙.md",
+    "Drafts/codex-virtual-linker-probe.md",
     "000-箱的构造/主页.md",
-    "000-箱的构造/Archives/304-轶事.md",
-    "000-箱的构造/Archives/303-映像.md",
-    "000-箱的构造/Archives/302-支线.md",
-    "400-箱外世界/暴雨时间线.md",
-    "000-箱的构造/Archives/1.0 生者与余众.md",
-    "300-以影像之/301-主线/2.0 旅行归来｜The Journey Back/2.0 旅行归来｜The Journey Back.md",
-    "000-箱的构造/Archives/300-以影像之.md",
-    "000-箱的构造/Archives/200-相从心生.md",
-    "000-箱的构造/Archives/100-UTTU人物合辑.md",
+    "Drafts",
+    "600-箱中日历/2025-05-02.md",
+    "600-箱中日历/2025-03-14.md",
+    "600-箱中日历/2025-03-12.md",
+    "600-箱中日历/2024-10-17.md",
+    "600-箱中日历/2024-10-18.md",
+    "600-箱中日历/2024-10-16.md",
+    "600-箱中日历/2026-02-15.md",
+    "600-箱中日历/2026-05-29.md",
+    "600-箱中日历/2026-05-28.md",
+    "600-箱中日历/2026-05-27.md",
+    "600-箱中日历/2026-05-26.md",
+    "600-箱中日历/2026-05-25.md",
+    "600-箱中日历/2026-05-24.md",
+    "600-箱中日历/2026-05-23.md",
+    "600-箱中日历/2026-05-22.md",
+    "600-箱中日历/2026-05-21.md",
+    "600-箱中日历/2026-05-20.md",
+    "600-箱中日历/2026-05-19.md",
+    "600-箱中日历/2026-05-18.md",
+    "600-箱中日历/2026-05-17.md",
+    "600-箱中日历/2026-05-16.md",
+    "600-箱中日历/2026-05-15.md",
+    "600-箱中日历/2026-05-14.md",
+    "600-箱中日历/2026-05-13.md",
+    "000-箱的构造/script/fetchHuijiSigninCalendar.js",
     "000-箱的构造/Archives",
-    "000-箱的构造/Archives/国际服海报墙.md",
-    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/圣洛夫基金会｜St. PavlovFoundation.md",
-    "200-相从心生/角色心相/黎明将到来｜Dawn Is Coming.md",
-    "GEMINI.md",
-    "AGENTS.md",
-    "000-箱的构造/箱的构造教程/金句收藏一条龙工作流.md",
-    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/Z女士｜Madam Z.md",
-    "500-箱外阵营/圣洛夫基金会｜St. PavlovFoundation/哑谜｜Enigma.md",
-    "200-相从心生/普通心相/领航｜Navigating.md",
-    "000-箱的构造/箱的构造教程/自动化创建角色档案.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/芭卡洛儿｜Barcarola.md",
-    "500-箱外阵营/重塑之手｜Manus Vindictae/苏菲亚｜Sophia.md",
     "300-以影像之/300-以影像之.base",
     "200-相从心生/200-相从心生.base",
-    "200-相从心生/角色心相/沉默与向往｜Silent and Adoring.md",
     "200-相从心生/角色心相/assets/沉默与向往｜Silent and Adoring.assets/心相 沉默与向往.png",
     "100-UTTU人物合辑/100-UTTU人物合辑.base",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/程和光｜Cheng Heguang.md",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/37｜Thirty-seven.md",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛尔纱｜Marsha.assets/单品 玛尔纱 03.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛尔纱｜Marsha.assets/单品 玛尔纱 02.png",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/玛尔纱｜Marsha.assets/单品 玛尔纱 01.png",
@@ -381,8 +414,6 @@
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/贝丽尔｜Beryl.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/洛伦兹蝴蝶｜Lorentz Butterfly.assets",
     "100-UTTU人物合辑/神秘学家｜Arcanists/assets/程和光｜Cheng Heguang.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/灰调蓝｜Brume.assets",
-    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/鹭鸶剪｜Paper Heron.assets",
-    "100-UTTU人物合辑/神秘学家混血种｜Mixed/assets/伊戈尔｜Igor.assets"
+    "100-UTTU人物合辑/神秘学家｜Arcanists/assets/灰调蓝｜Brume.assets"
   ]
 }
